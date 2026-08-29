@@ -1,0 +1,2037 @@
+{
+  "problem": "spherical-code-on-s2",
+  "code": "P68",
+  "title": "球面码：最大化最小角距",
+  "titleEn": "Spherical codes: maximize the minimum angle",
+  "objective": "minimize",
+  "scoreLabel": "最大内积",
+  "scoreLabelEn": "largest inner product",
+  "verifierVersion": "1.0.0",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseName": "CC BY 4.0",
+  "source": "https://minmaxarena.com/problems/spherical-code-on-s2",
+  "generatedAt": "2026-08-29T11:42:00.002Z",
+  "instances": [
+    {
+      "instanceId": "p68-n15-v1",
+      "name": "S², n = 15",
+      "parameters": {
+        "n": 15
+      },
+      "objective": "minimize",
+      "scoreStored": "592605903917030326",
+      "scoreDisplay": "0.592605903917030326",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.592605903917030326",
+        "kind": "best",
+        "source": "three-dimensional spherical code from spherical-codes.org, maintained by Cohn; the published largest inner product is 0.592605902926. The same directions are rewritten in stereographic coordinates, whose exact nine-decimal-grid certificate has largest inner product 0.592605903917030326; optimality is open",
+        "url": "https://spherical-codes.org/data/3/15"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "points": [
+          [
+            "-0.255670075",
+            "0.250503051"
+          ],
+          [
+            "-1.035732795",
+            "-2.72841925"
+          ],
+          [
+            "1.333749458",
+            "-1.170296179"
+          ],
+          [
+            "-0.87046341",
+            "-0.668019204"
+          ],
+          [
+            "0.020895648",
+            "-1.030677834"
+          ],
+          [
+            "-0.346169237",
+            "0.914972383"
+          ],
+          [
+            "0.145811962",
+            "-0.020774562"
+          ],
+          [
+            "-0.917809756",
+            "0.25629851"
+          ],
+          [
+            "0.514733944",
+            "-0.427124905"
+          ],
+          [
+            "0.708472924",
+            "1.259087907"
+          ],
+          [
+            "5.180398737",
+            "2.670747344"
+          ],
+          [
+            "0.234191891",
+            "0.490973904"
+          ],
+          [
+            "-2.558435026",
+            "1.099428838"
+          ],
+          [
+            "1.062906728",
+            "0.150922665"
+          ],
+          [
+            "-0.27879473",
+            "-0.262260295"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p68-n16-v1",
+      "name": "S², n = 16",
+      "parameters": {
+        "n": 16
+      },
+      "objective": "minimize",
+      "scoreStored": "612294617317424783",
+      "scoreDisplay": "0.612294617317424783",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.612294617317424783",
+        "kind": "best",
+        "source": "three-dimensional spherical code from spherical-codes.org, maintained by Cohn; the published largest inner product is 0.612294616483. The same directions are rewritten in stereographic coordinates, whose exact nine-decimal-grid certificate has largest inner product 0.612294617317424783; optimality is open",
+        "url": "https://spherical-codes.org/data/3/16"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "points": [
+          [
+            "-1.027427996",
+            "-0.185092842"
+          ],
+          [
+            "-2.830056336",
+            "0.532839418"
+          ],
+          [
+            "1.107162711",
+            "0.678828528"
+          ],
+          [
+            "0.087677936",
+            "-0.078631494"
+          ],
+          [
+            "0.589289389",
+            "-4.179852284"
+          ],
+          [
+            "0.590550339",
+            "-0.228528253"
+          ],
+          [
+            "1.764361599",
+            "3.564630332"
+          ],
+          [
+            "0.348587324",
+            "-0.917472148"
+          ],
+          [
+            "-0.376977433",
+            "0.014142937"
+          ],
+          [
+            "-0.138965116",
+            "0.484240844"
+          ],
+          [
+            "-0.657545018",
+            "-1.196989082"
+          ],
+          [
+            "1.495367585",
+            "-0.644414646"
+          ],
+          [
+            "0.386145761",
+            "0.316985669"
+          ],
+          [
+            "-0.201429868",
+            "-0.48824756"
+          ],
+          [
+            "-0.829301596",
+            "0.748398432"
+          ],
+          [
+            "0.102084248",
+            "1.228922781"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p68-n17-v1",
+      "name": "S², n = 17",
+      "parameters": {
+        "n": 17
+      },
+      "objective": "minimize",
+      "scoreStored": "628094416306408328",
+      "scoreDisplay": "0.628094416306408328",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.628094416306408328",
+        "kind": "best",
+        "source": "three-dimensional spherical code from spherical-codes.org, maintained by Cohn; the published largest inner product is 0.628094415071. The same directions are rewritten in stereographic coordinates, whose exact nine-decimal-grid certificate has largest inner product 0.628094416306408328; optimality is open",
+        "url": "https://spherical-codes.org/data/3/17"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "points": [
+          [
+            "1.613867084",
+            "0.16982296"
+          ],
+          [
+            "-0.297641277",
+            "0.339514653"
+          ],
+          [
+            "1.285791769",
+            "-1.795949069"
+          ],
+          [
+            "0.19475145",
+            "0.61014071"
+          ],
+          [
+            "-0.756148878",
+            "-0.62255497"
+          ],
+          [
+            "5.997298522",
+            "4.760398165"
+          ],
+          [
+            "0.630843115",
+            "0.180117352"
+          ],
+          [
+            "-0.44935007",
+            "1.037316172"
+          ],
+          [
+            "-2.189054386",
+            "1.185218189"
+          ],
+          [
+            "0.739998012",
+            "-0.503341471"
+          ],
+          [
+            "0.132634044",
+            "-0.370080291"
+          ],
+          [
+            "0.710791292",
+            "1.421493498"
+          ],
+          [
+            "0.115658767",
+            "0.098266725"
+          ],
+          [
+            "-0.935049124",
+            "0.192551924"
+          ],
+          [
+            "-0.312181386",
+            "-0.161811653"
+          ],
+          [
+            "0.00899861",
+            "-1.020456536"
+          ],
+          [
+            "-1.681626114",
+            "-2.073048203"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p68-n18-v1",
+      "name": "S², n = 18",
+      "parameters": {
+        "n": 18
+      },
+      "objective": "minimize",
+      "scoreStored": "648695833340777714",
+      "scoreDisplay": "0.648695833340777714",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.648695833340777714",
+        "kind": "best",
+        "source": "three-dimensional spherical code from spherical-codes.org, maintained by Cohn; the published largest inner product is 0.648695832224. The same directions are rewritten in stereographic coordinates, whose exact nine-decimal-grid certificate has largest inner product 0.648695833340777714; optimality is open",
+        "url": "https://spherical-codes.org/data/3/18"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "points": [
+          [
+            "-0.244903843",
+            "0.660838019"
+          ],
+          [
+            "0.43409349",
+            "0.995047835"
+          ],
+          [
+            "0.522849228",
+            "-0.058433564"
+          ],
+          [
+            "-0.189526228",
+            "0.137178273"
+          ],
+          [
+            "-0.071447575",
+            "-0.743018329"
+          ],
+          [
+            "0.044466287",
+            "-1.825807796"
+          ],
+          [
+            "-1.860088356",
+            "0.302463243"
+          ],
+          [
+            "2.07895163",
+            "-1.002062967"
+          ],
+          [
+            "0.221964377",
+            "0.358169849"
+          ],
+          [
+            "1.875111302",
+            "2.267485734"
+          ],
+          [
+            "-0.436007098",
+            "-0.280302369"
+          ],
+          [
+            "-0.639672203",
+            "1.605392346"
+          ],
+          [
+            "-6.669275069",
+            "-6.725560797"
+          ],
+          [
+            "-0.733332732",
+            "0.236136382"
+          ],
+          [
+            "0.065543163",
+            "-0.223763197"
+          ],
+          [
+            "-0.96291234",
+            "-0.834349754"
+          ],
+          [
+            "1.14076812",
+            "0.342285816"
+          ],
+          [
+            "0.651237221",
+            "-0.701223197"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p68-n19-v1",
+      "name": "S², n = 19",
+      "parameters": {
+        "n": 19
+      },
+      "objective": "minimize",
+      "scoreStored": "673116888100906243",
+      "scoreDisplay": "0.673116888100906243",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.673116888100906243",
+        "kind": "best",
+        "source": "three-dimensional spherical code from spherical-codes.org, maintained by Cohn; the published largest inner product is 0.673116887561. The same directions are rewritten in stereographic coordinates, whose exact nine-decimal-grid certificate has largest inner product 0.673116888100906243; optimality is open",
+        "url": "https://spherical-codes.org/data/3/19"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "points": [
+          [
+            "0.756579634",
+            "1.354742989"
+          ],
+          [
+            "-0.419515351",
+            "-1.29020788"
+          ],
+          [
+            "0.067871747",
+            "-0.31070084"
+          ],
+          [
+            "0.319174793",
+            "0.57566778"
+          ],
+          [
+            "-0.577930557",
+            "4.750577121"
+          ],
+          [
+            "-0.402286676",
+            "-0.485016529"
+          ],
+          [
+            "0.953996774",
+            "0.315373107"
+          ],
+          [
+            "-1.17573874",
+            "-0.487402814"
+          ],
+          [
+            "2.518454571",
+            "0.331679324"
+          ],
+          [
+            "0.341822009",
+            "-0.802483866"
+          ],
+          [
+            "-0.254548348",
+            "-0.014530525"
+          ],
+          [
+            "1.084777061",
+            "-1.812267962"
+          ],
+          [
+            "0.55159864",
+            "-0.215373517"
+          ],
+          [
+            "-0.205016122",
+            "0.447909475"
+          ],
+          [
+            "-2.74373425",
+            "-2.400891625"
+          ],
+          [
+            "-1.637440896",
+            "0.789268624"
+          ],
+          [
+            "0.150368324",
+            "0.113014331"
+          ],
+          [
+            "-0.379319159",
+            "1.12560299"
+          ],
+          [
+            "-0.732336496",
+            "0.219471443"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p68-n20-v1",
+      "name": "S², n = 20",
+      "parameters": {
+        "n": 20
+      },
+      "objective": "minimize",
+      "scoreStored": "676477138764880265",
+      "scoreDisplay": "0.676477138764880265",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.676477138764880265",
+        "kind": "best",
+        "source": "three-dimensional spherical code from spherical-codes.org, maintained by Cohn; the published largest inner product is 0.676477138130. The same directions are rewritten in stereographic coordinates, whose exact nine-decimal-grid certificate has largest inner product 0.676477138764880265; optimality is open",
+        "url": "https://spherical-codes.org/data/3/20"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "points": [
+          [
+            "-0.221618509",
+            "0.024375529"
+          ],
+          [
+            "-0.209187495",
+            "-1.853306748"
+          ],
+          [
+            "3.447809139",
+            "1.106380876"
+          ],
+          [
+            "0.795618325",
+            "1.205313615"
+          ],
+          [
+            "-0.015699613",
+            "0.421348403"
+          ],
+          [
+            "-0.39821477",
+            "-0.751878446"
+          ],
+          [
+            "-0.667251552",
+            "2.648588729"
+          ],
+          [
+            "-0.208543277",
+            "1.021789171"
+          ],
+          [
+            "1.230313794",
+            "0.166289279"
+          ],
+          [
+            "-1.390600819",
+            "-0.774387742"
+          ],
+          [
+            "-0.542490917",
+            "0.404667021"
+          ],
+          [
+            "-5.784144109",
+            "-3.474992804"
+          ],
+          [
+            "1.354517136",
+            "-1.126656654"
+          ],
+          [
+            "-0.686432566",
+            "-0.172655579"
+          ],
+          [
+            "0.198645433",
+            "0.031120077"
+          ],
+          [
+            "-0.003342859",
+            "-0.354425471"
+          ],
+          [
+            "0.505486866",
+            "0.413044874"
+          ],
+          [
+            "0.303487146",
+            "-0.836079812"
+          ],
+          [
+            "0.593159414",
+            "-0.260897592"
+          ],
+          [
+            "-1.412601671",
+            "0.621324328"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p68-n21-v1",
+      "name": "S², n = 21",
+      "parameters": {
+        "n": 21
+      },
+      "objective": "minimize",
+      "scoreStored": "699498431941467854",
+      "scoreDisplay": "0.699498431941467854",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.699498431941467854",
+        "kind": "best",
+        "source": "three-dimensional spherical code from spherical-codes.org, maintained by Cohn; the published largest inner product is 0.699498431067. The same directions are rewritten in stereographic coordinates, whose exact nine-decimal-grid certificate has largest inner product 0.699498431941467854; optimality is open",
+        "url": "https://spherical-codes.org/data/3/21"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "points": [
+          [
+            "-0.610126557",
+            "-0.283589271"
+          ],
+          [
+            "-0.455807291",
+            "-0.941972469"
+          ],
+          [
+            "-0.364936312",
+            "0.875098357"
+          ],
+          [
+            "-0.226562022",
+            "0.003378159"
+          ],
+          [
+            "0.352990333",
+            "-0.369297114"
+          ],
+          [
+            "-0.618642256",
+            "0.281199844"
+          ],
+          [
+            "1.295903616",
+            "0.64747127"
+          ],
+          [
+            "0.573791655",
+            "0.281140202"
+          ],
+          [
+            "-4.727253253",
+            "0.237053709"
+          ],
+          [
+            "1.650385358",
+            "-1.286676044"
+          ],
+          [
+            "-1.334768336",
+            "0.753069074"
+          ],
+          [
+            "0.175927114",
+            "0.035944775"
+          ],
+          [
+            "0.948783462",
+            "-0.242177331"
+          ],
+          [
+            "4.193585352",
+            "2.290061358"
+          ],
+          [
+            "-0.051436949",
+            "0.39346747"
+          ],
+          [
+            "-0.366788544",
+            "2.162936955"
+          ],
+          [
+            "0.378144443",
+            "0.890555349"
+          ],
+          [
+            "-0.119709539",
+            "-0.428129737"
+          ],
+          [
+            "-1.409618259",
+            "-0.575067434"
+          ],
+          [
+            "-0.466335075",
+            "-2.448974192"
+          ],
+          [
+            "0.363507115",
+            "-1.006830662"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p68-n22-v1",
+      "name": "S², n = 22",
+      "parameters": {
+        "n": 22
+      },
+      "objective": "minimize",
+      "scoreStored": "710306259356231474",
+      "scoreDisplay": "0.710306259356231474",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.710306259356231474",
+        "kind": "best",
+        "source": "three-dimensional spherical code from spherical-codes.org, maintained by Cohn; the published largest inner product is 0.710306258580. The same directions are rewritten in stereographic coordinates, whose exact nine-decimal-grid certificate has largest inner product 0.710306259356231474; optimality is open",
+        "url": "https://spherical-codes.org/data/3/22"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "points": [
+          [
+            "1.263910561",
+            "0.90504528"
+          ],
+          [
+            "-0.508633622",
+            "-0.127015001"
+          ],
+          [
+            "-0.804846046",
+            "-1.502005105"
+          ],
+          [
+            "-0.825075969",
+            "0.356389594"
+          ],
+          [
+            "0.32588989",
+            "-0.08606792"
+          ],
+          [
+            "0.666098277",
+            "-0.478593531"
+          ],
+          [
+            "1.231036675",
+            "-2.756059999"
+          ],
+          [
+            "0.121751086",
+            "1.811198539"
+          ],
+          [
+            "0.116554864",
+            "-0.48260569"
+          ],
+          [
+            "-4.362000476",
+            "-1.533655479"
+          ],
+          [
+            "0.341458129",
+            "0.792689986"
+          ],
+          [
+            "-0.281281731",
+            "0.274895184"
+          ],
+          [
+            "-1.522972592",
+            "1.243556743"
+          ],
+          [
+            "0.149224177",
+            "0.298744108"
+          ],
+          [
+            "-0.336674074",
+            "0.847273645"
+          ],
+          [
+            "4.476047946",
+            "3.122476827"
+          ],
+          [
+            "0.787975811",
+            "0.139972343"
+          ],
+          [
+            "-0.389209291",
+            "-0.653549937"
+          ],
+          [
+            "-1.126780167",
+            "-0.379070823"
+          ],
+          [
+            "1.627297079",
+            "-0.422180059"
+          ],
+          [
+            "0.266583651",
+            "-1.109655632"
+          ],
+          [
+            "-0.078340805",
+            "-0.083228802"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p68-n23-v1",
+      "name": "S², n = 23",
+      "parameters": {
+        "n": 23
+      },
+      "objective": "minimize",
+      "scoreStored": "722846985955273360",
+      "scoreDisplay": "0.72284698595527336",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.72284698595527336",
+        "kind": "best",
+        "source": "three-dimensional spherical code from spherical-codes.org, maintained by Cohn; the published largest inner product is 0.722846984869. The same directions are rewritten in stereographic coordinates, whose exact nine-decimal-grid certificate has largest inner product 0.72284698595527336; optimality is open",
+        "url": "https://spherical-codes.org/data/3/23"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "points": [
+          [
+            "-0.712783779",
+            "-0.721787813"
+          ],
+          [
+            "0.066690083",
+            "-0.120430524"
+          ],
+          [
+            "-0.319568911",
+            "-0.038938284"
+          ],
+          [
+            "-0.467487957",
+            "0.395056739"
+          ],
+          [
+            "-0.016492598",
+            "-1.021594425"
+          ],
+          [
+            "-1.757559428",
+            "-0.400435392"
+          ],
+          [
+            "-0.18650287",
+            "-0.453708628"
+          ],
+          [
+            "-0.84510123",
+            "-1.968321327"
+          ],
+          [
+            "-0.78985315",
+            "2.289093788"
+          ],
+          [
+            "2.901330026",
+            "2.216354149"
+          ],
+          [
+            "-0.040192762",
+            "0.252399512"
+          ],
+          [
+            "0.819845449",
+            "-0.915093748"
+          ],
+          [
+            "-0.827415416",
+            "-0.042781446"
+          ],
+          [
+            "0.60680104",
+            "1.304514191"
+          ],
+          [
+            "0.289778383",
+            "-0.491017995"
+          ],
+          [
+            "0.478515267",
+            "-0.054449624"
+          ],
+          [
+            "2.07518078",
+            "-2.450741125"
+          ],
+          [
+            "0.249522104",
+            "0.609887352"
+          ],
+          [
+            "-1.122844505",
+            "0.704359511"
+          ],
+          [
+            "-0.273629802",
+            "0.989891703"
+          ],
+          [
+            "1.606179873",
+            "-0.120333883"
+          ],
+          [
+            "0.808079224",
+            "0.392657368"
+          ],
+          [
+            "-7.842548326",
+            "-1.147772588"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p68-n25-v1",
+      "name": "S², n = 25",
+      "parameters": {
+        "n": 25
+      },
+      "objective": "minimize",
+      "scoreStored": "747398629631187568",
+      "scoreDisplay": "0.747398629631187568",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.747398629631187568",
+        "kind": "best",
+        "source": "three-dimensional spherical code from spherical-codes.org, maintained by Cohn; the published largest inner product is 0.747398628578. The same directions are rewritten in stereographic coordinates, whose exact nine-decimal-grid certificate has largest inner product 0.747398629631187568; optimality is open",
+        "url": "https://spherical-codes.org/data/3/25"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "points": [
+          [
+            "-0.502791497",
+            "-0.603355184"
+          ],
+          [
+            "-0.475585273",
+            "4.903834353"
+          ],
+          [
+            "0.531102381",
+            "0.088799781"
+          ],
+          [
+            "-3.270246133",
+            "-3.820735646"
+          ],
+          [
+            "0.309641841",
+            "-1.246633904"
+          ],
+          [
+            "1.141924245",
+            "0.173483804"
+          ],
+          [
+            "0.025394664",
+            "0.90294306"
+          ],
+          [
+            "1.769087076",
+            "-2.099860777"
+          ],
+          [
+            "2.583569098",
+            "0.774217173"
+          ],
+          [
+            "-0.192547023",
+            "-0.24577688"
+          ],
+          [
+            "-2.234777053",
+            "0.705330951"
+          ],
+          [
+            "-0.776524574",
+            "-1.417401672"
+          ],
+          [
+            "0.58374198",
+            "0.615472066"
+          ],
+          [
+            "0.029719045",
+            "-0.624432406"
+          ],
+          [
+            "1.004120669",
+            "-0.665272269"
+          ],
+          [
+            "-0.157690691",
+            "0.132756235"
+          ],
+          [
+            "-0.967238735",
+            "0.385597058"
+          ],
+          [
+            "0.437514201",
+            "-0.366419119"
+          ],
+          [
+            "-1.210447701",
+            "-0.410771424"
+          ],
+          [
+            "-0.595934388",
+            "-0.084219129"
+          ],
+          [
+            "0.152150332",
+            "-0.065429395"
+          ],
+          [
+            "-0.373323895",
+            "0.502593072"
+          ],
+          [
+            "-0.684205493",
+            "1.485381788"
+          ],
+          [
+            "0.712173924",
+            "1.560757977"
+          ],
+          [
+            "0.174921464",
+            "0.331613601"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p68-n26-v1",
+      "name": "S², n = 26",
+      "parameters": {
+        "n": 26
+      },
+      "objective": "minimize",
+      "scoreStored": "754278177789361401",
+      "scoreDisplay": "0.754278177789361401",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.754278177789361401",
+        "kind": "best",
+        "source": "three-dimensional spherical code from spherical-codes.org, maintained by Cohn; the published largest inner product is 0.754278177121. The same directions are rewritten in stereographic coordinates, whose exact nine-decimal-grid certificate has largest inner product 0.754278177789361401; optimality is open",
+        "url": "https://spherical-codes.org/data/3/26"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "points": [
+          [
+            "-0.73523215",
+            "0.625968479"
+          ],
+          [
+            "1.154761495",
+            "0.349756024"
+          ],
+          [
+            "-0.227270934",
+            "0.434810617"
+          ],
+          [
+            "0.22700984",
+            "2.039512248"
+          ],
+          [
+            "0.106400607",
+            "0.211940127"
+          ],
+          [
+            "2.49300772",
+            "1.293699587"
+          ],
+          [
+            "-1.34375952",
+            "0.080663955"
+          ],
+          [
+            "0.514280633",
+            "0.314854471"
+          ],
+          [
+            "0.795684255",
+            "-0.271585063"
+          ],
+          [
+            "-1.528051062",
+            "1.432401767"
+          ],
+          [
+            "-0.217339356",
+            "0.035154167"
+          ],
+          [
+            "0.004375222",
+            "-0.262385524"
+          ],
+          [
+            "-5.685265086",
+            "9.332652938"
+          ],
+          [
+            "0.346299359",
+            "-0.085953156"
+          ],
+          [
+            "1.644493562",
+            "-0.653612612"
+          ],
+          [
+            "0.575754695",
+            "0.914309468"
+          ],
+          [
+            "-0.147270938",
+            "0.978111827"
+          ],
+          [
+            "-0.644359276",
+            "0.052907698"
+          ],
+          [
+            "-0.396209878",
+            "-0.34852667"
+          ],
+          [
+            "0.327208011",
+            "-0.545699408"
+          ],
+          [
+            "1.462185693",
+            "-3.34283847"
+          ],
+          [
+            "-0.14606472",
+            "-0.79154119"
+          ],
+          [
+            "-0.461028926",
+            "-1.611225452"
+          ],
+          [
+            "-2.396589989",
+            "-1.244832622"
+          ],
+          [
+            "-0.892061785",
+            "-0.67822284"
+          ],
+          [
+            "0.588728074",
+            "-1.182736229"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p68-n27-v1",
+      "name": "S², n = 27",
+      "parameters": {
+        "n": 27
+      },
+      "objective": "minimize",
+      "scoreStored": "758389211722986307",
+      "scoreDisplay": "0.758389211722986307",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.758389211722986307",
+        "kind": "best",
+        "source": "three-dimensional spherical code from spherical-codes.org, maintained by Cohn; the published largest inner product is 0.758389210777. The same directions are rewritten in stereographic coordinates, whose exact nine-decimal-grid certificate has largest inner product 0.758389211722986307; optimality is open",
+        "url": "https://spherical-codes.org/data/3/27"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "points": [
+          [
+            "0.80821234",
+            "-2.632874191"
+          ],
+          [
+            "3.272032412",
+            "-0.163405091"
+          ],
+          [
+            "-0.488420509",
+            "-0.773791504"
+          ],
+          [
+            "0.584709053",
+            "0.926806531"
+          ],
+          [
+            "-2.27307747",
+            "-0.061369808"
+          ],
+          [
+            "-1.403821818",
+            "2.161948824"
+          ],
+          [
+            "0.155928234",
+            "0.170338154"
+          ],
+          [
+            "1.237632048",
+            "-0.84773647"
+          ],
+          [
+            "-0.21452316",
+            "0.184472655"
+          ],
+          [
+            "-0.645074305",
+            "0.140200495"
+          ],
+          [
+            "0.478997763",
+            "-0.61333531"
+          ],
+          [
+            "0.335245826",
+            "-0.165646775"
+          ],
+          [
+            "-1.079902986",
+            "0.650045128"
+          ],
+          [
+            "-15.763511317",
+            "-4.204983029"
+          ],
+          [
+            "-0.038184034",
+            "-0.134810793"
+          ],
+          [
+            "0.817473114",
+            "-0.149647893"
+          ],
+          [
+            "-0.397028731",
+            "0.588017936"
+          ],
+          [
+            "1.321713747",
+            "0.438629287"
+          ],
+          [
+            "-0.408216903",
+            "-0.256914839"
+          ],
+          [
+            "-1.141618465",
+            "-1.567444613"
+          ],
+          [
+            "-0.013036362",
+            "-0.531499703"
+          ],
+          [
+            "0.552882956",
+            "0.316288266"
+          ],
+          [
+            "-1.030082993",
+            "-0.33847661"
+          ],
+          [
+            "-0.180133622",
+            "1.233686905"
+          ],
+          [
+            "0.097309571",
+            "0.57999985"
+          ],
+          [
+            "0.11440886",
+            "-1.198186373"
+          ],
+          [
+            "1.14662624",
+            "2.174591499"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p68-n28-v1",
+      "name": "S², n = 28",
+      "parameters": {
+        "n": 28
+      },
+      "objective": "minimize",
+      "scoreStored": "773230263147002607",
+      "scoreDisplay": "0.773230263147002607",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.773230263147002607",
+        "kind": "best",
+        "source": "three-dimensional spherical code from spherical-codes.org, maintained by Cohn; the published largest inner product is 0.773230262338. The same directions are rewritten in stereographic coordinates, whose exact nine-decimal-grid certificate has largest inner product 0.773230263147002607; optimality is open",
+        "url": "https://spherical-codes.org/data/3/28"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "points": [
+          [
+            "0.657426443",
+            "-0.832468035"
+          ],
+          [
+            "-0.075469217",
+            "0.104568612"
+          ],
+          [
+            "-0.345603087",
+            "-0.13672163"
+          ],
+          [
+            "-0.432498828",
+            "0.754146136"
+          ],
+          [
+            "0.109799785",
+            "-0.631946659"
+          ],
+          [
+            "-4.044396548",
+            "1.365697339"
+          ],
+          [
+            "0.765563054",
+            "0.851157841"
+          ],
+          [
+            "-0.005023026",
+            "-1.267530369"
+          ],
+          [
+            "0.055569022",
+            "1.299954403"
+          ],
+          [
+            "8.486072706",
+            "-2.217805963"
+          ],
+          [
+            "0.429662497",
+            "3.049724763"
+          ],
+          [
+            "0.010419964",
+            "-0.233340019"
+          ],
+          [
+            "-0.422336329",
+            "0.256561312"
+          ],
+          [
+            "0.264996974",
+            "0.018049863"
+          ],
+          [
+            "0.861977504",
+            "0.176265166"
+          ],
+          [
+            "-0.370030463",
+            "-0.570440766"
+          ],
+          [
+            "2.003817571",
+            "0.926947213"
+          ],
+          [
+            "0.396811387",
+            "0.39495385"
+          ],
+          [
+            "-1.654573122",
+            "-0.231816325"
+          ],
+          [
+            "-0.885230629",
+            "-1.021255828"
+          ],
+          [
+            "-0.79900424",
+            "-0.256516102"
+          ],
+          [
+            "1.158220132",
+            "-1.935063828"
+          ],
+          [
+            "0.565748133",
+            "-0.26137231"
+          ],
+          [
+            "1.414356864",
+            "-0.398506897"
+          ],
+          [
+            "-0.022894791",
+            "0.477140266"
+          ],
+          [
+            "-0.944382525",
+            "0.376267955"
+          ],
+          [
+            "-1.05750372",
+            "1.405621763"
+          ],
+          [
+            "-1.462729248",
+            "-2.814657195"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p68-n29-v1",
+      "name": "S², n = 29",
+      "parameters": {
+        "n": 29
+      },
+      "objective": "minimize",
+      "scoreStored": "780281416834226978",
+      "scoreDisplay": "0.780281416834226978",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.780281416834226978",
+        "kind": "best",
+        "source": "three-dimensional spherical code from spherical-codes.org, maintained by Cohn; the published largest inner product is 0.780281415949. The same directions are rewritten in stereographic coordinates, whose exact nine-decimal-grid certificate has largest inner product 0.780281416834226978; optimality is open",
+        "url": "https://spherical-codes.org/data/3/29"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "points": [
+          [
+            "1.293566201",
+            "-2.573190707"
+          ],
+          [
+            "-0.117162439",
+            "0.259137746"
+          ],
+          [
+            "16.312090372",
+            "8.150242968"
+          ],
+          [
+            "0.104584013",
+            "0.595201818"
+          ],
+          [
+            "2.467550248",
+            "-0.147813418"
+          ],
+          [
+            "0.190492057",
+            "-0.881344436"
+          ],
+          [
+            "-0.304212943",
+            "-1.555952438"
+          ],
+          [
+            "-1.111082038",
+            "-0.853882515"
+          ],
+          [
+            "-0.989714004",
+            "0.614201045"
+          ],
+          [
+            "-0.459393749",
+            "-0.26496714"
+          ],
+          [
+            "0.404136064",
+            "1.116434825"
+          ],
+          [
+            "-0.368444471",
+            "0.596798579"
+          ],
+          [
+            "0.580993749",
+            "0.494002398"
+          ],
+          [
+            "-1.97617088",
+            "0.068175748"
+          ],
+          [
+            "0.59208683",
+            "0.009690782"
+          ],
+          [
+            "-0.944240056",
+            "-0.085501407"
+          ],
+          [
+            "-2.284799243",
+            "-2.514587244"
+          ],
+          [
+            "-0.445121646",
+            "1.27177372"
+          ],
+          [
+            "-0.375280888",
+            "-0.746593916"
+          ],
+          [
+            "0.241767783",
+            "0.212211465"
+          ],
+          [
+            "1.152809026",
+            "0.202740493"
+          ],
+          [
+            "1.46677929",
+            "1.975855622"
+          ],
+          [
+            "0.535377132",
+            "-0.458110092"
+          ],
+          [
+            "-0.122979558",
+            "-0.089366245"
+          ],
+          [
+            "-0.490737421",
+            "0.15585532"
+          ],
+          [
+            "-0.016605638",
+            "-0.43988379"
+          ],
+          [
+            "-1.804792132",
+            "2.369191347"
+          ],
+          [
+            "1.11618775",
+            "-0.844179832"
+          ],
+          [
+            "0.224179837",
+            "-0.149812094"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p68-n30-v1",
+      "name": "S², n = 30",
+      "parameters": {
+        "n": 30
+      },
+      "objective": "minimize",
+      "scoreStored": "781551875763660801",
+      "scoreDisplay": "0.781551875763660801",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.781551875763660801",
+        "kind": "best",
+        "source": "three-dimensional spherical code from spherical-codes.org, maintained by Cohn; the published largest inner product is 0.781551875095. The same directions are rewritten in stereographic coordinates, whose exact nine-decimal-grid certificate has largest inner product 0.781551875763660801; optimality is open",
+        "url": "https://spherical-codes.org/data/3/30"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "points": [
+          [
+            "-1.164884902",
+            "-0.929381456"
+          ],
+          [
+            "0.125689429",
+            "0.62336538"
+          ],
+          [
+            "-1.726519743",
+            "-2.981919621"
+          ],
+          [
+            "-0.424425609",
+            "-0.714200128"
+          ],
+          [
+            "-0.765196019",
+            "-0.27740502"
+          ],
+          [
+            "-0.24752186",
+            "-1.462023758"
+          ],
+          [
+            "0.121348146",
+            "-0.79798675"
+          ],
+          [
+            "0.54730047",
+            "1.065939365"
+          ],
+          [
+            "-0.225464339",
+            "1.093949562"
+          ],
+          [
+            "0.567395046",
+            "0.43262722"
+          ],
+          [
+            "0.200074887",
+            "0.221466257"
+          ],
+          [
+            "1.242394115",
+            "0.544111915"
+          ],
+          [
+            "-2.375114781",
+            "0.004198688"
+          ],
+          [
+            "1.468745936",
+            "-0.451480068"
+          ],
+          [
+            "-0.048004433",
+            "-0.018796601"
+          ],
+          [
+            "-1.211896431",
+            "1.277762282"
+          ],
+          [
+            "-0.153057405",
+            "0.315817851"
+          ],
+          [
+            "-5.628348237",
+            "6.927376424"
+          ],
+          [
+            "0.121816159",
+            "2.278364986"
+          ],
+          [
+            "0.564254457",
+            "-0.502648198"
+          ],
+          [
+            "-0.305558723",
+            "-0.26610166"
+          ],
+          [
+            "-0.471469512",
+            "0.093057775"
+          ],
+          [
+            "0.735998207",
+            "-1.195761305"
+          ],
+          [
+            "0.811799386",
+            "-0.029833459"
+          ],
+          [
+            "-1.098579846",
+            "0.273173106"
+          ],
+          [
+            "2.847585494",
+            "1.532463469"
+          ],
+          [
+            "0.35792743",
+            "-0.111324353"
+          ],
+          [
+            "0.069087992",
+            "-0.350078967"
+          ],
+          [
+            "-0.534016332",
+            "0.550980916"
+          ],
+          [
+            "2.391015456",
+            "-2.368353825"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p68-n31-v1",
+      "name": "S², n = 31",
+      "parameters": {
+        "n": 31
+      },
+      "objective": "minimize",
+      "scoreStored": "791118613964637913",
+      "scoreDisplay": "0.791118613964637913",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.791118613964637913",
+        "kind": "best",
+        "source": "three-dimensional spherical code from spherical-codes.org, maintained by Cohn; the published largest inner product is 0.791118613299. The same directions are rewritten in stereographic coordinates, whose exact nine-decimal-grid certificate has largest inner product 0.791118613964637913; optimality is open",
+        "url": "https://spherical-codes.org/data/3/31"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "points": [
+          [
+            "1.542783686",
+            "2.579165651"
+          ],
+          [
+            "-0.037392038",
+            "-1.077812381"
+          ],
+          [
+            "-2.531483259",
+            "-3.231556942"
+          ],
+          [
+            "-1.355402856",
+            "1.015904003"
+          ],
+          [
+            "1.593511866",
+            "-0.944489326"
+          ],
+          [
+            "-0.945014692",
+            "-0.423313084"
+          ],
+          [
+            "0.050461599",
+            "-0.543489606"
+          ],
+          [
+            "0.846151623",
+            "0.321636164"
+          ],
+          [
+            "0.922717663",
+            "-0.278975405"
+          ],
+          [
+            "0.446101323",
+            "0.059949408"
+          ],
+          [
+            "0.106409686",
+            "0.898033365"
+          ],
+          [
+            "0.12787302",
+            "-0.106839708"
+          ],
+          [
+            "-0.431580887",
+            "0.320448747"
+          ],
+          [
+            "-0.133933932",
+            "0.097471465"
+          ],
+          [
+            "-0.493938874",
+            "0.825795882"
+          ],
+          [
+            "-0.187379213",
+            "-0.24081955"
+          ],
+          [
+            "-0.538542828",
+            "-0.083481142"
+          ],
+          [
+            "0.814561106",
+            "1.04438833"
+          ],
+          [
+            "-0.049623116",
+            "0.446556947"
+          ],
+          [
+            "0.416689083",
+            "-0.341541107"
+          ],
+          [
+            "0.360731097",
+            "0.461738749"
+          ],
+          [
+            "-0.288817916",
+            "1.693316209"
+          ],
+          [
+            "1.765919237",
+            "0.460711188"
+          ],
+          [
+            "-1.96340368",
+            "-0.256412182"
+          ],
+          [
+            "-0.94868091",
+            "0.226535622"
+          ],
+          [
+            "-0.400574746",
+            "-0.613744255"
+          ],
+          [
+            "0.612516656",
+            "-0.850460688"
+          ],
+          [
+            "0.463720315",
+            "-2.076601318"
+          ],
+          [
+            "5.473217433",
+            "-2.04212779"
+          ],
+          [
+            "-0.896442554",
+            "-1.287442474"
+          ],
+          [
+            "-3.375798485",
+            "3.357241791"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p68-n32-v1",
+      "name": "S², n = 32",
+      "parameters": {
+        "n": 32
+      },
+      "objective": "minimize",
+      "scoreStored": "793616615466546398",
+      "scoreDisplay": "0.793616615466546398",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.793616615466546398",
+        "kind": "best",
+        "source": "three-dimensional spherical code from spherical-codes.org, maintained by Cohn; the published largest inner product is 0.793616614872. The same directions are rewritten in stereographic coordinates, whose exact nine-decimal-grid certificate has largest inner product 0.793616615466546398; optimality is open",
+        "url": "https://spherical-codes.org/data/3/32"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "points": [
+          [
+            "-0.363146454",
+            "-0.47871611"
+          ],
+          [
+            "-1.317013042",
+            "1.853843133"
+          ],
+          [
+            "1.094924504",
+            "1.296314458"
+          ],
+          [
+            "0.157044246",
+            "-1.299329666"
+          ],
+          [
+            "-0.123502995",
+            "0.736751725"
+          ],
+          [
+            "0.332180875",
+            "-0.350959105"
+          ],
+          [
+            "4.082683793",
+            "-5.762628966"
+          ],
+          [
+            "1.248517504",
+            "-0.321258419"
+          ],
+          [
+            "-0.096949462",
+            "0.052099345"
+          ],
+          [
+            "-0.745199418",
+            "0.232253064"
+          ],
+          [
+            "0.451240317",
+            "0.304629587"
+          ],
+          [
+            "-1.564756828",
+            "-0.761676369"
+          ],
+          [
+            "2.532000491",
+            "0.324838393"
+          ],
+          [
+            "-0.309470306",
+            "0.336944199"
+          ],
+          [
+            "0.045409497",
+            "-0.671420951"
+          ],
+          [
+            "1.44272428",
+            "4.091871413"
+          ],
+          [
+            "0.665480153",
+            "-0.080057647"
+          ],
+          [
+            "-0.030657",
+            "-0.276754227"
+          ],
+          [
+            "-0.823336327",
+            "-2.283145219"
+          ],
+          [
+            "0.974825946",
+            "0.387283017"
+          ],
+          [
+            "-0.71040327",
+            "0.83622507"
+          ],
+          [
+            "-1.466098453",
+            "0.408305896"
+          ],
+          [
+            "0.065650101",
+            "0.354749141"
+          ],
+          [
+            "-0.602094197",
+            "-1.003894114"
+          ],
+          [
+            "0.411283712",
+            "0.793566922"
+          ],
+          [
+            "-0.833307032",
+            "-0.305432235"
+          ],
+          [
+            "0.001976071",
+            "1.422630794"
+          ],
+          [
+            "0.230733549",
+            "0.000855862"
+          ],
+          [
+            "1.318620968",
+            "-1.484263578"
+          ],
+          [
+            "-0.425111358",
+            "-0.075248755"
+          ],
+          [
+            "-4.333943832",
+            "-0.016075929"
+          ],
+          [
+            "0.645377439",
+            "-0.740955517"
+          ]
+        ]
+      }
+    }
+  ]
+}

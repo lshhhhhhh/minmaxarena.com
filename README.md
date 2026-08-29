@@ -37,7 +37,7 @@ managed.
 
 ## The records
 
-43 problem families, 759 sub-problems, 679 still open.
+46 problem families, 866 sub-problems, 786 still open.
 `records/` holds today's snapshot of each family; the live files are at
 `https://minmaxarena.com/data/{slug}.json`, and the citable ones are the monthly frozen
 editions at `https://minmaxarena.com/data/editions/{YYYY-MM}/{slug}.json`, which never change
@@ -75,7 +75,7 @@ once published. Data is CC BY 4.0; see
 | [P32](https://minmaxarena.com/en/problems/heilbronn-in-a-quadrant) | The smallest triangle in a quadrant | 10 | 10 | [json](records/heilbronn-in-a-quadrant.json) |
 | [P33](https://minmaxarena.com/en/problems/riesz-energy-in-a-square) | Riesz 2-energy in a square | 20 | 20 | [json](records/riesz-energy-in-a-square.json) |
 | [P34](https://minmaxarena.com/en/problems/riesz-energy-in-a-disc) | Riesz 2-energy in a disc | 16 | 16 | [json](records/riesz-energy-in-a-disc.json) |
-| [P51](https://minmaxarena.com/en/problems/lights-in-a-square) | Lighting a unit square | 19 | 19 | [json](records/lights-in-a-square.json) |
+| [P51](https://minmaxarena.com/en/problems/lights-in-a-square) | Lighting a unit square | 34 | 34 | [json](records/lights-in-a-square.json) |
 | [P52](https://minmaxarena.com/en/problems/min-distance-ratio) | Smallest ratio of largest to smallest distance | 20 | 20 | [json](records/min-distance-ratio.json) |
 | [P53](https://minmaxarena.com/en/problems/biggest-little-polygon) | The biggest little polygon | 13 | 9 | [json](records/biggest-little-polygon.json) |
 | [P54](https://minmaxarena.com/en/problems/star-discrepancy) | Minimum star discrepancy in the unit square | 29 | 29 | [json](records/star-discrepancy.json) |
@@ -90,6 +90,9 @@ once published. Data is CC BY 4.0; see
 | [P63](https://minmaxarena.com/en/problems/torus-quadrature) | Optimal quadrature points on the torus | 12 | 12 | [json](records/torus-quadrature.json) |
 | [P64](https://minmaxarena.com/en/problems/subspace-packing) | The most separated family of subspaces | 16 | 16 | [json](records/subspace-packing.json) |
 | [P65](https://minmaxarena.com/en/problems/erasure-frames) | The most erasure-robust measurement directions | 11 | 11 | [json](records/erasure-frames.json) |
+| [P66](https://minmaxarena.com/en/problems/unit-circles-in-minimum-area-triangle) | Unit circles in a minimum-area triangle | 47 | 47 | [json](records/unit-circles-in-minimum-area-triangle.json) |
+| [P67](https://minmaxarena.com/en/problems/variable-circles-in-fixed-perimeter-rectangle) | Variable-radius circles in a fixed-perimeter rectangle | 28 | 28 | [json](records/variable-circles-in-fixed-perimeter-rectangle.json) |
+| [P68](https://minmaxarena.com/en/problems/spherical-code-on-s2) | Spherical codes: maximize the minimum angle | 17 | 17 | [json](records/spherical-code-on-s2.json) |
 <!-- records:end -->
 
 ## Problems the catalogue no longer offers

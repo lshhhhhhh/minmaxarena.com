@@ -1,0 +1,6945 @@
+{
+  "problem": "unit-circles-in-minimum-area-triangle",
+  "code": "P66",
+  "title": "最小面积三角形内的单位圆装箱",
+  "titleEn": "Unit circles in a minimum-area triangle",
+  "objective": "minimize",
+  "scoreLabel": "三角形面积的两倍",
+  "scoreLabelEn": "twice the triangle area",
+  "verifierVersion": "1.0.0",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseName": "CC BY 4.0",
+  "source": "https://minmaxarena.com/problems/unit-circles-in-minimum-area-triangle",
+  "generatedAt": "2026-08-29T11:41:59.895Z",
+  "instances": [
+    {
+      "instanceId": "p66-n4-v1",
+      "name": "n = 4",
+      "parameters": {
+        "n": 4
+      },
+      "objective": "minimize",
+      "scoreStored": "38784609766389323972",
+      "scoreDisplay": "19.392304883194661986",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "38.784609766389323972",
+        "kind": "best",
+        "exact": "9 + 6√3",
+        "source": "David W. Cantrell configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
+        "url": "https://erich-friedman.github.io/packing/cirinttt/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "centers": [
+          [
+            "1.000000001",
+            "1.000000001"
+          ],
+          [
+            "4.464101620",
+            "1.000000001"
+          ],
+          [
+            "2.732050810",
+            "2.000000002"
+          ],
+          [
+            "1.000000001",
+            "3.000000003"
+          ]
+        ],
+        "triangle": [
+          [
+            "0.000000000",
+            "0.000000000"
+          ],
+          [
+            "8.196152431",
+            "0.000000000"
+          ],
+          [
+            "0.000000000",
+            "4.732050812"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p66-n5-v1",
+      "name": "n = 5",
+      "parameters": {
+        "n": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "48248711332902014688",
+      "scoreDisplay": "24.124355666451007344",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "48.248711332902014688",
+        "kind": "best",
+        "exact": "12 + 7√3",
+        "source": "Friedman's current table says the best known construction for this row is equilateral; the standard triangular-lattice construction is generated and verified exactly on the nine-decimal grid here",
+        "url": "https://erich-friedman.github.io/packing/cirinttt/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "centers": [
+          [
+            "1.732050808",
+            "1.000000000"
+          ],
+          [
+            "3.732050808",
+            "1.000000000"
+          ],
+          [
+            "5.732050808",
+            "1.000000000"
+          ],
+          [
+            "2.732050808",
+            "2.732050808"
+          ],
+          [
+            "4.732050808",
+            "2.732050808"
+          ]
+        ],
+        "triangle": [
+          [
+            "0.000000000",
+            "0.000000000"
+          ],
+          [
+            "7.464101616",
+            "0.000000000"
+          ],
+          [
+            "3.732050808",
+            "6.464101618"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p66-n6-v1",
+      "name": "n = 6",
+      "parameters": {
+        "n": 6
+      },
+      "objective": "minimize",
+      "scoreStored": "48248711332902014688",
+      "scoreDisplay": "24.124355666451007344",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "48.248711332902014688",
+        "kind": "best",
+        "exact": "12 + 7√3",
+        "source": "Friedman's current table says the best known construction for this row is equilateral; the standard triangular-lattice construction is generated and verified exactly on the nine-decimal grid here",
+        "url": "https://erich-friedman.github.io/packing/cirinttt/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "centers": [
+          [
+            "1.732050808",
+            "1.000000000"
+          ],
+          [
+            "3.732050808",
+            "1.000000000"
+          ],
+          [
+            "5.732050808",
+            "1.000000000"
+          ],
+          [
+            "2.732050808",
+            "2.732050808"
+          ],
+          [
+            "4.732050808",
+            "2.732050808"
+          ],
+          [
+            "3.732050808",
+            "4.464101616"
+          ]
+        ],
+        "triangle": [
+          [
+            "0.000000000",
+            "0.000000000"
+          ],
+          [
+            "7.464101616",
+            "0.000000000"
+          ],
+          [
+            "3.732050808",
+            "6.464101618"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p66-n7-v1",
+      "name": "n = 7",
+      "parameters": {
+        "n": 7
+      },
+      "objective": "minimize",
+      "scoreStored": "62424355423894401952",
+      "scoreDisplay": "31.212177711947200976",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "62.424355423894401952",
+        "kind": "best",
+        "source": "David W. Cantrell configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
+        "url": "https://erich-friedman.github.io/packing/cirinttt/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "centers": [
+          [
+            "5.176472882",
+            "4.494438808"
+          ],
+          [
+            "3.873697243",
+            "2.976948893"
+          ],
+          [
+            "6.479248521",
+            "2.976948893"
+          ],
+          [
+            "2.176472879",
+            "1.000000001"
+          ],
+          [
+            "4.176472881",
+            "1.000000001"
+          ],
+          [
+            "6.176472883",
+            "1.000000001"
+          ],
+          [
+            "8.176472885",
+            "1.000000001"
+          ]
+        ],
+        "triangle": [
+          [
+            "0.000000000",
+            "0.000000000"
+          ],
+          [
+            "10.352945764",
+            "0.000000000"
+          ],
+          [
+            "5.176472882",
+            "6.029622568"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p66-n8-v1",
+      "name": "n = 8",
+      "parameters": {
+        "n": 8
+      },
+      "objective": "minimize",
+      "scoreStored": "71872845778362444400",
+      "scoreDisplay": "35.9364228891812222",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "71.8728457783624444",
+        "kind": "best",
+        "source": "David W. Cantrell configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
+        "url": "https://erich-friedman.github.io/packing/cirinttt/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "centers": [
+          [
+            "4.992523227",
+            "4.863703310"
+          ],
+          [
+            "3.510161315",
+            "2.931851656"
+          ],
+          [
+            "5.510161317",
+            "2.931851656"
+          ],
+          [
+            "7.442012972",
+            "2.414213565"
+          ],
+          [
+            "2.027799404",
+            "1.000000001"
+          ],
+          [
+            "4.027799406",
+            "1.000000001"
+          ],
+          [
+            "6.027799408",
+            "1.000000001"
+          ],
+          [
+            "8.856226536",
+            "1.000000001"
+          ]
+        ],
+        "triangle": [
+          [
+            "0.000000000",
+            "0.000000000"
+          ],
+          [
+            "11.270440100",
+            "0.000000000"
+          ],
+          [
+            "4.893329256",
+            "6.377110844"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p66-n9-v1",
+      "name": "n = 9",
+      "parameters": {
+        "n": 9
+      },
+      "objective": "minimize",
+      "scoreStored": "77569219419888920416",
+      "scoreDisplay": "38.784609709944460208",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "77.569219419888920416",
+        "kind": "best",
+        "exact": "18 + 12√3",
+        "source": "Friedman's current table says the best known construction for this row is equilateral; the standard triangular-lattice construction is generated and verified exactly on the nine-decimal grid here",
+        "url": "https://erich-friedman.github.io/packing/cirinttt/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "centers": [
+          [
+            "1.732050808",
+            "1.000000000"
+          ],
+          [
+            "3.732050808",
+            "1.000000000"
+          ],
+          [
+            "5.732050808",
+            "1.000000000"
+          ],
+          [
+            "7.732050808",
+            "1.000000000"
+          ],
+          [
+            "2.732050808",
+            "2.732050808"
+          ],
+          [
+            "4.732050808",
+            "2.732050808"
+          ],
+          [
+            "6.732050808",
+            "2.732050808"
+          ],
+          [
+            "3.732050808",
+            "4.464101616"
+          ],
+          [
+            "5.732050808",
+            "4.464101616"
+          ]
+        ],
+        "triangle": [
+          [
+            "0.000000000",
+            "0.000000000"
+          ],
+          [
+            "9.464101616",
+            "0.000000000"
+          ],
+          [
+            "4.732050808",
+            "8.196152426"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p66-n10-v1",
+      "name": "n = 10",
+      "parameters": {
+        "n": 10
+      },
+      "objective": "minimize",
+      "scoreStored": "77569219419888920416",
+      "scoreDisplay": "38.784609709944460208",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "77.569219419888920416",
+        "kind": "best",
+        "exact": "18 + 12√3",
+        "source": "Friedman's current table says the best known construction for this row is equilateral; the standard triangular-lattice construction is generated and verified exactly on the nine-decimal grid here",
+        "url": "https://erich-friedman.github.io/packing/cirinttt/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "centers": [
+          [
+            "1.732050808",
+            "1.000000000"
+          ],
+          [
+            "3.732050808",
+            "1.000000000"
+          ],
+          [
+            "5.732050808",
+            "1.000000000"
+          ],
+          [
+            "7.732050808",
+            "1.000000000"
+          ],
+          [
+            "2.732050808",
+            "2.732050808"
+          ],
+          [
+            "4.732050808",
+            "2.732050808"
+          ],
+          [
+            "6.732050808",
+            "2.732050808"
+          ],
+          [
+            "3.732050808",
+            "4.464101616"
+          ],
+          [
+            "5.732050808",
+            "4.464101616"
+          ],
+          [
+            "4.732050808",
+            "6.196152424"
+          ]
+        ],
+        "triangle": [
+          [
+            "0.000000000",
+            "0.000000000"
+          ],
+          [
+            "9.464101616",
+            "0.000000000"
+          ],
+          [
+            "4.732050808",
+            "8.196152426"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p66-n11-v1",
+      "name": "n = 11",
+      "parameters": {
+        "n": 11
+      },
+      "objective": "minimize",
+      "scoreStored": "94007090674027377469",
+      "scoreDisplay": "47.003545337013688734",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "94.007090674027377469",
+        "kind": "best",
+        "source": "David W. Cantrell configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
+        "url": "https://erich-friedman.github.io/packing/cirinttt/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "centers": [
+          [
+            "5.598539385",
+            "6.149084659"
+          ],
+          [
+            "6.886454653",
+            "4.618962353"
+          ],
+          [
+            "4.439685565",
+            "4.519036244"
+          ],
+          [
+            "8.174369922",
+            "3.088840048"
+          ],
+          [
+            "5.727600834",
+            "2.988913939"
+          ],
+          [
+            "3.280831746",
+            "2.888987830"
+          ],
+          [
+            "7.935225812",
+            "1.103188995"
+          ],
+          [
+            "1.937889572",
+            "1.000000001"
+          ],
+          [
+            "3.937889574",
+            "1.000000001"
+          ],
+          [
+            "5.937889576",
+            "1.000000001"
+          ],
+          [
+            "9.932562048",
+            "1.000000001"
+          ]
+        ],
+        "triangle": [
+          [
+            "0.000000000",
+            "0.000000000"
+          ],
+          [
+            "12.081354509",
+            "0.000000000"
+          ],
+          [
+            "5.531884921",
+            "7.781171441"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p66-n12-v1",
+      "name": "n = 12",
+      "parameters": {
+        "n": 12
+      },
+      "objective": "minimize",
+      "scoreStored": "102608042120791426652",
+      "scoreDisplay": "51.304021060395713326",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "102.608042120791426652",
+        "kind": "best",
+        "source": "David W. Cantrell configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
+        "url": "https://erich-friedman.github.io/packing/cirinttt/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "centers": [
+          [
+            "5.839644167",
+            "6.415052742"
+          ],
+          [
+            "7.157995436",
+            "4.911074703"
+          ],
+          [
+            "4.672782053",
+            "4.790727400"
+          ],
+          [
+            "3.311214862",
+            "2.895363701"
+          ],
+          [
+            "5.311214864",
+            "2.895363701"
+          ],
+          [
+            "7.311098441",
+            "2.916943444"
+          ],
+          [
+            "9.267998945",
+            "2.503978040"
+          ],
+          [
+            "1.949647671",
+            "1.000000001"
+          ],
+          [
+            "3.949647673",
+            "1.000000001"
+          ],
+          [
+            "5.949647675",
+            "1.000000001"
+          ],
+          [
+            "7.949647677",
+            "1.000000001"
+          ],
+          [
+            "10.586350214",
+            "1.000000001"
+          ]
+        ],
+        "triangle": [
+          [
+            "0.000000000",
+            "0.000000000"
+          ],
+          [
+            "12.792733012",
+            "0.000000000"
+          ],
+          [
+            "5.761884973",
+            "8.020806971"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p66-n13-v1",
+      "name": "n = 13",
+      "parameters": {
+        "n": 13
+      },
+      "objective": "minimize",
+      "scoreStored": "109789930742314004064",
+      "scoreDisplay": "54.894965371157002032",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "109.789930742314004064",
+        "kind": "best",
+        "source": "David W. Cantrell configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
+        "url": "https://erich-friedman.github.io/packing/cirinttt/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "centers": [
+          [
+            "5.407468250",
+            "7.366009748"
+          ],
+          [
+            "5.515662438",
+            "5.368938386"
+          ],
+          [
+            "7.372805297",
+            "4.626630896"
+          ],
+          [
+            "3.732050811",
+            "4.464101620"
+          ],
+          [
+            "2.732050810",
+            "2.732050810"
+          ],
+          [
+            "4.732050812",
+            "2.732050810"
+          ],
+          [
+            "6.732050814",
+            "2.732050810"
+          ],
+          [
+            "8.732050816",
+            "2.732050810"
+          ],
+          [
+            "1.732050809",
+            "1.000000001"
+          ],
+          [
+            "3.732050811",
+            "1.000000001"
+          ],
+          [
+            "5.732050813",
+            "1.000000001"
+          ],
+          [
+            "7.732050815",
+            "1.000000001"
+          ],
+          [
+            "9.974691362",
+            "1.000000001"
+          ]
+        ],
+        "triangle": [
+          [
+            "0.000000000",
+            "0.000000000"
+          ],
+          [
+            "11.922869499",
+            "0.000000000"
+          ],
+          [
+            "5.316442160",
+            "9.208347936"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p66-n14-v1",
+      "name": "n = 14",
+      "parameters": {
+        "n": 14
+      },
+      "objective": "minimize",
+      "scoreStored": "113817930738875826144",
+      "scoreDisplay": "56.908965369437913072",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "113.817930738875826144",
+        "kind": "best",
+        "exact": "24 + 19√3",
+        "source": "Friedman's current table says the best known construction for this row is equilateral; the standard triangular-lattice construction is generated and verified exactly on the nine-decimal grid here",
+        "url": "https://erich-friedman.github.io/packing/cirinttt/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "centers": [
+          [
+            "1.732050808",
+            "1.000000000"
+          ],
+          [
+            "3.732050808",
+            "1.000000000"
+          ],
+          [
+            "5.732050808",
+            "1.000000000"
+          ],
+          [
+            "7.732050808",
+            "1.000000000"
+          ],
+          [
+            "9.732050808",
+            "1.000000000"
+          ],
+          [
+            "2.732050808",
+            "2.732050808"
+          ],
+          [
+            "4.732050808",
+            "2.732050808"
+          ],
+          [
+            "6.732050808",
+            "2.732050808"
+          ],
+          [
+            "8.732050808",
+            "2.732050808"
+          ],
+          [
+            "3.732050808",
+            "4.464101616"
+          ],
+          [
+            "5.732050808",
+            "4.464101616"
+          ],
+          [
+            "7.732050808",
+            "4.464101616"
+          ],
+          [
+            "4.732050808",
+            "6.196152424"
+          ],
+          [
+            "6.732050808",
+            "6.196152424"
+          ]
+        ],
+        "triangle": [
+          [
+            "0.000000000",
+            "0.000000000"
+          ],
+          [
+            "11.464101616",
+            "0.000000000"
+          ],
+          [
+            "5.732050808",
+            "9.928203234"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p66-n15-v1",
+      "name": "n = 15",
+      "parameters": {
+        "n": 15
+      },
+      "objective": "minimize",
+      "scoreStored": "113817930738875826144",
+      "scoreDisplay": "56.908965369437913072",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "113.817930738875826144",
+        "kind": "best",
+        "exact": "24 + 19√3",
+        "source": "Friedman's current table says the best known construction for this row is equilateral; the standard triangular-lattice construction is generated and verified exactly on the nine-decimal grid here",
+        "url": "https://erich-friedman.github.io/packing/cirinttt/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "centers": [
+          [
+            "1.732050808",
+            "1.000000000"
+          ],
+          [
+            "3.732050808",
+            "1.000000000"
+          ],
+          [
+            "5.732050808",
+            "1.000000000"
+          ],
+          [
+            "7.732050808",
+            "1.000000000"
+          ],
+          [
+            "9.732050808",
+            "1.000000000"
+          ],
+          [
+            "2.732050808",
+            "2.732050808"
+          ],
+          [
+            "4.732050808",
+            "2.732050808"
+          ],
+          [
+            "6.732050808",
+            "2.732050808"
+          ],
+          [
+            "8.732050808",
+            "2.732050808"
+          ],
+          [
+            "3.732050808",
+            "4.464101616"
+          ],
+          [
+            "5.732050808",
+            "4.464101616"
+          ],
+          [
+            "7.732050808",
+            "4.464101616"
+          ],
+          [
+            "4.732050808",
+            "6.196152424"
+          ],
+          [
+            "6.732050808",
+            "6.196152424"
+          ],
+          [
+            "5.732050808",
+            "7.928203232"
+          ]
+        ],
+        "triangle": [
+          [
+            "0.000000000",
+            "0.000000000"
+          ],
+          [
+            "11.464101616",
+            "0.000000000"
+          ],
+          [
+            "5.732050808",
+            "9.928203234"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p66-n16-v1",
+      "name": "n = 16",
+      "parameters": {
+        "n": 16
+      },
+      "objective": "minimize",
+      "scoreStored": "132066642252233625088",
+      "scoreDisplay": "66.033321126116812544",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "132.066642252233625088",
+        "kind": "best",
+        "exact": "21 + 26√3",
+        "source": "David W. Cantrell configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
+        "url": "https://erich-friedman.github.io/packing/cirinttt/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "centers": [
+          [
+            "1.000000001",
+            "1.000000001"
+          ],
+          [
+            "4.464101620",
+            "1.000000001"
+          ],
+          [
+            "7.928203238",
+            "1.000000001"
+          ],
+          [
+            "11.392304857",
+            "1.000000001"
+          ],
+          [
+            "2.732050810",
+            "2.000000002"
+          ],
+          [
+            "6.196152429",
+            "2.000000002"
+          ],
+          [
+            "9.660254048",
+            "2.000000002"
+          ],
+          [
+            "1.000000001",
+            "3.000000003"
+          ],
+          [
+            "4.464101620",
+            "3.000000003"
+          ],
+          [
+            "7.928203238",
+            "3.000000003"
+          ],
+          [
+            "2.732050810",
+            "4.000000004"
+          ],
+          [
+            "6.196152429",
+            "4.000000004"
+          ],
+          [
+            "1.000000001",
+            "5.000000005"
+          ],
+          [
+            "4.464101620",
+            "5.000000005"
+          ],
+          [
+            "2.732050810",
+            "6.000000006"
+          ],
+          [
+            "1.000000001",
+            "7.000000007"
+          ]
+        ],
+        "triangle": [
+          [
+            "0.000000000",
+            "0.000000000"
+          ],
+          [
+            "15.124355668",
+            "0.000000000"
+          ],
+          [
+            "0.000000000",
+            "8.732050816"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p66-n17-v1",
+      "name": "n = 17",
+      "parameters": {
+        "n": 17
+      },
+      "objective": "minimize",
+      "scoreStored": "140550135265102913775",
+      "scoreDisplay": "70.275067632551456887",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "140.550135265102913775",
+        "kind": "best",
+        "source": "David W. Cantrell configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
+        "url": "https://erich-friedman.github.io/packing/cirinttt/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "centers": [
+          [
+            "6.833280849",
+            "7.880853702"
+          ],
+          [
+            "8.121354286",
+            "6.350864542"
+          ],
+          [
+            "5.673970117",
+            "6.251130218"
+          ],
+          [
+            "9.409427723",
+            "4.820875382"
+          ],
+          [
+            "6.962043554",
+            "4.721141058"
+          ],
+          [
+            "4.514659386",
+            "4.621406733"
+          ],
+          [
+            "9.167980637",
+            "2.835503046"
+          ],
+          [
+            "3.170658015",
+            "2.732050810"
+          ],
+          [
+            "5.170658017",
+            "2.732050810"
+          ],
+          [
+            "7.170658019",
+            "2.732050810"
+          ],
+          [
+            "11.165456030",
+            "2.735043784"
+          ],
+          [
+            "1.938802808",
+            "1.000028854"
+          ],
+          [
+            "4.170658016",
+            "1.000000001"
+          ],
+          [
+            "6.170658018",
+            "1.000000001"
+          ],
+          [
+            "8.170658020",
+            "1.000000001"
+          ],
+          [
+            "10.170658022",
+            "1.000000001"
+          ],
+          [
+            "12.626161636",
+            "1.000000001"
+          ]
+        ],
+        "triangle": [
+          [
+            "0.000000000",
+            "0.000000000"
+          ],
+          [
+            "14.775244515",
+            "0.000000000"
+          ],
+          [
+            "6.766787267",
+            "9.512542085"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p66-n18-v1",
+      "name": "n = 18",
+      "parameters": {
+        "n": 18
+      },
+      "objective": "minimize",
+      "scoreStored": "149606706153782253552",
+      "scoreDisplay": "74.803353076891126776",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "149.606706153782253552",
+        "kind": "best",
+        "source": "David W. Cantrell configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
+        "url": "https://erich-friedman.github.io/packing/cirinttt/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "centers": [
+          [
+            "6.415278982",
+            "9.111589140"
+          ],
+          [
+            "7.510967349",
+            "7.438428355"
+          ],
+          [
+            "5.415278981",
+            "7.379538331"
+          ],
+          [
+            "7.508306233",
+            "5.438430124"
+          ],
+          [
+            "5.509109818",
+            "5.381740598"
+          ],
+          [
+            "9.342631152",
+            "4.641403086"
+          ],
+          [
+            "3.732050811",
+            "4.464101620"
+          ],
+          [
+            "6.509109819",
+            "3.649689788"
+          ],
+          [
+            "10.438319519",
+            "2.968242301"
+          ],
+          [
+            "8.362490187",
+            "2.898037463"
+          ],
+          [
+            "2.732050810",
+            "2.732050810"
+          ],
+          [
+            "4.732050812",
+            "2.732050810"
+          ],
+          [
+            "9.729648093",
+            "1.098005734"
+          ],
+          [
+            "1.732050809",
+            "1.000000001"
+          ],
+          [
+            "3.732050811",
+            "1.000000001"
+          ],
+          [
+            "5.732050813",
+            "1.000000001"
+          ],
+          [
+            "7.732050815",
+            "1.000000001"
+          ],
+          [
+            "11.727245371",
+            "1.000000001"
+          ]
+        ],
+        "triangle": [
+          [
+            "0.000000000",
+            "0.000000000"
+          ],
+          [
+            "13.577449129",
+            "0.000000000"
+          ],
+          [
+            "6.361686297",
+            "11.018763888"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p66-n19-v1",
+      "name": "n = 19",
+      "parameters": {
+        "n": 19
+      },
+      "objective": "minimize",
+      "scoreStored": "154692349569836526343",
+      "scoreDisplay": "77.346174784918263171",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "154.692349569836526343",
+        "kind": "best",
+        "source": "David W. Cantrell configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
+        "url": "https://erich-friedman.github.io/packing/cirinttt/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "centers": [
+          [
+            "6.840577489",
+            "9.102832395"
+          ],
+          [
+            "6.948771676",
+            "7.105761033"
+          ],
+          [
+            "5.109505936",
+            "6.320202923"
+          ],
+          [
+            "8.753066567",
+            "6.242905335"
+          ],
+          [
+            "3.993412666",
+            "4.526126867"
+          ],
+          [
+            "5.993412668",
+            "4.526126867"
+          ],
+          [
+            "7.989081476",
+            "4.394574523"
+          ],
+          [
+            "9.989081478",
+            "4.394574523"
+          ],
+          [
+            "2.877319396",
+            "2.732050810"
+          ],
+          [
+            "4.877319398",
+            "2.732050810"
+          ],
+          [
+            "6.877319400",
+            "2.732050810"
+          ],
+          [
+            "11.100843553",
+            "2.732050810"
+          ],
+          [
+            "8.989081477",
+            "2.662523714"
+          ],
+          [
+            "1.829132851",
+            "1.011381191"
+          ],
+          [
+            "3.877319397",
+            "1.000000001"
+          ],
+          [
+            "5.877319399",
+            "1.000000001"
+          ],
+          [
+            "7.877319401",
+            "1.000000001"
+          ],
+          [
+            "10.100843552",
+            "1.000000001"
+          ],
+          [
+            "12.247705742",
+            "1.011381191"
+          ]
+        ],
+        "triangle": [
+          [
+            "0.000000000",
+            "0.000000000"
+          ],
+          [
+            "14.130809647",
+            "0.000000000"
+          ],
+          [
+            "6.810224500",
+            "10.947168169"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p66-n20-v1",
+      "name": "n = 20",
+      "parameters": {
+        "n": 20
+      },
+      "objective": "minimize",
+      "scoreStored": "156994845289862731872",
+      "scoreDisplay": "78.497422644931365936",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "156.994845289862731872",
+        "kind": "best",
+        "exact": "30 + 28√3",
+        "source": "Friedman's current table says the best known construction for this row is equilateral; the standard triangular-lattice construction is generated and verified exactly on the nine-decimal grid here",
+        "url": "https://erich-friedman.github.io/packing/cirinttt/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "centers": [
+          [
+            "1.732050808",
+            "1.000000000"
+          ],
+          [
+            "3.732050808",
+            "1.000000000"
+          ],
+          [
+            "5.732050808",
+            "1.000000000"
+          ],
+          [
+            "7.732050808",
+            "1.000000000"
+          ],
+          [
+            "9.732050808",
+            "1.000000000"
+          ],
+          [
+            "11.732050808",
+            "1.000000000"
+          ],
+          [
+            "2.732050808",
+            "2.732050808"
+          ],
+          [
+            "4.732050808",
+            "2.732050808"
+          ],
+          [
+            "6.732050808",
+            "2.732050808"
+          ],
+          [
+            "8.732050808",
+            "2.732050808"
+          ],
+          [
+            "10.732050808",
+            "2.732050808"
+          ],
+          [
+            "3.732050808",
+            "4.464101616"
+          ],
+          [
+            "5.732050808",
+            "4.464101616"
+          ],
+          [
+            "7.732050808",
+            "4.464101616"
+          ],
+          [
+            "9.732050808",
+            "4.464101616"
+          ],
+          [
+            "4.732050808",
+            "6.196152424"
+          ],
+          [
+            "6.732050808",
+            "6.196152424"
+          ],
+          [
+            "8.732050808",
+            "6.196152424"
+          ],
+          [
+            "5.732050808",
+            "7.928203232"
+          ],
+          [
+            "7.732050808",
+            "7.928203232"
+          ]
+        ],
+        "triangle": [
+          [
+            "0.000000000",
+            "0.000000000"
+          ],
+          [
+            "13.464101616",
+            "0.000000000"
+          ],
+          [
+            "6.732050808",
+            "11.660254042"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p66-n21-v1",
+      "name": "n = 21",
+      "parameters": {
+        "n": 21
+      },
+      "objective": "minimize",
+      "scoreStored": "156994845289862731872",
+      "scoreDisplay": "78.497422644931365936",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "156.994845289862731872",
+        "kind": "best",
+        "exact": "30 + 28√3",
+        "source": "Friedman's current table says the best known construction for this row is equilateral; the standard triangular-lattice construction is generated and verified exactly on the nine-decimal grid here",
+        "url": "https://erich-friedman.github.io/packing/cirinttt/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "centers": [
+          [
+            "1.732050808",
+            "1.000000000"
+          ],
+          [
+            "3.732050808",
+            "1.000000000"
+          ],
+          [
+            "5.732050808",
+            "1.000000000"
+          ],
+          [
+            "7.732050808",
+            "1.000000000"
+          ],
+          [
+            "9.732050808",
+            "1.000000000"
+          ],
+          [
+            "11.732050808",
+            "1.000000000"
+          ],
+          [
+            "2.732050808",
+            "2.732050808"
+          ],
+          [
+            "4.732050808",
+            "2.732050808"
+          ],
+          [
+            "6.732050808",
+            "2.732050808"
+          ],
+          [
+            "8.732050808",
+            "2.732050808"
+          ],
+          [
+            "10.732050808",
+            "2.732050808"
+          ],
+          [
+            "3.732050808",
+            "4.464101616"
+          ],
+          [
+            "5.732050808",
+            "4.464101616"
+          ],
+          [
+            "7.732050808",
+            "4.464101616"
+          ],
+          [
+            "9.732050808",
+            "4.464101616"
+          ],
+          [
+            "4.732050808",
+            "6.196152424"
+          ],
+          [
+            "6.732050808",
+            "6.196152424"
+          ],
+          [
+            "8.732050808",
+            "6.196152424"
+          ],
+          [
+            "5.732050808",
+            "7.928203232"
+          ],
+          [
+            "7.732050808",
+            "7.928203232"
+          ],
+          [
+            "6.732050808",
+            "9.660254040"
+          ]
+        ],
+        "triangle": [
+          [
+            "0.000000000",
+            "0.000000000"
+          ],
+          [
+            "13.464101616",
+            "0.000000000"
+          ],
+          [
+            "6.732050808",
+            "11.660254042"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p66-n22-v1",
+      "name": "n = 22",
+      "parameters": {
+        "n": 22
+      },
+      "objective": "minimize",
+      "scoreStored": "178255488635293544160",
+      "scoreDisplay": "89.12774431764677208",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "178.25548863529354416",
+        "kind": "best",
+        "source": "David W. Cantrell configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
+        "url": "https://erich-friedman.github.io/packing/cirinttt/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "centers": [
+          [
+            "6.732050814",
+            "9.660254048"
+          ],
+          [
+            "5.732050813",
+            "7.928203238"
+          ],
+          [
+            "7.732050815",
+            "7.928203238"
+          ],
+          [
+            "9.175937058",
+            "6.544298427"
+          ],
+          [
+            "4.732050812",
+            "6.196152429"
+          ],
+          [
+            "6.732050814",
+            "6.196152429"
+          ],
+          [
+            "9.725856556",
+            "4.621386949"
+          ],
+          [
+            "3.732050811",
+            "4.464101620"
+          ],
+          [
+            "5.732050813",
+            "4.464101620"
+          ],
+          [
+            "7.732050815",
+            "4.464101620"
+          ],
+          [
+            "11.462349905",
+            "3.629121431"
+          ],
+          [
+            "2.732050810",
+            "2.732050810"
+          ],
+          [
+            "4.732050812",
+            "2.732050810"
+          ],
+          [
+            "6.732050814",
+            "2.732050810"
+          ],
+          [
+            "8.741089553",
+            "2.737237978"
+          ],
+          [
+            "11.628228154",
+            "1.636012198"
+          ],
+          [
+            "1.732050809",
+            "1.000000001"
+          ],
+          [
+            "3.732050811",
+            "1.000000001"
+          ],
+          [
+            "5.732050813",
+            "1.000000001"
+          ],
+          [
+            "7.732050815",
+            "1.000000001"
+          ],
+          [
+            "9.732050817",
+            "1.000000001"
+          ],
+          [
+            "13.524405492",
+            "1.000000001"
+          ]
+        ],
+        "triangle": [
+          [
+            "0.000000000",
+            "0.000000000"
+          ],
+          [
+            "15.579603690",
+            "0.000000000"
+          ],
+          [
+            "6.605806951",
+            "11.441593264"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p66-n23-v1",
+      "name": "n = 23",
+      "parameters": {
+        "n": 23
+      },
+      "objective": "minimize",
+      "scoreStored": "185482761095717640468",
+      "scoreDisplay": "92.741380547858820234",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "185.482761095717640468",
+        "kind": "best",
+        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
+        "url": "https://erich-friedman.github.io/packing/cirinttt/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "centers": [
+          [
+            "9.210984514",
+            "10.900264151"
+          ],
+          [
+            "8.030294023",
+            "9.285913536"
+          ],
+          [
+            "10.018394544",
+            "9.068068805"
+          ],
+          [
+            "6.849634704",
+            "7.671589039"
+          ],
+          [
+            "8.891407957",
+            "7.415827527"
+          ],
+          [
+            "10.765681058",
+            "6.717901778"
+          ],
+          [
+            "5.668975385",
+            "6.057264543"
+          ],
+          [
+            "7.657351069",
+            "5.841945827"
+          ],
+          [
+            "9.371724632",
+            "4.811934519"
+          ],
+          [
+            "11.371724634",
+            "4.811934519"
+          ],
+          [
+            "4.488316066",
+            "4.442940046"
+          ],
+          [
+            "6.476691750",
+            "4.227621331"
+          ],
+          [
+            "7.977768205",
+            "2.905967260"
+          ],
+          [
+            "9.977768207",
+            "2.905967260"
+          ],
+          [
+            "11.977768209",
+            "2.905967260"
+          ],
+          [
+            "3.307656747",
+            "2.828615550"
+          ],
+          [
+            "5.350754381",
+            "2.574664874"
+          ],
+          [
+            "2.023271830",
+            "1.072466251"
+          ],
+          [
+            "4.117696983",
+            "1.000000001"
+          ],
+          [
+            "6.583811779",
+            "1.000000001"
+          ],
+          [
+            "8.583811781",
+            "1.000000001"
+          ],
+          [
+            "10.583811783",
+            "1.000000001"
+          ],
+          [
+            "12.583811785",
+            "1.000000001"
+          ]
+        ],
+        "triangle": [
+          [
+            "0.000000000",
+            "0.000000000"
+          ],
+          [
+            "13.951119417",
+            "0.000000000"
+          ],
+          [
+            "9.723626274",
+            "13.295188404"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p66-n24-v1",
+      "name": "n = 24",
+      "parameters": {
+        "n": 24
+      },
+      "objective": "minimize",
+      "scoreStored": "192994845617100326778",
+      "scoreDisplay": "96.497422808550163389",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "192.994845617100326778",
+        "kind": "best",
+        "exact": "48 + 28√3",
+        "source": "Graham–Lubachevsky equilateral-triangle construction, still listed by Friedman's current table as best known among arbitrary triangles; public numerical data was recovered algebraically and quantized to the nine-decimal grid here",
+        "url": "https://erich-friedman.github.io/packing/cirinttt/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "centers": [
+          [
+            "12.196152435",
+            "2.732050810"
+          ],
+          [
+            "9.196152432",
+            "1.000000001"
+          ],
+          [
+            "3.732050812",
+            "1.000000001"
+          ],
+          [
+            "2.732050811",
+            "2.732050810"
+          ],
+          [
+            "5.464101621",
+            "7.464101623"
+          ],
+          [
+            "9.464101625",
+            "7.464101623"
+          ],
+          [
+            "5.464101621",
+            "5.464101621"
+          ],
+          [
+            "7.464101623",
+            "2.000000002"
+          ],
+          [
+            "7.464101623",
+            "7.464101623"
+          ],
+          [
+            "1.732050810",
+            "1.000000001"
+          ],
+          [
+            "4.732050813",
+            "2.732050810"
+          ],
+          [
+            "9.464101625",
+            "5.464101621"
+          ],
+          [
+            "6.464101622",
+            "9.196152432"
+          ],
+          [
+            "8.464101624",
+            "9.196152432"
+          ],
+          [
+            "11.196152434",
+            "4.464101620"
+          ],
+          [
+            "7.464101623",
+            "10.928203241"
+          ],
+          [
+            "11.196152434",
+            "1.000000001"
+          ],
+          [
+            "7.464101623",
+            "5.464101621"
+          ],
+          [
+            "13.196152436",
+            "1.000000001"
+          ],
+          [
+            "6.464101622",
+            "3.732050811"
+          ],
+          [
+            "3.732050812",
+            "4.464101620"
+          ],
+          [
+            "5.732050814",
+            "1.000000001"
+          ],
+          [
+            "10.196152433",
+            "2.732050810"
+          ],
+          [
+            "8.464101624",
+            "3.732050811"
+          ]
+        ],
+        "triangle": [
+          [
+            "0.000000000",
+            "0.000000000"
+          ],
+          [
+            "14.928203246",
+            "0.000000000"
+          ],
+          [
+            "7.464101623",
+            "12.928203243"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p66-n25-v1",
+      "name": "n = 25",
+      "parameters": {
+        "n": 25
+      },
+      "objective": "minimize",
+      "scoreStored": "199492268232306410766",
+      "scoreDisplay": "99.746134116153205383",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "199.492268232306410766",
+        "kind": "best",
+        "exact": "27 + 42√3",
+        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
+        "url": "https://erich-friedman.github.io/packing/cirinttt/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "centers": [
+          [
+            "1.000000001",
+            "1.000000001"
+          ],
+          [
+            "4.464101620",
+            "1.000000001"
+          ],
+          [
+            "7.928203238",
+            "1.000000001"
+          ],
+          [
+            "11.392304857",
+            "1.000000001"
+          ],
+          [
+            "14.856406475",
+            "1.000000001"
+          ],
+          [
+            "2.732050810",
+            "2.000000002"
+          ],
+          [
+            "6.196152429",
+            "2.000000002"
+          ],
+          [
+            "9.660254048",
+            "2.000000002"
+          ],
+          [
+            "13.124355666",
+            "2.000000002"
+          ],
+          [
+            "1.000000001",
+            "3.000000003"
+          ],
+          [
+            "4.464101620",
+            "3.000000003"
+          ],
+          [
+            "7.928203238",
+            "3.000000003"
+          ],
+          [
+            "11.392304857",
+            "3.000000003"
+          ],
+          [
+            "2.732050810",
+            "4.000000004"
+          ],
+          [
+            "6.196152429",
+            "4.000000004"
+          ],
+          [
+            "9.660254048",
+            "4.000000004"
+          ],
+          [
+            "1.000000001",
+            "5.000000005"
+          ],
+          [
+            "4.464101620",
+            "5.000000005"
+          ],
+          [
+            "7.928203238",
+            "5.000000005"
+          ],
+          [
+            "2.732050810",
+            "6.000000006"
+          ],
+          [
+            "6.196152429",
+            "6.000000006"
+          ],
+          [
+            "1.000000001",
+            "7.000000007"
+          ],
+          [
+            "4.464101620",
+            "7.000000007"
+          ],
+          [
+            "2.732050810",
+            "8.000000008"
+          ],
+          [
+            "1.000000001",
+            "9.000000009"
+          ]
+        ],
+        "triangle": [
+          [
+            "0.000000000",
+            "0.000000000"
+          ],
+          [
+            "18.588457287",
+            "0.000000000"
+          ],
+          [
+            "0.000000000",
+            "10.732050818"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p66-n26-v1",
+      "name": "n = 26",
+      "parameters": {
+        "n": 26
+      },
+      "objective": "minimize",
+      "scoreStored": "205409742418398167862",
+      "scoreDisplay": "102.704871209199083931",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "205.409742418398167862",
+        "kind": "best",
+        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
+        "url": "https://erich-friedman.github.io/packing/cirinttt/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "centers": [
+          [
+            "7.604339047",
+            "11.171101557"
+          ],
+          [
+            "7.277212948",
+            "9.198035760"
+          ],
+          [
+            "9.185894607",
+            "8.600595853"
+          ],
+          [
+            "5.732050894",
+            "7.928203350"
+          ],
+          [
+            "8.675906685",
+            "6.666710531"
+          ],
+          [
+            "10.632047352",
+            "6.250160642"
+          ],
+          [
+            "4.732050879",
+            "6.196152516"
+          ],
+          [
+            "6.732050909",
+            "6.196152516"
+          ],
+          [
+            "5.732050894",
+            "4.464101683"
+          ],
+          [
+            "7.732050925",
+            "4.464101683"
+          ],
+          [
+            "9.732050955",
+            "4.464101683"
+          ],
+          [
+            "11.732050195",
+            "4.462323622"
+          ],
+          [
+            "3.732050864",
+            "4.464101683"
+          ],
+          [
+            "2.732050849",
+            "2.732050849"
+          ],
+          [
+            "4.732050879",
+            "2.732050849"
+          ],
+          [
+            "6.732050909",
+            "2.732050849"
+          ],
+          [
+            "8.732050940",
+            "2.732050849"
+          ],
+          [
+            "12.780103697",
+            "2.758919978"
+          ],
+          [
+            "10.780104458",
+            "2.703403660"
+          ],
+          [
+            "13.837065026",
+            "1.041038424"
+          ],
+          [
+            "1.732050834",
+            "1.000000015"
+          ],
+          [
+            "3.732050864",
+            "1.000000015"
+          ],
+          [
+            "5.732050894",
+            "1.000000015"
+          ],
+          [
+            "7.732050925",
+            "1.000000015"
+          ],
+          [
+            "9.732050955",
+            "1.000000015"
+          ],
+          [
+            "11.828157960",
+            "1.000000015"
+          ]
+        ],
+        "triangle": [
+          [
+            "0.000000000",
+            "0.000000000"
+          ],
+          [
+            "15.651704814",
+            "0.000000000"
+          ],
+          [
+            "7.577025729",
+            "13.123793533"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p66-n27-v1",
+      "name": "n = 27",
+      "parameters": {
+        "n": 27
+      },
+      "objective": "minimize",
+      "scoreStored": "207099963072849637600",
+      "scoreDisplay": "103.5499815364248188",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "207.0999630728496376",
+        "kind": "best",
+        "exact": "36 + 39√3",
+        "source": "Friedman's current table says the best known construction for this row is equilateral; the standard triangular-lattice construction is generated and verified exactly on the nine-decimal grid here",
+        "url": "https://erich-friedman.github.io/packing/cirinttt/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "centers": [
+          [
+            "1.732050808",
+            "1.000000000"
+          ],
+          [
+            "3.732050808",
+            "1.000000000"
+          ],
+          [
+            "5.732050808",
+            "1.000000000"
+          ],
+          [
+            "7.732050808",
+            "1.000000000"
+          ],
+          [
+            "9.732050808",
+            "1.000000000"
+          ],
+          [
+            "11.732050808",
+            "1.000000000"
+          ],
+          [
+            "13.732050808",
+            "1.000000000"
+          ],
+          [
+            "2.732050808",
+            "2.732050808"
+          ],
+          [
+            "4.732050808",
+            "2.732050808"
+          ],
+          [
+            "6.732050808",
+            "2.732050808"
+          ],
+          [
+            "8.732050808",
+            "2.732050808"
+          ],
+          [
+            "10.732050808",
+            "2.732050808"
+          ],
+          [
+            "12.732050808",
+            "2.732050808"
+          ],
+          [
+            "3.732050808",
+            "4.464101616"
+          ],
+          [
+            "5.732050808",
+            "4.464101616"
+          ],
+          [
+            "7.732050808",
+            "4.464101616"
+          ],
+          [
+            "9.732050808",
+            "4.464101616"
+          ],
+          [
+            "11.732050808",
+            "4.464101616"
+          ],
+          [
+            "4.732050808",
+            "6.196152424"
+          ],
+          [
+            "6.732050808",
+            "6.196152424"
+          ],
+          [
+            "8.732050808",
+            "6.196152424"
+          ],
+          [
+            "10.732050808",
+            "6.196152424"
+          ],
+          [
+            "5.732050808",
+            "7.928203232"
+          ],
+          [
+            "7.732050808",
+            "7.928203232"
+          ],
+          [
+            "9.732050808",
+            "7.928203232"
+          ],
+          [
+            "6.732050808",
+            "9.660254040"
+          ],
+          [
+            "8.732050808",
+            "9.660254040"
+          ]
+        ],
+        "triangle": [
+          [
+            "0.000000000",
+            "0.000000000"
+          ],
+          [
+            "15.464101616",
+            "0.000000000"
+          ],
+          [
+            "7.732050808",
+            "13.392304850"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p66-n28-v1",
+      "name": "n = 28",
+      "parameters": {
+        "n": 28
+      },
+      "objective": "minimize",
+      "scoreStored": "207099963072849637600",
+      "scoreDisplay": "103.5499815364248188",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "207.0999630728496376",
+        "kind": "best",
+        "exact": "36 + 39√3",
+        "source": "Friedman's current table says the best known construction for this row is equilateral; the standard triangular-lattice construction is generated and verified exactly on the nine-decimal grid here",
+        "url": "https://erich-friedman.github.io/packing/cirinttt/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "centers": [
+          [
+            "1.732050808",
+            "1.000000000"
+          ],
+          [
+            "3.732050808",
+            "1.000000000"
+          ],
+          [
+            "5.732050808",
+            "1.000000000"
+          ],
+          [
+            "7.732050808",
+            "1.000000000"
+          ],
+          [
+            "9.732050808",
+            "1.000000000"
+          ],
+          [
+            "11.732050808",
+            "1.000000000"
+          ],
+          [
+            "13.732050808",
+            "1.000000000"
+          ],
+          [
+            "2.732050808",
+            "2.732050808"
+          ],
+          [
+            "4.732050808",
+            "2.732050808"
+          ],
+          [
+            "6.732050808",
+            "2.732050808"
+          ],
+          [
+            "8.732050808",
+            "2.732050808"
+          ],
+          [
+            "10.732050808",
+            "2.732050808"
+          ],
+          [
+            "12.732050808",
+            "2.732050808"
+          ],
+          [
+            "3.732050808",
+            "4.464101616"
+          ],
+          [
+            "5.732050808",
+            "4.464101616"
+          ],
+          [
+            "7.732050808",
+            "4.464101616"
+          ],
+          [
+            "9.732050808",
+            "4.464101616"
+          ],
+          [
+            "11.732050808",
+            "4.464101616"
+          ],
+          [
+            "4.732050808",
+            "6.196152424"
+          ],
+          [
+            "6.732050808",
+            "6.196152424"
+          ],
+          [
+            "8.732050808",
+            "6.196152424"
+          ],
+          [
+            "10.732050808",
+            "6.196152424"
+          ],
+          [
+            "5.732050808",
+            "7.928203232"
+          ],
+          [
+            "7.732050808",
+            "7.928203232"
+          ],
+          [
+            "9.732050808",
+            "7.928203232"
+          ],
+          [
+            "6.732050808",
+            "9.660254040"
+          ],
+          [
+            "8.732050808",
+            "9.660254040"
+          ],
+          [
+            "7.732050808",
+            "11.392304848"
+          ]
+        ],
+        "triangle": [
+          [
+            "0.000000000",
+            "0.000000000"
+          ],
+          [
+            "15.464101616",
+            "0.000000000"
+          ],
+          [
+            "7.732050808",
+            "13.392304850"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p66-n29-v1",
+      "name": "n = 29",
+      "parameters": {
+        "n": 29
+      },
+      "objective": "minimize",
+      "scoreStored": "230584486304094041428",
+      "scoreDisplay": "115.292243152047020714",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "230.584486304094041428",
+        "kind": "best",
+        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
+        "url": "https://erich-friedman.github.io/packing/cirinttt/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "centers": [
+          [
+            "10.189470088",
+            "12.017621136"
+          ],
+          [
+            "8.995480979",
+            "10.413130558"
+          ],
+          [
+            "10.982005134",
+            "10.181350947"
+          ],
+          [
+            "7.801491870",
+            "8.808639980"
+          ],
+          [
+            "9.788016026",
+            "8.576860369"
+          ],
+          [
+            "11.774540181",
+            "8.345080758"
+          ],
+          [
+            "6.607502761",
+            "7.204149401"
+          ],
+          [
+            "8.594026917",
+            "6.972369790"
+          ],
+          [
+            "10.580551072",
+            "6.740590180"
+          ],
+          [
+            "12.567075228",
+            "6.508810569"
+          ],
+          [
+            "5.413513653",
+            "5.599658823"
+          ],
+          [
+            "7.400037808",
+            "5.367879212"
+          ],
+          [
+            "9.386561963",
+            "5.136099601"
+          ],
+          [
+            "11.373086119",
+            "4.904319990"
+          ],
+          [
+            "13.359610274",
+            "4.672540379"
+          ],
+          [
+            "4.219524544",
+            "3.995168245"
+          ],
+          [
+            "6.206048699",
+            "3.763388634"
+          ],
+          [
+            "8.192572855",
+            "3.531609023"
+          ],
+          [
+            "10.179022178",
+            "3.299187845"
+          ],
+          [
+            "12.165621165",
+            "3.068049801"
+          ],
+          [
+            "14.152145321",
+            "2.836270190"
+          ],
+          [
+            "3.680965196",
+            "2.069044200"
+          ],
+          [
+            "7.208418964",
+            "1.790505600"
+          ],
+          [
+            "10.995122050",
+            "1.446343346"
+          ],
+          [
+            "1.990656198",
+            "1.000000001"
+          ],
+          [
+            "5.371274194",
+            "1.000000001"
+          ],
+          [
+            "9.045563734",
+            "1.000000001"
+          ],
+          [
+            "12.944680365",
+            "1.000000001"
+          ],
+          [
+            "14.944680367",
+            "1.000000001"
+          ]
+        ],
+        "triangle": [
+          [
+            "0.000000000",
+            "0.000000000"
+          ],
+          [
+            "16.465445159",
+            "0.000000000"
+          ],
+          [
+            "10.421249699",
+            "14.004145292"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p66-n30-v1",
+      "name": "n = 30",
+      "parameters": {
+        "n": 30
+      },
+      "objective": "minimize",
+      "scoreStored": "237697244921564683273",
+      "scoreDisplay": "118.848622460782341636",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "237.697244921564683273",
+        "kind": "best",
+        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
+        "url": "https://erich-friedman.github.io/packing/cirinttt/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "centers": [
+          [
+            "10.322612852",
+            "11.392304857"
+          ],
+          [
+            "9.322612851",
+            "9.660254048"
+          ],
+          [
+            "11.322612853",
+            "9.660254048"
+          ],
+          [
+            "7.862275420",
+            "8.293720258"
+          ],
+          [
+            "12.322612854",
+            "7.928203238"
+          ],
+          [
+            "10.322612852",
+            "7.928203238"
+          ],
+          [
+            "7.329829205",
+            "6.365897383"
+          ],
+          [
+            "13.322612855",
+            "6.196152429"
+          ],
+          [
+            "9.322612851",
+            "6.196152429"
+          ],
+          [
+            "11.322612853",
+            "6.196152429"
+          ],
+          [
+            "5.572846684",
+            "5.410380544"
+          ],
+          [
+            "8.240247051",
+            "4.514342605"
+          ],
+          [
+            "10.322612852",
+            "4.464101620"
+          ],
+          [
+            "12.322612854",
+            "4.464101620"
+          ],
+          [
+            "14.322612856",
+            "4.464101620"
+          ],
+          [
+            "5.442692836",
+            "3.414620042"
+          ],
+          [
+            "3.528364154",
+            "2.835529631"
+          ],
+          [
+            "7.322612849",
+            "2.732050810"
+          ],
+          [
+            "9.322612851",
+            "2.732050810"
+          ],
+          [
+            "11.322612853",
+            "2.732050810"
+          ],
+          [
+            "13.322612855",
+            "2.732050810"
+          ],
+          [
+            "15.322612857",
+            "2.732050810"
+          ],
+          [
+            "2.213183281",
+            "1.027549380"
+          ],
+          [
+            "4.322612846",
+            "1.000000001"
+          ],
+          [
+            "6.322612848",
+            "1.000000001"
+          ],
+          [
+            "8.322612850",
+            "1.000000001"
+          ],
+          [
+            "10.322612852",
+            "1.000000001"
+          ],
+          [
+            "12.322612854",
+            "1.000000001"
+          ],
+          [
+            "14.322612856",
+            "1.000000001"
+          ],
+          [
+            "16.322612858",
+            "1.000000001"
+          ]
+        ],
+        "triangle": [
+          [
+            "0.000000000",
+            "0.000000000"
+          ],
+          [
+            "18.054663667",
+            "0.000000000"
+          ],
+          [
+            "10.453604413",
+            "13.165420819"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p66-n31-v1",
+      "name": "n = 31",
+      "parameters": {
+        "n": 31
+      },
+      "objective": "minimize",
+      "scoreStored": "245176089753123745041",
+      "scoreDisplay": "122.58804487656187252",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "245.176089753123745041",
+        "kind": "best",
+        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
+        "url": "https://erich-friedman.github.io/packing/cirinttt/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "centers": [
+          [
+            "11.712230595",
+            "12.293207294"
+          ],
+          [
+            "10.420323202",
+            "10.766454107"
+          ],
+          [
+            "12.388483944",
+            "10.411006079"
+          ],
+          [
+            "9.128415809",
+            "9.239700919"
+          ],
+          [
+            "11.096576551",
+            "8.884252891"
+          ],
+          [
+            "13.064737293",
+            "8.528804863"
+          ],
+          [
+            "7.836508416",
+            "7.712947732"
+          ],
+          [
+            "9.804669158",
+            "7.357499704"
+          ],
+          [
+            "11.772829900",
+            "7.002051676"
+          ],
+          [
+            "13.740990642",
+            "6.646603648"
+          ],
+          [
+            "6.544601023",
+            "6.186194545"
+          ],
+          [
+            "8.512761765",
+            "5.830746516"
+          ],
+          [
+            "10.480922507",
+            "5.475298488"
+          ],
+          [
+            "12.449083249",
+            "5.119850460"
+          ],
+          [
+            "14.417243991",
+            "4.764402432"
+          ],
+          [
+            "5.252693629",
+            "4.659441357"
+          ],
+          [
+            "7.177938668",
+            "4.033795876"
+          ],
+          [
+            "9.189015114",
+            "3.948545301"
+          ],
+          [
+            "11.152080137",
+            "3.565950833"
+          ],
+          [
+            "13.125336598",
+            "3.237649245"
+          ],
+          [
+            "15.093497341",
+            "2.882201217"
+          ],
+          [
+            "3.648402369",
+            "2.763518469"
+          ],
+          [
+            "5.647353913",
+            "2.698767170"
+          ],
+          [
+            "8.351465855",
+            "2.132364900"
+          ],
+          [
+            "11.884888221",
+            "1.668800039"
+          ],
+          [
+            "2.579117888",
+            "1.055341269"
+          ],
+          [
+            "4.591801871",
+            "1.000000001"
+          ],
+          [
+            "6.702905955",
+            "1.000000001"
+          ],
+          [
+            "10.000025755",
+            "1.000000001"
+          ],
+          [
+            "13.769750688",
+            "1.000000001"
+          ],
+          [
+            "15.769750690",
+            "1.000000001"
+          ]
+        ],
+        "triangle": [
+          [
+            "0.000000000",
+            "0.000000000"
+          ],
+          [
+            "17.191624893",
+            "0.000000000"
+          ],
+          [
+            "12.067678623",
+            "14.261368037"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p66-n32-v1",
+      "name": "n = 32",
+      "parameters": {
+        "n": 32
+      },
+      "objective": "minimize",
+      "scoreStored": "254149808358467543340",
+      "scoreDisplay": "127.07490417923377167",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "254.14980835846754334",
+        "kind": "best",
+        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
+        "url": "https://erich-friedman.github.io/packing/cirinttt/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "centers": [
+          [
+            "6.815936727",
+            "12.743782415"
+          ],
+          [
+            "7.986641417",
+            "11.122224357"
+          ],
+          [
+            "5.996978600",
+            "10.919143384"
+          ],
+          [
+            "9.157346107",
+            "9.500666298"
+          ],
+          [
+            "7.167683290",
+            "9.297585326"
+          ],
+          [
+            "5.178020473",
+            "9.094504353"
+          ],
+          [
+            "10.328050797",
+            "7.879108240"
+          ],
+          [
+            "8.338387980",
+            "7.676027267"
+          ],
+          [
+            "6.348725163",
+            "7.472946295"
+          ],
+          [
+            "4.359062345",
+            "7.269865322"
+          ],
+          [
+            "11.498755487",
+            "6.257550182"
+          ],
+          [
+            "9.509092670",
+            "6.054469209"
+          ],
+          [
+            "7.519429853",
+            "5.851388236"
+          ],
+          [
+            "5.529767035",
+            "5.648307264"
+          ],
+          [
+            "3.540104218",
+            "5.445226291"
+          ],
+          [
+            "12.669460177",
+            "4.635992123"
+          ],
+          [
+            "10.679797360",
+            "4.432911150"
+          ],
+          [
+            "8.690134543",
+            "4.229830178"
+          ],
+          [
+            "6.700471725",
+            "4.026749205"
+          ],
+          [
+            "2.721146091",
+            "3.620587260"
+          ],
+          [
+            "4.710329755",
+            "3.412521954"
+          ],
+          [
+            "12.040009645",
+            "2.737626501"
+          ],
+          [
+            "14.040009647",
+            "2.737626501"
+          ],
+          [
+            "9.860839233",
+            "2.608272119"
+          ],
+          [
+            "6.966365549",
+            "2.044502883"
+          ],
+          [
+            "3.402861305",
+            "1.740357387"
+          ],
+          [
+            "15.104494893",
+            "1.044404221"
+          ],
+          [
+            "1.544940169",
+            "1.000000001"
+          ],
+          [
+            "5.260782441",
+            "1.000000001"
+          ],
+          [
+            "8.671948657",
+            "1.000000001"
+          ],
+          [
+            "11.049729808",
+            "1.000000001"
+          ],
+          [
+            "13.049729810",
+            "1.000000001"
+          ]
+        ],
+        "triangle": [
+          [
+            "0.000000000",
+            "0.000000000"
+          ],
+          [
+            "17.249855980",
+            "0.000000000"
+          ],
+          [
+            "6.612855755",
+            "14.733445233"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p66-n33-v1",
+      "name": "n = 33",
+      "parameters": {
+        "n": 33
+      },
+      "objective": "minimize",
+      "scoreStored": "258412702508676629912",
+      "scoreDisplay": "129.206351254338314956",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "258.412702508676629912",
+        "kind": "best",
+        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
+        "url": "https://erich-friedman.github.io/packing/cirinttt/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "centers": [
+          [
+            "8.416131781",
+            "12.577167824"
+          ],
+          [
+            "9.511128653",
+            "10.903554383"
+          ],
+          [
+            "7.416131769",
+            "10.845116995"
+          ],
+          [
+            "7.508384500",
+            "8.847245745"
+          ],
+          [
+            "9.507591614",
+            "8.903557486"
+          ],
+          [
+            "11.341606760",
+            "8.105817839"
+          ],
+          [
+            "5.732050878",
+            "7.928203328"
+          ],
+          [
+            "8.508384512",
+            "7.115194916"
+          ],
+          [
+            "12.436603632",
+            "6.432204399"
+          ],
+          [
+            "10.361348990",
+            "6.362517865"
+          ],
+          [
+            "4.732050866",
+            "6.196152499"
+          ],
+          [
+            "6.732050890",
+            "6.196152499"
+          ],
+          [
+            "3.732050854",
+            "4.464101670"
+          ],
+          [
+            "5.732050878",
+            "4.464101670"
+          ],
+          [
+            "11.729687500",
+            "4.561303631"
+          ],
+          [
+            "13.727108724",
+            "4.459772583"
+          ],
+          [
+            "7.732050903",
+            "4.464101670"
+          ],
+          [
+            "9.732050927",
+            "4.464101670"
+          ],
+          [
+            "14.823110098",
+            "2.784623842"
+          ],
+          [
+            "10.756733930",
+            "2.746069230"
+          ],
+          [
+            "2.732050841",
+            "2.732050841"
+          ],
+          [
+            "4.732050866",
+            "2.732050841"
+          ],
+          [
+            "6.732050890",
+            "2.732050841"
+          ],
+          [
+            "8.732050915",
+            "2.732050841"
+          ],
+          [
+            "12.826161129",
+            "2.674193257"
+          ],
+          [
+            "1.732050829",
+            "1.000000012"
+          ],
+          [
+            "3.732050854",
+            "1.000000012"
+          ],
+          [
+            "5.732050878",
+            "1.000000012"
+          ],
+          [
+            "7.732050903",
+            "1.000000012"
+          ],
+          [
+            "9.732050927",
+            "1.000000012"
+          ],
+          [
+            "11.732050952",
+            "1.000000012"
+          ],
+          [
+            "13.920271306",
+            "1.000000012"
+          ],
+          [
+            "15.921798483",
+            "1.059700993"
+          ]
+        ],
+        "triangle": [
+          [
+            "0.000000000",
+            "0.000000000"
+          ],
+          [
+            "17.840028056",
+            "0.000000000"
+          ],
+          [
+            "8.362915287",
+            "14.484994177"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p66-n34-v1",
+      "name": "n = 34",
+      "parameters": {
+        "n": 34
+      },
+      "objective": "minimize",
+      "scoreStored": "263171846107030995832",
+      "scoreDisplay": "131.585923053515497916",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "263.171846107030995832",
+        "kind": "best",
+        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
+        "url": "https://erich-friedman.github.io/packing/cirinttt/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "centers": [
+          [
+            "8.864058528",
+            "12.894307383"
+          ],
+          [
+            "9.229697695",
+            "10.928014422"
+          ],
+          [
+            "7.325247607",
+            "10.317219963"
+          ],
+          [
+            "10.787278395",
+            "9.673445823"
+          ],
+          [
+            "7.867719629",
+            "8.392194219"
+          ],
+          [
+            "5.915720775",
+            "7.956648032"
+          ],
+          [
+            "9.812838953",
+            "7.926886983"
+          ],
+          [
+            "11.812622999",
+            "7.956277092"
+          ],
+          [
+            "4.864391967",
+            "6.195959822"
+          ],
+          [
+            "6.864391969",
+            "6.195959822"
+          ],
+          [
+            "8.864170507",
+            "6.166197293"
+          ],
+          [
+            "10.863954552",
+            "6.195587402"
+          ],
+          [
+            "12.863954554",
+            "6.195587402"
+          ],
+          [
+            "3.838716600",
+            "4.478234110"
+          ],
+          [
+            "13.889299158",
+            "4.478418670"
+          ],
+          [
+            "5.838506130",
+            "4.449219542"
+          ],
+          [
+            "7.838506132",
+            "4.449219542"
+          ],
+          [
+            "9.889515110",
+            "4.449028562"
+          ],
+          [
+            "11.889515112",
+            "4.449028562"
+          ],
+          [
+            "2.800435918",
+            "2.739397942"
+          ],
+          [
+            "4.800381241",
+            "2.724608971"
+          ],
+          [
+            "6.838506131",
+            "2.717168732"
+          ],
+          [
+            "8.863850735",
+            "2.732050810"
+          ],
+          [
+            "10.889515111",
+            "2.716977752"
+          ],
+          [
+            "12.927799858",
+            "2.724702871"
+          ],
+          [
+            "14.927746543",
+            "2.739306402"
+          ],
+          [
+            "1.778291890",
+            "1.020322146"
+          ],
+          [
+            "15.955231727",
+            "1.015125913"
+          ],
+          [
+            "3.787600955",
+            "1.000000001"
+          ],
+          [
+            "5.813161527",
+            "1.000000001"
+          ],
+          [
+            "7.863850734",
+            "1.000000001"
+          ],
+          [
+            "9.863850736",
+            "1.000000001"
+          ],
+          [
+            "11.915179486",
+            "1.000000001"
+          ],
+          [
+            "13.940420229",
+            "1.000000001"
+          ]
+        ],
+        "triangle": [
+          [
+            "0.000000000",
+            "0.000000000"
+          ],
+          [
+            "17.728131242",
+            "0.000000000"
+          ],
+          [
+            "8.864057768",
+            "14.844872396"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p66-n35-v1",
+      "name": "n = 35",
+      "parameters": {
+        "n": 35
+      },
+      "objective": "minimize",
+      "scoreStored": "264133284087836543328",
+      "scoreDisplay": "132.066642043918271664",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "264.133284087836543328",
+        "kind": "best",
+        "exact": "42 + 52√3",
+        "source": "Friedman's current table says the best known construction for this row is equilateral; the standard triangular-lattice construction is generated and verified exactly on the nine-decimal grid here",
+        "url": "https://erich-friedman.github.io/packing/cirinttt/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "centers": [
+          [
+            "1.732050808",
+            "1.000000000"
+          ],
+          [
+            "3.732050808",
+            "1.000000000"
+          ],
+          [
+            "5.732050808",
+            "1.000000000"
+          ],
+          [
+            "7.732050808",
+            "1.000000000"
+          ],
+          [
+            "9.732050808",
+            "1.000000000"
+          ],
+          [
+            "11.732050808",
+            "1.000000000"
+          ],
+          [
+            "13.732050808",
+            "1.000000000"
+          ],
+          [
+            "15.732050808",
+            "1.000000000"
+          ],
+          [
+            "2.732050808",
+            "2.732050808"
+          ],
+          [
+            "4.732050808",
+            "2.732050808"
+          ],
+          [
+            "6.732050808",
+            "2.732050808"
+          ],
+          [
+            "8.732050808",
+            "2.732050808"
+          ],
+          [
+            "10.732050808",
+            "2.732050808"
+          ],
+          [
+            "12.732050808",
+            "2.732050808"
+          ],
+          [
+            "14.732050808",
+            "2.732050808"
+          ],
+          [
+            "3.732050808",
+            "4.464101616"
+          ],
+          [
+            "5.732050808",
+            "4.464101616"
+          ],
+          [
+            "7.732050808",
+            "4.464101616"
+          ],
+          [
+            "9.732050808",
+            "4.464101616"
+          ],
+          [
+            "11.732050808",
+            "4.464101616"
+          ],
+          [
+            "13.732050808",
+            "4.464101616"
+          ],
+          [
+            "4.732050808",
+            "6.196152424"
+          ],
+          [
+            "6.732050808",
+            "6.196152424"
+          ],
+          [
+            "8.732050808",
+            "6.196152424"
+          ],
+          [
+            "10.732050808",
+            "6.196152424"
+          ],
+          [
+            "12.732050808",
+            "6.196152424"
+          ],
+          [
+            "5.732050808",
+            "7.928203232"
+          ],
+          [
+            "7.732050808",
+            "7.928203232"
+          ],
+          [
+            "9.732050808",
+            "7.928203232"
+          ],
+          [
+            "11.732050808",
+            "7.928203232"
+          ],
+          [
+            "6.732050808",
+            "9.660254040"
+          ],
+          [
+            "8.732050808",
+            "9.660254040"
+          ],
+          [
+            "10.732050808",
+            "9.660254040"
+          ],
+          [
+            "7.732050808",
+            "11.392304848"
+          ],
+          [
+            "9.732050808",
+            "11.392304848"
+          ]
+        ],
+        "triangle": [
+          [
+            "0.000000000",
+            "0.000000000"
+          ],
+          [
+            "17.464101616",
+            "0.000000000"
+          ],
+          [
+            "8.732050808",
+            "15.124355658"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p66-n36-v1",
+      "name": "n = 36",
+      "parameters": {
+        "n": 36
+      },
+      "objective": "minimize",
+      "scoreStored": "264133284087836543328",
+      "scoreDisplay": "132.066642043918271664",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "264.133284087836543328",
+        "kind": "best",
+        "exact": "42 + 52√3",
+        "source": "Friedman's current table says the best known construction for this row is equilateral; the standard triangular-lattice construction is generated and verified exactly on the nine-decimal grid here",
+        "url": "https://erich-friedman.github.io/packing/cirinttt/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "centers": [
+          [
+            "1.732050808",
+            "1.000000000"
+          ],
+          [
+            "3.732050808",
+            "1.000000000"
+          ],
+          [
+            "5.732050808",
+            "1.000000000"
+          ],
+          [
+            "7.732050808",
+            "1.000000000"
+          ],
+          [
+            "9.732050808",
+            "1.000000000"
+          ],
+          [
+            "11.732050808",
+            "1.000000000"
+          ],
+          [
+            "13.732050808",
+            "1.000000000"
+          ],
+          [
+            "15.732050808",
+            "1.000000000"
+          ],
+          [
+            "2.732050808",
+            "2.732050808"
+          ],
+          [
+            "4.732050808",
+            "2.732050808"
+          ],
+          [
+            "6.732050808",
+            "2.732050808"
+          ],
+          [
+            "8.732050808",
+            "2.732050808"
+          ],
+          [
+            "10.732050808",
+            "2.732050808"
+          ],
+          [
+            "12.732050808",
+            "2.732050808"
+          ],
+          [
+            "14.732050808",
+            "2.732050808"
+          ],
+          [
+            "3.732050808",
+            "4.464101616"
+          ],
+          [
+            "5.732050808",
+            "4.464101616"
+          ],
+          [
+            "7.732050808",
+            "4.464101616"
+          ],
+          [
+            "9.732050808",
+            "4.464101616"
+          ],
+          [
+            "11.732050808",
+            "4.464101616"
+          ],
+          [
+            "13.732050808",
+            "4.464101616"
+          ],
+          [
+            "4.732050808",
+            "6.196152424"
+          ],
+          [
+            "6.732050808",
+            "6.196152424"
+          ],
+          [
+            "8.732050808",
+            "6.196152424"
+          ],
+          [
+            "10.732050808",
+            "6.196152424"
+          ],
+          [
+            "12.732050808",
+            "6.196152424"
+          ],
+          [
+            "5.732050808",
+            "7.928203232"
+          ],
+          [
+            "7.732050808",
+            "7.928203232"
+          ],
+          [
+            "9.732050808",
+            "7.928203232"
+          ],
+          [
+            "11.732050808",
+            "7.928203232"
+          ],
+          [
+            "6.732050808",
+            "9.660254040"
+          ],
+          [
+            "8.732050808",
+            "9.660254040"
+          ],
+          [
+            "10.732050808",
+            "9.660254040"
+          ],
+          [
+            "7.732050808",
+            "11.392304848"
+          ],
+          [
+            "9.732050808",
+            "11.392304848"
+          ],
+          [
+            "8.732050808",
+            "13.124355656"
+          ]
+        ],
+        "triangle": [
+          [
+            "0.000000000",
+            "0.000000000"
+          ],
+          [
+            "17.464101616",
+            "0.000000000"
+          ],
+          [
+            "8.732050808",
+            "15.124355658"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p66-n37-v1",
+      "name": "n = 37",
+      "parameters": {
+        "n": 37
+      },
+      "objective": "minimize",
+      "scoreStored": "289872062589602236496",
+      "scoreDisplay": "144.936031294801118248",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "289.872062589602236496",
+        "kind": "best",
+        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
+        "url": "https://erich-friedman.github.io/packing/cirinttt/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "centers": [
+          [
+            "7.732050879",
+            "11.392304950"
+          ],
+          [
+            "9.243187909",
+            "10.082165664"
+          ],
+          [
+            "6.732050870",
+            "9.660254127"
+          ],
+          [
+            "9.720801470",
+            "8.140031436"
+          ],
+          [
+            "5.732050860",
+            "7.928203303"
+          ],
+          [
+            "7.732050879",
+            "7.928203303"
+          ],
+          [
+            "11.711030198",
+            "7.942573374"
+          ],
+          [
+            "13.222167228",
+            "6.632434088"
+          ],
+          [
+            "4.732050851",
+            "6.196152480"
+          ],
+          [
+            "6.732050870",
+            "6.196152480"
+          ],
+          [
+            "8.732206275",
+            "6.196242202"
+          ],
+          [
+            "10.734135466",
+            "6.197386635"
+          ],
+          [
+            "13.718672660",
+            "4.695043464"
+          ],
+          [
+            "5.732050860",
+            "4.464101656"
+          ],
+          [
+            "3.732050842",
+            "4.464101656"
+          ],
+          [
+            "7.732050879",
+            "4.464101656"
+          ],
+          [
+            "9.732050897",
+            "4.464101675"
+          ],
+          [
+            "11.732050916",
+            "4.464101656"
+          ],
+          [
+            "15.706883948",
+            "4.478211851"
+          ],
+          [
+            "17.218020978",
+            "3.168072565"
+          ],
+          [
+            "2.732050833",
+            "2.732050833"
+          ],
+          [
+            "4.732050851",
+            "2.732050833"
+          ],
+          [
+            "6.732050870",
+            "2.732050833"
+          ],
+          [
+            "8.732050888",
+            "2.732050833"
+          ],
+          [
+            "10.732050906",
+            "2.732050833"
+          ],
+          [
+            "12.739156308",
+            "2.736133964"
+          ],
+          [
+            "14.739284436",
+            "2.727854386"
+          ],
+          [
+            "17.732615415",
+            "1.235407917"
+          ],
+          [
+            "1.732050824",
+            "1.000000009"
+          ],
+          [
+            "3.732050842",
+            "1.000000009"
+          ],
+          [
+            "5.732050860",
+            "1.000000009"
+          ],
+          [
+            "7.732050879",
+            "1.000000009"
+          ],
+          [
+            "9.732050897",
+            "1.000000009"
+          ],
+          [
+            "11.732050916",
+            "1.000000009"
+          ],
+          [
+            "13.732050934",
+            "1.000000009"
+          ],
+          [
+            "15.746517938",
+            "1.000000009"
+          ],
+          [
+            "19.718712893",
+            "1.000000009"
+          ]
+        ],
+        "triangle": [
+          [
+            "0.000000000",
+            "0.000000000"
+          ],
+          [
+            "22.398685256",
+            "0.000000000"
+          ],
+          [
+            "7.471765037",
+            "12.941476666"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p66-n38-v1",
+      "name": "n = 38",
+      "parameters": {
+        "n": 38
+      },
+      "objective": "minimize",
+      "scoreStored": "296742822592035023154",
+      "scoreDisplay": "148.371411296017511577",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "296.742822592035023154",
+        "kind": "best",
+        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
+        "url": "https://erich-friedman.github.io/packing/cirinttt/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "centers": [
+          [
+            "7.502178606",
+            "14.851773021"
+          ],
+          [
+            "8.511018145",
+            "13.124355726"
+          ],
+          [
+            "6.533139748",
+            "12.827712687"
+          ],
+          [
+            "9.511018150",
+            "11.392304909"
+          ],
+          [
+            "6.914080813",
+            "10.864326849"
+          ],
+          [
+            "5.236872497",
+            "9.774844260"
+          ],
+          [
+            "8.511018145",
+            "9.660254092"
+          ],
+          [
+            "10.511018156",
+            "9.660254092"
+          ],
+          [
+            "7.426058473",
+            "7.980116432"
+          ],
+          [
+            "9.511018150",
+            "7.928203275"
+          ],
+          [
+            "11.511018161",
+            "7.928203275"
+          ],
+          [
+            "5.283829790",
+            "7.775395572"
+          ],
+          [
+            "3.812625525",
+            "6.420567886"
+          ],
+          [
+            "8.511018145",
+            "6.196152457"
+          ],
+          [
+            "12.511018167",
+            "6.196152457"
+          ],
+          [
+            "6.511018133",
+            "6.196152457"
+          ],
+          [
+            "10.511018156",
+            "6.196152457"
+          ],
+          [
+            "3.483388719",
+            "4.447853216"
+          ],
+          [
+            "5.498784259",
+            "4.471222697"
+          ],
+          [
+            "7.511018139",
+            "4.464101640"
+          ],
+          [
+            "9.511018150",
+            "4.464101640"
+          ],
+          [
+            "11.511018161",
+            "4.464101640"
+          ],
+          [
+            "13.511018173",
+            "4.464101640"
+          ],
+          [
+            "2.292685502",
+            "2.840922635"
+          ],
+          [
+            "4.511018122",
+            "2.732050823"
+          ],
+          [
+            "6.511018133",
+            "2.732050823"
+          ],
+          [
+            "8.511018145",
+            "2.732050823"
+          ],
+          [
+            "10.511018156",
+            "2.732050823"
+          ],
+          [
+            "12.511018167",
+            "2.732050823"
+          ],
+          [
+            "14.511018178",
+            "2.732050823"
+          ],
+          [
+            "1.511018105",
+            "1.000000006"
+          ],
+          [
+            "7.511018139",
+            "1.000000006"
+          ],
+          [
+            "9.511018150",
+            "1.000000006"
+          ],
+          [
+            "11.511018161",
+            "1.000000006"
+          ],
+          [
+            "13.511018173",
+            "1.000000006"
+          ],
+          [
+            "3.511018117",
+            "1.000000006"
+          ],
+          [
+            "5.511018128",
+            "1.000000006"
+          ],
+          [
+            "15.511018184",
+            "1.000000006"
+          ]
+        ],
+        "triangle": [
+          [
+            "0.000000000",
+            "0.000000000"
+          ],
+          [
+            "17.243069001",
+            "0.000000000"
+          ],
+          [
+            "7.307218921",
+            "17.209397154"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p66-n39-v1",
+      "name": "n = 39",
+      "parameters": {
+        "n": 39
+      },
+      "objective": "minimize",
+      "scoreStored": "303661462607708138640",
+      "scoreDisplay": "151.83073130385406932",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "303.66146260770813864",
+        "kind": "best",
+        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
+        "url": "https://erich-friedman.github.io/packing/cirinttt/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "centers": [
+          [
+            "10.003904230",
+            "15.056574842"
+          ],
+          [
+            "8.886981509",
+            "13.392703456"
+          ],
+          [
+            "10.878519520",
+            "13.208919553"
+          ],
+          [
+            "9.723588986",
+            "11.576088994"
+          ],
+          [
+            "7.732050974",
+            "11.392305091"
+          ],
+          [
+            "11.684352136",
+            "11.181870731"
+          ],
+          [
+            "6.732050953",
+            "9.660254246"
+          ],
+          [
+            "8.851625356",
+            "9.726770584"
+          ],
+          [
+            "11.250887941",
+            "9.229408448"
+          ],
+          [
+            "12.906553448",
+            "8.107458404"
+          ],
+          [
+            "5.732050931",
+            "7.928203401"
+          ],
+          [
+            "7.732050974",
+            "7.928203401"
+          ],
+          [
+            "9.732051018",
+            "7.928203401"
+          ],
+          [
+            "10.802998665",
+            "6.239099666"
+          ],
+          [
+            "4.732050910",
+            "6.196152556"
+          ],
+          [
+            "8.732050996",
+            "6.196152556"
+          ],
+          [
+            "6.732050953",
+            "6.196152556"
+          ],
+          [
+            "12.871511437",
+            "6.107765370"
+          ],
+          [
+            "14.269927879",
+            "4.677929146"
+          ],
+          [
+            "5.732050931",
+            "4.464101712"
+          ],
+          [
+            "9.732051018",
+            "4.464101712"
+          ],
+          [
+            "3.732050888",
+            "4.464101712"
+          ],
+          [
+            "7.732050974",
+            "4.464101712"
+          ],
+          [
+            "11.732051061",
+            "4.464101712"
+          ],
+          [
+            "2.732050867",
+            "2.732050867"
+          ],
+          [
+            "4.732050910",
+            "2.732050867"
+          ],
+          [
+            "6.732050953",
+            "2.732050867"
+          ],
+          [
+            "8.732050996",
+            "2.732050867"
+          ],
+          [
+            "10.732051039",
+            "2.732050867"
+          ],
+          [
+            "12.732051082",
+            "2.732050867"
+          ],
+          [
+            "14.732051126",
+            "2.732050867"
+          ],
+          [
+            "1.732050845",
+            "1.000000022"
+          ],
+          [
+            "3.732050888",
+            "1.000000022"
+          ],
+          [
+            "5.732050931",
+            "1.000000022"
+          ],
+          [
+            "7.732050974",
+            "1.000000022"
+          ],
+          [
+            "9.732051018",
+            "1.000000022"
+          ],
+          [
+            "11.732051061",
+            "1.000000022"
+          ],
+          [
+            "13.732051104",
+            "1.000000022"
+          ],
+          [
+            "15.732051147",
+            "1.000000022"
+          ]
+        ],
+        "triangle": [
+          [
+            "0.000000000",
+            "0.000000000"
+          ],
+          [
+            "17.205712692",
+            "0.000000000"
+          ],
+          [
+            "10.189582397",
+            "17.648874420"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p66-n40-v1",
+      "name": "n = 40",
+      "parameters": {
+        "n": 40
+      },
+      "objective": "minimize",
+      "scoreStored": "310276878163899201500",
+      "scoreDisplay": "155.13843908194960075",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "310.2768781638992015",
+        "kind": "best",
+        "exact": "72 + 48√3",
+        "source": "Graham–Lubachevsky equilateral-triangle construction, still listed by Friedman's current table as best known among arbitrary triangles; public numerical data was recovered algebraically and quantized to the nine-decimal grid here",
+        "url": "https://erich-friedman.github.io/packing/cirinttt/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "centers": [
+          [
+            "10.464101626",
+            "7.196152430"
+          ],
+          [
+            "8.464101624",
+            "12.660254051"
+          ],
+          [
+            "9.464101625",
+            "10.928203241"
+          ],
+          [
+            "12.196152435",
+            "2.732050810"
+          ],
+          [
+            "16.196152439",
+            "2.732050810"
+          ],
+          [
+            "8.464101624",
+            "9.196152432"
+          ],
+          [
+            "11.196152434",
+            "1.000000001"
+          ],
+          [
+            "5.732050814",
+            "4.464101620"
+          ],
+          [
+            "5.732050814",
+            "1.000000001"
+          ],
+          [
+            "11.464101627",
+            "10.928203241"
+          ],
+          [
+            "6.464101622",
+            "9.196152432"
+          ],
+          [
+            "6.732050815",
+            "2.732050810"
+          ],
+          [
+            "10.464101626",
+            "12.660254051"
+          ],
+          [
+            "9.464101625",
+            "5.464101621"
+          ],
+          [
+            "7.464101623",
+            "5.464101621"
+          ],
+          [
+            "1.732050810",
+            "1.000000001"
+          ],
+          [
+            "8.464101624",
+            "3.732050811"
+          ],
+          [
+            "9.464101625",
+            "2.000000002"
+          ],
+          [
+            "3.732050812",
+            "4.464101620"
+          ],
+          [
+            "4.732050813",
+            "2.732050810"
+          ],
+          [
+            "11.464101627",
+            "5.464101621"
+          ],
+          [
+            "12.464101628",
+            "7.196152430"
+          ],
+          [
+            "14.196152437",
+            "6.196152429"
+          ],
+          [
+            "10.464101626",
+            "3.732050811"
+          ],
+          [
+            "8.464101624",
+            "7.196152430"
+          ],
+          [
+            "15.196152438",
+            "1.000000001"
+          ],
+          [
+            "7.732050816",
+            "1.000000001"
+          ],
+          [
+            "15.196152438",
+            "4.464101620"
+          ],
+          [
+            "17.196152440",
+            "1.000000001"
+          ],
+          [
+            "14.196152437",
+            "2.732050810"
+          ],
+          [
+            "13.196152436",
+            "1.000000001"
+          ],
+          [
+            "4.732050813",
+            "6.196152429"
+          ],
+          [
+            "3.732050812",
+            "1.000000001"
+          ],
+          [
+            "6.464101622",
+            "7.196152430"
+          ],
+          [
+            "9.464101625",
+            "14.392304860"
+          ],
+          [
+            "10.464101626",
+            "9.196152432"
+          ],
+          [
+            "7.464101623",
+            "10.928203241"
+          ],
+          [
+            "12.464101628",
+            "9.196152432"
+          ],
+          [
+            "2.732050811",
+            "2.732050810"
+          ],
+          [
+            "13.196152436",
+            "4.464101620"
+          ]
+        ],
+        "triangle": [
+          [
+            "0.000000000",
+            "0.000000000"
+          ],
+          [
+            "18.928203250",
+            "0.000000000"
+          ],
+          [
+            "9.464101625",
+            "16.392304862"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p66-n41-v1",
+      "name": "n = 41",
+      "parameters": {
+        "n": 41
+      },
+      "objective": "minimize",
+      "scoreStored": "320221102652663832477",
+      "scoreDisplay": "160.110551326331916238",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "320.221102652663832477",
+        "kind": "best",
+        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
+        "url": "https://erich-friedman.github.io/packing/cirinttt/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "centers": [
+          [
+            "8.766108866",
+            "14.971117785"
+          ],
+          [
+            "9.845454227",
+            "13.274998620"
+          ],
+          [
+            "7.848053267",
+            "13.173069543"
+          ],
+          [
+            "8.935026917",
+            "11.494234109"
+          ],
+          [
+            "6.937744435",
+            "11.390009254"
+          ],
+          [
+            "10.932427877",
+            "11.392305032"
+          ],
+          [
+            "9.861808768",
+            "9.699193629"
+          ],
+          [
+            "11.932427893",
+            "9.660254196"
+          ],
+          [
+            "7.851597005",
+            "9.611000089"
+          ],
+          [
+            "5.874712542",
+            "9.307803865"
+          ],
+          [
+            "8.932427844",
+            "7.928203360"
+          ],
+          [
+            "10.932427877",
+            "7.928203360"
+          ],
+          [
+            "12.932427909",
+            "7.928203360"
+          ],
+          [
+            "6.964845429",
+            "7.569567649"
+          ],
+          [
+            "4.965308803",
+            "7.526516418"
+          ],
+          [
+            "9.932427860",
+            "6.196152524"
+          ],
+          [
+            "11.932427893",
+            "6.196152524"
+          ],
+          [
+            "13.932427926",
+            "6.196152524"
+          ],
+          [
+            "5.192253537",
+            "5.539434079"
+          ],
+          [
+            "7.282871543",
+            "5.595014656"
+          ],
+          [
+            "3.449705476",
+            "4.557840280"
+          ],
+          [
+            "8.932427844",
+            "4.464101688"
+          ],
+          [
+            "10.932427877",
+            "4.464101688"
+          ],
+          [
+            "12.932427909",
+            "4.464101688"
+          ],
+          [
+            "14.932427942",
+            "4.464101688"
+          ],
+          [
+            "6.282871526",
+            "3.862963820"
+          ],
+          [
+            "2.633315192",
+            "2.732050852"
+          ],
+          [
+            "7.932427827",
+            "2.732050852"
+          ],
+          [
+            "9.932427860",
+            "2.732050852"
+          ],
+          [
+            "11.932427893",
+            "2.732050852"
+          ],
+          [
+            "13.932427926",
+            "2.732050852"
+          ],
+          [
+            "15.932427958",
+            "2.732050852"
+          ],
+          [
+            "5.282871510",
+            "2.130912984"
+          ],
+          [
+            "1.633315176",
+            "1.000000016"
+          ],
+          [
+            "3.633315209",
+            "1.000000016"
+          ],
+          [
+            "10.932427877",
+            "1.000000016"
+          ],
+          [
+            "12.932427909",
+            "1.000000016"
+          ],
+          [
+            "14.932427942",
+            "1.000000016"
+          ],
+          [
+            "16.932427975",
+            "1.000000016"
+          ],
+          [
+            "6.932427811",
+            "1.000000016"
+          ],
+          [
+            "8.932427844",
+            "1.000000016"
+          ]
+        ],
+        "triangle": [
+          [
+            "0.000000000",
+            "0.000000000"
+          ],
+          [
+            "18.664478811",
+            "0.000000000"
+          ],
+          [
+            "8.759046053",
+            "17.156712807"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p66-n42-v1",
+      "name": "n = 42",
+      "parameters": {
+        "n": 42
+      },
+      "objective": "minimize",
+      "scoreStored": "323774183277407798056",
+      "scoreDisplay": "161.887091638703899028",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "323.774183277407798056",
+        "kind": "best",
+        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
+        "url": "https://erich-friedman.github.io/packing/cirinttt/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "centers": [
+          [
+            "10.542349166",
+            "14.312012839"
+          ],
+          [
+            "11.542349167",
+            "12.579962030"
+          ],
+          [
+            "9.448663025",
+            "12.637542585"
+          ],
+          [
+            "9.453860554",
+            "10.637549336"
+          ],
+          [
+            "11.453087722",
+            "10.581954922"
+          ],
+          [
+            "7.620432811",
+            "9.838460656"
+          ],
+          [
+            "13.228043356",
+            "9.660254048"
+          ],
+          [
+            "10.453087721",
+            "8.849904113"
+          ],
+          [
+            "6.526746670",
+            "8.163990401"
+          ],
+          [
+            "8.600913000",
+            "8.095285791"
+          ],
+          [
+            "12.228043355",
+            "7.928203238"
+          ],
+          [
+            "14.228043357",
+            "7.928203238"
+          ],
+          [
+            "5.233263033",
+            "6.183623462"
+          ],
+          [
+            "7.230333453",
+            "6.291835053"
+          ],
+          [
+            "9.228043352",
+            "6.196152429"
+          ],
+          [
+            "11.228043354",
+            "6.196152429"
+          ],
+          [
+            "13.228043356",
+            "6.196152429"
+          ],
+          [
+            "15.228043358",
+            "6.196152429"
+          ],
+          [
+            "8.141371676",
+            "4.511345824"
+          ],
+          [
+            "4.089521998",
+            "4.432517481"
+          ],
+          [
+            "10.228043353",
+            "4.464101620"
+          ],
+          [
+            "12.228043355",
+            "4.464101620"
+          ],
+          [
+            "14.228043357",
+            "4.464101620"
+          ],
+          [
+            "16.228043359",
+            "4.464101620"
+          ],
+          [
+            "6.088717845",
+            "4.375807909"
+          ],
+          [
+            "2.995835857",
+            "2.758047226"
+          ],
+          [
+            "11.228043354",
+            "2.732050810"
+          ],
+          [
+            "15.228043358",
+            "2.732050810"
+          ],
+          [
+            "17.228043360",
+            "2.732050810"
+          ],
+          [
+            "7.228043350",
+            "2.732050810"
+          ],
+          [
+            "9.228043352",
+            "2.732050810"
+          ],
+          [
+            "13.228043356",
+            "2.732050810"
+          ],
+          [
+            "5.088717844",
+            "2.643757100"
+          ],
+          [
+            "1.898938180",
+            "1.055415442"
+          ],
+          [
+            "3.949392338",
+            "1.000000001"
+          ],
+          [
+            "6.228043349",
+            "1.000000001"
+          ],
+          [
+            "8.228043351",
+            "1.000000001"
+          ],
+          [
+            "10.228043353",
+            "1.000000001"
+          ],
+          [
+            "12.228043355",
+            "1.000000001"
+          ],
+          [
+            "14.228043357",
+            "1.000000001"
+          ],
+          [
+            "16.228043359",
+            "1.000000001"
+          ],
+          [
+            "18.228043361",
+            "1.000000001"
+          ]
+        ],
+        "triangle": [
+          [
+            "0.000000000",
+            "0.000000000"
+          ],
+          [
+            "19.960094171",
+            "0.000000000"
+          ],
+          [
+            "10.594852190",
+            "16.221074936"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p66-n43-v1",
+      "name": "n = 43",
+      "parameters": {
+        "n": 43
+      },
+      "objective": "minimize",
+      "scoreStored": "327438662662148488864",
+      "scoreDisplay": "163.719331331074244432",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "327.438662662148488864",
+        "kind": "best",
+        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
+        "url": "https://erich-friedman.github.io/packing/cirinttt/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "centers": [
+          [
+            "9.683358799",
+            "14.772069403"
+          ],
+          [
+            "9.087570872",
+            "12.862871444"
+          ],
+          [
+            "11.046017405",
+            "12.457301134"
+          ],
+          [
+            "7.732050903",
+            "11.392304985"
+          ],
+          [
+            "10.536224018",
+            "10.523364527"
+          ],
+          [
+            "12.474569258",
+            "10.030599037"
+          ],
+          [
+            "6.732050890",
+            "9.660254157"
+          ],
+          [
+            "8.732050915",
+            "9.660254157"
+          ],
+          [
+            "11.716139571",
+            "8.179981705"
+          ],
+          [
+            "5.732050878",
+            "7.928203328"
+          ],
+          [
+            "7.732050903",
+            "7.928203328"
+          ],
+          [
+            "9.732050927",
+            "7.928203328"
+          ],
+          [
+            "13.702293033",
+            "7.945046557"
+          ],
+          [
+            "4.732050866",
+            "6.196152499"
+          ],
+          [
+            "6.732050890",
+            "6.196152499"
+          ],
+          [
+            "10.732050939",
+            "6.196152499"
+          ],
+          [
+            "12.732050964",
+            "6.196152499"
+          ],
+          [
+            "8.732050915",
+            "6.196152499"
+          ],
+          [
+            "14.732050954",
+            "6.195781591"
+          ],
+          [
+            "3.732050853",
+            "4.464101670"
+          ],
+          [
+            "5.732050878",
+            "4.464101670"
+          ],
+          [
+            "7.732050903",
+            "4.464101670"
+          ],
+          [
+            "9.732050927",
+            "4.464101670"
+          ],
+          [
+            "11.732050952",
+            "4.464101670"
+          ],
+          [
+            "13.754000835",
+            "4.451242093"
+          ],
+          [
+            "15.753982501",
+            "4.459811404"
+          ],
+          [
+            "2.732050841",
+            "2.732050841"
+          ],
+          [
+            "4.732050866",
+            "2.732050841"
+          ],
+          [
+            "6.732050890",
+            "2.732050841"
+          ],
+          [
+            "8.732050915",
+            "2.732050841"
+          ],
+          [
+            "10.732050939",
+            "2.732050841"
+          ],
+          [
+            "12.732050964",
+            "2.732050841"
+          ],
+          [
+            "14.754000847",
+            "2.719191264"
+          ],
+          [
+            "16.768592597",
+            "2.736278273"
+          ],
+          [
+            "1.732050829",
+            "1.000000012"
+          ],
+          [
+            "3.732050853",
+            "1.000000012"
+          ],
+          [
+            "5.732050878",
+            "1.000000012"
+          ],
+          [
+            "7.732050903",
+            "1.000000012"
+          ],
+          [
+            "9.732050927",
+            "1.000000012"
+          ],
+          [
+            "11.732050952",
+            "1.000000012"
+          ],
+          [
+            "13.732050976",
+            "1.000000012"
+          ],
+          [
+            "15.775950718",
+            "1.000000012"
+          ],
+          [
+            "17.783215578",
+            "1.012642725"
+          ]
+        ],
+        "triangle": [
+          [
+            "0.000000000",
+            "0.000000000"
+          ],
+          [
+            "19.539792944",
+            "0.000000000"
+          ],
+          [
+            "9.674964344",
+            "16.757529806"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p66-n44-v1",
+      "name": "n = 44",
+      "parameters": {
+        "n": 44
+      },
+      "objective": "minimize",
+      "scoreStored": "328094808334823449056",
+      "scoreDisplay": "164.047404167411724528",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "328.094808334823449056",
+        "kind": "best",
+        "exact": "48 + 67√3",
+        "source": "Friedman's current table says the best known construction for this row is equilateral; the standard triangular-lattice construction is generated and verified exactly on the nine-decimal grid here",
+        "url": "https://erich-friedman.github.io/packing/cirinttt/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "centers": [
+          [
+            "1.732050808",
+            "1.000000000"
+          ],
+          [
+            "3.732050808",
+            "1.000000000"
+          ],
+          [
+            "5.732050808",
+            "1.000000000"
+          ],
+          [
+            "7.732050808",
+            "1.000000000"
+          ],
+          [
+            "9.732050808",
+            "1.000000000"
+          ],
+          [
+            "11.732050808",
+            "1.000000000"
+          ],
+          [
+            "13.732050808",
+            "1.000000000"
+          ],
+          [
+            "15.732050808",
+            "1.000000000"
+          ],
+          [
+            "17.732050808",
+            "1.000000000"
+          ],
+          [
+            "2.732050808",
+            "2.732050808"
+          ],
+          [
+            "4.732050808",
+            "2.732050808"
+          ],
+          [
+            "6.732050808",
+            "2.732050808"
+          ],
+          [
+            "8.732050808",
+            "2.732050808"
+          ],
+          [
+            "10.732050808",
+            "2.732050808"
+          ],
+          [
+            "12.732050808",
+            "2.732050808"
+          ],
+          [
+            "14.732050808",
+            "2.732050808"
+          ],
+          [
+            "16.732050808",
+            "2.732050808"
+          ],
+          [
+            "3.732050808",
+            "4.464101616"
+          ],
+          [
+            "5.732050808",
+            "4.464101616"
+          ],
+          [
+            "7.732050808",
+            "4.464101616"
+          ],
+          [
+            "9.732050808",
+            "4.464101616"
+          ],
+          [
+            "11.732050808",
+            "4.464101616"
+          ],
+          [
+            "13.732050808",
+            "4.464101616"
+          ],
+          [
+            "15.732050808",
+            "4.464101616"
+          ],
+          [
+            "4.732050808",
+            "6.196152424"
+          ],
+          [
+            "6.732050808",
+            "6.196152424"
+          ],
+          [
+            "8.732050808",
+            "6.196152424"
+          ],
+          [
+            "10.732050808",
+            "6.196152424"
+          ],
+          [
+            "12.732050808",
+            "6.196152424"
+          ],
+          [
+            "14.732050808",
+            "6.196152424"
+          ],
+          [
+            "5.732050808",
+            "7.928203232"
+          ],
+          [
+            "7.732050808",
+            "7.928203232"
+          ],
+          [
+            "9.732050808",
+            "7.928203232"
+          ],
+          [
+            "11.732050808",
+            "7.928203232"
+          ],
+          [
+            "13.732050808",
+            "7.928203232"
+          ],
+          [
+            "6.732050808",
+            "9.660254040"
+          ],
+          [
+            "8.732050808",
+            "9.660254040"
+          ],
+          [
+            "10.732050808",
+            "9.660254040"
+          ],
+          [
+            "12.732050808",
+            "9.660254040"
+          ],
+          [
+            "7.732050808",
+            "11.392304848"
+          ],
+          [
+            "9.732050808",
+            "11.392304848"
+          ],
+          [
+            "11.732050808",
+            "11.392304848"
+          ],
+          [
+            "8.732050808",
+            "13.124355656"
+          ],
+          [
+            "10.732050808",
+            "13.124355656"
+          ]
+        ],
+        "triangle": [
+          [
+            "0.000000000",
+            "0.000000000"
+          ],
+          [
+            "19.464101616",
+            "0.000000000"
+          ],
+          [
+            "9.732050808",
+            "16.856406466"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p66-n45-v1",
+      "name": "n = 45",
+      "parameters": {
+        "n": 45
+      },
+      "objective": "minimize",
+      "scoreStored": "328094808334823449056",
+      "scoreDisplay": "164.047404167411724528",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "328.094808334823449056",
+        "kind": "best",
+        "exact": "48 + 67√3",
+        "source": "Friedman's current table says the best known construction for this row is equilateral; the standard triangular-lattice construction is generated and verified exactly on the nine-decimal grid here",
+        "url": "https://erich-friedman.github.io/packing/cirinttt/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "centers": [
+          [
+            "1.732050808",
+            "1.000000000"
+          ],
+          [
+            "3.732050808",
+            "1.000000000"
+          ],
+          [
+            "5.732050808",
+            "1.000000000"
+          ],
+          [
+            "7.732050808",
+            "1.000000000"
+          ],
+          [
+            "9.732050808",
+            "1.000000000"
+          ],
+          [
+            "11.732050808",
+            "1.000000000"
+          ],
+          [
+            "13.732050808",
+            "1.000000000"
+          ],
+          [
+            "15.732050808",
+            "1.000000000"
+          ],
+          [
+            "17.732050808",
+            "1.000000000"
+          ],
+          [
+            "2.732050808",
+            "2.732050808"
+          ],
+          [
+            "4.732050808",
+            "2.732050808"
+          ],
+          [
+            "6.732050808",
+            "2.732050808"
+          ],
+          [
+            "8.732050808",
+            "2.732050808"
+          ],
+          [
+            "10.732050808",
+            "2.732050808"
+          ],
+          [
+            "12.732050808",
+            "2.732050808"
+          ],
+          [
+            "14.732050808",
+            "2.732050808"
+          ],
+          [
+            "16.732050808",
+            "2.732050808"
+          ],
+          [
+            "3.732050808",
+            "4.464101616"
+          ],
+          [
+            "5.732050808",
+            "4.464101616"
+          ],
+          [
+            "7.732050808",
+            "4.464101616"
+          ],
+          [
+            "9.732050808",
+            "4.464101616"
+          ],
+          [
+            "11.732050808",
+            "4.464101616"
+          ],
+          [
+            "13.732050808",
+            "4.464101616"
+          ],
+          [
+            "15.732050808",
+            "4.464101616"
+          ],
+          [
+            "4.732050808",
+            "6.196152424"
+          ],
+          [
+            "6.732050808",
+            "6.196152424"
+          ],
+          [
+            "8.732050808",
+            "6.196152424"
+          ],
+          [
+            "10.732050808",
+            "6.196152424"
+          ],
+          [
+            "12.732050808",
+            "6.196152424"
+          ],
+          [
+            "14.732050808",
+            "6.196152424"
+          ],
+          [
+            "5.732050808",
+            "7.928203232"
+          ],
+          [
+            "7.732050808",
+            "7.928203232"
+          ],
+          [
+            "9.732050808",
+            "7.928203232"
+          ],
+          [
+            "11.732050808",
+            "7.928203232"
+          ],
+          [
+            "13.732050808",
+            "7.928203232"
+          ],
+          [
+            "6.732050808",
+            "9.660254040"
+          ],
+          [
+            "8.732050808",
+            "9.660254040"
+          ],
+          [
+            "10.732050808",
+            "9.660254040"
+          ],
+          [
+            "12.732050808",
+            "9.660254040"
+          ],
+          [
+            "7.732050808",
+            "11.392304848"
+          ],
+          [
+            "9.732050808",
+            "11.392304848"
+          ],
+          [
+            "11.732050808",
+            "11.392304848"
+          ],
+          [
+            "8.732050808",
+            "13.124355656"
+          ],
+          [
+            "10.732050808",
+            "13.124355656"
+          ],
+          [
+            "9.732050808",
+            "14.856406464"
+          ]
+        ],
+        "triangle": [
+          [
+            "0.000000000",
+            "0.000000000"
+          ],
+          [
+            "19.464101616",
+            "0.000000000"
+          ],
+          [
+            "9.732050808",
+            "16.856406466"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p66-n46-v1",
+      "name": "n = 46",
+      "parameters": {
+        "n": 46
+      },
+      "objective": "minimize",
+      "scoreStored": "355774742720269083222",
+      "scoreDisplay": "177.887371360134541611",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "355.774742720269083222",
+        "kind": "best",
+        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
+        "url": "https://erich-friedman.github.io/packing/cirinttt/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "centers": [
+          [
+            "9.732050871",
+            "14.856406557"
+          ],
+          [
+            "10.873614097",
+            "13.214202717"
+          ],
+          [
+            "8.732050864",
+            "13.124355738"
+          ],
+          [
+            "11.731991069",
+            "11.407772805"
+          ],
+          [
+            "7.732050858",
+            "11.392304919"
+          ],
+          [
+            "9.732050871",
+            "11.392304919"
+          ],
+          [
+            "13.126156741",
+            "9.973791588"
+          ],
+          [
+            "10.745416375",
+            "9.668039740"
+          ],
+          [
+            "6.732050851",
+            "9.660254101"
+          ],
+          [
+            "8.732050864",
+            "9.660254101"
+          ],
+          [
+            "13.727279827",
+            "8.066266729"
+          ],
+          [
+            "5.732050845",
+            "7.928203282"
+          ],
+          [
+            "7.732050858",
+            "7.928203282"
+          ],
+          [
+            "9.732050871",
+            "7.928203282"
+          ],
+          [
+            "11.732050884",
+            "7.928203282"
+          ],
+          [
+            "15.305837364",
+            "6.838196636"
+          ],
+          [
+            "12.815771468",
+            "6.247265533"
+          ],
+          [
+            "4.732050838",
+            "6.196152463"
+          ],
+          [
+            "6.732050851",
+            "6.196152463"
+          ],
+          [
+            "8.732050864",
+            "6.196152463"
+          ],
+          [
+            "10.732050877",
+            "6.196152463"
+          ],
+          [
+            "15.689322207",
+            "4.875306057"
+          ],
+          [
+            "3.732050832",
+            "4.464101644"
+          ],
+          [
+            "5.732050845",
+            "4.464101644"
+          ],
+          [
+            "7.732050858",
+            "4.464101644"
+          ],
+          [
+            "9.732050871",
+            "4.464101644"
+          ],
+          [
+            "11.732050884",
+            "4.464101644"
+          ],
+          [
+            "13.732050897",
+            "4.464101644"
+          ],
+          [
+            "17.395605035",
+            "3.831946596"
+          ],
+          [
+            "15.102575226",
+            "2.898357944"
+          ],
+          [
+            "2.732050825",
+            "2.732050825"
+          ],
+          [
+            "4.732050838",
+            "2.732050825"
+          ],
+          [
+            "6.732050851",
+            "2.732050825"
+          ],
+          [
+            "8.732050864",
+            "2.732050825"
+          ],
+          [
+            "10.732050877",
+            "2.732050825"
+          ],
+          [
+            "12.732050890",
+            "2.732050825"
+          ],
+          [
+            "17.548129070",
+            "1.837770959"
+          ],
+          [
+            "1.732050819",
+            "1.000000006"
+          ],
+          [
+            "3.732050832",
+            "1.000000006"
+          ],
+          [
+            "5.732050845",
+            "1.000000006"
+          ],
+          [
+            "7.732050858",
+            "1.000000006"
+          ],
+          [
+            "9.732050871",
+            "1.000000006"
+          ],
+          [
+            "11.732050884",
+            "1.000000006"
+          ],
+          [
+            "13.732050897",
+            "1.000000006"
+          ],
+          [
+            "15.732050910",
+            "1.000000006"
+          ],
+          [
+            "19.364207230",
+            "1.000000006"
+          ]
+        ],
+        "triangle": [
+          [
+            "0.000000000",
+            "0.000000000"
+          ],
+          [
+            "21.277223862",
+            "0.000000000"
+          ],
+          [
+            "9.653827248",
+            "16.720919281"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p66-n47-v1",
+      "name": "n = 47",
+      "parameters": {
+        "n": 47
+      },
+      "objective": "minimize",
+      "scoreStored": "366188462729802979904",
+      "scoreDisplay": "183.094231364901489952",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "366.188462729802979904",
+        "kind": "best",
+        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
+        "url": "https://erich-friedman.github.io/packing/cirinttt/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "centers": [
+          [
+            "7.949424282",
+            "16.871811372"
+          ],
+          [
+            "9.007290251",
+            "15.124754122"
+          ],
+          [
+            "7.015752263",
+            "14.940970221"
+          ],
+          [
+            "8.170682784",
+            "13.308139682"
+          ],
+          [
+            "10.162220772",
+            "13.124355781"
+          ],
+          [
+            "6.209919656",
+            "12.913921423"
+          ],
+          [
+            "9.068450872",
+            "11.449939983"
+          ],
+          [
+            "11.162220781",
+            "11.392304957"
+          ],
+          [
+            "6.643383847",
+            "10.961459164"
+          ],
+          [
+            "4.987718360",
+            "9.839509133"
+          ],
+          [
+            "8.162220752",
+            "9.660254132"
+          ],
+          [
+            "10.162220772",
+            "9.660254132"
+          ],
+          [
+            "12.162220791",
+            "9.660254132"
+          ],
+          [
+            "7.067848204",
+            "7.986232356"
+          ],
+          [
+            "9.162220762",
+            "7.928203308"
+          ],
+          [
+            "13.162220801",
+            "7.928203308"
+          ],
+          [
+            "5.022760369",
+            "7.839816122"
+          ],
+          [
+            "11.162220781",
+            "7.928203308"
+          ],
+          [
+            "3.624343945",
+            "6.409979915"
+          ],
+          [
+            "6.162220733",
+            "6.196152483"
+          ],
+          [
+            "8.162220752",
+            "6.196152483"
+          ],
+          [
+            "10.162220772",
+            "6.196152483"
+          ],
+          [
+            "12.162220791",
+            "6.196152483"
+          ],
+          [
+            "14.162220811",
+            "6.196152483"
+          ],
+          [
+            "3.162220703",
+            "4.464101659"
+          ],
+          [
+            "5.162220723",
+            "4.464101659"
+          ],
+          [
+            "7.162220742",
+            "4.464101659"
+          ],
+          [
+            "9.162220762",
+            "4.464101659"
+          ],
+          [
+            "11.162220781",
+            "4.464101659"
+          ],
+          [
+            "13.162220801",
+            "4.464101659"
+          ],
+          [
+            "15.162220820",
+            "4.464101659"
+          ],
+          [
+            "2.162220694",
+            "2.732050834"
+          ],
+          [
+            "4.162220713",
+            "2.732050834"
+          ],
+          [
+            "6.162220733",
+            "2.732050834"
+          ],
+          [
+            "8.162220752",
+            "2.732050834"
+          ],
+          [
+            "10.162220772",
+            "2.732050834"
+          ],
+          [
+            "12.162220791",
+            "2.732050834"
+          ],
+          [
+            "14.162220811",
+            "2.732050834"
+          ],
+          [
+            "16.162220830",
+            "2.732050834"
+          ],
+          [
+            "9.162220762",
+            "1.000000010"
+          ],
+          [
+            "11.162220781",
+            "1.000000010"
+          ],
+          [
+            "3.162220703",
+            "1.000000010"
+          ],
+          [
+            "5.162220723",
+            "1.000000010"
+          ],
+          [
+            "7.162220742",
+            "1.000000010"
+          ],
+          [
+            "13.162220801",
+            "1.000000010"
+          ],
+          [
+            "15.162220820",
+            "1.000000010"
+          ],
+          [
+            "17.162220840",
+            "1.000000010"
+          ]
+        ],
+        "triangle": [
+          [
+            "0.000000000",
+            "0.000000000"
+          ],
+          [
+            "18.894271664",
+            "0.000000000"
+          ],
+          [
+            "7.704689378",
+            "19.380925036"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p66-n48-v1",
+      "name": "n = 48",
+      "parameters": {
+        "n": 48
+      },
+      "objective": "minimize",
+      "scoreStored": "369501048895494708500",
+      "scoreDisplay": "184.75052444774735425",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "369.5010488954947085",
+        "kind": "best",
+        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
+        "url": "https://erich-friedman.github.io/packing/cirinttt/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "centers": [
+          [
+            "8.249947922",
+            "16.739220815"
+          ],
+          [
+            "9.417271245",
+            "15.019327398"
+          ],
+          [
+            "7.420319152",
+            "14.908953739"
+          ],
+          [
+            "8.514381591",
+            "13.234729326"
+          ],
+          [
+            "10.511333685",
+            "13.124355666"
+          ],
+          [
+            "6.549817723",
+            "12.859910947"
+          ],
+          [
+            "9.443370478",
+            "11.433362427"
+          ],
+          [
+            "11.511333686",
+            "11.392304857"
+          ],
+          [
+            "6.940735450",
+            "10.898487143"
+          ],
+          [
+            "5.257594622",
+            "9.818192295"
+          ],
+          [
+            "8.511333683",
+            "9.660254048"
+          ],
+          [
+            "10.511333685",
+            "9.660254048"
+          ],
+          [
+            "12.511333687",
+            "9.660254048"
+          ],
+          [
+            "7.377038860",
+            "8.013021440"
+          ],
+          [
+            "9.511333684",
+            "7.928203238"
+          ],
+          [
+            "11.511333686",
+            "7.928203238"
+          ],
+          [
+            "13.511333688",
+            "7.928203238"
+          ],
+          [
+            "5.343882680",
+            "7.820054567"
+          ],
+          [
+            "3.845797018",
+            "6.495011414"
+          ],
+          [
+            "6.511333681",
+            "6.196152425"
+          ],
+          [
+            "8.511333683",
+            "6.196152429"
+          ],
+          [
+            "10.511333685",
+            "6.196152429"
+          ],
+          [
+            "12.511333687",
+            "6.196152429"
+          ],
+          [
+            "14.511333689",
+            "6.196152429"
+          ],
+          [
+            "5.083428795",
+            "4.795763464"
+          ],
+          [
+            "3.063775794",
+            "4.654239073"
+          ],
+          [
+            "13.511333688",
+            "4.464101620"
+          ],
+          [
+            "7.511260651",
+            "4.464059453"
+          ],
+          [
+            "9.511333684",
+            "4.464101620"
+          ],
+          [
+            "11.511333686",
+            "4.464101620"
+          ],
+          [
+            "15.511333690",
+            "4.464101620"
+          ],
+          [
+            "4.505863572",
+            "2.879869962"
+          ],
+          [
+            "6.500830608",
+            "2.738072450"
+          ],
+          [
+            "10.511333685",
+            "2.732050810"
+          ],
+          [
+            "14.511333689",
+            "2.732050810"
+          ],
+          [
+            "2.511333677",
+            "2.732050810"
+          ],
+          [
+            "8.511333683",
+            "2.732050810"
+          ],
+          [
+            "12.511333687",
+            "2.732050810"
+          ],
+          [
+            "16.511333691",
+            "2.732050810"
+          ],
+          [
+            "1.511333676",
+            "1.000000001"
+          ],
+          [
+            "3.511333678",
+            "1.000000001"
+          ],
+          [
+            "5.511333680",
+            "1.000000001"
+          ],
+          [
+            "7.511333682",
+            "1.000000001"
+          ],
+          [
+            "9.511333684",
+            "1.000000001"
+          ],
+          [
+            "11.511333686",
+            "1.000000001"
+          ],
+          [
+            "13.511333688",
+            "1.000000001"
+          ],
+          [
+            "15.511333690",
+            "1.000000001"
+          ],
+          [
+            "17.511333692",
+            "1.000000001"
+          ]
+        ],
+        "triangle": [
+          [
+            "0.000000000",
+            "0.000000000"
+          ],
+          [
+            "19.243384501",
+            "0.000000000"
+          ],
+          [
+            "8.157417267",
+            "19.201458500"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p66-n49-v1",
+      "name": "n = 49",
+      "parameters": {
+        "n": 49
+      },
+      "objective": "minimize",
+      "scoreStored": "379310199294226842092",
+      "scoreDisplay": "189.655099647113421046",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "379.310199294226842092",
+        "kind": "best",
+        "exact": "84 + 61√3",
+        "source": "Graham–Lubachevsky equilateral-triangle construction, still listed by Friedman's current table as best known among arbitrary triangles; public numerical data was recovered algebraically and quantized to the nine-decimal grid here",
+        "url": "https://erich-friedman.github.io/packing/cirinttt/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "centers": [
+          [
+            "3.732050812",
+            "1.000000001"
+          ],
+          [
+            "2.732050811",
+            "2.732050810"
+          ],
+          [
+            "1.732050810",
+            "1.000000001"
+          ],
+          [
+            "16.196152439",
+            "6.196152429"
+          ],
+          [
+            "11.464101627",
+            "10.928203241"
+          ],
+          [
+            "7.464101623",
+            "8.928203239"
+          ],
+          [
+            "19.196152442",
+            "1.000000001"
+          ],
+          [
+            "13.464101629",
+            "10.928203241"
+          ],
+          [
+            "13.196152436",
+            "1.000000001"
+          ],
+          [
+            "8.732050817",
+            "2.732050810"
+          ],
+          [
+            "4.732050813",
+            "2.732050810"
+          ],
+          [
+            "7.732050816",
+            "4.464101620"
+          ],
+          [
+            "5.732050814",
+            "7.928203238"
+          ],
+          [
+            "6.732050815",
+            "2.732050810"
+          ],
+          [
+            "9.464101625",
+            "5.464101621"
+          ],
+          [
+            "14.196152437",
+            "6.196152429"
+          ],
+          [
+            "10.464101626",
+            "12.660254051"
+          ],
+          [
+            "13.196152436",
+            "4.464101620"
+          ],
+          [
+            "8.464101624",
+            "12.660254051"
+          ],
+          [
+            "12.464101628",
+            "7.196152430"
+          ],
+          [
+            "7.464101623",
+            "10.928203241"
+          ],
+          [
+            "6.732050815",
+            "6.196152429"
+          ],
+          [
+            "11.464101627",
+            "8.928203239"
+          ],
+          [
+            "12.464101628",
+            "12.660254051"
+          ],
+          [
+            "11.464101627",
+            "5.464101621"
+          ],
+          [
+            "14.196152437",
+            "2.732050810"
+          ],
+          [
+            "5.732050814",
+            "1.000000001"
+          ],
+          [
+            "13.464101629",
+            "8.928203239"
+          ],
+          [
+            "18.196152441",
+            "2.732050810"
+          ],
+          [
+            "10.464101626",
+            "16.124355669"
+          ],
+          [
+            "16.196152439",
+            "2.732050810"
+          ],
+          [
+            "9.464101625",
+            "14.392304860"
+          ],
+          [
+            "12.196152435",
+            "2.732050810"
+          ],
+          [
+            "9.464101625",
+            "10.928203241"
+          ],
+          [
+            "17.196152440",
+            "4.464101620"
+          ],
+          [
+            "15.196152438",
+            "4.464101620"
+          ],
+          [
+            "3.732050812",
+            "4.464101620"
+          ],
+          [
+            "10.464101626",
+            "3.732050811"
+          ],
+          [
+            "15.196152438",
+            "1.000000001"
+          ],
+          [
+            "10.464101626",
+            "7.196152430"
+          ],
+          [
+            "15.196152438",
+            "7.928203238"
+          ],
+          [
+            "7.732050816",
+            "1.000000001"
+          ],
+          [
+            "8.464101624",
+            "7.196152430"
+          ],
+          [
+            "17.196152440",
+            "1.000000001"
+          ],
+          [
+            "11.464101627",
+            "14.392304860"
+          ],
+          [
+            "4.732050813",
+            "6.196152429"
+          ],
+          [
+            "9.464101625",
+            "8.928203239"
+          ],
+          [
+            "5.732050814",
+            "4.464101620"
+          ],
+          [
+            "10.464101626",
+            "1.267949194"
+          ]
+        ],
+        "triangle": [
+          [
+            "0.000000000",
+            "0.000000000"
+          ],
+          [
+            "20.928203252",
+            "0.000000000"
+          ],
+          [
+            "10.464101626",
+            "18.124355671"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p66-n50-v1",
+      "name": "n = 50",
+      "parameters": {
+        "n": 50
+      },
+      "objective": "minimize",
+      "scoreStored": "388997925927858505472",
+      "scoreDisplay": "194.498962963929252736",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "388.997925927858505472",
+        "kind": "best",
+        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
+        "url": "https://erich-friedman.github.io/packing/cirinttt/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "answer": {
+        "centers": [
+          [
+            "10.767331992",
+            "16.607428260"
+          ],
+          [
+            "9.732050817",
+            "14.856406475"
+          ],
+          [
+            "11.732049601",
+            "14.854198609"
+          ],
+          [
+            "8.732050816",
+            "13.124355666"
+          ],
+          [
+            "10.785596341",
+            "13.092317162"
+          ],
+          [
+            "12.775925251",
+            "12.895871650"
+          ],
+          [
+            "7.732050815",
+            "11.392304857"
+          ],
+          [
+            "9.732050817",
+            "11.392304857"
+          ],
+          [
+            "11.716757486",
+            "11.145445691"
+          ],
+          [
+            "13.716704987",
+            "11.130954231"
+          ],
+          [
+            "6.732050814",
+            "9.660254048"
+          ],
+          [
+            "8.732050816",
+            "9.660254048"
+          ],
+          [
+            "12.704181264",
+            "9.406194619"
+          ],
+          [
+            "10.705444786",
+            "9.335113694"
+          ],
+          [
+            "14.700523739",
+            "9.285294946"
+          ],
+          [
+            "5.732050813",
+            "7.928203238"
+          ],
+          [
+            "7.732050815",
+            "7.928203238"
+          ],
+          [
+            "10.354067073",
+            "7.366222201"
+          ],
+          [
+            "12.357153993",
+            "7.435050104"
+          ],
+          [
+            "14.387520009",
+            "7.309939618"
+          ],
+          [
+            "16.201947731",
+            "6.468600181"
+          ],
+          [
+            "6.732050814",
+            "6.196152429"
+          ],
+          [
+            "8.732050816",
+            "6.196152429"
+          ],
+          [
+            "4.732050812",
+            "6.196152429"
+          ],
+          [
+            "11.354067074",
+            "5.634171392"
+          ],
+          [
+            "13.353737016",
+            "5.597837772"
+          ],
+          [
+            "15.142727464",
+            "4.703682762"
+          ],
+          [
+            "17.142727466",
+            "4.703682762"
+          ],
+          [
+            "3.732050811",
+            "4.464101620"
+          ],
+          [
+            "5.732050813",
+            "4.464101620"
+          ],
+          [
+            "7.732050815",
+            "4.464101620"
+          ],
+          [
+            "9.732050817",
+            "4.464101620"
+          ],
+          [
+            "12.395594889",
+            "3.842285531"
+          ],
+          [
+            "14.184585337",
+            "2.948130520"
+          ],
+          [
+            "16.184585339",
+            "2.948130520"
+          ],
+          [
+            "18.176175901",
+            "2.764917420"
+          ],
+          [
+            "2.732050810",
+            "2.732050810"
+          ],
+          [
+            "4.732050812",
+            "2.732050810"
+          ],
+          [
+            "6.732050814",
+            "2.732050810"
+          ],
+          [
+            "8.732050816",
+            "2.732050810"
+          ],
+          [
+            "10.732050818",
+            "2.732050810"
+          ],
+          [
+            "7.732050815",
+            "1.000000001"
+          ],
+          [
+            "9.732050817",
+            "1.000000001"
+          ],
+          [
+            "11.732050819",
+            "1.000000001"
+          ],
+          [
+            "19.116955637",
+            "1.000000001"
+          ],
+          [
+            "1.732050809",
+            "1.000000001"
+          ],
+          [
+            "3.732050811",
+            "1.000000001"
+          ],
+          [
+            "5.732050813",
+            "1.000000001"
+          ],
+          [
+            "13.732050821",
+            "1.000000001"
+          ],
+          [
+            "15.732050823",
+            "1.000000001"
+          ]
+        ],
+        "triangle": [
+          [
+            "0.000000000",
+            "0.000000000"
+          ],
+          [
+            "20.783197756",
+            "0.000000000"
+          ],
+          [
+            "10.806232029",
+            "18.716942912"
+          ]
+        ]
+      }
+    }
+  ]
+}

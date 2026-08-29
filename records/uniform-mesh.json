@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/uniform-mesh",
-  "generatedAt": "2026-08-29T05:38:24.780Z",
+  "generatedAt": "2026-08-29T11:41:59.390Z",
   "instances": [
     {
       "instanceId": "p56-n5-v1",
@@ -383,63 +383,63 @@
         "n": 12
       },
       "objective": "minimize",
-      "scoreStored": "3690072611021423",
-      "scoreDisplay": "1.920956171031",
+      "scoreStored": "2771633450157075",
+      "scoreDisplay": "1.664822347927",
       "status": "open",
       "settled": false,
       "knownBest": null,
-      "holder": null,
-      "method": "ai",
-      "recordedAt": "2026-08-28T09:26:25.616Z",
+      "holder": "NUE_13",
+      "method": "human",
+      "recordedAt": "2026-08-29T06:12:12.187Z",
       "answer": {
         "points": [
           [
-            "0.204199472",
-            "0.128702238"
+            "0.197199472",
+            "0.114702238"
           ],
           [
-            "0.520787275",
-            "0.126454631"
+            "0.522787275",
+            "0.124454631"
           ],
           [
-            "0.840049844",
-            "0.135292594"
+            "0.853049844",
+            "0.145292594"
           ],
           [
             "0.356940000",
             "0.342884696"
           ],
           [
-            "0.681002899",
+            "0.680002899",
             "0.358127265"
           ],
           [
-            "0.209032573",
-            "0.597543373"
+            "0.208032573",
+            "0.598543373"
           ],
           [
             "0.519685038",
-            "0.577662614"
+            "0.580662614"
           ],
           [
-            "0.821847310",
-            "0.823331084"
+            "0.833847310",
+            "0.844331084"
           ],
           [
-            "0.187784048",
-            "0.857900725"
+            "0.147784048",
+            "0.865900725"
           ],
           [
-            "0.512664044",
+            "0.511664044",
             "0.859529932"
           ],
           [
-            "0.087135987",
-            "0.365793678"
+            "0.073135987",
+            "0.359793678"
           ],
           [
-            "0.893700870",
-            "0.529268164"
+            "0.901700870",
+            "0.519268164"
           ]
         ]
       }
@@ -458,7 +458,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
       "answer": {
         "points": [
           [
@@ -530,7 +530,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
       "answer": {
         "points": [
           [
@@ -606,7 +606,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
       "answer": {
         "points": [
           [
@@ -770,7 +770,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
       "answer": {
         "points": [
           [
@@ -858,7 +858,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
       "answer": {
         "points": [
           [
@@ -950,7 +950,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
       "answer": {
         "points": [
           [
@@ -1046,7 +1046,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
       "answer": {
         "points": [
           [
@@ -1146,7 +1146,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
       "answer": {
         "points": [
           [
@@ -1250,7 +1250,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
       "answer": {
         "points": [
           [
@@ -1358,7 +1358,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
       "answer": {
         "points": [
           [
@@ -1470,7 +1470,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
       "answer": {
         "points": [
           [
@@ -1586,7 +1586,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
       "answer": {
         "points": [
           [
@@ -1706,7 +1706,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
       "answer": {
         "points": [
           [
@@ -1830,7 +1830,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
       "answer": {
         "points": [
           [
@@ -1958,7 +1958,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
       "answer": {
         "points": [
           [
@@ -2090,7 +2090,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
       "answer": {
         "points": [
           [
@@ -2226,7 +2226,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
       "answer": {
         "points": [
           [
@@ -2366,7 +2366,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
       "answer": {
         "points": [
           [
@@ -2510,7 +2510,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
       "answer": {
         "points": [
           [
@@ -2658,7 +2658,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
       "answer": {
         "points": [
           [
@@ -2810,7 +2810,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
       "answer": {
         "points": [
           [
@@ -2966,7 +2966,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
       "answer": {
         "points": [
           [
@@ -3290,7 +3290,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
       "answer": {
         "points": [
           [
@@ -3458,7 +3458,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
       "answer": {
         "points": [
           [
@@ -3630,7 +3630,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
       "answer": {
         "points": [
           [
@@ -3806,7 +3806,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "recordedAt": "2026-08-29T09:08:51.763Z",
       "answer": {
         "points": [
           [
