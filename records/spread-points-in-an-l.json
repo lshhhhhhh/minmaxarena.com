@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/spread-points-in-an-l",
-  "generatedAt": "2026-08-29T05:19:43.585Z",
+  "generatedAt": "2026-08-29T05:32:20.679Z",
   "instances": [
     {
       "instanceId": "p19-n4-v2",
@@ -95,14 +95,14 @@
         "n": 6
       },
       "objective": "maximize",
-      "scoreStored": "1000000000000000000",
-      "scoreDisplay": "1",
+      "scoreStored": "1030207096885207104",
+      "scoreDisplay": "1.01499118",
       "status": "open",
       "settled": false,
       "knownBest": null,
-      "holder": "Jev Li",
+      "holder": "HwaterB",
       "method": "human",
-      "recordedAt": "2026-08-25T00:10:41.881Z",
+      "recordedAt": "2026-08-29T05:24:42.149Z",
       "answer": {
         "points": [
           [
@@ -110,24 +110,24 @@
             "0.000000000"
           ],
           [
-            "1.000000000",
-            "0.000000000"
+            "0.996153848",
+            "0.850000000"
           ],
           [
             "2.000000000",
             "1.000000000"
           ],
           [
-            "2.000000000",
+            "1.673076922",
             "0.000000000"
           ],
           [
-            "0.000000000",
+            "0.530769231",
             "2.000000000"
           ],
           [
-            "1.000000000",
-            "1.000000000"
+            "0.000000000",
+            "1.061538461"
           ]
         ]
       }
