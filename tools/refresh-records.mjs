@@ -37,18 +37,30 @@ function sameExceptTimestamp(path, next) {
   }
 }
 
-const catalogue = await fetch(`${SITE}/api/problems`).then((response) => response.json());
+// Not response.json(): when the site's edge decides the caller is a bot it
+// answers a challenge page with status 200, and JSON.parse then fails with
+// "Unexpected token '<'", which sends whoever reads the log looking for a bug
+// in this file. Say what actually happened instead.
+async function json(url) {
+  const response = await fetch(url, { headers: { accept: "application/json" } });
+  const body = await response.text();
+  if (!response.ok) throw new Error(`${url} answered ${response.status}`);
+  if (body.startsWith("<")) {
+    throw new Error(`${url} answered HTML rather than JSON — the request was challenged`
+      + " by the edge. A datacentre address (this runner, an agent on a cloud host, a"
+      + " researcher's script) cannot reach the machine-facing endpoints until they are"
+      + " excluded from the bot challenge.");
+  }
+  return JSON.parse(body);
+}
+
+const catalogue = await json(`${SITE}/api/problems`);
 const problems = catalogue.problems ?? catalogue;
 mkdirSync(join(root, "records"), { recursive: true });
 
 const rows = [];
 for (const problem of problems) {
-  const response = await fetch(`${SITE}/data/${problem.slug}.json`);
-  if (!response.ok) {
-    console.error(`skipped ${problem.slug}: ${response.status}`);
-    continue;
-  }
-  const payload = await response.json();
+  const payload = await json(`${SITE}/data/${problem.slug}.json`);
   // The live file stamps the moment it was generated, so writing every time
   // rewrites all forty-three files daily and commits a timestamp as though it
   // were news. Only what the records actually say counts as a change; on a
