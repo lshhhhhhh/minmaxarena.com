@@ -1,0 +1,2626 @@
+{
+  "problem": "graduated-circles-in-circle",
+  "code": "P06",
+  "title": "半径成等差的圆装入圆",
+  "titleEn": "Packing circles of radius 1,2,…,n into a circle",
+  "objective": "minimize",
+  "scoreLabel": "容器半径",
+  "scoreLabelEn": "container radius",
+  "verifierVersion": "1.0.0",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseName": "CC BY 4.0",
+  "source": "https://minmaxarena.com/problems/graduated-circles-in-circle",
+  "generatedAt": "2026-08-29T05:03:18.765Z",
+  "instances": [
+    {
+      "instanceId": "p06-n2-v2",
+      "name": "n = 2",
+      "parameters": {
+        "n": 2
+      },
+      "objective": "minimize",
+      "scoreStored": "3000000000",
+      "scoreDisplay": "3",
+      "status": "proven",
+      "settled": true,
+      "knownBest": {
+        "display": "3",
+        "kind": "proven",
+        "exact": "3",
+        "source": "the circles of radii 1 and 2 must be 3 apart, while their centres sit at most R−1 and R−2 from the middle; the sum forces R = 3"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "5",
+            "3"
+          ],
+          [
+            "2",
+            "3"
+          ]
+        ],
+        "radius": "3"
+      }
+    },
+    {
+      "instanceId": "p06-n3-v2",
+      "name": "n = 3",
+      "parameters": {
+        "n": 3
+      },
+      "objective": "minimize",
+      "scoreStored": "5000000000",
+      "scoreDisplay": "5",
+      "status": "proven",
+      "settled": true,
+      "knownBest": {
+        "display": "5",
+        "kind": "proven",
+        "exact": "5",
+        "source": "the circles of radii 2 and 3 must be 5 apart, while their centres sit at most R−2 and R−3 from the middle; the sum forces R = 5"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "6",
+            "8"
+          ],
+          [
+            "8",
+            "5"
+          ],
+          [
+            "3",
+            "5"
+          ]
+        ],
+        "radius": "5"
+      }
+    },
+    {
+      "instanceId": "p06-n4-v2",
+      "name": "n = 4",
+      "parameters": {
+        "n": 4
+      },
+      "objective": "minimize",
+      "scoreStored": "7000000000",
+      "scoreDisplay": "7",
+      "status": "proven",
+      "settled": true,
+      "knownBest": {
+        "display": "7",
+        "kind": "proven",
+        "exact": "7",
+        "source": "the circles of radii 3 and 4 must be 7 apart, while their centres sit at most R−3 and R−4 from the middle; the sum forces R = 7"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "8.2",
+            "10.5"
+          ],
+          [
+            "8.3",
+            "2.5"
+          ],
+          [
+            "11",
+            "7"
+          ],
+          [
+            "4",
+            "7"
+          ]
+        ],
+        "radius": "7"
+      }
+    },
+    {
+      "instanceId": "p06-n5-v2",
+      "name": "n = 5",
+      "parameters": {
+        "n": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "9001397747",
+      "scoreDisplay": "9.001397747",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "9.001397747",
+        "kind": "best",
+        "source": "value recovered from Packomania's ccin coordinate files (the page prints four decimals, the files carry twelve-digit radii); the table does not mark this row proved",
+        "url": "https://www.packomania.com/ccin/ccin.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "15.427428729",
+            "5.90351407"
+          ],
+          [
+            "2.863650868",
+            "10.481587886"
+          ],
+          [
+            "14.819049096",
+            "10.47506925"
+          ],
+          [
+            "8.769837583",
+            "13.997432105"
+          ],
+          [
+            "8.986044788",
+            "5.000029455"
+          ]
+        ],
+        "radius": "9.001397747"
+      }
+    },
+    {
+      "instanceId": "p06-n6-v2",
+      "name": "n = 6",
+      "parameters": {
+        "n": 6
+      },
+      "objective": "minimize",
+      "scoreStored": "11057040401",
+      "scoreDisplay": "11.057040401",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "11.057040401",
+        "kind": "best",
+        "source": "value recovered from Packomania's ccin coordinate files (the page prints four decimals, the files carry twelve-digit radii); the table does not mark this row proved",
+        "url": "https://www.packomania.com/ccin/ccin.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "6.889946072",
+            "17.970565525"
+          ],
+          [
+            "3.075828898",
+            "6.835315264"
+          ],
+          [
+            "19.069009755",
+            "11.100388304"
+          ],
+          [
+            "4.444739127",
+            "13.522662244"
+          ],
+          [
+            "12.804479524",
+            "16.856539942"
+          ],
+          [
+            "11.03339487",
+            "6.000055281"
+          ]
+        ],
+        "radius": "11.057040401"
+      }
+    },
+    {
+      "instanceId": "p06-n7-v2",
+      "name": "n = 7",
+      "parameters": {
+        "n": 7
+      },
+      "objective": "minimize",
+      "scoreStored": "13462110679",
+      "scoreDisplay": "13.462110679",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "13.462110679",
+        "kind": "best",
+        "source": "value recovered from Packomania's ccin coordinate files (the page prints four decimals, the files carry twelve-digit radii); the table does not mark this row proved",
+        "url": "https://www.packomania.com/ccin/ccin.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "17.465341881",
+            "24.747300549"
+          ],
+          [
+            "4.38064398",
+            "6.531113768"
+          ],
+          [
+            "23.145057888",
+            "9.500255911"
+          ],
+          [
+            "4.033627456",
+            "12.665089592"
+          ],
+          [
+            "21.04428288",
+            "17.219500977"
+          ],
+          [
+            "10.48588983",
+            "20.305005186"
+          ],
+          [
+            "13.462665595",
+            "7.000000025"
+          ]
+        ],
+        "radius": "13.462110679"
+      }
+    },
+    {
+      "instanceId": "p06-n8-v2",
+      "name": "n = 8",
+      "parameters": {
+        "n": 8
+      },
+      "objective": "minimize",
+      "scoreStored": "16221746678",
+      "scoreDisplay": "16.221746678",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "16.221746678",
+        "kind": "best",
+        "source": "value recovered from Packomania's ccin coordinate files (the page prints four decimals, the files carry twelve-digit radii); the table does not mark this row proved",
+        "url": "https://www.packomania.com/ccin/ccin.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "13.862866277",
+            "30.452528852"
+          ],
+          [
+            "18.249563344",
+            "19.667901222"
+          ],
+          [
+            "27.168633002",
+            "8.806878843"
+          ],
+          [
+            "4.821424807",
+            "11.816777542"
+          ],
+          [
+            "20.020723411",
+            "26.780883682"
+          ],
+          [
+            "26.325965512",
+            "17.767342643"
+          ],
+          [
+            "9.021453616",
+            "21.983377663"
+          ],
+          [
+            "16.198263789",
+            "8.000033537"
+          ]
+        ],
+        "radius": "16.221746678"
+      }
+    },
+    {
+      "instanceId": "p06-n9-v2",
+      "name": "n = 9",
+      "parameters": {
+        "n": 9
+      },
+      "objective": "minimize",
+      "scoreStored": "19233193909",
+      "scoreDisplay": "19.233193909",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "19.233193909",
+        "kind": "best",
+        "source": "value recovered from Packomania's ccin coordinate files (the page prints four decimals, the files carry twelve-digit radii); the table does not mark this row proved",
+        "url": "https://www.packomania.com/ccin/ccin.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "8.757000082",
+            "5.393705011"
+          ],
+          [
+            "28.455716735",
+            "33.300354847"
+          ],
+          [
+            "18.221433892",
+            "21.300599375"
+          ],
+          [
+            "32.056662707",
+            "11.01073414"
+          ],
+          [
+            "6.069259097",
+            "13.820742606"
+          ],
+          [
+            "19.73353093",
+            "32.456925753"
+          ],
+          [
+            "8.739038904",
+            "25.519985137"
+          ],
+          [
+            "29.881090383",
+            "22.811873283"
+          ],
+          [
+            "19.213102938",
+            "9.000019723"
+          ]
+        ],
+        "radius": "19.233193909"
+      }
+    },
+    {
+      "instanceId": "p06-n10-v2",
+      "name": "n = 10",
+      "parameters": {
+        "n": 10
+      },
+      "objective": "minimize",
+      "scoreStored": "22000193014",
+      "scoreDisplay": "22.000193014",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "22.000193014",
+        "kind": "best",
+        "source": "value recovered from Packomania's ccin coordinate files (the page prints four decimals, the files carry twelve-digit radii); the table does not mark this row proved",
+        "url": "https://www.packomania.com/ccin/ccin.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "3.010350188",
+            "30.935005215"
+          ],
+          [
+            "34.452513458",
+            "37.529448855"
+          ],
+          [
+            "8.025301026",
+            "9.186824047"
+          ],
+          [
+            "36.089591065",
+            "10.871964403"
+          ],
+          [
+            "20.699848972",
+            "25.359177615"
+          ],
+          [
+            "12.264104584",
+            "34.697230407"
+          ],
+          [
+            "25.112954131",
+            "36.6738602"
+          ],
+          [
+            "8.014750182",
+            "21.357703159"
+          ],
+          [
+            "34.849183766",
+            "23.977174312"
+          ],
+          [
+            "21.97909765",
+            "10.000018543"
+          ]
+        ],
+        "radius": "22.000193014"
+      }
+    },
+    {
+      "instanceId": "p06-n11-v2",
+      "name": "n = 11",
+      "parameters": {
+        "n": 11
+      },
+      "objective": "minimize",
+      "scoreStored": "24960634290",
+      "scoreDisplay": "24.96063429",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "24.96063429",
+        "kind": "best",
+        "source": "value recovered from Packomania's ccin coordinate files (the page prints four decimals, the files carry twelve-digit radii); the table does not mark this row proved",
+        "url": "https://www.packomania.com/ccin/ccin.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "10.992906941",
+            "5.677608844"
+          ],
+          [
+            "45.895996286",
+            "34.234064993"
+          ],
+          [
+            "10.546606276",
+            "41.346866452"
+          ],
+          [
+            "39.867801655",
+            "10.225487498"
+          ],
+          [
+            "9.008589211",
+            "12.962335284"
+          ],
+          [
+            "26.492042361",
+            "28.285195921"
+          ],
+          [
+            "36.614557687",
+            "38.627032994"
+          ],
+          [
+            "21.921665914",
+            "41.64678983"
+          ],
+          [
+            "40.822790087",
+            "23.190363013"
+          ],
+          [
+            "10.293047739",
+            "27.907239643"
+          ],
+          [
+            "24.887820473",
+            "11.000189888"
+          ]
+        ],
+        "radius": "24.96063429"
+      }
+    },
+    {
+      "instanceId": "p06-n12-v2",
+      "name": "n = 12",
+      "parameters": {
+        "n": 12
+      },
+      "objective": "minimize",
+      "scoreStored": "28371389437",
+      "scoreDisplay": "28.371389437",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "28.371389437",
+        "kind": "best",
+        "source": "value recovered from Packomania's ccin coordinate files (the page prints four decimals, the files carry twelve-digit radii); the table does not mark this row proved",
+        "url": "https://www.packomania.com/ccin/ccin.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "16.298261968",
+            "3.946014792"
+          ],
+          [
+            "29.964524796",
+            "54.676111428"
+          ],
+          [
+            "7.676893317",
+            "43.001506976"
+          ],
+          [
+            "44.705353115",
+            "10.333449559"
+          ],
+          [
+            "11.323579868",
+            "12.384080936"
+          ],
+          [
+            "47.024406135",
+            "40.694349311"
+          ],
+          [
+            "36.361122167",
+            "48.176881261"
+          ],
+          [
+            "29.913866834",
+            "31.936411023"
+          ],
+          [
+            "20.407625823",
+            "46.030075623"
+          ],
+          [
+            "46.352014751",
+            "24.602428949"
+          ],
+          [
+            "11.000002554",
+            "28.380808656"
+          ],
+          [
+            "28.319242422",
+            "12.000083051"
+          ]
+        ],
+        "radius": "28.371389437"
+      }
+    },
+    {
+      "instanceId": "p06-n13-v2",
+      "name": "n = 13",
+      "parameters": {
+        "n": 13
+      },
+      "objective": "minimize",
+      "scoreStored": "31545867019",
+      "scoreDisplay": "31.545867019",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "31.545867019",
+        "kind": "best",
+        "source": "value recovered from Packomania's ccin coordinate files (the page prints four decimals, the files carry twelve-digit radii); the table does not mark this row proved",
+        "url": "https://www.packomania.com/ccin/ccin.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "61.227951409",
+            "33.849936937"
+          ],
+          [
+            "52.025051385",
+            "52.219752059"
+          ],
+          [
+            "5.520908935",
+            "43.202539299"
+          ],
+          [
+            "48.593743653",
+            "10.180447098"
+          ],
+          [
+            "13.571550834",
+            "12.011102791"
+          ],
+          [
+            "30.380441652",
+            "57.065136316"
+          ],
+          [
+            "42.835675752",
+            "53.341274941"
+          ],
+          [
+            "52.646429665",
+            "41.994508543"
+          ],
+          [
+            "17.580021482",
+            "49.245338142"
+          ],
+          [
+            "51.733747417",
+            "24.017662013"
+          ],
+          [
+            "33.911173943",
+            "37.178223112"
+          ],
+          [
+            "12.172682015",
+            "28.953451095"
+          ],
+          [
+            "31.544365922",
+            "13.000000062"
+          ]
+        ],
+        "radius": "31.545867019"
+      }
+    },
+    {
+      "instanceId": "p06-n14-v2",
+      "name": "n = 14",
+      "parameters": {
+        "n": 14
+      },
+      "objective": "minimize",
+      "scoreStored": "35095647146",
+      "scoreDisplay": "35.095647146",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "35.095647146",
+        "kind": "best",
+        "source": "value recovered from Packomania's ccin coordinate files (the page prints four decimals, the files carry twelve-digit radii); the table does not mark this row proved",
+        "url": "https://www.packomania.com/ccin/ccin.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "50.464106919",
+            "5.821688847"
+          ],
+          [
+            "54.873109605",
+            "61.605239011"
+          ],
+          [
+            "65.932366607",
+            "43.007020384"
+          ],
+          [
+            "4.738200373",
+            "41.830979122"
+          ],
+          [
+            "16.237905256",
+            "11.640721268"
+          ],
+          [
+            "55.090815674",
+            "13.95918769"
+          ],
+          [
+            "28.016618862",
+            "62.284849912"
+          ],
+          [
+            "42.963519198",
+            "61.023830337"
+          ],
+          [
+            "56.233636926",
+            "50.398202096"
+          ],
+          [
+            "15.535455722",
+            "50.742728499"
+          ],
+          [
+            "58.760261245",
+            "30.558439759"
+          ],
+          [
+            "13.449766414",
+            "28.410523946"
+          ],
+          [
+            "36.356127659",
+            "40.970337789"
+          ],
+          [
+            "35.090857315",
+            "14.000000545"
+          ]
+        ],
+        "radius": "35.095647146"
+      }
+    },
+    {
+      "instanceId": "p06-n15-v2",
+      "name": "n = 15",
+      "parameters": {
+        "n": 15
+      },
+      "objective": "minimize",
+      "scoreStored": "38837995510",
+      "scoreDisplay": "38.83799551",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "38.83799551",
+        "kind": "best",
+        "source": "value recovered from Packomania's ccin coordinate files (the page prints four decimals, the files carry twelve-digit radii); the table does not mark this row proved",
+        "url": "https://www.packomania.com/ccin/ccin.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "37.6228155",
+            "76.035419228"
+          ],
+          [
+            "60.482015158",
+            "68.205272461"
+          ],
+          [
+            "15.089166574",
+            "64.855502675"
+          ],
+          [
+            "73.420842597",
+            "43.003886613"
+          ],
+          [
+            "58.818513987",
+            "11.600383948"
+          ],
+          [
+            "23.824049968",
+            "30.329530755"
+          ],
+          [
+            "16.867865484",
+            "15.795180042"
+          ],
+          [
+            "9.633255636",
+            "28.935211259"
+          ],
+          [
+            "47.498652086",
+            "67.3125076"
+          ],
+          [
+            "28.427327658",
+            "65.619861727"
+          ],
+          [
+            "62.579389227",
+            "53.374164825"
+          ],
+          [
+            "13.79828522",
+            "48.496717555"
+          ],
+          [
+            "62.88116145",
+            "29.376062117"
+          ],
+          [
+            "39.405555407",
+            "43.994749804"
+          ],
+          [
+            "38.853490259",
+            "15.000005037"
+          ]
+        ],
+        "radius": "38.83799551"
+      }
+    },
+    {
+      "instanceId": "p06-n16-v2",
+      "name": "n = 16",
+      "parameters": {
+        "n": 16
+      },
+      "objective": "minimize",
+      "scoreStored": "42458116437",
+      "scoreDisplay": "42.458116437",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "42.458116437",
+        "kind": "best",
+        "source": "value recovered from Packomania's ccin coordinate files (the page prints four decimals, the files carry twelve-digit radii); the table does not mark this row proved",
+        "url": "https://www.packomania.com/ccin/ccin.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "81.90961095",
+            "30.131558403"
+          ],
+          [
+            "80.388191359",
+            "53.759240986"
+          ],
+          [
+            "66.828011577",
+            "73.232739989"
+          ],
+          [
+            "75.722232983",
+            "24.353809491"
+          ],
+          [
+            "11.206444103",
+            "63.104738856"
+          ],
+          [
+            "27.952788896",
+            "9.009802174"
+          ],
+          [
+            "40.802483593",
+            "7.03867402"
+          ],
+          [
+            "17.67566987",
+            "18.516685182"
+          ],
+          [
+            "69.055249262",
+            "60.993329161"
+          ],
+          [
+            "34.854780512",
+            "24.394633853"
+          ],
+          [
+            "52.423765621",
+            "72.295993809"
+          ],
+          [
+            "72.837506006",
+            "40.269613232"
+          ],
+          [
+            "28.722963539",
+            "68.5181663"
+          ],
+          [
+            "58.223070943",
+            "18.765699918"
+          ],
+          [
+            "46.674351984",
+            "46.93964859"
+          ],
+          [
+            "16.000000001",
+            "42.458116437"
+          ]
+        ],
+        "radius": "42.458116437"
+      }
+    },
+    {
+      "instanceId": "p06-n17-v2",
+      "name": "n = 17",
+      "parameters": {
+        "n": 17
+      },
+      "objective": "minimize",
+      "scoreStored": "46291342119",
+      "scoreDisplay": "46.291342119",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "46.291342119",
+        "kind": "best",
+        "source": "value recovered from Packomania's ccin coordinate files (the page prints four decimals, the files carry twelve-digit radii); the table does not mark this row proved",
+        "url": "https://www.packomania.com/ccin/ccin.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "54.148891993",
+            "90.225716211"
+          ],
+          [
+            "2.150799221",
+            "45.748098882"
+          ],
+          [
+            "79.050685204",
+            "74.463200113"
+          ],
+          [
+            "88.30918693",
+            "41.967821637"
+          ],
+          [
+            "68.217499293",
+            "11.425107469"
+          ],
+          [
+            "23.478624457",
+            "13.10412546"
+          ],
+          [
+            "40.894324078",
+            "40.476076066"
+          ],
+          [
+            "21.642350774",
+            "75.594142445"
+          ],
+          [
+            "37.19576813",
+            "82.456445891"
+          ],
+          [
+            "12.681807674",
+            "59.982971209"
+          ],
+          [
+            "57.091402062",
+            "48.467465853"
+          ],
+          [
+            "79.255791248",
+            "55.738100183"
+          ],
+          [
+            "35.779888116",
+            "59.89462946"
+          ],
+          [
+            "74.296624529",
+            "30.215430544"
+          ],
+          [
+            "59.837967653",
+            "74.498380748"
+          ],
+          [
+            "18.34419997",
+            "34.607051254"
+          ],
+          [
+            "46.25463809",
+            "17.000022997"
+          ]
+        ],
+        "radius": "46.291342119"
+      }
+    },
+    {
+      "instanceId": "p06-n18-v2",
+      "name": "n = 18",
+      "parameters": {
+        "n": 18
+      },
+      "objective": "minimize",
+      "scoreStored": "50119762625",
+      "scoreDisplay": "50.119762625",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "50.119762625",
+        "kind": "best",
+        "source": "value recovered from Packomania's ccin coordinate files (the page prints four decimals, the files carry twelve-digit radii); the table does not mark this row proved",
+        "url": "https://www.packomania.com/ccin/ccin.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "5.538446735",
+            "64.308098871"
+          ],
+          [
+            "94.780231771",
+            "67.345811306"
+          ],
+          [
+            "23.686688537",
+            "87.54023718"
+          ],
+          [
+            "70.489724195",
+            "8.80264443"
+          ],
+          [
+            "27.807977992",
+            "10.964810477"
+          ],
+          [
+            "67.692776634",
+            "90.565703764"
+          ],
+          [
+            "57.879475909",
+            "62.32920602"
+          ],
+          [
+            "89.459801803",
+            "35.071981358"
+          ],
+          [
+            "91.197291536",
+            "51.982957954"
+          ],
+          [
+            "77.955915719",
+            "21.227827176"
+          ],
+          [
+            "11.004507422",
+            "49.525929148"
+          ],
+          [
+            "18.781197263",
+            "71.712384681"
+          ],
+          [
+            "20.650100946",
+            "27.549520761"
+          ],
+          [
+            "69.183161702",
+            "44.073028128"
+          ],
+          [
+            "77.717517157",
+            "71.839837938"
+          ],
+          [
+            "37.974131835",
+            "50.806303724"
+          ],
+          [
+            "45.555814678",
+            "82.923558982"
+          ],
+          [
+            "50.142588264",
+            "18.000008111"
+          ]
+        ],
+        "radius": "50.119762625"
+      }
+    },
+    {
+      "instanceId": "p06-n19-v2",
+      "name": "n = 19",
+      "parameters": {
+        "n": 19
+      },
+      "objective": "minimize",
+      "scoreStored": "54240293593",
+      "scoreDisplay": "54.240293593",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "54.240293593",
+        "kind": "best",
+        "source": "value recovered from Packomania's ccin coordinate files (the page prints four decimals, the files carry twelve-digit radii); the table does not mark this row proved",
+        "url": "https://www.packomania.com/ccin/ccin.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "21.25815133",
+            "94.396600853"
+          ],
+          [
+            "7.39481097",
+            "34.656692826"
+          ],
+          [
+            "85.122302679",
+            "94.746252088"
+          ],
+          [
+            "5.004112769",
+            "64.007504028"
+          ],
+          [
+            "31.501815228",
+            "10.634306351"
+          ],
+          [
+            "102.445424359",
+            "54.848253176"
+          ],
+          [
+            "79.876503657",
+            "14.561204991"
+          ],
+          [
+            "52.74669009",
+            "100.456458515"
+          ],
+          [
+            "34.832925991",
+            "95.038958053"
+          ],
+          [
+            "70.065971105",
+            "95.553142786"
+          ],
+          [
+            "63.321584712",
+            "51.811677487"
+          ],
+          [
+            "12.272388774",
+            "49.450996371"
+          ],
+          [
+            "23.274934116",
+            "27.002299392"
+          ],
+          [
+            "38.348234291",
+            "49.529964995"
+          ],
+          [
+            "20.952210442",
+            "75.017785294"
+          ],
+          [
+            "51.918140928",
+            "76.470764731"
+          ],
+          [
+            "87.426335942",
+            "37.342777205"
+          ],
+          [
+            "85.661140234",
+            "72.298235779"
+          ],
+          [
+            "54.258208271",
+            "19.000004554"
+          ]
+        ],
+        "radius": "54.240293593"
+      }
+    },
+    {
+      "instanceId": "p06-n20-v2",
+      "name": "n = 20",
+      "parameters": {
+        "n": 20
+      },
+      "objective": "minimize",
+      "scoreStored": "58400567481",
+      "scoreDisplay": "58.400567481",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "58.400567481",
+        "kind": "best",
+        "source": "value recovered from Packomania's ccin coordinate files (the page prints four decimals, the files carry twelve-digit radii); the table does not mark this row proved",
+        "url": "https://www.packomania.com/ccin/ccin.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "8.689041906",
+            "36.788632938"
+          ],
+          [
+            "108.329286854",
+            "84.261518135"
+          ],
+          [
+            "55.906274413",
+            "113.354625709"
+          ],
+          [
+            "18.40847212",
+            "94.961493118"
+          ],
+          [
+            "110.54921953",
+            "46.905407772"
+          ],
+          [
+            "34.557155887",
+            "11.738900174"
+          ],
+          [
+            "83.895842679",
+            "13.768636312"
+          ],
+          [
+            "84.947388432",
+            "101.243110587"
+          ],
+          [
+            "97.263060273",
+            "88.804015701"
+          ],
+          [
+            "67.566998284",
+            "105.925208235"
+          ],
+          [
+            "72.191767591",
+            "51.325337894"
+          ],
+          [
+            "12.43398815",
+            "52.069197401"
+          ],
+          [
+            "16.841441427",
+            "76.677617823"
+          ],
+          [
+            "25.016854038",
+            "29.316802229"
+          ],
+          [
+            "101.346996632",
+            "64.662634294"
+          ],
+          [
+            "93.475701842",
+            "34.678593233"
+          ],
+          [
+            "72.907945735",
+            "79.333025704"
+          ],
+          [
+            "41.706418741",
+            "95.190664662"
+          ],
+          [
+            "42.976441624",
+            "58.212467816"
+          ],
+          [
+            "58.29475112",
+            "22.346754463"
+          ]
+        ],
+        "radius": "58.400567481"
+      }
+    },
+    {
+      "instanceId": "p06-n21-v2",
+      "name": "n = 21",
+      "parameters": {
+        "n": 21
+      },
+      "objective": "minimize",
+      "scoreStored": "62558877096",
+      "scoreDisplay": "62.558877096",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "62.558877096",
+        "kind": "best",
+        "source": "value recovered from Packomania's ccin coordinate files (the page prints four decimals, the files carry twelve-digit radii); the table does not mark this row proved",
+        "url": "https://www.packomania.com/ccin/ccin.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "11.451036857",
+            "93.838656129"
+          ],
+          [
+            "72.360586834",
+            "120.947310929"
+          ],
+          [
+            "114.561355032",
+            "91.502250506"
+          ],
+          [
+            "34.869867571",
+            "114.09076702"
+          ],
+          [
+            "5.046228055",
+            "62.482242651"
+          ],
+          [
+            "117.487593728",
+            "49.077680285"
+          ],
+          [
+            "88.938202268",
+            "13.661842139"
+          ],
+          [
+            "51.314927121",
+            "49.872265188"
+          ],
+          [
+            "33.030026424",
+            "17.875543584"
+          ],
+          [
+            "80.686356943",
+            "111.89274007"
+          ],
+          [
+            "97.998769651",
+            "100.006598296"
+          ],
+          [
+            "28.085901237",
+            "99.490598094"
+          ],
+          [
+            "15.39559282",
+            "77.513920947"
+          ],
+          [
+            "76.570127321",
+            "87.129747441"
+          ],
+          [
+            "74.216372245",
+            "57.155431476"
+          ],
+          [
+            "54.910610402",
+            "108.485264424"
+          ],
+          [
+            "98.938071736",
+            "35.479326198"
+          ],
+          [
+            "46.768132052",
+            "75.474659364"
+          ],
+          [
+            "105.309520966",
+            "70.911015895"
+          ],
+          [
+            "23.649292469",
+            "45.316422406"
+          ],
+          [
+            "62.573339128",
+            "23.090203165"
+          ]
+        ],
+        "radius": "62.558877096"
+      }
+    },
+    {
+      "instanceId": "p06-n22-v2",
+      "name": "n = 22",
+      "parameters": {
+        "n": 22
+      },
+      "objective": "minimize",
+      "scoreStored": "66760286243",
+      "scoreDisplay": "66.760286243",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "66.760286243",
+        "kind": "best",
+        "source": "value recovered from Packomania's ccin coordinate files (the page prints four decimals, the files carry twelve-digit radii); the table does not mark this row proved",
+        "url": "https://www.packomania.com/ccin/ccin.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "69.954238826",
+            "132.427598424"
+          ],
+          [
+            "127.02973635",
+            "85.645952167"
+          ],
+          [
+            "37.595764489",
+            "122.985209374"
+          ],
+          [
+            "14.046039388",
+            "100.669376542"
+          ],
+          [
+            "124.962577039",
+            "46.175492176"
+          ],
+          [
+            "7.83967703",
+            "52.490187171"
+          ],
+          [
+            "38.983257972",
+            "13.847825402"
+          ],
+          [
+            "96.051352313",
+            "15.821060809"
+          ],
+          [
+            "101.82344648",
+            "112.644156151"
+          ],
+          [
+            "84.559659357",
+            "120.643906931"
+          ],
+          [
+            "113.841247438",
+            "96.605376671"
+          ],
+          [
+            "49.725630445",
+            "90.249738646"
+          ],
+          [
+            "31.400899795",
+            "107.255744839"
+          ],
+          [
+            "85.503657632",
+            "53.7810404"
+          ],
+          [
+            "107.996419228",
+            "35.475967993"
+          ],
+          [
+            "58.755413602",
+            "116.885416402"
+          ],
+          [
+            "55.570836136",
+            "61.844922672"
+          ],
+          [
+            "115.513194753",
+            "67.608476232"
+          ],
+          [
+            "28.803357507",
+            "37.772073072"
+          ],
+          [
+            "20.915119783",
+            "75.965995437"
+          ],
+          [
+            "82.687680703",
+            "88.667574679"
+          ],
+          [
+            "66.744562395",
+            "22.232929861"
+          ]
+        ],
+        "radius": "66.760286243"
+      }
+    },
+    {
+      "instanceId": "p06-n23-v2",
+      "name": "n = 23",
+      "parameters": {
+        "n": 23
+      },
+      "objective": "minimize",
+      "scoreStored": "71199461610",
+      "scoreDisplay": "71.19946161",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "71.19946161",
+        "kind": "best",
+        "source": "value recovered from Packomania's ccin coordinate files (the page prints four decimals, the files carry twelve-digit radii); the table does not mark this row proved",
+        "url": "https://www.packomania.com/ccin/ccin.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "6.360296909",
+            "97.994280619"
+          ],
+          [
+            "11.477457967",
+            "36.30774167"
+          ],
+          [
+            "94.151211311",
+            "135.033534209"
+          ],
+          [
+            "138.326831894",
+            "70.14597142"
+          ],
+          [
+            "43.21144529",
+            "11.221435567"
+          ],
+          [
+            "115.35977741",
+            "23.232428112"
+          ],
+          [
+            "41.707998644",
+            "128.206175605"
+          ],
+          [
+            "8.076661552",
+            "68.087539284"
+          ],
+          [
+            "10.529824125",
+            "84.909607926"
+          ],
+          [
+            "13.460597982",
+            "50.911590153"
+          ],
+          [
+            "119.777871597",
+            "106.753832104"
+          ],
+          [
+            "102.225673093",
+            "121.61722094"
+          ],
+          [
+            "127.932513706",
+            "84.181685283"
+          ],
+          [
+            "59.385056237",
+            "87.77231061"
+          ],
+          [
+            "62.927054049",
+            "15.612172071"
+          ],
+          [
+            "93.504500009",
+            "20.713132627"
+          ],
+          [
+            "34.174521589",
+            "68.395422606"
+          ],
+          [
+            "34.618933395",
+            "32.572428705"
+          ],
+          [
+            "30.787206456",
+            "104.239337907"
+          ],
+          [
+            "94.352297765",
+            "88.955333869"
+          ],
+          [
+            "69.226674449",
+            "121.360143989"
+          ],
+          [
+            "116.159974921",
+            "51.220991562"
+          ],
+          [
+            "71.18442378",
+            "52.704163729"
+          ]
+        ],
+        "radius": "71.19946161"
+      }
+    },
+    {
+      "instanceId": "p06-n24-v2",
+      "name": "n = 24",
+      "parameters": {
+        "n": 24
+      },
+      "objective": "minimize",
+      "scoreStored": "75749142584",
+      "scoreDisplay": "75.749142584",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "75.749142584",
+        "kind": "best",
+        "source": "value recovered from Packomania's ccin coordinate files (the page prints four decimals, the files carry twelve-digit radii); the table does not mark this row proved",
+        "url": "https://www.packomania.com/ccin/ccin.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "37.420787944",
+            "16.43626666"
+          ],
+          [
+            "25.185578463",
+            "59.882186741"
+          ],
+          [
+            "32.114405114",
+            "18.039228702"
+          ],
+          [
+            "140.627408985",
+            "105.866644993"
+          ],
+          [
+            "123.040414281",
+            "23.239466511"
+          ],
+          [
+            "75.918414956",
+            "6.000205402"
+          ],
+          [
+            "42.753979229",
+            "135.977813061"
+          ],
+          [
+            "101.849823518",
+            "138.253387659"
+          ],
+          [
+            "90.030975188",
+            "101.836959098"
+          ],
+          [
+            "11.648323085",
+            "61.12478"
+          ],
+          [
+            "139.491940951",
+            "64.394448558"
+          ],
+          [
+            "12.426990071",
+            "83.115157875"
+          ],
+          [
+            "137.230225775",
+            "88.291073946"
+          ],
+          [
+            "127.677612846",
+            "42.336710974"
+          ],
+          [
+            "37.436123288",
+            "72.939537218"
+          ],
+          [
+            "57.960776427",
+            "18.709383916"
+          ],
+          [
+            "65.114480604",
+            "88.999068232"
+          ],
+          [
+            "30.250557468",
+            "40.189739382"
+          ],
+          [
+            "64.974977226",
+            "52.999338527"
+          ],
+          [
+            "116.40598219",
+            "113.89345136"
+          ],
+          [
+            "32.494406936",
+            "109.312462706"
+          ],
+          [
+            "95.683318022",
+            "25.833223499"
+          ],
+          [
+            "72.150489295",
+            "128.375388296"
+          ],
+          [
+            "103.656280041",
+            "71.781159862"
+          ]
+        ],
+        "radius": "75.749142584"
+      }
+    },
+    {
+      "instanceId": "p06-n25-v2",
+      "name": "n = 25",
+      "parameters": {
+        "n": 25
+      },
+      "objective": "minimize",
+      "scoreStored": "80285864442",
+      "scoreDisplay": "80.285864442",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "80.285864442",
+        "kind": "best",
+        "source": "value recovered from Packomania's ccin coordinate files (the page prints four decimals, the files carry twelve-digit radii); the table does not mark this row proved",
+        "url": "https://www.packomania.com/ccin/ccin.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "123.422612405",
+            "32.557565682"
+          ],
+          [
+            "104.985967042",
+            "152.995604199"
+          ],
+          [
+            "78.998473417",
+            "40.396583515"
+          ],
+          [
+            "24.27663079",
+            "29.33263025"
+          ],
+          [
+            "64.021710871",
+            "153.736971854"
+          ],
+          [
+            "22.575085344",
+            "126.954287121"
+          ],
+          [
+            "129.111074181",
+            "25.737654805"
+          ],
+          [
+            "75.251699019",
+            "8.175508899"
+          ],
+          [
+            "146.863765685",
+            "105.762472051"
+          ],
+          [
+            "136.899071098",
+            "121.939766689"
+          ],
+          [
+            "149.34254394",
+            "85.916675055"
+          ],
+          [
+            "20.628386528",
+            "47.06573743"
+          ],
+          [
+            "13.630649296",
+            "71.095116513"
+          ],
+          [
+            "55.771334071",
+            "96.696495403"
+          ],
+          [
+            "82.950210449",
+            "145.517339638"
+          ],
+          [
+            "42.599109751",
+            "69.742970467"
+          ],
+          [
+            "112.983049355",
+            "134.470684612"
+          ],
+          [
+            "84.222574346",
+            "112.541877698"
+          ],
+          [
+            "22.874477559",
+            "101.730906679"
+          ],
+          [
+            "119.08737856",
+            "97.427466455"
+          ],
+          [
+            "49.918152437",
+            "131.203599959"
+          ],
+          [
+            "99.831713512",
+            "25.375011437"
+          ],
+          [
+            "132.37797352",
+            "56.451384448"
+          ],
+          [
+            "52.923652814",
+            "31.098387268"
+          ],
+          [
+            "83.767008688",
+            "69.544291021"
+          ]
+        ],
+        "radius": "80.285864442"
+      }
+    },
+    {
+      "instanceId": "p06-n26-v2",
+      "name": "n = 26",
+      "parameters": {
+        "n": 26
+      },
+      "objective": "minimize",
+      "scoreStored": "84978191068",
+      "scoreDisplay": "84.978191068",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "84.978191068",
+        "kind": "best",
+        "source": "value recovered from Packomania's ccin coordinate files (the page prints four decimals, the files carry twelve-digit radii); the table does not mark this row proved",
+        "url": "https://www.packomania.com/ccin/ccin.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "143.724901888",
+            "27.835003987"
+          ],
+          [
+            "70.520199019",
+            "126.884742687"
+          ],
+          [
+            "56.612377668",
+            "53.090979427"
+          ],
+          [
+            "4.924801008",
+            "83.953592431"
+          ],
+          [
+            "163.170780154",
+            "68.762236204"
+          ],
+          [
+            "14.839931815",
+            "121.270269719"
+          ],
+          [
+            "135.54009609",
+            "25.614127505"
+          ],
+          [
+            "125.617773123",
+            "150.354534423"
+          ],
+          [
+            "61.822724885",
+            "157.341924414"
+          ],
+          [
+            "74.171477708",
+            "114.846423319"
+          ],
+          [
+            "54.698837109",
+            "17.48053572"
+          ],
+          [
+            "77.135800411",
+            "12.422603549"
+          ],
+          [
+            "125.786507486",
+            "86.27414257"
+          ],
+          [
+            "15.714515163",
+            "69.498840404"
+          ],
+          [
+            "154.842015632",
+            "88.228177082"
+          ],
+          [
+            "17.580521433",
+            "99.441103108"
+          ],
+          [
+            "73.021330439",
+            "41.129242796"
+          ],
+          [
+            "98.839849832",
+            "101.599860868"
+          ],
+          [
+            "100.293803159",
+            "64.628439204"
+          ],
+          [
+            "36.037847404",
+            "42.234676046"
+          ],
+          [
+            "107.542520317",
+            "25.245683701"
+          ],
+          [
+            "139.964918426",
+            "54.274569709"
+          ],
+          [
+            "135.446443106",
+            "120.953900987"
+          ],
+          [
+            "43.638421168",
+            "129.804112257"
+          ],
+          [
+            "93.191598359",
+            "144.227284615"
+          ],
+          [
+            "58.856178078",
+            "82.176180591"
+          ]
+        ],
+        "radius": "84.978191068"
+      }
+    },
+    {
+      "instanceId": "p06-n27-v2",
+      "name": "n = 27",
+      "parameters": {
+        "n": 27
+      },
+      "objective": "minimize",
+      "scoreStored": "89750962684",
+      "scoreDisplay": "89.750962684",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "89.750962684",
+        "kind": "best",
+        "source": "value recovered from Packomania's ccin coordinate files (the page prints four decimals, the files carry twelve-digit radii); the table does not mark this row proved",
+        "url": "https://www.packomania.com/ccin/ccin.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "38.035961193",
+            "57.072098937"
+          ],
+          [
+            "87.217486182",
+            "74.283809223"
+          ],
+          [
+            "93.46065523",
+            "99.446031795"
+          ],
+          [
+            "21.408559512",
+            "141.423347189"
+          ],
+          [
+            "73.589769288",
+            "6.601947189"
+          ],
+          [
+            "70.922050374",
+            "171.248550833"
+          ],
+          [
+            "168.908449855",
+            "113.677151945"
+          ],
+          [
+            "162.057449004",
+            "51.813531225"
+          ],
+          [
+            "127.564280547",
+            "105.831332134"
+          ],
+          [
+            "11.795484126",
+            "106.28645106"
+          ],
+          [
+            "19.927128406",
+            "126.170000154"
+          ],
+          [
+            "34.397734192",
+            "108.29259631"
+          ],
+          [
+            "53.070634325",
+            "57.586258024"
+          ],
+          [
+            "31.690497232",
+            "41.097178669"
+          ],
+          [
+            "122.032908862",
+            "157.171896919"
+          ],
+          [
+            "91.680811503",
+            "163.47667177"
+          ],
+          [
+            "93.374260059",
+            "17.090283582"
+          ],
+          [
+            "59.236654171",
+            "24.811932648"
+          ],
+          [
+            "84.579156615",
+            "51.999396368"
+          ],
+          [
+            "109.388023557",
+            "82.091257744"
+          ],
+          [
+            "145.550133726",
+            "129.914968721"
+          ],
+          [
+            "23.384191878",
+            "76.125813975"
+          ],
+          [
+            "101.759488424",
+            "124.831396611"
+          ],
+          [
+            "66.533754151",
+            "92.066807539"
+          ],
+          [
+            "154.309022691",
+            "84.756560156"
+          ],
+          [
+            "129.712785306",
+            "40.079663367"
+          ],
+          [
+            "54.627762976",
+            "141.657606829"
+          ]
+        ],
+        "radius": "89.750962684"
+      }
+    },
+    {
+      "instanceId": "p06-n28-v2",
+      "name": "n = 28",
+      "parameters": {
+        "n": 28
+      },
+      "objective": "minimize",
+      "scoreStored": "94525877104",
+      "scoreDisplay": "94.525877104",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "94.525877104",
+        "kind": "best",
+        "source": "value recovered from Packomania's ccin coordinate files (the page prints four decimals, the files carry twelve-digit radii); the table does not mark this row proved",
+        "url": "https://www.packomania.com/ccin/ccin.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "129.467740948",
+            "91.312391582"
+          ],
+          [
+            "78.104931616",
+            "113.644615153"
+          ],
+          [
+            "184.415474039",
+            "111.75005881"
+          ],
+          [
+            "60.486320245",
+            "10.644370566"
+          ],
+          [
+            "74.352027104",
+            "181.743345939"
+          ],
+          [
+            "6.023865624",
+            "96.393931876"
+          ],
+          [
+            "19.178260829",
+            "49.992596298"
+          ],
+          [
+            "133.309922535",
+            "171.870758486"
+          ],
+          [
+            "74.518892718",
+            "11.374765019"
+          ],
+          [
+            "178.250372935",
+            "100.301894581"
+          ],
+          [
+            "173.760486336",
+            "120.83431356"
+          ],
+          [
+            "163.017091603",
+            "48.488132501"
+          ],
+          [
+            "35.549444004",
+            "150.805000873"
+          ],
+          [
+            "143.731425982",
+            "30.785718016"
+          ],
+          [
+            "59.573311424",
+            "165.958945647"
+          ],
+          [
+            "170.691004864",
+            "75.416018703"
+          ],
+          [
+            "150.907708675",
+            "101.828538309"
+          ],
+          [
+            "91.830656717",
+            "67.594102583"
+          ],
+          [
+            "21.229263109",
+            "76.31147376"
+          ],
+          [
+            "65.080177313",
+            "131.394882979"
+          ],
+          [
+            "60.386136819",
+            "90.664476843"
+          ],
+          [
+            "25.59554795",
+            "117.078317601"
+          ],
+          [
+            "132.805535211",
+            "66.159065142"
+          ],
+          [
+            "146.170821842",
+            "142.553983711"
+          ],
+          [
+            "104.955671849",
+            "26.541710348"
+          ],
+          [
+            "100.45105769",
+            "162.795109323"
+          ],
+          [
+            "106.922118161",
+            "109.988061959"
+          ],
+          [
+            "53.508686429",
+            "42.149523723"
+          ]
+        ],
+        "radius": "94.525877104"
+      }
+    },
+    {
+      "instanceId": "p06-n29-v2",
+      "name": "n = 29",
+      "parameters": {
+        "n": 29
+      },
+      "objective": "minimize",
+      "scoreStored": "99483111566",
+      "scoreDisplay": "99.483111566",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "99.483111566",
+        "kind": "best",
+        "source": "value recovered from Packomania's ccin coordinate files (the page prints four decimals, the files carry twelve-digit radii); the table does not mark this row proved",
+        "url": "https://www.packomania.com/ccin/ccin.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "38.722884898",
+            "26.106831043"
+          ],
+          [
+            "184.454622717",
+            "60.84548965"
+          ],
+          [
+            "67.494660074",
+            "185.984955321"
+          ],
+          [
+            "32.646366791",
+            "164.209615456"
+          ],
+          [
+            "117.590706799",
+            "191.51827273"
+          ],
+          [
+            "113.828117238",
+            "7.115895053"
+          ],
+          [
+            "159.27604489",
+            "170.037566063"
+          ],
+          [
+            "190.150000421",
+            "111.590836025"
+          ],
+          [
+            "51.32104859",
+            "22.882790624"
+          ],
+          [
+            "146.214282062",
+            "97.8440616"
+          ],
+          [
+            "11.961349306",
+            "112.087580533"
+          ],
+          [
+            "154.665930198",
+            "31.599745879"
+          ],
+          [
+            "170.858162869",
+            "50.647359933"
+          ],
+          [
+            "14.919415431",
+            "87.190007514"
+          ],
+          [
+            "129.967491944",
+            "20.691622858"
+          ],
+          [
+            "116.502615566",
+            "144.20662261"
+          ],
+          [
+            "54.219253653",
+            "168.437058954"
+          ],
+          [
+            "134.461456338",
+            "173.07667696"
+          ],
+          [
+            "45.340757085",
+            "100.772863599"
+          ],
+          [
+            "118.073466019",
+            "108.24091076"
+          ],
+          [
+            "31.211224663",
+            "138.194198605"
+          ],
+          [
+            "175.660118624",
+            "85.316383874"
+          ],
+          [
+            "93.547763427",
+            "175.735573803"
+          ],
+          [
+            "83.581933347",
+            "80.921793386"
+          ],
+          [
+            "77.914094343",
+            "130.352885572"
+          ],
+          [
+            "40.196665659",
+            "56.067849076"
+          ],
+          [
+            "131.44417846",
+            "63.040020342"
+          ],
+          [
+            "87.79618056",
+            "29.092842784"
+          ],
+          [
+            "160.673386465",
+            "134.064695222"
+          ]
+        ],
+        "radius": "99.483111566"
+      }
+    },
+    {
+      "instanceId": "p06-n30-v2",
+      "name": "n = 30",
+      "parameters": {
+        "n": 30
+      },
+      "objective": "minimize",
+      "scoreStored": "104540363768",
+      "scoreDisplay": "104.540363768",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "104.540363768",
+        "kind": "best",
+        "source": "value recovered from Packomania's ccin coordinate files (the page prints four decimals, the files carry twelve-digit radii); the table does not mark this row proved",
+        "url": "https://www.packomania.com/ccin/ccin.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "175.566732607",
+            "172.223928193"
+          ],
+          [
+            "54.492864968",
+            "21.988204675"
+          ],
+          [
+            "54.703591952",
+            "82.094486104"
+          ],
+          [
+            "60.770449137",
+            "195.035766037"
+          ],
+          [
+            "150.353892451",
+            "16.404149385"
+          ],
+          [
+            "170.488293633",
+            "177.728173781"
+          ],
+          [
+            "12.567047052",
+            "137.021613378"
+          ],
+          [
+            "183.0612699",
+            "48.375346751"
+          ],
+          [
+            "16.276103279",
+            "68.04027651"
+          ],
+          [
+            "198.135543125",
+            "117.875384671"
+          ],
+          [
+            "102.481814657",
+            "122.828132673"
+          ],
+          [
+            "94.111712112",
+            "12.589495633"
+          ],
+          [
+            "70.146317494",
+            "19.707069717"
+          ],
+          [
+            "120.600959217",
+            "193.644879619"
+          ],
+          [
+            "51.648368664",
+            "176.789333294"
+          ],
+          [
+            "148.089961485",
+            "181.63010728"
+          ],
+          [
+            "31.1317072",
+            "152.231918885"
+          ],
+          [
+            "159.396081184",
+            "37.60692797"
+          ],
+          [
+            "91.765453976",
+            "43.500578966"
+          ],
+          [
+            "124.568614808",
+            "22.406678436"
+          ],
+          [
+            "86.425385966",
+            "186.093045867"
+          ],
+          [
+            "132.929100403",
+            "110.101672412"
+          ],
+          [
+            "129.127804472",
+            "65.262513752"
+          ],
+          [
+            "119.170315239",
+            "153.995815882"
+          ],
+          [
+            "71.763950349",
+            "141.600793977"
+          ],
+          [
+            "46.992954279",
+            "51.090533068"
+          ],
+          [
+            "85.132472635",
+            "89.019844762"
+          ],
+          [
+            "170.107244564",
+            "143.53497313"
+          ],
+          [
+            "177.279083787",
+            "84.920747608"
+          ],
+          [
+            "30.286201204",
+            "104.540363768"
+          ]
+        ],
+        "radius": "104.540363768"
+      }
+    }
+  ]
+}

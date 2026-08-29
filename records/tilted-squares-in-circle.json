@@ -1,0 +1,926 @@
+{
+  "problem": "tilted-squares-in-circle",
+  "code": "P05",
+  "title": "可倾斜等正方形装入圆",
+  "titleEn": "Tilted equal squares in a circle",
+  "objective": "maximize",
+  "scoreLabel": "最小边长的平方",
+  "scoreLabelEn": "smallest side squared",
+  "verifierVersion": "1.0.0",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseName": "CC BY 4.0",
+  "source": "https://minmaxarena.com/problems/tilted-squares-in-circle",
+  "generatedAt": "2026-08-29T05:03:18.710Z",
+  "instances": [
+    {
+      "instanceId": "p05-n3-v2",
+      "name": "n = 3",
+      "parameters": {
+        "n": 3
+      },
+      "objective": "maximize",
+      "scoreStored": "602352941176464640",
+      "scoreDisplay": "0.776114",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.60235294117646464",
+        "kind": "best",
+        "exact": "16√17/85",
+        "source": "r = 5√17/16, giving continuous score 256/425; found by Erich Friedman in 1997. The nine-decimal certificate reconstructed from the public figure reaches 0.60235294117646464; optimality open",
+        "url": "https://erich-friedman.github.io/packing/squincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "squares": [
+          {
+            "cx": "1.178094837",
+            "cy": "0.578462346",
+            "ux": "0.061386928",
+            "uy": "0.383170824"
+          },
+          {
+            "cx": "1.300868693",
+            "cy": "1.344803994",
+            "ux": "0.061386928",
+            "uy": "0.383170824"
+          },
+          {
+            "cx": "0.473140117",
+            "cy": "1.084407026",
+            "ux": "0.061386928",
+            "uy": "0.383170824"
+          }
+        ]
+      }
+    },
+    {
+      "instanceId": "p05-n4-v2",
+      "name": "n = 4",
+      "parameters": {
+        "n": 4
+      },
+      "objective": "maximize",
+      "scoreStored": "500000000000000000",
+      "scoreDisplay": "0.707106781",
+      "status": "proven",
+      "settled": true,
+      "knownBest": {
+        "display": "0.5",
+        "kind": "proven",
+        "exact": "√2/2",
+        "source": "r = √2 — the 2 × 2 block stood on a corner — so the side squared is exactly 1/2; optimality proved by the International Math Summer Camp (2026)",
+        "url": "https://erich-friedman.github.io/packing/squincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "squares": [
+          {
+            "cx": "1.500000000",
+            "cy": "1.000000000",
+            "ux": "0.250000000",
+            "uy": "0.250000000"
+          },
+          {
+            "cx": "0.500000000",
+            "cy": "1.000000000",
+            "ux": "0.250000000",
+            "uy": "0.250000000"
+          },
+          {
+            "cx": "1.000000000",
+            "cy": "1.500000000",
+            "ux": "0.250000000",
+            "uy": "0.250000000"
+          },
+          {
+            "cx": "1.000000000",
+            "cy": "0.500000000",
+            "ux": "0.250000000",
+            "uy": "0.250000000"
+          }
+        ]
+      }
+    },
+    {
+      "instanceId": "p05-n5-v2",
+      "name": "n = 5",
+      "parameters": {
+        "n": 5
+      },
+      "objective": "maximize",
+      "scoreStored": "400000000000000000",
+      "scoreDisplay": "0.632455532",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.4",
+        "kind": "best",
+        "exact": "√10/5",
+        "source": "r = √10/2, so the score is 2/5; found by Erich Friedman in 1997, optimality open",
+        "url": "https://erich-friedman.github.io/packing/squincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "squares": [
+          {
+            "cx": "1.000000000",
+            "cy": "1.000000000",
+            "ux": "0.100000000",
+            "uy": "0.300000000"
+          },
+          {
+            "cx": "0.800000000",
+            "cy": "0.400000000",
+            "ux": "0.100000000",
+            "uy": "0.300000000"
+          },
+          {
+            "cx": "1.200000000",
+            "cy": "1.600000000",
+            "ux": "0.100000000",
+            "uy": "0.300000000"
+          },
+          {
+            "cx": "0.400000000",
+            "cy": "1.200000000",
+            "ux": "0.100000000",
+            "uy": "0.300000000"
+          },
+          {
+            "cx": "1.600000000",
+            "cy": "0.800000000",
+            "ux": "0.100000000",
+            "uy": "0.300000000"
+          }
+        ]
+      }
+    },
+    {
+      "instanceId": "p05-n6-v2",
+      "name": "n = 6",
+      "parameters": {
+        "n": 6
+      },
+      "objective": "maximize",
+      "scoreStored": "350732302416621508",
+      "scoreDisplay": "0.592226563",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.350732302416621508",
+        "kind": "best",
+        "source": "Erich Friedman's 1997 packing, whose continuous radius was expressed as a nested radical by David Ellsworth in 2023. The site reconstructed the public contact graph and repaired it to a nine-decimal certificate scoring 0.350732302416621508; optimality open",
+        "url": "https://erich-friedman.github.io/packing/squincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "squares": [
+          {
+            "cx": "0.417834102",
+            "cy": "0.869060930",
+            "ux": "0.235470129",
+            "uy": "0.179546356"
+          },
+          {
+            "cx": "0.650329960",
+            "cy": "1.540866944",
+            "ux": "0.235470129",
+            "uy": "0.179546356"
+          },
+          {
+            "cx": "1.009422672",
+            "cy": "1.069926686",
+            "ux": "0.235470129",
+            "uy": "0.179546356"
+          },
+          {
+            "cx": "1.480362930",
+            "cy": "1.429019398",
+            "ux": "0.235470129",
+            "uy": "0.179546356"
+          },
+          {
+            "cx": "1.526742340",
+            "cy": "0.719634739",
+            "ux": "0.235470129",
+            "uy": "0.179546356"
+          },
+          {
+            "cx": "0.911989385",
+            "cy": "0.346863526",
+            "ux": "0.039544079",
+            "uy": "0.293460971"
+          }
+        ]
+      }
+    },
+    {
+      "instanceId": "p05-n7-v2",
+      "name": "n = 7",
+      "parameters": {
+        "n": 7
+      },
+      "objective": "maximize",
+      "scoreStored": "307692307692307652",
+      "scoreDisplay": "0.554700196",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.307692307692307652",
+        "kind": "best",
+        "exact": "2√13/13",
+        "source": "r = sqrt(13)/2, giving continuous score 4/13; found by Erich Friedman in 1997. The nine-decimal certificate reconstructed from the public figure reaches 0.307692307692307652; optimality open",
+        "url": "https://erich-friedman.github.io/packing/squincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "squares": [
+          {
+            "cx": "0.549205302",
+            "cy": "1.425910231",
+            "ux": "0.260523032",
+            "uy": "0.095135833"
+          },
+          {
+            "cx": "1.070251366",
+            "cy": "1.616181897",
+            "ux": "0.260523032",
+            "uy": "0.095135833"
+          },
+          {
+            "cx": "0.478953936",
+            "cy": "0.809728334",
+            "ux": "0.260523032",
+            "uy": "0.095135833"
+          },
+          {
+            "cx": "1.000000000",
+            "cy": "1.000000000",
+            "ux": "0.260523032",
+            "uy": "0.095135833"
+          },
+          {
+            "cx": "1.521046064",
+            "cy": "1.190271666",
+            "ux": "0.260523032",
+            "uy": "0.095135833"
+          },
+          {
+            "cx": "0.929748634",
+            "cy": "0.383818103",
+            "ux": "0.260523032",
+            "uy": "0.095135833"
+          },
+          {
+            "cx": "1.450794698",
+            "cy": "0.574089769",
+            "ux": "0.260523032",
+            "uy": "0.095135833"
+          }
+        ]
+      }
+    },
+    {
+      "instanceId": "p05-n8-v2",
+      "name": "n = 8",
+      "parameters": {
+        "n": 8
+      },
+      "objective": "maximize",
+      "scoreStored": "255392702294683108",
+      "scoreDisplay": "0.50536393",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.255392702294683108",
+        "kind": "best",
+        "source": "David W. Cantrell's 2002 packing, with continuous radius 1.97877086533976321... computed to 36 places by David Ellsworth in 2023. The site reconstructed the figure's contact topology and repaired it inward to a nine-decimal certificate scoring 0.255392702294683108; optimality open",
+        "url": "https://erich-friedman.github.io/packing/squincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "squares": [
+          {
+            "cx": "0.504493473",
+            "cy": "0.553347372",
+            "ux": "0.123684371",
+            "uy": "0.220341444"
+          },
+          {
+            "cx": "0.967696977",
+            "cy": "0.346098689",
+            "ux": "0.123684371",
+            "uy": "0.220341444"
+          },
+          {
+            "cx": "1.117920984",
+            "cy": "0.841314836",
+            "ux": "0.123685925",
+            "uy": "0.220340572"
+          },
+          {
+            "cx": "1.558608663",
+            "cy": "0.593932320",
+            "ux": "0.123695443",
+            "uy": "0.220335229"
+          },
+          {
+            "cx": "1.327369303",
+            "cy": "1.628988001",
+            "ux": "0.123694516",
+            "uy": "0.220335749"
+          },
+          {
+            "cx": "1.629018106",
+            "cy": "1.133959565",
+            "ux": "0.123695448",
+            "uy": "0.220335226"
+          },
+          {
+            "cx": "0.558356593",
+            "cy": "1.108665457",
+            "ux": "0.096185135",
+            "uy": "0.233659144"
+          },
+          {
+            "cx": "0.731334984",
+            "cy": "1.583966993",
+            "ux": "0.096184593",
+            "uy": "0.233659367"
+          }
+        ]
+      }
+    },
+    {
+      "instanceId": "p05-n9-v2",
+      "name": "n = 9",
+      "parameters": {
+        "n": 9
+      },
+      "objective": "maximize",
+      "scoreStored": "231674208144790528",
+      "scoreDisplay": "0.48132547",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.231674208144790528",
+        "kind": "best",
+        "exact": "16√1105/1105",
+        "source": "r = sqrt(1105)/16, giving continuous score 256/1105; found by Erich Friedman in 1997. The nine-decimal certificate reconstructed from the public figure reaches 0.231674208144790528; optimality open",
+        "url": "https://erich-friedman.github.io/packing/squincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "squares": [
+          {
+            "cx": "0.445753950",
+            "cy": "1.110762492",
+            "ux": "0.143159904",
+            "uy": "0.193452304"
+          },
+          {
+            "cx": "0.732073758",
+            "cy": "1.497667100",
+            "ux": "0.143159904",
+            "uy": "0.193452304"
+          },
+          {
+            "cx": "0.546338750",
+            "cy": "0.437538076",
+            "ux": "0.143159904",
+            "uy": "0.193452304"
+          },
+          {
+            "cx": "0.832658558",
+            "cy": "0.824442684",
+            "ux": "0.143159904",
+            "uy": "0.193452304"
+          },
+          {
+            "cx": "1.118978366",
+            "cy": "1.211347292",
+            "ux": "0.143159904",
+            "uy": "0.193452304"
+          },
+          {
+            "cx": "1.405298174",
+            "cy": "1.598251900",
+            "ux": "0.143159904",
+            "uy": "0.193452304"
+          },
+          {
+            "cx": "1.076403262",
+            "cy": "0.344670572",
+            "ux": "0.143159904",
+            "uy": "0.193452304"
+          },
+          {
+            "cx": "1.362723070",
+            "cy": "0.731575180",
+            "ux": "0.143159904",
+            "uy": "0.193452304"
+          },
+          {
+            "cx": "1.649042878",
+            "cy": "1.118479788",
+            "ux": "0.143159904",
+            "uy": "0.193452304"
+          }
+        ]
+      }
+    },
+    {
+      "instanceId": "p05-n10-v2",
+      "name": "n = 10",
+      "parameters": {
+        "n": 10
+      },
+      "objective": "maximize",
+      "scoreStored": "222222222222221700",
+      "scoreDisplay": "0.47140452",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.2222222222222217",
+        "kind": "best",
+        "exact": "√2/3",
+        "source": "r = 3sqrt(2)/2, giving continuous score 2/9; found by Erich Friedman in 1997. The nine-decimal certificate reconstructed from the public figure reaches 0.2222222222222217; optimality open",
+        "url": "https://erich-friedman.github.io/packing/squincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "squares": [
+          {
+            "cx": "0.337681018",
+            "cy": "0.923986774",
+            "ux": "0.146576439",
+            "uy": "0.184583052"
+          },
+          {
+            "cx": "0.630833896",
+            "cy": "1.293152878",
+            "ux": "0.146576439",
+            "uy": "0.184583052"
+          },
+          {
+            "cx": "0.923986774",
+            "cy": "1.662318982",
+            "ux": "0.146576439",
+            "uy": "0.184583052"
+          },
+          {
+            "cx": "0.560270683",
+            "cy": "0.446250844",
+            "ux": "0.146576439",
+            "uy": "0.184583052"
+          },
+          {
+            "cx": "0.853423561",
+            "cy": "0.815416948",
+            "ux": "0.146576439",
+            "uy": "0.184583052"
+          },
+          {
+            "cx": "1.146576439",
+            "cy": "1.184583052",
+            "ux": "0.146576439",
+            "uy": "0.184583052"
+          },
+          {
+            "cx": "1.439729317",
+            "cy": "1.553749156",
+            "ux": "0.146576439",
+            "uy": "0.184583052"
+          },
+          {
+            "cx": "1.076013226",
+            "cy": "0.337681018",
+            "ux": "0.146576439",
+            "uy": "0.184583052"
+          },
+          {
+            "cx": "1.369166104",
+            "cy": "0.706847122",
+            "ux": "0.146576439",
+            "uy": "0.184583052"
+          },
+          {
+            "cx": "1.662318982",
+            "cy": "1.076013226",
+            "ux": "0.146576439",
+            "uy": "0.184583052"
+          }
+        ]
+      }
+    },
+    {
+      "instanceId": "p05-n11-v2",
+      "name": "n = 11",
+      "parameters": {
+        "n": 11
+      },
+      "objective": "maximize",
+      "scoreStored": "66354215471334400",
+      "scoreDisplay": "0.25759312",
+      "status": "open",
+      "settled": false,
+      "knownBest": null,
+      "holder": "lird",
+      "method": "human",
+      "recordedAt": "2026-08-27T09:54:32.768Z",
+      "answer": {
+        "squares": [
+          {
+            "cx": "0.393772942",
+            "cy": "1.027826060",
+            "ux": "0.128796560",
+            "uy": "0.000000000"
+          },
+          {
+            "cx": "1.176583667",
+            "cy": "0.986087036",
+            "ux": "0.128796560",
+            "uy": "0.000000000"
+          },
+          {
+            "cx": "0.794176734",
+            "cy": "0.766956495",
+            "ux": "0.128796560",
+            "uy": "0.000000000"
+          },
+          {
+            "cx": "0.516117893",
+            "cy": "0.415652068",
+            "ux": "0.128796560",
+            "uy": "0.000000000"
+          },
+          {
+            "cx": "0.853711121",
+            "cy": "1.187826140",
+            "ux": "0.128796560",
+            "uy": "0.000000000"
+          },
+          {
+            "cx": "0.926956575",
+            "cy": "1.563478221",
+            "ux": "0.128796560",
+            "uy": "0.000000000"
+          },
+          {
+            "cx": "1.184549695",
+            "cy": "1.438260816",
+            "ux": "0.128796560",
+            "uy": "0.000000000"
+          },
+          {
+            "cx": "1.629969222",
+            "cy": "1.403478141",
+            "ux": "0.128796560",
+            "uy": "0.000000000"
+          },
+          {
+            "cx": "0.534518812",
+            "cy": "1.504347759",
+            "ux": "0.128796560",
+            "uy": "0.000000000"
+          },
+          {
+            "cx": "1.084285899",
+            "cy": "0.433043373",
+            "ux": "0.128796560",
+            "uy": "0.000000000"
+          },
+          {
+            "cx": "1.561009561",
+            "cy": "0.819130541",
+            "ux": "0.128796560",
+            "uy": "0.000000000"
+          }
+        ]
+      }
+    },
+    {
+      "instanceId": "p05-n12-v2",
+      "name": "n = 12",
+      "parameters": {
+        "n": 12
+      },
+      "objective": "maximize",
+      "scoreStored": "200000000000000000",
+      "scoreDisplay": "0.447213595",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.2",
+        "kind": "best",
+        "exact": "√5/5",
+        "source": "r = √5, so the score is 1/5; found by Erich Friedman in 1997, optimality open",
+        "url": "https://erich-friedman.github.io/packing/squincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "squares": [
+          {
+            "cx": "0.300000000",
+            "cy": "1.100000000",
+            "ux": "0.100000000",
+            "uy": "0.200000000"
+          },
+          {
+            "cx": "0.500000000",
+            "cy": "1.500000000",
+            "ux": "0.100000000",
+            "uy": "0.200000000"
+          },
+          {
+            "cx": "0.500000000",
+            "cy": "0.500000000",
+            "ux": "0.100000000",
+            "uy": "0.200000000"
+          },
+          {
+            "cx": "0.700000000",
+            "cy": "0.900000000",
+            "ux": "0.100000000",
+            "uy": "0.200000000"
+          },
+          {
+            "cx": "0.900000000",
+            "cy": "1.300000000",
+            "ux": "0.100000000",
+            "uy": "0.200000000"
+          },
+          {
+            "cx": "1.100000000",
+            "cy": "1.700000000",
+            "ux": "0.100000000",
+            "uy": "0.200000000"
+          },
+          {
+            "cx": "0.900000000",
+            "cy": "0.300000000",
+            "ux": "0.100000000",
+            "uy": "0.200000000"
+          },
+          {
+            "cx": "1.100000000",
+            "cy": "0.700000000",
+            "ux": "0.100000000",
+            "uy": "0.200000000"
+          },
+          {
+            "cx": "1.300000000",
+            "cy": "1.100000000",
+            "ux": "0.100000000",
+            "uy": "0.200000000"
+          },
+          {
+            "cx": "1.500000000",
+            "cy": "1.500000000",
+            "ux": "0.100000000",
+            "uy": "0.200000000"
+          },
+          {
+            "cx": "1.500000000",
+            "cy": "0.500000000",
+            "ux": "0.100000000",
+            "uy": "0.200000000"
+          },
+          {
+            "cx": "1.700000000",
+            "cy": "0.900000000",
+            "ux": "0.100000000",
+            "uy": "0.200000000"
+          }
+        ]
+      }
+    },
+    {
+      "instanceId": "p05-n13-v2",
+      "name": "n = 13",
+      "parameters": {
+        "n": 13
+      },
+      "objective": "maximize",
+      "scoreStored": "46807750008576144",
+      "scoreDisplay": "0.216350988",
+      "status": "open",
+      "settled": false,
+      "knownBest": null,
+      "holder": "lird",
+      "method": "human",
+      "recordedAt": "2026-08-27T09:56:42.033Z",
+      "answer": {
+        "squares": [
+          {
+            "cx": "0.382250638",
+            "cy": "1.285217418",
+            "ux": "0.108175494",
+            "uy": "0.000000000"
+          },
+          {
+            "cx": "0.278252272",
+            "cy": "0.624347853",
+            "ux": "0.108175494",
+            "uy": "0.000000000"
+          },
+          {
+            "cx": "0.598601892",
+            "cy": "0.613913097",
+            "ux": "0.108175494",
+            "uy": "0.000000000"
+          },
+          {
+            "cx": "0.779821077",
+            "cy": "1.598260963",
+            "ux": "0.108175494",
+            "uy": "0.000000000"
+          },
+          {
+            "cx": "0.901909668",
+            "cy": "0.558260843",
+            "ux": "0.108175494",
+            "uy": "0.000000000"
+          },
+          {
+            "cx": "1.083128853",
+            "cy": "1.413912898",
+            "ux": "0.108175494",
+            "uy": "0.000000000"
+          },
+          {
+            "cx": "1.153043532",
+            "cy": "0.526956443",
+            "ux": "0.108175494",
+            "uy": "0.000000000"
+          },
+          {
+            "cx": "1.348175548",
+            "cy": "1.326956575",
+            "ux": "0.108175494",
+            "uy": "0.000000000"
+          },
+          {
+            "cx": "1.369394520",
+            "cy": "0.554782503",
+            "ux": "0.108175494",
+            "uy": "0.000000000"
+          },
+          {
+            "cx": "1.675831044",
+            "cy": "1.229565164",
+            "ux": "0.108175494",
+            "uy": "0.000000000"
+          },
+          {
+            "cx": "0.504006697",
+            "cy": "1.034782608",
+            "ux": "0.108175494",
+            "uy": "0.000000000"
+          },
+          {
+            "cx": "1.019138873",
+            "cy": "1.017391305",
+            "ux": "0.108175494",
+            "uy": "0.000000000"
+          },
+          {
+            "cx": "1.433401430",
+            "cy": "0.833043504",
+            "ux": "0.108175494",
+            "uy": "0.000000000"
+          }
+        ]
+      }
+    },
+    {
+      "instanceId": "p05-n14-v2",
+      "name": "n = 14",
+      "parameters": {
+        "n": 14
+      },
+      "objective": "maximize",
+      "scoreStored": "160000000000000000",
+      "scoreDisplay": "0.4",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.16",
+        "kind": "best",
+        "exact": "2/5",
+        "source": "r = 5/2, so the score is 4/25; found by Erich Friedman in 1997, optimality open",
+        "url": "https://erich-friedman.github.io/packing/squincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "squares": [
+          {
+            "cx": "0.600000000",
+            "cy": "1.600000000",
+            "ux": "0.200000000",
+            "uy": "0.000000000"
+          },
+          {
+            "cx": "1.000000000",
+            "cy": "1.600000000",
+            "ux": "0.200000000",
+            "uy": "0.000000000"
+          },
+          {
+            "cx": "1.400000000",
+            "cy": "1.600000000",
+            "ux": "0.200000000",
+            "uy": "0.000000000"
+          },
+          {
+            "cx": "0.400000000",
+            "cy": "1.200000000",
+            "ux": "0.200000000",
+            "uy": "0.000000000"
+          },
+          {
+            "cx": "0.800000000",
+            "cy": "1.200000000",
+            "ux": "0.200000000",
+            "uy": "0.000000000"
+          },
+          {
+            "cx": "1.200000000",
+            "cy": "1.200000000",
+            "ux": "0.200000000",
+            "uy": "0.000000000"
+          },
+          {
+            "cx": "1.600000000",
+            "cy": "1.200000000",
+            "ux": "0.200000000",
+            "uy": "0.000000000"
+          },
+          {
+            "cx": "0.400000000",
+            "cy": "0.800000000",
+            "ux": "0.200000000",
+            "uy": "0.000000000"
+          },
+          {
+            "cx": "0.800000000",
+            "cy": "0.800000000",
+            "ux": "0.200000000",
+            "uy": "0.000000000"
+          },
+          {
+            "cx": "1.200000000",
+            "cy": "0.800000000",
+            "ux": "0.200000000",
+            "uy": "0.000000000"
+          },
+          {
+            "cx": "1.600000000",
+            "cy": "0.800000000",
+            "ux": "0.200000000",
+            "uy": "0.000000000"
+          },
+          {
+            "cx": "0.600000000",
+            "cy": "0.400000000",
+            "ux": "0.200000000",
+            "uy": "0.000000000"
+          },
+          {
+            "cx": "1.000000000",
+            "cy": "0.400000000",
+            "ux": "0.200000000",
+            "uy": "0.000000000"
+          },
+          {
+            "cx": "1.400000000",
+            "cy": "0.400000000",
+            "ux": "0.200000000",
+            "uy": "0.000000000"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,555 @@
+{
+  "problem": "circles-in-right-triangle",
+  "code": "P11",
+  "title": "直角三角形内的等圆装箱",
+  "titleEn": "Equal-circle packing in a right triangle",
+  "objective": "maximize",
+  "scoreLabel": "共同半径",
+  "scoreLabelEn": "common radius",
+  "verifierVersion": "1.0.0",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseName": "CC BY 4.0",
+  "source": "https://minmaxarena.com/problems/circles-in-right-triangle",
+  "generatedAt": "2026-08-29T05:03:19.005Z",
+  "instances": [
+    {
+      "instanceId": "p11-n2-v1",
+      "name": "n = 2",
+      "parameters": {
+        "n": 2
+      },
+      "objective": "maximize",
+      "scoreStored": "178571428",
+      "scoreDisplay": "0.178571428",
+      "status": "open",
+      "settled": false,
+      "knownBest": null,
+      "holder": "Cphysics",
+      "method": "human",
+      "recordedAt": "2026-08-27T05:30:15.798Z",
+      "answer": {
+        "centers": [
+          [
+            "0.178571428",
+            "0.392857142"
+          ],
+          [
+            "0.464285714",
+            "0.178571428"
+          ]
+        ],
+        "radius": "0.178571428"
+      }
+    },
+    {
+      "instanceId": "p11-n3-v1",
+      "name": "n = 3",
+      "parameters": {
+        "n": 3
+      },
+      "objective": "maximize",
+      "scoreStored": "152439024",
+      "scoreDisplay": "0.152439024",
+      "status": "open",
+      "settled": false,
+      "knownBest": null,
+      "holder": "Cphysics",
+      "method": "human",
+      "recordedAt": "2026-08-27T05:36:24.695Z",
+      "answer": {
+        "centers": [
+          [
+            "0.152439024",
+            "0.445121951"
+          ],
+          [
+            "0.237804878",
+            "0.152439024"
+          ],
+          [
+            "0.542682927",
+            "0.152439024"
+          ]
+        ],
+        "radius": "0.152439024"
+      }
+    },
+    {
+      "instanceId": "p11-n4-v1",
+      "name": "n = 4",
+      "parameters": {
+        "n": 4
+      },
+      "objective": "maximize",
+      "scoreStored": "138888888",
+      "scoreDisplay": "0.138888888",
+      "status": "open",
+      "settled": false,
+      "knownBest": null,
+      "holder": "Cphysics",
+      "method": "human",
+      "recordedAt": "2026-08-27T05:50:46.444Z",
+      "answer": {
+        "centers": [
+          [
+            "0.138888889",
+            "0.472222222"
+          ],
+          [
+            "0.138888889",
+            "0.138888889"
+          ],
+          [
+            "0.361111111",
+            "0.305555556"
+          ],
+          [
+            "0.583333333",
+            "0.138888889"
+          ]
+        ],
+        "radius": "0.138888888"
+      }
+    },
+    {
+      "instanceId": "p11-n5-v1",
+      "name": "n = 5",
+      "parameters": {
+        "n": 5
+      },
+      "objective": "maximize",
+      "scoreStored": "121761316",
+      "scoreDisplay": "0.121761316",
+      "status": "open",
+      "settled": false,
+      "knownBest": null,
+      "holder": "Cphysics",
+      "method": "human",
+      "recordedAt": "2026-08-27T06:08:08.639Z",
+      "answer": {
+        "centers": [
+          [
+            "0.121761316",
+            "0.506477368"
+          ],
+          [
+            "0.316579421",
+            "0.360363780"
+          ],
+          [
+            "0.121761316",
+            "0.121761316"
+          ],
+          [
+            "0.365285000",
+            "0.121761316"
+          ],
+          [
+            "0.624160518",
+            "0.121761316"
+          ]
+        ],
+        "radius": "0.121761316"
+      }
+    },
+    {
+      "instanceId": "p11-n6-v1",
+      "name": "n = 6",
+      "parameters": {
+        "n": 6
+      },
+      "objective": "maximize",
+      "scoreStored": "111278966",
+      "scoreDisplay": "0.111278966",
+      "status": "open",
+      "settled": false,
+      "knownBest": null,
+      "holder": "Cphysics",
+      "method": "human",
+      "recordedAt": "2026-08-27T06:16:11.428Z",
+      "answer": {
+        "centers": [
+          [
+            "0.111278966",
+            "0.527442066"
+          ],
+          [
+            "0.221047234",
+            "0.111278967"
+          ],
+          [
+            "0.111278967",
+            "0.304884134"
+          ],
+          [
+            "0.443605167",
+            "0.111278967"
+          ],
+          [
+            "0.357988611",
+            "0.336924610"
+          ],
+          [
+            "0.666163100",
+            "0.111278967"
+          ]
+        ],
+        "radius": "0.111278966"
+      }
+    },
+    {
+      "instanceId": "p11-n7-v1",
+      "name": "n = 7",
+      "parameters": {
+        "n": 7
+      },
+      "objective": "maximize",
+      "scoreStored": "106185322",
+      "scoreDisplay": "0.106185322",
+      "status": "open",
+      "settled": false,
+      "knownBest": null,
+      "holder": "Cphysics",
+      "method": "human",
+      "recordedAt": "2026-08-27T06:21:26.775Z",
+      "answer": {
+        "centers": [
+          [
+            "0.107382836",
+            "0.536361727"
+          ],
+          [
+            "0.115355181",
+            "0.322170505"
+          ],
+          [
+            "0.111372243",
+            "0.107928137"
+          ],
+          [
+            "0.328751582",
+            "0.112052618"
+          ],
+          [
+            "0.680769874",
+            "0.106690942"
+          ],
+          [
+            "0.325506089",
+            "0.363690168"
+          ],
+          [
+            "0.500194394",
+            "0.239077709"
+          ]
+        ],
+        "radius": "0.106185322"
+      }
+    },
+    {
+      "instanceId": "p11-n8-v1",
+      "name": "n = 8",
+      "parameters": {
+        "n": 8
+      },
+      "objective": "maximize",
+      "scoreStored": "100740000",
+      "scoreDisplay": "0.10074",
+      "status": "open",
+      "settled": false,
+      "knownBest": null,
+      "holder": "Cphysics",
+      "method": "human",
+      "recordedAt": "2026-08-27T13:37:13.615Z",
+      "answer": {
+        "centers": [
+          [
+            "0.100740000",
+            "0.548520000"
+          ],
+          [
+            "0.266707664",
+            "0.421170484"
+          ],
+          [
+            "0.102594321",
+            "0.303503528"
+          ],
+          [
+            "0.100740000",
+            "0.100740000"
+          ],
+          [
+            "0.427894833",
+            "0.300286708"
+          ],
+          [
+            "0.298209517",
+            "0.146092320"
+          ],
+          [
+            "0.494518859",
+            "0.100740000"
+          ],
+          [
+            "0.697780000",
+            "0.100740000"
+          ]
+        ],
+        "radius": "0.100740000"
+      }
+    },
+    {
+      "instanceId": "p11-n9-v1",
+      "name": "n = 9",
+      "parameters": {
+        "n": 9
+      },
+      "objective": "maximize",
+      "scoreStored": "95500000",
+      "scoreDisplay": "0.0955",
+      "status": "open",
+      "settled": false,
+      "knownBest": null,
+      "holder": "Cphysics",
+      "method": "human",
+      "recordedAt": "2026-08-27T13:41:41.180Z",
+      "answer": {
+        "centers": [
+          [
+            "0.095500000",
+            "0.559000000"
+          ],
+          [
+            "0.248300000",
+            "0.444400000"
+          ],
+          [
+            "0.403617802",
+            "0.095500000"
+          ],
+          [
+            "0.095500000",
+            "0.095500000"
+          ],
+          [
+            "0.252660563",
+            "0.212516717"
+          ],
+          [
+            "0.097000000",
+            "0.323200000"
+          ],
+          [
+            "0.407566393",
+            "0.324253837"
+          ],
+          [
+            "0.560700000",
+            "0.210100000"
+          ],
+          [
+            "0.713500000",
+            "0.095500000"
+          ]
+        ],
+        "radius": "0.095500000"
+      }
+    },
+    {
+      "instanceId": "p11-n10-v1",
+      "name": "n = 10",
+      "parameters": {
+        "n": 10
+      },
+      "objective": "maximize",
+      "scoreStored": "89000000",
+      "scoreDisplay": "0.089",
+      "status": "open",
+      "settled": false,
+      "knownBest": null,
+      "holder": "Cphysics",
+      "method": "human",
+      "recordedAt": "2026-08-27T13:44:46.830Z",
+      "answer": {
+        "centers": [
+          [
+            "0.089000000",
+            "0.572000000"
+          ],
+          [
+            "0.263338802",
+            "0.429916323"
+          ],
+          [
+            "0.590600000",
+            "0.195800000"
+          ],
+          [
+            "0.090000000",
+            "0.090000000"
+          ],
+          [
+            "0.089000000",
+            "0.394000000"
+          ],
+          [
+            "0.445976949",
+            "0.089000000"
+          ],
+          [
+            "0.207273850",
+            "0.260976330"
+          ],
+          [
+            "0.437591314",
+            "0.310556513"
+          ],
+          [
+            "0.267968777",
+            "0.093333872"
+          ],
+          [
+            "0.733000000",
+            "0.089000000"
+          ]
+        ],
+        "radius": "0.089000000"
+      }
+    },
+    {
+      "instanceId": "p11-n11-v1",
+      "name": "n = 11",
+      "parameters": {
+        "n": 11
+      },
+      "objective": "maximize",
+      "scoreStored": "41666666",
+      "scoreDisplay": "0.041666666",
+      "status": "open",
+      "settled": false,
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "0.041666666",
+            "0.041666666"
+          ],
+          [
+            "0.124999998",
+            "0.041666666"
+          ],
+          [
+            "0.20833333",
+            "0.041666666"
+          ],
+          [
+            "0.291666662",
+            "0.041666666"
+          ],
+          [
+            "0.374999994",
+            "0.041666666"
+          ],
+          [
+            "0.458333326",
+            "0.041666666"
+          ],
+          [
+            "0.541666658",
+            "0.041666666"
+          ],
+          [
+            "0.62499999",
+            "0.041666666"
+          ],
+          [
+            "0.708333322",
+            "0.041666666"
+          ],
+          [
+            "0.791666654",
+            "0.041666666"
+          ],
+          [
+            "0.874999986",
+            "0.041666666"
+          ]
+        ],
+        "radius": "0.041666666"
+      }
+    },
+    {
+      "instanceId": "p11-n12-v1",
+      "name": "n = 12",
+      "parameters": {
+        "n": 12
+      },
+      "objective": "maximize",
+      "scoreStored": "74999998",
+      "scoreDisplay": "0.074999998",
+      "status": "open",
+      "settled": false,
+      "knownBest": null,
+      "holder": "HwaterB",
+      "method": "human",
+      "recordedAt": "2026-08-29T03:34:04.217Z",
+      "answer": {
+        "centers": [
+          [
+            "0.092307692",
+            "0.569230769"
+          ],
+          [
+            "0.074999998",
+            "0.390635452"
+          ],
+          [
+            "0.211538459",
+            "0.465384615"
+          ],
+          [
+            "0.355602003",
+            "0.376003344"
+          ],
+          [
+            "0.243478256",
+            "0.267307692"
+          ],
+          [
+            "0.080100326",
+            "0.234113711"
+          ],
+          [
+            "0.464297652",
+            "0.264548495"
+          ],
+          [
+            "0.407023405",
+            "0.088545151"
+          ],
+          [
+            "0.088569805",
+            "0.078902649"
+          ],
+          [
+            "0.243812700",
+            "0.089882941"
+          ],
+          [
+            "0.566638786",
+            "0.080685618"
+          ],
+          [
+            "0.741973233",
+            "0.090886288"
+          ]
+        ],
+        "radius": "0.074999998"
+      }
+    }
+  ]
+}

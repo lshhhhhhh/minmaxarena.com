@@ -1,0 +1,912 @@
+{
+  "problem": "circles-in-a-quadrant",
+  "code": "P30",
+  "title": "等圆装入扇形",
+  "titleEn": "Equal circles in a quadrant",
+  "objective": "maximize",
+  "scoreLabel": "共同半径",
+  "scoreLabelEn": "common radius",
+  "verifierVersion": "1.0.0",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseName": "CC BY 4.0",
+  "source": "https://minmaxarena.com/problems/circles-in-a-quadrant",
+  "generatedAt": "2026-08-29T05:03:19.720Z",
+  "instances": [
+    {
+      "instanceId": "p30-n3-v2",
+      "name": "n = 3",
+      "parameters": {
+        "n": 3
+      },
+      "objective": "maximize",
+      "scoreStored": "240253073",
+      "scoreDisplay": "0.240253073",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.240253073",
+        "kind": "best",
+        "source": "value from Eckard Specht's table of best known packings, which does not mark this one as proved",
+        "url": "https://web.archive.org/web/20260213011826/http://hydra.nat.uni-magdeburg.de/packing/ccq/ccq.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "0.720759219",
+            "0.240253074"
+          ],
+          [
+            "0.240253074",
+            "0.720759219"
+          ],
+          [
+            "0.240253073",
+            "0.240253073"
+          ]
+        ],
+        "radius": "0.240253073"
+      }
+    },
+    {
+      "instanceId": "p30-n4-v2",
+      "name": "n = 4",
+      "parameters": {
+        "n": 4
+      },
+      "objective": "maximize",
+      "scoreStored": "205604646",
+      "scoreDisplay": "0.205604646",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.205604646",
+        "kind": "best",
+        "source": "value from Eckard Specht's table of best known packings, which does not mark this one as proved",
+        "url": "https://web.archive.org/web/20260213011826/http://hydra.nat.uni-magdeburg.de/packing/ccq/ccq.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "0.767326988",
+            "0.205604647"
+          ],
+          [
+            "0.210897681",
+            "0.22599577"
+          ],
+          [
+            "0.561722341",
+            "0.561722341"
+          ],
+          [
+            "0.205604647",
+            "0.767326988"
+          ]
+        ],
+        "radius": "0.205604646"
+      }
+    },
+    {
+      "instanceId": "p30-n5-v2",
+      "name": "n = 5",
+      "parameters": {
+        "n": 5
+      },
+      "objective": "maximize",
+      "scoreStored": "180960531",
+      "scoreDisplay": "0.180960531",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.180960531",
+        "kind": "best",
+        "source": "value from Eckard Specht's table of best known packings, which does not mark this one as proved",
+        "url": "https://web.archive.org/web/20260213011826/http://hydra.nat.uni-magdeburg.de/packing/ccq/ccq.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "0.43687737",
+            "0.180960532"
+          ],
+          [
+            "0.798798433",
+            "0.180960532"
+          ],
+          [
+            "0.180960532",
+            "0.43687737"
+          ],
+          [
+            "0.521069153",
+            "0.628243039"
+          ],
+          [
+            "0.180960532",
+            "0.798798433"
+          ]
+        ],
+        "radius": "0.180960531"
+      }
+    },
+    {
+      "instanceId": "p30-n6-v2",
+      "name": "n = 6",
+      "parameters": {
+        "n": 6
+      },
+      "objective": "maximize",
+      "scoreStored": "167632184",
+      "scoreDisplay": "0.167632184",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.167632184",
+        "kind": "best",
+        "source": "value from Eckard Specht's table of best known packings, which does not mark this one as proved",
+        "url": "https://web.archive.org/web/20260213011826/http://hydra.nat.uni-magdeburg.de/packing/ccq/ccq.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "0.167632185",
+            "0.167632185"
+          ],
+          [
+            "0.81531321",
+            "0.167632185"
+          ],
+          [
+            "0.491472697",
+            "0.254404988"
+          ],
+          [
+            "0.254404988",
+            "0.491472697"
+          ],
+          [
+            "0.59314504",
+            "0.579937013"
+          ],
+          [
+            "0.167632185",
+            "0.81531321"
+          ]
+        ],
+        "radius": "0.167632184"
+      }
+    },
+    {
+      "instanceId": "p30-n7-v2",
+      "name": "n = 7",
+      "parameters": {
+        "n": 7
+      },
+      "objective": "maximize",
+      "scoreStored": "163243160",
+      "scoreDisplay": "0.16324316",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.16324316",
+        "kind": "best",
+        "source": "value from Eckard Specht's table of best known packings, which does not mark this one as proved; the table's figure is 0.163243161, the exact optimum is not writable on the nine-decimal grid, and shown here is the exact value the configuration's grid certificate reaches",
+        "url": "https://web.archive.org/web/20260213011826/http://hydra.nat.uni-magdeburg.de/packing/ccq/ccq.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "0.820678791",
+            "0.163243161"
+          ],
+          [
+            "0.16379759",
+            "0.164276197"
+          ],
+          [
+            "0.492172101",
+            "0.202621035"
+          ],
+          [
+            "0.695737884",
+            "0.464877192"
+          ],
+          [
+            "0.201736103",
+            "0.492056827"
+          ],
+          [
+            "0.464877192",
+            "0.695737884"
+          ],
+          [
+            "0.163243161",
+            "0.820678791"
+          ]
+        ],
+        "radius": "0.16324316"
+      }
+    },
+    {
+      "instanceId": "p30-n8-v2",
+      "name": "n = 8",
+      "parameters": {
+        "n": 8
+      },
+      "objective": "maximize",
+      "scoreStored": "150154806",
+      "scoreDisplay": "0.150154806",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.150154806",
+        "kind": "best",
+        "source": "value from Eckard Specht's table of best known packings, which does not mark this one as proved; the table's figure is 0.150154807, the exact optimum is not writable on the nine-decimal grid, and shown here is the exact value the configuration's grid certificate reaches",
+        "url": "https://web.archive.org/web/20260213011826/http://hydra.nat.uni-magdeburg.de/packing/ccq/ccq.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "0.536165362",
+            "0.150154807"
+          ],
+          [
+            "0.836474976",
+            "0.150154807"
+          ],
+          [
+            "0.152484519",
+            "0.22743405"
+          ],
+          [
+            "0.43171456",
+            "0.43171456"
+          ],
+          [
+            "0.732024174",
+            "0.43171456"
+          ],
+          [
+            "0.150154807",
+            "0.536165362"
+          ],
+          [
+            "0.43171456",
+            "0.732024174"
+          ],
+          [
+            "0.150154807",
+            "0.836474976"
+          ]
+        ],
+        "radius": "0.150154806"
+      }
+    },
+    {
+      "instanceId": "p30-n9-v2",
+      "name": "n = 9",
+      "parameters": {
+        "n": 9
+      },
+      "objective": "maximize",
+      "scoreStored": "139429107",
+      "scoreDisplay": "0.139429107",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.139429107",
+        "kind": "best",
+        "source": "value from Eckard Specht's table of best known packings, which does not mark this one as proved",
+        "url": "https://web.archive.org/web/20260213011826/http://hydra.nat.uni-magdeburg.de/packing/ccq/ccq.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "0.26039528",
+            "0.139429109"
+          ],
+          [
+            "0.570342458",
+            "0.139429109"
+          ],
+          [
+            "0.760033722",
+            "0.403647123"
+          ],
+          [
+            "0.849200672",
+            "0.139429109"
+          ],
+          [
+            "0.415368871",
+            "0.371258985"
+          ],
+          [
+            "0.591062444",
+            "0.625481771"
+          ],
+          [
+            "0.139429109",
+            "0.849200672"
+          ],
+          [
+            "0.139429109",
+            "0.411497668"
+          ],
+          [
+            "0.312246712",
+            "0.63034917"
+          ]
+        ],
+        "radius": "0.139429107"
+      }
+    },
+    {
+      "instanceId": "p30-n10-v2",
+      "name": "n = 10",
+      "parameters": {
+        "n": 10
+      },
+      "objective": "maximize",
+      "scoreStored": "135072984",
+      "scoreDisplay": "0.135072984",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.135072984",
+        "kind": "best",
+        "source": "value from Eckard Specht's table of best known packings, which does not mark this one as proved; the table's figure is 0.135072985, the exact optimum is not writable on the nine-decimal grid, and shown here is the exact value the configuration's grid certificate reaches",
+        "url": "https://web.archive.org/web/20260213011826/http://hydra.nat.uni-magdeburg.de/packing/ccq/ccq.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "0.854314947",
+            "0.135072985"
+          ],
+          [
+            "0.325890616",
+            "0.135072985"
+          ],
+          [
+            "0.590102782",
+            "0.191382637"
+          ],
+          [
+            "0.135072985",
+            "0.326299231"
+          ],
+          [
+            "0.770974454",
+            "0.392042259"
+          ],
+          [
+            "0.410627207",
+            "0.417656977"
+          ],
+          [
+            "0.192332886",
+            "0.590307089"
+          ],
+          [
+            "0.612423533",
+            "0.61076686"
+          ],
+          [
+            "0.394129213",
+            "0.769909673"
+          ],
+          [
+            "0.135072985",
+            "0.854314947"
+          ]
+        ],
+        "radius": "0.135072984"
+      }
+    },
+    {
+      "instanceId": "p30-n11-v2",
+      "name": "n = 11",
+      "parameters": {
+        "n": 11
+      },
+      "objective": "maximize",
+      "scoreStored": "127840595",
+      "scoreDisplay": "0.127840595",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.127840595",
+        "kind": "best",
+        "source": "value from Eckard Specht's table of best known packings, which does not mark this one as proved; the table's figure is 0.127840596, the exact optimum is not writable on the nine-decimal grid, and shown here is the exact value the configuration's grid certificate reaches",
+        "url": "https://web.archive.org/web/20260213011826/http://hydra.nat.uni-magdeburg.de/packing/ccq/ccq.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "0.127840596",
+            "0.127840596"
+          ],
+          [
+            "0.862739131",
+            "0.127840596"
+          ],
+          [
+            "0.383521788",
+            "0.127840596"
+          ],
+          [
+            "0.62313046",
+            "0.217062548"
+          ],
+          [
+            "0.217062548",
+            "0.367449267"
+          ],
+          [
+            "0.467328881",
+            "0.41979079"
+          ],
+          [
+            "0.749692826",
+            "0.443821947"
+          ],
+          [
+            "0.127840596",
+            "0.607057939"
+          ],
+          [
+            "0.585212787",
+            "0.646674586"
+          ],
+          [
+            "0.372534902",
+            "0.788593541"
+          ],
+          [
+            "0.127840596",
+            "0.862739131"
+          ]
+        ],
+        "radius": "0.127840595"
+      }
+    },
+    {
+      "instanceId": "p30-n12-v2",
+      "name": "n = 12",
+      "parameters": {
+        "n": 12
+      },
+      "objective": "maximize",
+      "scoreStored": "125441937",
+      "scoreDisplay": "0.125441937",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.125441937",
+        "kind": "best",
+        "source": "value from Eckard Specht's table of best known packings, which does not mark this one as proved",
+        "url": "https://web.archive.org/web/20260213011826/http://hydra.nat.uni-magdeburg.de/packing/ccq/ccq.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "0.614631073",
+            "0.125441937"
+          ],
+          [
+            "0.865514948",
+            "0.125441937"
+          ],
+          [
+            "0.125574872",
+            "0.125583356"
+          ],
+          [
+            "0.369917525",
+            "0.183948378"
+          ],
+          [
+            "0.543404382",
+            "0.366002693"
+          ],
+          [
+            "0.794288256",
+            "0.366002693"
+          ],
+          [
+            "0.183959139",
+            "0.369911041"
+          ],
+          [
+            "0.366002693",
+            "0.543404382"
+          ],
+          [
+            "0.125441937",
+            "0.614631073"
+          ],
+          [
+            "0.61425498",
+            "0.619207335"
+          ],
+          [
+            "0.366002693",
+            "0.794288256"
+          ],
+          [
+            "0.125441937",
+            "0.865514948"
+          ]
+        ],
+        "radius": "0.125441937"
+      }
+    },
+    {
+      "instanceId": "p30-n13-v2",
+      "name": "n = 13",
+      "parameters": {
+        "n": 13
+      },
+      "objective": "maximize",
+      "scoreStored": "118280293",
+      "scoreDisplay": "0.118280293",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.118280293",
+        "kind": "best",
+        "source": "value from Eckard Specht's table of best known packings, which does not mark this one as proved; the table's figure is 0.118280294, the exact optimum is not writable on the nine-decimal grid, and shown here is the exact value the configuration's grid certificate reaches",
+        "url": "https://web.archive.org/web/20260213011826/http://hydra.nat.uni-magdeburg.de/packing/ccq/ccq.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "0.8737502",
+            "0.118280294"
+          ],
+          [
+            "0.409221089",
+            "0.118280294"
+          ],
+          [
+            "0.160488362",
+            "0.11990848"
+          ],
+          [
+            "0.641485645",
+            "0.163158888"
+          ],
+          [
+            "0.346326834",
+            "0.346326834"
+          ],
+          [
+            "0.810855945",
+            "0.346326834"
+          ],
+          [
+            "0.57859139",
+            "0.391205428"
+          ],
+          [
+            "0.118280294",
+            "0.409221089"
+          ],
+          [
+            "0.391205428",
+            "0.57859139"
+          ],
+          [
+            "0.623469983",
+            "0.623469983"
+          ],
+          [
+            "0.163158888",
+            "0.641485645"
+          ],
+          [
+            "0.346326834",
+            "0.810855945"
+          ],
+          [
+            "0.118280294",
+            "0.8737502"
+          ]
+        ],
+        "radius": "0.118280293"
+      }
+    },
+    {
+      "instanceId": "p30-n14-v2",
+      "name": "n = 14",
+      "parameters": {
+        "n": 14
+      },
+      "objective": "maximize",
+      "scoreStored": "115456141",
+      "scoreDisplay": "0.115456141",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.115456141",
+        "kind": "best",
+        "source": "value from Eckard Specht's table of best known packings, which does not mark this one as proved",
+        "url": "https://web.archive.org/web/20260213011826/http://hydra.nat.uni-magdeburg.de/packing/ccq/ccq.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "0.876976463",
+            "0.115456142"
+          ],
+          [
+            "0.408474176",
+            "0.116853829"
+          ],
+          [
+            "0.642166151",
+            "0.117891909"
+          ],
+          [
+            "0.116855661",
+            "0.164627948"
+          ],
+          [
+            "0.817211966",
+            "0.33850028"
+          ],
+          [
+            "0.340395803",
+            "0.340398032"
+          ],
+          [
+            "0.574110875",
+            "0.341462243"
+          ],
+          [
+            "0.116850398",
+            "0.408476805"
+          ],
+          [
+            "0.701755825",
+            "0.538476183"
+          ],
+          [
+            "0.341444765",
+            "0.574093223"
+          ],
+          [
+            "0.11787891",
+            "0.64216962"
+          ],
+          [
+            "0.538476183",
+            "0.701755825"
+          ],
+          [
+            "0.33850028",
+            "0.817211966"
+          ],
+          [
+            "0.115456142",
+            "0.876976463"
+          ]
+        ],
+        "radius": "0.115456141"
+      }
+    },
+    {
+      "instanceId": "p30-n15-v2",
+      "name": "n = 15",
+      "parameters": {
+        "n": 15
+      },
+      "objective": "maximize",
+      "scoreStored": "110212023",
+      "scoreDisplay": "0.110212023",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.110212023",
+        "kind": "best",
+        "source": "value from Eckard Specht's table of best known packings, which does not mark this one as proved; the table's figure is 0.110212024, the exact optimum is not writable on the nine-decimal grid, and shown here is the exact value the configuration's grid certificate reaches",
+        "url": "https://web.archive.org/web/20260213011826/http://hydra.nat.uni-magdeburg.de/packing/ccq/ccq.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "0.303505231",
+            "0.616001211"
+          ],
+          [
+            "0.322354962",
+            "0.350215437"
+          ],
+          [
+            "0.499801482",
+            "0.515728869"
+          ],
+          [
+            "0.608327555",
+            "0.323872537"
+          ],
+          [
+            "0.828751603",
+            "0.323872537"
+          ],
+          [
+            "0.723708054",
+            "0.517657504"
+          ],
+          [
+            "0.110212026",
+            "0.289631433"
+          ],
+          [
+            "0.662511934",
+            "0.110212026"
+          ],
+          [
+            "0.110212026",
+            "0.730479529"
+          ],
+          [
+            "0.450384314",
+            "0.170117232"
+          ],
+          [
+            "0.882935982",
+            "0.110212026"
+          ],
+          [
+            "0.238256695",
+            "0.110212026"
+          ],
+          [
+            "0.499801482",
+            "0.736152917"
+          ],
+          [
+            "0.110212026",
+            "0.510055481"
+          ],
+          [
+            "0.303505231",
+            "0.836425259"
+          ]
+        ],
+        "radius": "0.110212023"
+      }
+    },
+    {
+      "instanceId": "p30-n16-v2",
+      "name": "n = 16",
+      "parameters": {
+        "n": 16
+      },
+      "objective": "maximize",
+      "scoreStored": "107771974",
+      "scoreDisplay": "0.107771974",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.107771974",
+        "kind": "best",
+        "source": "value from Eckard Specht's table of best known packings, which does not mark this one as proved",
+        "url": "https://web.archive.org/web/20260213011826/http://hydra.nat.uni-magdeburg.de/packing/ccq/ccq.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "0.885695236",
+            "0.107771975"
+          ],
+          [
+            "0.670151287",
+            "0.107771975"
+          ],
+          [
+            "0.260045208",
+            "0.107771975"
+          ],
+          [
+            "0.465098247",
+            "0.174198212"
+          ],
+          [
+            "0.107771975",
+            "0.26032379"
+          ],
+          [
+            "0.834005506",
+            "0.317026284"
+          ],
+          [
+            "0.618627627",
+            "0.325485766"
+          ],
+          [
+            "0.365677126",
+            "0.365443172"
+          ],
+          [
+            "0.174626665",
+            "0.465237538"
+          ],
+          [
+            "0.733642693",
+            "0.50777874"
+          ],
+          [
+            "0.518323595",
+            "0.517621519"
+          ],
+          [
+            "0.326032964",
+            "0.618649815"
+          ],
+          [
+            "0.107771975",
+            "0.670151287"
+          ],
+          [
+            "0.508772676",
+            "0.73295376"
+          ],
+          [
+            "0.317026284",
+            "0.834005506"
+          ],
+          [
+            "0.107771975",
+            "0.885695236"
+          ]
+        ],
+        "radius": "0.107771974"
+      }
+    }
+  ]
+}

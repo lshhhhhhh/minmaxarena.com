@@ -1,0 +1,40 @@
+{
+  "name": "minmax-verify",
+  "version": "1.0.0",
+  "description": "Exact, integer-only verifiers for the extremal geometry records at minmaxarena.com",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "minmax-verify": "dist/cli.js"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src",
+    "AGENT.md"
+  ],
+  "scripts": {
+    "build": "esbuild src/cli.ts --bundle --platform=node --format=esm --outfile=dist/cli.js && esbuild src/index.ts --bundle --platform=node --format=esm --outfile=dist/index.js && tsc --emitDeclarationOnly --declaration --outDir dist -p tsconfig.json",
+    "check": "tsc --noEmit -p tsconfig.json",
+    "verify": "tsx src/cli.ts"
+  },
+  "keywords": [
+    "circle-packing",
+    "packing",
+    "heilbronn",
+    "discrepancy",
+    "extremal-geometry",
+    "exact-arithmetic",
+    "verifier",
+    "benchmark",
+    "llm-agents"
+  ],
+  "homepage": "https://minmaxarena.com",
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "esbuild": "^0.24.0",
+    "typescript": "^5.6.0",
+    "tsx": "^4.19.0"
+  }
+}

@@ -1,0 +1,546 @@
+{
+  "problem": "circles-in-rectangle",
+  "code": "P12",
+  "title": "2:1 长方形内的等圆装箱",
+  "titleEn": "Equal-circle packing in a 2:1 rectangle",
+  "objective": "maximize",
+  "scoreLabel": "共同半径",
+  "scoreLabelEn": "common radius",
+  "verifierVersion": "1.0.0",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseName": "CC BY 4.0",
+  "source": "https://minmaxarena.com/problems/circles-in-rectangle",
+  "generatedAt": "2026-08-29T05:03:19.052Z",
+  "instances": [
+    {
+      "instanceId": "p12-n3-v1",
+      "name": "n = 3",
+      "parameters": {
+        "n": 3
+      },
+      "objective": "maximize",
+      "scoreStored": "354248688",
+      "scoreDisplay": "0.354248688",
+      "status": "proven",
+      "settled": true,
+      "knownBest": {
+        "display": "0.354248688",
+        "kind": "proven",
+        "exact": "3 − √7",
+        "source": "a zigzag of three, r = 3 − √7"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "0.354248688",
+            "0.354248688"
+          ],
+          [
+            "1",
+            "0.645751312"
+          ],
+          [
+            "1.645751312",
+            "0.354248688"
+          ]
+        ],
+        "radius": "0.354248688"
+      }
+    },
+    {
+      "instanceId": "p12-n4-v1",
+      "name": "n = 4",
+      "parameters": {
+        "n": 4
+      },
+      "objective": "maximize",
+      "scoreStored": "303847577",
+      "scoreDisplay": "0.303847577",
+      "status": "proven",
+      "settled": true,
+      "knownBest": {
+        "display": "0.303847577",
+        "kind": "proven",
+        "exact": "(11 − 6√3)/2",
+        "source": "a zigzag of four, r = (11 − 6√3)/2"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "0.303847577",
+            "0.303847577"
+          ],
+          [
+            "0.767949192",
+            "0.696152423"
+          ],
+          [
+            "1.232050807",
+            "0.303847577"
+          ],
+          [
+            "1.696152422",
+            "0.696152423"
+          ]
+        ],
+        "radius": "0.303847577"
+      }
+    },
+    {
+      "instanceId": "p12-n5-v1",
+      "name": "n = 5",
+      "parameters": {
+        "n": 5
+      },
+      "objective": "maximize",
+      "scoreStored": "282202112",
+      "scoreDisplay": "0.282202112",
+      "status": "proven",
+      "settled": true,
+      "knownBest": {
+        "display": "0.282202112",
+        "kind": "proven",
+        "exact": "9 − 2√19",
+        "source": "a zigzag of five, r = 9 − 2√19"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "0.282202112",
+            "0.282202112"
+          ],
+          [
+            "0.641101056",
+            "0.717797888"
+          ],
+          [
+            "1",
+            "0.282202112"
+          ],
+          [
+            "1.358898944",
+            "0.717797888"
+          ],
+          [
+            "1.717797888",
+            "0.282202112"
+          ]
+        ],
+        "radius": "0.282202112"
+      }
+    },
+    {
+      "instanceId": "p12-n6-v1",
+      "name": "n = 6",
+      "parameters": {
+        "n": 6
+      },
+      "objective": "maximize",
+      "scoreStored": "271243444",
+      "scoreDisplay": "0.271243444",
+      "status": "proven",
+      "settled": true,
+      "knownBest": {
+        "display": "0.271243444",
+        "kind": "proven",
+        "exact": "(27 − 10√7)/2",
+        "source": "a zigzag of six, r = (27 − 10√7)/2"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "0.271243444",
+            "0.271243444"
+          ],
+          [
+            "0.562746066",
+            "0.728756556"
+          ],
+          [
+            "0.854248688",
+            "0.271243444"
+          ],
+          [
+            "1.14575131",
+            "0.728756556"
+          ],
+          [
+            "1.437253932",
+            "0.271243444"
+          ],
+          [
+            "1.728756554",
+            "0.728756556"
+          ]
+        ],
+        "radius": "0.271243444"
+      }
+    },
+    {
+      "instanceId": "p12-n7-v1",
+      "name": "n = 7",
+      "parameters": {
+        "n": 7
+      },
+      "objective": "maximize",
+      "scoreStored": "254333094",
+      "scoreDisplay": "0.254333094",
+      "status": "open",
+      "settled": false,
+      "knownBest": null,
+      "holder": "Cphysics",
+      "method": "human",
+      "recordedAt": "2026-08-27T09:34:31.370Z",
+      "answer": {
+        "centers": [
+          [
+            "0.254333095",
+            "0.745666905"
+          ],
+          [
+            "0.762999285",
+            "0.745666905"
+          ],
+          [
+            "1.745666905",
+            "0.745666905"
+          ],
+          [
+            "1.254333095",
+            "0.614014405"
+          ],
+          [
+            "0.385985593",
+            "0.254333095"
+          ],
+          [
+            "1.614014407",
+            "0.254333095"
+          ],
+          [
+            "0.894651783",
+            "0.254333095"
+          ]
+        ],
+        "radius": "0.254333094"
+      }
+    },
+    {
+      "instanceId": "p12-n8-v1",
+      "name": "n = 8",
+      "parameters": {
+        "n": 8
+      },
+      "objective": "maximize",
+      "scoreStored": "250000000",
+      "scoreDisplay": "0.25",
+      "status": "open",
+      "settled": false,
+      "knownBest": null,
+      "holder": "SneakyZero",
+      "method": "human",
+      "recordedAt": "2026-08-24T22:46:21.496Z",
+      "answer": {
+        "centers": [
+          [
+            "0.250000000",
+            "0.750000000"
+          ],
+          [
+            "0.250000000",
+            "0.250000000"
+          ],
+          [
+            "0.750000000",
+            "0.750000000"
+          ],
+          [
+            "0.750000000",
+            "0.250000000"
+          ],
+          [
+            "1.250000000",
+            "0.750000000"
+          ],
+          [
+            "1.250000000",
+            "0.250000000"
+          ],
+          [
+            "1.750000000",
+            "0.750000000"
+          ],
+          [
+            "1.750000000",
+            "0.250000000"
+          ]
+        ],
+        "radius": "0.250000000"
+      }
+    },
+    {
+      "instanceId": "p12-n9-v1",
+      "name": "n = 9",
+      "parameters": {
+        "n": 9
+      },
+      "objective": "maximize",
+      "scoreStored": "221307308",
+      "scoreDisplay": "0.221307308",
+      "status": "open",
+      "settled": false,
+      "knownBest": null,
+      "holder": "Cphysics",
+      "method": "human",
+      "recordedAt": "2026-08-27T10:22:43.315Z",
+      "answer": {
+        "centers": [
+          [
+            "0.221307308",
+            "0.778692692"
+          ],
+          [
+            "0.221307308",
+            "0.221307308"
+          ],
+          [
+            "0.572524419",
+            "0.490666250"
+          ],
+          [
+            "0.908602498",
+            "0.778692692"
+          ],
+          [
+            "0.923741530",
+            "0.221307308"
+          ],
+          [
+            "1.351217111",
+            "0.336078073"
+          ],
+          [
+            "1.351217114",
+            "0.778692692"
+          ],
+          [
+            "1.778692692",
+            "0.221307308"
+          ],
+          [
+            "1.778692692",
+            "0.663921924"
+          ]
+        ],
+        "radius": "0.221307308"
+      }
+    },
+    {
+      "instanceId": "p12-n10-v1",
+      "name": "n = 10",
+      "parameters": {
+        "n": 10
+      },
+      "objective": "maximize",
+      "scoreStored": "211566334",
+      "scoreDisplay": "0.211566334",
+      "status": "open",
+      "settled": false,
+      "knownBest": null,
+      "holder": "Cphysics",
+      "method": "human",
+      "recordedAt": "2026-08-27T10:04:04.356Z",
+      "answer": {
+        "centers": [
+          [
+            "0.211566335",
+            "0.211566335"
+          ],
+          [
+            "0.211566335",
+            "0.634699005"
+          ],
+          [
+            "0.605783168",
+            "0.788433665"
+          ],
+          [
+            "1.000000000",
+            "0.634699005"
+          ],
+          [
+            "0.605783167",
+            "0.365300996"
+          ],
+          [
+            "1.394216832",
+            "0.365300995"
+          ],
+          [
+            "1.394216832",
+            "0.788433665"
+          ],
+          [
+            "1.000000000",
+            "0.211566335"
+          ],
+          [
+            "1.788433665",
+            "0.634699005"
+          ],
+          [
+            "1.788433665",
+            "0.211566335"
+          ]
+        ],
+        "radius": "0.211566334"
+      }
+    },
+    {
+      "instanceId": "p12-n11-v1",
+      "name": "n = 11",
+      "parameters": {
+        "n": 11
+      },
+      "objective": "maximize",
+      "scoreStored": "200467024",
+      "scoreDisplay": "0.200467024",
+      "status": "open",
+      "settled": false,
+      "knownBest": null,
+      "holder": "Cphysics",
+      "method": "human",
+      "recordedAt": "2026-08-27T10:05:23.976Z",
+      "answer": {
+        "centers": [
+          [
+            "0.200467024",
+            "0.799532976"
+          ],
+          [
+            "0.200467024",
+            "0.200467024"
+          ],
+          [
+            "0.733489020",
+            "0.799532976"
+          ],
+          [
+            "0.466978013",
+            "0.500000000"
+          ],
+          [
+            "0.733489002",
+            "0.200467024"
+          ],
+          [
+            "1.266510998",
+            "0.799532976"
+          ],
+          [
+            "1.000000009",
+            "0.500000000"
+          ],
+          [
+            "1.533021987",
+            "0.500000000"
+          ],
+          [
+            "1.266510998",
+            "0.200467024"
+          ],
+          [
+            "1.799532976",
+            "0.799532976"
+          ],
+          [
+            "1.799532976",
+            "0.200467024"
+          ]
+        ],
+        "radius": "0.200467024"
+      }
+    },
+    {
+      "instanceId": "p12-n12-v1",
+      "name": "n = 12",
+      "parameters": {
+        "n": 12
+      },
+      "objective": "maximize",
+      "scoreStored": "192800000",
+      "scoreDisplay": "0.1928",
+      "status": "open",
+      "settled": false,
+      "knownBest": null,
+      "holder": "Cphysics",
+      "method": "human",
+      "recordedAt": "2026-08-27T10:43:46.557Z",
+      "answer": {
+        "centers": [
+          [
+            "0.771200000",
+            "0.526739400"
+          ],
+          [
+            "0.192800000",
+            "0.578400000"
+          ],
+          [
+            "0.192800000",
+            "0.192800000"
+          ],
+          [
+            "0.964000000",
+            "0.192800000"
+          ],
+          [
+            "0.578400000",
+            "0.192800000"
+          ],
+          [
+            "1.230910194",
+            "0.472051140"
+          ],
+          [
+            "1.036000000",
+            "0.807200000"
+          ],
+          [
+            "1.421600000",
+            "0.807200000"
+          ],
+          [
+            "0.503183505",
+            "0.807200000"
+          ],
+          [
+            "1.496816495",
+            "0.192800000"
+          ],
+          [
+            "1.807200000",
+            "0.421600000"
+          ],
+          [
+            "1.807200000",
+            "0.807200000"
+          ]
+        ],
+        "radius": "0.192800000"
+      }
+    }
+  ]
+}

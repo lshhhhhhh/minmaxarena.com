@@ -1,0 +1,1456 @@
+{
+  "problem": "riesz-energy-in-a-disc",
+  "code": "P34",
+  "title": "圆盘内的 Riesz 2-能量",
+  "titleEn": "Riesz 2-energy in a disc",
+  "objective": "minimize",
+  "scoreLabel": "Riesz 2-能量",
+  "scoreLabelEn": "Riesz 2-energy",
+  "verifierVersion": "1.0.0",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseName": "CC BY 4.0",
+  "source": "https://minmaxarena.com/problems/riesz-energy-in-a-disc",
+  "generatedAt": "2026-08-29T05:03:19.943Z",
+  "instances": [
+    {
+      "instanceId": "p34-n9-v2",
+      "name": "n = 9",
+      "parameters": {
+        "n": 9
+      },
+      "objective": "minimize",
+      "scoreStored": "29000000040",
+      "scoreDisplay": "29.00000004",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "29.00000004",
+        "kind": "best",
+        "source": "MinMax Arena construction: the centre plus a regular octagon, with ideal energy E = 29; the displayed value is the verifier-exact score of the nine-decimal certificate, and global optimality is not proved"
+      },
+      "holder": "lird",
+      "method": "human",
+      "recordedAt": "2026-08-26T06:39:12.691Z",
+      "answer": {
+        "points": [
+          [
+            "1.980785280",
+            "1.195090322"
+          ],
+          [
+            "1.555570233",
+            "1.831469612"
+          ],
+          [
+            "0.804909678",
+            "1.980785280"
+          ],
+          [
+            "0.168530388",
+            "1.555570233"
+          ],
+          [
+            "0.019214720",
+            "0.804909678"
+          ],
+          [
+            "0.444429767",
+            "0.168530388"
+          ],
+          [
+            "1.195090322",
+            "0.019214720"
+          ],
+          [
+            "1.831469612",
+            "0.444429767"
+          ],
+          [
+            "1.000000000",
+            "1.000000000"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p34-n10-v2",
+      "name": "n = 10",
+      "parameters": {
+        "n": 10
+      },
+      "objective": "minimize",
+      "scoreStored": "39000000173",
+      "scoreDisplay": "39.000000173",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "39.000000173",
+        "kind": "best",
+        "source": "MinMax Arena construction: the centre plus a regular nonagon, with ideal energy E = 39; the displayed value is the verifier-exact score of the nine-decimal certificate, and global optimality is not proved"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "points": [
+          [
+            "1.999999998",
+            "1.000000000"
+          ],
+          [
+            "1.766043432",
+            "1.642788813"
+          ],
+          [
+            "1.173648177",
+            "1.984807751"
+          ],
+          [
+            "0.500000001",
+            "1.866025402"
+          ],
+          [
+            "0.060307381",
+            "1.342020143"
+          ],
+          [
+            "0.060307381",
+            "0.657979857"
+          ],
+          [
+            "0.500000001",
+            "0.133974598"
+          ],
+          [
+            "1.173648177",
+            "0.015192249"
+          ],
+          [
+            "1.766044442",
+            "0.357212392"
+          ],
+          [
+            "1.000000000",
+            "1.000000000"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p34-n11-v2",
+      "name": "n = 11",
+      "parameters": {
+        "n": 11
+      },
+      "objective": "minimize",
+      "scoreStored": "51250000245",
+      "scoreDisplay": "51.250000245",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "51.250000245",
+        "kind": "best",
+        "source": "MinMax Arena construction: the centre plus a regular decagon, with ideal energy E = 51.25; the displayed value is the verifier-exact score of the nine-decimal certificate, and global optimality is not proved"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "points": [
+          [
+            "1.999999998",
+            "1.000000000"
+          ],
+          [
+            "1.809016993",
+            "1.587785251"
+          ],
+          [
+            "1.309016994",
+            "1.951056514"
+          ],
+          [
+            "0.690983006",
+            "1.951056514"
+          ],
+          [
+            "0.190980205",
+            "1.587781394"
+          ],
+          [
+            "0.000000002",
+            "1.000000000"
+          ],
+          [
+            "0.190983007",
+            "0.412214749"
+          ],
+          [
+            "0.690983006",
+            "0.048943486"
+          ],
+          [
+            "1.309016994",
+            "0.048943486"
+          ],
+          [
+            "1.809016993",
+            "0.412214749"
+          ],
+          [
+            "1.000000204",
+            "1.000000492"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p34-n12-v2",
+      "name": "n = 12",
+      "parameters": {
+        "n": 12
+      },
+      "objective": "minimize",
+      "scoreStored": "65939960446",
+      "scoreDisplay": "65.939960446",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "65.939960446",
+        "kind": "best",
+        "source": "MinMax Arena offline multi-start numerical search; the displayed value is the verifier-exact score of the certificate shipped with the repository, and global optimality is not proved"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "points": [
+          [
+            "0.100775685",
+            "0.562512164"
+          ],
+          [
+            "1.902000578",
+            "1.431734805"
+          ],
+          [
+            "0.019885127",
+            "1.198430889"
+          ],
+          [
+            "1.133424467",
+            "0.008941018"
+          ],
+          [
+            "0.872084228",
+            "1.991785019"
+          ],
+          [
+            "1.470406954",
+            "1.882449594"
+          ],
+          [
+            "1.311051233",
+            "1.065834276"
+          ],
+          [
+            "0.685556310",
+            "0.935262953"
+          ],
+          [
+            "0.324646395",
+            "1.737493898"
+          ],
+          [
+            "1.679115704",
+            "0.265968767"
+          ],
+          [
+            "0.535174902",
+            "0.114597513"
+          ],
+          [
+            "1.980267931",
+            "0.802326613"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p34-n13-v2",
+      "name": "n = 13",
+      "parameters": {
+        "n": 13
+      },
+      "objective": "minimize",
+      "scoreStored": "81915407977",
+      "scoreDisplay": "81.915407977",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "81.915407977",
+        "kind": "best",
+        "source": "MinMax Arena offline multi-start numerical search; the displayed value is the verifier-exact score of the certificate shipped with the repository, and global optimality is not proved"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "points": [
+          [
+            "0.035290751",
+            "0.736682596"
+          ],
+          [
+            "1.418103248",
+            "1.908399435"
+          ],
+          [
+            "1.999661024",
+            "0.973964761"
+          ],
+          [
+            "1.400382734",
+            "0.083652005"
+          ],
+          [
+            "0.047579738",
+            "1.304787761"
+          ],
+          [
+            "0.866542864",
+            "1.991054557"
+          ],
+          [
+            "0.849708958",
+            "0.011358248"
+          ],
+          [
+            "1.827011360",
+            "0.437814798"
+          ],
+          [
+            "0.358815211",
+            "1.767386510"
+          ],
+          [
+            "0.718518897",
+            "0.867306708"
+          ],
+          [
+            "1.848101578",
+            "1.529833605"
+          ],
+          [
+            "1.282809226",
+            "1.133420943"
+          ],
+          [
+            "0.340100546",
+            "0.248646129"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p34-n14-v2",
+      "name": "n = 14",
+      "parameters": {
+        "n": 14
+      },
+      "objective": "minimize",
+      "scoreStored": "100464144631",
+      "scoreDisplay": "100.464144631",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "100.464144631",
+        "kind": "best",
+        "source": "MinMax Arena offline multi-start numerical search; the displayed value is the verifier-exact score of the certificate shipped with the repository, and global optimality is not proved"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "points": [
+          [
+            "0.080180359",
+            "1.392341331"
+          ],
+          [
+            "0.627557633",
+            "1.110233634"
+          ],
+          [
+            "1.902515341",
+            "1.430657629"
+          ],
+          [
+            "1.993182362",
+            "0.883429263"
+          ],
+          [
+            "1.782051220",
+            "0.376785844"
+          ],
+          [
+            "0.973659761",
+            "1.999652998"
+          ],
+          [
+            "0.267537410",
+            "0.319192733"
+          ],
+          [
+            "1.318928984",
+            "0.052221397"
+          ],
+          [
+            "0.016859046",
+            "0.817150939"
+          ],
+          [
+            "1.515376322",
+            "1.856963964"
+          ],
+          [
+            "0.744785982",
+            "0.033115424"
+          ],
+          [
+            "1.086020997",
+            "0.624444002"
+          ],
+          [
+            "0.443518210",
+            "1.830859782"
+          ],
+          [
+            "1.278356386",
+            "1.266204524"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p34-n15-v2",
+      "name": "n = 15",
+      "parameters": {
+        "n": 15
+      },
+      "objective": "minimize",
+      "scoreStored": "120479390934",
+      "scoreDisplay": "120.479390934",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "120.479390934",
+        "kind": "best",
+        "source": "MinMax Arena offline multi-start numerical search; the displayed value is the verifier-exact score of the certificate shipped with the repository, and global optimality is not proved"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "points": [
+          [
+            "0.263012344",
+            "1.675906189"
+          ],
+          [
+            "1.974337136",
+            "0.774906530"
+          ],
+          [
+            "1.230071172",
+            "1.973173800"
+          ],
+          [
+            "0.775784606",
+            "0.025460400"
+          ],
+          [
+            "1.955743884",
+            "1.294199958"
+          ],
+          [
+            "1.283330051",
+            "0.040977648"
+          ],
+          [
+            "0.025484217",
+            "1.224318666"
+          ],
+          [
+            "1.685392068",
+            "1.728174223"
+          ],
+          [
+            "0.042875490",
+            "0.710323232"
+          ],
+          [
+            "0.978766014",
+            "1.379664924"
+          ],
+          [
+            "0.684541951",
+            "0.793431315"
+          ],
+          [
+            "0.321024654",
+            "0.265838975"
+          ],
+          [
+            "1.724247156",
+            "0.310459581"
+          ],
+          [
+            "1.339759199",
+            "0.831194063"
+          ],
+          [
+            "0.700879410",
+            "1.954215283"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p34-n16-v2",
+      "name": "n = 16",
+      "parameters": {
+        "n": 16
+      },
+      "objective": "minimize",
+      "scoreStored": "143475297130",
+      "scoreDisplay": "143.47529713",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "143.47529713",
+        "kind": "best",
+        "source": "MinMax Arena offline multi-start numerical search; the displayed value is the verifier-exact score of the certificate shipped with the repository, and global optimality is not proved"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "points": [
+          [
+            "0.389413366",
+            "0.208050543"
+          ],
+          [
+            "1.779572144",
+            "1.626312364"
+          ],
+          [
+            "0.829196689",
+            "0.014694862"
+          ],
+          [
+            "0.088962082",
+            "0.587677418"
+          ],
+          [
+            "1.402631383",
+            "1.915362172"
+          ],
+          [
+            "0.138301833",
+            "1.507421019"
+          ],
+          [
+            "0.931136929",
+            "1.997626062"
+          ],
+          [
+            "0.471098570",
+            "1.848683248"
+          ],
+          [
+            "1.708247301",
+            "0.294035606"
+          ],
+          [
+            "0.001552573",
+            "1.055702022"
+          ],
+          [
+            "1.302177518",
+            "0.046748354"
+          ],
+          [
+            "0.897226426",
+            "1.357067006"
+          ],
+          [
+            "1.362396482",
+            "0.911836351"
+          ],
+          [
+            "0.743359290",
+            "0.731234588"
+          ],
+          [
+            "1.956387145",
+            "0.707898003"
+          ],
+          [
+            "1.981498667",
+            "1.191468784"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p34-n17-v2",
+      "name": "n = 17",
+      "parameters": {
+        "n": 17
+      },
+      "objective": "minimize",
+      "scoreStored": "169728870935",
+      "scoreDisplay": "169.728870935",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "169.728870935",
+        "kind": "best",
+        "source": "MinMax Arena offline multi-start numerical search; the displayed value is the verifier-exact score of the certificate shipped with the repository, and global optimality is not proved"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "points": [
+          [
+            "1.971389702",
+            "0.762508913"
+          ],
+          [
+            "1.977591102",
+            "1.210512727"
+          ],
+          [
+            "1.790975424",
+            "1.611847875"
+          ],
+          [
+            "1.455755382",
+            "1.890105051"
+          ],
+          [
+            "1.034572958",
+            "1.999401960"
+          ],
+          [
+            "0.601747924",
+            "1.917275964"
+          ],
+          [
+            "0.240839090",
+            "1.650902986"
+          ],
+          [
+            "0.797138839",
+            "1.301032189"
+          ],
+          [
+            "0.034105963",
+            "1.258937652"
+          ],
+          [
+            "0.016620882",
+            "0.818436539"
+          ],
+          [
+            "0.193996990",
+            "0.408088740"
+          ],
+          [
+            "0.833578362",
+            "0.667767674"
+          ],
+          [
+            "0.539531941",
+            "0.112323769"
+          ],
+          [
+            "0.982372371",
+            "0.000155379"
+          ],
+          [
+            "1.420744919",
+            "0.092821079"
+          ],
+          [
+            "1.363729686",
+            "1.015126642"
+          ],
+          [
+            "1.772042852",
+            "0.364429606"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p34-n18-v2",
+      "name": "n = 18",
+      "parameters": {
+        "n": 18
+      },
+      "objective": "minimize",
+      "scoreStored": "195916119634",
+      "scoreDisplay": "195.916119634",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "195.916119634",
+        "kind": "best",
+        "source": "MinMax Arena offline multi-start numerical search; the displayed value is the verifier-exact score of the certificate shipped with the repository, and global optimality is not proved"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "points": [
+          [
+            "1.998742097",
+            "0.949858090"
+          ],
+          [
+            "1.920908334",
+            "1.389779189"
+          ],
+          [
+            "1.666152684",
+            "1.745815371"
+          ],
+          [
+            "1.281949200",
+            "1.959429326"
+          ],
+          [
+            "0.991432130",
+            "1.415262284"
+          ],
+          [
+            "0.836358346",
+            "1.986519794"
+          ],
+          [
+            "0.426313846",
+            "1.819075191"
+          ],
+          [
+            "0.131599861",
+            "1.495863957"
+          ],
+          [
+            "0.581688239",
+            "0.988281792"
+          ],
+          [
+            "0.002501128",
+            "1.070682037"
+          ],
+          [
+            "0.073218534",
+            "0.624399377"
+          ],
+          [
+            "0.327485974",
+            "0.259915771"
+          ],
+          [
+            "1.006630841",
+            "0.578242152"
+          ],
+          [
+            "0.716889084",
+            "0.040912854"
+          ],
+          [
+            "1.171864119",
+            "0.014879352"
+          ],
+          [
+            "1.416503078",
+            "1.004150698"
+          ],
+          [
+            "1.584520831",
+            "0.188621302"
+          ],
+          [
+            "1.877789878",
+            "0.520954380"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p34-n19-v2",
+      "name": "n = 19",
+      "parameters": {
+        "n": 19
+      },
+      "objective": "minimize",
+      "scoreStored": "226994264660",
+      "scoreDisplay": "226.99426466",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "226.99426466",
+        "kind": "best",
+        "source": "MinMax Arena offline multi-start numerical search; the displayed value is the verifier-exact score of the certificate shipped with the repository, and global optimality is not proved"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "points": [
+          [
+            "1.999999998",
+            "1.000000000"
+          ],
+          [
+            "1.911974295",
+            "1.410247336"
+          ],
+          [
+            "1.662123868",
+            "1.749394372"
+          ],
+          [
+            "1.356887210",
+            "1.209153660"
+          ],
+          [
+            "1.300235647",
+            "1.953864967"
+          ],
+          [
+            "0.889943626",
+            "1.993925326"
+          ],
+          [
+            "0.495424396",
+            "1.863367447"
+          ],
+          [
+            "0.792557870",
+            "1.353374999"
+          ],
+          [
+            "0.188376844",
+            "1.584181210"
+          ],
+          [
+            "0.022075851",
+            "1.208960100"
+          ],
+          [
+            "0.020702984",
+            "0.797571377"
+          ],
+          [
+            "0.188305164",
+            "0.415918269"
+          ],
+          [
+            "0.647599365",
+            "0.788827077"
+          ],
+          [
+            "0.496918299",
+            "0.135761231"
+          ],
+          [
+            "0.888818831",
+            "0.006199908"
+          ],
+          [
+            "1.304249632",
+            "0.047407667"
+          ],
+          [
+            "1.211766641",
+            "0.644550027"
+          ],
+          [
+            "1.670244538",
+            "0.257859817"
+          ],
+          [
+            "1.914553679",
+            "0.595535485"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p34-n20-v2",
+      "name": "n = 20",
+      "parameters": {
+        "n": 20
+      },
+      "objective": "minimize",
+      "scoreStored": "258804179340",
+      "scoreDisplay": "258.80417934",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "258.80417934",
+        "kind": "best",
+        "source": "MinMax Arena offline multi-start numerical search; the displayed value is the verifier-exact score of the certificate shipped with the repository, and global optimality is not proved"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "points": [
+          [
+            "1.989308758",
+            "0.854164295"
+          ],
+          [
+            "1.961670812",
+            "1.274205923"
+          ],
+          [
+            "1.765604591",
+            "1.643311439"
+          ],
+          [
+            "1.051999007",
+            "1.444461351"
+          ],
+          [
+            "1.441246201",
+            "1.897386081"
+          ],
+          [
+            "1.041160793",
+            "1.999152487"
+          ],
+          [
+            "0.640389585",
+            "1.933102527"
+          ],
+          [
+            "0.301638013",
+            "1.715744577"
+          ],
+          [
+            "0.073362030",
+            "1.375954762"
+          ],
+          [
+            "0.589401680",
+            "1.177513210"
+          ],
+          [
+            "0.000455352",
+            "0.969829265"
+          ],
+          [
+            "0.096824454",
+            "0.570729063"
+          ],
+          [
+            "0.352450355",
+            "0.237976940"
+          ],
+          [
+            "0.700418105",
+            "0.656344779"
+          ],
+          [
+            "0.724520507",
+            "0.038693196"
+          ],
+          [
+            "1.143931093",
+            "0.010412357"
+          ],
+          [
+            "1.229619430",
+            "0.602153907"
+          ],
+          [
+            "1.542583279",
+            "0.159998042"
+          ],
+          [
+            "1.447232332",
+            "1.087659895"
+          ],
+          [
+            "1.842320206",
+            "0.461022670"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p34-n21-v2",
+      "name": "n = 21",
+      "parameters": {
+        "n": 21
+      },
+      "objective": "minimize",
+      "scoreStored": "294730921053",
+      "scoreDisplay": "294.730921053",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "294.730921053",
+        "kind": "best",
+        "source": "MinMax Arena offline multi-start numerical search; the displayed value is the verifier-exact score of the certificate shipped with the repository, and global optimality is not proved"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "points": [
+          [
+            "1.982661904",
+            "0.814594560"
+          ],
+          [
+            "1.972446845",
+            "1.233124705"
+          ],
+          [
+            "1.795778956",
+            "1.605587186"
+          ],
+          [
+            "1.483298778",
+            "1.875455470"
+          ],
+          [
+            "1.076195515",
+            "1.997092879"
+          ],
+          [
+            "1.142211493",
+            "1.499345788"
+          ],
+          [
+            "0.665472746",
+            "1.942386073"
+          ],
+          [
+            "0.569786362",
+            "1.292789626"
+          ],
+          [
+            "0.310306972",
+            "1.724101710"
+          ],
+          [
+            "0.071259325",
+            "1.370729895"
+          ],
+          [
+            "0.000701400",
+            "0.962555284"
+          ],
+          [
+            "0.099549004",
+            "0.565042548"
+          ],
+          [
+            "0.590106752",
+            "0.682489688"
+          ],
+          [
+            "0.361332919",
+            "0.230516851"
+          ],
+          [
+            "0.725378392",
+            "0.038447706"
+          ],
+          [
+            "1.136653021",
+            "0.009381065"
+          ],
+          [
+            "1.174518404",
+            "0.513527562"
+          ],
+          [
+            "1.533856558",
+            "0.154424991"
+          ],
+          [
+            "1.827220829",
+            "0.438123083"
+          ],
+          [
+            "1.515349224",
+            "1.019279348"
+          ],
+          [
+            "0.997715008",
+            "1.001355290"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p34-n22-v2",
+      "name": "n = 22",
+      "parameters": {
+        "n": 22
+      },
+      "objective": "minimize",
+      "scoreStored": "332844374460",
+      "scoreDisplay": "332.84437446",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "332.84437446",
+        "kind": "best",
+        "source": "MinMax Arena offline multi-start numerical search; the displayed value is the verifier-exact score of the certificate shipped with the repository, and global optimality is not proved"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "points": [
+          [
+            "1.010509635",
+            "1.002822080"
+          ],
+          [
+            "1.985018533",
+            "1.172447002"
+          ],
+          [
+            "1.484367533",
+            "1.258465650"
+          ],
+          [
+            "1.815170287",
+            "1.579221312"
+          ],
+          [
+            "1.499278106",
+            "1.866441761"
+          ],
+          [
+            "1.093799235",
+            "1.995591049"
+          ],
+          [
+            "1.026486941",
+            "1.537772971"
+          ],
+          [
+            "0.679510051",
+            "1.947251857"
+          ],
+          [
+            "0.331092345",
+            "1.743345364"
+          ],
+          [
+            "0.551633563",
+            "1.283386904"
+          ],
+          [
+            "0.087476516",
+            "1.409024287"
+          ],
+          [
+            "0.000187618",
+            "1.019365115"
+          ],
+          [
+            "0.071829177",
+            "0.627845981"
+          ],
+          [
+            "0.295343559",
+            "0.290451355"
+          ],
+          [
+            "0.540699761",
+            "0.742312674"
+          ],
+          [
+            "0.630330206",
+            "0.070837093"
+          ],
+          [
+            "1.036600811",
+            "0.000670290"
+          ],
+          [
+            "1.443661278",
+            "0.103805452"
+          ],
+          [
+            "1.002043080",
+            "0.465372948"
+          ],
+          [
+            "1.770657954",
+            "0.362751066"
+          ],
+          [
+            "1.470785644",
+            "0.725896403"
+          ],
+          [
+            "1.967222346",
+            "0.746069081"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p34-n23-v2",
+      "name": "n = 23",
+      "parameters": {
+        "n": 23
+      },
+      "objective": "minimize",
+      "scoreStored": "374932327387",
+      "scoreDisplay": "374.932327387",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "374.932327387",
+        "kind": "best",
+        "source": "MinMax Arena offline multi-start numerical search; the displayed value is the verifier-exact score of the certificate shipped with the repository, and global optimality is not proved"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "points": [
+          [
+            "1.997882118",
+            "0.934951909"
+          ],
+          [
+            "1.941129368",
+            "1.338046444"
+          ],
+          [
+            "1.492493265",
+            "1.248769451"
+          ],
+          [
+            "1.724490834",
+            "1.689284402"
+          ],
+          [
+            "1.395812774",
+            "1.918331158"
+          ],
+          [
+            "0.983786429",
+            "1.999868502"
+          ],
+          [
+            "1.111221048",
+            "1.545135471"
+          ],
+          [
+            "0.579194372",
+            "1.907150813"
+          ],
+          [
+            "0.643994559",
+            "1.432337436"
+          ],
+          [
+            "0.240668888",
+            "1.650704263"
+          ],
+          [
+            "0.440258976",
+            "0.995615818"
+          ],
+          [
+            "0.042082645",
+            "1.287043825"
+          ],
+          [
+            "0.009315085",
+            "0.863826300"
+          ],
+          [
+            "0.151993531",
+            "0.470014247"
+          ],
+          [
+            "0.995457838",
+            "0.999685052"
+          ],
+          [
+            "0.447609064",
+            "0.166414924"
+          ],
+          [
+            "0.652877127",
+            "0.562269683"
+          ],
+          [
+            "0.837127289",
+            "0.013352968"
+          ],
+          [
+            "1.253465368",
+            "0.032655602"
+          ],
+          [
+            "1.125801669",
+            "0.460265643"
+          ],
+          [
+            "1.624163269",
+            "0.218706120"
+          ],
+          [
+            "1.885253849",
+            "0.534891880"
+          ],
+          [
+            "1.500871532",
+            "0.766028428"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p34-n24-v2",
+      "name": "n = 24",
+      "parameters": {
+        "n": 24
+      },
+      "objective": "minimize",
+      "scoreStored": "415981130962",
+      "scoreDisplay": "415.981130962",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "415.981130962",
+        "kind": "best",
+        "source": "MinMax Arena offline multi-start numerical search; the displayed value is the verifier-exact score of the certificate shipped with the repository, and global optimality is not proved"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "points": [
+          [
+            "1.999991996",
+            "1.003990914"
+          ],
+          [
+            "1.458355314",
+            "1.305385592"
+          ],
+          [
+            "1.923327717",
+            "1.384012916"
+          ],
+          [
+            "1.702690327",
+            "1.711495771"
+          ],
+          [
+            "1.382484419",
+            "1.923961913"
+          ],
+          [
+            "1.046788985",
+            "1.547179353"
+          ],
+          [
+            "0.998543330",
+            "1.999998938"
+          ],
+          [
+            "0.616921609",
+            "1.923715833"
+          ],
+          [
+            "0.600829391",
+            "1.377795080"
+          ],
+          [
+            "0.290611579",
+            "1.704817685"
+          ],
+          [
+            "1.000104736",
+            "0.999760902"
+          ],
+          [
+            "0.074407422",
+            "1.378520874"
+          ],
+          [
+            "0.455760483",
+            "0.922531424"
+          ],
+          [
+            "0.000001113",
+            "1.001465968"
+          ],
+          [
+            "0.076808998",
+            "0.615658775"
+          ],
+          [
+            "0.292005929",
+            "0.293781626"
+          ],
+          [
+            "0.719661448",
+            "0.525829373"
+          ],
+          [
+            "0.620327910",
+            "0.074878949"
+          ],
+          [
+            "1.000000000",
+            "0.000000002"
+          ],
+          [
+            "1.385408493",
+            "0.077253947"
+          ],
+          [
+            "1.523778764",
+            "0.833099858"
+          ],
+          [
+            "1.709058702",
+            "0.294850543"
+          ],
+          [
+            "1.924433319",
+            "0.618656420"
+          ],
+          [
+            "1.195255764",
+            "0.486357092"
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,648 @@
+{
+  "problem": "heilbronn-in-a-circle",
+  "code": "P22",
+  "title": "圆盘内的最小三角形",
+  "titleEn": "The smallest triangle in a disc",
+  "objective": "maximize",
+  "scoreLabel": "最小三角形的二倍面积",
+  "scoreLabelEn": "twice the smallest triangle's area",
+  "verifierVersion": "1.0.0",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseName": "CC BY 4.0",
+  "source": "https://minmaxarena.com/problems/heilbronn-in-a-circle",
+  "generatedAt": "2026-08-29T05:03:19.422Z",
+  "instances": [
+    {
+      "instanceId": "p22-n5-v2",
+      "name": "n = 5",
+      "parameters": {
+        "n": 5
+      },
+      "objective": "maximize",
+      "scoreStored": "1314327778762289952",
+      "scoreDisplay": "0.657163889381144976",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "1.314327778762289952",
+        "kind": "best",
+        "exact": "√(5(5 − √5)/2)/4",
+        "source": "MathWorld's value for a disc of unit area, given in closed form, converted to radius 1 and doubled; optimality open; the table's figure is 1.314327780297834015, the exact optimum is not writable on the nine-decimal grid, and shown here is the exact value the configuration's grid certificate reaches",
+        "url": "https://mathworld.wolfram.com/HeilbronnTriangleProblem.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "points": [
+          [
+            "1.951056516",
+            "1.309016994"
+          ],
+          [
+            "1",
+            "2"
+          ],
+          [
+            "0.048943484",
+            "1.309016994"
+          ],
+          [
+            "0.412214748",
+            "0.190983006"
+          ],
+          [
+            "1.587785252",
+            "0.190983006"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p22-n6-v2",
+      "name": "n = 6",
+      "parameters": {
+        "n": 6
+      },
+      "objective": "maximize",
+      "scoreStored": "866025403279070251",
+      "scoreDisplay": "0.433012701639535125",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.866025403279070251",
+        "kind": "best",
+        "exact": "√3/4",
+        "source": "MathWorld's value for a disc of unit area, given in closed form, converted to radius 1 and doubled; optimality open; the table's figure is 0.866025403784438646, the exact optimum is not writable on the nine-decimal grid, and shown here is the exact value the configuration's grid certificate reaches",
+        "url": "https://mathworld.wolfram.com/HeilbronnTriangleProblem.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "points": [
+          [
+            "1.965925826",
+            "1.258819045"
+          ],
+          [
+            "1.258819045",
+            "1.965925826"
+          ],
+          [
+            "0.292893219",
+            "1.707106781"
+          ],
+          [
+            "0.034074174",
+            "0.741180955"
+          ],
+          [
+            "0.741180955",
+            "0.034074174"
+          ],
+          [
+            "1.707106781",
+            "0.292893219"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p22-n7-v2",
+      "name": "n = 7",
+      "parameters": {
+        "n": 7
+      },
+      "objective": "maximize",
+      "scoreStored": "588735051816359448",
+      "scoreDisplay": "0.294367525908179724",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.588735051816359448",
+        "kind": "best",
+        "source": "MathWorld's value for a disc of unit area, given in closed form, converted to radius 1 and doubled; optimality open; the table's figure is 0.58873505275423601, the exact optimum is not writable on the nine-decimal grid, and shown here is the exact value the configuration's grid certificate reaches",
+        "url": "https://mathworld.wolfram.com/HeilbronnTriangleProblem.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "points": [
+          [
+            "1.725551485",
+            "1.688167888"
+          ],
+          [
+            "0.914342631",
+            "1.996324653"
+          ],
+          [
+            "0.167635523",
+            "1.554228632"
+          ],
+          [
+            "0.047715844",
+            "0.694787148"
+          ],
+          [
+            "0.644885558",
+            "0.065177166"
+          ],
+          [
+            "1.509463689",
+            "0.139507845"
+          ],
+          [
+            "1.990405272",
+            "0.861806668"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p22-n8-v2",
+      "name": "n = 8",
+      "parameters": {
+        "n": 8
+      },
+      "objective": "maximize",
+      "scoreStored": "433883738051218122",
+      "scoreDisplay": "0.216941869025609061",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.433883738051218122",
+        "kind": "best",
+        "source": "MathWorld's value for a disc of unit area, given in closed form, converted to radius 1 and doubled; optimality open; the table's figure is 0.43388373911755812, the exact optimum is not writable on the nine-decimal grid, and shown here is the exact value the configuration's grid certificate reaches",
+        "url": "https://mathworld.wolfram.com/HeilbronnTriangleProblem.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "points": [
+          [
+            "0.948127271",
+            "1.998653703"
+          ],
+          [
+            "0.186878976",
+            "1.582094665"
+          ],
+          [
+            "0.037927398",
+            "0.727206474"
+          ],
+          [
+            "0.613436106",
+            "0.077737372"
+          ],
+          [
+            "0.999999997",
+            "0.999999997"
+          ],
+          [
+            "1.480035311",
+            "0.122750834"
+          ],
+          [
+            "1.985158137",
+            "0.828350811"
+          ],
+          [
+            "1.74843679",
+            "1.66320613"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p22-n9-v2",
+      "name": "n = 9",
+      "parameters": {
+        "n": 9
+      },
+      "objective": "maximize",
+      "scoreStored": "347527496486902600",
+      "scoreDisplay": "0.1737637482434513",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.3475274964869026",
+        "kind": "best",
+        "source": "Friedman/Cantrell's construction in MathWorld's public SVG; the unit-area-disc table value converts to 0.347527496674425 here. The nine-decimal certificate reconstructed from the figure reaches 0.3475274964869026; optimality open",
+        "url": "https://mathworld.wolfram.com/HeilbronnTriangleProblem.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "points": [
+          [
+            "0.924162179",
+            "1.189216232"
+          ],
+          [
+            "1.107378752",
+            "1.994218175"
+          ],
+          [
+            "1.707480784",
+            "1.706732564"
+          ],
+          [
+            "1.625857865",
+            "0.220062881"
+          ],
+          [
+            "1.970065741",
+            "1.001824280"
+          ],
+          [
+            "0.235685609",
+            "1.644843770"
+          ],
+          [
+            "0.000252627",
+            "1.022475924"
+          ],
+          [
+            "1.086053737",
+            "0.003709515"
+          ],
+          [
+            "0.297201570",
+            "0.331340717"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p22-n10-v2",
+      "name": "n = 10",
+      "parameters": {
+        "n": 10
+      },
+      "objective": "maximize",
+      "scoreStored": "300767465878700442",
+      "scoreDisplay": "0.150383732939350221",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.300767465878700442",
+        "kind": "best",
+        "source": "Friedman/Cantrell's construction in MathWorld's public SVG; the closed form converts to 0.300767466360870593 here. The nine-decimal certificate reconstructed from the figure reaches 0.300767465878700442; optimality open",
+        "url": "https://mathworld.wolfram.com/HeilbronnTriangleProblem.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "points": [
+          [
+            "1.841461710",
+            "1.540316750"
+          ],
+          [
+            "1.297288155",
+            "1.954787805"
+          ],
+          [
+            "0.614010168",
+            "1.922503035"
+          ],
+          [
+            "0.111341114",
+            "1.458568843"
+          ],
+          [
+            "0.024485428",
+            "0.780065192"
+          ],
+          [
+            "0.394083852",
+            "0.204471483"
+          ],
+          [
+            "1.047197176",
+            "0.001114408"
+          ],
+          [
+            "1.678226417",
+            "0.265147003"
+          ],
+          [
+            "1.991905979",
+            "0.873025482"
+          ],
+          [
+            "0.999950774",
+            "1.000063679"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p22-n11-v2",
+      "name": "n = 11",
+      "parameters": {
+        "n": 11
+      },
+      "objective": "maximize",
+      "scoreStored": "219546642356642412",
+      "scoreDisplay": "0.109773321178321206",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.219546642356642412",
+        "kind": "best",
+        "source": "Friedman/Cantrell's construction in MathWorld's public SVG; the unit-area-disc table value converts to 0.219546642560923 here. The nine-decimal certificate reconstructed from the figure reaches 0.219546642356642412; optimality open",
+        "url": "https://mathworld.wolfram.com/HeilbronnTriangleProblem.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "points": [
+          [
+            "0.821730362",
+            "1.103166956"
+          ],
+          [
+            "0.853056909",
+            "1.989137777"
+          ],
+          [
+            "0.368914415",
+            "1.773199352"
+          ],
+          [
+            "1.967577690",
+            "0.747454502"
+          ],
+          [
+            "1.895079328",
+            "1.445891031"
+          ],
+          [
+            "1.539633981",
+            "1.841891312"
+          ],
+          [
+            "0.069161577",
+            "0.634588390"
+          ],
+          [
+            "0.015175713",
+            "1.161948688"
+          ],
+          [
+            "1.701044331",
+            "0.286892252"
+          ],
+          [
+            "1.059347563",
+            "0.001769725"
+          ],
+          [
+            "0.538904031",
+            "0.112657720"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p22-n12-v2",
+      "name": "n = 12",
+      "parameters": {
+        "n": 12
+      },
+      "objective": "maximize",
+      "scoreStored": "209830765056146103",
+      "scoreDisplay": "0.104915382528073051",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.209830765056146103",
+        "kind": "best",
+        "source": "Friedman/Cantrell's construction in MathWorld's public SVG; the unit-area-disc table value converts to 0.209830765392198 here. The nine-decimal certificate reconstructed from the figure reaches 0.209830765056146103; optimality open",
+        "url": "https://mathworld.wolfram.com/HeilbronnTriangleProblem.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "points": [
+          [
+            "0.384764424",
+            "1.788343317"
+          ],
+          [
+            "0.979497770",
+            "1.999789807"
+          ],
+          [
+            "0.035151619",
+            "1.262807155"
+          ],
+          [
+            "0.746398010",
+            "1.324957531"
+          ],
+          [
+            "0.624892449",
+            "0.073018704"
+          ],
+          [
+            "0.144407744",
+            "0.482349645"
+          ],
+          [
+            "1.254826518",
+            "0.033013214"
+          ],
+          [
+            "0.845379518",
+            "0.617895469"
+          ],
+          [
+            "1.990343127",
+            "1.138637979"
+          ],
+          [
+            "1.876094486",
+            "0.517860548"
+          ],
+          [
+            "1.710021863",
+            "1.704179631"
+          ],
+          [
+            "1.408222472",
+            "1.057147000"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p22-n13-v2",
+      "name": "n = 13",
+      "parameters": {
+        "n": 13
+      },
+      "objective": "maximize",
+      "scoreStored": "171316470816143988",
+      "scoreDisplay": "0.085658235408071994",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.171316470816143988",
+        "kind": "best",
+        "source": "Friedman/Cantrell's construction in MathWorld's public SVG; the unit-area-disc table value converts to 0.171316471464200 here. The nine-decimal certificate reconstructed from the figure reaches 0.171316470816143988; optimality open",
+        "url": "https://mathworld.wolfram.com/HeilbronnTriangleProblem.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "points": [
+          [
+            "0.421767977",
+            "1.815872371"
+          ],
+          [
+            "0.947835083",
+            "0.001361517"
+          ],
+          [
+            "1.774650236",
+            "1.632389919"
+          ],
+          [
+            "1.971445889",
+            "1.237261213"
+          ],
+          [
+            "0.677386992",
+            "0.608536005"
+          ],
+          [
+            "0.403825160",
+            "0.197145369"
+          ],
+          [
+            "0.877205700",
+            "1.535273534"
+          ],
+          [
+            "1.164798852",
+            "1.986327195"
+          ],
+          [
+            "1.482226593",
+            "0.123953477"
+          ],
+          [
+            "0.027167236",
+            "1.231508989"
+          ],
+          [
+            "0.022274561",
+            "0.790112019"
+          ],
+          [
+            "1.460982495",
+            "0.788296549"
+          ],
+          [
+            "1.886503935",
+            "0.537278948"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p22-n14-v2",
+      "name": "n = 14",
+      "parameters": {
+        "n": 14
+      },
+      "objective": "maximize",
+      "scoreStored": "151714501678263830",
+      "scoreDisplay": "0.075857250839131915",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.15171450167826383",
+        "kind": "best",
+        "source": "Friedman/Cantrell's construction in MathWorld's public SVG; the unit-area-disc table value converts to 0.151714502121802 here. The nine-decimal certificate reconstructed from the figure reaches 0.15171450167826383; optimality open",
+        "url": "https://mathworld.wolfram.com/HeilbronnTriangleProblem.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "points": [
+          [
+            "0.779739263",
+            "1.975441032"
+          ],
+          [
+            "1.846636570",
+            "1.532171512"
+          ],
+          [
+            "1.834239256",
+            "0.448597367"
+          ],
+          [
+            "1.433245056",
+            "1.846127090"
+          ],
+          [
+            "1.989546863",
+            "1.056636870"
+          ],
+          [
+            "1.340150490",
+            "1.020130609"
+          ],
+          [
+            "0.400305802",
+            "1.800229260"
+          ],
+          [
+            "0.045864398",
+            "0.700625230"
+          ],
+          [
+            "0.878748077",
+            "0.007378234"
+          ],
+          [
+            "0.074952609",
+            "1.218905583"
+          ],
+          [
+            "0.315177933",
+            "0.283460074"
+          ],
+          [
+            "0.764092772",
+            "0.754123248"
+          ],
+          [
+            "0.894394568",
+            "1.228696018"
+          ],
+          [
+            "1.419233008",
+            "0.092121327"
+          ]
+        ]
+      }
+    }
+  ]
+}

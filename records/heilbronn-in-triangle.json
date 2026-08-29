@@ -1,0 +1,334 @@
+{
+  "problem": "heilbronn-in-triangle",
+  "code": "P29",
+  "title": "三角形容器内的 Heilbronn 问题",
+  "titleEn": "Heilbronn's problem in a triangle",
+  "objective": "maximize",
+  "scoreLabel": "最小三角形的二倍面积",
+  "scoreLabelEn": "minimum triangle area, doubled",
+  "verifierVersion": "1.0.0",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseName": "CC BY 4.0",
+  "source": "https://minmaxarena.com/problems/heilbronn-in-triangle",
+  "generatedAt": "2026-08-29T05:03:19.672Z",
+  "instances": [
+    {
+      "instanceId": "p29-n5-v1",
+      "name": "n = 5",
+      "parameters": {
+        "n": 5
+      },
+      "objective": "maximize",
+      "scoreStored": "171572875000000000",
+      "scoreDisplay": "0.0857864375",
+      "status": "proven",
+      "settled": true,
+      "knownBest": {
+        "display": "0.171572875",
+        "kind": "proven",
+        "exact": "3/2 − √2",
+        "source": "the area is 3/2 − √2, so twice it is 3 − 2√2; optimality proved by Yang, Zhang and Zeng (1994); the exact optimum is not writable on the nine-decimal coordinate grid, and the shown value is what the exhibited certificate reaches",
+        "url": "https://arxiv.org/abs/2607.15021"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "points": [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0.585786438",
+            "0"
+          ],
+          [
+            "0",
+            "1"
+          ],
+          [
+            "0.585786438",
+            "0.414213562"
+          ],
+          [
+            "0.171572875",
+            "0.414213562"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p29-n6-v1",
+      "name": "n = 6",
+      "parameters": {
+        "n": 6
+      },
+      "objective": "maximize",
+      "scoreStored": "125000000000000000",
+      "scoreDisplay": "0.0625",
+      "status": "proven",
+      "settled": true,
+      "knownBest": {
+        "display": "0.125",
+        "kind": "proven",
+        "exact": "1/16",
+        "source": "the area is 1/16, so twice it is 1/8; optimality proved by Yang, Zhang and Zeng (1994)",
+        "url": "https://arxiv.org/abs/2607.15021"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "points": [
+          [
+            "0.25",
+            "0"
+          ],
+          [
+            "0.75",
+            "0"
+          ],
+          [
+            "0",
+            "0.375"
+          ],
+          [
+            "0.75",
+            "0.25"
+          ],
+          [
+            "0",
+            "1"
+          ],
+          [
+            "0.25",
+            "0.5"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p29-n7-v1",
+      "name": "n = 7",
+      "parameters": {
+        "n": 7
+      },
+      "objective": "maximize",
+      "scoreStored": "97222221944444445",
+      "scoreDisplay": "0.048611110972222222",
+      "status": "proven",
+      "settled": true,
+      "knownBest": {
+        "display": "0.097222221944444445",
+        "kind": "proven",
+        "exact": "7/144",
+        "source": "the area is 7/144, so twice it is 7/72; optimality proved by Sudermann-Merx (2026); the exact optimum is not writable on the nine-decimal coordinate grid, and the shown value is what the exhibited certificate reaches",
+        "url": "https://arxiv.org/abs/2607.15021"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "points": [
+          [
+            "0.166666667",
+            "0"
+          ],
+          [
+            "0.75",
+            "0"
+          ],
+          [
+            "0",
+            "0.249999999"
+          ],
+          [
+            "0.833333333",
+            "0.166666667"
+          ],
+          [
+            "0",
+            "0.833333333"
+          ],
+          [
+            "0.249999999",
+            "0.750000001"
+          ],
+          [
+            "0.333333333",
+            "0.333333333"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p29-n8-v1",
+      "name": "n = 8",
+      "parameters": {
+        "n": 8
+      },
+      "objective": "maximize",
+      "scoreStored": "27777777555555556",
+      "scoreDisplay": "0.013888888777777778",
+      "status": "open",
+      "settled": false,
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "points": [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0.166666666"
+          ],
+          [
+            "0.166666666",
+            "0.666666664"
+          ],
+          [
+            "0.166666666",
+            "0.83333333"
+          ],
+          [
+            "0.333333332",
+            "0.333333332"
+          ],
+          [
+            "0.333333332",
+            "0.666666664"
+          ],
+          [
+            "0.499999998",
+            "0.166666666"
+          ],
+          [
+            "0.83333333",
+            "0"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p29-n9-v1",
+      "name": "n = 9",
+      "parameters": {
+        "n": 9
+      },
+      "objective": "maximize",
+      "scoreStored": "27777777555555556",
+      "scoreDisplay": "0.013888888777777778",
+      "status": "open",
+      "settled": false,
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "points": [
+          [
+            "0",
+            "0.333333332"
+          ],
+          [
+            "0",
+            "0.83333333"
+          ],
+          [
+            "0.166666666",
+            "0.166666666"
+          ],
+          [
+            "0.166666666",
+            "0.499999998"
+          ],
+          [
+            "0.333333332",
+            "0.333333332"
+          ],
+          [
+            "0.333333332",
+            "0.499999998"
+          ],
+          [
+            "0.499999998",
+            "0"
+          ],
+          [
+            "0.83333333",
+            "0.166666666"
+          ],
+          [
+            "0.999999996",
+            "0"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p29-n10-v1",
+      "name": "n = 10",
+      "parameters": {
+        "n": 10
+      },
+      "objective": "maximize",
+      "scoreStored": "20408163020408164",
+      "scoreDisplay": "0.010204081510204082",
+      "status": "open",
+      "settled": false,
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "points": [
+          [
+            "0",
+            "0.285714284"
+          ],
+          [
+            "0",
+            "0.71428571"
+          ],
+          [
+            "0.142857142",
+            "0.428571426"
+          ],
+          [
+            "0.142857142",
+            "0.71428571"
+          ],
+          [
+            "0.285714284",
+            "0"
+          ],
+          [
+            "0.428571426",
+            "0"
+          ],
+          [
+            "0.428571426",
+            "0.142857142"
+          ],
+          [
+            "0.571428568",
+            "0.428571426"
+          ],
+          [
+            "0.71428571",
+            "0.142857142"
+          ],
+          [
+            "0.71428571",
+            "0.285714284"
+          ]
+        ]
+      }
+    }
+  ]
+}

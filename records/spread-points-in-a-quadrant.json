@@ -1,0 +1,976 @@
+{
+  "problem": "spread-points-in-a-quadrant",
+  "code": "P31",
+  "title": "扇形内的散点分离",
+  "titleEn": "Spreading points in a quadrant",
+  "objective": "maximize",
+  "scoreLabel": "最小两点距离的平方",
+  "scoreLabelEn": "squared minimum pairwise distance",
+  "verifierVersion": "1.0.0",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseName": "CC BY 4.0",
+  "source": "https://minmaxarena.com/problems/spread-points-in-a-quadrant",
+  "generatedAt": "2026-08-29T05:03:19.764Z",
+  "instances": [
+    {
+      "instanceId": "p31-n4-v2",
+      "name": "n = 4",
+      "parameters": {
+        "n": 4
+      },
+      "objective": "maximize",
+      "scoreStored": "585786437472363922",
+      "scoreDisplay": "0.765366864",
+      "status": "open",
+      "settled": false,
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-26T13:10:34.831Z",
+      "answer": {
+        "points": [
+          [
+            "0.000000000",
+            "1.000000000"
+          ],
+          [
+            "0.000000000",
+            "0.000000000"
+          ],
+          [
+            "0.707106781",
+            "0.707106781"
+          ],
+          [
+            "1.000000000",
+            "0.000000000"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p31-n5-v2",
+      "name": "n = 5",
+      "parameters": {
+        "n": 5
+      },
+      "objective": "maximize",
+      "scoreStored": "111111110888888889",
+      "scoreDisplay": "0.333333333",
+      "status": "open",
+      "settled": false,
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "points": [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0.333333333",
+            "0"
+          ],
+          [
+            "0.666666666",
+            "0"
+          ],
+          [
+            "0.999999999",
+            "0"
+          ],
+          [
+            "0",
+            "0.333333333"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p31-n6-v2",
+      "name": "n = 6",
+      "parameters": {
+        "n": 6
+      },
+      "objective": "maximize",
+      "scoreStored": "111111110888888889",
+      "scoreDisplay": "0.333333333",
+      "status": "open",
+      "settled": false,
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "points": [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0.333333333",
+            "0"
+          ],
+          [
+            "0.666666666",
+            "0"
+          ],
+          [
+            "0.999999999",
+            "0"
+          ],
+          [
+            "0",
+            "0.333333333"
+          ],
+          [
+            "0.333333333",
+            "0.333333333"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p31-n7-v2",
+      "name": "n = 7",
+      "parameters": {
+        "n": 7
+      },
+      "objective": "maximize",
+      "scoreStored": "62500000000000000",
+      "scoreDisplay": "0.25",
+      "status": "open",
+      "settled": false,
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "points": [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0.25",
+            "0"
+          ],
+          [
+            "0.5",
+            "0"
+          ],
+          [
+            "0.75",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0.25"
+          ],
+          [
+            "0.25",
+            "0.25"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p31-n8-v2",
+      "name": "n = 8",
+      "parameters": {
+        "n": 8
+      },
+      "objective": "maximize",
+      "scoreStored": "62500000000000000",
+      "scoreDisplay": "0.25",
+      "status": "open",
+      "settled": false,
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "points": [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0.25",
+            "0"
+          ],
+          [
+            "0.5",
+            "0"
+          ],
+          [
+            "0.75",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0.25"
+          ],
+          [
+            "0.25",
+            "0.25"
+          ],
+          [
+            "0.5",
+            "0.25"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p31-n9-v2",
+      "name": "n = 9",
+      "parameters": {
+        "n": 9
+      },
+      "objective": "maximize",
+      "scoreStored": "62500000000000000",
+      "scoreDisplay": "0.25",
+      "status": "open",
+      "settled": false,
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "points": [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0.25",
+            "0"
+          ],
+          [
+            "0.5",
+            "0"
+          ],
+          [
+            "0.75",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0.25"
+          ],
+          [
+            "0.25",
+            "0.25"
+          ],
+          [
+            "0.5",
+            "0.25"
+          ],
+          [
+            "0.75",
+            "0.25"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p31-n10-v2",
+      "name": "n = 10",
+      "parameters": {
+        "n": 10
+      },
+      "objective": "maximize",
+      "scoreStored": "62500000000000000",
+      "scoreDisplay": "0.25",
+      "status": "open",
+      "settled": false,
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "points": [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0.25",
+            "0"
+          ],
+          [
+            "0.5",
+            "0"
+          ],
+          [
+            "0.75",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0.25"
+          ],
+          [
+            "0.25",
+            "0.25"
+          ],
+          [
+            "0.5",
+            "0.25"
+          ],
+          [
+            "0.75",
+            "0.25"
+          ],
+          [
+            "0",
+            "0.5"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p31-n11-v2",
+      "name": "n = 11",
+      "parameters": {
+        "n": 11
+      },
+      "objective": "maximize",
+      "scoreStored": "62500000000000000",
+      "scoreDisplay": "0.25",
+      "status": "open",
+      "settled": false,
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "points": [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0.25",
+            "0"
+          ],
+          [
+            "0.5",
+            "0"
+          ],
+          [
+            "0.75",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0.25"
+          ],
+          [
+            "0.25",
+            "0.25"
+          ],
+          [
+            "0.5",
+            "0.25"
+          ],
+          [
+            "0.75",
+            "0.25"
+          ],
+          [
+            "0",
+            "0.5"
+          ],
+          [
+            "0.25",
+            "0.5"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p31-n12-v2",
+      "name": "n = 12",
+      "parameters": {
+        "n": 12
+      },
+      "objective": "maximize",
+      "scoreStored": "40000000000000000",
+      "scoreDisplay": "0.2",
+      "status": "open",
+      "settled": false,
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "points": [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0.2",
+            "0"
+          ],
+          [
+            "0.4",
+            "0"
+          ],
+          [
+            "0.6",
+            "0"
+          ],
+          [
+            "0.8",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0.2"
+          ],
+          [
+            "0.2",
+            "0.2"
+          ],
+          [
+            "0.4",
+            "0.2"
+          ],
+          [
+            "0.6",
+            "0.2"
+          ],
+          [
+            "0.8",
+            "0.2"
+          ],
+          [
+            "0",
+            "0.4"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p31-n13-v2",
+      "name": "n = 13",
+      "parameters": {
+        "n": 13
+      },
+      "objective": "maximize",
+      "scoreStored": "40000000000000000",
+      "scoreDisplay": "0.2",
+      "status": "open",
+      "settled": false,
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "points": [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0.2",
+            "0"
+          ],
+          [
+            "0.4",
+            "0"
+          ],
+          [
+            "0.6",
+            "0"
+          ],
+          [
+            "0.8",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0.2"
+          ],
+          [
+            "0.2",
+            "0.2"
+          ],
+          [
+            "0.4",
+            "0.2"
+          ],
+          [
+            "0.6",
+            "0.2"
+          ],
+          [
+            "0.8",
+            "0.2"
+          ],
+          [
+            "0",
+            "0.4"
+          ],
+          [
+            "0.2",
+            "0.4"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p31-n14-v2",
+      "name": "n = 14",
+      "parameters": {
+        "n": 14
+      },
+      "objective": "maximize",
+      "scoreStored": "40000000000000000",
+      "scoreDisplay": "0.2",
+      "status": "open",
+      "settled": false,
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "points": [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0.2",
+            "0"
+          ],
+          [
+            "0.4",
+            "0"
+          ],
+          [
+            "0.6",
+            "0"
+          ],
+          [
+            "0.8",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0.2"
+          ],
+          [
+            "0.2",
+            "0.2"
+          ],
+          [
+            "0.4",
+            "0.2"
+          ],
+          [
+            "0.6",
+            "0.2"
+          ],
+          [
+            "0.8",
+            "0.2"
+          ],
+          [
+            "0",
+            "0.4"
+          ],
+          [
+            "0.2",
+            "0.4"
+          ],
+          [
+            "0.4",
+            "0.4"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p31-n15-v2",
+      "name": "n = 15",
+      "parameters": {
+        "n": 15
+      },
+      "objective": "maximize",
+      "scoreStored": "40000000000000000",
+      "scoreDisplay": "0.2",
+      "status": "open",
+      "settled": false,
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "points": [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0.2",
+            "0"
+          ],
+          [
+            "0.4",
+            "0"
+          ],
+          [
+            "0.6",
+            "0"
+          ],
+          [
+            "0.8",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0.2"
+          ],
+          [
+            "0.2",
+            "0.2"
+          ],
+          [
+            "0.4",
+            "0.2"
+          ],
+          [
+            "0.6",
+            "0.2"
+          ],
+          [
+            "0.8",
+            "0.2"
+          ],
+          [
+            "0",
+            "0.4"
+          ],
+          [
+            "0.2",
+            "0.4"
+          ],
+          [
+            "0.4",
+            "0.4"
+          ],
+          [
+            "0.6",
+            "0.4"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p31-n16-v2",
+      "name": "n = 16",
+      "parameters": {
+        "n": 16
+      },
+      "objective": "maximize",
+      "scoreStored": "40000000000000000",
+      "scoreDisplay": "0.2",
+      "status": "open",
+      "settled": false,
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "points": [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0.2",
+            "0"
+          ],
+          [
+            "0.4",
+            "0"
+          ],
+          [
+            "0.6",
+            "0"
+          ],
+          [
+            "0.8",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0.2"
+          ],
+          [
+            "0.2",
+            "0.2"
+          ],
+          [
+            "0.4",
+            "0.2"
+          ],
+          [
+            "0.6",
+            "0.2"
+          ],
+          [
+            "0.8",
+            "0.2"
+          ],
+          [
+            "0",
+            "0.4"
+          ],
+          [
+            "0.2",
+            "0.4"
+          ],
+          [
+            "0.4",
+            "0.4"
+          ],
+          [
+            "0.6",
+            "0.4"
+          ],
+          [
+            "0.8",
+            "0.4"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p31-n17-v2",
+      "name": "n = 17",
+      "parameters": {
+        "n": 17
+      },
+      "objective": "maximize",
+      "scoreStored": "40000000000000000",
+      "scoreDisplay": "0.2",
+      "status": "open",
+      "settled": false,
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "points": [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0.2",
+            "0"
+          ],
+          [
+            "0.4",
+            "0"
+          ],
+          [
+            "0.6",
+            "0"
+          ],
+          [
+            "0.8",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0.2"
+          ],
+          [
+            "0.2",
+            "0.2"
+          ],
+          [
+            "0.4",
+            "0.2"
+          ],
+          [
+            "0.6",
+            "0.2"
+          ],
+          [
+            "0.8",
+            "0.2"
+          ],
+          [
+            "0",
+            "0.4"
+          ],
+          [
+            "0.2",
+            "0.4"
+          ],
+          [
+            "0.4",
+            "0.4"
+          ],
+          [
+            "0.6",
+            "0.4"
+          ],
+          [
+            "0.8",
+            "0.4"
+          ],
+          [
+            "0",
+            "0.6"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p31-n18-v2",
+      "name": "n = 18",
+      "parameters": {
+        "n": 18
+      },
+      "objective": "maximize",
+      "scoreStored": "27777777555555556",
+      "scoreDisplay": "0.166666666",
+      "status": "open",
+      "settled": false,
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "points": [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0.166666666",
+            "0"
+          ],
+          [
+            "0.333333332",
+            "0"
+          ],
+          [
+            "0.499999998",
+            "0"
+          ],
+          [
+            "0.666666664",
+            "0"
+          ],
+          [
+            "0.83333333",
+            "0"
+          ],
+          [
+            "0.999999996",
+            "0"
+          ],
+          [
+            "0",
+            "0.166666666"
+          ],
+          [
+            "0.166666666",
+            "0.166666666"
+          ],
+          [
+            "0.333333332",
+            "0.166666666"
+          ],
+          [
+            "0.499999998",
+            "0.166666666"
+          ],
+          [
+            "0.666666664",
+            "0.166666666"
+          ],
+          [
+            "0.83333333",
+            "0.166666666"
+          ],
+          [
+            "0",
+            "0.333333332"
+          ],
+          [
+            "0.166666666",
+            "0.333333332"
+          ],
+          [
+            "0.333333332",
+            "0.333333332"
+          ],
+          [
+            "0.499999998",
+            "0.333333332"
+          ],
+          [
+            "0.666666664",
+            "0.333333332"
+          ]
+        ]
+      }
+    }
+  ]
+}

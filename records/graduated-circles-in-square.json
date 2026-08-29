@@ -1,0 +1,2623 @@
+{
+  "problem": "graduated-circles-in-square",
+  "code": "P13",
+  "title": "半径成等差的圆装入正方形",
+  "titleEn": "Packing circles of radius 1,2,…,n into a square",
+  "objective": "minimize",
+  "scoreLabel": "正方形边长",
+  "scoreLabelEn": "square side",
+  "verifierVersion": "1.0.0",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseName": "CC BY 4.0",
+  "source": "https://minmaxarena.com/problems/graduated-circles-in-square",
+  "generatedAt": "2026-08-29T05:03:19.096Z",
+  "instances": [
+    {
+      "instanceId": "p13-n2-v1",
+      "name": "n = 2",
+      "parameters": {
+        "n": 2
+      },
+      "objective": "minimize",
+      "scoreStored": "5121320344",
+      "scoreDisplay": "5.121320344",
+      "status": "proven",
+      "settled": true,
+      "knownBest": {
+        "display": "5.121320344",
+        "kind": "proven",
+        "source": "the two largest circles must be 3 apart, forcing side 3(1+√2/2)"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "4.121320344",
+            "4.121320344"
+          ],
+          [
+            "2",
+            "2"
+          ]
+        ],
+        "side": "5.121320344"
+      }
+    },
+    {
+      "instanceId": "p13-n3-v1",
+      "name": "n = 3",
+      "parameters": {
+        "n": 3
+      },
+      "objective": "minimize",
+      "scoreStored": "8535533906",
+      "scoreDisplay": "8.535533906",
+      "status": "proven",
+      "settled": true,
+      "knownBest": {
+        "display": "8.535533906",
+        "kind": "proven",
+        "source": "the two largest circles must be 5 apart, forcing side 5(1+√2/2)"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "7.535533906",
+            "1"
+          ],
+          [
+            "6.535533906",
+            "6.535533906"
+          ],
+          [
+            "3",
+            "3"
+          ]
+        ],
+        "side": "8.535533906"
+      }
+    },
+    {
+      "instanceId": "p13-n4-v1",
+      "name": "n = 4",
+      "parameters": {
+        "n": 4
+      },
+      "objective": "minimize",
+      "scoreStored": "11949747469",
+      "scoreDisplay": "11.949747469",
+      "status": "proven",
+      "settled": true,
+      "knownBest": {
+        "display": "11.949747469",
+        "kind": "proven",
+        "source": "the two largest circles must be 7 apart, forcing side 7(1+√2/2)"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "1",
+            "10.949747469"
+          ],
+          [
+            "9.949747469",
+            "2"
+          ],
+          [
+            "8.949747469",
+            "8.949747469"
+          ],
+          [
+            "4",
+            "4"
+          ]
+        ],
+        "side": "11.949747469"
+      }
+    },
+    {
+      "instanceId": "p13-n5-v1",
+      "name": "n = 5",
+      "parameters": {
+        "n": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "15603280276",
+      "scoreDisplay": "15.603280276",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "15.603280276",
+        "kind": "best",
+        "source": "value from Packomania (Eckard Specht), whose csqn table does not mark this row proved",
+        "url": "https://www.packomania.com/csqn/csqn.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "13.049538183",
+            "13.118795181"
+          ],
+          [
+            "9.978059707",
+            "13.536756448"
+          ],
+          [
+            "3",
+            "3"
+          ],
+          [
+            "4",
+            "11.603280276"
+          ],
+          [
+            "10.603280276",
+            "5.487996995"
+          ]
+        ],
+        "side": "15.603280276"
+      }
+    },
+    {
+      "instanceId": "p13-n6-v1",
+      "name": "n = 6",
+      "parameters": {
+        "n": 6
+      },
+      "objective": "minimize",
+      "scoreStored": "19422903276",
+      "scoreDisplay": "19.422903276",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "19.422903276",
+        "kind": "best",
+        "source": "value from Packomania (Eckard Specht), whose csqn table does not mark this row proved",
+        "url": "https://www.packomania.com/csqn/csqn.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "18.287083847",
+            "18.287083847"
+          ],
+          [
+            "17.413336337",
+            "14.304497504"
+          ],
+          [
+            "12.835295372",
+            "16.403586946"
+          ],
+          [
+            "4",
+            "4"
+          ],
+          [
+            "5",
+            "14.422903276"
+          ],
+          [
+            "13.422903276",
+            "7.347968618"
+          ]
+        ],
+        "side": "19.422903276"
+      }
+    },
+    {
+      "instanceId": "p13-n7-v1",
+      "name": "n = 7",
+      "parameters": {
+        "n": 7
+      },
+      "objective": "minimize",
+      "scoreStored": "23818879929",
+      "scoreDisplay": "23.818879929",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "23.818879929",
+        "kind": "best",
+        "source": "value from Packomania (Eckard Specht), whose csqn table does not mark this row proved",
+        "url": "https://www.packomania.com/csqn/csqn.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "1.019568128",
+            "1.438143562"
+          ],
+          [
+            "15.748384814",
+            "9.724812059"
+          ],
+          [
+            "20.818879929",
+            "10.246738047"
+          ],
+          [
+            "17.660040936",
+            "4"
+          ],
+          [
+            "5",
+            "18.818879929"
+          ],
+          [
+            "15.954451151",
+            "17.818879929"
+          ],
+          [
+            "7.077035691",
+            "7"
+          ]
+        ],
+        "side": "23.818879929"
+      }
+    },
+    {
+      "instanceId": "p13-n8-v1",
+      "name": "n = 8",
+      "parameters": {
+        "n": 8
+      },
+      "objective": "minimize",
+      "scoreStored": "29105276686",
+      "scoreDisplay": "29.105276686",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "29.105276686",
+        "kind": "best",
+        "source": "value from Packomania (Eckard Specht), whose csqn table does not mark this row proved",
+        "url": "https://www.packomania.com/csqn/csqn.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "28.062459803",
+            "14.553087882"
+          ],
+          [
+            "15.960066834",
+            "17.305495848"
+          ],
+          [
+            "26.066995021",
+            "26.066995021"
+          ],
+          [
+            "25.105276686",
+            "18.791170529"
+          ],
+          [
+            "17.841649785",
+            "24.105276686"
+          ],
+          [
+            "6",
+            "6"
+          ],
+          [
+            "7",
+            "18.961481398"
+          ],
+          [
+            "19.856406461",
+            "8"
+          ]
+        ],
+        "side": "29.105276686"
+      }
+    },
+    {
+      "instanceId": "p13-n9-v1",
+      "name": "n = 9",
+      "parameters": {
+        "n": 9
+      },
+      "objective": "minimize",
+      "scoreStored": "33754305827",
+      "scoreDisplay": "33.754305827",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "33.754305827",
+        "kind": "best",
+        "source": "value from Packomania (Eckard Specht), whose csqn table does not mark this row proved",
+        "url": "https://www.packomania.com/csqn/csqn.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "13.474657723",
+            "12.521499771"
+          ],
+          [
+            "13.462947439",
+            "15.548007798"
+          ],
+          [
+            "15.69934817",
+            "20.221752175"
+          ],
+          [
+            "4.005880488",
+            "29.748568653"
+          ],
+          [
+            "13.066409634",
+            "28.74510334"
+          ],
+          [
+            "6.347373094",
+            "20.011809603"
+          ],
+          [
+            "7",
+            "7"
+          ],
+          [
+            "25.754305827",
+            "25.754305827"
+          ],
+          [
+            "22.874507867",
+            "9"
+          ]
+        ],
+        "side": "33.754305827"
+      }
+    },
+    {
+      "instanceId": "p13-n10-v1",
+      "name": "n = 10",
+      "parameters": {
+        "n": 10
+      },
+      "objective": "minimize",
+      "scoreStored": "38580426415",
+      "scoreDisplay": "38.580426415",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "38.580426415",
+        "kind": "best",
+        "source": "value from Packomania (Eckard Specht), whose csqn table does not mark this row proved",
+        "url": "https://www.packomania.com/csqn/csqn.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "37.543147309",
+            "37.543147309"
+          ],
+          [
+            "20.230860178",
+            "36.505868203"
+          ],
+          [
+            "3",
+            "17.670224054"
+          ],
+          [
+            "19.828370952",
+            "4.10713952"
+          ],
+          [
+            "33.580426415",
+            "16.336309733"
+          ],
+          [
+            "29.817355713",
+            "6"
+          ],
+          [
+            "21.131873345",
+            "15.672765687"
+          ],
+          [
+            "8.242782348",
+            "8"
+          ],
+          [
+            "29.042434203",
+            "29.580426415"
+          ],
+          [
+            "10.068768241",
+            "28.580426415"
+          ]
+        ],
+        "side": "38.580426415"
+      }
+    },
+    {
+      "instanceId": "p13-n11-v1",
+      "name": "n = 11",
+      "parameters": {
+        "n": 11
+      },
+      "objective": "minimize",
+      "scoreStored": "44504984317",
+      "scoreDisplay": "44.504984317",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "44.504984317",
+        "kind": "best",
+        "source": "value from Packomania (Eckard Specht), whose csqn table does not mark this row proved",
+        "url": "https://www.packomania.com/csqn/csqn.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "43.446864627",
+            "43.446864627"
+          ],
+          [
+            "21.240500448",
+            "2.153800591"
+          ],
+          [
+            "28.958115294",
+            "24.973907244"
+          ],
+          [
+            "40.504984317",
+            "23.570350266"
+          ],
+          [
+            "5.10617997",
+            "39.398804347"
+          ],
+          [
+            "19.879549483",
+            "22.585487755"
+          ],
+          [
+            "7",
+            "26.733200531"
+          ],
+          [
+            "18.380344532",
+            "36.504984317"
+          ],
+          [
+            "35.350907281",
+            "35.504984317"
+          ],
+          [
+            "10",
+            "10"
+          ],
+          [
+            "32.320468802",
+            "11"
+          ]
+        ],
+        "side": "44.504984317"
+      }
+    },
+    {
+      "instanceId": "p13-n12-v1",
+      "name": "n = 12",
+      "parameters": {
+        "n": 12
+      },
+      "objective": "minimize",
+      "scoreStored": "50181183005",
+      "scoreDisplay": "50.181183005",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "50.181183005",
+        "kind": "best",
+        "source": "value from Packomania (Eckard Specht), whose csqn table does not mark this row proved",
+        "url": "https://www.packomania.com/csqn/csqn.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "12.599980874",
+            "48.436982778"
+          ],
+          [
+            "48.099481716",
+            "2.081909897"
+          ],
+          [
+            "23.408327266",
+            "3.086659173"
+          ],
+          [
+            "33.019362154",
+            "27.832541489"
+          ],
+          [
+            "45.181183005",
+            "26.23007109"
+          ],
+          [
+            "6",
+            "44.181183005"
+          ],
+          [
+            "22.271437248",
+            "25.25884167"
+          ],
+          [
+            "8",
+            "29.876858441"
+          ],
+          [
+            "20.696938457",
+            "41.181183005"
+          ],
+          [
+            "39.670604419",
+            "40.181183005"
+          ],
+          [
+            "11.059863808",
+            "11.035680501"
+          ],
+          [
+            "35.880372459",
+            "12"
+          ]
+        ],
+        "side": "50.181183005"
+      }
+    },
+    {
+      "instanceId": "p13-n13-v1",
+      "name": "n = 13",
+      "parameters": {
+        "n": 13
+      },
+      "objective": "minimize",
+      "scoreStored": "55991361540",
+      "scoreDisplay": "55.99136154",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "55.99136154",
+        "kind": "best",
+        "source": "value from Packomania (Eckard Specht), whose csqn table does not mark this row proved",
+        "url": "https://www.packomania.com/csqn/csqn.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "42.618729721",
+            "12.546346412"
+          ],
+          [
+            "23.432749791",
+            "53.968925233"
+          ],
+          [
+            "14.932881594",
+            "26.792121959"
+          ],
+          [
+            "4.146767156",
+            "26.75153379"
+          ],
+          [
+            "32.282868199",
+            "38.694808225"
+          ],
+          [
+            "30.544956025",
+            "49.99136154"
+          ],
+          [
+            "48.939187002",
+            "7.052174538"
+          ],
+          [
+            "26.042855313",
+            "26.240723811"
+          ],
+          [
+            "32.784609691",
+            "9"
+          ],
+          [
+            "45.99136154",
+            "45.819005289"
+          ],
+          [
+            "44.99136154",
+            "24.842828325"
+          ],
+          [
+            "12",
+            "12"
+          ],
+          [
+            "13",
+            "42.699275549"
+          ]
+        ],
+        "side": "55.99136154"
+      }
+    },
+    {
+      "instanceId": "p13-n14-v1",
+      "name": "n = 14",
+      "parameters": {
+        "n": 14
+      },
+      "objective": "minimize",
+      "scoreStored": "61849921315",
+      "scoreDisplay": "61.849921315",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "61.849921315",
+        "kind": "best",
+        "source": "value from Packomania (Eckard Specht), whose csqn table does not mark this row proved",
+        "url": "https://www.packomania.com/csqn/csqn.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "23.193956607",
+            "14.376990429"
+          ],
+          [
+            "12.336055383",
+            "26.616857955"
+          ],
+          [
+            "34.722163331",
+            "58.832167031"
+          ],
+          [
+            "45.706935504",
+            "28.035031828"
+          ],
+          [
+            "5",
+            "25.569665745"
+          ],
+          [
+            "55.849921315",
+            "29.519618534"
+          ],
+          [
+            "7",
+            "54.849921315"
+          ],
+          [
+            "30.374139136",
+            "8"
+          ],
+          [
+            "9.025026929",
+            "38.97858659"
+          ],
+          [
+            "23.839439755",
+            "51.581473094"
+          ],
+          [
+            "11.612476096",
+            "11"
+          ],
+          [
+            "49.849921315",
+            "12.549055785"
+          ],
+          [
+            "28.593169245",
+            "28.92434339"
+          ],
+          [
+            "47.849921315",
+            "47.849921315"
+          ]
+        ],
+        "side": "61.849921315"
+      }
+    },
+    {
+      "instanceId": "p13-n15-v1",
+      "name": "n = 15",
+      "parameters": {
+        "n": 15
+      },
+      "objective": "minimize",
+      "scoreStored": "68527563912",
+      "scoreDisplay": "68.527563912",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "68.527563912",
+        "kind": "best",
+        "source": "value from Packomania (Eckard Specht), whose csqn table does not mark this row proved",
+        "url": "https://www.packomania.com/csqn/csqn.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "67.480007266",
+            "67.480007266"
+          ],
+          [
+            "23.405441238",
+            "66.522436022"
+          ],
+          [
+            "3.007691835",
+            "59.686242525"
+          ],
+          [
+            "8.098113607",
+            "64.517308132"
+          ],
+          [
+            "17.065194496",
+            "63.513638924"
+          ],
+          [
+            "6.024722968",
+            "32.806964876"
+          ],
+          [
+            "19.664249075",
+            "34.342160985"
+          ],
+          [
+            "35.131485857",
+            "8"
+          ],
+          [
+            "59.340045818",
+            "59.366070131"
+          ],
+          [
+            "10",
+            "48.327949838"
+          ],
+          [
+            "36.197254767",
+            "27.224596599"
+          ],
+          [
+            "56.527563912",
+            "37.979991994"
+          ],
+          [
+            "55.527563912",
+            "13"
+          ],
+          [
+            "14",
+            "14.120482458"
+          ],
+          [
+            "34.453302712",
+            "53.527563912"
+          ]
+        ],
+        "side": "68.527563912"
+      }
+    },
+    {
+      "instanceId": "p13-n16-v1",
+      "name": "n = 16",
+      "parameters": {
+        "n": 16
+      },
+      "objective": "minimize",
+      "scoreStored": "75009342562",
+      "scoreDisplay": "75.009342562",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "75.009342562",
+        "kind": "best",
+        "source": "value from Packomania (Eckard Specht), whose csqn table does not mark this row proved",
+        "url": "https://www.packomania.com/csqn/csqn.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "47.53555176",
+            "73.91555434"
+          ],
+          [
+            "20.48980112",
+            "72.882791617"
+          ],
+          [
+            "3.049692568",
+            "24.091760019"
+          ],
+          [
+            "33.097779047",
+            "28.928563223"
+          ],
+          [
+            "25.428600619",
+            "5"
+          ],
+          [
+            "40.156181982",
+            "21.844853176"
+          ],
+          [
+            "27.401786754",
+            "19.329817911"
+          ],
+          [
+            "38.07771126",
+            "8"
+          ],
+          [
+            "66.009342562",
+            "38.237900078"
+          ],
+          [
+            "10.121332055",
+            "64.888010507"
+          ],
+          [
+            "11",
+            "11.914874128"
+          ],
+          [
+            "45.051259717",
+            "39.564083891"
+          ],
+          [
+            "34.041701904",
+            "62.009342562"
+          ],
+          [
+            "61.009342562",
+            "60.687844399"
+          ],
+          [
+            "60.009342562",
+            "15"
+          ],
+          [
+            "16",
+            "39.304783714"
+          ]
+        ],
+        "side": "75.009342562"
+      }
+    },
+    {
+      "instanceId": "p13-n17-v1",
+      "name": "n = 17",
+      "parameters": {
+        "n": 17
+      },
+      "objective": "minimize",
+      "scoreStored": "81502023295",
+      "scoreDisplay": "81.502023295",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "81.502023295",
+        "kind": "best",
+        "source": "value from Packomania (Eckard Specht), whose csqn table does not mark this row proved",
+        "url": "https://www.packomania.com/csqn/csqn.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "21.657614152",
+            "39.397670551"
+          ],
+          [
+            "78.679852734",
+            "78.684661354"
+          ],
+          [
+            "50.578258658",
+            "78.493654939"
+          ],
+          [
+            "77.502023295",
+            "50.059104389"
+          ],
+          [
+            "17.718234629",
+            "46.614821158"
+          ],
+          [
+            "6",
+            "47.528357333"
+          ],
+          [
+            "51.844923092",
+            "7"
+          ],
+          [
+            "52.546230407",
+            "21.983596633"
+          ],
+          [
+            "9.025105068",
+            "9.237602324"
+          ],
+          [
+            "39.494897429",
+            "71.502023295"
+          ],
+          [
+            "69.786975554",
+            "11.58652783"
+          ],
+          [
+            "12",
+            "30.557794584"
+          ],
+          [
+            "68.502023295",
+            "35.636899287"
+          ],
+          [
+            "32.045933218",
+            "14"
+          ],
+          [
+            "15.000000001",
+            "66.502023295"
+          ],
+          [
+            "64.793118711",
+            "65.502023294"
+          ],
+          [
+            "39.619037464",
+            "44.132145896"
+          ]
+        ],
+        "side": "81.502023295"
+      }
+    },
+    {
+      "instanceId": "p13-n18-v1",
+      "name": "n = 18",
+      "parameters": {
+        "n": 18
+      },
+      "objective": "minimize",
+      "scoreStored": "88404088125",
+      "scoreDisplay": "88.404088125",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "88.404088125",
+        "kind": "best",
+        "source": "value from Packomania (Eckard Specht), whose csqn table does not mark this row proved",
+        "url": "https://www.packomania.com/csqn/csqn.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "23.850710768",
+            "55.913374456"
+          ],
+          [
+            "43.552070213",
+            "16.50165393"
+          ],
+          [
+            "3.019324908",
+            "45.703037089"
+          ],
+          [
+            "84.404088125",
+            "31.748103741"
+          ],
+          [
+            "55.995547622",
+            "83.394134707"
+          ],
+          [
+            "26.123510447",
+            "48.712275486"
+          ],
+          [
+            "58.294660097",
+            "57.413303758"
+          ],
+          [
+            "49.447955518",
+            "8"
+          ],
+          [
+            "9.017056226",
+            "9.0177917"
+          ],
+          [
+            "10",
+            "78.404088125"
+          ],
+          [
+            "11",
+            "57.427911161"
+          ],
+          [
+            "29.852037575",
+            "12"
+          ],
+          [
+            "74.29846288",
+            "45.418375809"
+          ],
+          [
+            "14",
+            "32.608563869"
+          ],
+          [
+            "73.404088125",
+            "73.404088125"
+          ],
+          [
+            "72.075372516",
+            "16"
+          ],
+          [
+            "45.618089921",
+            "36.421957102"
+          ],
+          [
+            "36.934896017",
+            "70.404088125"
+          ]
+        ],
+        "side": "88.404088125"
+      }
+    },
+    {
+      "instanceId": "p13-n19-v1",
+      "name": "n = 19",
+      "parameters": {
+        "n": 19
+      },
+      "objective": "minimize",
+      "scoreStored": "95751147950",
+      "scoreDisplay": "95.75114795",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "95.75114795",
+        "kind": "best",
+        "source": "value from Packomania (Eckard Specht), whose csqn table does not mark this row proved",
+        "url": "https://www.packomania.com/csqn/csqn.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "3.619872148",
+            "70.332090704"
+          ],
+          [
+            "44.066775142",
+            "60.404053873"
+          ],
+          [
+            "73.769928073",
+            "92.715483448"
+          ],
+          [
+            "91.739009931",
+            "35.505459018"
+          ],
+          [
+            "54.335032941",
+            "19.294262039"
+          ],
+          [
+            "89.75114795",
+            "70.293180869"
+          ],
+          [
+            "55.547595848",
+            "7"
+          ],
+          [
+            "33.396078055",
+            "87.75114795"
+          ],
+          [
+            "9",
+            "61.117840296"
+          ],
+          [
+            "85.621831573",
+            "85.75114795"
+          ],
+          [
+            "11",
+            "11"
+          ],
+          [
+            "30.083934602",
+            "62.883556915"
+          ],
+          [
+            "13",
+            "82.75114795"
+          ],
+          [
+            "35.801151681",
+            "14.146883432"
+          ],
+          [
+            "80.665742465",
+            "51.360262256"
+          ],
+          [
+            "16.80709344",
+            "37.36811836"
+          ],
+          [
+            "50.185315351",
+            "41.612458966"
+          ],
+          [
+            "77.751147949",
+            "18.489224261"
+          ],
+          [
+            "58.053734068",
+            "76.75114795"
+          ]
+        ],
+        "side": "95.75114795"
+      }
+    },
+    {
+      "instanceId": "p13-n20-v1",
+      "name": "n = 20",
+      "parameters": {
+        "n": 20
+      },
+      "objective": "minimize",
+      "scoreStored": "103117653256",
+      "scoreDisplay": "103.117653256",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "103.117653256",
+        "kind": "best",
+        "source": "value from Packomania (Eckard Specht), whose csqn table does not mark this row proved",
+        "url": "https://www.packomania.com/csqn/csqn.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "31.468749508",
+            "25.820077876"
+          ],
+          [
+            "2.118705603",
+            "49.609400041"
+          ],
+          [
+            "32.19362125",
+            "3.526421075"
+          ],
+          [
+            "86.994705511",
+            "60.570935891"
+          ],
+          [
+            "67.448032745",
+            "5.001909266"
+          ],
+          [
+            "97.064919069",
+            "62.19717426"
+          ],
+          [
+            "59.595193275",
+            "95.939432915"
+          ],
+          [
+            "8.085241368",
+            "39.170936704"
+          ],
+          [
+            "56.542797374",
+            "79.256858764"
+          ],
+          [
+            "93.114049335",
+            "46.595688351"
+          ],
+          [
+            "41.226140916",
+            "92.117653256"
+          ],
+          [
+            "12",
+            "60.424118924"
+          ],
+          [
+            "35.556197903",
+            "68.797024057"
+          ],
+          [
+            "30.568649182",
+            "42.225073137"
+          ],
+          [
+            "15.049361899",
+            "88.068150241"
+          ],
+          [
+            "16",
+            "16"
+          ],
+          [
+            "48.984845005",
+            "17"
+          ],
+          [
+            "85.109671286",
+            "19.751460358"
+          ],
+          [
+            "84.117653256",
+            "84.117653256"
+          ],
+          [
+            "63.395802446",
+            "51.078208663"
+          ]
+        ],
+        "side": "103.117653256"
+      }
+    },
+    {
+      "instanceId": "p13-n21-v1",
+      "name": "n = 21",
+      "parameters": {
+        "n": 21
+      },
+      "objective": "minimize",
+      "scoreStored": "110560297198",
+      "scoreDisplay": "110.560297198",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "110.560297198",
+        "kind": "best",
+        "source": "value from Packomania (Eckard Specht), whose csqn table does not mark this row proved",
+        "url": "https://www.packomania.com/csqn/csqn.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "6.288438811",
+            "1.113913211"
+          ],
+          [
+            "40.518642607",
+            "20.429448833"
+          ],
+          [
+            "35.339064893",
+            "3.055240234"
+          ],
+          [
+            "106.511721271",
+            "27.75521986"
+          ],
+          [
+            "5.016297609",
+            "38.61118889"
+          ],
+          [
+            "76.885270951",
+            "85.955954706"
+          ],
+          [
+            "34.826520073",
+            "81.348100485"
+          ],
+          [
+            "84.738434854",
+            "74.322192045"
+          ],
+          [
+            "101.557045289",
+            "71.789441563"
+          ],
+          [
+            "46.792774643",
+            "10.039273346"
+          ],
+          [
+            "66.691063509",
+            "99.560297198"
+          ],
+          [
+            "43.712812922",
+            "98.560297198"
+          ],
+          [
+            "97.560297198",
+            "13"
+          ],
+          [
+            "70.578822071",
+            "14"
+          ],
+          [
+            "95.560297198",
+            "95.560297198"
+          ],
+          [
+            "16",
+            "94.560297198"
+          ],
+          [
+            "50.112833769",
+            "37.283971373"
+          ],
+          [
+            "57.776931735",
+            "71.434543878"
+          ],
+          [
+            "19.009616584",
+            "19.009754041"
+          ],
+          [
+            "20",
+            "58.783209557"
+          ],
+          [
+            "87.238245281",
+            "45.414785818"
+          ]
+        ],
+        "side": "110.560297198"
+      }
+    },
+    {
+      "instanceId": "p13-n22-v1",
+      "name": "n = 22",
+      "parameters": {
+        "n": 22
+      },
+      "objective": "minimize",
+      "scoreStored": "118363865189",
+      "scoreDisplay": "118.363865189",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "118.363865189",
+        "kind": "best",
+        "source": "value from Packomania (Eckard Specht), whose csqn table does not mark this row proved",
+        "url": "https://www.packomania.com/csqn/csqn.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "36.708265902",
+            "97.651192266"
+          ],
+          [
+            "2.813546574",
+            "115.548304651"
+          ],
+          [
+            "114.362456362",
+            "67.185933886"
+          ],
+          [
+            "4.376588711",
+            "31.567282732"
+          ],
+          [
+            "32.320508076",
+            "5"
+          ],
+          [
+            "22.630738548",
+            "79.063757937"
+          ],
+          [
+            "86.057509881",
+            "71.291663288"
+          ],
+          [
+            "8.045386851",
+            "77.807839712"
+          ],
+          [
+            "78.627837772",
+            "9"
+          ],
+          [
+            "80.264338691",
+            "30.55398921"
+          ],
+          [
+            "44.505258283",
+            "107.363865189"
+          ],
+          [
+            "106.363865189",
+            "106.363865189"
+          ],
+          [
+            "105.363865189",
+            "81.383873195"
+          ],
+          [
+            "42.340655008",
+            "82.457751628"
+          ],
+          [
+            "15",
+            "15"
+          ],
+          [
+            "102.363865189",
+            "16.848630615"
+          ],
+          [
+            "17",
+            "101.363865189"
+          ],
+          [
+            "100.363865189",
+            "50.789756112"
+          ],
+          [
+            "63.986450152",
+            "57.548726103"
+          ],
+          [
+            "51.980763552",
+            "20.442614891"
+          ],
+          [
+            "74.748193786",
+            "96.906100028"
+          ],
+          [
+            "23.241637393",
+            "51.070422969"
+          ]
+        ],
+        "side": "118.363865189"
+      }
+    },
+    {
+      "instanceId": "p13-n23-v1",
+      "name": "n = 23",
+      "parameters": {
+        "n": 23
+      },
+      "objective": "minimize",
+      "scoreStored": "126003553139",
+      "scoreDisplay": "126.003553139",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "126.003553139",
+        "kind": "best",
+        "source": "value from Packomania (Eckard Specht), whose csqn table does not mark this row proved",
+        "url": "https://www.packomania.com/csqn/csqn.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "124.177383643",
+            "124.178013661"
+          ],
+          [
+            "123.955490782",
+            "37.193473863"
+          ],
+          [
+            "58.828827527",
+            "122.931459604"
+          ],
+          [
+            "96.778492975",
+            "121.967866472"
+          ],
+          [
+            "65.129161354",
+            "5.024387579"
+          ],
+          [
+            "42.752382562",
+            "44.638829299"
+          ],
+          [
+            "46.287531429",
+            "99.841922558"
+          ],
+          [
+            "118.002077799",
+            "27.893848286"
+          ],
+          [
+            "47.17923954",
+            "116.9486136"
+          ],
+          [
+            "116.003553139",
+            "10"
+          ],
+          [
+            "61.448438643",
+            "44.427532092"
+          ],
+          [
+            "12.0103384",
+            "74.961872387"
+          ],
+          [
+            "13.043616935",
+            "13.035446635"
+          ],
+          [
+            "112.003553139",
+            "112.003553139"
+          ],
+          [
+            "111.003553139",
+            "49.805530127"
+          ],
+          [
+            "109.873407207",
+            "81.696331232"
+          ],
+          [
+            "82.036805906",
+            "63.404337236"
+          ],
+          [
+            "18",
+            "43.721954959"
+          ],
+          [
+            "45.528620435",
+            "19"
+          ],
+          [
+            "20",
+            "106.003553139"
+          ],
+          [
+            "44.99223285",
+            "71.87189929"
+          ],
+          [
+            "86.406239133",
+            "22.165484112"
+          ],
+          [
+            "76.12452977",
+            "102.964986762"
+          ]
+        ],
+        "side": "126.003553139"
+      }
+    },
+    {
+      "instanceId": "p13-n24-v1",
+      "name": "n = 24",
+      "parameters": {
+        "n": 24
+      },
+      "objective": "minimize",
+      "scoreStored": "134072386878",
+      "scoreDisplay": "134.072386878",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "134.072386878",
+        "kind": "best",
+        "source": "value from Packomania (Eckard Specht), whose csqn table does not mark this row proved",
+        "url": "https://www.packomania.com/csqn/csqn.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "2.197573667",
+            "86.259698922"
+          ],
+          [
+            "49.104672627",
+            "25.092961216"
+          ],
+          [
+            "76.813805267",
+            "130.85006306"
+          ],
+          [
+            "40.253747155",
+            "129.984531236"
+          ],
+          [
+            "5.063000356",
+            "93.371943709"
+          ],
+          [
+            "6",
+            "46.386707506"
+          ],
+          [
+            "40.560975364",
+            "96.572492816"
+          ],
+          [
+            "125.994505183",
+            "40.709402085"
+          ],
+          [
+            "125.072386878",
+            "59.341418384"
+          ],
+          [
+            "80.66811287",
+            "95.189862671"
+          ],
+          [
+            "82.933955713",
+            "71.123361092"
+          ],
+          [
+            "56.37472895",
+            "12"
+          ],
+          [
+            "121.072386878",
+            "121.072386878"
+          ],
+          [
+            "60.335541196",
+            "81.897554307"
+          ],
+          [
+            "92.735454276",
+            "119.072386878"
+          ],
+          [
+            "84.087541872",
+            "16"
+          ],
+          [
+            "117.072386878",
+            "17"
+          ],
+          [
+            "100.620117537",
+            "47.892116043"
+          ],
+          [
+            "58.99096227",
+            "114.911947079"
+          ],
+          [
+            "20",
+            "114.072386878"
+          ],
+          [
+            "61.696302317",
+            "45.455600338"
+          ],
+          [
+            "111.755335543",
+            "87.335277421"
+          ],
+          [
+            "23.148233498",
+            "23.000000001"
+          ],
+          [
+            "24.15577577",
+            "70.26908189"
+          ]
+        ],
+        "side": "134.072386878"
+      }
+    },
+    {
+      "instanceId": "p13-n25-v1",
+      "name": "n = 25",
+      "parameters": {
+        "n": 25
+      },
+      "objective": "minimize",
+      "scoreStored": "142220544222",
+      "scoreDisplay": "142.220544222",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "142.220544222",
+        "kind": "best",
+        "source": "value from Packomania (Eckard Specht), whose csqn table does not mark this row proved",
+        "url": "https://www.packomania.com/csqn/csqn.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "137.752543605",
+            "100.226230806"
+          ],
+          [
+            "39.939510993",
+            "46.317391298"
+          ],
+          [
+            "72.836395841",
+            "88.333421893"
+          ],
+          [
+            "4.031029631",
+            "31.093439927"
+          ],
+          [
+            "32.320508076",
+            "5"
+          ],
+          [
+            "43.452907217",
+            "136.22017019"
+          ],
+          [
+            "92.533062011",
+            "135.220544222"
+          ],
+          [
+            "134.220407881",
+            "60.040116702"
+          ],
+          [
+            "38.736735692",
+            "97.025333807"
+          ],
+          [
+            "115.09362906",
+            "61.111910942"
+          ],
+          [
+            "131.220544222",
+            "11"
+          ],
+          [
+            "82.747554815",
+            "12"
+          ],
+          [
+            "107.562446571",
+            "15.036634185"
+          ],
+          [
+            "128.219261254",
+            "81.205820744"
+          ],
+          [
+            "15",
+            "15"
+          ],
+          [
+            "125.9915912",
+            "37.494467939"
+          ],
+          [
+            "17",
+            "82.759489231"
+          ],
+          [
+            "18.644435605",
+            "47.798141551"
+          ],
+          [
+            "94.724353869",
+            "81.85387539"
+          ],
+          [
+            "90.223581635",
+            "43.114450389"
+          ],
+          [
+            "21",
+            "121.220544222"
+          ],
+          [
+            "51.092085244",
+            "24.40690317"
+          ],
+          [
+            "54.655217137",
+            "69.265615715"
+          ],
+          [
+            "118.220544222",
+            "117.866776397"
+          ],
+          [
+            "66.958435453",
+            "115.986759455"
+          ]
+        ],
+        "side": "142.220544222"
+      }
+    },
+    {
+      "instanceId": "p13-n26-v1",
+      "name": "n = 26",
+      "parameters": {
+        "n": 26
+      },
+      "objective": "minimize",
+      "scoreStored": "150722283637",
+      "scoreDisplay": "150.722283637",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "150.722283637",
+        "kind": "best",
+        "source": "value from Packomania (Eckard Specht), whose csqn table does not mark this row proved",
+        "url": "https://www.packomania.com/csqn/csqn.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "116.568371164",
+            "6.16149546"
+          ],
+          [
+            "57.700266496",
+            "131.392030078"
+          ],
+          [
+            "4.670525447",
+            "4.599767046"
+          ],
+          [
+            "48.32778094",
+            "4.065196952"
+          ],
+          [
+            "5.056563733",
+            "97.292061145"
+          ],
+          [
+            "6.006003172",
+            "51.610919016"
+          ],
+          [
+            "24.341982804",
+            "143.643094411"
+          ],
+          [
+            "8.078366553",
+            "142.66039854"
+          ],
+          [
+            "141.722283637",
+            "41.527178404"
+          ],
+          [
+            "122.735275582",
+            "40.824664969"
+          ],
+          [
+            "67.878085621",
+            "139.711821888"
+          ],
+          [
+            "104.982612368",
+            "54.180124812"
+          ],
+          [
+            "43.763966431",
+            "137.722283637"
+          ],
+          [
+            "64.093219883",
+            "14"
+          ],
+          [
+            "135.696182709",
+            "135.696182709"
+          ],
+          [
+            "134.722283637",
+            "16"
+          ],
+          [
+            "133.641066062",
+            "103.572446312"
+          ],
+          [
+            "132.722283637",
+            "66.983022527"
+          ],
+          [
+            "19",
+            "117.455414943"
+          ],
+          [
+            "100.261439078",
+            "86.738871549"
+          ],
+          [
+            "98.193367059",
+            "21.885427231"
+          ],
+          [
+            "99.081138483",
+            "128.722283637"
+          ],
+          [
+            "23.008436836",
+            "75.360144055"
+          ],
+          [
+            "59.992861462",
+            "104.471374384"
+          ],
+          [
+            "67.368517066",
+            "56.029659876"
+          ],
+          [
+            "26",
+            "26.202729161"
+          ]
+        ],
+        "side": "150.722283637"
+      }
+    },
+    {
+      "instanceId": "p13-n27-v1",
+      "name": "n = 27",
+      "parameters": {
+        "n": 27
+      },
+      "objective": "minimize",
+      "scoreStored": "159037470501",
+      "scoreDisplay": "159.037470501",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "159.037470501",
+        "kind": "best",
+        "source": "value from Packomania (Eckard Specht), whose csqn table does not mark this row proved",
+        "url": "https://www.packomania.com/csqn/csqn.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "1.883639801",
+            "157.173551347"
+          ],
+          [
+            "58.518632458",
+            "117.403369173"
+          ],
+          [
+            "29.117375287",
+            "29.774518115"
+          ],
+          [
+            "33.623065863",
+            "4.757924005"
+          ],
+          [
+            "154.035525657",
+            "109.209440618"
+          ],
+          [
+            "107.466389942",
+            "153.035136688"
+          ],
+          [
+            "37.506282636",
+            "75.277913835"
+          ],
+          [
+            "35.089186897",
+            "151.037470501"
+          ],
+          [
+            "52.059749646",
+            "150.037470501"
+          ],
+          [
+            "10",
+            "121.108472922"
+          ],
+          [
+            "148.033191844",
+            "61.492474119"
+          ],
+          [
+            "53.424005792",
+            "58.799322726"
+          ],
+          [
+            "124.319840259",
+            "66.248416319"
+          ],
+          [
+            "14",
+            "144.772792055"
+          ],
+          [
+            "91.642002589",
+            "15.005834532"
+          ],
+          [
+            "16",
+            "16"
+          ],
+          [
+            "142.037470501",
+            "90.457620739"
+          ],
+          [
+            "39.477450722",
+            "125.410470274"
+          ],
+          [
+            "19",
+            "93.540375417"
+          ],
+          [
+            "105.390700601",
+            "95.558037973"
+          ],
+          [
+            "21",
+            "52.66060556"
+          ],
+          [
+            "61.285171149",
+            "91.878048205"
+          ],
+          [
+            "54.387798984",
+            "23.008947012"
+          ],
+          [
+            "89.184248413",
+            "54.651425946"
+          ],
+          [
+            "82.059749646",
+            "134.037470501"
+          ],
+          [
+            "133.037381573",
+            "132.505460775"
+          ],
+          [
+            "132.037470501",
+            "27"
+          ]
+        ],
+        "side": "159.037470501"
+      }
+    },
+    {
+      "instanceId": "p13-n28-v1",
+      "name": "n = 28",
+      "parameters": {
+        "n": 28
+      },
+      "objective": "minimize",
+      "scoreStored": "167820337893",
+      "scoreDisplay": "167.820337893",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "167.820337893",
+        "kind": "best",
+        "source": "value from Packomania (Eckard Specht), whose csqn table does not mark this row proved",
+        "url": "https://www.packomania.com/csqn/csqn.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "43.428492588",
+            "68.831770644"
+          ],
+          [
+            "72.4645074",
+            "109.826130328"
+          ],
+          [
+            "95.602063207",
+            "161.801255201"
+          ],
+          [
+            "133.507033246",
+            "4.443612475"
+          ],
+          [
+            "161.708520307",
+            "122.820803055"
+          ],
+          [
+            "81.145230698",
+            "6.009261812"
+          ],
+          [
+            "49.685667095",
+            "160.820337893"
+          ],
+          [
+            "98.267177254",
+            "62.877839783"
+          ],
+          [
+            "9.024512801",
+            "93.080448401"
+          ],
+          [
+            "10.694503901",
+            "112.083422918"
+          ],
+          [
+            "11",
+            "45.631435515"
+          ],
+          [
+            "118.106851324",
+            "67.285794376"
+          ],
+          [
+            "111.952030151",
+            "154.806922971"
+          ],
+          [
+            "14",
+            "70.450782808"
+          ],
+          [
+            "114.223717844",
+            "126.567971764"
+          ],
+          [
+            "37.333276994",
+            "51.594532259"
+          ],
+          [
+            "150.820337893",
+            "17"
+          ],
+          [
+            "19.80362263",
+            "18"
+          ],
+          [
+            "71.560536651",
+            "58.908539124"
+          ],
+          [
+            "147.820337893",
+            "53.87817783"
+          ],
+          [
+            "58.688066821",
+            "21"
+          ],
+          [
+            "145.820337893",
+            "145.820337893"
+          ],
+          [
+            "95.069768117",
+            "93.712504932"
+          ],
+          [
+            "24",
+            "143.463883592"
+          ],
+          [
+            "142.820337893",
+            "98.599537381"
+          ],
+          [
+            "75.643027663",
+            "140.443502212"
+          ],
+          [
+            "45.182695033",
+            "97.071067001"
+          ],
+          [
+            "107.185489434",
+            "28"
+          ]
+        ],
+        "side": "167.820337893"
+      }
+    },
+    {
+      "instanceId": "p13-n29-v1",
+      "name": "n = 29",
+      "parameters": {
+        "n": 29
+      },
+      "objective": "minimize",
+      "scoreStored": "176505704217",
+      "scoreDisplay": "176.505704217",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "176.505704217",
+        "kind": "best",
+        "source": "value from Packomania (Eckard Specht), whose csqn table does not mark this row proved",
+        "url": "https://www.packomania.com/csqn/csqn.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "171.937030569",
+            "44.312992584"
+          ],
+          [
+            "130.83178046",
+            "174.217017055"
+          ],
+          [
+            "137.744478898",
+            "117.957528417"
+          ],
+          [
+            "39.784668056",
+            "172.458049246"
+          ],
+          [
+            "123.126426035",
+            "171.339113897"
+          ],
+          [
+            "170.439260427",
+            "121.751468894"
+          ],
+          [
+            "86.511490439",
+            "136.744460439"
+          ],
+          [
+            "77.324722954",
+            "168.438054186"
+          ],
+          [
+            "75.161183084",
+            "150.919091477"
+          ],
+          [
+            "84.577312725",
+            "10"
+          ],
+          [
+            "61.372567974",
+            "11"
+          ],
+          [
+            "12.148877251",
+            "64.420950836"
+          ],
+          [
+            "13.004035759",
+            "122.439268833"
+          ],
+          [
+            "55.2928564",
+            "162.505704217"
+          ],
+          [
+            "161.505704217",
+            "62.390600439"
+          ],
+          [
+            "16.011470777",
+            "93.562465699"
+          ],
+          [
+            "81.690201275",
+            "81.361435757"
+          ],
+          [
+            "110.745556414",
+            "19.961075356"
+          ],
+          [
+            "102.375453837",
+            "157.505704217"
+          ],
+          [
+            "44.16110675",
+            "70.957630471"
+          ],
+          [
+            "21",
+            "155.505704217"
+          ],
+          [
+            "154.025412542",
+            "98.626637994"
+          ],
+          [
+            "75.767573295",
+            "41.802334682"
+          ],
+          [
+            "152.505704217",
+            "24.443268516"
+          ],
+          [
+            "108.660473432",
+            "113.557777472"
+          ],
+          [
+            "120.508440706",
+            "62.864293072"
+          ],
+          [
+            "27",
+            "27.202671722"
+          ],
+          [
+            "148.505704217",
+            "148.505704217"
+          ],
+          [
+            "54.91199826",
+            "118.763679584"
+          ]
+        ],
+        "side": "176.505704217"
+      }
+    },
+    {
+      "instanceId": "p13-n30-v1",
+      "name": "n = 30",
+      "parameters": {
+        "n": 30
+      },
+      "objective": "minimize",
+      "scoreStored": "185662545650",
+      "scoreDisplay": "185.66254565",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "185.66254565",
+        "kind": "best",
+        "source": "value from Packomania (Eckard Specht), whose csqn table does not mark this row proved",
+        "url": "https://www.packomania.com/csqn/csqn.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "79.690820494",
+            "140.795706193"
+          ],
+          [
+            "38.215097515",
+            "71.632515669"
+          ],
+          [
+            "105.729221638",
+            "182.629932702"
+          ],
+          [
+            "80.743161751",
+            "181.645815349"
+          ],
+          [
+            "133.615065855",
+            "5.033913247"
+          ],
+          [
+            "179.586857698",
+            "55.092719205"
+          ],
+          [
+            "37.094050777",
+            "43.532501059"
+          ],
+          [
+            "125.093736102",
+            "148.574699434"
+          ],
+          [
+            "47.521397413",
+            "31.394685147"
+          ],
+          [
+            "47.396432256",
+            "10.001043337"
+          ],
+          [
+            "94.081211417",
+            "174.587365688"
+          ],
+          [
+            "12",
+            "92.41912227"
+          ],
+          [
+            "37.106871784",
+            "88.604567532"
+          ],
+          [
+            "119.384615392",
+            "171.593340921"
+          ],
+          [
+            "170.532737056",
+            "117.752790532"
+          ],
+          [
+            "115.246038784",
+            "16.015464942"
+          ],
+          [
+            "100.158923263",
+            "146.734717736"
+          ],
+          [
+            "18",
+            "167.66254565"
+          ],
+          [
+            "19",
+            "62.219784528"
+          ],
+          [
+            "20.002086674",
+            "22.237488891"
+          ],
+          [
+            "58.981287913",
+            "60.996421608"
+          ],
+          [
+            "77.099761961",
+            "22"
+          ],
+          [
+            "162.660145974",
+            "78.822782668"
+          ],
+          [
+            "24.52035203",
+            "126.171763427"
+          ],
+          [
+            "60.426406872",
+            "160.66254565"
+          ],
+          [
+            "129.157245115",
+            "114.634858448"
+          ],
+          [
+            "158.66254565",
+            "158.66254565"
+          ],
+          [
+            "157.66254565",
+            "28"
+          ],
+          [
+            "74.497328561",
+            "108.528016181"
+          ],
+          [
+            "110.542826898",
+            "61.819108576"
+          ]
+        ],
+        "side": "185.66254565"
+      }
+    }
+  ]
+}

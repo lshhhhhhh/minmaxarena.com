@@ -1,0 +1,2626 @@
+{
+  "problem": "circle-circle-packing",
+  "code": "P02",
+  "title": "单位圆内的等圆装箱",
+  "titleEn": "Equal-circle packing in a unit circle",
+  "objective": "maximize",
+  "scoreLabel": "共同半径",
+  "scoreLabelEn": "common radius",
+  "verifierVersion": "1.0.0",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseName": "CC BY 4.0",
+  "source": "https://minmaxarena.com/problems/circle-circle-packing",
+  "generatedAt": "2026-08-29T05:03:18.621Z",
+  "instances": [
+    {
+      "instanceId": "p02-n2-v1",
+      "name": "n = 2",
+      "parameters": {
+        "n": 2
+      },
+      "objective": "maximize",
+      "scoreStored": "500000000",
+      "scoreDisplay": "0.500000000",
+      "status": "proven",
+      "settled": true,
+      "knownBest": {
+        "display": "0.5",
+        "kind": "proven",
+        "source": "two radius-0.5 circles side by side"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "0.5",
+            "1"
+          ],
+          [
+            "1.5",
+            "1"
+          ]
+        ],
+        "radius": "0.5"
+      }
+    },
+    {
+      "instanceId": "p02-n3-v1",
+      "name": "n = 3",
+      "parameters": {
+        "n": 3
+      },
+      "objective": "maximize",
+      "scoreStored": "464101615",
+      "scoreDisplay": "0.464101615",
+      "status": "proven",
+      "settled": true,
+      "knownBest": {
+        "display": "0.464101615",
+        "kind": "proven",
+        "exact": "2√3 − 3",
+        "source": "an equilateral triangle, r = 2√3 − 3"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "1.535756173",
+            "1.01234512"
+          ],
+          [
+            "0.721430726",
+            "1.457805896"
+          ],
+          [
+            "0.742813101",
+            "0.529848984"
+          ]
+        ],
+        "radius": "0.464101615"
+      }
+    },
+    {
+      "instanceId": "p02-n4-v1",
+      "name": "n = 4",
+      "parameters": {
+        "n": 4
+      },
+      "objective": "maximize",
+      "scoreStored": "414213562",
+      "scoreDisplay": "0.414213562",
+      "status": "proven",
+      "settled": true,
+      "knownBest": {
+        "display": "0.414213562",
+        "kind": "proven",
+        "exact": "√2 − 1",
+        "source": "a square, r = √2 − 1"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "1.585786438",
+            "1"
+          ],
+          [
+            "1",
+            "1.585786438"
+          ],
+          [
+            "0.414213562",
+            "1"
+          ],
+          [
+            "1",
+            "0.414213562"
+          ]
+        ],
+        "radius": "0.414213562"
+      }
+    },
+    {
+      "instanceId": "p02-n5-v1",
+      "name": "n = 5",
+      "parameters": {
+        "n": 5
+      },
+      "objective": "maximize",
+      "scoreStored": "370191908",
+      "scoreDisplay": "0.370191908",
+      "status": "proven",
+      "settled": true,
+      "knownBest": {
+        "display": "0.370191908",
+        "kind": "proven",
+        "exact": "sin 36° / (1 + sin 36°)",
+        "source": "a regular pentagon, r = sin 36° / (1 + sin 36°)"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "1.629586479",
+            "1.016706222"
+          ],
+          [
+            "1.17866436",
+            "1.60393483"
+          ],
+          [
+            "0.480834168",
+            "1.35654603"
+          ],
+          [
+            "0.50047351",
+            "0.616422735"
+          ],
+          [
+            "1.210441483",
+            "0.406390183"
+          ]
+        ],
+        "radius": "0.370191908"
+      }
+    },
+    {
+      "instanceId": "p02-n6-v1",
+      "name": "n = 6",
+      "parameters": {
+        "n": 6
+      },
+      "objective": "maximize",
+      "scoreStored": "333333333",
+      "scoreDisplay": "0.333333333",
+      "status": "proven",
+      "settled": true,
+      "knownBest": {
+        "display": "0.333333333",
+        "kind": "proven",
+        "exact": "1/3",
+        "source": "a regular hexagon, r = 1/3"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "1.666666667",
+            "1"
+          ],
+          [
+            "1.333333334",
+            "1.577350269"
+          ],
+          [
+            "0.666666667",
+            "1.577350269"
+          ],
+          [
+            "0.333333333",
+            "1"
+          ],
+          [
+            "0.666666666",
+            "0.422649731"
+          ],
+          [
+            "1.333333334",
+            "0.422649731"
+          ]
+        ],
+        "radius": "0.333333333"
+      }
+    },
+    {
+      "instanceId": "p02-n7-v1",
+      "name": "n = 7",
+      "parameters": {
+        "n": 7
+      },
+      "objective": "maximize",
+      "scoreStored": "333333333",
+      "scoreDisplay": "0.333333333",
+      "status": "proven",
+      "settled": true,
+      "knownBest": {
+        "display": "0.333333333",
+        "kind": "proven",
+        "exact": "1/3",
+        "source": "a regular hexagon plus its centre, r = 1/3"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "1.666666666",
+            "1"
+          ],
+          [
+            "1.333333333",
+            "1.577350269"
+          ],
+          [
+            "0.666666667",
+            "1.577350269"
+          ],
+          [
+            "0.333333334",
+            "1"
+          ],
+          [
+            "0.666666667",
+            "0.422649731"
+          ],
+          [
+            "1.333333333",
+            "0.422649731"
+          ]
+        ],
+        "radius": "0.333333333"
+      }
+    },
+    {
+      "instanceId": "p02-n8-v1",
+      "name": "n = 8",
+      "parameters": {
+        "n": 8
+      },
+      "objective": "maximize",
+      "scoreStored": "302593388",
+      "scoreDisplay": "0.302593388",
+      "status": "proven",
+      "settled": true,
+      "knownBest": {
+        "display": "0.302593388",
+        "kind": "proven",
+        "exact": "1/(1 + 1/sin(π/7))",
+        "source": "r = 1/(1 + 1/sin(π/7)); optimality proved by Pirl (1969)",
+        "url": "https://web.archive.org/web/20260209211013/http://hydra.nat.uni-magdeburg.de/packing/cci/cci.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "1.646972750",
+            "1.260388637"
+          ],
+          [
+            "0.602174869",
+            "1.572809870"
+          ],
+          [
+            "0.530076089",
+            "0.484686989"
+          ],
+          [
+            "1.606960946",
+            "0.656525995"
+          ],
+          [
+            "1.199800878",
+            "1.668173324"
+          ],
+          [
+            "0.304119298",
+            "1.046108901"
+          ],
+          [
+            "1.109895169",
+            "0.311306285"
+          ],
+          [
+            "0.909283503",
+            "1.051335689"
+          ]
+        ],
+        "radius": "0.302593388"
+      }
+    },
+    {
+      "instanceId": "p02-n9-v1",
+      "name": "n = 9",
+      "parameters": {
+        "n": 9
+      },
+      "objective": "maximize",
+      "scoreStored": "276768653",
+      "scoreDisplay": "0.276768653",
+      "status": "proven",
+      "settled": true,
+      "knownBest": {
+        "display": "0.276768653",
+        "kind": "proven",
+        "exact": "1/(1 + √(2(2 + √2)))",
+        "source": "r = 1/(1 + √(2(2+√2))); optimality proved by Pirl (1969)",
+        "url": "https://web.archive.org/web/20260209211013/http://hydra.nat.uni-magdeburg.de/packing/cci/cci.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "1.723231346",
+            "1.000000000"
+          ],
+          [
+            "1.511401789",
+            "1.511401789"
+          ],
+          [
+            "1.000000000",
+            "1.723231346"
+          ],
+          [
+            "0.488598211",
+            "1.511401789"
+          ],
+          [
+            "0.276768654",
+            "1.000000000"
+          ],
+          [
+            "0.488598211",
+            "0.488598211"
+          ],
+          [
+            "1.000000000",
+            "0.276768654"
+          ],
+          [
+            "1.511401789",
+            "0.488598211"
+          ],
+          [
+            "1.000000000",
+            "1.000000000"
+          ]
+        ],
+        "radius": "0.276768653"
+      }
+    },
+    {
+      "instanceId": "p02-n10-v1",
+      "name": "n = 10",
+      "parameters": {
+        "n": 10
+      },
+      "objective": "maximize",
+      "scoreStored": "262258923",
+      "scoreDisplay": "0.262258923",
+      "status": "proven",
+      "settled": true,
+      "knownBest": {
+        "display": "0.262258923",
+        "kind": "proven",
+        "source": "optimality proved by Pirl (1969)",
+        "url": "https://web.archive.org/web/20260209211013/http://hydra.nat.uni-magdeburg.de/packing/cci/cci.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "0.832533958",
+            "0.281517558"
+          ],
+          [
+            "0.266876869",
+            "1.082415833"
+          ],
+          [
+            "1.280113692",
+            "1.071969481"
+          ],
+          [
+            "0.506938500",
+            "1.548773407"
+          ],
+          [
+            "1.352318647",
+            "0.351822967"
+          ],
+          [
+            "0.996237814",
+            "1.737731483"
+          ],
+          [
+            "0.772095735",
+            "0.941444663"
+          ],
+          [
+            "1.694009765",
+            "0.749775418"
+          ],
+          [
+            "0.397401687",
+            "0.574397875"
+          ],
+          [
+            "1.487438875",
+            "1.553773634"
+          ]
+        ],
+        "radius": "0.262258923"
+      }
+    },
+    {
+      "instanceId": "p02-n11-v1",
+      "name": "n = 11",
+      "parameters": {
+        "n": 11
+      },
+      "objective": "maximize",
+      "scoreStored": "254854701",
+      "scoreDisplay": "0.254854701",
+      "status": "proven",
+      "settled": true,
+      "knownBest": {
+        "display": "0.254854701",
+        "kind": "proven",
+        "exact": "1/(1 + 1/sin(π/9))",
+        "source": "r = 1/(1 + 1/sin(π/9)); optimality proved by Melissen (1994)",
+        "url": "https://web.archive.org/web/20260209211013/http://hydra.nat.uni-magdeburg.de/packing/cci/cci.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "1.744298484",
+            "0.964485457"
+          ],
+          [
+            "1.164221073",
+            "1.726823882"
+          ],
+          [
+            "0.288441518",
+            "0.778807680"
+          ],
+          [
+            "1.094271078",
+            "0.260842047"
+          ],
+          [
+            "1.139927694",
+            "1.217693733"
+          ],
+          [
+            "1.592994026",
+            "1.451220125"
+          ],
+          [
+            "0.658607255",
+            "1.662338666"
+          ],
+          [
+            "0.634313876",
+            "1.153208518"
+          ],
+          [
+            "0.597094262",
+            "0.373175877"
+          ],
+          [
+            "1.547337409",
+            "0.494368438"
+          ],
+          [
+            "0.942966620",
+            "0.747576715"
+          ]
+        ],
+        "radius": "0.254854701"
+      }
+    },
+    {
+      "instanceId": "p02-n12-v1",
+      "name": "n = 12",
+      "parameters": {
+        "n": 12
+      },
+      "objective": "maximize",
+      "scoreStored": "248163470",
+      "scoreDisplay": "0.248163470",
+      "status": "proven",
+      "settled": true,
+      "knownBest": {
+        "display": "0.248163470",
+        "kind": "proven",
+        "source": "value from Eckard Specht's table of best known packings, where a bold radius marks a proved optimum",
+        "url": "https://web.archive.org/web/20260209211013/http://hydra.nat.uni-magdeburg.de/packing/cci/cci.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "1",
+            "0.248163471"
+          ],
+          [
+            "0.531490084",
+            "0.411989264"
+          ],
+          [
+            "1.468509916",
+            "0.411989264"
+          ],
+          [
+            "0.751836529",
+            "0.856722753"
+          ],
+          [
+            "1.248163471",
+            "0.856722753"
+          ],
+          [
+            "0.256512807",
+            "0.888263878"
+          ],
+          [
+            "1.743487193",
+            "0.888263878"
+          ],
+          [
+            "1",
+            "1.286554493"
+          ],
+          [
+            "0.348890466",
+            "1.375918265"
+          ],
+          [
+            "1.651109534",
+            "1.375918265"
+          ],
+          [
+            "0.725022723",
+            "1.699746857"
+          ],
+          [
+            "1.274977277",
+            "1.699746857"
+          ]
+        ],
+        "radius": "0.248163470"
+      }
+    },
+    {
+      "instanceId": "p02-n13-v1",
+      "name": "n = 13",
+      "parameters": {
+        "n": 13
+      },
+      "objective": "maximize",
+      "scoreStored": "236067977",
+      "scoreDisplay": "0.236067977",
+      "status": "proven",
+      "settled": true,
+      "knownBest": {
+        "display": "0.236067977",
+        "kind": "proven",
+        "exact": "√5 − 2",
+        "source": "r = √5 − 2; optimality proved by Fodor (2003)",
+        "url": "https://web.archive.org/web/20260209211013/http://hydra.nat.uni-magdeburg.de/packing/cci/cci.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "1.763932023",
+            "1.000000000"
+          ],
+          [
+            "1.236067977",
+            "1.726542528"
+          ],
+          [
+            "0.763932023",
+            "1.726542528"
+          ],
+          [
+            "0.236067977",
+            "1.000000000"
+          ],
+          [
+            "0.763932023",
+            "0.273457472"
+          ],
+          [
+            "1.236067977",
+            "0.273457472"
+          ],
+          [
+            "1.618033989",
+            "1.449027977"
+          ],
+          [
+            "1.090169944",
+            "1.277514551"
+          ],
+          [
+            "0.381966011",
+            "1.449027977"
+          ],
+          [
+            "0.708203932",
+            "1.000000000"
+          ],
+          [
+            "0.381966011",
+            "0.550972023"
+          ],
+          [
+            "1.090169944",
+            "0.722485449"
+          ],
+          [
+            "1.618033989",
+            "0.550972023"
+          ]
+        ],
+        "radius": "0.236067977"
+      }
+    },
+    {
+      "instanceId": "p02-n14-v1",
+      "name": "n = 14",
+      "parameters": {
+        "n": 14
+      },
+      "objective": "maximize",
+      "scoreStored": "231030727",
+      "scoreDisplay": "0.231030727",
+      "status": "proven",
+      "settled": true,
+      "knownBest": {
+        "display": "0.231030727",
+        "kind": "proven",
+        "source": "optimality proved by Ekanayake and LaFountain (2024)",
+        "url": "https://web.archive.org/web/20260209211013/http://hydra.nat.uni-magdeburg.de/packing/cci/cci.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "0.426517068",
+            "1.512280263"
+          ],
+          [
+            "1.768651589",
+            "0.977898507"
+          ],
+          [
+            "1.242932803",
+            "0.270412860"
+          ],
+          [
+            "1.617219354",
+            "0.541356336"
+          ],
+          [
+            "0.658542316",
+            "0.903138033"
+          ],
+          [
+            "0.398029103",
+            "0.521518255"
+          ],
+          [
+            "1.073743269",
+            "0.700384592"
+          ],
+          [
+            "1.320634857",
+            "1.090955115"
+          ],
+          [
+            "1.284453276",
+            "1.714422896"
+          ],
+          [
+            "0.780932503",
+            "0.262895412"
+          ],
+          [
+            "1.642553117",
+            "1.422420683"
+          ],
+          [
+            "0.905433904",
+            "1.293708555"
+          ],
+          [
+            "0.236448670",
+            "1.091121393"
+          ],
+          [
+            "0.823648230",
+            "1.748474311"
+          ]
+        ],
+        "radius": "0.231030727"
+      }
+    },
+    {
+      "instanceId": "p02-n15-v1",
+      "name": "n = 15",
+      "parameters": {
+        "n": 15
+      },
+      "objective": "maximize",
+      "scoreStored": "221172538",
+      "scoreDisplay": "0.221172538",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.221172538",
+        "kind": "best",
+        "source": "value from Eckard Specht's table of best known packings, which does not mark this one as proved; the table's figure is 0.221172539, the exact optimum is not writable on the nine-decimal grid, and shown here is the exact value the configuration's grid certificate reaches",
+        "url": "https://web.archive.org/web/20260209211013/http://hydra.nat.uni-magdeburg.de/packing/cci/cci.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "0.778827461",
+            "0.253237038"
+          ],
+          [
+            "1.221172539",
+            "0.253237038"
+          ],
+          [
+            "0.358132292",
+            "0.558889969"
+          ],
+          [
+            "1.641867708",
+            "0.558889969"
+          ],
+          [
+            "0.778827461",
+            "0.695582116"
+          ],
+          [
+            "1.221172539",
+            "0.695582116"
+          ],
+          [
+            "0.221440145",
+            "0.979585138"
+          ],
+          [
+            "1.778559855",
+            "0.979585138"
+          ],
+          [
+            "0.642135314",
+            "1.116277285"
+          ],
+          [
+            "1.357864686",
+            "1.116277285"
+          ],
+          [
+            "1",
+            "1.376281198"
+          ],
+          [
+            "0.382131401",
+            "1.474141971"
+          ],
+          [
+            "1.617868599",
+            "1.474141971"
+          ],
+          [
+            "0.739996087",
+            "1.734145884"
+          ],
+          [
+            "1.260003913",
+            "1.734145884"
+          ]
+        ],
+        "radius": "0.221172538"
+      }
+    },
+    {
+      "instanceId": "p02-n16-v1",
+      "name": "n = 16",
+      "parameters": {
+        "n": 16
+      },
+      "objective": "maximize",
+      "scoreStored": "216664742",
+      "scoreDisplay": "0.216664742",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.216664742",
+        "kind": "best",
+        "source": "value from Eckard Specht's table of best known packings, which does not mark this one as proved",
+        "url": "https://web.archive.org/web/20260209211013/http://hydra.nat.uni-magdeburg.de/packing/cci/cci.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "1",
+            "0.216664743"
+          ],
+          [
+            "0.583575881",
+            "0.336520476"
+          ],
+          [
+            "1.416424119",
+            "0.336520476"
+          ],
+          [
+            "0.294583326",
+            "0.659410157"
+          ],
+          [
+            "1.705416674",
+            "0.659410157"
+          ],
+          [
+            "0.783335257",
+            "0.721059987"
+          ],
+          [
+            "1.216664743",
+            "0.721059987"
+          ],
+          [
+            "0.221458069",
+            "1.08652506"
+          ],
+          [
+            "1.778541931",
+            "1.08652506"
+          ],
+          [
+            "0.652172218",
+            "1.134062045"
+          ],
+          [
+            "1.347827782",
+            "1.134062045"
+          ],
+          [
+            "1",
+            "1.392500195"
+          ],
+          [
+            "0.386577454",
+            "1.487162093"
+          ],
+          [
+            "1.613422546",
+            "1.487162093"
+          ],
+          [
+            "0.739412656",
+            "1.73872076"
+          ],
+          [
+            "1.260587344",
+            "1.73872076"
+          ]
+        ],
+        "radius": "0.216664742"
+      }
+    },
+    {
+      "instanceId": "p02-n17-v1",
+      "name": "n = 17",
+      "parameters": {
+        "n": 17
+      },
+      "objective": "maximize",
+      "scoreStored": "208679665",
+      "scoreDisplay": "0.208679665",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.208679665",
+        "kind": "best",
+        "source": "value from Eckard Specht's table of best known packings, which does not mark this one as proved",
+        "url": "https://web.archive.org/web/20260209211013/http://hydra.nat.uni-magdeburg.de/packing/cci/cci.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "0.791320334",
+            "0.236690974"
+          ],
+          [
+            "1.208679666",
+            "0.236690974"
+          ],
+          [
+            "0.432010136",
+            "0.449023244"
+          ],
+          [
+            "1.567989864",
+            "0.449023244"
+          ],
+          [
+            "1",
+            "0.598134757"
+          ],
+          [
+            "0.640689802",
+            "0.810467027"
+          ],
+          [
+            "1.359310198",
+            "0.810467027"
+          ],
+          [
+            "0.224547986",
+            "0.842322968"
+          ],
+          [
+            "1.775452014",
+            "0.842322968"
+          ],
+          [
+            "1",
+            "1.022799296"
+          ],
+          [
+            "0.252184591",
+            "1.258766277"
+          ],
+          [
+            "1.747815409",
+            "1.258766277"
+          ],
+          [
+            "0.669136759",
+            "1.277197266"
+          ],
+          [
+            "1.330863241",
+            "1.277197266"
+          ],
+          [
+            "1",
+            "1.531595235"
+          ],
+          [
+            "0.614253275",
+            "1.690932222"
+          ],
+          [
+            "1.385746725",
+            "1.690932222"
+          ]
+        ],
+        "radius": "0.208679665"
+      }
+    },
+    {
+      "instanceId": "p02-n18-v1",
+      "name": "n = 18",
+      "parameters": {
+        "n": 18
+      },
+      "objective": "maximize",
+      "scoreStored": "205604646",
+      "scoreDisplay": "0.205604646",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.205604646",
+        "kind": "best",
+        "exact": "1/(1 + √2 + √6)",
+        "source": "r = 1/(1 + √2 + √6), due to Pirl (1969); believed optimal but not proved",
+        "url": "https://web.archive.org/web/20260209211013/http://hydra.nat.uni-magdeburg.de/packing/cci/cci.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "0.794395353",
+            "0.232673012"
+          ],
+          [
+            "1.205604647",
+            "0.232673012"
+          ],
+          [
+            "0.438277659",
+            "0.438277659"
+          ],
+          [
+            "1.561722341",
+            "0.438277659"
+          ],
+          [
+            "0.794395353",
+            "0.643882306"
+          ],
+          [
+            "1.205604647",
+            "0.643882306"
+          ],
+          [
+            "0.232673012",
+            "0.794395353"
+          ],
+          [
+            "1.767326988",
+            "0.794395353"
+          ],
+          [
+            "0.588790706",
+            "1"
+          ],
+          [
+            "1.411209294",
+            "1"
+          ],
+          [
+            "0.232673012",
+            "1.205604647"
+          ],
+          [
+            "1.767326988",
+            "1.205604647"
+          ],
+          [
+            "0.794395353",
+            "1.356117694"
+          ],
+          [
+            "1.205604647",
+            "1.356117694"
+          ],
+          [
+            "0.438277659",
+            "1.561722341"
+          ],
+          [
+            "1.561722341",
+            "1.561722341"
+          ],
+          [
+            "0.794395353",
+            "1.767326988"
+          ],
+          [
+            "1.205604647",
+            "1.767326988"
+          ]
+        ],
+        "radius": "0.205604646"
+      }
+    },
+    {
+      "instanceId": "p02-n19-v1",
+      "name": "n = 19",
+      "parameters": {
+        "n": 19
+      },
+      "objective": "maximize",
+      "scoreStored": "205604646",
+      "scoreDisplay": "0.205604646",
+      "status": "proven",
+      "settled": true,
+      "knownBest": {
+        "display": "0.205604646",
+        "kind": "proven",
+        "exact": "1/(1 + √2 + √6)",
+        "source": "r = 1/(1 + √2 + √6); optimality proved by Fodor (1999)",
+        "url": "https://web.archive.org/web/20260209211013/http://hydra.nat.uni-magdeburg.de/packing/cci/cci.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "1.794019389",
+            "0.975562587"
+          ],
+          [
+            "1.699859668",
+            "1.375846274"
+          ],
+          [
+            "1.418173115",
+            "1.675422256"
+          ],
+          [
+            "1.024437413",
+            "1.794019389"
+          ],
+          [
+            "0.624153726",
+            "1.699859668"
+          ],
+          [
+            "0.324577744",
+            "1.418173115"
+          ],
+          [
+            "0.205980611",
+            "1.024437413"
+          ],
+          [
+            "0.300140332",
+            "0.624153726"
+          ],
+          [
+            "0.581826885",
+            "0.324577744"
+          ],
+          [
+            "0.975562587",
+            "0.205980611"
+          ],
+          [
+            "1.375846274",
+            "0.300140332"
+          ],
+          [
+            "1.675422256",
+            "0.581826885"
+          ],
+          [
+            "1.400283687",
+            "1.094159721"
+          ],
+          [
+            "1.118597133",
+            "1.393735702"
+          ],
+          [
+            "0.718313446",
+            "1.299575981"
+          ],
+          [
+            "0.599716313",
+            "0.905840279"
+          ],
+          [
+            "0.881402867",
+            "0.606264298"
+          ],
+          [
+            "1.281686554",
+            "0.700424019"
+          ],
+          [
+            "1.000000000",
+            "1.000000000"
+          ]
+        ],
+        "radius": "0.205604646"
+      }
+    },
+    {
+      "instanceId": "p02-n20-v1",
+      "name": "n = 20",
+      "parameters": {
+        "n": 20
+      },
+      "objective": "maximize",
+      "scoreStored": "195224010",
+      "scoreDisplay": "0.195224010",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.195224010",
+        "kind": "best",
+        "source": "value from Eckard Specht's table of best known packings, which does not mark this one as proved; the table's figure is 0.195224011, the exact optimum is not writable on the nine-decimal grid, and shown here is the exact value the configuration's grid certificate reaches",
+        "url": "https://web.archive.org/web/20260209211013/http://hydra.nat.uni-magdeburg.de/packing/cci/cci.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "0.804775989",
+            "0.219261902"
+          ],
+          [
+            "1.195224011",
+            "0.219261902"
+          ],
+          [
+            "0.460280522",
+            "0.403034944"
+          ],
+          [
+            "1.539719478",
+            "0.403034944"
+          ],
+          [
+            "0.804775989",
+            "0.609709924"
+          ],
+          [
+            "1.195224011",
+            "0.609709924"
+          ],
+          [
+            "0.242826237",
+            "0.727323846"
+          ],
+          [
+            "1.757173763",
+            "0.727323846"
+          ],
+          [
+            "0.57801851",
+            "0.927563198"
+          ],
+          [
+            "1.42198149",
+            "0.927563198"
+          ],
+          [
+            "1",
+            "1"
+          ],
+          [
+            "0.203598333",
+            "1.115796277"
+          ],
+          [
+            "1.796401667",
+            "1.115796277"
+          ],
+          [
+            "0.699199341",
+            "1.298730093"
+          ],
+          [
+            "1.300800659",
+            "1.298730093"
+          ],
+          [
+            "0.351830421",
+            "1.477012149"
+          ],
+          [
+            "1.648169579",
+            "1.477012149"
+          ],
+          [
+            "1",
+            "1.547665068"
+          ],
+          [
+            "0.65263108",
+            "1.725947123"
+          ],
+          [
+            "1.34736892",
+            "1.725947123"
+          ]
+        ],
+        "radius": "0.19522401"
+      }
+    },
+    {
+      "instanceId": "p02-n21-v1",
+      "name": "n = 21",
+      "parameters": {
+        "n": 21
+      },
+      "objective": "maximize",
+      "scoreStored": "190392146",
+      "scoreDisplay": "0.190392146",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.190392146",
+        "kind": "best",
+        "source": "value from Eckard Specht's table of best known packings, which does not mark this one as proved",
+        "url": "https://web.archive.org/web/20260209211013/http://hydra.nat.uni-magdeburg.de/packing/cci/cci.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "0.809607853",
+            "0.213097397"
+          ],
+          [
+            "1.190392147",
+            "0.213097397"
+          ],
+          [
+            "0.470940582",
+            "0.387169674"
+          ],
+          [
+            "1.529059418",
+            "0.387169674"
+          ],
+          [
+            "1",
+            "0.542866269"
+          ],
+          [
+            "0.249307588",
+            "0.696807357"
+          ],
+          [
+            "1.750692412",
+            "0.696807357"
+          ],
+          [
+            "0.661332729",
+            "0.716938546"
+          ],
+          [
+            "1.338667271",
+            "0.716938546"
+          ],
+          [
+            "1",
+            "1"
+          ],
+          [
+            "0.193736744",
+            "1.073514882"
+          ],
+          [
+            "1.806263256",
+            "1.073514882"
+          ],
+          [
+            "0.574259198",
+            "1.087633675"
+          ],
+          [
+            "1.425740802",
+            "1.087633675"
+          ],
+          [
+            "0.809607853",
+            "1.386979109"
+          ],
+          [
+            "1.190392147",
+            "1.386979109"
+          ],
+          [
+            "0.316520985",
+            "1.433960035"
+          ],
+          [
+            "1.683479015",
+            "1.433960035"
+          ],
+          [
+            "0.590498968",
+            "1.698408033"
+          ],
+          [
+            "1.409501032",
+            "1.698408033"
+          ],
+          [
+            "1",
+            "1.777223539"
+          ]
+        ],
+        "radius": "0.190392146"
+      }
+    },
+    {
+      "instanceId": "p02-n22-v1",
+      "name": "n = 22",
+      "parameters": {
+        "n": 22
+      },
+      "objective": "maximize",
+      "scoreStored": "183833026",
+      "scoreDisplay": "0.183833026",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.183833026",
+        "kind": "best",
+        "source": "value from Eckard Specht's table of best known packings, which does not mark this one as proved",
+        "url": "https://web.archive.org/web/20260209211013/http://hydra.nat.uni-magdeburg.de/packing/cci/cci.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "0.913887701",
+            "0.188388516"
+          ],
+          [
+            "1.27884402",
+            "0.232944239"
+          ],
+          [
+            "0.566406263",
+            "0.308534166"
+          ],
+          [
+            "1.587214159",
+            "0.433159582"
+          ],
+          [
+            "0.306914565",
+            "0.568999874"
+          ],
+          [
+            "1.161027359",
+            "0.581222232"
+          ],
+          [
+            "0.793722166",
+            "0.597507879"
+          ],
+          [
+            "1.776420168",
+            "0.748404587"
+          ],
+          [
+            "1.42072973",
+            "0.841477886"
+          ],
+          [
+            "0.553428045",
+            "0.875783034"
+          ],
+          [
+            "0.991478546",
+            "0.907460683"
+          ],
+          [
+            "0.188071594",
+            "0.916928997"
+          ],
+          [
+            "1.808066224",
+            "1.114706175"
+          ],
+          [
+            "1.405140878",
+            "1.208813311"
+          ],
+          [
+            "0.599350758",
+            "1.240569864"
+          ],
+          [
+            "1.042861454",
+            "1.27151854"
+          ],
+          [
+            "0.233994307",
+            "1.281715827"
+          ],
+          [
+            "1.675730352",
+            "1.457730291"
+          ],
+          [
+            "0.800720001",
+            "1.548187735"
+          ],
+          [
+            "0.43536355",
+            "1.589333698"
+          ],
+          [
+            "1.406267644",
+            "1.707866604"
+          ],
+          [
+            "1.054360516",
+            "1.81435463"
+          ]
+        ],
+        "radius": "0.183833026"
+      }
+    },
+    {
+      "instanceId": "p02-n23-v1",
+      "name": "n = 23",
+      "parameters": {
+        "n": 23
+      },
+      "objective": "maximize",
+      "scoreStored": "180336008",
+      "scoreDisplay": "0.180336008",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.180336008",
+        "kind": "best",
+        "source": "value from Eckard Specht's table of best known packings, which does not mark this one as proved; the table's figure is 0.180336009, the exact optimum is not writable on the nine-decimal grid, and shown here is the exact value the configuration's grid certificate reaches",
+        "url": "https://web.archive.org/web/20260209211013/http://hydra.nat.uni-magdeburg.de/packing/cci/cci.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "0.839651315",
+            "0.196173304"
+          ],
+          [
+            "1.200211262",
+            "0.205163848"
+          ],
+          [
+            "0.510138293",
+            "0.34282075"
+          ],
+          [
+            "1.522006038",
+            "0.368051621"
+          ],
+          [
+            "0.824903057",
+            "0.556543661"
+          ],
+          [
+            "1.220043701",
+            "0.565290186"
+          ],
+          [
+            "0.275472945",
+            "0.616712114"
+          ],
+          [
+            "1.742729314",
+            "0.653298077"
+          ],
+          [
+            "0.575416933",
+            "0.817006669"
+          ],
+          [
+            "1.440766976",
+            "0.850536642"
+          ],
+          [
+            "1.015796515",
+            "0.86255672"
+          ],
+          [
+            "0.181091484",
+            "0.964816186"
+          ],
+          [
+            "1.819644356",
+            "1.005673418"
+          ],
+          [
+            "0.576786281",
+            "1.177676088"
+          ],
+          [
+            "1.408583443",
+            "1.209769888"
+          ],
+          [
+            "1.048111383",
+            "1.221778176"
+          ],
+          [
+            "0.245268176",
+            "1.319732594"
+          ],
+          [
+            "1.737858771",
+            "1.356950265"
+          ],
+          [
+            "0.787095149",
+            "1.470685448"
+          ],
+          [
+            "1.160327902",
+            "1.564548883"
+          ],
+          [
+            "0.455577044",
+            "1.612741954"
+          ],
+          [
+            "1.513207993",
+            "1.639113928"
+          ],
+          [
+            "0.899311667",
+            "1.813456156"
+          ]
+        ],
+        "radius": "0.180336008"
+      }
+    },
+    {
+      "instanceId": "p02-n24-v1",
+      "name": "n = 24",
+      "parameters": {
+        "n": 24
+      },
+      "objective": "maximize",
+      "scoreStored": "176939130",
+      "scoreDisplay": "0.176939130",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.176939130",
+        "kind": "best",
+        "source": "value from Eckard Specht's table of best known packings, which does not mark this one as proved",
+        "url": "https://web.archive.org/web/20260209211013/http://hydra.nat.uni-magdeburg.de/packing/cci/cci.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "1.11770021",
+            "0.185398346"
+          ],
+          [
+            "0.764768916",
+            "0.211269671"
+          ],
+          [
+            "1.448873398",
+            "0.310114598"
+          ],
+          [
+            "0.455322532",
+            "0.382945991"
+          ],
+          [
+            "1.023343536",
+            "0.526465262"
+          ],
+          [
+            "1.697067675",
+            "0.562363334"
+          ],
+          [
+            "0.690697098",
+            "0.647197078"
+          ],
+          [
+            "1.354516723",
+            "0.651181515"
+          ],
+          [
+            "0.246565435",
+            "0.668691154"
+          ],
+          [
+            "1.816401751",
+            "0.895513753"
+          ],
+          [
+            "1.155987809",
+            "0.944125356"
+          ],
+          [
+            "0.526680514",
+            "0.960770648"
+          ],
+          [
+            "0.177088545",
+            "1.015682199"
+          ],
+          [
+            "1.495364291",
+            "1.044392136"
+          ],
+          [
+            "0.845610213",
+            "1.11411233"
+          ],
+          [
+            "1.784815483",
+            "1.247979541"
+          ],
+          [
+            "1.307188142",
+            "1.357180569"
+          ],
+          [
+            "0.259735385",
+            "1.359774227"
+          ],
+          [
+            "0.612989037",
+            "1.380790437"
+          ],
+          [
+            "0.965647553",
+            "1.463375673"
+          ],
+          [
+            "1.60814792",
+            "1.554603734"
+          ],
+          [
+            "0.628278926",
+            "1.734338231"
+          ],
+          [
+            "1.319057897",
+            "1.758703666"
+          ],
+          [
+            "0.970986707",
+            "1.822549344"
+          ]
+        ],
+        "radius": "0.17693913"
+      }
+    },
+    {
+      "instanceId": "p02-n25-v1",
+      "name": "n = 25",
+      "parameters": {
+        "n": 25
+      },
+      "objective": "maximize",
+      "scoreStored": "173827661",
+      "scoreDisplay": "0.173827661",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.173827661",
+        "kind": "best",
+        "source": "value from Eckard Specht's table of best known packings, which does not mark this one as proved",
+        "url": "https://web.archive.org/web/20260209211013/http://hydra.nat.uni-magdeburg.de/packing/cci/cci.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "1.119223475",
+            "0.182475385"
+          ],
+          [
+            "0.772352169",
+            "0.205810351"
+          ],
+          [
+            "0.46579153",
+            "0.369776196"
+          ],
+          [
+            "1.57268885",
+            "0.404526899"
+          ],
+          [
+            "1.240840359",
+            "0.508164742"
+          ],
+          [
+            "0.893969053",
+            "0.531499708"
+          ],
+          [
+            "0.253825685",
+            "0.645338718"
+          ],
+          [
+            "1.766951902",
+            "0.692842854"
+          ],
+          [
+            "0.595468233",
+            "0.709717227"
+          ],
+          [
+            "1.106213449",
+            "0.828695269"
+          ],
+          [
+            "1.453560126",
+            "0.843341419"
+          ],
+          [
+            "0.368893535",
+            "0.973399099"
+          ],
+          [
+            "0.799050535",
+            "0.991530055"
+          ],
+          [
+            "1.825407192",
+            "1.035548563"
+          ],
+          [
+            "1.093651054",
+            "1.176123549"
+          ],
+          [
+            "1.440997731",
+            "1.190769699"
+          ],
+          [
+            "0.572475837",
+            "1.255211927"
+          ],
+          [
+            "0.226627618",
+            "1.290612958"
+          ],
+          [
+            "1.737703767",
+            "1.371959521"
+          ],
+          [
+            "0.85492095",
+            "1.4579161"
+          ],
+          [
+            "1.199033389",
+            "1.507422186"
+          ],
+          [
+            "0.414653128",
+            "1.583034967"
+          ],
+          [
+            "1.519371683",
+            "1.642505866"
+          ],
+          [
+            "0.706328748",
+            "1.772216245"
+          ],
+          [
+            "1.051632791",
+            "1.824352301"
+          ]
+        ],
+        "radius": "0.173827661"
+      }
+    },
+    {
+      "instanceId": "p02-n26-v1",
+      "name": "n = 26",
+      "parameters": {
+        "n": 26
+      },
+      "objective": "maximize",
+      "scoreStored": "171580251",
+      "scoreDisplay": "0.171580251",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.171580251",
+        "kind": "best",
+        "source": "value from Eckard Specht's table of best known packings, which does not mark this one as proved; the table's figure is 0.171580252, the exact optimum is not writable on the nine-decimal grid, and shown here is the exact value the configuration's grid certificate reaches",
+        "url": "https://web.archive.org/web/20260209211013/http://hydra.nat.uni-magdeburg.de/packing/cci/cci.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "0.961757873",
+            "0.172463404"
+          ],
+          [
+            "1.300400405",
+            "0.22796446"
+          ],
+          [
+            "0.629677334",
+            "0.258959919"
+          ],
+          [
+            "1.587497026",
+            "0.415939624"
+          ],
+          [
+            "0.361140715",
+            "0.47261201"
+          ],
+          [
+            "0.948934049",
+            "0.515384213"
+          ],
+          [
+            "1.285992274",
+            "0.579811574"
+          ],
+          [
+            "0.642274296",
+            "0.669393719"
+          ],
+          [
+            "1.773784629",
+            "0.704134108"
+          ],
+          [
+            "0.202226398",
+            "0.776758967"
+          ],
+          [
+            "1.164371857",
+            "0.900697233"
+          ],
+          [
+            "1.506991337",
+            "0.919959202"
+          ],
+          [
+            "0.82621613",
+            "0.959091033"
+          ],
+          [
+            "0.48335998",
+            "0.973540676"
+          ],
+          [
+            "1.827297998",
+            "1.043096423"
+          ],
+          [
+            "0.183593989",
+            "1.140572058"
+          ],
+          [
+            "1.045864507",
+            "1.222745583"
+          ],
+          [
+            "1.412851223",
+            "1.255815259"
+          ],
+          [
+            "0.610371036",
+            "1.292331083"
+          ],
+          [
+            "1.738854736",
+            "1.374663793"
+          ],
+          [
+            "0.310605044",
+            "1.459362465"
+          ],
+          [
+            "1.199358394",
+            "1.529663746"
+          ],
+          [
+            "0.856204279",
+            "1.531757791"
+          ],
+          [
+            "1.523630883",
+            "1.641942347"
+          ],
+          [
+            "0.556685433",
+            "1.699779357"
+          ],
+          [
+            "1.029594832",
+            "1.82789095"
+          ]
+        ],
+        "radius": "0.171580251"
+      }
+    },
+    {
+      "instanceId": "p02-n27-v1",
+      "name": "n = 27",
+      "parameters": {
+        "n": 27
+      },
+      "objective": "maximize",
+      "scoreStored": "169307930",
+      "scoreDisplay": "0.169307930",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.169307930",
+        "kind": "best",
+        "source": "value from Eckard Specht's table of best known packings, which does not mark this one as proved; the table's figure is 0.169307931, the exact optimum is not writable on the nine-decimal grid, and shown here is the exact value the configuration's grid certificate reaches",
+        "url": "https://web.archive.org/web/20260209211013/http://hydra.nat.uni-magdeburg.de/packing/cci/cci.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "0.830692069",
+            "0.186744728"
+          ],
+          [
+            "1.169307931",
+            "0.186744728"
+          ],
+          [
+            "0.52020893",
+            "0.321877709"
+          ],
+          [
+            "1.47979107",
+            "0.321877709"
+          ],
+          [
+            "0.940578427",
+            "0.507034738"
+          ],
+          [
+            "1.710550659",
+            "0.569689561"
+          ],
+          [
+            "1.269540763",
+            "0.587312278"
+          ],
+          [
+            "0.272064899",
+            "0.599800298"
+          ],
+          [
+            "0.607063132",
+            "0.64916512"
+          ],
+          [
+            "1.500300352",
+            "0.835124131"
+          ],
+          [
+            "0.885949463",
+            "0.841214896"
+          ],
+          [
+            "0.172833334",
+            "0.92354989"
+          ],
+          [
+            "1.827166666",
+            "0.92354989"
+          ],
+          [
+            "0.507831567",
+            "0.972914712"
+          ],
+          [
+            "1.194537202",
+            "0.98062189"
+          ],
+          [
+            "0.919513335",
+            "1.178163214"
+          ],
+          [
+            "1.456631227",
+            "1.19502204"
+          ],
+          [
+            "0.211046309",
+            "1.260002667"
+          ],
+          [
+            "1.788953691",
+            "1.260002667"
+          ],
+          [
+            "0.602790346",
+            "1.297943223"
+          ],
+          [
+            "1.222627669",
+            "1.43977301"
+          ],
+          [
+            "0.892636515",
+            "1.515710749"
+          ],
+          [
+            "0.38035424",
+            "1.553252606"
+          ],
+          [
+            "1.61964576",
+            "1.553252606"
+          ],
+          [
+            "0.652624404",
+            "1.754572401"
+          ],
+          [
+            "1.347375596",
+            "1.754572401"
+          ],
+          [
+            "1.017384442",
+            "1.830510141"
+          ]
+        ],
+        "radius": "0.16930793"
+      }
+    },
+    {
+      "instanceId": "p02-n28-v1",
+      "name": "n = 28",
+      "parameters": {
+        "n": 28
+      },
+      "objective": "maximize",
+      "scoreStored": "166252749",
+      "scoreDisplay": "0.166252749",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.166252749",
+        "kind": "best",
+        "source": "value from Eckard Specht's table of best known packings, which does not mark this one as proved; the table's figure is 0.166252750, the exact optimum is not writable on the nine-decimal grid, and shown here is the exact value the configuration's grid certificate reaches",
+        "url": "https://web.archive.org/web/20260209211013/http://hydra.nat.uni-magdeburg.de/packing/cci/cci.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "1.107395649",
+            "0.173719509"
+          ],
+          [
+            "0.552158256",
+            "0.296741691"
+          ],
+          [
+            "1.447841744",
+            "0.296741691"
+          ],
+          [
+            "0.865305921",
+            "0.408538144"
+          ],
+          [
+            "1.184906622",
+            "0.500273087"
+          ],
+          [
+            "0.312939573",
+            "0.527683955"
+          ],
+          [
+            "1.687060427",
+            "0.527683955"
+          ],
+          [
+            "0.625916022",
+            "0.639958841"
+          ],
+          [
+            "0.945661481",
+            "0.731187942"
+          ],
+          [
+            "1.424125305",
+            "0.731215351"
+          ],
+          [
+            "0.182996634",
+            "0.83374725"
+          ],
+          [
+            "1.817003366",
+            "0.83374725"
+          ],
+          [
+            "0.495973083",
+            "0.946022136"
+          ],
+          [
+            "1.184281458",
+            "0.962748764"
+          ],
+          [
+            "0.815718542",
+            "1.037251236"
+          ],
+          [
+            "1.504026917",
+            "1.053977864"
+          ],
+          [
+            "0.182996634",
+            "1.16625275"
+          ],
+          [
+            "1.817003366",
+            "1.16625275"
+          ],
+          [
+            "0.575874695",
+            "1.268784649"
+          ],
+          [
+            "1.054338519",
+            "1.268812058"
+          ],
+          [
+            "1.374083978",
+            "1.360041159"
+          ],
+          [
+            "0.312939573",
+            "1.472316045"
+          ],
+          [
+            "1.687060427",
+            "1.472316045"
+          ],
+          [
+            "0.815093378",
+            "1.499726913"
+          ],
+          [
+            "1.134694079",
+            "1.591461856"
+          ],
+          [
+            "0.552158256",
+            "1.703258309"
+          ],
+          [
+            "1.447841744",
+            "1.703258309"
+          ],
+          [
+            "0.892867304",
+            "1.826632832"
+          ]
+        ],
+        "radius": "0.166252749"
+      }
+    },
+    {
+      "instanceId": "p02-n29-v1",
+      "name": "n = 29",
+      "parameters": {
+        "n": 29
+      },
+      "objective": "maximize",
+      "scoreStored": "162903648",
+      "scoreDisplay": "0.162903648",
+      "status": "matched",
+      "settled": false,
+      "knownBest": {
+        "display": "0.162903648",
+        "kind": "best",
+        "source": "value from Eckard Specht's table of best known packings, which does not mark this one as proved; the table's figure is 0.162903649, the exact optimum is not writable on the nine-decimal grid, and shown here is the exact value the configuration's grid certificate reaches",
+        "url": "https://web.archive.org/web/20260209211013/http://hydra.nat.uni-magdeburg.de/packing/cci/cci.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-29T04:38:03.465Z",
+      "answer": {
+        "centers": [
+          [
+            "1.054795022",
+            "0.164698973"
+          ],
+          [
+            "0.727950535",
+            "0.208446976"
+          ],
+          [
+            "1.369537674",
+            "0.248886022"
+          ],
+          [
+            "0.390213198",
+            "0.426510369"
+          ],
+          [
+            "1.641914347",
+            "0.462713976"
+          ],
+          [
+            "1.020558335",
+            "0.488702437"
+          ],
+          [
+            "0.697876125",
+            "0.533720067"
+          ],
+          [
+            "1.335300987",
+            "0.572889486"
+          ],
+          [
+            "0.217458885",
+            "0.702746397"
+          ],
+          [
+            "1.798413778",
+            "0.748473182"
+          ],
+          [
+            "0.525121812",
+            "0.809956095"
+          ],
+          [
+            "0.850726386",
+            "0.821447704"
+          ],
+          [
+            "1.174659788",
+            "0.856341072"
+          ],
+          [
+            "1.50300251",
+            "0.886421894"
+          ],
+          [
+            "0.163248111",
+            "1.024012"
+          ],
+          [
+            "1.833965194",
+            "1.072335024"
+          ],
+          [
+            "0.470911038",
+            "1.131221698"
+          ],
+          [
+            "0.796515612",
+            "1.142713307"
+          ],
+          [
+            "1.120449013",
+            "1.177606675"
+          ],
+          [
+            "1.455030305",
+            "1.209664415"
+          ],
+          [
+            "1.743183076",
+            "1.385239167"
+          ],
+          [
+            "0.623761299",
+            "1.418949335"
+          ],
+          [
+            "0.291779744",
+            "1.422703042"
+          ],
+          [
+            "1.260740658",
+            "1.471662197"
+          ],
+          [
+            "0.937021897",
+            "1.5084937"
+          ],
+          [
+            "1.539819587",
+            "1.639785209"
+          ],
+          [
+            "0.617701964",
+            "1.744700283"
+          ],
+          [
+            "1.254681324",
+            "1.797413145"
+          ],
+          [
+            "0.930962563",
+            "1.834244648"
+          ]
+        ],
+        "radius": "0.162903648"
+      }
+    },
+    {
+      "instanceId": "p02-n30-v1",
+      "name": "n = 30",
+      "parameters": {
+        "n": 30
+      },
+      "objective": "maximize",
+      "scoreStored": "156000000",
+      "scoreDisplay": "0.156000000",
+      "status": "open",
+      "settled": false,
+      "knownBest": null,
+      "holder": "bowen2147483647",
+      "method": "human",
+      "recordedAt": "2026-08-29T00:24:06.986Z",
+      "answer": {
+        "centers": [
+          [
+            "1.119667060",
+            "0.164526605"
+          ],
+          [
+            "1.263119338",
+            "0.779253892"
+          ],
+          [
+            "1.498243814",
+            "1.229454222"
+          ],
+          [
+            "1.282188958",
+            "1.454541537"
+          ],
+          [
+            "1.706426134",
+            "1.461842091"
+          ],
+          [
+            "1.490371278",
+            "1.686929406"
+          ],
+          [
+            "1.206365993",
+            "1.816099830"
+          ],
+          [
+            "0.950688090",
+            "1.286902186"
+          ],
+          [
+            "1.196041448",
+            "1.083957940"
+          ],
+          [
+            "0.984139253",
+            "1.597103766"
+          ],
+          [
+            "0.751829063",
+            "1.805372765"
+          ],
+          [
+            "0.475229577",
+            "1.661023451"
+          ],
+          [
+            "0.270936724",
+            "1.425209053"
+          ],
+          [
+            "0.178648748",
+            "0.819533391"
+          ],
+          [
+            "0.577304410",
+            "1.366193451"
+          ],
+          [
+            "0.523538842",
+            "0.308952037"
+          ],
+          [
+            "0.166273730",
+            "1.131287877"
+          ],
+          [
+            "0.471362808",
+            "0.927526350"
+          ],
+          [
+            "0.874451556",
+            "0.485881718"
+          ],
+          [
+            "0.763383370",
+            "1.037380760"
+          ],
+          [
+            "0.602930559",
+            "0.644623669"
+          ],
+          [
+            "0.808103207",
+            "0.181017983"
+          ],
+          [
+            "0.951249988",
+            "0.788282117"
+          ],
+          [
+            "1.428197430",
+            "0.272687852"
+          ],
+          [
+            "1.664601998",
+            "0.479769105"
+          ],
+          [
+            "1.809382986",
+            "0.760761247"
+          ],
+          [
+            "1.825944599",
+            "1.173641923"
+          ],
+          [
+            "1.186015409",
+            "0.469390340"
+          ],
+          [
+            "1.541343933",
+            "0.920445517"
+          ],
+          [
+            "0.310216499",
+            "0.536630710"
+          ]
+        ],
+        "radius": "0.156000000"
+      }
+    }
+  ]
+}
