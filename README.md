@@ -44,6 +44,7 @@ editions at `https://minmaxarena.com/data/editions/{YYYY-MM}/{slug}.json`, which
 once published. Data is CC BY 4.0; see
 [the citation norms](https://minmaxarena.com/problems).
 
+<!-- records:start -->
 | Code | Family | Sub-problems | Open | Data |
 | --- | --- | ---: | ---: | --- |
 | [P01](https://minmaxarena.com/en/problems/square-circle-packing) | Equal-circle packing in a unit square | 30 | 0 | [json](records/square-circle-packing.json) |
@@ -89,6 +90,7 @@ once published. Data is CC BY 4.0; see
 | [P63](https://minmaxarena.com/en/problems/torus-quadrature) | Optimal quadrature points on the torus | 12 | 12 | [json](records/torus-quadrature.json) |
 | [P64](https://minmaxarena.com/en/problems/subspace-packing) | The most separated family of subspaces | 16 | 16 | [json](records/subspace-packing.json) |
 | [P65](https://minmaxarena.com/en/problems/erasure-frames) | The most erasure-robust measurement directions | 11 | 11 | [json](records/erasure-frames.json) |
+<!-- records:end -->
 
 ## What is not here
 
