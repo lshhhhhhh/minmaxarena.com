@@ -1,19 +1,31 @@
 import { problemModules } from "./problems";
+import { frozen, isFrozen } from "./frozen";
 import { fail, isObject, Refusal } from "./problem-kit";
 import type { Obj, ProblemDefinition, ProblemInstanceDefinition, VerificationResult } from "./problem-kit";
 
 export type { VerificationResult, ProblemDefinition, ProblemInstanceDefinition };
-export { problemModules };
+export { problemModules, frozen, isFrozen };
 
-/** Every sub-problem, keyed by the id the site uses (for example "p01-n30-v1"). */
-export function instances(): Map<string, { definition: ProblemDefinition; instance: ProblemInstanceDefinition }> {
+/**
+ * Every sub-problem the catalogue offers, keyed by the id the site uses (for
+ * example "p01-n30-v1").
+ *
+ * Pass { includeFrozen: true } for the ones taken off the catalogue as well.
+ * Freezing a problem is not deleting it — the records people took still stand
+ * and still have to be recomputable — but they are not something to work on,
+ * so they are out of the way by default.
+ */
+export function instances(options: { includeFrozen?: boolean } = {}): Map<string, { definition: ProblemDefinition; instance: ProblemInstanceDefinition }> {
   const found = new Map<string, { definition: ProblemDefinition; instance: ProblemInstanceDefinition }>();
   for (const module of problemModules) {
     const definition = module.definition;
+    if (!options.includeFrozen && isFrozen(definition.code)) continue;
     const list = definition.instances ?? [{
-      instanceId: definition.instanceId, instanceName: definition.instanceName,
+      instanceId: definition.instanceId,
+      instanceName: definition.instanceName,
       instanceNameEn: definition.instanceNameEn ?? definition.instanceName,
-      parameters: definition.parameters, baselineAnswer: definition.baselineAnswer,
+      parameters: definition.parameters,
+      baselineAnswer: definition.baselineAnswer,
     } as ProblemInstanceDefinition];
     for (const instance of list) found.set(instance.instanceId, { definition, instance });
   }
@@ -26,7 +38,8 @@ export function instances(): Map<string, { definition: ProblemDefinition; instan
  * or the answer is rejected.
  */
 export function verify(instanceId: string, answer: unknown): VerificationResult {
-  const found = instances().get(instanceId);
+  // Frozen included: a record already taken has to stay recomputable.
+  const found = instances({ includeFrozen: true }).get(instanceId);
   if (!found) return fail("UNKNOWN_INSTANCE", "找不到这道子题", "Instance not found");
   if (!isObject(answer)) return fail("BAD_SHAPE", "答案必须是一个 JSON 对象", "The answer must be a JSON object");
   const module = problemModules.find((candidate) => candidate.definition.code === found.definition.code)!;

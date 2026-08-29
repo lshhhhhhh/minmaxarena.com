@@ -1,0 +1,27 @@
+import type { ProblemModule } from "../problem-kit";
+declare const rectangle: import("../containers").Container;
+export declare const p09: ProblemModule;
+export declare const p10: ProblemModule;
+export declare const p30: ProblemModule;
+export declare const p16: ProblemModule;
+export declare const p17: ProblemModule;
+export declare const p19: ProblemModule;
+export declare const p20: ProblemModule;
+export declare const p21: ProblemModule;
+export declare const p27: ProblemModule;
+export declare const p31: ProblemModule;
+export declare const p22: ProblemModule;
+export declare const p58: ProblemModule;
+export declare const p24: ProblemModule;
+export declare const p25: ProblemModule;
+export declare const p26: ProblemModule;
+export declare const p28: ProblemModule;
+export declare const p32: ProblemModule;
+export type GridDrawing = {
+    kind: "circles" | "points" | "triangle";
+    container: typeof rectangle;
+};
+export declare const gridDrawings: Record<string, GridDrawing>;
+export declare const p33: ProblemModule;
+export declare const p34: ProblemModule;
+export {};

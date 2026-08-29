@@ -92,6 +92,15 @@ once published. Data is CC BY 4.0; see
 | [P65](https://minmaxarena.com/en/problems/erasure-frames) | The most erasure-robust measurement directions | 11 | 11 | [json](records/erasure-frames.json) |
 <!-- records:end -->
 
+## Problems the catalogue no longer offers
+
+`src/` carries the verifiers for a few families the site has taken off the
+catalogue — P07 and P15, which are P02 and P01 in other coordinates, and P27
+while a degeneracy audit runs. Freezing a problem is not deleting it: the
+records people took still stand and still have to be recomputable, so the
+verifier stays. They are absent from `records/` and from the table above, and
+`--list` leaves them out unless you ask with `--all`.
+
 ## What is not here
 
 The site itself — its pages, accounts, moderation and administration — is a
