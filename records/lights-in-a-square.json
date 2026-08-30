@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/lights-in-a-square",
-  "generatedAt": "2026-08-29T11:41:59.197Z",
+  "generatedAt": "2026-08-30T10:32:07.908Z",
   "instances": [
     {
       "instanceId": "p51-n2-v1",
@@ -21,13 +21,14 @@
       "objective": "maximize",
       "scoreStored": "4799999",
       "scoreDisplay": "4.799999",
-      "status": "ahead",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "4.798582",
+        "display": "4.8",
         "kind": "best",
-        "source": "public pictured configuration by Erich Friedman (July 2026), with continuous value 4.8+. The site reconstructed the pictured topology and symmetries; its nine-decimal certificate verifies at 4.798582; optimality is open",
-        "url": "https://github.com/erich-friedman/erich-friedman.github.io/blob/59e60479c0febd62c06bbda31866a6bbbf7b56f1/packing/light/2.gif"
+        "exact": "24/5",
+        "source": "published by Erich Friedman (July 2026) on Erich Friedman's page, exactly 24/5. The page gives figures and no coordinates; the configuration this site reconstructed from the pictured topology and symmetries verifies at 4.798582, which is the site's reference answer and not the record. Optimality is open",
+        "url": "https://erich-friedman.github.io/packing/light/"
       },
       "holder": "Cphysics",
       "method": "human",
@@ -53,33 +54,33 @@
         "n": 3
       },
       "objective": "maximize",
-      "scoreStored": "7567325",
-      "scoreDisplay": "7.567325",
-      "status": "ahead",
+      "scoreStored": "7568389",
+      "scoreDisplay": "7.568389",
+      "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "7.566325",
+        "display": "7.568",
         "kind": "best",
-        "source": "public pictured configuration by Shaoheng Lai and Codex (August 2026), with continuous value 7.568+. The site reconstructed the pictured topology and symmetries; its nine-decimal certificate verifies at 7.566325; optimality is open",
-        "url": "https://github.com/erich-friedman/erich-friedman.github.io/blob/59e60479c0febd62c06bbda31866a6bbbf7b56f1/packing/light/3.gif"
+        "source": "published by Shaoheng Lai and Codex (August 2026) on Erich Friedman's page as 7.568+, meaning at least that much. The page gives figures and no coordinates; the configuration this site reconstructed from the pictured topology and symmetries verifies at 7.566325, which is the site's reference answer and not the record. Optimality is open",
+        "url": "https://erich-friedman.github.io/packing/light/"
       },
-      "holder": "lird",
+      "holder": "Cphysics",
       "method": "human",
-      "recordedAt": "2026-08-29T09:31:23.852Z",
+      "recordedAt": "2026-08-29T12:48:14.314Z",
       "answer": {
-        "intensity": "7.567325",
+        "intensity": "7.568389",
         "lights": [
           [
             "0.500000000",
-            "0.978746130"
+            "0.980197466"
           ],
           [
-            "0.119999413",
-            "0.402394651"
+            "0.119826788",
+            "0.402319232"
           ],
           [
-            "0.880000587",
-            "0.402394651"
+            "0.880173212",
+            "0.402319232"
           ]
         ]
       }
@@ -91,37 +92,37 @@
         "n": 4
       },
       "objective": "maximize",
-      "scoreStored": "17727317",
-      "scoreDisplay": "17.727317",
-      "status": "ahead",
+      "scoreStored": "17729703",
+      "scoreDisplay": "17.729703",
+      "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "17.726317",
+        "display": "17.729",
         "kind": "best",
-        "source": "public pictured configuration by Erich Friedman (July 2026), with continuous value 17.729+. The site reconstructed the pictured topology and symmetries; its nine-decimal certificate verifies at 17.726317; optimality is open",
-        "url": "https://github.com/erich-friedman/erich-friedman.github.io/blob/59e60479c0febd62c06bbda31866a6bbbf7b56f1/packing/light/4.gif"
+        "source": "published by Erich Friedman (July 2026) on Erich Friedman's page as 17.729+, meaning at least that much. The page gives figures and no coordinates; the configuration this site reconstructed from the pictured topology and symmetries verifies at 17.726317, which is the site's reference answer and not the record. Optimality is open",
+        "url": "https://erich-friedman.github.io/packing/light/"
       },
-      "holder": "lird",
+      "holder": "Cphysics",
       "method": "human",
-      "recordedAt": "2026-08-29T09:31:12.961Z",
+      "recordedAt": "2026-08-29T12:32:20.193Z",
       "answer": {
-        "intensity": "17.727317",
+        "intensity": "17.729703",
         "lights": [
           [
-            "0.188313188",
-            "0.811686812"
+            "0.188379640",
+            "0.811620360"
           ],
           [
-            "0.811686812",
-            "0.811686812"
+            "0.811620360",
+            "0.811620360"
           ],
           [
-            "0.188313188",
-            "0.188313188"
+            "0.188379640",
+            "0.188379640"
           ],
           [
-            "0.811686812",
-            "0.188313188"
+            "0.811620360",
+            "0.188379640"
           ]
         ]
       }
@@ -133,36 +134,36 @@
         "n": 5
       },
       "objective": "maximize",
-      "scoreStored": "22213249",
-      "scoreDisplay": "22.213249",
+      "scoreStored": "22237716",
+      "scoreDisplay": "22.237716",
       "status": "ahead",
       "settled": false,
       "knownBest": {
-        "display": "22.212249",
+        "display": "22.213",
         "kind": "best",
-        "source": "public pictured configuration by Erich Friedman (August 2026), with continuous value 22.213+. The site reconstructed the pictured topology and symmetries; its nine-decimal certificate verifies at 22.212249; optimality is open",
-        "url": "https://github.com/erich-friedman/erich-friedman.github.io/blob/59e60479c0febd62c06bbda31866a6bbbf7b56f1/packing/light/5.gif"
+        "source": "published by Erich Friedman (August 2026) on Erich Friedman's page as 22.213+, meaning at least that much. The page gives figures and no coordinates; the configuration this site reconstructed from the pictured topology and symmetries verifies at 22.212249, which is the site's reference answer and not the record. Optimality is open",
+        "url": "https://erich-friedman.github.io/packing/light/"
       },
-      "holder": "lird",
+      "holder": "Cphysics",
       "method": "human",
-      "recordedAt": "2026-08-29T09:31:01.504Z",
+      "recordedAt": "2026-08-29T12:50:37.002Z",
       "answer": {
-        "intensity": "22.213249",
+        "intensity": "22.237716",
         "lights": [
           [
             "0.754377794",
             "0.952669975"
           ],
           [
-            "0.140054894",
+            "0.140374894",
             "0.803027965"
           ],
           [
-            "0.762763506",
+            "0.758193506",
             "0.500000000"
           ],
           [
-            "0.140054894",
+            "0.140374894",
             "0.196972035"
           ],
           [
@@ -179,29 +180,29 @@
         "n": 6
       },
       "objective": "maximize",
-      "scoreStored": "29787630",
-      "scoreDisplay": "29.78763",
-      "status": "ahead",
+      "scoreStored": "29788191",
+      "scoreDisplay": "29.788191",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "29.78663",
+        "display": "29.791",
         "kind": "best",
-        "source": "public pictured configuration by Erich Friedman (July 2026), with continuous value 29.791+. The site reconstructed the pictured topology and symmetries; its nine-decimal certificate verifies at 29.78663; optimality is open",
-        "url": "https://github.com/erich-friedman/erich-friedman.github.io/blob/59e60479c0febd62c06bbda31866a6bbbf7b56f1/packing/light/6.gif"
+        "source": "published by Erich Friedman (July 2026) on Erich Friedman's page as 29.791+, meaning at least that much. The page gives figures and no coordinates; the configuration this site reconstructed from the pictured topology and symmetries verifies at 29.78663, which is the site's reference answer and not the record. Optimality is open",
+        "url": "https://erich-friedman.github.io/packing/light/"
       },
-      "holder": "lird",
+      "holder": "Cphysics",
       "method": "human",
-      "recordedAt": "2026-08-29T09:30:36.676Z",
+      "recordedAt": "2026-08-29T12:53:41.666Z",
       "answer": {
-        "intensity": "29.787630",
+        "intensity": "29.788191",
         "lights": [
           [
             "0.206644559",
-            "0.943214737"
+            "0.943184737"
           ],
           [
             "0.793355441",
-            "0.943214737"
+            "0.943184737"
           ],
           [
             "0.147171709",
@@ -213,11 +214,11 @@
           ],
           [
             "0.206644559",
-            "0.056785263"
+            "0.056815263"
           ],
           [
             "0.793355441",
-            "0.056785263"
+            "0.056815263"
           ]
         ]
       }
@@ -229,33 +230,33 @@
         "n": 7
       },
       "objective": "maximize",
-      "scoreStored": "35903175",
-      "scoreDisplay": "35.903175",
-      "status": "ahead",
+      "scoreStored": "35905043",
+      "scoreDisplay": "35.905043",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "35.902175",
+        "display": "35.909",
         "kind": "best",
-        "source": "public pictured configuration by Satoshi Kishimoto and GPT-5.6 Sol Pro (July 2026), with continuous value 35.909+. The site reconstructed the pictured topology and symmetries; its nine-decimal certificate verifies at 35.902175; optimality is open",
-        "url": "https://github.com/erich-friedman/erich-friedman.github.io/blob/59e60479c0febd62c06bbda31866a6bbbf7b56f1/packing/light/7.gif"
+        "source": "published by Satoshi Kishimoto and GPT-5.6 Sol Pro (July 2026) on Erich Friedman's page as 35.909+, meaning at least that much. The page gives figures and no coordinates; the configuration this site reconstructed from the pictured topology and symmetries verifies at 35.902175, which is the site's reference answer and not the record. Optimality is open",
+        "url": "https://erich-friedman.github.io/packing/light/"
       },
-      "holder": "lird",
+      "holder": "Cphysics",
       "method": "human",
-      "recordedAt": "2026-08-29T09:30:23.469Z",
+      "recordedAt": "2026-08-29T12:57:40.515Z",
       "answer": {
-        "intensity": "35.903175",
+        "intensity": "35.905043",
         "lights": [
           [
             "0.500000000",
-            "0.847802926"
+            "0.847372926"
           ],
           [
-            "0.082794179",
-            "0.824129813"
+            "0.082894179",
+            "0.824079813"
           ],
           [
-            "0.917205821",
-            "0.824129813"
+            "0.917085821",
+            "0.824089813"
           ],
           [
             "0.164642959",
@@ -285,13 +286,13 @@
       "objective": "maximize",
       "scoreStored": "47834026",
       "scoreDisplay": "47.834026",
-      "status": "ahead",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "47.833026",
+        "display": "47.839",
         "kind": "best",
-        "source": "public pictured configuration by Satoshi Kishimoto and GPT-5.6 Sol Pro (July 2026), with continuous value 47.839+. The site reconstructed the pictured topology and symmetries; its nine-decimal certificate verifies at 47.833026; optimality is open",
-        "url": "https://github.com/erich-friedman/erich-friedman.github.io/blob/59e60479c0febd62c06bbda31866a6bbbf7b56f1/packing/light/8.gif"
+        "source": "published by Satoshi Kishimoto and GPT-5.6 Sol Pro (July 2026) on Erich Friedman's page as 47.839+, meaning at least that much. The page gives figures and no coordinates; the configuration this site reconstructed from the pictured topology and symmetries verifies at 47.833026, which is the site's reference answer and not the record. Optimality is open",
+        "url": "https://erich-friedman.github.io/packing/light/"
       },
       "holder": "lird",
       "method": "human",
@@ -343,13 +344,13 @@
       "objective": "maximize",
       "scoreStored": "57382173",
       "scoreDisplay": "57.382173",
-      "status": "ahead",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "57.381173",
+        "display": "57.388",
         "kind": "best",
-        "source": "public pictured configuration by Erich Friedman (July 2026), with continuous value 57.388+. The site reconstructed the pictured topology and symmetries; its nine-decimal certificate verifies at 57.381173; optimality is open",
-        "url": "https://github.com/erich-friedman/erich-friedman.github.io/blob/59e60479c0febd62c06bbda31866a6bbbf7b56f1/packing/light/9.gif"
+        "source": "published by Erich Friedman (July 2026) on Erich Friedman's page as 57.388+, meaning at least that much. The page gives figures and no coordinates; the configuration this site reconstructed from the pictured topology and symmetries verifies at 57.381173, which is the site's reference answer and not the record. Optimality is open",
+        "url": "https://erich-friedman.github.io/packing/light/"
       },
       "holder": "lird",
       "method": "human",
@@ -403,25 +404,25 @@
         "n": 10
       },
       "objective": "maximize",
-      "scoreStored": "62404068",
-      "scoreDisplay": "62.404068",
-      "status": "ahead",
+      "scoreStored": "62404381",
+      "scoreDisplay": "62.404381",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "62.403068",
+        "display": "62.408",
         "kind": "best",
-        "source": "public pictured configuration by Satoshi Kishimoto and GPT-5.6 Sol Pro (July 2026), with continuous value 62.408+. The site reconstructed the pictured topology and symmetries; its nine-decimal certificate verifies at 62.403068; optimality is open",
-        "url": "https://github.com/erich-friedman/erich-friedman.github.io/blob/59e60479c0febd62c06bbda31866a6bbbf7b56f1/packing/light/10.gif"
+        "source": "published by Satoshi Kishimoto and GPT-5.6 Sol Pro (July 2026) on Erich Friedman's page as 62.408+, meaning at least that much. The page gives figures and no coordinates; the configuration this site reconstructed from the pictured topology and symmetries verifies at 62.403068, which is the site's reference answer and not the record. Optimality is open",
+        "url": "https://erich-friedman.github.io/packing/light/"
       },
-      "holder": "lird",
+      "holder": "Cphysics",
       "method": "human",
-      "recordedAt": "2026-08-29T09:29:19.813Z",
+      "recordedAt": "2026-08-29T13:24:12.275Z",
       "answer": {
-        "intensity": "62.404068",
+        "intensity": "62.404381",
         "lights": [
           [
             "0.500000000",
-            "0.891958058"
+            "0.891938058"
           ],
           [
             "0.083623713",
@@ -441,14 +442,14 @@
           ],
           [
             "0.500000000",
-            "0.432229330"
+            "0.432219330"
           ],
           [
-            "0.109378653",
+            "0.109398653",
             "0.099294539"
           ],
           [
-            "0.890621347",
+            "0.890601347",
             "0.099294539"
           ],
           [
@@ -457,7 +458,7 @@
           ],
           [
             "0.500000000",
-            "0.891958058"
+            "0.891898058"
           ]
         ]
       }
@@ -469,25 +470,25 @@
         "n": 11
       },
       "objective": "maximize",
-      "scoreStored": "74350961",
-      "scoreDisplay": "74.350961",
-      "status": "ahead",
+      "scoreStored": "74351132",
+      "scoreDisplay": "74.351132",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "74.349961",
+        "display": "74.352",
         "kind": "best",
-        "source": "public pictured configuration by Satoshi Kishimoto and GPT-5.6 Sol Pro (July 2026), with continuous value 74.352+. The site reconstructed the pictured topology and symmetries; its nine-decimal certificate verifies at 74.349961; optimality is open",
-        "url": "https://github.com/erich-friedman/erich-friedman.github.io/blob/59e60479c0febd62c06bbda31866a6bbbf7b56f1/packing/light/11.gif"
+        "source": "published by Satoshi Kishimoto and GPT-5.6 Sol Pro (July 2026) on Erich Friedman's page as 74.352+, meaning at least that much. The page gives figures and no coordinates; the configuration this site reconstructed from the pictured topology and symmetries verifies at 74.349961, which is the site's reference answer and not the record. Optimality is open",
+        "url": "https://erich-friedman.github.io/packing/light/"
       },
-      "holder": "lird",
+      "holder": "Cphysics",
       "method": "human",
-      "recordedAt": "2026-08-29T09:32:12.094Z",
+      "recordedAt": "2026-08-29T13:28:40.024Z",
       "answer": {
-        "intensity": "74.350961",
+        "intensity": "74.351132",
         "lights": [
           [
             "0.129290400",
-            "0.951546534"
+            "0.951536534"
           ],
           [
             "0.870709600",
@@ -498,11 +499,11 @@
             "0.929366123"
           ],
           [
-            "0.109130395",
+            "0.109140395",
             "0.662573397"
           ],
           [
-            "0.890869605",
+            "0.890859605",
             "0.662573397"
           ],
           [
@@ -539,21 +540,21 @@
         "n": 12
       },
       "objective": "maximize",
-      "scoreStored": "83565255",
-      "scoreDisplay": "83.565255",
-      "status": "ahead",
+      "scoreStored": "83567144",
+      "scoreDisplay": "83.567144",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "83.564255",
+        "display": "83.571",
         "kind": "best",
-        "source": "public pictured configuration by Satoshi Kishimoto and GPT-5.6 Sol Pro (July 2026), with continuous value 83.571+. The site reconstructed the pictured topology and symmetries; its nine-decimal certificate verifies at 83.564255; optimality is open",
-        "url": "https://github.com/erich-friedman/erich-friedman.github.io/blob/59e60479c0febd62c06bbda31866a6bbbf7b56f1/packing/light/12.gif"
+        "source": "published by Satoshi Kishimoto and GPT-5.6 Sol Pro (July 2026) on Erich Friedman's page as 83.571+, meaning at least that much. The page gives figures and no coordinates; the configuration this site reconstructed from the pictured topology and symmetries verifies at 83.564255, which is the site's reference answer and not the record. Optimality is open",
+        "url": "https://erich-friedman.github.io/packing/light/"
       },
-      "holder": "lird",
+      "holder": "Cphysics",
       "method": "human",
-      "recordedAt": "2026-08-29T09:32:23.351Z",
+      "recordedAt": "2026-08-29T13:35:53.281Z",
       "answer": {
-        "intensity": "83.565255",
+        "intensity": "83.567144",
         "lights": [
           [
             "0.130700477",
@@ -565,7 +566,7 @@
           ],
           [
             "0.500000000",
-            "0.950958428"
+            "0.950968428"
           ],
           [
             "0.123818627",
@@ -577,30 +578,30 @@
           ],
           [
             "0.500000000",
-            "0.546776178"
+            "0.546836178"
           ],
           [
-            "0.092046120",
-            "0.425868879"
+            "0.092066120",
+            "0.425858879"
           ],
           [
-            "0.907953880",
-            "0.425868879"
+            "0.907933880",
+            "0.425858879"
           ],
           [
-            "0.360547704",
-            "0.122882890"
+            "0.360557704",
+            "0.122902890"
           ],
           [
             "0.639452296",
-            "0.122882890"
+            "0.122912890"
           ],
           [
-            "0.078762398",
-            "0.102299253"
+            "0.078782398",
+            "0.102319253"
           ],
           [
-            "0.921237602",
+            "0.921217602",
             "0.102299253"
           ]
         ]
@@ -615,13 +616,13 @@
       "objective": "maximize",
       "scoreStored": "96343180",
       "scoreDisplay": "96.34318",
-      "status": "ahead",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "96.34218",
+        "display": "96.347",
         "kind": "best",
-        "source": "public pictured configuration by Erich Friedman (July 2026), with continuous value 96.347+. The site reconstructed the pictured topology and symmetries; its nine-decimal certificate verifies at 96.34218; optimality is open",
-        "url": "https://github.com/erich-friedman/erich-friedman.github.io/blob/59e60479c0febd62c06bbda31866a6bbbf7b56f1/packing/light/13.gif"
+        "source": "published by Erich Friedman (July 2026) on Erich Friedman's page as 96.347+, meaning at least that much. The page gives figures and no coordinates; the configuration this site reconstructed from the pictured topology and symmetries verifies at 96.34218, which is the site's reference answer and not the record. Optimality is open",
+        "url": "https://erich-friedman.github.io/packing/light/"
       },
       "holder": "lird",
       "method": "human",
@@ -693,13 +694,13 @@
       "objective": "maximize",
       "scoreStored": "106183954",
       "scoreDisplay": "106.183954",
-      "status": "ahead",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "106.182892",
+        "display": "106.190",
         "kind": "best",
-        "source": "public pictured configuration by Satoshi Kishimoto and GPT-5.6 Sol Pro (July 2026), with continuous value 106.190+. The site reconstructed the pictured topology and symmetries; its nine-decimal certificate verifies at 106.182892; optimality is open",
-        "url": "https://github.com/erich-friedman/erich-friedman.github.io/blob/59e60479c0febd62c06bbda31866a6bbbf7b56f1/packing/light/14.gif"
+        "source": "published by Satoshi Kishimoto and GPT-5.6 Sol Pro (July 2026) on Erich Friedman's page as 106.190+, meaning at least that much. The page gives figures and no coordinates; the configuration this site reconstructed from the pictured topology and symmetries verifies at 106.182892, which is the site's reference answer and not the record. Optimality is open",
+        "url": "https://erich-friedman.github.io/packing/light/"
       },
       "holder": "lird",
       "method": "human",
@@ -775,13 +776,13 @@
       "objective": "maximize",
       "scoreStored": "113186691",
       "scoreDisplay": "113.186691",
-      "status": "ahead",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "113.185559",
+        "display": "113.191",
         "kind": "best",
-        "source": "public pictured configuration by Satoshi Kishimoto and GPT-5.6 Sol Pro (July 2026), with continuous value 113.191+. The site reconstructed the pictured topology and symmetries; its nine-decimal certificate verifies at 113.185559; optimality is open",
-        "url": "https://github.com/erich-friedman/erich-friedman.github.io/blob/59e60479c0febd62c06bbda31866a6bbbf7b56f1/packing/light/15.gif"
+        "source": "published by Satoshi Kishimoto and GPT-5.6 Sol Pro (July 2026) on Erich Friedman's page as 113.191+, meaning at least that much. The page gives figures and no coordinates; the configuration this site reconstructed from the pictured topology and symmetries verifies at 113.185559, which is the site's reference answer and not the record. Optimality is open",
+        "url": "https://erich-friedman.github.io/packing/light/"
       },
       "holder": "lird",
       "method": "human",
@@ -861,13 +862,13 @@
       "objective": "maximize",
       "scoreStored": "124553236",
       "scoreDisplay": "124.553236",
-      "status": "ahead",
+      "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "124.55199",
+        "display": "124.553",
         "kind": "best",
-        "source": "public pictured configuration by Satoshi Kishimoto and GPT-5.6 Sol Pro (July 2026), with continuous value 124.553+. The site reconstructed the pictured topology and symmetries; its nine-decimal certificate verifies at 124.55199; optimality is open",
-        "url": "https://github.com/erich-friedman/erich-friedman.github.io/blob/59e60479c0febd62c06bbda31866a6bbbf7b56f1/packing/light/16.gif"
+        "source": "published by Satoshi Kishimoto and GPT-5.6 Sol Pro (July 2026) on Erich Friedman's page as 124.553+, meaning at least that much. The page gives figures and no coordinates; the configuration this site reconstructed from the pictured topology and symmetries verifies at 124.55199, which is the site's reference answer and not the record. Optimality is open",
+        "url": "https://erich-friedman.github.io/packing/light/"
       },
       "holder": "lird",
       "method": "human",
@@ -951,13 +952,13 @@
       "objective": "maximize",
       "scoreStored": "133900922",
       "scoreDisplay": "133.900922",
-      "status": "ahead",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "133.899583",
+        "display": "133.907",
         "kind": "best",
-        "source": "public pictured configuration by Satoshi Kishimoto and GPT-5.6 Sol Pro (July 2026), with continuous value 133.907+. The site reconstructed the pictured topology and symmetries; its nine-decimal certificate verifies at 133.899583; optimality is open",
-        "url": "https://github.com/erich-friedman/erich-friedman.github.io/blob/59e60479c0febd62c06bbda31866a6bbbf7b56f1/packing/light/17.gif"
+        "source": "published by Satoshi Kishimoto and GPT-5.6 Sol Pro (July 2026) on Erich Friedman's page as 133.907+, meaning at least that much. The page gives figures and no coordinates; the configuration this site reconstructed from the pictured topology and symmetries verifies at 133.899583, which is the site's reference answer and not the record. Optimality is open",
+        "url": "https://erich-friedman.github.io/packing/light/"
       },
       "holder": "lird",
       "method": "human",
@@ -1045,13 +1046,13 @@
       "objective": "maximize",
       "scoreStored": "141550583",
       "scoreDisplay": "141.550583",
-      "status": "ahead",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "141.549168",
+        "display": "141.556",
         "kind": "best",
-        "source": "public pictured configuration by Satoshi Kishimoto and GPT-5.6 Sol Pro (July 2026), with continuous value 141.556+. The site reconstructed the pictured topology and symmetries; its nine-decimal certificate verifies at 141.549168; optimality is open",
-        "url": "https://github.com/erich-friedman/erich-friedman.github.io/blob/59e60479c0febd62c06bbda31866a6bbbf7b56f1/packing/light/18.gif"
+        "source": "published by Satoshi Kishimoto and GPT-5.6 Sol Pro (July 2026) on Erich Friedman's page as 141.556+, meaning at least that much. The page gives figures and no coordinates; the configuration this site reconstructed from the pictured topology and symmetries verifies at 141.549168, which is the site's reference answer and not the record. Optimality is open",
+        "url": "https://erich-friedman.github.io/packing/light/"
       },
       "holder": "lird",
       "method": "human",
@@ -1143,13 +1144,13 @@
       "objective": "maximize",
       "scoreStored": "152838265",
       "scoreDisplay": "152.838265",
-      "status": "ahead",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "152.836737",
+        "display": "152.854",
         "kind": "best",
-        "source": "public pictured configuration by Satoshi Kishimoto and GPT-5.6 Sol Pro (July 2026), with continuous value 152.854+. The site reconstructed the pictured topology and symmetries; its nine-decimal certificate verifies at 152.836737; optimality is open",
-        "url": "https://github.com/erich-friedman/erich-friedman.github.io/blob/59e60479c0febd62c06bbda31866a6bbbf7b56f1/packing/light/19.gif"
+        "source": "published by Satoshi Kishimoto and GPT-5.6 Sol Pro (July 2026) on Erich Friedman's page as 152.854+, meaning at least that much. The page gives figures and no coordinates; the configuration this site reconstructed from the pictured topology and symmetries verifies at 152.836737, which is the site's reference answer and not the record. Optimality is open",
+        "url": "https://erich-friedman.github.io/packing/light/"
       },
       "holder": "lird",
       "method": "human",
@@ -1245,13 +1246,13 @@
       "objective": "maximize",
       "scoreStored": "165263135",
       "scoreDisplay": "165.263135",
-      "status": "ahead",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "165.261482",
+        "display": "165.272",
         "kind": "best",
-        "source": "public pictured configuration by Satoshi Kishimoto and GPT-5.6 Sol Pro (July 2026), with continuous value 165.272+. The site reconstructed the pictured topology and symmetries; its nine-decimal certificate verifies at 165.261482; optimality is open",
-        "url": "https://github.com/erich-friedman/erich-friedman.github.io/blob/59e60479c0febd62c06bbda31866a6bbbf7b56f1/packing/light/20.gif"
+        "source": "published by Satoshi Kishimoto and GPT-5.6 Sol Pro (July 2026) on Erich Friedman's page as 165.272+, meaning at least that much. The page gives figures and no coordinates; the configuration this site reconstructed from the pictured topology and symmetries verifies at 165.261482, which is the site's reference answer and not the record. Optimality is open",
+        "url": "https://erich-friedman.github.io/packing/light/"
       },
       "holder": "lird",
       "method": "human",
@@ -1351,13 +1352,13 @@
       "objective": "maximize",
       "scoreStored": "172656595",
       "scoreDisplay": "172.656595",
-      "status": "ahead",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "172.654869",
+        "display": "172.658",
         "kind": "best",
-        "source": "public pictured configuration by Satoshi Kishimoto and GPT-5.6 Sol Pro (July 2026), with continuous value 172.658+. The site reconstructed the pictured topology and symmetries; its nine-decimal certificate verifies at 172.654869; optimality is open",
-        "url": "https://github.com/erich-friedman/erich-friedman.github.io/blob/59e60479c0febd62c06bbda31866a6bbbf7b56f1/packing/light/21.gif"
+        "source": "published by Satoshi Kishimoto and GPT-5.6 Sol Pro (July 2026) on Erich Friedman's page as 172.658+, meaning at least that much. The page gives figures and no coordinates; the configuration this site reconstructed from the pictured topology and symmetries verifies at 172.654869, which is the site's reference answer and not the record. Optimality is open",
+        "url": "https://erich-friedman.github.io/packing/light/"
       },
       "holder": "lird",
       "method": "human",
@@ -1461,13 +1462,13 @@
       "objective": "maximize",
       "scoreStored": "195041262",
       "scoreDisplay": "195.041262",
-      "status": "ahead",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "195.039312",
+        "display": "195.050",
         "kind": "best",
-        "source": "public pictured configuration by Satoshi Kishimoto and GPT-5.6 Sol Pro (July 2026), with continuous value 195.050+. The site reconstructed the pictured topology and symmetries; its nine-decimal certificate verifies at 195.039312; optimality is open",
-        "url": "https://github.com/erich-friedman/erich-friedman.github.io/blob/59e60479c0febd62c06bbda31866a6bbbf7b56f1/packing/light/22.gif"
+        "source": "published by Satoshi Kishimoto and GPT-5.6 Sol Pro (July 2026) on Erich Friedman's page as 195.050+, meaning at least that much. The page gives figures and no coordinates; the configuration this site reconstructed from the pictured topology and symmetries verifies at 195.039312, which is the site's reference answer and not the record. Optimality is open",
+        "url": "https://erich-friedman.github.io/packing/light/"
       },
       "holder": "lird",
       "method": "human",
@@ -1575,13 +1576,13 @@
       "objective": "maximize",
       "scoreStored": "205746753",
       "scoreDisplay": "205.746753",
-      "status": "ahead",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "205.744696",
+        "display": "205.756",
         "kind": "best",
-        "source": "public pictured configuration by Satoshi Kishimoto and GPT-5.6 Sol Pro (July 2026), with continuous value 205.756+. The site reconstructed the pictured topology and symmetries; its nine-decimal certificate verifies at 205.744696; optimality is open",
-        "url": "https://github.com/erich-friedman/erich-friedman.github.io/blob/59e60479c0febd62c06bbda31866a6bbbf7b56f1/packing/light/23.gif"
+        "source": "published by Satoshi Kishimoto and GPT-5.6 Sol Pro (July 2026) on Erich Friedman's page as 205.756+, meaning at least that much. The page gives figures and no coordinates; the configuration this site reconstructed from the pictured topology and symmetries verifies at 205.744696, which is the site's reference answer and not the record. Optimality is open",
+        "url": "https://erich-friedman.github.io/packing/light/"
       },
       "holder": "lird",
       "method": "human",
@@ -1693,13 +1694,13 @@
       "objective": "maximize",
       "scoreStored": "215557311",
       "scoreDisplay": "215.557311",
-      "status": "ahead",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "215.555155",
+        "display": "215.573",
         "kind": "best",
-        "source": "public pictured configuration by Satoshi Kishimoto and GPT-5.6 Sol Pro (July 2026), with continuous value 215.573+. The site reconstructed the pictured topology and symmetries; its nine-decimal certificate verifies at 215.555155; optimality is open",
-        "url": "https://github.com/erich-friedman/erich-friedman.github.io/blob/59e60479c0febd62c06bbda31866a6bbbf7b56f1/packing/light/24.gif"
+        "source": "published by Satoshi Kishimoto and GPT-5.6 Sol Pro (July 2026) on Erich Friedman's page as 215.573+, meaning at least that much. The page gives figures and no coordinates; the configuration this site reconstructed from the pictured topology and symmetries verifies at 215.555155, which is the site's reference answer and not the record. Optimality is open",
+        "url": "https://erich-friedman.github.io/packing/light/"
       },
       "holder": "lird",
       "method": "human",
@@ -1815,13 +1816,13 @@
       "objective": "maximize",
       "scoreStored": "225087609",
       "scoreDisplay": "225.087609",
-      "status": "ahead",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "225.085358",
+        "display": "225.100",
         "kind": "best",
-        "source": "public pictured configuration by Satoshi Kishimoto and GPT-5.6 Sol Pro (July 2026), with continuous value 225.100+. The site reconstructed the pictured topology and symmetries; its nine-decimal certificate verifies at 225.085358; optimality is open",
-        "url": "https://github.com/erich-friedman/erich-friedman.github.io/blob/59e60479c0febd62c06bbda31866a6bbbf7b56f1/packing/light/25.gif"
+        "source": "published by Satoshi Kishimoto and GPT-5.6 Sol Pro (July 2026) on Erich Friedman's page as 225.100+, meaning at least that much. The page gives figures and no coordinates; the configuration this site reconstructed from the pictured topology and symmetries verifies at 225.085358, which is the site's reference answer and not the record. Optimality is open",
+        "url": "https://erich-friedman.github.io/packing/light/"
       },
       "holder": "lird",
       "method": "human",
@@ -1941,13 +1942,13 @@
       "objective": "maximize",
       "scoreStored": "234745113",
       "scoreDisplay": "234.745113",
-      "status": "ahead",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "234.742765",
+        "display": "234.759",
         "kind": "best",
-        "source": "public pictured configuration by Satoshi Kishimoto and GPT-5.6 Sol Pro (July 2026), with continuous value 234.759+. The site reconstructed the pictured topology and symmetries; its nine-decimal certificate verifies at 234.742765; optimality is open",
-        "url": "https://github.com/erich-friedman/erich-friedman.github.io/blob/59e60479c0febd62c06bbda31866a6bbbf7b56f1/packing/light/26.gif"
+        "source": "published by Satoshi Kishimoto and GPT-5.6 Sol Pro (July 2026) on Erich Friedman's page as 234.759+, meaning at least that much. The page gives figures and no coordinates; the configuration this site reconstructed from the pictured topology and symmetries verifies at 234.742765, which is the site's reference answer and not the record. Optimality is open",
+        "url": "https://erich-friedman.github.io/packing/light/"
       },
       "holder": "lird",
       "method": "human",
@@ -2071,13 +2072,13 @@
       "objective": "maximize",
       "scoreStored": "242041160",
       "scoreDisplay": "242.04116",
-      "status": "ahead",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "242.038739",
+        "display": "242.055",
         "kind": "best",
-        "source": "public pictured configuration by Satoshi Kishimoto and GPT-5.6 Sol Pro (July 2026), with continuous value 242.055+. The site reconstructed the pictured topology and symmetries; its nine-decimal certificate verifies at 242.038739; optimality is open",
-        "url": "https://github.com/erich-friedman/erich-friedman.github.io/blob/59e60479c0febd62c06bbda31866a6bbbf7b56f1/packing/light/27.gif"
+        "source": "published by Satoshi Kishimoto and GPT-5.6 Sol Pro (July 2026) on Erich Friedman's page as 242.055+, meaning at least that much. The page gives figures and no coordinates; the configuration this site reconstructed from the pictured topology and symmetries verifies at 242.038739, which is the site's reference answer and not the record. Optimality is open",
+        "url": "https://erich-friedman.github.io/packing/light/"
       },
       "holder": "lird",
       "method": "human",
@@ -2205,13 +2206,13 @@
       "objective": "maximize",
       "scoreStored": "252432493",
       "scoreDisplay": "252.432493",
-      "status": "ahead",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "252.429969",
+        "display": "252.447",
         "kind": "best",
-        "source": "public pictured configuration by Satoshi Kishimoto and GPT-5.6 Sol Pro (July 2026), with continuous value 252.447+. The site reconstructed the pictured topology and symmetries; its nine-decimal certificate verifies at 252.429969; optimality is open",
-        "url": "https://github.com/erich-friedman/erich-friedman.github.io/blob/59e60479c0febd62c06bbda31866a6bbbf7b56f1/packing/light/28.gif"
+        "source": "published by Satoshi Kishimoto and GPT-5.6 Sol Pro (July 2026) on Erich Friedman's page as 252.447+, meaning at least that much. The page gives figures and no coordinates; the configuration this site reconstructed from the pictured topology and symmetries verifies at 252.429969, which is the site's reference answer and not the record. Optimality is open",
+        "url": "https://erich-friedman.github.io/packing/light/"
       },
       "holder": "lird",
       "method": "human",
@@ -2343,13 +2344,13 @@
       "objective": "maximize",
       "scoreStored": "282856248",
       "scoreDisplay": "282.856248",
-      "status": "ahead",
+      "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "282.853419",
+        "display": "282.856",
         "kind": "best",
-        "source": "public pictured configuration by Shaoheng Lai and Codex (August 2026), with continuous value 282.856+. The site reconstructed the pictured topology and symmetries; its nine-decimal certificate verifies at 282.853419; optimality is open",
-        "url": "https://github.com/erich-friedman/erich-friedman.github.io/blob/59e60479c0febd62c06bbda31866a6bbbf7b56f1/packing/light/29.gif"
+        "source": "published by Shaoheng Lai and Codex (August 2026) on Erich Friedman's page as 282.856+, meaning at least that much. The page gives figures and no coordinates; the configuration this site reconstructed from the pictured topology and symmetries verifies at 282.853419, which is the site's reference answer and not the record. Optimality is open",
+        "url": "https://erich-friedman.github.io/packing/light/"
       },
       "holder": "lird",
       "method": "human",
@@ -2485,13 +2486,13 @@
       "objective": "maximize",
       "scoreStored": "285333303",
       "scoreDisplay": "285.333303",
-      "status": "ahead",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "285.33045",
+        "display": "285.345",
         "kind": "best",
-        "source": "public pictured configuration by Shaoheng Lai and Codex (August 2026), with continuous value 285.345+. The site reconstructed the pictured topology and symmetries; its nine-decimal certificate verifies at 285.33045; optimality is open",
-        "url": "https://github.com/erich-friedman/erich-friedman.github.io/blob/59e60479c0febd62c06bbda31866a6bbbf7b56f1/packing/light/30.gif"
+        "source": "published by Shaoheng Lai and Codex (August 2026) on Erich Friedman's page as 285.345+, meaning at least that much. The page gives figures and no coordinates; the configuration this site reconstructed from the pictured topology and symmetries verifies at 285.33045, which is the site's reference answer and not the record. Optimality is open",
+        "url": "https://erich-friedman.github.io/packing/light/"
       },
       "holder": "lird",
       "method": "human",
@@ -2631,13 +2632,13 @@
       "objective": "maximize",
       "scoreStored": "305291763",
       "scoreDisplay": "305.291763",
-      "status": "ahead",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "305.28871",
+        "display": "305.298",
         "kind": "best",
-        "source": "public pictured configuration by Shaoheng Lai and Codex (August 2026), with continuous value 305.298+. The site reconstructed the pictured topology and symmetries; its nine-decimal certificate verifies at 305.28871; optimality is open",
-        "url": "https://github.com/erich-friedman/erich-friedman.github.io/blob/59e60479c0febd62c06bbda31866a6bbbf7b56f1/packing/light/31.gif"
+        "source": "published by Shaoheng Lai and Codex (August 2026) on Erich Friedman's page as 305.298+, meaning at least that much. The page gives figures and no coordinates; the configuration this site reconstructed from the pictured topology and symmetries verifies at 305.28871, which is the site's reference answer and not the record. Optimality is open",
+        "url": "https://erich-friedman.github.io/packing/light/"
       },
       "holder": "lird",
       "method": "human",
@@ -2781,13 +2782,13 @@
       "objective": "maximize",
       "scoreStored": "317203248",
       "scoreDisplay": "317.203248",
-      "status": "ahead",
+      "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "317.200076",
+        "display": "317.203",
         "kind": "best",
-        "source": "public pictured configuration by Shaoheng Lai and Codex (August 2026), with continuous value 317.203+. The site reconstructed the pictured topology and symmetries; its nine-decimal certificate verifies at 317.200076; optimality is open",
-        "url": "https://github.com/erich-friedman/erich-friedman.github.io/blob/59e60479c0febd62c06bbda31866a6bbbf7b56f1/packing/light/32.gif"
+        "source": "published by Shaoheng Lai and Codex (August 2026) on Erich Friedman's page as 317.203+, meaning at least that much. The page gives figures and no coordinates; the configuration this site reconstructed from the pictured topology and symmetries verifies at 317.200076, which is the site's reference answer and not the record. Optimality is open",
+        "url": "https://erich-friedman.github.io/packing/light/"
       },
       "holder": "lird",
       "method": "human",
@@ -2935,13 +2936,13 @@
       "objective": "maximize",
       "scoreStored": "330595245",
       "scoreDisplay": "330.595245",
-      "status": "ahead",
+      "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "330.591939",
+        "display": "330.595",
         "kind": "best",
-        "source": "public pictured configuration by Shaoheng Lai and Codex (August 2026), with continuous value 330.595+. The site reconstructed the pictured topology and symmetries; its nine-decimal certificate verifies at 330.591939; optimality is open",
-        "url": "https://github.com/erich-friedman/erich-friedman.github.io/blob/59e60479c0febd62c06bbda31866a6bbbf7b56f1/packing/light/33.gif"
+        "source": "published by Shaoheng Lai and Codex (August 2026) on Erich Friedman's page as 330.595+, meaning at least that much. The page gives figures and no coordinates; the configuration this site reconstructed from the pictured topology and symmetries verifies at 330.591939, which is the site's reference answer and not the record. Optimality is open",
+        "url": "https://erich-friedman.github.io/packing/light/"
       },
       "holder": "lird",
       "method": "human",
@@ -3093,13 +3094,13 @@
       "objective": "maximize",
       "scoreStored": "337906226",
       "scoreDisplay": "337.906226",
-      "status": "ahead",
+      "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "337.902847",
+        "display": "337.906",
         "kind": "best",
-        "source": "public pictured configuration by Shaoheng Lai and Codex (August 2026), with continuous value 337.906+. The site reconstructed the pictured topology and symmetries; its nine-decimal certificate verifies at 337.902847; optimality is open",
-        "url": "https://github.com/erich-friedman/erich-friedman.github.io/blob/59e60479c0febd62c06bbda31866a6bbbf7b56f1/packing/light/34.gif"
+        "source": "published by Shaoheng Lai and Codex (August 2026) on Erich Friedman's page as 337.906+, meaning at least that much. The page gives figures and no coordinates; the configuration this site reconstructed from the pictured topology and symmetries verifies at 337.902847, which is the site's reference answer and not the record. Optimality is open",
+        "url": "https://erich-friedman.github.io/packing/light/"
       },
       "holder": "lird",
       "method": "human",
@@ -3255,13 +3256,13 @@
       "objective": "maximize",
       "scoreStored": "347195206",
       "scoreDisplay": "347.195206",
-      "status": "ahead",
+      "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "347.191734",
+        "display": "347.195",
         "kind": "best",
-        "source": "public pictured configuration by Shaoheng Lai and Codex (August 2026), with continuous value 347.195+. The site reconstructed the pictured topology and symmetries; its nine-decimal certificate verifies at 347.191734; optimality is open",
-        "url": "https://github.com/erich-friedman/erich-friedman.github.io/blob/59e60479c0febd62c06bbda31866a6bbbf7b56f1/packing/light/35.gif"
+        "source": "published by Shaoheng Lai and Codex (August 2026) on Erich Friedman's page as 347.195+, meaning at least that much. The page gives figures and no coordinates; the configuration this site reconstructed from the pictured topology and symmetries verifies at 347.191734, which is the site's reference answer and not the record. Optimality is open",
+        "url": "https://erich-friedman.github.io/packing/light/"
       },
       "holder": "lird",
       "method": "human",

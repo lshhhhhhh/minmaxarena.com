@@ -37,7 +37,7 @@ managed.
 
 ## The records
 
-46 problem families, 866 sub-problems, 786 still open.
+47 problem families, 875 sub-problems, 792 still open.
 `records/` holds today's snapshot of each family; the live files are at
 `https://minmaxarena.com/data/{slug}.json`, and the citable ones are the monthly frozen
 editions at `https://minmaxarena.com/data/editions/{YYYY-MM}/{slug}.json`, which never change
@@ -54,7 +54,7 @@ once published. Data is CC BY 4.0; see
 | [P06](https://minmaxarena.com/en/problems/graduated-circles-in-circle) | Packing circles of radius 1,2,…,n into a circle | 29 | 26 | [json](records/graduated-circles-in-circle.json) |
 | [P08](https://minmaxarena.com/en/problems/circles-in-an-l) | Equal circles in an L | 15 | 15 | [json](records/circles-in-an-l.json) |
 | [P09](https://minmaxarena.com/en/problems/circles-in-a-semicircle) | Equal circles in a half-disc | 14 | 14 | [json](records/circles-in-a-semicircle.json) |
-| [P10](https://minmaxarena.com/en/problems/circles-in-a-cross) | Equal circles in a plus sign | 16 | 16 | [json](records/circles-in-a-cross.json) |
+| [P10](https://minmaxarena.com/en/problems/circles-in-a-cross) | Equal circles in a plus sign | 16 | 13 | [json](records/circles-in-a-cross.json) |
 | [P11](https://minmaxarena.com/en/problems/circles-in-right-triangle) | Equal-circle packing in a right triangle | 11 | 11 | [json](records/circles-in-right-triangle.json) |
 | [P12](https://minmaxarena.com/en/problems/circles-in-rectangle) | Equal-circle packing in a 2:1 rectangle | 10 | 6 | [json](records/circles-in-rectangle.json) |
 | [P13](https://minmaxarena.com/en/problems/graduated-circles-in-square) | Packing circles of radius 1,2,…,n into a square | 29 | 26 | [json](records/graduated-circles-in-square.json) |
@@ -93,6 +93,7 @@ once published. Data is CC BY 4.0; see
 | [P66](https://minmaxarena.com/en/problems/unit-circles-in-minimum-area-triangle) | Unit circles in a minimum-area triangle | 47 | 47 | [json](records/unit-circles-in-minimum-area-triangle.json) |
 | [P67](https://minmaxarena.com/en/problems/variable-circles-in-fixed-perimeter-rectangle) | Variable-radius circles in a fixed-perimeter rectangle | 28 | 28 | [json](records/variable-circles-in-fixed-perimeter-rectangle.json) |
 | [P68](https://minmaxarena.com/en/problems/spherical-code-on-s2) | Spherical codes: maximize the minimum angle | 17 | 17 | [json](records/spherical-code-on-s2.json) |
+| [P70](https://minmaxarena.com/en/problems/probe-codebook) | Four-phase radar probe codebook | 9 | 9 | [json](records/probe-codebook.json) |
 <!-- records:end -->
 
 ## Problems the catalogue no longer offers

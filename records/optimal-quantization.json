@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/optimal-quantization",
-  "generatedAt": "2026-08-29T11:41:59.346Z",
+  "generatedAt": "2026-08-30T10:32:08.429Z",
   "instances": [
     {
       "instanceId": "p55-n6-v1",
@@ -21,16 +21,12 @@
       "objective": "minimize",
       "scoreStored": "29951010800595636",
       "scoreDisplay": "0.029951010800596",
-      "status": "matched",
+      "status": "open",
       "settled": false,
-      "knownBest": {
-        "display": "0.029951010800596",
-        "kind": "best",
-        "source": "our own offline search: Lloyd to convergence from 33 deterministic starts, won by seed 2, reproducible digit-for-digit via tools/p55-lloyd.ts; optimality unknown"
-      },
+      "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "recordedAt": "2026-08-30T05:48:59.999Z",
       "answer": {
         "points": [
           [
@@ -69,16 +65,12 @@
       "objective": "minimize",
       "scoreStored": "25322688865705942",
       "scoreDisplay": "0.025322688865706",
-      "status": "matched",
+      "status": "open",
       "settled": false,
-      "knownBest": {
-        "display": "0.025322688865706",
-        "kind": "best",
-        "source": "our own offline search: Lloyd to convergence from 33 deterministic starts, won by seed 9, reproducible digit-for-digit via tools/p55-lloyd.ts; optimality unknown"
-      },
+      "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "recordedAt": "2026-08-30T05:48:59.999Z",
       "answer": {
         "points": [
           [
@@ -121,16 +113,12 @@
       "objective": "minimize",
       "scoreStored": "21359097998395450",
       "scoreDisplay": "0.021359097998396",
-      "status": "matched",
+      "status": "open",
       "settled": false,
-      "knownBest": {
-        "display": "0.021359097998396",
-        "kind": "best",
-        "source": "our own offline search: Lloyd to convergence from 33 deterministic starts, won by seed 19, reproducible digit-for-digit via tools/p55-lloyd.ts; optimality unknown"
-      },
+      "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "recordedAt": "2026-08-30T05:48:59.999Z",
       "answer": {
         "points": [
           [
@@ -177,16 +165,12 @@
       "objective": "minimize",
       "scoreStored": "18518518518518519",
       "scoreDisplay": "0.018518518518519",
-      "status": "matched",
+      "status": "open",
       "settled": false,
-      "knownBest": {
-        "display": "0.018518518518519",
-        "kind": "best",
-        "source": "our own offline search: Lloyd to convergence from 33 deterministic starts, won by the grid start, reproducible digit-for-digit via tools/p55-lloyd.ts; optimality unknown"
-      },
+      "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "recordedAt": "2026-08-30T05:48:59.999Z",
       "answer": {
         "points": [
           [
@@ -237,16 +221,12 @@
       "objective": "minimize",
       "scoreStored": "16992964760620296",
       "scoreDisplay": "0.016992964760621",
-      "status": "matched",
+      "status": "open",
       "settled": false,
-      "knownBest": {
-        "display": "0.016992964760621",
-        "kind": "best",
-        "source": "our own offline search: Lloyd to convergence from 33 deterministic starts, won by seed 5, reproducible digit-for-digit via tools/p55-lloyd.ts; optimality unknown"
-      },
+      "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "recordedAt": "2026-08-30T05:48:59.999Z",
       "answer": {
         "points": [
           [
@@ -301,16 +281,12 @@
       "objective": "minimize",
       "scoreStored": "15553138716518716",
       "scoreDisplay": "0.015553138716519",
-      "status": "matched",
+      "status": "open",
       "settled": false,
-      "knownBest": {
-        "display": "0.015553138716519",
-        "kind": "best",
-        "source": "our own offline search: Lloyd to convergence from 33 deterministic starts, won by seed 9, reproducible digit-for-digit via tools/p55-lloyd.ts; optimality unknown"
-      },
+      "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "recordedAt": "2026-08-30T05:48:59.999Z",
       "answer": {
         "points": [
           [
@@ -369,16 +345,12 @@
       "objective": "minimize",
       "scoreStored": "14205377583045889",
       "scoreDisplay": "0.014205377583046",
-      "status": "matched",
+      "status": "open",
       "settled": false,
-      "knownBest": {
-        "display": "0.014205377583046",
-        "kind": "best",
-        "source": "our own offline search: Lloyd to convergence from 33 deterministic starts, won by seed 11, reproducible digit-for-digit via tools/p55-lloyd.ts; optimality unknown"
-      },
+      "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "recordedAt": "2026-08-30T05:48:59.999Z",
       "answer": {
         "points": [
           [
@@ -441,16 +413,12 @@
       "objective": "minimize",
       "scoreStored": "13164793813829627",
       "scoreDisplay": "0.013164793813830",
-      "status": "matched",
+      "status": "open",
       "settled": false,
-      "knownBest": {
-        "display": "0.013164793813830",
-        "kind": "best",
-        "source": "our own offline search: Lloyd to convergence from 33 deterministic starts, won by seed 3, reproducible digit-for-digit via tools/p55-lloyd.ts; optimality unknown"
-      },
+      "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "recordedAt": "2026-08-30T05:48:59.999Z",
       "answer": {
         "points": [
           [
@@ -517,16 +485,12 @@
       "objective": "minimize",
       "scoreStored": "12073292022842233",
       "scoreDisplay": "0.012073292022843",
-      "status": "matched",
+      "status": "open",
       "settled": false,
-      "knownBest": {
-        "display": "0.012073292022843",
-        "kind": "best",
-        "source": "our own offline search: Lloyd to convergence from 33 deterministic starts, won by seed 2, reproducible digit-for-digit via tools/p55-lloyd.ts; optimality unknown"
-      },
+      "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "recordedAt": "2026-08-30T05:48:59.999Z",
       "answer": {
         "points": [
           [
@@ -597,16 +561,12 @@
       "objective": "minimize",
       "scoreStored": "11168368317809307",
       "scoreDisplay": "0.011168368317810",
-      "status": "matched",
+      "status": "open",
       "settled": false,
-      "knownBest": {
-        "display": "0.011168368317810",
-        "kind": "best",
-        "source": "our own offline search: Lloyd to convergence from 33 deterministic starts, won by seed 16, reproducible digit-for-digit via tools/p55-lloyd.ts; optimality unknown"
-      },
+      "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "recordedAt": "2026-08-30T05:48:59.999Z",
       "answer": {
         "points": [
           [
@@ -681,16 +641,12 @@
       "objective": "minimize",
       "scoreStored": "10394191513669311",
       "scoreDisplay": "0.010394191513670",
-      "status": "matched",
+      "status": "open",
       "settled": false,
-      "knownBest": {
-        "display": "0.010394191513670",
-        "kind": "best",
-        "source": "our own offline search: Lloyd to convergence from 33 deterministic starts, won by seed 10, reproducible digit-for-digit via tools/p55-lloyd.ts; optimality unknown"
-      },
+      "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "recordedAt": "2026-08-30T05:48:59.999Z",
       "answer": {
         "points": [
           [
@@ -769,16 +725,12 @@
       "objective": "minimize",
       "scoreStored": "9868422277523164",
       "scoreDisplay": "0.009868422277524",
-      "status": "matched",
+      "status": "open",
       "settled": false,
-      "knownBest": {
-        "display": "0.009868422277524",
-        "kind": "best",
-        "source": "our own offline search: Lloyd to convergence from 33 deterministic starts, won by seed 21, reproducible digit-for-digit via tools/p55-lloyd.ts; optimality unknown"
-      },
+      "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "recordedAt": "2026-08-30T05:48:59.999Z",
       "answer": {
         "points": [
           [
@@ -861,16 +813,12 @@
       "objective": "minimize",
       "scoreStored": "9349882612348874",
       "scoreDisplay": "0.009349882612349",
-      "status": "matched",
+      "status": "open",
       "settled": false,
-      "knownBest": {
-        "display": "0.009349882612349",
-        "kind": "best",
-        "source": "our own offline search: Lloyd to convergence from 33 deterministic starts, won by seed 20, reproducible digit-for-digit via tools/p55-lloyd.ts; optimality unknown"
-      },
+      "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "recordedAt": "2026-08-30T05:48:59.999Z",
       "answer": {
         "points": [
           [
@@ -957,16 +905,12 @@
       "objective": "minimize",
       "scoreStored": "8851717018978761",
       "scoreDisplay": "0.008851717018979",
-      "status": "matched",
+      "status": "open",
       "settled": false,
-      "knownBest": {
-        "display": "0.008851717018979",
-        "kind": "best",
-        "source": "our own offline search: Lloyd to convergence from 33 deterministic starts, won by seed 30, reproducible digit-for-digit via tools/p55-lloyd.ts; optimality unknown"
-      },
+      "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "recordedAt": "2026-08-30T05:48:59.999Z",
       "answer": {
         "points": [
           [
@@ -1057,16 +1001,12 @@
       "objective": "minimize",
       "scoreStored": "8384274285158058",
       "scoreDisplay": "0.008384274285159",
-      "status": "matched",
+      "status": "open",
       "settled": false,
-      "knownBest": {
-        "display": "0.008384274285159",
-        "kind": "best",
-        "source": "our own offline search: Lloyd to convergence from 33 deterministic starts, won by seed 32, reproducible digit-for-digit via tools/p55-lloyd.ts; optimality unknown"
-      },
+      "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "recordedAt": "2026-08-30T05:48:59.999Z",
       "answer": {
         "points": [
           [
@@ -1161,16 +1101,12 @@
       "objective": "minimize",
       "scoreStored": "7976706012785375",
       "scoreDisplay": "0.007976706012786",
-      "status": "matched",
+      "status": "open",
       "settled": false,
-      "knownBest": {
-        "display": "0.007976706012786",
-        "kind": "best",
-        "source": "our own offline search: Lloyd to convergence from 33 deterministic starts, won by seed 28, reproducible digit-for-digit via tools/p55-lloyd.ts; optimality unknown"
-      },
+      "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "recordedAt": "2026-08-30T05:48:59.999Z",
       "answer": {
         "points": [
           [
@@ -1269,16 +1205,12 @@
       "objective": "minimize",
       "scoreStored": "7607706692920234",
       "scoreDisplay": "0.007607706692921",
-      "status": "matched",
+      "status": "open",
       "settled": false,
-      "knownBest": {
-        "display": "0.007607706692921",
-        "kind": "best",
-        "source": "our own offline search: Lloyd to convergence from 33 deterministic starts, won by seed 26, reproducible digit-for-digit via tools/p55-lloyd.ts; optimality unknown"
-      },
+      "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "recordedAt": "2026-08-30T05:48:59.999Z",
       "answer": {
         "points": [
           [
@@ -1381,16 +1313,12 @@
       "objective": "minimize",
       "scoreStored": "7218156525265356",
       "scoreDisplay": "0.007218156525266",
-      "status": "matched",
+      "status": "open",
       "settled": false,
-      "knownBest": {
-        "display": "0.007218156525266",
-        "kind": "best",
-        "source": "our own offline search: Lloyd to convergence from 33 deterministic starts, won by seed 22, reproducible digit-for-digit via tools/p55-lloyd.ts; optimality unknown"
-      },
+      "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "recordedAt": "2026-08-30T05:48:59.999Z",
       "answer": {
         "points": [
           [
@@ -1497,16 +1425,12 @@
       "objective": "minimize",
       "scoreStored": "6924372617235964",
       "scoreDisplay": "0.006924372617236",
-      "status": "matched",
+      "status": "open",
       "settled": false,
-      "knownBest": {
-        "display": "0.006924372617236",
-        "kind": "best",
-        "source": "our own offline search: Lloyd to convergence from 33 deterministic starts, won by seed 3, reproducible digit-for-digit via tools/p55-lloyd.ts; optimality unknown"
-      },
+      "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "recordedAt": "2026-08-30T05:48:59.999Z",
       "answer": {
         "points": [
           [
@@ -1617,16 +1541,12 @@
       "objective": "minimize",
       "scoreStored": "6626483934633293",
       "scoreDisplay": "0.006626483934634",
-      "status": "matched",
+      "status": "open",
       "settled": false,
-      "knownBest": {
-        "display": "0.006626483934634",
-        "kind": "best",
-        "source": "our own offline search: Lloyd to convergence from 33 deterministic starts, won by seed 14, reproducible digit-for-digit via tools/p55-lloyd.ts; optimality unknown"
-      },
+      "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "recordedAt": "2026-08-30T05:48:59.999Z",
       "answer": {
         "points": [
           [
@@ -1741,16 +1661,12 @@
       "objective": "minimize",
       "scoreStored": "6403292190752125",
       "scoreDisplay": "0.006403292190753",
-      "status": "matched",
+      "status": "open",
       "settled": false,
-      "knownBest": {
-        "display": "0.006403292190753",
-        "kind": "best",
-        "source": "our own offline search: Lloyd to convergence from 33 deterministic starts, won by seed 20, reproducible digit-for-digit via tools/p55-lloyd.ts; optimality unknown"
-      },
+      "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "recordedAt": "2026-08-30T05:48:59.999Z",
       "answer": {
         "points": [
           [
@@ -1869,16 +1785,12 @@
       "objective": "minimize",
       "scoreStored": "6174099571816188",
       "scoreDisplay": "0.006174099571817",
-      "status": "matched",
+      "status": "open",
       "settled": false,
-      "knownBest": {
-        "display": "0.006174099571817",
-        "kind": "best",
-        "source": "our own offline search: Lloyd to convergence from 33 deterministic starts, won by seed 11, reproducible digit-for-digit via tools/p55-lloyd.ts; optimality unknown"
-      },
+      "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "recordedAt": "2026-08-30T05:48:59.999Z",
       "answer": {
         "points": [
           [
@@ -2001,16 +1913,12 @@
       "objective": "minimize",
       "scoreStored": "5944552051572923",
       "scoreDisplay": "0.005944552051573",
-      "status": "matched",
+      "status": "open",
       "settled": false,
-      "knownBest": {
-        "display": "0.005944552051573",
-        "kind": "best",
-        "source": "our own offline search: Lloyd to convergence from 33 deterministic starts, won by seed 23, reproducible digit-for-digit via tools/p55-lloyd.ts; optimality unknown"
-      },
+      "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "recordedAt": "2026-08-30T05:48:59.999Z",
       "answer": {
         "points": [
           [
@@ -2137,16 +2045,12 @@
       "objective": "minimize",
       "scoreStored": "5737979655504036",
       "scoreDisplay": "0.005737979655505",
-      "status": "matched",
+      "status": "open",
       "settled": false,
-      "knownBest": {
-        "display": "0.005737979655505",
-        "kind": "best",
-        "source": "our own offline search: Lloyd to convergence from 33 deterministic starts, won by seed 16, reproducible digit-for-digit via tools/p55-lloyd.ts; optimality unknown"
-      },
+      "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "recordedAt": "2026-08-30T05:48:59.999Z",
       "answer": {
         "points": [
           [
@@ -2277,16 +2181,12 @@
       "objective": "minimize",
       "scoreStored": "5545370492275677",
       "scoreDisplay": "0.005545370492276",
-      "status": "matched",
+      "status": "open",
       "settled": false,
-      "knownBest": {
-        "display": "0.005545370492276",
-        "kind": "best",
-        "source": "our own offline search: Lloyd to convergence from 33 deterministic starts, won by seed 9, reproducible digit-for-digit via tools/p55-lloyd.ts; optimality unknown"
-      },
+      "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "recordedAt": "2026-08-30T05:48:59.999Z",
       "answer": {
         "points": [
           [

@@ -1,0 +1,268 @@
+{
+  "problem": "probe-codebook",
+  "code": "P70",
+  "title": "四相雷达探测码本",
+  "titleEn": "Four-phase radar probe codebook",
+  "objective": "minimize",
+  "scoreLabel": "峰值模平方 · 并列数 · 总能量",
+  "scoreLabelEn": "peak² · ties · total energy",
+  "verifierVersion": "1.0.0",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseName": "CC BY 4.0",
+  "source": "https://minmaxarena.com/problems/probe-codebook",
+  "generatedAt": "2026-08-30T10:32:10.305Z",
+  "instances": [
+    {
+      "instanceId": "p70-n9-v1",
+      "name": "n = 9",
+      "parameters": {
+        "transmitters": 5,
+        "n": 9,
+        "alphabet": "QPSK",
+        "correlation": "aperiodic"
+      },
+      "objective": "minimize",
+      "scoreStored": "72125350",
+      "scoreDisplay": "10 · 10 · 830",
+      "status": "open",
+      "settled": false,
+      "knownBest": null,
+      "holder": "SneakyZero",
+      "method": "ai",
+      "recordedAt": "2026-08-30T10:25:54.078Z",
+      "answer": {
+        "sequences": [
+          "000001202",
+          "032111300",
+          "020130103",
+          "021313331",
+          "022000121"
+        ]
+      }
+    },
+    {
+      "instanceId": "p70-n13-v1",
+      "name": "n = 13",
+      "parameters": {
+        "transmitters": 5,
+        "n": 13,
+        "alphabet": "QPSK",
+        "correlation": "aperiodic"
+      },
+      "objective": "minimize",
+      "scoreStored": "554921916",
+      "scoreDisplay": "17 · 9 · 1740",
+      "status": "open",
+      "settled": false,
+      "knownBest": null,
+      "holder": "SneakyZero",
+      "method": "ai",
+      "recordedAt": "2026-08-30T09:59:49.258Z",
+      "answer": {
+        "sequences": [
+          "0023112222310",
+          "0223331223020",
+          "0323221131102",
+          "0131210132112",
+          "0031022320333"
+        ]
+      }
+    },
+    {
+      "instanceId": "p70-n17-v1",
+      "name": "n = 17",
+      "parameters": {
+        "transmitters": 5,
+        "n": 17,
+        "alphabet": "QPSK",
+        "correlation": "aperiodic"
+      },
+      "objective": "minimize",
+      "scoreStored": "2532618969",
+      "scoreDisplay": "26 · 1 · 3022",
+      "status": "open",
+      "settled": false,
+      "knownBest": null,
+      "holder": "Tmrg",
+      "method": "human",
+      "recordedAt": "2026-08-30T10:23:13.127Z",
+      "answer": {
+        "sequences": [
+          "02113210300223101",
+          "00011131121231013",
+          "01201000321112032",
+          "00223023231310211",
+          "01210301100233332"
+        ]
+      }
+    },
+    {
+      "instanceId": "p70-n21-v1",
+      "name": "n = 21",
+      "parameters": {
+        "transmitters": 5,
+        "n": 21,
+        "alphabet": "QPSK",
+        "correlation": "aperiodic"
+      },
+      "objective": "minimize",
+      "scoreStored": "9425104153",
+      "scoreDisplay": "41 · 2 · 4740",
+      "status": "open",
+      "settled": false,
+      "knownBest": null,
+      "holder": "bowen2147483647",
+      "method": "human",
+      "recordedAt": "2026-08-30T06:03:08.438Z",
+      "answer": {
+        "sequences": [
+          "032023022220002220200",
+          "021200000010202202202",
+          "020002203222020200032",
+          "033201100120012121200",
+          "030002002003303300122"
+        ]
+      }
+    },
+    {
+      "instanceId": "p70-n25-v1",
+      "name": "n = 25",
+      "parameters": {
+        "transmitters": 5,
+        "n": 25,
+        "alphabet": "QPSK",
+        "correlation": "aperiodic"
+      },
+      "objective": "minimize",
+      "scoreStored": "82928864451",
+      "scoreDisplay": "178 · 1 · 18192",
+      "status": "open",
+      "settled": false,
+      "knownBest": null,
+      "holder": "bowen2147483647",
+      "method": "human",
+      "recordedAt": "2026-08-30T08:50:48.754Z",
+      "answer": {
+        "sequences": [
+          "0110001000100101000111001",
+          "0201030001001001300101032",
+          "0300010310201012000110011",
+          "0110110110112200110201001",
+          "0011120010000030102010010"
+        ]
+      }
+    },
+    {
+      "instanceId": "p70-n29-v1",
+      "name": "n = 29",
+      "parameters": {
+        "transmitters": 5,
+        "n": 29,
+        "alphabet": "QPSK",
+        "correlation": "aperiodic"
+      },
+      "objective": "minimize",
+      "scoreStored": "72175144853",
+      "scoreDisplay": "85 · 2 · 10276",
+      "status": "open",
+      "settled": false,
+      "knownBest": null,
+      "holder": "bowen2147483647",
+      "method": "human",
+      "recordedAt": "2026-08-30T10:22:19.950Z",
+      "answer": {
+        "sequences": [
+          "02201223120322312302130321012",
+          "02020000100210000002231001200",
+          "02200103000301022001023321330",
+          "02021013030311120202103321132",
+          "02200100303001020201002132212"
+        ]
+      }
+    },
+    {
+      "instanceId": "p70-n33-v1",
+      "name": "n = 33",
+      "parameters": {
+        "transmitters": 5,
+        "n": 33,
+        "alphabet": "QPSK",
+        "correlation": "aperiodic"
+      },
+      "objective": "minimize",
+      "scoreStored": "367704733974",
+      "scoreDisplay": "257 · 1 · 16506",
+      "status": "open",
+      "settled": false,
+      "knownBest": null,
+      "holder": "NUE_13",
+      "method": "human",
+      "recordedAt": "2026-08-30T09:36:14.077Z",
+      "answer": {
+        "sequences": [
+          "032012102301111020030100210031222",
+          "011012102101020200201110131233233",
+          "013110220131211003302100110012111",
+          "020210200101000220200100001001022",
+          "010030011031111011101110110021102"
+        ]
+      }
+    },
+    {
+      "instanceId": "p70-n37-v1",
+      "name": "n = 37",
+      "parameters": {
+        "transmitters": 5,
+        "n": 37,
+        "alphabet": "QPSK",
+        "correlation": "aperiodic"
+      },
+      "objective": "minimize",
+      "scoreStored": "583353884422",
+      "scoreDisplay": "257 · 3 · 24892",
+      "status": "open",
+      "settled": false,
+      "knownBest": null,
+      "holder": "bowen2147483647",
+      "method": "human",
+      "recordedAt": "2026-08-30T05:56:59.497Z",
+      "answer": {
+        "sequences": [
+          "0101022203000100002003020111111111113",
+          "0101020003000100020203022212100122001",
+          "0111022003000100020203011020020330020",
+          "0101020003000100020200030031302010212",
+          "0101022203330111002003002333333333333"
+        ]
+      }
+    },
+    {
+      "instanceId": "p70-n73-v1",
+      "name": "n = 73",
+      "parameters": {
+        "transmitters": 5,
+        "n": 73,
+        "alphabet": "QPSK",
+        "correlation": "aperiodic"
+      },
+      "objective": "minimize",
+      "scoreStored": "10131468969744",
+      "scoreDisplay": "290 · 2 · 76392",
+      "status": "open",
+      "settled": false,
+      "knownBest": null,
+      "holder": "bowen2147483647",
+      "method": "human",
+      "recordedAt": "2026-08-30T09:14:50.022Z",
+      "answer": {
+        "sequences": [
+          "0103131021302232013021210300110032100010003100300020001221003002010101000",
+          "0223302311303112311211321201303121313311000020000110020302020001200101010",
+          "0313223333231332011131002331011312013112302101110011010011101100102222002",
+          "0111023222011302100323130101103011101012110301021020002003011001020000012",
+          "0323111202311011012302312013212030003030302010020000100032233132022010002"
+        ]
+      }
+    }
+  ]
+}

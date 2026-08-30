@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/riesz-energy-in-a-disc",
-  "generatedAt": "2026-08-29T11:41:59.156Z",
+  "generatedAt": "2026-08-30T10:32:07.659Z",
   "instances": [
     {
       "instanceId": "p34-n9-v2",
@@ -21,13 +21,9 @@
       "objective": "minimize",
       "scoreStored": "29000000040",
       "scoreDisplay": "29.00000004",
-      "status": "matched",
+      "status": "open",
       "settled": false,
-      "knownBest": {
-        "display": "29.00000004",
-        "kind": "best",
-        "source": "MinMax Arena construction: the centre plus a regular octagon, with ideal energy E = 29; the displayed value is the verifier-exact score of the nine-decimal certificate, and global optimality is not proved"
-      },
+      "knownBest": null,
       "holder": "lird",
       "method": "human",
       "recordedAt": "2026-08-26T06:39:12.691Z",
@@ -81,16 +77,12 @@
       "objective": "minimize",
       "scoreStored": "39000000173",
       "scoreDisplay": "39.000000173",
-      "status": "matched",
+      "status": "open",
       "settled": false,
-      "knownBest": {
-        "display": "39.000000173",
-        "kind": "best",
-        "source": "MinMax Arena construction: the centre plus a regular nonagon, with ideal energy E = 39; the displayed value is the verifier-exact score of the nine-decimal certificate, and global optimality is not proved"
-      },
+      "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "recordedAt": "2026-08-30T05:48:59.999Z",
       "answer": {
         "points": [
           [
@@ -145,16 +137,12 @@
       "objective": "minimize",
       "scoreStored": "51250000245",
       "scoreDisplay": "51.250000245",
-      "status": "matched",
+      "status": "open",
       "settled": false,
-      "knownBest": {
-        "display": "51.250000245",
-        "kind": "best",
-        "source": "MinMax Arena construction: the centre plus a regular decagon, with ideal energy E = 51.25; the displayed value is the verifier-exact score of the nine-decimal certificate, and global optimality is not proved"
-      },
+      "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "recordedAt": "2026-08-30T05:48:59.999Z",
       "answer": {
         "points": [
           [
@@ -213,16 +201,12 @@
       "objective": "minimize",
       "scoreStored": "65939960446",
       "scoreDisplay": "65.939960446",
-      "status": "matched",
+      "status": "open",
       "settled": false,
-      "knownBest": {
-        "display": "65.939960446",
-        "kind": "best",
-        "source": "MinMax Arena offline multi-start numerical search; the displayed value is the verifier-exact score of the certificate shipped with the repository, and global optimality is not proved"
-      },
+      "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "recordedAt": "2026-08-30T05:48:59.999Z",
       "answer": {
         "points": [
           [
@@ -285,16 +269,12 @@
       "objective": "minimize",
       "scoreStored": "81915407977",
       "scoreDisplay": "81.915407977",
-      "status": "matched",
+      "status": "open",
       "settled": false,
-      "knownBest": {
-        "display": "81.915407977",
-        "kind": "best",
-        "source": "MinMax Arena offline multi-start numerical search; the displayed value is the verifier-exact score of the certificate shipped with the repository, and global optimality is not proved"
-      },
+      "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "recordedAt": "2026-08-30T05:48:59.999Z",
       "answer": {
         "points": [
           [
@@ -361,16 +341,12 @@
       "objective": "minimize",
       "scoreStored": "100464144631",
       "scoreDisplay": "100.464144631",
-      "status": "matched",
+      "status": "open",
       "settled": false,
-      "knownBest": {
-        "display": "100.464144631",
-        "kind": "best",
-        "source": "MinMax Arena offline multi-start numerical search; the displayed value is the verifier-exact score of the certificate shipped with the repository, and global optimality is not proved"
-      },
+      "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "recordedAt": "2026-08-30T05:48:59.999Z",
       "answer": {
         "points": [
           [
@@ -441,16 +417,12 @@
       "objective": "minimize",
       "scoreStored": "120479390934",
       "scoreDisplay": "120.479390934",
-      "status": "matched",
+      "status": "open",
       "settled": false,
-      "knownBest": {
-        "display": "120.479390934",
-        "kind": "best",
-        "source": "MinMax Arena offline multi-start numerical search; the displayed value is the verifier-exact score of the certificate shipped with the repository, and global optimality is not proved"
-      },
+      "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "recordedAt": "2026-08-30T05:48:59.999Z",
       "answer": {
         "points": [
           [
@@ -525,16 +497,12 @@
       "objective": "minimize",
       "scoreStored": "143475297130",
       "scoreDisplay": "143.47529713",
-      "status": "matched",
+      "status": "open",
       "settled": false,
-      "knownBest": {
-        "display": "143.47529713",
-        "kind": "best",
-        "source": "MinMax Arena offline multi-start numerical search; the displayed value is the verifier-exact score of the certificate shipped with the repository, and global optimality is not proved"
-      },
+      "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "recordedAt": "2026-08-30T05:48:59.999Z",
       "answer": {
         "points": [
           [
@@ -613,16 +581,12 @@
       "objective": "minimize",
       "scoreStored": "169728870935",
       "scoreDisplay": "169.728870935",
-      "status": "matched",
+      "status": "open",
       "settled": false,
-      "knownBest": {
-        "display": "169.728870935",
-        "kind": "best",
-        "source": "MinMax Arena offline multi-start numerical search; the displayed value is the verifier-exact score of the certificate shipped with the repository, and global optimality is not proved"
-      },
+      "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "recordedAt": "2026-08-30T05:48:59.999Z",
       "answer": {
         "points": [
           [
@@ -705,16 +669,12 @@
       "objective": "minimize",
       "scoreStored": "195916119634",
       "scoreDisplay": "195.916119634",
-      "status": "matched",
+      "status": "open",
       "settled": false,
-      "knownBest": {
-        "display": "195.916119634",
-        "kind": "best",
-        "source": "MinMax Arena offline multi-start numerical search; the displayed value is the verifier-exact score of the certificate shipped with the repository, and global optimality is not proved"
-      },
+      "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "recordedAt": "2026-08-30T05:48:59.999Z",
       "answer": {
         "points": [
           [
@@ -801,16 +761,12 @@
       "objective": "minimize",
       "scoreStored": "226994264660",
       "scoreDisplay": "226.99426466",
-      "status": "matched",
+      "status": "open",
       "settled": false,
-      "knownBest": {
-        "display": "226.99426466",
-        "kind": "best",
-        "source": "MinMax Arena offline multi-start numerical search; the displayed value is the verifier-exact score of the certificate shipped with the repository, and global optimality is not proved"
-      },
+      "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "recordedAt": "2026-08-30T05:48:59.999Z",
       "answer": {
         "points": [
           [
@@ -901,16 +857,12 @@
       "objective": "minimize",
       "scoreStored": "258804179340",
       "scoreDisplay": "258.80417934",
-      "status": "matched",
+      "status": "open",
       "settled": false,
-      "knownBest": {
-        "display": "258.80417934",
-        "kind": "best",
-        "source": "MinMax Arena offline multi-start numerical search; the displayed value is the verifier-exact score of the certificate shipped with the repository, and global optimality is not proved"
-      },
+      "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "recordedAt": "2026-08-30T05:48:59.999Z",
       "answer": {
         "points": [
           [
@@ -1005,16 +957,12 @@
       "objective": "minimize",
       "scoreStored": "294730921053",
       "scoreDisplay": "294.730921053",
-      "status": "matched",
+      "status": "open",
       "settled": false,
-      "knownBest": {
-        "display": "294.730921053",
-        "kind": "best",
-        "source": "MinMax Arena offline multi-start numerical search; the displayed value is the verifier-exact score of the certificate shipped with the repository, and global optimality is not proved"
-      },
+      "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "recordedAt": "2026-08-30T05:48:59.999Z",
       "answer": {
         "points": [
           [
@@ -1113,16 +1061,12 @@
       "objective": "minimize",
       "scoreStored": "332844374460",
       "scoreDisplay": "332.84437446",
-      "status": "matched",
+      "status": "open",
       "settled": false,
-      "knownBest": {
-        "display": "332.84437446",
-        "kind": "best",
-        "source": "MinMax Arena offline multi-start numerical search; the displayed value is the verifier-exact score of the certificate shipped with the repository, and global optimality is not proved"
-      },
+      "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "recordedAt": "2026-08-30T05:48:59.999Z",
       "answer": {
         "points": [
           [
@@ -1225,16 +1169,12 @@
       "objective": "minimize",
       "scoreStored": "374932327387",
       "scoreDisplay": "374.932327387",
-      "status": "matched",
+      "status": "open",
       "settled": false,
-      "knownBest": {
-        "display": "374.932327387",
-        "kind": "best",
-        "source": "MinMax Arena offline multi-start numerical search; the displayed value is the verifier-exact score of the certificate shipped with the repository, and global optimality is not proved"
-      },
+      "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "recordedAt": "2026-08-30T05:48:59.999Z",
       "answer": {
         "points": [
           [
@@ -1341,16 +1281,12 @@
       "objective": "minimize",
       "scoreStored": "415981130962",
       "scoreDisplay": "415.981130962",
-      "status": "matched",
+      "status": "open",
       "settled": false,
-      "knownBest": {
-        "display": "415.981130962",
-        "kind": "best",
-        "source": "MinMax Arena offline multi-start numerical search; the displayed value is the verifier-exact score of the certificate shipped with the repository, and global optimality is not proved"
-      },
+      "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T09:08:51.763Z",
+      "recordedAt": "2026-08-30T05:48:59.999Z",
       "answer": {
         "points": [
           [
