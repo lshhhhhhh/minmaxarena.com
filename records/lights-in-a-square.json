@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/lights-in-a-square",
-  "generatedAt": "2026-08-30T10:32:07.908Z",
+  "generatedAt": "2026-08-31T11:40:36.199Z",
   "instances": [
     {
       "instanceId": "p51-n2-v1",
@@ -134,8 +134,8 @@
         "n": 5
       },
       "objective": "maximize",
-      "scoreStored": "22237716",
-      "scoreDisplay": "22.237716",
+      "scoreStored": "22241539",
+      "scoreDisplay": "22.241539",
       "status": "ahead",
       "settled": false,
       "knownBest": {
@@ -144,31 +144,31 @@
         "source": "published by Erich Friedman (August 2026) on Erich Friedman's page as 22.213+, meaning at least that much. The page gives figures and no coordinates; the configuration this site reconstructed from the pictured topology and symmetries verifies at 22.212249, which is the site's reference answer and not the record. Optimality is open",
         "url": "https://erich-friedman.github.io/packing/light/"
       },
-      "holder": "Cphysics",
+      "holder": "NUE_13",
       "method": "human",
-      "recordedAt": "2026-08-29T12:50:37.002Z",
+      "recordedAt": "2026-08-30T13:19:35.471Z",
       "answer": {
-        "intensity": "22.237716",
+        "intensity": "22.241539",
         "lights": [
           [
-            "0.754377794",
-            "0.952669975"
+            "0.754237794",
+            "0.952389975"
           ],
           [
-            "0.140374894",
-            "0.803027965"
+            "0.140204894",
+            "0.802957965"
           ],
           [
-            "0.758193506",
-            "0.500000000"
+            "0.758213506",
+            "0.499989236"
           ],
           [
-            "0.140374894",
-            "0.196972035"
+            "0.140364894",
+            "0.196952035"
           ],
           [
-            "0.754377794",
-            "0.047330025"
+            "0.754337794",
+            "0.047870025"
           ]
         ]
       }
@@ -692,8 +692,8 @@
         "n": 14
       },
       "objective": "maximize",
-      "scoreStored": "106183954",
-      "scoreDisplay": "106.183954",
+      "scoreStored": "106184330",
+      "scoreDisplay": "106.18433",
       "status": "open",
       "settled": false,
       "knownBest": {
@@ -702,19 +702,19 @@
         "source": "published by Satoshi Kishimoto and GPT-5.6 Sol Pro (July 2026) on Erich Friedman's page as 106.190+, meaning at least that much. The page gives figures and no coordinates; the configuration this site reconstructed from the pictured topology and symmetries verifies at 106.182892, which is the site's reference answer and not the record. Optimality is open",
         "url": "https://erich-friedman.github.io/packing/light/"
       },
-      "holder": "lird",
+      "holder": "Cphysics",
       "method": "human",
-      "recordedAt": "2026-08-29T09:32:49.408Z",
+      "recordedAt": "2026-08-30T16:03:25.675Z",
       "answer": {
-        "intensity": "106.183954",
+        "intensity": "106.184330",
         "lights": [
           [
-            "0.350142782",
-            "0.926907669"
+            "0.350172782",
+            "0.926897669"
           ],
           [
             "0.649857218",
-            "0.926907669"
+            "0.926897669"
           ],
           [
             "0.072454686",
@@ -734,7 +734,7 @@
           ],
           [
             "0.500000000",
-            "0.608963069"
+            "0.608923069"
           ],
           [
             "0.500000000",

@@ -1,16 +1,16 @@
 {
   "problem": "worst-projection",
   "code": "P62",
-  "title": "最坏二维投影下的均匀采样",
-  "titleEn": "Uniformity under the worst 2D projection",
+  "title": "任意两列都均匀的采样设计",
+  "titleEn": "A sampling design uniform in every pair of columns",
   "objective": "minimize",
-  "scoreLabel": "最坏投影的 L2 星偏差",
-  "scoreLabelEn": "the worst projection's L2-star discrepancy",
+  "scoreLabel": "最差两列的均匀性误差",
+  "scoreLabelEn": "the least-uniform pair's discrepancy",
   "verifierVersion": "1.0.0",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/worst-projection",
-  "generatedAt": "2026-08-30T10:32:09.325Z",
+  "generatedAt": "2026-08-31T11:40:37.306Z",
   "instances": [
     {
       "instanceId": "p62-d4-n16-v1",
@@ -27,7 +27,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-30T05:48:59.999Z",
+      "recordedAt": "2026-08-31T04:58:03.529Z",
       "answer": {
         "points": [
           [
@@ -144,7 +144,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-30T05:48:59.999Z",
+      "recordedAt": "2026-08-31T04:58:03.529Z",
       "answer": {
         "points": [
           [
@@ -309,7 +309,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-30T05:48:59.999Z",
+      "recordedAt": "2026-08-31T04:58:03.529Z",
       "answer": {
         "points": [
           [
@@ -522,7 +522,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-30T05:48:59.999Z",
+      "recordedAt": "2026-08-31T04:58:03.529Z",
       "answer": {
         "points": [
           [
@@ -671,7 +671,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-30T05:48:59.999Z",
+      "recordedAt": "2026-08-31T04:58:03.529Z",
       "answer": {
         "points": [
           [
@@ -884,7 +884,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-30T05:48:59.999Z",
+      "recordedAt": "2026-08-31T04:58:03.529Z",
       "answer": {
         "points": [
           [
@@ -1161,7 +1161,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-30T05:48:59.999Z",
+      "recordedAt": "2026-08-31T04:58:03.529Z",
       "answer": {
         "points": [
           [
@@ -1342,7 +1342,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-30T05:48:59.999Z",
+      "recordedAt": "2026-08-31T04:58:03.529Z",
       "answer": {
         "points": [
           [
@@ -1603,7 +1603,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-30T05:48:59.999Z",
+      "recordedAt": "2026-08-31T04:58:03.529Z",
       "answer": {
         "points": [
           [

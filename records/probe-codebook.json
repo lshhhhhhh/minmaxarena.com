@@ -4,13 +4,13 @@
   "title": "四相雷达探测码本",
   "titleEn": "Four-phase radar probe codebook",
   "objective": "minimize",
-  "scoreLabel": "峰值模平方 · 并列数 · 总能量",
-  "scoreLabelEn": "peak² · ties · total energy",
+  "scoreLabel": "峰值模平方 / 并列数 / 总能量（字典序）",
+  "scoreLabelEn": "peak² / ties / total energy (lexicographic)",
   "verifierVersion": "1.0.0",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/probe-codebook",
-  "generatedAt": "2026-08-30T10:32:10.305Z",
+  "generatedAt": "2026-08-31T11:40:38.021Z",
   "instances": [
     {
       "instanceId": "p70-n9-v1",
@@ -22,21 +22,26 @@
         "correlation": "aperiodic"
       },
       "objective": "minimize",
-      "scoreStored": "72125350",
-      "scoreDisplay": "10 · 10 · 830",
-      "status": "open",
-      "settled": false,
-      "knownBest": null,
-      "holder": "SneakyZero",
-      "method": "ai",
-      "recordedAt": "2026-08-30T10:25:54.078Z",
+      "scoreStored": "71853198",
+      "scoreDisplay": "10 · 2 · 846",
+      "status": "proven",
+      "settled": true,
+      "knownBest": {
+        "display": "10 · 2 · 846",
+        "kind": "proven",
+        "source": "optimum settled by computer-assisted exhaustive search (MinMax Arena, 2026)",
+        "url": "https://minmaxarena.com/proofs/probe-codebook-n9"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-08-31T04:58:03.529Z",
       "answer": {
         "sequences": [
-          "000001202",
-          "032111300",
-          "020130103",
-          "021313331",
-          "022000121"
+          "000212332",
+          "020030132",
+          "022010310",
+          "002232110",
+          "010101210"
         ]
       }
     },
@@ -50,21 +55,21 @@
         "correlation": "aperiodic"
       },
       "objective": "minimize",
-      "scoreStored": "554921916",
-      "scoreDisplay": "17 · 9 · 1740",
+      "scoreStored": "554398063",
+      "scoreDisplay": "17 · 4 · 1792",
       "status": "open",
       "settled": false,
       "knownBest": null,
-      "holder": "SneakyZero",
+      "holder": "Tmrg",
       "method": "ai",
-      "recordedAt": "2026-08-30T09:59:49.258Z",
+      "recordedAt": "2026-08-31T05:16:43.074Z",
       "answer": {
         "sequences": [
-          "0023112222310",
-          "0223331223020",
-          "0323221131102",
-          "0131210132112",
-          "0031022320333"
+          "0022200200002",
+          "0023231123230",
+          "0021213321210",
+          "0233233121323",
+          "0211211323121"
         ]
       }
     },
@@ -78,21 +83,21 @@
         "correlation": "aperiodic"
       },
       "objective": "minimize",
-      "scoreStored": "2532618969",
-      "scoreDisplay": "26 · 1 · 3022",
+      "scoreStored": "1953200404",
+      "scoreDisplay": "20 · 22 · 3002",
       "status": "open",
       "settled": false,
       "knownBest": null,
       "holder": "Tmrg",
-      "method": "human",
-      "recordedAt": "2026-08-30T10:23:13.127Z",
+      "method": "ai",
+      "recordedAt": "2026-08-31T05:17:37.670Z",
       "answer": {
         "sequences": [
-          "02113210300223101",
-          "00011131121231013",
-          "01201000321112032",
-          "00223023231310211",
-          "01210301100233332"
+          "02222000020002020",
+          "03030223113022032",
+          "01010221331022012",
+          "02331010003300122",
+          "02113030001100322"
         ]
       }
     },
@@ -106,21 +111,21 @@
         "correlation": "aperiodic"
       },
       "objective": "minimize",
-      "scoreStored": "9425104153",
-      "scoreDisplay": "41 · 2 · 4740",
+      "scoreStored": "6668151096",
+      "scoreDisplay": "29 · 5 · 4592",
       "status": "open",
       "settled": false,
       "knownBest": null,
-      "holder": "bowen2147483647",
-      "method": "human",
-      "recordedAt": "2026-08-30T06:03:08.438Z",
+      "holder": "Tmrg",
+      "method": "ai",
+      "recordedAt": "2026-08-31T05:19:11.625Z",
       "answer": {
         "sequences": [
-          "032023022220002220200",
-          "021200000010202202202",
-          "020002203222020200032",
-          "033201100120012121200",
-          "030002002003303300122"
+          "003311223200233111102",
+          "033321203300130323230",
+          "031302021310111132200",
+          "023033132103123023201",
+          "013311132123111333323"
         ]
       }
     },
@@ -134,21 +139,21 @@
         "correlation": "aperiodic"
       },
       "objective": "minimize",
-      "scoreStored": "82928864451",
-      "scoreDisplay": "178 · 1 · 18192",
+      "scoreStored": "17239391499",
+      "scoreDisplay": "37 · 2 · 6390",
       "status": "open",
       "settled": false,
       "knownBest": null,
-      "holder": "bowen2147483647",
-      "method": "human",
-      "recordedAt": "2026-08-30T08:50:48.754Z",
+      "holder": "Tmrg",
+      "method": "ai",
+      "recordedAt": "2026-08-31T05:27:02.929Z",
       "answer": {
         "sequences": [
-          "0110001000100101000111001",
-          "0201030001001001300101032",
-          "0300010310201012000110011",
-          "0110110110112200110201001",
-          "0011120010000030102010010"
+          "0000013331332211303101220",
+          "0132111131031312030030003",
+          "0223301312201131131002232",
+          "0100223001101122211303202",
+          "0330102032113010331003120"
         ]
       }
     },
@@ -162,21 +167,21 @@
         "correlation": "aperiodic"
       },
       "objective": "minimize",
-      "scoreStored": "72175144853",
-      "scoreDisplay": "85 · 2 · 10276",
+      "scoreStored": "34816327738",
+      "scoreDisplay": "41 · 3 · 8704",
       "status": "open",
       "settled": false,
       "knownBest": null,
-      "holder": "bowen2147483647",
-      "method": "human",
-      "recordedAt": "2026-08-30T10:22:19.950Z",
+      "holder": "Tmrg",
+      "method": "ai",
+      "recordedAt": "2026-08-31T05:26:36.993Z",
       "answer": {
         "sequences": [
-          "02201223120322312302130321012",
-          "02020000100210000002231001200",
-          "02200103000301022001023321330",
-          "02021013030311120202103321132",
-          "02200100303001020201002132212"
+          "01300103232000111332132311100",
+          "00312313101120222310223213133",
+          "01123111110022030303301002013",
+          "02201321321011020032123033212",
+          "00221133032330212320231233013"
         ]
       }
     },
@@ -190,21 +195,21 @@
         "correlation": "aperiodic"
       },
       "objective": "minimize",
-      "scoreStored": "367704733974",
-      "scoreDisplay": "257 · 1 · 16506",
+      "scoreStored": "71544607884",
+      "scoreDisplay": "50 · 4 · 11610",
       "status": "open",
       "settled": false,
       "knownBest": null,
-      "holder": "NUE_13",
-      "method": "human",
-      "recordedAt": "2026-08-30T09:36:14.077Z",
+      "holder": "Tmrg",
+      "method": "ai",
+      "recordedAt": "2026-08-31T05:21:26.825Z",
       "answer": {
         "sequences": [
-          "032012102301111020030100210031222",
-          "011012102101020200201110131233233",
-          "013110220131211003302100110012111",
-          "020210200101000220200100001001022",
-          "010030011031111011101110110021102"
+          "000022020002220200200222020200200",
+          "033103323223023013223032332031310",
+          "011301121221021031221012112013130",
+          "021002210031221213232003001230321",
+          "023002230013223231212001003210123"
         ]
       }
     },
@@ -218,21 +223,21 @@
         "correlation": "aperiodic"
       },
       "objective": "minimize",
-      "scoreStored": "583353884422",
-      "scoreDisplay": "257 · 3 · 24892",
+      "scoreStored": "120313477610",
+      "scoreDisplay": "53 · 5 · 14282",
       "status": "open",
       "settled": false,
       "knownBest": null,
-      "holder": "bowen2147483647",
-      "method": "human",
-      "recordedAt": "2026-08-30T05:56:59.497Z",
+      "holder": "Tmrg",
+      "method": "ai",
+      "recordedAt": "2026-08-31T05:25:12.470Z",
       "answer": {
         "sequences": [
-          "0101022203000100002003020111111111113",
-          "0101020003000100020203022212100122001",
-          "0111022003000100020203011020020330020",
-          "0101020003000100020200030031302010212",
-          "0101022203330111002003002333333333333"
+          "0322223331123133023001032113210121303",
+          "0330301131010312130103331200301033221",
+          "0320200022000103102222210112101202112",
+          "0330201311233020202322130021020000223",
+          "0111331120120033010201331320330101101"
         ]
       }
     },
@@ -246,21 +251,21 @@
         "correlation": "aperiodic"
       },
       "objective": "minimize",
-      "scoreStored": "10131468969744",
-      "scoreDisplay": "290 · 2 · 76392",
+      "scoreStored": "4052610762070",
+      "scoreDisplay": "116 · 2 · 55552",
       "status": "open",
       "settled": false,
       "knownBest": null,
-      "holder": "bowen2147483647",
-      "method": "human",
-      "recordedAt": "2026-08-30T09:14:50.022Z",
+      "holder": "CCHES",
+      "method": "ai",
+      "recordedAt": "2026-08-31T09:19:09.334Z",
       "answer": {
         "sequences": [
-          "0103131021302232013021210300110032100010003100300020001221003002010101000",
-          "0223302311303112311211321201303121313311000020000110020302020001200101010",
-          "0313223333231332011131002331011312013112302101110011010011101100102222002",
-          "0111023222011302100323130101103011101012110301021020002003011001020000012",
-          "0323111202311011012302312013212030003030302010020000100032233132022010002"
+          "0023201221212133322100001212220131113120223013221231003202200331130011101",
+          "0122302312232202103201020102101130313132322010011322303113011023213231003",
+          "0300211203332112302110313331332020220231023332222232331110000320330223330",
+          "0332001310303310230301230022331312200122133312131231333312213100010210000",
+          "0323032211302003002000103102202323030001112131133222112113201031311030313"
         ]
       }
     }

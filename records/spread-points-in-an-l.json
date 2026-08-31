@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/spread-points-in-an-l",
-  "generatedAt": "2026-08-30T10:32:05.868Z",
+  "generatedAt": "2026-08-31T11:40:34.891Z",
   "instances": [
     {
       "instanceId": "p19-n4-v2",
@@ -21,9 +21,14 @@
       "objective": "maximize",
       "scoreStored": "2000000000000000000",
       "scoreDisplay": "1.414213562",
-      "status": "open",
-      "settled": false,
-      "knownBest": null,
+      "status": "proven",
+      "settled": true,
+      "knownBest": {
+        "display": "2",
+        "kind": "proven",
+        "source": "optimality proof by MinMax Arena user #40 (2026). The score is the square of the minimum distance, so the optimum of 2 corresponds to a distance of √2",
+        "url": "https://minmaxarena.com/proofs/spread-points-in-an-l-n4"
+      },
       "holder": "Dilses",
       "method": "human",
       "recordedAt": "2026-08-25T05:23:25.252Z",
@@ -95,39 +100,39 @@
         "n": 6
       },
       "objective": "maximize",
-      "scoreStored": "1202041026980592768",
-      "scoreDisplay": "1.096376316",
+      "scoreStored": "1215390308328233042",
+      "scoreDisplay": "1.102447417",
       "status": "open",
       "settled": false,
       "knownBest": null,
-      "holder": "HwaterB",
-      "method": "human",
-      "recordedAt": "2026-08-29T05:42:21.682Z",
+      "holder": null,
+      "method": "ai",
+      "recordedAt": "2026-08-31T03:03:27.258Z",
       "answer": {
         "points": [
           [
-            "0.000000000",
-            "0.000000000"
+            "1.535898385",
+            "0"
           ],
           [
-            "0.775255128",
-            "0.775255128"
+            "0.901923789",
+            "0.901923789"
           ],
           [
-            "2.000000000",
-            "1.000000000"
+            "2",
+            "1"
           ],
           [
-            "1.550510256",
-            "0.000000000"
+            "1",
+            "2"
           ],
           [
-            "1.000000000",
-            "2.000000000"
+            "0",
+            "1.535898385"
           ],
           [
-            "0.000000000",
-            "1.550510256"
+            "0.005658748",
+            "0.22815691"
           ]
         ]
       }
@@ -239,51 +244,51 @@
         "n": 9
       },
       "objective": "maximize",
-      "scoreStored": "250000000000000000",
-      "scoreDisplay": "0.5",
+      "scoreStored": "601248001000000000",
+      "scoreDisplay": "0.775401831",
       "status": "open",
       "settled": false,
       "knownBest": null,
-      "holder": null,
+      "holder": "NUE_13",
       "method": "human",
-      "recordedAt": "2026-08-30T05:48:59.999Z",
+      "recordedAt": "2026-08-31T11:05:16.633Z",
       "answer": {
         "points": [
           [
-            "0",
-            "0"
+            "0.000000000",
+            "0.000000000"
           ],
           [
-            "0.5",
-            "0"
+            "0.000000000",
+            "1.000000000"
           ],
           [
-            "1",
-            "0"
+            "0.000000000",
+            "2.000000000"
           ],
           [
-            "1.5",
-            "0"
+            "1.000000000",
+            "2.000000000"
           ],
           [
-            "2",
-            "0"
+            "1.000000000",
+            "0.000000000"
           ],
           [
-            "0",
-            "0.5"
+            "2.000000000",
+            "1.000000000"
           ],
           [
-            "0.5",
-            "0.5"
+            "2.000000000",
+            "0.000000000"
           ],
           [
-            "1",
-            "0.5"
+            "0.726690000",
+            "1.273320000"
           ],
           [
-            "1.5",
-            "0.5"
+            "1.274990000",
+            "0.725030000"
           ]
         ]
       }
@@ -302,7 +307,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-30T05:48:59.999Z",
+      "recordedAt": "2026-08-31T04:58:03.529Z",
       "answer": {
         "points": [
           [
@@ -426,7 +431,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-30T05:48:59.999Z",
+      "recordedAt": "2026-08-31T04:58:03.529Z",
       "answer": {
         "points": [
           [
@@ -494,7 +499,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-30T05:48:59.999Z",
+      "recordedAt": "2026-08-31T04:58:03.529Z",
       "answer": {
         "points": [
           [
@@ -559,35 +564,31 @@
         "n": 14
       },
       "objective": "maximize",
-      "scoreStored": "160000000000000000",
-      "scoreDisplay": "0.4",
+      "scoreStored": "375876389286954881",
+      "scoreDisplay": "0.613087586",
       "status": "open",
       "settled": false,
       "knownBest": null,
       "holder": null,
-      "method": "human",
-      "recordedAt": "2026-08-30T05:48:59.999Z",
+      "method": "ai",
+      "recordedAt": "2026-08-31T02:59:31.621Z",
       "answer": {
         "points": [
           [
             "0",
-            "0"
+            "1.111246543"
           ],
           [
-            "0.4",
-            "0"
+            "0.260083243",
+            "0.555729751"
           ],
           [
-            "0.8",
-            "0"
+            "0.548227408",
+            "2"
           ],
           [
-            "1.2",
-            "0"
-          ],
-          [
-            "1.6",
-            "0"
+            "0.873863881",
+            "0.554864614"
           ],
           [
             "2",
@@ -595,35 +596,39 @@
           ],
           [
             "0",
-            "0.4"
+            "1.724891839"
           ],
           [
-            "0.4",
-            "0.4"
+            "1.295445282",
+            "1"
           ],
           [
-            "0.8",
-            "0.4"
+            "1",
+            "1.585489859"
           ],
           [
-            "1.2",
-            "0.4"
-          ],
-          [
-            "1.6",
-            "0.4"
-          ],
-          [
-            "2",
-            "0.4"
+            "0.61309196",
+            "0"
           ],
           [
             "0",
-            "0.8"
+            "0.000422406"
           ],
           [
-            "0.4",
-            "0.8"
+            "1.226370191",
+            "0.000124657"
+          ],
+          [
+            "0.613186668",
+            "1.109773552"
+          ],
+          [
+            "1.61326174",
+            "0.475720409"
+          ],
+          [
+            "1.976179571",
+            "0.996451716"
           ]
         ]
       }
@@ -642,7 +647,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-30T05:48:59.999Z",
+      "recordedAt": "2026-08-31T04:58:03.529Z",
       "answer": {
         "points": [
           [
@@ -722,7 +727,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-30T05:48:59.999Z",
+      "recordedAt": "2026-08-31T04:58:03.529Z",
       "answer": {
         "points": [
           [
@@ -806,7 +811,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-30T05:48:59.999Z",
+      "recordedAt": "2026-08-31T04:58:03.529Z",
       "answer": {
         "points": [
           [
@@ -894,7 +899,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-30T05:48:59.999Z",
+      "recordedAt": "2026-08-31T04:58:03.529Z",
       "answer": {
         "points": [
           [
@@ -986,7 +991,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-30T05:48:59.999Z",
+      "recordedAt": "2026-08-31T04:58:03.529Z",
       "answer": {
         "points": [
           [
@@ -1082,7 +1087,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-30T05:48:59.999Z",
+      "recordedAt": "2026-08-31T04:58:03.529Z",
       "answer": {
         "points": [
           [

@@ -37,7 +37,7 @@ managed.
 
 ## The records
 
-47 problem families, 875 sub-problems, 792 still open.
+47 problem families, 875 sub-problems, 789 still open.
 `records/` holds today's snapshot of each family; the live files are at
 `https://minmaxarena.com/data/{slug}.json`, and the citable ones are the monthly frozen
 editions at `https://minmaxarena.com/data/editions/{YYYY-MM}/{slug}.json`, which never change
@@ -52,7 +52,7 @@ once published. Data is CC BY 4.0; see
 | [P03](https://minmaxarena.com/en/problems/heilbronn-triangle) | Heilbronn minimum triangle area | 12 | 7 | [json](records/heilbronn-triangle.json) |
 | [P05](https://minmaxarena.com/en/problems/tilted-squares-in-circle) | Tilted equal squares in a circle | 12 | 11 | [json](records/tilted-squares-in-circle.json) |
 | [P06](https://minmaxarena.com/en/problems/graduated-circles-in-circle) | Packing circles of radius 1,2,…,n into a circle | 29 | 26 | [json](records/graduated-circles-in-circle.json) |
-| [P08](https://minmaxarena.com/en/problems/circles-in-an-l) | Equal circles in an L | 15 | 15 | [json](records/circles-in-an-l.json) |
+| [P08](https://minmaxarena.com/en/problems/circles-in-an-l) | Equal circles in an L | 15 | 14 | [json](records/circles-in-an-l.json) |
 | [P09](https://minmaxarena.com/en/problems/circles-in-a-semicircle) | Equal circles in a half-disc | 14 | 14 | [json](records/circles-in-a-semicircle.json) |
 | [P10](https://minmaxarena.com/en/problems/circles-in-a-cross) | Equal circles in a plus sign | 16 | 13 | [json](records/circles-in-a-cross.json) |
 | [P11](https://minmaxarena.com/en/problems/circles-in-right-triangle) | Equal-circle packing in a right triangle | 11 | 11 | [json](records/circles-in-right-triangle.json) |
@@ -61,7 +61,7 @@ once published. Data is CC BY 4.0; see
 | [P16](https://minmaxarena.com/en/problems/spread-points-in-triangle) | Spreading points in a right triangle | 15 | 15 | [json](records/spread-points-in-triangle.json) |
 | [P17](https://minmaxarena.com/en/problems/spread-points-in-rectangle) | Spreading points in a rectangle | 17 | 17 | [json](records/spread-points-in-rectangle.json) |
 | [P18](https://minmaxarena.com/en/problems/tilted-squares-in-square) | Tilted equal squares in the unit square | 28 | 16 | [json](records/tilted-squares-in-square.json) |
-| [P19](https://minmaxarena.com/en/problems/spread-points-in-an-l) | Spreading points in an L | 17 | 17 | [json](records/spread-points-in-an-l.json) |
+| [P19](https://minmaxarena.com/en/problems/spread-points-in-an-l) | Spreading points in an L | 17 | 16 | [json](records/spread-points-in-an-l.json) |
 | [P20](https://minmaxarena.com/en/problems/spread-points-in-a-semicircle) | Spreading points in a half-disc | 15 | 15 | [json](records/spread-points-in-a-semicircle.json) |
 | [P21](https://minmaxarena.com/en/problems/spread-points-in-a-cross) | Spreading points in a plus sign | 17 | 17 | [json](records/spread-points-in-a-cross.json) |
 | [P22](https://minmaxarena.com/en/problems/heilbronn-in-a-circle) | The smallest triangle in a disc | 10 | 10 | [json](records/heilbronn-in-a-circle.json) |
@@ -86,14 +86,14 @@ once published. Data is CC BY 4.0; see
 | [P59](https://minmaxarena.com/en/problems/l2-star-discrepancy) | Minimum L2-star discrepancy in the unit hypercube | 25 | 25 | [json](records/l2-star-discrepancy.json) |
 | [P60](https://minmaxarena.com/en/problems/line-packing) | Line packing in real projective space | 32 | 32 | [json](records/line-packing.json) |
 | [P61](https://minmaxarena.com/en/problems/complex-projective-packing) | Codebook packing in complex projective space | 25 | 25 | [json](records/complex-projective-packing.json) |
-| [P62](https://minmaxarena.com/en/problems/worst-projection) | Uniformity under the worst 2D projection | 9 | 9 | [json](records/worst-projection.json) |
+| [P62](https://minmaxarena.com/en/problems/worst-projection) | A sampling design uniform in every pair of columns | 9 | 9 | [json](records/worst-projection.json) |
 | [P63](https://minmaxarena.com/en/problems/torus-quadrature) | Optimal quadrature points on the torus | 12 | 12 | [json](records/torus-quadrature.json) |
 | [P64](https://minmaxarena.com/en/problems/subspace-packing) | The most separated family of subspaces | 16 | 16 | [json](records/subspace-packing.json) |
 | [P65](https://minmaxarena.com/en/problems/erasure-frames) | The most erasure-robust measurement directions | 11 | 11 | [json](records/erasure-frames.json) |
 | [P66](https://minmaxarena.com/en/problems/unit-circles-in-minimum-area-triangle) | Unit circles in a minimum-area triangle | 47 | 47 | [json](records/unit-circles-in-minimum-area-triangle.json) |
 | [P67](https://minmaxarena.com/en/problems/variable-circles-in-fixed-perimeter-rectangle) | Variable-radius circles in a fixed-perimeter rectangle | 28 | 28 | [json](records/variable-circles-in-fixed-perimeter-rectangle.json) |
 | [P68](https://minmaxarena.com/en/problems/spherical-code-on-s2) | Spherical codes: maximize the minimum angle | 17 | 17 | [json](records/spherical-code-on-s2.json) |
-| [P70](https://minmaxarena.com/en/problems/probe-codebook) | Four-phase radar probe codebook | 9 | 9 | [json](records/probe-codebook.json) |
+| [P70](https://minmaxarena.com/en/problems/probe-codebook) | Four-phase radar probe codebook | 9 | 8 | [json](records/probe-codebook.json) |
 <!-- records:end -->
 
 ## Problems the catalogue no longer offers

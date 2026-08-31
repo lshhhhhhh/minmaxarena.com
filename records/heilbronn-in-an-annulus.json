@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/heilbronn-in-an-annulus",
-  "generatedAt": "2026-08-30T10:32:06.835Z",
+  "generatedAt": "2026-08-31T11:40:35.545Z",
   "instances": [
     {
       "instanceId": "p28-n5-v2",
@@ -103,43 +103,43 @@
         "n": 7
       },
       "objective": "maximize",
-      "scoreStored": "23549401982494072",
-      "scoreDisplay": "0.011774700991247036",
+      "scoreStored": "551332991257715848",
+      "scoreDisplay": "0.275666495628857924",
       "status": "open",
       "settled": false,
       "knownBest": null,
-      "holder": null,
+      "holder": "Tritérium",
       "method": "human",
-      "recordedAt": "2026-08-30T05:48:59.999Z",
+      "recordedAt": "2026-08-31T04:13:28.441Z",
       "answer": {
         "points": [
           [
-            "1.95",
-            "1"
+            "1.895904337",
+            "1.419228377"
           ],
           [
-            "1.87469796",
-            "1.156366296"
+            "1.177872212",
+            "1.978314751"
           ],
           [
-            "1.705495813",
-            "1.194985582"
+            "0.421420781",
+            "1.784922528"
           ],
           [
-            "1.569806226",
-            "1.086776748"
+            "0.026161117",
+            "0.952136888"
           ],
           [
-            "1.569806226",
-            "0.913223252"
+            "0.422406546",
+            "0.203174194"
           ],
           [
-            "1.705495813",
-            "0.805014418"
+            "1.241215257",
+            "0.062517473"
           ],
           [
-            "1.87469796",
-            "0.843633704"
+            "1.926624560",
+            "0.627469583"
           ]
         ]
       }
@@ -151,47 +151,47 @@
         "n": 8
       },
       "objective": "maximize",
-      "scoreStored": "16568542400000000",
-      "scoreDisplay": "0.0082842712",
+      "scoreStored": "414213562000000000",
+      "scoreDisplay": "0.207106781",
       "status": "open",
       "settled": false,
       "knownBest": null,
-      "holder": null,
+      "holder": "HwaterB",
       "method": "human",
-      "recordedAt": "2026-08-30T05:48:59.999Z",
+      "recordedAt": "2026-08-31T02:46:25.964Z",
       "answer": {
         "points": [
           [
-            "1.95",
-            "1"
+            "1.000000000",
+            "2.000000000"
           ],
           [
-            "1.891421356",
-            "1.141421356"
+            "2.000000000",
+            "1.000000000"
           ],
           [
-            "1.75",
-            "1.2"
+            "0.000000000",
+            "1.000000000"
           ],
           [
-            "1.608578644",
-            "1.141421356"
+            "1.000000000",
+            "0.000000000"
           ],
           [
-            "1.55",
-            "1"
+            "1.707106781",
+            "1.707106781"
           ],
           [
-            "1.608578644",
-            "0.858578644"
+            "1.707106781",
+            "0.292893219"
           ],
           [
-            "1.75",
-            "0.8"
+            "0.292893219",
+            "0.292893219"
           ],
           [
-            "1.891421356",
-            "0.858578644"
+            "0.292893219",
+            "1.707106781"
           ]
         ]
       }
@@ -210,7 +210,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-30T05:48:59.999Z",
+      "recordedAt": "2026-08-31T04:58:03.529Z",
       "answer": {
         "points": [
           [
@@ -266,7 +266,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-30T05:48:59.999Z",
+      "recordedAt": "2026-08-31T04:58:03.529Z",
       "answer": {
         "points": [
           [
@@ -326,7 +326,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-30T05:48:59.999Z",
+      "recordedAt": "2026-08-31T04:58:03.529Z",
       "answer": {
         "points": [
           [
@@ -390,7 +390,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-30T05:48:59.999Z",
+      "recordedAt": "2026-08-31T04:58:03.529Z",
       "answer": {
         "points": [
           [
@@ -458,7 +458,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-30T05:48:59.999Z",
+      "recordedAt": "2026-08-31T04:58:03.529Z",
       "answer": {
         "points": [
           [
@@ -530,7 +530,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-30T05:48:59.999Z",
+      "recordedAt": "2026-08-31T04:58:03.529Z",
       "answer": {
         "points": [
           [

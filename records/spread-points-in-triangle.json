@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/spread-points-in-triangle",
-  "generatedAt": "2026-08-29T05:38:23.725Z",
+  "generatedAt": "2026-08-31T11:40:34.589Z",
   "instances": [
     {
       "instanceId": "p16-n4-v2",
@@ -187,47 +187,47 @@
         "n": 8
       },
       "objective": "maximize",
-      "scoreStored": "143593538986905728",
+      "scoreStored": "143593539001581353",
       "scoreDisplay": "0.378937381",
       "status": "open",
       "settled": false,
       "knownBest": null,
-      "holder": "Tmrg",
-      "method": "ai",
-      "recordedAt": "2026-08-28T16:02:13.934Z",
+      "holder": "HwaterB",
+      "method": "human",
+      "recordedAt": "2026-08-31T02:22:24.002Z",
       "answer": {
         "points": [
           [
             "0.464101615",
-            "0"
+            "0.000000000"
           ],
           [
-            "1",
-            "0"
+            "1.000000000",
+            "0.000000000"
           ],
           [
-            "0.086162255",
-            "0.027502183"
+            "0.000000000",
+            "0.000000000"
           ],
           [
-            "0.732050808",
-            "0.267949192"
+            "0.732050807",
+            "0.267949193"
           ],
           [
-            "0.366025404",
-            "0.366025404"
+            "0.366025403",
+            "0.366025403"
           ],
           [
-            "0",
+            "0.000000000",
             "0.464101615"
           ],
           [
-            "0.267949192",
-            "0.732050808"
+            "0.267949193",
+            "0.732050807"
           ],
           [
-            "0",
-            "1"
+            "0.000000000",
+            "1.000000000"
           ]
         ]
       }
