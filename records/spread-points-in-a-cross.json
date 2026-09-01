@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/spread-points-in-a-cross",
-  "generatedAt": "2026-08-31T11:40:35.083Z",
+  "generatedAt": "2026-09-01T10:14:04.743Z",
   "instances": [
     {
       "instanceId": "p21-n4-v2",
@@ -21,29 +21,34 @@
       "objective": "maximize",
       "scoreStored": "5000000000000000000",
       "scoreDisplay": "2.236067977",
-      "status": "open",
-      "settled": false,
-      "knownBest": null,
+      "status": "proven",
+      "settled": true,
+      "knownBest": {
+        "display": "5",
+        "kind": "proven",
+        "source": "NUE_13 #31 submitted the construction; MinMax Arena completed the rigorous upper bound (2026). The optimum distance is √5 and the exact stored score is 5",
+        "url": "https://minmaxarena.com/proofs/spread-points-in-a-cross-n4-n5"
+      },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-26T11:46:40.906Z",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
       "answer": {
         "points": [
           [
-            "1.000000000",
-            "0.000000000"
+            "1",
+            "0"
           ],
           [
-            "2.000000000",
-            "3.000000000"
+            "3",
+            "1"
           ],
           [
-            "0.000000000",
-            "2.000000000"
+            "2",
+            "3"
           ],
           [
-            "3.000000000",
-            "1.000000000"
+            "0",
+            "2"
           ]
         ]
       }
@@ -57,33 +62,38 @@
       "objective": "maximize",
       "scoreStored": "2500000000000000000",
       "scoreDisplay": "1.58113883",
-      "status": "open",
-      "settled": false,
-      "knownBest": null,
+      "status": "proven",
+      "settled": true,
+      "knownBest": {
+        "display": "2.5",
+        "kind": "proven",
+        "source": "NUE_13 #31 submitted the construction; MinMax Arena completed the rigorous upper bound (2026). The optimum distance is √(5/2) and the exact stored score is 5/2",
+        "url": "https://minmaxarena.com/proofs/spread-points-in-a-cross-n4-n5"
+      },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-26T11:47:57.877Z",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
       "answer": {
         "points": [
           [
-            "1.000000000",
-            "0.000000000"
+            "1",
+            "0"
           ],
           [
-            "1.500000000",
-            "1.500000000"
+            "3",
+            "1"
           ],
           [
-            "0.000000000",
-            "2.000000000"
+            "2",
+            "3"
           ],
           [
-            "2.000000000",
-            "3.000000000"
+            "0",
+            "2"
           ],
           [
-            "3.000000000",
-            "1.000000000"
+            "1.5",
+            "1.5"
           ]
         ]
       }
@@ -566,7 +576,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-31T04:58:03.529Z",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
       "answer": {
         "points": [
           [
@@ -642,7 +652,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-31T04:58:03.529Z",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
       "answer": {
         "points": [
           [
@@ -722,7 +732,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-31T04:58:03.529Z",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
       "answer": {
         "points": [
           [
@@ -894,7 +904,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-31T04:58:03.529Z",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
       "answer": {
         "points": [
           [
@@ -986,7 +996,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-31T04:58:03.529Z",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
       "answer": {
         "points": [
           [
@@ -1082,7 +1092,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-31T04:58:03.529Z",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
       "answer": {
         "points": [
           [

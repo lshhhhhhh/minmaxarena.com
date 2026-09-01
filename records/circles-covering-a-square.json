@@ -1,0 +1,3246 @@
+{
+  "problem": "circles-covering-a-square",
+  "code": "P73",
+  "title": "用 n 个等圆盖住正方形",
+  "titleEn": "Covering a square with n equal discs",
+  "objective": "minimize",
+  "scoreLabel": "覆盖半径",
+  "scoreLabelEn": "the covering radius",
+  "verifierVersion": "1.0.0",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseName": "CC BY 4.0",
+  "source": "https://minmaxarena.com/problems/circles-covering-a-square",
+  "generatedAt": "2026-09-01T10:14:08.180Z",
+  "instances": [
+    {
+      "instanceId": "p73-n5-v1",
+      "name": "n = 5",
+      "parameters": {
+        "n": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "326160584140163847",
+      "scoreDisplay": "0.326160584140164",
+      "status": "proven",
+      "settled": true,
+      "knownBest": {
+        "display": "0.326160584140164",
+        "kind": "proven",
+        "source": "The construction by Tibor Tarnai and Zsolt Gáspár is reproduced in Nurmela and Östergård's HUT-TCS-A62 report (2000); optimality of the continuous problem was proved by Dénes Nagy (1974); the paper reports 0.32616058400398728086. The exact continuous construction is not literally writable on the nine-decimal coordinate grid, so this finished site row displays its verifiable grid representative 0.326160584140164.",
+        "url": "https://research.aalto.fi/en/publications/covering-a-square-with-up-to-30-equal-circles/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.148247326",
+            "0.290522730"
+          ],
+          [
+            "0.250000000",
+            "0.790522730"
+          ],
+          [
+            "0.851752674",
+            "0.290522730"
+          ],
+          [
+            "0.750000000",
+            "0.790522730"
+          ],
+          [
+            "0.500000000",
+            "0.254884876"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p73-n6-v1",
+      "name": "n = 6",
+      "parameters": {
+        "n": 6
+      },
+      "objective": "minimize",
+      "scoreStored": "298727062727012362",
+      "scoreDisplay": "0.298727062727013",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.29872706223691915876",
+        "kind": "best",
+        "source": "The construction by J. B. M. Melissen and P. C. Schuur is reproduced in Nurmela and Östergård's HUT-TCS-A62 report (2000); the paper's best-known radius is 0.29872706223691915876, with optimality open. The nine-decimal certificate reconstructed from its vector figure and contact topology verifies at 0.298727062727013; it is a reference answer, not a new record.",
+        "url": "https://research.aalto.fi/en/publications/covering-a-square-with-up-to-30-equal-circles/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.141644779",
+            "0.263010673"
+          ],
+          [
+            "0.818137643",
+            "0.236989327"
+          ],
+          [
+            "0.459782422",
+            "0.241014785"
+          ],
+          [
+            "0.858355221",
+            "0.736989327"
+          ],
+          [
+            "0.540217578",
+            "0.758985215"
+          ],
+          [
+            "0.181862357",
+            "0.763010673"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p73-n7-v1",
+      "name": "n = 7",
+      "parameters": {
+        "n": 7
+      },
+      "objective": "minimize",
+      "scoreStored": "274291885508213927",
+      "scoreDisplay": "0.274291885508214",
+      "status": "proven",
+      "settled": true,
+      "knownBest": {
+        "display": "0.274291885508214",
+        "kind": "proven",
+        "source": "The construction by Tibor Tarnai and Zsolt Gáspár is reproduced in Nurmela and Östergård's HUT-TCS-A62 report (2000); optimality of the continuous problem was proved by Hans Melissen (1997); the paper reports 0.27429188517743176508. The exact continuous construction is not literally writable on the nine-decimal coordinate grid, so this finished site row displays its verifiable grid representative 0.274291885508214.",
+        "url": "https://research.aalto.fi/en/publications/covering-a-square-with-up-to-30-equal-circles/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.749999999",
+            "0.887145944"
+          ],
+          [
+            "0.750000001",
+            "0.112854059"
+          ],
+          [
+            "0.249999999",
+            "0.887145941"
+          ],
+          [
+            "0.250000001",
+            "0.112854056"
+          ],
+          [
+            "1.000000000",
+            "0.500000004"
+          ],
+          [
+            "0.500000000",
+            "0.500000000"
+          ],
+          [
+            "0.000000000",
+            "0.499999996"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p73-n8-v1",
+      "name": "n = 8",
+      "parameters": {
+        "n": 8
+      },
+      "objective": "minimize",
+      "scoreStored": "260300106331910697",
+      "scoreDisplay": "0.260300106331911",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.26030010588652494367",
+        "kind": "best",
+        "source": "The construction by J. B. M. Melissen and P. C. Schuur is reproduced in Nurmela and Östergård's HUT-TCS-A62 report (2000); the paper's best-known radius is 0.26030010588652494367, with optimality open. The nine-decimal certificate reconstructed from its vector figure and contact topology verifies at 0.260300106331911; it is a reference answer, not a new record.",
+        "url": "https://research.aalto.fi/en/publications/covering-a-square-with-up-to-30-equal-circles/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.844305692",
+            "0.791396482"
+          ],
+          [
+            "0.844305696",
+            "0.208603520"
+          ],
+          [
+            "0.246782235",
+            "0.499999997"
+          ],
+          [
+            "0.499999992",
+            "0.820606889"
+          ],
+          [
+            "0.155694301",
+            "0.791396477"
+          ],
+          [
+            "0.155694304",
+            "0.208603520"
+          ],
+          [
+            "0.753217767",
+            "0.500000003"
+          ],
+          [
+            "0.500000000",
+            "0.179393111"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p73-n9-v1",
+      "name": "n = 9",
+      "parameters": {
+        "n": 9
+      },
+      "objective": "minimize",
+      "scoreStored": "230636928153192159",
+      "scoreDisplay": "0.230636928153193",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.23063692781954790734",
+        "kind": "best",
+        "source": "The construction by Tibor Tarnai and Zsolt Gáspár is reproduced in Nurmela and Östergård's HUT-TCS-A62 report (2000); the paper's best-known radius is 0.23063692781954790734, with optimality open. The nine-decimal certificate reconstructed from its vector figure and contact topology verifies at 0.230636928153193; it is a reference answer, not a new record.",
+        "url": "https://research.aalto.fi/en/publications/covering-a-square-with-up-to-30-equal-circles/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.819384838",
+            "0.143427876"
+          ],
+          [
+            "0.458154514",
+            "0.143427876"
+          ],
+          [
+            "0.911892553",
+            "0.500000000"
+          ],
+          [
+            "0.138769676",
+            "0.815781734"
+          ],
+          [
+            "0.458154514",
+            "0.856572124"
+          ],
+          [
+            "0.819384838",
+            "0.856572124"
+          ],
+          [
+            "0.138769676",
+            "0.184218266"
+          ],
+          [
+            "0.189431904",
+            "0.500000000"
+          ],
+          [
+            "0.550662228",
+            "0.500000000"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p73-n10-v1",
+      "name": "n = 10",
+      "parameters": {
+        "n": 10
+      },
+      "objective": "minimize",
+      "scoreStored": "218233513303645518",
+      "scoreDisplay": "0.218233513303646",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.21823351279308384300",
+        "kind": "best",
+        "source": "The construction by Tibor Tarnai and Zsolt Gáspár is reproduced in Nurmela and Östergård's HUT-TCS-A62 report (2000); the paper's best-known radius is 0.21823351279308384300, with optimality open. The nine-decimal certificate reconstructed from its vector figure and contact topology verifies at 0.218233513303646; it is a reference answer, not a new record.",
+        "url": "https://research.aalto.fi/en/publications/covering-a-square-with-up-to-30-equal-circles/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.666666659",
+            "0.500000000"
+          ],
+          [
+            "0.833333333",
+            "0.140883244"
+          ],
+          [
+            "0.500000000",
+            "0.859116756"
+          ],
+          [
+            "0.000001491",
+            "0.500000000"
+          ],
+          [
+            "0.999998291",
+            "0.500000000"
+          ],
+          [
+            "0.333333708",
+            "0.500000000"
+          ],
+          [
+            "0.166666666",
+            "0.140883243"
+          ],
+          [
+            "0.500000000",
+            "0.140883244"
+          ],
+          [
+            "0.166666667",
+            "0.859116756"
+          ],
+          [
+            "0.833333333",
+            "0.859116757"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p73-n11-v1",
+      "name": "n = 11",
+      "parameters": {
+        "n": 11
+      },
+      "objective": "minimize",
+      "scoreStored": "212516016859300694",
+      "scoreDisplay": "0.212516016859301",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.21251601649318384587",
+        "kind": "best",
+        "source": "The construction by J. B. M. Melissen and P. C. Schuur is reproduced in Nurmela and Östergård's HUT-TCS-A62 report (2000); the paper's best-known radius is 0.21251601649318384587, with optimality open. The nine-decimal certificate reconstructed from its vector figure and contact topology verifies at 0.212516016859301; it is a reference answer, not a new record.",
+        "url": "https://research.aalto.fi/en/publications/covering-a-square-with-up-to-30-equal-circles/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.639710769",
+            "0.839862692"
+          ],
+          [
+            "0.837272892",
+            "0.500000002"
+          ],
+          [
+            "0.110289223",
+            "0.181657217"
+          ],
+          [
+            "0.500000002",
+            "0.499999996"
+          ],
+          [
+            "0.360289224",
+            "0.839862693"
+          ],
+          [
+            "0.639710773",
+            "0.160137306"
+          ],
+          [
+            "0.162727113",
+            "0.500000001"
+          ],
+          [
+            "0.889710770",
+            "0.818342787"
+          ],
+          [
+            "0.889710773",
+            "0.181657215"
+          ],
+          [
+            "0.110289225",
+            "0.818342784"
+          ],
+          [
+            "0.360289222",
+            "0.160137304"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p73-n12-v1",
+      "name": "n = 12",
+      "parameters": {
+        "n": 12
+      },
+      "objective": "minimize",
+      "scoreStored": "202275889746883714",
+      "scoreDisplay": "0.202275889746884",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.20227588920818008037",
+        "kind": "best",
+        "source": "The construction by Kari J. Nurmela and Patric R. J. Östergård is reproduced in Nurmela and Östergård's HUT-TCS-A62 report (2000); the paper's best-known radius is 0.20227588920818008037, with optimality open. The nine-decimal certificate reconstructed from its vector figure and contact topology verifies at 0.202275889746884; it is a reference answer, not a new record.",
+        "url": "https://research.aalto.fi/en/publications/covering-a-square-with-up-to-30-equal-circles/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.359192838",
+            "0.181657744"
+          ],
+          [
+            "0.864889534",
+            "0.849465295"
+          ],
+          [
+            "0.097857840",
+            "0.822970684"
+          ],
+          [
+            "0.631276740",
+            "0.452728724"
+          ],
+          [
+            "0.105741987",
+            "0.473505387"
+          ],
+          [
+            "0.626224530",
+            "0.095970028"
+          ],
+          [
+            "0.902142161",
+            "0.177029316"
+          ],
+          [
+            "0.135110468",
+            "0.150534703"
+          ],
+          [
+            "0.640807162",
+            "0.818342258"
+          ],
+          [
+            "0.894258011",
+            "0.526494611"
+          ],
+          [
+            "0.373775468",
+            "0.904029968"
+          ],
+          [
+            "0.368723265",
+            "0.547271275"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p73-n13-v1",
+      "name": "n = 13",
+      "parameters": {
+        "n": 13
+      },
+      "objective": "minimize",
+      "scoreStored": "194312371884866974",
+      "scoreDisplay": "0.194312371884867",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.19431237143171902878",
+        "kind": "best",
+        "source": "The construction by Kari J. Nurmela and Patric R. J. Östergård is reproduced in Nurmela and Östergård's HUT-TCS-A62 report (2000); the paper's best-known radius is 0.19431237143171902878, with optimality open. The nine-decimal certificate reconstructed from its vector figure and contact topology verifies at 0.194312371884867; it is a reference answer, not a new record.",
+        "url": "https://research.aalto.fi/en/publications/covering-a-square-with-up-to-30-equal-circles/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.170014863",
+            "0.094086365"
+          ],
+          [
+            "0.475961129",
+            "0.327502741"
+          ],
+          [
+            "0.839440396",
+            "0.109443645"
+          ],
+          [
+            "0.021361363",
+            "0.635027363"
+          ],
+          [
+            "0.329015447",
+            "0.617745757"
+          ],
+          [
+            "0.663815682",
+            "0.594156207"
+          ],
+          [
+            "0.509455259",
+            "0.095143503"
+          ],
+          [
+            "0.174284892",
+            "0.914081002"
+          ],
+          [
+            "0.147186410",
+            "0.315032726"
+          ],
+          [
+            "0.513769548",
+            "0.897694890"
+          ],
+          [
+            "0.989530791",
+            "0.586952769"
+          ],
+          [
+            "0.826261051",
+            "0.305904962"
+          ],
+          [
+            "0.839484656",
+            "0.890491452"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p73-n14-v1",
+      "name": "n = 14",
+      "parameters": {
+        "n": 14
+      },
+      "objective": "minimize",
+      "scoreStored": "185510547628494942",
+      "scoreDisplay": "0.185510547628495",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.18551054726041864107",
+        "kind": "best",
+        "source": "The construction by Kari J. Nurmela and Patric R. J. Östergård is reproduced in Nurmela and Östergård's HUT-TCS-A62 report (2000); the paper's best-known radius is 0.18551054726041864107, with optimality open. The nine-decimal certificate reconstructed from its vector figure and contact topology verifies at 0.185510547628495; it is a reference answer, not a new record.",
+        "url": "https://research.aalto.fi/en/publications/covering-a-square-with-up-to-30-equal-circles/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.111517850",
+            "0.148249560"
+          ],
+          [
+            "0.996964536",
+            "0.652187581"
+          ],
+          [
+            "0.361517849",
+            "0.123437668"
+          ],
+          [
+            "0.164839069",
+            "0.381600499"
+          ],
+          [
+            "0.638482146",
+            "0.123437667"
+          ],
+          [
+            "0.888482147",
+            "0.148249559"
+          ],
+          [
+            "0.833186712",
+            "0.918836646"
+          ],
+          [
+            "0.499999999",
+            "0.391176422"
+          ],
+          [
+            "0.666813283",
+            "0.651264855"
+          ],
+          [
+            "0.835160930",
+            "0.381600494"
+          ],
+          [
+            "0.166813290",
+            "0.918836650"
+          ],
+          [
+            "0.500000002",
+            "0.917938756"
+          ],
+          [
+            "0.333186704",
+            "0.651264859"
+          ],
+          [
+            "0.003035451",
+            "0.652187588"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p73-n15-v1",
+      "name": "n = 15",
+      "parameters": {
+        "n": 15
+      },
+      "objective": "minimize",
+      "scoreStored": "179661760215521592",
+      "scoreDisplay": "0.179661760215522",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.17966175993333219846",
+        "kind": "best",
+        "source": "The construction by Kari J. Nurmela and Patric R. J. Östergård is reproduced in Nurmela and Östergård's HUT-TCS-A62 report (2000); the paper's best-known radius is 0.17966175993333219846, with optimality open. The nine-decimal certificate reconstructed from its vector figure and contact topology verifies at 0.179661760215522; it is a reference answer, not a new record.",
+        "url": "https://research.aalto.fi/en/publications/covering-a-square-with-up-to-30-equal-circles/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.854753456",
+            "0.105743981"
+          ],
+          [
+            "0.894742064",
+            "0.703252130"
+          ],
+          [
+            "0.166239348",
+            "0.931861705"
+          ],
+          [
+            "0.710916368",
+            "0.412368374"
+          ],
+          [
+            "0.583257239",
+            "0.127825537"
+          ],
+          [
+            "0.142209142",
+            "0.406647607"
+          ],
+          [
+            "0.424703202",
+            "0.418010026"
+          ],
+          [
+            "0.046123009",
+            "0.690082931"
+          ],
+          [
+            "0.837006550",
+            "0.924425644"
+          ],
+          [
+            "0.329735979",
+            "0.126808088"
+          ],
+          [
+            "0.951825375",
+            "0.384570467"
+          ],
+          [
+            "0.617263864",
+            "0.695738745"
+          ],
+          [
+            "0.503245898",
+            "0.944170701"
+          ],
+          [
+            "0.325122815",
+            "0.696764102"
+          ],
+          [
+            "0.101232196",
+            "0.148426381"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p73-n16-v1",
+      "name": "n = 16",
+      "parameters": {
+        "n": 16
+      },
+      "objective": "minimize",
+      "scoreStored": "169427052007339806",
+      "scoreDisplay": "0.169427052007340",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.16942705159811602395",
+        "kind": "best",
+        "source": "The construction by Kari J. Nurmela and Patric R. J. Östergård is reproduced in Nurmela and Östergård's HUT-TCS-A62 report (2000); the paper's best-known radius is 0.16942705159811602395, with optimality open. The nine-decimal certificate reconstructed from its vector figure and contact topology verifies at 0.169427052007340; it is a reference answer, not a new record.",
+        "url": "https://research.aalto.fi/en/publications/covering-a-square-with-up-to-30-equal-circles/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.861190331",
+            "0.630682527"
+          ],
+          [
+            "0.956693305",
+            "0.369737410"
+          ],
+          [
+            "0.313075785",
+            "0.631151193"
+          ],
+          [
+            "0.138809670",
+            "0.369317472"
+          ],
+          [
+            "0.584600029",
+            "0.634407319"
+          ],
+          [
+            "0.415399967",
+            "0.365592679"
+          ],
+          [
+            "0.668842201",
+            "0.890519419"
+          ],
+          [
+            "0.686924214",
+            "0.368848810"
+          ],
+          [
+            "0.134546835",
+            "0.897030709"
+          ],
+          [
+            "0.899073108",
+            "0.863914408"
+          ],
+          [
+            "0.404315929",
+            "0.897919312"
+          ],
+          [
+            "0.595684074",
+            "0.102080691"
+          ],
+          [
+            "0.043306692",
+            "0.630262589"
+          ],
+          [
+            "0.100926891",
+            "0.136085592"
+          ],
+          [
+            "0.865453165",
+            "0.102969291"
+          ],
+          [
+            "0.331157801",
+            "0.109480577"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p73-n17-v1",
+      "name": "n = 17",
+      "parameters": {
+        "n": 17
+      },
+      "objective": "minimize",
+      "scoreStored": "165680929981177644",
+      "scoreDisplay": "0.165680929981178",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.16568092957077472538",
+        "kind": "best",
+        "source": "The construction by Kari J. Nurmela and Patric R. J. Östergård is reproduced in Nurmela and Östergård's HUT-TCS-A62 report (2000); the paper's best-known radius is 0.16568092957077472538, with optimality open. The nine-decimal certificate reconstructed from its vector figure and contact topology verifies at 0.165680929981178; it is a reference answer, not a new record.",
+        "url": "https://research.aalto.fi/en/publications/covering-a-square-with-up-to-30-equal-circles/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.975124106",
+            "0.636470698"
+          ],
+          [
+            "0.662495710",
+            "0.347719762"
+          ],
+          [
+            "0.605314462",
+            "0.095684113"
+          ],
+          [
+            "0.015909410",
+            "0.611921918"
+          ],
+          [
+            "0.870286221",
+            "0.103075244"
+          ],
+          [
+            "0.122473529",
+            "0.888418617"
+          ],
+          [
+            "0.369223371",
+            "0.890430075"
+          ],
+          [
+            "0.262659253",
+            "0.613933377"
+          ],
+          [
+            "0.401342549",
+            "0.345510069"
+          ],
+          [
+            "0.867797494",
+            "0.900136754"
+          ],
+          [
+            "0.103588860",
+            "0.129303977"
+          ],
+          [
+            "0.614547337",
+            "0.886873362"
+          ],
+          [
+            "0.338617101",
+            "0.100865551"
+          ],
+          [
+            "0.761130792",
+            "0.621954492"
+          ],
+          [
+            "0.901550576",
+            "0.339409189"
+          ],
+          [
+            "0.506180434",
+            "0.612388122"
+          ],
+          [
+            "0.136296213",
+            "0.352807279"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p73-n18-v1",
+      "name": "n = 18",
+      "parameters": {
+        "n": 18
+      },
+      "objective": "minimize",
+      "scoreStored": "160639664048190692",
+      "scoreDisplay": "0.160639664048191",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.16063966359715453523",
+        "kind": "best",
+        "source": "The construction by Kari J. Nurmela and Patric R. J. Östergård is reproduced in Nurmela and Östergård's HUT-TCS-A62 report (2000); the paper's best-known radius is 0.16063966359715453523, with optimality open. The nine-decimal certificate reconstructed from its vector figure and contact topology verifies at 0.160639664048191; it is a reference answer, not a new record.",
+        "url": "https://research.aalto.fi/en/publications/covering-a-square-with-up-to-30-equal-circles/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.373525184",
+            "0.900958474"
+          ],
+          [
+            "0.249999972",
+            "0.637622025"
+          ],
+          [
+            "0.721014532",
+            "0.116748984"
+          ],
+          [
+            "0.915676950",
+            "0.136728654"
+          ],
+          [
+            "0.749999972",
+            "0.637622032"
+          ],
+          [
+            "0.375721304",
+            "0.378853991"
+          ],
+          [
+            "0.624278700",
+            "0.378854010"
+          ],
+          [
+            "0.998541762",
+            "0.633973385"
+          ],
+          [
+            "0.084323043",
+            "0.136728658"
+          ],
+          [
+            "0.123525187",
+            "0.897303215"
+          ],
+          [
+            "0.876474813",
+            "0.897303215"
+          ],
+          [
+            "0.499999975",
+            "0.641277291"
+          ],
+          [
+            "0.001458169",
+            "0.633973384"
+          ],
+          [
+            "0.626474810",
+            "0.900958481"
+          ],
+          [
+            "0.500000001",
+            "0.116430710"
+          ],
+          [
+            "0.125764843",
+            "0.373398828"
+          ],
+          [
+            "0.278985463",
+            "0.116748976"
+          ],
+          [
+            "0.874235161",
+            "0.373398824"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p73-n19-v1",
+      "name": "n = 19",
+      "parameters": {
+        "n": 19
+      },
+      "objective": "minimize",
+      "scoreStored": "157841982137136709",
+      "scoreDisplay": "0.157841982137137",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.15784198174667375675",
+        "kind": "best",
+        "source": "The construction by Kari J. Nurmela and Patric R. J. Östergård is reproduced in Nurmela and Östergård's HUT-TCS-A62 report (2000); the paper's best-known radius is 0.15784198174667375675, with optimality open. The nine-decimal certificate reconstructed from its vector figure and contact topology verifies at 0.157841982137137; it is a reference answer, not a new record.",
+        "url": "https://research.aalto.fi/en/publications/covering-a-square-with-up-to-30-equal-circles/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.348117349",
+            "0.610057924"
+          ],
+          [
+            "0.669812519",
+            "0.878098138"
+          ],
+          [
+            "0.706327759",
+            "0.340741308"
+          ],
+          [
+            "0.368741295",
+            "0.094596885"
+          ],
+          [
+            "0.880036279",
+            "0.102580685"
+          ],
+          [
+            "0.968218201",
+            "0.629071089"
+          ],
+          [
+            "0.115545723",
+            "0.620837533"
+          ],
+          [
+            "0.465244887",
+            "0.881526172"
+          ],
+          [
+            "0.885041146",
+            "0.891840151"
+          ],
+          [
+            "0.917638599",
+            "0.339811623"
+          ],
+          [
+            "0.121193277",
+            "0.101125075"
+          ],
+          [
+            "0.080426400",
+            "0.864185106"
+          ],
+          [
+            "0.260899914",
+            "0.877915332"
+          ],
+          [
+            "0.559587106",
+            "0.603510369"
+          ],
+          [
+            "0.780717290",
+            "0.612148379"
+          ],
+          [
+            "0.627584297",
+            "0.085795990"
+          ],
+          [
+            "0.480219403",
+            "0.336830289"
+          ],
+          [
+            "0.026932027",
+            "0.357777502"
+          ],
+          [
+            "0.253828188",
+            "0.353438955"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p73-n20-v1",
+      "name": "n = 20",
+      "parameters": {
+        "n": 20
+      },
+      "objective": "minimize",
+      "scoreStored": "152246811514528341",
+      "scoreDisplay": "0.152246811514529",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.15224681123338031005",
+        "kind": "best",
+        "source": "The construction by Kari J. Nurmela and Patric R. J. Östergård is reproduced in Nurmela and Östergård's HUT-TCS-A62 report (2000); the paper's best-known radius is 0.15224681123338031005, with optimality open. The nine-decimal certificate reconstructed from its vector figure and contact topology verifies at 0.152246811514529; it is a reference answer, not a new record.",
+        "url": "https://research.aalto.fi/en/publications/covering-a-square-with-up-to-30-equal-circles/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.334019765",
+            "0.918043104"
+          ],
+          [
+            "0.595562816",
+            "0.926333871"
+          ],
+          [
+            "0.049090366",
+            "0.499999999"
+          ],
+          [
+            "0.864400461",
+            "0.930776763"
+          ],
+          [
+            "0.410579761",
+            "0.712761297"
+          ],
+          [
+            "0.681570995",
+            "0.286833063"
+          ],
+          [
+            "0.137343537",
+            "0.290189586"
+          ],
+          [
+            "0.102857408",
+            "0.112247250"
+          ],
+          [
+            "0.102857410",
+            "0.887752752"
+          ],
+          [
+            "0.595562814",
+            "0.500000000"
+          ],
+          [
+            "0.595562813",
+            "0.073666129"
+          ],
+          [
+            "0.410579760",
+            "0.287238706"
+          ],
+          [
+            "0.323777439",
+            "0.500000002"
+          ],
+          [
+            "0.334019761",
+            "0.081956894"
+          ],
+          [
+            "0.864400460",
+            "0.069223235"
+          ],
+          [
+            "0.137343536",
+            "0.709810415"
+          ],
+          [
+            "0.681570996",
+            "0.713166935"
+          ],
+          [
+            "0.950408641",
+            "0.717609826"
+          ],
+          [
+            "0.866761893",
+            "0.499999998"
+          ],
+          [
+            "0.950408641",
+            "0.282390170"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p73-n21-v1",
+      "name": "n = 21",
+      "parameters": {
+        "n": 21
+      },
+      "objective": "minimize",
+      "scoreStored": "148953790115859436",
+      "scoreDisplay": "0.148953790115860",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.14895378955109932188",
+        "kind": "best",
+        "source": "The construction by Kari J. Nurmela and Patric R. J. Östergård is reproduced in Nurmela and Östergård's HUT-TCS-A62 report (2000); the paper's best-known radius is 0.14895378955109932188, with optimality open. The nine-decimal certificate reconstructed from its vector figure and contact topology verifies at 0.148953790115860; it is a reference answer, not a new record.",
+        "url": "https://research.aalto.fi/en/publications/covering-a-square-with-up-to-30-equal-circles/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.671647149",
+            "0.266412142"
+          ],
+          [
+            "0.598708611",
+            "0.063991380"
+          ],
+          [
+            "0.866608180",
+            "0.066286152"
+          ],
+          [
+            "0.876224448",
+            "0.917133576"
+          ],
+          [
+            "0.383526952",
+            "0.911511848"
+          ],
+          [
+            "0.338218961",
+            "0.079471959"
+          ],
+          [
+            "0.131852963",
+            "0.930703336"
+          ],
+          [
+            "0.936333186",
+            "0.267233984"
+          ],
+          [
+            "0.627898438",
+            "0.918302909"
+          ],
+          [
+            "0.237130825",
+            "0.693973059"
+          ],
+          [
+            "0.493534247",
+            "0.681572632"
+          ],
+          [
+            "0.106118530",
+            "0.104527934"
+          ],
+          [
+            "0.867444743",
+            "0.469839283"
+          ],
+          [
+            "0.603001227",
+            "0.469488522"
+          ],
+          [
+            "0.024784909",
+            "0.714529378"
+          ],
+          [
+            "0.096155291",
+            "0.453891847"
+          ],
+          [
+            "0.985456836",
+            "0.686025027"
+          ],
+          [
+            "0.737130825",
+            "0.687194360"
+          ],
+          [
+            "0.133761051",
+            "0.274593739"
+          ],
+          [
+            "0.405942593",
+            "0.268540690"
+          ],
+          [
+            "0.337050509",
+            "0.465634142"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p73-n22-v1",
+      "name": "n = 22",
+      "parameters": {
+        "n": 22
+      },
+      "objective": "minimize",
+      "scoreStored": "143693177328491893",
+      "scoreDisplay": "0.143693177328492",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.14369317712168800049",
+        "kind": "best",
+        "source": "The construction by A. Lengyel and I. A. Veres; independently Kari J. Nurmela and Patric R. J. Östergård is reproduced in Nurmela and Östergård's HUT-TCS-A62 report (2000); the paper's best-known radius is 0.14369317712168800049, with optimality open. The nine-decimal certificate reconstructed from its vector figure and contact topology verifies at 0.143693177328492; it is a reference answer, not a new record.",
+        "url": "https://research.aalto.fi/en/publications/covering-a-square-with-up-to-30-equal-circles/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.125000000",
+            "0.929128785"
+          ],
+          [
+            "0.500000000",
+            "0.714564392"
+          ],
+          [
+            "0.125000000",
+            "0.070871215"
+          ],
+          [
+            "0.375000000",
+            "0.500000000"
+          ],
+          [
+            "0.250000000",
+            "0.714564392"
+          ],
+          [
+            "1.000000000",
+            "0.714564392"
+          ],
+          [
+            "1.000000000",
+            "0.285435608"
+          ],
+          [
+            "0.750000000",
+            "0.714564392"
+          ],
+          [
+            "0.500000000",
+            "0.285435608"
+          ],
+          [
+            "0.625000000",
+            "0.929128785"
+          ],
+          [
+            "0.625000000",
+            "0.500000000"
+          ],
+          [
+            "0.875000000",
+            "0.070871215"
+          ],
+          [
+            "0.000000000",
+            "0.285435608"
+          ],
+          [
+            "0.125000000",
+            "0.500000000"
+          ],
+          [
+            "0.375000000",
+            "0.070871215"
+          ],
+          [
+            "0.875000000",
+            "0.929128785"
+          ],
+          [
+            "0.875000000",
+            "0.500000000"
+          ],
+          [
+            "0.375000000",
+            "0.929128785"
+          ],
+          [
+            "0.625000000",
+            "0.070871215"
+          ],
+          [
+            "0.250000000",
+            "0.285435608"
+          ],
+          [
+            "0.750000000",
+            "0.285435608"
+          ],
+          [
+            "0.000000000",
+            "0.714564392"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p73-n23-v1",
+      "name": "n = 23",
+      "parameters": {
+        "n": 23
+      },
+      "objective": "minimize",
+      "scoreStored": "141244822774813376",
+      "scoreDisplay": "0.141244822774814",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.14124482238793135951",
+        "kind": "best",
+        "source": "The construction by A. Lengyel and I. A. Veres; independently Kari J. Nurmela and Patric R. J. Östergård is reproduced in Nurmela and Östergård's HUT-TCS-A62 report (2000); the paper's best-known radius is 0.14124482238793135951, with optimality open. The nine-decimal certificate reconstructed from its vector figure and contact topology verifies at 0.141244822774814; it is a reference answer, not a new record.",
+        "url": "https://research.aalto.fi/en/publications/covering-a-square-with-up-to-30-equal-circles/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.718991367",
+            "0.089467605"
+          ],
+          [
+            "0.374222628",
+            "0.705511074"
+          ],
+          [
+            "0.500000005",
+            "0.499999997"
+          ],
+          [
+            "0.914143745",
+            "0.887844736"
+          ],
+          [
+            "0.625777378",
+            "0.705511079"
+          ],
+          [
+            "0.499999975",
+            "0.911022155"
+          ],
+          [
+            "0.085856233",
+            "0.887844719"
+          ],
+          [
+            "0.085856239",
+            "0.112155277"
+          ],
+          [
+            "0.718991347",
+            "0.910532392"
+          ],
+          [
+            "0.248445253",
+            "0.499999995"
+          ],
+          [
+            "0.281008625",
+            "0.089467604"
+          ],
+          [
+            "0.751554758",
+            "0.500000009"
+          ],
+          [
+            "1.000000000",
+            "0.500000004"
+          ],
+          [
+            "0.875777380",
+            "0.708467149"
+          ],
+          [
+            "0.914143757",
+            "0.112155273"
+          ],
+          [
+            "0.499999996",
+            "0.088977848"
+          ],
+          [
+            "0.374222629",
+            "0.294488918"
+          ],
+          [
+            "0.281008606",
+            "0.910532389"
+          ],
+          [
+            "0.124222627",
+            "0.291532862"
+          ],
+          [
+            "0.124222626",
+            "0.708467126"
+          ],
+          [
+            "0.875777378",
+            "0.291532864"
+          ],
+          [
+            "0.000000000",
+            "0.499999993"
+          ],
+          [
+            "0.625777384",
+            "0.294488927"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p73-n24-v1",
+      "name": "n = 24",
+      "parameters": {
+        "n": 24
+      },
+      "objective": "minimize",
+      "scoreStored": "138302883737670497",
+      "scoreDisplay": "0.138302883737671",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.13830288328269767697",
+        "kind": "best",
+        "source": "The construction by Kari J. Nurmela and Patric R. J. Östergård is reproduced in Nurmela and Östergård's HUT-TCS-A62 report (2000); the paper's best-known radius is 0.13830288328269767697, with optimality open. The nine-decimal certificate reconstructed from its vector figure and contact topology verifies at 0.138302883737671; it is a reference answer, not a new record.",
+        "url": "https://research.aalto.fi/en/publications/covering-a-square-with-up-to-30-equal-circles/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.336199089",
+            "0.316031964"
+          ],
+          [
+            "0.522218144",
+            "0.757579765"
+          ],
+          [
+            "0.875627032",
+            "0.939509899"
+          ],
+          [
+            "0.220891588",
+            "0.528389393"
+          ],
+          [
+            "0.763023870",
+            "0.314386583"
+          ],
+          [
+            "0.476038385",
+            "0.094042915"
+          ],
+          [
+            "0.081513777",
+            "0.111728204"
+          ],
+          [
+            "0.663366569",
+            "0.535917631"
+          ],
+          [
+            "0.681905528",
+            "0.090642216"
+          ],
+          [
+            "0.079856472",
+            "0.750992655"
+          ],
+          [
+            "0.268828883",
+            "0.089071693"
+          ],
+          [
+            "0.974300591",
+            "0.311594555"
+          ],
+          [
+            "0.035009742",
+            "0.504275585"
+          ],
+          [
+            "0.624096678",
+            "0.945606186"
+          ],
+          [
+            "0.293557864",
+            "0.748983866"
+          ],
+          [
+            "0.888443223",
+            "0.529236963"
+          ],
+          [
+            "0.893182249",
+            "0.087850188"
+          ],
+          [
+            "0.965837887",
+            "0.745002495"
+          ],
+          [
+            "0.550462173",
+            "0.315676204"
+          ],
+          [
+            "0.744125836",
+            "0.746881434"
+          ],
+          [
+            "0.117149087",
+            "0.296966809"
+          ],
+          [
+            "0.368875864",
+            "0.947775047"
+          ],
+          [
+            "0.444969120",
+            "0.541615857"
+          ],
+          [
+            "0.120406218",
+            "0.931955674"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p73-n25-v1",
+      "name": "n = 25",
+      "parameters": {
+        "n": 25
+      },
+      "objective": "minimize",
+      "scoreStored": "133548706993384504",
+      "scoreDisplay": "0.133548706993385",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.13354870656077049693",
+        "kind": "best",
+        "source": "The construction by Kari J. Nurmela and Patric R. J. Östergård is reproduced in Nurmela and Östergård's HUT-TCS-A62 report (2000); the paper's best-known radius is 0.13354870656077049693, with optimality open. The nine-decimal certificate reconstructed from its vector figure and contact topology verifies at 0.133548706993385; it is a reference answer, not a new record.",
+        "url": "https://research.aalto.fi/en/publications/covering-a-square-with-up-to-30-equal-circles/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.330479505",
+            "0.292105169"
+          ],
+          [
+            "0.253979966",
+            "0.087958451"
+          ],
+          [
+            "0.975738819",
+            "0.707537866"
+          ],
+          [
+            "0.759752318",
+            "0.711621372"
+          ],
+          [
+            "0.244803526",
+            "0.500000001"
+          ],
+          [
+            "0.893491387",
+            "0.919432188"
+          ],
+          [
+            "0.110500809",
+            "0.706409382"
+          ],
+          [
+            "0.676776529",
+            "0.499999999"
+          ],
+          [
+            "0.890331927",
+            "0.500000000"
+          ],
+          [
+            "0.110500808",
+            "0.293590620"
+          ],
+          [
+            "0.546466007",
+            "0.711978337"
+          ],
+          [
+            "0.759752319",
+            "0.288378627"
+          ],
+          [
+            "0.546466006",
+            "0.288021662"
+          ],
+          [
+            "0.677504886",
+            "0.923515694"
+          ],
+          [
+            "0.463759303",
+            "0.500000000"
+          ],
+          [
+            "0.076744168",
+            "0.890704119"
+          ],
+          [
+            "0.893491387",
+            "0.080567812"
+          ],
+          [
+            "0.023801910",
+            "0.500000002"
+          ],
+          [
+            "0.677504884",
+            "0.076484305"
+          ],
+          [
+            "0.253979969",
+            "0.912041550"
+          ],
+          [
+            "0.461249300",
+            "0.919789152"
+          ],
+          [
+            "0.330479505",
+            "0.707894831"
+          ],
+          [
+            "0.975738821",
+            "0.292462133"
+          ],
+          [
+            "0.076744167",
+            "0.109295882"
+          ],
+          [
+            "0.461249297",
+            "0.080210847"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p73-n26-v1",
+      "name": "n = 26",
+      "parameters": {
+        "n": 26
+      },
+      "objective": "minimize",
+      "scoreStored": "131764875956283927",
+      "scoreDisplay": "0.131764875956284",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.13176487561482596463",
+        "kind": "best",
+        "source": "The construction by Kari J. Nurmela and Patric R. J. Östergård is reproduced in Nurmela and Östergård's HUT-TCS-A62 report (2000); the paper's best-known radius is 0.13176487561482596463, with optimality open. The nine-decimal certificate reconstructed from its vector figure and contact topology verifies at 0.131764875956284; it is a reference answer, not a new record.",
+        "url": "https://research.aalto.fi/en/publications/covering-a-square-with-up-to-30-equal-circles/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.987751888",
+            "0.703597695"
+          ],
+          [
+            "0.495893631",
+            "0.912511011"
+          ],
+          [
+            "0.260383485",
+            "0.479495813"
+          ],
+          [
+            "0.967579270",
+            "0.287682785"
+          ],
+          [
+            "0.759378001",
+            "0.283232024"
+          ],
+          [
+            "0.464524098",
+            "0.074891130"
+          ],
+          [
+            "0.694553015",
+            "0.914352004"
+          ],
+          [
+            "0.389607583",
+            "0.689019017"
+          ],
+          [
+            "0.331269853",
+            "0.281887328"
+          ],
+          [
+            "0.257504978",
+            "0.087399914"
+          ],
+          [
+            "0.546253929",
+            "0.278138787"
+          ],
+          [
+            "0.186434976",
+            "0.696436947"
+          ],
+          [
+            "0.683386089",
+            "0.485837205"
+          ],
+          [
+            "0.079449250",
+            "0.105118025"
+          ],
+          [
+            "0.108330708",
+            "0.285245650"
+          ],
+          [
+            "0.895288571",
+            "0.079984367"
+          ],
+          [
+            "0.072007242",
+            "0.470604421"
+          ],
+          [
+            "0.784962431",
+            "0.700553660"
+          ],
+          [
+            "0.303328241",
+            "0.907702389"
+          ],
+          [
+            "0.897342472",
+            "0.917396039"
+          ],
+          [
+            "0.024578945",
+            "0.710405737"
+          ],
+          [
+            "0.104645153",
+            "0.919928941"
+          ],
+          [
+            "0.472841387",
+            "0.483814686"
+          ],
+          [
+            "0.583777448",
+            "0.695668632"
+          ],
+          [
+            "0.681756941",
+            "0.074297688"
+          ],
+          [
+            "0.894173614",
+            "0.493900073"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p73-n27-v1",
+      "name": "n = 27",
+      "parameters": {
+        "n": 27
+      },
+      "objective": "minimize",
+      "scoreStored": "128633534696440410",
+      "scoreDisplay": "0.128633534696441",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.12863353450309966807",
+        "kind": "best",
+        "source": "The construction by Kari J. Nurmela and Patric R. J. Östergård is reproduced in Nurmela and Östergård's HUT-TCS-A62 report (2000); the paper's best-known radius is 0.12863353450309966807, with optimality open. The nine-decimal certificate reconstructed from its vector figure and contact topology verifies at 0.128633534696441; it is a reference answer, not a new record.",
+        "url": "https://research.aalto.fi/en/publications/covering-a-square-with-up-to-30-equal-circles/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.999999329",
+            "0.709544512"
+          ],
+          [
+            "0.100000000",
+            "0.919089023"
+          ],
+          [
+            "0.900000000",
+            "0.080910977"
+          ],
+          [
+            "0.400000000",
+            "0.709544512"
+          ],
+          [
+            "0.600000000",
+            "0.290455488"
+          ],
+          [
+            "0.799999994",
+            "0.709544512"
+          ],
+          [
+            "0.200000000",
+            "0.709544512"
+          ],
+          [
+            "0.900000000",
+            "0.919089023"
+          ],
+          [
+            "0.200000000",
+            "0.290455488"
+          ],
+          [
+            "0.500000000",
+            "0.500000000"
+          ],
+          [
+            "0.700000000",
+            "0.080910977"
+          ],
+          [
+            "0.800000000",
+            "0.290455488"
+          ],
+          [
+            "0.300000000",
+            "0.500000000"
+          ],
+          [
+            "0.300000000",
+            "0.919089023"
+          ],
+          [
+            "0.100000000",
+            "0.500000000"
+          ],
+          [
+            "0.500000000",
+            "0.080910977"
+          ],
+          [
+            "0.900000000",
+            "0.500000000"
+          ],
+          [
+            "0.000000422",
+            "0.709544511"
+          ],
+          [
+            "0.500000000",
+            "0.919089023"
+          ],
+          [
+            "0.300000000",
+            "0.080910977"
+          ],
+          [
+            "0.000000500",
+            "0.290455488"
+          ],
+          [
+            "0.599999995",
+            "0.709544512"
+          ],
+          [
+            "0.700000000",
+            "0.500000000"
+          ],
+          [
+            "0.100000000",
+            "0.080910977"
+          ],
+          [
+            "0.700000000",
+            "0.919089023"
+          ],
+          [
+            "0.400000000",
+            "0.290455488"
+          ],
+          [
+            "0.999999546",
+            "0.290455488"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p73-n28-v1",
+      "name": "n = 28",
+      "parameters": {
+        "n": 28
+      },
+      "objective": "minimize",
+      "scoreStored": "127317554087930271",
+      "scoreDisplay": "0.127317554087931",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.12731755346561372147",
+        "kind": "best",
+        "source": "The construction by Kari J. Nurmela and Patric R. J. Östergård is reproduced in Nurmela and Östergård's HUT-TCS-A62 report (2000); the paper's best-known radius is 0.12731755346561372147, with optimality open. The nine-decimal certificate reconstructed from its vector figure and contact topology verifies at 0.127317554087931; it is a reference answer, not a new record.",
+        "url": "https://research.aalto.fi/en/publications/covering-a-square-with-up-to-30-equal-circles/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.224359207",
+            "0.091561751"
+          ],
+          [
+            "0.499999963",
+            "0.709356230"
+          ],
+          [
+            "0.932053625",
+            "0.107671025"
+          ],
+          [
+            "0.406412609",
+            "0.086319918"
+          ],
+          [
+            "0.067946683",
+            "0.107670831"
+          ],
+          [
+            "0.775640853",
+            "0.908438298"
+          ],
+          [
+            "0.100103571",
+            "0.294012078"
+          ],
+          [
+            "0.500000097",
+            "0.290643554"
+          ],
+          [
+            "0.067946581",
+            "0.892329106"
+          ],
+          [
+            "0.698577505",
+            "0.295447537"
+          ],
+          [
+            "0.402637834",
+            "0.499999812"
+          ],
+          [
+            "0.224358945",
+            "0.908438192"
+          ],
+          [
+            "0.698577361",
+            "0.704552594"
+          ],
+          [
+            "0.597362226",
+            "0.499999971"
+          ],
+          [
+            "0.899896336",
+            "0.705987969"
+          ],
+          [
+            "0.406412220",
+            "0.913680010"
+          ],
+          [
+            "0.593587337",
+            "0.913680152"
+          ],
+          [
+            "1.000000000",
+            "0.500000117"
+          ],
+          [
+            "0.301422580",
+            "0.704552278"
+          ],
+          [
+            "0.799792640",
+            "0.500000159"
+          ],
+          [
+            "0.932053373",
+            "0.892329134"
+          ],
+          [
+            "0.899896303",
+            "0.294012307"
+          ],
+          [
+            "0.301422485",
+            "0.295447471"
+          ],
+          [
+            "0.100103659",
+            "0.705987906"
+          ],
+          [
+            "0.200207230",
+            "0.499999936"
+          ],
+          [
+            "0.593587830",
+            "0.086319806"
+          ],
+          [
+            "0.000000000",
+            "0.500000048"
+          ],
+          [
+            "0.775641371",
+            "0.091561715"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p73-n29-v1",
+      "name": "n = 29",
+      "parameters": {
+        "n": 29
+      },
+      "objective": "minimize",
+      "scoreStored": "125553508346550217",
+      "scoreDisplay": "0.125553508346551",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.12555350796411353317",
+        "kind": "best",
+        "source": "The construction by Kari J. Nurmela and Patric R. J. Östergård is reproduced in Nurmela and Östergård's HUT-TCS-A62 report (2000); the paper's best-known radius is 0.12555350796411353317, with optimality open. The nine-decimal certificate reconstructed from its vector figure and contact topology verifies at 0.125553508346551; it is a reference answer, not a new record.",
+        "url": "https://research.aalto.fi/en/publications/covering-a-square-with-up-to-30-equal-circles/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.094872292",
+            "0.917762955"
+          ],
+          [
+            "0.384884482",
+            "0.703807993"
+          ],
+          [
+            "0.095458657",
+            "0.081555675"
+          ],
+          [
+            "0.689198319",
+            "0.438100278"
+          ],
+          [
+            "0.985645109",
+            "0.202352359"
+          ],
+          [
+            "0.674583757",
+            "0.588501098"
+          ],
+          [
+            "0.462491347",
+            "0.917203224"
+          ],
+          [
+            "0.467653314",
+            "0.083994639"
+          ],
+          [
+            "0.898053986",
+            "0.570164732"
+          ],
+          [
+            "0.381353086",
+            "0.295183055"
+          ],
+          [
+            "0.564065364",
+            "0.285268626"
+          ],
+          [
+            "0.761129792",
+            "0.757629918"
+          ],
+          [
+            "0.907501816",
+            "0.411981133"
+          ],
+          [
+            "0.278925865",
+            "0.911623633"
+          ],
+          [
+            "0.880595716",
+            "0.038811084"
+          ],
+          [
+            "0.970188552",
+            "0.765412698"
+          ],
+          [
+            "0.661082270",
+            "0.075774924"
+          ],
+          [
+            "0.479952512",
+            "0.501609956"
+          ],
+          [
+            "0.005407875",
+            "0.288548340"
+          ],
+          [
+            "0.887783147",
+            "0.943687823"
+          ],
+          [
+            "0.666220921",
+            "0.938296898"
+          ],
+          [
+            "0.091708103",
+            "0.499736755"
+          ],
+          [
+            "0.011574417",
+            "0.710507046"
+          ],
+          [
+            "0.776789442",
+            "0.240085071"
+          ],
+          [
+            "0.192574635",
+            "0.292744091"
+          ],
+          [
+            "0.554528739",
+            "0.731145319"
+          ],
+          [
+            "0.282625417",
+            "0.085751427"
+          ],
+          [
+            "0.195627990",
+            "0.704367724"
+          ],
+          [
+            "0.284549918",
+            "0.497428818"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p73-n30-v1",
+      "name": "n = 30",
+      "parameters": {
+        "n": 30
+      },
+      "objective": "minimize",
+      "scoreStored": "122036869354870199",
+      "scoreDisplay": "0.122036869354871",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.12203686881944873607",
+        "kind": "best",
+        "source": "The construction by Kari J. Nurmela and Patric R. J. Östergård is reproduced in Nurmela and Östergård's HUT-TCS-A62 report (2000); the paper's best-known radius is 0.12203686881944873607, with optimality open. The nine-decimal certificate reconstructed from its vector figure and contact topology verifies at 0.122036869354871; it is a reference answer, not a new record.",
+        "url": "https://research.aalto.fi/en/publications/covering-a-square-with-up-to-30-equal-circles/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.105975452",
+            "0.060516122"
+          ],
+          [
+            "0.680876337",
+            "0.941630523"
+          ],
+          [
+            "0.756591401",
+            "0.762888737"
+          ],
+          [
+            "0.738026408",
+            "0.069252543"
+          ],
+          [
+            "0.468080705",
+            "0.938870571"
+          ],
+          [
+            "0.030260377",
+            "0.239257905"
+          ],
+          [
+            "0.676371611",
+            "0.585358525"
+          ],
+          [
+            "0.261973595",
+            "0.930747458"
+          ],
+          [
+            "0.323628382",
+            "0.414641473"
+          ],
+          [
+            "0.970790871",
+            "0.412720531"
+          ],
+          [
+            "0.244923308",
+            "0.590118270"
+          ],
+          [
+            "0.969739614",
+            "0.760742088"
+          ],
+          [
+            "0.531919301",
+            "0.061129432"
+          ],
+          [
+            "0.543940340",
+            "0.764131672"
+          ],
+          [
+            "0.327529775",
+            "0.765247989"
+          ],
+          [
+            "0.755076688",
+            "0.409881733"
+          ],
+          [
+            "0.919255324",
+            "0.091505709"
+          ],
+          [
+            "0.456059658",
+            "0.235868327"
+          ],
+          [
+            "0.891369611",
+            "0.238621092"
+          ],
+          [
+            "0.319123669",
+            "0.058369476"
+          ],
+          [
+            "0.108608162",
+            "0.413136639"
+          ],
+          [
+            "0.461333875",
+            "0.589001949"
+          ],
+          [
+            "0.029209129",
+            "0.587279476"
+          ],
+          [
+            "0.538666120",
+            "0.410998046"
+          ],
+          [
+            "0.243408594",
+            "0.237111258"
+          ],
+          [
+            "0.891391835",
+            "0.586863362"
+          ],
+          [
+            "0.108630390",
+            "0.761378912"
+          ],
+          [
+            "0.080744677",
+            "0.908494292"
+          ],
+          [
+            "0.894024551",
+            "0.939483874"
+          ],
+          [
+            "0.672470228",
+            "0.234752012"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p73-n31-v1",
+      "name": "n = 31",
+      "parameters": {
+        "n": 31
+      },
+      "objective": "minimize",
+      "scoreStored": "122036869354870199",
+      "scoreDisplay": "0.122036869354871",
+      "status": "open",
+      "settled": false,
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.105975452",
+            "0.060516122"
+          ],
+          [
+            "0.680876337",
+            "0.941630523"
+          ],
+          [
+            "0.756591401",
+            "0.762888737"
+          ],
+          [
+            "0.738026408",
+            "0.069252543"
+          ],
+          [
+            "0.468080705",
+            "0.938870571"
+          ],
+          [
+            "0.030260377",
+            "0.239257905"
+          ],
+          [
+            "0.676371611",
+            "0.585358525"
+          ],
+          [
+            "0.261973595",
+            "0.930747458"
+          ],
+          [
+            "0.323628382",
+            "0.414641473"
+          ],
+          [
+            "0.970790871",
+            "0.412720531"
+          ],
+          [
+            "0.244923308",
+            "0.590118270"
+          ],
+          [
+            "0.969739614",
+            "0.760742088"
+          ],
+          [
+            "0.531919301",
+            "0.061129432"
+          ],
+          [
+            "0.543940340",
+            "0.764131672"
+          ],
+          [
+            "0.327529775",
+            "0.765247989"
+          ],
+          [
+            "0.755076688",
+            "0.409881733"
+          ],
+          [
+            "0.919255324",
+            "0.091505709"
+          ],
+          [
+            "0.456059658",
+            "0.235868327"
+          ],
+          [
+            "0.891369611",
+            "0.238621092"
+          ],
+          [
+            "0.319123669",
+            "0.058369476"
+          ],
+          [
+            "0.108608162",
+            "0.413136639"
+          ],
+          [
+            "0.461333875",
+            "0.589001949"
+          ],
+          [
+            "0.029209129",
+            "0.587279476"
+          ],
+          [
+            "0.538666120",
+            "0.410998046"
+          ],
+          [
+            "0.243408594",
+            "0.237111258"
+          ],
+          [
+            "0.891391835",
+            "0.586863362"
+          ],
+          [
+            "0.108630390",
+            "0.761378912"
+          ],
+          [
+            "0.080744677",
+            "0.908494292"
+          ],
+          [
+            "0.894024551",
+            "0.939483874"
+          ],
+          [
+            "0.672470228",
+            "0.234752012"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p73-n32-v1",
+      "name": "n = 32",
+      "parameters": {
+        "n": 32
+      },
+      "objective": "minimize",
+      "scoreStored": "122036869266691667",
+      "scoreDisplay": "0.122036869266692",
+      "status": "open",
+      "settled": false,
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.105975452",
+            "0.060516122"
+          ],
+          [
+            "0.680876337",
+            "0.941630523"
+          ],
+          [
+            "0.756591401",
+            "0.762888737"
+          ],
+          [
+            "0.738026408",
+            "0.069252543"
+          ],
+          [
+            "0.468080705",
+            "0.938870571"
+          ],
+          [
+            "0.030260377",
+            "0.239257905"
+          ],
+          [
+            "0.676371611",
+            "0.585358525"
+          ],
+          [
+            "0.261973595",
+            "0.930747458"
+          ],
+          [
+            "0.323628382",
+            "0.414641473"
+          ],
+          [
+            "0.970790871",
+            "0.412720531"
+          ],
+          [
+            "0.244923308",
+            "0.590118270"
+          ],
+          [
+            "0.969739614",
+            "0.760742088"
+          ],
+          [
+            "0.531919301",
+            "0.061129432"
+          ],
+          [
+            "0.543940340",
+            "0.764131672"
+          ],
+          [
+            "0.327529775",
+            "0.765247989"
+          ],
+          [
+            "0.755076688",
+            "0.409881733"
+          ],
+          [
+            "0.919255324",
+            "0.091505709"
+          ],
+          [
+            "0.456059658",
+            "0.235868327"
+          ],
+          [
+            "0.891369611",
+            "0.238621092"
+          ],
+          [
+            "0.319123669",
+            "0.058369476"
+          ],
+          [
+            "0.108608162",
+            "0.413136639"
+          ],
+          [
+            "0.461333875",
+            "0.589001949"
+          ],
+          [
+            "0.029209129",
+            "0.587279476"
+          ],
+          [
+            "0.538666120",
+            "0.410998046"
+          ],
+          [
+            "0.243408594",
+            "0.237111258"
+          ],
+          [
+            "0.891391835",
+            "0.586863362"
+          ],
+          [
+            "0.108630390",
+            "0.761378912"
+          ],
+          [
+            "0.080744677",
+            "0.908494292"
+          ],
+          [
+            "0.894024551",
+            "0.939483874"
+          ],
+          [
+            "0.672470228",
+            "0.234752012"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p73-n33-v1",
+      "name": "n = 33",
+      "parameters": {
+        "n": 33
+      },
+      "objective": "minimize",
+      "scoreStored": "122036869153124217",
+      "scoreDisplay": "0.122036869153125",
+      "status": "open",
+      "settled": false,
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.105975452",
+            "0.060516122"
+          ],
+          [
+            "0.680876337",
+            "0.941630523"
+          ],
+          [
+            "0.756591401",
+            "0.762888737"
+          ],
+          [
+            "0.738026408",
+            "0.069252543"
+          ],
+          [
+            "0.468080705",
+            "0.938870571"
+          ],
+          [
+            "0.030260377",
+            "0.239257905"
+          ],
+          [
+            "0.676371611",
+            "0.585358525"
+          ],
+          [
+            "0.261973595",
+            "0.930747458"
+          ],
+          [
+            "0.323628382",
+            "0.414641473"
+          ],
+          [
+            "0.970790871",
+            "0.412720531"
+          ],
+          [
+            "0.244923308",
+            "0.590118270"
+          ],
+          [
+            "0.969739614",
+            "0.760742088"
+          ],
+          [
+            "0.531919301",
+            "0.061129432"
+          ],
+          [
+            "0.543940340",
+            "0.764131672"
+          ],
+          [
+            "0.327529775",
+            "0.765247989"
+          ],
+          [
+            "0.755076688",
+            "0.409881733"
+          ],
+          [
+            "0.919255324",
+            "0.091505709"
+          ],
+          [
+            "0.456059658",
+            "0.235868327"
+          ],
+          [
+            "0.891369611",
+            "0.238621092"
+          ],
+          [
+            "0.319123669",
+            "0.058369476"
+          ],
+          [
+            "0.108608162",
+            "0.413136639"
+          ],
+          [
+            "0.461333875",
+            "0.589001949"
+          ],
+          [
+            "0.029209129",
+            "0.587279476"
+          ],
+          [
+            "0.538666120",
+            "0.410998046"
+          ],
+          [
+            "0.243408594",
+            "0.237111258"
+          ],
+          [
+            "0.891391835",
+            "0.586863362"
+          ],
+          [
+            "0.108630390",
+            "0.761378912"
+          ],
+          [
+            "0.080744677",
+            "0.908494292"
+          ],
+          [
+            "0.894024551",
+            "0.939483874"
+          ],
+          [
+            "0.672470228",
+            "0.234752012"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "1"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p73-n34-v1",
+      "name": "n = 34",
+      "parameters": {
+        "n": 34
+      },
+      "objective": "minimize",
+      "scoreStored": "122036869153124217",
+      "scoreDisplay": "0.122036869153125",
+      "status": "open",
+      "settled": false,
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.105975452",
+            "0.060516122"
+          ],
+          [
+            "0.680876337",
+            "0.941630523"
+          ],
+          [
+            "0.756591401",
+            "0.762888737"
+          ],
+          [
+            "0.738026408",
+            "0.069252543"
+          ],
+          [
+            "0.468080705",
+            "0.938870571"
+          ],
+          [
+            "0.030260377",
+            "0.239257905"
+          ],
+          [
+            "0.676371611",
+            "0.585358525"
+          ],
+          [
+            "0.261973595",
+            "0.930747458"
+          ],
+          [
+            "0.323628382",
+            "0.414641473"
+          ],
+          [
+            "0.970790871",
+            "0.412720531"
+          ],
+          [
+            "0.244923308",
+            "0.590118270"
+          ],
+          [
+            "0.969739614",
+            "0.760742088"
+          ],
+          [
+            "0.531919301",
+            "0.061129432"
+          ],
+          [
+            "0.543940340",
+            "0.764131672"
+          ],
+          [
+            "0.327529775",
+            "0.765247989"
+          ],
+          [
+            "0.755076688",
+            "0.409881733"
+          ],
+          [
+            "0.919255324",
+            "0.091505709"
+          ],
+          [
+            "0.456059658",
+            "0.235868327"
+          ],
+          [
+            "0.891369611",
+            "0.238621092"
+          ],
+          [
+            "0.319123669",
+            "0.058369476"
+          ],
+          [
+            "0.108608162",
+            "0.413136639"
+          ],
+          [
+            "0.461333875",
+            "0.589001949"
+          ],
+          [
+            "0.029209129",
+            "0.587279476"
+          ],
+          [
+            "0.538666120",
+            "0.410998046"
+          ],
+          [
+            "0.243408594",
+            "0.237111258"
+          ],
+          [
+            "0.891391835",
+            "0.586863362"
+          ],
+          [
+            "0.108630390",
+            "0.761378912"
+          ],
+          [
+            "0.080744677",
+            "0.908494292"
+          ],
+          [
+            "0.894024551",
+            "0.939483874"
+          ],
+          [
+            "0.672470228",
+            "0.234752012"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "1"
+          ],
+          [
+            "1",
+            "1"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p73-n35-v1",
+      "name": "n = 35",
+      "parameters": {
+        "n": 35
+      },
+      "objective": "minimize",
+      "scoreStored": "122036869153124217",
+      "scoreDisplay": "0.122036869153125",
+      "status": "open",
+      "settled": false,
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.105975452",
+            "0.060516122"
+          ],
+          [
+            "0.680876337",
+            "0.941630523"
+          ],
+          [
+            "0.756591401",
+            "0.762888737"
+          ],
+          [
+            "0.738026408",
+            "0.069252543"
+          ],
+          [
+            "0.468080705",
+            "0.938870571"
+          ],
+          [
+            "0.030260377",
+            "0.239257905"
+          ],
+          [
+            "0.676371611",
+            "0.585358525"
+          ],
+          [
+            "0.261973595",
+            "0.930747458"
+          ],
+          [
+            "0.323628382",
+            "0.414641473"
+          ],
+          [
+            "0.970790871",
+            "0.412720531"
+          ],
+          [
+            "0.244923308",
+            "0.590118270"
+          ],
+          [
+            "0.969739614",
+            "0.760742088"
+          ],
+          [
+            "0.531919301",
+            "0.061129432"
+          ],
+          [
+            "0.543940340",
+            "0.764131672"
+          ],
+          [
+            "0.327529775",
+            "0.765247989"
+          ],
+          [
+            "0.755076688",
+            "0.409881733"
+          ],
+          [
+            "0.919255324",
+            "0.091505709"
+          ],
+          [
+            "0.456059658",
+            "0.235868327"
+          ],
+          [
+            "0.891369611",
+            "0.238621092"
+          ],
+          [
+            "0.319123669",
+            "0.058369476"
+          ],
+          [
+            "0.108608162",
+            "0.413136639"
+          ],
+          [
+            "0.461333875",
+            "0.589001949"
+          ],
+          [
+            "0.029209129",
+            "0.587279476"
+          ],
+          [
+            "0.538666120",
+            "0.410998046"
+          ],
+          [
+            "0.243408594",
+            "0.237111258"
+          ],
+          [
+            "0.891391835",
+            "0.586863362"
+          ],
+          [
+            "0.108630390",
+            "0.761378912"
+          ],
+          [
+            "0.080744677",
+            "0.908494292"
+          ],
+          [
+            "0.894024551",
+            "0.939483874"
+          ],
+          [
+            "0.672470228",
+            "0.234752012"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "1"
+          ],
+          [
+            "1",
+            "1"
+          ],
+          [
+            "0.5",
+            "0.5"
+          ]
+        ]
+      }
+    }
+  ]
+}

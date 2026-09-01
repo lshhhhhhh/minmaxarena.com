@@ -37,7 +37,7 @@ managed.
 
 ## The records
 
-47 problem families, 875 sub-problems, 789 still open.
+51 problem families, 981 sub-problems, 889 still open.
 `records/` holds today's snapshot of each family; the live files are at
 `https://minmaxarena.com/data/{slug}.json`, and the citable ones are the monthly frozen
 editions at `https://minmaxarena.com/data/editions/{YYYY-MM}/{slug}.json`, which never change
@@ -63,7 +63,7 @@ once published. Data is CC BY 4.0; see
 | [P18](https://minmaxarena.com/en/problems/tilted-squares-in-square) | Tilted equal squares in the unit square | 28 | 16 | [json](records/tilted-squares-in-square.json) |
 | [P19](https://minmaxarena.com/en/problems/spread-points-in-an-l) | Spreading points in an L | 17 | 16 | [json](records/spread-points-in-an-l.json) |
 | [P20](https://minmaxarena.com/en/problems/spread-points-in-a-semicircle) | Spreading points in a half-disc | 15 | 15 | [json](records/spread-points-in-a-semicircle.json) |
-| [P21](https://minmaxarena.com/en/problems/spread-points-in-a-cross) | Spreading points in a plus sign | 17 | 17 | [json](records/spread-points-in-a-cross.json) |
+| [P21](https://minmaxarena.com/en/problems/spread-points-in-a-cross) | Spreading points in a plus sign | 17 | 15 | [json](records/spread-points-in-a-cross.json) |
 | [P22](https://minmaxarena.com/en/problems/heilbronn-in-a-circle) | The smallest triangle in a disc | 10 | 10 | [json](records/heilbronn-in-a-circle.json) |
 | [P24](https://minmaxarena.com/en/problems/heilbronn-in-an-l) | The smallest triangle in an L | 10 | 10 | [json](records/heilbronn-in-an-l.json) |
 | [P25](https://minmaxarena.com/en/problems/heilbronn-in-a-cross) | The smallest triangle in a plus sign | 10 | 10 | [json](records/heilbronn-in-a-cross.json) |
@@ -94,6 +94,10 @@ once published. Data is CC BY 4.0; see
 | [P67](https://minmaxarena.com/en/problems/variable-circles-in-fixed-perimeter-rectangle) | Variable-radius circles in a fixed-perimeter rectangle | 28 | 28 | [json](records/variable-circles-in-fixed-perimeter-rectangle.json) |
 | [P68](https://minmaxarena.com/en/problems/spherical-code-on-s2) | Spherical codes: maximize the minimum angle | 17 | 17 | [json](records/spherical-code-on-s2.json) |
 | [P70](https://minmaxarena.com/en/problems/probe-codebook) | Four-phase radar probe codebook | 9 | 8 | [json](records/probe-codebook.json) |
+| [P72](https://minmaxarena.com/en/problems/heilbronn-tetrahedron) | Heilbronn minimum tetrahedron volume | 12 | 12 | [json](records/heilbronn-tetrahedron.json) |
+| [P73](https://minmaxarena.com/en/problems/circles-covering-a-square) | Covering a square with n equal discs | 31 | 29 | [json](records/circles-covering-a-square.json) |
+| [P74](https://minmaxarena.com/en/problems/circles-covering-an-equilateral-triangle) | Covering an equilateral triangle with n equal discs | 34 | 32 | [json](records/circles-covering-an-equilateral-triangle.json) |
+| [P75](https://minmaxarena.com/en/problems/circles-covering-a-regular-pentagon) | Covering a regular pentagon with n equal discs | 29 | 29 | [json](records/circles-covering-a-regular-pentagon.json) |
 <!-- records:end -->
 
 ## Problems the catalogue no longer offers

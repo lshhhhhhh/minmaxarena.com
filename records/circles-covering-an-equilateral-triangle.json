@@ -1,0 +1,4042 @@
+{
+  "problem": "circles-covering-an-equilateral-triangle",
+  "code": "P74",
+  "title": "用 n 个等圆覆盖正三角形",
+  "titleEn": "Covering an equilateral triangle with n equal discs",
+  "objective": "minimize",
+  "scoreLabel": "覆盖半径",
+  "scoreLabelEn": "the covering radius",
+  "verifierVersion": "1.0.0",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseName": "CC BY 4.0",
+  "source": "https://minmaxarena.com/problems/circles-covering-an-equilateral-triangle",
+  "generatedAt": "2026-09-01T10:14:08.302Z",
+  "instances": [
+    {
+      "instanceId": "p74-n7-v1",
+      "name": "n = 7",
+      "parameters": {
+        "n": 7
+      },
+      "objective": "minimize",
+      "scoreStored": "185251085806292000",
+      "scoreDisplay": "0.185251085806292",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.1852510855786008545",
+        "kind": "best",
+        "source": "The construction by Hans Melissen appears in Figure 2 of Nurmela (2000); the paper's continuous value is 0.1852510855786008545. Optimality remains open; the site's nine-decimal reconstruction of the published contact graph verifies at 0.185251085806292.",
+        "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.157951325",
+            "0.09679537"
+          ],
+          [
+            "0.330547952",
+            "0.360593132"
+          ],
+          [
+            "0.408551204",
+            "0.704919593"
+          ],
+          [
+            "0.48364769",
+            "0.078610217"
+          ],
+          [
+            "0.598648913",
+            "0.518376123"
+          ],
+          [
+            "0.673584971",
+            "0.255971484"
+          ],
+          [
+            "0.825696365",
+            "0.062739203"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p74-n8-v1",
+      "name": "n = 8",
+      "parameters": {
+        "n": 8
+      },
+      "objective": "minimize",
+      "scoreStored": "176992666698617686",
+      "scoreDisplay": "0.176992666698618",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.1769926664029649641",
+        "kind": "best",
+        "source": "The construction by Hans Melissen appears in Figure 2 of Nurmela (2000); the paper's continuous value is 0.1769926664029649641. Optimality remains open; the site's nine-decimal reconstruction of the published contact graph verifies at 0.176992666698618.",
+        "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.910140897",
+            "0.152485231"
+          ],
+          [
+            "0.668843256",
+            "0.091612079"
+          ],
+          [
+            "0.176992662",
+            "0.00004068"
+          ],
+          [
+            "0.43569502",
+            "0.15700296"
+          ],
+          [
+            "0.671575826",
+            "0.398160191"
+          ],
+          [
+            "0.185641166",
+            "0.301314566"
+          ],
+          [
+            "0.441452823",
+            "0.47594498"
+          ],
+          [
+            "0.535628473",
+            "0.692655811"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p74-n9-v1",
+      "name": "n = 9",
+      "parameters": {
+        "n": 9
+      },
+      "objective": "minimize",
+      "scoreStored": "166666667608463871",
+      "scoreDisplay": "0.166666667608464",
+      "status": "proven",
+      "settled": true,
+      "knownBest": {
+        "display": "0.166666667608464",
+        "kind": "proven",
+        "source": "The construction by Hans Melissen appears in Figure 2 of Nurmela (2000); the paper's continuous value is 0.1666666666666666667. The paper also reports this n as proved optimal; the site's nine-decimal reconstruction of the published contact graph verifies at 0.166666667608464.",
+        "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.833333333",
+            "0"
+          ],
+          [
+            "0.583333328",
+            "0.144337564"
+          ],
+          [
+            "0.333333333",
+            "0"
+          ],
+          [
+            "0.833333328",
+            "0.288675132"
+          ],
+          [
+            "0.083333334",
+            "0.144337568"
+          ],
+          [
+            "0.333333333",
+            "0.288675131"
+          ],
+          [
+            "0.583333333",
+            "0.433012702"
+          ],
+          [
+            "0.333333331",
+            "0.577350263"
+          ],
+          [
+            "0.583333328",
+            "0.721687834"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p74-n10-v1",
+      "name": "n = 10",
+      "parameters": {
+        "n": 10
+      },
+      "objective": "minimize",
+      "scoreStored": "144337567736527419",
+      "scoreDisplay": "0.144337567736528",
+      "status": "proven",
+      "settled": true,
+      "knownBest": {
+        "display": "0.144337567736528",
+        "kind": "proven",
+        "source": "The construction by Hans Melissen appears in Figure 2 of Nurmela (2000); the paper's continuous value is 0.1443375672974064411. The paper also reports this n as proved optimal; the site's nine-decimal reconstruction of the published contact graph verifies at 0.144337567736528.",
+        "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.125",
+            "0.072168783"
+          ],
+          [
+            "0.249999999",
+            "0.288675135"
+          ],
+          [
+            "0.375",
+            "0.072168785"
+          ],
+          [
+            "0.375000001",
+            "0.505181485"
+          ],
+          [
+            "0.5",
+            "0.288675135"
+          ],
+          [
+            "0.5",
+            "0.721687837"
+          ],
+          [
+            "0.625",
+            "0.072168783"
+          ],
+          [
+            "0.625000001",
+            "0.505181486"
+          ],
+          [
+            "0.749999999",
+            "0.288675134"
+          ],
+          [
+            "0.875",
+            "0.072168784"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p74-n11-v1",
+      "name": "n = 11",
+      "parameters": {
+        "n": 11
+      },
+      "objective": "minimize",
+      "scoreStored": "141054458266308372",
+      "scoreDisplay": "0.141054458266309",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.1410544578570137366",
+        "kind": "best",
+        "source": "The construction by Hans Melissen appears in Figure 2 of Nurmela (2000); the paper's continuous value is 0.1410544578570137366. Optimality remains open; the site's nine-decimal reconstruction of the published contact graph verifies at 0.141054458266309.",
+        "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.127265133",
+            "0.060827181"
+          ],
+          [
+            "0.247397946",
+            "0.25353659"
+          ],
+          [
+            "0.367782743",
+            "0.401142915"
+          ],
+          [
+            "0.382407109",
+            "0.05953044"
+          ],
+          [
+            "0.424284962",
+            "0.60133762"
+          ],
+          [
+            "0.503016349",
+            "0.266053126"
+          ],
+          [
+            "0.569633156",
+            "0.743356811"
+          ],
+          [
+            "0.635190689",
+            "0.065533709"
+          ],
+          [
+            "0.628667148",
+            "0.481208619"
+          ],
+          [
+            "0.750844478",
+            "0.280738916"
+          ],
+          [
+            "0.880048713",
+            "0.074216231"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p74-n12-v1",
+      "name": "n = 12",
+      "parameters": {
+        "n": 12
+      },
+      "objective": "minimize",
+      "scoreStored": "137362186814467864",
+      "scoreDisplay": "0.137362186814468",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.1373236156889236662",
+        "kind": "best",
+        "source": "The construction by Hans Melissen appears in Figure 2 of Nurmela (2000); the paper's continuous value is 0.1373236156889236662. Optimality remains open; the paper publishes no directly importable coordinates; the site's nine-decimal contact-graph reconstruction verifies at 0.137362186814468, and its gap from the paper is disclosed rather than presented as source data.",
+        "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.871635612",
+            "0.048897385"
+          ],
+          [
+            "0.617335256",
+            "0.054849813"
+          ],
+          [
+            "0.75621681",
+            "0.189947959"
+          ],
+          [
+            "0.370409286",
+            "0.065036836"
+          ],
+          [
+            "0.124709643",
+            "0.057583637"
+          ],
+          [
+            "0.699147218",
+            "0.376568312"
+          ],
+          [
+            "0.497883141",
+            "0.257240225"
+          ],
+          [
+            "0.24071037",
+            "0.242952368"
+          ],
+          [
+            "0.565992045",
+            "0.510741567"
+          ],
+          [
+            "0.355662548",
+            "0.386527634"
+          ],
+          [
+            "0.367238959",
+            "0.625525089"
+          ],
+          [
+            "0.568662651",
+            "0.747055615"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p74-n13-v1",
+      "name": "n = 13",
+      "parameters": {
+        "n": 13
+      },
+      "objective": "minimize",
+      "scoreStored": "132664386321531372",
+      "scoreDisplay": "0.132664386321532",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.1326643857765088351",
+        "kind": "best",
+        "source": "The construction by Kari J. Nurmela appears in Figure 2 of Nurmela (2000); the paper's continuous value is 0.1326643857765088351. Optimality remains open; the site's nine-decimal reconstruction of the published contact graph verifies at 0.132664386321532.",
+        "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.901916015",
+            "0.089327326"
+          ],
+          [
+            "0.709887652",
+            "0.093671198"
+          ],
+          [
+            "0.485689289",
+            "0.025174158"
+          ],
+          [
+            "0.75245953",
+            "0.273019736"
+          ],
+          [
+            "0.508077762",
+            "0.23055745"
+          ],
+          [
+            "0.288877957",
+            "0.114760442"
+          ],
+          [
+            "0.111160306",
+            "0.072410122"
+          ],
+          [
+            "0.635935478",
+            "0.430145886"
+          ],
+          [
+            "0.410015121",
+            "0.342797888"
+          ],
+          [
+            "0.205217611",
+            "0.305099013"
+          ],
+          [
+            "0.546772771",
+            "0.562370386"
+          ],
+          [
+            "0.336058234",
+            "0.530193658"
+          ],
+          [
+            "0.485745484",
+            "0.734129051"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p74-n14-v1",
+      "name": "n = 14",
+      "parameters": {
+        "n": 14
+      },
+      "objective": "minimize",
+      "scoreStored": "127516386733133431",
+      "scoreDisplay": "0.127516386733134",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.1275163863998600644",
+        "kind": "best",
+        "source": "The construction by Hans Melissen appears in Figure 2 of Nurmela (2000); the paper's continuous value is 0.1275163863998600644. Optimality remains open; the site's nine-decimal reconstruction of the published contact graph verifies at 0.127516386733134.",
+        "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.079836268",
+            "0.099431379"
+          ],
+          [
+            "0.214205137",
+            "0.31040279"
+          ],
+          [
+            "0.247849439",
+            "0.092115485"
+          ],
+          [
+            "0.336294168",
+            "0.526605246"
+          ],
+          [
+            "0.428124592",
+            "0.404056982"
+          ],
+          [
+            "0.454962565",
+            "0.04598482"
+          ],
+          [
+            "0.455776228",
+            "0.746423202"
+          ],
+          [
+            "0.543451259",
+            "0.603203066"
+          ],
+          [
+            "0.567738393",
+            "0.249512522"
+          ],
+          [
+            "0.657766832",
+            "0.448150862"
+          ],
+          [
+            "0.675946717",
+            "0.076463384"
+          ],
+          [
+            "0.788098862",
+            "0.266734724"
+          ],
+          [
+            "0.888997323",
+            "0.062760134"
+          ],
+          [
+            "0.383327183",
+            "0.240779823"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p74-n15-v1",
+      "name": "n = 15",
+      "parameters": {
+        "n": 15
+      },
+      "objective": "minimize",
+      "scoreStored": "115470054378443869",
+      "scoreDisplay": "0.115470054378444",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.1154700538379251529",
+        "kind": "best",
+        "source": "The construction by Hans Melissen appears in Figure 2 of Nurmela (2000); the paper's continuous value is 0.1154700538379251529. Optimality remains open; the site's nine-decimal reconstruction of the published contact graph verifies at 0.115470054378444.",
+        "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.1",
+            "0.057735026"
+          ],
+          [
+            "0.199999999",
+            "0.230940108"
+          ],
+          [
+            "0.300000001",
+            "0.057735027"
+          ],
+          [
+            "0.3",
+            "0.404145188"
+          ],
+          [
+            "0.4",
+            "0.230940108"
+          ],
+          [
+            "0.4",
+            "0.577350269"
+          ],
+          [
+            "0.5",
+            "0.057735027"
+          ],
+          [
+            "0.500000001",
+            "0.404145189"
+          ],
+          [
+            "0.499999999",
+            "0.75055535"
+          ],
+          [
+            "0.6",
+            "0.230940107"
+          ],
+          [
+            "0.6",
+            "0.57735027"
+          ],
+          [
+            "0.700000001",
+            "0.057735026"
+          ],
+          [
+            "0.7",
+            "0.404145189"
+          ],
+          [
+            "0.799999999",
+            "0.230940108"
+          ],
+          [
+            "0.9",
+            "0.057735028"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p74-n16-v1",
+      "name": "n = 16",
+      "parameters": {
+        "n": 16
+      },
+      "objective": "minimize",
+      "scoreStored": "113712578894960932",
+      "scoreDisplay": "0.113712578894961",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.1137125784440782042",
+        "kind": "best",
+        "source": "The construction by Hans Melissen appears in Figure 2 of Nurmela (2000); the paper's continuous value is 0.1137125784440782042. Optimality remains open; the site's nine-decimal reconstruction of the published contact graph verifies at 0.113712578894961.",
+        "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.899963389",
+            "0.054066875"
+          ],
+          [
+            "0.702596804",
+            "0.058799885"
+          ],
+          [
+            "0.805828432",
+            "0.226534445"
+          ],
+          [
+            "0.509372649",
+            "0.061113475"
+          ],
+          [
+            "0.320448406",
+            "0.065390808"
+          ],
+          [
+            "0.609897642",
+            "0.233581044"
+          ],
+          [
+            "0.113709171",
+            "0.00088026"
+          ],
+          [
+            "0.419537604",
+            "0.240171967"
+          ],
+          [
+            "0.707677045",
+            "0.401338093"
+          ],
+          [
+            "0.154458506",
+            "0.15939623"
+          ],
+          [
+            "0.51334843",
+            "0.410828816"
+          ],
+          [
+            "0.27115838",
+            "0.279934012"
+          ],
+          [
+            "0.607989832",
+            "0.577876941"
+          ],
+          [
+            "0.325768928",
+            "0.424312049"
+          ],
+          [
+            "0.412352196",
+            "0.586456079"
+          ],
+          [
+            "0.504908605",
+            "0.752418819"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p74-n17-v1",
+      "name": "n = 17",
+      "parameters": {
+        "n": 17
+      },
+      "objective": "minimize",
+      "scoreStored": "111394310447660408",
+      "scoreDisplay": "0.111394310447661",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.1113943099632405880",
+        "kind": "best",
+        "source": "The construction by Hans Melissen appears in Figure 3 of Nurmela (2000); the paper's continuous value is 0.1113943099632405880. Optimality remains open; the site's nine-decimal reconstruction of the published contact graph verifies at 0.111394310447661.",
+        "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.08942187",
+            "0.06642606"
+          ],
+          [
+            "0.175842954",
+            "0.260692558"
+          ],
+          [
+            "0.250546165",
+            "0.085249368"
+          ],
+          [
+            "0.307920567",
+            "0.421939757"
+          ],
+          [
+            "0.355071787",
+            "0.262693919"
+          ],
+          [
+            "0.411124291",
+            "0.067155057"
+          ],
+          [
+            "0.405229576",
+            "0.587552598"
+          ],
+          [
+            "0.500000002",
+            "0.417615495"
+          ],
+          [
+            "0.499999998",
+            "0.754631094"
+          ],
+          [
+            "0.588875699",
+            "0.067155055"
+          ],
+          [
+            "0.594770426",
+            "0.587552602"
+          ],
+          [
+            "0.644928204",
+            "0.262693909"
+          ],
+          [
+            "0.692079433",
+            "0.421939757"
+          ],
+          [
+            "0.749453835",
+            "0.085249362"
+          ],
+          [
+            "0.824157037",
+            "0.260692555"
+          ],
+          [
+            "0.910578132",
+            "0.066426063"
+          ],
+          [
+            "0.489855245",
+            "0.228044202"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p74-n18-v1",
+      "name": "n = 18",
+      "parameters": {
+        "n": 18
+      },
+      "objective": "minimize",
+      "scoreStored": "109108945604593009",
+      "scoreDisplay": "0.109108945604594",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.1091089451179961906",
+        "kind": "best",
+        "source": "The construction by Hans Melissen appears in Figure 3 of Nurmela (2000); the paper's continuous value is 0.1091089451179961906. Optimality remains open; the site's nine-decimal reconstruction of the published contact graph verifies at 0.109108945604594.",
+        "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.892857142",
+            "0.020619648"
+          ],
+          [
+            "0.714285714",
+            "0.082478611"
+          ],
+          [
+            "0.535714287",
+            "0.020619655"
+          ],
+          [
+            "0.85714286",
+            "0.206196517"
+          ],
+          [
+            "0.392857147",
+            "0.103098263"
+          ],
+          [
+            "0.571428573",
+            "0.20619653"
+          ],
+          [
+            "0.714285717",
+            "0.288675136"
+          ],
+          [
+            "0.250000004",
+            "0.020619645"
+          ],
+          [
+            "0.071428573",
+            "0.082478609"
+          ],
+          [
+            "0.392857144",
+            "0.268055483"
+          ],
+          [
+            "0.714285705",
+            "0.453632357"
+          ],
+          [
+            "0.214285715",
+            "0.206196517"
+          ],
+          [
+            "0.535714283",
+            "0.391773397"
+          ],
+          [
+            "0.249999997",
+            "0.391773384"
+          ],
+          [
+            "0.392857139",
+            "0.474252009"
+          ],
+          [
+            "0.571428568",
+            "0.577350269"
+          ],
+          [
+            "0.392857149",
+            "0.639209238"
+          ],
+          [
+            "0.535714294",
+            "0.762927144"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p74-n19-v1",
+      "name": "n = 19",
+      "parameters": {
+        "n": 19
+      },
+      "objective": "minimize",
+      "scoreStored": "106273196730284547",
+      "scoreDisplay": "0.106273196730285",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.1061737927289732618",
+        "kind": "best",
+        "source": "The construction by Kari J. Nurmela appears in Figure 3 of Nurmela (2000); the paper's continuous value is 0.1061737927289732618. Optimality remains open; the paper publishes no directly importable coordinates; the site's nine-decimal contact-graph reconstruction verifies at 0.106273196730285, and its gap from the paper is disclosed rather than presented as source data.",
+        "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.906548755",
+            "0.050604911"
+          ],
+          [
+            "0.710135919",
+            "0.026323055"
+          ],
+          [
+            "0.803500696",
+            "0.165139031"
+          ],
+          [
+            "0.503937109",
+            "0.025220399"
+          ],
+          [
+            "0.59918607",
+            "0.157536414"
+          ],
+          [
+            "0.297661976",
+            "0.026022702"
+          ],
+          [
+            "0.775826396",
+            "0.337839274"
+          ],
+          [
+            "0.393186568",
+            "0.157236061"
+          ],
+          [
+            "0.097312032",
+            "0.042712535"
+          ],
+          [
+            "0.451214384",
+            "0.279865648"
+          ],
+          [
+            "0.190040299",
+            "0.168239606"
+          ],
+          [
+            "0.644904116",
+            "0.472469109"
+          ],
+          [
+            "0.258310987",
+            "0.293816041"
+          ],
+          [
+            "0.51452309",
+            "0.433155913"
+          ],
+          [
+            "0.328164535",
+            "0.432815068"
+          ],
+          [
+            "0.568683186",
+            "0.61614483"
+          ],
+          [
+            "0.403463039",
+            "0.588863139"
+          ],
+          [
+            "0.484836731",
+            "0.760839533"
+          ],
+          [
+            "0.633046277",
+            "0.272674924"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p74-n20-v1",
+      "name": "n = 20",
+      "parameters": {
+        "n": 20
+      },
+      "objective": "minimize",
+      "scoreStored": "103285256972762701",
+      "scoreDisplay": "0.103285256972763",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.1032272183417310354",
+        "kind": "best",
+        "source": "The construction by Kari J. Nurmela appears in Figure 3 of Nurmela (2000); the paper's continuous value is 0.1032272183417310354. Optimality remains open; the paper publishes no directly importable coordinates; the site's nine-decimal contact-graph reconstruction verifies at 0.103285256972763, and its gap from the paper is disclosed rather than presented as source data.",
+        "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.099696212",
+            "0.026990916"
+          ],
+          [
+            "0.173089656",
+            "0.15317882"
+          ],
+          [
+            "0.241370526",
+            "0.292443384"
+          ],
+          [
+            "0.299259155",
+            "0.026352993"
+          ],
+          [
+            "0.319736796",
+            "0.442255022"
+          ],
+          [
+            "0.359768261",
+            "0.1444623"
+          ],
+          [
+            "0.423344699",
+            "0.289538973"
+          ],
+          [
+            "0.399868101",
+            "0.604152593"
+          ],
+          [
+            "0.499825824",
+            "0.022964464"
+          ],
+          [
+            "0.492919398",
+            "0.453456986"
+          ],
+          [
+            "0.495187129",
+            "0.762852343"
+          ],
+          [
+            "0.597554778",
+            "0.30657152"
+          ],
+          [
+            "0.578569085",
+            "0.61248873"
+          ],
+          [
+            "0.661315145",
+            "0.160920226"
+          ],
+          [
+            "0.673204056",
+            "0.464991947"
+          ],
+          [
+            "0.698483633",
+            "0.032742937"
+          ],
+          [
+            "0.773292281",
+            "0.30956659"
+          ],
+          [
+            "0.835933387",
+            "0.147246639"
+          ],
+          [
+            "0.898220751",
+            "0.017573525"
+          ],
+          [
+            "0.544722332",
+            "0.144320809"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p74-n21-v1",
+      "name": "n = 21",
+      "parameters": {
+        "n": 21
+      },
+      "objective": "minimize",
+      "scoreStored": "96225045409066204",
+      "scoreDisplay": "0.096225045409067",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.0962250448649376274",
+        "kind": "best",
+        "source": "The construction by Kari J. Nurmela appears in Figure 3 of Nurmela (2000); the paper's continuous value is 0.0962250448649376274. Optimality remains open; the site's nine-decimal reconstruction of the published contact graph verifies at 0.096225045409067.",
+        "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.083333334",
+            "0.048112521"
+          ],
+          [
+            "0.166666666",
+            "0.192450087"
+          ],
+          [
+            "0.250000003",
+            "0.048112522"
+          ],
+          [
+            "0.249999999",
+            "0.336787654"
+          ],
+          [
+            "0.333333334",
+            "0.192450088"
+          ],
+          [
+            "0.333333331",
+            "0.481125222"
+          ],
+          [
+            "0.41666667",
+            "0.048112522"
+          ],
+          [
+            "0.416666666",
+            "0.336787656"
+          ],
+          [
+            "0.416666665",
+            "0.62546279"
+          ],
+          [
+            "0.500000001",
+            "0.19245009"
+          ],
+          [
+            "0.499999998",
+            "0.481125224"
+          ],
+          [
+            "0.499999998",
+            "0.769800359"
+          ],
+          [
+            "0.583333337",
+            "0.048112523"
+          ],
+          [
+            "0.583333333",
+            "0.336787658"
+          ],
+          [
+            "0.583333331",
+            "0.625462794"
+          ],
+          [
+            "0.666666667",
+            "0.192450091"
+          ],
+          [
+            "0.666666665",
+            "0.481125227"
+          ],
+          [
+            "0.750000003",
+            "0.048112523"
+          ],
+          [
+            "0.749999999",
+            "0.33678766"
+          ],
+          [
+            "0.833333333",
+            "0.192450092"
+          ],
+          [
+            "0.916666668",
+            "0.048112524"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p74-n22-v1",
+      "name": "n = 22",
+      "parameters": {
+        "n": 22
+      },
+      "objective": "minimize",
+      "scoreStored": "95177235493675349",
+      "scoreDisplay": "0.095177235493676",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.0951772351261450917",
+        "kind": "best",
+        "source": "The construction by Kari J. Nurmela appears in Figure 3 of Nurmela (2000); the paper's continuous value is 0.0951772351261450917. Optimality remains open; the site's nine-decimal reconstruction of the published contact graph verifies at 0.095177235493676.",
+        "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.918837233",
+            "0.049712285"
+          ],
+          [
+            "0.757294423",
+            "0.050968175"
+          ],
+          [
+            "0.59802038",
+            "0.053239484"
+          ],
+          [
+            "0.835983347",
+            "0.195820692"
+          ],
+          [
+            "0.444270689",
+            "0.05878207"
+          ],
+          [
+            "0.674428017",
+            "0.197066215"
+          ],
+          [
+            "0.316605538",
+            "0.079182492"
+          ],
+          [
+            "0.51291611",
+            "0.200146423"
+          ],
+          [
+            "0.751649825",
+            "0.341869216"
+          ],
+          [
+            "0.180165264",
+            "0.045437793"
+          ],
+          [
+            "0.349574223",
+            "0.203377455"
+          ],
+          [
+            "0.589225244",
+            "0.341716709"
+          ],
+          [
+            "0.048267225",
+            "0.082030367"
+          ],
+          [
+            "0.181589503",
+            "0.20473436"
+          ],
+          [
+            "0.424455974",
+            "0.343754326"
+          ],
+          [
+            "0.66645913",
+            "0.486520211"
+          ],
+          [
+            "0.25727982",
+            "0.343597358"
+          ],
+          [
+            "0.503461182",
+            "0.485415039"
+          ],
+          [
+            "0.336823376",
+            "0.484285188"
+          ],
+          [
+            "0.582340423",
+            "0.63027232"
+          ],
+          [
+            "0.417543919",
+            "0.6260026"
+          ],
+          [
+            "0.497534876",
+            "0.770880098"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p74-n23-v1",
+      "name": "n = 23",
+      "parameters": {
+        "n": 23
+      },
+      "objective": "minimize",
+      "scoreStored": "93985748465024682",
+      "scoreDisplay": "0.093985748465025",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.0937742911094478264",
+        "kind": "best",
+        "source": "The construction by Kari J. Nurmela appears in Figure 3 of Nurmela (2000); the paper's continuous value is 0.0937742911094478264. Optimality remains open; the paper publishes no directly importable coordinates; the site's nine-decimal contact-graph reconstruction verifies at 0.093985748465025, and its gap from the paper is disclosed rather than presented as source data.",
+        "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.952998291",
+            "0.081388944"
+          ],
+          [
+            "0.66705074",
+            "0.078895956"
+          ],
+          [
+            "0.812047669",
+            "0.160890177"
+          ],
+          [
+            "0.545314764",
+            "0.061971578"
+          ],
+          [
+            "0.639121832",
+            "0.208729938"
+          ],
+          [
+            "0.397841768",
+            "0.054158046"
+          ],
+          [
+            "0.778938327",
+            "0.287713735"
+          ],
+          [
+            "0.240947868",
+            "0.049197152"
+          ],
+          [
+            "0.481314102",
+            "0.201834421"
+          ],
+          [
+            "0.323031116",
+            "0.195076371"
+          ],
+          [
+            "0.080433451",
+            "0.048618728"
+          ],
+          [
+            "0.685690675",
+            "0.384739653"
+          ],
+          [
+            "0.558682749",
+            "0.350164003"
+          ],
+          [
+            "0.163369223",
+            "0.190173661"
+          ],
+          [
+            "0.400703761",
+            "0.342974464"
+          ],
+          [
+            "0.642152931",
+            "0.500959339"
+          ],
+          [
+            "0.242368464",
+            "0.336126112"
+          ],
+          [
+            "0.485537406",
+            "0.489534339"
+          ],
+          [
+            "0.325920142",
+            "0.482806726"
+          ],
+          [
+            "0.57245166",
+            "0.634345312"
+          ],
+          [
+            "0.411236451",
+            "0.628409835"
+          ],
+          [
+            "0.496631665",
+            "0.772100034"
+          ],
+          [
+            "0.812061617",
+            "0.003089237"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p74-n24-v1",
+      "name": "n = 24",
+      "parameters": {
+        "n": 24
+      },
+      "objective": "minimize",
+      "scoreStored": "92354138033468179",
+      "scoreDisplay": "0.092354138033469",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.0923541375945022204",
+        "kind": "best",
+        "source": "The construction by Kari J. Nurmela appears in Figure 3 of Nurmela (2000); the paper's continuous value is 0.0923541375945022204. Optimality remains open; the site's nine-decimal reconstruction of the published contact graph verifies at 0.092354138033469.",
+        "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.07435126",
+            "0.054782998"
+          ],
+          [
+            "0.152765227",
+            "0.208897489"
+          ],
+          [
+            "0.216848648",
+            "0.062332912"
+          ],
+          [
+            "0.242252564",
+            "0.359810091"
+          ],
+          [
+            "0.296695003",
+            "0.214844358"
+          ],
+          [
+            "0.340037942",
+            "0.496608857"
+          ],
+          [
+            "0.354573293",
+            "0.060729867"
+          ],
+          [
+            "0.387766854",
+            "0.363892276"
+          ],
+          [
+            "0.420018976",
+            "0.635140058"
+          ],
+          [
+            "0.43042147",
+            "0.205774991"
+          ],
+          [
+            "0.499999991",
+            "0.052690986"
+          ],
+          [
+            "0.500000005",
+            "0.496608854"
+          ],
+          [
+            "0.499999998",
+            "0.773671266"
+          ],
+          [
+            "0.569578515",
+            "0.205774976"
+          ],
+          [
+            "0.579981035",
+            "0.635140062"
+          ],
+          [
+            "0.612233136",
+            "0.363892259"
+          ],
+          [
+            "0.645426703",
+            "0.060729853"
+          ],
+          [
+            "0.65996206",
+            "0.49660885"
+          ],
+          [
+            "0.703304985",
+            "0.214844341"
+          ],
+          [
+            "0.75774742",
+            "0.359810082"
+          ],
+          [
+            "0.783151362",
+            "0.06233291"
+          ],
+          [
+            "0.847234768",
+            "0.208897494"
+          ],
+          [
+            "0.925648746",
+            "0.054783006"
+          ],
+          [
+            "0.484907343",
+            "0.344313102"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p74-n25-v1",
+      "name": "n = 25",
+      "parameters": {
+        "n": 25
+      },
+      "objective": "minimize",
+      "scoreStored": "90618245263136717",
+      "scoreDisplay": "0.090618245263137",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.0906182448311340175",
+        "kind": "best",
+        "source": "The construction by Kari J. Nurmela appears in Figure 3 of Nurmela (2000); the paper's continuous value is 0.0906182448311340175. Optimality remains open; the site's nine-decimal reconstruction of the published contact graph verifies at 0.090618245263137.",
+        "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.078573417",
+            "0.045142933"
+          ],
+          [
+            "0.150103452",
+            "0.191147322"
+          ],
+          [
+            "0.22886865",
+            "0.055386347"
+          ],
+          [
+            "0.245055077",
+            "0.317670102"
+          ],
+          [
+            "0.309249852",
+            "0.178976397"
+          ],
+          [
+            "0.323184394",
+            "0.430374901"
+          ],
+          [
+            "0.38496297",
+            "0.033059747"
+          ],
+          [
+            "0.389053185",
+            "0.526626649"
+          ],
+          [
+            "0.409109932",
+            "0.291381721"
+          ],
+          [
+            "0.435158911",
+            "0.644547793"
+          ],
+          [
+            "0.481170148",
+            "0.379217918"
+          ],
+          [
+            "0.504839376",
+            "0.775536472"
+          ],
+          [
+            "0.53401318",
+            "0.063470156"
+          ],
+          [
+            "0.53724925",
+            "0.508347444"
+          ],
+          [
+            "0.564432407",
+            "0.22708052"
+          ],
+          [
+            "0.591890338",
+            "0.636165748"
+          ],
+          [
+            "0.624918203",
+            "0.360100412"
+          ],
+          [
+            "0.649187918",
+            "0.075244375"
+          ],
+          [
+            "0.68424061",
+            "0.493201086"
+          ],
+          [
+            "0.707331764",
+            "0.209360115"
+          ],
+          [
+            "0.773136237",
+            "0.053071413"
+          ],
+          [
+            "0.770322609",
+            "0.343192283"
+          ],
+          [
+            "0.846412052",
+            "0.191872183"
+          ],
+          [
+            "0.923293762",
+            "0.04824748"
+          ],
+          [
+            "0.447305946",
+            "0.16862345"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p74-n26-v1",
+      "name": "n = 26",
+      "parameters": {
+        "n": 26
+      },
+      "objective": "minimize",
+      "scoreStored": "88793207681237882",
+      "scoreDisplay": "0.088793207681238",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.0887829248953373781",
+        "kind": "best",
+        "source": "The construction by Kari J. Nurmela appears in Figure 3 of Nurmela (2000); the paper's continuous value is 0.0887829248953373781. Optimality remains open; the paper publishes no directly importable coordinates; the site's nine-decimal contact-graph reconstruction verifies at 0.088793207681238, and its gap from the paper is disclosed rather than presented as source data.",
+        "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.926734365",
+            "0.050163536"
+          ],
+          [
+            "0.79372656",
+            "0.065689472"
+          ],
+          [
+            "0.66997307",
+            "0.061536856"
+          ],
+          [
+            "0.858051015",
+            "0.202381405"
+          ],
+          [
+            "0.536684763",
+            "0.05554217"
+          ],
+          [
+            "0.719643966",
+            "0.215446525"
+          ],
+          [
+            "0.392871291",
+            "0.04825501"
+          ],
+          [
+            "0.600093101",
+            "0.205870186"
+          ],
+          [
+            "0.769822464",
+            "0.349345185"
+          ],
+          [
+            "0.237992353",
+            "0.037806402"
+          ],
+          [
+            "0.462089978",
+            "0.192590369"
+          ],
+          [
+            "0.078824951",
+            "0.040876164"
+          ],
+          [
+            "0.310790141",
+            "0.171055342"
+          ],
+          [
+            "0.630422579",
+            "0.361360583"
+          ],
+          [
+            "0.155154724",
+            "0.167385058"
+          ],
+          [
+            "0.374524713",
+            "0.312639392"
+          ],
+          [
+            "0.683531488",
+            "0.496036175"
+          ],
+          [
+            "0.456555569",
+            "0.42308726"
+          ],
+          [
+            "0.224535268",
+            "0.300413312"
+          ],
+          [
+            "0.543129641",
+            "0.506956578"
+          ],
+          [
+            "0.295872886",
+            "0.442308595"
+          ],
+          [
+            "0.597644053",
+            "0.641967131"
+          ],
+          [
+            "0.391164004",
+            "0.556541661"
+          ],
+          [
+            "0.459264028",
+            "0.655060349"
+          ],
+          [
+            "0.504860242",
+            "0.777365313"
+          ],
+          [
+            "0.521278547",
+            "0.343142451"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p74-n27-v1",
+      "name": "n = 27",
+      "parameters": {
+        "n": 27
+      },
+      "objective": "minimize",
+      "scoreStored": "86891340232969797",
+      "scoreDisplay": "0.086891340232970",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.0868913397937031505",
+        "kind": "best",
+        "source": "The construction by Kari J. Nurmela appears in Figure 4 of Nurmela (2000); the paper's continuous value is 0.0868913397937031505. Optimality remains open; the site's nine-decimal reconstruction of the published contact graph verifies at 0.086891340232970.",
+        "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.084488161",
+            "0.020294227"
+          ],
+          [
+            "0.142774476",
+            "0.129466758"
+          ],
+          [
+            "0.199254049",
+            "0.257132378"
+          ],
+          [
+            "0.2519314",
+            "0.025856523"
+          ],
+          [
+            "0.268279934",
+            "0.395960967"
+          ],
+          [
+            "0.294023699",
+            "0.129678499"
+          ],
+          [
+            "0.356865821",
+            "0.519649011"
+          ],
+          [
+            "0.342581668",
+            "0.268987087"
+          ],
+          [
+            "0.417491737",
+            "0.026953224"
+          ],
+          [
+            "0.423785484",
+            "0.393226016"
+          ],
+          [
+            "0.42530968",
+            "0.649666877"
+          ],
+          [
+            "0.438915477",
+            "0.147228808"
+          ],
+          [
+            "0.507477972",
+            "0.51974345"
+          ],
+          [
+            "0.500994505",
+            "0.779139756"
+          ],
+          [
+            "0.496755331",
+            "0.263791536"
+          ],
+          [
+            "0.575800037",
+            "0.647944344"
+          ],
+          [
+            "0.583710013",
+            "0.02364251"
+          ],
+          [
+            "0.576729603",
+            "0.390507356"
+          ],
+          [
+            "0.658946065",
+            "0.51791959"
+          ],
+          [
+            "0.639788007",
+            "0.253849696"
+          ],
+          [
+            "0.69866419",
+            "0.130401886"
+          ],
+          [
+            "0.724478122",
+            "0.381071209"
+          ],
+          [
+            "0.750235941",
+            "0.025991423"
+          ],
+          [
+            "0.794385812",
+            "0.255893766"
+          ],
+          [
+            "0.854333652",
+            "0.134683563"
+          ],
+          [
+            "0.916574426",
+            "0.024295649"
+          ],
+          [
+            "0.545919845",
+            "0.125038414"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p74-n28-v1",
+      "name": "n = 28",
+      "parameters": {
+        "n": 28
+      },
+      "objective": "minimize",
+      "scoreStored": "82478610232731818",
+      "scoreDisplay": "0.082478610232732",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.0824786098842322521",
+        "kind": "best",
+        "source": "The construction by Kari J. Nurmela appears in Figure 4 of Nurmela (2000); the paper's continuous value is 0.0824786098842322521. Optimality remains open; the site's nine-decimal reconstruction of the published contact graph verifies at 0.082478610232732.",
+        "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.92857143",
+            "0.041239308"
+          ],
+          [
+            "0.78571429",
+            "0.041239307"
+          ],
+          [
+            "0.642857149",
+            "0.041239306"
+          ],
+          [
+            "0.857142857",
+            "0.164957225"
+          ],
+          [
+            "0.500000007",
+            "0.041239305"
+          ],
+          [
+            "0.714285716",
+            "0.164957223"
+          ],
+          [
+            "0.357142864",
+            "0.041239304"
+          ],
+          [
+            "0.571428575",
+            "0.164957221"
+          ],
+          [
+            "0.785714283",
+            "0.288675141"
+          ],
+          [
+            "0.214285719",
+            "0.041239303"
+          ],
+          [
+            "0.428571432",
+            "0.164957219"
+          ],
+          [
+            "0.642857142",
+            "0.288675138"
+          ],
+          [
+            "0.071428573",
+            "0.041239302"
+          ],
+          [
+            "0.285714288",
+            "0.164957217"
+          ],
+          [
+            "0.5",
+            "0.288675135"
+          ],
+          [
+            "0.714285711",
+            "0.412393056"
+          ],
+          [
+            "0.142857143",
+            "0.164957215"
+          ],
+          [
+            "0.357142856",
+            "0.288675131"
+          ],
+          [
+            "0.571428569",
+            "0.412393052"
+          ],
+          [
+            "0.214285712",
+            "0.288675129"
+          ],
+          [
+            "0.428571426",
+            "0.412393047"
+          ],
+          [
+            "0.642857139",
+            "0.53611097"
+          ],
+          [
+            "0.285714282",
+            "0.412393043"
+          ],
+          [
+            "0.499999996",
+            "0.536110964"
+          ],
+          [
+            "0.357142853",
+            "0.536110959"
+          ],
+          [
+            "0.571428567",
+            "0.659828882"
+          ],
+          [
+            "0.428571424",
+            "0.659828876"
+          ],
+          [
+            "0.499999997",
+            "0.783546794"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p74-n29-v1",
+      "name": "n = 29",
+      "parameters": {
+        "n": 29
+      },
+      "objective": "minimize",
+      "scoreStored": "81804813824287311",
+      "scoreDisplay": "0.081804813824288",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.0818048133956910115",
+        "kind": "best",
+        "source": "The construction by Kari J. Nurmela appears in Figure 4 of Nurmela (2000); the paper's continuous value is 0.0818048133956910115. Optimality remains open; the site's nine-decimal reconstruction of the published contact graph verifies at 0.081804813824288.",
+        "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.930050162",
+            "0.042415181"
+          ],
+          [
+            "0.79031831",
+            "0.042690726"
+          ],
+          [
+            "0.651339765",
+            "0.043633331"
+          ],
+          [
+            "0.858510443",
+            "0.166891835"
+          ],
+          [
+            "0.514284151",
+            "0.045685581"
+          ],
+          [
+            "0.719018399",
+            "0.167556918"
+          ],
+          [
+            "0.382044278",
+            "0.050469213"
+          ],
+          [
+            "0.579839005",
+            "0.169231745"
+          ],
+          [
+            "0.786887991",
+            "0.291750459"
+          ],
+          [
+            "0.272055494",
+            "0.067911253"
+          ],
+          [
+            "0.440912072",
+            "0.171836467"
+          ],
+          [
+            "0.647082636",
+            "0.291905623"
+          ],
+          [
+            "0.154739956",
+            "0.039370747"
+          ],
+          [
+            "0.300300662",
+            "0.174465459"
+          ],
+          [
+            "0.506409815",
+            "0.293531744"
+          ],
+          [
+            "0.714494973",
+            "0.416086252"
+          ],
+          [
+            "0.041516206",
+            "0.070487106"
+          ],
+          [
+            "0.156039161",
+            "0.17604797"
+          ],
+          [
+            "0.364736127",
+            "0.295150053"
+          ],
+          [
+            "0.574309203",
+            "0.415610807"
+          ],
+          [
+            "0.221233825",
+            "0.295309319"
+          ],
+          [
+            "0.432623562",
+            "0.416733974"
+          ],
+          [
+            "0.6423198",
+            "0.539807812"
+          ],
+          [
+            "0.289477176",
+            "0.416248487"
+          ],
+          [
+            "0.501851372",
+            "0.538855337"
+          ],
+          [
+            "0.358976777",
+            "0.537886545"
+          ],
+          [
+            "0.5705983",
+            "0.663066487"
+          ],
+          [
+            "0.428940918",
+            "0.660022052"
+          ],
+          [
+            "0.498242295",
+            "0.784239476"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p74-n30-v1",
+      "name": "n = 30",
+      "parameters": {
+        "n": 30
+      },
+      "objective": "minimize",
+      "scoreStored": "80882850353179068",
+      "scoreDisplay": "0.080882850353180",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.0808828500258641436",
+        "kind": "best",
+        "source": "The construction by Kari J. Nurmela appears in Figure 4 of Nurmela (2000); the paper's continuous value is 0.0808828500258641436. Optimality remains open; the site's nine-decimal reconstruction of the published contact graph verifies at 0.080882850353180.",
+        "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.067422089",
+            "0.044679944"
+          ],
+          [
+            "0.136996403",
+            "0.174091675"
+          ],
+          [
+            "0.199435569",
+            "0.048682518"
+          ],
+          [
+            "0.214599113",
+            "0.298570086"
+          ],
+          [
+            "0.269013111",
+            "0.178089966"
+          ],
+          [
+            "0.286564611",
+            "0.423808721"
+          ],
+          [
+            "0.328621581",
+            "0.048678234"
+          ],
+          [
+            "0.35184587",
+            "0.301993193"
+          ],
+          [
+            "0.361669825",
+            "0.544435307"
+          ],
+          [
+            "0.392822322",
+            "0.184500872"
+          ],
+          [
+            "0.426620822",
+            "0.422638485"
+          ],
+          [
+            "0.432050569",
+            "0.664013969"
+          ],
+          [
+            "0.447962376",
+            "0.059538993"
+          ],
+          [
+            "0.491500842",
+            "0.300149314"
+          ],
+          [
+            "0.502384245",
+            "0.542080759"
+          ],
+          [
+            "0.500197036",
+            "0.785142794"
+          ],
+          [
+            "0.525984801",
+            "0.186348701"
+          ],
+          [
+            "0.568652723",
+            "0.046833767"
+          ],
+          [
+            "0.566934002",
+            "0.419610294"
+          ],
+          [
+            "0.571636809",
+            "0.663661761"
+          ],
+          [
+            "0.632247819",
+            "0.297850084"
+          ],
+          [
+            "0.641569245",
+            "0.541054908"
+          ],
+          [
+            "0.699956303",
+            "0.047646438"
+          ],
+          [
+            "0.706552799",
+            "0.419313404"
+          ],
+          [
+            "0.740787835",
+            "0.18927461"
+          ],
+          [
+            "0.77443984",
+            "0.302282926"
+          ],
+          [
+            "0.817752893",
+            "0.061582283"
+          ],
+          [
+            "0.87180146",
+            "0.188867556"
+          ],
+          [
+            "0.935095037",
+            "0.048263663"
+          ],
+          [
+            "0.639680896",
+            "0.174483961"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p74-n31-v1",
+      "name": "n = 31",
+      "parameters": {
+        "n": 31
+      },
+      "objective": "minimize",
+      "scoreStored": "79897245252973885",
+      "scoreDisplay": "0.079897245252974",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.0798972448089536737",
+        "kind": "best",
+        "source": "The construction by Kari J. Nurmela appears in Figure 4 of Nurmela (2000); the paper's continuous value is 0.0798972448089536737. Optimality remains open; the site's nine-decimal reconstruction of the published contact graph verifies at 0.079897245252974.",
+        "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.066536758",
+            "0.044231545"
+          ],
+          [
+            "0.135125444",
+            "0.172392833"
+          ],
+          [
+            "0.19662494",
+            "0.048422993"
+          ],
+          [
+            "0.202904252",
+            "0.306991484"
+          ],
+          [
+            "0.258857525",
+            "0.183948964"
+          ],
+          [
+            "0.289260482",
+            "0.42773466"
+          ],
+          [
+            "0.315837995",
+            "0.057317994"
+          ],
+          [
+            "0.333858458",
+            "0.310690074"
+          ],
+          [
+            "0.360963237",
+            "0.54959827"
+          ],
+          [
+            "0.387586589",
+            "0.184435744"
+          ],
+          [
+            "0.425854293",
+            "0.428933068"
+          ],
+          [
+            "0.435685161",
+            "0.04757927"
+          ],
+          [
+            "0.433815504",
+            "0.667242853"
+          ],
+          [
+            "0.460320367",
+            "0.31409198"
+          ],
+          [
+            "0.499919954",
+            "0.172947087"
+          ],
+          [
+            "0.500021728",
+            "0.546526385"
+          ],
+          [
+            "0.501052829",
+            "0.786135096"
+          ],
+          [
+            "0.564071573",
+            "0.424479538"
+          ],
+          [
+            "0.565557804",
+            "0.045483772"
+          ],
+          [
+            "0.572189576",
+            "0.665419299"
+          ],
+          [
+            "0.625092192",
+            "0.176983626"
+          ],
+          [
+            "0.637458511",
+            "0.543492286"
+          ],
+          [
+            "0.663782084",
+            "0.312491598"
+          ],
+          [
+            "0.692231615",
+            "0.051615809"
+          ],
+          [
+            "0.704170244",
+            "0.426054819"
+          ],
+          [
+            "0.743260434",
+            "0.184755325"
+          ],
+          [
+            "0.790189063",
+            "0.310942119"
+          ],
+          [
+            "0.812413718",
+            "0.053660734"
+          ],
+          [
+            "0.8675136",
+            "0.18060447"
+          ],
+          [
+            "0.935804559",
+            "0.047565902"
+          ],
+          [
+            "0.571245582",
+            "0.298654683"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p74-n32-v1",
+      "name": "n = 32",
+      "parameters": {
+        "n": 32
+      },
+      "objective": "minimize",
+      "scoreStored": "78850623071390692",
+      "scoreDisplay": "0.078850623071391",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.0788506226168764215",
+        "kind": "best",
+        "source": "The construction by Kari J. Nurmela appears in Figure 4 of Nurmela (2000); the paper's continuous value is 0.0788506226168764215. Optimality remains open; the site's nine-decimal reconstruction of the published contact graph verifies at 0.078850623071391.",
+        "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.931730113",
+            "0.039454319"
+          ],
+          [
+            "0.790422794",
+            "0.029714543"
+          ],
+          [
+            "0.858659181",
+            "0.148019477"
+          ],
+          [
+            "0.654002172",
+            "0.046904073"
+          ],
+          [
+            "0.730139943",
+            "0.155408263"
+          ],
+          [
+            "0.534869057",
+            "0.055761693"
+          ],
+          [
+            "0.807798951",
+            "0.275294717"
+          ],
+          [
+            "0.433844213",
+            "0.064556971"
+          ],
+          [
+            "0.601352584",
+            "0.181455414"
+          ],
+          [
+            "0.326205499",
+            "0.048251192"
+          ],
+          [
+            "0.503969768",
+            "0.197847769"
+          ],
+          [
+            "0.199059194",
+            "0.044951611"
+          ],
+          [
+            "0.720241",
+            "0.374977897"
+          ],
+          [
+            "0.382021293",
+            "0.184924993"
+          ],
+          [
+            "0.582788163",
+            "0.326567825"
+          ],
+          [
+            "0.067138343",
+            "0.041350497"
+          ],
+          [
+            "0.2636644",
+            "0.172021562"
+          ],
+          [
+            "0.455930034",
+            "0.314122534"
+          ],
+          [
+            "0.660599599",
+            "0.455701372"
+          ],
+          [
+            "0.13416226",
+            "0.165120867"
+          ],
+          [
+            "0.328888301",
+            "0.303263591"
+          ],
+          [
+            "0.532910531",
+            "0.441281472"
+          ],
+          [
+            "0.203064041",
+            "0.291951162"
+          ],
+          [
+            "0.40338132",
+            "0.430376754"
+          ],
+          [
+            "0.623877739",
+            "0.557152476"
+          ],
+          [
+            "0.273891621",
+            "0.420983766"
+          ],
+          [
+            "0.485484735",
+            "0.551364616"
+          ],
+          [
+            "0.351056131",
+            "0.545742555"
+          ],
+          [
+            "0.562345455",
+            "0.670227763"
+          ],
+          [
+            "0.425791064",
+            "0.667956072"
+          ],
+          [
+            "0.498688439",
+            "0.78718569"
+          ],
+          [
+            "0.675471262",
+            "0.264090563"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p74-n33-v1",
+      "name": "n = 33",
+      "parameters": {
+        "n": 33
+      },
+      "objective": "minimize",
+      "scoreStored": "77652736458405181",
+      "scoreDisplay": "0.077652736458406",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.0776371221483728244",
+        "kind": "best",
+        "source": "The construction by Kari J. Nurmela appears in Figure 4 of Nurmela (2000); the paper's continuous value is 0.0776371221483728244. Optimality remains open; the paper publishes no directly importable coordinates; the site's nine-decimal contact-graph reconstruction verifies at 0.077652736458406, and its gap from the paper is disclosed rather than presented as source data.",
+        "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.931173725",
+            "0.035956797"
+          ],
+          [
+            "0.791435105",
+            "0.031644697"
+          ],
+          [
+            "0.646978114",
+            "0.024922526"
+          ],
+          [
+            "0.863535018",
+            "0.145185196"
+          ],
+          [
+            "0.719776115",
+            "0.129601141"
+          ],
+          [
+            "0.500000005",
+            "0.02524825"
+          ],
+          [
+            "0.794725739",
+            "0.233484497"
+          ],
+          [
+            "0.57354465",
+            "0.127823512"
+          ],
+          [
+            "0.353021895",
+            "0.024922522"
+          ],
+          [
+            "0.647318253",
+            "0.229712641"
+          ],
+          [
+            "0.426455354",
+            "0.127823508"
+          ],
+          [
+            "0.749246035",
+            "0.328061303"
+          ],
+          [
+            "0.208564902",
+            "0.031644696"
+          ],
+          [
+            "0.5",
+            "0.230398771"
+          ],
+          [
+            "0.280223887",
+            "0.129601133"
+          ],
+          [
+            "0.068826278",
+            "0.035956791"
+          ],
+          [
+            "0.518703895",
+            "0.334013946"
+          ],
+          [
+            "0.352681746",
+            "0.22971263"
+          ],
+          [
+            "0.696674415",
+            "0.4367265"
+          ],
+          [
+            "0.136464979",
+            "0.145185188"
+          ],
+          [
+            "0.38834434",
+            "0.322420829"
+          ],
+          [
+            "0.205274258",
+            "0.233484482"
+          ],
+          [
+            "0.567249232",
+            "0.444651056"
+          ],
+          [
+            "0.432750747",
+            "0.444651049"
+          ],
+          [
+            "0.250753955",
+            "0.328061283"
+          ],
+          [
+            "0.637462345",
+            "0.555471045"
+          ],
+          [
+            "0.30332557",
+            "0.436726486"
+          ],
+          [
+            "0.499999991",
+            "0.561130156"
+          ],
+          [
+            "0.362537642",
+            "0.555471041"
+          ],
+          [
+            "0.567249239",
+            "0.671893562"
+          ],
+          [
+            "0.432750755",
+            "0.671893565"
+          ],
+          [
+            "0.500000002",
+            "0.788372668"
+          ],
+          [
+            "0.611655646",
+            "0.322420842"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p74-n34-v1",
+      "name": "n = 34",
+      "parameters": {
+        "n": 34
+      },
+      "objective": "minimize",
+      "scoreStored": "76387454401371598",
+      "scoreDisplay": "0.076387454401372",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.0763874538343494465",
+        "kind": "best",
+        "source": "The construction by Kari J. Nurmela appears in Figure 4 of Nurmela (2000); the paper's continuous value is 0.0763874538343494465. Optimality remains open; the site's nine-decimal reconstruction of the published contact graph verifies at 0.076387454401372.",
+        "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.068254853",
+            "0.034297496"
+          ],
+          [
+            "0.138870964",
+            "0.124835549"
+          ],
+          [
+            "0.186025197",
+            "0.221588995"
+          ],
+          [
+            "0.209569923",
+            "0.022299049"
+          ],
+          [
+            "0.239304014",
+            "0.331115697"
+          ],
+          [
+            "0.28294947",
+            "0.123305568"
+          ],
+          [
+            "0.296818825",
+            "0.452551081"
+          ],
+          [
+            "0.319046527",
+            "0.215918857"
+          ],
+          [
+            "0.354939029",
+            "0.024626568"
+          ],
+          [
+            "0.361628164",
+            "0.341244619"
+          ],
+          [
+            "0.374145127",
+            "0.561208825"
+          ],
+          [
+            "0.428106488",
+            "0.12624725"
+          ],
+          [
+            "0.433749094",
+            "0.450292101"
+          ],
+          [
+            "0.4341018",
+            "0.675581397"
+          ],
+          [
+            "0.497134849",
+            "0.336350403"
+          ],
+          [
+            "0.499344717",
+            "0.025240731"
+          ],
+          [
+            "0.500601667",
+            "0.78964032"
+          ],
+          [
+            "0.506230398",
+            "0.560909374"
+          ],
+          [
+            "0.540268277",
+            "0.214491795"
+          ],
+          [
+            "0.566404647",
+            "0.67453928"
+          ],
+          [
+            "0.573353015",
+            "0.124317464"
+          ],
+          [
+            "0.568461497",
+            "0.447023287"
+          ],
+          [
+            "0.623064492",
+            "0.327492861"
+          ],
+          [
+            "0.63895204",
+            "0.560265411"
+          ],
+          [
+            "0.644379156",
+            "0.022696782"
+          ],
+          [
+            "0.674145135",
+            "0.2179712"
+          ],
+          [
+            "0.698060608",
+            "0.440386848"
+          ],
+          [
+            "0.718447679",
+            "0.121579064"
+          ],
+          [
+            "0.757819088",
+            "0.329426381"
+          ],
+          [
+            "0.79031466",
+            "0.022502331"
+          ],
+          [
+            "0.810851021",
+            "0.223980728"
+          ],
+          [
+            "0.861973292",
+            "0.128077848"
+          ],
+          [
+            "0.931656262",
+            "0.034120032"
+          ],
+          [
+            "0.427804446",
+            "0.247923357"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p74-n35-v1",
+      "name": "n = 35",
+      "parameters": {
+        "n": 35
+      },
+      "objective": "minimize",
+      "scoreStored": "75163717460254040",
+      "scoreDisplay": "0.075163717460255",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.0751604548962267707",
+        "kind": "best",
+        "source": "The construction by Kari J. Nurmela appears in Figure 4 of Nurmela (2000); the paper's continuous value is 0.0751604548962267707. Optimality remains open; the paper publishes no directly importable coordinates; the site's nine-decimal contact-graph reconstruction verifies at 0.075163717460255, and its gap from the paper is disclosed rather than presented as source data.",
+        "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.072858584",
+            "0.018471899"
+          ],
+          [
+            "0.123935797",
+            "0.11395678"
+          ],
+          [
+            "0.172538116",
+            "0.22637384"
+          ],
+          [
+            "0.21722654",
+            "0.023151547"
+          ],
+          [
+            "0.234283567",
+            "0.346527778"
+          ],
+          [
+            "0.253734882",
+            "0.115985611"
+          ],
+          [
+            "0.307855118",
+            "0.459429469"
+          ],
+          [
+            "0.298229976",
+            "0.234496429"
+          ],
+          [
+            "0.359319112",
+            "0.025837882"
+          ],
+          [
+            "0.364470566",
+            "0.347908201"
+          ],
+          [
+            "0.376135086",
+            "0.567675122"
+          ],
+          [
+            "0.382117906",
+            "0.129439793"
+          ],
+          [
+            "0.427869709",
+            "0.234921536"
+          ],
+          [
+            "0.440739447",
+            "0.455459367"
+          ],
+          [
+            "0.436740124",
+            "0.679183823"
+          ],
+          [
+            "0.501541976",
+            "0.022745176"
+          ],
+          [
+            "0.497000595",
+            "0.342960088"
+          ],
+          [
+            "0.507226079",
+            "0.567136566"
+          ],
+          [
+            "0.501204673",
+            "0.790871341"
+          ],
+          [
+            "0.549211668",
+            "0.224875603"
+          ],
+          [
+            "0.566910779",
+            "0.677097268"
+          ],
+          [
+            "0.570909586",
+            "0.45334087"
+          ],
+          [
+            "0.601113731",
+            "0.114263604"
+          ],
+          [
+            "0.638162707",
+            "0.56360369"
+          ],
+          [
+            "0.624506622",
+            "0.335100299"
+          ],
+          [
+            "0.645175891",
+            "0.021596574"
+          ],
+          [
+            "0.680994151",
+            "0.223784529"
+          ],
+          [
+            "0.698593896",
+            "0.445147729"
+          ],
+          [
+            "0.73591312",
+            "0.119179123"
+          ],
+          [
+            "0.756467389",
+            "0.333675873"
+          ],
+          [
+            "0.788019967",
+            "0.025097548"
+          ],
+          [
+            "0.815971823",
+            "0.228366697"
+          ],
+          [
+            "0.871448598",
+            "0.125039613"
+          ],
+          [
+            "0.929434895",
+            "0.025887261"
+          ],
+          [
+            "0.471213621",
+            "0.1120585"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p74-n36-v1",
+      "name": "n = 36",
+      "parameters": {
+        "n": 36
+      },
+      "objective": "minimize",
+      "scoreStored": "72168784102552839",
+      "scoreDisplay": "0.072168784102553",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.0721687836487032206",
+        "kind": "best",
+        "source": "The construction by Kari J. Nurmela appears in Figure 4 of Nurmela (2000); the paper's continuous value is 0.0721687836487032206. Optimality remains open; the site's nine-decimal reconstruction of the published contact graph verifies at 0.072168784102553.",
+        "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.937500001",
+            "0.036084394"
+          ],
+          [
+            "0.812500003",
+            "0.036084392"
+          ],
+          [
+            "0.687500003",
+            "0.036084393"
+          ],
+          [
+            "0.874999999",
+            "0.14433757"
+          ],
+          [
+            "0.562500004",
+            "0.036084392"
+          ],
+          [
+            "0.750000001",
+            "0.144337568"
+          ],
+          [
+            "0.437500004",
+            "0.036084392"
+          ],
+          [
+            "0.625000001",
+            "0.144337568"
+          ],
+          [
+            "0.812499999",
+            "0.252590746"
+          ],
+          [
+            "0.312500003",
+            "0.036084391"
+          ],
+          [
+            "0.500000001",
+            "0.144337567"
+          ],
+          [
+            "0.6875",
+            "0.252590744"
+          ],
+          [
+            "0.187500003",
+            "0.036084392"
+          ],
+          [
+            "0.375000001",
+            "0.144337567"
+          ],
+          [
+            "0.5625",
+            "0.252590744"
+          ],
+          [
+            "0.749999998",
+            "0.360843921"
+          ],
+          [
+            "0.062500001",
+            "0.03608439"
+          ],
+          [
+            "0.250000001",
+            "0.144337566"
+          ],
+          [
+            "0.4375",
+            "0.252590742"
+          ],
+          [
+            "0.624999999",
+            "0.360843919"
+          ],
+          [
+            "0.124999999",
+            "0.144337565"
+          ],
+          [
+            "0.3125",
+            "0.252590742"
+          ],
+          [
+            "0.499999999",
+            "0.360843918"
+          ],
+          [
+            "0.687499998",
+            "0.469097097"
+          ],
+          [
+            "0.187499999",
+            "0.25259074"
+          ],
+          [
+            "0.374999999",
+            "0.360843917"
+          ],
+          [
+            "0.562499999",
+            "0.469097094"
+          ],
+          [
+            "0.249999998",
+            "0.360843915"
+          ],
+          [
+            "0.437499999",
+            "0.469097094"
+          ],
+          [
+            "0.624999998",
+            "0.577350272"
+          ],
+          [
+            "0.312499998",
+            "0.469097091"
+          ],
+          [
+            "0.499999999",
+            "0.577350269"
+          ],
+          [
+            "0.374999998",
+            "0.577350267"
+          ],
+          [
+            "0.562499999",
+            "0.685603447"
+          ],
+          [
+            "0.437499999",
+            "0.685603443"
+          ],
+          [
+            "0.499999998",
+            "0.79385662"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p74-n37-v1",
+      "name": "n = 37",
+      "parameters": {
+        "n": 37
+      },
+      "objective": "minimize",
+      "scoreStored": "72168784000000028",
+      "scoreDisplay": "0.072168784000001",
+      "status": "open",
+      "settled": false,
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.937500001",
+            "0.036084394"
+          ],
+          [
+            "0.812500003",
+            "0.036084392"
+          ],
+          [
+            "0.687500003",
+            "0.036084393"
+          ],
+          [
+            "0.874999999",
+            "0.14433757"
+          ],
+          [
+            "0.562500004",
+            "0.036084392"
+          ],
+          [
+            "0.750000001",
+            "0.144337568"
+          ],
+          [
+            "0.437500004",
+            "0.036084392"
+          ],
+          [
+            "0.625000001",
+            "0.144337568"
+          ],
+          [
+            "0.812499999",
+            "0.252590746"
+          ],
+          [
+            "0.312500003",
+            "0.036084391"
+          ],
+          [
+            "0.500000001",
+            "0.144337567"
+          ],
+          [
+            "0.6875",
+            "0.252590744"
+          ],
+          [
+            "0.187500003",
+            "0.036084392"
+          ],
+          [
+            "0.375000001",
+            "0.144337567"
+          ],
+          [
+            "0.5625",
+            "0.252590744"
+          ],
+          [
+            "0.749999998",
+            "0.360843921"
+          ],
+          [
+            "0.062500001",
+            "0.03608439"
+          ],
+          [
+            "0.250000001",
+            "0.144337566"
+          ],
+          [
+            "0.4375",
+            "0.252590742"
+          ],
+          [
+            "0.624999999",
+            "0.360843919"
+          ],
+          [
+            "0.124999999",
+            "0.144337565"
+          ],
+          [
+            "0.3125",
+            "0.252590742"
+          ],
+          [
+            "0.499999999",
+            "0.360843918"
+          ],
+          [
+            "0.687499998",
+            "0.469097097"
+          ],
+          [
+            "0.187499999",
+            "0.25259074"
+          ],
+          [
+            "0.374999999",
+            "0.360843917"
+          ],
+          [
+            "0.562499999",
+            "0.469097094"
+          ],
+          [
+            "0.249999998",
+            "0.360843915"
+          ],
+          [
+            "0.437499999",
+            "0.469097094"
+          ],
+          [
+            "0.624999998",
+            "0.577350272"
+          ],
+          [
+            "0.312499998",
+            "0.469097091"
+          ],
+          [
+            "0.499999999",
+            "0.577350269"
+          ],
+          [
+            "0.374999998",
+            "0.577350267"
+          ],
+          [
+            "0.562499999",
+            "0.685603447"
+          ],
+          [
+            "0.437499999",
+            "0.685603443"
+          ],
+          [
+            "0.499999998",
+            "0.79385662"
+          ],
+          [
+            "0.125000003",
+            "0"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p74-n38-v1",
+      "name": "n = 38",
+      "parameters": {
+        "n": 38
+      },
+      "objective": "minimize",
+      "scoreStored": "72168783991018282",
+      "scoreDisplay": "0.072168783991019",
+      "status": "open",
+      "settled": false,
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.937500001",
+            "0.036084394"
+          ],
+          [
+            "0.812500003",
+            "0.036084392"
+          ],
+          [
+            "0.687500003",
+            "0.036084393"
+          ],
+          [
+            "0.874999999",
+            "0.14433757"
+          ],
+          [
+            "0.562500004",
+            "0.036084392"
+          ],
+          [
+            "0.750000001",
+            "0.144337568"
+          ],
+          [
+            "0.437500004",
+            "0.036084392"
+          ],
+          [
+            "0.625000001",
+            "0.144337568"
+          ],
+          [
+            "0.812499999",
+            "0.252590746"
+          ],
+          [
+            "0.312500003",
+            "0.036084391"
+          ],
+          [
+            "0.500000001",
+            "0.144337567"
+          ],
+          [
+            "0.6875",
+            "0.252590744"
+          ],
+          [
+            "0.187500003",
+            "0.036084392"
+          ],
+          [
+            "0.375000001",
+            "0.144337567"
+          ],
+          [
+            "0.5625",
+            "0.252590744"
+          ],
+          [
+            "0.749999998",
+            "0.360843921"
+          ],
+          [
+            "0.062500001",
+            "0.03608439"
+          ],
+          [
+            "0.250000001",
+            "0.144337566"
+          ],
+          [
+            "0.4375",
+            "0.252590742"
+          ],
+          [
+            "0.624999999",
+            "0.360843919"
+          ],
+          [
+            "0.124999999",
+            "0.144337565"
+          ],
+          [
+            "0.3125",
+            "0.252590742"
+          ],
+          [
+            "0.499999999",
+            "0.360843918"
+          ],
+          [
+            "0.687499998",
+            "0.469097097"
+          ],
+          [
+            "0.187499999",
+            "0.25259074"
+          ],
+          [
+            "0.374999999",
+            "0.360843917"
+          ],
+          [
+            "0.562499999",
+            "0.469097094"
+          ],
+          [
+            "0.249999998",
+            "0.360843915"
+          ],
+          [
+            "0.437499999",
+            "0.469097094"
+          ],
+          [
+            "0.624999998",
+            "0.577350272"
+          ],
+          [
+            "0.312499998",
+            "0.469097091"
+          ],
+          [
+            "0.499999999",
+            "0.577350269"
+          ],
+          [
+            "0.374999998",
+            "0.577350267"
+          ],
+          [
+            "0.562499999",
+            "0.685603447"
+          ],
+          [
+            "0.437499999",
+            "0.685603443"
+          ],
+          [
+            "0.499999998",
+            "0.79385662"
+          ],
+          [
+            "0.125000003",
+            "0"
+          ],
+          [
+            "0.5",
+            "0.866025404"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p74-n39-v1",
+      "name": "n = 39",
+      "parameters": {
+        "n": 39
+      },
+      "objective": "minimize",
+      "scoreStored": "72168783991018281",
+      "scoreDisplay": "0.072168783991019",
+      "status": "open",
+      "settled": false,
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.937500001",
+            "0.036084394"
+          ],
+          [
+            "0.812500003",
+            "0.036084392"
+          ],
+          [
+            "0.687500003",
+            "0.036084393"
+          ],
+          [
+            "0.874999999",
+            "0.14433757"
+          ],
+          [
+            "0.562500004",
+            "0.036084392"
+          ],
+          [
+            "0.750000001",
+            "0.144337568"
+          ],
+          [
+            "0.437500004",
+            "0.036084392"
+          ],
+          [
+            "0.625000001",
+            "0.144337568"
+          ],
+          [
+            "0.812499999",
+            "0.252590746"
+          ],
+          [
+            "0.312500003",
+            "0.036084391"
+          ],
+          [
+            "0.500000001",
+            "0.144337567"
+          ],
+          [
+            "0.6875",
+            "0.252590744"
+          ],
+          [
+            "0.187500003",
+            "0.036084392"
+          ],
+          [
+            "0.375000001",
+            "0.144337567"
+          ],
+          [
+            "0.5625",
+            "0.252590744"
+          ],
+          [
+            "0.749999998",
+            "0.360843921"
+          ],
+          [
+            "0.062500001",
+            "0.03608439"
+          ],
+          [
+            "0.250000001",
+            "0.144337566"
+          ],
+          [
+            "0.4375",
+            "0.252590742"
+          ],
+          [
+            "0.624999999",
+            "0.360843919"
+          ],
+          [
+            "0.124999999",
+            "0.144337565"
+          ],
+          [
+            "0.3125",
+            "0.252590742"
+          ],
+          [
+            "0.499999999",
+            "0.360843918"
+          ],
+          [
+            "0.687499998",
+            "0.469097097"
+          ],
+          [
+            "0.187499999",
+            "0.25259074"
+          ],
+          [
+            "0.374999999",
+            "0.360843917"
+          ],
+          [
+            "0.562499999",
+            "0.469097094"
+          ],
+          [
+            "0.249999998",
+            "0.360843915"
+          ],
+          [
+            "0.437499999",
+            "0.469097094"
+          ],
+          [
+            "0.624999998",
+            "0.577350272"
+          ],
+          [
+            "0.312499998",
+            "0.469097091"
+          ],
+          [
+            "0.499999999",
+            "0.577350269"
+          ],
+          [
+            "0.374999998",
+            "0.577350267"
+          ],
+          [
+            "0.562499999",
+            "0.685603447"
+          ],
+          [
+            "0.437499999",
+            "0.685603443"
+          ],
+          [
+            "0.499999998",
+            "0.79385662"
+          ],
+          [
+            "0.125000003",
+            "0"
+          ],
+          [
+            "0.5",
+            "0.866025404"
+          ],
+          [
+            "0.562500001",
+            "0.18042196"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p74-n40-v1",
+      "name": "n = 40",
+      "parameters": {
+        "n": 40
+      },
+      "objective": "minimize",
+      "scoreStored": "72168783986527421",
+      "scoreDisplay": "0.072168783986528",
+      "status": "open",
+      "settled": false,
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "answer": {
+        "points": [
+          [
+            "0.937500001",
+            "0.036084394"
+          ],
+          [
+            "0.812500003",
+            "0.036084392"
+          ],
+          [
+            "0.687500003",
+            "0.036084393"
+          ],
+          [
+            "0.874999999",
+            "0.14433757"
+          ],
+          [
+            "0.562500004",
+            "0.036084392"
+          ],
+          [
+            "0.750000001",
+            "0.144337568"
+          ],
+          [
+            "0.437500004",
+            "0.036084392"
+          ],
+          [
+            "0.625000001",
+            "0.144337568"
+          ],
+          [
+            "0.812499999",
+            "0.252590746"
+          ],
+          [
+            "0.312500003",
+            "0.036084391"
+          ],
+          [
+            "0.500000001",
+            "0.144337567"
+          ],
+          [
+            "0.6875",
+            "0.252590744"
+          ],
+          [
+            "0.187500003",
+            "0.036084392"
+          ],
+          [
+            "0.375000001",
+            "0.144337567"
+          ],
+          [
+            "0.5625",
+            "0.252590744"
+          ],
+          [
+            "0.749999998",
+            "0.360843921"
+          ],
+          [
+            "0.062500001",
+            "0.03608439"
+          ],
+          [
+            "0.250000001",
+            "0.144337566"
+          ],
+          [
+            "0.4375",
+            "0.252590742"
+          ],
+          [
+            "0.624999999",
+            "0.360843919"
+          ],
+          [
+            "0.124999999",
+            "0.144337565"
+          ],
+          [
+            "0.3125",
+            "0.252590742"
+          ],
+          [
+            "0.499999999",
+            "0.360843918"
+          ],
+          [
+            "0.687499998",
+            "0.469097097"
+          ],
+          [
+            "0.187499999",
+            "0.25259074"
+          ],
+          [
+            "0.374999999",
+            "0.360843917"
+          ],
+          [
+            "0.562499999",
+            "0.469097094"
+          ],
+          [
+            "0.249999998",
+            "0.360843915"
+          ],
+          [
+            "0.437499999",
+            "0.469097094"
+          ],
+          [
+            "0.624999998",
+            "0.577350272"
+          ],
+          [
+            "0.312499998",
+            "0.469097091"
+          ],
+          [
+            "0.499999999",
+            "0.577350269"
+          ],
+          [
+            "0.374999998",
+            "0.577350267"
+          ],
+          [
+            "0.562499999",
+            "0.685603447"
+          ],
+          [
+            "0.437499999",
+            "0.685603443"
+          ],
+          [
+            "0.499999998",
+            "0.79385662"
+          ],
+          [
+            "0.125000003",
+            "0"
+          ],
+          [
+            "0.5",
+            "0.866025404"
+          ],
+          [
+            "0.562500001",
+            "0.18042196"
+          ],
+          [
+            "0.437499999",
+            "0.39692831"
+          ]
+        ]
+      }
+    }
+  ]
+}
