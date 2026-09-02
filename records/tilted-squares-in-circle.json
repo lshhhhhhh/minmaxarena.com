@@ -4,13 +4,13 @@
   "title": "可倾斜等正方形装入圆",
   "titleEn": "Tilted equal squares in a circle",
   "objective": "maximize",
-  "scoreLabel": "最小边长的平方",
-  "scoreLabelEn": "smallest side squared",
+  "scoreLabel": "最小边长",
+  "scoreLabelEn": "the smallest side",
   "verifierVersion": "1.0.0",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/tilted-squares-in-circle",
-  "generatedAt": "2026-09-01T10:14:03.381Z",
+  "generatedAt": "2026-09-02T09:43:39.181Z",
   "instances": [
     {
       "instanceId": "p05-n3-v2",
@@ -24,7 +24,7 @@
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "0.60235294117646464",
+        "display": "0.776114",
         "kind": "best",
         "exact": "16√17/85",
         "source": "r = 5√17/16, giving continuous score 256/425; found by Erich Friedman in 1997. The nine-decimal certificate reconstructed from the public figure reaches 0.60235294117646464; optimality open",
@@ -32,7 +32,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-21T23:35:35.337Z",
       "answer": {
         "squares": [
           {
@@ -68,15 +68,15 @@
       "status": "proven",
       "settled": true,
       "knownBest": {
-        "display": "0.5",
+        "display": "0.707106781",
         "kind": "proven",
         "exact": "√2/2",
-        "source": "r = √2 — the 2 × 2 block stood on a corner — so the side squared is exactly 1/2; optimality proved by the International Math Summer Camp (2026)",
+        "source": "the tilted 2 × 2 block has common side √2/2; optimality proved by the International Math Summer Camp (2026)",
         "url": "https://erich-friedman.github.io/packing/squincir/"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-21T23:35:35.337Z",
       "answer": {
         "squares": [
           {
@@ -118,7 +118,7 @@
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "0.4",
+        "display": "0.632455532",
         "kind": "best",
         "exact": "√10/5",
         "source": "r = √10/2, so the score is 2/5; found by Erich Friedman in 1997, optimality open",
@@ -126,7 +126,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-21T23:35:35.337Z",
       "answer": {
         "squares": [
           {
@@ -169,56 +169,60 @@
         "n": 6
       },
       "objective": "maximize",
-      "scoreStored": "267830870429606608",
-      "scoreDisplay": "0.517523787",
+      "scoreStored": "350732302416621508",
+      "scoreDisplay": "0.592226563",
       "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "0.350732302416621508",
+        "display": "0.592226563",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "0.592226563",
+        "publishedDisplay": "1.688542968202848…",
+        "publishedMetric": "container radius for unit squares",
         "source": "Erich Friedman's 1997 packing, whose continuous radius was expressed as a nested radical by David Ellsworth in 2023. The site reconstructed the public contact graph and repaired it to a nine-decimal certificate scoring 0.350732302416621508; optimality open",
         "url": "https://erich-friedman.github.io/packing/squincir/"
       },
-      "holder": "HwaterB",
+      "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-28T14:13:15.626Z",
+      "recordedAt": "2026-09-01T22:58:34.068Z",
       "answer": {
         "squares": [
           {
-            "cx": "0.381056703",
-            "cy": "0.899792475",
-            "ux": "0.182972290",
-            "uy": "0.182972290"
+            "cx": "0.417834102",
+            "cy": "0.869060930",
+            "ux": "0.235470129",
+            "uy": "0.179546356"
           },
           {
-            "cx": "0.616566175",
-            "cy": "1.481694736",
-            "ux": "0.066972506",
-            "uy": "0.249944796"
+            "cx": "0.650329960",
+            "cy": "1.540866944",
+            "ux": "0.235470129",
+            "uy": "0.179546356"
           },
           {
-            "cx": "0.770159270",
-            "cy": "0.421023987",
-            "ux": "0.249944796",
-            "uy": "0.066972506"
+            "cx": "1.009422672",
+            "cy": "1.069926686",
+            "ux": "0.235470129",
+            "uy": "0.179546356"
           },
           {
-            "cx": "1.392903740",
-            "cy": "0.523937169",
-            "ux": "0.066972506",
-            "uy": "0.249944796"
+            "cx": "1.480362930",
+            "cy": "1.429019398",
+            "ux": "0.235470129",
+            "uy": "0.179546356"
           },
           {
-            "cx": "1.221853745",
-            "cy": "1.597476421",
-            "ux": "0.249944796",
-            "uy": "0.066972506"
+            "cx": "1.526742340",
+            "cy": "0.719634739",
+            "ux": "0.235470129",
+            "uy": "0.179546356"
           },
           {
-            "cx": "1.622887138",
-            "cy": "1.114657683",
-            "ux": "0.182972290",
-            "uy": "0.182972290"
+            "cx": "0.911989385",
+            "cy": "0.346863526",
+            "ux": "0.039544079",
+            "uy": "0.293460971"
           }
         ]
       }
@@ -235,7 +239,7 @@
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "0.307692307692307652",
+        "display": "0.554700196",
         "kind": "best",
         "exact": "2√13/13",
         "source": "r = sqrt(13)/2, giving continuous score 4/13; found by Erich Friedman in 1997. The nine-decimal certificate reconstructed from the public figure reaches 0.307692307692307652; optimality open",
@@ -243,7 +247,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-21T23:35:35.337Z",
       "answer": {
         "squares": [
           {
@@ -300,17 +304,21 @@
       "objective": "maximize",
       "scoreStored": "255392702294683108",
       "scoreDisplay": "0.50536393",
-      "status": "matched",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "0.255392702294683108",
+        "display": "0.505364222",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "0.50536393",
+        "publishedDisplay": "1.97877086533976321…",
+        "publishedMetric": "container radius for unit squares",
         "source": "David W. Cantrell's 2002 packing, with continuous radius 1.97877086533976321... computed to 36 places by David Ellsworth in 2023. The site reconstructed the figure's contact topology and repaired it inward to a nine-decimal certificate scoring 0.255392702294683108; optimality open",
         "url": "https://erich-friedman.github.io/packing/squincir/"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-21T23:35:35.337Z",
       "answer": {
         "squares": [
           {
@@ -376,7 +384,7 @@
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "0.231674208144790528",
+        "display": "0.48132547",
         "kind": "best",
         "exact": "16√1105/1105",
         "source": "r = sqrt(1105)/16, giving continuous score 256/1105; found by Erich Friedman in 1997. The nine-decimal certificate reconstructed from the public figure reaches 0.231674208144790528; optimality open",
@@ -384,7 +392,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-21T23:35:35.337Z",
       "answer": {
         "squares": [
           {
@@ -456,7 +464,7 @@
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "0.2222222222222217",
+        "display": "0.47140452",
         "kind": "best",
         "exact": "√2/3",
         "source": "r = 3sqrt(2)/2, giving continuous score 2/9; found by Erich Friedman in 1997. The nine-decimal certificate reconstructed from the public figure reaches 0.2222222222222217; optimality open",
@@ -464,7 +472,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-21T23:35:35.337Z",
       "answer": {
         "squares": [
           {
@@ -537,81 +545,94 @@
         "n": 11
       },
       "objective": "maximize",
-      "scoreStored": "203220640000000000",
-      "scoreDisplay": "0.4508",
-      "status": "open",
+      "scoreStored": "204031368375102788",
+      "scoreDisplay": "0.451698315",
+      "status": "matched",
       "settled": false,
-      "knownBest": null,
-      "holder": "Cphysics",
+      "knownBest": {
+        "display": "0.451699746",
+        "kind": "best",
+        "range": {
+          "lower": "0.4516977058273521",
+          "upper": "0.4516997461447427"
+        },
+        "truncated": true,
+        "certificateDisplay": "0.451698315",
+        "publishedDisplay": "2.21386+",
+        "publishedMetric": "container radius for unit squares",
+        "source": "Milan Kovacic found the r = 2.21386+ packing in May 2006. The site reconstructed the public figure's fixed contact topology and repaired it to a nine-decimal certificate scoring 0.204031368375102788; the truncated source interval is compared separately from the certificate, and optimality is open",
+        "url": "https://erich-friedman.github.io/packing/squincir/"
+      },
+      "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T12:17:37.333Z",
+      "recordedAt": "2026-08-21T23:35:35.337Z",
       "answer": {
         "squares": [
           {
-            "cx": "0.313834943",
-            "cy": "0.703396877",
-            "ux": "0.207584126",
-            "uy": "0.087829327"
+            "cx": "1.183816690",
+            "cy": "1.687161648",
+            "ux": "0.225844832",
+            "uy": "-0.001397978"
           },
           {
-            "cx": "1.225400000",
-            "cy": "0.332826641",
-            "ux": "0.225400000",
-            "uy": "0.000000000"
+            "cx": "0.652293597",
+            "cy": "1.662625666",
+            "ux": "0.199987741",
+            "uy": "0.104941631"
           },
           {
-            "cx": "0.720248197",
-            "cy": "0.900914025",
-            "ux": "0.207584126",
-            "uy": "0.087829327"
+            "cx": "1.633036623",
+            "cy": "1.285375929",
+            "ux": "0.225844832",
+            "uy": "-0.001397978"
           },
           {
-            "cx": "1.186609292",
-            "cy": "1.685776641",
-            "ux": "0.225400000",
-            "uy": "0.000000000"
+            "cx": "1.150599303",
+            "cy": "1.235660273",
+            "ux": "0.225844832",
+            "uy": "-0.001397977"
           },
           {
-            "cx": "1.241061650",
-            "cy": "0.783626641",
-            "ux": "0.225400000",
-            "uy": "0.000000000"
+            "cx": "0.363223153",
+            "cy": "1.241390168",
+            "ux": "0.199987741",
+            "uy": "0.104941631"
           },
           {
-            "cx": "1.638697609",
-            "cy": "1.277914845",
-            "ux": "0.225400000",
-            "uy": "0.000000000"
+            "cx": "0.720914492",
+            "cy": "0.898449231",
+            "ux": "0.208097204",
+            "uy": "0.087768991"
           },
           {
-            "cx": "0.654287945",
-            "cy": "1.658786018",
-            "ux": "0.196500211",
-            "uy": "0.110421136"
+            "cx": "1.694682666",
+            "cy": "0.833287356",
+            "ux": "0.225844832",
+            "uy": "-0.001397977"
           },
           {
-            "cx": "1.691861650",
-            "cy": "0.827114845",
-            "ux": "0.225400000",
-            "uy": "0.000000000"
+            "cx": "1.242666770",
+            "cy": "0.783383389",
+            "ux": "0.225844832",
+            "uy": "-0.001397979"
           },
           {
-            "cx": "0.365792780",
-            "cy": "1.246125375",
-            "ux": "0.196500212",
-            "uy": "0.110421134"
+            "cx": "0.310504077",
+            "cy": "0.709197551",
+            "ux": "0.208097204",
+            "uy": "0.087768991"
           },
           {
-            "cx": "0.774600000",
-            "cy": "0.332826641",
-            "ux": "0.225400000",
-            "uy": "0.000000000"
+            "cx": "0.769070282",
+            "cy": "0.335583588",
+            "ux": "0.225844832",
+            "uy": "-0.001397975"
           },
           {
-            "cx": "1.144417710",
-            "cy": "1.234976641",
-            "ux": "0.225400000",
-            "uy": "0.000000000"
+            "cx": "1.220753916",
+            "cy": "0.331812048",
+            "ux": "0.225844832",
+            "uy": "-0.001397976"
           }
         ]
       }
@@ -628,7 +649,7 @@
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "0.2",
+        "display": "0.447213595",
         "kind": "best",
         "exact": "√5/5",
         "source": "r = √5, so the score is 1/5; found by Erich Friedman in 1997, optimality open",
@@ -636,7 +657,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-21T23:35:35.337Z",
       "answer": {
         "squares": [
           {
@@ -721,93 +742,106 @@
         "n": 13
       },
       "objective": "maximize",
-      "scoreStored": "176399999367181600",
-      "scoreDisplay": "0.419999999",
-      "status": "open",
+      "scoreStored": "179438417014463632",
+      "scoreDisplay": "0.423601719",
+      "status": "matched",
       "settled": false,
-      "knownBest": null,
-      "holder": "Cphysics",
+      "knownBest": {
+        "display": "0.423603168",
+        "kind": "best",
+        "range": {
+          "lower": "0.42358522534733994",
+          "upper": "0.42360316855170077"
+        },
+        "truncated": true,
+        "certificateDisplay": "0.423601719",
+        "publishedDisplay": "2.3607+",
+        "publishedMetric": "container radius for unit squares",
+        "source": "David W. Cantrell found the r = 2.3607+ packing in November 2010. The site reconstructed the public figure's fixed contact topology and repaired it to a nine-decimal certificate scoring 0.179438417014463632; the truncated source interval is compared separately from the certificate, and optimality is open",
+        "url": "https://erich-friedman.github.io/packing/squincir/"
+      },
+      "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-29T07:26:49.424Z",
+      "recordedAt": "2026-08-21T23:35:35.337Z",
       "answer": {
         "squares": [
           {
-            "cx": "0.282439232",
-            "cy": "1.163672345",
-            "ux": "0.210000000",
-            "uy": "0.000000000"
+            "cx": "0.651896068",
+            "cy": "1.613750000",
+            "ux": "0.211552247",
+            "uy": "-0.010259199"
           },
           {
-            "cx": "0.325387928",
-            "cy": "0.743672345",
-            "ux": "0.210000000",
-            "uy": "0.000000000"
+            "cx": "1.082662563",
+            "cy": "1.751227584",
+            "ux": "0.211552247",
+            "uy": "-0.010259200"
           },
           {
-            "cx": "0.747665372",
-            "cy": "0.323294473",
-            "ux": "0.210000000",
-            "uy": "0.000000000"
+            "cx": "1.509057963",
+            "cy": "1.510431763",
+            "ux": "0.191687899",
+            "uy": "-0.090085258"
           },
           {
-            "cx": "1.453746569",
-            "cy": "1.548992049",
-            "ux": "0.071824230",
-            "uy": "0.197335450"
+            "cx": "0.297813873",
+            "cy": "1.206822557",
+            "ux": "0.211552168",
+            "uy": "-0.010260825"
           },
           {
-            "cx": "0.745387928",
-            "cy": "0.743294473",
-            "ux": "0.210000000",
-            "uy": "0.000000000"
+            "cx": "0.720918257",
+            "cy": "1.186301529",
+            "ux": "0.211552168",
+            "uy": "-0.010260822"
           },
           {
-            "cx": "1.152107332",
-            "cy": "1.151448296",
-            "ux": "0.029468296",
-            "uy": "0.207922148"
+            "cx": "1.162313690",
+            "cy": "1.147297380",
+            "ux": "0.209620307",
+            "uy": "-0.030313883"
           },
           {
-            "cx": "0.601654532",
-            "cy": "1.583672345",
-            "ux": "0.210000000",
-            "uy": "0.000000000"
+            "cx": "1.603297474",
+            "cy": "1.016965869",
+            "ux": "0.211552171",
+            "uy": "-0.010260773"
           },
           {
-            "cx": "0.702716886",
-            "cy": "1.163672345",
-            "ux": "0.210000000",
-            "uy": "0.000000000"
+            "cx": "0.313989775",
+            "cy": "0.781938171",
+            "ux": "0.211552174",
+            "uy": "-0.010260701"
           },
           {
-            "cx": "1.167665372",
-            "cy": "0.284057850",
-            "ux": "0.210000000",
-            "uy": "0.000000000"
+            "cx": "0.737094195",
+            "cy": "0.761417056",
+            "ux": "0.211552176",
+            "uy": "-0.010260664"
           },
           {
-            "cx": "1.588633491",
-            "cy": "0.609511633",
-            "ux": "0.210000000",
-            "uy": "0.000000000"
+            "cx": "1.158418789",
+            "cy": "0.704199008",
+            "ux": "0.211552172",
+            "uy": "-0.010260760"
           },
           {
-            "cx": "1.021654532",
-            "cy": "1.762798117",
-            "ux": "0.210000000",
-            "uy": "0.000000000"
+            "cx": "1.577180042",
+            "cy": "0.594132939",
+            "ux": "0.211552171",
+            "uy": "-0.010260772"
           },
           {
-            "cx": "1.588633491",
-            "cy": "1.029883970",
-            "ux": "0.210000000",
-            "uy": "0.000000000"
+            "cx": "0.716572801",
+            "cy": "0.338312678",
+            "ux": "0.211552177",
+            "uy": "-0.010260655"
           },
           {
-            "cx": "1.168633491",
-            "cy": "0.704057850",
-            "ux": "0.210000000",
-            "uy": "0.000000000"
+            "cx": "1.137897314",
+            "cy": "0.281094539",
+            "ux": "0.211552177",
+            "uy": "-0.010260657"
           }
         ]
       }
@@ -824,7 +858,7 @@
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "0.16",
+        "display": "0.4",
         "kind": "best",
         "exact": "2/5",
         "source": "r = 5/2, so the score is 4/25; found by Erich Friedman in 1997, optimality open",
@@ -832,7 +866,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-21T23:35:35.337Z",
       "answer": {
         "squares": [
           {

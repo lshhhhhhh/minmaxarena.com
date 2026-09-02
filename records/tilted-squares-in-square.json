@@ -4,13 +4,13 @@
   "title": "可倾斜等正方形装入单位正方形",
   "titleEn": "Tilted equal squares in the unit square",
   "objective": "maximize",
-  "scoreLabel": "最小边长的平方",
-  "scoreLabelEn": "smallest side squared",
+  "scoreLabel": "最小边长",
+  "scoreLabelEn": "the smallest side",
   "verifierVersion": "1.0.0",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/tilted-squares-in-square",
-  "generatedAt": "2026-09-01T10:14:04.431Z",
+  "generatedAt": "2026-09-02T09:43:39.895Z",
   "instances": [
     {
       "instanceId": "p18-n3-v1",
@@ -24,7 +24,7 @@
       "status": "proven",
       "settled": true,
       "knownBest": {
-        "display": "0.25",
+        "display": "0.5",
         "kind": "proven",
         "exact": "1/2",
         "source": "three of the four quarter cells, a = 1/2; s(3) = 2 proved by Göbel",
@@ -32,7 +32,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-21T06:46:02.716Z",
       "answer": {
         "squares": [
           {
@@ -68,14 +68,14 @@
       "status": "proven",
       "settled": true,
       "knownBest": {
-        "display": "0.25",
+        "display": "0.5",
         "kind": "proven",
         "exact": "1/2",
         "source": "the 2 × 2 grid, a = 1/2; s(4) = 2"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-21T06:46:02.716Z",
       "answer": {
         "squares": [
           {
@@ -117,7 +117,7 @@
       "status": "proven",
       "settled": true,
       "knownBest": {
-        "display": "0.136454927585215752",
+        "display": "0.369398061",
         "kind": "proven",
         "exact": "(4 − √2)/7",
         "source": "Ellsworth's high-precision Squares in Squares SVG; Göbel found and proved s(5) = 2 + sqrt(2)/2 in 1979. The site exhibits the same construction on its nine-decimal grid",
@@ -125,7 +125,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-21T06:46:02.716Z",
       "answer": {
         "squares": [
           {
@@ -173,7 +173,7 @@
       "status": "proven",
       "settled": true,
       "knownBest": {
-        "display": "0.111111110222222224",
+        "display": "0.333333332",
         "kind": "proven",
         "exact": "1/3",
         "source": "six cells of the 3 × 3 grid; s(6) = 3 proved by Kearney and Shiu",
@@ -181,7 +181,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-21T06:46:02.716Z",
       "answer": {
         "squares": [
           {
@@ -235,7 +235,7 @@
       "status": "proven",
       "settled": true,
       "knownBest": {
-        "display": "0.111111110222222224",
+        "display": "0.333333332",
         "kind": "proven",
         "exact": "1/3",
         "source": "seven cells of the 3 × 3 grid; s(7) = 3 proved by Friedman",
@@ -243,7 +243,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-21T06:46:02.716Z",
       "answer": {
         "squares": [
           {
@@ -303,7 +303,7 @@
       "status": "proven",
       "settled": true,
       "knownBest": {
-        "display": "0.111111110222222224",
+        "display": "0.333333332",
         "kind": "proven",
         "exact": "1/3",
         "source": "eight cells of the 3 × 3 grid; s(8) = 3 proved by Friedman",
@@ -311,7 +311,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-21T06:46:02.716Z",
       "answer": {
         "squares": [
           {
@@ -377,14 +377,14 @@
       "status": "proven",
       "settled": true,
       "knownBest": {
-        "display": "0.111111110222222224",
+        "display": "0.333333332",
         "kind": "proven",
         "exact": "1/3",
         "source": "the 3 × 3 grid; s(9) = 3"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-21T06:46:02.716Z",
       "answer": {
         "squares": [
           {
@@ -456,7 +456,7 @@
       "status": "proven",
       "settled": true,
       "knownBest": {
-        "display": "0.072766218113588164",
+        "display": "0.269752142",
         "kind": "proven",
         "exact": "(6 − √2)/17",
         "source": "Ellsworth's high-precision SVG; Göbel found and Stromquist proved s(10) = 3 + sqrt(2)/2. The site exhibits the same construction on its nine-decimal grid",
@@ -464,7 +464,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-21T06:46:02.716Z",
       "answer": {
         "squares": [
           {
@@ -537,85 +537,89 @@
         "n": 11
       },
       "objective": "maximize",
-      "scoreStored": "66525732281191252",
-      "scoreDisplay": "0.257925827",
-      "status": "matched",
+      "scoreStored": "66525732749485584",
+      "scoreDisplay": "0.257925828",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "0.066525732281191252",
+        "display": "0.257925829",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "0.257925827",
+        "publishedDisplay": "3.877083590",
+        "publishedMetric": "container side s for unit squares",
         "source": "Ellsworth's high-precision SVG of Trump's 1979 construction, s(11) about 3.877083590; the site exhibits the same construction on its nine-decimal grid",
         "url": "https://kingbird.myphotos.cc/packing/square-11.svg"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-01T10:38:47.386Z",
       "answer": {
         "squares": [
           {
-            "cx": "0.128962914",
-            "cy": "0.871037082",
+            "cx": "0.128962915",
+            "cy": "0.871037085",
             "ux": "0.000000000",
             "uy": "-0.128962914"
           },
           {
-            "cx": "0.128962914",
-            "cy": "0.128962914",
+            "cx": "0.128962915",
+            "cy": "0.128962915",
             "ux": "0.000000000",
             "uy": "0.128962914"
           },
           {
-            "cx": "0.871037082",
-            "cy": "0.346787795",
+            "cx": "0.871037085",
+            "cy": "0.346787797",
             "ux": "0.000000000",
             "uy": "-0.128962914"
           },
           {
-            "cx": "0.613111254",
-            "cy": "0.871037082",
+            "cx": "0.613111256",
+            "cy": "0.871037085",
             "ux": "0.000000000",
             "uy": "-0.128962914"
           },
           {
-            "cx": "0.871037082",
-            "cy": "0.871037082",
+            "cx": "0.871037085",
+            "cy": "0.871037085",
             "ux": "0.000000000",
             "uy": "-0.128962914"
           },
           {
-            "cx": "0.871037082",
-            "cy": "0.613111254",
+            "cx": "0.871037085",
+            "cy": "0.613111256",
             "ux": "0.000000000",
             "uy": "-0.128962914"
           },
           {
-            "cx": "0.374652270",
-            "cy": "0.671852856",
-            "ux": "0.083209047",
+            "cx": "0.374652272",
+            "cy": "0.671852859",
+            "ux": "0.083209048",
             "uy": "-0.098527598"
           },
           {
-            "cx": "0.181736646",
-            "cy": "0.500533105",
-            "ux": "0.083209047",
+            "cx": "0.181736647",
+            "cy": "0.500533107",
+            "ux": "0.083209048",
             "uy": "-0.098527598"
           },
           {
-            "cx": "0.564477095",
-            "cy": "0.494565234",
-            "ux": "0.083209047",
+            "cx": "0.564477097",
+            "cy": "0.494565236",
+            "ux": "0.083209048",
             "uy": "-0.098527598"
           },
           {
-            "cx": "0.371561470",
-            "cy": "0.323245483",
-            "ux": "0.083209047",
+            "cx": "0.371561472",
+            "cy": "0.323245485",
+            "ux": "0.083209048",
             "uy": "-0.098527598"
           },
           {
-            "cx": "0.603751853",
-            "cy": "0.181736646",
-            "ux": "0.083209047",
+            "cx": "0.603751855",
+            "cy": "0.181736647",
+            "ux": "0.083209048",
             "uy": "-0.098527598"
           }
         ]
@@ -633,7 +637,7 @@
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "0.0625",
+        "display": "0.25",
         "kind": "best",
         "exact": "1/4",
         "source": "twelve cells of the 4 × 4 grid; s(12) = 4 is believed optimal but not proved",
@@ -641,7 +645,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-21T06:46:02.716Z",
       "answer": {
         "squares": [
           {
@@ -731,7 +735,7 @@
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "0.0625",
+        "display": "0.25",
         "kind": "best",
         "exact": "1/4",
         "source": "thirteen cells of the 4 × 4 grid; s(13) = 4 is believed optimal but not proved",
@@ -739,7 +743,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-24T18:44:03.161Z",
       "answer": {
         "squares": [
           {
@@ -835,7 +839,7 @@
       "status": "proven",
       "settled": true,
       "knownBest": {
-        "display": "0.0625",
+        "display": "0.25",
         "kind": "proven",
         "exact": "1/4",
         "source": "fourteen cells of the 4 × 4 grid; s(14) = 4 proved by Friedman",
@@ -843,7 +847,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-24T18:44:03.161Z",
       "answer": {
         "squares": [
           {
@@ -945,7 +949,7 @@
       "status": "proven",
       "settled": true,
       "knownBest": {
-        "display": "0.0625",
+        "display": "0.25",
         "kind": "proven",
         "exact": "1/4",
         "source": "fifteen cells of the 4 × 4 grid; s(15) = 4 proved by Friedman",
@@ -953,7 +957,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-24T18:44:03.161Z",
       "answer": {
         "squares": [
           {
@@ -1061,7 +1065,7 @@
       "status": "proven",
       "settled": true,
       "knownBest": {
-        "display": "0.0625",
+        "display": "0.25",
         "kind": "proven",
         "exact": "1/4",
         "source": "the 4 × 4 grid; sixteen unit squares have total area sixteen and cannot overlap, so the container's side is at least four, and the grid reaches it"
@@ -1179,17 +1183,21 @@
       "objective": "maximize",
       "scoreStored": "45744432662950528",
       "scoreDisplay": "0.213879481",
-      "status": "matched",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "0.045744432662950528",
+        "display": "0.213879491",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "0.213879481",
+        "publishedDisplay": "4.675530094",
+        "publishedMetric": "container side s for unit squares",
         "source": "Ellsworth's high-precision SVG of Bidwell's 1998 construction, s(17) about 4.675530094; the site exhibits the same construction on its nine-decimal grid",
         "url": "https://kingbird.myphotos.cc/packing/square-17.svg"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-24T18:44:03.161Z",
       "answer": {
         "squares": [
           {
@@ -1306,17 +1314,21 @@
       "objective": "maximize",
       "scoreStored": "42992017859250720",
       "scoreDisplay": "0.207345165",
-      "status": "matched",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "0.04299201785925072",
+        "display": "0.207345175",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "0.207345165",
+        "publishedDisplay": "(7 + √7)/2",
+        "publishedMetric": "container side s for unit squares",
         "source": "Ellsworth's high-precision SVG: Hämäläinen found s(18) = (7 + sqrt(7))/2 in 1980, and the drawing is Gustafsson's equal-value alternative; the site exhibits its grid certificate",
         "url": "https://kingbird.myphotos.cc/packing/square-18.svg"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-24T18:44:03.161Z",
       "answer": {
         "squares": [
           {
@@ -1439,17 +1451,21 @@
       "objective": "maximize",
       "scoreStored": "41894881594841664",
       "scoreDisplay": "0.204682392",
-      "status": "matched",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "0.041894881594841664",
+        "display": "0.204682392",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "0.204682392",
+        "publishedDisplay": "3 + 4√2/3",
+        "publishedMetric": "container side s for unit squares",
         "source": "Ellsworth's high-precision SVG of Wainwright's 1979 construction, s(19) = 3 + 4 sqrt(2)/3; the site exhibits the same construction on its grid",
         "url": "https://kingbird.myphotos.cc/packing/square-19.svg"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-24T18:44:03.161Z",
       "answer": {
         "squares": [
           {
@@ -1581,7 +1597,7 @@
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "0.04",
+        "display": "0.2",
         "kind": "best",
         "exact": "1/5",
         "source": "twenty cells of the 5 × 5 grid; s(20) = 5 is believed optimal but not proved",
@@ -1589,7 +1605,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-24T18:44:03.161Z",
       "answer": {
         "squares": [
           {
@@ -1727,7 +1743,7 @@
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "0.04",
+        "display": "0.2",
         "kind": "best",
         "exact": "1/5",
         "source": "twenty-one cells of the 5 × 5 grid; s(21) = 5 is believed optimal but not proved",
@@ -1735,7 +1751,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-24T18:44:03.161Z",
       "answer": {
         "squares": [
           {
@@ -1879,7 +1895,7 @@
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "0.04",
+        "display": "0.2",
         "kind": "best",
         "exact": "1/5",
         "source": "twenty-two cells of the 5 × 5 grid; s(22) = 5 is believed optimal but not proved",
@@ -1887,7 +1903,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-24T18:44:03.161Z",
       "answer": {
         "squares": [
           {
@@ -2037,7 +2053,7 @@
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "0.04",
+        "display": "0.2",
         "kind": "best",
         "exact": "1/5",
         "source": "twenty-three cells of the 5 × 5 grid; s(23) = 5 is believed optimal but not proved",
@@ -2045,7 +2061,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-24T18:44:03.161Z",
       "answer": {
         "squares": [
           {
@@ -2201,7 +2217,7 @@
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "0.04",
+        "display": "0.2",
         "kind": "best",
         "exact": "1/5",
         "source": "twenty-four cells of the 5 × 5 grid; s(24) = 5 is believed optimal but not proved",
@@ -2209,7 +2225,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-24T18:44:03.161Z",
       "answer": {
         "squares": [
           {
@@ -2371,7 +2387,7 @@
       "status": "proven",
       "settled": true,
       "knownBest": {
-        "display": "0.04",
+        "display": "0.2",
         "kind": "proven",
         "exact": "1/5",
         "source": "the 5 × 5 grid; s(25) = 5 proved by Friedman",
@@ -2379,7 +2395,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-24T18:44:03.161Z",
       "answer": {
         "squares": [
           {
@@ -2544,17 +2560,21 @@
       "objective": "maximize",
       "scoreStored": "31646327699329928",
       "scoreDisplay": "0.177894147",
-      "status": "matched",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "0.031646327699329928",
+        "display": "0.177894149",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "0.177894147",
+        "publishedDisplay": "(7 + 3√2)/2",
+        "publishedMetric": "container side s for unit squares",
         "source": "Ellsworth's high-precision SVG of Friedman's 1997 construction, s(26) = (7 + 3 sqrt(2))/2; the site exhibits the same construction on its grid",
         "url": "https://kingbird.myphotos.cc/packing/square-26b.svg"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-24T18:44:03.161Z",
       "answer": {
         "squares": [
           {
@@ -2725,18 +2745,22 @@
       "objective": "maximize",
       "scoreStored": "30702093896065928",
       "scoreDisplay": "0.175220129",
-      "status": "matched",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "0.030702093896065928",
+        "display": "0.175220131",
         "kind": "best",
         "exact": "(10 − √2)/49",
+        "precision": "rounded",
+        "certificateDisplay": "0.175220129",
+        "publishedDisplay": "5 + √2/2",
+        "publishedMetric": "container side s for unit squares",
         "source": "Ellsworth's high-precision SVG of Göbel's 1979 construction, s(27) = 5 + sqrt(2)/2; the site exhibits the same construction on its grid",
         "url": "https://kingbird.myphotos.cc/packing/square-27.svg"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-24T18:44:03.161Z",
       "answer": {
         "squares": [
           {
@@ -2913,17 +2937,21 @@
       "objective": "maximize",
       "scoreStored": "29477519517265000",
       "scoreDisplay": "0.171690184",
-      "status": "matched",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "0.029477519517265",
+        "display": "0.171690189",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "0.171690184",
+        "publishedDisplay": "5.824444617",
+        "publishedMetric": "container side s for unit squares",
         "source": "Ellsworth's high-precision SVG; David Ellsworth found s(28) about 5.824444617 in December 2025. The site exhibits the same construction on its grid",
         "url": "https://kingbird.myphotos.cc/packing/square-28.svg"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-24T18:44:03.161Z",
       "answer": {
         "squares": [
           {
@@ -3106,17 +3134,21 @@
       "objective": "maximize",
       "scoreStored": "28400670151079552",
       "scoreDisplay": "0.168524983",
-      "status": "matched",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "0.028400670151079552",
+        "display": "0.16852512",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "0.168524983",
+        "publishedDisplay": "5.933833463",
+        "publishedMetric": "container side s for unit squares",
         "source": "Ellsworth's high-precision SVG; Thomas Schadt found and David Ellsworth optimized the December 2025 construction to s(29) about 5.933833463. The site exhibits the same construction on its grid",
         "url": "https://kingbird.myphotos.cc/packing/square-29.svg"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-24T18:44:03.161Z",
       "answer": {
         "squares": [
           {
@@ -3308,7 +3340,7 @@
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "0.027777777555555556",
+        "display": "0.166666666",
         "kind": "best",
         "exact": "1/6",
         "source": "thirty cells of the 6 × 6 grid; s(30) = 6 is believed optimal but not proved",
@@ -3316,7 +3348,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-24T18:44:03.161Z",
       "answer": {
         "squares": [
           {

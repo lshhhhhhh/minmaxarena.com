@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/heilbronn-triangle",
-  "generatedAt": "2026-09-01T10:14:03.278Z",
+  "generatedAt": "2026-09-02T09:43:39.114Z",
   "instances": [
     {
       "instanceId": "p03-n5-v1",
@@ -20,8 +20,8 @@
       },
       "objective": "maximize",
       "scoreStored": "384900179411411062",
-      "scoreDisplay": "0.192450089",
-      "status": "proven",
+      "scoreDisplay": "0.192450089705705531",
+      "status": "open",
       "settled": true,
       "knownBest": {
         "display": "0.192450089",
@@ -32,7 +32,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-21T07:56:31.413Z",
       "answer": {
         "points": [
           [
@@ -66,7 +66,7 @@
       },
       "objective": "maximize",
       "scoreStored": "250000000000000000",
-      "scoreDisplay": "0.125000000",
+      "scoreDisplay": "0.125",
       "status": "proven",
       "settled": true,
       "knownBest": {
@@ -78,7 +78,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-20T20:48:50.809Z",
       "answer": {
         "points": [
           [
@@ -116,8 +116,8 @@
       },
       "objective": "maximize",
       "scoreStored": "167718017694793674",
-      "scoreDisplay": "0.083859008",
-      "status": "proven",
+      "scoreDisplay": "0.083859008847396837",
+      "status": "open",
       "settled": true,
       "knownBest": {
         "display": "0.083859008",
@@ -127,7 +127,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-21T07:56:31.413Z",
       "answer": {
         "points": [
           [
@@ -181,7 +181,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-21T07:56:31.413Z",
       "answer": {
         "points": [
           [
@@ -227,8 +227,8 @@
       },
       "objective": "maximize",
       "scoreStored": "109751998063487208",
-      "scoreDisplay": "0.054875999",
-      "status": "proven",
+      "scoreDisplay": "0.054875999031743604",
+      "status": "open",
       "settled": true,
       "knownBest": {
         "display": "0.054875999",
@@ -239,7 +239,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-21T07:56:31.413Z",
       "answer": {
         "points": [
           [
@@ -289,11 +289,11 @@
       },
       "objective": "maximize",
       "scoreStored": "93074839164251568",
-      "scoreDisplay": "0.046537419",
+      "scoreDisplay": "0.046537419582125784",
       "status": "open",
       "settled": false,
       "knownBest": null,
-      "holder": null,
+      "holder": "小转风",
       "method": "ai",
       "recordedAt": "2026-08-25T16:07:56.119Z",
       "answer": {
@@ -349,7 +349,7 @@
       },
       "objective": "maximize",
       "scoreStored": "74074073703703704",
-      "scoreDisplay": "0.037037036",
+      "scoreDisplay": "0.037037036851851852",
       "status": "open",
       "settled": false,
       "knownBest": null,
@@ -413,7 +413,7 @@
       },
       "objective": "maximize",
       "scoreStored": "65197717000000000",
-      "scoreDisplay": "0.032598858",
+      "scoreDisplay": "0.0325988585",
       "status": "open",
       "settled": false,
       "knownBest": null,
@@ -481,7 +481,7 @@
       },
       "objective": "maximize",
       "scoreStored": "54039832984082172",
-      "scoreDisplay": "0.027019916",
+      "scoreDisplay": "0.027019916492041086",
       "status": "open",
       "settled": false,
       "knownBest": null,
@@ -553,7 +553,7 @@
       },
       "objective": "maximize",
       "scoreStored": "48607958897648066",
-      "scoreDisplay": "0.024303979",
+      "scoreDisplay": "0.024303979448824033",
       "status": "open",
       "settled": false,
       "knownBest": null,
@@ -629,7 +629,7 @@
       },
       "objective": "maximize",
       "scoreStored": "42421081363590570",
-      "scoreDisplay": "0.021210540",
+      "scoreDisplay": "0.021210540681795285",
       "status": "open",
       "settled": false,
       "knownBest": null,
@@ -709,7 +709,7 @@
       },
       "objective": "maximize",
       "scoreStored": "41055718074291300",
-      "scoreDisplay": "0.020527859",
+      "scoreDisplay": "0.02052785903714565",
       "status": "open",
       "settled": false,
       "knownBest": null,

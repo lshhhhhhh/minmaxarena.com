@@ -4,13 +4,13 @@
   "title": "三角形容器内的 Heilbronn 问题",
   "titleEn": "Heilbronn's problem in a triangle",
   "objective": "maximize",
-  "scoreLabel": "最小三角形的二倍面积",
-  "scoreLabelEn": "minimum triangle area, doubled",
+  "scoreLabel": "最小三角形的面积",
+  "scoreLabelEn": "the smallest triangle's area",
   "verifierVersion": "1.0.0",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/heilbronn-in-triangle",
-  "generatedAt": "2026-09-01T10:14:05.333Z",
+  "generatedAt": "2026-09-02T09:43:40.557Z",
   "instances": [
     {
       "instanceId": "p29-n5-v1",
@@ -24,15 +24,15 @@
       "status": "proven",
       "settled": true,
       "knownBest": {
-        "display": "0.171572875",
+        "display": "0.0857864375",
         "kind": "proven",
         "exact": "3/2 − √2",
-        "source": "the area is 3/2 − √2, so twice it is 3 − 2√2; optimality proved by Yang, Zhang and Zeng (1994); the exact optimum is not writable on the nine-decimal coordinate grid, and the shown value is what the exhibited certificate reaches",
+        "source": "the optimal area is 3/2 − √2, proved by Yang, Zhang and Zeng (1994); the exact optimum is not writable on the nine-decimal coordinate grid, and the shown value is the area reached by the exhibited certificate",
         "url": "https://arxiv.org/abs/2607.15021"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-21T06:46:02.716Z",
       "answer": {
         "points": [
           [
@@ -70,15 +70,15 @@
       "status": "proven",
       "settled": true,
       "knownBest": {
-        "display": "0.125",
+        "display": "0.0625",
         "kind": "proven",
         "exact": "1/16",
-        "source": "the area is 1/16, so twice it is 1/8; optimality proved by Yang, Zhang and Zeng (1994)",
+        "source": "the optimal area is 1/16, proved by Yang, Zhang and Zeng (1994)",
         "url": "https://arxiv.org/abs/2607.15021"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-21T06:46:02.716Z",
       "answer": {
         "points": [
           [
@@ -116,19 +116,19 @@
       },
       "objective": "maximize",
       "scoreStored": "97222221944444445",
-      "scoreDisplay": "0.048611110972222222",
+      "scoreDisplay": "0.0486111109722222225",
       "status": "proven",
       "settled": true,
       "knownBest": {
-        "display": "0.097222221944444445",
+        "display": "0.0486111109722222225",
         "kind": "proven",
         "exact": "7/144",
-        "source": "the area is 7/144, so twice it is 7/72; optimality proved by Sudermann-Merx (2026); the exact optimum is not writable on the nine-decimal coordinate grid, and the shown value is what the exhibited certificate reaches",
+        "source": "the optimal area is 7/144, proved by Sudermann-Merx (2026); the exact optimum is not writable on the nine-decimal coordinate grid, and the shown value is the area reached by the exhibited certificate",
         "url": "https://arxiv.org/abs/2607.15021"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-21T06:46:02.716Z",
       "answer": {
         "points": [
           [
@@ -170,7 +170,7 @@
       },
       "objective": "maximize",
       "scoreStored": "67789076969642929",
-      "scoreDisplay": "0.033894538484821464",
+      "scoreDisplay": "0.0338945384848214645",
       "status": "open",
       "settled": false,
       "knownBest": null,
@@ -222,7 +222,7 @@
       },
       "objective": "maximize",
       "scoreStored": "51279411177065975",
-      "scoreDisplay": "0.025639705588532987",
+      "scoreDisplay": "0.0256397055885329875",
       "status": "open",
       "settled": false,
       "knownBest": null,
@@ -277,55 +277,55 @@
         "n": 10
       },
       "objective": "maximize",
-      "scoreStored": "40563012730521870",
-      "scoreDisplay": "0.020281506365260935",
+      "scoreStored": "43376735738949435",
+      "scoreDisplay": "0.0216883678694747175",
       "status": "open",
       "settled": false,
       "knownBest": null,
       "holder": "邱仲普",
       "method": "ai",
-      "recordedAt": "2026-09-01T07:15:00.923Z",
+      "recordedAt": "2026-09-01T14:29:16.534Z",
       "answer": {
         "points": [
           [
-            "0",
-            "0.437258716"
+            "0.282739216",
+            "0.076424828"
           ],
           [
-            "0",
-            "0.931542811"
+            "0.778997230",
+            "0.000000000"
           ],
           [
-            "0.144793354",
-            "0.481705096"
+            "0.850313210",
+            "0.076424822"
           ],
           [
-            "0.100480506",
-            "0.899518494"
+            "0.592077220",
+            "0.407922780"
           ],
           [
-            "0.082064168",
-            "0.157782812"
+            "0.077873795",
+            "0.592207065"
           ],
           [
-            "0.3900167",
-            "0"
+            "0.000000000",
+            "0.327110438"
           ],
           [
-            "0.380430816",
-            "0.18424258"
+            "0.067535406",
+            "0.000000000"
           ],
           [
-            "0.59253975",
-            "0.339003061"
+            "0.348845372",
+            "0.301462151"
           ],
           [
-            "0.817772758",
-            "0"
+            "0.000000000",
+            "1.000000000"
           ],
           [
-            "0.905171557",
-            "0.094827443"
+            "0.250479811",
+            "0.622775868"
           ]
         ]
       }

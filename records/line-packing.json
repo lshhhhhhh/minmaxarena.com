@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/line-packing",
-  "generatedAt": "2026-09-01T10:14:06.969Z",
+  "generatedAt": "2026-09-02T09:43:41.846Z",
   "instances": [
     {
       "instanceId": "p60-d3-n9-v1",
@@ -20,65 +20,73 @@
         "d": 3
       },
       "objective": "minimize",
-      "scoreStored": "448045915077975222",
+      "scoreStored": "448045914500149608",
       "scoreDisplay": "0.66936232",
       "status": "matched",
       "settled": false,
       "knownBest": {
         "display": "0.66936232",
         "kind": "best",
-        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (the value shown here is the verifier-exact result of the nine-decimal certificate)",
+        "range": {
+          "lower": "0.6693623192636406",
+          "upper": "0.6693623193383386"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "0.66936232",
+        "publishedDisplay": "0.5519540855",
+        "publishedMetric": "squared chordal distance D",
+        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (converted from the source-precision squared chordal distance D; the site's nine-place certificate is listed separately)",
         "url": "https://cohn.mit.edu/grassmannian/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "Stonebubu",
+      "method": "ai",
+      "recordedAt": "2026-09-01T15:59:49.547Z",
       "answer": {
         "vectors": [
           [
-            "0.832010492",
-            "-0.551989941",
-            "-0.055368273"
+            "-0.999500004",
+            "-0.153087924",
+            "-0.018279526"
           ],
           [
-            "0.955624386",
-            "0.206718473",
-            "0.209879742"
+            "-0.920358858",
+            "-0.763640117",
+            "-0.999499998"
           ],
           [
-            "-0.585860061",
-            "-0.773899614",
-            "0.240514817"
+            "0.057790300",
+            "-0.010022443",
+            "0.999500000"
           ],
           [
-            "-0.214256229",
-            "0.839622245",
-            "0.499127993"
+            "0.999499855",
+            "-0.619716401",
+            "-0.598261405"
           ],
           [
-            "0.629328461",
-            "-0.188426453",
-            "-0.75395037"
+            "-0.999499900",
+            "0.728906788",
+            "-0.470848591"
           ],
           [
-            "-0.209712305",
-            "0.927559873",
-            "-0.30927889"
+            "0.914530379",
+            "0.418933266",
+            "-0.999500006"
           ],
           [
-            "0.621140592",
-            "-0.346884582",
-            "0.702748498"
+            "-0.666637506",
+            "-0.999499930",
+            "0.117489369"
           ],
           [
-            "0.432456844",
-            "0.439585449",
-            "0.787239297"
+            "0.079359601",
+            "-0.999499920",
+            "-0.461535965"
           ],
           [
-            "-0.165718201",
-            "-0.47003516",
-            "0.866951225"
+            "0.037687796",
+            "-0.999499951",
+            "0.881927094"
           ]
         ]
       }
@@ -91,70 +99,78 @@
         "d": 3
       },
       "objective": "minimize",
-      "scoreStored": "470789007856171278",
+      "scoreStored": "470789007573819967",
       "scoreDisplay": "0.686140662",
       "status": "matched",
       "settled": false,
       "knownBest": {
         "display": "0.686140662",
         "kind": "best",
-        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (the value shown here is the verifier-exact result of the nine-decimal certificate)",
+        "range": {
+          "lower": "0.6861406616357902",
+          "upper": "0.6861406617086616"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "0.686140662",
+        "publishedDisplay": "0.5292109924",
+        "publishedMetric": "squared chordal distance D",
+        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (converted from the source-precision squared chordal distance D; the site's nine-place certificate is listed separately)",
         "url": "https://cohn.mit.edu/grassmannian/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "Stonebubu",
+      "method": "ai",
+      "recordedAt": "2026-09-02T09:33:35.770Z",
       "answer": {
         "vectors": [
           [
-            "1",
-            "0",
-            "0"
+            "-0.085771496",
+            "-0.999500001",
+            "-0.239687349"
           ],
           [
-            "0.610148608",
-            "0.792286991",
-            "0"
+            "0.999499993",
+            "-0.859605093",
+            "-0.363673120"
           ],
           [
-            "0.610148608",
-            "0.396143496",
-            "0.686140662"
+            "0.562408635",
+            "-0.999499997",
+            "0.585636313"
           ],
           [
-            "0.610148608",
-            "-0.396143496",
-            "0.686140662"
+            "-0.466525274",
+            "-0.999499876",
+            "0.783135188"
           ],
           [
-            "0.610148608",
-            "-0.792286991",
-            "0"
+            "-0.999500589",
+            "-0.665213503",
+            "-0.021195663"
           ],
           [
-            "0.610148608",
-            "-0.396143496",
-            "-0.686140662"
+            "-0.728575378",
+            "-0.550102516",
+            "-0.999500981"
           ],
           [
-            "0.610148608",
-            "0.396143496",
-            "-0.686140662"
+            "0.282051513",
+            "-0.514155113",
+            "-0.999500889"
           ],
           [
-            "0",
-            "0.866025404",
-            "0.5"
+            "0.999497008",
+            "-0.174996488",
+            "0.372070687"
           ],
           [
-            "0",
-            "-0.866025404",
-            "0.5"
+            "-0.999500039",
+            "-0.102470510",
+            "0.784972120"
           ],
           [
-            "0",
-            "0",
-            "-1"
+            "-0.146706170",
+            "0.252276852",
+            "-0.999499998"
           ]
         ]
       }
@@ -167,75 +183,83 @@
         "d": 3
       },
       "objective": "minimize",
-      "scoreStored": "510416651738988439",
+      "scoreStored": "510416651107193332",
       "scoreDisplay": "0.714434498",
       "status": "matched",
       "settled": false,
       "knownBest": {
         "display": "0.714434498",
         "kind": "best",
-        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (the value shown here is the verifier-exact result of the nine-decimal certificate)",
+        "range": {
+          "lower": "0.7144344973823703",
+          "upper": "0.7144344974523557"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "0.714434498",
+        "publishedDisplay": "0.4895833489",
+        "publishedMetric": "squared chordal distance D",
+        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (converted from the source-precision squared chordal distance D; the site's nine-place certificate is listed separately)",
         "url": "https://cohn.mit.edu/grassmannian/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "Stonebubu",
+      "method": "ai",
+      "recordedAt": "2026-09-01T17:43:02.964Z",
       "answer": {
         "vectors": [
           [
-            "0.495152534",
-            "0.26556948",
-            "0.827222352"
+            "0.999501198",
+            "0.346799847",
+            "-0.009578169"
           ],
           [
-            "0.511864031",
-            "-0.481096624",
-            "0.711717115"
+            "0.926649404",
+            "0.625530845",
+            "0.999499996"
           ],
           [
-            "-0.252147239",
-            "0.349340711",
-            "0.902431625"
+            "0.999499104",
+            "-0.470785367",
+            "-0.059053043"
           ],
           [
-            "-0.3616785",
-            "0.861132022",
-            "0.357267831"
+            "0.743204767",
+            "-0.676917898",
+            "-0.999500256"
           ],
           [
-            "0.219270405",
-            "0.405526167",
-            "-0.88739451"
+            "-0.999499789",
+            "0.501345308",
+            "-0.983210873"
           ],
           [
-            "-0.835112516",
-            "0.022530799",
-            "0.549617548"
+            "0.402940956",
+            "-0.999500000",
+            "0.174755259"
           ],
           [
-            "0.393928988",
-            "0.847489139",
-            "0.355783799"
+            "0.931238912",
+            "0.377674024",
+            "-0.999499998"
           ],
           [
-            "-0.65449621",
-            "-0.678671009",
-            "0.333227208"
+            "-0.011596316",
+            "-0.857806299",
+            "0.999499701"
           ],
           [
-            "0.053396011",
-            "-0.94322806",
-            "0.327825705"
+            "0.037176803",
+            "0.064571669",
+            "0.999500003"
           ],
           [
-            "-0.874517704",
-            "0.482543811",
-            "-0.048685272"
+            "-0.070370573",
+            "-0.999499901",
+            "-0.518644374"
           ],
           [
-            "-0.943057456",
-            "-0.25061734",
-            "-0.218708901"
+            "-0.517862977",
+            "-0.999500001",
+            "0.215235362"
           ]
         ]
       }
@@ -248,80 +272,88 @@
         "d": 3
       },
       "objective": "minimize",
-      "scoreStored": "554311279268943200",
+      "scoreStored": "554311278558242434",
       "scoreDisplay": "0.744520839",
       "status": "matched",
       "settled": false,
       "knownBest": {
         "display": "0.744520839",
         "kind": "best",
-        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (the value shown here is the verifier-exact result of the nine-decimal certificate)",
+        "range": {
+          "lower": "0.744520838224156",
+          "upper": "0.7445208382913133"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "0.744520839",
+        "publishedDisplay": "0.4456887214",
+        "publishedMetric": "squared chordal distance D",
+        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (converted from the source-precision squared chordal distance D; the site's nine-place certificate is listed separately)",
         "url": "https://cohn.mit.edu/grassmannian/"
       },
-      "holder": "Tmrg",
+      "holder": "Stonebubu",
       "method": "ai",
-      "recordedAt": "2026-08-28T08:30:45.620Z",
+      "recordedAt": "2026-09-02T09:31:28.315Z",
       "answer": {
         "vectors": [
           [
-            "1.000000000",
-            "0.000000000",
-            "0.000000000"
+            "0.999500042",
+            "-0.208586937",
+            "-0.074816240"
           ],
           [
-            "0.489041676",
-            "-0.430095148",
-            "0.758852030"
+            "0.999499924",
+            "0.217690872",
+            "0.610322013"
           ],
           [
-            "0.127739581",
-            "0.145246881",
-            "0.981114643"
+            "0.250621721",
+            "0.757568244",
+            "-0.999499852"
           ],
           [
-            "0.744520838",
-            "0.224685038",
-            "0.628653605"
+            "-0.100341568",
+            "-0.999499849",
+            "-0.592131216"
           ],
           [
-            "-0.127739581",
-            "0.734218343",
-            "0.666787841"
+            "0.934274954",
+            "-0.999500303",
+            "-0.780788389"
           ],
           [
-            "-0.127739581",
-            "0.991807743",
-            "0.000000000"
+            "0.608499059",
+            "-0.465541346",
+            "0.999499980"
           ],
           [
-            "0.489041676",
-            "0.813656500",
-            "0.314326802"
+            "0.460552463",
+            "-0.083798667",
+            "-0.999499626"
           ],
           [
-            "-0.127739581",
-            "-0.767122705",
-            "0.628653605"
+            "-0.894295301",
+            "-0.999499106",
+            "-0.138096641"
           ],
           [
-            "-0.489041676",
-            "-0.191780676",
-            "0.850916219"
+            "0.820023196",
+            "-0.999499782",
+            "0.275203379"
           ],
           [
-            "-0.744520838",
-            "-0.588971462",
-            "0.314326802"
+            "-0.059998250",
+            "-0.999501318",
+            "0.200186522"
           ],
           [
-            "-0.744520838",
-            "0.397190785",
-            "0.536589416"
+            "-0.285177070",
+            "-0.325193663",
+            "-0.999500197"
           ],
           [
-            "0.744520838",
-            "-0.654780186",
-            "0.130198425"
+            "-0.999499780",
+            "-0.443032807",
+            "0.603110548"
           ]
         ]
       }
@@ -334,85 +366,93 @@
         "d": 3
       },
       "objective": "minimize",
-      "scoreStored": "590035029586407345",
+      "scoreStored": "590035028922125344",
       "scoreDisplay": "0.768137377",
       "status": "matched",
       "settled": false,
       "knownBest": {
         "display": "0.768137377",
         "kind": "best",
-        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (the value shown here is the verifier-exact result of the nine-decimal certificate)",
+        "range": {
+          "lower": "0.7681373762876014",
+          "upper": "0.7681373763526939"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "0.768137377",
+        "publishedDisplay": "0.4099649711",
+        "publishedMetric": "squared chordal distance D",
+        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (converted from the source-precision squared chordal distance D; the site's nine-place certificate is listed separately)",
         "url": "https://cohn.mit.edu/grassmannian/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "Stonebubu",
+      "method": "ai",
+      "recordedAt": "2026-09-02T09:30:25.148Z",
       "answer": {
         "vectors": [
           [
-            "-0.466721583",
-            "0.878817841",
-            "-0.099248007"
+            "0.999500020",
+            "-0.035469073",
+            "0.731701722"
           ],
           [
-            "-0.800417411",
-            "0.48824799",
-            "0.347772724"
+            "0.999499920",
+            "-0.546735304",
+            "0.095470086"
           ],
           [
-            "0.286206223",
-            "-0.516468153",
-            "0.807060497"
+            "-0.816572913",
+            "-0.999500124",
+            "-0.496418419"
           ],
           [
-            "-0.131001247",
-            "-0.895623113",
-            "0.425085771"
+            "-0.373436490",
+            "-0.415265911",
+            "-0.999499996"
           ],
           [
-            "-0.995088965",
-            "-0.088968323",
-            "0.04338882"
+            "0.999500483",
+            "-0.180598880",
+            "-0.608266254"
           ],
           [
-            "0.720985686",
-            "0.664922056",
-            "0.195085366"
+            "-0.426104808",
+            "-0.179357492",
+            "0.999499996"
           ],
           [
-            "0.824652173",
-            "-0.389814101",
-            "0.409870419"
+            "-0.999500004",
+            "-0.287938838",
+            "-0.001798272"
           ],
           [
-            "0.682633472",
-            "0.209649355",
-            "0.700041921"
+            "-0.981996249",
+            "-0.999499958",
+            "0.745104051"
           ],
           [
-            "0.110568163",
-            "0.961283192",
-            "0.252407026"
+            "0.304693684",
+            "-0.347527599",
+            "0.999499855"
           ],
           [
-            "-0.70390113",
-            "-0.530542648",
-            "0.472279257"
+            "0.421166370",
+            "-0.637330076",
+            "-0.999499979"
           ],
           [
-            "0.254904818",
-            "-0.637484413",
-            "-0.727074382"
+            "-0.495420654",
+            "0.999500081",
+            "-0.556447904"
           ],
           [
-            "0.578524369",
-            "-0.044725408",
-            "-0.814437961"
+            "-0.478862536",
+            "0.999499133",
+            "0.261897094"
           ],
           [
-            "-0.076278985",
-            "-0.104501045",
-            "-0.991595204"
+            "0.166700311",
+            "0.999500001",
+            "-0.106480110"
           ]
         ]
       }
@@ -425,90 +465,98 @@
         "d": 3
       },
       "objective": "minimize",
-      "scoreStored": "609371008360003235",
-      "scoreDisplay": "0.780622194",
+      "scoreStored": "609371007888987489",
+      "scoreDisplay": "0.780622193",
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "0.780622194",
+        "display": "0.780622193",
         "kind": "best",
-        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (the value shown here is the verifier-exact result of the nine-decimal certificate)",
+        "range": {
+          "lower": "0.780622192773175",
+          "upper": "0.7806221928372264"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "0.780622194",
+        "publishedDisplay": "0.3906289921",
+        "publishedMetric": "squared chordal distance D",
+        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (converted from the source-precision squared chordal distance D; the site's nine-place certificate is listed separately)",
         "url": "https://cohn.mit.edu/grassmannian/"
       },
-      "holder": "Tmrg",
+      "holder": "Stonebubu",
       "method": "ai",
-      "recordedAt": "2026-08-28T08:31:21.991Z",
+      "recordedAt": "2026-09-02T09:32:31.918Z",
       "answer": {
         "vectors": [
           [
-            "1.000000000",
-            "0.000000000",
-            "0.000000000"
+            "-0.724005839",
+            "-0.357651268",
+            "-0.999499675"
           ],
           [
-            "0.439104761",
-            "0.898431350",
-            "0.002849302"
+            "-0.069752832",
+            "-0.999499479",
+            "-0.165044657"
           ],
           [
-            "0.434125035",
-            "0.193735993",
-            "0.879773732"
+            "-0.606890410",
+            "0.330620328",
+            "0.999500270"
           ],
           [
-            "0.218767444",
-            "0.760009806",
-            "0.611985212"
+            "-0.674595818",
+            "0.999500114",
+            "0.497920611"
           ],
           [
-            "-0.277937732",
-            "-0.498713671",
-            "0.820996524"
+            "0.999499980",
+            "0.819564672",
+            "-0.519514236"
           ],
           [
-            "0.305030025",
-            "-0.731616869",
-            "0.609666664"
+            "0.232276163",
+            "0.857513738",
+            "-0.999500028"
           ],
           [
-            "0.780622193",
-            "0.483922535",
-            "0.395535046"
+            "-0.036747071",
+            "-0.893201852",
+            "-0.999499706"
           ],
           [
-            "-0.439082674",
-            "0.701565965",
-            "0.561258945"
+            "-0.999499973",
+            "0.632710237",
+            "-0.177625241"
           ],
           [
-            "-0.780622193",
-            "-0.488582492",
-            "0.389764212"
+            "0.935595615",
+            "0.999500240",
+            "0.394471894"
           ],
           [
-            "-0.221064151",
-            "0.145468761",
-            "0.964349252"
+            "-0.999485108",
+            "0.043192523",
+            "0.402114392"
           ],
           [
-            "0.780622193",
-            "-0.625002231",
-            "0.001097140"
+            "0.765308757",
+            "-0.521239109",
+            "0.999492007"
           ],
           [
-            "-0.218743483",
-            "0.975782398",
-            "0.000000000"
+            "0.359452958",
+            "-0.999499895",
+            "0.418302122"
           ],
           [
-            "0.780622193",
-            "-0.273013985",
-            "0.562220914"
+            "-0.042402721",
+            "0.067065462",
+            "-0.999499783"
           ],
           [
-            "-0.780622193",
-            "0.136118686",
-            "0.610000570"
+            "0.999499797",
+            "0.115719447",
+            "0.283725409"
           ]
         ]
       }
@@ -521,95 +569,103 @@
         "d": 3
       },
       "objective": "minimize",
-      "scoreStored": "618674386547037531",
+      "scoreStored": "618674385867909920",
       "scoreDisplay": "0.786558572",
       "status": "matched",
       "settled": false,
       "knownBest": {
         "display": "0.786558572",
         "kind": "best",
-        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (the value shown here is the verifier-exact result of the nine-decimal certificate)",
+        "range": {
+          "lower": "0.786558571150299",
+          "upper": "0.7865585712138671"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "0.786558572",
+        "publishedDisplay": "0.3813256141",
+        "publishedMetric": "squared chordal distance D",
+        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (converted from the source-precision squared chordal distance D; the site's nine-place certificate is listed separately)",
         "url": "https://cohn.mit.edu/grassmannian/"
       },
-      "holder": "Tmrg",
+      "holder": "Stonebubu",
       "method": "ai",
-      "recordedAt": "2026-08-28T08:31:43.267Z",
+      "recordedAt": "2026-09-02T09:28:18.938Z",
       "answer": {
         "vectors": [
           [
-            "1.000000000",
-            "0.000000000",
-            "0.000000000"
+            "0.055238573",
+            "0.999500091",
+            "0.257832674"
           ],
           [
-            "-0.752121041",
-            "-0.331093811",
-            "0.569816487"
+            "-0.467710639",
+            "-0.757446335",
+            "-0.999500103"
           ],
           [
-            "-0.330749315",
-            "-0.862979728",
-            "0.381930464"
+            "-0.423813212",
+            "0.926729665",
+            "0.999500000"
           ],
           [
-            "0.786558571",
-            "-0.271065633",
-            "0.554841452"
+            "0.999499187",
+            "0.395807445",
+            "-0.323996840"
           ],
           [
-            "0.694405488",
-            "0.372923626",
-            "0.615409609"
+            "-0.999499012",
+            "0.732165507",
+            "-0.722366225"
           ],
           [
-            "0.786558571",
-            "0.617294769",
-            "0.016516120"
+            "-0.479182610",
+            "0.071022215",
+            "-0.999498152"
           ],
           [
-            "0.330749315",
-            "-0.737978032",
-            "0.588211964"
+            "-0.905531062",
+            "-0.999499510",
+            "-0.266969401"
           ],
           [
-            "0.752121041",
-            "-0.658352500",
-            "0.029764508"
+            "-0.009916776",
+            "-0.646966947",
+            "0.999500401"
           ],
           [
-            "0.316455991",
-            "0.860278756",
-            "0.399719988"
+            "0.209328981",
+            "-0.066027006",
+            "-0.999499700"
           ],
           [
-            "-0.185681291",
-            "0.982610023",
-            "0.000000000"
+            "-0.999500238",
+            "0.243307890",
+            "0.848390283"
           ],
           [
-            "-0.295079142",
-            "0.744718533",
-            "0.598600540"
+            "0.539073861",
+            "0.999500049",
+            "-0.516702293"
           ],
           [
-            "-0.786558571",
-            "0.320026865",
-            "0.528117809"
+            "-0.794245422",
+            "0.999499849",
+            "0.185609373"
           ],
           [
-            "-0.295079142",
-            "0.185943258",
-            "0.937205103"
+            "0.999499900",
+            "-0.246597334",
+            "-0.024779235"
           ],
           [
-            "-0.185681291",
-            "-0.454787301",
-            "0.871028684"
+            "-0.999500881",
+            "-0.199487586",
+            "-0.545377691"
           ],
           [
-            "0.316455991",
-            "-0.043838631",
-            "0.947593679"
+            "-0.227191519",
+            "0.999501020",
+            "-0.379370270"
           ]
         ]
       }
@@ -622,100 +678,108 @@
         "d": 3
       },
       "objective": "minimize",
-      "scoreStored": "631475730839539490",
+      "scoreStored": "631475730370808565",
       "scoreDisplay": "0.794654473",
       "status": "matched",
       "settled": false,
       "knownBest": {
         "display": "0.794654473",
         "kind": "best",
-        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (the value shown here is the verifier-exact result of the nine-decimal certificate)",
+        "range": {
+          "lower": "0.7946544723022705",
+          "upper": "0.7946544723651909"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "0.794654473",
+        "publishedDisplay": "0.3685242696",
+        "publishedMetric": "squared chordal distance D",
+        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (converted from the source-precision squared chordal distance D; the site's nine-place certificate is listed separately)",
         "url": "https://cohn.mit.edu/grassmannian/"
       },
-      "holder": "Tmrg",
+      "holder": "Stonebubu",
       "method": "ai",
-      "recordedAt": "2026-08-28T08:32:00.909Z",
+      "recordedAt": "2026-09-02T09:27:16.090Z",
       "answer": {
         "vectors": [
           [
-            "1.000000000",
-            "0.000000000",
-            "0.000000000"
+            "-0.916574356",
+            "-0.999500003",
+            "-0.615969685"
           ],
           [
-            "0.187592474",
-            "0.794654472",
-            "0.577350269"
+            "0.512678360",
+            "-0.456481325",
+            "-0.999500027"
           ],
           [
-            "0.447213595",
-            "-0.723606798",
-            "0.525731112"
+            "0.364872527",
+            "-0.999499952",
+            "0.205427542"
           ],
           [
-            "0.187592474",
-            "-0.303530999",
-            "0.934172359"
+            "-0.303502029",
+            "-0.999500050",
+            "0.062661471"
           ],
           [
-            "-0.447213595",
-            "-0.276393202",
-            "0.850650808"
+            "0.716059544",
+            "0.314076617",
+            "-0.999501076"
           ],
           [
-            "0.447213595",
-            "0.276393202",
-            "0.850650808"
+            "-0.619038182",
+            "0.787989462",
+            "-0.999499205"
           ],
           [
-            "-0.794654472",
-            "-0.491123473",
-            "0.356822090"
+            "0.999500359",
+            "0.763029476",
+            "-0.365317644"
           ],
           [
-            "0.447213595",
-            "0.894427191",
-            "0.000000000"
+            "0.244985663",
+            "0.530323990",
+            "0.999500000"
           ],
           [
-            "-0.187592474",
-            "-0.794654472",
-            "0.577350269"
+            "-0.999498900",
+            "0.513398738",
+            "-0.278980865"
           ],
           [
-            "0.794654472",
-            "0.491123473",
-            "0.356822090"
+            "0.035928541",
+            "-0.146783964",
+            "0.999499999"
           ],
           [
-            "-0.447213595",
-            "0.723606798",
-            "0.525731112"
+            "-0.236846871",
+            "-0.999501980",
+            "0.882648977"
           ],
           [
-            "-0.794654472",
-            "0.187592474",
-            "0.577350269"
+            "-0.999500449",
+            "0.115685195",
+            "0.420558819"
           ],
           [
-            "0.794654472",
-            "-0.187592474",
-            "0.577350269"
+            "-0.999500010",
+            "-0.193109417",
+            "-0.188863263"
           ],
           [
-            "-0.187592474",
-            "0.982246946",
-            "0.000000000"
+            "-0.920999776",
+            "-0.050115129",
+            "-0.999499961"
           ],
           [
-            "-0.794654472",
-            "0.607061998",
-            "0.000000000"
+            "0.073142948",
+            "-0.999499900",
+            "-0.531904836"
           ],
           [
-            "-0.187592474",
-            "0.303530999",
-            "0.934172359"
+            "0.953558499",
+            "-0.999499851",
+            "-0.457123909"
           ]
         ]
       }
@@ -728,74 +792,82 @@
         "d": 4
       },
       "objective": "minimize",
-      "scoreStored": "188580485078128030",
-      "scoreDisplay": "0.434258547",
+      "scoreStored": "188580484732806887",
+      "scoreDisplay": "0.434258546",
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "0.434258547",
+        "display": "0.434258546",
         "kind": "best",
-        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (the value shown here is the verifier-exact result of the nine-decimal certificate)",
+        "range": {
+          "lower": "0.4342585458571886",
+          "upper": "0.4342585459723274"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "0.434258547",
+        "publishedDisplay": "0.8114195153",
+        "publishedMetric": "squared chordal distance D",
+        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (converted from the source-precision squared chordal distance D; the site's nine-place certificate is listed separately)",
         "url": "https://cohn.mit.edu/grassmannian/"
       },
-      "holder": "Tmrg",
+      "holder": "Stonebubu",
       "method": "ai",
-      "recordedAt": "2026-08-28T14:41:53.098Z",
+      "recordedAt": "2026-09-02T09:29:21.898Z",
       "answer": {
         "vectors": [
           [
-            "1.000000000",
-            "0.000000000",
-            "0.000000000",
-            "0.000000000"
+            "0.470484639",
+            "0.999500201",
+            "-0.425784020",
+            "0.013337983"
           ],
           [
-            "0.434258546",
-            "0.900788274",
-            "0.000000000",
-            "0.000000000"
+            "0.999500701",
+            "0.488096737",
+            "0.490405975",
+            "-0.767114092"
           ],
           [
-            "-0.434258546",
-            "-0.160695751",
-            "0.886338756",
-            "0.000000000"
+            "-0.999499654",
+            "0.108665225",
+            "0.536899376",
+            "-0.170120419"
           ],
           [
-            "-0.434258546",
-            "-0.272736744",
-            "0.227735077",
-            "0.827750517"
+            "-0.999499929",
+            "-0.549557968",
+            "-0.592108358",
+            "-0.799069457"
           ],
           [
-            "0.434258546",
-            "-0.691437764",
-            "0.577350269",
-            "0.000000000"
+            "-0.906197567",
+            "0.999500005",
+            "-0.406523003",
+            "0.383684667"
           ],
           [
-            "0.131482908",
-            "0.418701020",
-            "-0.349615192",
-            "0.827750517"
+            "0.458311962",
+            "-0.260788934",
+            "-0.605878521",
+            "-0.999500108"
           ],
           [
-            "0.434258546",
-            "-0.579396772",
-            "-0.268361782",
-            "0.635374575"
+            "-0.118277398",
+            "0.155353248",
+            "-0.999499900",
+            "-0.057134242"
           ],
           [
-            "0.434258546",
-            "-0.691437764",
-            "-0.402542673",
-            "-0.413875258"
+            "0.157222051",
+            "0.287252963",
+            "-0.558926500",
+            "0.999500019"
           ],
           [
-            "0.434258546",
-            "0.272736744",
-            "0.752157865",
-            "-0.413875258"
+            "-0.114103072",
+            "0.999499051",
+            "0.721572342",
+            "-0.060000118"
           ]
         ]
       }
@@ -808,80 +880,88 @@
         "d": 4
       },
       "objective": "minimize",
-      "scoreStored": "188580485078128030",
-      "scoreDisplay": "0.434258547",
-      "status": "matched",
+      "scoreStored": "188580484764637815",
+      "scoreDisplay": "0.434258546",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "0.434258547",
+        "display": "0.434258546",
         "kind": "best",
-        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (the value shown here is the verifier-exact result of the nine-decimal certificate)",
+        "range": {
+          "lower": "0.4342585458571886",
+          "upper": "0.4342585459723274"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "0.434258547",
+        "publishedDisplay": "0.8114195153",
+        "publishedMetric": "squared chordal distance D",
+        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (converted from the source-precision squared chordal distance D; the site's nine-place certificate is listed separately)",
         "url": "https://cohn.mit.edu/grassmannian/"
       },
-      "holder": "Tmrg",
+      "holder": "邱仲普",
       "method": "ai",
-      "recordedAt": "2026-08-28T14:42:32.184Z",
+      "recordedAt": "2026-09-02T06:30:28.744Z",
       "answer": {
         "vectors": [
           [
-            "1.000000000",
-            "0.000000000",
-            "0.000000000",
-            "0.000000000"
+            "-0.230849403",
+            "0.999927535",
+            "-0.676724138",
+            "-0.626480449"
           ],
           [
-            "0.434258546",
-            "0.900788274",
-            "0.000000000",
-            "0.000000000"
+            "0.995434784",
+            "0.991882816",
+            "-0.333878555",
+            "0.184432236"
           ],
           [
-            "-0.434258546",
-            "-0.160695751",
-            "0.886338756",
-            "0.000000000"
+            "0.517743807",
+            "-0.838873288",
+            "0.968697850",
+            "-0.964356459"
           ],
           [
-            "-0.434258546",
-            "-0.272736744",
-            "0.227735077",
-            "0.827750517"
+            "0.211525193",
+            "-0.997463769",
+            "-0.362811675",
+            "-0.221569750"
           ],
           [
-            "0.434258546",
-            "-0.691437764",
-            "0.577350269",
-            "0.000000000"
+            "-0.453352922",
+            "-0.047499793",
+            "0.036592724",
+            "-0.999347827"
           ],
           [
-            "0.131482908",
-            "0.418701020",
-            "-0.349615192",
-            "0.827750517"
+            "0.470464357",
+            "-0.145395570",
+            "-0.918161011",
+            "0.274393605"
           ],
           [
-            "0.434258546",
-            "-0.579396772",
-            "-0.268361782",
-            "0.635374575"
+            "-0.594246080",
+            "-0.284703899",
+            "-0.998550725",
+            "-0.348548278"
           ],
           [
-            "0.434258546",
-            "-0.691437764",
-            "-0.402542673",
-            "-0.413875258"
+            "-0.998115943",
+            "0.326972208",
+            "-0.046565668",
+            "-0.067571530"
           ],
           [
-            "0.434258546",
-            "0.272736744",
-            "0.752157865",
-            "-0.413875258"
+            "0.530385843",
+            "0.848354553",
+            "0.626878811",
+            "-0.995507245"
           ],
           [
-            "0.434258546",
-            "0.160695751",
-            "0.617976974",
-            "0.635374575"
+            "-0.707521275",
+            "0.062015465",
+            "0.627492762",
+            "0.998405797"
           ]
         ]
       }
@@ -896,12 +976,20 @@
       "objective": "minimize",
       "scoreStored": "250000000000000000",
       "scoreDisplay": "0.5",
-      "status": "ahead",
+      "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "0.500000001",
+        "display": "0.5",
         "kind": "best",
-        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (the value shown here is the verifier-exact result of the nine-decimal certificate)",
+        "range": {
+          "lower": "0.5",
+          "upper": "0.50000000015"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "0.500000001",
+        "publishedDisplay": "0.7499999999",
+        "publishedMetric": "squared chordal distance D",
+        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (converted from the source-precision squared chordal distance D; the site's nine-place certificate is listed separately)",
         "url": "https://cohn.mit.edu/grassmannian/"
       },
       "holder": "Tmrg",
@@ -988,12 +1076,20 @@
       "objective": "minimize",
       "scoreStored": "250000000000000000",
       "scoreDisplay": "0.5",
-      "status": "ahead",
+      "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "0.500000001",
+        "display": "0.5",
         "kind": "best",
-        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (the value shown here is the verifier-exact result of the nine-decimal certificate)",
+        "range": {
+          "lower": "0.5",
+          "upper": "0.50000000015"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "0.500000001",
+        "publishedDisplay": "0.7499999999",
+        "publishedMetric": "squared chordal distance D",
+        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (converted from the source-precision squared chordal distance D; the site's nine-place certificate is listed separately)",
         "url": "https://cohn.mit.edu/grassmannian/"
       },
       "holder": "Tmrg",
@@ -1084,98 +1180,106 @@
         "d": 4
       },
       "objective": "minimize",
-      "scoreStored": "321392925151880849",
-      "scoreDisplay": "0.566915272",
+      "scoreStored": "321392924191271868",
+      "scoreDisplay": "0.566915271",
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "0.566915272",
+        "display": "0.566915271",
         "kind": "best",
-        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (the value shown here is the verifier-exact result of the nine-decimal certificate)",
+        "range": {
+          "lower": "0.5669152706974826",
+          "upper": "0.5669152707856793"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "0.566915272",
+        "publishedDisplay": "0.6786070758",
+        "publishedMetric": "squared chordal distance D",
+        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (converted from the source-precision squared chordal distance D; the site's nine-place certificate is listed separately)",
         "url": "https://cohn.mit.edu/grassmannian/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "Stonebubu",
+      "method": "ai",
+      "recordedAt": "2026-09-01T16:02:16.319Z",
       "answer": {
         "vectors": [
           [
-            "-0.18894951",
-            "0.034487463",
-            "0.693111755",
-            "-0.694769597"
+            "0.999499810",
+            "0.313183767",
+            "0.061259006",
+            "-0.903627783"
           ],
           [
-            "0.27170969",
-            "-0.251423835",
-            "0.928644256",
-            "0.024077905"
+            "0.202216680",
+            "-0.333005217",
+            "-0.598567921",
+            "-0.999500293"
           ],
           [
-            "-0.12353887",
-            "-0.204907592",
-            "0.570779248",
-            "0.785469335"
+            "0.075053267",
+            "-0.999500645",
+            "-0.976675987",
+            "-0.042472659"
           ],
           [
-            "0.364971949",
-            "0.613465687",
-            "0.220652364",
-            "-0.664656198"
+            "0.177476398",
+            "0.999500199",
+            "-0.094054775",
+            "-0.422278004"
           ],
           [
-            "0.274553655",
-            "-0.688730548",
-            "0.358385382",
-            "-0.567301014"
+            "0.021216626",
+            "-0.213887317",
+            "0.480724725",
+            "-0.999501049"
           ],
           [
-            "0.434984221",
-            "-0.333506494",
-            "-0.824378383",
-            "-0.141288458"
+            "-0.999498902",
+            "0.131784127",
+            "0.873810149",
+            "0.167458803"
           ],
           [
-            "-0.868901112",
-            "0.257706604",
-            "0.189679655",
-            "-0.377650356"
+            "0.999499022",
+            "0.094915099",
+            "0.169950708",
+            "0.240931652"
           ],
           [
-            "-0.314979654",
-            "0.836684829",
-            "-0.282779735",
-            "-0.347536957"
+            "0.511488844",
+            "0.999500060",
+            "0.042741998",
+            "0.648968270"
           ],
           [
-            "-0.118937237",
-            "-0.912484718",
-            "-0.351918992",
-            "-0.171401857"
+            "-0.233870996",
+            "-0.745882167",
+            "0.999499228",
+            "-0.186425568"
           ],
           [
-            "-0.828475114",
-            "0.109752324",
-            "0.114074008",
-            "0.537187615"
+            "0.881452786",
+            "-0.797025035",
+            "-0.481275571",
+            "0.999500131"
           ],
           [
-            "0.825631148",
-            "0.327554389",
-            "0.456184866",
-            "0.054191304"
+            "-0.642377994",
+            "0.662059797",
+            "-0.999500836",
+            "-0.881188483"
           ],
           [
-            "-0.430382588",
-            "-0.374070632",
-            "-0.098319857",
-            "-0.815582734"
+            "0.613182752",
+            "0.041417021",
+            "0.999500100",
+            "-0.289524512"
           ],
           [
-            "-0.595177831",
-            "-0.622100844",
-            "0.507648463",
-            "-0.032356262"
+            "0.825055240",
+            "-0.999499999",
+            "0.190421805",
+            "-0.396953441"
           ]
         ]
       }
@@ -1188,104 +1292,112 @@
         "d": 4
       },
       "objective": "minimize",
-      "scoreStored": "348190294600820950",
+      "scoreStored": "348190293940207544",
       "scoreDisplay": "0.590076516",
       "status": "matched",
       "settled": false,
       "knownBest": {
         "display": "0.590076516",
         "kind": "best",
-        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (the value shown here is the verifier-exact result of the nine-decimal certificate)",
+        "range": {
+          "lower": "0.590076515250353",
+          "upper": "0.5900765153350878"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "0.590076516",
+        "publishedDisplay": "0.6518097061",
+        "publishedMetric": "squared chordal distance D",
+        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (converted from the source-precision squared chordal distance D; the site's nine-place certificate is listed separately)",
         "url": "https://cohn.mit.edu/grassmannian/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "Stonebubu",
+      "method": "ai",
+      "recordedAt": "2026-09-02T09:24:07.122Z",
       "answer": {
         "vectors": [
           [
-            "-0.062330169",
-            "-0.147774955",
-            "-0.939448029",
-            "-0.302844703"
+            "-0.631728223",
+            "-0.350725625",
+            "-0.308985978",
+            "-0.999499782"
           ],
           [
-            "-0.505911042",
-            "-0.589129807",
-            "-0.328567794",
-            "-0.537608865"
+            "-0.654982908",
+            "-0.091062568",
+            "-0.999499742",
+            "-0.151862956"
           ],
           [
-            "0.892122926",
-            "0.069229991",
-            "-0.27602542",
-            "0.350904347"
+            "-0.294320952",
+            "-0.164650645",
+            "0.999500025",
+            "-0.183970293"
           ],
           [
-            "0.102507589",
-            "0.702585588",
-            "0.000010696",
-            "-0.704177311"
+            "0.247780983",
+            "0.999500099",
+            "-0.024170236",
+            "-0.660215920"
           ],
           [
-            "0.157964295",
-            "-0.111918486",
-            "-0.32226936",
-            "-0.926641243"
+            "-0.999500072",
+            "0.903395155",
+            "-0.461485807",
+            "-0.751170801"
           ],
           [
-            "0.294620049",
-            "-0.433333045",
-            "-0.724071006",
-            "0.448489328"
+            "-0.648676307",
+            "-0.999500057",
+            "0.405954476",
+            "-0.344387097"
           ],
           [
-            "-0.57677003",
-            "0.303163199",
-            "-0.437839544",
-            "-0.619455358"
+            "0.131065890",
+            "0.341133791",
+            "-0.999499945",
+            "-0.978954743"
           ],
           [
-            "0.467323918",
-            "-0.438518433",
-            "0.736203302",
-            "-0.217519281"
+            "-0.507172182",
+            "0.620886717",
+            "0.287449875",
+            "0.999500016"
           ],
           [
-            "0.577711134",
-            "0.403148524",
-            "-0.616498453",
-            "-0.351640115"
+            "-0.341386537",
+            "0.331161683",
+            "0.551964099",
+            "-0.999499788"
           ],
           [
-            "-0.178886085",
-            "-0.358335288",
-            "0.469055903",
-            "-0.787135407"
+            "-0.550548757",
+            "0.999500204",
+            "-0.865379057",
+            "0.533376440"
           ],
           [
-            "-0.591258965",
-            "-0.442940394",
-            "-0.598455635",
-            "0.309947569"
+            "-0.172693343",
+            "-0.999500002",
+            "-0.626987333",
+            "-0.227544514"
           ],
           [
-            "0.354680324",
-            "-0.762645316",
-            "-0.423008228",
-            "-0.337102401"
+            "-0.999500037",
+            "-0.123598558",
+            "-0.043811492",
+            "-0.069848023"
           ],
           [
-            "-0.864451556",
-            "0.16926589",
-            "-0.012142992",
-            "0.473207263"
+            "0.999500281",
+            "-0.769210289",
+            "-0.749104957",
+            "0.062201455"
           ],
           [
-            "0.130178959",
-            "0.94108147",
-            "-0.288157716",
-            "0.119934299"
+            "0.908878002",
+            "0.208056863",
+            "0.602718739",
+            "-0.999500272"
           ]
         ]
       }
@@ -1298,110 +1410,118 @@
         "d": 4
       },
       "objective": "minimize",
-      "scoreStored": "370563671934862494",
-      "scoreDisplay": "0.608739413",
+      "scoreStored": "370563671413981334",
+      "scoreDisplay": "0.608739412",
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "0.608739413",
+        "display": "0.608739412",
         "kind": "best",
-        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (the value shown here is the verifier-exact result of the nine-decimal certificate)",
+        "range": {
+          "lower": "0.6087394116943637",
+          "upper": "0.6087394117765007"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "0.608739413",
+        "publishedDisplay": "0.6294363286",
+        "publishedMetric": "squared chordal distance D",
+        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (converted from the source-precision squared chordal distance D; the site's nine-place certificate is listed separately)",
         "url": "https://cohn.mit.edu/grassmannian/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "Stonebubu",
+      "method": "ai",
+      "recordedAt": "2026-09-02T09:20:56.652Z",
       "answer": {
         "vectors": [
           [
-            "-0.233785634",
-            "-0.071695339",
-            "0.688139818",
-            "-0.683130769"
+            "0.114384175",
+            "0.999500228",
+            "-0.203649968",
+            "-0.977936153"
           ],
           [
-            "-0.16431046",
-            "-0.4099065",
-            "0.890964378",
-            "0.10564663"
+            "0.169676728",
+            "0.119732701",
+            "-0.999501115",
+            "-0.787351758"
           ],
           [
-            "-0.132569608",
-            "0.507999308",
-            "0.125426744",
-            "0.841801719"
+            "-0.999499006",
+            "-0.632707175",
+            "-0.485843156",
+            "0.274655139"
           ],
           [
-            "-0.828139966",
-            "-0.306474044",
-            "0.352815347",
-            "0.309482129"
+            "-0.082350896",
+            "0.401304562",
+            "-0.999499703",
+            "0.214403844"
           ],
           [
-            "-0.262926306",
-            "0.697957534",
-            "0.258591755",
-            "-0.613885448"
+            "-0.837063346",
+            "0.999500372",
+            "0.519046525",
+            "-0.498673318"
           ],
           [
-            "0.461784723",
-            "0.742778013",
-            "0.460751215",
-            "-0.150811179"
+            "-0.901991205",
+            "-0.212087391",
+            "0.581612777",
+            "-0.999498706"
           ],
           [
-            "-0.550102826",
-            "-0.117756286",
-            "-0.332216549",
-            "0.757068361"
+            "-0.233945938",
+            "-0.252779398",
+            "-0.729206953",
+            "0.999500009"
           ],
           [
-            "0.854845299",
-            "-0.131201933",
-            "0.054082878",
-            "0.4990998"
+            "0.169612885",
+            "-0.999499945",
+            "0.100831557",
+            "-0.267995814"
           ],
           [
-            "-0.666263204",
-            "0.33126019",
-            "-0.663242341",
-            "0.08043399"
+            "-0.411199996",
+            "0.420291268",
+            "0.107620517",
+            "0.999500019"
           ],
           [
-            "-0.159274941",
-            "0.945675285",
-            "-0.281471481",
-            "0.03321979"
+            "-0.999500183",
+            "0.118304219",
+            "0.517652939",
+            "0.316985925"
           ],
           [
-            "-0.571320293",
-            "-0.668983588",
-            "0.186770068",
-            "-0.437231088"
+            "0.812415926",
+            "0.999501150",
+            "-0.631827830",
+            "-0.018027556"
           ],
           [
-            "0.393650202",
-            "0.24343372",
-            "0.708561701",
-            "0.5326536"
+            "-0.703763512",
+            "-0.981148031",
+            "-0.576549985",
+            "-0.999499896"
           ],
           [
-            "0.267040816",
-            "-0.461640937",
-            "-0.845908544",
-            "-0.003947622"
+            "0.999500008",
+            "-0.415716914",
+            "0.600802725",
+            "0.937248993"
           ],
           [
-            "-0.124242699",
-            "-0.329982581",
-            "0.408690216",
-            "0.841812067"
+            "-0.065744822",
+            "-0.578138795",
+            "-0.999501147",
+            "0.013873763"
           ],
           [
-            "0.778086488",
-            "-0.554837135",
-            "-0.170082072",
-            "-0.240435562"
+            "0.999500064",
+            "-0.505808323",
+            "0.494402071",
+            "-0.328564675"
           ]
         ]
       }
@@ -1414,116 +1534,124 @@
         "d": 4
       },
       "objective": "minimize",
-      "scoreStored": "381966012185389759",
-      "scoreDisplay": "0.61803399",
+      "scoreStored": "381966011335690216",
+      "scoreDisplay": "0.618033989",
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "0.61803399",
+        "display": "0.618033989",
         "kind": "best",
-        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (the value shown here is the verifier-exact result of the nine-decimal certificate)",
+        "range": {
+          "lower": "0.6180339887498097",
+          "upper": "0.6180339888307115"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "0.61803399",
+        "publishedDisplay": "0.6180339887",
+        "publishedMetric": "squared chordal distance D",
+        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (converted from the source-precision squared chordal distance D; the site's nine-place certificate is listed separately)",
         "url": "https://cohn.mit.edu/grassmannian/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "Stonebubu",
+      "method": "ai",
+      "recordedAt": "2026-09-02T08:01:21.117Z",
       "answer": {
         "vectors": [
           [
-            "-0.655670895",
-            "0.007805369",
-            "0.425313464",
-            "-0.623813442"
+            "-0.590603523",
+            "0.420945759",
+            "-0.999502169",
+            "-0.384761631"
           ],
           [
-            "0.135055549",
-            "0.419864097",
-            "-0.672011371",
-            "-0.594873815"
+            "0.702899404",
+            "-0.999500030",
+            "-0.503366505",
+            "-0.864832204"
           ],
           [
-            "0.699856266",
-            "0.096243557",
-            "0.040772087",
-            "-0.706594666"
+            "0.611345364",
+            "-0.956594285",
+            "-0.999499972",
+            "0.611457427"
           ],
           [
-            "-0.292189035",
-            "0.424419688",
-            "0.529809584",
-            "0.673643304"
+            "0.212467242",
+            "0.999500201",
+            "0.274848803",
+            "0.053382387"
           ],
           [
-            "0.92450041",
-            "0.353725367",
-            "0.105354241",
-            "0.095277702"
+            "0.999500001",
+            "-0.261678841",
+            "0.032337959",
+            "0.754911847"
           ],
           [
-            "-0.114046613",
-            "-0.363373333",
-            "-0.631070594",
-            "0.675798118"
+            "-0.232665877",
+            "-0.212640803",
+            "0.999499916",
+            "-0.238710812"
           ],
           [
-            "-0.868210012",
-            "0.428940046",
-            "0.233906778",
-            "0.086656973"
+            "-0.161689744",
+            "0.999500242",
+            "-0.223680577",
+            "-0.806378774"
           ],
           [
-            "0.057756215",
-            "-0.419292079",
-            "0.291809575",
-            "-0.857732793"
+            "-0.561985574",
+            "-0.456726503",
+            "-0.999500057",
+            "0.313532697"
           ],
           [
-            "-0.450754104",
-            "0.686993873",
-            "-0.081712863",
-            "-0.564077267"
+            "0.409332029",
+            "0.215972020",
+            "-0.907691663",
+            "-0.999501157"
           ],
           [
-            "-0.338690757",
-            "-0.620855143",
-            "-0.695652749",
-            "-0.12607425"
+            "-0.999500198",
+            "-0.930688945",
+            "0.468743047",
+            "-0.701657588"
           ],
           [
-            "0.22610996",
-            "-0.944475683",
-            "0.017130709",
-            "-0.2377951"
+            "-0.999500000",
+            "-0.769132739",
+            "-0.002796048",
+            "0.700017078"
           ],
           [
-            "0.383268812",
-            "0.841959551",
-            "0.019126276",
-            "-0.379266815"
+            "0.999500318",
+            "-0.049727057",
+            "-0.571717449",
+            "-0.103461388"
           ],
           [
-            "-0.303409295",
-            "0.105319506",
-            "0.946690236",
-            "-0.025063877"
+            "-0.239439230",
+            "0.999500021",
+            "-0.574637174",
+            "0.381865342"
           ],
           [
-            "0.581228236",
-            "-0.33303321",
-            "0.733515131",
-            "-0.114970308"
+            "-0.076213748",
+            "0.050401589",
+            "-0.318499370",
+            "0.999500000"
           ],
           [
-            "0.507044503",
-            "0.095671539",
-            "0.420973883",
-            "0.746011943"
+            "0.548359069",
+            "0.598897643",
+            "0.725697650",
+            "0.999499807"
           ],
           [
-            "0.359699693",
-            "0.677345906",
-            "-0.607429217",
-            "0.206998552"
+            "0.999501008",
+            "-0.294673568",
+            "0.374801438",
+            "-0.390553137"
           ]
         ]
       }
@@ -1536,122 +1664,130 @@
         "d": 4
       },
       "objective": "minimize",
-      "scoreStored": "397973882260558021",
+      "scoreStored": "397973881674850666",
       "scoreDisplay": "0.630851712",
       "status": "matched",
       "settled": false,
       "knownBest": {
         "display": "0.630851712",
         "kind": "best",
-        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (the value shown here is the verifier-exact result of the nine-decimal certificate)",
+        "range": {
+          "lower": "0.6308517112998903",
+          "upper": "0.6308517113791481"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "0.630851712",
+        "publishedDisplay": "0.6020261183",
+        "publishedMetric": "squared chordal distance D",
+        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (converted from the source-precision squared chordal distance D; the site's nine-place certificate is listed separately)",
         "url": "https://cohn.mit.edu/grassmannian/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "Stonebubu",
+      "method": "ai",
+      "recordedAt": "2026-09-02T09:25:10.539Z",
       "answer": {
         "vectors": [
           [
-            "-0.53121087",
-            "-0.84156324",
-            "-0.084359884",
-            "-0.049696416"
+            "0.999499951",
+            "-0.140546225",
+            "-0.060657470",
+            "-0.455336486"
           ],
           [
-            "-0.476313714",
-            "-0.489146812",
-            "0.160310114",
-            "0.712854339"
+            "0.402098529",
+            "-0.902456296",
+            "0.215224743",
+            "-0.999500000"
           ],
           [
-            "0.859281598",
-            "-0.442158525",
-            "0.103467645",
-            "0.235426039"
+            "0.149852201",
+            "-0.376777448",
+            "0.999500320",
+            "0.630985186"
           ],
           [
-            "0.509435334",
-            "0.336176575",
-            "0.649049555",
-            "0.454087684"
+            "-0.999500101",
+            "-0.135425377",
+            "0.987213654",
+            "-0.108837320"
           ],
           [
-            "0.564340854",
-            "-0.130230795",
-            "-0.53996371",
-            "0.610736058"
+            "-0.062841796",
+            "-0.999499901",
+            "0.169645104",
+            "0.665478618"
           ],
           [
-            "-0.28059235",
-            "-0.533802627",
-            "0.081395321",
-            "-0.793534807"
+            "0.999500300",
+            "0.855733366",
+            "-0.073602588",
+            "-0.089772472"
           ],
           [
-            "0.276381189",
-            "-0.265664043",
-            "-0.514813315",
-            "-0.766813736"
+            "0.763550681",
+            "0.562932665",
+            "-0.318994098",
+            "0.999499899"
           ],
           [
-            "0.439330557",
-            "-0.370642132",
-            "0.818298068",
-            "0.001159265"
+            "0.038523160",
+            "0.250851593",
+            "0.999500100",
+            "-0.150005125"
           ],
           [
-            "0.332282639",
-            "-0.259976036",
-            "0.232766616",
-            "0.876253622"
+            "-0.211800158",
+            "-0.999500110",
+            "0.831775427",
+            "-0.199361013"
           ],
           [
-            "-0.359203498",
-            "-0.581022968",
-            "0.700902441",
-            "-0.205233835"
+            "0.743592171",
+            "0.581871319",
+            "0.685921632",
+            "-0.999499999"
           ],
           [
-            "0.400796093",
-            "-0.808780593",
-            "-0.413128641",
-            "-0.120669673"
+            "0.999499060",
+            "-0.315934726",
+            "0.323904796",
+            "0.661503872"
           ],
           [
-            "0.860347827",
-            "0.04035961",
-            "-0.47696693",
-            "-0.175143557"
+            "-0.045342191",
+            "-0.084697728",
+            "0.143941327",
+            "0.999500002"
           ],
           [
-            "-0.856998637",
-            "-0.185243054",
-            "-0.395115975",
-            "0.274083406"
+            "0.551639977",
+            "-0.604500590",
+            "-0.999499921",
+            "-0.821046267"
           ],
           [
-            "-0.154793075",
-            "0.894029337",
-            "-0.2824404",
-            "-0.31141302"
+            "-0.874270752",
+            "0.496884187",
+            "-0.999499984",
+            "0.281592864"
           ],
           [
-            "0.541653856",
-            "-0.542598009",
-            "0.235207048",
-            "-0.597391116"
+            "0.854478509",
+            "0.844592538",
+            "0.999500144",
+            "0.730765402"
           ],
           [
-            "-0.20037315",
-            "0.18338425",
-            "0.96151233",
-            "0.041410827"
+            "-0.541595211",
+            "0.594155134",
+            "0.675142697",
+            "-0.999500201"
           ],
           [
-            "0.13149822",
-            "0.620500351",
-            "0.586838434",
-            "-0.503297313"
+            "-0.717107566",
+            "0.999499919",
+            "0.169000648",
+            "-0.039721324"
           ]
         ]
       }
@@ -1664,128 +1800,136 @@
         "d": 4
       },
       "objective": "minimize",
-      "scoreStored": "405319795844173118",
+      "scoreStored": "405319795174652502",
       "scoreDisplay": "0.636647309",
-      "status": "matched",
+      "status": "open",
       "settled": false,
       "knownBest": {
         "display": "0.636647309",
         "kind": "best",
-        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (the value shown here is the verifier-exact result of the nine-decimal certificate)",
+        "range": {
+          "lower": "0.6366473082091842",
+          "upper": "0.6366473082877206"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "0.636647309",
+        "publishedDisplay": "0.5946802049",
+        "publishedMetric": "squared chordal distance D",
+        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (converted from the source-precision squared chordal distance D; the site's nine-place certificate is listed separately)",
         "url": "https://cohn.mit.edu/grassmannian/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "Stonebubu",
+      "method": "ai",
+      "recordedAt": "2026-09-01T17:29:31.653Z",
       "answer": {
         "vectors": [
           [
-            "0.272744208",
-            "-0.931654282",
-            "0.193978743",
-            "-0.141432471"
+            "-0.028890751",
+            "-0.523446372",
+            "0.067005638",
+            "0.999500105"
           ],
           [
-            "-0.181969162",
-            "-0.530077071",
-            "0.817906213",
-            "-0.130134352"
+            "-0.999499800",
+            "-0.231472921",
+            "0.781859522",
+            "0.904780784"
           ],
           [
-            "-0.279793541",
-            "0.391327649",
-            "-0.469190967",
-            "0.740566055"
+            "0.135724365",
+            "-0.414414817",
+            "-0.219723432",
+            "-0.999499949"
           ],
           [
-            "0.208502071",
-            "0.756663817",
-            "-0.325507246",
-            "-0.527287196"
+            "0.465127951",
+            "0.999500101",
+            "-0.280233803",
+            "-0.289649362"
           ],
           [
-            "-0.684405832",
-            "0.116551698",
-            "-0.714464774",
-            "0.08685877"
+            "0.999499286",
+            "-0.328669451",
+            "0.627577898",
+            "-0.975680116"
           ],
           [
-            "-0.385533036",
-            "0.70833891",
-            "0.283933358",
-            "-0.518654139"
+            "-0.165506077",
+            "0.999500100",
+            "0.501331642",
+            "-0.371940376"
           ],
           [
-            "0.522162014",
-            "0.414970176",
-            "0.380721199",
-            "-0.640466981"
+            "-0.210224104",
+            "0.999499905",
+            "-0.289996956",
+            "0.433347904"
           ],
           [
-            "0.383296839",
-            "0.581867873",
-            "0.030946935",
-            "0.716627936"
+            "-0.528162065",
+            "-0.054855483",
+            "-0.999499769",
+            "-0.819245806"
           ],
           [
-            "0.725025433",
-            "0.151607477",
-            "-0.574294877",
-            "-0.348623994"
+            "0.907920252",
+            "0.509149820",
+            "-0.999500257",
+            "0.350498693"
           ],
           [
-            "-0.259845381",
-            "-0.848789497",
-            "-0.45869648",
-            "-0.040426565"
+            "0.815342236",
+            "-0.999500026",
+            "0.506920805",
+            "0.536374206"
           ],
           [
-            "0.700692784",
-            "0.050033241",
-            "-0.511299605",
-            "0.495074754"
+            "0.279057253",
+            "-0.332562463",
+            "-0.999499894",
+            "-0.129761846"
           ],
           [
-            "0.904095471",
-            "-0.421757441",
-            "-0.049575218",
-            "-0.047690022"
+            "0.112355419",
+            "-0.192782490",
+            "-0.998860861",
+            "0.999500001"
           ],
           [
-            "0.044434458",
-            "-0.288135585",
-            "-0.906783868",
-            "0.304543067"
+            "0.999500059",
+            "-0.752465669",
+            "-0.355965069",
+            "-0.249044954"
           ],
           [
-            "0.09958216",
-            "0.0502104",
-            "-0.19776949",
-            "-0.973883739"
+            "0.774744459",
+            "0.999499980",
+            "0.291543579",
+            "0.657554325"
           ],
           [
-            "-0.369596876",
-            "0.587407033",
-            "0.461669929",
-            "0.552459957"
+            "-0.950880225",
+            "0.069508326",
+            "0.133899963",
+            "-0.999499697"
           ],
           [
-            "0.082090952",
-            "-0.004972634",
-            "0.870604231",
-            "0.485061461"
+            "-0.999500079",
+            "-0.170354265",
+            "-0.061736845",
+            "0.032378971"
           ],
           [
-            "-0.904274311",
-            "-0.409502368",
-            "-0.09991306",
-            "-0.06792025"
+            "0.224352169",
+            "-0.423637299",
+            "0.999499958",
+            "-0.124522688"
           ],
           [
-            "0.674943181",
-            "-0.171401589",
-            "0.296055701",
-            "0.653776888"
+            "-0.716150514",
+            "-0.577148819",
+            "-0.999500200",
+            "0.224879016"
           ]
         ]
       }
@@ -1798,23 +1942,31 @@
         "d": 4
       },
       "objective": "minimize",
-      "scoreStored": "418154805418796120",
-      "scoreDisplay": "0.646648905",
+      "scoreStored": "418154804790654446",
+      "scoreDisplay": "0.646648904",
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "0.646648905",
+        "display": "0.646648904",
         "kind": "best",
-        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (the value shown here is the verifier-exact result of the nine-decimal certificate)",
+        "range": {
+          "lower": "0.6466489037723639",
+          "upper": "0.6466489038496857"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "0.646648905",
+        "publishedDisplay": "0.5818451952",
+        "publishedMetric": "squared chordal distance D",
+        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (converted from the source-precision squared chordal distance D; the site's nine-place certificate is listed separately)",
         "url": "https://cohn.mit.edu/grassmannian/"
       },
-      "holder": "Tmrg",
+      "holder": "Stonebubu",
       "method": "ai",
-      "recordedAt": "2026-08-28T14:50:41.257Z",
+      "recordedAt": "2026-09-02T08:38:15.042Z",
       "answer": {
         "vectors": [
           [
-            "1.000000000",
+            "0.349999999",
             "0.000000000",
             "0.000000000",
             "0.000000000"
@@ -1832,76 +1984,76 @@
             "0.000000000"
           ],
           [
-            "0.525789344",
-            "-0.695326681",
-            "-0.479766610",
-            "0.099450352"
+            "0.694291316",
+            "-0.918161012",
+            "-0.633519479",
+            "0.131321634"
           ],
           [
-            "0.646648904",
-            "0.295333230",
-            "0.101265212",
-            "0.695966117"
+            "0.926446307",
+            "0.423120458",
+            "0.145081483",
+            "0.997102500"
           ],
           [
-            "0.244428659",
-            "0.513758602",
-            "0.806348189",
-            "-0.161583809"
+            "0.244428662",
+            "0.513758605",
+            "0.806348186",
+            "-0.161583812"
           ],
           [
-            "0.646648904",
-            "-0.554263420",
-            "0.056127976",
-            "-0.521044054"
+            "0.665735803",
+            "-0.570623411",
+            "0.057784685",
+            "-0.536423521"
           ],
           [
-            "0.125922050",
-            "-0.120466491",
-            "-0.151556576",
-            "-0.972965604"
+            "0.112629889",
+            "-0.107750211",
+            "-0.135558469",
+            "-0.870260672"
           ],
           [
-            "0.590941769",
-            "-0.513435439",
-            "0.275658518",
-            "0.557838917"
+            "0.411032833",
+            "-0.357122874",
+            "0.191735814",
+            "0.388007960"
           ],
           [
-            "0.125922050",
-            "0.497168121",
-            "-0.856634631",
-            "-0.056076779"
+            "0.146751223",
+            "0.579406306",
+            "-0.998333332",
+            "-0.065352620"
           ],
           [
-            "0.080228897",
-            "-0.346963014",
-            "0.611547389",
-            "-0.706533639"
+            "0.113355329",
+            "-0.490223698",
+            "0.864054699",
+            "-0.998260677"
           ],
           [
-            "0.241596010",
-            "0.056048318",
-            "0.785827422",
-            "0.566537922"
+            "0.204674855",
+            "0.047482909",
+            "0.665735803",
+            "0.479958535"
           ],
           [
-            "0.646648904",
-            "0.063371192",
-            "-0.648950079",
-            "0.395844771"
+            "0.377945808",
+            "0.037038455",
+            "-0.379290772",
+            "0.231358734"
           ],
           [
-            "0.155278436",
-            "-0.425154579",
-            "-0.395862257",
-            "0.799015184"
+            "0.193506416",
+            "-0.529823334",
+            "-0.493319540",
+            "0.995724638"
           ],
           [
-            "0.036518863",
-            "0.764728864",
-            "0.386190352",
-            "0.514502817"
+            "0.047632887",
+            "0.997463785",
+            "0.503722180",
+            "0.671084813"
           ],
           [
             "0.632847647",
@@ -1910,22 +2062,22 @@
             "-0.461917956"
           ],
           [
-            "0.646648904",
-            "-0.242899345",
-            "0.715699653",
-            "-0.103049068"
+            "0.436136785",
+            "-0.163825128",
+            "0.482708536",
+            "-0.069502150"
           ],
           [
-            "0.232614646",
-            "0.639278363",
-            "-0.306060812",
-            "-0.665988274"
+            "0.182708893",
+            "0.502125915",
+            "-0.240397727",
+            "-0.523105412"
           ],
           [
-            "0.646648904",
-            "0.236987925",
-            "0.304981555",
-            "-0.657775166"
+            "0.978312057",
+            "0.358537907",
+            "0.461405147",
+            "-0.995144927"
           ]
         ]
       }
@@ -1938,140 +2090,148 @@
         "d": 4
       },
       "objective": "minimize",
-      "scoreStored": "426390452021567295",
+      "scoreStored": "426390451411037140",
       "scoreDisplay": "0.652985798",
       "status": "matched",
       "settled": false,
       "knownBest": {
         "display": "0.652985798",
         "kind": "best",
-        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (the value shown here is the verifier-exact result of the nine-decimal certificate)",
+        "range": {
+          "lower": "0.6529857972038902",
+          "upper": "0.6529857972804615"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "0.652985798",
+        "publishedDisplay": "0.5736095486",
+        "publishedMetric": "squared chordal distance D",
+        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (converted from the source-precision squared chordal distance D; the site's nine-place certificate is listed separately)",
         "url": "https://cohn.mit.edu/grassmannian/"
       },
-      "holder": "Tmrg",
+      "holder": "Stonebubu",
       "method": "ai",
-      "recordedAt": "2026-08-28T14:50:57.017Z",
+      "recordedAt": "2026-09-02T09:22:00.817Z",
       "answer": {
         "vectors": [
           [
-            "1.000000000",
-            "0.000000000",
-            "0.000000000",
-            "0.000000000"
+            "-0.567390464",
+            "-0.353297033",
+            "0.302632252",
+            "0.999499925"
           ],
           [
-            "-0.652985797",
-            "0.757370153",
-            "0.000000000",
-            "0.000000000"
+            "0.999499499",
+            "0.411833761",
+            "-0.183856979",
+            "-0.125400817"
           ],
           [
-            "0.438682349",
-            "0.451772351",
-            "0.776826582",
-            "0.000000000"
+            "0.757815401",
+            "-0.999499607",
+            "0.819372935",
+            "0.737562958"
           ],
           [
-            "0.652985797",
-            "-0.084622802",
-            "0.521046402",
-            "0.543101442"
+            "-0.140523871",
+            "-0.999499999",
+            "-0.034852786",
+            "0.485017497"
           ],
           [
-            "0.269677760",
-            "-0.629665756",
-            "-0.626681814",
-            "0.371570782"
+            "-0.999500097",
+            "0.047266897",
+            "-0.659762281",
+            "0.050398316"
           ],
           [
-            "0.136425622",
-            "0.979798039",
-            "0.031556927",
-            "-0.142786599"
+            "-0.999499891",
+            "-0.354542785",
+            "-0.219132623",
+            "-0.860442284"
           ],
           [
-            "0.147731961",
-            "-0.734804405",
-            "-0.496673126",
-            "-0.437668321"
+            "-0.999498986",
+            "0.439052029",
+            "0.180524963",
+            "-0.258609636"
           ],
           [
-            "0.138799046",
-            "-0.666239067",
-            "0.675684988",
-            "0.283390414"
+            "-0.368658705",
+            "-0.999500264",
+            "0.163960217",
+            "-0.413445789"
           ],
           [
-            "0.136425622",
-            "0.049401389",
-            "0.572639701",
-            "-0.806865122"
+            "0.127373171",
+            "-0.023383769",
+            "0.999500001",
+            "-0.067640397"
           ],
           [
-            "0.652985797",
-            "0.062443189",
-            "-0.476771791",
-            "0.585148747"
+            "0.526897150",
+            "0.175943166",
+            "0.784447439",
+            "-0.999499900"
           ],
           [
-            "0.652985797",
-            "0.631209594",
-            "0.104745915",
-            "0.405231156"
+            "0.313282604",
+            "-0.366531322",
+            "-0.146840519",
+            "0.999500000"
           ],
           [
-            "0.138799046",
-            "0.261330721",
-            "0.136246208",
-            "0.945451242"
+            "-0.400935253",
+            "0.854858805",
+            "0.999499671",
+            "-0.478747861"
           ],
           [
-            "0.652985797",
-            "0.489436901",
-            "0.159922344",
-            "-0.555415081"
+            "-0.153530938",
+            "-0.162245592",
+            "-0.993488006",
+            "-0.999499994"
           ],
           [
-            "0.652985797",
-            "-0.299187055",
-            "0.645828688",
-            "-0.258847368"
+            "0.452234964",
+            "0.866744674",
+            "-0.999499873",
+            "-0.291098626"
           ],
           [
-            "0.651152451",
-            "-0.300767721",
-            "-0.064693312",
-            "-0.693796828"
+            "0.878460416",
+            "-0.230413932",
+            "-0.999499796",
+            "-0.423341033"
           ],
           [
-            "0.104650151",
-            "-0.557384222",
-            "0.050525366",
-            "0.822081725"
+            "-0.627828071",
+            "-0.999499950",
+            "-0.966670480",
+            "-0.216953918"
           ],
           [
-            "0.000000033",
-            "-0.735679087",
-            "0.427842512",
-            "-0.525097197"
+            "0.717445005",
+            "0.336129054",
+            "-0.999500002",
+            "0.828720147"
           ],
           [
-            "0.147731961",
-            "0.086067379",
-            "-0.974060466",
-            "0.148235898"
+            "0.557859046",
+            "-0.999500030",
+            "0.906958564",
+            "-0.600616547"
           ],
           [
-            "0.651152451",
-            "0.520104064",
-            "-0.542080652",
-            "-0.107892609"
+            "0.104008489",
+            "-0.451105677",
+            "0.029751130",
+            "-0.999500600"
           ],
           [
-            "0.269433217",
-            "0.032614683",
-            "-0.723266179",
-            "-0.635002408"
+            "0.515600191",
+            "-0.999499992",
+            "-0.283582195",
+            "-0.382993144"
           ]
         ]
       }
@@ -2084,97 +2244,105 @@
         "d": 5
       },
       "objective": "minimize",
-      "scoreStored": "149491417163765531",
-      "scoreDisplay": "0.3866412",
+      "scoreStored": "149491416705466369",
+      "scoreDisplay": "0.386641199",
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "0.3866412",
+        "display": "0.386641199",
         "kind": "best",
-        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (the value shown here is the verifier-exact result of the nine-decimal certificate)",
+        "range": {
+          "lower": "0.3866411988523727",
+          "upper": "0.3866411989816915"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "0.3866412",
+        "publishedDisplay": "0.8505085833",
+        "publishedMetric": "squared chordal distance D",
+        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (converted from the source-precision squared chordal distance D; the site's nine-place certificate is listed separately)",
         "url": "https://cohn.mit.edu/grassmannian/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "Stonebubu",
+      "method": "ai",
+      "recordedAt": "2026-09-02T09:26:13.212Z",
       "answer": {
         "vectors": [
           [
-            "0.513531414",
-            "0.181419733",
-            "0.791555065",
-            "-0.09588803",
-            "-0.260035444"
+            "-0.005735506",
+            "-0.999500001",
+            "0.601290386",
+            "-0.340166325",
+            "0.704300472"
           ],
           [
-            "0.05040535",
-            "0.050082179",
-            "-0.392396055",
-            "-0.167949891",
-            "-0.901537158"
+            "0.061256174",
+            "-0.153403934",
+            "-0.286243756",
+            "0.999499920",
+            "0.452575073"
           ],
           [
-            "0.023450355",
-            "0.378209472",
-            "0.176883507",
-            "-0.848016853",
-            "-0.325556935"
+            "-0.986249510",
+            "-0.245351718",
+            "0.999500010",
+            "0.837213109",
+            "0.534247182"
           ],
           [
-            "0.507505735",
-            "0.087852321",
-            "-0.837830218",
-            "0.16983388",
-            "-0.062584962"
+            "0.999500400",
+            "-0.021132104",
+            "-0.038491851",
+            "0.950775829",
+            "-0.735541022"
           ],
           [
-            "-0.021547716",
-            "0.65409",
-            "-0.399924478",
-            "0.247822879",
-            "0.591900498"
+            "0.760546108",
+            "0.999499975",
+            "0.764633353",
+            "-0.139880574",
+            "-0.497317746"
           ],
           [
-            "-0.42576051",
-            "-0.837714683",
-            "0.083316092",
-            "-0.038549642",
-            "0.329445675"
+            "-0.833588016",
+            "0.046459320",
+            "-0.999500200",
+            "-0.648311795",
+            "-0.619806449"
           ],
           [
-            "0.105195581",
-            "-0.37165289",
-            "-0.577630619",
-            "-0.716732615",
-            "-0.058696222"
+            "-0.670040913",
+            "-0.184296991",
+            "-0.119632256",
+            "0.999500120",
+            "-0.815592516"
           ],
           [
-            "0.598342222",
-            "-0.063604195",
-            "0.192887406",
-            "-0.606992939",
-            "0.481970032"
+            "-0.478139894",
+            "-0.845727817",
+            "0.999500000",
+            "-0.140930917",
+            "-0.871183837"
           ],
           [
-            "-0.616590412",
-            "0.763957368",
-            "0.159686674",
-            "-0.069626495",
-            "-0.076404975"
+            "-0.198018411",
+            "0.999499799",
+            "0.577663376",
+            "-0.010610851",
+            "0.846202933"
           ],
           [
-            "0.792432424",
-            "0.188403409",
-            "0.10220869",
-            "0.446537698",
-            "0.35596696"
+            "0.999499767",
+            "-0.555236100",
+            "0.496581510",
+            "-0.449286120",
+            "-0.361796050"
           ],
           [
-            "-0.42385787",
-            "0.19458479",
-            "-0.139724879",
-            "-0.638743616",
-            "0.595789239"
+            "-0.999500139",
+            "0.872047944",
+            "0.714568956",
+            "-0.029377536",
+            "-0.664644563"
           ]
         ]
       }
@@ -2187,104 +2355,112 @@
         "d": 5
       },
       "objective": "minimize",
-      "scoreStored": "152402949962587311",
-      "scoreDisplay": "0.390388205",
-      "status": "matched",
+      "scoreStored": "152402949267453525",
+      "scoreDisplay": "0.390388204",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "0.390388205",
+        "display": "0.390388204",
         "kind": "best",
-        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (the value shown here is the verifier-exact result of the nine-decimal certificate)",
+        "range": {
+          "lower": "0.3903882031388756",
+          "upper": "0.3903882032669532"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "0.390388205",
+        "publishedDisplay": "0.8475970508",
+        "publishedMetric": "squared chordal distance D",
+        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (converted from the source-precision squared chordal distance D; the site's nine-place certificate is listed separately)",
         "url": "https://cohn.mit.edu/grassmannian/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "Stonebubu",
+      "method": "ai",
+      "recordedAt": "2026-09-02T09:23:04.219Z",
       "answer": {
         "vectors": [
           [
-            "0.17101207",
-            "-0.238369367",
-            "0.227430981",
-            "-0.230631843",
-            "0.899454845"
+            "0.307221005",
+            "0.375382153",
+            "-0.196315467",
+            "-0.999498880",
+            "0.300757621"
           ],
           [
-            "-0.330650423",
-            "-0.221988775",
-            "0.877947572",
-            "-0.103827193",
-            "-0.244579754"
+            "0.204841980",
+            "-0.490425254",
+            "0.804926268",
+            "0.021433348",
+            "0.999499900"
           ],
           [
-            "0.663080722",
-            "-0.168398464",
-            "0.605362138",
-            "-0.406776476",
-            "0.005957662"
+            "0.365047739",
+            "0.009725425",
+            "-0.527242422",
+            "-0.021503382",
+            "0.999499807"
           ],
           [
-            "-0.409610288",
-            "-0.224911758",
-            "-0.57782667",
-            "-0.467789032",
-            "0.478459897"
+            "0.905733378",
+            "0.999500267",
+            "0.395625194",
+            "-0.534521867",
+            "-0.974741037"
           ],
           [
-            "0.801296527",
-            "0.212122179",
-            "0.069918664",
-            "0.368782953",
-            "0.414775326"
+            "-0.515740883",
+            "-0.038594169",
+            "-0.999500919",
+            "-0.474819661",
+            "0.227702644"
           ],
           [
-            "0.787722581",
-            "0.191038311",
-            "-0.257691356",
-            "-0.145638752",
-            "-0.505353359"
+            "-0.017285076",
+            "0.042862420",
+            "-0.999499847",
+            "0.833836762",
+            "0.102714502"
           ],
           [
-            "0.153626881",
-            "-0.265373087",
-            "-0.192164203",
-            "-0.889491026",
-            "-0.279024265"
+            "0.999500157",
+            "0.518248558",
+            "-0.151181481",
+            "0.579331051",
+            "0.158774934"
           ],
           [
-            "-0.071130547",
-            "-0.566198357",
-            "-0.723371778",
-            "-0.004050633",
-            "-0.388685901"
+            "-0.170544848",
+            "0.999499524",
+            "0.249422791",
+            "0.766539087",
+            "-0.432993075"
           ],
           [
-            "-0.44924284",
-            "-0.532324909",
-            "0.112146249",
-            "0.60937715",
-            "-0.361792439"
+            "-0.848459469",
+            "0.194280768",
+            "0.999499860",
+            "0.304286728",
+            "0.203860351"
           ],
           [
-            "-0.057556601",
-            "-0.545114489",
-            "-0.395761757",
-            "0.510371071",
-            "0.531442784"
+            "-0.788182089",
+            "0.999500313",
+            "0.214287298",
+            "-0.687021848",
+            "-0.317806478"
           ],
           [
-            "-0.195772406",
-            "-0.925635132",
-            "0.139681717",
-            "-0.265188358",
-            "0.12262512"
+            "0.276586427",
+            "0.999499999",
+            "0.711957590",
+            "-0.134372520",
+            "0.630125331"
           ],
           [
-            "0.604528937",
-            "-0.67548119",
-            "0.041020241",
-            "0.363313356",
-            "-0.211165034"
+            "-0.992111934",
+            "0.992784208",
+            "-0.395632365",
+            "0.446375540",
+            "0.999500031"
           ]
         ]
       }
@@ -2297,111 +2473,119 @@
         "d": 5
       },
       "objective": "minimize",
-      "scoreStored": "168926488039503770",
-      "scoreDisplay": "0.411006677",
+      "scoreStored": "168926487540172073",
+      "scoreDisplay": "0.411006676",
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "0.411006677",
+        "display": "0.411006676",
         "kind": "best",
-        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (the value shown here is the verifier-exact result of the nine-decimal certificate)",
+        "range": {
+          "lower": "0.4110066756757121",
+          "upper": "0.4110066757973647"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "0.411006677",
+        "publishedDisplay": "0.8310735125",
+        "publishedMetric": "squared chordal distance D",
+        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (converted from the source-precision squared chordal distance D; the site's nine-place certificate is listed separately)",
         "url": "https://cohn.mit.edu/grassmannian/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "Stonebubu",
+      "method": "ai",
+      "recordedAt": "2026-09-02T08:41:14.319Z",
       "answer": {
         "vectors": [
           [
-            "0.344215772",
-            "0.056633007",
-            "-0.567212318",
-            "0.160329177",
-            "0.728610284"
+            "0.422298532",
+            "0.069479779",
+            "-0.695880169",
+            "0.196698645",
+            "0.893890050"
           ],
           [
-            "-0.271452925",
-            "-0.257106293",
-            "0.875284039",
-            "0.215731423",
-            "0.218053816"
+            "-0.309794142",
+            "-0.293421128",
+            "0.998913044",
+            "0.246202288",
+            "0.248852705"
           ],
           [
-            "-0.20606898",
-            "-0.459357959",
-            "-0.701248449",
-            "0.503123911",
-            "0.040531256"
+            "-0.293583334",
+            "-0.654440280",
+            "-0.999057972",
+            "0.716792964",
+            "0.057744263"
           ],
           [
-            "-0.553680177",
-            "-0.14357132",
-            "-0.005059524",
-            "0.27784867",
-            "0.771751291"
+            "-0.717121504",
+            "-0.185952263",
+            "-0.006553051",
+            "0.359867057",
+            "0.999565216"
           ],
           [
-            "-0.318272294",
-            "0.613013571",
-            "-0.140955238",
-            "-0.547741563",
-            "-0.450586184"
+            "-0.518929542",
+            "0.999492755",
+            "-0.229821566",
+            "-0.893069499",
+            "-0.734661756"
           ],
           [
-            "-0.592467395",
-            "0.49837152",
-            "-0.587304827",
-            "0.20068848",
-            "0.124118445"
+            "-0.999855073",
+            "0.841057748",
+            "-0.991142661",
+            "0.338684283",
+            "0.209463775"
           ],
           [
-            "0.388039371",
-            "0.359659063",
-            "0.466082004",
-            "0.267098",
-            "0.656884334"
+            "0.590641490",
+            "0.547443327",
+            "0.709431541",
+            "0.406554520",
+            "0.999855093"
           ],
           [
-            "0.186366932",
-            "-0.373013325",
-            "0.201216096",
-            "-0.453601008",
-            "0.761502879"
+            "0.109012939",
+            "-0.218189346",
+            "0.117698767",
+            "-0.265328075",
+            "0.445431314"
           ],
           [
-            "-0.777662111",
-            "-0.005707129",
-            "0.314246819",
-            "-0.519599523",
-            "0.162709383"
+            "-0.997463768",
+            "-0.007320215",
+            "0.403066849",
+            "-0.666461296",
+            "0.208698241"
           ],
           [
-            "-0.083684441",
-            "0.253977856",
-            "-0.038797041",
-            "0.946029725",
-            "0.178926555"
+            "-0.088432935",
+            "0.268389283",
+            "-0.040998495",
+            "0.999710146",
+            "0.189079358"
           ],
           [
-            "-0.371294852",
-            "-0.909083719",
-            "0.103092301",
-            "-0.139498167",
-            "0.07496108"
+            "-0.408427538",
+            "-0.999999926",
+            "0.113402419",
+            "-0.153449186",
+            "0.082457834"
           ],
           [
-            "-0.123584648",
-            "0.615977322",
-            "-0.084110492",
-            "-0.47174212",
-            "0.612930315"
+            "-0.200152043",
+            "0.997608695",
+            "-0.136221506",
+            "-0.764011959",
+            "0.992673902"
           ],
           [
-            "0.518457927",
-            "-0.674700671",
-            "-0.463889273",
-            "-0.238383892",
-            "0.062930474"
+            "0.668731430",
+            "-0.870260673",
+            "-0.598346213",
+            "-0.307478761",
+            "0.081170687"
           ]
         ]
       }
@@ -2414,118 +2598,126 @@
         "d": 5
       },
       "objective": "minimize",
-      "scoreStored": "169028330522483951",
-      "scoreDisplay": "0.411130552",
+      "scoreStored": "169028329919824789",
+      "scoreDisplay": "0.411130551",
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "0.411130552",
+        "display": "0.411130551",
         "kind": "best",
-        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (the value shown here is the verifier-exact result of the nine-decimal certificate)",
+        "range": {
+          "lower": "0.4111305508594563",
+          "upper": "0.4111305509810722"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "0.411130552",
+        "publishedDisplay": "0.8309716701",
+        "publishedMetric": "squared chordal distance D",
+        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (converted from the source-precision squared chordal distance D; the site's nine-place certificate is listed separately)",
         "url": "https://cohn.mit.edu/grassmannian/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-02T06:12:54.517Z",
       "answer": {
         "vectors": [
           [
-            "-0.309277857",
-            "-0.022363955",
-            "0.711403149",
-            "-0.126703984",
-            "0.617817708"
+            "-0.413382881",
+            "-0.307702354",
+            "0.026506224",
+            "-0.949230146",
+            "0.999637681"
           ],
           [
-            "-0.153746946",
-            "-0.015575926",
-            "0.473822146",
-            "-0.018658511",
-            "-0.866754695"
+            "-0.381086379",
+            "0.999492755",
+            "-0.744691532",
+            "-0.263909180",
+            "-0.382665646"
           ],
           [
-            "0.450125631",
-            "0.085624893",
-            "-0.02288925",
-            "-0.695293557",
-            "-0.553261462"
+            "-0.997971014",
+            "0.210991515",
+            "-0.092661805",
+            "0.554603202",
+            "-0.616419752"
           ],
           [
-            "-0.247198561",
-            "0.801924702",
-            "0.053569005",
-            "0.105913938",
-            "0.530775134"
+            "0.073067395",
+            "-0.234345206",
+            "0.365912055",
+            "-0.469948464",
+            "-0.102939211"
           ],
           [
-            "-0.338740815",
-            "-0.080763587",
-            "-0.147256455",
-            "0.772671263",
-            "-0.509927994"
+            "0.721449848",
+            "0.480406053",
+            "-0.310858044",
+            "-0.090602712",
+            "-0.205334101"
           ],
           [
-            "0.543393205",
-            "-0.082146062",
-            "0.387913306",
-            "0.457386777",
-            "0.581632575"
+            "0.138143021",
+            "0.327236690",
+            "0.925671366",
+            "0.013475679",
+            "0.997608695"
           ],
           [
-            "0.654778021",
-            "-0.077284756",
-            "0.217767602",
-            "0.534764483",
-            "-0.48155688"
+            "0.113285736",
+            "0.998043478",
+            "0.288223820",
+            "0.371467647",
+            "0.027555611"
           ],
           [
-            "-0.135813744",
-            "0.806786008",
-            "-0.116576699",
-            "0.183291644",
-            "-0.532414322"
+            "0.137042392",
+            "0.363895850",
+            "0.192240780",
+            "-0.467160363",
+            "-0.995797101"
           ],
           [
-            "-0.21603503",
-            "0.581154985",
-            "0.528584064",
-            "-0.561284893",
-            "-0.145416317"
+            "-0.999927535",
+            "-0.002658166",
+            "-0.035504655",
+            "-0.891868135",
+            "-0.411481247"
           ],
           [
-            "-0.230909215",
-            "-0.617777239",
-            "0.615479112",
-            "0.420970745",
-            "-0.094875246"
+            "0.243686669",
+            "0.687608690",
+            "-0.659191192",
+            "-0.235721519",
+            "0.943090980"
           ],
           [
-            "-0.915987008",
-            "0.148303656",
-            "0.325757076",
-            "0.116406181",
-            "-0.138945151"
+            "0.183230932",
+            "-0.015149865",
+            "-0.546202556",
+            "-0.781826488",
+            "-0.067404930"
           ],
           [
-            "-0.038695961",
-            "0.439987587",
-            "0.737122366",
-            "0.504607118",
-            "-0.083281574"
+            "0.043004096",
+            "0.870958062",
+            "0.355425498",
+            "-0.968697849",
+            "0.181819141"
           ],
           [
-            "-0.469042762",
-            "0.18492591",
-            "-0.818306099",
-            "0.256720329",
-            "0.101346413"
+            "0.995289856",
+            "-0.701366104",
+            "-0.080870586",
+            "0.004904810",
+            "-0.628438135"
           ],
           [
-            "-0.408248284",
-            "-0.47660984",
-            "0.40694081",
-            "-0.644921266",
-            "-0.15700999"
+            "-0.745001150",
+            "-0.188078850",
+            "-0.999710144",
+            "-0.125748148",
+            "0.334495087"
           ]
         ]
       }
@@ -2538,125 +2730,133 @@
         "d": 5
       },
       "objective": "minimize",
-      "scoreStored": "171572875921145082",
-      "scoreDisplay": "0.414213564",
-      "status": "matched",
+      "scoreStored": "171572875352649030",
+      "scoreDisplay": "0.414213563",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "0.414213564",
+        "display": "0.414213563",
         "kind": "best",
-        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (the value shown here is the verifier-exact result of the nine-decimal certificate)",
+        "range": {
+          "lower": "0.4142135623684961",
+          "upper": "0.4142135624892068"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "0.414213564",
+        "publishedDisplay": "0.8284271247",
+        "publishedMetric": "squared chordal distance D",
+        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (converted from the source-precision squared chordal distance D; the site's nine-place certificate is listed separately)",
         "url": "https://cohn.mit.edu/grassmannian/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-02T06:13:00.242Z",
       "answer": {
         "vectors": [
           [
-            "0.378118602",
-            "0.028984878",
-            "0.756089159",
-            "-0.198619706",
-            "0.495041004"
+            "-0.894321554",
+            "0.452838609",
+            "-0.526407350",
+            "-0.857805895",
+            "-0.999782610"
           ],
           [
-            "0.347125757",
-            "0.673993956",
-            "-0.641575823",
-            "-0.040580377",
-            "0.109405452"
+            "-0.813491519",
+            "0.114468570",
+            "0.627892466",
+            "0.999710145",
+            "0.284216866"
           ],
           [
-            "-0.231165284",
-            "0.581839713",
-            "0.130133998",
-            "-0.030535284",
-            "0.768217351"
+            "-0.995072465",
+            "-0.228053080",
+            "-0.149027671",
+            "-0.265680099",
+            "0.297247323"
           ],
           [
-            "0.595128659",
-            "-0.738606863",
-            "0.210305603",
-            "0.164553857",
-            "0.170221511"
+            "0.309896390",
+            "-0.059980641",
+            "0.360043332",
+            "-0.398421530",
+            "-0.999927535"
           ],
           [
-            "-0.313733634",
-            "-0.799717196",
-            "-0.337542048",
-            "-0.384568702",
-            "0.013996193"
+            "0.995072465",
+            "0.172488523",
+            "0.898275911",
+            "-0.937293266",
+            "0.448464677"
           ],
           [
-            "-0.530743691",
-            "-0.032125455",
-            "0.208241508",
-            "-0.747742265",
-            "0.338815687"
+            "-0.275213981",
+            "0.584908986",
+            "-0.115861693",
+            "-0.999565217",
+            "0.759896638"
           ],
           [
-            "0.04754735",
-            "0.060028788",
-            "-0.563468313",
-            "-0.757787357",
-            "-0.319996212"
+            "0.178167313",
+            "0.824859288",
+            "0.569502487",
+            "0.256430598",
+            "0.545990806"
           ],
           [
-            "-0.218171082",
-            "-0.496680428",
-            "0.144433472",
-            "0.037071554",
-            "0.826725228"
+            "-0.242701158",
+            "-0.447561230",
+            "0.284367534",
+            "-0.997391304",
+            "-0.115192774"
           ],
           [
-            "-0.378315303",
-            "0.007834028",
-            "-0.742710213",
-            "-0.113176788",
-            "0.540729798"
+            "-0.398974597",
+            "-0.457601531",
+            "0.999999999",
+            "-0.245697857",
+            "0.919069873"
           ],
           [
-            "0.295890614",
-            "-0.43367578",
-            "0.360797585",
-            "-0.741042236",
-            "-0.212262975"
+            "0.242921724",
+            "0.683811905",
+            "0.021041499",
+            "-0.333258292",
+            "-0.231200610"
           ],
           [
-            "-0.956409642",
-            "-0.121139121",
-            "0.015620662",
-            "0.208664799",
-            "0.163770895"
+            "0.133153683",
+            "-0.426686948",
+            "-0.203557249",
+            "-0.335334527",
+            "0.509277474"
           ],
           [
-            "-0.194697369",
-            "-0.634034473",
-            "-0.309375898",
-            "0.675145854",
-            "0.092508659"
+            "0.384884561",
+            "-0.631004453",
+            "0.251556205",
+            "-0.110763493",
+            "-0.095817927"
           ],
           [
-            "-0.411510724",
-            "0.096738362",
-            "0.223028711",
-            "0.623768784",
-            "-0.61844265"
+            "0.422510846",
+            "-0.382431267",
+            "-0.566883015",
+            "0.314419553",
+            "0.103130269"
           ],
           [
-            "0.53054699",
-            "0.068944361",
-            "-0.194862562",
-            "0.435945771",
-            "0.696955116"
+            "-0.999420289",
+            "-0.778004159",
+            "0.754684924",
+            "0.083071531",
+            "-0.857838620"
           ],
           [
-            "0.479887954",
-            "-0.385440416",
-            "-0.787102686",
-            "0.024946055",
-            "0.031468918"
+            "0.223211233",
+            "-0.045601974",
+            "0.996159420",
+            "0.273758265",
+            "-0.204289423"
           ]
         ]
       }
@@ -2669,132 +2869,140 @@
         "d": 5
       },
       "objective": "minimize",
-      "scoreStored": "200000000699239861",
-      "scoreDisplay": "0.447213597",
+      "scoreStored": "200000000111348023",
+      "scoreDisplay": "0.447213596",
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "0.447213597",
+        "display": "0.447213596",
         "kind": "best",
-        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (the value shown here is the verifier-exact result of the nine-decimal certificate)",
+        "range": {
+          "lower": "0.4472135954999579",
+          "upper": "0.4472135956676631"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "0.447213597",
+        "publishedDisplay": "0.7999999999",
+        "publishedMetric": "squared chordal distance D",
+        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (converted from the source-precision squared chordal distance D; the site's nine-place certificate is listed separately)",
         "url": "https://cohn.mit.edu/grassmannian/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "Stonebubu",
+      "method": "ai",
+      "recordedAt": "2026-09-02T08:16:42.835Z",
       "answer": {
         "vectors": [
           [
-            "-0.179614003",
-            "-0.426193467",
-            "-0.876590193",
-            "0.116694213",
-            "0.063796811"
+            "0.430866645",
+            "0.027317195",
+            "-0.999500048",
+            "-0.890509106",
+            "0.643482772"
           ],
           [
-            "0.161541027",
-            "0.360778727",
-            "0.344758272",
-            "0.634235603",
-            "-0.568005405"
+            "-0.542293781",
+            "0.560347013",
+            "0.999499999",
+            "-0.569283336",
+            "-0.474583501"
           ],
           [
-            "0.204524459",
-            "-0.961418455",
-            "-0.068526854",
-            "0.157326356",
-            "-0.066308276"
+            "-0.049272976",
+            "0.567714923",
+            "-0.196664640",
+            "0.029580383",
+            "0.999500100"
           ],
           [
-            "-0.031023038",
-            "-0.42217819",
-            "0.67392618",
-            "0.605151786",
-            "0.020444232"
+            "0.037977821",
+            "0.355259620",
+            "0.999499939",
+            "0.094293222",
+            "0.644593101"
           ],
           [
-            "0.338203513",
-            "0.331163533",
-            "-0.67093844",
-            "0.239039107",
-            "0.518315554"
+            "0.999499999",
+            "0.342827139",
+            "-0.522371391",
+            "-0.371601803",
+            "-0.553641121"
           ],
           [
-            "-0.407687259",
-            "0.034228249",
-            "0.627935433",
-            "0.020334359",
-            "0.661742496"
+            "0.800995978",
+            "-0.858885815",
+            "0.999501099",
+            "0.821377391",
+            "0.286031161"
           ],
           [
-            "-0.767606118",
-            "0.337991633",
-            "0.399577778",
-            "0.309148484",
-            "-0.20324202"
+            "-0.256209345",
+            "-0.878171969",
+            "0.999500050",
+            "-0.479300173",
+            "-0.054350148"
           ],
           [
-            "-0.735568159",
-            "-0.64751596",
-            "0.091533233",
-            "-0.046318682",
-            "0.170700942"
+            "0.078019802",
+            "-0.632865188",
+            "0.073772172",
+            "-0.030204363",
+            "0.999500001"
           ],
           [
-            "0.100653405",
-            "-0.444252053",
-            "-0.08312945",
-            "0.310589709",
-            "0.830140068"
+            "0.999500100",
+            "0.221331552",
+            "0.009019104",
+            "0.187023003",
+            "0.529905833"
           ],
           [
-            "-0.783705444",
-            "0.058456384",
-            "-0.436603861",
-            "-0.239803747",
-            "-0.366414874"
+            "-0.449858097",
+            "-0.999499780",
+            "-0.436838290",
+            "-0.730905195",
+            "0.154925077"
           ],
           [
-            "-0.524931119",
-            "0.200855697",
-            "0.294197245",
-            "-0.768164681",
-            "0.086459899"
+            "-0.291166903",
+            "-0.999500000",
+            "-0.112777318",
+            "0.567741176",
+            "-0.110593467"
           ],
           [
-            "-0.068615446",
-            "-0.541255541",
-            "-0.224915095",
-            "-0.666056875",
-            "-0.456197107"
+            "-0.954977055",
+            "-0.174017878",
+            "-0.999500006",
+            "0.230442667",
+            "0.663411499"
           ],
           [
-            "-0.487123704",
-            "-0.176791562",
-            "-0.203375451",
-            "0.811131678",
-            "0.179329495"
+            "0.655890832",
+            "-0.114599162",
+            "0.543003125",
+            "-0.999499973",
+            "0.569282732"
           ],
           [
-            "-0.311290445",
-            "-0.404119605",
-            "-0.119534562",
-            "0.41125629",
-            "-0.745899026"
+            "-0.827873109",
+            "0.171682239",
+            "0.225039272",
+            "-0.999499879",
+            "0.726502751"
           ],
           [
-            "0.211651962",
-            "-0.559314126",
-            "0.568545648",
-            "-0.472161379",
-            "0.310146151"
+            "-0.039320917",
+            "0.068248237",
+            "0.015071194",
+            "0.999500000",
+            "0.523658283"
           ],
           [
-            "0.635929675",
-            "-0.31591777",
-            "0.357477853",
-            "-0.014586407",
-            "-0.606453817"
+            "-0.915861083",
+            "0.999500000",
+            "0.141329464",
+            "0.352104779",
+            "0.143793814"
           ]
         ]
       }
@@ -2807,139 +3015,147 @@
         "d": 5
       },
       "objective": "minimize",
-      "scoreStored": "231268755277252353",
+      "scoreStored": "231268754463958538",
       "scoreDisplay": "0.480904102",
-      "status": "matched",
+      "status": "open",
       "settled": false,
       "knownBest": {
         "display": "0.480904102",
         "kind": "best",
-        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (the value shown here is the verifier-exact result of the nine-decimal certificate)",
+        "range": {
+          "lower": "0.4809041009910396",
+          "upper": "0.4809041010950104"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "0.480904102",
+        "publishedDisplay": "0.7687312456",
+        "publishedMetric": "squared chordal distance D",
+        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (converted from the source-precision squared chordal distance D; the site's nine-place certificate is listed separately)",
         "url": "https://cohn.mit.edu/grassmannian/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "Stonebubu",
+      "method": "ai",
+      "recordedAt": "2026-09-02T09:17:50.406Z",
       "answer": {
         "vectors": [
           [
-            "0.620781282",
-            "0.359891377",
-            "0.632499865",
-            "0.284168936",
-            "0.065579977"
+            "-0.140531037",
+            "-0.458419718",
+            "-0.220028114",
+            "-0.658112096",
+            "-0.537195018"
           ],
           [
-            "0.544768331",
-            "0.112826919",
-            "0.084353523",
-            "-0.752686543",
-            "0.341825984"
+            "0.141082310",
+            "-0.840995575",
+            "-0.849025859",
+            "-0.584091400",
+            "0.996739110"
           ],
           [
-            "0.26046086",
-            "-0.128041057",
-            "0.038914386",
-            "-0.024796861",
-            "0.9558433"
+            "-0.389414908",
+            "0.318779627",
+            "-0.698702450",
+            "-0.427557675",
+            "0.275217913"
           ],
           [
-            "0.284910843",
-            "-0.795172528",
-            "-0.119764929",
-            "-0.521494996",
-            "0.015026436"
+            "-0.836414007",
+            "-0.633327281",
+            "-0.399799131",
+            "0.796140057",
+            "0.999927538"
           ],
           [
-            "0.422203638",
-            "0.154982578",
-            "-0.23494791",
-            "0.74228153",
-            "0.437655228"
+            "-0.750645384",
+            "0.570738552",
+            "0.226323228",
+            "-0.999420281",
+            "-0.233840074"
           ],
           [
-            "-0.139898712",
-            "0.437605642",
-            "0.813139683",
-            "-0.34291802",
-            "-0.100701242"
+            "0.350000000",
+            "-0.245378853",
+            "-0.271775351",
+            "-0.022022781",
+            "-0.249880656"
           ],
           [
-            "0.63727898",
-            "0.364034714",
-            "-0.660582658",
-            "0.080502215",
-            "-0.13603005"
+            "-0.191622406",
+            "-0.215923206",
+            "0.980857132",
+            "-0.999855001",
+            "0.694273073"
           ],
           [
-            "0.350135768",
-            "-0.435577498",
-            "0.733601825",
-            "-0.226146767",
-            "0.313629064"
+            "-0.386753101",
+            "-0.458925965",
+            "-0.781798449",
+            "0.061499198",
+            "-0.157537393"
           ],
           [
-            "0.004421011",
-            "0.175123595",
-            "-0.741568429",
-            "-0.347372523",
-            "0.546553544"
+            "0.065652219",
+            "0.256949251",
+            "-0.021808557",
+            "-0.170967703",
+            "0.482708535"
           ],
           [
-            "0.931474357",
-            "-0.307788315",
-            "-0.027762463",
-            "0.067599176",
-            "0.179670453"
+            "-0.998115943",
+            "-0.577873678",
+            "-0.091380532",
+            "-0.575577399",
+            "0.307662490"
           ],
           [
-            "0.371541274",
-            "0.272256747",
-            "-0.015950925",
-            "0.697881656",
-            "-0.548215384"
+            "-0.276832876",
+            "-0.269668890",
+            "0.999999979",
+            "-0.495379185",
+            "-0.754972892"
           ],
           [
-            "-0.171332897",
-            "-0.006741286",
-            "0.572915401",
-            "0.717552484",
-            "0.357051774"
+            "-0.319816304",
+            "0.456262486",
+            "-0.417012474",
+            "-0.196726041",
+            "-0.995217391"
           ],
           [
-            "-0.277807075",
-            "0.633832175",
-            "-0.090904895",
-            "-0.708797503",
-            "0.102090166"
+            "0.893890050",
+            "-0.027021574",
+            "-0.199293468",
+            "-0.141378758",
+            "0.415840052"
           ],
           [
-            "0.302703999",
-            "0.798724039",
-            "0.084373201",
-            "-0.163736708",
-            "-0.486293792"
+            "0.847256009",
+            "-0.736512581",
+            "0.533422470",
+            "-0.689787373",
+            "-0.166280789"
           ],
           [
-            "-0.492900153",
-            "0.423979648",
-            "0.340292244",
-            "-0.052239871",
-            "0.677320368"
+            "0.711011885",
+            "0.770023680",
+            "-0.996086957",
+            "-0.327005759",
+            "-0.291604072"
           ],
           [
-            "0.524968287",
-            "-0.072337398",
-            "0.451271276",
-            "-0.466937049",
-            "-0.545435264"
+            "0.024977761",
+            "-0.741038702",
+            "-0.027270333",
+            "0.061736039",
+            "-0.016468052"
           ],
           [
-            "-0.355569318",
-            "-0.778000701",
-            "0.066544963",
-            "0.039827764",
-            "-0.512123897"
+            "-0.317772529",
+            "-0.105940264",
+            "0.200605131",
+            "0.996594083",
+            "-0.160628164"
           ]
         ]
       }
@@ -2952,146 +3168,154 @@
         "d": 5
       },
       "objective": "minimize",
-      "scoreStored": "234255032870492066",
+      "scoreStored": "234255032332514184",
       "scoreDisplay": "0.483999001",
       "status": "matched",
       "settled": false,
       "knownBest": {
         "display": "0.483999001",
         "kind": "best",
-        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (the value shown here is the verifier-exact result of the nine-decimal certificate)",
+        "range": {
+          "lower": "0.4839990002572319",
+          "upper": "0.4839990003605379"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "0.483999001",
+        "publishedDisplay": "0.7657449677",
+        "publishedMetric": "squared chordal distance D",
+        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (converted from the source-precision squared chordal distance D; the site's nine-place certificate is listed separately)",
         "url": "https://cohn.mit.edu/grassmannian/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "Stonebubu",
+      "method": "ai",
+      "recordedAt": "2026-09-02T09:18:53.822Z",
       "answer": {
         "vectors": [
           [
-            "-0.768167473",
-            "0.340535349",
-            "-0.227386699",
-            "0.473542372",
-            "-0.134191359"
+            "0.999501047",
+            "0.985493650",
+            "0.475375965",
+            "0.302974575",
+            "-0.805442346"
           ],
           [
-            "0.204440808",
-            "0.69454804",
-            "-0.1389446",
-            "0.675473143",
-            "-0.015408008"
+            "-0.180889217",
+            "0.579691380",
+            "-0.243592447",
+            "0.999500000",
+            "-0.463473161"
           ],
           [
-            "-0.748116047",
-            "-0.161472478",
-            "-0.521114529",
-            "-0.352679971",
-            "0.135297836"
+            "0.969414673",
+            "-0.257900021",
+            "0.999500051",
+            "-0.221165677",
+            "0.012640257"
           ],
           [
-            "-0.257428061",
-            "0.388835334",
-            "-0.602677727",
-            "0.209139602",
-            "0.612844238"
+            "0.748829432",
+            "-0.112992900",
+            "0.303789469",
+            "0.999500000",
+            "0.017459130"
           ],
           [
-            "-0.394371198",
-            "0.008337426",
-            "0.522306476",
-            "0.456332369",
-            "-0.602792302"
+            "0.003368657",
+            "0.999499800",
+            "-0.316208433",
+            "-0.643053293",
+            "-0.619433569"
           ],
           [
-            "0.091308583",
-            "-0.615457087",
-            "-0.75585086",
-            "-0.192819996",
-            "-0.066221163"
+            "-0.083450510",
+            "-0.059706241",
+            "0.999500120",
+            "-0.064871635",
+            "0.949043851"
           ],
           [
-            "0.253548748",
-            "0.786105222",
-            "0.042695459",
-            "-0.223464613",
-            "0.515744391"
+            "0.016262706",
+            "-0.911391925",
+            "-0.445048162",
+            "0.999499999",
+            "-0.612841263"
           ],
           [
-            "-0.828668511",
-            "-0.411586117",
-            "0.345756263",
-            "0.106703805",
-            "0.11389588"
+            "0.999501396",
+            "0.324620590",
+            "-0.145249480",
+            "-0.774695100",
+            "-0.005805699"
           ],
           [
-            "0.425893262",
-            "0.485617461",
-            "0.459006227",
-            "-0.540275854",
-            "-0.283206456"
+            "-0.999500110",
+            "-0.805129143",
+            "-0.398757342",
+            "-0.217131942",
+            "-0.875599214"
           ],
           [
-            "0.515117669",
-            "-0.131297458",
-            "-0.589017297",
-            "0.506663871",
-            "0.337290839"
+            "-0.187845407",
+            "0.299419320",
+            "0.090305901",
+            "0.999500000",
+            "0.892955009"
           ],
           [
-            "-0.027455826",
-            "-0.040642417",
-            "-0.663179106",
-            "0.543020617",
-            "-0.512753795"
+            "-0.248030717",
+            "0.999499950",
+            "0.802229880",
+            "0.388817964",
+            "0.126233840"
           ],
           [
-            "-0.023987278",
-            "0.374674537",
-            "-0.853346606",
-            "-0.306070127",
-            "-0.192780315"
+            "-0.134211553",
+            "-0.228984727",
+            "0.999500000",
+            "0.507032145",
+            "-0.217158828"
           ],
           [
-            "-0.317929099",
-            "-0.363286131",
-            "-0.029534765",
-            "-0.157698965",
-            "0.860931478"
+            "0.999500299",
+            "-0.547963773",
+            "-0.201165940",
+            "0.010610265",
+            "0.631825935"
           ],
           [
-            "0.289024746",
-            "-0.876760263",
-            "0.03146635",
-            "0.187107868",
-            "0.334300243"
+            "0.037615240",
+            "0.076878304",
+            "-0.247671187",
+            "-0.221255450",
+            "0.999499999"
           ],
           [
-            "-0.337980525",
-            "0.138721695",
-            "0.264193065",
-            "0.668523378",
-            "0.591442282"
+            "0.999500001",
+            "0.510382977",
+            "-0.860681828",
+            "0.509878608",
+            "0.000438403"
           ],
           [
-            "-0.696109647",
-            "0.462114538",
-            "0.193590943",
-            "-0.213990668",
-            "0.46755968"
+            "0.999500000",
+            "-0.432816317",
+            "-0.152740907",
+            "0.073933053",
+            "-0.691725152"
           ],
           [
-            "0.522697868",
-            "-0.028539091",
-            "0.260127697",
-            "0.194475473",
-            "0.787708912"
+            "0.055537681",
+            "-0.415768107",
+            "-0.999500051",
+            "0.600216631",
+            "0.625250541"
           ],
           [
-            "-0.170260337",
-            "0.301945593",
-            "-0.124138104",
-            "-0.922948481",
-            "0.112232389"
+            "0.100838113",
+            "-0.999500050",
+            "0.437189061",
+            "-0.143733851",
+            "-0.415865544"
           ]
         ]
       }
@@ -3104,153 +3328,161 @@
         "d": 5
       },
       "objective": "minimize",
-      "scoreStored": "250000001017688721",
-      "scoreDisplay": "0.500000002",
+      "scoreStored": "250000000000000000",
+      "scoreDisplay": "0.5",
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "0.500000002",
+        "display": "0.5",
         "kind": "best",
-        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (the value shown here is the verifier-exact result of the nine-decimal certificate)",
+        "range": {
+          "lower": "0.5",
+          "upper": "0.50000000015"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "0.500000002",
+        "publishedDisplay": "0.7499999999",
+        "publishedMetric": "squared chordal distance D",
+        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (converted from the source-precision squared chordal distance D; the site's nine-place certificate is listed separately)",
         "url": "https://cohn.mit.edu/grassmannian/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "Sigmoid with Codex",
+      "method": "ai",
+      "recordedAt": "2026-09-01T18:15:57.600Z",
       "answer": {
         "vectors": [
           [
-            "0.454659589",
-            "-0.631753016",
-            "-0.115975321",
-            "0.616448481",
-            "-0.026716673"
+            "0.000000001",
+            "0.000000001",
+            "0.000000000",
+            "0.000000000",
+            "0.000000000"
           ],
           [
-            "-0.921753288",
-            "0.135487596",
-            "0.073389638",
-            "0.005976682",
-            "-0.355798016"
+            "0.000000001",
+            "-0.000000001",
+            "0.000000000",
+            "0.000000000",
+            "0.000000000"
           ],
           [
-            "-0.47292478",
-            "0.035647537",
-            "0.83862768",
-            "-0.267901478",
-            "0.001953888"
+            "0.000000001",
+            "0.000000000",
+            "0.000000001",
+            "0.000000000",
+            "0.000000000"
           ],
           [
-            "-0.699988787",
-            "0.057198169",
-            "-0.222357965",
-            "0.550104985",
-            "0.393300787"
+            "0.000000001",
+            "0.000000000",
+            "-0.000000001",
+            "0.000000000",
+            "0.000000000"
           ],
           [
-            "-0.525335945",
-            "-0.708631299",
-            "0.232726305",
-            "-0.306739544",
-            "-0.271317427"
+            "0.000000001",
+            "0.000000000",
+            "0.000000000",
+            "0.000000001",
+            "0.000000000"
           ],
           [
-            "0.163522255",
-            "-0.290655306",
-            "-0.020435614",
-            "-0.385036403",
-            "0.860296065"
+            "0.000000001",
+            "0.000000000",
+            "0.000000000",
+            "-0.000000001",
+            "0.000000000"
           ],
           [
-            "-0.507070754",
-            "-0.11252582",
-            "-0.489926054",
-            "-0.655286548",
-            "-0.246554643"
+            "0.000000001",
+            "0.000000000",
+            "0.000000000",
+            "0.000000000",
+            "0.000000001"
           ],
           [
-            "-0.285306253",
-            "-0.190815247",
-            "-0.785673657",
-            "-0.111158244",
-            "0.50254416"
+            "0.000000001",
+            "0.000000000",
+            "0.000000000",
+            "0.000000000",
+            "-0.000000001"
           ],
           [
-            "-0.758231033",
-            "-0.15516771",
-            "0.052954023",
-            "-0.379059722",
-            "0.504498049"
+            "0.000000000",
+            "0.000000001",
+            "0.000000001",
+            "0.000000000",
+            "0.000000000"
           ],
           [
-            "0.448828508",
-            "-0.099840059",
-            "0.765238043",
-            "-0.273878159",
-            "0.357751904"
+            "0.000000000",
+            "0.000000001",
+            "-0.000000001",
+            "0.000000000",
+            "0.000000000"
           ],
           [
-            "0.467093698",
-            "0.49626542",
-            "0.042585684",
-            "-0.622425162",
-            "0.382514688"
+            "0.000000000",
+            "0.000000001",
+            "0.000000000",
+            "0.000000001",
+            "0.000000000"
           ],
           [
-            "0.232895088",
-            "-0.553463589",
-            "0.179772281",
-            "0.072320177",
-            "-0.775815476"
+            "0.000000000",
+            "0.000000001",
+            "0.000000000",
+            "-0.000000001",
+            "0.000000000"
           ],
           [
-            "-0.251160279",
-            "-0.04264189",
-            "0.542880078",
-            "0.276226826",
-            "0.751052692"
+            "0.000000000",
+            "0.000000001",
+            "0.000000000",
+            "0.000000000",
+            "0.000000001"
           ],
           [
-            "-0.414682534",
-            "0.248013416",
-            "0.563315692",
-            "0.661263229",
-            "-0.109243373"
+            "0.000000000",
+            "0.000000001",
+            "0.000000000",
+            "0.000000000",
+            "-0.000000001"
           ],
           [
-            "0.303571443",
-            "0.786920726",
-            "0.063021298",
-            "-0.237388759",
-            "-0.477781376"
+            "0.000000000",
+            "0.000000000",
+            "0.000000001",
+            "0.000000001",
+            "0.000000000"
           ],
           [
-            "-0.058242246",
-            "-0.212365879",
-            "0.275311988",
-            "-0.929164707",
-            "0.111197262"
+            "0.000000000",
+            "0.000000000",
+            "0.000000001",
+            "-0.000000001",
+            "0.000000000"
           ],
           [
-            "-0.221764501",
-            "0.078289427",
-            "0.295747603",
-            "-0.544128303",
-            "-0.749098803"
+            "0.000000000",
+            "0.000000000",
+            "0.000000001",
+            "0.000000000",
+            "0.000000001"
           ],
           [
-            "-0.018265191",
-            "-0.596105479",
-            "0.722652359",
-            "0.348547003",
-            "-0.024762784"
+            "0.000000000",
+            "0.000000000",
+            "0.000000001",
+            "0.000000000",
+            "-0.000000001"
           ],
           [
-            "-0.052411165",
-            "-0.744278836",
-            "-0.605901376",
-            "-0.038838067",
-            "-0.273271315"
+            "0.000000000",
+            "0.000000000",
+            "0.000000000",
+            "0.000000001",
+            "0.000000001"
           ]
         ]
       }
@@ -3263,160 +3495,168 @@
         "d": 5
       },
       "objective": "minimize",
-      "scoreStored": "250000001017688721",
-      "scoreDisplay": "0.500000002",
+      "scoreStored": "250000000000000000",
+      "scoreDisplay": "0.5",
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "0.500000002",
+        "display": "0.5",
         "kind": "best",
-        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (the value shown here is the verifier-exact result of the nine-decimal certificate)",
+        "range": {
+          "lower": "0.5",
+          "upper": "0.50000000015"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "0.500000002",
+        "publishedDisplay": "0.7499999999",
+        "publishedMetric": "squared chordal distance D",
+        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (converted from the source-precision squared chordal distance D; the site's nine-place certificate is listed separately)",
         "url": "https://cohn.mit.edu/grassmannian/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "Sigmoid with Codex",
+      "method": "ai",
+      "recordedAt": "2026-09-01T18:16:13.786Z",
       "answer": {
         "vectors": [
           [
-            "0.454659589",
-            "-0.631753016",
-            "-0.115975321",
-            "0.616448481",
-            "-0.026716673"
+            "0.000000001",
+            "0.000000001",
+            "0.000000000",
+            "0.000000000",
+            "0.000000000"
           ],
           [
-            "-0.921753288",
-            "0.135487596",
-            "0.073389638",
-            "0.005976682",
-            "-0.355798016"
+            "0.000000001",
+            "-0.000000001",
+            "0.000000000",
+            "0.000000000",
+            "0.000000000"
           ],
           [
-            "-0.47292478",
-            "0.035647537",
-            "0.83862768",
-            "-0.267901478",
-            "0.001953888"
+            "0.000000001",
+            "0.000000000",
+            "0.000000001",
+            "0.000000000",
+            "0.000000000"
           ],
           [
-            "-0.699988787",
-            "0.057198169",
-            "-0.222357965",
-            "0.550104985",
-            "0.393300787"
+            "0.000000001",
+            "0.000000000",
+            "-0.000000001",
+            "0.000000000",
+            "0.000000000"
           ],
           [
-            "-0.525335945",
-            "-0.708631299",
-            "0.232726305",
-            "-0.306739544",
-            "-0.271317427"
+            "0.000000001",
+            "0.000000000",
+            "0.000000000",
+            "0.000000001",
+            "0.000000000"
           ],
           [
-            "0.163522255",
-            "-0.290655306",
-            "-0.020435614",
-            "-0.385036403",
-            "0.860296065"
+            "0.000000001",
+            "0.000000000",
+            "0.000000000",
+            "-0.000000001",
+            "0.000000000"
           ],
           [
-            "-0.507070754",
-            "-0.11252582",
-            "-0.489926054",
-            "-0.655286548",
-            "-0.246554643"
+            "0.000000001",
+            "0.000000000",
+            "0.000000000",
+            "0.000000000",
+            "0.000000001"
           ],
           [
-            "-0.285306253",
-            "-0.190815247",
-            "-0.785673657",
-            "-0.111158244",
-            "0.50254416"
+            "0.000000001",
+            "0.000000000",
+            "0.000000000",
+            "0.000000000",
+            "-0.000000001"
           ],
           [
-            "-0.758231033",
-            "-0.15516771",
-            "0.052954023",
-            "-0.379059722",
-            "0.504498049"
+            "0.000000000",
+            "0.000000001",
+            "0.000000001",
+            "0.000000000",
+            "0.000000000"
           ],
           [
-            "0.448828508",
-            "-0.099840059",
-            "0.765238043",
-            "-0.273878159",
-            "0.357751904"
+            "0.000000000",
+            "0.000000001",
+            "-0.000000001",
+            "0.000000000",
+            "0.000000000"
           ],
           [
-            "0.467093698",
-            "0.49626542",
-            "0.042585684",
-            "-0.622425162",
-            "0.382514688"
+            "0.000000000",
+            "0.000000001",
+            "0.000000000",
+            "0.000000001",
+            "0.000000000"
           ],
           [
-            "0.232895088",
-            "-0.553463589",
-            "0.179772281",
-            "0.072320177",
-            "-0.775815476"
+            "0.000000000",
+            "0.000000001",
+            "0.000000000",
+            "-0.000000001",
+            "0.000000000"
           ],
           [
-            "-0.251160279",
-            "-0.04264189",
-            "0.542880078",
-            "0.276226826",
-            "0.751052692"
+            "0.000000000",
+            "0.000000001",
+            "0.000000000",
+            "0.000000000",
+            "0.000000001"
           ],
           [
-            "-0.414682534",
-            "0.248013416",
-            "0.563315692",
-            "0.661263229",
-            "-0.109243373"
+            "0.000000000",
+            "0.000000001",
+            "0.000000000",
+            "0.000000000",
+            "-0.000000001"
           ],
           [
-            "0.303571443",
-            "0.786920726",
-            "0.063021298",
-            "-0.237388759",
-            "-0.477781376"
+            "0.000000000",
+            "0.000000000",
+            "0.000000001",
+            "0.000000001",
+            "0.000000000"
           ],
           [
-            "-0.058242246",
-            "-0.212365879",
-            "0.275311988",
-            "-0.929164707",
-            "0.111197262"
+            "0.000000000",
+            "0.000000000",
+            "0.000000001",
+            "-0.000000001",
+            "0.000000000"
           ],
           [
-            "-0.221764501",
-            "0.078289427",
-            "0.295747603",
-            "-0.544128303",
-            "-0.749098803"
+            "0.000000000",
+            "0.000000000",
+            "0.000000001",
+            "0.000000000",
+            "0.000000001"
           ],
           [
-            "-0.018265191",
-            "-0.596105479",
-            "0.722652359",
-            "0.348547003",
-            "-0.024762784"
+            "0.000000000",
+            "0.000000000",
+            "0.000000001",
+            "0.000000000",
+            "-0.000000001"
           ],
           [
-            "-0.052411165",
-            "-0.744278836",
-            "-0.605901376",
-            "-0.038838067",
-            "-0.273271315"
+            "0.000000000",
+            "0.000000000",
+            "0.000000000",
+            "0.000000001",
+            "0.000000001"
           ],
           [
-            "0.396417343",
-            "-0.844118895",
-            "0.159336667",
-            "-0.312716226",
-            "0.084480589"
+            "0.000000000",
+            "0.000000000",
+            "0.000000000",
+            "0.000000001",
+            "-0.000000001"
           ]
         ]
       }
@@ -3429,167 +3669,175 @@
         "d": 5
       },
       "objective": "minimize",
-      "scoreStored": "293408625854542760",
+      "scoreStored": "293408625263331831",
       "scoreDisplay": "0.541672065",
-      "status": "matched",
+      "status": "open",
       "settled": false,
       "knownBest": {
         "display": "0.541672065",
         "kind": "best",
-        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (the value shown here is the verifier-exact result of the nine-decimal certificate)",
+        "range": {
+          "lower": "0.5416720642141332",
+          "upper": "0.5416720643064399"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "0.541672065",
+        "publishedDisplay": "0.7065913748",
+        "publishedMetric": "squared chordal distance D",
+        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (converted from the source-precision squared chordal distance D; the site's nine-place certificate is listed separately)",
         "url": "https://cohn.mit.edu/grassmannian/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "Stonebubu",
+      "method": "ai",
+      "recordedAt": "2026-09-01T16:31:15.451Z",
       "answer": {
         "vectors": [
           [
-            "-0.809698777",
-            "-0.044252313",
-            "-0.092431442",
-            "-0.493111953",
-            "-0.301208654"
+            "0.224102027",
+            "0.712623622",
+            "0.999499771",
+            "0.779158947",
+            "0.289757754"
           ],
           [
-            "0.122284611",
-            "-0.386926205",
-            "-0.332244252",
-            "0.350919632",
-            "-0.775760114"
+            "0.685006446",
+            "-0.026791964",
+            "0.117584904",
+            "0.001218976",
+            "-0.999499000"
           ],
           [
-            "0.327527539",
-            "0.369624333",
-            "-0.697534986",
-            "-0.157110763",
-            "-0.49483807"
+            "0.443347115",
+            "-0.445963477",
+            "0.999500043",
+            "-0.810586818",
+            "-0.589812963"
           ],
           [
-            "-0.317176608",
-            "0.846924075",
-            "-0.001369876",
-            "0.255350696",
-            "0.341925073"
+            "0.999500143",
+            "0.430574190",
+            "0.177530514",
+            "-0.951039570",
+            "-0.038590733"
           ],
           [
-            "-0.522419536",
-            "0.090373537",
-            "0.363920858",
-            "0.763381092",
-            "0.061003029"
+            "0.142120451",
+            "-0.395794632",
+            "0.999499955",
+            "0.514004563",
+            "-0.411007135"
           ],
           [
-            "0.09554199",
-            "0.778541901",
-            "0.548823708",
-            "-0.286305781",
-            "-0.039569868"
+            "0.249831784",
+            "-0.608386727",
+            "0.137199612",
+            "-0.064976019",
+            "0.999500998"
           ],
           [
-            "0.109700938",
-            "-0.021991363",
-            "-0.914114442",
-            "-0.221724615",
-            "0.320491912"
+            "0.184160308",
+            "0.369703049",
+            "0.016285302",
+            "-0.785747448",
+            "0.999500250"
           ],
           [
-            "0.472782867",
-            "-0.140048691",
-            "0.528984574",
-            "-0.593372909",
-            "-0.353477914"
+            "-0.999499899",
+            "-0.261166960",
+            "-0.173016702",
+            "-0.108349860",
+            "-0.729885238"
           ],
           [
-            "-0.209048865",
-            "-0.412081672",
-            "-0.313527109",
-            "-0.014027519",
-            "0.829452379"
+            "-0.954407675",
+            "-0.353584360",
+            "0.999500095",
+            "-0.554900847",
+            "-0.187357229"
           ],
           [
-            "0.128109267",
-            "-0.462905237",
-            "0.358927211",
-            "-0.607759607",
-            "0.520678667"
+            "0.107979319",
+            "0.999500101",
+            "-0.087334722",
+            "0.188962821",
+            "0.634962344"
           ],
           [
-            "-0.729228759",
-            "0.353505214",
-            "0.5637641",
-            "-0.109361181",
-            "0.11605883"
+            "0.036124292",
+            "-0.999499759",
+            "0.184240719",
+            "0.605910126",
+            "0.179256690"
           ],
           [
-            "-0.254499831",
-            "-0.597399555",
-            "-0.412851671",
-            "-0.626223323",
-            "0.125464956"
+            "0.655895344",
+            "0.360860367",
+            "-0.999500389",
+            "-0.590434653",
+            "-0.700551464"
           ],
           [
-            "0.006620803",
-            "0.151754635",
-            "0.16639185",
-            "0.552695028",
-            "0.802351952"
+            "-0.289613362",
+            "-0.006835771",
+            "-0.999500001",
+            "0.305607513",
+            "-0.577987418"
           ],
           [
-            "-0.476280084",
-            "-0.073938121",
-            "-0.792492841",
-            "0.063691035",
-            "-0.368224096"
+            "0.898981375",
+            "-0.999499800",
+            "-0.991788484",
+            "0.278429480",
+            "-0.677091814"
           ],
           [
-            "-0.372540185",
-            "0.754347633",
-            "-0.180281885",
-            "-0.249128901",
-            "-0.444529742"
+            "0.914375621",
+            "0.999500205",
+            "0.124601212",
+            "0.268364230",
+            "-0.324973338"
           ],
           [
-            "-0.363309377",
-            "-0.552597054",
-            "0.577654135",
-            "-0.412927307",
-            "-0.241763379"
+            "0.220312513",
+            "-0.079446102",
+            "0.056565647",
+            "0.999500100",
+            "0.808806874"
           ],
           [
-            "0.832968658",
-            "0.474780539",
-            "0.048446856",
-            "-0.203458756",
-            "-0.192364476"
+            "-0.865193063",
+            "0.205855181",
+            "-0.104777118",
+            "-0.999503839",
+            "0.294680078"
           ],
           [
-            "0.620419213",
-            "-0.308702714",
-            "0.426741706",
-            "0.322657197",
-            "-0.483287166"
+            "0.999498563",
+            "-0.774831725",
+            "0.310206369",
+            "-0.059256683",
+            "0.085941957"
           ],
           [
-            "-0.58508963",
-            "-0.02913562",
-            "0.198012965",
-            "0.276987051",
-            "-0.735452432"
+            "0.049168013",
+            "0.857273342",
+            "0.999500139",
+            "-0.300731183",
+            "-0.618843172"
           ],
           [
-            "-0.150759932",
-            "0.230886199",
-            "0.199359285",
-            "-0.93904326",
-            "0.04915931"
+            "-0.999499998",
+            "0.415399970",
+            "0.822587220",
+            "0.680849621",
+            "-0.635274698"
           ],
           [
-            "-0.193816436",
-            "-0.735754432",
-            "0.336509284",
-            "0.479701658",
-            "-0.278834047"
+            "0.042130247",
+            "-0.629480972",
+            "0.120443770",
+            "-0.999500018",
+            "0.330909746"
           ]
         ]
       }
@@ -3602,174 +3850,182 @@
         "d": 5
       },
       "objective": "minimize",
-      "scoreStored": "306954038209615448",
-      "scoreDisplay": "0.55403433",
-      "status": "matched",
+      "scoreStored": "306954037562437136",
+      "scoreDisplay": "0.554034329",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "0.55403433",
+        "display": "0.554034329",
         "kind": "best",
-        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (the value shown here is the verifier-exact result of the nine-decimal certificate)",
+        "range": {
+          "lower": "0.5540343287649241",
+          "upper": "0.5540343288551712"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "0.55403433",
+        "publishedDisplay": "0.6930459625",
+        "publishedMetric": "squared chordal distance D",
+        "source": "the public Grassmannian configuration archive maintained by Henry Cohn (converted from the source-precision squared chordal distance D; the site's nine-place certificate is listed separately)",
         "url": "https://cohn.mit.edu/grassmannian/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "Stonebubu",
+      "method": "ai",
+      "recordedAt": "2026-09-02T09:16:46.925Z",
       "answer": {
         "vectors": [
           [
-            "0.516158436",
-            "0.30449673",
-            "0.247275543",
-            "0.734164062",
-            "0.201792334"
+            "-0.528739694",
+            "-0.678346259",
+            "-0.433603342",
+            "-0.927972945",
+            "0.999499902"
           ],
           [
-            "-0.053544641",
-            "-0.289732631",
-            "0.039853435",
-            "0.204052032",
-            "-0.932717774"
+            "0.674376783",
+            "-0.999499925",
+            "-0.301600478",
+            "0.588811890",
+            "-0.242673880"
           ],
           [
-            "-0.255734108",
-            "-0.821055204",
-            "0.115089247",
-            "-0.365679674",
-            "0.336899479"
+            "0.933089980",
+            "0.999500020",
+            "0.516627989",
+            "0.554282314",
+            "0.413978179"
           ],
           [
-            "0.692035784",
-            "-0.118815117",
-            "-0.242464001",
-            "0.225826893",
-            "0.630224455"
+            "-0.155459532",
+            "0.035750333",
+            "0.799423348",
+            "-0.999499500",
+            "0.734644439"
           ],
           [
-            "-0.2596883",
-            "0.304115246",
-            "0.867724498",
-            "-0.295113208",
-            "-0.006188219"
+            "-0.751658404",
+            "0.392875667",
+            "-0.678884611",
+            "0.999499863",
+            "0.388277738"
           ],
           [
-            "-0.432004265",
-            "0.051963966",
-            "-0.819872582",
-            "-0.107094865",
-            "0.356387009"
+            "0.328674669",
+            "0.738736470",
+            "0.243744338",
+            "-0.776991407",
+            "-0.999499989"
           ],
           [
-            "0.55720601",
-            "0.475493934",
-            "-0.638169034",
-            "-0.164718146",
-            "0.170397177"
+            "-0.845107696",
+            "-0.346374134",
+            "0.999500004",
+            "-0.950648033",
+            "-0.580413986"
           ],
           [
-            "-0.763950657",
-            "0.387740516",
-            "0.126243508",
-            "-0.439360577",
-            "0.238875588"
+            "-0.409255354",
+            "0.999499901",
+            "-0.516587776",
+            "0.380353613",
+            "-0.627497740"
           ],
           [
-            "0.057679867",
-            "-0.105962407",
-            "0.429753803",
-            "-0.782794735",
-            "0.433577066"
+            "-0.562798720",
+            "0.999499736",
+            "0.661100037",
+            "0.847724457",
+            "0.413293425"
           ],
           [
-            "-0.277141328",
-            "0.448585969",
-            "0.553868953",
-            "0.466645239",
-            "-0.444336264"
+            "-0.260313694",
+            "-0.425596293",
+            "-0.999499949",
+            "0.227473261",
+            "0.083200638"
           ],
           [
-            "0.23956135",
-            "0.796803731",
-            "0.267184152",
-            "-0.482668368",
-            "0.057948672"
+            "-0.999500050",
+            "0.019669891",
+            "0.066923854",
+            "0.212322200",
+            "-0.134477548"
           ],
           [
-            "0.225067942",
-            "-0.569279202",
-            "0.479228289",
-            "0.389888549",
-            "0.493551191"
+            "0.322924698",
+            "0.217520555",
+            "-0.012316257",
+            "-0.130130638",
+            "0.999500001"
           ],
           [
-            "-0.520506387",
-            "-0.192623159",
-            "-0.646770738",
-            "0.052100584",
-            "-0.520521433"
+            "0.797500984",
+            "-0.195940966",
+            "-0.145738270",
+            "-0.021724502",
+            "-0.999501898"
           ],
           [
-            "-0.237543327",
-            "0.844657694",
-            "-0.352544605",
-            "-0.02760503",
-            "0.324155535"
+            "-0.999498999",
+            "0.440116134",
+            "-0.349016266",
+            "-0.782470721",
+            "-0.855792930"
           ],
           [
-            "-0.195540899",
-            "0.632327227",
-            "0.477574469",
-            "0.340754726",
-            "0.466620701"
+            "-0.928298127",
+            "0.458249372",
+            "-0.999499999",
+            "-0.410183138",
+            "0.452266731"
           ],
           [
-            "-0.769379202",
-            "0.433792903",
-            "-0.199454877",
-            "0.389385399",
-            "-0.1687487"
+            "0.087756552",
+            "0.107439767",
+            "-0.999500069",
+            "-0.289961021",
+            "-0.716239686"
           ],
           [
-            "-0.471652237",
-            "-0.151152894",
-            "0.538197013",
-            "-0.049884623",
-            "0.680112101"
+            "-0.013801158",
+            "0.999500000",
+            "-0.394663196",
+            "0.144138633",
+            "0.521553798"
           ],
           [
-            "-0.176836559",
-            "-0.449370298",
-            "-0.30208884",
-            "0.245214657",
-            "0.784478981"
+            "0.697181644",
+            "0.999499527",
+            "0.223796899",
+            "-0.911542293",
+            "0.392135200"
           ],
           [
-            "-0.902888827",
-            "-0.362325336",
-            "-0.154571096",
-            "0.036227152",
-            "0.168248289"
+            "0.972429760",
+            "0.999500000",
+            "-0.602650862",
+            "0.065110717",
+            "-0.485535706"
           ],
           [
-            "0.508462006",
-            "0.084202575",
-            "-0.162816835",
-            "-0.755682915",
-            "-0.369878798"
+            "-0.454997150",
+            "-0.409610180",
+            "0.999500232",
+            "0.606430041",
+            "-0.401388452"
           ],
           [
-            "0.023920562",
-            "0.289703664",
-            "-0.506048287",
-            "0.656904222",
-            "0.477379899"
+            "-0.020220673",
+            "0.051451353",
+            "-0.174588492",
+            "-0.999500000",
+            "-0.038355691"
           ],
           [
-            "0.06289196",
-            "-0.335444743",
-            "0.385527464",
-            "0.802539299",
-            "-0.301364687"
+            "0.804965264",
+            "-0.895382216",
+            "-0.923946142",
+            "-0.110775789",
+            "0.999499700"
           ]
         ]
       }

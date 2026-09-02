@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/circles-covering-an-equilateral-triangle",
-  "generatedAt": "2026-09-01T10:14:08.302Z",
+  "generatedAt": "2026-09-02T09:43:43.081Z",
   "instances": [
     {
       "instanceId": "p74-n7-v1",
@@ -26,12 +26,14 @@
       "knownBest": {
         "display": "0.1852510855786008545",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "0.185251085806292",
         "source": "The construction by Hans Melissen appears in Figure 2 of Nurmela (2000); the paper's continuous value is 0.1852510855786008545. Optimality remains open; the site's nine-decimal reconstruction of the published contact graph verifies at 0.185251085806292.",
         "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-09-01T03:45:32.058Z",
       "answer": {
         "points": [
           [
@@ -79,12 +81,14 @@
       "knownBest": {
         "display": "0.1769926664029649641",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "0.176992666698618",
         "source": "The construction by Hans Melissen appears in Figure 2 of Nurmela (2000); the paper's continuous value is 0.1769926664029649641. Optimality remains open; the site's nine-decimal reconstruction of the published contact graph verifies at 0.176992666698618.",
         "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-09-01T03:45:32.058Z",
       "answer": {
         "points": [
           [
@@ -141,7 +145,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-09-01T03:45:32.058Z",
       "answer": {
         "points": [
           [
@@ -202,7 +206,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-09-01T03:45:32.058Z",
       "answer": {
         "points": [
           [
@@ -262,12 +266,14 @@
       "knownBest": {
         "display": "0.1410544578570137366",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "0.141054458266309",
         "source": "The construction by Hans Melissen appears in Figure 2 of Nurmela (2000); the paper's continuous value is 0.1410544578570137366. Optimality remains open; the site's nine-decimal reconstruction of the published contact graph verifies at 0.141054458266309.",
         "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-09-01T03:45:32.058Z",
       "answer": {
         "points": [
           [
@@ -324,68 +330,70 @@
         "n": 12
       },
       "objective": "minimize",
-      "scoreStored": "137362186814467864",
-      "scoreDisplay": "0.137362186814468",
+      "scoreStored": "137323615897481488",
+      "scoreDisplay": "0.137323615897482",
       "status": "open",
       "settled": false,
       "knownBest": {
         "display": "0.1373236156889236662",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "0.137362186814468",
         "source": "The construction by Hans Melissen appears in Figure 2 of Nurmela (2000); the paper's continuous value is 0.1373236156889236662. Optimality remains open; the paper publishes no directly importable coordinates; the site's nine-decimal contact-graph reconstruction verifies at 0.137362186814468, and its gap from the paper is disclosed rather than presented as source data.",
         "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "Sigmoid with Codex",
+      "method": "ai",
+      "recordedAt": "2026-09-01T16:04:55.976Z",
       "answer": {
         "points": [
           [
-            "0.871635612",
-            "0.048897385"
+            "0.098003293",
+            "0.096193191"
           ],
           [
-            "0.617335256",
-            "0.054849813"
+            "0.230310686",
+            "0.325356317"
           ],
           [
-            "0.75621681",
-            "0.189947959"
+            "0.294009881",
+            "0.096193188"
           ],
           [
-            "0.370409286",
-            "0.065036836"
+            "0.419269235",
+            "0.300234568"
           ],
           [
-            "0.124709643",
-            "0.057583637"
+            "0.387707202",
+            "0.519203447"
           ],
           [
-            "0.699147218",
-            "0.376568312"
+            "0.495487402",
+            "0.728775953"
           ],
           [
-            "0.497883141",
-            "0.257240225"
+            "0.498642715",
+            "0.086532750"
           ],
           [
-            "0.24071037",
-            "0.242952368"
+            "0.564870850",
+            "0.329120723"
           ],
           [
-            "0.565992045",
-            "0.510741567"
+            "0.625430225",
+            "0.527019496"
           ],
           [
-            "0.355662548",
-            "0.386527634"
+            "0.691654654",
+            "0.106751377"
           ],
           [
-            "0.367238959",
-            "0.625525089"
+            "0.784260435",
+            "0.320964933"
           ],
           [
-            "0.568662651",
-            "0.747055615"
+            "0.889018527",
+            "0.080875757"
           ]
         ]
       }
@@ -404,12 +412,14 @@
       "knownBest": {
         "display": "0.1326643857765088351",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "0.132664386321532",
         "source": "The construction by Kari J. Nurmela appears in Figure 2 of Nurmela (2000); the paper's continuous value is 0.1326643857765088351. Optimality remains open; the site's nine-decimal reconstruction of the published contact graph verifies at 0.132664386321532.",
         "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-09-01T03:45:32.058Z",
       "answer": {
         "points": [
           [
@@ -481,12 +491,14 @@
       "knownBest": {
         "display": "0.1275163863998600644",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "0.127516386733134",
         "source": "The construction by Hans Melissen appears in Figure 2 of Nurmela (2000); the paper's continuous value is 0.1275163863998600644. Optimality remains open; the site's nine-decimal reconstruction of the published contact graph verifies at 0.127516386733134.",
         "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-09-01T03:45:32.058Z",
       "answer": {
         "points": [
           [
@@ -562,12 +574,14 @@
       "knownBest": {
         "display": "0.1154700538379251529",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "0.115470054378444",
         "source": "The construction by Hans Melissen appears in Figure 2 of Nurmela (2000); the paper's continuous value is 0.1154700538379251529. Optimality remains open; the site's nine-decimal reconstruction of the published contact graph verifies at 0.115470054378444.",
         "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-09-01T03:45:32.058Z",
       "answer": {
         "points": [
           [
@@ -647,12 +661,14 @@
       "knownBest": {
         "display": "0.1137125784440782042",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "0.113712578894961",
         "source": "The construction by Hans Melissen appears in Figure 2 of Nurmela (2000); the paper's continuous value is 0.1137125784440782042. Optimality remains open; the site's nine-decimal reconstruction of the published contact graph verifies at 0.113712578894961.",
         "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-09-01T03:45:32.058Z",
       "answer": {
         "points": [
           [
@@ -736,12 +752,14 @@
       "knownBest": {
         "display": "0.1113943099632405880",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "0.111394310447661",
         "source": "The construction by Hans Melissen appears in Figure 3 of Nurmela (2000); the paper's continuous value is 0.1113943099632405880. Optimality remains open; the site's nine-decimal reconstruction of the published contact graph verifies at 0.111394310447661.",
         "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-09-01T03:45:32.058Z",
       "answer": {
         "points": [
           [
@@ -829,12 +847,14 @@
       "knownBest": {
         "display": "0.1091089451179961906",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "0.109108945604594",
         "source": "The construction by Hans Melissen appears in Figure 3 of Nurmela (2000); the paper's continuous value is 0.1091089451179961906. Optimality remains open; the site's nine-decimal reconstruction of the published contact graph verifies at 0.109108945604594.",
         "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-09-01T03:45:32.058Z",
       "answer": {
         "points": [
           [
@@ -919,96 +939,98 @@
         "n": 19
       },
       "objective": "minimize",
-      "scoreStored": "106273196730284547",
-      "scoreDisplay": "0.106273196730285",
+      "scoreStored": "106173792930550924",
+      "scoreDisplay": "0.106173792930551",
       "status": "open",
       "settled": false,
       "knownBest": {
         "display": "0.1061737927289732618",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "0.106273196730285",
         "source": "The construction by Kari J. Nurmela appears in Figure 3 of Nurmela (2000); the paper's continuous value is 0.1061737927289732618. Optimality remains open; the paper publishes no directly importable coordinates; the site's nine-decimal contact-graph reconstruction verifies at 0.106273196730285, and its gap from the paper is disclosed rather than presented as source data.",
         "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "Sigmoid with Codex",
+      "method": "ai",
+      "recordedAt": "2026-09-01T16:04:24.728Z",
       "answer": {
         "points": [
           [
-            "0.906548755",
-            "0.050604911"
+            "0.904672030",
+            "0.046748822"
           ],
           [
-            "0.710135919",
-            "0.026323055"
+            "0.500850887",
+            "0.445198556"
           ],
           [
-            "0.803500696",
-            "0.165139031"
+            "0.252662299",
+            "0.288535606"
           ],
           [
-            "0.503937109",
-            "0.025220399"
+            "0.748143481",
+            "0.287139952"
           ],
           [
-            "0.59918607",
-            "0.157536414"
+            "0.577502947",
+            "0.601348269"
           ],
           [
-            "0.297661976",
-            "0.026022702"
+            "0.324196722",
+            "0.431433895"
           ],
           [
-            "0.775826396",
-            "0.337839274"
+            "0.706673978",
+            "0.027050482"
           ],
           [
-            "0.393186568",
-            "0.157236061"
+            "0.806129816",
+            "0.162479857"
           ],
           [
-            "0.097312032",
-            "0.042712535"
+            "0.096408654",
+            "0.044477474"
           ],
           [
-            "0.451214384",
-            "0.279865648"
+            "0.590848843",
+            "0.320024274"
           ],
           [
-            "0.190040299",
-            "0.168239606"
+            "0.393605226",
+            "0.601849375"
           ],
           [
-            "0.644904116",
-            "0.472469109"
+            "0.692213747",
+            "0.456491717"
           ],
           [
-            "0.258310987",
-            "0.293816041"
+            "0.601715910",
+            "0.161395806"
           ],
           [
-            "0.51452309",
-            "0.433155913"
+            "0.500289314",
+            "0.759852006"
           ],
           [
-            "0.328164535",
-            "0.432815068"
+            "0.296051206",
+            "0.024812026"
           ],
           [
-            "0.568683186",
-            "0.61614483"
+            "0.395811930",
+            "0.159157351"
           ],
           [
-            "0.403463039",
-            "0.588863139"
+            "0.443824215",
+            "0.277232002"
           ],
           [
-            "0.484836731",
-            "0.760839533"
+            "0.501644500",
+            "0.028203339"
           ],
           [
-            "0.633046277",
-            "0.272674924"
+            "0.192152914",
+            "0.162754343"
           ]
         ]
       }
@@ -1020,100 +1042,102 @@
         "n": 20
       },
       "objective": "minimize",
-      "scoreStored": "103285256972762701",
-      "scoreDisplay": "0.103285256972763",
+      "scoreStored": "103227218544968202",
+      "scoreDisplay": "0.103227218544969",
       "status": "open",
       "settled": false,
       "knownBest": {
         "display": "0.1032272183417310354",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "0.103285256972763",
         "source": "The construction by Kari J. Nurmela appears in Figure 3 of Nurmela (2000); the paper's continuous value is 0.1032272183417310354. Optimality remains open; the paper publishes no directly importable coordinates; the site's nine-decimal contact-graph reconstruction verifies at 0.103285256972763, and its gap from the paper is disclosed rather than presented as source data.",
         "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "Sigmoid with Codex",
+      "method": "ai",
+      "recordedAt": "2026-09-01T16:04:40.070Z",
       "answer": {
         "points": [
           [
-            "0.099696212",
-            "0.026990916"
+            "0.301250638",
+            "0.028036825"
           ],
           [
-            "0.173089656",
-            "0.15317882"
+            "0.317097101",
+            "0.453198306"
           ],
           [
-            "0.241370526",
-            "0.292443384"
+            "0.648380476",
+            "0.146713702"
           ],
           [
-            "0.299259155",
-            "0.026352993"
+            "0.899048105",
+            "0.021553968"
           ],
           [
-            "0.319736796",
-            "0.442255022"
+            "0.500000004",
+            "0.027838767"
           ],
           [
-            "0.359768261",
-            "0.1444623"
+            "0.100951898",
+            "0.021553953"
           ],
           [
-            "0.423344699",
-            "0.289538973"
+            "0.698749369",
+            "0.028036828"
           ],
           [
-            "0.399868101",
-            "0.604152593"
+            "0.351619514",
+            "0.146713690"
           ],
           [
-            "0.499825824",
-            "0.022964464"
+            "0.831510928",
+            "0.147794685"
           ],
           [
-            "0.492919398",
-            "0.453456986"
+            "0.589397391",
+            "0.607957364"
           ],
           [
-            "0.495187129",
-            "0.762852343"
+            "0.765057201",
+            "0.294967619"
           ],
           [
-            "0.597554778",
-            "0.30657152"
+            "0.682902882",
+            "0.453198312"
           ],
           [
-            "0.578569085",
-            "0.61248873"
+            "0.499999995",
+            "0.461078855"
           ],
           [
-            "0.661315145",
-            "0.160920226"
+            "0.168489062",
+            "0.147794664"
           ],
           [
-            "0.673204056",
-            "0.464991947"
+            "0.589397383",
+            "0.306238027"
           ],
           [
-            "0.698483633",
-            "0.032742937"
+            "0.234942785",
+            "0.294967602"
           ],
           [
-            "0.773292281",
-            "0.30956659"
+            "0.410602592",
+            "0.306238035"
           ],
           [
-            "0.835933387",
-            "0.147246639"
+            "0.410602604",
+            "0.607957354"
           ],
           [
-            "0.898220751",
-            "0.017573525"
+            "0.501241919",
+            "0.173404398"
           ],
           [
-            "0.544722332",
-            "0.144320809"
+            "0.499999994",
+            "0.762798187"
           ]
         ]
       }
@@ -1132,12 +1156,14 @@
       "knownBest": {
         "display": "0.0962250448649376274",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "0.096225045409067",
         "source": "The construction by Kari J. Nurmela appears in Figure 3 of Nurmela (2000); the paper's continuous value is 0.0962250448649376274. Optimality remains open; the site's nine-decimal reconstruction of the published contact graph verifies at 0.096225045409067.",
         "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-09-01T03:45:32.058Z",
       "answer": {
         "points": [
           [
@@ -1241,12 +1267,14 @@
       "knownBest": {
         "display": "0.0951772351261450917",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "0.095177235493676",
         "source": "The construction by Kari J. Nurmela appears in Figure 3 of Nurmela (2000); the paper's continuous value is 0.0951772351261450917. Optimality remains open; the site's nine-decimal reconstruction of the published contact graph verifies at 0.095177235493676.",
         "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-09-01T03:45:32.058Z",
       "answer": {
         "points": [
           [
@@ -1347,112 +1375,114 @@
         "n": 23
       },
       "objective": "minimize",
-      "scoreStored": "93985748465024682",
-      "scoreDisplay": "0.093985748465025",
+      "scoreStored": "93774291348169571",
+      "scoreDisplay": "0.093774291348170",
       "status": "open",
       "settled": false,
       "knownBest": {
         "display": "0.0937742911094478264",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "0.093985748465025",
         "source": "The construction by Kari J. Nurmela appears in Figure 3 of Nurmela (2000); the paper's continuous value is 0.0937742911094478264. Optimality remains open; the paper publishes no directly importable coordinates; the site's nine-decimal contact-graph reconstruction verifies at 0.093985748465025, and its gap from the paper is disclosed rather than presented as source data.",
         "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "Sigmoid with Codex",
+      "method": "ai",
+      "recordedAt": "2026-09-01T16:04:09.161Z",
       "answer": {
         "points": [
           [
-            "0.952998291",
-            "0.081388944"
+            "0.406910787",
+            "0.048644857"
           ],
           [
-            "0.66705074",
-            "0.078895956"
+            "0.164797500",
+            "0.185746215"
           ],
           [
-            "0.812047669",
-            "0.160890177"
+            "0.700473595",
+            "0.404892608"
           ],
           [
-            "0.545314764",
-            "0.061971578"
+            "0.490763730",
+            "0.772707084"
           ],
           [
-            "0.639121832",
-            "0.208729938"
+            "0.321996166",
+            "0.473030576"
           ],
           [
-            "0.397841768",
-            "0.054158046"
+            "0.241585444",
+            "0.327985381"
           ],
           [
-            "0.778938327",
-            "0.287713735"
+            "0.486973295",
+            "0.193696484"
           ],
           [
-            "0.240947868",
-            "0.049197152"
+            "0.464323179",
+            "0.495407708"
           ],
           [
-            "0.481314102",
-            "0.201834421"
+            "0.561919700",
+            "0.641365860"
           ],
           [
-            "0.323031116",
-            "0.195076371"
+            "0.565585499",
+            "0.051290283"
           ],
           [
-            "0.080433451",
-            "0.048618728"
+            "0.400287628",
+            "0.625368171"
           ],
           [
-            "0.685690675",
-            "0.384739653"
+            "0.243858039",
+            "0.043864982"
           ],
           [
-            "0.558682749",
-            "0.350164003"
+            "0.913845515",
+            "0.037027319"
           ],
           [
-            "0.163369223",
-            "0.190173661"
+            "0.735890412",
+            "0.019138033"
           ],
           [
-            "0.400703761",
-            "0.342974464"
+            "0.400577593",
+            "0.331157861"
           ],
           [
-            "0.642152931",
-            "0.500959339"
+            "0.080487853",
+            "0.048117805"
           ],
           [
-            "0.242368464",
-            "0.336126112"
+            "0.832794431",
+            "0.147992683"
           ],
           [
-            "0.485537406",
-            "0.489534339"
+            "0.537755245",
+            "0.363906791"
           ],
           [
-            "0.325920142",
-            "0.482806726"
+            "0.778036096",
+            "0.275509108"
           ],
           [
-            "0.57245166",
-            "0.634345312"
+            "0.325526274",
+            "0.186156880"
           ],
           [
-            "0.411236451",
-            "0.628409835"
+            "0.660714334",
+            "0.151228693"
           ],
           [
-            "0.496631665",
-            "0.772100034"
+            "0.620955310",
+            "0.518010033"
           ],
           [
-            "0.812061617",
-            "0.003089237"
+            "0.620204257",
+            "0.264775899"
           ]
         ]
       }
@@ -1471,12 +1501,14 @@
       "knownBest": {
         "display": "0.0923541375945022204",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "0.092354138033469",
         "source": "The construction by Kari J. Nurmela appears in Figure 3 of Nurmela (2000); the paper's continuous value is 0.0923541375945022204. Optimality remains open; the site's nine-decimal reconstruction of the published contact graph verifies at 0.092354138033469.",
         "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-09-01T03:45:32.058Z",
       "answer": {
         "points": [
           [
@@ -1592,12 +1624,14 @@
       "knownBest": {
         "display": "0.0906182448311340175",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "0.090618245263137",
         "source": "The construction by Kari J. Nurmela appears in Figure 3 of Nurmela (2000); the paper's continuous value is 0.0906182448311340175. Optimality remains open; the site's nine-decimal reconstruction of the published contact graph verifies at 0.090618245263137.",
         "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-09-01T03:45:32.058Z",
       "answer": {
         "points": [
           [
@@ -1710,124 +1744,126 @@
         "n": 26
       },
       "objective": "minimize",
-      "scoreStored": "88793207681237882",
-      "scoreDisplay": "0.088793207681238",
+      "scoreStored": "88782925097580060",
+      "scoreDisplay": "0.088782925097581",
       "status": "open",
       "settled": false,
       "knownBest": {
         "display": "0.0887829248953373781",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "0.088793207681238",
         "source": "The construction by Kari J. Nurmela appears in Figure 3 of Nurmela (2000); the paper's continuous value is 0.0887829248953373781. Optimality remains open; the paper publishes no directly importable coordinates; the site's nine-decimal contact-graph reconstruction verifies at 0.088793207681238, and its gap from the paper is disclosed rather than presented as source data.",
         "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "Sigmoid with Codex",
+      "method": "ai",
+      "recordedAt": "2026-09-01T16:05:27.911Z",
       "answer": {
         "points": [
           [
-            "0.926734365",
-            "0.050163536"
+            "0.517386661",
+            "0.298658556"
           ],
           [
-            "0.79372656",
-            "0.065689472"
+            "0.474471663",
+            "0.422468805"
           ],
           [
-            "0.66997307",
-            "0.061536856"
+            "0.603104609",
+            "0.199670078"
           ],
           [
-            "0.858051015",
-            "0.202381405"
+            "0.386051944",
+            "0.041476936"
           ],
           [
-            "0.536684763",
-            "0.05554217"
+            "0.378892335",
+            "0.307536516"
           ],
           [
-            "0.719643966",
-            "0.215446525"
+            "0.153776582",
+            "0.177565843"
           ],
           [
-            "0.392871291",
-            "0.04825501"
+            "0.312782936",
+            "0.439742064"
           ],
           [
-            "0.600093101",
-            "0.205870186"
+            "0.389576775",
+            "0.555004995"
           ],
           [
-            "0.769822464",
-            "0.349345185"
+            "0.684450878",
+            "0.492893591"
           ],
           [
-            "0.237992353",
-            "0.037806402"
+            "0.076888248",
+            "0.044391498"
           ],
           [
-            "0.462089978",
-            "0.192590369"
+            "0.455780678",
+            "0.174362172"
           ],
           [
-            "0.078824951",
-            "0.040876164"
+            "0.230664788",
+            "0.044391420"
           ],
           [
-            "0.310790141",
-            "0.171055342"
+            "0.796947416",
+            "0.068925485"
           ],
           [
-            "0.630422579",
-            "0.361360583"
+            "0.506298002",
+            "0.777466142"
           ],
           [
-            "0.155154724",
-            "0.167385058"
+            "0.856752382",
+            "0.200440827"
           ],
           [
-            "0.374524713",
-            "0.312639392"
+            "0.302004114",
+            "0.174362134"
           ],
           [
-            "0.683531488",
-            "0.496036175"
+            "0.537219248",
+            "0.051006916"
           ],
           [
-            "0.456555569",
-            "0.42308726"
+            "0.601963026",
+            "0.641748925"
           ],
           [
-            "0.224535268",
-            "0.300413312"
+            "0.926454439",
+            "0.049733874"
           ],
           [
-            "0.543129641",
-            "0.506956578"
+            "0.626646405",
+            "0.361794469"
           ],
           [
-            "0.295872886",
-            "0.442308595"
+            "0.675436821",
+            "0.059880873"
           ],
           [
-            "0.597644053",
-            "0.641967131"
+            "0.544158571",
+            "0.510649807"
           ],
           [
-            "0.391164004",
-            "0.556541661"
+            "0.228946017",
+            "0.313592353"
           ],
           [
-            "0.459264028",
-            "0.655060349"
+            "0.458164918",
+            "0.655713949"
           ],
           [
-            "0.504860242",
-            "0.777365313"
+            "0.714314986",
+            "0.215930228"
           ],
           [
-            "0.521278547",
-            "0.343142451"
+            "0.769083789",
+            "0.346305054"
           ]
         ]
       }
@@ -1846,12 +1882,14 @@
       "knownBest": {
         "display": "0.0868913397937031505",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "0.086891340232970",
         "source": "The construction by Kari J. Nurmela appears in Figure 4 of Nurmela (2000); the paper's continuous value is 0.0868913397937031505. Optimality remains open; the site's nine-decimal reconstruction of the published contact graph verifies at 0.086891340232970.",
         "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-09-01T03:45:32.058Z",
       "answer": {
         "points": [
           [
@@ -1979,12 +2017,14 @@
       "knownBest": {
         "display": "0.0824786098842322521",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "0.082478610232732",
         "source": "The construction by Kari J. Nurmela appears in Figure 4 of Nurmela (2000); the paper's continuous value is 0.0824786098842322521. Optimality remains open; the site's nine-decimal reconstruction of the published contact graph verifies at 0.082478610232732.",
         "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-09-01T03:45:32.058Z",
       "answer": {
         "points": [
           [
@@ -2116,12 +2156,14 @@
       "knownBest": {
         "display": "0.0818048133956910115",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "0.081804813824288",
         "source": "The construction by Kari J. Nurmela appears in Figure 4 of Nurmela (2000); the paper's continuous value is 0.0818048133956910115. Optimality remains open; the site's nine-decimal reconstruction of the published contact graph verifies at 0.081804813824288.",
         "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-09-01T03:45:32.058Z",
       "answer": {
         "points": [
           [
@@ -2257,12 +2299,14 @@
       "knownBest": {
         "display": "0.0808828500258641436",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "0.080882850353180",
         "source": "The construction by Kari J. Nurmela appears in Figure 4 of Nurmela (2000); the paper's continuous value is 0.0808828500258641436. Optimality remains open; the site's nine-decimal reconstruction of the published contact graph verifies at 0.080882850353180.",
         "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-09-01T03:45:32.058Z",
       "answer": {
         "points": [
           [
@@ -2402,12 +2446,14 @@
       "knownBest": {
         "display": "0.0798972448089536737",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "0.079897245252974",
         "source": "The construction by Kari J. Nurmela appears in Figure 4 of Nurmela (2000); the paper's continuous value is 0.0798972448089536737. Optimality remains open; the site's nine-decimal reconstruction of the published contact graph verifies at 0.079897245252974.",
         "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-09-01T03:45:32.058Z",
       "answer": {
         "points": [
           [
@@ -2551,12 +2597,14 @@
       "knownBest": {
         "display": "0.0788506226168764215",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "0.078850623071391",
         "source": "The construction by Kari J. Nurmela appears in Figure 4 of Nurmela (2000); the paper's continuous value is 0.0788506226168764215. Optimality remains open; the site's nine-decimal reconstruction of the published contact graph verifies at 0.078850623071391.",
         "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-09-01T03:45:32.058Z",
       "answer": {
         "points": [
           [
@@ -2697,152 +2745,154 @@
         "n": 33
       },
       "objective": "minimize",
-      "scoreStored": "77652736458405181",
-      "scoreDisplay": "0.077652736458406",
+      "scoreStored": "77637122440062985",
+      "scoreDisplay": "0.077637122440063",
       "status": "open",
       "settled": false,
       "knownBest": {
         "display": "0.0776371221483728244",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "0.077652736458406",
         "source": "The construction by Kari J. Nurmela appears in Figure 4 of Nurmela (2000); the paper's continuous value is 0.0776371221483728244. Optimality remains open; the paper publishes no directly importable coordinates; the site's nine-decimal contact-graph reconstruction verifies at 0.077652736458406, and its gap from the paper is disclosed rather than presented as source data.",
         "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "Sigmoid with Codex",
+      "method": "ai",
+      "recordedAt": "2026-09-01T16:05:12.277Z",
       "answer": {
         "points": [
           [
-            "0.931173725",
-            "0.035956797"
+            "0.627631843",
+            "0.565218175"
           ],
           [
-            "0.791435105",
-            "0.031644697"
+            "0.931926990",
+            "0.037330792"
           ],
           [
-            "0.646978114",
-            "0.024922526"
+            "0.423927811",
+            "0.669548669"
           ],
           [
-            "0.863535018",
-            "0.145185196"
+            "0.496735115",
+            "0.788456962"
           ],
           [
-            "0.719776115",
-            "0.129601141"
+            "0.392798851",
+            "0.319465957"
           ],
           [
-            "0.500000005",
-            "0.02524825"
+            "0.069017674",
+            "0.035553950"
           ],
           [
-            "0.794725739",
-            "0.233484497"
+            "0.491515473",
+            "0.555964400"
           ],
           [
-            "0.57354465",
-            "0.127823512"
+            "0.306507527",
+            "0.433290604"
           ],
           [
-            "0.353021895",
-            "0.024922522"
+            "0.362683960",
+            "0.547000340"
           ],
           [
-            "0.647318253",
-            "0.229712641"
+            "0.204064201",
+            "0.235559889"
           ],
           [
-            "0.426455354",
-            "0.127823508"
+            "0.558280294",
+            "0.675203615"
           ],
           [
-            "0.749246035",
-            "0.328061303"
+            "0.571686000",
+            "0.446564921"
           ],
           [
-            "0.208564902",
-            "0.031644696"
+            "0.427506227",
+            "0.124869370"
           ],
           [
-            "0.5",
-            "0.230398771"
+            "0.442159821",
+            "0.431787856"
           ],
           [
-            "0.280223887",
-            "0.129601133"
+            "0.136467734",
+            "0.144127776"
           ],
           [
-            "0.068826278",
-            "0.035956791"
+            "0.649976862",
+            "0.024158384"
           ],
           [
-            "0.518703895",
-            "0.334013946"
+            "0.530586946",
+            "0.321968260"
           ],
           [
-            "0.352681746",
-            "0.22971263"
+            "0.793806800",
+            "0.033480072"
           ],
           [
-            "0.696674415",
-            "0.4367265"
+            "0.705067714",
+            "0.450420291"
           ],
           [
-            "0.136464979",
-            "0.145185188"
+            "0.252938574",
+            "0.330089565"
           ],
           [
-            "0.38834434",
-            "0.322420829"
+            "0.575407181",
+            "0.125918976"
           ],
           [
-            "0.205274258",
-            "0.233484482"
+            "0.350032760",
+            "0.226160894"
           ],
           [
-            "0.567249232",
-            "0.444651056"
+            "0.354490090",
+            "0.023108780"
           ],
           [
-            "0.432750747",
-            "0.444651049"
+            "0.750987132",
+            "0.327617226"
           ],
           [
-            "0.250753955",
-            "0.328061283"
+            "0.209203621",
+            "0.031025792"
           ],
           [
-            "0.637462345",
-            "0.555471045"
+            "0.502401196",
+            "0.024127355"
           ],
           [
-            "0.30332557",
-            "0.436726486"
+            "0.720733662",
+            "0.131965630"
           ],
           [
-            "0.499999991",
-            "0.561130156"
+            "0.792307609",
+            "0.232969917"
           ],
           [
-            "0.362537642",
-            "0.555471041"
+            "0.644489782",
+            "0.233691410"
           ],
           [
-            "0.567249239",
-            "0.671893562"
+            "0.863586900",
+            "0.148429217"
           ],
           [
-            "0.432750755",
-            "0.671893565"
+            "0.498294334",
+            "0.224804176"
           ],
           [
-            "0.500000002",
-            "0.788372668"
+            "0.280801738",
+            "0.127414555"
           ],
           [
-            "0.611655646",
-            "0.322420842"
+            "0.636397168",
+            "0.346125150"
           ]
         ]
       }
@@ -2861,12 +2911,14 @@
       "knownBest": {
         "display": "0.0763874538343494465",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "0.076387454401372",
         "source": "The construction by Kari J. Nurmela appears in Figure 4 of Nurmela (2000); the paper's continuous value is 0.0763874538343494465. Optimality remains open; the site's nine-decimal reconstruction of the published contact graph verifies at 0.076387454401372.",
         "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-09-01T03:45:32.058Z",
       "answer": {
         "points": [
           [
@@ -3015,160 +3067,162 @@
         "n": 35
       },
       "objective": "minimize",
-      "scoreStored": "75163717460254040",
-      "scoreDisplay": "0.075163717460255",
+      "scoreStored": "75160455199715916",
+      "scoreDisplay": "0.075160455199716",
       "status": "open",
       "settled": false,
       "knownBest": {
         "display": "0.0751604548962267707",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "0.075163717460255",
         "source": "The construction by Kari J. Nurmela appears in Figure 4 of Nurmela (2000); the paper's continuous value is 0.0751604548962267707. Optimality remains open; the paper publishes no directly importable coordinates; the site's nine-decimal contact-graph reconstruction verifies at 0.075163717460255, and its gap from the paper is disclosed rather than presented as source data.",
         "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "Sigmoid with Codex",
+      "method": "ai",
+      "recordedAt": "2026-09-01T16:05:43.544Z",
       "answer": {
         "points": [
           [
-            "0.072858584",
-            "0.018471899"
+            "0.391178975",
+            "0.114280322"
           ],
           [
-            "0.123935797",
-            "0.11395678"
+            "0.239069421",
+            "0.336544807"
           ],
           [
-            "0.172538116",
-            "0.22637384"
+            "0.500000003",
+            "0.565383585"
           ],
           [
-            "0.21722654",
-            "0.023151547"
+            "0.608820999",
+            "0.114280345"
           ],
           [
-            "0.234283567",
-            "0.346527778"
+            "0.699356287",
+            "0.452753930"
           ],
           [
-            "0.253734882",
-            "0.115985611"
+            "0.126510796",
+            "0.119500199"
           ],
           [
-            "0.307855118",
-            "0.459429469"
+            "0.499999989",
+            "0.790864949"
           ],
           [
-            "0.298229976",
-            "0.234496429"
+            "0.071762805",
+            "0.022342643"
           ],
           [
-            "0.359319112",
-            "0.025837882"
+            "0.928237198",
+            "0.022342655"
           ],
           [
-            "0.364470566",
-            "0.347908201"
+            "0.434909127",
+            "0.678124258"
           ],
           [
-            "0.376135086",
-            "0.567675122"
+            "0.630181727",
+            "0.565383598"
           ],
           [
-            "0.382117906",
-            "0.129439793"
+            "0.567160667",
+            "0.456480877"
           ],
           [
-            "0.427869709",
-            "0.234921536"
+            "0.565090830",
+            "0.234837472"
           ],
           [
-            "0.440739447",
-            "0.455459367"
+            "0.500000007",
+            "0.026744714"
           ],
           [
-            "0.436740124",
-            "0.679183823"
+            "0.820528254",
+            "0.225258150"
           ],
           [
-            "0.501541976",
-            "0.022745176"
+            "0.873489199",
+            "0.119500227"
           ],
           [
-            "0.497000595",
-            "0.342960088"
+            "0.179471723",
+            "0.225258132"
           ],
           [
-            "0.507226079",
-            "0.567136566"
+            "0.369818274",
+            "0.565383571"
           ],
           [
-            "0.501204673",
-            "0.790871341"
+            "0.565090855",
+            "0.678124276"
           ],
           [
-            "0.549211668",
-            "0.224875603"
+            "0.214805708",
+            "0.023837822"
           ],
           [
-            "0.566910779",
-            "0.677097268"
+            "0.499999991",
+            "0.347578161"
           ],
           [
-            "0.570909586",
-            "0.45334087"
+            "0.739033031",
+            "0.116581287"
           ],
           [
-            "0.601113731",
-            "0.114263604"
+            "0.760930565",
+            "0.336544814"
           ],
           [
-            "0.638162707",
-            "0.56360369"
+            "0.642077666",
+            "0.022104411"
           ],
           [
-            "0.624506622",
-            "0.335100299"
+            "0.357922348",
+            "0.022104411"
           ],
           [
-            "0.645175891",
-            "0.021596574"
+            "0.499945524",
+            "0.134733149"
           ],
           [
-            "0.680994151",
-            "0.223784529"
+            "0.688259702",
+            "0.226610588"
           ],
           [
-            "0.698593896",
-            "0.445147729"
+            "0.300643713",
+            "0.452753917"
           ],
           [
-            "0.73591312",
-            "0.119179123"
+            "0.367748464",
+            "0.343740193"
           ],
           [
-            "0.756467389",
-            "0.333675873"
+            "0.434909103",
+            "0.234837485"
           ],
           [
-            "0.788019967",
-            "0.025097548"
+            "0.432839349",
+            "0.456480869"
           ],
           [
-            "0.815971823",
-            "0.228366697"
+            "0.311740268",
+            "0.226610575"
           ],
           [
-            "0.871448598",
-            "0.125039613"
+            "0.785194303",
+            "0.023837834"
           ],
           [
-            "0.929434895",
-            "0.025887261"
+            "0.632251507",
+            "0.343740188"
           ],
           [
-            "0.471213621",
-            "0.1120585"
+            "0.260966956",
+            "0.116581269"
           ]
         ]
       }
@@ -3187,12 +3241,14 @@
       "knownBest": {
         "display": "0.0721687836487032206",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "0.072168784102553",
         "source": "The construction by Kari J. Nurmela appears in Figure 4 of Nurmela (2000); the paper's continuous value is 0.0721687836487032206. Optimality remains open; the site's nine-decimal reconstruction of the published contact graph verifies at 0.072168784102553.",
         "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-09-01T03:45:32.058Z",
       "answer": {
         "points": [
           [
@@ -3349,163 +3405,163 @@
         "n": 37
       },
       "objective": "minimize",
-      "scoreStored": "72168784000000028",
-      "scoreDisplay": "0.072168784000001",
+      "scoreStored": "71710288680908100",
+      "scoreDisplay": "0.071710288680909",
       "status": "open",
       "settled": false,
       "knownBest": null,
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "Sigmoid with Codex",
+      "method": "ai",
+      "recordedAt": "2026-09-01T16:03:53.005Z",
       "answer": {
         "points": [
           [
-            "0.937500001",
-            "0.036084394"
+            "0.938575181",
+            "0.037004825"
           ],
           [
-            "0.812500003",
-            "0.036084392"
+            "0.815633778",
+            "0.036852074"
           ],
           [
-            "0.687500003",
-            "0.036084393"
+            "0.692872434",
+            "0.037302075"
           ],
           [
-            "0.874999999",
-            "0.14433757"
+            "0.875723888",
+            "0.145554765"
           ],
           [
-            "0.562500004",
-            "0.036084392"
+            "0.571003393",
+            "0.038302247"
           ],
           [
-            "0.750000001",
-            "0.144337568"
+            "0.753019319",
+            "0.145794507"
           ],
           [
-            "0.437500004",
-            "0.036084392"
+            "0.450906336",
+            "0.040066873"
           ],
           [
-            "0.625000001",
-            "0.144337568"
+            "0.630534047",
+            "0.146804507"
           ],
           [
-            "0.812499999",
-            "0.252590746"
+            "0.813287599",
+            "0.254500293"
           ],
           [
-            "0.312500003",
-            "0.036084391"
+            "0.334984231",
+            "0.044224866"
           ],
           [
-            "0.500000001",
-            "0.144337567"
+            "0.508403588",
+            "0.148333556"
           ],
           [
-            "0.6875",
-            "0.252590744"
+            "0.690524473",
+            "0.254643519"
           ],
           [
-            "0.187500003",
-            "0.036084392"
+            "0.238436796",
+            "0.059451722"
           ],
           [
-            "0.375000001",
-            "0.144337567"
+            "0.386544638",
+            "0.150567341"
           ],
           [
-            "0.5625",
-            "0.252590744"
+            "0.567360686",
+            "0.255806845"
           ],
           [
-            "0.749999998",
-            "0.360843921"
+            "0.750334426",
+            "0.363340447"
           ],
           [
-            "0.062500001",
-            "0.03608439"
+            "0.036409817",
+            "0.061779371"
           ],
           [
-            "0.250000001",
-            "0.144337566"
+            "0.263156459",
+            "0.152738904"
           ],
           [
-            "0.4375",
-            "0.252590742"
+            "0.443966634",
+            "0.257221495"
           ],
           [
-            "0.624999999",
-            "0.360843919"
+            "0.627370969",
+            "0.363150857"
           ],
           [
-            "0.124999999",
-            "0.144337565"
+            "0.136759904",
+            "0.154376020"
           ],
           [
-            "0.3125",
-            "0.252590742"
+            "0.319692518",
+            "0.258546675"
           ],
           [
-            "0.499999999",
-            "0.360843918"
+            "0.503510470",
+            "0.364112467"
           ],
           [
-            "0.687499998",
-            "0.469097097"
+            "0.687293786",
+            "0.471850239"
           ],
           [
-            "0.187499999",
-            "0.25259074"
+            "0.194003121",
+            "0.258856624"
           ],
           [
-            "0.374999999",
-            "0.360843917"
+            "0.379153524",
+            "0.365072326"
           ],
           [
-            "0.562499999",
-            "0.469097094"
+            "0.564123345",
+            "0.471312436"
           ],
           [
-            "0.249999998",
-            "0.360843915"
+            "0.253741748",
+            "0.364878962"
           ],
           [
-            "0.437499999",
-            "0.469097094"
+            "0.439919399",
+            "0.472002503"
           ],
           [
-            "0.624999998",
-            "0.577350272"
+            "0.624434554",
+            "0.580018902"
           ],
           [
-            "0.312499998",
-            "0.469097091"
+            "0.314705693",
+            "0.471455779"
           ],
           [
-            "0.499999999",
-            "0.577350269"
+            "0.501106967",
+            "0.579213702"
           ],
           [
-            "0.374999998",
-            "0.577350267"
+            "0.376046261",
+            "0.578397186"
           ],
           [
-            "0.562499999",
-            "0.685603447"
+            "0.561823230",
+            "0.687925315"
           ],
           [
-            "0.437499999",
-            "0.685603443"
+            "0.437638883",
+            "0.685613531"
           ],
           [
-            "0.499999998",
-            "0.79385662"
+            "0.498665291",
+            "0.794327538"
           ],
           [
-            "0.125000003",
-            "0"
+            "0.135579161",
+            "0.034693042"
           ]
         ]
       }
@@ -3517,167 +3573,167 @@
         "n": 38
       },
       "objective": "minimize",
-      "scoreStored": "72168783991018282",
-      "scoreDisplay": "0.072168783991019",
+      "scoreStored": "71252294789406793",
+      "scoreDisplay": "0.071252294789407",
       "status": "open",
       "settled": false,
       "knownBest": null,
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "Sigmoid with Codex",
+      "method": "ai",
+      "recordedAt": "2026-09-01T16:03:37.890Z",
       "answer": {
         "points": [
           [
-            "0.937500001",
-            "0.036084394"
+            "0.938293690",
+            "0.035626125"
           ],
           [
-            "0.812500003",
-            "0.036084392"
+            "0.814937584",
+            "0.035723831"
           ],
           [
-            "0.687500003",
-            "0.036084393"
+            "0.691879129",
+            "0.036136770"
           ],
           [
-            "0.874999999",
-            "0.14433757"
+            "0.876531057",
+            "0.142406767"
           ],
           [
-            "0.562500004",
-            "0.036084392"
+            "0.569659369",
+            "0.037133535"
           ],
           [
-            "0.750000001",
-            "0.144337568"
+            "0.753006223",
+            "0.142601952"
           ],
           [
-            "0.437500004",
-            "0.036084392"
+            "0.449301060",
+            "0.039128245"
           ],
           [
-            "0.625000001",
-            "0.144337568"
+            "0.629664516",
+            "0.143533710"
           ],
           [
-            "0.812499999",
-            "0.252590746"
+            "0.814644246",
+            "0.248772048"
           ],
           [
-            "0.312500003",
-            "0.036084391"
+            "0.333455305",
+            "0.043673368"
           ],
           [
-            "0.500000001",
-            "0.144337567"
+            "0.506858563",
+            "0.145442950"
           ],
           [
-            "0.6875",
-            "0.252590744"
+            "0.690528374",
+            "0.248953079"
           ],
           [
-            "0.187500003",
-            "0.036084392"
+            "0.236567282",
+            "0.058560942"
           ],
           [
-            "0.375000001",
-            "0.144337567"
+            "0.384568229",
+            "0.148141030"
           ],
           [
-            "0.5625",
-            "0.252590744"
+            "0.566306576",
+            "0.250393061"
           ],
           [
-            "0.749999998",
-            "0.360843921"
+            "0.752671145",
+            "0.354119092"
           ],
           [
-            "0.062500001",
-            "0.03608439"
+            "0.036282556",
+            "0.061322635"
           ],
           [
-            "0.250000001",
-            "0.144337566"
+            "0.260864699",
+            "0.150556393"
           ],
           [
-            "0.4375",
-            "0.252590742"
+            "0.442208038",
+            "0.252839749"
           ],
           [
-            "0.624999999",
-            "0.360843919"
+            "0.627472004",
+            "0.354351530"
           ],
           [
-            "0.124999999",
-            "0.144337565"
+            "0.135725691",
+            "0.153729610"
           ],
           [
-            "0.3125",
-            "0.252590742"
+            "0.317795039",
+            "0.255016663"
           ],
           [
-            "0.499999999",
-            "0.360843918"
+            "0.502138359",
+            "0.356642222"
           ],
           [
-            "0.687499998",
-            "0.469097097"
+            "0.690764507",
+            "0.457355083"
           ],
           [
-            "0.187499999",
-            "0.25259074"
+            "0.193181016",
+            "0.257183587"
           ],
           [
-            "0.374999999",
-            "0.360843917"
+            "0.377091334",
+            "0.359636586"
           ],
           [
-            "0.562499999",
-            "0.469097094"
+            "0.563990274",
+            "0.458909128"
           ],
           [
-            "0.249999998",
-            "0.360843915"
+            "0.252477348",
+            "0.361803441"
           ],
           [
-            "0.437499999",
-            "0.469097094"
+            "0.438046658",
+            "0.463298568"
           ],
           [
-            "0.624999998",
-            "0.577350272"
+            "0.628905479",
+            "0.555407970"
           ],
           [
-            "0.312499998",
-            "0.469097091"
+            "0.312907612",
+            "0.466471860"
           ],
           [
-            "0.499999999",
-            "0.577350269"
+            "0.500046771",
+            "0.564831917"
           ],
           [
-            "0.374999998",
-            "0.577350267"
+            "0.373863013",
+            "0.570133845"
           ],
           [
-            "0.562499999",
-            "0.685603447"
+            "0.567568384",
+            "0.631871952"
           ],
           [
-            "0.437499999",
-            "0.685603443"
+            "0.434728996",
+            "0.671618691"
           ],
           [
-            "0.499999998",
-            "0.79385662"
+            "0.536282319",
+            "0.731930116"
           ],
           [
-            "0.125000003",
-            "0"
+            "0.134271459",
+            "0.035626061"
           ],
           [
-            "0.5",
-            "0.866025404"
+            "0.465034180",
+            "0.803942549"
           ]
         ]
       }
@@ -3689,171 +3745,171 @@
         "n": 39
       },
       "objective": "minimize",
-      "scoreStored": "72168783991018281",
-      "scoreDisplay": "0.072168783991019",
+      "scoreStored": "70803774763879148",
+      "scoreDisplay": "0.070803774763880",
       "status": "open",
       "settled": false,
       "knownBest": null,
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "Sigmoid with Codex",
+      "method": "ai",
+      "recordedAt": "2026-09-01T16:03:22.126Z",
       "answer": {
         "points": [
           [
-            "0.937500001",
-            "0.036084394"
+            "0.938674244",
+            "0.035388220"
           ],
           [
-            "0.812500003",
-            "0.036084392"
+            "0.816102399",
+            "0.035525921"
           ],
           [
-            "0.687500003",
-            "0.036084393"
+            "0.693894284",
+            "0.036011191"
           ],
           [
-            "0.874999999",
-            "0.14433757"
+            "0.877383531",
+            "0.141613572"
           ],
           [
-            "0.562500004",
-            "0.036084392"
+            "0.572578233",
+            "0.037021157"
           ],
           [
-            "0.750000001",
-            "0.144337568"
+            "0.754885283",
+            "0.142084952"
           ],
           [
-            "0.437500004",
-            "0.036084392"
+            "0.452991581",
+            "0.038790082"
           ],
           [
-            "0.625000001",
-            "0.144337568"
+            "0.632946890",
+            "0.143521468"
           ],
           [
-            "0.812499999",
-            "0.252590746"
+            "0.816007395",
+            "0.247757624"
           ],
           [
-            "0.312500003",
-            "0.036084391"
+            "0.337252987",
+            "0.042664390"
           ],
           [
-            "0.500000001",
-            "0.144337567"
+            "0.512434426",
+            "0.146403043"
           ],
           [
-            "0.6875",
-            "0.252590744"
+            "0.693278624",
+            "0.248651168"
           ],
           [
-            "0.187500003",
-            "0.036084392"
+            "0.252890207",
+            "0.065093567"
           ],
           [
-            "0.375000001",
-            "0.144337567"
+            "0.395144425",
+            "0.151843534"
           ],
           [
-            "0.5625",
-            "0.252590744"
+            "0.571033110",
+            "0.251369846"
           ],
           [
-            "0.749999998",
-            "0.360843921"
+            "0.754376163",
+            "0.353288796"
           ],
           [
-            "0.062500001",
-            "0.03608439"
+            "0.084765352",
+            "0.129973746"
           ],
           [
-            "0.250000001",
-            "0.144337566"
+            "0.286950609",
+            "0.164842334"
           ],
           [
-            "0.4375",
-            "0.252590742"
+            "0.449966775",
+            "0.256127232"
           ],
           [
-            "0.624999999",
-            "0.360843919"
+            "0.630703572",
+            "0.354565397"
           ],
           [
-            "0.124999999",
-            "0.144337565"
+            "0.182976542",
+            "0.187102630"
           ],
           [
-            "0.3125",
-            "0.252590742"
+            "0.329669347",
+            "0.262706818"
           ],
           [
-            "0.499999999",
-            "0.360843918"
+            "0.507157434",
+            "0.358675129"
           ],
           [
-            "0.687499998",
-            "0.469097097"
+            "0.692450291",
+            "0.456976121"
           ],
           [
-            "0.187499999",
-            "0.25259074"
+            "0.206364492",
+            "0.271026771"
           ],
           [
-            "0.374999999",
-            "0.360843917"
+            "0.383869668",
+            "0.364069122"
           ],
           [
-            "0.562499999",
-            "0.469097094"
+            "0.566929674",
+            "0.459230241"
           ],
           [
-            "0.249999998",
-            "0.360843915"
+            "0.260976082",
+            "0.371536250"
           ],
           [
-            "0.437499999",
-            "0.469097094"
+            "0.441869711",
+            "0.465500766"
           ],
           [
-            "0.624999998",
-            "0.577350272"
+            "0.630343433",
+            "0.555851014"
           ],
           [
-            "0.312499998",
-            "0.469097091"
+            "0.318819526",
+            "0.473289199"
           ],
           [
-            "0.499999999",
-            "0.577350269"
+            "0.502247633",
+            "0.563847537"
           ],
           [
-            "0.374999998",
-            "0.577350267"
+            "0.377763772",
+            "0.574791085"
           ],
           [
-            "0.562499999",
-            "0.685603447"
+            "0.567825379",
+            "0.630918050"
           ],
           [
-            "0.437499999",
-            "0.685603443"
+            "0.437785137",
+            "0.673112822"
           ],
           [
-            "0.499999998",
-            "0.79385662"
+            "0.539725380",
+            "0.733112624"
           ],
           [
-            "0.125000003",
-            "0"
+            "0.182835914",
+            "0.056855494"
           ],
           [
-            "0.5",
-            "0.866025404"
+            "0.465116546",
+            "0.804411127"
           ],
           [
-            "0.562500001",
-            "0.18042196"
+            "0.070319217",
+            "0.008269351"
           ]
         ]
       }
@@ -3865,175 +3921,175 @@
         "n": 40
       },
       "objective": "minimize",
-      "scoreStored": "72168783986527421",
-      "scoreDisplay": "0.072168783986528",
+      "scoreStored": "70090125743797638",
+      "scoreDisplay": "0.070090125743798",
       "status": "open",
       "settled": false,
       "knownBest": null,
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "Sigmoid with Codex",
+      "method": "ai",
+      "recordedAt": "2026-09-01T16:03:06.679Z",
       "answer": {
         "points": [
           [
-            "0.937500001",
-            "0.036084394"
+            "0.584695149",
+            "0.169083437"
           ],
           [
-            "0.812500003",
-            "0.036084392"
+            "0.672405427",
+            "0.489429505"
           ],
           [
-            "0.687500003",
-            "0.036084393"
+            "0.544190669",
+            "0.048937034"
           ],
           [
-            "0.874999999",
-            "0.14433757"
+            "0.818158981",
+            "0.035193866"
           ],
           [
-            "0.562500004",
-            "0.036084392"
+            "0.810742251",
+            "0.228765422"
           ],
           [
-            "0.750000001",
-            "0.144337568"
+            "0.263224412",
+            "0.058627319"
           ],
           [
-            "0.437500004",
-            "0.036084392"
+            "0.371437660",
+            "0.581852992"
           ],
           [
-            "0.625000001",
-            "0.144337568"
+            "0.498750556",
+            "0.795946416"
           ],
           [
-            "0.812499999",
-            "0.252590746"
+            "0.627881386",
+            "0.061558893"
           ],
           [
-            "0.312500003",
-            "0.036084391"
+            "0.183539972",
+            "0.258142009"
           ],
           [
-            "0.500000001",
-            "0.144337567"
+            "0.878600707",
+            "0.140477649"
           ],
           [
-            "0.6875",
-            "0.252590744"
+            "0.121932342",
+            "0.148199465"
           ],
           [
-            "0.187500003",
-            "0.036084392"
+            "0.728544647",
+            "0.388719532"
           ],
           [
-            "0.375000001",
-            "0.144337567"
+            "0.422446208",
+            "0.263823915"
           ],
           [
-            "0.5625",
-            "0.252590744"
+            "0.239973351",
+            "0.152716840"
           ],
           [
-            "0.749999998",
-            "0.360843921"
+            "0.308882112",
+            "0.472730097"
           ],
           [
-            "0.062500001",
-            "0.03608439"
+            "0.758755671",
+            "0.298160990"
           ],
           [
-            "0.250000001",
-            "0.144337566"
+            "0.709469900",
+            "0.051003734"
           ],
           [
-            "0.4375",
-            "0.252590742"
+            "0.614064516",
+            "0.590113518"
           ],
           [
-            "0.624999999",
-            "0.360843919"
+            "0.361869233",
+            "0.035841369"
           ],
           [
-            "0.124999999",
-            "0.144337565"
+            "0.057649707",
+            "0.039863979"
           ],
           [
-            "0.3125",
-            "0.252590742"
+            "0.483968394",
+            "0.376220888"
           ],
           [
-            "0.499999999",
-            "0.360843918"
+            "0.435165322",
+            "0.689823179"
           ],
           [
-            "0.687499998",
-            "0.469097097"
+            "0.170056035",
+            "0.043753152"
           ],
           [
-            "0.187499999",
-            "0.25259074"
+            "0.480325250",
+            "0.160988468"
           ],
           [
-            "0.374999999",
-            "0.360843917"
+            "0.649195864",
+            "0.285212683"
           ],
           [
-            "0.562499999",
-            "0.469097094"
+            "0.538293007",
+            "0.275721667"
           ],
           [
-            "0.249999998",
-            "0.360843915"
+            "0.939386328",
+            "0.035193869"
           ],
           [
-            "0.437499999",
-            "0.469097094"
+            "0.549354339",
+            "0.484055915"
           ],
           [
-            "0.624999998",
-            "0.577350272"
+            "0.767277237",
+            "0.128395232"
           ],
           [
-            "0.312499998",
-            "0.469097091"
+            "0.367485842",
+            "0.368568145"
           ],
           [
-            "0.499999999",
-            "0.577350269"
+            "0.458057678",
+            "0.060165074"
           ],
           [
-            "0.374999998",
-            "0.577350267"
+            "0.360991735",
+            "0.153661635"
           ],
           [
-            "0.562499999",
-            "0.685603447"
+            "0.304236674",
+            "0.258532364"
           ],
           [
-            "0.437499999",
-            "0.685603443"
+            "0.605590424",
+            "0.383543576"
           ],
           [
-            "0.499999998",
-            "0.79385662"
+            "0.428107851",
+            "0.477959490"
           ],
           [
-            "0.125000003",
-            "0"
+            "0.690967552",
+            "0.181026507"
           ],
           [
-            "0.5",
-            "0.866025404"
+            "0.556545690",
+            "0.691987280"
           ],
           [
-            "0.562500001",
-            "0.18042196"
+            "0.491615924",
+            "0.585944607"
           ],
           [
-            "0.437499999",
-            "0.39692831"
+            "0.249597989",
+            "0.363831036"
           ]
         ]
       }

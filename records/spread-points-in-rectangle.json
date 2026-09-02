@@ -4,13 +4,13 @@
   "title": "长方形内的散点分离",
   "titleEn": "Spreading points in a rectangle",
   "objective": "maximize",
-  "scoreLabel": "最小两点距离的平方",
-  "scoreLabelEn": "squared minimum pairwise distance",
+  "scoreLabel": "最小两点距离",
+  "scoreLabelEn": "the smallest distance between two points",
   "verifierVersion": "1.0.0",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/spread-points-in-rectangle",
-  "generatedAt": "2026-09-01T10:14:04.314Z",
+  "generatedAt": "2026-09-02T09:43:39.828Z",
   "instances": [
     {
       "instanceId": "p17-n4-v2",
@@ -100,7 +100,7 @@
       "status": "open",
       "settled": false,
       "knownBest": null,
-      "holder": null,
+      "holder": "qwert",
       "method": "human",
       "recordedAt": "2026-08-26T12:41:17.804Z",
       "answer": {

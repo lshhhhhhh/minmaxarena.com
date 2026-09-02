@@ -4,13 +4,13 @@
   "title": "最大的小多边形",
   "titleEn": "The biggest little polygon",
   "objective": "maximize",
-  "scoreLabel": "面积的两倍",
-  "scoreLabelEn": "twice the area",
+  "scoreLabel": "面积",
+  "scoreLabelEn": "the area",
   "verifierVersion": "1.0.0",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/biggest-little-polygon",
-  "generatedAt": "2026-09-01T10:14:06.177Z",
+  "generatedAt": "2026-09-02T09:43:41.189Z",
   "instances": [
     {
       "instanceId": "p53-n6-v1",
@@ -24,14 +24,14 @@
       "status": "proven",
       "settled": true,
       "knownBest": {
-        "display": "1.349962885167156444",
+        "display": "0.674981442583578222",
         "kind": "proven",
         "source": "the area is the second-largest real root of Graham's degree-10 polynomial, solved here exactly; optimality proved by Bieri (1961) and Graham (1975); the exact optimum is not writable on the nine-decimal coordinate grid, and the shown value is what the exhibited certificate reaches",
         "url": "https://mathworld.wolfram.com/GrahamsBiggestLittleHexagon.html"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-24T20:03:14.910Z",
       "answer": {
         "points": [
           [
@@ -69,18 +69,18 @@
       },
       "objective": "maximize",
       "scoreStored": "1453736965085272179",
-      "scoreDisplay": "0.726868482542636089",
+      "scoreDisplay": "0.7268684825426360895",
       "status": "proven",
       "settled": true,
       "knownBest": {
-        "display": "1.453736965085272179",
+        "display": "0.7268684825426360895",
         "kind": "proven",
         "source": "optimality proved by Audet, Hansen, Messine and Xiong (2002); the exact optimum is not writable on the nine-decimal coordinate grid, and the shown value is what the exhibited certificate reaches",
         "url": "https://arxiv.org/abs/2204.04547"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-24T20:03:14.910Z",
       "answer": {
         "points": [
           [
@@ -130,14 +130,14 @@
       "status": "proven",
       "settled": true,
       "knownBest": {
-        "display": "1.498274690924522102",
+        "display": "0.749137345462261051",
         "kind": "proven",
         "source": "optimality proved by Henrion and Messine (2013); the exact optimum is not writable on the nine-decimal coordinate grid, and the shown value is what the exhibited certificate reaches",
         "url": "https://arxiv.org/abs/2204.04547"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-24T20:03:14.910Z",
       "answer": {
         "points": [
           [
@@ -195,14 +195,14 @@
       "status": "proven",
       "settled": true,
       "knownBest": {
-        "display": "1.521459746113582656",
+        "display": "0.760729873056791328",
         "kind": "proven",
         "source": "optimality proved by Henrion and Messine (2013); the exact optimum is not writable on the nine-decimal coordinate grid, and the shown value is what the exhibited certificate reaches",
         "url": "https://arxiv.org/abs/2204.04547"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-24T20:03:14.910Z",
       "answer": {
         "points": [
           [
@@ -265,17 +265,21 @@
       "objective": "maximize",
       "scoreStored": "1535062021422944048",
       "scoreDisplay": "0.767531010711472024",
-      "status": "matched",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "1.535062021422944048",
+        "display": "0.7675310115",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "0.767531010711472024",
+        "publishedDisplay": "1.535062023",
+        "publishedMetric": "twice the area used by the paper",
         "source": "a polygon exhibited by Bingane and Mossinghoff; optimality open; the table's figure is 1.535062023, the exact optimum is not writable on the nine-decimal grid, and shown here is the exact value the configuration's grid certificate reaches",
         "url": "https://arxiv.org/abs/2204.04547"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-24T20:03:14.910Z",
       "answer": {
         "points": [
           [
@@ -345,18 +349,22 @@
       },
       "objective": "maximize",
       "scoreStored": "1543722643127567733",
-      "scoreDisplay": "0.771861321563783866",
-      "status": "matched",
+      "scoreDisplay": "0.7718613215637838665",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "1.543722643127567733",
+        "display": "0.771861322",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "0.7718613215637838665",
+        "publishedDisplay": "1.543722644",
+        "publishedMetric": "twice the area used by the paper",
         "source": "a polygon exhibited by Bingane and Mossinghoff; optimality open; the table's figure is 1.543722644, the exact optimum is not writable on the nine-decimal grid, and shown here is the exact value the configuration's grid certificate reaches",
         "url": "https://arxiv.org/abs/2204.04547"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-24T20:03:14.910Z",
       "answer": {
         "points": [
           [
@@ -433,92 +441,96 @@
         "n": 18
       },
       "objective": "maximize",
-      "scoreStored": "1549576329234605721",
-      "scoreDisplay": "0.77478816461730286",
-      "status": "matched",
+      "scoreStored": "1549576330064745376",
+      "scoreDisplay": "0.774788165032372688",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "1.549576329234605721",
+        "display": "0.7747881655",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "0.7747881646173028605",
+        "publishedDisplay": "1.549576331",
+        "publishedMetric": "twice the area used by the paper",
         "source": "a polygon exhibited by Bingane and Mossinghoff; optimality open; the table's figure is 1.549576331, the exact optimum is not writable on the nine-decimal grid, and shown here is the exact value the configuration's grid certificate reaches",
         "url": "https://arxiv.org/abs/2204.04547"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "Sigmoid with Codex",
+      "method": "ai",
+      "recordedAt": "2026-09-01T23:41:36.979Z",
       "answer": {
         "points": [
           [
-            "1.248869729",
-            "0.762482707"
+            "1.280830448",
+            "0.703042684"
           ],
           [
-            "1.212610575",
-            "0.938766975"
+            "1.255613739",
+            "0.898764708"
           ],
           [
-            "1.116564859",
-            "1.090884297"
+            "1.169463120",
+            "1.059858302"
           ],
           [
-            "0.973173238",
-            "1.1992868"
+            "1.033755431",
+            "1.178614848"
           ],
           [
-            "0.801668184",
-            "1.249945693"
+            "0.865221777",
+            "1.241759941"
           ],
           [
-            "0.62966978",
-            "1.237611496"
+            "0.685320800",
+            "1.241428575"
           ],
           [
-            "0.522144001",
-            "1.190321074"
+            "0.517223085",
+            "1.177746567"
           ],
           [
-            "0.420905457",
-            "1.130748128"
+            "0.383042297",
+            "1.059527131"
           ],
           [
-            "0.310323257",
-            "0.998433491"
+            "0.301925214",
+            "0.907357497"
           ],
           [
-            "0.25113027",
-            "0.829683666"
+            "0.284720229",
+            "0.791158696"
           ],
           [
-            "0.255218981",
-            "0.649974081"
+            "0.281259745",
+            "0.673744055"
           ],
           [
-            "0.322455303",
-            "0.483109657"
+            "0.334404335",
+            "0.509697575"
           ],
           [
-            "0.444256515",
-            "0.35061307"
+            "0.445748397",
+            "0.369759034"
           ],
           [
-            "0.605276402",
-            "0.269420187"
+            "0.600056684",
+            "0.277556916"
           ],
           [
-            "0.786930062",
-            "0.250054306"
+            "0.777105754",
+            "0.245649723"
           ],
           [
-            "0.977801313",
-            "0.300165799"
+            "0.954107191",
+            "0.278228764"
           ],
           [
-            "1.130064838",
-            "0.425699923"
+            "1.108554793",
+            "0.371318138"
           ],
           [
-            "1.220577505",
-            "0.584383731"
+            "1.221646992",
+            "0.514786674"
           ]
         ]
       }
@@ -530,100 +542,104 @@
         "n": 20
       },
       "objective": "maximize",
-      "scoreStored": "1553717511060554161",
-      "scoreDisplay": "0.77685875553027708",
+      "scoreStored": "1553717511893348990",
+      "scoreDisplay": "0.776858755946674495",
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "1.553717511060554161",
+        "display": "0.776858756",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "0.7768587555302770805",
+        "publishedDisplay": "1.553717512",
+        "publishedMetric": "twice the area used by the paper",
         "source": "a polygon exhibited by Bingane and Mossinghoff; optimality open; the table's figure is 1.553717512, the exact optimum is not writable on the nine-decimal grid, and shown here is the exact value the configuration's grid certificate reaches",
         "url": "https://arxiv.org/abs/2204.04547"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "Sigmoid with Codex",
+      "method": "ai",
+      "recordedAt": "2026-09-01T23:41:20.809Z",
       "answer": {
         "points": [
           [
-            "1.249965493",
-            "0.785793211"
+            "1.250251983",
+            "0.577250089"
           ],
           [
-            "1.213056554",
-            "0.942927417"
+            "1.274645888",
+            "0.752557313"
           ],
           [
-            "1.128137853",
-            "1.080223766"
+            "1.244125787",
+            "0.913582105"
           ],
           [
-            "1.003969896",
-            "1.183469836"
+            "1.165000465",
+            "1.054714285"
           ],
           [
-            "0.853141663",
-            "1.242035596"
+            "1.045372041",
+            "1.163187635"
           ],
           [
-            "0.68942879",
-            "1.249687997"
+            "0.897529842",
+            "1.228027180"
           ],
           [
-            "0.519270266",
-            "1.200966742"
+            "0.736773840",
+            "1.242550605"
           ],
           [
-            "0.380246353",
-            "1.091422068"
+            "0.579847031",
+            "1.205296003"
           ],
           [
-            "0.290722514",
-            "0.954141529"
+            "0.443560218",
+            "1.120586932"
           ],
           [
-            "0.250034507",
-            "0.797541433"
+            "0.344706920",
+            "1.001500179"
           ],
           [
-            "0.261181354",
-            "0.636441524"
+            "0.305024223",
+            "0.903661611"
           ],
           [
-            "0.322901301",
-            "0.487270062"
+            "0.275878076",
+            "0.802184500"
           ],
           [
-            "0.428787775",
-            "0.365444453"
+            "0.280182386",
+            "0.647474759"
           ],
           [
-            "0.567777366",
-            "0.283616472"
+            "0.335156853",
+            "0.496718246"
           ],
           [
-            "0.724750421",
-            "0.250312001"
+            "0.435655724",
+            "0.370567920"
           ],
           [
-            "0.878536584",
-            "0.267731663"
+            "0.571118323",
+            "0.282799419"
           ],
           [
-            "0.974927625",
-            "0.310811491"
+            "0.727467282",
+            "0.242593912"
           ],
           [
-            "1.066239381",
-            "0.363813956"
+            "0.888539490",
+            "0.254134100"
           ],
           [
-            "1.170297297",
-            "0.478380874"
+            "1.037892008",
+            "0.316366985"
           ],
           [
-            "1.235070748",
-            "0.625194098"
+            "1.161271606",
+            "0.424246237"
           ]
         ]
       }
@@ -637,17 +653,21 @@
       "objective": "maximize",
       "scoreStored": "1556754659551868570",
       "scoreDisplay": "0.778377329775934285",
-      "status": "matched",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "1.55675465955186857",
+        "display": "0.7783773305",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "0.778377329775934285",
+        "publishedDisplay": "1.556754661",
+        "publishedMetric": "twice the area used by the paper",
         "source": "a polygon exhibited by Bingane and Mossinghoff; optimality open; the table's figure is 1.556754661, the exact optimum is not writable on the nine-decimal grid, and shown here is the exact value the configuration's grid certificate reaches",
         "url": "https://arxiv.org/abs/2204.04547"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-24T20:03:14.910Z",
       "answer": {
         "points": [
           [
@@ -750,17 +770,21 @@
       "objective": "maximize",
       "scoreStored": "1559048089411846002",
       "scoreDisplay": "0.779524044705923001",
-      "status": "matched",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "1.559048089411846002",
+        "display": "0.7795240455",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "0.779524044705923001",
+        "publishedDisplay": "1.559048091",
+        "publishedMetric": "twice the area used by the paper",
         "source": "a polygon exhibited by Bingane and Mossinghoff; optimality open; the table's figure is 1.559048091, the exact optimum is not writable on the nine-decimal grid, and shown here is the exact value the configuration's grid certificate reaches",
         "url": "https://arxiv.org/abs/2204.04547"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-24T20:03:14.910Z",
       "answer": {
         "points": [
           [
@@ -869,119 +893,119 @@
         "n": 26
       },
       "objective": "maximize",
-      "scoreStored": "1559191706237358787",
-      "scoreDisplay": "0.779595853118679393",
+      "scoreStored": "1560822239679968772",
+      "scoreDisplay": "0.780411119839984386",
       "status": "open",
       "settled": false,
       "knownBest": null,
-      "holder": "邱仲普",
+      "holder": "Sigmoid with Codex",
       "method": "ai",
-      "recordedAt": "2026-09-01T06:56:34.920Z",
+      "recordedAt": "2026-09-01T23:41:04.633Z",
       "answer": {
         "points": [
           [
-            "0.250269912",
-            "0.765987259"
+            "0.893900469",
+            "0.248384252"
           ],
           [
-            "0.263616699",
-            "0.63274274"
+            "1.016911372",
+            "0.304501102"
           ],
           [
-            "0.311768458",
-            "0.507803936"
+            "1.114557686",
+            "0.382940231"
           ],
           [
-            "0.391227501",
-            "0.400155887"
+            "1.189082678",
+            "0.481636302"
           ],
           [
-            "0.49581746",
-            "0.317794437"
+            "1.237123335",
+            "0.595341825"
           ],
           [
-            "0.614109233",
-            "0.267761749"
+            "1.255905198",
+            "0.717307012"
           ],
           [
-            "0.700965295",
-            "0.255070691"
+            "1.244303437",
+            "0.840158082"
           ],
           [
-            "0.788599674",
-            "0.250045269"
+            "1.203023281",
+            "0.956445101"
           ],
           [
-            "0.914533665",
-            "0.27528107"
+            "1.134570455",
+            "1.059111775"
           ],
           [
-            "1.033543325",
-            "0.334939862"
+            "1.043107798",
+            "1.141921909"
           ],
           [
-            "1.133017352",
-            "0.424420365"
+            "0.934258249",
+            "1.199821557"
           ],
           [
-            "1.205298325",
-            "0.537131321"
+            "0.815160050",
+            "1.229225477"
           ],
           [
-            "1.245153991",
-            "0.664974047"
+            "0.696794907",
+            "1.228766523"
           ],
           [
-            "1.249730094",
-            "0.798810113"
+            "0.618148965",
+            "1.209613209"
           ],
           [
-            "1.218697411",
-            "0.929085165"
+            "0.541309757",
+            "1.184161891"
           ],
           [
-            "1.154252674",
-            "1.046523108"
+            "0.440702029",
+            "1.121803245"
           ],
           [
-            "1.060823808",
-            "1.142879782"
+            "0.355303641",
+            "1.033734588"
           ],
           [
-            "0.943707516",
-            "1.211881959"
+            "0.293701492",
+            "0.926936798"
           ],
           [
-            "0.872968293",
-            "1.231402417"
+            "0.260047637",
+            "0.808234005"
           ],
           [
-            "0.801978537",
-            "1.249954767"
+            "0.256430690",
+            "0.684892388"
           ],
           [
-            "0.728714349",
-            "1.246049748"
+            "0.283074480",
+            "0.564406578"
           ],
           [
-            "0.655489464",
-            "1.241145502"
+            "0.338362981",
+            "0.454088091"
           ],
           [
-            "0.52689424",
-            "1.19709107"
+            "0.418944804",
+            "0.360627754"
           ],
           [
-            "0.416004964",
-            "1.121479355"
+            "0.519957194",
+            "0.289681658"
           ],
           [
-            "0.329271145",
-            "1.019390981"
+            "0.635469409",
+            "0.245502308"
           ],
           [
-            "0.27268734",
-            "0.898011841"
+            "0.759848095",
+            "0.230756355"
           ]
         ]
       }
@@ -993,127 +1017,127 @@
         "n": 28
       },
       "objective": "maximize",
-      "scoreStored": "1560713490330724656",
-      "scoreDisplay": "0.780356745165362328",
+      "scoreStored": "1562222837860631907",
+      "scoreDisplay": "0.7811114189303159535",
       "status": "open",
       "settled": false,
       "knownBest": null,
-      "holder": "邱仲普",
+      "holder": "Sigmoid with Codex",
       "method": "ai",
-      "recordedAt": "2026-09-01T06:56:47.124Z",
+      "recordedAt": "2026-09-01T23:40:48.340Z",
       "answer": {
         "points": [
           [
-            "0.251493058",
-            "0.691039908"
+            "0.944804717",
+            "0.267720836"
           ],
           [
-            "0.275121881",
-            "0.586802542"
+            "1.053474631",
+            "0.330188218"
           ],
           [
-            "0.320891879",
-            "0.488717746"
+            "1.138256556",
+            "0.409540913"
           ],
           [
-            "0.391737132",
-            "0.395825551"
+            "1.201975943",
+            "0.504872581"
           ],
           [
-            "0.483865518",
-            "0.323989828"
+            "1.242315169",
+            "0.611976884"
           ],
           [
-            "0.581454672",
-            "0.277172332"
+            "1.257289105",
+            "0.725409716"
           ],
           [
-            "0.685433098",
-            "0.252428874"
+            "1.246128729",
+            "0.839276338"
           ],
           [
-            "0.792091725",
-            "0.250275708"
+            "1.209417435",
+            "0.947638107"
           ],
           [
-            "0.896757841",
-            "0.27075418"
+            "1.149071289",
+            "1.044840181"
           ],
           [
-            "0.994709005",
-            "0.312932365"
+            "1.068240851",
+            "1.125808851"
           ],
           [
-            "1.081505554",
-            "0.37489727"
+            "0.971154039",
+            "1.186313829"
           ],
           [
-            "1.153210587",
-            "0.453838089"
+            "0.862948605",
+            "1.223180896"
           ],
           [
-            "1.206571275",
-            "0.546173624"
+            "0.749767925",
+            "1.234486377"
           ],
           [
-            "1.239166646",
-            "0.647713724"
+            "0.640914197",
+            "1.220427796"
           ],
           [
-            "1.249518036",
-            "0.753842323"
+            "0.570278637",
+            "1.194937216"
           ],
           [
-            "1.237169887",
-            "0.859679133"
+            "0.501755097",
+            "1.164217927"
           ],
           [
-            "1.150097796",
-            "1.047659197"
+            "0.413674981",
+            "1.098729959"
           ],
           [
-            "1.051652613",
-            "1.147164059"
+            "0.340097990",
+            "1.011988341"
           ],
           [
-            "0.964566868",
-            "1.200873066"
+            "0.287853873",
+            "0.910311653"
           ],
           [
-            "0.864615515",
-            "1.236243725"
+            "0.260026485",
+            "0.799350684"
           ],
           [
-            "0.758916999",
-            "1.249724275"
+            "0.258107632",
+            "0.684957474"
           ],
           [
-            "0.652683692",
-            "1.240509721"
+            "0.282201057",
+            "0.573112022"
           ],
           [
-            "0.550800421",
-            "1.209003327"
+            "0.331049605",
+            "0.469652799"
           ],
           [
-            "0.457898909",
-            "1.15663428"
+            "0.402104330",
+            "0.379979021"
           ],
           [
-            "0.378194899",
-            "1.0857785"
+            "0.491660378",
+            "0.308768486"
           ],
           [
-            "0.315304263",
-            "0.99965032"
+            "0.595070378",
+            "0.259728118"
           ],
           [
-            "0.272079809",
-            "0.902156349"
+            "0.707124983",
+            "0.235396001"
           ],
           [
-            "0.250481929",
-            "0.797715489"
+            "0.823235326",
+            "0.237188758"
           ]
         ]
       }
@@ -1127,17 +1151,21 @@
       "objective": "maximize",
       "scoreStored": "1563347852857254158",
       "scoreDisplay": "0.781673926428627079",
-      "status": "matched",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "1.563347852857254158",
+        "display": "0.781673927",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "0.781673926428627079",
+        "publishedDisplay": "1.563347854",
+        "publishedMetric": "twice the area used by the paper",
         "source": "a polygon exhibited by Bingane and Mossinghoff; optimality open; the table's figure is 1.563347854, the exact optimum is not writable on the nine-decimal grid, and shown here is the exact value the configuration's grid certificate reaches",
         "url": "https://arxiv.org/abs/2204.04547"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-24T20:03:14.910Z",
       "answer": {
         "points": [
           [

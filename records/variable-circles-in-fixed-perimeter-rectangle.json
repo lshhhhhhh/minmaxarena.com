@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/variable-circles-in-fixed-perimeter-rectangle",
-  "generatedAt": "2026-09-01T10:14:07.754Z",
+  "generatedAt": "2026-09-02T09:43:42.578Z",
   "instances": [
     {
       "instanceId": "p67-n3-v1",
@@ -19,39 +19,41 @@
         "n": 3
       },
       "objective": "maximize",
-      "scoreStored": "813965437",
-      "scoreDisplay": "0.813965437",
+      "scoreStored": "813965438",
+      "scoreDisplay": "0.813965438",
       "status": "ahead",
       "settled": false,
       "knownBest": {
         "display": "0.813965436384833",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "0.813965434",
         "source": "fixed-perimeter rectangle configuration from the public repository of Berthold, Kamp, Mexi, Pokutta and Polik; its continuous sum is 0.813965436384833. The same configuration was conservatively quantized to the site's nine-decimal grid and verifies at 0.813965434; optimality is open",
         "url": "https://github.com/DominikKamp/Packing/blob/27f71632d8655ae4b6a049410a401976748b94e3/rectangle/n3/rectangle_n3.txt"
       },
       "holder": "邱仲普",
       "method": "ai",
-      "recordedAt": "2026-09-01T07:33:03.734Z",
+      "recordedAt": "2026-09-02T04:28:25.015Z",
       "answer": {
         "circles": [
           [
+            "0.406982719",
             "0.40698272",
-            "0.779051841",
             "0.406982719"
           ],
           [
+            "0.982543201",
             "0.610474079",
-            "0.20349136",
             "0.203491359"
           ],
           [
+            "0.982543201",
             "0.20349136",
-            "0.20349136",
-            "0.203491359"
+            "0.20349136"
           ]
         ],
-        "height": "1.186034561",
-        "width": "0.813965439"
+        "height": "0.813965439",
+        "width": "1.186034561"
       }
     },
     {
@@ -61,40 +63,42 @@
         "n": 4
       },
       "objective": "maximize",
-      "scoreStored": "1006788472",
-      "scoreDisplay": "1.006788472",
+      "scoreStored": "1006788474",
+      "scoreDisplay": "1.006788474",
       "status": "ahead",
       "settled": false,
       "knownBest": {
         "display": "1.006788470646057",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "1.006788468",
         "source": "fixed-perimeter rectangle configuration from the public repository of Berthold, Kamp, Mexi, Pokutta and Polik; its continuous sum is 1.006788470646057. The same configuration was conservatively quantized to the site's nine-decimal grid and verifies at 1.006788468; optimality is open",
         "url": "https://github.com/DominikKamp/Packing/blob/27f71632d8655ae4b6a049410a401976748b94e3/rectangle/n4/rectangle_n4.txt"
       },
       "holder": "邱仲普",
       "method": "ai",
-      "recordedAt": "2026-09-01T07:17:42.938Z",
+      "recordedAt": "2026-09-02T04:29:16.912Z",
       "answer": {
         "circles": [
           [
             "0.789498981",
-            "0.210501019",
-            "0.210501018"
-          ],
-          [
-            "0.210501019",
             "0.789498981",
-            "0.210501018"
+            "0.210501019"
           ],
           [
-            "0.292893219",
-            "0.292893219",
+            "0.292893218",
+            "0.707106782",
             "0.292893218"
           ],
           [
-            "0.707106781",
-            "0.707106781",
+            "0.707106782",
+            "0.292893218",
             "0.292893218"
+          ],
+          [
+            "0.210501019",
+            "0.210501019",
+            "0.210501019"
           ]
         ],
         "height": "1",
@@ -115,6 +119,8 @@
       "knownBest": {
         "display": "1.112261798541453",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "1.112261797",
         "source": "fixed-perimeter rectangle configuration from the public repository of Berthold, Kamp, Mexi, Pokutta and Polik; its continuous sum is 1.112261798541453. The same configuration was conservatively quantized to the site's nine-decimal grid and verifies at 1.112261797; optimality is open",
         "url": "https://github.com/DominikKamp/Packing/blob/27f71632d8655ae4b6a049410a401976748b94e3/rectangle/n5/rectangle_n5.txt"
       },
@@ -160,54 +166,56 @@
         "n": 6
       },
       "objective": "maximize",
-      "scoreStored": "1212458615",
-      "scoreDisplay": "1.212458615",
+      "scoreStored": "1212458616",
+      "scoreDisplay": "1.212458616",
       "status": "ahead",
       "settled": false,
       "knownBest": {
         "display": "1.212458613888737",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "1.212458612",
         "source": "fixed-perimeter rectangle configuration from the public repository of Berthold, Kamp, Mexi, Pokutta and Polik; its continuous sum is 1.212458613888737. The same configuration was conservatively quantized to the site's nine-decimal grid and verifies at 1.212458612; optimality is open",
         "url": "https://github.com/DominikKamp/Packing/blob/27f71632d8655ae4b6a049410a401976748b94e3/rectangle/n6/rectangle_n6.txt"
       },
       "holder": "邱仲普",
       "method": "ai",
-      "recordedAt": "2026-09-01T07:17:53.524Z",
+      "recordedAt": "2026-09-02T04:30:07.259Z",
       "answer": {
         "circles": [
           [
-            "0.551645906",
-            "0.240139856",
-            "0.240139855"
-          ],
-          [
-            "0.585522577",
-            "0.685255623",
-            "0.206263185"
-          ],
-          [
-            "0.206263185",
             "0.522958615",
+            "0.585522577",
             "0.206263184"
           ],
           [
-            "0.631959494",
-            "1.048387969",
-            "0.159826268"
+            "0.240139856",
+            "0.240139856",
+            "0.240139856"
           ],
           [
-            "0.240139856",
-            "0.968074382",
+            "0.968074381",
+            "0.551645906",
             "0.240139855"
           ],
           [
             "0.159826269",
-            "0.159826269",
+            "0.631959494",
             "0.159826268"
+          ],
+          [
+            "0.685255623",
+            "0.206263185",
+            "0.206263184"
+          ],
+          [
+            "1.048387969",
+            "0.159826269",
+            "0.159826269"
           ]
         ],
-        "height": "1.208214238",
-        "width": "0.791785762"
+        "height": "0.791785762",
+        "width": "1.208214238"
       }
     },
     {
@@ -224,6 +232,8 @@
       "knownBest": {
         "display": "1.324288809094027",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "1.324288805",
         "source": "fixed-perimeter rectangle configuration from the public repository of Berthold, Kamp, Mexi, Pokutta and Polik; its continuous sum is 1.324288809094027. The same configuration was conservatively quantized to the site's nine-decimal grid and verifies at 1.324288805; optimality is open",
         "url": "https://github.com/DominikKamp/Packing/blob/27f71632d8655ae4b6a049410a401976748b94e3/rectangle/n7/rectangle_n7.txt"
       },
@@ -286,6 +296,8 @@
       "knownBest": {
         "display": "1.430221722547526",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "1.430221717",
         "source": "fixed-perimeter rectangle configuration from the public repository of Berthold, Kamp, Mexi, Pokutta and Polik; its continuous sum is 1.430221722547526. The same configuration was conservatively quantized to the site's nine-decimal grid and verifies at 1.430221717; optimality is open",
         "url": "https://github.com/DominikKamp/Packing/blob/27f71632d8655ae4b6a049410a401976748b94e3/rectangle/n8/rectangle_n8.txt"
       },
@@ -346,25 +358,27 @@
         "n": 9
       },
       "objective": "maximize",
-      "scoreStored": "1528312763",
-      "scoreDisplay": "1.528312763",
-      "status": "open",
+      "scoreStored": "1528312765",
+      "scoreDisplay": "1.528312765",
+      "status": "ahead",
       "settled": false,
       "knownBest": {
         "display": "1.528312763804392",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "1.528312759",
         "source": "fixed-perimeter rectangle configuration from the public repository of Berthold, Kamp, Mexi, Pokutta and Polik; its continuous sum is 1.528312763804392. The same configuration was conservatively quantized to the site's nine-decimal grid and verifies at 1.528312759; optimality is open",
         "url": "https://github.com/DominikKamp/Packing/blob/27f71632d8655ae4b6a049410a401976748b94e3/rectangle/n9/rectangle_n9.txt"
       },
       "holder": "邱仲普",
       "method": "ai",
-      "recordedAt": "2026-09-01T07:18:07.242Z",
+      "recordedAt": "2026-09-02T04:30:59.763Z",
       "answer": {
         "circles": [
           [
             "0.561307698",
-            "0.80628779",
-            "0.176412032"
+            "0.176412034",
+            "0.176412033"
           ],
           [
             "0.115815054",
@@ -372,19 +386,9 @@
             "0.115815054"
           ],
           [
-            "0.876506882",
-            "0.140793295",
-            "0.140793294"
-          ],
-          [
-            "0.799090315",
+            "0.40625528",
             "0.491349912",
-            "0.218209861"
-          ],
-          [
-            "0.876506882",
-            "0.841906528",
-            "0.140793294"
+            "0.174625172"
           ],
           [
             "0.192626012",
@@ -392,19 +396,29 @@
             "0.192626012"
           ],
           [
-            "0.192626012",
-            "0.790073811",
-            "0.192626011"
+            "0.876506882",
+            "0.841906528",
+            "0.140793294"
+          ],
+          [
+            "0.876506882",
+            "0.140793295",
+            "0.140793295"
+          ],
+          [
+            "0.799090315",
+            "0.491349912",
+            "0.218209861"
           ],
           [
             "0.561307698",
-            "0.176412033",
+            "0.80628779",
             "0.176412033"
           ],
           [
-            "0.406255281",
-            "0.491349912",
-            "0.174625172"
+            "0.192626012",
+            "0.790073811",
+            "0.192626011"
           ]
         ],
         "height": "0.982699823",
@@ -418,21 +432,38 @@
         "n": 10
       },
       "objective": "maximize",
-      "scoreStored": "1610004230",
-      "scoreDisplay": "1.61000423",
+      "scoreStored": "1610004231",
+      "scoreDisplay": "1.610004231",
       "status": "ahead",
       "settled": false,
       "knownBest": {
         "display": "1.610004228715652",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "1.610004223",
         "source": "fixed-perimeter rectangle configuration from the public repository of Berthold, Kamp, Mexi, Pokutta and Polik; its continuous sum is 1.610004228715652. The same configuration was conservatively quantized to the site's nine-decimal grid and verifies at 1.610004223; optimality is open",
         "url": "https://github.com/DominikKamp/Packing/blob/27f71632d8655ae4b6a049410a401976748b94e3/rectangle/n10/rectangle_n10.txt"
       },
       "holder": "邱仲普",
       "method": "ai",
-      "recordedAt": "2026-09-01T07:17:10.952Z",
+      "recordedAt": "2026-09-02T04:31:49.387Z",
       "answer": {
         "circles": [
+          [
+            "0.890947456",
+            "0.744643761",
+            "0.182204391"
+          ],
+          [
+            "0.182204391",
+            "0.182204392",
+            "0.182204391"
+          ],
+          [
+            "0.108510709",
+            "0.463424077",
+            "0.108510709"
+          ],
           [
             "0.376798671",
             "0.463424077",
@@ -441,7 +472,17 @@
           [
             "0.536575923",
             "0.172305373",
-            "0.172305372"
+            "0.172305373"
+          ],
+          [
+            "0.182204391",
+            "0.744643761",
+            "0.182204391"
+          ],
+          [
+            "0.696353176",
+            "0.463424077",
+            "0.159777252"
           ],
           [
             "0.890947455",
@@ -452,31 +493,6 @@
             "0.536575923",
             "0.75454278",
             "0.172305372"
-          ],
-          [
-            "0.890947456",
-            "0.744643761",
-            "0.182204391"
-          ],
-          [
-            "0.696353176",
-            "0.463424077",
-            "0.159777252"
-          ],
-          [
-            "0.108510709",
-            "0.463424077",
-            "0.108510709"
-          ],
-          [
-            "0.182204392",
-            "0.182204392",
-            "0.182204391"
-          ],
-          [
-            "0.182204391",
-            "0.744643761",
-            "0.182204391"
           ],
           [
             "0.964641138",
@@ -495,25 +511,42 @@
         "n": 11
       },
       "objective": "maximize",
-      "scoreStored": "1685206467",
-      "scoreDisplay": "1.685206467",
-      "status": "open",
+      "scoreStored": "1685206470",
+      "scoreDisplay": "1.68520647",
+      "status": "ahead",
       "settled": false,
       "knownBest": {
         "display": "1.685206469033654",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "1.685206461",
         "source": "fixed-perimeter rectangle configuration from the public repository of Berthold, Kamp, Mexi, Pokutta and Polik; its continuous sum is 1.685206469033654. The same configuration was conservatively quantized to the site's nine-decimal grid and verifies at 1.685206461; optimality is open",
         "url": "https://github.com/DominikKamp/Packing/blob/27f71632d8655ae4b6a049410a401976748b94e3/rectangle/n11/rectangle_n11.txt"
       },
       "holder": "邱仲普",
       "method": "ai",
-      "recordedAt": "2026-09-01T07:17:15.267Z",
+      "recordedAt": "2026-09-02T04:32:39.734Z",
       "answer": {
         "circles": [
           [
-            "0.439352917",
-            "0.924910716",
-            "0.196383449"
+            "0.155697045",
+            "0.716344128",
+            "0.155697045"
+          ],
+          [
+            "0.125442802",
+            "0.995851364",
+            "0.125442802"
+          ],
+          [
+            "0.723008789",
+            "0.716344128",
+            "0.155697045"
+          ],
+          [
+            "0.753263032",
+            "0.125442802",
+            "0.125442802"
           ],
           [
             "0.723008789",
@@ -521,14 +554,19 @@
             "0.155697045"
           ],
           [
-            "0.753263033",
-            "0.125442802",
-            "0.125442801"
-          ],
-          [
             "0.439352917",
             "0.560647083",
-            "0.167880183"
+            "0.167880184"
+          ],
+          [
+            "0.125442802",
+            "0.125442802",
+            "0.125442802"
+          ],
+          [
+            "0.155697046",
+            "0.404950037",
+            "0.155697045"
           ],
           [
             "0.753263032",
@@ -536,34 +574,14 @@
             "0.125442802"
           ],
           [
-            "0.155697046",
-            "0.404950037",
-            "0.155697045"
-          ],
-          [
-            "0.723008789",
-            "0.716344128",
-            "0.155697045"
-          ],
-          [
-            "0.125442802",
-            "0.995851364",
-            "0.125442802"
-          ],
-          [
             "0.439352917",
-            "0.196383449",
+            "0.19638345",
             "0.196383449"
           ],
           [
-            "0.155697046",
-            "0.716344128",
-            "0.155697045"
-          ],
-          [
-            "0.125442802",
-            "0.125442802",
-            "0.125442801"
+            "0.439352917",
+            "0.924910716",
+            "0.196383449"
           ]
         ],
         "height": "1.121294166",
@@ -577,78 +595,80 @@
         "n": 12
       },
       "objective": "maximize",
-      "scoreStored": "1765978314",
-      "scoreDisplay": "1.765978314",
+      "scoreStored": "1765978316",
+      "scoreDisplay": "1.765978316",
       "status": "ahead",
       "settled": false,
       "knownBest": {
         "display": "1.765978311667541",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "1.765978304",
         "source": "fixed-perimeter rectangle configuration from the public repository of Berthold, Kamp, Mexi, Pokutta and Polik; its continuous sum is 1.765978311667541. The same configuration was conservatively quantized to the site's nine-decimal grid and verifies at 1.765978304; optimality is open",
         "url": "https://github.com/DominikKamp/Packing/blob/27f71632d8655ae4b6a049410a401976748b94e3/rectangle/n12/rectangle_n12.txt"
       },
       "holder": "邱仲普",
       "method": "ai",
-      "recordedAt": "2026-09-01T07:17:19.308Z",
+      "recordedAt": "2026-09-02T04:33:30.406Z",
       "answer": {
         "circles": [
           [
-            "0.147431329",
-            "0.512072036",
-            "0.147431329"
-          ],
-          [
-            "0.816704489",
-            "0.816704489",
-            "0.183295511"
-          ],
-          [
-            "0.406452505",
+            "0.593547495",
             "0.406452505",
             "0.132296136"
           ],
           [
             "0.636615329",
-            "0.363384671",
+            "0.636615329",
             "0.101861426"
-          ],
-          [
-            "0.512072036",
-            "0.147431329",
-            "0.147431329"
-          ],
-          [
-            "0.593547495",
-            "0.593547495",
-            "0.132296136"
-          ],
-          [
-            "0.170673428",
-            "0.829326572",
-            "0.170673426"
-          ],
-          [
-            "0.829326572",
-            "0.170673428",
-            "0.170673426"
-          ],
-          [
-            "0.183295511",
-            "0.183295511",
-            "0.183295511"
           ],
           [
             "0.852568671",
+            "0.512072036",
+            "0.147431329"
+          ],
+          [
+            "0.816704489",
+            "0.183295511",
+            "0.183295511"
+          ],
+          [
+            "0.170673427",
+            "0.170673427",
+            "0.170673427"
+          ],
+          [
+            "0.183295511",
+            "0.816704489",
+            "0.183295511"
+          ],
+          [
+            "0.829326573",
+            "0.829326573",
+            "0.170673427"
+          ],
+          [
+            "0.147431329",
             "0.487927964",
             "0.147431329"
           ],
           [
             "0.363384671",
-            "0.636615329",
+            "0.363384671",
             "0.101861426"
           ],
           [
             "0.487927964",
+            "0.147431329",
+            "0.147431329"
+          ],
+          [
+            "0.406452505",
+            "0.593547495",
+            "0.132296136"
+          ],
+          [
+            "0.512072036",
             "0.852568671",
             "0.147431329"
           ]
@@ -664,25 +684,37 @@
         "n": 13
       },
       "objective": "maximize",
-      "scoreStored": "1835020094",
-      "scoreDisplay": "1.835020094",
+      "scoreStored": "1835020095",
+      "scoreDisplay": "1.835020095",
       "status": "ahead",
       "settled": false,
       "knownBest": {
         "display": "1.835020085670111",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "1.835020065",
         "source": "fixed-perimeter rectangle configuration from the public repository of Berthold, Kamp, Mexi, Pokutta and Polik; its continuous sum is 1.835020085670111. The same configuration was conservatively quantized to the site's nine-decimal grid and verifies at 1.835020065; optimality is open",
         "url": "https://github.com/DominikKamp/Packing/blob/27f71632d8655ae4b6a049410a401976748b94e3/rectangle/n13/rectangle_n13.txt"
       },
       "holder": "邱仲普",
       "method": "ai",
-      "recordedAt": "2026-09-01T07:32:27.744Z",
+      "recordedAt": "2026-09-02T04:34:20.778Z",
       "answer": {
         "circles": [
           [
-            "0.565757116",
-            "0.852276912",
-            "0.1224495"
+            "0.189900106",
+            "0.189900106",
+            "0.189900106"
+          ],
+          [
+            "0.660731532",
+            "0.370634171",
+            "0.103601596"
+          ],
+          [
+            "0.879789388",
+            "0.489198033",
+            "0.145484199"
           ],
           [
             "0.151515765",
@@ -690,9 +722,34 @@
             "0.151515764"
           ],
           [
+            "0.565757116",
+            "0.852276912",
+            "0.1224495"
+          ],
+          [
             "0.852844718",
             "0.172428869",
             "0.172428868"
+          ],
+          [
+            "0.626596848",
+            "0.60447207",
+            "0.132714589"
+          ],
+          [
+            "0.422983342",
+            "0.423211752",
+            "0.139890916"
+          ],
+          [
+            "0.365975633",
+            "0.893238451",
+            "0.081487962"
+          ],
+          [
+            "0.529368739",
+            "0.151709963",
+            "0.151709963"
           ],
           [
             "0.854754894",
@@ -702,47 +759,12 @@
           [
             "0.380780069",
             "0.686007037",
-            "0.126271586"
-          ],
-          [
-            "0.422983342",
-            "0.423211752",
-            "0.139890917"
-          ],
-          [
-            "0.365975633",
-            "0.893238451",
-            "0.081487962"
-          ],
-          [
-            "0.879789388",
-            "0.489198033",
-            "0.145484198"
-          ],
-          [
-            "0.660731533",
-            "0.370634171",
-            "0.103601596"
+            "0.126271587"
           ],
           [
             "0.147046352",
             "0.82768006",
             "0.147046352"
-          ],
-          [
-            "0.529368739",
-            "0.151709963",
-            "0.151709963"
-          ],
-          [
-            "0.189900106",
-            "0.189900106",
-            "0.189900106"
-          ],
-          [
-            "0.626596848",
-            "0.60447207",
-            "0.132714589"
           ]
         ],
         "height": "0.974726413",
@@ -763,6 +785,8 @@
       "knownBest": {
         "display": "1.916657216933570",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "1.916657209",
         "source": "fixed-perimeter rectangle configuration from the public repository of Berthold, Kamp, Mexi, Pokutta and Polik; its continuous sum is 1.916657216933570. The same configuration was conservatively quantized to the site's nine-decimal grid and verifies at 1.916657209; optimality is open",
         "url": "https://github.com/DominikKamp/Packing/blob/27f71632d8655ae4b6a049410a401976748b94e3/rectangle/n14/rectangle_n14.txt"
       },
@@ -853,99 +877,101 @@
         "n": 15
       },
       "objective": "maximize",
-      "scoreStored": "1985786444",
-      "scoreDisplay": "1.985786444",
-      "status": "open",
+      "scoreStored": "1985786489",
+      "scoreDisplay": "1.985786489",
+      "status": "ahead",
       "settled": false,
       "knownBest": {
         "display": "1.985786450240022",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "1.985786444",
         "source": "fixed-perimeter rectangle configuration from the public repository of Berthold, Kamp, Mexi, Pokutta and Polik; its continuous sum is 1.985786450240022. The same configuration was conservatively quantized to the site's nine-decimal grid and verifies at 1.985786444; optimality is open",
         "url": "https://github.com/DominikKamp/Packing/blob/27f71632d8655ae4b6a049410a401976748b94e3/rectangle/n15/rectangle_n15.txt"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-02T04:35:11.348Z",
       "answer": {
         "circles": [
           [
-            "0.389948709",
-            "0.361368259",
-            "0.140285662"
+            "0.622511266",
+            "0.139484584",
+            "0.139484583"
           ],
           [
-            "0.55018606",
-            "0.136132654",
-            "0.136132653"
+            "0.107064869",
+            "0.107064869",
+            "0.107064868"
           ],
           [
-            "0.895661452",
-            "0.390062551",
+            "0.900380847",
+            "0.921789071",
+            "0.088915041"
+          ],
+          [
+            "0.599347181",
+            "0.649335855",
+            "0.140285663"
+          ],
+          [
+            "0.164460562",
+            "0.372454759",
+            "0.164460561"
+          ],
+          [
+            "0.323529651",
+            "0.627792238",
+            "0.136371954"
+          ],
+          [
+            "0.093634438",
+            "0.620641562",
             "0.093634438"
           ],
           [
-            "0.512344898",
-            "0.622833902",
-            "0.148409868"
+            "0.807159261",
+            "0.402819582",
+            "0.182136627"
           ],
           [
-            "0.882231023",
-            "0.903639248",
-            "0.107064859"
+            "0.347769686",
+            "0.13528903",
+            "0.13528903"
           ],
           [
-            "0.12811337",
-            "0.302374222",
-            "0.128113369"
+            "0.43910983",
+            "0.874571458",
+            "0.136132653"
           ],
           [
-            "0.182136626",
-            "0.607884533",
-            "0.182136625"
+            "0.476950992",
+            "0.387870213",
+            "0.148409866"
           ],
           [
-            "0.824835331",
-            "0.638249356",
-            "0.16446056"
-          ],
-          [
-            "0.837596682",
-            "0.15169921",
-            "0.151699209"
-          ],
-          [
-            "0.366784623",
-            "0.871219534",
-            "0.139484573"
-          ],
-          [
+            "0.875018343",
             "0.114277546",
-            "0.896426572",
-            "0.114277535"
+            "0.114277545"
           ],
           [
-            "0.295083251",
-            "0.119511082",
+            "0.694212637",
+            "0.891193031",
             "0.119511081"
           ],
           [
-            "0.088915042",
-            "0.088915042",
-            "0.088915039"
+            "0.861182519",
+            "0.70832989",
+            "0.128113369"
           ],
           [
-            "0.641526205",
-            "0.875415087",
-            "0.13528902"
-          ],
-          [
-            "0.66576624",
-            "0.382911876",
-            "0.136371953"
+            "0.15169921",
+            "0.859004901",
+            "0.15169921"
           ]
         ],
-        "height": "1.010704109",
-        "width": "0.989295891"
+        "height": "1.010704112",
+        "width": "0.989295888"
       }
     },
     {
@@ -955,104 +981,106 @@
         "n": 16
       },
       "objective": "maximize",
-      "scoreStored": "2059275718",
-      "scoreDisplay": "2.059275718",
-      "status": "open",
+      "scoreStored": "2059275746",
+      "scoreDisplay": "2.059275746",
+      "status": "ahead",
       "settled": false,
       "knownBest": {
         "display": "2.059275739882224",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "2.059275718",
         "source": "fixed-perimeter rectangle configuration from the public repository of Berthold, Kamp, Mexi, Pokutta and Polik; its continuous sum is 2.059275739882224. The same configuration was conservatively quantized to the site's nine-decimal grid and verifies at 2.059275718; optimality is open",
         "url": "https://github.com/DominikKamp/Packing/blob/27f71632d8655ae4b6a049410a401976748b94e3/rectangle/n16/rectangle_n16.txt"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-02T04:36:00.772Z",
       "answer": {
         "circles": [
           [
-            "0.379769722",
-            "0.938172139",
-            "0.090274637"
-          ],
-          [
-            "0.617377375",
-            "0.872097781",
-            "0.156348996"
-          ],
-          [
-            "0.869728218",
-            "0.926621776",
-            "0.101825"
-          ],
-          [
-            "0.842836436",
-            "0.697653774",
-            "0.12871678"
+            "0.148333151",
+            "0.148333151",
+            "0.148333151"
           ],
           [
             "0.605468026",
+            "0.448840816",
+            "0.136385175"
+          ],
+          [
+            "0.354175845",
+            "0.87209778",
+            "0.156348998"
+          ],
+          [
+            "0.366085194",
             "0.579605963",
-            "0.136385173"
+            "0.136385174"
           ],
           [
-            "0.591783499",
-            "0.09027464",
-            "0.090274637"
-          ],
-          [
-            "0.101825003",
-            "0.101825003",
-            "0.101825"
-          ],
-          [
-            "0.128716784",
-            "0.330793005",
-            "0.12871678"
-          ],
-          [
-            "0.354175846",
-            "0.156348998",
-            "0.156348996"
-          ],
-          [
-            "0.823220069",
-            "0.148333151",
-            "0.148333149"
-          ],
-          [
-            "0.375278035",
-            "0.716505591",
-            "0.131437412"
-          ],
-          [
-            "0.136316713",
-            "0.595717513",
+            "0.835236508",
+            "0.595717514",
             "0.136316712"
           ],
           [
-            "0.835236507",
+            "0.842836437",
+            "0.330793005",
+            "0.128716783"
+          ],
+          [
+            "0.823220069",
+            "0.880113629",
+            "0.148333151"
+          ],
+          [
+            "0.379769722",
+            "0.090274638",
+            "0.090274638"
+          ],
+          [
+            "0.869728219",
+            "0.101825002",
+            "0.101825001"
+          ],
+          [
+            "0.596275185",
+            "0.716505591",
+            "0.131437415"
+          ],
+          [
+            "0.617377376",
+            "0.156348998",
+            "0.156348998"
+          ],
+          [
+            "0.101825002",
+            "0.926621778",
+            "0.101825002"
+          ],
+          [
+            "0.591783498",
+            "0.938172142",
+            "0.090274638"
+          ],
+          [
+            "0.128716783",
+            "0.697653774",
+            "0.128716783"
+          ],
+          [
+            "0.136316713",
             "0.432729266",
             "0.136316712"
           ],
           [
-            "0.596275186",
+            "0.375278035",
             "0.311941189",
-            "0.131437412"
-          ],
-          [
-            "0.148333151",
-            "0.880113628",
-            "0.148333149"
-          ],
-          [
-            "0.366085195",
-            "0.448840816",
-            "0.136385173"
+            "0.131437415"
           ]
         ],
-        "height": "1.028446781",
-        "width": "0.971553219"
+        "height": "1.02844678",
+        "width": "0.97155322"
       }
     },
     {
@@ -1062,109 +1090,111 @@
         "n": 17
       },
       "objective": "maximize",
-      "scoreStored": "2117334907",
-      "scoreDisplay": "2.117334907",
-      "status": "open",
+      "scoreStored": "2117334951",
+      "scoreDisplay": "2.117334951",
+      "status": "ahead",
       "settled": false,
       "knownBest": {
         "display": "2.117334915785908",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "2.117334907",
         "source": "fixed-perimeter rectangle configuration from the public repository of Berthold, Kamp, Mexi, Pokutta and Polik; its continuous sum is 2.117334915785908. The same configuration was conservatively quantized to the site's nine-decimal grid and verifies at 2.117334907; optimality is open",
         "url": "https://github.com/DominikKamp/Packing/blob/27f71632d8655ae4b6a049410a401976748b94e3/rectangle/n17/rectangle_n17.txt"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-01T10:36:26.960Z",
       "answer": {
         "circles": [
           [
-            "0.107057828",
-            "0.928911769",
-            "0.107057818"
+            "0.572663878",
+            "0.1172641",
+            "0.117264099"
           ],
           [
-            "0.464281958",
-            "0.331345994",
+            "0.464281957",
+            "0.331345991",
             "0.122689431"
           ],
           [
-            "0.104499373",
-            "0.104499373",
-            "0.104499372"
+            "0.107057828",
+            "0.928911764",
+            "0.107057828"
           ],
           [
-            "0.331839137",
-            "0.123645167",
-            "0.123645164"
-          ],
-          [
-            "0.638896662",
-            "0.49588834",
-            "0.117236552"
-          ],
-          [
-            "0.669333422",
-            "0.29547361",
+            "0.669333419",
+            "0.295473608",
             "0.085476199"
           ],
           [
-            "0.612756251",
-            "0.736485002",
+            "0.824057332",
+            "0.895996515",
+            "0.139973076"
+          ],
+          [
+            "0.104499372",
+            "0.104499372",
+            "0.104499372"
+          ],
+          [
+            "0.612756248",
+            "0.736484998",
             "0.124775997"
           ],
           [
-            "0.602754356",
-            "0.9484974",
-            "0.087472186"
+            "0.602754352",
+            "0.948497397",
+            "0.087472195"
           ],
           [
-            "0.57266388",
-            "0.117264101",
-            "0.1172641"
+            "0.172262732",
+            "0.372837572",
+            "0.172262732"
           ],
           [
-            "0.826578568",
+            "0.331839137",
+            "0.123645166",
+            "0.123645165"
+          ],
+          [
+            "0.399552673",
+            "0.583497429",
+            "0.137637723"
+          ],
+          [
+            "0.367414775",
+            "0.877677243",
+            "0.158292348"
+          ],
+          [
+            "0.140318195",
+            "0.683781911",
+            "0.140318194"
+          ],
+          [
+            "0.847535817",
+            "0.390532041",
+            "0.116494591"
+          ],
+          [
+            "0.638896659",
+            "0.495888337",
+            "0.117236552"
+          ],
+          [
+            "0.826578564",
             "0.137451845",
             "0.137451844"
           ],
           [
-            "0.172262731",
-            "0.372837575",
-            "0.17226273"
-          ],
-          [
-            "0.140318194",
-            "0.683781917",
-            "0.140318193"
-          ],
-          [
-            "0.367414777",
-            "0.877677249",
-            "0.158292337"
-          ],
-          [
-            "0.839242807",
-            "0.631671681",
-            "0.124787604"
-          ],
-          [
-            "0.399552674",
-            "0.583497433",
-            "0.137637723"
-          ],
-          [
-            "0.847535821",
-            "0.390532043",
-            "0.116494591"
-          ],
-          [
-            "0.824057336",
-            "0.895996521",
-            "0.139973066"
+            "0.839242803",
+            "0.631671677",
+            "0.124787605"
           ]
         ],
-        "height": "1.035969588",
-        "width": "0.964030412"
+        "height": "1.035969592",
+        "width": "0.964030408"
       }
     },
     {
@@ -1181,6 +1211,8 @@
       "knownBest": {
         "display": "2.180914309478289",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "2.1809143",
         "source": "fixed-perimeter rectangle configuration from the public repository of Berthold, Kamp, Mexi, Pokutta and Polik; its continuous sum is 2.180914309478289. The same configuration was conservatively quantized to the site's nine-decimal grid and verifies at 2.1809143; optimality is open",
         "url": "https://github.com/DominikKamp/Packing/blob/27f71632d8655ae4b6a049410a401976748b94e3/rectangle/n18/rectangle_n18.txt"
       },
@@ -1291,119 +1323,121 @@
         "n": 19
       },
       "objective": "maximize",
-      "scoreStored": "2241565190",
-      "scoreDisplay": "2.24156519",
-      "status": "open",
+      "scoreStored": "2241565270",
+      "scoreDisplay": "2.24156527",
+      "status": "ahead",
       "settled": false,
       "knownBest": {
         "display": "2.241565197559671",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "2.24156519",
         "source": "fixed-perimeter rectangle configuration from the public repository of Berthold, Kamp, Mexi, Pokutta and Polik; its continuous sum is 2.241565197559671. The same configuration was conservatively quantized to the site's nine-decimal grid and verifies at 2.24156519; optimality is open",
         "url": "https://github.com/DominikKamp/Packing/blob/27f71632d8655ae4b6a049410a401976748b94e3/rectangle/n19/rectangle_n19.txt"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-01T10:36:37.175Z",
       "answer": {
         "circles": [
           [
-            "0.805270654",
-            "0.678545523",
-            "0.161372035"
-          ],
-          [
-            "0.121957356",
-            "0.626230747",
-            "0.121957346"
-          ],
-          [
-            "0.309356263",
-            "0.726427496",
-            "0.090546156"
-          ],
-          [
-            "0.404552258",
-            "0.913765707",
-            "0.119591601"
-          ],
-          [
-            "0.37393459",
-            "0.107908095",
-            "0.107908094"
-          ],
-          [
-            "0.133703735",
-            "0.133703735",
-            "0.133703726"
-          ],
-          [
-            "0.645563445",
-            "0.911930741",
-            "0.121426565"
-          ],
-          [
-            "0.669107127",
-            "0.280972093",
-            "0.082641384"
-          ],
-          [
-            "0.521589779",
-            "0.701045569",
-            "0.123199732"
-          ],
-          [
-            "0.831302479",
             "0.135340212",
+            "0.135340213",
             "0.135340212"
           ],
           [
-            "0.842093559",
-            "0.395005425",
-            "0.124549122"
+            "0.161372037",
+            "0.678545524",
+            "0.161372036"
           ],
           [
-            "0.866313424",
-            "0.933028041",
-            "0.100329267"
+            "0.35552604",
+            "0.475032819",
+            "0.119898648"
           ],
           [
-            "0.143003181",
-            "0.890354127",
-            "0.14300317"
+            "0.614902779",
+            "0.499198897",
+            "0.140601431"
           ],
           [
-            "0.351739913",
-            "0.49919889",
-            "0.140601418"
+            "0.100329265",
+            "0.93302804",
+            "0.100329265"
           ],
           [
-            "0.611116651",
-            "0.475032822",
-            "0.11989864"
+            "0.673483772",
+            "0.282186043",
+            "0.084179153"
           ],
           [
-            "0.589682456",
-            "0.10783978",
-            "0.10783978"
+            "0.376960241",
+            "0.107839786",
+            "0.107839786"
           ],
           [
-            "0.481933891",
-            "0.291169965",
-            "0.104809454"
+            "0.484708805",
+            "0.29116996",
+            "0.104809468"
           ],
           [
-            "0.293158918",
-            "0.282186045",
-            "0.084179159"
+            "0.592708111",
+            "0.107908094",
+            "0.107908094"
           ],
           [
-            "0.118668339",
-            "0.385627532",
-            "0.118668329"
+            "0.84468534",
+            "0.626230748",
+            "0.121957354"
+          ],
+          [
+            "0.445052913",
+            "0.701045566",
+            "0.123199732"
+          ],
+          [
+            "0.12454913",
+            "0.395005426",
+            "0.12454913"
+          ],
+          [
+            "0.847974355",
+            "0.385627533",
+            "0.118668339"
+          ],
+          [
+            "0.29753556",
+            "0.280972089",
+            "0.082641378"
+          ],
+          [
+            "0.562090434",
+            "0.913765697",
+            "0.119591608"
+          ],
+          [
+            "0.823639514",
+            "0.890354125",
+            "0.14300318"
+          ],
+          [
+            "0.321079244",
+            "0.911930738",
+            "0.121426567"
+          ],
+          [
+            "0.657286423",
+            "0.726427491",
+            "0.090546155"
+          ],
+          [
+            "0.83293896",
+            "0.133703734",
+            "0.133703734"
           ]
         ],
-        "height": "1.033357309",
-        "width": "0.966642691"
+        "height": "1.033357305",
+        "width": "0.966642695"
       }
     },
     {
@@ -1413,124 +1447,126 @@
         "n": 20
       },
       "objective": "maximize",
-      "scoreStored": "2305713814",
-      "scoreDisplay": "2.305713814",
-      "status": "open",
+      "scoreStored": "2305713856",
+      "scoreDisplay": "2.305713856",
+      "status": "ahead",
       "settled": false,
       "knownBest": {
         "display": "2.305713821106596",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "2.305713814",
         "source": "fixed-perimeter rectangle configuration from the public repository of Berthold, Kamp, Mexi, Pokutta and Polik; its continuous sum is 2.305713821106596. The same configuration was conservatively quantized to the site's nine-decimal grid and verifies at 2.305713814; optimality is open",
         "url": "https://github.com/DominikKamp/Packing/blob/27f71632d8655ae4b6a049410a401976748b94e3/rectangle/n20/rectangle_n20.txt"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-01T10:36:46.640Z",
       "answer": {
         "circles": [
           [
-            "0.118862151",
-            "0.389705094",
-            "0.11886215"
-          ],
-          [
-            "0.49143276",
-            "0.301183616",
-            "0.109676672"
-          ],
-          [
-            "0.35020402",
-            "0.508567245",
-            "0.141228738"
-          ],
-          [
-            "0.118862151",
-            "0.627429395",
+            "0.389705092",
+            "0.11886215",
             "0.118862149"
           ],
           [
-            "0.380778367",
-            "0.110654394",
-            "0.110654392"
+            "0.71595087",
+            "0.491432758",
+            "0.109676673"
           ],
           [
-            "0.49143276",
-            "0.715950874",
-            "0.109676672"
-          ],
-          [
-            "0.6326615",
-            "0.508567245",
-            "0.141228738"
-          ],
-          [
-            "0.602087153",
-            "0.906480096",
-            "0.110654383"
-          ],
-          [
-            "0.135700216",
-            "0.881434274",
-            "0.135700205"
-          ],
-          [
-            "0.847165305",
-            "0.135700216",
-            "0.135700215"
-          ],
-          [
-            "0.135700216",
-            "0.135700216",
-            "0.135700215"
-          ],
-          [
-            "0.296439644",
-            "0.288038727",
-            "0.085759001"
-          ],
-          [
-            "0.602087153",
-            "0.110654394",
-            "0.110654392"
-          ],
-          [
-            "0.847165305",
-            "0.881434274",
-            "0.135700205"
-          ],
-          [
-            "0.864003369",
-            "0.389705094",
-            "0.11886215"
-          ],
-          [
-            "0.296439644",
-            "0.729095763",
-            "0.085759002"
-          ],
-          [
-            "0.686425876",
-            "0.288038727",
-            "0.085759001"
-          ],
-          [
-            "0.864003369",
-            "0.627429395",
+            "0.389705092",
+            "0.864003366",
             "0.118862149"
           ],
           [
-            "0.686425876",
-            "0.729095763",
+            "0.729095759",
+            "0.686425874",
             "0.085759002"
           ],
           [
-            "0.380778367",
-            "0.906480096",
-            "0.110654383"
+            "0.301183614",
+            "0.491432758",
+            "0.109676673"
+          ],
+          [
+            "0.508567242",
+            "0.350204018",
+            "0.141228739"
+          ],
+          [
+            "0.110654393",
+            "0.380778365",
+            "0.110654392"
+          ],
+          [
+            "0.627429392",
+            "0.11886215",
+            "0.118862149"
+          ],
+          [
+            "0.906480091",
+            "0.602087151",
+            "0.110654392"
+          ],
+          [
+            "0.135700215",
+            "0.135700215",
+            "0.135700215"
+          ],
+          [
+            "0.288038725",
+            "0.686425874",
+            "0.085759002"
+          ],
+          [
+            "0.508567242",
+            "0.632661498",
+            "0.141228739"
+          ],
+          [
+            "0.288038725",
+            "0.296439642",
+            "0.085759002"
+          ],
+          [
+            "0.627429392",
+            "0.864003366",
+            "0.118862149"
+          ],
+          [
+            "0.906480091",
+            "0.380778365",
+            "0.110654392"
+          ],
+          [
+            "0.135700215",
+            "0.847165301",
+            "0.135700215"
+          ],
+          [
+            "0.729095759",
+            "0.296439642",
+            "0.085759002"
+          ],
+          [
+            "0.110654393",
+            "0.602087151",
+            "0.110654392"
+          ],
+          [
+            "0.881434269",
+            "0.847165301",
+            "0.135700215"
+          ],
+          [
+            "0.881434269",
+            "0.135700215",
+            "0.135700215"
           ]
         ],
-        "height": "1.01713448",
-        "width": "0.98286552"
+        "height": "0.982865516",
+        "width": "1.017134484"
       }
     },
     {
@@ -1540,129 +1576,131 @@
         "n": 21
       },
       "objective": "maximize",
-      "scoreStored": "2365832315",
-      "scoreDisplay": "2.365832315",
-      "status": "open",
+      "scoreStored": "2365832367",
+      "scoreDisplay": "2.365832367",
+      "status": "ahead",
       "settled": false,
       "knownBest": {
         "display": "2.365832326862653",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "2.365832315",
         "source": "fixed-perimeter rectangle configuration from the public repository of Berthold, Kamp, Mexi, Pokutta and Polik; its continuous sum is 2.365832326862653. The same configuration was conservatively quantized to the site's nine-decimal grid and verifies at 2.365832315; optimality is open",
         "url": "https://github.com/DominikKamp/Packing/blob/27f71632d8655ae4b6a049410a401976748b94e3/rectangle/n21/rectangle_n21.txt"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-02T04:36:51.834Z",
       "answer": {
         "circles": [
           [
-            "0.8527695",
-            "0.123961609",
-            "0.123961607"
-          ],
-          [
-            "0.298203233",
-            "0.731338595",
+            "0.731338591",
+            "0.678527872",
             "0.086412063"
           ],
           [
-            "0.71756247",
-            "0.314526273",
-            "0.109695898"
-          ],
-          [
-            "0.385895121",
-            "0.112921699",
-            "0.112921697"
-          ],
-          [
-            "0.901989604",
-            "0.316472144",
-            "0.074741499"
-          ],
-          [
-            "0.385895121",
-            "0.910347202",
-            "0.112921689"
-          ],
-          [
-            "0.71756247",
-            "0.708742629",
-            "0.109695898"
-          ],
-          [
-            "0.347821024",
-            "0.511634451",
-            "0.138825223"
-          ],
-          [
-            "0.901989604",
-            "0.706796757",
-            "0.074741499"
-          ],
-          [
-            "0.613889701",
-            "0.115083127",
-            "0.115083125"
-          ],
-          [
-            "0.298203233",
-            "0.291930306",
-            "0.086412062"
-          ],
-          [
-            "0.8527695",
-            "0.899307293",
-            "0.123961598"
-          ],
-          [
-            "0.495899584",
-            "0.309144341",
-            "0.11203231"
-          ],
-          [
-            "0.849330917",
-            "0.511634451",
-            "0.12740019"
-          ],
-          [
-            "0.604288487",
-            "0.511634451",
-            "0.117642236"
+            "0.115083126",
+            "0.362841405",
+            "0.115083126"
           ],
           [
             "0.137071297",
-            "0.886197604",
-            "0.137071286"
+            "0.839659807",
+            "0.137071297"
           ],
           [
-            "0.119062857",
-            "0.392571594",
+            "0.899307289",
+            "0.123961608",
+            "0.123961607"
+          ],
+          [
+            "0.392571592",
+            "0.857668247",
             "0.119062856"
           ],
           [
-            "0.613889701",
-            "0.908185774",
-            "0.115083117"
+            "0.630697305",
+            "0.857668247",
+            "0.119062856"
           ],
           [
-            "0.495899584",
-            "0.71412456",
+            "0.316472143",
+            "0.0747415",
+            "0.074741499"
+          ],
+          [
+            "0.714124557",
+            "0.480831522",
             "0.112032311"
           ],
           [
-            "0.119062857",
-            "0.630697308",
-            "0.119062855"
+            "0.291930305",
+            "0.678527872",
+            "0.086412063"
           ],
           [
-            "0.137071297",
-            "0.137071297",
+            "0.886197599",
+            "0.839659806",
             "0.137071296"
+          ],
+          [
+            "0.90818577",
+            "0.362841405",
+            "0.115083126"
+          ],
+          [
+            "0.910347198",
+            "0.590835984",
+            "0.112921698"
+          ],
+          [
+            "0.511634448",
+            "0.628910081",
+            "0.138825224"
+          ],
+          [
+            "0.706796754",
+            "0.0747415",
+            "0.0747415"
+          ],
+          [
+            "0.708742626",
+            "0.259168636",
+            "0.1096959"
+          ],
+          [
+            "0.30914434",
+            "0.480831522",
+            "0.112032311"
+          ],
+          [
+            "0.511634448",
+            "0.372442619",
+            "0.117642237"
+          ],
+          [
+            "0.314526271",
+            "0.259168636",
+            "0.1096959"
+          ],
+          [
+            "0.112921698",
+            "0.590835984",
+            "0.112921698"
+          ],
+          [
+            "0.511634448",
+            "0.127400191",
+            "0.127400191"
+          ],
+          [
+            "0.123961608",
+            "0.123961608",
+            "0.123961608"
           ]
         ],
-        "height": "1.023268893",
-        "width": "0.976731107"
+        "height": "0.976731104",
+        "width": "1.023268896"
       }
     },
     {
@@ -1679,12 +1717,14 @@
       "knownBest": {
         "display": "2.425137224684899",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "2.425137213",
         "source": "fixed-perimeter rectangle configuration from the public repository of Berthold, Kamp, Mexi, Pokutta and Polik; its continuous sum is 2.425137224684899. The same configuration was conservatively quantized to the site's nine-decimal grid and verifies at 2.425137213; optimality is open",
         "url": "https://github.com/DominikKamp/Packing/blob/27f71632d8655ae4b6a049410a401976748b94e3/rectangle/n22/rectangle_n22.txt"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-29T07:56:50.700Z",
       "answer": {
         "circles": [
           [
@@ -1809,139 +1849,141 @@
         "n": 23
       },
       "objective": "maximize",
-      "scoreStored": "2484239482",
-      "scoreDisplay": "2.484239482",
-      "status": "open",
+      "scoreStored": "2484239539",
+      "scoreDisplay": "2.484239539",
+      "status": "ahead",
       "settled": false,
       "knownBest": {
         "display": "2.484239494302877",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "2.484239482",
         "source": "fixed-perimeter rectangle configuration from the public repository of Berthold, Kamp, Mexi, Pokutta and Polik; its continuous sum is 2.484239494302877. The same configuration was conservatively quantized to the site's nine-decimal grid and verifies at 2.484239482; optimality is open",
         "url": "https://github.com/DominikKamp/Packing/blob/27f71632d8655ae4b6a049410a401976748b94e3/rectangle/n23/rectangle_n23.txt"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-01T10:40:47.785Z",
       "answer": {
         "circles": [
           [
             "0.132966745",
-            "0.299487604",
-            "0.132966743"
+            "0.299487601",
+            "0.132966745"
           ],
           [
-            "0.906814931",
-            "0.921526268",
-            "0.085829395"
+            "0.381095844",
+            "0.305122222",
+            "0.115226322"
           ],
           [
-            "0.859677591",
-            "0.70786807",
-            "0.132966744"
+            "0.085829403",
+            "0.085829403",
+            "0.085829403"
           ],
           [
-            "0.714626715",
-            "0.107586416",
-            "0.107586411"
+            "0.269381403",
+            "0.503677834",
+            "0.112599152"
+          ],
+          [
+            "0.078391125",
+            "0.503677834",
+            "0.078391125"
+          ],
+          [
+            "0.496322166",
+            "0.503677834",
+            "0.114341611"
           ],
           [
             "0.132966745",
-            "0.70786807",
+            "0.707868066",
             "0.132966744"
           ],
           [
-            "0.278017622",
-            "0.899769258",
-            "0.107586405"
-          ],
-          [
-            "0.611548491",
-            "0.702233449",
-            "0.115226322"
-          ],
-          [
-            "0.085829406",
-            "0.921526268",
-            "0.085829395"
-          ],
-          [
-            "0.085829406",
-            "0.085829406",
+            "0.906814929",
+            "0.921526264",
             "0.085829403"
           ],
           [
-            "0.278017622",
-            "0.107586416",
-            "0.107586411"
-          ],
-          [
-            "0.381095845",
-            "0.305122225",
-            "0.115226322"
-          ],
-          [
-            "0.381095845",
-            "0.702233449",
-            "0.115226322"
-          ],
-          [
-            "0.496322168",
-            "0.503677837",
-            "0.11434161"
-          ],
-          [
-            "0.906814931",
-            "0.085829406",
-            "0.085829403"
-          ],
-          [
-            "0.723262932",
-            "0.503677837",
-            "0.11259915"
-          ],
-          [
-            "0.859677591",
-            "0.299487604",
-            "0.132966743"
-          ],
-          [
-            "0.078391128",
-            "0.503677837",
-            "0.078391124"
-          ],
-          [
-            "0.914253208",
-            "0.503677837",
-            "0.078391124"
-          ],
-          [
-            "0.714626715",
-            "0.899769258",
-            "0.107586405"
-          ],
-          [
-            "0.496322168",
-            "0.110740923",
+            "0.496322166",
+            "0.896614746",
             "0.110740921"
           ],
           [
-            "0.269381404",
-            "0.503677837",
-            "0.11259915"
+            "0.714626712",
+            "0.107586414",
+            "0.107586414"
           ],
           [
-            "0.611548491",
-            "0.305122225",
+            "0.381095844",
+            "0.702233445",
             "0.115226322"
           ],
           [
-            "0.496322168",
-            "0.89661475",
-            "0.110740913"
+            "0.72326293",
+            "0.503677834",
+            "0.112599152"
+          ],
+          [
+            "0.859677588",
+            "0.707868066",
+            "0.132966744"
+          ],
+          [
+            "0.496322166",
+            "0.110740922",
+            "0.110740921"
+          ],
+          [
+            "0.278017621",
+            "0.107586414",
+            "0.107586413"
+          ],
+          [
+            "0.714626712",
+            "0.899769253",
+            "0.107586414"
+          ],
+          [
+            "0.611548489",
+            "0.305122222",
+            "0.115226322"
+          ],
+          [
+            "0.859677588",
+            "0.299487601",
+            "0.132966744"
+          ],
+          [
+            "0.611548489",
+            "0.702233445",
+            "0.115226322"
+          ],
+          [
+            "0.914253208",
+            "0.503677834",
+            "0.078391125"
+          ],
+          [
+            "0.085829403",
+            "0.921526264",
+            "0.085829403"
+          ],
+          [
+            "0.906814929",
+            "0.085829403",
+            "0.085829403"
+          ],
+          [
+            "0.278017621",
+            "0.899769253",
+            "0.107586414"
           ]
         ],
-        "height": "1.007355665",
-        "width": "0.992644335"
+        "height": "1.007355667",
+        "width": "0.992644333"
       }
     },
     {
@@ -1951,144 +1993,146 @@
         "n": 24
       },
       "objective": "maximize",
-      "scoreStored": "2535344040",
-      "scoreDisplay": "2.53534404",
-      "status": "open",
+      "scoreStored": "2535696911",
+      "scoreDisplay": "2.535696911",
+      "status": "ahead",
       "settled": false,
       "knownBest": {
         "display": "2.535344050819014",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "2.53534404",
         "source": "fixed-perimeter rectangle configuration from the public repository of Berthold, Kamp, Mexi, Pokutta and Polik; its continuous sum is 2.535344050819014. The same configuration was conservatively quantized to the site's nine-decimal grid and verifies at 2.53534404; optimality is open",
         "url": "https://github.com/DominikKamp/Packing/blob/27f71632d8655ae4b6a049410a401976748b94e3/rectangle/n24/rectangle_n24.txt"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-01T10:40:58.965Z",
       "answer": {
         "circles": [
           [
-            "0.499356224",
-            "0.263855601",
-            "0.110245354"
+            "0.590397812",
+            "0.111557581",
+            "0.111557581"
           ],
           [
-            "0.90449121",
-            "0.08310001",
-            "0.083100006"
+            "0.829530452",
+            "0.128150008",
+            "0.128150007"
           ],
           [
-            "0.090809377",
-            "0.921599413",
-            "0.090809366"
+            "0.105147766",
+            "0.360311047",
+            "0.105147765"
           ],
           [
-            "0.498078326",
-            "0.076807307",
-            "0.076807303"
+            "0.667991382",
+            "0.680277571",
+            "0.109280577"
           ],
           [
-            "0.713792959",
-            "0.949687978",
-            "0.062720801"
+            "0.284647874",
+            "0.915911885",
+            "0.126407656"
           ],
           [
-            "0.311451265",
-            "0.608825191",
-            "0.116819776"
+            "0.47884023",
+            "0.326309155",
+            "0.130441038"
           ],
           [
-            "0.88265459",
-            "0.690151612",
-            "0.104936627"
+            "0.852430732",
+            "0.570708515",
+            "0.105249727"
           ],
           [
-            "0.878914572",
-            "0.903732142",
-            "0.108676637"
+            "0.367282648",
+            "0.111557582",
+            "0.111557582"
           ],
           [
-            "0.516584665",
-            "0.708314633",
-            "0.111166758"
+            "0.272713185",
+            "0.279274445",
+            "0.080984178"
           ],
           [
-            "0.693839282",
-            "0.369278465",
-            "0.110973175"
+            "0.128150007",
+            "0.128150008",
+            "0.128150007"
           ],
           [
-            "0.319067855",
-            "0.868971142",
-            "0.143437637"
+            "0.10220727",
+            "0.778143201",
+            "0.102207269"
           ],
           [
-            "0.697709403",
-            "0.587031573",
-            "0.106814319"
+            "0.105249727",
+            "0.570708515",
+            "0.105249727"
           ],
           [
-            "0.30528949",
-            "0.377459885",
-            "0.114627563"
+            "0.47884023",
+            "0.567625551",
+            "0.110875358"
           ],
           [
-            "0.107413718",
-            "0.276725041",
-            "0.107413712"
+            "0.47884023",
+            "0.967738079",
+            "0.074581461"
           ],
           [
-            "0.297091097",
-            "0.131484455",
-            "0.131484452"
+            "0.852532694",
+            "0.360311047",
+            "0.105147765"
           ],
           [
-            "0.112121945",
-            "0.496210208",
-            "0.112121942"
+            "0.289689077",
+            "0.680277571",
+            "0.109280578"
           ],
           [
-            "0.55667328",
-            "0.914010044",
-            "0.098398734"
+            "0.66971113",
+            "0.465319011",
+            "0.105684861"
           ],
           [
-            "0.697284909",
-            "0.129165004",
-            "0.129165001"
+            "0.673032585",
+            "0.915911884",
+            "0.126407656"
           ],
           [
-            "0.085292601",
-            "0.085292601",
-            "0.085292598"
+            "0.876114481",
+            "0.960753562",
+            "0.081565978"
           ],
           [
-            "0.707625637",
-            "0.790345349",
-            "0.096741132"
+            "0.081565978",
+            "0.960753562",
+            "0.081565978"
           ],
           [
-            "0.504042966",
-            "0.485776239",
-            "0.111724762"
+            "0.28796933",
+            "0.465319011",
+            "0.105684861"
           ],
           [
-            "0.881338205",
-            "0.478966073",
-            "0.106253012"
+            "0.85547319",
+            "0.778143201",
+            "0.102207269"
           ],
           [
-            "0.883750714",
-            "0.268886408",
-            "0.1038405"
+            "0.684967274",
+            "0.279274445",
+            "0.080984178"
           ],
           [
-            "0.111772875",
-            "0.720104753",
-            "0.111772873"
+            "0.47884023",
+            "0.785828764",
+            "0.107327854"
           ]
         ],
-        "height": "1.012408783",
-        "width": "0.987591217"
+        "height": "1.042319541",
+        "width": "0.957680459"
       }
     },
     {
@@ -2098,149 +2142,151 @@
         "n": 25
       },
       "objective": "maximize",
-      "scoreStored": "2592537635",
-      "scoreDisplay": "2.592537635",
-      "status": "open",
+      "scoreStored": "2592537686",
+      "scoreDisplay": "2.592537686",
+      "status": "ahead",
       "settled": false,
       "knownBest": {
         "display": "2.592537644819718",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "2.592537635",
         "source": "fixed-perimeter rectangle configuration from the public repository of Berthold, Kamp, Mexi, Pokutta and Polik; its continuous sum is 2.592537644819718. The same configuration was conservatively quantized to the site's nine-decimal grid and verifies at 2.592537635; optimality is open",
         "url": "https://github.com/DominikKamp/Packing/blob/27f71632d8655ae4b6a049410a401976748b94e3/rectangle/n25/rectangle_n25.txt"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-02T04:22:26.982Z",
       "answer": {
         "circles": [
           [
-            "0.297136912",
-            "0.243977414",
-            "0.103311571"
+            "0.119422386",
+            "0.481789183",
+            "0.119422386"
           ],
           [
-            "0.854394099",
-            "0.343115139",
-            "0.10918427"
+            "0.559533782",
+            "0.107243081",
+            "0.107243081"
           ],
           [
-            "0.107243083",
-            "0.559533785",
-            "0.107243079"
+            "0.909306858",
+            "0.286656506",
+            "0.127114776"
           ],
           [
-            "0.103231547",
-            "0.769970178",
-            "0.103231545"
+            "0.563489616",
+            "0.481789183",
+            "0.108409005"
           ],
           [
-            "0.117033543",
-            "0.117033543",
-            "0.117033542"
+            "0.559533782",
+            "0.856335285",
+            "0.107243081"
           ],
           [
-            "0.666441459",
-            "0.243977414",
-            "0.103311571"
+            "0.117033542",
+            "0.117033542",
+            "0.117033541"
           ],
           [
-            "0.860346824",
-            "0.769970178",
-            "0.103231545"
+            "0.454935881",
+            "0.668607395",
+            "0.107658015"
           ],
           [
-            "0.481789186",
-            "0.961535059",
-            "0.074886569"
+            "0.909306858",
+            "0.67692186",
+            "0.127114776"
           ],
           [
-            "0.481789186",
-            "0.563489619",
-            "0.108409004"
+            "0.070335556",
+            "0.665088282",
+            "0.070335556"
           ],
           [
-            "0.846544828",
-            "0.117033543",
-            "0.117033542"
+            "0.67242501",
+            "0.670911247",
+            "0.109843314"
           ],
           [
-            "0.481789186",
-            "0.779273555",
+            "0.67242501",
+            "0.292667119",
+            "0.109843314"
+          ],
+          [
+            "0.779273551",
+            "0.481789183",
             "0.10737493"
           ],
           [
-            "0.298490086",
-            "0.070335561",
-            "0.070335554"
+            "0.346962692",
+            "0.481789183",
+            "0.108117919"
           ],
           [
-            "0.109184272",
-            "0.343115139",
+            "0.243977412",
+            "0.666441456",
+            "0.103311572"
+          ],
+          [
+            "0.954213868",
+            "0.082207766",
+            "0.082207766"
+          ],
+          [
+            "0.343115136",
+            "0.10918427",
             "0.10918427"
           ],
           [
-            "0.665088285",
-            "0.070335561",
-            "0.070335554"
+            "0.243977412",
+            "0.29713691",
+            "0.103311572"
           ],
           [
-            "0.67091125",
-            "0.672425014",
-            "0.109843314"
+            "0.117033542",
+            "0.846544824",
+            "0.117033541"
           ],
           [
-            "0.286656508",
-            "0.909306862",
-            "0.127114766"
+            "0.954213868",
+            "0.8813706",
+            "0.082207766"
           ],
           [
-            "0.481789186",
-            "0.346962694",
-            "0.108117918"
+            "0.343115136",
+            "0.854394096",
+            "0.10918427"
           ],
           [
-            "0.881370602",
-            "0.95421387",
-            "0.082207758"
+            "0.070335556",
+            "0.298490084",
+            "0.070335556"
           ],
           [
-            "0.294970973",
-            "0.454935884",
+            "0.454935881",
+            "0.294970971",
             "0.107658015"
           ],
           [
-            "0.082207769",
-            "0.95421387",
-            "0.082207758"
+            "0.961535058",
+            "0.481789183",
+            "0.074886576"
           ],
           [
-            "0.856335288",
-            "0.559533785",
-            "0.107243079"
+            "0.769970175",
+            "0.103231545",
+            "0.103231544"
           ],
           [
-            "0.668607398",
-            "0.454935884",
-            "0.107658015"
-          ],
-          [
-            "0.292667121",
-            "0.672425014",
-            "0.109843314"
-          ],
-          [
-            "0.676921863",
-            "0.909306862",
-            "0.127114766"
-          ],
-          [
-            "0.481789186",
-            "0.119422388",
-            "0.119422386"
+            "0.769970175",
+            "0.860346821",
+            "0.103231544"
           ]
         ],
-        "height": "1.03642163",
-        "width": "0.96357837"
+        "height": "0.963578366",
+        "width": "1.036421634"
       }
     },
     {
@@ -2250,154 +2296,156 @@
         "n": 26
       },
       "objective": "maximize",
-      "scoreStored": "2639308106",
-      "scoreDisplay": "2.639308106",
-      "status": "open",
+      "scoreStored": "2639320556",
+      "scoreDisplay": "2.639320556",
+      "status": "ahead",
       "settled": false,
       "knownBest": {
         "display": "2.639308122181169",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "2.639308106",
         "source": "fixed-perimeter rectangle configuration from the public repository of Berthold, Kamp, Mexi, Pokutta and Polik; its continuous sum is 2.639308122181169. The same configuration was conservatively quantized to the site's nine-decimal grid and verifies at 2.639308106; optimality is open",
         "url": "https://github.com/DominikKamp/Packing/blob/27f71632d8655ae4b6a049410a401976748b94e3/rectangle/n26/rectangle_n26.txt"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "Sigmoid with Codex",
+      "method": "ai",
+      "recordedAt": "2026-09-01T19:48:39.081Z",
       "answer": {
         "circles": [
           [
-            "0.278416223",
-            "0.647741969",
-            "0.101930058"
+            "0.278416149",
+            "0.647742206",
+            "0.101931047"
           ],
           [
-            "0.65002608",
-            "0.069404583",
-            "0.069404582"
+            "0.650026087",
+            "0.069405023",
+            "0.069405023"
           ],
           [
-            "0.284401594",
-            "0.442074325",
-            "0.103823255"
+            "0.284402144",
+            "0.442074657",
+            "0.103823595"
           ],
           [
-            "0.836580074",
-            "0.340827949",
-            "0.10891809"
+            "0.836580941",
+            "0.340828834",
+            "0.108918943"
           ],
           [
-            "0.26229883",
-            "0.9944624",
-            "0.060037107"
+            "0.262298808",
+            "0.994463165",
+            "0.060036951"
           ],
           [
-            "0.646605868",
-            "0.668718159",
-            "0.111422713"
+            "0.646606107",
+            "0.668717334",
+            "0.111423140"
           ],
           [
-            "0.103049372",
-            "0.541612978",
-            "0.103049371"
+            "0.103049527",
+            "0.541612174",
+            "0.103049527"
           ],
           [
-            "0.836915902",
-            "0.558330574",
-            "0.108583901"
+            "0.836916175",
+            "0.558331228",
+            "0.108583709"
           ],
           [
-            "0.288495845",
-            "0.237747614",
-            "0.10054447"
+            "0.288495747",
+            "0.237747226",
+            "0.100544838"
           ],
           [
-            "0.451005938",
-            "0.763895803",
-            "0.10610387"
+            "0.451005963",
+            "0.763895139",
+            "0.106104400"
           ],
           [
-            "0.650266638",
-            "0.450200902",
-            "0.107124173"
+            "0.650267342",
+            "0.450200180",
+            "0.107124683"
           ],
           [
-            "0.829489564",
-            "0.116010928",
-            "0.116010715"
+            "0.829489024",
+            "0.116010860",
+            "0.116010860"
           ],
           [
-            "0.85847086",
-            "0.967472258",
-            "0.087027249"
+            "0.858471071",
+            "0.967471304",
+            "0.087028812"
           ],
           [
-            "0.290410783",
-            "0.068606692",
-            "0.068606691"
+            "0.290411681",
+            "0.068606619",
+            "0.068606619"
           ],
           [
-            "0.838204436",
-            "0.774206456",
-            "0.107295807"
+            "0.838204318",
+            "0.774206660",
+            "0.107295566"
           ],
           [
-            "0.104149746",
-            "0.950349762",
-            "0.104148821"
+            "0.104149374",
+            "0.950350742",
+            "0.104149374"
           ],
           [
-            "0.469698016",
-            "0.117130356",
-            "0.117130355"
+            "0.469698783",
+            "0.117131063",
+            "0.117131063"
           ],
           [
-            "0.100789078",
-            "0.745439519",
-            "0.100788977"
+            "0.100789864",
+            "0.745439040",
+            "0.100789864"
           ],
           [
-            "0.113738725",
-            "0.113738725",
-            "0.113738724"
+            "0.113739387",
+            "0.113739387",
+            "0.113739387"
           ],
           [
-            "0.463071951",
-            "0.552118936",
-            "0.106015853"
+            "0.463072802",
+            "0.552118023",
+            "0.106016215"
           ],
           [
-            "0.105624058",
-            "0.332953839",
-            "0.105624057"
+            "0.105624948",
+            "0.332953592",
+            "0.105624948"
           ],
           [
-            "0.412630967",
-            "0.960393658",
-            "0.094105849"
+            "0.412629969",
+            "0.960393662",
+            "0.094106453"
           ],
           [
-            "0.26832231",
-            "0.841977149",
-            "0.092566721"
+            "0.268322175",
+            "0.841978142",
+            "0.092566991"
           ],
           [
-            "0.650662011",
-            "0.240941559",
-            "0.102133516"
+            "0.650662065",
+            "0.240942368",
+            "0.102133500"
           ],
           [
-            "0.63990835",
-            "0.917274215",
-            "0.137223559"
+            "0.639907359",
+            "0.917275170",
+            "0.137224946"
           ],
           [
-            "0.467780697",
-            "0.340203927",
-            "0.105949622"
+            "0.467779811",
+            "0.340203975",
+            "0.105950102"
           ]
         ],
-        "height": "1.054499721",
-        "width": "0.945500279"
+        "height": "1.054500116",
+        "width": "0.945499884"
       }
     },
     {
@@ -2407,159 +2455,161 @@
         "n": 27
       },
       "objective": "maximize",
-      "scoreStored": "2690155069",
-      "scoreDisplay": "2.690155069",
-      "status": "open",
+      "scoreStored": "2691523357",
+      "scoreDisplay": "2.691523357",
+      "status": "ahead",
       "settled": false,
       "knownBest": {
         "display": "2.690155081571631",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "2.690155069",
         "source": "fixed-perimeter rectangle configuration from the public repository of Berthold, Kamp, Mexi, Pokutta and Polik; its continuous sum is 2.690155081571631. The same configuration was conservatively quantized to the site's nine-decimal grid and verifies at 2.690155069; optimality is open",
         "url": "https://github.com/DominikKamp/Packing/blob/27f71632d8655ae4b6a049410a401976748b94e3/rectangle/n27/rectangle_n27.txt"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-02T04:23:18.331Z",
       "answer": {
         "circles": [
           [
-            "0.845094457",
-            "0.544247521",
-            "0.103457014"
+            "0.329296796",
+            "0.818568514",
+            "0.104930153"
           ],
           [
-            "0.47596647",
-            "0.346008008",
-            "0.109457708"
+            "0.329296796",
+            "0.104930153",
+            "0.104930153"
           ],
           [
-            "0.286440093",
-            "0.450222897",
-            "0.106831428"
+            "1.009112805",
+            "0.28618769",
+            "0.067388528"
           ],
           [
-            "0.834052187",
-            "0.114499284",
-            "0.114499283"
+            "0.962157351",
+            "0.461749334",
+            "0.114343981"
           ],
           [
-            "0.100821352",
-            "0.54331104",
-            "0.100821351"
+            "0.112244932",
+            "0.112244932",
+            "0.112244932"
           ],
           [
-            "0.399008489",
-            "0.792248447",
-            "0.095572472"
+            "0.747204536",
+            "0.104930153",
+            "0.104930153"
           ],
           [
-            "0.29383781",
-            "0.069466133",
-            "0.069465838"
+            "0.067388528",
+            "0.28618769",
+            "0.067388528"
           ],
           [
-            "0.47512412",
-            "0.118276585",
-            "0.118275172"
+            "0.112244932",
+            "0.811253735",
+            "0.112244932"
           ],
           [
-            "0.265555118",
-            "0.653164123",
-            "0.097180875"
+            "0.114343983",
+            "0.461749334",
+            "0.114343982"
           ],
           [
-            "0.656043561",
-            "0.069186155",
-            "0.069186061"
+            "0.842791584",
+            "0.284999327",
+            "0.098936938"
           ],
           [
-            "0.693855188",
-            "0.954363446",
-            "0.097083986"
+            "0.538250666",
+            "0.104025674",
+            "0.104025674"
           ],
           [
-            "0.842567406",
-            "0.334820922",
-            "0.105984064"
+            "0.964256401",
+            "0.811253735",
+            "0.112244932"
           ],
           [
-            "0.664430858",
-            "0.444208179",
-            "0.103054745"
+            "0.641055452",
+            "0.640001504",
+            "0.102804786"
           ],
           [
-            "0.292003466",
-            "0.241192131",
-            "0.102269955"
+            "1.009112805",
+            "0.637310977",
+            "0.067388528"
           ],
           [
-            "0.109872392",
-            "0.941576136",
-            "0.109872391"
+            "0.233709749",
+            "0.63849934",
+            "0.098936937"
           ],
           [
-            "0.869293319",
-            "0.972190376",
-            "0.079257548"
+            "0.842791584",
+            "0.63849934",
+            "0.098936938"
           ],
           [
-            "0.500454966",
-            "0.955130975",
-            "0.096317553"
+            "0.747204536",
+            "0.818568514",
+            "0.104930153"
           ],
           [
-            "0.479934446",
-            "0.583627995",
-            "0.128193855"
+            "0.964256401",
+            "0.112244932",
+            "0.112244932"
           ],
           [
-            "0.094145304",
-            "0.738164256",
-            "0.094145303"
+            "0.233709749",
+            "0.284999327",
+            "0.098936938"
           ],
           [
-            "0.11504476",
-            "0.11504476",
-            "0.11504476"
+            "0.538250666",
+            "0.819472993",
+            "0.104025674"
           ],
           [
-            "0.658177193",
-            "0.239804304",
-            "0.10144477"
+            "0.43544588",
+            "0.283497163",
+            "0.102804785"
           ],
           [
-            "0.311589918",
-            "0.958864831",
-            "0.092583697"
+            "0.43544588",
+            "0.640001504",
+            "0.102804786"
           ],
           [
-            "0.682192621",
-            "0.624555594",
-            "0.078163547"
+            "0.641055452",
+            "0.283497163",
+            "0.102804786"
           ],
           [
-            "0.106321971",
-            "0.336240125",
-            "0.10632197"
+            "0.067388528",
+            "0.637310977",
+            "0.067388528"
           ],
           [
-            "0.82271063",
-            "0.772452011",
-            "0.125840841"
+            "0.331985047",
+            "0.461749334",
+            "0.103297082"
           ],
           [
-            "0.595686395",
-            "0.781881989",
-            "0.101377315"
+            "0.538250666",
+            "0.461749334",
+            "0.102968536"
           ],
           [
-            "0.2367535",
-            "0.81627353",
-            "0.068451567"
+            "0.744516285",
+            "0.461749334",
+            "0.103297082"
           ]
         ],
-        "height": "1.051448529",
-        "width": "0.948551471"
+        "height": "0.923498667",
+        "width": "1.076501333"
       }
     },
     {
@@ -2569,164 +2619,166 @@
         "n": 28
       },
       "objective": "maximize",
-      "scoreStored": "2737084314",
-      "scoreDisplay": "2.737084314",
-      "status": "open",
+      "scoreStored": "2740748706",
+      "scoreDisplay": "2.740748706",
+      "status": "ahead",
       "settled": false,
       "knownBest": {
         "display": "2.737084327032409",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "2.737084314",
         "source": "fixed-perimeter rectangle configuration from the public repository of Berthold, Kamp, Mexi, Pokutta and Polik; its continuous sum is 2.737084327032409. The same configuration was conservatively quantized to the site's nine-decimal grid and verifies at 2.737084314; optimality is open",
         "url": "https://github.com/DominikKamp/Packing/blob/27f71632d8655ae4b6a049410a401976748b94e3/rectangle/n28/rectangle_n28.txt"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-02T05:57:02.090Z",
       "answer": {
         "circles": [
           [
-            "0.39731943",
-            "0.759794257",
-            "0.070757443"
+            "0.749026651",
+            "0.239731948",
+            "0.099613928"
           ],
           [
-            "0.106704708",
-            "0.337277371",
-            "0.106702798"
+            "0.553341187",
+            "0.1264805",
+            "0.126480499"
           ],
           [
-            "0.115371902",
-            "0.115371902",
-            "0.115371867"
+            "0.938262997",
+            "0.719534228",
+            "0.094536942"
           ],
           [
-            "0.851199505",
-            "0.540596552",
-            "0.099986787"
+            "0.955786807",
+            "0.890186928",
+            "0.077013132"
           ],
           [
-            "0.263049436",
-            "0.98651275",
-            "0.062299701"
+            "0.254119102",
+            "0.405434561",
+            "0.091243215"
           ],
           [
-            "0.478324983",
-            "0.581604544",
-            "0.124978243"
+            "0.605229647",
+            "0.544232075",
+            "0.092726867"
           ],
           [
-            "0.845462793",
-            "0.334965807",
-            "0.105723366"
+            "0.237450221",
+            "0.246032771",
+            "0.06902775"
           ],
           [
-            "0.097767911",
-            "0.745294232",
-            "0.097766693"
+            "0.092586403",
+            "0.317681978",
+            "0.092586403"
           ],
           [
-            "0.101821353",
-            "0.545747167",
-            "0.101821352"
+            "0.935389435",
+            "0.527608291",
+            "0.097410504"
           ],
           [
-            "0.657991659",
-            "0.069426634",
-            "0.069425428"
+            "0.099730072",
+            "0.702349632",
+            "0.099730072"
           ],
           [
-            "0.292797344",
-            "0.24176476",
-            "0.102469685"
+            "0.582855816",
+            "0.351919752",
+            "0.100882579"
           ],
           [
-            "0.294658786",
-            "0.069651695",
-            "0.069651694"
+            "0.096208788",
+            "0.506442415",
+            "0.096208788"
           ],
           [
-            "0.84038251",
-            "0.938009757",
-            "0.110802693"
+            "0.459623313",
+            "0.668639226",
+            "0.098789041"
           ],
           [
-            "0.836474419",
-            "0.114713129",
-            "0.114712639"
+            "0.533654613",
+            "0.860417681",
+            "0.10678238"
           ],
           [
-            "0.477012128",
-            "0.346964372",
-            "0.109665381"
+            "0.919780512",
+            "0.113019427",
+            "0.113019427"
           ],
           [
-            "0.102909148",
-            "0.945905648",
-            "0.102906803"
+            "0.772300336",
+            "0.628887409",
+            "0.094567395"
           ],
           [
-            "0.660223514",
-            "0.240878582",
-            "0.102040914"
+            "0.761927435",
+            "0.845203152",
+            "0.121996908"
           ],
           [
-            "0.476472919",
-            "0.118649353",
-            "0.118648836"
+            "0.397659408",
+            "0.285314486",
+            "0.095926899"
           ],
           [
-            "0.429013178",
-            "0.938286395",
-            "0.110526056"
+            "0.294088493",
+            "0.832833497",
+            "0.134366562"
           ],
           [
-            "0.68837724",
-            "0.649003284",
-            "0.095621723"
+            "0.762578257",
+            "0.436723044",
+            "0.097842744"
           ],
           [
-            "0.268661895",
-            "0.652939508",
-            "0.096486102"
+            "0.428599714",
+            "0.47553394",
+            "0.096792438"
           ],
           [
-            "0.258960828",
-            "0.836718235",
-            "0.087547329"
+            "0.625695052",
+            "0.707434737",
+            "0.071753956"
           ],
           [
-            "0.28729976",
-            "0.450736254",
-            "0.106573804"
+            "0.327027508",
+            "0.101236715",
+            "0.101236715"
           ],
           [
-            "0.667029265",
-            "0.448661473",
-            "0.105853223"
+            "0.741713845",
+            "0.070137804",
+            "0.070137804"
           ],
           [
-            "0.714805498",
-            "0.810580681",
-            "0.068102764"
+            "0.93055628",
+            "0.328012635",
+            "0.102243659"
           ],
           [
-            "0.857468392",
-            "0.7342006",
-            "0.093718726"
+            "0.113058562",
+            "0.113058562",
+            "0.113058562"
           ],
           [
-            "0.634568903",
-            "0.95324123",
-            "0.095571221"
+            "0.271976836",
+            "0.597677181",
+            "0.10182704"
           ],
           [
-            "0.557787932",
-            "0.782813778",
-            "0.091351043"
+            "0.082946497",
+            "0.884253564",
+            "0.082946497"
           ]
         ],
-        "height": "1.048812882",
-        "width": "0.951187118"
+        "height": "0.967200061",
+        "width": "1.032799939"
       }
     },
     {
@@ -2736,169 +2788,171 @@
         "n": 29
       },
       "objective": "maximize",
-      "scoreStored": "2790292073",
-      "scoreDisplay": "2.790292073",
-      "status": "open",
+      "scoreStored": "2792170095",
+      "scoreDisplay": "2.792170095",
+      "status": "ahead",
       "settled": false,
       "knownBest": {
         "display": "2.790292090706999",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "2.790292073",
         "source": "fixed-perimeter rectangle configuration from the public repository of Berthold, Kamp, Mexi, Pokutta and Polik; its continuous sum is 2.790292090706999. The same configuration was conservatively quantized to the site's nine-decimal grid and verifies at 2.790292073; optimality is open",
         "url": "https://github.com/DominikKamp/Packing/blob/27f71632d8655ae4b6a049410a401976748b94e3/rectangle/n29/rectangle_n29.txt"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "Sigmoid with Codex",
+      "method": "ai",
+      "recordedAt": "2026-09-01T19:48:07.376Z",
       "answer": {
         "circles": [
           [
-            "0.532604691",
-            "0.888764447",
-            "0.121159905"
+            "0.123220539",
+            "0.464695286",
+            "0.123220539"
           ],
           [
-            "0.733579429",
-            "0.597244983",
-            "0.090323027"
+            "0.419629830",
+            "0.259120612",
+            "0.091910759"
           ],
           [
-            "0.718814359",
-            "0.107012387",
-            "0.107012384"
+            "0.899910031",
+            "0.253174349",
+            "0.098116658"
           ],
           [
-            "0.865569918",
-            "0.286075067",
-            "0.124505727"
+            "0.725743294",
+            "0.120703951",
+            "0.120703950"
           ],
           [
-            "0.100656799",
-            "0.325761679",
-            "0.100656796"
+            "0.671847568",
+            "0.908110805",
+            "0.093862505"
           ],
           [
-            "0.263818286",
-            "0.435800161",
-            "0.096142943"
+            "0.574208942",
+            "0.748240985",
+            "0.093465177"
           ],
           [
-            "0.483015278",
-            "0.129894325",
-            "0.129894324"
+            "0.892844683",
+            "0.456350203",
+            "0.105182006"
           ],
           [
-            "0.719941879",
-            "0.781685077",
-            "0.094620558"
+            "0.232053275",
+            "0.274095491",
+            "0.096262594"
           ],
           [
-            "0.291309172",
-            "0.070732946",
-            "0.070732939"
+            "0.894390740",
+            "0.665162436",
+            "0.103635949"
           ],
           [
-            "0.892557252",
-            "0.697297225",
-            "0.097518391"
+            "0.316903001",
+            "0.098636064",
+            "0.098636063"
           ],
           [
-            "0.109083289",
-            "0.900841074",
-            "0.109083278"
+            "0.109402724",
+            "0.892570587",
+            "0.109402724"
           ],
           [
-            "0.712655555",
-            "0.943032776",
-            "0.066891576"
+            "0.067982153",
+            "0.281645592",
+            "0.067982153"
           ],
           [
-            "0.89451568",
-            "0.504228802",
-            "0.095559963"
+            "0.511013595",
+            "0.095499864",
+            "0.095499864"
           ],
           [
-            "0.315286569",
-            "0.91247636",
-            "0.097447992"
+            "0.098463415",
+            "0.684992496",
+            "0.098463415"
           ],
           [
-            "0.44538138",
-            "0.358066535",
-            "0.101360658"
+            "0.690182905",
+            "0.563955754",
+            "0.124275508"
           ],
           [
-            "0.093678877",
-            "0.519972032",
-            "0.093678872"
+            "0.486892293",
+            "0.910860111",
+            "0.091113200"
           ],
           [
-            "0.882395387",
-            "0.902244103",
-            "0.107680249"
+            "0.109269521",
+            "0.109269522",
+            "0.109269521"
           ],
           [
-            "0.562487274",
-            "0.672909583",
-            "0.096753577"
+            "0.343746233",
+            "0.434672146",
+            "0.099339499"
           ],
           [
-            "0.589294443",
-            "0.48652745",
-            "0.09154651"
+            "0.536881797",
+            "0.405874152",
+            "0.095931263"
           ],
           [
-            "0.383905695",
-            "0.735410297",
-            "0.092449274"
+            "0.278457792",
+            "0.616706396",
+            "0.094048837"
           ],
           [
-            "0.743128132",
-            "0.437206214",
-            "0.070000348"
+            "0.581289540",
+            "0.245677081",
+            "0.070306966"
           ],
           [
-            "0.907182271",
-            "0.082893377",
-            "0.082893372"
+            "0.919927519",
+            "0.078099170",
+            "0.078099170"
           ],
           [
-            "0.282079081",
-            "0.240863165",
-            "0.099647474"
+            "0.741463246",
+            "0.755426549",
+            "0.073943408"
           ],
           [
-            "0.229323577",
-            "0.772773412",
-            "0.06658416"
+            "0.238681277",
+            "0.772676771",
+            "0.066913671"
           ],
           [
-            "0.089557611",
-            "0.70316216",
-            "0.089557606"
+            "0.306773413",
+            "0.912955444",
+            "0.089017867"
           ],
           [
-            "0.112723162",
-            "0.112723162",
-            "0.11272316"
+            "0.881242990",
+            "0.885189612",
+            "0.116783699"
           ],
           [
-            "0.639898474",
-            "0.300125103",
-            "0.10160266"
+            "0.722323904",
+            "0.341686765",
+            "0.100305317"
           ],
           [
-            "0.415158809",
-            "0.551336895",
-            "0.094258448"
+            "0.468769817",
+            "0.587909535",
+            "0.098429541"
           ],
           [
-            "0.245951425",
-            "0.619080203",
-            "0.088005902"
+            "0.392973782",
+            "0.758288336",
+            "0.088048272"
           ]
         ],
-        "height": "1.009924355",
-        "width": "0.990075645"
+        "height": "1.001973311",
+        "width": "0.998026689"
       }
     },
     {
@@ -2908,174 +2962,176 @@
         "n": 30
       },
       "objective": "maximize",
-      "scoreStored": "2843145768",
-      "scoreDisplay": "2.843145768",
-      "status": "open",
+      "scoreStored": "2843160439",
+      "scoreDisplay": "2.843160439",
+      "status": "ahead",
       "settled": false,
       "knownBest": {
         "display": "2.843145785181738",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "2.843145768",
         "source": "fixed-perimeter rectangle configuration from the public repository of Berthold, Kamp, Mexi, Pokutta and Polik; its continuous sum is 2.843145785181738. The same configuration was conservatively quantized to the site's nine-decimal grid and verifies at 2.843145768; optimality is open",
         "url": "https://github.com/DominikKamp/Packing/blob/27f71632d8655ae4b6a049410a401976748b94e3/rectangle/n30/rectangle_n30.txt"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "Sigmoid with Codex",
+      "method": "ai",
+      "recordedAt": "2026-09-01T19:48:22.934Z",
       "answer": {
         "circles": [
           [
-            "0.618141154",
-            "0.266147356",
-            "0.099808156"
+            "0.618140957",
+            "0.266146565",
+            "0.099808952"
           ],
           [
-            "0.074386866",
-            "0.978430376",
-            "0.074386647"
+            "0.074386666",
+            "0.978430564",
+            "0.074386665"
           ],
           [
-            "0.716880575",
-            "0.436015452",
-            "0.096671261"
+            "0.716879743",
+            "0.436015336",
+            "0.096671956"
           ],
           [
-            "0.10798282",
-            "0.10798282",
-            "0.107982661"
+            "0.107982996",
+            "0.107982996",
+            "0.107982996"
           ],
           [
-            "0.880361908",
-            "0.434177955",
-            "0.066820394"
+            "0.880362072",
+            "0.434177898",
+            "0.066820698"
           ],
           [
-            "0.631054464",
-            "0.952514804",
-            "0.100302435"
+            "0.631055066",
+            "0.952513893",
+            "0.100303337"
           ],
           [
-            "0.425890157",
-            "0.613103922",
-            "0.098949951"
+            "0.425890842",
+            "0.613103051",
+            "0.098950830"
           ],
           [
-            "0.114674562",
-            "0.793712354",
-            "0.114673779"
+            "0.114674237",
+            "0.793712031",
+            "0.114674237"
           ],
           [
-            "0.514313671",
-            "0.097898188",
-            "0.097897427"
+            "0.514313894",
+            "0.097897453",
+            "0.097897453"
           ],
           [
-            "0.329041604",
-            "0.786669886",
-            "0.099808156"
+            "0.329041813",
+            "0.786670665",
+            "0.099808952"
           ],
           [
-            "0.225676672",
-            "0.273827738",
-            "0.095380016"
+            "0.225677589",
+            "0.273828311",
+            "0.095380436"
           ],
           [
-            "0.832508196",
-            "0.259104887",
-            "0.114673779"
+            "0.832508533",
+            "0.259105198",
+            "0.114674237"
           ],
           [
-            "0.835812133",
-            "0.606709533",
-            "0.111369911"
+            "0.835812165",
+            "0.606710348",
+            "0.111370605"
           ],
           [
-            "0.065153633",
-            "0.275738938",
-            "0.06515363"
+            "0.065154264",
+            "0.275739399",
+            "0.065154264"
           ],
           [
-            "0.230302183",
-            "0.616801789",
-            "0.096671261"
+            "0.230303026",
+            "0.616801894",
+            "0.096671956"
           ],
           [
-            "0.624634661",
-            "0.609515338",
-            "0.099826196"
+            "0.624634733",
+            "0.609514869",
+            "0.099825448"
           ],
           [
-            "0.241339873",
-            "0.959140468",
-            "0.093676771"
+            "0.241340209",
+            "0.959139535",
+            "0.093677694"
           ],
           [
-            "0.521292602",
-            "0.43971332",
-            "0.098949951"
+            "0.521291928",
+            "0.439714180",
+            "0.098950831"
           ],
           [
-            "0.06682085",
-            "0.618639286",
-            "0.066820394"
+            "0.066820698",
+            "0.618639332",
+            "0.066820697"
           ],
           [
-            "0.882029125",
-            "0.777078303",
-            "0.06515363"
+            "0.882028506",
+            "0.777077831",
+            "0.065154264"
           ],
           [
-            "0.527483671",
-            "0.78261621",
-            "0.098673649"
+            "0.527483996",
+            "0.782616062",
+            "0.098674648"
           ],
           [
-            "0.419699088",
-            "0.270201032",
-            "0.098673649"
+            "0.419698774",
+            "0.270201168",
+            "0.098674648"
           ],
           [
-            "0.721506087",
-            "0.778989504",
-            "0.095380016"
+            "0.721505180",
+            "0.778988920",
+            "0.095380436"
           ],
           [
-            "0.872795893",
-            "0.074386866",
-            "0.074386647"
+            "0.872796105",
+            "0.074386665",
+            "0.074386665"
           ],
           [
-            "0.839199939",
-            "0.944834422",
-            "0.107982661"
+            "0.839199774",
+            "0.944834234",
+            "0.107982996"
           ],
           [
-            "0.322548098",
-            "0.443301904",
-            "0.099826196"
+            "0.322548037",
+            "0.443302361",
+            "0.099825448"
           ],
           [
-            "0.111370625",
-            "0.446107708",
-            "0.111369911"
+            "0.111370605",
+            "0.446106883",
+            "0.111370605"
           ],
           [
-            "0.316128294",
-            "0.100302437",
-            "0.100302435"
+            "0.316127705",
+            "0.100303338",
+            "0.100303338"
           ],
           [
-            "0.432869088",
-            "0.954919054",
-            "0.097897427"
+            "0.432868877",
+            "0.954919777",
+            "0.097897453"
           ],
           [
-            "0.705842885",
-            "0.093676773",
-            "0.093676771"
+            "0.705842562",
+            "0.093677694",
+            "0.093677694"
           ]
         ],
-        "height": "1.052817245",
-        "width": "0.947182755"
+        "height": "1.052817230",
+        "width": "0.947182770"
       }
     }
   ]

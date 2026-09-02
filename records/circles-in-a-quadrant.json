@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/circles-in-a-quadrant",
-  "generatedAt": "2026-09-01T10:14:05.434Z",
+  "generatedAt": "2026-09-02T09:43:40.626Z",
   "instances": [
     {
       "instanceId": "p30-n3-v2",
@@ -31,7 +31,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-22T01:09:13.529Z",
       "answer": {
         "centers": [
           [
@@ -69,7 +69,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-22T01:09:13.529Z",
       "answer": {
         "centers": [
           [
@@ -111,7 +111,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-22T01:09:13.529Z",
       "answer": {
         "centers": [
           [
@@ -157,7 +157,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-09-01T22:58:34.068Z",
       "answer": {
         "centers": [
           [
@@ -197,17 +197,19 @@
       "objective": "maximize",
       "scoreStored": "163243160",
       "scoreDisplay": "0.16324316",
-      "status": "matched",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "0.16324316",
+        "display": "0.163243161",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "0.16324316",
         "source": "value from Eckard Specht's table of best known packings, which does not mark this one as proved; the table's figure is 0.163243161, the exact optimum is not writable on the nine-decimal grid, and shown here is the exact value the configuration's grid certificate reaches",
         "url": "https://web.archive.org/web/20260213011826/http://hydra.nat.uni-magdeburg.de/packing/ccq/ccq.html"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-22T01:09:13.529Z",
       "answer": {
         "centers": [
           [
@@ -251,17 +253,19 @@
       "objective": "maximize",
       "scoreStored": "150154806",
       "scoreDisplay": "0.150154806",
-      "status": "matched",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "0.150154806",
+        "display": "0.150154807",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "0.150154806",
         "source": "value from Eckard Specht's table of best known packings, which does not mark this one as proved; the table's figure is 0.150154807, the exact optimum is not writable on the nine-decimal grid, and shown here is the exact value the configuration's grid certificate reaches",
         "url": "https://web.archive.org/web/20260213011826/http://hydra.nat.uni-magdeburg.de/packing/ccq/ccq.html"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-22T01:09:13.529Z",
       "answer": {
         "centers": [
           [
@@ -319,7 +323,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-22T01:09:13.529Z",
       "answer": {
         "centers": [
           [
@@ -369,19 +373,21 @@
         "n": 10
       },
       "objective": "maximize",
-      "scoreStored": "135072984",
-      "scoreDisplay": "0.135072984",
+      "scoreStored": "135072985",
+      "scoreDisplay": "0.135072985",
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "0.135072984",
+        "display": "0.135072985",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "0.135072984",
         "source": "value from Eckard Specht's table of best known packings, which does not mark this one as proved; the table's figure is 0.135072985, the exact optimum is not writable on the nine-decimal grid, and shown here is the exact value the configuration's grid certificate reaches",
         "url": "https://web.archive.org/web/20260213011826/http://hydra.nat.uni-magdeburg.de/packing/ccq/ccq.html"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "Sigmoid with Codex",
+      "method": "ai",
+      "recordedAt": "2026-09-02T01:08:36.412Z",
       "answer": {
         "centers": [
           [
@@ -393,15 +399,15 @@
             "0.135072985"
           ],
           [
-            "0.590102782",
-            "0.191382637"
+            "0.590102781",
+            "0.191382638"
           ],
           [
             "0.135072985",
             "0.326299231"
           ],
           [
-            "0.770974454",
+            "0.770974453",
             "0.392042259"
           ],
           [
@@ -414,10 +420,10 @@
           ],
           [
             "0.612423533",
-            "0.61076686"
+            "0.610766860"
           ],
           [
-            "0.394129213",
+            "0.394129212",
             "0.769909673"
           ],
           [
@@ -425,7 +431,7 @@
             "0.854314947"
           ]
         ],
-        "radius": "0.135072984"
+        "radius": "0.135072985"
       }
     },
     {
@@ -437,17 +443,19 @@
       "objective": "maximize",
       "scoreStored": "127840595",
       "scoreDisplay": "0.127840595",
-      "status": "matched",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "0.127840595",
+        "display": "0.127840596",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "0.127840595",
         "source": "value from Eckard Specht's table of best known packings, which does not mark this one as proved; the table's figure is 0.127840596, the exact optimum is not writable on the nine-decimal grid, and shown here is the exact value the configuration's grid certificate reaches",
         "url": "https://web.archive.org/web/20260213011826/http://hydra.nat.uni-magdeburg.de/packing/ccq/ccq.html"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-22T01:09:13.529Z",
       "answer": {
         "centers": [
           [
@@ -517,7 +525,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-22T01:09:13.529Z",
       "answer": {
         "centers": [
           [
@@ -581,17 +589,19 @@
       "objective": "maximize",
       "scoreStored": "118280293",
       "scoreDisplay": "0.118280293",
-      "status": "matched",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "0.118280293",
+        "display": "0.118280294",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "0.118280293",
         "source": "value from Eckard Specht's table of best known packings, which does not mark this one as proved; the table's figure is 0.118280294, the exact optimum is not writable on the nine-decimal grid, and shown here is the exact value the configuration's grid certificate reaches",
         "url": "https://web.archive.org/web/20260213011826/http://hydra.nat.uni-magdeburg.de/packing/ccq/ccq.html"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-22T01:09:13.529Z",
       "answer": {
         "centers": [
           [
@@ -669,7 +679,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-22T01:09:13.529Z",
       "answer": {
         "centers": [
           [
@@ -739,24 +749,26 @@
         "n": 15
       },
       "objective": "maximize",
-      "scoreStored": "110212023",
-      "scoreDisplay": "0.110212023",
+      "scoreStored": "110212024",
+      "scoreDisplay": "0.110212024",
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "0.110212023",
+        "display": "0.110212024",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "0.110212023",
         "source": "value from Eckard Specht's table of best known packings, which does not mark this one as proved; the table's figure is 0.110212024, the exact optimum is not writable on the nine-decimal grid, and shown here is the exact value the configuration's grid certificate reaches",
         "url": "https://web.archive.org/web/20260213011826/http://hydra.nat.uni-magdeburg.de/packing/ccq/ccq.html"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "Sigmoid with Codex",
+      "method": "ai",
+      "recordedAt": "2026-09-02T01:08:52.840Z",
       "answer": {
         "centers": [
           [
-            "0.303505231",
-            "0.616001211"
+            "0.303505230",
+            "0.616001212"
           ],
           [
             "0.322354962",
@@ -764,7 +776,7 @@
           ],
           [
             "0.499801482",
-            "0.515728869"
+            "0.515728870"
           ],
           [
             "0.608327555",
@@ -776,14 +788,14 @@
           ],
           [
             "0.723708054",
-            "0.517657504"
+            "0.517657505"
           ],
           [
             "0.110212026",
             "0.289631433"
           ],
           [
-            "0.662511934",
+            "0.662511935",
             "0.110212026"
           ],
           [
@@ -795,27 +807,27 @@
             "0.170117232"
           ],
           [
-            "0.882935982",
+            "0.882935983",
             "0.110212026"
           ],
           [
-            "0.238256695",
-            "0.110212026"
+            "0.238256694",
+            "0.110212025"
           ],
           [
-            "0.499801482",
-            "0.736152917"
+            "0.499801483",
+            "0.736152918"
           ],
           [
-            "0.110212026",
+            "0.110212025",
             "0.510055481"
           ],
           [
             "0.303505231",
-            "0.836425259"
+            "0.836425260"
           ]
         ],
-        "radius": "0.110212023"
+        "radius": "0.110212024"
       }
     },
     {
@@ -837,7 +849,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-22T01:09:13.529Z",
       "answer": {
         "centers": [
           [

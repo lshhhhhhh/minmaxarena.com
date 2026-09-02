@@ -1,0 +1,797 @@
+{
+  "problem": "equilateral-triangles-covering-a-square",
+  "code": "P76",
+  "title": "用 n 个正三角形覆盖正方形",
+  "titleEn": "Covering a square with n equilateral triangles",
+  "objective": "minimize",
+  "scoreLabel": "共同边长",
+  "scoreLabelEn": "the common side",
+  "verifierVersion": "1.0.0",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseName": "CC BY 4.0",
+  "source": "https://minmaxarena.com/problems/equilateral-triangles-covering-a-square",
+  "generatedAt": "2026-09-02T09:43:43.309Z",
+  "instances": [
+    {
+      "instanceId": "p76-n2-v1",
+      "name": "n = 2",
+      "parameters": {
+        "n": 2
+      },
+      "objective": "minimize",
+      "scoreStored": "1366025405",
+      "scoreDisplay": "1.366025405",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "1.366025403784439",
+        "kind": "best",
+        "exact": "(√3 + 1) / 2",
+        "precision": "rounded",
+        "certificateDisplay": "1.366025405",
+        "source": "David Cantrell's construction appears in Friedman's public table (August 2002). Rescaling the largest square covered by unit triangles gives common side (√3 + 1) / 2 ≈ 1.366025403784439; optimality is open. The site's nine-decimal reconstruction of the source figure verifies at 1.366025405, with its gap from the published target explicitly preserved.",
+        "url": "https://erich-friedman.github.io/packing/tricosqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-02T00:02:59.133Z",
+      "answer": {
+        "side": "1.366025405",
+        "triangles": [
+          {
+            "down": false,
+            "turn": "0",
+            "x": "0.105662433",
+            "y": "0"
+          },
+          {
+            "down": true,
+            "turn": "0",
+            "x": "0.894337567",
+            "y": "1"
+          }
+        ]
+      }
+    },
+    {
+      "instanceId": "p76-n3-v1",
+      "name": "n = 3",
+      "parameters": {
+        "n": 3
+      },
+      "objective": "minimize",
+      "scoreStored": "1077350270",
+      "scoreDisplay": "1.07735027",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "1.077350269189626",
+        "kind": "best",
+        "exact": "(2√3 + 3) / 6",
+        "precision": "rounded",
+        "certificateDisplay": "1.077350270",
+        "source": "David Cantrell's construction appears in Friedman's public table (August 2002). Rescaling the largest square covered by unit triangles gives common side (2√3 + 3) / 6 ≈ 1.077350269189626; optimality is open. The site's nine-decimal reconstruction of the source figure verifies at 1.077350270, with its gap from the published target explicitly preserved.",
+        "url": "https://erich-friedman.github.io/packing/tricosqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-02T00:02:59.133Z",
+      "answer": {
+        "side": "1.077350270",
+        "triangles": [
+          {
+            "down": true,
+            "turn": "0",
+            "x": "0",
+            "y": "1"
+          },
+          {
+            "down": true,
+            "turn": "0",
+            "x": "1",
+            "y": "1"
+          },
+          {
+            "down": false,
+            "turn": "0",
+            "x": "0.5",
+            "y": "0"
+          }
+        ]
+      }
+    },
+    {
+      "instanceId": "p76-n4-v1",
+      "name": "n = 4",
+      "parameters": {
+        "n": 4
+      },
+      "objective": "minimize",
+      "scoreStored": "910688928",
+      "scoreDisplay": "0.910688928",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.910683602522959",
+        "kind": "best",
+        "exact": "(√3 + 1) / 3",
+        "precision": "rounded",
+        "certificateDisplay": "0.910688928",
+        "source": "Erich Friedman's construction appears in Friedman's public table (August 2002). Rescaling the largest square covered by unit triangles gives common side (√3 + 1) / 3 ≈ 0.910683602522959; optimality is open. The site's nine-decimal reconstruction of the source figure verifies at 0.910688928, with its gap from the published target explicitly preserved.",
+        "url": "https://erich-friedman.github.io/packing/tricosqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-02T00:02:59.133Z",
+      "answer": {
+        "side": "0.910688928",
+        "triangles": [
+          {
+            "down": false,
+            "turn": "-0.577350269",
+            "x": "0.438996287",
+            "y": "0.605663158"
+          },
+          {
+            "down": true,
+            "turn": "-0.577350269",
+            "x": "0.560992903",
+            "y": "0.394334514"
+          },
+          {
+            "down": true,
+            "turn": "-1",
+            "x": "1",
+            "y": "0.333328377"
+          },
+          {
+            "down": false,
+            "turn": "-1",
+            "x": "0",
+            "y": "0.666667035"
+          }
+        ]
+      }
+    },
+    {
+      "instanceId": "p76-n5-v1",
+      "name": "n = 5",
+      "parameters": {
+        "n": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "804133275",
+      "scoreDisplay": "0.804133275",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.803089950658687",
+        "kind": "best",
+        "exact": "(10√3 + 14) / 39",
+        "precision": "rounded",
+        "certificateDisplay": "0.804133275",
+        "source": "David Cantrell's construction appears in Friedman's public table (July 2005). Rescaling the largest square covered by unit triangles gives common side (10√3 + 14) / 39 ≈ 0.803089950658687; optimality is open. The site's nine-decimal reconstruction of the source figure verifies at 0.804133275, with its gap from the published target explicitly preserved.",
+        "url": "https://erich-friedman.github.io/packing/tricosqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-02T00:02:59.133Z",
+      "answer": {
+        "side": "0.804133275",
+        "triangles": [
+          {
+            "down": false,
+            "turn": "0",
+            "x": "0.830736292",
+            "y": "0.598425197"
+          },
+          {
+            "down": true,
+            "turn": "0",
+            "x": "0.944158536",
+            "y": "0.598425197"
+          },
+          {
+            "down": true,
+            "turn": "0.577350269",
+            "x": "0.284783313",
+            "y": "0.347798582"
+          },
+          {
+            "down": false,
+            "turn": "0.577350269",
+            "x": "0.460987660",
+            "y": "0.651800078"
+          },
+          {
+            "down": false,
+            "turn": "-1",
+            "x": "0",
+            "y": "0.352429312"
+          }
+        ]
+      }
+    },
+    {
+      "instanceId": "p76-n6-v1",
+      "name": "n = 6",
+      "parameters": {
+        "n": 6
+      },
+      "objective": "minimize",
+      "scoreStored": "707811412",
+      "scoreDisplay": "0.707811412",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.707668681701230",
+        "kind": "best",
+        "exact": "(107√3 + 85) / 382",
+        "precision": "rounded",
+        "certificateDisplay": "0.707811412",
+        "source": "Maurizio Morandi's construction appears in Friedman's public table (April 2009). Rescaling the largest square covered by unit triangles gives common side (107√3 + 85) / 382 ≈ 0.707668681701230; optimality is open. The site's nine-decimal reconstruction of the source figure verifies at 0.707811412, with its gap from the published target explicitly preserved.",
+        "url": "https://erich-friedman.github.io/packing/tricosqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-02T00:02:59.133Z",
+      "answer": {
+        "side": "0.707811412",
+        "triangles": [
+          {
+            "down": false,
+            "turn": "0",
+            "x": "0.863222275",
+            "y": "0"
+          },
+          {
+            "down": false,
+            "turn": "0",
+            "x": "0.136229269",
+            "y": "0"
+          },
+          {
+            "down": false,
+            "turn": "1",
+            "x": "1",
+            "y": "0.729979893"
+          },
+          {
+            "down": true,
+            "turn": "1",
+            "x": "0",
+            "y": "0.730913891"
+          },
+          {
+            "down": true,
+            "turn": "0",
+            "x": "0.500800803",
+            "y": "1"
+          },
+          {
+            "down": true,
+            "turn": "0",
+            "x": "0.499722410",
+            "y": "0.596363582"
+          }
+        ]
+      }
+    },
+    {
+      "instanceId": "p76-n7-v1",
+      "name": "n = 7",
+      "parameters": {
+        "n": 7
+      },
+      "objective": "minimize",
+      "scoreStored": "653229052",
+      "scoreDisplay": "0.653229052",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.653129933440798",
+        "kind": "best",
+        "exact": "4(7√3 + 6) / 111",
+        "precision": "rounded",
+        "certificateDisplay": "0.653229052",
+        "source": "Maurizio Morandi's construction appears in Friedman's public table (April 2009). Rescaling the largest square covered by unit triangles gives common side 4(7√3 + 6) / 111 ≈ 0.653129933440798; optimality is open. The site's nine-decimal reconstruction of the source figure verifies at 0.653229052, with its gap from the published target explicitly preserved.",
+        "url": "https://erich-friedman.github.io/packing/tricosqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-02T00:02:59.133Z",
+      "answer": {
+        "side": "0.653229052",
+        "triangles": [
+          {
+            "down": false,
+            "turn": "0",
+            "x": "0.171385018",
+            "y": "0"
+          },
+          {
+            "down": false,
+            "turn": "0",
+            "x": "0.831263265",
+            "y": "-0.00001"
+          },
+          {
+            "down": false,
+            "turn": "-1",
+            "x": "0",
+            "y": "0.595217729"
+          },
+          {
+            "down": true,
+            "turn": "-1",
+            "x": "1",
+            "y": "0.600056881"
+          },
+          {
+            "down": true,
+            "turn": "0",
+            "x": "0.501274343",
+            "y": "0.559727778"
+          },
+          {
+            "down": false,
+            "turn": "-0.267949192",
+            "x": "0.214964843",
+            "y": "0.797585652"
+          },
+          {
+            "down": false,
+            "turn": "0.267949192",
+            "x": "0.780676455",
+            "y": "0.800023683"
+          }
+        ]
+      }
+    },
+    {
+      "instanceId": "p76-n8-v1",
+      "name": "n = 8",
+      "parameters": {
+        "n": 8
+      },
+      "objective": "minimize",
+      "scoreStored": "599559417",
+      "scoreDisplay": "0.599559417",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.598847943125924",
+        "kind": "best",
+        "exact": "2(12 + 5√3) / 69",
+        "precision": "rounded",
+        "certificateDisplay": "0.599559417",
+        "source": "Maurizio Morandi's construction appears in Friedman's public table (April 2009). Rescaling the largest square covered by unit triangles gives common side 2(12 + 5√3) / 69 ≈ 0.598847943125924; optimality is open. The site's nine-decimal reconstruction of the source figure verifies at 0.599559417, with its gap from the published target explicitly preserved.",
+        "url": "https://erich-friedman.github.io/packing/tricosqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-02T00:02:59.133Z",
+      "answer": {
+        "side": "0.599559417",
+        "triangles": [
+          {
+            "down": false,
+            "turn": "0",
+            "x": "0.187814373",
+            "y": "0"
+          },
+          {
+            "down": false,
+            "turn": "0",
+            "x": "0.823299122",
+            "y": "0"
+          },
+          {
+            "down": true,
+            "turn": "0",
+            "x": "0.180427531",
+            "y": "1"
+          },
+          {
+            "down": true,
+            "turn": "0",
+            "x": "0.813274561",
+            "y": "1"
+          },
+          {
+            "down": false,
+            "turn": "1",
+            "x": "1",
+            "y": "0.504474990"
+          },
+          {
+            "down": true,
+            "turn": "1",
+            "x": "0",
+            "y": "0.493587641"
+          },
+          {
+            "down": true,
+            "turn": "0.577350269",
+            "x": "0.346827406",
+            "y": "0.769489255"
+          },
+          {
+            "down": false,
+            "turn": "0.577350269",
+            "x": "0.655542400",
+            "y": "0.228309899"
+          }
+        ]
+      }
+    },
+    {
+      "instanceId": "p76-n9-v1",
+      "name": "n = 9",
+      "parameters": {
+        "n": 9
+      },
+      "objective": "minimize",
+      "scoreStored": "564748618",
+      "scoreDisplay": "0.564748618",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.564435602013652",
+        "kind": "best",
+        "exact": "(139 + 69√3) / 458",
+        "precision": "rounded",
+        "certificateDisplay": "0.564748618",
+        "source": "Maurizio Morandi's construction appears in Friedman's public table (April 2009). Rescaling the largest square covered by unit triangles gives common side (139 + 69√3) / 458 ≈ 0.564435602013652; optimality is open. The site's nine-decimal reconstruction of the source figure verifies at 0.564748618, with its gap from the published target explicitly preserved.",
+        "url": "https://erich-friedman.github.io/packing/tricosqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-02T00:02:59.133Z",
+      "answer": {
+        "side": "0.564748618",
+        "triangles": [
+          {
+            "down": false,
+            "turn": "0",
+            "x": "0.145913876",
+            "y": "0"
+          },
+          {
+            "down": false,
+            "turn": "0",
+            "x": "0.855667327",
+            "y": "0"
+          },
+          {
+            "down": true,
+            "turn": "0",
+            "x": "0.167274105",
+            "y": "1"
+          },
+          {
+            "down": true,
+            "turn": "0",
+            "x": "0.831025895",
+            "y": "1"
+          },
+          {
+            "down": true,
+            "turn": "-1",
+            "x": "1",
+            "y": "0.521256972"
+          },
+          {
+            "down": false,
+            "turn": "-1",
+            "x": "0",
+            "y": "0.518721217"
+          },
+          {
+            "down": true,
+            "turn": "0.577350269",
+            "x": "0.357935245",
+            "y": "0.841296169"
+          },
+          {
+            "down": false,
+            "turn": "0.577350269",
+            "x": "0.642041175",
+            "y": "0.118855610"
+          },
+          {
+            "down": false,
+            "turn": "0",
+            "x": "0.501478403",
+            "y": "0.363227152"
+          }
+        ]
+      }
+    },
+    {
+      "instanceId": "p76-n10-v1",
+      "name": "n = 10",
+      "parameters": {
+        "n": 10
+      },
+      "objective": "minimize",
+      "scoreStored": "530227833",
+      "scoreDisplay": "0.530227833",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.530011547174745",
+        "kind": "best",
+        "exact": "(5√3 + 3) / 22",
+        "precision": "rounded",
+        "certificateDisplay": "0.530227833",
+        "source": "Maurizio Morandi's construction appears in Friedman's public table (April 2009). Rescaling the largest square covered by unit triangles gives common side (5√3 + 3) / 22 ≈ 0.530011547174745; optimality is open. The site's nine-decimal reconstruction of the source figure verifies at 0.530227833, with its gap from the published target explicitly preserved.",
+        "url": "https://erich-friedman.github.io/packing/tricosqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-02T00:02:59.133Z",
+      "answer": {
+        "side": "0.530227833",
+        "triangles": [
+          {
+            "down": false,
+            "turn": "0",
+            "x": "0.193863620",
+            "y": "0"
+          },
+          {
+            "down": false,
+            "turn": "0",
+            "x": "0.805336380",
+            "y": "0"
+          },
+          {
+            "down": true,
+            "turn": "-1",
+            "x": "1",
+            "y": "0.387056801"
+          },
+          {
+            "down": true,
+            "turn": "-1",
+            "x": "1",
+            "y": "0.871830623"
+          },
+          {
+            "down": false,
+            "turn": "-1",
+            "x": "0",
+            "y": "0.388269220"
+          },
+          {
+            "down": false,
+            "turn": "-1",
+            "x": "0",
+            "y": "0.869209902"
+          },
+          {
+            "down": true,
+            "turn": "0",
+            "x": "0.4977",
+            "y": "1"
+          },
+          {
+            "down": false,
+            "turn": "-0.577350269",
+            "x": "0.367014826",
+            "y": "0.158803371"
+          },
+          {
+            "down": false,
+            "turn": "-0.267949192",
+            "x": "0.272045515",
+            "y": "0.496181557"
+          },
+          {
+            "down": false,
+            "turn": "0.267949192",
+            "x": "0.731188588",
+            "y": "0.496801132"
+          }
+        ]
+      }
+    },
+    {
+      "instanceId": "p76-n11-v1",
+      "name": "n = 11",
+      "parameters": {
+        "n": 11
+      },
+      "objective": "minimize",
+      "scoreStored": "504894626",
+      "scoreDisplay": "0.504894626",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.504527934491533",
+        "kind": "best",
+        "exact": "(16√3 − 4) / 47",
+        "precision": "rounded",
+        "certificateDisplay": "0.504894626",
+        "source": "Maurizio Morandi's construction appears in Friedman's public table (April 2009). Rescaling the largest square covered by unit triangles gives common side (16√3 − 4) / 47 ≈ 0.504527934491533; optimality is open. The site's nine-decimal reconstruction of the source figure verifies at 0.504894626, with its gap from the published target explicitly preserved.",
+        "url": "https://erich-friedman.github.io/packing/tricosqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-02T00:02:59.133Z",
+      "answer": {
+        "side": "0.504894626",
+        "triangles": [
+          {
+            "down": false,
+            "turn": "0",
+            "x": "0.164844752",
+            "y": "-0.0018"
+          },
+          {
+            "down": false,
+            "turn": "0",
+            "x": "0.834155248",
+            "y": "0"
+          },
+          {
+            "down": true,
+            "turn": "-1",
+            "x": "1",
+            "y": "0.402315561"
+          },
+          {
+            "down": true,
+            "turn": "-1",
+            "x": "1",
+            "y": "0.890367224"
+          },
+          {
+            "down": false,
+            "turn": "-1",
+            "x": "0",
+            "y": "0.402299758"
+          },
+          {
+            "down": false,
+            "turn": "-1",
+            "x": "0",
+            "y": "0.890663570"
+          },
+          {
+            "down": true,
+            "turn": "0",
+            "x": "0.5002",
+            "y": "1"
+          },
+          {
+            "down": false,
+            "turn": "-0.577350269",
+            "x": "0.372704629",
+            "y": "0.075116352"
+          },
+          {
+            "down": false,
+            "turn": "0",
+            "x": "0.4995",
+            "y": "0.293742138"
+          },
+          {
+            "down": false,
+            "turn": "-0.267949192",
+            "x": "0.232703934",
+            "y": "0.520324859"
+          },
+          {
+            "down": false,
+            "turn": "-1",
+            "x": "0.548348607",
+            "y": "0.646336092"
+          }
+        ]
+      }
+    },
+    {
+      "instanceId": "p76-n12-v1",
+      "name": "n = 12",
+      "parameters": {
+        "n": 12
+      },
+      "objective": "minimize",
+      "scoreStored": "479941887",
+      "scoreDisplay": "0.479941887",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.479274057836310",
+        "kind": "best",
+        "exact": "(15 − 7√3) / 6",
+        "precision": "rounded",
+        "certificateDisplay": "0.479941887",
+        "source": "Maurizio Morandi's construction appears in Friedman's public table (April 2009). Rescaling the largest square covered by unit triangles gives common side (15 − 7√3) / 6 ≈ 0.479274057836310; optimality is open. The site's nine-decimal reconstruction of the source figure verifies at 0.479941887, with its gap from the published target explicitly preserved.",
+        "url": "https://erich-friedman.github.io/packing/tricosqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-02T00:02:59.133Z",
+      "answer": {
+        "side": "0.479941887",
+        "triangles": [
+          {
+            "down": true,
+            "turn": "0",
+            "x": "0.801849431",
+            "y": "1"
+          },
+          {
+            "down": true,
+            "turn": "0",
+            "x": "0.200673654",
+            "y": "1"
+          },
+          {
+            "down": false,
+            "turn": "1",
+            "x": "1",
+            "y": "0.689391140"
+          },
+          {
+            "down": false,
+            "turn": "1",
+            "x": "1",
+            "y": "0.308508860"
+          },
+          {
+            "down": true,
+            "turn": "1",
+            "x": "-0.0005",
+            "y": "0.308315559"
+          },
+          {
+            "down": true,
+            "turn": "1",
+            "x": "0",
+            "y": "0.691984441"
+          },
+          {
+            "down": true,
+            "turn": "-0.577350269",
+            "x": "0.621239208",
+            "y": "0.897187014"
+          },
+          {
+            "down": false,
+            "turn": "-0.577350269",
+            "x": "0.380502331",
+            "y": "0.100814204"
+          },
+          {
+            "down": true,
+            "turn": "-0.577350269",
+            "x": "0.319818217",
+            "y": "0.206989381"
+          },
+          {
+            "down": true,
+            "turn": "0.577350269",
+            "x": "0.681532775",
+            "y": "0.207195330"
+          },
+          {
+            "down": false,
+            "turn": "-0.267949192",
+            "x": "0.290831490",
+            "y": "0.380037222"
+          },
+          {
+            "down": true,
+            "turn": "-0.267949192",
+            "x": "0.706463645",
+            "y": "0.618977453"
+          }
+        ]
+      }
+    }
+  ]
+}

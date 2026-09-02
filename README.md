@@ -37,7 +37,7 @@ managed.
 
 ## The records
 
-51 problem families, 981 sub-problems, 889 still open.
+53 problem families, 1002 sub-problems, 912 still open.
 `records/` holds today's snapshot of each family; the live files are at
 `https://minmaxarena.com/data/{slug}.json`, and the citable ones are the monthly frozen
 editions at `https://minmaxarena.com/data/editions/{YYYY-MM}/{slug}.json`, which never change
@@ -49,7 +49,7 @@ once published. Data is CC BY 4.0; see
 | --- | --- | ---: | ---: | --- |
 | [P01](https://minmaxarena.com/en/problems/square-circle-packing) | Equal-circle packing in a unit square | 30 | 0 | [json](records/square-circle-packing.json) |
 | [P02](https://minmaxarena.com/en/problems/circle-circle-packing) | Equal-circle packing in a unit circle | 29 | 15 | [json](records/circle-circle-packing.json) |
-| [P03](https://minmaxarena.com/en/problems/heilbronn-triangle) | Heilbronn minimum triangle area | 12 | 7 | [json](records/heilbronn-triangle.json) |
+| [P03](https://minmaxarena.com/en/problems/heilbronn-triangle) | Heilbronn minimum triangle area | 12 | 10 | [json](records/heilbronn-triangle.json) |
 | [P05](https://minmaxarena.com/en/problems/tilted-squares-in-circle) | Tilted equal squares in a circle | 12 | 11 | [json](records/tilted-squares-in-circle.json) |
 | [P06](https://minmaxarena.com/en/problems/graduated-circles-in-circle) | Packing circles of radius 1,2,…,n into a circle | 29 | 26 | [json](records/graduated-circles-in-circle.json) |
 | [P08](https://minmaxarena.com/en/problems/circles-in-an-l) | Equal circles in an L | 15 | 14 | [json](records/circles-in-an-l.json) |
@@ -98,6 +98,8 @@ once published. Data is CC BY 4.0; see
 | [P73](https://minmaxarena.com/en/problems/circles-covering-a-square) | Covering a square with n equal discs | 31 | 29 | [json](records/circles-covering-a-square.json) |
 | [P74](https://minmaxarena.com/en/problems/circles-covering-an-equilateral-triangle) | Covering an equilateral triangle with n equal discs | 34 | 32 | [json](records/circles-covering-an-equilateral-triangle.json) |
 | [P75](https://minmaxarena.com/en/problems/circles-covering-a-regular-pentagon) | Covering a regular pentagon with n equal discs | 29 | 29 | [json](records/circles-covering-a-regular-pentagon.json) |
+| [P76](https://minmaxarena.com/en/problems/equilateral-triangles-covering-a-square) | Covering a square with n equilateral triangles | 11 | 11 | [json](records/equilateral-triangles-covering-a-square.json) |
+| [P77](https://minmaxarena.com/en/problems/equilateral-triangles-covering-an-equilateral-triangle) | Covering an equilateral triangle with n equilateral triangles | 10 | 9 | [json](records/equilateral-triangles-covering-an-equilateral-triangle.json) |
 <!-- records:end -->
 
 ## Problems the catalogue no longer offers

@@ -4,13 +4,13 @@
   "title": "等边三角形内的最小三角形",
   "titleEn": "The smallest triangle in an equilateral triangle",
   "objective": "maximize",
-  "scoreLabel": "最小三角形的二倍面积",
-  "scoreLabelEn": "twice the smallest triangle's area",
+  "scoreLabel": "最小三角形的面积",
+  "scoreLabelEn": "the smallest triangle's area",
   "verifierVersion": "1.0.0",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/heilbronn-in-equilateral",
-  "generatedAt": "2026-09-01T10:14:06.745Z",
+  "generatedAt": "2026-09-02T09:43:41.663Z",
   "instances": [
     {
       "instanceId": "p58-n5-v1",
@@ -60,7 +60,7 @@
       },
       "objective": "maximize",
       "scoreStored": "108253174891746825",
-      "scoreDisplay": "0.054126587445873412",
+      "scoreDisplay": "0.0541265874458734125",
       "status": "open",
       "settled": false,
       "knownBest": null,
@@ -104,7 +104,7 @@
       },
       "objective": "maximize",
       "scoreStored": "84196913671385361",
-      "scoreDisplay": "0.04209845683569268",
+      "scoreDisplay": "0.0420984568356926805",
       "status": "open",
       "settled": false,
       "knownBest": null,
@@ -204,7 +204,7 @@
       },
       "objective": "maximize",
       "scoreStored": "43717788584496847",
-      "scoreDisplay": "0.021858894292248423",
+      "scoreDisplay": "0.0218588942922484235",
       "status": "open",
       "settled": false,
       "knownBest": null,
@@ -259,55 +259,55 @@
         "n": 10
       },
       "objective": "maximize",
-      "scoreStored": "32963093932430574",
-      "scoreDisplay": "0.016481546966215287",
+      "scoreStored": "37565359278154038",
+      "scoreDisplay": "0.018782679639077019",
       "status": "open",
       "settled": false,
       "knownBest": null,
-      "holder": "邱仲普",
+      "holder": "Sigmoid with Codex",
       "method": "ai",
-      "recordedAt": "2026-09-01T07:30:47.591Z",
+      "recordedAt": "2026-09-01T21:48:48.018Z",
       "answer": {
         "points": [
           [
-            "0.674556655",
-            "0.563683409"
+            "0.1105014",
+            "0.191394039"
           ],
           [
-            "0.683352085",
+            "0.466232324",
+            "0.807538073"
+          ],
+          [
+            "1",
             "0"
           ],
           [
-            "0.08216415",
+            "0.757166485",
+            "0.285718448"
+          ],
+          [
+            "0.407922669",
             "0"
           ],
           [
-            "0.341676331",
-            "0.591799766"
+            "0.66355509",
+            "0.582739678"
           ],
           [
-            "0.825442768",
-            "0.302340995"
+            "0.476308309",
+            "0.302842601"
           ],
           [
-            "0.041082363",
-            "0.071155741"
+            "0.113055802",
+            "0.063446711"
           ],
           [
-            "0.340076615",
-            "0.355659845"
+            "0.396842778",
+            "0.554980172"
           ],
           [
-            "0.481858318",
-            "0.678983313"
-          ],
-          [
-            "0.828946246",
-            "0.077809388"
-          ],
-          [
-            "0.478049057",
-            "0.116684565"
+            "0.686147989",
+            "0.109763819"
           ]
         ]
       }
@@ -321,17 +321,21 @@
       "objective": "maximize",
       "scoreStored": "31635812437803858",
       "scoreDisplay": "0.015817906218901929",
-      "status": "matched",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "0.031635812437803858",
+        "display": "0.0158179063167770975",
         "kind": "best",
-        "source": "AlphaEvolve's public continuous configuration scores 0.036529889880030156 when normalized by the equilateral triangle's area; the displayed twice-area score is the same configuration after a nine-decimal-grid boundary repair. Optimality of the continuous problem is open",
+        "precision": "rounded",
+        "certificateDisplay": "0.015817906218901929",
+        "publishedDisplay": "0.036529889880030156",
+        "publishedMetric": "minimum triangle area normalized by the equilateral triangle's area",
+        "source": "AlphaEvolve published the continuous construction; this site repairs the same construction to its nine-decimal boundary grid and exhibits the verifiable certificate. Optimality of the continuous problem is open",
         "url": "https://einsteinarena.com/problems/heilbronn-triangles"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-27T00:21:01.705Z",
       "answer": {
         "points": [
           [
@@ -388,63 +392,63 @@
         "n": 12
       },
       "objective": "maximize",
-      "scoreStored": "22730121714635563",
-      "scoreDisplay": "0.011365060857317781",
+      "scoreStored": "26850928422886634",
+      "scoreDisplay": "0.013425464211443317",
       "status": "open",
       "settled": false,
       "knownBest": null,
-      "holder": "邱仲普",
+      "holder": "Sigmoid with Codex",
       "method": "ai",
-      "recordedAt": "2026-09-01T07:15:50.091Z",
+      "recordedAt": "2026-09-01T21:49:04.464Z",
       "answer": {
         "points": [
           [
-            "0.060258336",
+            "0.751946706",
             "0"
           ],
           [
-            "0.78858719",
+            "0.248053294",
             "0"
           ],
           [
-            "0.629064282",
-            "0.446454477"
+            "0.5",
+            "0.75945156"
           ],
           [
-            "0.572823986",
-            "0.310644837"
+            "0.398598391",
+            "0.347219381"
           ],
           [
-            "0.578872884",
-            "0.729412561"
+            "0.60140161",
+            "0.347219381"
           ],
           [
-            "0.056439855",
-            "0.097755696"
+            "0.124026647",
+            "0.214820454"
           ],
           [
-            "0.33256155",
-            "0.305594229"
+            "0.092295655",
+            "0.053286921"
           ],
           [
-            "0.274224957",
-            "0.474970558"
+            "0.624026647",
+            "0.651204949"
           ],
           [
-            "0.934775994",
-            "0.035331998"
+            "0.375973353",
+            "0.651204949"
           ],
           [
-            "0.871642351",
-            "0.222320969"
+            "0.500000001",
+            "0.171586641"
           ],
           [
-            "0.291446336",
-            "0.035331998"
+            "0.875973353",
+            "0.214820454"
           ],
           [
-            "0.479918925",
-            "0.721377314"
+            "0.907704345",
+            "0.053286921"
           ]
         ]
       }
@@ -456,67 +460,67 @@
         "n": 13
       },
       "objective": "maximize",
-      "scoreStored": "16725981860163264",
-      "scoreDisplay": "0.008362990930081632",
+      "scoreStored": "22998628580563350",
+      "scoreDisplay": "0.011499314290281675",
       "status": "open",
       "settled": false,
       "knownBest": null,
-      "holder": "邱仲普",
+      "holder": "Sigmoid with Codex",
       "method": "ai",
-      "recordedAt": "2026-09-01T07:15:54.090Z",
+      "recordedAt": "2026-09-01T21:48:16.130Z",
       "answer": {
         "points": [
           [
-            "0.9029407",
-            "0.04449588"
-          ],
-          [
-            "0.7230731",
-            "0.308087023"
-          ],
-          [
-            "0.826799599",
+            "0.297623885",
             "0"
           ],
           [
-            "0.446903211",
-            "0.569929209"
+            "0.958294776",
+            "0.072235566"
           ],
           [
-            "0.056557637",
-            "0.04449588"
+            "0.128530523",
+            "0.222621396"
           ],
           [
-            "0.401140271",
-            "0.337581742"
-          ],
-          [
-            "0.55410977",
-            "0.648688774"
-          ],
-          [
-            "0.450900032",
+            "0.61600761",
             "0"
           ],
           [
-            "0.254001402",
-            "0.147674897"
+            "0.391426253",
+            "0.677970157"
           ],
           [
-            "0.724021445",
-            "0.47800788"
+            "0.653757434",
+            "0.599709716"
           ],
           [
-            "0.859328768",
-            "0.243648721"
+            "0.423258682",
+            "0.141488029"
           ],
           [
-            "0.085818516",
-            "0.148641031"
+            "0.755357031",
+            "0.141488029"
           ],
           [
-            "0.398665261",
-            "0.690507487"
+            "0.510045868",
+            "0.422285844"
+          ],
+          [
+            "0.096883301",
+            "0.072235566"
+          ],
+          [
+            "0.319534102",
+            "0.403541005"
+          ],
+          [
+            "0.766455277",
+            "0.317799473"
+          ],
+          [
+            "0.50122477",
+            "0.777192188"
           ]
         ]
       }
@@ -528,71 +532,71 @@
         "n": 14
       },
       "objective": "maximize",
-      "scoreStored": "15341627180424563",
-      "scoreDisplay": "0.007670813590212281",
+      "scoreStored": "20590423385534874",
+      "scoreDisplay": "0.010295211692767437",
       "status": "open",
       "settled": false,
       "knownBest": null,
-      "holder": "邱仲普",
+      "holder": "Sigmoid with Codex",
       "method": "ai",
-      "recordedAt": "2026-09-01T07:15:58.008Z",
+      "recordedAt": "2026-09-01T21:48:31.732Z",
       "answer": {
         "points": [
           [
-            "0.030310375",
+            "0.243066426",
             "0"
           ],
           [
-            "0.369313646",
-            "0.058376617"
+            "0.12550094",
+            "0.217374004"
           ],
           [
-            "0.27111738",
-            "0.235639649"
+            "0.521436412",
+            "0.828896449"
           ],
           [
-            "0.470065042",
-            "0.245723874"
+            "0.495784245",
+            "0.062720414"
           ],
           [
-            "0.663472673",
-            "0.441031115"
+            "0.40761435",
+            "0.706008764"
           ],
           [
-            "0.5",
-            "0.866024404"
+            "0.863988609",
+            "0.235578639"
           ],
           [
-            "0.309058491",
-            "0.435228744"
-          ],
-          [
-            "0.045188911",
-            "0.07826849"
-          ],
-          [
-            "0.534606447",
-            "0.68220692"
-          ],
-          [
-            "0.765712465",
-            "0.081381687"
-          ],
-          [
-            "0.80384112",
-            "0.339756146"
-          ],
-          [
-            "0.862029967",
-            "0.188477837"
-          ],
-          [
-            "0.549270432",
+            "0.779093191",
             "0"
           ],
           [
-            "0.456683375",
-            "0.480932903"
+            "0.929312343",
+            "0.039422038"
+          ],
+          [
+            "0.483541996",
+            "0.499748062"
+          ],
+          [
+            "0.312305027",
+            "0.422208199"
+          ],
+          [
+            "0.374651469",
+            "0.187831748"
+          ],
+          [
+            "0.064316465",
+            "0.038413051"
+          ],
+          [
+            "0.681272531",
+            "0.469039595"
+          ],
+          [
+            "0.672019548",
+            "0.258925525"
           ]
         ]
       }

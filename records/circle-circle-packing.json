@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/circle-circle-packing",
-  "generatedAt": "2026-09-01T10:14:03.178Z",
+  "generatedAt": "2026-09-02T09:43:39.050Z",
   "instances": [
     {
       "instanceId": "p02-n2-v1",
@@ -30,7 +30,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-21T07:56:31.413Z",
       "answer": {
         "centers": [
           [
@@ -64,7 +64,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-21T07:56:31.413Z",
       "answer": {
         "centers": [
           [
@@ -102,7 +102,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-21T07:56:31.413Z",
       "answer": {
         "centers": [
           [
@@ -144,7 +144,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-21T07:56:31.413Z",
       "answer": {
         "centers": [
           [
@@ -190,7 +190,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-20T20:48:50.809Z",
       "answer": {
         "centers": [
           [
@@ -240,7 +240,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-21T07:56:31.413Z",
       "answer": {
         "centers": [
           [
@@ -295,7 +295,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-21T07:56:31.413Z",
       "answer": {
         "centers": [
           [
@@ -354,7 +354,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-21T07:56:31.413Z",
       "answer": {
         "centers": [
           [
@@ -416,7 +416,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-21T07:56:31.413Z",
       "answer": {
         "centers": [
           [
@@ -483,7 +483,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-21T07:56:31.413Z",
       "answer": {
         "centers": [
           [
@@ -553,7 +553,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-21T07:56:31.413Z",
       "answer": {
         "centers": [
           [
@@ -628,7 +628,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-21T07:56:31.413Z",
       "answer": {
         "centers": [
           [
@@ -706,7 +706,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-21T07:56:31.413Z",
       "answer": {
         "centers": [
           [
@@ -778,17 +778,19 @@
       "objective": "maximize",
       "scoreStored": "221172538",
       "scoreDisplay": "0.221172538",
-      "status": "matched",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "0.221172538",
+        "display": "0.221172539",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "0.221172538",
         "source": "value from Eckard Specht's table of best known packings, which does not mark this one as proved; the table's figure is 0.221172539, the exact optimum is not writable on the nine-decimal grid, and shown here is the exact value the configuration's grid certificate reaches",
         "url": "https://web.archive.org/web/20260209211013/http://hydra.nat.uni-magdeburg.de/packing/cci/cci.html"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-21T07:56:31.413Z",
       "answer": {
         "centers": [
           [
@@ -874,7 +876,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-21T07:56:31.413Z",
       "answer": {
         "centers": [
           [
@@ -964,7 +966,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-21T07:56:31.413Z",
       "answer": {
         "centers": [
           [
@@ -1059,7 +1061,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-21T07:56:31.413Z",
       "answer": {
         "centers": [
           [
@@ -1158,7 +1160,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-21T07:56:31.413Z",
       "answer": {
         "centers": [
           [
@@ -1250,17 +1252,19 @@
       "objective": "maximize",
       "scoreStored": "195224010",
       "scoreDisplay": "0.195224010",
-      "status": "matched",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "0.195224010",
+        "display": "0.195224011",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "0.195224010",
         "source": "value from Eckard Specht's table of best known packings, which does not mark this one as proved; the table's figure is 0.195224011, the exact optimum is not writable on the nine-decimal grid, and shown here is the exact value the configuration's grid certificate reaches",
         "url": "https://web.archive.org/web/20260209211013/http://hydra.nat.uni-magdeburg.de/packing/cci/cci.html"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-21T07:56:31.413Z",
       "answer": {
         "centers": [
           [
@@ -1366,7 +1370,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-24T10:08:09.085Z",
       "answer": {
         "centers": [
           [
@@ -1476,7 +1480,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-24T10:08:09.085Z",
       "answer": {
         "centers": [
           [
@@ -1580,17 +1584,19 @@
       "objective": "maximize",
       "scoreStored": "180336008",
       "scoreDisplay": "0.180336008",
-      "status": "matched",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "0.180336008",
+        "display": "0.180336009",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "0.180336008",
         "source": "value from Eckard Specht's table of best known packings, which does not mark this one as proved; the table's figure is 0.180336009, the exact optimum is not writable on the nine-decimal grid, and shown here is the exact value the configuration's grid certificate reaches",
         "url": "https://web.archive.org/web/20260209211013/http://hydra.nat.uni-magdeburg.de/packing/cci/cci.html"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-24T10:08:09.085Z",
       "answer": {
         "centers": [
           [
@@ -1708,7 +1714,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-24T10:08:09.085Z",
       "answer": {
         "centers": [
           [
@@ -1830,7 +1836,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-24T10:08:09.085Z",
       "answer": {
         "centers": [
           [
@@ -1946,17 +1952,19 @@
       "objective": "maximize",
       "scoreStored": "171580251",
       "scoreDisplay": "0.171580251",
-      "status": "matched",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "0.171580251",
+        "display": "0.171580252",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "0.171580251",
         "source": "value from Eckard Specht's table of best known packings, which does not mark this one as proved; the table's figure is 0.171580252, the exact optimum is not writable on the nine-decimal grid, and shown here is the exact value the configuration's grid certificate reaches",
         "url": "https://web.archive.org/web/20260209211013/http://hydra.nat.uni-magdeburg.de/packing/cci/cci.html"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-24T10:08:09.085Z",
       "answer": {
         "centers": [
           [
@@ -2076,17 +2084,19 @@
       "objective": "maximize",
       "scoreStored": "169307930",
       "scoreDisplay": "0.169307930",
-      "status": "matched",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "0.169307930",
+        "display": "0.169307931",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "0.169307930",
         "source": "value from Eckard Specht's table of best known packings, which does not mark this one as proved; the table's figure is 0.169307931, the exact optimum is not writable on the nine-decimal grid, and shown here is the exact value the configuration's grid certificate reaches",
         "url": "https://web.archive.org/web/20260209211013/http://hydra.nat.uni-magdeburg.de/packing/cci/cci.html"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-24T10:08:09.085Z",
       "answer": {
         "centers": [
           [
@@ -2210,17 +2220,19 @@
       "objective": "maximize",
       "scoreStored": "166252749",
       "scoreDisplay": "0.166252749",
-      "status": "matched",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "0.166252749",
+        "display": "0.166252750",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "0.166252749",
         "source": "value from Eckard Specht's table of best known packings, which does not mark this one as proved; the table's figure is 0.166252750, the exact optimum is not writable on the nine-decimal grid, and shown here is the exact value the configuration's grid certificate reaches",
         "url": "https://web.archive.org/web/20260209211013/http://hydra.nat.uni-magdeburg.de/packing/cci/cci.html"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-24T10:08:09.085Z",
       "answer": {
         "centers": [
           [
@@ -2348,17 +2360,19 @@
       "objective": "maximize",
       "scoreStored": "162903648",
       "scoreDisplay": "0.162903648",
-      "status": "matched",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "0.162903648",
+        "display": "0.162903649",
         "kind": "best",
+        "precision": "rounded",
+        "certificateDisplay": "0.162903648",
         "source": "value from Eckard Specht's table of best known packings, which does not mark this one as proved; the table's figure is 0.162903649, the exact optimum is not writable on the nine-decimal grid, and shown here is the exact value the configuration's grid certificate reaches",
         "url": "https://web.archive.org/web/20260209211013/http://hydra.nat.uni-magdeburg.de/packing/cci/cci.html"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-24T10:08:09.085Z",
       "answer": {
         "centers": [
           [
@@ -2488,138 +2502,138 @@
         "n": 30
       },
       "objective": "maximize",
-      "scoreStored": "161100000",
-      "scoreDisplay": "0.161100000",
+      "scoreStored": "161349108",
+      "scoreDisplay": "0.161349108",
       "status": "open",
       "settled": false,
       "knownBest": null,
-      "holder": "Cphysics",
-      "method": "human",
-      "recordedAt": "2026-08-29T12:00:30.837Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-02T03:23:30.850Z",
       "answer": {
         "centers": [
           [
-            "1.120572813",
-            "0.169810018"
+            "1.153906430",
+            "1.824407744"
           ],
           [
-            "0.848024289",
-            "1.508516918"
+            "1.695105666",
+            "0.530784240"
           ],
           [
-            "0.771456151",
-            "1.004148050"
+            "0.771694176",
+            "0.997937051"
           ],
           [
-            "0.571734239",
-            "1.721347106"
+            "0.313486713",
+            "0.518300069"
           ],
           [
-            "1.489918562",
-            "1.680979450"
+            "0.822545138",
+            "1.498910434"
           ],
           [
-            "1.710462614",
-            "1.446089771"
+            "0.997939456",
+            "1.228039666"
           ],
           [
-            "0.590396234",
-            "1.315021116"
+            "0.304894334",
+            "1.469215760"
           ],
           [
-            "1.009382748",
-            "1.229632913"
+            "1.002060544",
+            "0.771960334"
           ],
           [
-            "0.801469962",
-            "0.507783571"
+            "0.179179049",
+            "1.172012451"
           ],
           [
-            "1.227397151",
-            "0.987274618"
+            "1.466474704",
+            "0.303051890"
           ],
           [
-            "0.331427275",
-            "1.506718582"
+            "1.425275584",
+            "0.707775389"
           ],
           [
-            "1.197105089",
-            "1.815415718"
+            "1.168410413",
+            "1.502035638"
           ],
           [
-            "0.991011899",
-            "0.768334323"
+            "0.533525296",
+            "1.696948110"
           ],
           [
-            "0.287275736",
-            "0.557538152"
+            "1.419925551",
+            "1.299861764"
           ],
           [
-            "1.410065676",
-            "0.685635179"
+            "1.177454862",
+            "0.501089566"
           ],
           [
-            "0.189743568",
-            "1.217342412"
+            "0.182421395",
+            "0.813183134"
           ],
           [
-            "0.173065577",
-            "0.858816893"
+            "0.546195542",
+            "0.294736340"
           ],
           [
-            "0.562922686",
-            "0.724366205"
+            "1.817578605",
+            "1.186816866"
           ],
           [
-            "1.153822729",
-            "0.490295703"
+            "0.449009131",
+            "0.995021302"
           ],
           [
-            "1.200399260",
-            "1.493231236"
+            "1.168778615",
+            "0.178508006"
           ],
           [
-            "0.506619076",
-            "0.321524924"
+            "0.831589587",
+            "0.497964362"
           ],
           [
-            "0.798759706",
-            "0.185594970"
+            "1.820820951",
+            "0.827987549"
           ],
           [
-            "0.875216027",
-            "1.829567459"
+            "0.574724416",
+            "1.292224611"
           ],
           [
-            "1.424515715",
-            "0.276728458"
+            "1.686513287",
+            "1.481699931"
           ],
           [
-            "1.553182481",
-            "0.974305268"
+            "1.453804458",
+            "1.705263660"
           ],
           [
-            "1.666051997",
-            "0.489972602"
+            "0.580074449",
+            "0.700138236"
           ],
           [
-            "1.826204100",
-            "1.145395992"
+            "1.550990869",
+            "1.004978698"
           ],
           [
-            "1.437440995",
-            "1.274999047"
+            "0.846093570",
+            "0.175592256"
           ],
           [
-            "1.809168802",
-            "0.778642691"
+            "1.228305824",
+            "1.002062949"
           ],
           [
-            "0.448712527",
-            "1.025644946"
+            "0.831221385",
+            "1.821491994"
           ]
         ],
-        "radius": "0.161100000"
+        "radius": "0.161349108"
       }
     }
   ]

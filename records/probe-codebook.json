@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/probe-codebook",
-  "generatedAt": "2026-09-01T10:14:07.971Z",
+  "generatedAt": "2026-09-02T09:43:42.813Z",
   "instances": [
     {
       "instanceId": "p70-n9-v1",
@@ -34,7 +34,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-30T03:01:08.722Z",
       "answer": {
         "sequences": [
           "000212332",
@@ -223,21 +223,21 @@
         "correlation": "aperiodic"
       },
       "objective": "minimize",
-      "scoreStored": "28150776299",
-      "scoreDisplay": "289 · 10 · 40290",
+      "scoreStored": "120310986033",
+      "scoreDisplay": "53 · 4 · 14286",
       "status": "open",
       "settled": false,
       "knownBest": null,
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-08-30T03:01:08.722Z",
+      "holder": "Sigmoid with Codex",
+      "method": "ai",
+      "recordedAt": "2026-08-31T18:34:28.635Z",
       "answer": {
         "sequences": [
-          "00000000000000000",
-          "00000000000000000",
-          "00000000000000000",
-          "00000000000000000",
-          "00000000000000000"
+          "0322223331123133023001032113210121303",
+          "0300001131010312130103331200301033221",
+          "0320200022000103102222210112101202112",
+          "0330201311233020202322130021020000223",
+          "0121331120120033010201331320330101101"
         ]
       }
     },

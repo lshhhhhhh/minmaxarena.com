@@ -4,13 +4,13 @@
   "title": "最小面积三角形内的单位圆装箱",
   "titleEn": "Unit circles in a minimum-area triangle",
   "objective": "minimize",
-  "scoreLabel": "三角形面积的两倍",
-  "scoreLabelEn": "twice the triangle area",
+  "scoreLabel": "三角形面积",
+  "scoreLabelEn": "the triangle area",
   "verifierVersion": "1.0.0",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/unit-circles-in-minimum-area-triangle",
-  "generatedAt": "2026-09-01T10:14:07.622Z",
+  "generatedAt": "2026-09-02T09:43:42.412Z",
   "instances": [
     {
       "instanceId": "p66-n4-v1",
@@ -24,7 +24,7 @@
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "38.784609766389323972",
+        "display": "19.392304883194661986",
         "kind": "best",
         "exact": "9 + 6√3",
         "source": "David W. Cantrell configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
@@ -32,7 +32,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-29T07:56:50.700Z",
       "answer": {
         "centers": [
           [
@@ -80,7 +80,7 @@
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "48.248711332902014688",
+        "display": "24.124355666451007344",
         "kind": "best",
         "exact": "12 + 7√3",
         "source": "Friedman's current table says the best known construction for this row is equilateral; the standard triangular-lattice construction is generated and verified exactly on the nine-decimal grid here",
@@ -88,7 +88,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-29T07:56:50.700Z",
       "answer": {
         "centers": [
           [
@@ -140,7 +140,7 @@
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "48.248711332902014688",
+        "display": "24.124355666451007344",
         "kind": "best",
         "exact": "12 + 7√3",
         "source": "Friedman's current table says the best known construction for this row is equilateral; the standard triangular-lattice construction is generated and verified exactly on the nine-decimal grid here",
@@ -148,7 +148,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-29T07:56:50.700Z",
       "answer": {
         "centers": [
           [
@@ -204,14 +204,14 @@
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "62.424355423894401952",
+        "display": "31.212177711947200976",
         "kind": "best",
         "source": "David W. Cantrell configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-29T07:56:50.700Z",
       "answer": {
         "centers": [
           [
@@ -271,14 +271,14 @@
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "71.8728457783624444",
+        "display": "35.9364228891812222",
         "kind": "best",
         "source": "David W. Cantrell configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-29T07:56:50.700Z",
       "answer": {
         "centers": [
           [
@@ -342,7 +342,7 @@
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "77.569219419888920416",
+        "display": "38.784609709944460208",
         "kind": "best",
         "exact": "18 + 12√3",
         "source": "Friedman's current table says the best known construction for this row is equilateral; the standard triangular-lattice construction is generated and verified exactly on the nine-decimal grid here",
@@ -350,7 +350,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-29T07:56:50.700Z",
       "answer": {
         "centers": [
           [
@@ -418,7 +418,7 @@
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "77.569219419888920416",
+        "display": "38.784609709944460208",
         "kind": "best",
         "exact": "18 + 12√3",
         "source": "Friedman's current table says the best known construction for this row is equilateral; the standard triangular-lattice construction is generated and verified exactly on the nine-decimal grid here",
@@ -426,7 +426,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-29T07:56:50.700Z",
       "answer": {
         "centers": [
           [
@@ -494,18 +494,18 @@
       },
       "objective": "minimize",
       "scoreStored": "94007090674027377469",
-      "scoreDisplay": "47.003545337013688734",
+      "scoreDisplay": "47.0035453370136887345",
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "94.007090674027377469",
+        "display": "47.0035453370136887345",
         "kind": "best",
         "source": "David W. Cantrell configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-29T07:56:50.700Z",
       "answer": {
         "centers": [
           [
@@ -581,14 +581,14 @@
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "102.608042120791426652",
+        "display": "51.304021060395713326",
         "kind": "best",
         "source": "David W. Cantrell configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-29T07:56:50.700Z",
       "answer": {
         "centers": [
           [
@@ -668,14 +668,14 @@
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "109.789930742314004064",
+        "display": "54.894965371157002032",
         "kind": "best",
         "source": "David W. Cantrell configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-29T07:56:50.700Z",
       "answer": {
         "centers": [
           [
@@ -759,7 +759,7 @@
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "113.817930738875826144",
+        "display": "56.908965369437913072",
         "kind": "best",
         "exact": "24 + 19√3",
         "source": "Friedman's current table says the best known construction for this row is equilateral; the standard triangular-lattice construction is generated and verified exactly on the nine-decimal grid here",
@@ -767,7 +767,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-29T07:56:50.700Z",
       "answer": {
         "centers": [
           [
@@ -855,7 +855,7 @@
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "113.817930738875826144",
+        "display": "56.908965369437913072",
         "kind": "best",
         "exact": "24 + 19√3",
         "source": "Friedman's current table says the best known construction for this row is equilateral; the standard triangular-lattice construction is generated and verified exactly on the nine-decimal grid here",
@@ -863,7 +863,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-29T07:56:50.700Z",
       "answer": {
         "centers": [
           [
@@ -955,7 +955,7 @@
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "132.066642252233625088",
+        "display": "66.033321126116812544",
         "kind": "best",
         "exact": "21 + 26√3",
         "source": "David W. Cantrell configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
@@ -963,7 +963,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-29T07:56:50.700Z",
       "answer": {
         "centers": [
           [
@@ -1055,18 +1055,18 @@
       },
       "objective": "minimize",
       "scoreStored": "140550135265102913775",
-      "scoreDisplay": "70.275067632551456887",
+      "scoreDisplay": "70.2750676325514568875",
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "140.550135265102913775",
+        "display": "70.2750676325514568875",
         "kind": "best",
         "source": "David W. Cantrell configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-29T07:56:50.700Z",
       "answer": {
         "centers": [
           [
@@ -1166,14 +1166,14 @@
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "149.606706153782253552",
+        "display": "74.803353076891126776",
         "kind": "best",
         "source": "David W. Cantrell configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-29T07:56:50.700Z",
       "answer": {
         "centers": [
           [
@@ -1273,18 +1273,18 @@
       },
       "objective": "minimize",
       "scoreStored": "154692349569836526343",
-      "scoreDisplay": "77.346174784918263171",
+      "scoreDisplay": "77.3461747849182631715",
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "154.692349569836526343",
+        "display": "77.3461747849182631715",
         "kind": "best",
         "source": "David W. Cantrell configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-29T07:56:50.700Z",
       "answer": {
         "centers": [
           [
@@ -1392,7 +1392,7 @@
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "156.994845289862731872",
+        "display": "78.497422644931365936",
         "kind": "best",
         "exact": "30 + 28√3",
         "source": "Friedman's current table says the best known construction for this row is equilateral; the standard triangular-lattice construction is generated and verified exactly on the nine-decimal grid here",
@@ -1400,7 +1400,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-29T07:56:50.700Z",
       "answer": {
         "centers": [
           [
@@ -1512,7 +1512,7 @@
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "156.994845289862731872",
+        "display": "78.497422644931365936",
         "kind": "best",
         "exact": "30 + 28√3",
         "source": "Friedman's current table says the best known construction for this row is equilateral; the standard triangular-lattice construction is generated and verified exactly on the nine-decimal grid here",
@@ -1520,7 +1520,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-29T07:56:50.700Z",
       "answer": {
         "centers": [
           [
@@ -1636,14 +1636,14 @@
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "178.25548863529354416",
+        "display": "89.12774431764677208",
         "kind": "best",
         "source": "David W. Cantrell configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-29T07:56:50.700Z",
       "answer": {
         "centers": [
           [
@@ -1763,14 +1763,14 @@
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "185.482761095717640468",
+        "display": "92.741380547858820234",
         "kind": "best",
         "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-29T07:56:50.700Z",
       "answer": {
         "centers": [
           [
@@ -1894,7 +1894,7 @@
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "192.994845617100326778",
+        "display": "96.497422808550163389",
         "kind": "best",
         "exact": "48 + 28√3",
         "source": "Graham–Lubachevsky equilateral-triangle construction, still listed by Friedman's current table as best known among arbitrary triangles; public numerical data was recovered algebraically and quantized to the nine-decimal grid here",
@@ -1902,7 +1902,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-29T07:56:50.700Z",
       "answer": {
         "centers": [
           [
@@ -2030,7 +2030,7 @@
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "199.492268232306410766",
+        "display": "99.746134116153205383",
         "kind": "best",
         "exact": "27 + 42√3",
         "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
@@ -2038,7 +2038,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-29T07:56:50.700Z",
       "answer": {
         "centers": [
           [
@@ -2165,138 +2165,138 @@
         "n": 26
       },
       "objective": "minimize",
-      "scoreStored": "205409742418398167862",
-      "scoreDisplay": "102.704871209199083931",
-      "status": "matched",
+      "scoreStored": "205409736343846166928",
+      "scoreDisplay": "102.704868171923083464",
+      "status": "ahead",
       "settled": false,
       "knownBest": {
-        "display": "205.409742418398167862",
+        "display": "102.704871209199083931",
         "kind": "best",
         "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "Sigmoid with Codex",
+      "method": "ai",
+      "recordedAt": "2026-09-01T16:18:01.378Z",
       "answer": {
         "centers": [
           [
-            "7.604339047",
-            "11.171101557"
+            "7.262933610",
+            "11.331367563"
           ],
           [
-            "7.277212948",
-            "9.198035760"
+            "6.311769546",
+            "9.572024809"
           ],
           [
-            "9.185894607",
-            "8.600595853"
+            "8.310987097",
+            "9.627963944"
           ],
           [
-            "5.732050894",
-            "7.928203350"
+            "5.360605483",
+            "7.812682055"
           ],
           [
-            "8.675906685",
-            "6.666710531"
+            "7.359823034",
+            "7.868621189"
           ],
           [
-            "10.632047352",
-            "6.250160642"
+            "9.359040585",
+            "7.924560324"
           ],
           [
-            "4.732050879",
-            "6.196152516"
+            "4.409441419",
+            "6.053339300"
           ],
           [
-            "6.732050909",
-            "6.196152516"
+            "6.408658970",
+            "6.109278435"
           ],
           [
-            "5.732050894",
-            "4.464101683"
+            "8.407876521",
+            "6.165217570"
           ],
           [
-            "7.732050925",
-            "4.464101683"
+            "10.407094072",
+            "6.221156705"
           ],
           [
-            "9.732050955",
-            "4.464101683"
+            "3.458277355",
+            "4.293996546"
           ],
           [
-            "11.732050195",
-            "4.462323622"
+            "5.457494906",
+            "4.349935681"
           ],
           [
-            "3.732050864",
-            "4.464101683"
+            "7.456712457",
+            "4.405874816"
           ],
           [
-            "2.732050849",
-            "2.732050849"
+            "9.455930008",
+            "4.461813950"
           ],
           [
-            "4.732050879",
-            "2.732050849"
+            "11.455147559",
+            "4.517753085"
           ],
           [
-            "6.732050909",
-            "2.732050849"
+            "3.186465037",
+            "2.312553116"
           ],
           [
-            "8.732050940",
-            "2.732050849"
+            "6.075352196",
+            "2.447765244"
           ],
           [
-            "12.780103697",
-            "2.758919978"
+            "8.504765945",
+            "2.702471196"
           ],
           [
-            "10.780104458",
-            "2.703403660"
+            "10.553563670",
+            "2.732494982"
           ],
           [
-            "13.837065026",
-            "1.041038424"
+            "12.553563671",
+            "2.732494982"
           ],
           [
-            "1.732050834",
-            "1.000000015"
+            "4.695505899",
+            "1.000000001"
           ],
           [
-            "3.732050864",
-            "1.000000015"
+            "9.554333395",
+            "1.000000001"
           ],
           [
-            "5.732050894",
-            "1.000000015"
+            "1.677424175",
+            "1.000000001"
           ],
           [
-            "7.732050925",
-            "1.000000015"
+            "7.455198494",
+            "1.000000001"
           ],
           [
-            "9.732050955",
-            "1.000000015"
+            "11.554333396",
+            "1.000000001"
           ],
           [
-            "11.828157960",
-            "1.000000015"
+            "13.617964068",
+            "1.000000005"
           ]
         ],
         "triangle": [
           [
-            "0.000000000",
-            "0.000000000"
+            "0.000000001",
+            "0.000000001"
           ],
           [
-            "15.651704814",
-            "0.000000000"
+            "15.408906257",
+            "0.000000001"
           ],
           [
-            "7.577025729",
-            "13.123793533"
+            "7.206994475",
+            "13.330585114"
           ]
         ]
       }
@@ -2313,7 +2313,7 @@
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "207.0999630728496376",
+        "display": "103.5499815364248188",
         "kind": "best",
         "exact": "36 + 39√3",
         "source": "Friedman's current table says the best known construction for this row is equilateral; the standard triangular-lattice construction is generated and verified exactly on the nine-decimal grid here",
@@ -2321,7 +2321,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-29T07:56:50.700Z",
       "answer": {
         "centers": [
           [
@@ -2461,7 +2461,7 @@
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "207.0999630728496376",
+        "display": "103.5499815364248188",
         "kind": "best",
         "exact": "36 + 39√3",
         "source": "Friedman's current table says the best known construction for this row is equilateral; the standard triangular-lattice construction is generated and verified exactly on the nine-decimal grid here",
@@ -2469,7 +2469,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-29T07:56:50.700Z",
       "answer": {
         "centers": [
           [
@@ -2613,14 +2613,14 @@
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "230.584486304094041428",
+        "display": "115.292243152047020714",
         "kind": "best",
         "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-29T07:56:50.700Z",
       "answer": {
         "centers": [
           [
@@ -2764,18 +2764,18 @@
       },
       "objective": "minimize",
       "scoreStored": "237697244921564683273",
-      "scoreDisplay": "118.848622460782341636",
+      "scoreDisplay": "118.8486224607823416365",
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "237.697244921564683273",
+        "display": "118.8486224607823416365",
         "kind": "best",
         "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-29T07:56:50.700Z",
       "answer": {
         "centers": [
           [
@@ -2923,18 +2923,18 @@
       },
       "objective": "minimize",
       "scoreStored": "245176089753123745041",
-      "scoreDisplay": "122.58804487656187252",
+      "scoreDisplay": "122.5880448765618725205",
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "245.176089753123745041",
+        "display": "122.5880448765618725205",
         "kind": "best",
         "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-29T07:56:50.700Z",
       "answer": {
         "centers": [
           [
@@ -3090,14 +3090,14 @@
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "254.14980835846754334",
+        "display": "127.07490417923377167",
         "kind": "best",
         "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-29T07:56:50.700Z",
       "answer": {
         "centers": [
           [
@@ -3252,166 +3252,166 @@
         "n": 33
       },
       "objective": "minimize",
-      "scoreStored": "258412702508676629912",
-      "scoreDisplay": "129.206351254338314956",
-      "status": "matched",
+      "scoreStored": "258412696304723031526",
+      "scoreDisplay": "129.206348152361515763",
+      "status": "ahead",
       "settled": false,
       "knownBest": {
-        "display": "258.412702508676629912",
+        "display": "129.206351254338314956",
         "kind": "best",
         "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "Sigmoid with Codex",
+      "method": "ai",
+      "recordedAt": "2026-09-01T16:17:45.796Z",
       "answer": {
         "centers": [
           [
-            "8.416131781",
-            "12.577167824"
+            "9.423896162",
+            "12.577167673"
           ],
           [
-            "9.511128653",
-            "10.903554383"
+            "10.423896163",
+            "10.845116865"
           ],
           [
-            "7.416131769",
-            "10.845116995"
+            "8.328899304",
+            "10.903554252"
           ],
           [
-            "7.508384500",
-            "8.847245745"
+            "8.332436343",
+            "8.903557379"
           ],
           [
-            "9.507591614",
-            "8.903557486"
+            "10.331643433",
+            "8.847245639"
           ],
           [
-            "11.341606760",
-            "8.105817839"
+            "12.107977033",
+            "7.928203233"
           ],
           [
-            "5.732050878",
-            "7.928203328"
+            "6.498421219",
+            "8.105817743"
           ],
           [
-            "8.508384512",
-            "7.115194916"
+            "9.331643433",
+            "7.115194831"
           ],
           [
-            "12.436603632",
-            "6.432204399"
+            "13.107977034",
+            "6.196152425"
           ],
           [
-            "10.361348990",
-            "6.362517865"
+            "11.107977033",
+            "6.196152425"
           ],
           [
-            "4.732050866",
-            "6.196152499"
+            "5.403424360",
+            "6.432204322"
           ],
           [
-            "6.732050890",
-            "6.196152499"
+            "7.478678977",
+            "6.362517789"
           ],
           [
-            "3.732050854",
-            "4.464101670"
+            "4.112919283",
+            "4.459772530"
           ],
           [
-            "5.732050878",
-            "4.464101670"
+            "6.110340483",
+            "4.561303577"
           ],
           [
-            "11.729687500",
-            "4.561303631"
+            "12.107977033",
+            "4.464101617"
           ],
           [
-            "13.727108724",
-            "4.459772583"
+            "14.107977034",
+            "4.464101617"
           ],
           [
-            "7.732050903",
-            "4.464101670"
+            "8.107977032",
+            "4.464101617"
           ],
           [
-            "9.732050927",
-            "4.464101670"
+            "10.107977033",
+            "4.464101617"
           ],
           [
-            "14.823110098",
-            "2.784623842"
+            "15.107977034",
+            "2.732050809"
           ],
           [
-            "10.756733930",
-            "2.746069230"
+            "11.107977033",
+            "2.732050809"
           ],
           [
-            "2.732050841",
-            "2.732050841"
+            "3.016917923",
+            "2.784623809"
           ],
           [
-            "4.732050866",
-            "2.732050841"
+            "5.013866868",
+            "2.674193225"
           ],
           [
-            "6.732050890",
-            "2.732050841"
+            "7.105973591",
+            "2.733207692"
           ],
           [
-            "8.732050915",
-            "2.732050841"
+            "9.107977032",
+            "2.732050809"
           ],
           [
-            "12.826161129",
-            "2.674193257"
+            "13.107977034",
+            "2.732050809"
           ],
           [
-            "1.732050829",
-            "1.000000012"
+            "1.922631685",
+            "1.107234132"
           ],
           [
-            "3.732050854",
-            "1.000000012"
+            "3.919756704",
+            "1.000000001"
           ],
           [
-            "5.732050878",
-            "1.000000012"
+            "6.107977031",
+            "1.000000001"
           ],
           [
-            "7.732050903",
-            "1.000000012"
+            "8.107977032",
+            "1.000000001"
           ],
           [
-            "9.732050927",
-            "1.000000012"
+            "10.107977033",
+            "1.000000001"
           ],
           [
-            "11.732050952",
-            "1.000000012"
+            "12.107977033",
+            "1.000000001"
           ],
           [
-            "13.920271306",
-            "1.000000012"
+            "14.107977034",
+            "1.000000001"
           ],
           [
-            "15.921798483",
-            "1.059700993"
+            "16.107977034",
+            "1.000000001"
           ]
         ],
         "triangle": [
           [
             "0.000000000",
-            "0.000000000"
+            "0.000000001"
           ],
           [
-            "17.840028056",
-            "0.000000000"
+            "17.840027842",
+            "0.000000001"
           ],
           [
-            "8.362915287",
-            "14.484994177"
+            "9.477112656",
+            "14.484994004"
           ]
         ]
       }
@@ -3428,14 +3428,14 @@
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "263.171846107030995832",
+        "display": "131.585923053515497916",
         "kind": "best",
         "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-29T07:56:50.700Z",
       "answer": {
         "centers": [
           [
@@ -3603,7 +3603,7 @@
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "264.133284087836543328",
+        "display": "132.066642043918271664",
         "kind": "best",
         "exact": "42 + 52√3",
         "source": "Friedman's current table says the best known construction for this row is equilateral; the standard triangular-lattice construction is generated and verified exactly on the nine-decimal grid here",
@@ -3611,7 +3611,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-29T07:56:50.700Z",
       "answer": {
         "centers": [
           [
@@ -3783,7 +3783,7 @@
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "264.133284087836543328",
+        "display": "132.066642043918271664",
         "kind": "best",
         "exact": "42 + 52√3",
         "source": "Friedman's current table says the best known construction for this row is equilateral; the standard triangular-lattice construction is generated and verified exactly on the nine-decimal grid here",
@@ -3791,7 +3791,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-29T07:56:50.700Z",
       "answer": {
         "centers": [
           [
@@ -3962,168 +3962,168 @@
         "n": 37
       },
       "objective": "minimize",
-      "scoreStored": "289872062589602236496",
-      "scoreDisplay": "144.936031294801118248",
-      "status": "matched",
+      "scoreStored": "289754470000742602866",
+      "scoreDisplay": "144.877235000371301433",
+      "status": "ahead",
       "settled": false,
       "knownBest": {
-        "display": "289.872062589602236496",
+        "display": "144.936031294801118248",
         "kind": "best",
         "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "Sigmoid with Codex",
+      "method": "ai",
+      "recordedAt": "2026-09-01T16:16:41.767Z",
       "answer": {
         "centers": [
           [
-            "7.732050879",
-            "11.392304950"
+            "3.264200855",
+            "17.132769487"
           ],
           [
-            "9.243187909",
-            "10.082165664"
+            "3.800906452",
+            "15.206128082"
           ],
           [
-            "6.732050870",
-            "9.660254127"
+            "2.783837166",
+            "13.484045021"
           ],
           [
-            "9.720801470",
-            "8.140031436"
+            "5.758880622",
+            "14.798283565"
           ],
           [
-            "5.732050860",
-            "7.928203303"
+            "2.522784781",
+            "11.501155297"
           ],
           [
-            "7.732050879",
-            "7.928203303"
+            "4.455561550",
+            "12.373734650"
           ],
           [
-            "11.711030198",
-            "7.942573374"
+            "6.546942055",
+            "12.960089021"
           ],
           [
-            "13.222167228",
-            "6.632434088"
+            "8.433321503",
+            "12.295579743"
           ],
           [
-            "4.732050851",
-            "6.196152480"
+            "2.261732397",
+            "9.518265574"
           ],
           [
-            "6.732050870",
-            "6.196152480"
+            "4.109491462",
+            "10.283632439"
           ],
           [
-            "8.732206275",
-            "6.196242202"
+            "5.957250528",
+            "11.048999304"
           ],
           [
-            "10.734135466",
-            "6.197386635"
+            "7.591847277",
+            "9.896569842"
           ],
           [
-            "13.718672660",
-            "4.695043464"
+            "2.000680012",
+            "7.535375851"
           ],
           [
-            "5.732050860",
-            "4.464101656"
+            "5.696198143",
+            "9.066109581"
           ],
           [
-            "3.732050842",
-            "4.464101656"
+            "3.848439078",
+            "8.300742716"
           ],
           [
-            "7.732050879",
-            "4.464101656"
+            "9.469648545",
+            "10.585016601"
           ],
           [
-            "9.732050897",
-            "4.464101675"
+            "11.245130079",
+            "9.664329182"
           ],
           [
-            "11.732050916",
-            "4.464101656"
+            "3.587386693",
+            "6.317852993"
           ],
           [
-            "15.706883948",
-            "4.478211851"
+            "7.282904824",
+            "7.848586723"
           ],
           [
-            "17.218020978",
-            "3.168072565"
+            "1.739627628",
+            "5.552486128"
           ],
           [
-            "2.732050833",
-            "2.732050833"
+            "5.435145759",
+            "7.083219858"
           ],
           [
-            "4.732050851",
-            "2.732050833"
+            "9.130663890",
+            "8.613953587"
           ],
           [
-            "6.732050870",
-            "2.732050833"
+            "1.478575243",
+            "3.569596404"
           ],
           [
-            "8.732050888",
-            "2.732050833"
+            "3.326334309",
+            "4.334963269"
           ],
           [
-            "10.732050906",
-            "2.732050833"
+            "5.174093374",
+            "5.100330134"
           ],
           [
-            "12.739156308",
-            "2.736133964"
+            "7.021852440",
+            "5.865696999"
           ],
           [
-            "14.739284436",
-            "2.727854386"
+            "8.869611505",
+            "6.631063864"
           ],
           [
-            "17.732615415",
-            "1.235407917"
+            "10.717370571",
+            "7.396430729"
           ],
           [
-            "1.732050824",
-            "1.000000009"
+            "12.565129636",
+            "8.161797594"
           ],
           [
-            "3.732050842",
-            "1.000000009"
+            "1.217522859",
+            "1.586706681"
           ],
           [
-            "5.732050860",
-            "1.000000009"
+            "3.065281924",
+            "2.352073546"
           ],
           [
-            "7.732050879",
-            "1.000000009"
+            "4.913040990",
+            "3.117440411"
           ],
           [
-            "9.732050897",
-            "1.000000009"
+            "6.760800055",
+            "3.882807276"
           ],
           [
-            "11.732050916",
-            "1.000000009"
+            "8.608559121",
+            "4.648174141"
           ],
           [
-            "13.732050934",
-            "1.000000009"
+            "10.456318186",
+            "5.413541006"
           ],
           [
-            "15.746517938",
-            "1.000000009"
+            "12.304077252",
+            "6.178907871"
           ],
           [
-            "19.718712893",
-            "1.000000009"
+            "14.151836317",
+            "6.944274736"
           ]
         ],
         "triangle": [
@@ -4132,12 +4132,12 @@
             "0.000000000"
           ],
           [
-            "22.398685256",
-            "0.000000000"
+            "15.968098185",
+            "6.614202833"
           ],
           [
-            "7.471765037",
-            "12.941476666"
+            "2.526732888",
+            "19.192441722"
           ]
         ]
       }
@@ -4149,186 +4149,186 @@
         "n": 38
       },
       "objective": "minimize",
-      "scoreStored": "296742822592035023154",
-      "scoreDisplay": "148.371411296017511577",
-      "status": "matched",
+      "scoreStored": "296742819461803465725",
+      "scoreDisplay": "148.3714097309017328625",
+      "status": "ahead",
       "settled": false,
       "knownBest": {
-        "display": "296.742822592035023154",
+        "display": "148.371411296017511577",
         "kind": "best",
         "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "Sigmoid with Codex",
+      "method": "ai",
+      "recordedAt": "2026-09-01T16:18:32.599Z",
       "answer": {
         "centers": [
           [
-            "7.502178606",
-            "14.851773021"
+            "2.118824448",
+            "12.607060672"
           ],
           [
-            "8.511018145",
-            "13.124355726"
+            "4.234760161",
+            "12.885628894"
           ],
           [
-            "6.533139748",
-            "12.827712687"
+            "3.751921303",
+            "10.944787159"
           ],
           [
-            "9.511018150",
-            "11.392304909"
+            "6.217649885",
+            "13.146681278"
           ],
           [
-            "6.914080813",
-            "10.864326849"
+            "5.711633117",
+            "10.545375583"
           ],
           [
-            "5.236872497",
-            "9.774844260"
+            "6.076343945",
+            "8.578910222"
           ],
           [
-            "8.511018145",
-            "9.660254092"
+            "7.435172743",
+            "11.559974597"
           ],
           [
-            "10.511018156",
-            "9.660254092"
+            "8.200539608",
+            "13.407733663"
           ],
           [
-            "7.426058473",
-            "7.980116432"
+            "8.624817547",
+            "9.952160241"
           ],
           [
-            "9.511018150",
-            "7.928203275"
+            "9.418062467",
+            "11.821026982"
           ],
           [
-            "11.511018161",
-            "7.928203275"
+            "10.183429332",
+            "13.668786047"
           ],
           [
-            "5.283829790",
-            "7.775395572"
+            "7.941563432",
+            "7.857137220"
           ],
           [
-            "3.812625525",
-            "6.420567886"
+            "8.630255500",
+            "5.979451613"
           ],
           [
-            "8.511018145",
-            "6.196152457"
+            "10.635585325",
+            "10.234320301"
           ],
           [
-            "12.511018167",
-            "6.196152457"
+            "12.166319055",
+            "13.929838432"
           ],
           [
-            "6.511018133",
-            "6.196152457"
+            "9.870218460",
+            "8.386561235"
           ],
           [
-            "10.511018156",
-            "6.196152457"
+            "11.400952190",
+            "12.082079366"
           ],
           [
-            "3.483388719",
-            "4.447853216"
+            "10.326812727",
+            "4.920351251"
           ],
           [
-            "5.498784259",
-            "4.471222697"
+            "11.087406634",
+            "6.799597794"
           ],
           [
-            "7.511018139",
-            "4.464101640"
+            "11.853108183",
+            "8.647613619"
           ],
           [
-            "9.511018150",
-            "4.464101640"
+            "12.618475048",
+            "10.495372685"
           ],
           [
-            "11.511018161",
-            "4.464101640"
+            "13.383841913",
+            "12.343131751"
           ],
           [
-            "13.511018173",
-            "4.464101640"
+            "14.149208778",
+            "14.190890816"
           ],
           [
-            "2.292685502",
-            "2.840922635"
+            "11.355760602",
+            "3.205339218"
           ],
           [
-            "4.511018122",
-            "2.732050823"
+            "12.305264177",
+            "5.213147873"
           ],
           [
-            "6.511018133",
-            "2.732050823"
+            "13.070631042",
+            "7.060906938"
           ],
           [
-            "8.511018145",
-            "2.732050823"
+            "13.835997907",
+            "8.908666004"
           ],
           [
-            "10.511018156",
-            "2.732050823"
+            "14.601364772",
+            "10.756425070"
           ],
           [
-            "12.511018167",
-            "2.732050823"
+            "15.366731637",
+            "12.604184135"
           ],
           [
-            "14.511018178",
-            "2.732050823"
+            "16.132098502",
+            "14.451943201"
           ],
           [
-            "1.511018105",
-            "1.000000006"
+            "12.757420170",
+            "1.778682126"
           ],
           [
-            "7.511018139",
-            "1.000000006"
+            "15.053520765",
+            "7.321959323"
           ],
           [
-            "9.511018150",
-            "1.000000006"
+            "15.818887630",
+            "9.169718389"
           ],
           [
-            "11.511018161",
-            "1.000000006"
+            "16.584254495",
+            "11.017477454"
           ],
           [
-            "13.511018173",
-            "1.000000006"
+            "17.349621360",
+            "12.865236520"
           ],
           [
-            "3.511018117",
-            "1.000000006"
+            "13.522787035",
+            "3.626441192"
           ],
           [
-            "5.511018128",
-            "1.000000006"
+            "14.288153900",
+            "5.474200257"
           ],
           [
-            "15.511018184",
-            "1.000000006"
+            "18.114988225",
+            "14.712995585"
           ]
         ],
         "triangle": [
           [
-            "0.000000000",
+            "13.103058111",
             "0.000000000"
           ],
           [
-            "17.243069001",
-            "0.000000000"
+            "19.701694906",
+            "15.930518444"
           ],
           [
-            "7.307218921",
-            "17.209397154"
+            "0.000000001",
+            "13.336741103"
           ]
         ]
       }
@@ -4340,190 +4340,190 @@
         "n": 39
       },
       "objective": "minimize",
-      "scoreStored": "303661462607708138640",
-      "scoreDisplay": "151.83073130385406932",
-      "status": "matched",
+      "scoreStored": "303661449696077978670",
+      "scoreDisplay": "151.830724848038989335",
+      "status": "ahead",
       "settled": false,
       "knownBest": {
-        "display": "303.66146260770813864",
+        "display": "151.83073130385406932",
         "kind": "best",
         "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "Sigmoid with Codex",
+      "method": "ai",
+      "recordedAt": "2026-09-01T16:16:58.291Z",
       "answer": {
         "centers": [
           [
-            "10.003904230",
-            "15.056574842"
+            "10.037902495",
+            "15.323466690"
           ],
           [
-            "8.886981509",
-            "13.392703456"
+            "8.886981321",
+            "13.392703172"
           ],
           [
-            "10.878519520",
-            "13.208919553"
+            "10.878519290",
+            "13.208919273"
           ],
           [
-            "9.723588986",
-            "11.576088994"
+            "9.723588780",
+            "11.576088749"
           ],
           [
-            "7.732050974",
-            "11.392305091"
+            "7.732050811",
+            "11.392304850"
           ],
           [
-            "11.684352136",
-            "11.181870731"
+            "11.684351889",
+            "11.181870493"
           ],
           [
-            "6.732050953",
-            "9.660254246"
+            "6.732050811",
+            "9.660254042"
           ],
           [
-            "8.851625356",
-            "9.726770584"
+            "8.907325250",
+            "9.750242682"
           ],
           [
-            "11.250887941",
-            "9.229408448"
+            "11.250887702",
+            "9.229408253"
           ],
           [
-            "12.906553448",
-            "8.107458404"
+            "12.906553174",
+            "8.107458232"
           ],
           [
-            "5.732050931",
-            "7.928203401"
+            "5.732050810",
+            "7.928203233"
           ],
           [
-            "7.732050974",
-            "7.928203401"
+            "7.732050811",
+            "7.928203233"
           ],
           [
-            "9.732051018",
-            "7.928203401"
+            "9.732050812",
+            "7.928203233"
           ],
           [
-            "10.802998665",
-            "6.239099666"
+            "10.877599402",
+            "6.275478306"
           ],
           [
-            "4.732050910",
-            "6.196152556"
+            "4.732050810",
+            "6.196152425"
           ],
           [
-            "8.732050996",
-            "6.196152556"
+            "8.732050811",
+            "6.196152425"
           ],
           [
-            "6.732050953",
-            "6.196152556"
+            "6.732050811",
+            "6.196152425"
           ],
           [
-            "12.871511437",
-            "6.107765370"
+            "12.871511165",
+            "6.107765241"
           ],
           [
-            "14.269927879",
-            "4.677929146"
+            "14.269927576",
+            "4.677929047"
           ],
           [
-            "5.732050931",
-            "4.464101712"
+            "5.732050810",
+            "4.464101617"
           ],
           [
-            "9.732051018",
-            "4.464101712"
+            "9.732050812",
+            "4.464101617"
           ],
           [
-            "3.732050888",
-            "4.464101712"
+            "3.732050810",
+            "4.464101617"
           ],
           [
-            "7.732050974",
-            "4.464101712"
+            "7.732050811",
+            "4.464101617"
           ],
           [
-            "11.732051061",
-            "4.464101712"
+            "11.732050812",
+            "4.464101617"
           ],
           [
-            "2.732050867",
-            "2.732050867"
+            "2.732050809",
+            "2.732050809"
           ],
           [
-            "4.732050910",
-            "2.732050867"
+            "4.732050810",
+            "2.732050809"
           ],
           [
-            "6.732050953",
-            "2.732050867"
+            "6.732050811",
+            "2.732050809"
           ],
           [
-            "8.732050996",
-            "2.732050867"
+            "8.732050811",
+            "2.732050809"
           ],
           [
-            "10.732051039",
-            "2.732050867"
+            "10.732050812",
+            "2.732050809"
           ],
           [
-            "12.732051082",
-            "2.732050867"
+            "12.732050813",
+            "2.732050809"
           ],
           [
-            "14.732051126",
-            "2.732050867"
+            "14.732050813",
+            "2.732050809"
           ],
           [
-            "1.732050845",
-            "1.000000022"
+            "1.732050809",
+            "1.000000001"
           ],
           [
-            "3.732050888",
-            "1.000000022"
+            "3.732050810",
+            "1.000000001"
           ],
           [
-            "5.732050931",
-            "1.000000022"
+            "5.732050810",
+            "1.000000001"
           ],
           [
-            "7.732050974",
-            "1.000000022"
+            "7.732050811",
+            "1.000000001"
           ],
           [
-            "9.732051018",
-            "1.000000022"
+            "9.732050812",
+            "1.000000001"
           ],
           [
-            "11.732051061",
-            "1.000000022"
+            "11.732050812",
+            "1.000000001"
           ],
           [
-            "13.732051104",
-            "1.000000022"
+            "13.732050813",
+            "1.000000001"
           ],
           [
-            "15.732051147",
-            "1.000000022"
+            "15.732050814",
+            "1.000000001"
           ]
         ],
         "triangle": [
           [
-            "0.000000000",
-            "0.000000000"
+            "0.000000001",
+            "0.000000001"
           ],
           [
-            "17.205712692",
-            "0.000000000"
+            "17.205712327",
+            "0.000000001"
           ],
           [
-            "10.189582397",
-            "17.648874420"
+            "10.189582182",
+            "17.648874046"
           ]
         ]
       }
@@ -4540,7 +4540,7 @@
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "310.2768781638992015",
+        "display": "155.13843908194960075",
         "kind": "best",
         "exact": "72 + 48√3",
         "source": "Graham–Lubachevsky equilateral-triangle construction, still listed by Friedman's current table as best known among arbitrary triangles; public numerical data was recovered algebraically and quantized to the nine-decimal grid here",
@@ -4548,7 +4548,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-29T07:56:50.700Z",
       "answer": {
         "centers": [
           [
@@ -4735,198 +4735,198 @@
         "n": 41
       },
       "objective": "minimize",
-      "scoreStored": "320221102652663832477",
-      "scoreDisplay": "160.110551326331916238",
-      "status": "matched",
+      "scoreStored": "320221092377154298018",
+      "scoreDisplay": "160.110546188577149009",
+      "status": "ahead",
       "settled": false,
       "knownBest": {
-        "display": "320.221102652663832477",
+        "display": "160.1105513263319162385",
         "kind": "best",
         "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "Sigmoid with Codex",
+      "method": "ai",
+      "recordedAt": "2026-09-01T16:17:13.868Z",
       "answer": {
         "centers": [
           [
-            "8.766108866",
-            "14.971117785"
+            "2.019096909",
+            "13.915083073"
           ],
           [
-            "9.845454227",
-            "13.274998620"
+            "4.001986633",
+            "14.176135458"
           ],
           [
-            "7.848053267",
-            "13.173069543"
+            "3.331784576",
+            "12.291771054"
           ],
           [
-            "8.935026917",
-            "11.494234109"
+            "5.298793048",
+            "12.653541249"
           ],
           [
-            "6.937744435",
-            "11.390009254"
+            "4.630757354",
+            "10.768407749"
           ],
           [
-            "10.932427877",
-            "11.392305032"
+            "6.157335478",
+            "14.459892516"
           ],
           [
-            "9.861808768",
-            "9.699193629"
+            "7.365335942",
+            "12.865910406"
           ],
           [
-            "11.932427893",
-            "9.660254196"
+            "8.140225201",
+            "14.720944901"
           ],
           [
-            "7.851597005",
-            "9.611000089"
+            "6.624063716",
+            "10.931900098"
           ],
           [
-            "5.874712542",
-            "9.307803865"
+            "6.147659577",
+            "8.989468864"
           ],
           [
-            "8.932427844",
-            "7.928203360"
+            "8.592381194",
+            "11.286479154"
           ],
           [
-            "10.932427877",
-            "7.928203360"
+            "9.357748059",
+            "13.134238220"
           ],
           [
-            "12.932427909",
-            "7.928203360"
+            "10.123114924",
+            "14.981997285"
           ],
           [
-            "6.964845429",
-            "7.569567649"
+            "8.170756203",
+            "9.331426119"
           ],
           [
-            "4.965308803",
-            "7.526516418"
+            "7.445340826",
+            "7.467620192"
           ],
           [
-            "9.932427860",
-            "6.196152524"
+            "10.575270918",
+            "11.547531539"
           ],
           [
-            "11.932427893",
-            "6.196152524"
+            "11.340637783",
+            "13.395290604"
           ],
           [
-            "13.932427926",
-            "6.196152524"
+            "12.106004648",
+            "15.243049670"
           ],
           [
-            "5.192253537",
-            "5.539434079"
+            "9.368013487",
+            "6.916866306"
           ],
           [
-            "7.282871543",
-            "5.595014656"
+            "10.116708592",
+            "8.869615227"
           ],
           [
-            "3.449705476",
-            "4.557840280"
+            "9.608043630",
+            "4.931322166"
           ],
           [
-            "8.932427844",
-            "4.464101688"
+            "11.792793776",
+            "9.960824858"
           ],
           [
-            "10.932427877",
-            "4.464101688"
+            "12.558160641",
+            "11.808583923"
           ],
           [
-            "12.932427909",
-            "4.464101688"
+            "13.323527506",
+            "13.656342989"
           ],
           [
-            "14.932427942",
-            "4.464101688"
+            "14.088894371",
+            "15.504102054"
           ],
           [
-            "6.282871526",
-            "3.862963820"
+            "11.334231451",
+            "7.282908546"
           ],
           [
-            "2.633315192",
-            "2.732050852"
+            "10.982434055",
+            "3.478376551"
           ],
           [
-            "7.932427827",
-            "2.732050852"
+            "13.010316635",
+            "8.374118176"
           ],
           [
-            "9.932427860",
-            "2.732050852"
+            "13.775683500",
+            "10.221877242"
           ],
           [
-            "11.932427893",
-            "2.732050852"
+            "14.541050364",
+            "12.069636308"
           ],
           [
-            "13.932427926",
-            "2.732050852"
+            "15.306417229",
+            "13.917395373"
           ],
           [
-            "15.932427958",
-            "2.732050852"
+            "16.071784094",
+            "15.765154439"
           ],
           [
-            "5.282871510",
-            "2.130912984"
+            "12.551754309",
+            "5.696201864"
           ],
           [
-            "1.633315176",
-            "1.000000016"
+            "12.199956914",
+            "1.891669870"
           ],
           [
-            "3.633315209",
-            "1.000000016"
+            "12.965323779",
+            "3.739428935"
           ],
           [
-            "10.932427877",
-            "1.000000016"
+            "15.758573223",
+            "10.482929627"
           ],
           [
-            "12.932427909",
-            "1.000000016"
+            "16.523940088",
+            "12.330688692"
           ],
           [
-            "14.932427942",
-            "1.000000016"
+            "17.289306953",
+            "14.178447758"
           ],
           [
-            "16.932427975",
-            "1.000000016"
+            "18.054673818",
+            "16.026206823"
           ],
           [
-            "6.932427811",
-            "1.000000016"
+            "14.227839493",
+            "6.787411495"
           ],
           [
-            "8.932427844",
-            "1.000000016"
+            "14.993206358",
+            "8.635170561"
           ]
         ],
         "triangle": [
           [
+            "12.498793799",
+            "0.000000000"
+          ],
+          [
+            "19.641380499",
+            "17.243729682"
+          ],
+          [
             "0.000000000",
-            "0.000000000"
-          ],
-          [
-            "18.664478811",
-            "0.000000000"
-          ],
-          [
-            "8.759046053",
-            "17.156712807"
+            "14.657892883"
           ]
         ]
       }
@@ -4943,14 +4943,14 @@
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "323.774183277407798056",
+        "display": "161.887091638703899028",
         "kind": "best",
         "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-29T07:56:50.700Z",
       "answer": {
         "centers": [
           [
@@ -5145,206 +5145,206 @@
         "n": 43
       },
       "objective": "minimize",
-      "scoreStored": "327438662662148488864",
-      "scoreDisplay": "163.719331331074244432",
-      "status": "matched",
+      "scoreStored": "327438654777090857236",
+      "scoreDisplay": "163.719327388545428618",
+      "status": "ahead",
       "settled": false,
       "knownBest": {
-        "display": "327.438662662148488864",
+        "display": "163.719331331074244432",
         "kind": "best",
         "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "Sigmoid with Codex",
+      "method": "ai",
+      "recordedAt": "2026-09-01T16:17:30.110Z",
       "answer": {
         "centers": [
           [
-            "9.683358799",
-            "14.772069403"
+            "9.683358683",
+            "14.772069226"
           ],
           [
-            "9.087570872",
-            "12.862871444"
+            "9.087570764",
+            "12.862871290"
           ],
           [
-            "11.046017405",
-            "12.457301134"
+            "11.046017273",
+            "12.457300985"
           ],
           [
-            "7.732050903",
-            "11.392304985"
+            "7.732050810",
+            "11.392304849"
           ],
           [
-            "10.536224018",
-            "10.523364527"
+            "10.536223892",
+            "10.523364401"
           ],
           [
-            "12.474569258",
-            "10.030599037"
+            "12.474569109",
+            "10.030598917"
           ],
           [
-            "6.732050890",
-            "9.660254157"
+            "6.732050810",
+            "9.660254041"
           ],
           [
-            "8.732050915",
-            "9.660254157"
+            "8.732050810",
+            "9.660254041"
           ],
           [
-            "11.716139571",
-            "8.179981705"
+            "11.716139431",
+            "8.179981608"
           ],
           [
-            "5.732050878",
-            "7.928203328"
+            "5.732050810",
+            "7.928203233"
           ],
           [
-            "7.732050903",
-            "7.928203328"
+            "7.732050810",
+            "7.928203233"
           ],
           [
-            "9.732050927",
-            "7.928203328"
+            "9.732050811",
+            "7.928203233"
           ],
           [
-            "13.702293033",
-            "7.945046557"
+            "13.702292869",
+            "7.945046462"
           ],
           [
-            "4.732050866",
-            "6.196152499"
+            "4.732050809",
+            "6.196152425"
           ],
           [
-            "6.732050890",
-            "6.196152499"
+            "6.732050810",
+            "6.196152425"
           ],
           [
-            "10.732050939",
-            "6.196152499"
+            "10.732050811",
+            "6.196152425"
           ],
           [
-            "12.732050964",
-            "6.196152499"
+            "12.732050811",
+            "6.196152425"
           ],
           [
-            "8.732050915",
-            "6.196152499"
+            "8.732050810",
+            "6.196152425"
           ],
           [
-            "14.732050954",
-            "6.195781591"
+            "14.732050777",
+            "6.195781518"
           ],
           [
-            "3.732050853",
-            "4.464101670"
+            "3.732050809",
+            "4.464101617"
           ],
           [
-            "5.732050878",
-            "4.464101670"
+            "5.732050810",
+            "4.464101617"
           ],
           [
-            "7.732050903",
-            "4.464101670"
+            "7.732050810",
+            "4.464101617"
           ],
           [
-            "9.732050927",
-            "4.464101670"
+            "9.732050811",
+            "4.464101617"
           ],
           [
-            "11.732050952",
-            "4.464101670"
+            "11.732050811",
+            "4.464101617"
           ],
           [
-            "13.754000835",
-            "4.451242093"
+            "13.754000670",
+            "4.451242040"
           ],
           [
-            "15.753982501",
-            "4.459811404"
+            "15.753982312",
+            "4.459811351"
           ],
           [
-            "2.732050841",
-            "2.732050841"
+            "2.732050809",
+            "2.732050809"
           ],
           [
-            "4.732050866",
-            "2.732050841"
+            "4.732050809",
+            "2.732050809"
           ],
           [
-            "6.732050890",
-            "2.732050841"
+            "6.732050810",
+            "2.732050809"
           ],
           [
-            "8.732050915",
-            "2.732050841"
+            "8.732050810",
+            "2.732050809"
           ],
           [
-            "10.732050939",
-            "2.732050841"
+            "10.732050811",
+            "2.732050809"
           ],
           [
-            "12.732050964",
-            "2.732050841"
+            "12.732050811",
+            "2.732050809"
           ],
           [
-            "14.754000847",
-            "2.719191264"
+            "14.754000670",
+            "2.719191232"
           ],
           [
-            "16.768592597",
-            "2.736278273"
+            "16.768592395",
+            "2.736278241"
           ],
           [
-            "1.732050829",
-            "1.000000012"
+            "1.732050809",
+            "1.000000001"
           ],
           [
-            "3.732050853",
-            "1.000000012"
+            "3.732050809",
+            "1.000000001"
           ],
           [
-            "5.732050878",
-            "1.000000012"
+            "5.732050810",
+            "1.000000001"
           ],
           [
-            "7.732050903",
-            "1.000000012"
+            "7.732050810",
+            "1.000000001"
           ],
           [
-            "9.732050927",
-            "1.000000012"
+            "9.732050811",
+            "1.000000001"
           ],
           [
-            "11.732050952",
-            "1.000000012"
+            "11.732050811",
+            "1.000000001"
           ],
           [
-            "13.732050976",
-            "1.000000012"
+            "13.732050812",
+            "1.000000001"
           ],
           [
-            "15.775950718",
-            "1.000000012"
+            "15.775950529",
+            "1.000000001"
           ],
           [
-            "17.783215578",
-            "1.012642725"
+            "17.783215583",
+            "1.012642726"
           ]
         ],
         "triangle": [
           [
             "0.000000000",
-            "0.000000000"
+            "0.000000001"
           ],
           [
-            "19.539792944",
-            "0.000000000"
+            "19.539792709",
+            "0.000000001"
           ],
           [
-            "9.674964344",
-            "16.757529806"
+            "9.674964229",
+            "16.757529605"
           ]
         ]
       }
@@ -5361,7 +5361,7 @@
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "328.094808334823449056",
+        "display": "164.047404167411724528",
         "kind": "best",
         "exact": "48 + 67√3",
         "source": "Friedman's current table says the best known construction for this row is equilateral; the standard triangular-lattice construction is generated and verified exactly on the nine-decimal grid here",
@@ -5369,7 +5369,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-29T07:56:50.700Z",
       "answer": {
         "centers": [
           [
@@ -5577,7 +5577,7 @@
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "328.094808334823449056",
+        "display": "164.047404167411724528",
         "kind": "best",
         "exact": "48 + 67√3",
         "source": "Friedman's current table says the best known construction for this row is equilateral; the standard triangular-lattice construction is generated and verified exactly on the nine-decimal grid here",
@@ -5585,7 +5585,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "recordedAt": "2026-08-29T07:56:50.700Z",
       "answer": {
         "centers": [
           [
@@ -5792,218 +5792,218 @@
         "n": 46
       },
       "objective": "minimize",
-      "scoreStored": "355774742720269083222",
-      "scoreDisplay": "177.887371360134541611",
-      "status": "matched",
+      "scoreStored": "355774738283555551033",
+      "scoreDisplay": "177.8873691417777755165",
+      "status": "ahead",
       "settled": false,
       "knownBest": {
-        "display": "355.774742720269083222",
+        "display": "177.887371360134541611",
         "kind": "best",
         "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "Sigmoid with Codex",
+      "method": "ai",
+      "recordedAt": "2026-09-01T16:18:16.948Z",
       "answer": {
         "centers": [
           [
-            "9.732050871",
-            "14.856406557"
+            "9.732050811",
+            "14.856406465"
           ],
           [
-            "10.873614097",
-            "13.214202717"
+            "10.873614030",
+            "13.214202635"
           ],
           [
-            "8.732050864",
-            "13.124355738"
+            "8.732050811",
+            "13.124355657"
           ],
           [
-            "11.731991069",
-            "11.407772805"
+            "11.731990997",
+            "11.407772735"
           ],
           [
-            "7.732050858",
-            "11.392304919"
+            "7.732050810",
+            "11.392304849"
           ],
           [
-            "9.732050871",
-            "11.392304919"
+            "9.732050811",
+            "11.392304849"
           ],
           [
-            "13.126156741",
-            "9.973791588"
+            "13.126156660",
+            "9.973791527"
           ],
           [
-            "10.745416375",
-            "9.668039740"
+            "10.745416388",
+            "9.668039728"
           ],
           [
-            "6.732050851",
-            "9.660254101"
+            "6.732050810",
+            "9.660254041"
           ],
           [
-            "8.732050864",
-            "9.660254101"
+            "8.732050811",
+            "9.660254041"
           ],
           [
-            "13.727279827",
-            "8.066266729"
+            "13.727279742",
+            "8.066266680"
           ],
           [
-            "5.732050845",
-            "7.928203282"
+            "5.732050810",
+            "7.928203233"
           ],
           [
-            "7.732050858",
-            "7.928203282"
+            "7.732050810",
+            "7.928203233"
           ],
           [
-            "9.732050871",
-            "7.928203282"
+            "9.732050811",
+            "7.928203233"
           ],
           [
-            "11.732050884",
-            "7.928203282"
+            "11.732050811",
+            "7.928203233"
           ],
           [
-            "15.305837364",
-            "6.838196636"
+            "15.305837269",
+            "6.838196594"
           ],
           [
-            "12.815771468",
-            "6.247265533"
+            "12.815771472",
+            "6.247265536"
           ],
           [
-            "4.732050838",
-            "6.196152463"
+            "4.732050810",
+            "6.196152425"
           ],
           [
-            "6.732050851",
-            "6.196152463"
+            "6.732050810",
+            "6.196152425"
           ],
           [
-            "8.732050864",
-            "6.196152463"
+            "8.732050811",
+            "6.196152425"
           ],
           [
-            "10.732050877",
-            "6.196152463"
+            "10.732050811",
+            "6.196152425"
           ],
           [
-            "15.689322207",
-            "4.875306057"
+            "15.689322110",
+            "4.875306027"
           ],
           [
-            "3.732050832",
-            "4.464101644"
+            "3.732050809",
+            "4.464101617"
           ],
           [
-            "5.732050845",
-            "4.464101644"
+            "5.732050810",
+            "4.464101617"
           ],
           [
-            "7.732050858",
-            "4.464101644"
+            "7.732050810",
+            "4.464101617"
           ],
           [
-            "9.732050871",
-            "4.464101644"
+            "9.732050811",
+            "4.464101617"
           ],
           [
-            "11.732050884",
-            "4.464101644"
+            "11.732050811",
+            "4.464101617"
           ],
           [
-            "13.732050897",
-            "4.464101644"
+            "13.732050812",
+            "4.464101617"
           ],
           [
-            "17.395605035",
-            "3.831946596"
+            "17.395604927",
+            "3.831946573"
           ],
           [
-            "15.102575226",
-            "2.898357944"
+            "15.102575231",
+            "2.898357946"
           ],
           [
-            "2.732050825",
-            "2.732050825"
+            "2.732050809",
+            "2.732050809"
           ],
           [
-            "4.732050838",
-            "2.732050825"
+            "4.732050810",
+            "2.732050809"
           ],
           [
-            "6.732050851",
-            "2.732050825"
+            "6.732050810",
+            "2.732050809"
           ],
           [
-            "8.732050864",
-            "2.732050825"
+            "8.732050811",
+            "2.732050809"
           ],
           [
-            "10.732050877",
-            "2.732050825"
+            "10.732050811",
+            "2.732050809"
           ],
           [
-            "12.732050890",
-            "2.732050825"
+            "12.732050812",
+            "2.732050809"
           ],
           [
-            "17.548129070",
-            "1.837770959"
+            "17.548128961",
+            "1.837770948"
           ],
           [
-            "1.732050819",
-            "1.000000006"
+            "1.732050809",
+            "1.000000001"
           ],
           [
-            "3.732050832",
-            "1.000000006"
+            "3.732050809",
+            "1.000000001"
           ],
           [
-            "5.732050845",
-            "1.000000006"
+            "5.732050810",
+            "1.000000001"
           ],
           [
-            "7.732050858",
-            "1.000000006"
+            "7.732050810",
+            "1.000000001"
           ],
           [
-            "9.732050871",
-            "1.000000006"
+            "9.732050811",
+            "1.000000001"
           ],
           [
-            "11.732050884",
-            "1.000000006"
+            "11.732050811",
+            "1.000000001"
           ],
           [
-            "13.732050897",
-            "1.000000006"
+            "13.732050812",
+            "1.000000001"
           ],
           [
-            "15.732050910",
-            "1.000000006"
+            "15.732050812",
+            "1.000000001"
           ],
           [
-            "19.364207230",
-            "1.000000006"
+            "19.364207110",
+            "1.000000001"
           ]
         ],
         "triangle": [
           [
-            "0.000000000",
-            "0.000000000"
+            "0.000000001",
+            "0.000000001"
           ],
           [
-            "21.277223862",
-            "0.000000000"
+            "21.277223730",
+            "0.000000001"
           ],
           [
-            "9.653827248",
-            "16.720919281"
+            "9.653827188",
+            "16.720919178"
           ]
         ]
       }
@@ -6015,222 +6015,222 @@
         "n": 47
       },
       "objective": "minimize",
-      "scoreStored": "366188462729802979904",
-      "scoreDisplay": "183.094231364901489952",
-      "status": "matched",
+      "scoreStored": "362712964773488901206",
+      "scoreDisplay": "181.356482386744450603",
+      "status": "ahead",
       "settled": false,
       "knownBest": {
-        "display": "366.188462729802979904",
+        "display": "183.094231364901489952",
         "kind": "best",
         "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "Sigmoid with Codex",
+      "method": "ai",
+      "recordedAt": "2026-09-01T16:15:37.852Z",
       "answer": {
         "centers": [
           [
-            "7.949424282",
-            "16.871811372"
+            "2.174833705",
+            "11.721543409"
           ],
           [
-            "9.007290251",
-            "15.124754122"
+            "4.109657432",
+            "12.360722832"
           ],
           [
-            "7.015752263",
-            "14.940970221"
+            "4.059950805",
+            "10.361340614"
           ],
           [
-            "8.170682784",
-            "13.308139682"
+            "6.057994082",
+            "10.272892520"
           ],
           [
-            "10.162220772",
-            "13.124355781"
+            "6.008713794",
+            "12.988086313"
           ],
           [
-            "6.209919656",
-            "12.913921423"
+            "7.501554687",
+            "11.657137001"
           ],
           [
-            "9.068450872",
-            "11.449939983"
+            "7.907770156",
+            "13.615449794"
           ],
           [
-            "11.162220781",
-            "11.392304957"
+            "6.772806493",
+            "8.404994444"
           ],
           [
-            "6.643383847",
-            "10.961459164"
+            "8.736883155",
+            "8.027631398"
           ],
           [
-            "4.987718360",
-            "9.839509133"
+            "8.955489480",
+            "10.283792541"
           ],
           [
-            "8.162220752",
-            "9.660254132"
+            "9.400611049",
+            "12.284500482"
           ],
           [
-            "10.162220772",
-            "9.660254132"
+            "9.806826518",
+            "14.242813275"
           ],
           [
-            "12.162220791",
-            "9.660254132"
+            "10.487236473",
+            "8.995238376"
           ],
           [
-            "7.067848204",
-            "7.986232356"
+            "10.893451942",
+            "10.953551170"
           ],
           [
-            "9.162220762",
-            "7.928203308"
+            "11.299667411",
+            "12.911863963"
           ],
           [
-            "13.162220801",
-            "7.928203308"
+            "11.705882880",
+            "14.870176756"
           ],
           [
-            "5.022760369",
-            "7.839816122"
+            "9.715104910",
+            "6.283188163"
           ],
           [
-            "11.162220781",
-            "7.928203308"
+            "11.603151343",
+            "5.623430123"
           ],
           [
-            "3.624343945",
-            "6.409979915"
+            "11.980077366",
+            "7.664289064"
           ],
           [
-            "6.162220733",
-            "6.196152483"
+            "12.386292835",
+            "9.622601857"
           ],
           [
-            "8.162220752",
-            "6.196152483"
+            "12.792508304",
+            "11.580914651"
           ],
           [
-            "10.162220772",
-            "6.196152483"
+            "13.198723773",
+            "13.539227444"
           ],
           [
-            "12.162220791",
-            "6.196152483"
+            "13.604939242",
+            "15.497540237"
           ],
           [
-            "14.162220811",
-            "6.196152483"
+            "13.472918259",
+            "6.333339752"
           ],
           [
-            "3.162220703",
-            "4.464101659"
+            "12.825314303",
+            "4.040294721"
           ],
           [
-            "5.162220723",
-            "4.464101659"
+            "15.097780135",
+            "14.166590925"
           ],
           [
-            "7.162220742",
-            "4.464101659"
+            "13.879133728",
+            "8.291652545"
           ],
           [
-            "9.162220762",
-            "4.464101659"
+            "14.285349197",
+            "10.249965338"
           ],
           [
-            "11.162220781",
-            "4.464101659"
+            "14.691564666",
+            "12.208278132"
           ],
           [
-            "13.162220801",
-            "4.464101659"
+            "15.503995604",
+            "16.124903718"
           ],
           [
-            "15.162220820",
-            "4.464101659"
+            "14.965759152",
+            "5.002390440"
           ],
           [
-            "2.162220694",
-            "2.732050834"
+            "15.371974621",
+            "6.960703233"
           ],
           [
-            "4.162220713",
-            "2.732050834"
+            "16.184405559",
+            "10.877328819"
           ],
           [
-            "6.162220733",
-            "2.732050834"
+            "16.996836497",
+            "14.793954406"
           ],
           [
-            "8.162220752",
-            "2.732050834"
+            "14.559543683",
+            "3.044077647"
           ],
           [
-            "10.162220772",
-            "2.732050834"
+            "15.778190090",
+            "8.919016026"
           ],
           [
-            "12.162220791",
-            "2.732050834"
+            "16.590621028",
+            "12.835641613"
           ],
           [
-            "14.162220811",
-            "2.732050834"
+            "17.403051966",
+            "16.752267199"
           ],
           [
-            "16.162220830",
-            "2.732050834"
+            "16.052384576",
+            "1.713128335"
           ],
           [
-            "9.162220762",
-            "1.000000010"
+            "16.458600045",
+            "3.671441128"
           ],
           [
-            "11.162220781",
-            "1.000000010"
+            "16.864815514",
+            "5.629753921"
           ],
           [
-            "3.162220703",
-            "1.000000010"
+            "17.271030983",
+            "7.588066714"
           ],
           [
-            "5.162220723",
-            "1.000000010"
+            "17.677246452",
+            "9.546379507"
           ],
           [
-            "7.162220742",
-            "1.000000010"
+            "18.083461921",
+            "11.504692301"
           ],
           [
-            "13.162220801",
-            "1.000000010"
+            "18.489677390",
+            "13.463005094"
           ],
           [
-            "15.162220820",
-            "1.000000010"
+            "18.895892859",
+            "15.421317887"
           ],
           [
-            "17.162220840",
-            "1.000000010"
+            "19.302108328",
+            "17.379630680"
           ]
         ],
         "triangle": [
           [
-            "0.000000000",
-            "0.000000000"
+            "16.718315359",
+            "0.000000001"
           ],
           [
-            "18.894271664",
-            "0.000000000"
+            "20.633057640",
+            "18.872471573"
           ],
           [
-            "7.704689378",
-            "19.380925036"
+            "0.000000001",
+            "12.056230031"
           ]
         ]
       }
@@ -6242,226 +6242,226 @@
         "n": 48
       },
       "objective": "minimize",
-      "scoreStored": "369501048895494708500",
-      "scoreDisplay": "184.75052444774735425",
-      "status": "matched",
+      "scoreStored": "369228497084381575056",
+      "scoreDisplay": "184.614248542190787528",
+      "status": "ahead",
       "settled": false,
       "knownBest": {
-        "display": "369.5010488954947085",
+        "display": "184.75052444774735425",
         "kind": "best",
         "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "Sigmoid with Codex",
+      "method": "ai",
+      "recordedAt": "2026-09-01T16:16:25.526Z",
       "answer": {
         "centers": [
           [
-            "8.249947922",
-            "16.739220815"
+            "8.428774196",
+            "16.733535985"
           ],
           [
-            "9.417271245",
-            "15.019327398"
+            "9.428775813",
+            "15.001486077"
           ],
           [
-            "7.420319152",
-            "14.908953739"
+            "7.431183650",
+            "14.903376170"
           ],
           [
-            "8.514381591",
-            "13.234729326"
+            "8.514945403",
+            "13.222465564"
           ],
           [
-            "10.511333685",
-            "13.124355666"
+            "10.512537566",
+            "13.124355657"
           ],
           [
-            "6.549817723",
-            "12.859910947"
+            "6.552155172",
+            "12.838467504"
           ],
           [
-            "9.443370478",
-            "11.433362427"
+            "9.512537349",
+            "11.392304974"
           ],
           [
-            "11.511333686",
-            "11.392304857"
+            "11.512537566",
+            "11.392304849"
           ],
           [
-            "6.940735450",
-            "10.898487143"
+            "6.922171979",
+            "10.872993626"
           ],
           [
-            "5.257594622",
-            "9.818192295"
+            "5.249018387",
+            "9.777294279"
           ],
           [
-            "8.511333683",
-            "9.660254048"
+            "8.512537566",
+            "9.660254041"
           ],
           [
-            "10.511333685",
-            "9.660254048"
+            "10.512537566",
+            "9.660254041"
           ],
           [
-            "12.511333687",
-            "9.660254048"
+            "12.512537567",
+            "9.660254041"
           ],
           [
-            "7.377038860",
-            "8.013021440"
+            "7.352164609",
+            "8.013301435"
           ],
           [
-            "9.511333684",
-            "7.928203238"
+            "9.512537566",
+            "7.928203233"
           ],
           [
-            "11.511333686",
-            "7.928203238"
+            "11.512537566",
+            "7.928203233"
           ],
           [
-            "13.511333688",
-            "7.928203238"
+            "13.512537567",
+            "7.928203233"
           ],
           [
-            "5.343882680",
-            "7.820054567"
+            "5.288294690",
+            "7.777679973"
           ],
           [
-            "3.845797018",
-            "6.495011414"
+            "3.819791445",
+            "6.419925126"
           ],
           [
-            "6.511333681",
+            "6.512537565",
             "6.196152425"
           ],
           [
-            "8.511333683",
-            "6.196152429"
+            "8.512537566",
+            "6.196152425"
           ],
           [
-            "10.511333685",
-            "6.196152429"
+            "10.512537566",
+            "6.196152425"
           ],
           [
-            "12.511333687",
-            "6.196152429"
+            "12.512537567",
+            "6.196152425"
           ],
           [
-            "14.511333689",
-            "6.196152429"
+            "14.512537567",
+            "6.196152425"
           ],
           [
-            "5.083428795",
-            "4.795763464"
+            "5.501629724",
+            "4.470353634"
           ],
           [
-            "3.063775794",
-            "4.654239073"
+            "3.485308888",
+            "4.448093130"
           ],
           [
-            "13.511333688",
-            "4.464101620"
+            "13.512537567",
+            "4.464101617"
           ],
           [
-            "7.511260651",
-            "4.464059453"
+            "7.512537565",
+            "4.464101617"
           ],
           [
-            "9.511333684",
-            "4.464101620"
+            "9.512537566",
+            "4.464101617"
           ],
           [
-            "11.511333686",
-            "4.464101620"
+            "11.512537566",
+            "4.464101617"
           ],
           [
-            "15.511333690",
-            "4.464101620"
+            "15.512537567",
+            "4.464101617"
           ],
           [
-            "4.505863572",
-            "2.879869962"
+            "4.512537565",
+            "2.732050809"
           ],
           [
-            "6.500830608",
-            "2.738072450"
+            "6.512537565",
+            "2.732050809"
           ],
           [
-            "10.511333685",
-            "2.732050810"
+            "10.512537566",
+            "2.732050809"
           ],
           [
-            "14.511333689",
-            "2.732050810"
+            "14.512537567",
+            "2.732050809"
           ],
           [
-            "2.511333677",
-            "2.732050810"
+            "2.295907402",
+            "2.840198821"
           ],
           [
-            "8.511333683",
-            "2.732050810"
+            "8.512537566",
+            "2.732050809"
           ],
           [
-            "12.511333687",
-            "2.732050810"
+            "12.512537567",
+            "2.732050809"
           ],
           [
-            "16.511333691",
-            "2.732050810"
+            "16.512537568",
+            "2.732050809"
           ],
           [
-            "1.511333676",
+            "1.512537564",
             "1.000000001"
           ],
           [
-            "3.511333678",
+            "3.512537564",
             "1.000000001"
           ],
           [
-            "5.511333680",
+            "5.512537565",
             "1.000000001"
           ],
           [
-            "7.511333682",
+            "7.512537565",
             "1.000000001"
           ],
           [
-            "9.511333684",
+            "9.512537566",
             "1.000000001"
           ],
           [
-            "11.511333686",
+            "11.512537566",
             "1.000000001"
           ],
           [
-            "13.511333688",
+            "13.512537567",
             "1.000000001"
           ],
           [
-            "15.511333690",
+            "15.512537567",
             "1.000000001"
           ],
           [
-            "17.511333692",
+            "17.512537568",
             "1.000000001"
           ]
         ],
         "triangle": [
           [
             "0.000000000",
-            "0.000000000"
+            "0.000000001"
           ],
           [
-            "19.243384501",
-            "0.000000000"
+            "19.244588376",
+            "0.000000001"
           ],
           [
-            "8.157417267",
-            "19.201458500"
+            "8.167491375",
+            "19.186094807"
           ]
         ]
       }
@@ -6473,231 +6473,231 @@
         "n": 49
       },
       "objective": "minimize",
-      "scoreStored": "379310199294226842092",
-      "scoreDisplay": "189.655099647113421046",
-      "status": "matched",
+      "scoreStored": "377172632062539192795",
+      "scoreDisplay": "188.5863160312695963975",
+      "status": "ahead",
       "settled": false,
       "knownBest": {
-        "display": "379.310199294226842092",
+        "display": "189.655099647113421046",
         "kind": "best",
         "exact": "84 + 61√3",
         "source": "Graham–Lubachevsky equilateral-triangle construction, still listed by Friedman's current table as best known among arbitrary triangles; public numerical data was recovered algebraically and quantized to the nine-decimal grid here",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "Sigmoid with Codex",
+      "method": "ai",
+      "recordedAt": "2026-09-01T16:16:09.299Z",
       "answer": {
         "centers": [
           [
-            "3.732050812",
-            "1.000000001"
+            "10.807394289",
+            "17.962048899"
           ],
           [
-            "2.732050811",
-            "2.732050810"
+            "9.859211956",
+            "16.201097376"
           ],
           [
-            "1.732050810",
-            "1.000000001"
+            "11.858331876",
+            "16.260423150"
           ],
           [
-            "16.196152439",
-            "6.196152429"
+            "8.911029623",
+            "14.440145853"
           ],
           [
-            "11.464101627",
-            "10.928203241"
+            "10.910149543",
+            "14.499471627"
           ],
           [
-            "7.464101623",
-            "8.928203239"
+            "12.909269463",
+            "14.558797401"
           ],
           [
-            "19.196152442",
-            "1.000000001"
+            "7.962847290",
+            "12.679194330"
           ],
           [
-            "13.464101629",
-            "10.928203241"
+            "9.961967210",
+            "12.738520104"
           ],
           [
-            "13.196152436",
-            "1.000000001"
+            "11.961087130",
+            "12.797845877"
           ],
           [
-            "8.732050817",
-            "2.732050810"
+            "13.960207051",
+            "12.857171651"
           ],
           [
-            "4.732050813",
-            "2.732050810"
+            "7.014664957",
+            "10.918242807"
           ],
           [
-            "7.732050816",
-            "4.464101620"
+            "9.013784877",
+            "10.977568581"
           ],
           [
-            "5.732050814",
-            "7.928203238"
+            "13.012024718",
+            "11.096220128"
           ],
           [
-            "6.732050815",
-            "2.732050810"
+            "11.012904797",
+            "11.036894354"
           ],
           [
-            "9.464101625",
-            "5.464101621"
+            "15.011144638",
+            "11.155545902"
           ],
           [
-            "14.196152437",
-            "6.196152429"
+            "6.066482624",
+            "9.157291284"
           ],
           [
-            "10.464101626",
-            "12.660254051"
+            "8.065602544",
+            "9.216617057"
           ],
           [
-            "13.196152436",
-            "4.464101620"
+            "10.064722464",
+            "9.275942831"
           ],
           [
-            "8.464101624",
-            "12.660254051"
+            "12.063842385",
+            "9.335268605"
           ],
           [
-            "12.464101628",
-            "7.196152430"
+            "14.062962305",
+            "9.394594379"
           ],
           [
-            "7.464101623",
-            "10.928203241"
+            "16.062082225",
+            "9.453920153"
           ],
           [
-            "6.732050815",
-            "6.196152429"
+            "7.117420211",
+            "7.455665534"
           ],
           [
-            "11.464101627",
-            "8.928203239"
+            "9.116540131",
+            "7.514991308"
           ],
           [
-            "12.464101628",
-            "12.660254051"
+            "5.118300291",
+            "7.396339761"
           ],
           [
-            "11.464101627",
-            "5.464101621"
+            "11.115660052",
+            "7.574317082"
           ],
           [
-            "14.196152437",
-            "2.732050810"
+            "13.114779972",
+            "7.633642856"
           ],
           [
-            "5.732050814",
-            "1.000000001"
+            "15.113899892",
+            "7.692968629"
           ],
           [
-            "13.464101629",
-            "8.928203239"
+            "17.113019813",
+            "7.752294403"
           ],
           [
-            "18.196152441",
-            "2.732050810"
+            "4.170117958",
+            "5.635388237"
           ],
           [
-            "10.464101626",
-            "16.124355669"
+            "6.169237878",
+            "5.694714011"
           ],
           [
-            "16.196152439",
-            "2.732050810"
+            "8.171990258",
+            "5.678294826"
           ],
           [
-            "9.464101625",
-            "14.392304860"
+            "10.167477719",
+            "5.813365559"
           ],
           [
-            "12.196152435",
-            "2.732050810"
+            "12.164523097",
+            "5.704691960"
           ],
           [
-            "9.464101625",
-            "10.928203241"
+            "14.165717559",
+            "5.932017106"
           ],
           [
-            "17.196152440",
-            "4.464101620"
+            "16.164837480",
+            "5.991342880"
           ],
           [
-            "15.196152438",
-            "4.464101620"
+            "18.163957400",
+            "6.050668654"
           ],
           [
-            "3.732050812",
-            "4.464101620"
+            "2.964989261",
+            "3.397239370"
           ],
           [
-            "10.464101626",
-            "3.732050811"
+            "4.927194252",
+            "3.784216855"
           ],
           [
-            "15.196152438",
-            "1.000000001"
+            "6.926314173",
+            "3.843542629"
           ],
           [
-            "10.464101626",
-            "7.196152430"
+            "9.833586556",
+            "3.841433335"
           ],
           [
-            "15.196152438",
-            "7.928203238"
+            "11.665604011",
+            "3.039116658"
           ],
           [
-            "7.732050816",
-            "1.000000001"
+            "8.378953743",
+            "2.468828738"
           ],
           [
-            "8.464101624",
-            "7.196152430"
+            "13.360154514",
+            "4.101424802"
           ],
           [
-            "17.196152440",
-            "1.000000001"
+            "19.214894987",
+            "4.349042905"
           ],
           [
-            "11.464101627",
-            "14.392304860"
+            "1.903467965",
+            "1.345341300"
           ],
           [
-            "4.732050813",
-            "6.196152429"
+            "4.051161882",
+            "1.717885614"
           ],
           [
-            "9.464101625",
-            "8.928203239"
+            "6.021717168",
+            "2.059809391"
           ],
           [
-            "5.732050814",
-            "4.464101620"
+            "15.313529319",
+            "3.672091744"
           ],
           [
-            "10.464101626",
-            "1.267949194"
+            "17.215775067",
+            "4.289717131"
           ]
         ],
         "triangle": [
           [
-            "0.000000000",
+            "0.000000001",
             "0.000000000"
           ],
           [
-            "20.928203252",
-            "0.000000000"
+            "20.842640446",
+            "3.616541190"
           ],
           [
-            "10.464101626",
-            "18.124355671"
+            "10.748068515",
+            "19.961168819"
           ]
         ]
       }
@@ -6709,234 +6709,234 @@
         "n": 50
       },
       "objective": "minimize",
-      "scoreStored": "388997925927858505472",
-      "scoreDisplay": "194.498962963929252736",
-      "status": "matched",
+      "scoreStored": "386636203201149156497",
+      "scoreDisplay": "193.3181016005745782485",
+      "status": "ahead",
       "settled": false,
       "knownBest": {
-        "display": "388.997925927858505472",
+        "display": "194.498962963929252736",
         "kind": "best",
         "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T08:51:56.548Z",
+      "holder": "Sigmoid with Codex",
+      "method": "ai",
+      "recordedAt": "2026-09-01T16:15:53.619Z",
       "answer": {
         "centers": [
           [
-            "10.767331992",
-            "16.607428260"
+            "1.489932160",
+            "19.445345193"
           ],
           [
-            "9.732050817",
-            "14.856406475"
+            "2.113148913",
+            "17.544923955"
           ],
           [
-            "11.732049601",
-            "14.854198609"
+            "3.447353607",
+            "19.034856114"
           ],
           [
-            "8.732050816",
-            "13.124355666"
+            "2.736365666",
+            "15.644502717"
           ],
           [
-            "10.785596341",
-            "13.092317162"
+            "4.070570359",
+            "17.134434876"
           ],
           [
-            "12.775925251",
-            "12.895871650"
+            "5.404775053",
+            "18.624367035"
           ],
           [
-            "7.732050815",
-            "11.392304857"
+            "3.359582419",
+            "13.744081479"
           ],
           [
-            "9.732050817",
-            "11.392304857"
+            "4.693787112",
+            "15.234013638"
           ],
           [
-            "11.716757486",
-            "11.145445691"
+            "6.027991806",
+            "16.723945797"
           ],
           [
-            "13.716704987",
-            "11.130954231"
+            "7.362196500",
+            "18.213877956"
           ],
           [
-            "6.732050814",
-            "9.660254048"
+            "3.982799172",
+            "11.843660241"
           ],
           [
-            "8.732050816",
-            "9.660254048"
+            "5.317003865",
+            "13.333592400"
           ],
           [
-            "12.704181264",
-            "9.406194619"
+            "7.985413253",
+            "16.313456718"
           ],
           [
-            "10.705444786",
-            "9.335113694"
+            "6.651208559",
+            "14.823524559"
           ],
           [
-            "14.700523739",
-            "9.285294946"
+            "9.319617946",
+            "17.803388877"
           ],
           [
-            "5.732050813",
-            "7.928203238"
+            "4.606015925",
+            "9.943239003"
           ],
           [
-            "7.732050815",
-            "7.928203238"
+            "5.940220618",
+            "11.433171162"
           ],
           [
-            "10.354067073",
-            "7.366222201"
+            "7.274425312",
+            "12.923103321"
           ],
           [
-            "12.357153993",
-            "7.435050104"
+            "8.608630005",
+            "14.413035480"
           ],
           [
-            "14.387520009",
-            "7.309939618"
+            "10.555309870",
+            "16.230790559"
           ],
           [
-            "16.201947731",
-            "6.468600181"
+            "12.318685431",
+            "17.174457151"
           ],
           [
-            "6.732050814",
-            "6.196152429"
+            "6.563437371",
+            "9.532749924"
           ],
           [
-            "8.732050816",
-            "6.196152429"
+            "7.897642065",
+            "11.022682083"
           ],
           [
-            "4.732050812",
-            "6.196152429"
+            "5.229232678",
+            "8.042817765"
           ],
           [
-            "11.354067074",
-            "5.634171392"
+            "9.231846758",
+            "12.512614242"
           ],
           [
-            "13.353737016",
-            "5.597837772"
+            "10.600355754",
+            "14.231297905"
           ],
           [
-            "15.142727464",
-            "4.703682762"
+            "12.921743207",
+            "15.267543067"
           ],
           [
-            "17.142727466",
-            "4.703682762"
+            "14.276106877",
+            "16.763968072"
           ],
           [
-            "3.732050811",
-            "4.464101620"
+            "5.852449431",
+            "6.142396527"
           ],
           [
-            "5.732050813",
-            "4.464101620"
+            "7.212091711",
+            "7.609935261"
           ],
           [
-            "7.732050815",
-            "4.464101620"
+            "8.520858818",
+            "9.122260845"
           ],
           [
-            "9.732050817",
-            "4.464101620"
+            "10.532940421",
+            "10.993681958"
           ],
           [
-            "12.395594889",
-            "3.842285531"
+            "11.833886621",
+            "12.657003904"
           ],
           [
-            "14.184585337",
-            "2.948130520"
+            "13.751279216",
+            "13.225867371"
           ],
           [
-            "16.184585339",
-            "2.948130520"
+            "14.899323630",
+            "14.863546834"
           ],
           [
-            "18.176175901",
-            "2.764917420"
+            "16.233528324",
+            "16.353478993"
           ],
           [
-            "2.732050810",
-            "2.732050810"
+            "6.538701747",
+            "4.049756253"
           ],
           [
-            "4.732050812",
-            "2.732050810"
+            "7.782022894",
+            "5.616329752"
           ],
           [
-            "6.732050814",
-            "2.732050810"
+            "9.181578917",
+            "7.234550869"
           ],
           [
-            "8.732050816",
-            "2.732050810"
+            "10.516725640",
+            "8.993747688"
           ],
           [
-            "10.732050818",
-            "2.732050810"
+            "12.521371561",
+            "10.778875990"
           ],
           [
-            "7.732050815",
-            "1.000000001"
+            "11.177445739",
+            "7.106037712"
           ],
           [
-            "9.732050817",
-            "1.000000001"
+            "12.505156780",
+            "8.778941720"
           ],
           [
-            "11.732050819",
-            "1.000000001"
+            "14.465379515",
+            "11.248804793"
           ],
           [
-            "19.116955637",
-            "1.000000001"
+            "18.190949770",
+            "15.942989914"
           ],
           [
-            "1.732050809",
-            "1.000000001"
+            "7.253002491",
+            "2.181662451"
           ],
           [
-            "3.732050811",
-            "1.000000001"
+            "8.516627755",
+            "3.753430906"
           ],
           [
-            "5.732050813",
-            "1.000000001"
+            "9.759948902",
+            "5.320004405"
           ],
           [
-            "13.732050821",
-            "1.000000001"
+            "15.708700662",
+            "12.815378292"
           ],
           [
-            "15.732050823",
-            "1.000000001"
+            "16.856745077",
+            "14.453057755"
           ]
         ],
         "triangle": [
           [
-            "0.000000000",
-            "0.000000000"
+            "6.814364810",
+            "0.000000001"
           ],
           [
-            "20.783197756",
-            "0.000000000"
+            "19.980666715",
+            "16.589422364"
           ],
           [
-            "10.806232029",
-            "18.716942912"
+            "0.000000001",
+            "20.779549887"
           ]
         ]
       }
