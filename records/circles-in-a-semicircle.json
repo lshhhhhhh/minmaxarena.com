@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/circles-in-a-semicircle",
-  "generatedAt": "2026-09-02T09:43:39.381Z",
+  "generatedAt": "2026-09-03T09:56:23.189Z",
   "instances": [
     {
       "instanceId": "p09-n3-v2",
@@ -145,9 +145,9 @@
         "n": 6
       },
       "objective": "maximize",
-      "scoreStored": "240253072",
-      "scoreDisplay": "0.240253072",
-      "status": "open",
+      "scoreStored": "240253073",
+      "scoreDisplay": "0.240253073",
+      "status": "matched",
       "settled": false,
       "knownBest": {
         "display": "0.240253073",
@@ -157,9 +157,9 @@
         "source": "value from Eckard Specht's table of best known packings, which does not mark this one as proved; the table's figure is 0.240253073, the exact optimum is not writable on the nine-decimal grid, and shown here is the exact value the configuration's grid certificate reaches",
         "url": "https://web.archive.org/web/20260213011826/http://hydra.nat.uni-magdeburg.de/packing/csc/csc.html"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-01T22:58:34.068Z",
+      "holder": "Sigmoid with Codex",
+      "method": "ai",
+      "recordedAt": "2026-09-02T20:27:49.426Z",
       "answer": {
         "centers": [
           [
@@ -172,22 +172,22 @@
           ],
           [
             "1.240253074",
-            "0.240253074"
+            "0.240253073"
           ],
           [
-            "1.720759219",
+            "1.720759220",
             "0.240253074"
           ],
           [
             "0.759746928",
-            "0.240253074"
+            "0.240253073"
           ],
           [
             "1.240253073",
             "0.720759219"
           ]
         ],
-        "radius": "0.240253072"
+        "radius": "0.240253073"
       }
     },
     {
@@ -371,9 +371,9 @@
         "n": 10
       },
       "objective": "maximize",
-      "scoreStored": "188262724",
-      "scoreDisplay": "0.188262724",
-      "status": "open",
+      "scoreStored": "188262725",
+      "scoreDisplay": "0.188262725",
+      "status": "matched",
       "settled": false,
       "knownBest": {
         "display": "0.188262725",
@@ -383,21 +383,21 @@
         "source": "value from Eckard Specht's table of best known packings, which does not mark this one as proved; the table's figure is 0.188262725, the exact optimum is not writable on the nine-decimal grid, and shown here is the exact value the configuration's grid certificate reaches",
         "url": "https://web.archive.org/web/20260213011826/http://hydra.nat.uni-magdeburg.de/packing/csc/csc.html"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-08-22T00:33:31.507Z",
+      "holder": "Sigmoid with Codex",
+      "method": "ai",
+      "recordedAt": "2026-09-02T20:27:33.200Z",
       "answer": {
         "centers": [
           [
             "0.756811109",
-            "0.524281926"
+            "0.524281925"
           ],
           [
-            "1",
-            "0.811737274"
+            "1.000000000",
+            "0.811737275"
           ],
           [
-            "0.210395955",
+            "0.210395954",
             "0.188262726"
           ],
           [
@@ -406,22 +406,22 @@
           ],
           [
             "1.243188891",
-            "0.524281926"
+            "0.524281925"
           ],
           [
-            "0.586921405",
+            "0.586921404",
+            "0.188262725"
+          ],
+          [
+            "1.789604046",
             "0.188262726"
           ],
           [
-            "1.789604045",
-            "0.188262726"
+            "1.413078596",
+            "0.188262725"
           ],
           [
-            "1.413078595",
-            "0.188262726"
-          ],
-          [
-            "1.0221999",
+            "1.022199900",
             "0.188262918"
           ],
           [
@@ -429,7 +429,7 @@
             "0.524281926"
           ]
         ],
-        "radius": "0.188262724"
+        "radius": "0.188262725"
       }
     },
     {
@@ -663,9 +663,9 @@
         "n": 14
       },
       "objective": "maximize",
-      "scoreStored": "163481072",
-      "scoreDisplay": "0.163481072",
-      "status": "open",
+      "scoreStored": "163481073",
+      "scoreDisplay": "0.163481073",
+      "status": "matched",
       "settled": false,
       "knownBest": {
         "display": "0.163481073",
@@ -675,9 +675,9 @@
         "source": "value from Eckard Specht's table of best known packings, which does not mark this one as proved; the table's figure is 0.163481073, the exact optimum is not writable on the nine-decimal grid, and shown here is the exact value the configuration's grid certificate reaches",
         "url": "https://web.archive.org/web/20260213011826/http://hydra.nat.uni-magdeburg.de/packing/csc/csc.html"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-08-22T00:33:31.507Z",
+      "holder": "Sigmoid with Codex",
+      "method": "ai",
+      "recordedAt": "2026-09-02T20:27:17.511Z",
       "answer": {
         "centers": [
           [
@@ -689,11 +689,11 @@
             "0.163481073"
           ],
           [
-            "0.83353545",
+            "0.833535449",
             "0.163481073"
           ],
           [
-            "1.160497596",
+            "1.160497595",
             "0.163481073"
           ],
           [
@@ -706,14 +706,14 @@
           ],
           [
             "1.326962146",
-            "0.444895001"
+            "0.444895000"
           ],
           [
-            "0.670054377",
+            "0.670054376",
             "0.446638598"
           ],
           [
-            "1.68235404",
+            "1.682354040",
             "0.475998865"
           ],
           [
@@ -725,19 +725,19 @@
             "0.501780534"
           ],
           [
-            "1.322561884",
+            "1.322561885",
             "0.771827536"
           ],
           [
-            "0.681248764",
+            "0.681248765",
             "0.773409054"
           ],
           [
-            "1.002062901",
+            "1.002062902",
             "0.836516383"
           ]
         ],
-        "radius": "0.163481072"
+        "radius": "0.163481073"
       }
     },
     {
@@ -835,9 +835,9 @@
         "n": 16
       },
       "objective": "maximize",
-      "scoreStored": "151911223",
-      "scoreDisplay": "0.151911223",
-      "status": "open",
+      "scoreStored": "151911224",
+      "scoreDisplay": "0.151911224",
+      "status": "matched",
       "settled": false,
       "knownBest": {
         "display": "0.151911224",
@@ -847,13 +847,13 @@
         "source": "value from Eckard Specht's table of best known packings, which does not mark this one as proved; the table's figure is 0.151911224, the exact optimum is not writable on the nine-decimal grid, and shown here is the exact value the configuration's grid certificate reaches",
         "url": "https://web.archive.org/web/20260213011826/http://hydra.nat.uni-magdeburg.de/packing/csc/csc.html"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-08-22T00:33:31.507Z",
+      "holder": "Sigmoid with Codex",
+      "method": "ai",
+      "recordedAt": "2026-09-02T20:27:01.308Z",
       "answer": {
         "centers": [
           [
-            "0.16562745",
+            "0.165627451",
             "0.151911224"
           ],
           [
@@ -865,7 +865,7 @@
             "0.151911224"
           ],
           [
-            "1.83437255",
+            "1.834372549",
             "0.151911224"
           ],
           [
@@ -877,7 +877,7 @@
             "0.201338551"
           ],
           [
-            "1",
+            "1.000000000",
             "0.344697121"
           ],
           [
@@ -893,20 +893,20 @@
             "0.455780888"
           ],
           [
-            "1.29225723",
+            "1.292257230",
             "0.456861722"
           ],
           [
-            "1",
+            "1.000000000",
             "0.648519569"
           ],
           [
             "0.473131143",
-            "0.664577896"
+            "0.664577895"
           ],
           [
             "1.526868857",
-            "0.664577896"
+            "0.664577895"
           ],
           [
             "0.741170262",
@@ -917,7 +917,7 @@
             "0.807627227"
           ]
         ],
-        "radius": "0.151911223"
+        "radius": "0.151911224"
       }
     }
   ]

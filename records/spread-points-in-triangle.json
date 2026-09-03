@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/spread-points-in-triangle",
-  "generatedAt": "2026-09-02T09:43:39.765Z",
+  "generatedAt": "2026-09-03T09:56:23.647Z",
   "instances": [
     {
       "instanceId": "p16-n4-v2",
@@ -21,29 +21,43 @@
       "objective": "maximize",
       "scoreStored": "500000000000000000",
       "scoreDisplay": "0.707106781",
-      "status": "open",
+      "status": "matched",
       "settled": false,
-      "knownBest": null,
-      "holder": "jiaya",
+      "knownBest": {
+        "display": "0.707106781",
+        "kind": "best",
+        "range": {
+          "lower": "0.707106778",
+          "upper": "0.707106782"
+        },
+        "exact": "√2/2",
+        "precision": "rounded",
+        "certificateDisplay": "0.707106781",
+        "publishedDisplay": "0.70710678118654752440084436211",
+        "publishedMetric": "the distance column of Packomania's table",
+        "source": "Spreading n points here is packing n equal circles in the triangle (the points are the centres, d = 2r/(1 − (2+√2)r)); Packomania's crt table (Eckard Specht) keeps the best known packings, this row credited to Yinfeng Xu (1996). The table does not mark it proved. The equivalence was pointed out by Tmrg, a user of this site, in a discussion",
+        "url": "https://www.packomania.com/crt/crt.html"
+      },
+      "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-25T05:39:39.673Z",
+      "recordedAt": "2026-08-22T00:33:31.507Z",
       "answer": {
         "points": [
           [
-            "0.000000000",
-            "0.000000000"
+            "0",
+            "0"
           ],
           [
-            "0.500000000",
-            "0.500000000"
+            "1",
+            "0"
           ],
           [
-            "0.000000000",
-            "1.000000000"
+            "0.5",
+            "0.5"
           ],
           [
-            "1.000000000",
-            "0.000000000"
+            "0",
+            "1"
           ]
         ]
       }
@@ -57,9 +71,22 @@
       "objective": "maximize",
       "scoreStored": "287187078539061089",
       "scoreDisplay": "0.535898384",
-      "status": "open",
+      "status": "matched",
       "settled": false,
-      "knownBest": null,
+      "knownBest": {
+        "display": "0.535898384",
+        "kind": "best",
+        "range": {
+          "lower": "0.535898381",
+          "upper": "0.535898385"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "0.535898384",
+        "publishedDisplay": "0.535898384862245412945107316989",
+        "publishedMetric": "the distance column of Packomania's table",
+        "source": "Spreading n points here is packing n equal circles in the triangle (the points are the centres, d = 2r/(1 − (2+√2)r)); Packomania's crt table (Eckard Specht) keeps the best known packings, this row credited to Yinfeng Xu (1996). The table does not mark it proved. The equivalence was pointed out by Tmrg, a user of this site, in a discussion",
+        "url": "https://www.packomania.com/crt/crt.html"
+      },
       "holder": "Tmrg",
       "method": "ai",
       "recordedAt": "2026-08-28T16:00:54.900Z",
@@ -97,37 +124,51 @@
       "objective": "maximize",
       "scoreStored": "250000000000000000",
       "scoreDisplay": "0.5",
-      "status": "open",
+      "status": "matched",
       "settled": false,
-      "knownBest": null,
-      "holder": "jiaya",
+      "knownBest": {
+        "display": "0.5",
+        "kind": "best",
+        "range": {
+          "lower": "0.499999997",
+          "upper": "0.500000001"
+        },
+        "exact": "1/2",
+        "precision": "rounded",
+        "certificateDisplay": "0.5",
+        "publishedDisplay": "0.5",
+        "publishedMetric": "the distance column of Packomania's table",
+        "source": "Spreading n points here is packing n equal circles in the triangle (the points are the centres, d = 2r/(1 − (2+√2)r)); Packomania's crt table (Eckard Specht) keeps the best known packings, this row credited to Yinfeng Xu (1996). The table does not mark it proved. The equivalence was pointed out by Tmrg, a user of this site, in a discussion",
+        "url": "https://www.packomania.com/crt/crt.html"
+      },
+      "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-25T05:47:51.599Z",
+      "recordedAt": "2026-08-22T00:33:31.507Z",
       "answer": {
         "points": [
           [
-            "0.000000000",
-            "0.000000000"
+            "0",
+            "0"
           ],
           [
-            "0.500000000",
-            "0.000000000"
+            "0.5",
+            "0"
           ],
           [
-            "0.000000000",
-            "0.500000000"
+            "1",
+            "0"
           ],
           [
-            "1.000000000",
-            "0.000000000"
+            "0",
+            "0.5"
           ],
           [
-            "0.000000000",
-            "1.000000000"
+            "0.5",
+            "0.5"
           ],
           [
-            "0.500000000",
-            "0.500000000"
+            "0",
+            "1"
           ]
         ]
       }
@@ -141,9 +182,22 @@
       "objective": "maximize",
       "scoreStored": "176015566120652281",
       "scoreDisplay": "0.419542091",
-      "status": "open",
+      "status": "matched",
       "settled": false,
-      "knownBest": null,
+      "knownBest": {
+        "display": "0.419542091",
+        "kind": "best",
+        "range": {
+          "lower": "0.419542088",
+          "upper": "0.419542092"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "0.41954209",
+        "publishedDisplay": "0.419542091095305994112653020003",
+        "publishedMetric": "the distance column of Packomania's table",
+        "source": "Spreading n points here is packing n equal circles in the triangle (the points are the centres, d = 2r/(1 − (2+√2)r)); Packomania's crt table (Eckard Specht) keeps the best known packings, this row credited to Yinfeng Xu (1996). The table does not mark it proved. The equivalence was pointed out by Tmrg, a user of this site, in a discussion",
+        "url": "https://www.packomania.com/crt/crt.html"
+      },
       "holder": "Tmrg",
       "method": "ai",
       "recordedAt": "2026-08-28T16:01:47.712Z",
@@ -189,9 +243,22 @@
       "objective": "maximize",
       "scoreStored": "143593539001581353",
       "scoreDisplay": "0.378937381",
-      "status": "open",
+      "status": "matched",
       "settled": false,
-      "knownBest": null,
+      "knownBest": {
+        "display": "0.378937381",
+        "kind": "best",
+        "range": {
+          "lower": "0.378937378",
+          "upper": "0.378937382"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "0.378937381",
+        "publishedDisplay": "0.378937381963011999406093373712",
+        "publishedMetric": "the distance column of Packomania's table",
+        "source": "Spreading n points here is packing n equal circles in the triangle (the points are the centres, d = 2r/(1 − (2+√2)r)); Packomania's crt table (Eckard Specht) keeps the best known packings, this row credited to Hans Melissen (1997). The table does not mark it proved. The equivalence was pointed out by Tmrg, a user of this site, in a discussion",
+        "url": "https://www.packomania.com/crt/crt.html"
+      },
       "holder": "HwaterB",
       "method": "human",
       "recordedAt": "2026-08-31T02:22:24.002Z",
@@ -241,49 +308,63 @@
       "objective": "maximize",
       "scoreStored": "125000000000000000",
       "scoreDisplay": "0.35355339",
-      "status": "open",
+      "status": "matched",
       "settled": false,
-      "knownBest": null,
-      "holder": "NUE_13",
+      "knownBest": {
+        "display": "0.35355339",
+        "kind": "best",
+        "range": {
+          "lower": "0.353553387",
+          "upper": "0.353553391"
+        },
+        "exact": "√2/4",
+        "precision": "rounded",
+        "certificateDisplay": "0.35355339",
+        "publishedDisplay": "0.353553390593273762200422181054",
+        "publishedMetric": "the distance column of Packomania's table",
+        "source": "Spreading n points here is packing n equal circles in the triangle (the points are the centres, d = 2r/(1 − (2+√2)r)); Packomania's crt table (Eckard Specht) keeps the best known packings, this row credited to Packomania (Eckard Specht) (2011). The table does not mark it proved. The equivalence was pointed out by Tmrg, a user of this site, in a discussion",
+        "url": "https://www.packomania.com/crt/crt.html"
+      },
+      "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-26T13:17:53.043Z",
+      "recordedAt": "2026-08-22T00:33:31.507Z",
       "answer": {
         "points": [
           [
-            "0.000000000",
-            "0.000000000"
+            "0",
+            "0"
           ],
           [
-            "0.000000000",
-            "0.500000000"
+            "0.5",
+            "0"
           ],
           [
-            "0.500000000",
-            "0.000000000"
+            "1",
+            "0"
           ],
           [
-            "0.750000000",
-            "0.250000000"
+            "0.25",
+            "0.25"
           ],
           [
-            "1.000000000",
-            "0.000000000"
+            "0.75",
+            "0.25"
           ],
           [
-            "0.000000000",
-            "1.000000000"
+            "0",
+            "0.5"
           ],
           [
-            "0.500000000",
-            "0.500000000"
+            "0.5",
+            "0.5"
           ],
           [
-            "0.250000000",
-            "0.750000000"
+            "0.25",
+            "0.75"
           ],
           [
-            "0.250000000",
-            "0.250000000"
+            "0",
+            "1"
           ]
         ]
       }
@@ -295,55 +376,69 @@
         "n": 10
       },
       "objective": "maximize",
-      "scoreStored": "111111110888888889",
+      "scoreStored": "111111110888888890",
       "scoreDisplay": "0.333333333",
-      "status": "open",
+      "status": "matched",
       "settled": false,
-      "knownBest": null,
-      "holder": "Tmrg",
+      "knownBest": {
+        "display": "0.333333333",
+        "kind": "best",
+        "range": {
+          "lower": "0.33333333",
+          "upper": "0.333333334"
+        },
+        "exact": "1/3",
+        "precision": "rounded",
+        "certificateDisplay": "0.333333333",
+        "publishedDisplay": "0.333333333333333333333333333334",
+        "publishedMetric": "the distance column of Packomania's table",
+        "source": "Spreading n points here is packing n equal circles in the triangle (the points are the centres, d = 2r/(1 − (2+√2)r)); Packomania's crt table (Eckard Specht) keeps the best known packings, this row credited to Packomania (Eckard Specht) (2011). The table does not mark it proved. The equivalence was pointed out by Tmrg, a user of this site, in a discussion",
+        "url": "https://www.packomania.com/crt/crt.html"
+      },
+      "holder": "Sigmoid with Codex",
       "method": "ai",
-      "recordedAt": "2026-08-28T16:02:51.890Z",
+      "recordedAt": "2026-09-02T19:50:01.752Z",
       "answer": {
         "points": [
           [
-            "0",
-            "0"
+            "0.000000000",
+            "0.000000000"
           ],
           [
-            "0.333333333",
-            "0"
-          ],
-          [
-            "0.666666667",
-            "0"
-          ],
-          [
-            "1",
-            "0"
-          ],
-          [
-            "0",
-            "0.333333333"
-          ],
-          [
-            "0.333333333",
-            "0.333333333"
+            "0.333333334",
+            "0.000000000"
           ],
           [
             "0.666666667",
-            "0.333333333"
+            "0.000000001"
           ],
           [
-            "0",
-            "0.666666667"
+            "1.000000000",
+            "0.000000000"
+          ],
+          [
+            "0.000000000",
+            "0.333333334"
           ],
           [
             "0.333333333",
+            "0.333333333"
+          ],
+          [
+            "0.666666666",
+            "0.333333334"
+          ],
+          [
+            "0.000000001",
             "0.666666667"
           ],
           [
-            "0",
-            "1"
+            "0.333333334",
+            "0.666666666"
+          ],
+          [
+            "0.000000000",
+            "1.000000000"
           ]
         ]
       }
@@ -357,9 +452,22 @@
       "objective": "maximize",
       "scoreStored": "90589944329401106",
       "scoreDisplay": "0.300981634",
-      "status": "open",
+      "status": "matched",
       "settled": false,
-      "knownBest": null,
+      "knownBest": {
+        "display": "0.300981634",
+        "kind": "best",
+        "range": {
+          "lower": "0.300981631",
+          "upper": "0.300981635"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "0.300981633",
+        "publishedDisplay": "0.300981634791721603578444448152",
+        "publishedMetric": "the distance column of Packomania's table",
+        "source": "Spreading n points here is packing n equal circles in the triangle (the points are the centres, d = 2r/(1 − (2+√2)r)); Packomania's crt table (Eckard Specht) keeps the best known packings, this row credited to David W. Cantrell (2005). The table does not mark it proved. The equivalence was pointed out by Tmrg, a user of this site, in a discussion",
+        "url": "https://www.packomania.com/crt/crt.html"
+      },
       "holder": "Tmrg",
       "method": "ai",
       "recordedAt": "2026-08-28T16:03:11.907Z",
@@ -421,9 +529,22 @@
       "objective": "maximize",
       "scoreStored": "81432400618916498",
       "scoreDisplay": "0.285363628",
-      "status": "open",
+      "status": "matched",
       "settled": false,
-      "knownBest": null,
+      "knownBest": {
+        "display": "0.285363629",
+        "kind": "best",
+        "range": {
+          "lower": "0.285363626",
+          "upper": "0.28536363"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "0.285363628",
+        "publishedDisplay": "0.285363629059558474163583441908",
+        "publishedMetric": "the distance column of Packomania's table",
+        "source": "Spreading n points here is packing n equal circles in the triangle (the points are the centres, d = 2r/(1 − (2+√2)r)); Packomania's crt table (Eckard Specht) keeps the best known packings, this row credited to David W. Cantrell (2005). The table does not mark it proved. The equivalence was pointed out by Tmrg, a user of this site, in a discussion",
+        "url": "https://www.packomania.com/crt/crt.html"
+      },
       "holder": "Tmrg",
       "method": "ai",
       "recordedAt": "2026-08-28T16:03:31.320Z",
@@ -487,67 +608,80 @@
         "n": 13
       },
       "objective": "maximize",
-      "scoreStored": "73353923668368709",
-      "scoreDisplay": "0.270839294",
-      "status": "open",
+      "scoreStored": "73353923716097125",
+      "scoreDisplay": "0.270839295",
+      "status": "matched",
       "settled": false,
-      "knownBest": null,
-      "holder": "Tmrg",
+      "knownBest": {
+        "display": "0.270839295",
+        "kind": "best",
+        "range": {
+          "lower": "0.270839292",
+          "upper": "0.270839296"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "0.270839294",
+        "publishedDisplay": "0.270839295354589762980617008945",
+        "publishedMetric": "the distance column of Packomania's table",
+        "source": "Spreading n points here is packing n equal circles in the triangle (the points are the centres, d = 2r/(1 − (2+√2)r)); Packomania's crt table (Eckard Specht) keeps the best known packings, this row credited to Carlos O. López (2011). The table does not mark it proved. The equivalence was pointed out by Tmrg, a user of this site, in a discussion",
+        "url": "https://www.packomania.com/crt/crt.html"
+      },
+      "holder": "Sigmoid with Codex",
       "method": "ai",
-      "recordedAt": "2026-08-28T17:44:58.687Z",
+      "recordedAt": "2026-09-02T19:43:21.859Z",
       "answer": {
         "points": [
           [
-            "0.260053284",
-            "0"
+            "0.260053285",
+            "0.000000000"
+          ],
+          [
+            "0.729160695",
+            "0.000000000"
+          ],
+          [
+            "1.000000000",
+            "0.000000000"
+          ],
+          [
+            "0.000000000",
+            "0.075671743"
+          ],
+          [
+            "0.494606990",
+            "0.135419656"
+          ],
+          [
+            "0.260053295",
+            "0.270839330"
           ],
           [
             "0.729160705",
-            "0"
-          ],
-          [
-            "1",
-            "0"
-          ],
-          [
-            "0",
-            "0.075671747"
-          ],
-          [
-            "0.494606995",
-            "0.135419648"
-          ],
-          [
-            "0.260053284",
             "0.270839295"
           ],
           [
-            "0.729160705",
-            "0.270839295"
-          ],
-          [
-            "0",
-            "0.346511042"
+            "0.000000000",
+            "0.346511039"
           ],
           [
             "0.537648402",
-            "0.462351598"
+            "0.462351597"
           ],
           [
-            "0.278495002",
-            "0.541050004"
+            "0.278495005",
+            "0.541050039"
           ],
           [
-            "0",
-            "0.617350337"
+            "0.000000000",
+            "0.617350335"
           ],
           [
-            "0.199796596",
-            "0.800203404"
+            "0.199796570",
+            "0.800203430"
           ],
           [
-            "0",
-            "1"
+            "0.000000000",
+            "1.000000000"
           ]
         ]
       }
@@ -561,9 +695,23 @@
       "objective": "maximize",
       "scoreStored": "66987298093340804",
       "scoreDisplay": "0.258819045",
-      "status": "open",
+      "status": "matched",
       "settled": false,
-      "knownBest": null,
+      "knownBest": {
+        "display": "0.258819045",
+        "kind": "best",
+        "range": {
+          "lower": "0.258819042",
+          "upper": "0.258819046"
+        },
+        "exact": "(√6 − √2)/4",
+        "precision": "rounded",
+        "certificateDisplay": "0.258819043",
+        "publishedDisplay": "0.258819045102520762348898837623",
+        "publishedMetric": "the distance column of Packomania's table",
+        "source": "Spreading n points here is packing n equal circles in the triangle (the points are the centres, d = 2r/(1 − (2+√2)r)); Packomania's crt table (Eckard Specht) keeps the best known packings, this row credited to Erich Friedman (2005). The table does not mark it proved. The equivalence was pointed out by Tmrg, a user of this site, in a discussion",
+        "url": "https://www.packomania.com/crt/crt.html"
+      },
       "holder": "Tmrg",
       "method": "ai",
       "recordedAt": "2026-08-28T16:04:13.264Z",
@@ -637,73 +785,87 @@
       "objective": "maximize",
       "scoreStored": "62500000000000000",
       "scoreDisplay": "0.25",
-      "status": "open",
+      "status": "matched",
       "settled": false,
-      "knownBest": null,
-      "holder": "HwaterB",
+      "knownBest": {
+        "display": "0.25",
+        "kind": "best",
+        "range": {
+          "lower": "0.249999997",
+          "upper": "0.250000001"
+        },
+        "exact": "1/4",
+        "precision": "rounded",
+        "certificateDisplay": "0.25",
+        "publishedDisplay": "0.25",
+        "publishedMetric": "the distance column of Packomania's table",
+        "source": "Spreading n points here is packing n equal circles in the triangle (the points are the centres, d = 2r/(1 − (2+√2)r)); Packomania's crt table (Eckard Specht) keeps the best known packings, this row credited to Packomania (Eckard Specht) (2011). The table does not mark it proved. The equivalence was pointed out by Tmrg, a user of this site, in a discussion",
+        "url": "https://www.packomania.com/crt/crt.html"
+      },
+      "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-28T14:57:28.481Z",
+      "recordedAt": "2026-08-22T00:33:31.507Z",
       "answer": {
         "points": [
           [
-            "0.000000000",
-            "0.000000000"
+            "0",
+            "0"
           ],
           [
-            "0.250000000",
-            "0.000000000"
+            "0.25",
+            "0"
           ],
           [
-            "0.500000000",
-            "0.000000000"
+            "0.5",
+            "0"
           ],
           [
-            "0.750000000",
-            "0.000000000"
+            "0.75",
+            "0"
           ],
           [
-            "1.000000000",
-            "0.000000000"
+            "1",
+            "0"
           ],
           [
-            "0.000000000",
-            "0.250000000"
+            "0",
+            "0.25"
           ],
           [
-            "0.250000000",
-            "0.250000000"
+            "0.25",
+            "0.25"
           ],
           [
-            "0.500000000",
-            "0.250000000"
+            "0.5",
+            "0.25"
           ],
           [
-            "0.750000000",
-            "0.250000000"
+            "0.75",
+            "0.25"
           ],
           [
-            "0.000000000",
-            "0.500000000"
+            "0",
+            "0.5"
           ],
           [
-            "0.250000000",
-            "0.500000000"
+            "0.25",
+            "0.5"
           ],
           [
-            "0.500000000",
-            "0.500000000"
+            "0.5",
+            "0.5"
           ],
           [
-            "0.000000000",
-            "0.750000000"
+            "0",
+            "0.75"
           ],
           [
-            "0.250000000",
-            "0.750000000"
+            "0.25",
+            "0.75"
           ],
           [
-            "0.000000000",
-            "1.000000000"
+            "0",
+            "1"
           ]
         ]
       }
@@ -715,47 +877,60 @@
         "n": 16
       },
       "objective": "maximize",
-      "scoreStored": "55654058106158749",
+      "scoreStored": "55654058178724868",
       "scoreDisplay": "0.235911123",
-      "status": "open",
+      "status": "matched",
       "settled": false,
-      "knownBest": null,
-      "holder": "Tmrg",
+      "knownBest": {
+        "display": "0.235911123",
+        "kind": "best",
+        "range": {
+          "lower": "0.23591112",
+          "upper": "0.235911124"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "0.235911123",
+        "publishedDisplay": "0.235911123893133748627238986663",
+        "publishedMetric": "the distance column of Packomania's table",
+        "source": "Spreading n points here is packing n equal circles in the triangle (the points are the centres, d = 2r/(1 − (2+√2)r)); Packomania's crt table (Eckard Specht) keeps the best known packings, this row credited to David W. Cantrell (2005). The table does not mark it proved. The equivalence was pointed out by Tmrg, a user of this site, in a discussion",
+        "url": "https://www.packomania.com/crt/crt.html"
+      },
+      "holder": "Sigmoid with Codex",
       "method": "ai",
-      "recordedAt": "2026-08-28T17:45:37.546Z",
+      "recordedAt": "2026-09-02T19:42:50.466Z",
       "answer": {
         "points": [
           [
             "0.119841293",
-            "0"
+            "0.000000000"
           ],
           [
-            "0.591663542",
-            "0"
+            "0.591663541",
+            "0.000000000"
           ],
           [
-            "1",
-            "0"
+            "1.000000000",
+            "0.000000000"
           ],
           [
-            "0.355752418",
-            "0.000000001"
+            "0.355752417",
+            "0.000000000"
           ],
           [
-            "0.795831772",
-            "0.118192186"
+            "0.795831771",
+            "0.118192185"
           ],
           [
-            "0",
+            "0.000000000",
             "0.203204633"
           ],
           [
-            "0.237323954",
-            "0.204577328"
+            "0.237323955",
+            "0.204577326"
           ],
           [
-            "0.473235078",
-            "0.204577328"
+            "0.473235079",
+            "0.204577326"
           ],
           [
             "0.677639586",
@@ -766,19 +941,19 @@
             "0.434787961"
           ],
           [
-            "0.280885619",
-            "0.436431678"
+            "0.280885620",
+            "0.436431676"
           ],
           [
-            "0.51082523",
-            "0.48917477"
+            "0.510825230",
+            "0.489174770"
           ],
           [
-            "0.333628712",
-            "0.666371288"
+            "0.333628711",
+            "0.666371287"
           ],
           [
-            "0",
+            "0.000000000",
             "0.666371289"
           ],
           [
@@ -786,8 +961,8 @@
             "0.833185644"
           ],
           [
-            "0",
-            "1"
+            "0.000000000",
+            "0.999999999"
           ]
         ]
       }
@@ -801,9 +976,22 @@
       "objective": "maximize",
       "scoreStored": "52344149065153394",
       "scoreDisplay": "0.228788437",
-      "status": "open",
+      "status": "matched",
       "settled": false,
-      "knownBest": null,
+      "knownBest": {
+        "display": "0.228788437",
+        "kind": "best",
+        "range": {
+          "lower": "0.228788434",
+          "upper": "0.228788438"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "0.228788437",
+        "publishedDisplay": "0.22878843770803156797873992572",
+        "publishedMetric": "the distance column of Packomania's table",
+        "source": "Spreading n points here is packing n equal circles in the triangle (the points are the centres, d = 2r/(1 − (2+√2)r)); Packomania's crt table (Eckard Specht) keeps the best known packings, this row credited to David W. Cantrell (2005). The table does not mark it proved. The equivalence was pointed out by Tmrg, a user of this site, in a discussion",
+        "url": "https://www.packomania.com/crt/crt.html"
+      },
       "holder": "Tmrg",
       "method": "ai",
       "recordedAt": "2026-08-28T16:05:05.530Z",
@@ -887,78 +1075,91 @@
         "n": 18
       },
       "objective": "maximize",
-      "scoreStored": "48002137075084613",
+      "scoreStored": "48002137087802768",
       "scoreDisplay": "0.2190939",
-      "status": "open",
+      "status": "matched",
       "settled": false,
-      "knownBest": null,
-      "holder": "Tmrg",
+      "knownBest": {
+        "display": "0.2190939",
+        "kind": "best",
+        "range": {
+          "lower": "0.219093897",
+          "upper": "0.219093901"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "0.2190939",
+        "publishedDisplay": "0.219093900704678792367541899348",
+        "publishedMetric": "the distance column of Packomania's table",
+        "source": "Spreading n points here is packing n equal circles in the triangle (the points are the centres, d = 2r/(1 − (2+√2)r)); Packomania's crt table (Eckard Specht) keeps the best known packings, this row credited to Eckard Specht (2010). The table does not mark it proved. The equivalence was pointed out by Tmrg, a user of this site, in a discussion",
+        "url": "https://www.packomania.com/crt/crt.html"
+      },
+      "holder": "Sigmoid with Codex",
       "method": "ai",
-      "recordedAt": "2026-08-28T17:46:45.282Z",
+      "recordedAt": "2026-09-02T19:43:06.126Z",
       "answer": {
         "points": [
           [
-            "0.032872731",
-            "0"
+            "0.032872730",
+            "0.000000000"
           ],
           [
-            "0.251966633",
-            "0"
+            "0.251966632",
+            "0.000000000"
           ],
           [
-            "0.471060534",
-            "0"
+            "0.471060533",
+            "0.000000000"
           ],
           [
-            "0.690154435",
-            "0"
+            "0.690154434",
+            "0.000000000"
           ],
           [
-            "0.999999999",
-            "0"
+            "1.000000000",
+            "0.000000000"
           ],
           [
             "0.845077217",
             "0.154922783"
           ],
           [
-            "0",
-            "0.21661376"
+            "0.000000000",
+            "0.216613760"
           ],
           [
             "0.219093901",
-            "0.21661376"
+            "0.216613760"
           ],
           [
-            "0.444539826",
-            "0.217482848"
+            "0.444539830",
+            "0.217482849"
           ],
           [
-            "0.65764224",
-            "0.268369981"
+            "0.657642240",
+            "0.268369980"
           ],
           [
-            "0.331092632",
-            "0.404917827"
+            "0.331092633",
+            "0.404917826"
           ],
           [
-            "0",
+            "0.000000000",
             "0.435707661"
           ],
           [
-            "0.544195042",
-            "0.455804958"
+            "0.544195043",
+            "0.455804957"
           ],
           [
             "0.166564628",
             "0.578039533"
           ],
           [
-            "0.381979763",
-            "0.618020237"
+            "0.381979764",
+            "0.618020236"
           ],
           [
-            "0",
+            "0.000000000",
             "0.720371405"
           ],
           [
@@ -966,7 +1167,7 @@
             "0.793454669"
           ],
           [
-            "0",
+            "0.000000000",
             "0.940666485"
           ]
         ]

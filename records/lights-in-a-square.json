@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/lights-in-a-square",
-  "generatedAt": "2026-09-02T09:43:40.994Z",
+  "generatedAt": "2026-09-03T09:56:25.171Z",
   "instances": [
     {
       "instanceId": "p51-n2-v1",
@@ -1387,8 +1387,8 @@
         "n": 21
       },
       "objective": "maximize",
-      "scoreStored": "183567305",
-      "scoreDisplay": "183.567305",
+      "scoreStored": "183649364",
+      "scoreDisplay": "183.649364",
       "status": "ahead",
       "settled": false,
       "knownBest": {
@@ -1399,11 +1399,11 @@
         "source": "published by Satoshi Kishimoto and GPT-5.6 Sol Pro (July 2026) on Erich Friedman's page as 172.658+, meaning at least that much. The page gives figures and no coordinates; the configuration this site reconstructed from the pictured topology and symmetries verifies at 172.654869, which is the site's reference answer and not the record. Optimality is open",
         "url": "https://erich-friedman.github.io/packing/light/"
       },
-      "holder": "邱仲普",
-      "method": "ai",
-      "recordedAt": "2026-09-02T06:18:46.176Z",
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-02T13:43:55.353Z",
       "answer": {
-        "intensity": "183.567305",
+        "intensity": "183.649364",
         "lights": [
           [
             "0.065122762",
@@ -1427,14 +1427,14 @@
           ],
           [
             "0.499999998",
-            "0.07134909"
+            "0.071349090"
           ],
           [
             "0.957988537",
             "0.282615183"
           ],
           [
-            "0.28889276",
+            "0.288892760",
             "0.357519006"
           ],
           [

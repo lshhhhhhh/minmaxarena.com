@@ -1,0 +1,1300 @@
+{
+  "problem": "equilateral-triangles-covering-a-disc",
+  "code": "P78",
+  "title": "用 n 个正三角形覆盖圆盘",
+  "titleEn": "Covering a disc with n equilateral triangles",
+  "objective": "minimize",
+  "scoreLabel": "共同边长",
+  "scoreLabelEn": "the common side",
+  "verifierVersion": "1.0.0",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseName": "CC BY 4.0",
+  "source": "https://minmaxarena.com/problems/equilateral-triangles-covering-a-disc",
+  "generatedAt": "2026-09-03T09:56:28.015Z",
+  "instances": [
+    {
+      "instanceId": "p78-n7-v1",
+      "name": "n = 7",
+      "parameters": {
+        "n": 7
+      },
+      "objective": "minimize",
+      "scoreStored": "1123076234",
+      "scoreDisplay": "1.123076234",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "1.121076233183857",
+        "kind": "best",
+        "range": {
+          "lower": "1.119820828667413",
+          "upper": "1.121076233183857"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "1.137572952",
+        "publishedDisplay": "0.892+",
+        "publishedMetric": "the radius r of the largest disc that n unit triangles cover (s = 1/r)",
+        "source": "Maurizio Morandi's arrangement (July 2009), listed in Friedman's table only as the truncated r = 0.892+; as a common side s = 1/r the true value lies between 1.119820828667413 and 1.121076233183857, and the upper end is shown. Inside the window is level; only below its lower end is ahead. The site reconstructed the same contact topology from the public raster, and its nine-decimal certificate verifies at 1.137572952 without pretending to be unpublished source coordinates. Optimality is open",
+        "url": "https://erich-friedman.github.io/packing/tricovcir/"
+      },
+      "holder": "Sigmoid with Codex",
+      "method": "ai",
+      "recordedAt": "2026-09-03T03:30:35.731Z",
+      "answer": {
+        "side": "1.123076234",
+        "triangles": [
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "0.892273034",
+            "y": "2.000772765"
+          },
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "1.983019479",
+            "y": "1.906827845"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "1.410540397",
+            "y": "0.953213072"
+          },
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "1.571460870",
+            "y": "0.962406574"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "0.376867183",
+            "y": "0.948256788"
+          },
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "0.433847005",
+            "y": "0.953213072"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "1.006582698",
+            "y": "-0.000004706"
+          }
+        ]
+      }
+    },
+    {
+      "instanceId": "p78-n8-v1",
+      "name": "n = 8",
+      "parameters": {
+        "n": 8
+      },
+      "objective": "minimize",
+      "scoreStored": "1033924892",
+      "scoreDisplay": "1.033924892",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "1.031924891171631",
+        "kind": "best",
+        "exact": "752/(453√3 − 3√347)",
+        "certificateDisplay": "1.047235397",
+        "publishedDisplay": "(453√3 − 3√347)/752 ≈ 0.969+",
+        "publishedMetric": "the radius r of the largest disc that n unit triangles cover (s = 1/r)",
+        "source": "Maurizio Morandi's arrangement (June 2009), listed in Friedman's table as the largest covered-disc radius r = (453√3 − 3√347)/752 ≈ 0.969+ for n unit triangles; here it is converted in closed form by s = 1/r and shown rounded upward to fifteen places. The site reconstructed the same contact topology from the public raster, and its nine-decimal certificate verifies at 1.047235397; the gap from the continuous target remains explicit. Optimality is open",
+        "url": "https://erich-friedman.github.io/packing/tricovcir/"
+      },
+      "holder": "Sigmoid with Codex",
+      "method": "ai",
+      "recordedAt": "2026-09-03T04:12:18.751Z",
+      "answer": {
+        "side": "1.033924892",
+        "triangles": [
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "1.365164567",
+            "y": "2.000000103"
+          },
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "0.631895420",
+            "y": "1.989337394"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "1.729738635",
+            "y": "0.840650468"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "1.002572723",
+            "y": "0.840612787"
+          },
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "1.545737645",
+            "y": "0.840650468"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "0.259948309",
+            "y": "0.842758289"
+          },
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "0.450553141",
+            "y": "0.842758355"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "0.997162621",
+            "y": "-0.000000104"
+          }
+        ]
+      }
+    },
+    {
+      "instanceId": "p78-n9-v1",
+      "name": "n = 9",
+      "parameters": {
+        "n": 9
+      },
+      "objective": "minimize",
+      "scoreStored": "988663641",
+      "scoreDisplay": "0.988663641",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.986663640247231",
+        "kind": "best",
+        "exact": "106/(81√3 − 6√30)",
+        "certificateDisplay": "0.999344344",
+        "publishedDisplay": "(81√3 − 6√30)/106 ≈ 1.013+",
+        "publishedMetric": "the radius r of the largest disc that n unit triangles cover (s = 1/r)",
+        "source": "David Cantrell's arrangement (July 2005), listed in Friedman's table as the largest covered-disc radius r = (81√3 − 6√30)/106 ≈ 1.013+ for n unit triangles; here it is converted in closed form by s = 1/r and shown rounded upward to fifteen places. The site reconstructed the same contact topology from the public raster, and its nine-decimal certificate verifies at 0.999344344; the gap from the continuous target remains explicit. Optimality is open",
+        "url": "https://erich-friedman.github.io/packing/tricovcir/"
+      },
+      "holder": "Sigmoid with Codex",
+      "method": "ai",
+      "recordedAt": "2026-09-03T04:12:35.317Z",
+      "answer": {
+        "side": "0.988663641",
+        "triangles": [
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "1.000204243",
+            "y": "2.001848479"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "1.530263588",
+            "y": "1.225348778"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "0.464784591",
+            "y": "1.216810974"
+          },
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "0.994386369",
+            "y": "1.225348778"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "1.731497208",
+            "y": "0.789649899"
+          },
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "1.539750477",
+            "y": "0.789649899"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "0.264387915",
+            "y": "0.777337302"
+          },
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "0.468185546",
+            "y": "0.777337401"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "1.007520452",
+            "y": "-0.000916313"
+          }
+        ]
+      }
+    },
+    {
+      "instanceId": "p78-n10-v1",
+      "name": "n = 10",
+      "parameters": {
+        "n": 10
+      },
+      "objective": "minimize",
+      "scoreStored": "923574177",
+      "scoreDisplay": "0.923574177",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.918596641722697",
+        "kind": "best",
+        "exact": "40/(31√3 − √103)",
+        "certificateDisplay": "0.932073399",
+        "publishedDisplay": "(31√3 − √103)/40 ≈ 1.088+",
+        "publishedMetric": "the radius r of the largest disc that n unit triangles cover (s = 1/r)",
+        "source": "David Cantrell's arrangement (July 2005), listed in Friedman's table as the largest covered-disc radius r = (31√3 − √103)/40 ≈ 1.088+ for n unit triangles; here it is converted in closed form by s = 1/r and shown rounded upward to fifteen places. The site reconstructed the same contact topology from the public raster, and its nine-decimal certificate verifies at 0.932073399; the gap from the continuous target remains explicit. Optimality is open",
+        "url": "https://erich-friedman.github.io/packing/tricovcir/"
+      },
+      "holder": "Sigmoid with Codex",
+      "method": "ai",
+      "recordedAt": "2026-09-03T02:53:07.727Z",
+      "answer": {
+        "side": "0.923574177",
+        "triangles": [
+          {
+            "down": true,
+            "turn": "0.008596028",
+            "x": "1.005058169",
+            "y": "2.001456976"
+          },
+          {
+            "down": false,
+            "turn": "0.008959978",
+            "x": "1.525847793",
+            "y": "1.292783260"
+          },
+          {
+            "down": true,
+            "turn": "0.009877002",
+            "x": "1.827044845",
+            "y": "1.301648140"
+          },
+          {
+            "down": false,
+            "turn": "0.007016499",
+            "x": "0.486193031",
+            "y": "1.314717531"
+          },
+          {
+            "down": true,
+            "turn": "0.009746283",
+            "x": "0.690088034",
+            "y": "1.322970390"
+          },
+          {
+            "down": false,
+            "turn": "0.009184153",
+            "x": "1.257846951",
+            "y": "0.697597504"
+          },
+          {
+            "down": true,
+            "turn": "0.007952254",
+            "x": "1.524503469",
+            "y": "0.704859912"
+          },
+          {
+            "down": false,
+            "turn": "0.010046986",
+            "x": "0.148111433",
+            "y": "0.675695777"
+          },
+          {
+            "down": true,
+            "turn": "0.008484932",
+            "x": "0.486941904",
+            "y": "0.685459912"
+          },
+          {
+            "down": false,
+            "turn": "0.006473347",
+            "x": "1.017174721",
+            "y": "-0.002322925"
+          }
+        ]
+      }
+    },
+    {
+      "instanceId": "p78-n11-v1",
+      "name": "n = 11",
+      "parameters": {
+        "n": 11
+      },
+      "objective": "minimize",
+      "scoreStored": "881432472",
+      "scoreDisplay": "0.881432472",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.875432470252361",
+        "kind": "best",
+        "exact": "226/(177√3 − 2√586)",
+        "certificateDisplay": "0.888565311",
+        "publishedDisplay": "(177√3 − 2√586)/226 ≈ 1.142+",
+        "publishedMetric": "the radius r of the largest disc that n unit triangles cover (s = 1/r)",
+        "source": "David Cantrell's arrangement (July 2005), listed in Friedman's table as the largest covered-disc radius r = (177√3 − 2√586)/226 ≈ 1.142+ for n unit triangles; here it is converted in closed form by s = 1/r and shown rounded upward to fifteen places. The site reconstructed the same contact topology from the public raster, and its nine-decimal certificate verifies at 0.888565311; the gap from the continuous target remains explicit. Optimality is open",
+        "url": "https://erich-friedman.github.io/packing/tricovcir/"
+      },
+      "holder": "Sigmoid with Codex",
+      "method": "ai",
+      "recordedAt": "2026-09-03T03:11:59.719Z",
+      "answer": {
+        "side": "0.881432472",
+        "triangles": [
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "1.001912446",
+            "y": "2.000679389"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "1.509800879",
+            "y": "1.353682137"
+          },
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "1.922702231",
+            "y": "1.358926123"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "0.491646777",
+            "y": "1.357799630"
+          },
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "1.005182619",
+            "y": "1.358531796"
+          },
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "0.088447397",
+            "y": "1.359805508"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "1.464056258",
+            "y": "0.626638429"
+          },
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "1.506637374",
+            "y": "0.636913941"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "0.546447319",
+            "y": "0.626398820"
+          },
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "0.496046268",
+            "y": "0.636211151"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "1.003356275",
+            "y": "-0.011787965"
+          }
+        ]
+      }
+    },
+    {
+      "instanceId": "p78-n12-v1",
+      "name": "n = 12",
+      "parameters": {
+        "n": 12
+      },
+      "objective": "minimize",
+      "scoreStored": "846006113",
+      "scoreDisplay": "0.846006113",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.844006112231242",
+        "kind": "best",
+        "exact": "8/(7√3 − √7)",
+        "certificateDisplay": "0.856294952",
+        "publishedDisplay": "(7√3 − √7)/8 ≈ 1.184+",
+        "publishedMetric": "the radius r of the largest disc that n unit triangles cover (s = 1/r)",
+        "source": "David Cantrell's arrangement (July 2005), listed in Friedman's table as the largest covered-disc radius r = (7√3 − √7)/8 ≈ 1.184+ for n unit triangles; here it is converted in closed form by s = 1/r and shown rounded upward to fifteen places. The site reconstructed the same contact topology from the public raster, and its nine-decimal certificate verifies at 0.856294952; the gap from the continuous target remains explicit. Optimality is open",
+        "url": "https://erich-friedman.github.io/packing/tricovcir/"
+      },
+      "holder": "Sigmoid with Codex",
+      "method": "ai",
+      "recordedAt": "2026-09-03T03:39:24.804Z",
+      "answer": {
+        "side": "0.846006113",
+        "triangles": [
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "1.002976975",
+            "y": "2.000004662"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "1.501665314",
+            "y": "1.398432633"
+          },
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "1.567894184",
+            "y": "1.398432637"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "0.501311661",
+            "y": "1.403588904"
+          },
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "0.811398212",
+            "y": "1.403588905"
+          },
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "0.055695359",
+            "y": "1.403588911"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "1.947754065",
+            "y": "0.591043682"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "1.188157720",
+            "y": "0.590829994"
+          },
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "1.504342580",
+            "y": "0.592401365"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "0.433546782",
+            "y": "0.592721210"
+          },
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "0.498245225",
+            "y": "0.592721214"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "1.001201607",
+            "y": "-0.001458338"
+          }
+        ]
+      }
+    },
+    {
+      "instanceId": "p78-n13-v1",
+      "name": "n = 13",
+      "parameters": {
+        "n": 13
+      },
+      "objective": "minimize",
+      "scoreStored": "799352088",
+      "scoreDisplay": "0.799352088",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.797352086227381",
+        "kind": "best",
+        "exact": "45/(40√3 − √165)",
+        "certificateDisplay": "0.809264627",
+        "publishedDisplay": "(40√3 − √165)/45 ≈ 1.254+",
+        "publishedMetric": "the radius r of the largest disc that n unit triangles cover (s = 1/r)",
+        "source": "Maurizio Morandi's arrangement (August 2009), listed in Friedman's table as the largest covered-disc radius r = (40√3 − √165)/45 ≈ 1.254+ for n unit triangles; here it is converted in closed form by s = 1/r and shown rounded upward to fifteen places. The site reconstructed the same contact topology from the public raster, and its nine-decimal certificate verifies at 0.809264627; the gap from the continuous target remains explicit. Optimality is open",
+        "url": "https://erich-friedman.github.io/packing/tricovcir/"
+      },
+      "holder": "Sigmoid with Codex",
+      "method": "ai",
+      "recordedAt": "2026-09-03T03:25:51.452Z",
+      "answer": {
+        "side": "0.799352088",
+        "triangles": [
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "1.443399847",
+            "y": "1.992077603"
+          },
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "0.731069455",
+            "y": "2.000004756"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "1.084946288",
+            "y": "1.228418982"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "0.377021435",
+            "y": "1.228715488"
+          },
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "1.003032672",
+            "y": "1.228715508"
+          },
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "0.121308631",
+            "y": "1.228715488"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "1.712501759",
+            "y": "1.073657359"
+          },
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "1.801559176",
+            "y": "1.080595203"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "0.562171060",
+            "y": "0.607793187"
+          },
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "0.471413195",
+            "y": "0.607793187"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "1.359698760",
+            "y": "0.461960866"
+          },
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "1.444578805",
+            "y": "0.471136111"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "0.918546547",
+            "y": "-0.002267558"
+          }
+        ]
+      }
+    },
+    {
+      "instanceId": "p78-n14-v1",
+      "name": "n = 14",
+      "parameters": {
+        "n": 14
+      },
+      "objective": "minimize",
+      "scoreStored": "777193799",
+      "scoreDisplay": "0.777193799",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.775193798449613",
+        "kind": "best",
+        "range": {
+          "lower": "0.774593338497288",
+          "upper": "0.775193798449613"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "0.785385433",
+        "publishedDisplay": "1.290+",
+        "publishedMetric": "the radius r of the largest disc that n unit triangles cover (s = 1/r)",
+        "source": "Maurizio Morandi's arrangement (August 2009), listed in Friedman's table only as the truncated r = 1.290+; as a common side s = 1/r the true value lies between 0.774593338497288 and 0.775193798449613, and the upper end is shown. Inside the window is level; only below its lower end is ahead. The site reconstructed the same contact topology from the public raster, and its nine-decimal certificate verifies at 0.785385433 without pretending to be unpublished source coordinates. Optimality is open",
+        "url": "https://erich-friedman.github.io/packing/tricovcir/"
+      },
+      "holder": "Sigmoid with Codex",
+      "method": "ai",
+      "recordedAt": "2026-09-03T03:42:16.130Z",
+      "answer": {
+        "side": "0.777193799",
+        "triangles": [
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "1.418446257",
+            "y": "1.993767618"
+          },
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "0.726490179",
+            "y": "2.000004702"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "1.070667727",
+            "y": "1.249998559"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "0.380242203",
+            "y": "1.253584643"
+          },
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "0.922693020",
+            "y": "1.253584644"
+          },
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "0.099269301",
+            "y": "1.253584645"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "1.693997356",
+            "y": "1.124896976"
+          },
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "1.838215965",
+            "y": "1.124896976"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "1.343423691",
+            "y": "0.636172399"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "0.510981160",
+            "y": "0.620551358"
+          },
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "1.271978088",
+            "y": "0.636172402"
+          },
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "0.448370353",
+            "y": "0.628514919"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "1.686276756",
+            "y": "0.054121086"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "0.862384741",
+            "y": "-0.000530257"
+          }
+        ]
+      }
+    },
+    {
+      "instanceId": "p78-n15-v1",
+      "name": "n = 15",
+      "parameters": {
+        "n": 15
+      },
+      "objective": "minimize",
+      "scoreStored": "746601640",
+      "scoreDisplay": "0.74660164",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.744601638123604",
+        "kind": "best",
+        "range": {
+          "lower": "0.744047619047619",
+          "upper": "0.744601638123604"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "0.755638952",
+        "publishedDisplay": "1.343+",
+        "publishedMetric": "the radius r of the largest disc that n unit triangles cover (s = 1/r)",
+        "source": "Maurizio Morandi's arrangement (August 2009), listed in Friedman's table only as the truncated r = 1.343+; as a common side s = 1/r the true value lies between 0.744047619047619 and 0.744601638123604, and the upper end is shown. Inside the window is level; only below its lower end is ahead. The site reconstructed the same contact topology from the public raster, and its nine-decimal certificate verifies at 0.755638952 without pretending to be unpublished source coordinates. Optimality is open",
+        "url": "https://erich-friedman.github.io/packing/tricovcir/"
+      },
+      "holder": "Sigmoid with Codex",
+      "method": "ai",
+      "recordedAt": "2026-09-03T03:35:44.894Z",
+      "answer": {
+        "side": "0.746601640",
+        "triangles": [
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "0.683960276",
+            "y": "2.000189049"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "1.633841151",
+            "y": "1.255584192"
+          },
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "1.891093997",
+            "y": "1.256268734"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "0.999639287",
+            "y": "1.254131560"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "0.366707658",
+            "y": "1.256534731"
+          },
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "1.002414230",
+            "y": "1.254131560"
+          },
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "0.108823719",
+            "y": "1.256534731"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "1.445364712",
+            "y": "0.735903934"
+          },
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "1.629941987",
+            "y": "0.737662284"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "0.553924141",
+            "y": "0.737787209"
+          },
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "1.002327455",
+            "y": "0.738006809"
+          },
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "0.359262580",
+            "y": "0.737896858"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "1.313847639",
+            "y": "-0.000005228"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "0.680826760",
+            "y": "0.001710384"
+          },
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "1.316526163",
+            "y": "1.998419363"
+          }
+        ]
+      }
+    },
+    {
+      "instanceId": "p78-n16-v1",
+      "name": "n = 16",
+      "parameters": {
+        "n": 16
+      },
+      "objective": "minimize",
+      "scoreStored": "724390806",
+      "scoreDisplay": "0.724390806",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.718390804597702",
+        "kind": "best",
+        "range": {
+          "lower": "0.717875089734386",
+          "upper": "0.718390804597702"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "0.729117139",
+        "publishedDisplay": "1.392+",
+        "publishedMetric": "the radius r of the largest disc that n unit triangles cover (s = 1/r)",
+        "source": "Maurizio Morandi's arrangement (August 2009), listed in Friedman's table only as the truncated r = 1.392+; as a common side s = 1/r the true value lies between 0.717875089734386 and 0.718390804597702, and the upper end is shown. Inside the window is level; only below its lower end is ahead. The site reconstructed the same contact topology from the public raster, and its nine-decimal certificate verifies at 0.729117139 without pretending to be unpublished source coordinates. Optimality is open",
+        "url": "https://erich-friedman.github.io/packing/tricovcir/"
+      },
+      "holder": "Sigmoid with Codex",
+      "method": "ai",
+      "recordedAt": "2026-09-03T04:06:27.820Z",
+      "answer": {
+        "side": "0.724390806",
+        "triangles": [
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "1.318173551",
+            "y": "1.998435856"
+          },
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "0.694667400",
+            "y": "2.000004706"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "1.629312679",
+            "y": "1.282662954"
+          },
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "1.932766846",
+            "y": "1.282662962"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "1.003677977",
+            "y": "1.288476564"
+          },
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "1.183191923",
+            "y": "1.290978329"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "0.377560662",
+            "y": "1.294568016"
+          },
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "0.445208319",
+            "y": "1.294568086"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "1.551437492",
+            "y": "0.697158395"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "0.814080926",
+            "y": "0.697156842"
+          },
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "1.003466440",
+            "y": "0.710844318"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "0.063690672",
+            "y": "0.700694391"
+          },
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "0.379857907",
+            "y": "0.700694486"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "1.311560138",
+            "y": "-0.010190993"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "0.696037270",
+            "y": "0.000747157"
+          },
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "1.625641324",
+            "y": "0.700023092"
+          }
+        ]
+      }
+    },
+    {
+      "instanceId": "p78-n17-v1",
+      "name": "n = 17",
+      "parameters": {
+        "n": 17
+      },
+      "objective": "minimize",
+      "scoreStored": "699350071",
+      "scoreDisplay": "0.699350071",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.697350069735007",
+        "kind": "best",
+        "range": {
+          "lower": "0.696864111498257",
+          "upper": "0.697350069735007"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "0.707502586",
+        "publishedDisplay": "1.434+",
+        "publishedMetric": "the radius r of the largest disc that n unit triangles cover (s = 1/r)",
+        "source": "Maurizio Morandi's arrangement (August 2009), listed in Friedman's table only as the truncated r = 1.434+; as a common side s = 1/r the true value lies between 0.696864111498257 and 0.697350069735007, and the upper end is shown. Inside the window is level; only below its lower end is ahead. The site reconstructed the same contact topology from the public raster, and its nine-decimal certificate verifies at 0.707502586 without pretending to be unpublished source coordinates. Optimality is open",
+        "url": "https://erich-friedman.github.io/packing/tricovcir/"
+      },
+      "holder": "Sigmoid with Codex",
+      "method": "ai",
+      "recordedAt": "2026-09-03T03:51:10.405Z",
+      "answer": {
+        "side": "0.699350071",
+        "triangles": [
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "1.280676850",
+            "y": "1.997640067"
+          },
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "0.720375324",
+            "y": "2.000004706"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "1.604533857",
+            "y": "1.347267004"
+          },
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "1.651157936",
+            "y": "1.347267004"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "0.396674536",
+            "y": "1.349361064"
+          },
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "0.344734022",
+            "y": "1.349361064"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "0.999843475",
+            "y": "1.272747888"
+          },
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "0.992328322",
+            "y": "1.272747888"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "1.960676695",
+            "y": "0.672059367"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "1.343254945",
+            "y": "0.669260775"
+          },
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "1.615691909",
+            "y": "0.672059367"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "0.646414839",
+            "y": "0.660577763"
+          },
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "1.006645555",
+            "y": "0.669261087"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "0.038364276",
+            "y": "0.668699177"
+          },
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "0.386248097",
+            "y": "0.668699177"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "1.313757350",
+            "y": "-0.006591401"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "0.696609036",
+            "y": "-0.005049763"
+          }
+        ]
+      }
+    },
+    {
+      "instanceId": "p78-n18-v1",
+      "name": "n = 18",
+      "parameters": {
+        "n": 18
+      },
+      "objective": "minimize",
+      "scoreStored": "679966103",
+      "scoreDisplay": "0.679966103",
+      "status": "open",
+      "settled": false,
+      "knownBest": {
+        "display": "0.677966101694916",
+        "kind": "best",
+        "range": {
+          "lower": "0.677506775067750",
+          "upper": "0.677966101694916"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "0.687854879",
+        "publishedDisplay": "1.475+",
+        "publishedMetric": "the radius r of the largest disc that n unit triangles cover (s = 1/r)",
+        "source": "Maurizio Morandi's arrangement (August 2009), listed in Friedman's table only as the truncated r = 1.475+; as a common side s = 1/r the true value lies between 0.677506775067750 and 0.677966101694916, and the upper end is shown. Inside the window is level; only below its lower end is ahead. The site reconstructed the same contact topology from the public raster, and its nine-decimal certificate verifies at 0.687854879 without pretending to be unpublished source coordinates. Optimality is open",
+        "url": "https://erich-friedman.github.io/packing/tricovcir/"
+      },
+      "holder": "Sigmoid with Codex",
+      "method": "ai",
+      "recordedAt": "2026-09-03T03:54:57.910Z",
+      "answer": {
+        "side": "0.679966103",
+        "triangles": [
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "0.984649103",
+            "y": "2.000005898"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "1.435839823",
+            "y": "1.603762990"
+          },
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "1.343236306",
+            "y": "1.603762990"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "0.547433063",
+            "y": "1.579550457"
+          },
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "0.658965058",
+            "y": "1.579550457"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "1.744670092",
+            "y": "1.121330877"
+          },
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "1.870331974",
+            "y": "1.121330877"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "0.249441337",
+            "y": "1.111131572"
+          },
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "0.128058771",
+            "y": "1.111131572"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "1.008090238",
+            "y": "1.006517172"
+          },
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "0.997115417",
+            "y": "1.006517219"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "1.466866264",
+            "y": "0.642418164"
+          },
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "1.608485822",
+            "y": "0.642763338"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "0.532387525",
+            "y": "0.634936854"
+          },
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "0.991233419",
+            "y": "0.642418226"
+          },
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "0.389043978",
+            "y": "0.647068396"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "1.299959214",
+            "y": "-0.000588697"
+          },
+          {
+            "down": false,
+            "turn": "0.000000000",
+            "x": "0.683481507",
+            "y": "-0.002275393"
+          }
+        ]
+      }
+    }
+  ]
+}

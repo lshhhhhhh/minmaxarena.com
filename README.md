@@ -37,7 +37,7 @@ managed.
 
 ## The records
 
-53 problem families, 1002 sub-problems, 912 still open.
+54 problem families, 1014 sub-problems, 933 still open.
 `records/` holds today's snapshot of each family; the live files are at
 `https://minmaxarena.com/data/{slug}.json`, and the citable ones are the monthly frozen
 editions at `https://minmaxarena.com/data/editions/{YYYY-MM}/{slug}.json`, which never change
@@ -48,8 +48,8 @@ once published. Data is CC BY 4.0; see
 | Code | Family | Sub-problems | Open | Data |
 | --- | --- | ---: | ---: | --- |
 | [P01](https://minmaxarena.com/en/problems/square-circle-packing) | Equal-circle packing in a unit square | 30 | 0 | [json](records/square-circle-packing.json) |
-| [P02](https://minmaxarena.com/en/problems/circle-circle-packing) | Equal-circle packing in a unit circle | 29 | 15 | [json](records/circle-circle-packing.json) |
-| [P03](https://minmaxarena.com/en/problems/heilbronn-triangle) | Heilbronn minimum triangle area | 12 | 10 | [json](records/heilbronn-triangle.json) |
+| [P02](https://minmaxarena.com/en/problems/circle-circle-packing) | Equal-circle packing in a unit circle | 29 | 16 | [json](records/circle-circle-packing.json) |
+| [P03](https://minmaxarena.com/en/problems/heilbronn-triangle) | Heilbronn minimum triangle area | 12 | 11 | [json](records/heilbronn-triangle.json) |
 | [P05](https://minmaxarena.com/en/problems/tilted-squares-in-circle) | Tilted equal squares in a circle | 12 | 11 | [json](records/tilted-squares-in-circle.json) |
 | [P06](https://minmaxarena.com/en/problems/graduated-circles-in-circle) | Packing circles of radius 1,2,…,n into a circle | 29 | 26 | [json](records/graduated-circles-in-circle.json) |
 | [P08](https://minmaxarena.com/en/problems/circles-in-an-l) | Equal circles in an L | 15 | 14 | [json](records/circles-in-an-l.json) |
@@ -60,7 +60,7 @@ once published. Data is CC BY 4.0; see
 | [P13](https://minmaxarena.com/en/problems/graduated-circles-in-square) | Packing circles of radius 1,2,…,n into a square | 29 | 26 | [json](records/graduated-circles-in-square.json) |
 | [P16](https://minmaxarena.com/en/problems/spread-points-in-triangle) | Spreading points in a right triangle | 15 | 15 | [json](records/spread-points-in-triangle.json) |
 | [P17](https://minmaxarena.com/en/problems/spread-points-in-rectangle) | Spreading points in a rectangle | 17 | 17 | [json](records/spread-points-in-rectangle.json) |
-| [P18](https://minmaxarena.com/en/problems/tilted-squares-in-square) | Tilted equal squares in the unit square | 28 | 16 | [json](records/tilted-squares-in-square.json) |
+| [P18](https://minmaxarena.com/en/problems/tilted-squares-in-square) | Tilted equal squares in the unit square | 28 | 22 | [json](records/tilted-squares-in-square.json) |
 | [P19](https://minmaxarena.com/en/problems/spread-points-in-an-l) | Spreading points in an L | 17 | 16 | [json](records/spread-points-in-an-l.json) |
 | [P20](https://minmaxarena.com/en/problems/spread-points-in-a-semicircle) | Spreading points in a half-disc | 15 | 15 | [json](records/spread-points-in-a-semicircle.json) |
 | [P21](https://minmaxarena.com/en/problems/spread-points-in-a-cross) | Spreading points in a plus sign | 17 | 15 | [json](records/spread-points-in-a-cross.json) |
@@ -69,7 +69,7 @@ once published. Data is CC BY 4.0; see
 | [P25](https://minmaxarena.com/en/problems/heilbronn-in-a-cross) | The smallest triangle in a plus sign | 10 | 10 | [json](records/heilbronn-in-a-cross.json) |
 | [P26](https://minmaxarena.com/en/problems/heilbronn-in-a-semicircle) | The smallest triangle in a half-disc | 10 | 10 | [json](records/heilbronn-in-a-semicircle.json) |
 | [P28](https://minmaxarena.com/en/problems/heilbronn-in-an-annulus) | The smallest triangle in an annulus | 10 | 10 | [json](records/heilbronn-in-an-annulus.json) |
-| [P29](https://minmaxarena.com/en/problems/heilbronn-in-triangle) | Heilbronn's problem in a triangle | 6 | 3 | [json](records/heilbronn-in-triangle.json) |
+| [P29](https://minmaxarena.com/en/problems/heilbronn-in-triangle) | Heilbronn's problem in a triangle | 6 | 4 | [json](records/heilbronn-in-triangle.json) |
 | [P30](https://minmaxarena.com/en/problems/circles-in-a-quadrant) | Equal circles in a quadrant | 14 | 14 | [json](records/circles-in-a-quadrant.json) |
 | [P31](https://minmaxarena.com/en/problems/spread-points-in-a-quadrant) | Spreading points in a quadrant | 15 | 15 | [json](records/spread-points-in-a-quadrant.json) |
 | [P32](https://minmaxarena.com/en/problems/heilbronn-in-a-quadrant) | The smallest triangle in a quadrant | 10 | 10 | [json](records/heilbronn-in-a-quadrant.json) |
@@ -100,6 +100,7 @@ once published. Data is CC BY 4.0; see
 | [P75](https://minmaxarena.com/en/problems/circles-covering-a-regular-pentagon) | Covering a regular pentagon with n equal discs | 29 | 29 | [json](records/circles-covering-a-regular-pentagon.json) |
 | [P76](https://minmaxarena.com/en/problems/equilateral-triangles-covering-a-square) | Covering a square with n equilateral triangles | 11 | 11 | [json](records/equilateral-triangles-covering-a-square.json) |
 | [P77](https://minmaxarena.com/en/problems/equilateral-triangles-covering-an-equilateral-triangle) | Covering an equilateral triangle with n equilateral triangles | 10 | 9 | [json](records/equilateral-triangles-covering-an-equilateral-triangle.json) |
+| [P78](https://minmaxarena.com/en/problems/equilateral-triangles-covering-a-disc) | Covering a disc with n equilateral triangles | 12 | 12 | [json](records/equilateral-triangles-covering-a-disc.json) |
 <!-- records:end -->
 
 ## Problems the catalogue no longer offers
