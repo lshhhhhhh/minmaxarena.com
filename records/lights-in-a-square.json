@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/lights-in-a-square",
-  "generatedAt": "2026-09-03T09:56:25.171Z",
+  "generatedAt": "2026-09-04T09:44:35.785Z",
   "instances": [
     {
       "instanceId": "p51-n2-v1",
@@ -187,8 +187,8 @@
         "n": 6
       },
       "objective": "maximize",
-      "scoreStored": "29788191",
-      "scoreDisplay": "29.788191",
+      "scoreStored": "29788600",
+      "scoreDisplay": "29.7886",
       "status": "open",
       "settled": false,
       "knownBest": {
@@ -199,35 +199,35 @@
         "source": "published by Erich Friedman (July 2026) on Erich Friedman's page as 29.791+, meaning at least that much. The page gives figures and no coordinates; the configuration this site reconstructed from the pictured topology and symmetries verifies at 29.78663, which is the site's reference answer and not the record. Optimality is open",
         "url": "https://erich-friedman.github.io/packing/light/"
       },
-      "holder": "Cphysics",
-      "method": "human",
-      "recordedAt": "2026-08-29T12:53:41.666Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-04T09:30:42.330Z",
       "answer": {
-        "intensity": "29.788191",
+        "intensity": "29.788600",
         "lights": [
           [
-            "0.206644559",
-            "0.943184737"
+            "0.20695631",
+            "0.944072693"
           ],
           [
-            "0.793355441",
-            "0.943184737"
+            "0.793669891",
+            "0.942383754"
           ],
           [
-            "0.147171709",
-            "0.500000000"
+            "0.14707316",
+            "0.501284455"
           ],
           [
-            "0.852828291",
-            "0.500000000"
+            "0.852927038",
+            "0.498715453"
           ],
           [
-            "0.206644559",
-            "0.056815263"
+            "0.206328473",
+            "0.057616245"
           ],
           [
-            "0.793355441",
-            "0.056815263"
+            "0.793043989",
+            "0.055927306"
           ]
         ]
       }
@@ -239,8 +239,8 @@
         "n": 7
       },
       "objective": "maximize",
-      "scoreStored": "35905043",
-      "scoreDisplay": "35.905043",
+      "scoreStored": "35905590",
+      "scoreDisplay": "35.90559",
       "status": "open",
       "settled": false,
       "knownBest": {
@@ -251,39 +251,39 @@
         "source": "published by Satoshi Kishimoto and GPT-5.6 Sol Pro (July 2026) on Erich Friedman's page as 35.909+, meaning at least that much. The page gives figures and no coordinates; the configuration this site reconstructed from the pictured topology and symmetries verifies at 35.902175, which is the site's reference answer and not the record. Optimality is open",
         "url": "https://erich-friedman.github.io/packing/light/"
       },
-      "holder": "Cphysics",
-      "method": "human",
-      "recordedAt": "2026-08-29T12:57:40.515Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-04T09:31:31.338Z",
       "answer": {
-        "intensity": "35.905043",
+        "intensity": "35.905590",
         "lights": [
           [
-            "0.500000000",
-            "0.847372926"
+            "0.149289896",
+            "0.680485744"
           ],
           [
-            "0.082894179",
-            "0.824079813"
+            "0.072058395",
+            "0.181503401"
           ],
           [
-            "0.917085821",
-            "0.824089813"
+            "0.904262265",
+            "0.168488846"
           ],
           [
-            "0.164642959",
-            "0.343007472"
+            "0.480160089",
+            "0.155604266"
           ],
           [
-            "0.835357041",
-            "0.343007472"
+            "0.82304165",
+            "0.631577173"
           ],
           [
-            "0.208219569",
-            "0.007404186"
+            "0.796014563",
+            "0.992223165"
           ],
           [
-            "0.791780431",
-            "0.007404186"
+            "0.213690142",
+            "0.990800422"
           ]
         ]
       }
@@ -295,8 +295,8 @@
         "n": 8
       },
       "objective": "maximize",
-      "scoreStored": "47834026",
-      "scoreDisplay": "47.834026",
+      "scoreStored": "47834726",
+      "scoreDisplay": "47.834726",
       "status": "open",
       "settled": false,
       "knownBest": {
@@ -307,43 +307,43 @@
         "source": "published by Satoshi Kishimoto and GPT-5.6 Sol Pro (July 2026) on Erich Friedman's page as 47.839+, meaning at least that much. The page gives figures and no coordinates; the configuration this site reconstructed from the pictured topology and symmetries verifies at 47.833026, which is the site's reference answer and not the record. Optimality is open",
         "url": "https://erich-friedman.github.io/packing/light/"
       },
-      "holder": "lird",
-      "method": "human",
-      "recordedAt": "2026-08-29T09:30:05.005Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-04T09:32:20.551Z",
       "answer": {
-        "intensity": "47.834026",
+        "intensity": "47.834726",
         "lights": [
           [
-            "0.119005999",
-            "0.880994001"
+            "0.11863196",
+            "0.880621146"
           ],
           [
-            "0.880994001",
-            "0.880994001"
+            "0.881499004",
+            "0.880508919"
           ],
           [
-            "0.500000000",
-            "0.842641653"
+            "0.500144696",
+            "0.8436233"
           ],
           [
-            "0.157358347",
-            "0.500000000"
+            "0.158079281",
+            "0.500019609"
           ],
           [
-            "0.842641653",
-            "0.500000000"
+            "0.84268026",
+            "0.49919895"
           ],
           [
-            "0.500000000",
-            "0.157358347"
+            "0.499324026",
+            "0.157498346"
           ],
           [
-            "0.119005999",
-            "0.119005999"
+            "0.118678797",
+            "0.119356735"
           ],
           [
-            "0.880994001",
-            "0.119005999"
+            "0.880555094",
+            "0.118575554"
           ]
         ]
       }
@@ -355,8 +355,8 @@
         "n": 9
       },
       "objective": "maximize",
-      "scoreStored": "57382173",
-      "scoreDisplay": "57.382173",
+      "scoreStored": "57384952",
+      "scoreDisplay": "57.384952",
       "status": "open",
       "settled": false,
       "knownBest": {
@@ -367,47 +367,47 @@
         "source": "published by Erich Friedman (July 2026) on Erich Friedman's page as 57.388+, meaning at least that much. The page gives figures and no coordinates; the configuration this site reconstructed from the pictured topology and symmetries verifies at 57.381173, which is the site's reference answer and not the record. Optimality is open",
         "url": "https://erich-friedman.github.io/packing/light/"
       },
-      "holder": "lird",
-      "method": "human",
-      "recordedAt": "2026-08-29T09:29:48.710Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-04T08:50:01.806Z",
       "answer": {
-        "intensity": "57.382173",
+        "intensity": "57.384952",
         "lights": [
           [
-            "0.500000000",
-            "0.942138498"
+            "0.5",
+            "0.5"
           ],
           [
-            "0.108284403",
-            "0.891715597"
+            "0.057737911",
+            "0.5"
           ],
           [
-            "0.891715597",
-            "0.891715597"
+            "0.5",
+            "0.057737911"
           ],
           [
-            "0.057861502",
-            "0.500000000"
+            "0.942262088",
+            "0.5"
           ],
           [
-            "0.500000000",
-            "0.500000000"
+            "0.5",
+            "0.942262088"
           ],
           [
-            "0.942138498",
-            "0.500000000"
+            "0.108300804",
+            "0.108300804"
           ],
           [
-            "0.108284403",
-            "0.108284403"
+            "0.108300804",
+            "0.891699195"
           ],
           [
-            "0.891715597",
-            "0.108284403"
+            "0.891699195",
+            "0.108300804"
           ],
           [
-            "0.500000000",
-            "0.057861502"
+            "0.891699195",
+            "0.891699195"
           ]
         ]
       }
@@ -419,9 +419,9 @@
         "n": 10
       },
       "objective": "maximize",
-      "scoreStored": "62404381",
-      "scoreDisplay": "62.404381",
-      "status": "open",
+      "scoreStored": "63531813",
+      "scoreDisplay": "63.531813",
+      "status": "ahead",
       "settled": false,
       "knownBest": {
         "display": "62.408",
@@ -431,51 +431,51 @@
         "source": "published by Satoshi Kishimoto and GPT-5.6 Sol Pro (July 2026) on Erich Friedman's page as 62.408+, meaning at least that much. The page gives figures and no coordinates; the configuration this site reconstructed from the pictured topology and symmetries verifies at 62.403068, which is the site's reference answer and not the record. Optimality is open",
         "url": "https://erich-friedman.github.io/packing/light/"
       },
-      "holder": "Cphysics",
-      "method": "human",
-      "recordedAt": "2026-08-29T13:24:12.275Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-04T08:50:51.364Z",
       "answer": {
-        "intensity": "62.404381",
+        "intensity": "63.531813",
         "lights": [
           [
-            "0.500000000",
-            "0.891938058"
+            "0.5556816",
+            "0.94004082"
           ],
           [
-            "0.083623713",
-            "0.876041638"
+            "0.136238964",
+            "0.933116245"
           ],
           [
-            "0.916376287",
-            "0.876041638"
+            "0.916101529",
+            "0.879507463"
           ],
           [
-            "0.043780788",
-            "0.476723563"
+            "0.193933431",
+            "0.699248075"
           ],
           [
-            "0.956219212",
-            "0.476723563"
+            "0.0927738",
+            "0.41501623"
           ],
           [
-            "0.500000000",
-            "0.432219330"
+            "0.966099847",
+            "0.483724373"
           ],
           [
-            "0.109398653",
-            "0.099294539"
+            "0.575812073",
+            "0.473654773"
           ],
           [
-            "0.890601347",
-            "0.099294539"
+            "0.128035671",
+            "0.0729832"
           ],
           [
-            "0.500000000",
-            "0.020425932"
+            "0.894405312",
+            "0.101584504"
           ],
           [
-            "0.500000000",
-            "0.891898058"
+            "0.520223795",
+            "0.067540251"
           ]
         ]
       }
@@ -799,9 +799,9 @@
         "n": 15
       },
       "objective": "maximize",
-      "scoreStored": "113186691",
-      "scoreDisplay": "113.186691",
-      "status": "open",
+      "scoreStored": "114919282",
+      "scoreDisplay": "114.919282",
+      "status": "ahead",
       "settled": false,
       "knownBest": {
         "display": "113.191",
@@ -811,71 +811,71 @@
         "source": "published by Satoshi Kishimoto and GPT-5.6 Sol Pro (July 2026) on Erich Friedman's page as 113.191+, meaning at least that much. The page gives figures and no coordinates; the configuration this site reconstructed from the pictured topology and symmetries verifies at 113.185559, which is the site's reference answer and not the record. Optimality is open",
         "url": "https://erich-friedman.github.io/packing/light/"
       },
-      "holder": "lird",
-      "method": "human",
-      "recordedAt": "2026-08-29T09:33:02.635Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-04T08:51:41.669Z",
       "answer": {
-        "intensity": "113.186691",
+        "intensity": "114.919282",
         "lights": [
           [
-            "0.346250263",
-            "0.939517522"
+            "0.09227771",
+            "0.938717511"
           ],
           [
-            "0.653749737",
-            "0.939517522"
+            "0.49719415",
+            "0.119991826"
           ],
           [
-            "0.070336639",
-            "0.913451225"
+            "0.933097039",
+            "0.38361044"
           ],
           [
-            "0.929663361",
-            "0.913451225"
+            "0.381334385",
+            "0.536749476"
           ],
           [
-            "0.500000000",
-            "0.668501039"
+            "0.283747327",
+            "0.127406795"
           ],
           [
-            "0.082900500",
-            "0.638493362"
+            "0.065572176",
+            "0.384631858"
           ],
           [
-            "0.917099500",
-            "0.638493362"
+            "0.713649884",
+            "0.124776477"
           ],
           [
-            "0.500000000",
-            "0.500000000"
+            "0.621396763",
+            "0.53516828"
           ],
           [
-            "0.082900500",
-            "0.361506638"
+            "0.907780192",
+            "0.938638261"
           ],
           [
-            "0.917099500",
-            "0.361506638"
+            "0.633961824",
+            "0.911881875"
           ],
           [
-            "0.500000000",
-            "0.331498961"
+            "0.366818183",
+            "0.912800491"
           ],
           [
-            "0.070336639",
-            "0.086548775"
+            "0.931946837",
+            "0.676176006"
           ],
           [
-            "0.929663361",
-            "0.086548775"
+            "0.063637241",
+            "0.09196047"
           ],
           [
-            "0.346250263",
-            "0.060482478"
+            "0.069501595",
+            "0.677071702"
           ],
           [
-            "0.653749737",
-            "0.060482478"
+            "0.936545252",
+            "0.091979781"
           ]
         ]
       }
@@ -887,9 +887,9 @@
         "n": 16
       },
       "objective": "maximize",
-      "scoreStored": "124553236",
-      "scoreDisplay": "124.553236",
-      "status": "matched",
+      "scoreStored": "125415972",
+      "scoreDisplay": "125.415972",
+      "status": "ahead",
       "settled": false,
       "knownBest": {
         "display": "124.553",
@@ -899,75 +899,75 @@
         "source": "published by Satoshi Kishimoto and GPT-5.6 Sol Pro (July 2026) on Erich Friedman's page as 124.553+, meaning at least that much. The page gives figures and no coordinates; the configuration this site reconstructed from the pictured topology and symmetries verifies at 124.55199, which is the site's reference answer and not the record. Optimality is open",
         "url": "https://erich-friedman.github.io/packing/light/"
       },
-      "holder": "lird",
-      "method": "human",
-      "recordedAt": "2026-08-29T09:33:18.422Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-04T08:52:32.719Z",
       "answer": {
-        "intensity": "124.553236",
+        "intensity": "125.415972",
         "lights": [
           [
-            "0.084843793",
-            "0.934510711"
+            "0.933873782",
+            "0.357544428"
           ],
           [
-            "0.360073151",
-            "0.934510711"
+            "0.063562845",
+            "0.085780802"
           ],
           [
-            "0.639889665",
-            "0.934510711"
+            "0.502177394",
+            "0.878539897"
           ],
           [
-            "0.915119022",
-            "0.934510711"
+            "0.497822605",
+            "0.121460102"
           ],
           [
-            "0.112366729",
-            "0.709223355"
+            "0.707227874",
+            "0.110552164"
           ],
           [
-            "0.887596087",
-            "0.709223355"
+            "0.634798863",
+            "0.500155937"
           ],
           [
-            "0.500000000",
-            "0.633342651"
+            "0.365201136",
+            "0.499844062"
           ],
           [
-            "0.121541041",
-            "0.500009318"
+            "0.292772125",
+            "0.889447835"
           ],
           [
-            "0.878421775",
-            "0.500009318"
+            "0.936437154",
+            "0.914219197"
           ],
           [
-            "0.500000000",
-            "0.366675984"
+            "0.065812355",
+            "0.916043093"
           ],
           [
-            "0.112366729",
-            "0.290832550"
+            "0.066126217",
+            "0.642455571"
           ],
           [
-            "0.887596087",
-            "0.290832550"
+            "0.71136965",
+            "0.889213384"
           ],
           [
-            "0.084843793",
-            "0.065545194"
+            "0.934187644",
+            "0.083956906"
           ],
           [
-            "0.360073151",
-            "0.065545194"
+            "0.935113895",
+            "0.638286268"
           ],
           [
-            "0.639889665",
-            "0.065545194"
+            "0.288630349",
+            "0.110786615"
           ],
           [
-            "0.915119022",
-            "0.065545194"
+            "0.064886104",
+            "0.361713731"
           ]
         ]
       }
@@ -979,9 +979,9 @@
         "n": 17
       },
       "objective": "maximize",
-      "scoreStored": "133900922",
-      "scoreDisplay": "133.900922",
-      "status": "open",
+      "scoreStored": "134721888",
+      "scoreDisplay": "134.721888",
+      "status": "ahead",
       "settled": false,
       "knownBest": {
         "display": "133.907",
@@ -991,79 +991,79 @@
         "source": "published by Satoshi Kishimoto and GPT-5.6 Sol Pro (July 2026) on Erich Friedman's page as 133.907+, meaning at least that much. The page gives figures and no coordinates; the configuration this site reconstructed from the pictured topology and symmetries verifies at 133.899583, which is the site's reference answer and not the record. Optimality is open",
         "url": "https://erich-friedman.github.io/packing/light/"
       },
-      "holder": "lird",
-      "method": "human",
-      "recordedAt": "2026-08-29T09:33:29.543Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-04T08:53:21.750Z",
       "answer": {
-        "intensity": "133.900922",
+        "intensity": "134.721888",
         "lights": [
           [
-            "0.355759839",
-            "0.950548992"
+            "0.064566255",
+            "0.08111201"
           ],
           [
-            "0.644240161",
-            "0.950548992"
+            "0.583884357",
+            "0.351636736"
           ],
           [
-            "0.082355288",
-            "0.937273918"
+            "0.262804916",
+            "0.124348368"
           ],
           [
-            "0.917644712",
-            "0.937273918"
+            "0.733460354",
+            "0.07704513"
           ],
           [
-            "0.106823919",
-            "0.718557260"
+            "0.959190912",
+            "0.095350814"
           ],
           [
-            "0.893176081",
-            "0.718557260"
+            "0.051993444",
+            "0.354238062"
           ],
           [
-            "0.500000000",
-            "0.684496686"
+            "0.333916102",
+            "0.50480031"
           ],
           [
-            "0.101492507",
-            "0.500000000"
+            "0.951405351",
+            "0.646736081"
           ],
           [
-            "0.500000000",
-            "0.500000000"
+            "0.475225542",
+            "0.079715683"
           ],
           [
-            "0.898507493",
-            "0.500000000"
+            "0.936763033",
+            "0.369957087"
           ],
           [
-            "0.500000000",
-            "0.315503314"
+            "0.050996291",
+            "0.637905006"
           ],
           [
-            "0.106823919",
-            "0.281442740"
+            "0.264862398",
+            "0.884830346"
           ],
           [
-            "0.893176081",
-            "0.281442740"
+            "0.693828627",
+            "0.936558636"
           ],
           [
-            "0.082355288",
-            "0.062726082"
+            "0.645102806",
+            "0.616375343"
           ],
           [
-            "0.917644712",
-            "0.062726082"
+            "0.940036034",
+            "0.916779736"
           ],
           [
-            "0.355759839",
-            "0.049451008"
+            "0.05792381",
+            "0.914113297"
           ],
           [
-            "0.644240161",
-            "0.049451008"
+            "0.460238434",
+            "0.884003374"
           ]
         ]
       }
@@ -1075,9 +1075,9 @@
         "n": 18
       },
       "objective": "maximize",
-      "scoreStored": "141550583",
-      "scoreDisplay": "141.550583",
-      "status": "open",
+      "scoreStored": "147286133",
+      "scoreDisplay": "147.286133",
+      "status": "ahead",
       "settled": false,
       "knownBest": {
         "display": "141.556",
@@ -1087,83 +1087,83 @@
         "source": "published by Satoshi Kishimoto and GPT-5.6 Sol Pro (July 2026) on Erich Friedman's page as 141.556+, meaning at least that much. The page gives figures and no coordinates; the configuration this site reconstructed from the pictured topology and symmetries verifies at 141.549168, which is the site's reference answer and not the record. Optimality is open",
         "url": "https://erich-friedman.github.io/packing/light/"
       },
-      "holder": "lird",
-      "method": "human",
-      "recordedAt": "2026-08-29T09:33:41.771Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-04T08:54:10.993Z",
       "answer": {
-        "intensity": "141.550583",
+        "intensity": "147.286133",
         "lights": [
           [
-            "0.354612252",
-            "0.958031046"
+            "0.744472188",
+            "0.067059361"
           ],
           [
-            "0.645387748",
-            "0.958031046"
+            "0.325740974",
+            "0.626979488"
           ],
           [
-            "0.083130061",
-            "0.942699497"
+            "0.674259025",
+            "0.373020511"
           ],
           [
-            "0.916869939",
-            "0.942699497"
+            "0.650046788",
+            "0.635998195"
           ],
           [
-            "0.093979250",
-            "0.723099542"
+            "0.95277466",
+            "0.638106262"
           ],
           [
-            "0.906020750",
-            "0.723099542"
+            "0.041033612",
+            "0.636029078"
           ],
           [
-            "0.500000000",
-            "0.702586768"
+            "0.958966387",
+            "0.363970921"
           ],
           [
-            "0.500000000",
-            "0.620384834"
+            "0.037188477",
+            "0.092209484"
           ],
           [
-            "0.097410143",
-            "0.500000000"
+            "0.962475531",
+            "0.092011503"
           ],
           [
-            "0.902589857",
-            "0.500000000"
+            "0.037524468",
+            "0.907988496"
           ],
           [
-            "0.500000000",
-            "0.379615166"
+            "0.498216633",
+            "0.076983656"
           ],
           [
-            "0.500000000",
-            "0.297413232"
+            "0.746579564",
+            "0.929764371"
           ],
           [
-            "0.093979250",
-            "0.276900458"
+            "0.047225339",
+            "0.361893737"
           ],
           [
-            "0.906020750",
-            "0.276900458"
+            "0.253420435",
+            "0.070235628"
           ],
           [
-            "0.083130061",
-            "0.057300503"
+            "0.349953211",
+            "0.364001804"
           ],
           [
-            "0.916869939",
-            "0.057300503"
+            "0.255527811",
+            "0.932940638"
           ],
           [
-            "0.354612252",
-            "0.041968954"
+            "0.501783366",
+            "0.923016343"
           ],
           [
-            "0.645387748",
-            "0.041968954"
+            "0.962811522",
+            "0.907790515"
           ]
         ]
       }
@@ -1387,8 +1387,8 @@
         "n": 21
       },
       "objective": "maximize",
-      "scoreStored": "183649364",
-      "scoreDisplay": "183.649364",
+      "scoreStored": "183680591",
+      "scoreDisplay": "183.680591",
       "status": "ahead",
       "settled": false,
       "knownBest": {
@@ -1399,11 +1399,11 @@
         "source": "published by Satoshi Kishimoto and GPT-5.6 Sol Pro (July 2026) on Erich Friedman's page as 172.658+, meaning at least that much. The page gives figures and no coordinates; the configuration this site reconstructed from the pictured topology and symmetries verifies at 172.654869, which is the site's reference answer and not the record. Optimality is open",
         "url": "https://erich-friedman.github.io/packing/light/"
       },
-      "holder": null,
+      "holder": "今天",
       "method": "human",
-      "recordedAt": "2026-09-02T13:43:55.353Z",
+      "recordedAt": "2026-09-04T09:40:14.805Z",
       "answer": {
-        "intensity": "183.649364",
+        "intensity": "183.680591",
         "lights": [
           [
             "0.065122762",
@@ -1411,11 +1411,11 @@
           ],
           [
             "0.281455299",
-            "0.065279821"
+            "0.065381100"
           ],
           [
             "0.718544697",
-            "0.065279821"
+            "0.065381100"
           ],
           [
             "0.934877235",
@@ -1438,15 +1438,15 @@
             "0.357519006"
           ],
           [
-            "0.500000047",
-            "0.377796414"
+            "0.500000000",
+            "0.384380000"
           ],
           [
             "0.711107279",
-            "0.357519034"
+            "0.357519006"
           ],
           [
-            "0.065445208",
+            "0.065510000",
             "0.941405548"
           ],
           [
@@ -1458,7 +1458,7 @@
             "0.936567757"
           ],
           [
-            "0.934554785",
+            "0.934490000",
             "0.941405555"
           ],
           [
@@ -1467,7 +1467,7 @@
           ],
           [
             "0.499999976",
-            "0.923752787"
+            "0.923130200"
           ],
           [
             "0.930543068",
@@ -1479,7 +1479,7 @@
           ],
           [
             "0.645206208",
-            "0.658491058"
+            "0.656066000"
           ],
           [
             "0.930058122",
@@ -1487,7 +1487,7 @@
           ],
           [
             "0.354793796",
-            "0.658491014"
+            "0.656066000"
           ]
         ]
       }

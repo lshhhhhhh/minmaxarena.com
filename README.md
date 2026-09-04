@@ -37,7 +37,7 @@ managed.
 
 ## The records
 
-54 problem families, 1014 sub-problems, 933 still open.
+54 problem families, 1726 sub-problems, 1642 still open.
 `records/` holds today's snapshot of each family; the live files are at
 `https://minmaxarena.com/data/{slug}.json`, and the citable ones are the monthly frozen
 editions at `https://minmaxarena.com/data/editions/{YYYY-MM}/{slug}.json`, which never change
@@ -47,11 +47,11 @@ once published. Data is CC BY 4.0; see
 <!-- records:start -->
 | Code | Family | Sub-problems | Open | Data |
 | --- | --- | ---: | ---: | --- |
-| [P01](https://minmaxarena.com/en/problems/square-circle-packing) | Equal-circle packing in a unit square | 30 | 0 | [json](records/square-circle-packing.json) |
-| [P02](https://minmaxarena.com/en/problems/circle-circle-packing) | Equal-circle packing in a unit circle | 29 | 16 | [json](records/circle-circle-packing.json) |
+| [P01](https://minmaxarena.com/en/problems/square-circle-packing) | Equal-circle packing in a unit square | 300 | 269 | [json](records/square-circle-packing.json) |
+| [P02](https://minmaxarena.com/en/problems/circle-circle-packing) | Equal-circle packing in a unit circle | 300 | 286 | [json](records/circle-circle-packing.json) |
 | [P03](https://minmaxarena.com/en/problems/heilbronn-triangle) | Heilbronn minimum triangle area | 12 | 11 | [json](records/heilbronn-triangle.json) |
 | [P05](https://minmaxarena.com/en/problems/tilted-squares-in-circle) | Tilted equal squares in a circle | 12 | 11 | [json](records/tilted-squares-in-circle.json) |
-| [P06](https://minmaxarena.com/en/problems/graduated-circles-in-circle) | Packing circles of radius 1,2,…,n into a circle | 29 | 26 | [json](records/graduated-circles-in-circle.json) |
+| [P06](https://minmaxarena.com/en/problems/graduated-circles-in-circle) | Packing circles of radius 1,2,…,n into a circle | 200 | 196 | [json](records/graduated-circles-in-circle.json) |
 | [P08](https://minmaxarena.com/en/problems/circles-in-an-l) | Equal circles in an L | 15 | 14 | [json](records/circles-in-an-l.json) |
 | [P09](https://minmaxarena.com/en/problems/circles-in-a-semicircle) | Equal circles in a half-disc | 14 | 14 | [json](records/circles-in-a-semicircle.json) |
 | [P10](https://minmaxarena.com/en/problems/circles-in-a-cross) | Equal circles in a plus sign | 16 | 13 | [json](records/circles-in-a-cross.json) |
