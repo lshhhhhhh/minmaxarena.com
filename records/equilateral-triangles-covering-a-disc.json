@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/equilateral-triangles-covering-a-disc",
-  "generatedAt": "2026-09-03T09:56:28.015Z",
+  "generatedAt": "2026-09-05T09:09:51.778Z",
   "instances": [
     {
       "instanceId": "p78-n7-v1",
@@ -19,9 +19,9 @@
         "n": 7
       },
       "objective": "minimize",
-      "scoreStored": "1123076234",
-      "scoreDisplay": "1.123076234",
-      "status": "open",
+      "scoreStored": "1120813910",
+      "scoreDisplay": "1.12081391",
+      "status": "matched",
       "settled": false,
       "knownBest": {
         "display": "1.121076233183857",
@@ -37,53 +37,53 @@
         "source": "Maurizio Morandi's arrangement (July 2009), listed in Friedman's table only as the truncated r = 0.892+; as a common side s = 1/r the true value lies between 1.119820828667413 and 1.121076233183857, and the upper end is shown. Inside the window is level; only below its lower end is ahead. The site reconstructed the same contact topology from the public raster, and its nine-decimal certificate verifies at 1.137572952 without pretending to be unpublished source coordinates. Optimality is open",
         "url": "https://erich-friedman.github.io/packing/tricovcir/"
       },
-      "holder": "Sigmoid with Codex",
+      "holder": "Gaozx1",
       "method": "ai",
-      "recordedAt": "2026-09-03T03:30:35.731Z",
+      "recordedAt": "2026-09-05T06:30:08.656Z",
       "answer": {
-        "side": "1.123076234",
+        "side": "1.120813910",
         "triangles": [
           {
             "down": true,
-            "turn": "0.000000000",
-            "x": "0.892273034",
-            "y": "2.000772765"
+            "turn": "0.016712407",
+            "x": "0.865815983",
+            "y": "1.996167567"
           },
           {
             "down": true,
-            "turn": "0.000000000",
-            "x": "1.983019479",
-            "y": "1.906827845"
+            "turn": "0.016459136",
+            "x": "1.956723842",
+            "y": "1.936214641"
           },
           {
             "down": false,
-            "turn": "0.000000000",
-            "x": "1.410540397",
-            "y": "0.953213072"
+            "turn": "0.016458276",
+            "x": "1.416703375",
+            "y": "0.967736068"
           },
           {
             "down": true,
-            "turn": "0.000000000",
-            "x": "1.571460870",
-            "y": "0.962406574"
+            "turn": "0.016732310",
+            "x": "1.569028859",
+            "y": "0.973089181"
           },
           {
             "down": false,
-            "turn": "0.000000000",
-            "x": "0.376867183",
-            "y": "0.948256788"
+            "turn": "0.016725423",
+            "x": "0.382531383",
+            "y": "0.936131539"
           },
           {
             "down": true,
-            "turn": "0.000000000",
-            "x": "0.433847005",
-            "y": "0.953213072"
+            "turn": "0.016728434",
+            "x": "0.432349538",
+            "y": "0.937825087"
           },
           {
             "down": false,
-            "turn": "0.000000000",
-            "x": "1.006582698",
-            "y": "-0.000004706"
+            "turn": "0.016743742",
+            "x": "1.031904224",
+            "y": "-0.000418093"
           }
         ]
       }

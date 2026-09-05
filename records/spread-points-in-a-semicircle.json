@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/spread-points-in-a-semicircle",
-  "generatedAt": "2026-09-03T09:56:24.018Z",
+  "generatedAt": "2026-09-05T09:09:48.234Z",
   "instances": [
     {
       "instanceId": "p20-n4-v2",
@@ -21,9 +21,14 @@
       "objective": "maximize",
       "scoreStored": "1000000000000000000",
       "scoreDisplay": "1",
-      "status": "open",
-      "settled": false,
-      "knownBest": null,
+      "status": "proven",
+      "settled": true,
+      "knownBest": {
+        "display": "1",
+        "kind": "proven",
+        "source": "HwaterB #40's three-60-degree-sector proof, checked and formalized by MinMax Arena (2026). The four-point optimum is 1, attained by an exact finite-decimal construction",
+        "url": "https://minmaxarena.com/proofs/spread-points-in-a-semicircle-n4-n5"
+      },
       "holder": "HwaterB",
       "method": "human",
       "recordedAt": "2026-08-31T11:42:27.946Z",
@@ -59,7 +64,12 @@
       "scoreDisplay": "0.999999999",
       "status": "open",
       "settled": false,
-      "knownBest": null,
+      "knownBest": {
+        "display": "1",
+        "kind": "proven",
+        "source": "HwaterB #40's three-60-degree-sector proof, checked and formalized by MinMax Arena (2026). The five-point continuous optimum is 1; its unique attaining construction contains sqrt(3)/2, so finite-decimal certificates remain strictly below it",
+        "url": "https://minmaxarena.com/proofs/spread-points-in-a-semicircle-n4-n5"
+      },
       "holder": "HwaterB",
       "method": "human",
       "recordedAt": "2026-08-29T03:36:58.598Z",

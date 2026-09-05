@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/heilbronn-in-a-circle",
-  "generatedAt": "2026-09-03T09:56:24.196Z",
+  "generatedAt": "2026-09-05T09:09:48.407Z",
   "instances": [
     {
       "instanceId": "p22-n5-v2",
@@ -235,14 +235,18 @@
       "objective": "maximize",
       "scoreStored": "347527504841215585",
       "scoreDisplay": "0.1737637524206077925",
-      "status": "ahead",
+      "status": "matched",
       "settled": false,
       "knownBest": {
         "display": "0.1737637483372125",
         "kind": "best",
+        "range": {
+          "lower": "0.173763748337212",
+          "upper": "0.173763752508585"
+        },
         "precision": "rounded",
         "certificateDisplay": "0.1737637482434513",
-        "source": "Friedman/Cantrell's construction in MathWorld's public SVG; the unit-area-disc table value converts to 0.347527496674425 here. The nine-decimal certificate reconstructed from the figure reaches 0.3475274964869026; optimality open",
+        "source": "MathWorld gives 0.05531071895608711 for a unit-area disc; multiplication by pi converts to this radius-one disc. The comparison envelope spans the original publication and a precision reproduction of the same published configuration. Its upper end is not a newly published paper value. A local refinement of that configuration has fifteen-place coordinates checked by exact rational geometry, reaching the upper end to its rounding precision. Last-digit differences inside this source-reproduction envelope match the known configuration and earn no breakthrough points. Optimality remains open.",
         "url": "https://mathworld.wolfram.com/HeilbronnTriangleProblem.html"
       },
       "holder": "Sigmoid with Codex",
@@ -436,14 +440,18 @@
       "objective": "maximize",
       "scoreStored": "209830765519969087",
       "scoreDisplay": "0.1049153827599845435",
-      "status": "ahead",
+      "status": "matched",
       "settled": false,
       "knownBest": {
         "display": "0.104915382696099",
         "kind": "best",
+        "range": {
+          "lower": "0.104915382696098",
+          "upper": "0.104915382840488"
+        },
         "precision": "rounded",
         "certificateDisplay": "0.1049153825280730515",
-        "source": "Friedman/Cantrell's construction in MathWorld's public SVG; the unit-area-disc table value converts to 0.209830765392198 here. The nine-decimal certificate reconstructed from the figure reaches 0.209830765056146103; optimality open",
+        "source": "MathWorld gives 0.03339560352492413 for a unit-area disc; multiplication by pi converts to this radius-one disc. The comparison envelope spans the original publication and a precision reproduction of the same published configuration. Its upper end is not a newly published paper value. A local refinement of that configuration has fifteen-place coordinates checked by exact rational geometry, reaching the upper end to its rounding precision. Last-digit differences inside this source-reproduction envelope match the known configuration and earn no breakthrough points. Optimality remains open.",
         "url": "https://mathworld.wolfram.com/HeilbronnTriangleProblem.html"
       },
       "holder": "Sigmoid with Codex",

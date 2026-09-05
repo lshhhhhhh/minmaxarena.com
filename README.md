@@ -37,7 +37,7 @@ managed.
 
 ## The records
 
-54 problem families, 1726 sub-problems, 1642 still open.
+54 problem families, 1726 sub-problems, 1640 still open.
 `records/` holds today's snapshot of each family; the live files are at
 `https://minmaxarena.com/data/{slug}.json`, and the citable ones are the monthly frozen
 editions at `https://minmaxarena.com/data/editions/{YYYY-MM}/{slug}.json`, which never change
@@ -62,8 +62,8 @@ once published. Data is CC BY 4.0; see
 | [P17](https://minmaxarena.com/en/problems/spread-points-in-rectangle) | Spreading points in a rectangle | 17 | 17 | [json](records/spread-points-in-rectangle.json) |
 | [P18](https://minmaxarena.com/en/problems/tilted-squares-in-square) | Tilted equal squares in the unit square | 28 | 22 | [json](records/tilted-squares-in-square.json) |
 | [P19](https://minmaxarena.com/en/problems/spread-points-in-an-l) | Spreading points in an L | 17 | 16 | [json](records/spread-points-in-an-l.json) |
-| [P20](https://minmaxarena.com/en/problems/spread-points-in-a-semicircle) | Spreading points in a half-disc | 15 | 15 | [json](records/spread-points-in-a-semicircle.json) |
-| [P21](https://minmaxarena.com/en/problems/spread-points-in-a-cross) | Spreading points in a plus sign | 17 | 15 | [json](records/spread-points-in-a-cross.json) |
+| [P20](https://minmaxarena.com/en/problems/spread-points-in-a-semicircle) | Spreading points in a half-disc | 15 | 14 | [json](records/spread-points-in-a-semicircle.json) |
+| [P21](https://minmaxarena.com/en/problems/spread-points-in-a-cross) | Spreading points in a plus sign | 17 | 14 | [json](records/spread-points-in-a-cross.json) |
 | [P22](https://minmaxarena.com/en/problems/heilbronn-in-a-circle) | The smallest triangle in a disc | 10 | 10 | [json](records/heilbronn-in-a-circle.json) |
 | [P24](https://minmaxarena.com/en/problems/heilbronn-in-an-l) | The smallest triangle in an L | 10 | 10 | [json](records/heilbronn-in-an-l.json) |
 | [P25](https://minmaxarena.com/en/problems/heilbronn-in-a-cross) | The smallest triangle in a plus sign | 10 | 10 | [json](records/heilbronn-in-a-cross.json) |

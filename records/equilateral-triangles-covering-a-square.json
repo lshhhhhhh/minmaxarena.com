@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/equilateral-triangles-covering-a-square",
-  "generatedAt": "2026-09-03T09:56:27.824Z",
+  "generatedAt": "2026-09-05T09:09:51.603Z",
   "instances": [
     {
       "instanceId": "p76-n2-v1",
@@ -34,7 +34,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-02T00:02:59.133Z",
+      "recordedAt": "2026-09-05T05:28:17.614Z",
       "answer": {
         "side": "1.366025405",
         "triangles": [
@@ -75,7 +75,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-02T00:02:59.133Z",
+      "recordedAt": "2026-09-05T05:28:17.614Z",
       "answer": {
         "side": "1.077350270",
         "triangles": [
@@ -160,8 +160,8 @@
         "n": 5
       },
       "objective": "minimize",
-      "scoreStored": "803093852",
-      "scoreDisplay": "0.803093852",
+      "scoreStored": "803093851",
+      "scoreDisplay": "0.803093851",
       "status": "open",
       "settled": false,
       "knownBest": {
@@ -173,41 +173,41 @@
         "source": "David Cantrell's construction appears in Friedman's public table (July 2005). Rescaling the largest square covered by unit triangles gives common side (10√3 + 14) / 39 ≈ 0.803089950658687; optimality is open. The site's nine-decimal reconstruction of the source figure verifies at 0.804133275, with its gap from the published target explicitly preserved.",
         "url": "https://erich-friedman.github.io/packing/tricosqu/"
       },
-      "holder": "Sigmoid with Codex",
+      "holder": "邱仲普",
       "method": "ai",
-      "recordedAt": "2026-09-02T15:23:12.731Z",
+      "recordedAt": "2026-09-05T08:59:40.576Z",
       "answer": {
-        "side": "0.803093852",
+        "side": "0.803093851",
         "triangles": [
           {
-            "down": false,
-            "turn": "0.000000000",
-            "x": "0.830707665",
-            "y": "0.597757388"
-          },
-          {
             "down": true,
             "turn": "0.000000000",
-            "x": "0.943568465",
-            "y": "0.597757388"
-          },
-          {
-            "down": true,
-            "turn": "0.577350269",
-            "x": "0.284816648",
-            "y": "0.347749838"
+            "x": "0.830707664",
+            "y": "0.402242612"
           },
           {
             "down": false,
-            "turn": "0.577350269",
-            "x": "0.460622158",
+            "turn": "0.000000000",
+            "x": "0.943568464",
+            "y": "0.402242612"
+          },
+          {
+            "down": false,
+            "turn": "-0.577350269",
+            "x": "0.284816647",
             "y": "0.652250162"
           },
           {
-            "down": false,
-            "turn": "-1.000000000",
-            "x": "-0.000000002",
-            "y": "0.353024569"
+            "down": true,
+            "turn": "-0.577350269",
+            "x": "0.460622157",
+            "y": "0.347749838"
+          },
+          {
+            "down": true,
+            "turn": "0.999999997",
+            "x": "-0.000000003",
+            "y": "0.646975431"
           }
         ]
       }

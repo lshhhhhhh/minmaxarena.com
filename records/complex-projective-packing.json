@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/complex-projective-packing",
-  "generatedAt": "2026-09-04T09:44:36.859Z",
+  "generatedAt": "2026-09-05T09:09:50.363Z",
   "instances": [
     {
       "instanceId": "p61-d3-n5-v1",
@@ -22,17 +22,19 @@
       "objective": "minimize",
       "scoreStored": "188580484700719769",
       "scoreDisplay": "0.434258546",
-      "status": "open",
+      "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "0.4342585459106654",
+        "display": "0.43425855",
         "kind": "best",
         "range": {
-          "lower": "0.4342585459106654",
-          "upper": "0.4342585459106654"
+          "lower": "0.434258545",
+          "upper": "0.434258555"
         },
         "precision": "rounded",
         "certificateDisplay": "0.434258547",
+        "publishedDisplay": "0.43425855",
+        "publishedMetric": "source-published coherence μ (eight decimal places)",
         "source": "public vector file from the Game of Sloanes (maintained by Jasper, King and Mixon; recomputed exactly from the pinned 15-place coordinates, with the site's nine-place certificate listed separately)",
         "url": "https://github.com/gnikylime/GameofSloanes"
       },
@@ -124,17 +126,19 @@
       "objective": "minimize",
       "scoreStored": "250000000031228759",
       "scoreDisplay": "0.500000001",
-      "status": "open",
+      "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "0.5000000000000008",
+        "display": "0.50000000",
         "kind": "best",
         "range": {
-          "lower": "0.5000000000000008",
-          "upper": "0.5000000000000008"
+          "lower": "0.499999995",
+          "upper": "0.500000005"
         },
         "precision": "rounded",
         "certificateDisplay": "0.500000001",
+        "publishedDisplay": "0.50000000",
+        "publishedMetric": "source-published coherence μ (eight decimal places)",
         "source": "public vector file from the Game of Sloanes (maintained by Jasper, King and Mixon; recomputed exactly from the pinned 15-place coordinates, with the site's nine-place certificate listed separately)",
         "url": "https://github.com/gnikylime/GameofSloanes"
       },
@@ -268,17 +272,19 @@
       "objective": "minimize",
       "scoreStored": "387062998703201745",
       "scoreDisplay": "0.622143873",
-      "status": "ahead",
+      "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "0.6221438730000028",
+        "display": "0.62214387",
         "kind": "best",
         "range": {
-          "lower": "0.6221438730000028",
-          "upper": "0.6221438730000028"
+          "lower": "0.622143865",
+          "upper": "0.622143875"
         },
         "precision": "rounded",
         "certificateDisplay": "0.622143874",
+        "publishedDisplay": "0.62214387",
+        "publishedMetric": "source-published coherence μ (eight decimal places)",
         "source": "public vector file from the Game of Sloanes (maintained by Jasper, King and Mixon; recomputed exactly from the pinned 15-place coordinates, with the site's nine-place certificate listed separately)",
         "url": "https://github.com/gnikylime/GameofSloanes"
       },
@@ -482,17 +488,19 @@
       "objective": "minimize",
       "scoreStored": "406572677421720063",
       "scoreDisplay": "0.637630518",
-      "status": "ahead",
+      "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "0.6376305217559224",
+        "display": "0.63763052",
         "kind": "best",
         "range": {
-          "lower": "0.6376305217559224",
-          "upper": "0.6376305217559224"
+          "lower": "0.637630515",
+          "upper": "0.637630525"
         },
         "precision": "rounded",
         "certificateDisplay": "0.637630523",
+        "publishedDisplay": "0.63763052",
+        "publishedMetric": "source-published coherence μ (eight decimal places)",
         "source": "public vector file from the Game of Sloanes (maintained by Jasper, King and Mixon; recomputed exactly from the pinned 15-place coordinates, with the site's nine-place certificate listed separately)",
         "url": "https://github.com/gnikylime/GameofSloanes"
       },
@@ -710,17 +718,19 @@
       "objective": "minimize",
       "scoreStored": "410097050906617308",
       "scoreDisplay": "0.640388204",
-      "status": "open",
+      "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "0.6403882032022078",
+        "display": "0.64038820",
         "kind": "best",
         "range": {
-          "lower": "0.6403882032022077",
-          "upper": "0.6403882032022077"
+          "lower": "0.640388195",
+          "upper": "0.640388205"
         },
         "precision": "rounded",
         "certificateDisplay": "0.640388204",
+        "publishedDisplay": "0.64038820",
+        "publishedMetric": "source-published coherence μ (eight decimal places)",
         "source": "public vector file from the Game of Sloanes (maintained by Jasper, King and Mixon; recomputed exactly from the pinned 15-place coordinates, with the site's nine-place certificate listed separately)",
         "url": "https://github.com/gnikylime/GameofSloanes"
       },
@@ -952,17 +962,19 @@
       "objective": "minimize",
       "scoreStored": "419585861168155357",
       "scoreDisplay": "0.647754476",
-      "status": "open",
+      "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "0.6477544759252676",
+        "display": "0.64775448",
         "kind": "best",
         "range": {
-          "lower": "0.6477544759252676",
-          "upper": "0.6477544759252676"
+          "lower": "0.647754475",
+          "upper": "0.647754485"
         },
         "precision": "rounded",
         "certificateDisplay": "0.647754477",
+        "publishedDisplay": "0.64775448",
+        "publishedMetric": "source-published coherence μ (eight decimal places)",
         "source": "public vector file from the Game of Sloanes (maintained by Jasper, King and Mixon; recomputed exactly from the pinned 15-place coordinates, with the site's nine-place certificate listed separately)",
         "url": "https://github.com/gnikylime/GameofSloanes"
       },
@@ -1208,17 +1220,19 @@
       "objective": "minimize",
       "scoreStored": "107142857159140699",
       "scoreDisplay": "0.327326836",
-      "status": "open",
+      "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "0.3273268353539895",
+        "display": "0.32732684",
         "kind": "best",
         "range": {
-          "lower": "0.3273268353539895",
-          "upper": "0.3273268353539895"
+          "lower": "0.327326835",
+          "upper": "0.327326845"
         },
         "precision": "rounded",
         "certificateDisplay": "0.327326836",
+        "publishedDisplay": "0.32732684",
+        "publishedMetric": "source-published coherence μ (eight decimal places)",
         "source": "public vector file from the Game of Sloanes (maintained by Jasper, King and Mixon; recomputed exactly from the pinned 15-place coordinates, with the site's nine-place certificate listed separately)",
         "url": "https://github.com/gnikylime/GameofSloanes"
       },
@@ -1348,17 +1362,19 @@
       "objective": "minimize",
       "scoreStored": "161483519339731327",
       "scoreDisplay": "0.401850121",
-      "status": "open",
+      "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "0.4018501204262956",
+        "display": "0.40185012",
         "kind": "best",
         "range": {
-          "lower": "0.4018501204262956",
-          "upper": "0.4018501204262956"
+          "lower": "0.401850115",
+          "upper": "0.401850125"
         },
         "precision": "rounded",
         "certificateDisplay": "0.401850122",
+        "publishedDisplay": "0.40185012",
+        "publishedMetric": "source-published coherence μ (eight decimal places)",
         "source": "public vector file from the Game of Sloanes (maintained by Jasper, King and Mixon; recomputed exactly from the pinned 15-place coordinates, with the site's nine-place certificate listed separately)",
         "url": "https://github.com/gnikylime/GameofSloanes"
       },
@@ -1542,17 +1558,19 @@
       "objective": "minimize",
       "scoreStored": "168738660034692719",
       "scoreDisplay": "0.410778116",
-      "status": "open",
+      "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "0.4107781152614985",
+        "display": "0.41077812",
         "kind": "best",
         "range": {
-          "lower": "0.4107781152614985",
-          "upper": "0.4107781152614985"
+          "lower": "0.410778115",
+          "upper": "0.410778125"
         },
         "precision": "rounded",
         "certificateDisplay": "0.410778116",
+        "publishedDisplay": "0.41077812",
+        "publishedMetric": "source-published coherence μ (eight decimal places)",
         "source": "public vector file from the Game of Sloanes (maintained by Jasper, King and Mixon; recomputed exactly from the pinned 15-place coordinates, with the site's nine-place certificate listed separately)",
         "url": "https://github.com/gnikylime/GameofSloanes"
       },
@@ -1757,14 +1775,16 @@
       "status": "ahead",
       "settled": false,
       "knownBest": {
-        "display": "0.4251472722727735",
+        "display": "0.42514727",
         "kind": "best",
         "range": {
-          "lower": "0.4251472722727735",
-          "upper": "0.4251472722727735"
+          "lower": "0.425147265",
+          "upper": "0.425147275"
         },
         "precision": "rounded",
         "certificateDisplay": "0.425147273",
+        "publishedDisplay": "0.42514727",
+        "publishedMetric": "source-published coherence μ (eight decimal places)",
         "source": "public vector file from the Game of Sloanes (maintained by Jasper, King and Mixon; recomputed exactly from the pinned 15-place coordinates, with the site's nine-place certificate listed separately)",
         "url": "https://github.com/gnikylime/GameofSloanes"
       },
@@ -1984,17 +2004,19 @@
       "objective": "minimize",
       "scoreStored": "182963492392895484",
       "scoreDisplay": "0.427742321",
-      "status": "open",
+      "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "0.4277423199781709",
+        "display": "0.42774232",
         "kind": "best",
         "range": {
-          "lower": "0.4277423199781709",
-          "upper": "0.4277423199781709"
+          "lower": "0.427742315",
+          "upper": "0.427742325"
         },
         "precision": "rounded",
         "certificateDisplay": "0.427742321",
+        "publishedDisplay": "0.42774232",
+        "publishedMetric": "source-published coherence μ (eight decimal places)",
         "source": "public vector file from the Game of Sloanes (maintained by Jasper, King and Mixon; recomputed exactly from the pinned 15-place coordinates, with the site's nine-place certificate listed separately)",
         "url": "https://github.com/gnikylime/GameofSloanes"
       },
@@ -2232,17 +2254,19 @@
       "objective": "minimize",
       "scoreStored": "200000000116856584",
       "scoreDisplay": "0.447213596",
-      "status": "open",
+      "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "0.4472135954999581",
+        "display": "0.44721360",
         "kind": "best",
         "range": {
-          "lower": "0.4472135954999581",
-          "upper": "0.4472135954999581"
+          "lower": "0.447213595",
+          "upper": "0.447213605"
         },
         "precision": "rounded",
         "certificateDisplay": "0.447213597",
+        "publishedDisplay": "0.44721360",
+        "publishedMetric": "source-published coherence μ (eight decimal places)",
         "source": "public vector file from the Game of Sloanes (maintained by Jasper, King and Mixon; recomputed exactly from the pinned 15-place coordinates, with the site's nine-place certificate listed separately)",
         "url": "https://github.com/gnikylime/GameofSloanes"
       },
@@ -2514,25 +2538,27 @@
         "d": 4
       },
       "objective": "minimize",
-      "scoreStored": "200000000133168099",
+      "scoreStored": "200000000126076668",
       "scoreDisplay": "0.447213596",
-      "status": "open",
+      "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "0.4472135954999584",
+        "display": "0.44721360",
         "kind": "best",
         "range": {
-          "lower": "0.4472135954999584",
-          "upper": "0.4472135954999584"
+          "lower": "0.447213595",
+          "upper": "0.447213605"
         },
         "precision": "rounded",
         "certificateDisplay": "0.447213597",
+        "publishedDisplay": "0.44721360",
+        "publishedMetric": "source-published coherence μ (eight decimal places)",
         "source": "public vector file from the Game of Sloanes (maintained by Jasper, King and Mixon; recomputed exactly from the pinned 15-place coordinates, with the site's nine-place certificate listed separately)",
         "url": "https://github.com/gnikylime/GameofSloanes"
       },
       "holder": "Stonebubu",
       "method": "ai",
-      "recordedAt": "2026-09-02T15:50:21.808Z",
+      "recordedAt": "2026-09-04T12:19:21.724Z",
       "answer": {
         "vectors": [
           [
@@ -2573,20 +2599,20 @@
           ],
           [
             [
-              "0.855813764",
-              "0.055948004"
+              "0.855813799",
+              "0.055948006"
             ],
             [
-              "0.999498177",
-              "0.440848250"
+              "0.999498218",
+              "0.440848268"
             ],
             [
-              "0.196124945",
-              "-0.147129087"
+              "0.196124953",
+              "-0.147129093"
             ],
             [
-              "0.747191707",
-              "-0.096176415"
+              "0.747191737",
+              "-0.096176419"
             ]
           ],
           [
@@ -2681,20 +2707,20 @@
           ],
           [
             [
-              "0.308114925",
-              "0.621372806"
+              "0.308114617",
+              "0.621372185"
             ],
             [
-              "-0.999500196",
-              "0.618619082"
+              "-0.999499197",
+              "0.618618463"
             ],
             [
-              "-0.617982854",
-              "-0.536258303"
+              "-0.617982236",
+              "-0.536257767"
             ],
             [
-              "0.245092085",
-              "-0.337869164"
+              "0.245091840",
+              "-0.337868826"
             ]
           ],
           [
@@ -2717,20 +2743,20 @@
           ],
           [
             [
-              "0.999499420",
-              "0.363312343"
+              "0.999499321",
+              "0.363312307"
             ],
             [
-              "-0.371670860",
-              "0.040754428"
+              "-0.371670823",
+              "0.040754424"
             ],
             [
-              "-0.431312697",
-              "0.445854869"
+              "-0.431312654",
+              "0.445854825"
             ],
             [
-              "0.156800816",
-              "0.544454508"
+              "0.156800800",
+              "0.544454454"
             ]
           ],
           [
@@ -2771,38 +2797,38 @@
           ],
           [
             [
-              "0.274419109",
-              "-0.112420218"
+              "0.274419110",
+              "-0.112420219"
             ],
             [
-              "-0.567908804",
-              "0.999500211"
+              "-0.567908807",
+              "0.999500216"
             ],
             [
-              "0.830375662",
-              "-0.548292960"
+              "0.830375666",
+              "-0.548292963"
             ],
             [
-              "0.493354499",
-              "-0.365526231"
+              "0.493354502",
+              "-0.365526233"
             ]
           ],
           [
             [
-              "-0.329183952",
-              "0.123878001"
+              "-0.329184281",
+              "0.123878125"
             ],
             [
-              "-0.069732078",
-              "-0.195174675"
+              "-0.069732148",
+              "-0.195174870"
             ],
             [
-              "-0.747325500",
-              "-0.455684350"
+              "-0.747326247",
+              "-0.455684805"
             ],
             [
-              "0.195507265",
-              "-0.999499979"
+              "0.195507461",
+              "-0.999500978"
             ]
           ]
         ]
@@ -2818,17 +2844,19 @@
       "objective": "minimize",
       "scoreStored": "70945951695971390",
       "scoreDisplay": "0.266356813",
-      "status": "open",
+      "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "0.2663568127172826",
+        "display": "0.26635681",
         "kind": "best",
         "range": {
-          "lower": "0.2663568127172826",
-          "upper": "0.2663568127172826"
+          "lower": "0.266356805",
+          "upper": "0.266356815"
         },
         "precision": "rounded",
         "certificateDisplay": "0.266356814",
+        "publishedDisplay": "0.26635681",
+        "publishedMetric": "source-published coherence μ (eight decimal places)",
         "source": "public vector file from the Game of Sloanes (maintained by Jasper, King and Mixon; recomputed exactly from the pinned 15-place coordinates, with the site's nine-place certificate listed separately)",
         "url": "https://github.com/gnikylime/GameofSloanes"
       },
@@ -3004,17 +3032,19 @@
       "objective": "minimize",
       "scoreStored": "87147808447835563",
       "scoreDisplay": "0.295208077",
-      "status": "open",
+      "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "0.2952080764870312",
+        "display": "0.29520808",
         "kind": "best",
         "range": {
-          "lower": "0.2952080764870312",
-          "upper": "0.2952080764870312"
+          "lower": "0.295208075",
+          "upper": "0.295208085"
         },
         "precision": "rounded",
         "certificateDisplay": "0.295208078",
+        "publishedDisplay": "0.29520808",
+        "publishedMetric": "source-published coherence μ (eight decimal places)",
         "source": "public vector file from the Game of Sloanes (maintained by Jasper, King and Mixon; recomputed exactly from the pinned 15-place coordinates, with the site's nine-place certificate listed separately)",
         "url": "https://github.com/gnikylime/GameofSloanes"
       },
@@ -3212,17 +3242,19 @@
       "objective": "minimize",
       "scoreStored": "102474986293323425",
       "scoreDisplay": "0.320117145",
-      "status": "open",
+      "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "0.3201171445798154",
+        "display": "0.32011714",
         "kind": "best",
         "range": {
-          "lower": "0.3201171445798153",
-          "upper": "0.3201171445798153"
+          "lower": "0.320117135",
+          "upper": "0.320117145"
         },
         "precision": "rounded",
         "certificateDisplay": "0.320117146",
+        "publishedDisplay": "0.32011714",
+        "publishedMetric": "source-published coherence μ (eight decimal places)",
         "source": "public vector file from the Game of Sloanes (maintained by Jasper, King and Mixon; recomputed exactly from the pinned 15-place coordinates, with the site's nine-place certificate listed separately)",
         "url": "https://github.com/gnikylime/GameofSloanes"
       },
@@ -3442,17 +3474,19 @@
       "objective": "minimize",
       "scoreStored": "127727077038030222",
       "scoreDisplay": "0.357389252",
-      "status": "open",
+      "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "0.3573892513198877",
+        "display": "0.35738925",
         "kind": "best",
         "range": {
-          "lower": "0.3573892513198877",
-          "upper": "0.3573892513198877"
+          "lower": "0.357389245",
+          "upper": "0.357389255"
         },
         "precision": "rounded",
         "certificateDisplay": "0.357389253",
+        "publishedDisplay": "0.35738925",
+        "publishedMetric": "source-published coherence μ (eight decimal places)",
         "source": "public vector file from the Game of Sloanes (maintained by Jasper, King and Mixon; recomputed exactly from the pinned 15-place coordinates, with the site's nine-place certificate listed separately)",
         "url": "https://github.com/gnikylime/GameofSloanes"
       },
@@ -3738,17 +3772,19 @@
       "objective": "minimize",
       "scoreStored": "135131467459159083",
       "scoreDisplay": "0.367602323",
-      "status": "open",
+      "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "0.3676023223784953",
+        "display": "0.36760232",
         "kind": "best",
         "range": {
-          "lower": "0.3676023223784953",
-          "upper": "0.3676023223784953"
+          "lower": "0.367602315",
+          "upper": "0.367602325"
         },
         "precision": "rounded",
         "certificateDisplay": "0.367602324",
+        "publishedDisplay": "0.36760232",
+        "publishedMetric": "source-published coherence μ (eight decimal places)",
         "source": "public vector file from the Game of Sloanes (maintained by Jasper, King and Mixon; recomputed exactly from the pinned 15-place coordinates, with the site's nine-place certificate listed separately)",
         "url": "https://github.com/gnikylime/GameofSloanes"
       },
@@ -4056,17 +4092,19 @@
       "objective": "minimize",
       "scoreStored": "141131524232156545",
       "scoreDisplay": "0.375674759",
-      "status": "open",
+      "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "0.3756747584582507",
+        "display": "0.37567476",
         "kind": "best",
         "range": {
-          "lower": "0.3756747584582507",
-          "upper": "0.3756747584582507"
+          "lower": "0.375674755",
+          "upper": "0.375674765"
         },
         "precision": "rounded",
         "certificateDisplay": "0.37567476",
+        "publishedDisplay": "0.37567476",
+        "publishedMetric": "source-published coherence μ (eight decimal places)",
         "source": "public vector file from the Game of Sloanes (maintained by Jasper, King and Mixon; recomputed exactly from the pinned 15-place coordinates, with the site's nine-place certificate listed separately)",
         "url": "https://github.com/gnikylime/GameofSloanes"
       },
@@ -4396,17 +4434,19 @@
       "objective": "minimize",
       "scoreStored": "144351959063159361",
       "scoreDisplay": "0.379936783",
-      "status": "open",
+      "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "0.3799367828515092",
+        "display": "0.37993678",
         "kind": "best",
         "range": {
-          "lower": "0.3799367828515092",
-          "upper": "0.3799367828515092"
+          "lower": "0.379936775",
+          "upper": "0.379936785"
         },
         "precision": "rounded",
         "certificateDisplay": "0.379936784",
+        "publishedDisplay": "0.37993678",
+        "publishedMetric": "source-published coherence μ (eight decimal places)",
         "source": "public vector file from the Game of Sloanes (maintained by Jasper, King and Mixon; recomputed exactly from the pinned 15-place coordinates, with the site's nine-place certificate listed separately)",
         "url": "https://github.com/gnikylime/GameofSloanes"
       },
@@ -4758,17 +4798,19 @@
       "objective": "minimize",
       "scoreStored": "150616055113705633",
       "scoreDisplay": "0.388092844",
-      "status": "open",
+      "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "0.3880928432880965",
+        "display": "0.38809284",
         "kind": "best",
         "range": {
-          "lower": "0.3880928432880966",
-          "upper": "0.3880928432880966"
+          "lower": "0.388092835",
+          "upper": "0.388092845"
         },
         "precision": "rounded",
         "certificateDisplay": "0.388092845",
+        "publishedDisplay": "0.38809284",
+        "publishedMetric": "source-published coherence μ (eight decimal places)",
         "source": "public vector file from the Game of Sloanes (maintained by Jasper, King and Mixon; recomputed exactly from the pinned 15-place coordinates, with the site's nine-place certificate listed separately)",
         "url": "https://github.com/gnikylime/GameofSloanes"
       },
@@ -5142,17 +5184,19 @@
       "objective": "minimize",
       "scoreStored": "74094554841736537",
       "scoreDisplay": "0.27220315",
-      "status": "open",
+      "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "0.2722031498727669",
+        "display": "0.27220315",
         "kind": "best",
         "range": {
-          "lower": "0.2722031498727669",
-          "upper": "0.2722031498727669"
+          "lower": "0.272203145",
+          "upper": "0.272203155"
         },
         "precision": "rounded",
         "certificateDisplay": "0.272203152",
+        "publishedDisplay": "0.27220315",
+        "publishedMetric": "source-published coherence μ (eight decimal places)",
         "source": "public vector file from the Game of Sloanes (maintained by Jasper, King and Mixon; recomputed exactly from the pinned 15-place coordinates, with the site's nine-place certificate listed separately)",
         "url": "https://github.com/gnikylime/GameofSloanes"
       },
@@ -5434,17 +5478,19 @@
       "objective": "minimize",
       "scoreStored": "97234558201789492",
       "scoreDisplay": "0.311824564",
-      "status": "open",
+      "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "0.3118245630726633",
+        "display": "0.31182456",
         "kind": "best",
         "range": {
-          "lower": "0.3118245630726633",
-          "upper": "0.3118245630726633"
+          "lower": "0.311824555",
+          "upper": "0.311824565"
         },
         "precision": "rounded",
         "certificateDisplay": "0.311824565",
+        "publishedDisplay": "0.31182456",
+        "publishedMetric": "source-published coherence μ (eight decimal places)",
         "source": "public vector file from the Game of Sloanes (maintained by Jasper, King and Mixon; recomputed exactly from the pinned 15-place coordinates, with the site's nine-place certificate listed separately)",
         "url": "https://github.com/gnikylime/GameofSloanes"
       },
@@ -5804,17 +5850,19 @@
       "objective": "minimize",
       "scoreStored": "102602748546199326",
       "scoreDisplay": "0.320316638",
-      "status": "open",
+      "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "0.3203166378096779",
+        "display": "0.32031664",
         "kind": "best",
         "range": {
-          "lower": "0.3203166378096779",
-          "upper": "0.3203166378096779"
+          "lower": "0.320316635",
+          "upper": "0.320316645"
         },
         "precision": "rounded",
         "certificateDisplay": "0.320316639",
+        "publishedDisplay": "0.32031664",
+        "publishedMetric": "source-published coherence μ (eight decimal places)",
         "source": "public vector file from the Game of Sloanes (maintained by Jasper, King and Mixon; recomputed exactly from the pinned 15-place coordinates, with the site's nine-place certificate listed separately)",
         "url": "https://github.com/gnikylime/GameofSloanes"
       },
@@ -6200,17 +6248,19 @@
       "objective": "minimize",
       "scoreStored": "107188472843623834",
       "scoreDisplay": "0.327396508",
-      "status": "open",
+      "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "0.3273965069301427",
+        "display": "0.32739651",
         "kind": "best",
         "range": {
-          "lower": "0.3273965069301427",
-          "upper": "0.3273965069301427"
+          "lower": "0.327396505",
+          "upper": "0.327396515"
         },
         "precision": "rounded",
         "certificateDisplay": "0.327396508",
+        "publishedDisplay": "0.32739651",
+        "publishedMetric": "source-published coherence μ (eight decimal places)",
         "source": "public vector file from the Game of Sloanes (maintained by Jasper, King and Mixon; recomputed exactly from the pinned 15-place coordinates, with the site's nine-place certificate listed separately)",
         "url": "https://github.com/gnikylime/GameofSloanes"
       },

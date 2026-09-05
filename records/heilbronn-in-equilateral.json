@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/heilbronn-in-equilateral",
-  "generatedAt": "2026-09-02T09:43:41.663Z",
+  "generatedAt": "2026-09-05T09:09:50.068Z",
   "instances": [
     {
       "instanceId": "p58-n5-v1",
@@ -19,14 +19,14 @@
         "n": 5
       },
       "objective": "maximize",
-      "scoreStored": "148586468195301368",
-      "scoreDisplay": "0.074293234097650684",
+      "scoreStored": "148586468391918234",
+      "scoreDisplay": "0.074293234195959117",
       "status": "open",
       "settled": false,
       "knownBest": null,
-      "holder": "kmp",
-      "method": "human",
-      "recordedAt": "2026-08-27T10:00:54.220Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-05T07:51:42.944Z",
       "answer": {
         "points": [
           [
@@ -34,7 +34,7 @@
             "0.000000000"
           ],
           [
-            "0.585786438",
+            "0.585786439",
             "0.000000000"
           ],
           [
@@ -46,8 +46,8 @@
             "0.358719467"
           ],
           [
-            "0.378679656",
-            "0.358719467"
+            "0.378679657",
+            "0.358719468"
           ]
         ]
       }
@@ -59,31 +59,31 @@
         "n": 6
       },
       "objective": "maximize",
-      "scoreStored": "108253174891746825",
-      "scoreDisplay": "0.0541265874458734125",
+      "scoreStored": "108253175283493648",
+      "scoreDisplay": "0.054126587641746824",
       "status": "open",
       "settled": false,
       "knownBest": null,
-      "holder": "kmp",
+      "holder": "邱仲普",
       "method": "ai",
-      "recordedAt": "2026-08-27T10:03:38.062Z",
+      "recordedAt": "2026-09-05T07:52:32.262Z",
       "answer": {
         "points": [
           [
-            "0.250000000",
+            "0.250000001",
             "0.000000000"
           ],
           [
-            "0.750000000",
+            "0.749999999",
             "0.000000000"
           ],
           [
-            "0.187500000",
-            "0.324759526"
+            "0.186872777",
+            "0.323673144"
           ],
           [
             "0.874999999",
-            "0.216506351"
+            "0.216506352"
           ],
           [
             "0.500000000",
@@ -91,7 +91,7 @@
           ],
           [
             "0.500000000",
-            "0.433012701"
+            "0.433012700"
           ]
         ]
       }
@@ -103,14 +103,14 @@
         "n": 7
       },
       "objective": "maximize",
-      "scoreStored": "84196913671385361",
-      "scoreDisplay": "0.0420984568356926805",
+      "scoreStored": "84196913890883244",
+      "scoreDisplay": "0.042098456945441622",
       "status": "open",
       "settled": false,
       "knownBest": null,
-      "holder": "kmp",
+      "holder": "邱仲普",
       "method": "ai",
-      "recordedAt": "2026-08-27T10:05:50.438Z",
+      "recordedAt": "2026-09-05T07:53:20.484Z",
       "answer": {
         "points": [
           [
@@ -130,8 +130,8 @@
             "0.649519052"
           ],
           [
-            "0.874999999",
-            "0.216506351"
+            "0.875000000",
+            "0.216506350"
           ],
           [
             "0.583333333",
@@ -139,7 +139,7 @@
           ],
           [
             "0.500000000",
-            "0.288675135"
+            "0.288675134"
           ]
         ]
       }
@@ -335,7 +335,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-08-27T00:21:01.705Z",
+      "recordedAt": "2026-09-05T05:28:17.614Z",
       "answer": {
         "points": [
           [
