@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/unit-circles-in-minimum-area-triangle",
-  "generatedAt": "2026-09-05T09:09:50.844Z",
+  "generatedAt": "2026-09-06T09:31:14.132Z",
   "instances": [
     {
       "instanceId": "p66-n4-v1",
@@ -19,51 +19,56 @@
         "n": 4
       },
       "objective": "minimize",
-      "scoreStored": "38784609766389323972",
-      "scoreDisplay": "19.392304883194661986",
-      "status": "matched",
+      "scoreStored": "38784609700480358592",
+      "scoreDisplay": "19.392304850240179296",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "19.392304883194661986",
+        "display": "19.39230484541326376116467804903",
         "kind": "best",
+        "range": {
+          "lower": "19.392304845413263761164678049030",
+          "upper": "19.392304845413263761164678049036"
+        },
         "exact": "9 + 6√3",
-        "source": "David W. Cantrell configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
+        "certificateDisplay": "19.392304883194661986",
+        "source": "David W. Cantrell configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid. External comparisons use a rigorous rational enclosure of the continuous area 9 + 6√3, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-05T05:28:17.614Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-05T18:45:35.201Z",
       "answer": {
         "centers": [
           [
-            "1.000000001",
-            "1.000000001"
+            "1",
+            "1"
           ],
           [
-            "4.464101620",
-            "1.000000001"
+            "4.464101616",
+            "1"
           ],
           [
-            "2.732050810",
-            "2.000000002"
+            "2.732050808",
+            "2"
           ],
           [
-            "1.000000001",
-            "3.000000003"
+            "1",
+            "3"
           ]
         ],
         "triangle": [
           [
-            "0.000000000",
-            "0.000000000"
+            "0",
+            "0"
           ],
           [
-            "8.196152431",
-            "0.000000000"
+            "8.196152424",
+            "0"
           ],
           [
-            "0.000000000",
-            "4.732050812"
+            "0",
+            "4.732050808"
           ]
         ]
       }
@@ -75,33 +80,38 @@
         "n": 5
       },
       "objective": "minimize",
-      "scoreStored": "48248711332902014688",
-      "scoreDisplay": "24.124355666451007344",
-      "status": "matched",
+      "scoreStored": "48248711317973811456",
+      "scoreDisplay": "24.124355658986905728",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "24.124355666451007344",
+        "display": "24.124355652982141054692124390535",
         "kind": "best",
+        "range": {
+          "lower": "24.124355652982141054692124390535",
+          "upper": "24.124355652982141054692124390542"
+        },
         "exact": "12 + 7√3",
-        "source": "Friedman's current table says the best known construction for this row is equilateral; the standard triangular-lattice construction is generated and verified exactly on the nine-decimal grid here",
+        "certificateDisplay": "24.124355666451007344",
+        "source": "Friedman's current table says the best known construction for this row is equilateral; the standard triangular-lattice construction is generated and verified exactly on the nine-decimal grid here. External comparisons use a rigorous rational enclosure of the continuous area 12 + 7√3, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-05T05:28:17.614Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-05T18:52:16.228Z",
       "answer": {
         "centers": [
           [
             "1.732050808",
-            "1.000000000"
+            "1"
           ],
           [
             "3.732050808",
-            "1.000000000"
+            "1"
           ],
           [
             "5.732050808",
-            "1.000000000"
+            "1"
           ],
           [
             "2.732050808",
@@ -114,16 +124,16 @@
         ],
         "triangle": [
           [
-            "0.000000000",
-            "0.000000000"
+            "0",
+            "0"
           ],
           [
             "7.464101616",
-            "0.000000000"
+            "0"
           ],
           [
             "3.732050808",
-            "6.464101618"
+            "6.464101616"
           ]
         ]
       }
@@ -135,33 +145,38 @@
         "n": 6
       },
       "objective": "minimize",
-      "scoreStored": "48248711332902014688",
-      "scoreDisplay": "24.124355666451007344",
-      "status": "matched",
+      "scoreStored": "48248711325437913072",
+      "scoreDisplay": "24.124355662718956536",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "24.124355666451007344",
+        "display": "24.124355652982141054692124390535",
         "kind": "best",
+        "range": {
+          "lower": "24.124355652982141054692124390535",
+          "upper": "24.124355652982141054692124390542"
+        },
         "exact": "12 + 7√3",
-        "source": "Friedman's current table says the best known construction for this row is equilateral; the standard triangular-lattice construction is generated and verified exactly on the nine-decimal grid here",
+        "certificateDisplay": "24.124355666451007344",
+        "source": "Friedman's current table says the best known construction for this row is equilateral; the standard triangular-lattice construction is generated and verified exactly on the nine-decimal grid here. External comparisons use a rigorous rational enclosure of the continuous area 12 + 7√3, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-05T05:28:17.614Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-05T19:01:45.647Z",
       "answer": {
         "centers": [
           [
             "1.732050808",
-            "1.000000000"
+            "1"
           ],
           [
             "3.732050808",
-            "1.000000000"
+            "1"
           ],
           [
             "5.732050808",
-            "1.000000000"
+            "1"
           ],
           [
             "2.732050808",
@@ -178,16 +193,16 @@
         ],
         "triangle": [
           [
-            "0.000000000",
-            "0.000000000"
+            "0",
+            "0"
           ],
           [
             "7.464101616",
-            "0.000000000"
+            "0"
           ],
           [
             "3.732050808",
-            "6.464101618"
+            "6.464101617"
           ]
         ]
       }
@@ -199,19 +214,25 @@
         "n": 7
       },
       "objective": "minimize",
-      "scoreStored": "62424355423894401952",
-      "scoreDisplay": "31.212177711947200976",
+      "scoreStored": "62424355413541456188",
+      "scoreDisplay": "31.212177706770728094",
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "31.212177711947200976",
+        "display": "31.212",
         "kind": "best",
-        "source": "David W. Cantrell configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
+        "range": {
+          "lower": "31.212",
+          "upper": "31.213"
+        },
+        "truncated": true,
+        "certificateDisplay": "31.212177711947200976",
+        "source": "David W. Cantrell configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid. External comparisons use the publication interval of the table value 31.212+, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-05T05:28:17.614Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-05T19:11:07.649Z",
       "answer": {
         "centers": [
           [
@@ -245,16 +266,16 @@
         ],
         "triangle": [
           [
-            "0.000000000",
-            "0.000000000"
+            "0",
+            "0"
           ],
           [
             "10.352945764",
-            "0.000000000"
+            "0"
           ],
           [
             "5.176472882",
-            "6.029622568"
+            "6.029622567"
           ]
         ]
       }
@@ -271,14 +292,20 @@
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "35.9364228891812222",
+        "display": "35.936",
         "kind": "best",
-        "source": "David W. Cantrell configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
+        "range": {
+          "lower": "35.936",
+          "upper": "35.937"
+        },
+        "truncated": true,
+        "certificateDisplay": "35.9364228891812222",
+        "source": "David W. Cantrell configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid. External comparisons use the publication interval of the table value 35.936+, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-05T05:28:17.614Z",
+      "recordedAt": "2026-09-06T00:18:34.327Z",
       "answer": {
         "centers": [
           [
@@ -337,20 +364,25 @@
         "n": 9
       },
       "objective": "minimize",
-      "scoreStored": "77569219419888920416",
-      "scoreDisplay": "38.784609709944460208",
-      "status": "matched",
+      "scoreStored": "77569219400960717184",
+      "scoreDisplay": "38.784609700480358592",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "38.784609709944460208",
+        "display": "38.78460969082652752232935609806",
         "kind": "best",
+        "range": {
+          "lower": "38.784609690826527522329356098060",
+          "upper": "38.784609690826527522329356098072"
+        },
         "exact": "18 + 12√3",
-        "source": "Friedman's current table says the best known construction for this row is equilateral; the standard triangular-lattice construction is generated and verified exactly on the nine-decimal grid here",
+        "certificateDisplay": "38.784609709944460208",
+        "source": "Friedman's current table says the best known construction for this row is equilateral; the standard triangular-lattice construction is generated and verified exactly on the nine-decimal grid here. External comparisons use a rigorous rational enclosure of the continuous area 18 + 12√3, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-05T05:28:17.614Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-05T19:26:21.466Z",
       "answer": {
         "centers": [
           [
@@ -392,16 +424,16 @@
         ],
         "triangle": [
           [
-            "0.000000000",
-            "0.000000000"
+            "0",
+            "0"
           ],
           [
             "9.464101616",
-            "0.000000000"
+            "0"
           ],
           [
             "4.732050808",
-            "8.196152426"
+            "8.196152424"
           ]
         ]
       }
@@ -413,20 +445,25 @@
         "n": 10
       },
       "objective": "minimize",
-      "scoreStored": "77569219419888920416",
-      "scoreDisplay": "38.784609709944460208",
-      "status": "matched",
+      "scoreStored": "77569219410424818800",
+      "scoreDisplay": "38.7846097052124094",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "38.784609709944460208",
+        "display": "38.78460969082652752232935609806",
         "kind": "best",
+        "range": {
+          "lower": "38.784609690826527522329356098060",
+          "upper": "38.784609690826527522329356098072"
+        },
         "exact": "18 + 12√3",
-        "source": "Friedman's current table says the best known construction for this row is equilateral; the standard triangular-lattice construction is generated and verified exactly on the nine-decimal grid here",
+        "certificateDisplay": "38.784609709944460208",
+        "source": "Friedman's current table says the best known construction for this row is equilateral; the standard triangular-lattice construction is generated and verified exactly on the nine-decimal grid here. External comparisons use a rigorous rational enclosure of the continuous area 18 + 12√3, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-05T05:28:17.614Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-05T19:30:35.097Z",
       "answer": {
         "centers": [
           [
@@ -472,16 +509,16 @@
         ],
         "triangle": [
           [
-            "0.000000000",
-            "0.000000000"
+            "0",
+            "0"
           ],
           [
             "9.464101616",
-            "0.000000000"
+            "0"
           ],
           [
             "4.732050808",
-            "8.196152426"
+            "8.196152425"
           ]
         ]
       }
@@ -493,19 +530,25 @@
         "n": 11
       },
       "objective": "minimize",
-      "scoreStored": "94007090674027377469",
-      "scoreDisplay": "47.0035453370136887345",
+      "scoreStored": "94007090654164851520",
+      "scoreDisplay": "47.00354532708242576",
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "47.0035453370136887345",
+        "display": "47.003",
         "kind": "best",
-        "source": "David W. Cantrell configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
+        "range": {
+          "lower": "47.003",
+          "upper": "47.004"
+        },
+        "truncated": true,
+        "certificateDisplay": "47.0035453370136887345",
+        "source": "David W. Cantrell configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid. External comparisons use the publication interval of the table value 47.003+, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-05T05:28:17.614Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-05T19:49:01.881Z",
       "answer": {
         "centers": [
           [
@@ -555,16 +598,16 @@
         ],
         "triangle": [
           [
-            "0.000000000",
-            "0.000000000"
+            "0",
+            "0"
           ],
           [
-            "12.081354509",
-            "0.000000000"
+            "12.081354508",
+            "0"
           ],
           [
             "5.531884921",
-            "7.781171441"
+            "7.781171440"
           ]
         ]
       }
@@ -576,19 +619,25 @@
         "n": 12
       },
       "objective": "minimize",
-      "scoreStored": "102608042120791426652",
-      "scoreDisplay": "51.304021060395713326",
+      "scoreStored": "102608042107998693640",
+      "scoreDisplay": "51.30402105399934682",
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "51.304021060395713326",
+        "display": "51.304",
         "kind": "best",
-        "source": "David W. Cantrell configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
+        "range": {
+          "lower": "51.304",
+          "upper": "51.305"
+        },
+        "truncated": true,
+        "certificateDisplay": "51.304021060395713326",
+        "source": "David W. Cantrell configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid. External comparisons use the publication interval of the table value 51.304+, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-05T05:28:17.614Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-05T19:50:45.002Z",
       "answer": {
         "centers": [
           [
@@ -642,16 +691,16 @@
         ],
         "triangle": [
           [
-            "0.000000000",
-            "0.000000000"
+            "0",
+            "0"
           ],
           [
             "12.792733012",
-            "0.000000000"
+            "0"
           ],
           [
-            "5.761884973",
-            "8.020806971"
+            "5.761884972",
+            "8.020806970"
           ]
         ]
       }
@@ -663,19 +712,25 @@
         "n": 13
       },
       "objective": "minimize",
-      "scoreStored": "109789930742314004064",
-      "scoreDisplay": "54.894965371157002032",
+      "scoreStored": "109789930723897308192",
+      "scoreDisplay": "54.894965361948654096",
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "54.894965371157002032",
+        "display": "54.894",
         "kind": "best",
-        "source": "David W. Cantrell configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
+        "range": {
+          "lower": "54.894",
+          "upper": "54.895"
+        },
+        "truncated": true,
+        "certificateDisplay": "54.894965371157002032",
+        "source": "David W. Cantrell configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid. External comparisons use the publication interval of the table value 54.894+, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-05T05:28:17.614Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-05T20:29:51.347Z",
       "answer": {
         "centers": [
           [
@@ -733,12 +788,12 @@
         ],
         "triangle": [
           [
-            "0.000000000",
-            "0.000000000"
+            "0",
+            "0"
           ],
           [
-            "11.922869499",
-            "0.000000000"
+            "11.922869497",
+            "0"
           ],
           [
             "5.316442160",
@@ -754,20 +809,25 @@
         "n": 14
       },
       "objective": "minimize",
-      "scoreStored": "113817930738875826144",
-      "scoreDisplay": "56.908965369437913072",
-      "status": "matched",
+      "scoreStored": "113817930715947622912",
+      "scoreDisplay": "56.908965357973811456",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "56.908965369437913072",
+        "display": "56.908965343808668577021480488595",
         "kind": "best",
+        "range": {
+          "lower": "56.908965343808668577021480488595",
+          "upper": "56.908965343808668577021480488614"
+        },
         "exact": "24 + 19√3",
-        "source": "Friedman's current table says the best known construction for this row is equilateral; the standard triangular-lattice construction is generated and verified exactly on the nine-decimal grid here",
+        "certificateDisplay": "56.908965369437913072",
+        "source": "Friedman's current table says the best known construction for this row is equilateral; the standard triangular-lattice construction is generated and verified exactly on the nine-decimal grid here. External comparisons use a rigorous rational enclosure of the continuous area 24 + 19√3, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-05T05:28:17.614Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-05T20:34:28.454Z",
       "answer": {
         "centers": [
           [
@@ -838,7 +898,7 @@
           ],
           [
             "5.732050808",
-            "9.928203234"
+            "9.928203232"
           ]
         ]
       }
@@ -850,20 +910,25 @@
         "n": 15
       },
       "objective": "minimize",
-      "scoreStored": "113817930738875826144",
-      "scoreDisplay": "56.908965369437913072",
-      "status": "matched",
+      "scoreStored": "113817930727411724528",
+      "scoreDisplay": "56.908965363705862264",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "56.908965369437913072",
+        "display": "56.908965343808668577021480488595",
         "kind": "best",
+        "range": {
+          "lower": "56.908965343808668577021480488595",
+          "upper": "56.908965343808668577021480488614"
+        },
         "exact": "24 + 19√3",
-        "source": "Friedman's current table says the best known construction for this row is equilateral; the standard triangular-lattice construction is generated and verified exactly on the nine-decimal grid here",
+        "certificateDisplay": "56.908965369437913072",
+        "source": "Friedman's current table says the best known construction for this row is equilateral; the standard triangular-lattice construction is generated and verified exactly on the nine-decimal grid here. External comparisons use a rigorous rational enclosure of the continuous area 24 + 19√3, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-05T05:28:17.614Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-05T20:41:13.711Z",
       "answer": {
         "centers": [
           [
@@ -938,7 +1003,7 @@
           ],
           [
             "5.732050808",
-            "9.928203234"
+            "9.928203233"
           ]
         ]
       }
@@ -950,20 +1015,25 @@
         "n": 16
       },
       "objective": "minimize",
-      "scoreStored": "132066642252233625088",
-      "scoreDisplay": "66.033321126116812544",
-      "status": "matched",
+      "scoreStored": "132066642228377218605",
+      "scoreDisplay": "66.0333211141886093025",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "66.033321126116812544",
+        "display": "66.03332099679080963171360487913",
         "kind": "best",
+        "range": {
+          "lower": "66.033320996790809631713604879130",
+          "upper": "66.033320996790809631713604879156"
+        },
         "exact": "21 + 26√3",
-        "source": "David W. Cantrell configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
+        "certificateDisplay": "66.033321126116812544",
+        "source": "David W. Cantrell configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid. External comparisons use a rigorous rational enclosure of the continuous area 21 + 26√3, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-05T05:28:17.614Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-05T20:51:03.345Z",
       "answer": {
         "centers": [
           [
@@ -1037,12 +1107,12 @@
             "0.000000000"
           ],
           [
-            "15.124355668",
+            "15.124355667",
             "0.000000000"
           ],
           [
-            "0.000000000",
-            "8.732050816"
+            "0.000000001",
+            "8.732050815"
           ]
         ]
       }
@@ -1054,19 +1124,25 @@
         "n": 17
       },
       "objective": "minimize",
-      "scoreStored": "140550135265102913775",
-      "scoreDisplay": "70.2750676325514568875",
+      "scoreStored": "140550135236565287520",
+      "scoreDisplay": "70.27506761828264376",
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "70.2750676325514568875",
+        "display": "70.275",
         "kind": "best",
-        "source": "David W. Cantrell configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
+        "range": {
+          "lower": "70.275",
+          "upper": "70.276"
+        },
+        "truncated": true,
+        "certificateDisplay": "70.2750676325514568875",
+        "source": "David W. Cantrell configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid. External comparisons use the publication interval of the table value 70.275+, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-05T05:28:17.614Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-05T21:01:00.092Z",
       "answer": {
         "centers": [
           [
@@ -1144,11 +1220,11 @@
             "0.000000000"
           ],
           [
-            "14.775244515",
+            "14.775244512",
             "0.000000000"
           ],
           [
-            "6.766787267",
+            "6.766787268",
             "9.512542085"
           ]
         ]
@@ -1161,19 +1237,25 @@
         "n": 18
       },
       "objective": "minimize",
-      "scoreStored": "149606706153782253552",
-      "scoreDisplay": "74.803353076891126776",
+      "scoreStored": "149606706129186040536",
+      "scoreDisplay": "74.803353064593020268",
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "74.803353076891126776",
+        "display": "74.803",
         "kind": "best",
-        "source": "David W. Cantrell configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
+        "range": {
+          "lower": "74.803",
+          "upper": "74.804"
+        },
+        "truncated": true,
+        "certificateDisplay": "74.803353076891126776",
+        "source": "David W. Cantrell configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid. External comparisons use the publication interval of the table value 74.803+, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-05T05:28:17.614Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-05T21:10:58.573Z",
       "answer": {
         "centers": [
           [
@@ -1255,12 +1337,12 @@
             "0.000000000"
           ],
           [
-            "13.577449129",
+            "13.577449128",
             "0.000000000"
           ],
           [
             "6.361686297",
-            "11.018763888"
+            "11.018763887"
           ]
         ]
       }
@@ -1272,19 +1354,25 @@
         "n": 19
       },
       "objective": "minimize",
-      "scoreStored": "154692349569836526343",
-      "scoreDisplay": "77.3461747849182631715",
+      "scoreStored": "154692349544758548528",
+      "scoreDisplay": "77.346174772379274264",
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "77.3461747849182631715",
+        "display": "77.346",
         "kind": "best",
-        "source": "David W. Cantrell configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
+        "range": {
+          "lower": "77.346",
+          "upper": "77.347"
+        },
+        "truncated": true,
+        "certificateDisplay": "77.3461747849182631715",
+        "source": "David W. Cantrell configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid. External comparisons use the publication interval of the table value 77.346+, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-05T05:28:17.614Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-05T21:20:56.246Z",
       "answer": {
         "centers": [
           [
@@ -1370,12 +1458,12 @@
             "0.000000000"
           ],
           [
-            "14.130809647",
+            "14.130809646",
             "0.000000000"
           ],
           [
-            "6.810224500",
-            "10.947168169"
+            "6.810224501",
+            "10.947168168"
           ]
         ]
       }
@@ -1387,20 +1475,25 @@
         "n": 20
       },
       "objective": "minimize",
-      "scoreStored": "156994845289862731872",
-      "scoreDisplay": "78.497422644931365936",
-      "status": "matched",
+      "scoreStored": "156994845262934528640",
+      "scoreDisplay": "78.49742263146726432",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "78.497422644931365936",
+        "display": "78.49742261192856421876849756214",
         "kind": "best",
+        "range": {
+          "lower": "78.497422611928564218768497562140",
+          "upper": "78.497422611928564218768497562168"
+        },
         "exact": "30 + 28√3",
-        "source": "Friedman's current table says the best known construction for this row is equilateral; the standard triangular-lattice construction is generated and verified exactly on the nine-decimal grid here",
+        "certificateDisplay": "78.497422644931365936",
+        "source": "Friedman's current table says the best known construction for this row is equilateral; the standard triangular-lattice construction is generated and verified exactly on the nine-decimal grid here. External comparisons use a rigorous rational enclosure of the continuous area 30 + 28√3, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-05T05:28:17.614Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-05T21:30:54.125Z",
       "answer": {
         "centers": [
           [
@@ -1495,7 +1588,7 @@
           ],
           [
             "6.732050808",
-            "11.660254042"
+            "11.660254040"
           ]
         ]
       }
@@ -1507,20 +1600,25 @@
         "n": 21
       },
       "objective": "minimize",
-      "scoreStored": "156994845289862731872",
-      "scoreDisplay": "78.497422644931365936",
-      "status": "matched",
+      "scoreStored": "156994845276398630256",
+      "scoreDisplay": "78.497422638199315128",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "78.497422644931365936",
+        "display": "78.49742261192856421876849756214",
         "kind": "best",
+        "range": {
+          "lower": "78.497422611928564218768497562140",
+          "upper": "78.497422611928564218768497562168"
+        },
         "exact": "30 + 28√3",
-        "source": "Friedman's current table says the best known construction for this row is equilateral; the standard triangular-lattice construction is generated and verified exactly on the nine-decimal grid here",
+        "certificateDisplay": "78.497422644931365936",
+        "source": "Friedman's current table says the best known construction for this row is equilateral; the standard triangular-lattice construction is generated and verified exactly on the nine-decimal grid here. External comparisons use a rigorous rational enclosure of the continuous area 30 + 28√3, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-05T05:28:17.614Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-05T21:40:58.987Z",
       "answer": {
         "centers": [
           [
@@ -1619,7 +1717,7 @@
           ],
           [
             "6.732050808",
-            "11.660254042"
+            "11.660254041"
           ]
         ]
       }
@@ -1631,19 +1729,25 @@
         "n": 22
       },
       "objective": "minimize",
-      "scoreStored": "178255488635293544160",
-      "scoreDisplay": "89.12774431764677208",
+      "scoreStored": "178255488623851950896",
+      "scoreDisplay": "89.127744311925975448",
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "89.12774431764677208",
+        "display": "89.127",
         "kind": "best",
-        "source": "David W. Cantrell configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
+        "range": {
+          "lower": "89.127",
+          "upper": "89.128"
+        },
+        "truncated": true,
+        "certificateDisplay": "89.12774431764677208",
+        "source": "David W. Cantrell configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid. External comparisons use the publication interval of the table value 89.127+, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-05T05:28:17.614Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-05T21:50:58.349Z",
       "answer": {
         "centers": [
           [
@@ -1741,11 +1845,11 @@
             "0.000000000"
           ],
           [
-            "15.579603690",
+            "15.579603689",
             "0.000000000"
           ],
           [
-            "6.605806951",
+            "6.605806950",
             "11.441593264"
           ]
         ]
@@ -1758,19 +1862,25 @@
         "n": 23
       },
       "objective": "minimize",
-      "scoreStored": "185482761095717640468",
-      "scoreDisplay": "92.741380547858820234",
+      "scoreStored": "185482761081766521051",
+      "scoreDisplay": "92.7413805408832605255",
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "92.741380547858820234",
+        "display": "92.74138",
         "kind": "best",
-        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
+        "range": {
+          "lower": "92.74138",
+          "upper": "92.74139"
+        },
+        "truncated": true,
+        "certificateDisplay": "92.741380547858820234",
+        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid. External comparisons use the publication interval of the table value 92.74138+, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-05T05:28:17.614Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-05T22:00:50.798Z",
       "answer": {
         "centers": [
           [
@@ -1876,8 +1986,8 @@
             "0.000000000"
           ],
           [
-            "9.723626274",
-            "13.295188404"
+            "9.723626273",
+            "13.295188403"
           ]
         ]
       }
@@ -1889,20 +1999,25 @@
         "n": 24
       },
       "objective": "minimize",
-      "scoreStored": "192994845617100326778",
-      "scoreDisplay": "96.497422808550163389",
-      "status": "matched",
+      "scoreStored": "192994845587243920286",
+      "scoreDisplay": "96.497422793621960143",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "96.497422808550163389",
+        "display": "96.49742261192856421876849756214",
         "kind": "best",
+        "range": {
+          "lower": "96.497422611928564218768497562140",
+          "upper": "96.497422611928564218768497562168"
+        },
         "exact": "48 + 28√3",
-        "source": "Graham–Lubachevsky equilateral-triangle construction, still listed by Friedman's current table as best known among arbitrary triangles; public numerical data was recovered algebraically and quantized to the nine-decimal grid here",
+        "certificateDisplay": "96.497422808550163389",
+        "source": "Graham–Lubachevsky equilateral-triangle construction, still listed by Friedman's current table as best known among arbitrary triangles; public numerical data was recovered algebraically and quantized to the nine-decimal grid here. External comparisons use a rigorous rational enclosure of the continuous area 48 + 28√3, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-05T05:28:17.614Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-05T22:10:49.860Z",
       "answer": {
         "centers": [
           [
@@ -2013,7 +2128,7 @@
           ],
           [
             "7.464101623",
-            "12.928203243"
+            "12.928203241"
           ]
         ]
       }
@@ -2025,20 +2140,25 @@
         "n": 25
       },
       "objective": "minimize",
-      "scoreStored": "199492268232306410766",
-      "scoreDisplay": "99.746134116153205383",
-      "status": "matched",
+      "scoreStored": "199492268192253851845",
+      "scoreDisplay": "99.7461340961269259225",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "99.746134116153205383",
+        "display": "99.74613391789284632815274634321",
         "kind": "best",
+        "range": {
+          "lower": "99.746133917892846328152746343210",
+          "upper": "99.746133917892846328152746343252"
+        },
         "exact": "27 + 42√3",
-        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
+        "certificateDisplay": "99.746134116153205383",
+        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid. External comparisons use a rigorous rational enclosure of the continuous area 27 + 42√3, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-05T05:28:17.614Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-05T22:21:02.023Z",
       "answer": {
         "centers": [
           [
@@ -2148,12 +2268,12 @@
             "0.000000000"
           ],
           [
-            "18.588457287",
+            "18.588457285",
             "0.000000000"
           ],
           [
-            "0.000000000",
-            "10.732050818"
+            "0.000000001",
+            "10.732050817"
           ]
         ]
       }
@@ -2170,9 +2290,15 @@
       "status": "ahead",
       "settled": false,
       "knownBest": {
-        "display": "102.704871209199083931",
+        "display": "102.70487",
         "kind": "best",
-        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
+        "range": {
+          "lower": "102.70487",
+          "upper": "102.70488"
+        },
+        "truncated": true,
+        "certificateDisplay": "102.704871209199083931",
+        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid. External comparisons use the publication interval of the table value 102.70487+, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
       "holder": "Sigmoid with Codex",
@@ -2308,20 +2434,25 @@
         "n": 27
       },
       "objective": "minimize",
-      "scoreStored": "207099963072849637600",
-      "scoreDisplay": "103.5499815364248188",
-      "status": "matched",
+      "scoreStored": "207099963057385535984",
+      "scoreDisplay": "103.549981528692767992",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "103.5499815364248188",
+        "display": "103.549981495186214447570407318695",
         "kind": "best",
+        "range": {
+          "lower": "103.549981495186214447570407318695",
+          "upper": "103.549981495186214447570407318734"
+        },
         "exact": "36 + 39√3",
-        "source": "Friedman's current table says the best known construction for this row is equilateral; the standard triangular-lattice construction is generated and verified exactly on the nine-decimal grid here",
+        "certificateDisplay": "103.5499815364248188",
+        "source": "Friedman's current table says the best known construction for this row is equilateral; the standard triangular-lattice construction is generated and verified exactly on the nine-decimal grid here. External comparisons use a rigorous rational enclosure of the continuous area 36 + 39√3, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-05T05:28:17.614Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-05T22:40:58.277Z",
       "answer": {
         "centers": [
           [
@@ -2444,7 +2575,7 @@
           ],
           [
             "7.732050808",
-            "13.392304850"
+            "13.392304849"
           ]
         ]
       }
@@ -2456,20 +2587,25 @@
         "n": 28
       },
       "objective": "minimize",
-      "scoreStored": "207099963072849637600",
-      "scoreDisplay": "103.5499815364248188",
-      "status": "matched",
+      "scoreStored": "207099963057385535984",
+      "scoreDisplay": "103.549981528692767992",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "103.5499815364248188",
+        "display": "103.549981495186214447570407318695",
         "kind": "best",
+        "range": {
+          "lower": "103.549981495186214447570407318695",
+          "upper": "103.549981495186214447570407318734"
+        },
         "exact": "36 + 39√3",
-        "source": "Friedman's current table says the best known construction for this row is equilateral; the standard triangular-lattice construction is generated and verified exactly on the nine-decimal grid here",
+        "certificateDisplay": "103.5499815364248188",
+        "source": "Friedman's current table says the best known construction for this row is equilateral; the standard triangular-lattice construction is generated and verified exactly on the nine-decimal grid here. External comparisons use a rigorous rational enclosure of the continuous area 36 + 39√3, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-05T05:28:17.614Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-05T22:50:56.943Z",
       "answer": {
         "centers": [
           [
@@ -2596,7 +2732,7 @@
           ],
           [
             "7.732050808",
-            "13.392304850"
+            "13.392304849"
           ]
         ]
       }
@@ -2608,19 +2744,25 @@
         "n": 29
       },
       "objective": "minimize",
-      "scoreStored": "230584486304094041428",
-      "scoreDisplay": "115.292243152047020714",
+      "scoreStored": "230584486273624450978",
+      "scoreDisplay": "115.292243136812225489",
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "115.292243152047020714",
+        "display": "115.29224",
         "kind": "best",
-        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
+        "range": {
+          "lower": "115.29224",
+          "upper": "115.29225"
+        },
+        "truncated": true,
+        "certificateDisplay": "115.292243152047020714",
+        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid. External comparisons use the publication interval of the table value 115.29224+, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-05T05:28:17.614Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-05T23:00:50.758Z",
       "answer": {
         "centers": [
           [
@@ -2746,12 +2888,12 @@
             "0.000000000"
           ],
           [
-            "16.465445159",
+            "16.465445158",
             "0.000000000"
           ],
           [
             "10.421249699",
-            "14.004145292"
+            "14.004145291"
           ]
         ]
       }
@@ -2768,14 +2910,20 @@
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "118.8486224607823416365",
+        "display": "118.84862",
         "kind": "best",
-        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
+        "range": {
+          "lower": "118.84862",
+          "upper": "118.84863"
+        },
+        "truncated": true,
+        "certificateDisplay": "118.8486224607823416365",
+        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid. External comparisons use the publication interval of the table value 118.84862+, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-05T05:28:17.614Z",
+      "recordedAt": "2026-09-06T00:18:34.327Z",
       "answer": {
         "centers": [
           [
@@ -2922,19 +3070,25 @@
         "n": 31
       },
       "objective": "minimize",
-      "scoreStored": "245176089753123745041",
-      "scoreDisplay": "122.5880448765618725205",
+      "scoreStored": "245176089718740495255",
+      "scoreDisplay": "122.5880448593702476275",
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "122.5880448765618725205",
+        "display": "122.58804",
         "kind": "best",
-        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
+        "range": {
+          "lower": "122.58804",
+          "upper": "122.58805"
+        },
+        "truncated": true,
+        "certificateDisplay": "122.5880448765618725205",
+        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid. External comparisons use the publication interval of the table value 122.58804+, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-05T05:28:17.614Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-05T23:24:16.559Z",
       "answer": {
         "centers": [
           [
@@ -3073,7 +3227,7 @@
           ],
           [
             "12.067678623",
-            "14.261368037"
+            "14.261368035"
           ]
         ]
       }
@@ -3085,19 +3239,25 @@
         "n": 32
       },
       "objective": "minimize",
-      "scoreStored": "254149808358467543340",
-      "scoreDisplay": "127.07490417923377167",
+      "scoreStored": "254149808326484242128",
+      "scoreDisplay": "127.074904163242121064",
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "127.07490417923377167",
+        "display": "127.0749",
         "kind": "best",
-        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
+        "range": {
+          "lower": "127.07490",
+          "upper": "127.07491"
+        },
+        "truncated": true,
+        "certificateDisplay": "127.07490417923377167",
+        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid. External comparisons use the publication interval of the table value 127.07490+, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-05T05:28:17.614Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-05T23:55:19.783Z",
       "answer": {
         "centers": [
           [
@@ -3235,12 +3395,12 @@
             "0.000000000"
           ],
           [
-            "17.249855980",
+            "17.249855979",
             "0.000000000"
           ],
           [
             "6.612855755",
-            "14.733445233"
+            "14.733445232"
           ]
         ]
       }
@@ -3257,9 +3417,15 @@
       "status": "ahead",
       "settled": false,
       "knownBest": {
-        "display": "129.206351254338314956",
+        "display": "129.20635",
         "kind": "best",
-        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
+        "range": {
+          "lower": "129.20635",
+          "upper": "129.20636"
+        },
+        "truncated": true,
+        "certificateDisplay": "129.206351254338314956",
+        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid. External comparisons use the publication interval of the table value 129.20635+, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
       "holder": "Sigmoid with Codex",
@@ -3423,19 +3589,25 @@
         "n": 34
       },
       "objective": "minimize",
-      "scoreStored": "263171846107030995832",
-      "scoreDisplay": "131.585923053515497916",
+      "scoreStored": "263171846089302864590",
+      "scoreDisplay": "131.585923044651432295",
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "131.585923053515497916",
+        "display": "131.58592",
         "kind": "best",
-        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
+        "range": {
+          "lower": "131.58592",
+          "upper": "131.58593"
+        },
+        "truncated": true,
+        "certificateDisplay": "131.585923053515497916",
+        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid. External comparisons use the publication interval of the table value 131.58592+, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-05T05:28:17.614Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-06T00:00:49.797Z",
       "answer": {
         "centers": [
           [
@@ -3585,8 +3757,8 @@
             "0.000000000"
           ],
           [
-            "8.864057768",
-            "14.844872396"
+            "8.864057767",
+            "14.844872395"
           ]
         ]
       }
@@ -3598,20 +3770,25 @@
         "n": 35
       },
       "objective": "minimize",
-      "scoreStored": "264133284087836543328",
-      "scoreDisplay": "132.066642043918271664",
-      "status": "matched",
+      "scoreStored": "264133284070372441712",
+      "scoreDisplay": "132.066642035186220856",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "132.066642043918271664",
+        "display": "132.06664199358161926342720975826",
         "kind": "best",
+        "range": {
+          "lower": "132.066641993581619263427209758260",
+          "upper": "132.066641993581619263427209758312"
+        },
         "exact": "42 + 52√3",
-        "source": "Friedman's current table says the best known construction for this row is equilateral; the standard triangular-lattice construction is generated and verified exactly on the nine-decimal grid here",
+        "certificateDisplay": "132.066642043918271664",
+        "source": "Friedman's current table says the best known construction for this row is equilateral; the standard triangular-lattice construction is generated and verified exactly on the nine-decimal grid here. External comparisons use a rigorous rational enclosure of the continuous area 42 + 52√3, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-05T05:28:17.614Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-06T00:10:34.856Z",
       "answer": {
         "centers": [
           [
@@ -3766,7 +3943,7 @@
           ],
           [
             "8.732050808",
-            "15.124355658"
+            "15.124355657"
           ]
         ]
       }
@@ -3778,20 +3955,25 @@
         "n": 36
       },
       "objective": "minimize",
-      "scoreStored": "264133284087836543328",
-      "scoreDisplay": "132.066642043918271664",
-      "status": "matched",
+      "scoreStored": "264133284070372441712",
+      "scoreDisplay": "132.066642035186220856",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "132.066642043918271664",
+        "display": "132.06664199358161926342720975826",
         "kind": "best",
+        "range": {
+          "lower": "132.066641993581619263427209758260",
+          "upper": "132.066641993581619263427209758312"
+        },
         "exact": "42 + 52√3",
-        "source": "Friedman's current table says the best known construction for this row is equilateral; the standard triangular-lattice construction is generated and verified exactly on the nine-decimal grid here",
+        "certificateDisplay": "132.066642043918271664",
+        "source": "Friedman's current table says the best known construction for this row is equilateral; the standard triangular-lattice construction is generated and verified exactly on the nine-decimal grid here. External comparisons use a rigorous rational enclosure of the continuous area 42 + 52√3, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-05T05:28:17.614Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-06T00:20:31.854Z",
       "answer": {
         "centers": [
           [
@@ -3950,7 +4132,7 @@
           ],
           [
             "8.732050808",
-            "15.124355658"
+            "15.124355657"
           ]
         ]
       }
@@ -3967,9 +4149,15 @@
       "status": "ahead",
       "settled": false,
       "knownBest": {
-        "display": "144.936031294801118248",
+        "display": "144.93603",
         "kind": "best",
-        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
+        "range": {
+          "lower": "144.93603",
+          "upper": "144.93604"
+        },
+        "truncated": true,
+        "certificateDisplay": "144.936031294801118248",
+        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid. External comparisons use the publication interval of the table value 144.93603+, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
       "holder": "Sigmoid with Codex",
@@ -4154,9 +4342,15 @@
       "status": "ahead",
       "settled": false,
       "knownBest": {
-        "display": "148.371411296017511577",
+        "display": "148.37141",
         "kind": "best",
-        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
+        "range": {
+          "lower": "148.37141",
+          "upper": "148.37142"
+        },
+        "truncated": true,
+        "certificateDisplay": "148.371411296017511577",
+        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid. External comparisons use the publication interval of the table value 148.37141+, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
       "holder": "Sigmoid with Codex",
@@ -4345,9 +4539,15 @@
       "status": "ahead",
       "settled": false,
       "knownBest": {
-        "display": "151.83073130385406932",
+        "display": "151.83073",
         "kind": "best",
-        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
+        "range": {
+          "lower": "151.83073",
+          "upper": "151.83074"
+        },
+        "truncated": true,
+        "certificateDisplay": "151.83073130385406932",
+        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid. External comparisons use the publication interval of the table value 151.83073+, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
       "holder": "Sigmoid with Codex",
@@ -4535,20 +4735,25 @@
         "n": 40
       },
       "objective": "minimize",
-      "scoreStored": "310276878163899201500",
-      "scoreDisplay": "155.13843908194960075",
-      "status": "matched",
+      "scoreStored": "310276878126042795000",
+      "scoreDisplay": "155.1384390630213975",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "155.13843908194960075",
+        "display": "155.13843876330611008931742439224",
         "kind": "best",
+        "range": {
+          "lower": "155.138438763306110089317424392240",
+          "upper": "155.138438763306110089317424392288"
+        },
         "exact": "72 + 48√3",
-        "source": "Graham–Lubachevsky equilateral-triangle construction, still listed by Friedman's current table as best known among arbitrary triangles; public numerical data was recovered algebraically and quantized to the nine-decimal grid here",
+        "certificateDisplay": "155.13843908194960075",
+        "source": "Graham–Lubachevsky equilateral-triangle construction, still listed by Friedman's current table as best known among arbitrary triangles; public numerical data was recovered algebraically and quantized to the nine-decimal grid here. External comparisons use a rigorous rational enclosure of the continuous area 72 + 48√3, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-05T05:28:17.614Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-06T00:36:06.960Z",
       "answer": {
         "centers": [
           [
@@ -4723,7 +4928,7 @@
           ],
           [
             "9.464101625",
-            "16.392304862"
+            "16.392304860"
           ]
         ]
       }
@@ -4740,9 +4945,15 @@
       "status": "ahead",
       "settled": false,
       "knownBest": {
-        "display": "160.1105513263319162385",
+        "display": "160.11055",
         "kind": "best",
-        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
+        "range": {
+          "lower": "160.11055",
+          "upper": "160.11056"
+        },
+        "truncated": true,
+        "certificateDisplay": "160.1105513263319162385",
+        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid. External comparisons use the publication interval of the table value 160.11055+, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
       "holder": "Sigmoid with Codex",
@@ -4938,19 +5149,25 @@
         "n": 42
       },
       "objective": "minimize",
-      "scoreStored": "323774183277407798056",
-      "scoreDisplay": "161.887091638703899028",
+      "scoreStored": "323774183237487609714",
+      "scoreDisplay": "161.887091618743804857",
       "status": "matched",
       "settled": false,
       "knownBest": {
-        "display": "161.887091638703899028",
+        "display": "161.88709",
         "kind": "best",
-        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
+        "range": {
+          "lower": "161.88709",
+          "upper": "161.88710"
+        },
+        "truncated": true,
+        "certificateDisplay": "161.887091638703899028",
+        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid. External comparisons use the publication interval of the table value 161.88709+, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-05T05:28:17.614Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-06T00:40:35.909Z",
       "answer": {
         "centers": [
           [
@@ -5133,7 +5350,7 @@
           ],
           [
             "10.594852190",
-            "16.221074936"
+            "16.221074934"
           ]
         ]
       }
@@ -5150,9 +5367,15 @@
       "status": "ahead",
       "settled": false,
       "knownBest": {
-        "display": "163.719331331074244432",
+        "display": "163.71933",
         "kind": "best",
-        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
+        "range": {
+          "lower": "163.71933",
+          "upper": "163.71934"
+        },
+        "truncated": true,
+        "certificateDisplay": "163.719331331074244432",
+        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid. External comparisons use the publication interval of the table value 163.71933+, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
       "holder": "Sigmoid with Codex",
@@ -5356,20 +5579,25 @@
         "n": 44
       },
       "objective": "minimize",
-      "scoreStored": "328094808334823449056",
-      "scoreDisplay": "164.047404167411724528",
-      "status": "matched",
+      "scoreStored": "328094808315359347440",
+      "scoreDisplay": "164.04740415767967372",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "164.047404167411724528",
+        "display": "164.047404107114778666338904880835",
         "kind": "best",
+        "range": {
+          "lower": "164.047404107114778666338904880835",
+          "upper": "164.047404107114778666338904880902"
+        },
         "exact": "48 + 67√3",
-        "source": "Friedman's current table says the best known construction for this row is equilateral; the standard triangular-lattice construction is generated and verified exactly on the nine-decimal grid here",
+        "certificateDisplay": "164.047404167411724528",
+        "source": "Friedman's current table says the best known construction for this row is equilateral; the standard triangular-lattice construction is generated and verified exactly on the nine-decimal grid here. External comparisons use a rigorous rational enclosure of the continuous area 48 + 67√3, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-05T05:28:17.614Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-06T00:51:29.810Z",
       "answer": {
         "centers": [
           [
@@ -5560,7 +5788,7 @@
           ],
           [
             "9.732050808",
-            "16.856406466"
+            "16.856406465"
           ]
         ]
       }
@@ -5572,20 +5800,25 @@
         "n": 45
       },
       "objective": "minimize",
-      "scoreStored": "328094808334823449056",
-      "scoreDisplay": "164.047404167411724528",
-      "status": "matched",
+      "scoreStored": "328094808315359347440",
+      "scoreDisplay": "164.04740415767967372",
+      "status": "open",
       "settled": false,
       "knownBest": {
-        "display": "164.047404167411724528",
+        "display": "164.047404107114778666338904880835",
         "kind": "best",
+        "range": {
+          "lower": "164.047404107114778666338904880835",
+          "upper": "164.047404107114778666338904880902"
+        },
         "exact": "48 + 67√3",
-        "source": "Friedman's current table says the best known construction for this row is equilateral; the standard triangular-lattice construction is generated and verified exactly on the nine-decimal grid here",
+        "certificateDisplay": "164.047404167411724528",
+        "source": "Friedman's current table says the best known construction for this row is equilateral; the standard triangular-lattice construction is generated and verified exactly on the nine-decimal grid here. External comparisons use a rigorous rational enclosure of the continuous area 48 + 67√3, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-05T05:28:17.614Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-06T01:00:45.357Z",
       "answer": {
         "centers": [
           [
@@ -5780,7 +6013,7 @@
           ],
           [
             "9.732050808",
-            "16.856406466"
+            "16.856406465"
           ]
         ]
       }
@@ -5797,9 +6030,15 @@
       "status": "ahead",
       "settled": false,
       "knownBest": {
-        "display": "177.887371360134541611",
+        "display": "177.88737",
         "kind": "best",
-        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
+        "range": {
+          "lower": "177.88737",
+          "upper": "177.88738"
+        },
+        "truncated": true,
+        "certificateDisplay": "177.887371360134541611",
+        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid. External comparisons use the publication interval of the table value 177.88737+, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
       "holder": "Sigmoid with Codex",
@@ -6020,9 +6259,15 @@
       "status": "ahead",
       "settled": false,
       "knownBest": {
-        "display": "183.094231364901489952",
+        "display": "183.09423",
         "kind": "best",
-        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
+        "range": {
+          "lower": "183.09423",
+          "upper": "183.09424"
+        },
+        "truncated": true,
+        "certificateDisplay": "183.094231364901489952",
+        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid. External comparisons use the publication interval of the table value 183.09423+, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
       "holder": "Sigmoid with Codex",
@@ -6247,9 +6492,15 @@
       "status": "ahead",
       "settled": false,
       "knownBest": {
-        "display": "184.75052444774735425",
+        "display": "184.75052",
         "kind": "best",
-        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
+        "range": {
+          "lower": "184.75052",
+          "upper": "184.75053"
+        },
+        "truncated": true,
+        "certificateDisplay": "184.75052444774735425",
+        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid. External comparisons use the publication interval of the table value 184.75052+, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
       "holder": "Sigmoid with Codex",
@@ -6478,10 +6729,15 @@
       "status": "ahead",
       "settled": false,
       "knownBest": {
-        "display": "189.655099647113421046",
+        "display": "189.655099261701514905174226831805",
         "kind": "best",
+        "range": {
+          "lower": "189.655099261701514905174226831805",
+          "upper": "189.655099261701514905174226831866"
+        },
         "exact": "84 + 61√3",
-        "source": "Graham–Lubachevsky equilateral-triangle construction, still listed by Friedman's current table as best known among arbitrary triangles; public numerical data was recovered algebraically and quantized to the nine-decimal grid here",
+        "certificateDisplay": "189.655099647113421046",
+        "source": "Graham–Lubachevsky equilateral-triangle construction, still listed by Friedman's current table as best known among arbitrary triangles; public numerical data was recovered algebraically and quantized to the nine-decimal grid here. External comparisons use a rigorous rational enclosure of the continuous area 84 + 61√3, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
       "holder": "Sigmoid with Codex",
@@ -6714,9 +6970,15 @@
       "status": "ahead",
       "settled": false,
       "knownBest": {
-        "display": "194.498962963929252736",
+        "display": "194.49896",
         "kind": "best",
-        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid",
+        "range": {
+          "lower": "194.49896",
+          "upper": "194.49897"
+        },
+        "truncated": true,
+        "certificateDisplay": "194.498962963929252736",
+        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid. External comparisons use the publication interval of the table value 194.49896+, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
       "holder": "Sigmoid with Codex",

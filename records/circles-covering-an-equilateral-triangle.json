@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/circles-covering-an-equilateral-triangle",
-  "generatedAt": "2026-09-05T09:09:51.417Z",
+  "generatedAt": "2026-09-06T09:31:14.550Z",
   "instances": [
     {
       "instanceId": "p74-n7-v1",
@@ -19,8 +19,8 @@
         "n": 7
       },
       "objective": "minimize",
-      "scoreStored": "185251085806292000",
-      "scoreDisplay": "0.185251085806292",
+      "scoreStored": "185251085738487466",
+      "scoreDisplay": "0.185251085738488",
       "status": "open",
       "settled": false,
       "knownBest": {
@@ -31,9 +31,9 @@
         "source": "The construction by Hans Melissen appears in Figure 2 of Nurmela (2000); the paper's continuous value is 0.1852510855786008545. Optimality remains open; the site's nine-decimal reconstruction of the published contact graph verifies at 0.185251085806292.",
         "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-05T05:28:17.614Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-05T16:21:17.625Z",
       "answer": {
         "points": [
           [
@@ -53,7 +53,7 @@
             "0.078610217"
           ],
           [
-            "0.598648913",
+            "0.598648914",
             "0.518376123"
           ],
           [
@@ -88,7 +88,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-05T05:28:17.614Z",
+      "recordedAt": "2026-09-06T00:18:34.327Z",
       "answer": {
         "points": [
           [
@@ -133,9 +133,9 @@
         "n": 9
       },
       "objective": "minimize",
-      "scoreStored": "166666667608463871",
-      "scoreDisplay": "0.166666667608464",
-      "status": "proven",
+      "scoreStored": "166666667000000000",
+      "scoreDisplay": "0.166666667000000",
+      "status": "open",
       "settled": true,
       "knownBest": {
         "display": "0.166666667608464",
@@ -143,9 +143,9 @@
         "source": "The construction by Hans Melissen appears in Figure 2 of Nurmela (2000); the paper's continuous value is 0.1666666666666666667. The paper also reports this n as proved optimal; the site's nine-decimal reconstruction of the published contact graph verifies at 0.166666667608464.",
         "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-05T05:28:17.614Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-05T16:30:51.898Z",
       "answer": {
         "points": [
           [
@@ -166,7 +166,7 @@
           ],
           [
             "0.083333334",
-            "0.144337568"
+            "0.144337567"
           ],
           [
             "0.333333333",
@@ -194,9 +194,9 @@
         "n": 10
       },
       "objective": "minimize",
-      "scoreStored": "144337567736527419",
-      "scoreDisplay": "0.144337567736528",
-      "status": "proven",
+      "scoreStored": "144337567669540122",
+      "scoreDisplay": "0.144337567669541",
+      "status": "open",
       "settled": true,
       "knownBest": {
         "display": "0.144337567736528",
@@ -204,9 +204,9 @@
         "source": "The construction by Hans Melissen appears in Figure 2 of Nurmela (2000); the paper's continuous value is 0.1443375672974064411. The paper also reports this n as proved optimal; the site's nine-decimal reconstruction of the published contact graph verifies at 0.144337567736528.",
         "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-05T05:28:17.614Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-05T16:50:29.796Z",
       "answer": {
         "points": [
           [
@@ -230,7 +230,7 @@
             "0.288675135"
           ],
           [
-            "0.5",
+            "0.499999999",
             "0.721687837"
           ],
           [
@@ -259,8 +259,8 @@
         "n": 11
       },
       "objective": "minimize",
-      "scoreStored": "141054458266308372",
-      "scoreDisplay": "0.141054458266309",
+      "scoreStored": "141054458084902711",
+      "scoreDisplay": "0.141054458084903",
       "status": "open",
       "settled": false,
       "knownBest": {
@@ -271,9 +271,9 @@
         "source": "The construction by Hans Melissen appears in Figure 2 of Nurmela (2000); the paper's continuous value is 0.1410544578570137366. Optimality remains open; the site's nine-decimal reconstruction of the published contact graph verifies at 0.141054458266309.",
         "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-05T05:28:17.614Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-05T16:40:15.645Z",
       "answer": {
         "points": [
           [
@@ -318,7 +318,7 @@
           ],
           [
             "0.880048713",
-            "0.074216231"
+            "0.074216230"
           ]
         ]
       }
@@ -419,7 +419,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-05T05:28:17.614Z",
+      "recordedAt": "2026-09-06T00:18:34.327Z",
       "answer": {
         "points": [
           [
@@ -498,7 +498,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-05T05:28:17.614Z",
+      "recordedAt": "2026-09-06T00:18:34.327Z",
       "answer": {
         "points": [
           [
@@ -581,7 +581,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-05T05:28:17.614Z",
+      "recordedAt": "2026-09-06T00:18:34.327Z",
       "answer": {
         "points": [
           [
@@ -668,7 +668,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-05T05:28:17.614Z",
+      "recordedAt": "2026-09-06T00:18:34.327Z",
       "answer": {
         "points": [
           [
@@ -759,7 +759,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-05T05:28:17.614Z",
+      "recordedAt": "2026-09-06T00:18:34.327Z",
       "answer": {
         "points": [
           [
@@ -854,7 +854,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-05T05:28:17.614Z",
+      "recordedAt": "2026-09-06T00:18:34.327Z",
       "answer": {
         "points": [
           [
@@ -1163,7 +1163,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-05T05:28:17.614Z",
+      "recordedAt": "2026-09-06T00:18:34.327Z",
       "answer": {
         "points": [
           [
@@ -1274,7 +1274,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-05T05:28:17.614Z",
+      "recordedAt": "2026-09-06T00:18:34.327Z",
       "answer": {
         "points": [
           [
@@ -1508,7 +1508,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-05T05:28:17.614Z",
+      "recordedAt": "2026-09-06T00:18:34.327Z",
       "answer": {
         "points": [
           [
@@ -1631,7 +1631,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-05T05:28:17.614Z",
+      "recordedAt": "2026-09-06T00:18:34.327Z",
       "answer": {
         "points": [
           [
@@ -1889,7 +1889,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-05T05:28:17.614Z",
+      "recordedAt": "2026-09-06T00:18:34.327Z",
       "answer": {
         "points": [
           [
@@ -2024,7 +2024,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-05T05:28:17.614Z",
+      "recordedAt": "2026-09-06T00:18:34.327Z",
       "answer": {
         "points": [
           [
@@ -2163,7 +2163,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-05T05:28:17.614Z",
+      "recordedAt": "2026-09-06T00:18:34.327Z",
       "answer": {
         "points": [
           [
@@ -2306,7 +2306,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-05T05:28:17.614Z",
+      "recordedAt": "2026-09-06T00:18:34.327Z",
       "answer": {
         "points": [
           [
@@ -2453,7 +2453,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-05T05:28:17.614Z",
+      "recordedAt": "2026-09-06T00:18:34.327Z",
       "answer": {
         "points": [
           [
@@ -2604,7 +2604,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-05T05:28:17.614Z",
+      "recordedAt": "2026-09-06T00:18:34.327Z",
       "answer": {
         "points": [
           [
@@ -2918,7 +2918,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-05T05:28:17.614Z",
+      "recordedAt": "2026-09-06T00:18:34.327Z",
       "answer": {
         "points": [
           [
@@ -3248,7 +3248,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-05T05:28:17.614Z",
+      "recordedAt": "2026-09-06T00:18:34.327Z",
       "answer": {
         "points": [
           [

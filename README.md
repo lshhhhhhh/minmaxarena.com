@@ -37,7 +37,7 @@ managed.
 
 ## The records
 
-54 problem families, 1726 sub-problems, 1640 still open.
+55 problem families, 1734 sub-problems, 1650 still open.
 `records/` holds today's snapshot of each family; the live files are at
 `https://minmaxarena.com/data/{slug}.json`, and the citable ones are the monthly frozen
 editions at `https://minmaxarena.com/data/editions/{YYYY-MM}/{slug}.json`, which never change
@@ -96,11 +96,12 @@ once published. Data is CC BY 4.0; see
 | [P70](https://minmaxarena.com/en/problems/probe-codebook) | Four-phase radar probe codebook | 9 | 8 | [json](records/probe-codebook.json) |
 | [P72](https://minmaxarena.com/en/problems/heilbronn-tetrahedron) | Heilbronn minimum tetrahedron volume | 12 | 12 | [json](records/heilbronn-tetrahedron.json) |
 | [P73](https://minmaxarena.com/en/problems/circles-covering-a-square) | Covering a square with n equal discs | 31 | 29 | [json](records/circles-covering-a-square.json) |
-| [P74](https://minmaxarena.com/en/problems/circles-covering-an-equilateral-triangle) | Covering an equilateral triangle with n equal discs | 34 | 32 | [json](records/circles-covering-an-equilateral-triangle.json) |
+| [P74](https://minmaxarena.com/en/problems/circles-covering-an-equilateral-triangle) | Covering an equilateral triangle with n equal discs | 34 | 34 | [json](records/circles-covering-an-equilateral-triangle.json) |
 | [P75](https://minmaxarena.com/en/problems/circles-covering-a-regular-pentagon) | Covering a regular pentagon with n equal discs | 29 | 29 | [json](records/circles-covering-a-regular-pentagon.json) |
 | [P76](https://minmaxarena.com/en/problems/equilateral-triangles-covering-a-square) | Covering a square with n equilateral triangles | 11 | 11 | [json](records/equilateral-triangles-covering-a-square.json) |
 | [P77](https://minmaxarena.com/en/problems/equilateral-triangles-covering-an-equilateral-triangle) | Covering an equilateral triangle with n equilateral triangles | 10 | 9 | [json](records/equilateral-triangles-covering-an-equilateral-triangle.json) |
 | [P78](https://minmaxarena.com/en/problems/equilateral-triangles-covering-a-disc) | Covering a disc with n equilateral triangles | 12 | 12 | [json](records/equilateral-triangles-covering-a-disc.json) |
+| [P80](https://minmaxarena.com/en/problems/moving-sofa-hairpin) | The sofa in a hairpin | 8 | 8 | [json](records/moving-sofa-hairpin.json) |
 <!-- records:end -->
 
 ## Problems the catalogue no longer offers
