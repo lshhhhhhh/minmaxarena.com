@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/tilted-squares-in-circle",
-  "generatedAt": "2026-09-07T10:29:40.960Z",
+  "generatedAt": "2026-09-08T09:50:33.831Z",
   "instances": [
     {
       "instanceId": "p05-n3-v2",
@@ -23,6 +23,7 @@
       "scoreDisplay": "0.776114",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.776114",
         "kind": "best",
@@ -67,6 +68,7 @@
       "scoreDisplay": "0.707106781",
       "status": "proven",
       "settled": true,
+      "recordStatus": "optimal",
       "knownBest": {
         "display": "0.707106781",
         "kind": "proven",
@@ -76,7 +78,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "squares": [
           {
@@ -117,6 +119,7 @@
       "scoreDisplay": "0.632455532",
       "status": "matched",
       "settled": false,
+      "recordStatus": "matched",
       "knownBest": {
         "display": "0.632455532",
         "kind": "best",
@@ -126,7 +129,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "squares": [
           {
@@ -173,6 +176,7 @@
       "scoreDisplay": "0.592226563",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.592226563",
         "kind": "best",
@@ -238,6 +242,7 @@
       "scoreDisplay": "0.554700196",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.554700196",
         "kind": "best",
@@ -306,6 +311,7 @@
       "scoreDisplay": "0.505364219",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.505364222",
         "kind": "best",
@@ -383,6 +389,7 @@
       "scoreDisplay": "0.48132547",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.48132547",
         "kind": "best",
@@ -463,6 +470,7 @@
       "scoreDisplay": "0.47140452",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.47140452",
         "kind": "best",
@@ -549,6 +557,7 @@
       "scoreDisplay": "0.451698332",
       "status": "matched",
       "settled": false,
+      "recordStatus": "matched",
       "knownBest": {
         "display": "0.451699746",
         "kind": "best",
@@ -648,6 +657,7 @@
       "scoreDisplay": "0.447213595",
       "status": "matched",
       "settled": false,
+      "recordStatus": "matched",
       "knownBest": {
         "display": "0.447213595",
         "kind": "best",
@@ -657,7 +667,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "squares": [
           {
@@ -746,6 +756,7 @@
       "scoreDisplay": "0.423601738",
       "status": "matched",
       "settled": false,
+      "recordStatus": "matched",
       "knownBest": {
         "display": "0.423603168",
         "kind": "best",
@@ -857,6 +868,7 @@
       "scoreDisplay": "0.4",
       "status": "matched",
       "settled": false,
+      "recordStatus": "matched",
       "knownBest": {
         "display": "0.4",
         "kind": "best",
@@ -866,7 +878,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "squares": [
           {
@@ -952,6 +964,5100 @@
             "cy": "0.400000000",
             "ux": "0.200000000",
             "uy": "0.000000000"
+          }
+        ]
+      }
+    },
+    {
+      "instanceId": "p05-n15-v2",
+      "name": "n = 15",
+      "parameters": {
+        "n": 15
+      },
+      "objective": "maximize",
+      "scoreStored": "155839785393977360",
+      "scoreDisplay": "0.394765481",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "0.394788787",
+        "kind": "best",
+        "range": {
+          "lower": "0.3946329913180741",
+          "upper": "0.3947887879984209"
+        },
+        "truncated": true,
+        "certificateDisplay": "0.394765481",
+        "publishedDisplay": "2.533+",
+        "publishedMetric": "container radius for unit squares",
+        "source": "David W. Cantrell found the r = 2.533+ packing in June 2002 (radius of the smallest circle around unit squares). The site digitised the squares' positions and orientations from the public figure, solved that fixed separating-axis structure and repaired it inward to a nine-decimal certificate scoring 0.15583978539397736; the truncated source interval is compared separately from the certificate, and optimality is open",
+        "url": "https://erich-friedman.github.io/packing/squincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "answer": {
+        "squares": [
+          {
+            "cx": "1.314034654",
+            "cy": "1.141370769",
+            "ux": "0.147365504",
+            "uy": "0.131313955"
+          },
+          {
+            "cx": "0.693477165",
+            "cy": "1.157911098",
+            "ux": "0.147365507",
+            "uy": "0.131313952"
+          },
+          {
+            "cx": "1.292386316",
+            "cy": "1.672565023",
+            "ux": "0.147365507",
+            "uy": "0.131313951"
+          },
+          {
+            "cx": "0.217057921",
+            "cy": "1.001620045",
+            "ux": "0.197382319",
+            "uy": "-0.000408419"
+          },
+          {
+            "cx": "0.783456362",
+            "cy": "0.285597020",
+            "ux": "0.197364734",
+            "uy": "-0.002666152"
+          },
+          {
+            "cx": "1.178075666",
+            "cy": "0.272108831",
+            "ux": "0.197364734",
+            "uy": "-0.002666152"
+          },
+          {
+            "cx": "1.008449420",
+            "cy": "1.397823531",
+            "ux": "0.147365506",
+            "uy": "0.131313952"
+          },
+          {
+            "cx": "0.408860250",
+            "cy": "1.477319022",
+            "ux": "0.147365508",
+            "uy": "0.131313950"
+          },
+          {
+            "cx": "1.626350261",
+            "cy": "1.441399875",
+            "ux": "0.147365508",
+            "uy": "0.131313951"
+          },
+          {
+            "cx": "0.745821510",
+            "cy": "1.692554555",
+            "ux": "0.147365507",
+            "uy": "0.131313951"
+          },
+          {
+            "cx": "1.584692234",
+            "cy": "0.571093627",
+            "ux": "0.010598269",
+            "uy": "0.197098004"
+          },
+          {
+            "cx": "0.790035285",
+            "cy": "0.680309658",
+            "ux": "0.197364734",
+            "uy": "-0.002666153"
+          },
+          {
+            "cx": "1.185743062",
+            "cy": "0.666806770",
+            "ux": "0.197364734",
+            "uy": "-0.002666154"
+          },
+          {
+            "cx": "0.392959385",
+            "cy": "0.604244879",
+            "ux": "0.197364734",
+            "uy": "-0.002666151"
+          },
+          {
+            "cx": "1.781269883",
+            "cy": "0.955859125",
+            "ux": "0.010598267",
+            "uy": "0.197098004"
+          }
+        ]
+      }
+    },
+    {
+      "instanceId": "p05-n16-v2",
+      "name": "n = 16",
+      "parameters": {
+        "n": 16
+      },
+      "objective": "maximize",
+      "scoreStored": "145335604071926560",
+      "scoreDisplay": "0.38122907",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "0.38122911",
+        "kind": "best",
+        "exact": "40√11009/11009",
+        "precision": "rounded",
+        "certificateDisplay": "0.38122907",
+        "publishedDisplay": "√11009 / 40 = 2.623+",
+        "publishedMetric": "container radius for unit squares",
+        "source": "r = √11009 / 40, giving continuous score 1600/11009; found by Erich Friedman in 1997. The site digitised the squares' positions and orientations from the public figure, solved that fixed separating-axis structure and repaired it inward to a nine-decimal certificate scoring 0.14533560407192656; optimality open",
+        "url": "https://erich-friedman.github.io/packing/squincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "answer": {
+        "squares": [
+          {
+            "cx": "0.624076809",
+            "cy": "1.036823390",
+            "ux": "0.190568934",
+            "uy": "-0.004169239"
+          },
+          {
+            "cx": "1.388661169",
+            "cy": "1.020095989",
+            "ux": "0.190568935",
+            "uy": "-0.004169208"
+          },
+          {
+            "cx": "0.793379512",
+            "cy": "0.270478749",
+            "ux": "0.190568934",
+            "uy": "-0.004169243"
+          },
+          {
+            "cx": "1.017302283",
+            "cy": "1.790861159",
+            "ux": "0.190568934",
+            "uy": "-0.004169224"
+          },
+          {
+            "cx": "0.430608742",
+            "cy": "1.427282410",
+            "ux": "0.190610062",
+            "uy": "-0.001305871"
+          },
+          {
+            "cx": "0.816043388",
+            "cy": "1.413943923",
+            "ux": "0.190568934",
+            "uy": "-0.004169224"
+          },
+          {
+            "cx": "1.584883140",
+            "cy": "1.403196873",
+            "ux": "0.190614004",
+            "uy": "-0.000450150"
+          },
+          {
+            "cx": "0.236645435",
+            "cy": "1.015853437",
+            "ux": "0.190614113",
+            "uy": "-0.000401532"
+          },
+          {
+            "cx": "1.007046042",
+            "cy": "1.028444877",
+            "ux": "0.190568934",
+            "uy": "-0.004169222"
+          },
+          {
+            "cx": "1.773989750",
+            "cy": "1.012921532",
+            "ux": "0.190612067",
+            "uy": "-0.000970156"
+          },
+          {
+            "cx": "0.414387629",
+            "cy": "0.629213072",
+            "ux": "0.190612896",
+            "uy": "-0.000790554"
+          },
+          {
+            "cx": "0.800161962",
+            "cy": "0.651650689",
+            "ux": "0.190568934",
+            "uy": "-0.004169237"
+          },
+          {
+            "cx": "1.583486102",
+            "cy": "0.623643116",
+            "ux": "0.190613871",
+            "uy": "-0.000503282"
+          },
+          {
+            "cx": "1.174517448",
+            "cy": "0.262140299",
+            "ux": "0.190568935",
+            "uy": "-0.004169212"
+          },
+          {
+            "cx": "1.198594771",
+            "cy": "1.405574550",
+            "ux": "0.190568934",
+            "uy": "-0.004169223"
+          },
+          {
+            "cx": "1.192940650",
+            "cy": "0.643057575",
+            "ux": "0.190568935",
+            "uy": "-0.004169210"
+          }
+        ]
+      }
+    },
+    {
+      "instanceId": "p05-n17-v2",
+      "name": "n = 17",
+      "parameters": {
+        "n": 17
+      },
+      "objective": "maximize",
+      "scoreStored": "139554506980699732",
+      "scoreDisplay": "0.373569949",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "0.373570625",
+        "kind": "best",
+        "range": {
+          "lower": "0.3735692298496757",
+          "upper": "0.3735706253945840"
+        },
+        "truncated": true,
+        "certificateDisplay": "0.373569949",
+        "publishedDisplay": "2.67687+",
+        "publishedMetric": "container radius for unit squares",
+        "source": "Milan Kovacic found the r = 2.67687+ packing in May 2026 (radius of the smallest circle around unit squares). The site digitised the squares' positions and orientations from the public figure, solved that fixed separating-axis structure and repaired it inward to a nine-decimal certificate scoring 0.139554506980699732; the truncated source interval is compared separately from the certificate, and optimality is open",
+        "url": "https://erich-friedman.github.io/packing/squincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "answer": {
+        "squares": [
+          {
+            "cx": "1.226958937",
+            "cy": "0.270468569",
+            "ux": "0.186504578",
+            "uy": "0.010230797"
+          },
+          {
+            "cx": "0.957503999",
+            "cy": "1.779972864",
+            "ux": "0.186600182",
+            "uy": "-0.008306553"
+          },
+          {
+            "cx": "0.616803397",
+            "cy": "0.853425531",
+            "ux": "0.186600182",
+            "uy": "-0.008306561"
+          },
+          {
+            "cx": "1.034382299",
+            "cy": "1.385735795",
+            "ux": "0.186728624",
+            "uy": "0.004587808"
+          },
+          {
+            "cx": "1.590830298",
+            "cy": "0.559046560",
+            "ux": "0.186728625",
+            "uy": "0.004587763"
+          },
+          {
+            "cx": "0.836620534",
+            "cy": "0.244681856",
+            "ux": "0.186600183",
+            "uy": "-0.008306548"
+          },
+          {
+            "cx": "1.683876164",
+            "cy": "1.308698067",
+            "ux": "0.186728625",
+            "uy": "0.004587758"
+          },
+          {
+            "cx": "1.029057434",
+            "cy": "1.011922241",
+            "ux": "0.186728624",
+            "uy": "0.004587810"
+          },
+          {
+            "cx": "0.993580001",
+            "cy": "0.637367857",
+            "ux": "0.186728624",
+            "uy": "0.004587809"
+          },
+          {
+            "cx": "1.778255497",
+            "cy": "0.937334163",
+            "ux": "0.186728625",
+            "uy": "0.004587760"
+          },
+          {
+            "cx": "1.404798201",
+            "cy": "0.928158636",
+            "ux": "0.186728625",
+            "uy": "0.004587767"
+          },
+          {
+            "cx": "0.243603013",
+            "cy": "0.870038641",
+            "ux": "0.186600182",
+            "uy": "-0.008306560"
+          },
+          {
+            "cx": "0.575692109",
+            "cy": "1.603135466",
+            "ux": "0.186600183",
+            "uy": "-0.008306552"
+          },
+          {
+            "cx": "0.473417074",
+            "cy": "0.485868460",
+            "ux": "0.186600183",
+            "uy": "-0.008306547"
+          },
+          {
+            "cx": "1.392003827",
+            "cy": "1.692342065",
+            "ux": "0.092029877",
+            "uy": "0.162539622"
+          },
+          {
+            "cx": "0.278982995",
+            "cy": "1.242403614",
+            "ux": "0.186600182",
+            "uy": "-0.008306560"
+          },
+          {
+            "cx": "0.652183367",
+            "cy": "1.225790490",
+            "ux": "0.186600182",
+            "uy": "-0.008306561"
+          }
+        ]
+      }
+    },
+    {
+      "instanceId": "p05-n18-v2",
+      "name": "n = 18",
+      "parameters": {
+        "n": 18
+      },
+      "objective": "maximize",
+      "scoreStored": "133056056790360548",
+      "scoreDisplay": "0.364768497",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "0.364768602",
+        "kind": "best",
+        "exact": "8√481/481",
+        "precision": "rounded",
+        "certificateDisplay": "0.364768497",
+        "publishedDisplay": "√481 / 8 = 2.741+",
+        "publishedMetric": "container radius for unit squares",
+        "source": "r = √481 / 8, giving continuous score 64/481; found by David W. Cantrell in March 2002. The site digitised the squares' positions and orientations from the public figure, solved that fixed separating-axis structure and repaired it inward to a nine-decimal certificate scoring 0.133056056790360548; optimality open",
+        "url": "https://erich-friedman.github.io/packing/squincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "answer": {
+        "squares": [
+          {
+            "cx": "0.999916138",
+            "cy": "0.994899030",
+            "ux": "0.182363657",
+            "uy": "-0.002740639"
+          },
+          {
+            "cx": "0.828579020",
+            "cy": "1.729880122",
+            "ux": "0.182363657",
+            "uy": "-0.002740625"
+          },
+          {
+            "cx": "0.823089563",
+            "cy": "1.364606524",
+            "ux": "0.182363657",
+            "uy": "-0.002740624"
+          },
+          {
+            "cx": "0.635119879",
+            "cy": "0.995801389",
+            "ux": "0.182363657",
+            "uy": "-0.002740633"
+          },
+          {
+            "cx": "1.364669424",
+            "cy": "0.991137761",
+            "ux": "0.182363657",
+            "uy": "-0.002740644"
+          },
+          {
+            "cx": "0.267112400",
+            "cy": "0.783024050",
+            "ux": "0.182363657",
+            "uy": "-0.002740633"
+          },
+          {
+            "cx": "1.726021601",
+            "cy": "0.761066935",
+            "ux": "0.182363657",
+            "uy": "-0.002740641"
+          },
+          {
+            "cx": "0.994419463",
+            "cy": "0.629147472",
+            "ux": "0.182363657",
+            "uy": "-0.002740635"
+          },
+          {
+            "cx": "0.824572802",
+            "cy": "0.260952726",
+            "ux": "0.182384249",
+            "uy": "-0.000010458"
+          },
+          {
+            "cx": "1.193363259",
+            "cy": "1.728180202",
+            "ux": "0.182363657",
+            "uy": "-0.002740624"
+          },
+          {
+            "cx": "0.460460826",
+            "cy": "1.509737837",
+            "ux": "0.182363656",
+            "uy": "-0.002740654"
+          },
+          {
+            "cx": "1.554642619",
+            "cy": "1.493262076",
+            "ux": "0.182363657",
+            "uy": "-0.002740622"
+          },
+          {
+            "cx": "1.187861178",
+            "cy": "1.362066317",
+            "ux": "0.182363657",
+            "uy": "-0.002740623"
+          },
+          {
+            "cx": "0.272428588",
+            "cy": "1.147753944",
+            "ux": "0.182363656",
+            "uy": "-0.002740651"
+          },
+          {
+            "cx": "1.743828606",
+            "cy": "1.125609124",
+            "ux": "0.182363657",
+            "uy": "-0.002740639"
+          },
+          {
+            "cx": "0.629621256",
+            "cy": "0.629918956",
+            "ux": "0.182363657",
+            "uy": "-0.002740632"
+          },
+          {
+            "cx": "1.359159519",
+            "cy": "0.624506847",
+            "ux": "0.182363657",
+            "uy": "-0.002740636"
+          },
+          {
+            "cx": "1.191334196",
+            "cy": "0.256373691",
+            "ux": "0.182383887",
+            "uy": "-0.000363542"
+          }
+        ]
+      }
+    },
+    {
+      "instanceId": "p05-n19-v2",
+      "name": "n = 19",
+      "parameters": {
+        "n": 19
+      },
+      "objective": "maximize",
+      "scoreStored": "127414008330679360",
+      "scoreDisplay": "0.356950988",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "0.356951633",
+        "kind": "best",
+        "range": {
+          "lower": "0.3569503589135858",
+          "upper": "0.3569516330537213"
+        },
+        "truncated": true,
+        "certificateDisplay": "0.356950988",
+        "publishedDisplay": "2.80150+",
+        "publishedMetric": "container radius for unit squares",
+        "source": "Milan Kovacic found the r = 2.80150+ packing in May 2026 (radius of the smallest circle around unit squares). The site digitised the squares' positions and orientations from the public figure, solved that fixed separating-axis structure and repaired it inward to a nine-decimal certificate scoring 0.12741400833067936; the truncated source interval is compared separately from the certificate, and optimality is open",
+        "url": "https://erich-friedman.github.io/packing/squincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "answer": {
+        "squares": [
+          {
+            "cx": "0.689990833",
+            "cy": "1.693345408",
+            "ux": "0.178467092",
+            "uy": "-0.001731854"
+          },
+          {
+            "cx": "1.414126367",
+            "cy": "1.279093406",
+            "ux": "0.029306075",
+            "uy": "0.176052993"
+          },
+          {
+            "cx": "1.084897678",
+            "cy": "0.610171818",
+            "ux": "0.029306067",
+            "uy": "0.176052994"
+          },
+          {
+            "cx": "1.508266011",
+            "cy": "0.450320044",
+            "ux": "0.025777156",
+            "uy": "0.176604192"
+          },
+          {
+            "cx": "1.360804564",
+            "cy": "0.926106679",
+            "ux": "0.029306076",
+            "uy": "0.176052992"
+          },
+          {
+            "cx": "1.755699290",
+            "cy": "1.135671359",
+            "ux": "0.025777175",
+            "uy": "0.176604189"
+          },
+          {
+            "cx": "1.126700550",
+            "cy": "0.227347117",
+            "ux": "0.178467092",
+            "uy": "-0.001731838"
+          },
+          {
+            "cx": "1.062020276",
+            "cy": "1.337705568",
+            "ux": "0.029306072",
+            "uy": "0.176052993"
+          },
+          {
+            "cx": "1.008697878",
+            "cy": "0.984718934",
+            "ux": "0.029306073",
+            "uy": "0.176052993"
+          },
+          {
+            "cx": "0.702596510",
+            "cy": "0.622319395",
+            "ux": "0.178467092",
+            "uy": "-0.001731837"
+          },
+          {
+            "cx": "1.059013523",
+            "cy": "1.803304046",
+            "ux": "0.013076196",
+            "uy": "0.177995830"
+          },
+          {
+            "cx": "1.409766870",
+            "cy": "1.641681859",
+            "ux": "0.029306074",
+            "uy": "0.176052993"
+          },
+          {
+            "cx": "1.720918094",
+            "cy": "0.780014654",
+            "ux": "0.025777155",
+            "uy": "0.176604192"
+          },
+          {
+            "cx": "0.770095096",
+            "cy": "0.264696491",
+            "ux": "0.178467092",
+            "uy": "-0.001731839"
+          },
+          {
+            "cx": "0.322654995",
+            "cy": "1.339942155",
+            "ux": "0.178467092",
+            "uy": "-0.001731817"
+          },
+          {
+            "cx": "0.345662221",
+            "cy": "0.625783048",
+            "ux": "0.178467092",
+            "uy": "-0.001731836"
+          },
+          {
+            "cx": "0.679589322",
+            "cy": "1.336478468",
+            "ux": "0.001731852",
+            "uy": "0.178467092"
+          },
+          {
+            "cx": "0.204698583",
+            "cy": "0.984118865",
+            "ux": "0.178467092",
+            "uy": "-0.001731833"
+          },
+          {
+            "cx": "0.566150596",
+            "cy": "0.980611374",
+            "ux": "0.178467092",
+            "uy": "-0.001731848"
+          }
+        ]
+      }
+    },
+    {
+      "instanceId": "p05-n20-v2",
+      "name": "n = 20",
+      "parameters": {
+        "n": 20
+      },
+      "objective": "maximize",
+      "scoreStored": "119435778792790036",
+      "scoreDisplay": "0.345594818",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "0.345661942",
+        "kind": "best",
+        "range": {
+          "lower": "0.3455425017277125",
+          "upper": "0.3456619426201176"
+        },
+        "truncated": true,
+        "certificateDisplay": "0.345594818",
+        "publishedDisplay": "2.893+",
+        "publishedMetric": "container radius for unit squares",
+        "source": "David W. Cantrell found the r = 2.893+ packing in June 2002 (radius of the smallest circle around unit squares). The site digitised the squares' positions and orientations from the public figure, solved that fixed separating-axis structure and repaired it inward to a nine-decimal certificate scoring 0.119435778792790036; the truncated source interval is compared separately from the certificate, and optimality is open",
+        "url": "https://erich-friedman.github.io/packing/squincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "answer": {
+        "squares": [
+          {
+            "cx": "0.653263044",
+            "cy": "1.337136240",
+            "ux": "0.172792498",
+            "uy": "-0.001302903"
+          },
+          {
+            "cx": "0.998901095",
+            "cy": "1.341553184",
+            "ux": "0.172792498",
+            "uy": "-0.001302896"
+          },
+          {
+            "cx": "1.690036863",
+            "cy": "1.331775032",
+            "ux": "0.172792498",
+            "uy": "-0.001302909"
+          },
+          {
+            "cx": "0.650657224",
+            "cy": "0.991551128",
+            "ux": "0.172792498",
+            "uy": "-0.001302916"
+          },
+          {
+            "cx": "1.002527785",
+            "cy": "0.993123018",
+            "ux": "0.172789811",
+            "uy": "-0.001620535"
+          },
+          {
+            "cx": "1.695123619",
+            "cy": "0.986131952",
+            "ux": "0.172792497",
+            "uy": "-0.001302950"
+          },
+          {
+            "cx": "1.388133100",
+            "cy": "0.298614186",
+            "ux": "0.157226871",
+            "uy": "0.071684419"
+          },
+          {
+            "cx": "0.624103755",
+            "cy": "0.301175930",
+            "ux": "0.059253715",
+            "uy": "0.162320492"
+          },
+          {
+            "cx": "0.963763111",
+            "cy": "0.223809891",
+            "ux": "0.059253715",
+            "uy": "0.162320492"
+          },
+          {
+            "cx": "1.001511318",
+            "cy": "1.687723888",
+            "ux": "0.172792498",
+            "uy": "-0.001302904"
+          },
+          {
+            "cx": "1.344466364",
+            "cy": "1.336316490",
+            "ux": "0.172792498",
+            "uy": "-0.001302906"
+          },
+          {
+            "cx": "0.307601381",
+            "cy": "1.329588046",
+            "ux": "0.172792498",
+            "uy": "-0.001302905"
+          },
+          {
+            "cx": "1.348720146",
+            "cy": "0.988743903",
+            "ux": "0.172792498",
+            "uy": "-0.001302896"
+          },
+          {
+            "cx": "0.302373489",
+            "cy": "0.984022730",
+            "ux": "0.172792498",
+            "uy": "-0.001302909"
+          },
+          {
+            "cx": "0.831156770",
+            "cy": "0.644585322",
+            "ux": "0.172792498",
+            "uy": "-0.001302885"
+          },
+          {
+            "cx": "1.176760403",
+            "cy": "0.644435731",
+            "ux": "0.172792498",
+            "uy": "-0.001302850"
+          },
+          {
+            "cx": "1.674366085",
+            "cy": "0.640683718",
+            "ux": "0.172792498",
+            "uy": "-0.001302897"
+          },
+          {
+            "cx": "0.655868740",
+            "cy": "1.682721426",
+            "ux": "0.172792499",
+            "uy": "-0.001302777"
+          },
+          {
+            "cx": "1.347072527",
+            "cy": "1.681949642",
+            "ux": "0.172792498",
+            "uy": "-0.001302903"
+          },
+          {
+            "cx": "0.328147839",
+            "cy": "0.638223644",
+            "ux": "0.172792498",
+            "uy": "-0.001302911"
+          }
+        ]
+      }
+    },
+    {
+      "instanceId": "p05-n21-v2",
+      "name": "n = 21",
+      "parameters": {
+        "n": 21
+      },
+      "objective": "maximize",
+      "scoreStored": "117647050456019828",
+      "scoreDisplay": "0.342997158",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "0.34299717",
+        "kind": "best",
+        "exact": "√34/17",
+        "precision": "rounded",
+        "certificateDisplay": "0.342997158",
+        "publishedDisplay": "√34 / 2 = 2.915+",
+        "publishedMetric": "container radius for unit squares",
+        "source": "r = √34 / 2, giving continuous score 4/34; found by Erich Friedman in 1997. The site digitised the squares' positions and orientations from the public figure, solved that fixed separating-axis structure and repaired it inward to a nine-decimal certificate scoring 0.117647050456019828; optimality open",
+        "url": "https://erich-friedman.github.io/packing/squincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "answer": {
+        "squares": [
+          {
+            "cx": "1.006568186",
+            "cy": "1.690731137",
+            "ux": "0.171490826",
+            "uy": "-0.001630710"
+          },
+          {
+            "cx": "0.312285984",
+            "cy": "1.006539493",
+            "ux": "0.171490826",
+            "uy": "-0.001630717"
+          },
+          {
+            "cx": "0.999935306",
+            "cy": "0.993196327",
+            "ux": "0.171490826",
+            "uy": "-0.001630711"
+          },
+          {
+            "cx": "1.692370320",
+            "cy": "0.993416239",
+            "ux": "0.171490826",
+            "uy": "-0.001630710"
+          },
+          {
+            "cx": "0.993403607",
+            "cy": "0.306302566",
+            "ux": "0.171490826",
+            "uy": "-0.001630717"
+          },
+          {
+            "cx": "0.663541185",
+            "cy": "1.689224754",
+            "ux": "0.171490826",
+            "uy": "-0.001630712"
+          },
+          {
+            "cx": "1.349504507",
+            "cy": "1.682701908",
+            "ux": "0.171490826",
+            "uy": "-0.001630711"
+          },
+          {
+            "cx": "0.317298090",
+            "cy": "1.349504509",
+            "ux": "0.171490826",
+            "uy": "-0.001630718"
+          },
+          {
+            "cx": "1.003205695",
+            "cy": "1.337121088",
+            "ux": "0.171490826",
+            "uy": "-0.001630711"
+          },
+          {
+            "cx": "1.689224748",
+            "cy": "1.336458827",
+            "ux": "0.171490826",
+            "uy": "-0.001630709"
+          },
+          {
+            "cx": "0.657018339",
+            "cy": "1.003261424",
+            "ux": "0.171490826",
+            "uy": "-0.001630711"
+          },
+          {
+            "cx": "1.349102866",
+            "cy": "0.996680377",
+            "ux": "0.171490826",
+            "uy": "-0.001630710"
+          },
+          {
+            "cx": "0.310775250",
+            "cy": "0.663541180",
+            "ux": "0.171490826",
+            "uy": "-0.001630714"
+          },
+          {
+            "cx": "0.996669870",
+            "cy": "0.649791972",
+            "ux": "0.171490826",
+            "uy": "-0.001630717"
+          },
+          {
+            "cx": "1.682701911",
+            "cy": "0.650495497",
+            "ux": "0.171490826",
+            "uy": "-0.001630714"
+          },
+          {
+            "cx": "0.650495486",
+            "cy": "0.317298095",
+            "ux": "0.171490826",
+            "uy": "-0.001630715"
+          },
+          {
+            "cx": "1.336458814",
+            "cy": "0.310775249",
+            "ux": "0.171490826",
+            "uy": "-0.001630719"
+          },
+          {
+            "cx": "0.660279758",
+            "cy": "1.346243089",
+            "ux": "0.171490826",
+            "uy": "-0.001630714"
+          },
+          {
+            "cx": "1.346243085",
+            "cy": "1.339720246",
+            "ux": "0.171490826",
+            "uy": "-0.001630710"
+          },
+          {
+            "cx": "0.653756916",
+            "cy": "0.660279762",
+            "ux": "0.171490826",
+            "uy": "-0.001630711"
+          },
+          {
+            "cx": "1.339720251",
+            "cy": "0.653756916",
+            "ux": "0.171490826",
+            "uy": "-0.001630715"
+          }
+        ]
+      }
+    },
+    {
+      "instanceId": "p05-n22-v2",
+      "name": "n = 22",
+      "parameters": {
+        "n": 22
+      },
+      "objective": "maximize",
+      "scoreStored": "108749419743005248",
+      "scoreDisplay": "0.329771769",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "0.329772885",
+        "kind": "best",
+        "range": {
+          "lower": "0.3297717979158422",
+          "upper": "0.3297728854138156"
+        },
+        "truncated": true,
+        "certificateDisplay": "0.329771769",
+        "publishedDisplay": "3.03239+",
+        "publishedMetric": "container radius for unit squares",
+        "source": "Haowei Lin found the r = 3.03239+ packing in July 2026 (radius of the smallest circle around unit squares). The site digitised the squares' positions and orientations from the public figure, solved that fixed separating-axis structure and repaired it inward to a nine-decimal certificate scoring 0.108749419743005248; the truncated source interval is compared separately from the certificate, and optimality is open",
+        "url": "https://erich-friedman.github.io/packing/squincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "answer": {
+        "squares": [
+          {
+            "cx": "0.449828027",
+            "cy": "1.146977502",
+            "ux": "0.143726263",
+            "uy": "0.080809136"
+          },
+          {
+            "cx": "0.639626582",
+            "cy": "1.729570335",
+            "ux": "0.143726265",
+            "uy": "0.080809133"
+          },
+          {
+            "cx": "0.393850824",
+            "cy": "1.493826083",
+            "ux": "0.143726264",
+            "uy": "0.080809133"
+          },
+          {
+            "cx": "0.829163489",
+            "cy": "1.381608871",
+            "ux": "0.064233708",
+            "uy": "0.151859757"
+          },
+          {
+            "cx": "1.452868455",
+            "cy": "1.153230043",
+            "ux": "0.060206586",
+            "uy": "0.153500886"
+          },
+          {
+            "cx": "1.329428855",
+            "cy": "1.561195070",
+            "ux": "0.060206357",
+            "uy": "0.153500976"
+          },
+          {
+            "cx": "1.063310079",
+            "cy": "1.785842965",
+            "ux": "0.060206357",
+            "uy": "0.153500976"
+          },
+          {
+            "cx": "1.634622899",
+            "cy": "1.436172735",
+            "ux": "0.060206356",
+            "uy": "0.153500976"
+          },
+          {
+            "cx": "1.138899299",
+            "cy": "0.912671622",
+            "ux": "0.063871537",
+            "uy": "0.152012440"
+          },
+          {
+            "cx": "0.757238757",
+            "cy": "0.329246626",
+            "ux": "0.054654715",
+            "uy": "0.155564190"
+          },
+          {
+            "cx": "0.827773901",
+            "cy": "1.023515817",
+            "ux": "0.063871539",
+            "uy": "0.152012439"
+          },
+          {
+            "cx": "1.757293921",
+            "cy": "0.681805493",
+            "ux": "0.063871527",
+            "uy": "0.152012444"
+          },
+          {
+            "cx": "1.143378210",
+            "cy": "1.270606264",
+            "ux": "0.061328039",
+            "uy": "0.153056286"
+          },
+          {
+            "cx": "1.447892641",
+            "cy": "0.796753156",
+            "ux": "0.063871538",
+            "uy": "0.152012440"
+          },
+          {
+            "cx": "0.886950203",
+            "cy": "0.643023199",
+            "ux": "0.052560133",
+            "uy": "0.156284316"
+          },
+          {
+            "cx": "1.072352560",
+            "cy": "0.224562683",
+            "ux": "0.052534370",
+            "uy": "0.156292978"
+          },
+          {
+            "cx": "0.450083600",
+            "cy": "0.451402172",
+            "ux": "0.054220886",
+            "uy": "0.155715929"
+          },
+          {
+            "cx": "1.506703214",
+            "cy": "0.416772312",
+            "ux": "0.052560161",
+            "uy": "0.156284307"
+          },
+          {
+            "cx": "0.194168620",
+            "cy": "0.840696445",
+            "ux": "0.161755418",
+            "uy": "0.031977178"
+          },
+          {
+            "cx": "0.577772367",
+            "cy": "0.758226094",
+            "ux": "0.052560131",
+            "uy": "0.156284317"
+          },
+          {
+            "cx": "1.197298891",
+            "cy": "0.531301684",
+            "ux": "0.052560160",
+            "uy": "0.156284307"
+          },
+          {
+            "cx": "1.789452037",
+            "cy": "1.039745411",
+            "ux": "0.035985123",
+            "uy": "0.160911236"
+          }
+        ]
+      }
+    },
+    {
+      "instanceId": "p05-n23-v2",
+      "name": "n = 23",
+      "parameters": {
+        "n": 23
+      },
+      "objective": "maximize",
+      "scoreStored": "106282224999183140",
+      "scoreDisplay": "0.326009547",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "0.326011123",
+        "kind": "best",
+        "range": {
+          "lower": "0.3260100606704722",
+          "upper": "0.3260111234995339"
+        },
+        "truncated": true,
+        "certificateDisplay": "0.326009547",
+        "publishedDisplay": "3.06738+",
+        "publishedMetric": "container radius for unit squares",
+        "source": "Milan Kovacic found the r = 3.06738+ packing in May 2026 (radius of the smallest circle around unit squares). The site digitised the squares' positions and orientations from the public figure, solved that fixed separating-axis structure and repaired it inward to a nine-decimal certificate scoring 0.10628222499918314; the truncated source interval is compared separately from the certificate, and optimality is open",
+        "url": "https://erich-friedman.github.io/packing/squincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "answer": {
+        "squares": [
+          {
+            "cx": "1.333021036",
+            "cy": "1.706006008",
+            "ux": "0.162996773",
+            "uy": "-0.001615027"
+          },
+          {
+            "cx": "1.072427782",
+            "cy": "0.844866531",
+            "ux": "0.162996773",
+            "uy": "-0.001615052"
+          },
+          {
+            "cx": "0.681033881",
+            "cy": "1.712466228",
+            "ux": "0.162996773",
+            "uy": "-0.001615049"
+          },
+          {
+            "cx": "1.004930337",
+            "cy": "1.497586477",
+            "ux": "0.162996773",
+            "uy": "-0.001615052"
+          },
+          {
+            "cx": "1.023208928",
+            "cy": "1.171379795",
+            "ux": "0.162996773",
+            "uy": "-0.001615050"
+          },
+          {
+            "cx": "0.243584896",
+            "cy": "0.771885730",
+            "ux": "0.162996752",
+            "uy": "-0.001617199"
+          },
+          {
+            "cx": "1.814139140",
+            "cy": "1.058380487",
+            "ux": "0.162985507",
+            "uy": "0.002506144"
+          },
+          {
+            "cx": "0.696082374",
+            "cy": "1.060265967",
+            "ux": "0.162996773",
+            "uy": "-0.001615047"
+          },
+          {
+            "cx": "1.413250369",
+            "cy": "1.051074187",
+            "ux": "0.162985508",
+            "uy": "0.002506137"
+          },
+          {
+            "cx": "0.886860900",
+            "cy": "0.521086230",
+            "ux": "0.036119824",
+            "uy": "0.158952555"
+          },
+          {
+            "cx": "1.469458172",
+            "cy": "0.376336247",
+            "ux": "0.159272256",
+            "uy": "0.034682919"
+          },
+          {
+            "cx": "0.788947737",
+            "cy": "0.209015059",
+            "ux": "0.036119825",
+            "uy": "0.158952555"
+          },
+          {
+            "cx": "0.499106943",
+            "cy": "0.404757479",
+            "ux": "0.036119825",
+            "uy": "0.158952555"
+          },
+          {
+            "cx": "0.597020105",
+            "cy": "0.716828655",
+            "ux": "0.036119824",
+            "uy": "0.158952555"
+          },
+          {
+            "cx": "1.741521641",
+            "cy": "0.723234384",
+            "ux": "0.011546091",
+            "uy": "0.162595339"
+          },
+          {
+            "cx": "1.175244097",
+            "cy": "0.195239101",
+            "ux": "0.159272255",
+            "uy": "0.034682923"
+          },
+          {
+            "cx": "1.350177628",
+            "cy": "1.376152462",
+            "ux": "0.162985508",
+            "uy": "0.002506137"
+          },
+          {
+            "cx": "1.401333090",
+            "cy": "0.724842833",
+            "ux": "0.162985508",
+            "uy": "0.002506137"
+          },
+          {
+            "cx": "1.676131126",
+            "cy": "1.382306527",
+            "ux": "0.162985507",
+            "uy": "0.002506144"
+          },
+          {
+            "cx": "0.352136504",
+            "cy": "1.422860031",
+            "ux": "0.162996751",
+            "uy": "-0.001617275"
+          },
+          {
+            "cx": "1.008160427",
+            "cy": "1.823580057",
+            "ux": "0.162996773",
+            "uy": "-0.001615048"
+          },
+          {
+            "cx": "0.677803778",
+            "cy": "1.386472653",
+            "ux": "0.162996773",
+            "uy": "-0.001615047"
+          },
+          {
+            "cx": "0.223928928",
+            "cy": "1.098106445",
+            "ux": "0.162996751",
+            "uy": "-0.001617270"
+          }
+        ]
+      }
+    },
+    {
+      "instanceId": "p05-n24-v2",
+      "name": "n = 24",
+      "parameters": {
+        "n": 24
+      },
+      "objective": "maximize",
+      "scoreStored": "103412218420073488",
+      "scoreDisplay": "0.321577701",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "0.321605454",
+        "kind": "best",
+        "range": {
+          "lower": "0.3216044201311502",
+          "upper": "0.3216054544285072"
+        },
+        "truncated": true,
+        "certificateDisplay": "0.321577701",
+        "publishedDisplay": "3.10940+",
+        "publishedMetric": "container radius for unit squares",
+        "source": "Milan Kovacic found the r = 3.10940+ packing in May 2026 (radius of the smallest circle around unit squares). The site digitised the squares' positions and orientations from the public figure, solved that fixed separating-axis structure and repaired it inward to a nine-decimal certificate scoring 0.103412218420073488; the truncated source interval is compared separately from the certificate, and optimality is open",
+        "url": "https://erich-friedman.github.io/packing/squincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "answer": {
+        "squares": [
+          {
+            "cx": "1.473650212",
+            "cy": "1.612334197",
+            "ux": "0.160786757",
+            "uy": "-0.000820710"
+          },
+          {
+            "cx": "0.416769884",
+            "cy": "1.505560020",
+            "ux": "0.160188397",
+            "uy": "0.013882807"
+          },
+          {
+            "cx": "0.537579157",
+            "cy": "1.141194348",
+            "ux": "0.160786756",
+            "uy": "-0.000820856"
+          },
+          {
+            "cx": "0.854767970",
+            "cy": "0.817991518",
+            "ux": "0.160786764",
+            "uy": "-0.000819271"
+          },
+          {
+            "cx": "1.152968843",
+            "cy": "1.788758945",
+            "ux": "0.160786757",
+            "uy": "-0.000820708"
+          },
+          {
+            "cx": "1.693337639",
+            "cy": "0.640723703",
+            "ux": "-0.000000249",
+            "uy": "0.160788851"
+          },
+          {
+            "cx": "0.425342833",
+            "cy": "0.475699178",
+            "ux": "0.046162351",
+            "uy": "0.154019778"
+          },
+          {
+            "cx": "0.692332353",
+            "cy": "0.246411782",
+            "ux": "0.046162355",
+            "uy": "0.154019777"
+          },
+          {
+            "cx": "0.859152680",
+            "cy": "1.139552647",
+            "ux": "0.160786756",
+            "uy": "-0.000820854"
+          },
+          {
+            "cx": "1.501334634",
+            "cy": "0.965796646",
+            "ux": "0.003534129",
+            "uy": "0.160750007"
+          },
+          {
+            "cx": "1.377211457",
+            "cy": "0.315755397",
+            "ux": "-0.005425336",
+            "uy": "0.160697295"
+          },
+          {
+            "cx": "1.734609780",
+            "cy": "1.296963927",
+            "ux": "0.160351447",
+            "uy": "0.011851932"
+          },
+          {
+            "cx": "1.823002564",
+            "cy": "0.966365460",
+            "ux": "0.160750007",
+            "uy": "-0.003534133"
+          },
+          {
+            "cx": "1.398456574",
+            "cy": "1.289809977",
+            "ux": "0.160756384",
+            "uy": "-0.003231056"
+          },
+          {
+            "cx": "1.054983913",
+            "cy": "0.175631660",
+            "ux": "0.160432393",
+            "uy": "0.010700557"
+          },
+          {
+            "cx": "0.216138343",
+            "cy": "1.168830781",
+            "ux": "0.160786756",
+            "uy": "-0.000820858"
+          },
+          {
+            "cx": "1.369250684",
+            "cy": "0.645254413",
+            "ux": "0.160768963",
+            "uy": "-0.002528878"
+          },
+          {
+            "cx": "1.044127380",
+            "cy": "0.497199761",
+            "ux": "0.160432393",
+            "uy": "0.010700560"
+          },
+          {
+            "cx": "1.179830065",
+            "cy": "0.972658187",
+            "ux": "0.160750007",
+            "uy": "-0.003534128"
+          },
+          {
+            "cx": "0.752284381",
+            "cy": "1.461680141",
+            "ux": "0.160786756",
+            "uy": "-0.000820850"
+          },
+          {
+            "cx": "0.831356826",
+            "cy": "1.782858502",
+            "ux": "0.160786757",
+            "uy": "-0.000820711"
+          },
+          {
+            "cx": "0.211753379",
+            "cy": "0.847269672",
+            "ux": "0.160786764",
+            "uy": "-0.000819265"
+          },
+          {
+            "cx": "0.533194450",
+            "cy": "0.819633218",
+            "ux": "0.160786764",
+            "uy": "-0.000819271"
+          },
+          {
+            "cx": "1.075038659",
+            "cy": "1.460032292",
+            "ux": "0.160786754",
+            "uy": "-0.000821184"
+          }
+        ]
+      }
+    },
+    {
+      "instanceId": "p05-n25-v2",
+      "name": "n = 25",
+      "parameters": {
+        "n": 25
+      },
+      "objective": "maximize",
+      "scoreStored": "99231229510207204",
+      "scoreDisplay": "0.315009887",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "0.315010237",
+        "kind": "best",
+        "range": {
+          "lower": "0.3150092455213560",
+          "upper": "0.3150102378327296"
+        },
+        "truncated": true,
+        "certificateDisplay": "0.315009887",
+        "publishedDisplay": "3.17450+",
+        "publishedMetric": "container radius for unit squares",
+        "source": "Haowei Lin found the r = 3.17450+ packing in July 2026 (radius of the smallest circle around unit squares). The site digitised the squares' positions and orientations from the public figure, solved that fixed separating-axis structure and repaired it inward to a nine-decimal certificate scoring 0.099231229510207204; the truncated source interval is compared separately from the certificate, and optimality is open",
+        "url": "https://erich-friedman.github.io/packing/squincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "answer": {
+        "squares": [
+          {
+            "cx": "0.368461615",
+            "cy": "0.463124696",
+            "ux": "0.119853191",
+            "uy": "0.102191096"
+          },
+          {
+            "cx": "1.705016220",
+            "cy": "1.397675190",
+            "ux": "0.148489432",
+            "uy": "0.052523290"
+          },
+          {
+            "cx": "1.008227890",
+            "cy": "1.156152531",
+            "ux": "0.029064578",
+            "uy": "0.154800058"
+          },
+          {
+            "cx": "0.711216166",
+            "cy": "0.246901056",
+            "ux": "0.025785406",
+            "uy": "0.155379923"
+          },
+          {
+            "cx": "0.826530257",
+            "cy": "0.866400807",
+            "ux": "0.025785383",
+            "uy": "0.155379926"
+          },
+          {
+            "cx": "1.085238072",
+            "cy": "1.810346190",
+            "ux": "0.157475824",
+            "uy": "0.003028605"
+          },
+          {
+            "cx": "0.231561120",
+            "cy": "1.251801976",
+            "ux": "0.025785374",
+            "uy": "0.155379928"
+          },
+          {
+            "cx": "1.477175229",
+            "cy": "0.938764597",
+            "ux": "0.025785384",
+            "uy": "0.155379926"
+          },
+          {
+            "cx": "0.199737048",
+            "cy": "0.937765112",
+            "ux": "0.025785380",
+            "uy": "0.155379927"
+          },
+          {
+            "cx": "1.374033691",
+            "cy": "0.317244852",
+            "ux": "0.025785383",
+            "uy": "0.155379926"
+          },
+          {
+            "cx": "1.064359458",
+            "cy": "1.466127747",
+            "ux": "0.029064568",
+            "uy": "0.154800059"
+          },
+          {
+            "cx": "1.827065547",
+            "cy": "1.069889571",
+            "ux": "0.156945585",
+            "uy": "0.013262382"
+          },
+          {
+            "cx": "1.425604461",
+            "cy": "0.628004727",
+            "ux": "0.025785384",
+            "uy": "0.155379926"
+          },
+          {
+            "cx": "0.735164650",
+            "cy": "1.426736589",
+            "ux": "0.025785365",
+            "uy": "0.155379929"
+          },
+          {
+            "cx": "1.353032361",
+            "cy": "1.278684248",
+            "ux": "0.025785384",
+            "uy": "0.155379926"
+          },
+          {
+            "cx": "1.136845478",
+            "cy": "0.812150552",
+            "ux": "0.025785382",
+            "uy": "0.155379927"
+          },
+          {
+            "cx": "0.774959490",
+            "cy": "0.555640924",
+            "ux": "0.025785379",
+            "uy": "0.155379927"
+          },
+          {
+            "cx": "1.085274704",
+            "cy": "0.501390671",
+            "ux": "0.025785379",
+            "uy": "0.155379927"
+          },
+          {
+            "cx": "1.021531406",
+            "cy": "0.192650820",
+            "ux": "0.025785392",
+            "uy": "0.155379925"
+          },
+          {
+            "cx": "1.403878464",
+            "cy": "1.668869039",
+            "ux": "0.157457101",
+            "uy": "0.003881861"
+          },
+          {
+            "cx": "1.761364351",
+            "cy": "0.727081387",
+            "ux": "0.025785383",
+            "uy": "0.155379926"
+          },
+          {
+            "cx": "0.552210002",
+            "cy": "1.137552785",
+            "ux": "0.025785395",
+            "uy": "0.155379924"
+          },
+          {
+            "cx": "0.500543244",
+            "cy": "0.826214551",
+            "ux": "0.025785379",
+            "uy": "0.155379927"
+          },
+          {
+            "cx": "0.434225773",
+            "cy": "1.537487753",
+            "ux": "0.025785372",
+            "uy": "0.155379928"
+          },
+          {
+            "cx": "0.771011570",
+            "cy": "1.766582250",
+            "ux": "0.157475824",
+            "uy": "0.003028614"
+          }
+        ]
+      }
+    },
+    {
+      "instanceId": "p05-n26-v2",
+      "name": "n = 26",
+      "parameters": {
+        "n": 26
+      },
+      "objective": "maximize",
+      "scoreStored": "97560922905179944",
+      "scoreDisplay": "0.312347439",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "0.312347523",
+        "kind": "best",
+        "exact": "2√41/41",
+        "precision": "rounded",
+        "certificateDisplay": "0.312347439",
+        "publishedDisplay": "√41 / 2 = 3.201+",
+        "publishedMetric": "container radius for unit squares",
+        "source": "r = √41 / 2, giving continuous score 4/41; found by Erich Friedman in 1997. The site digitised the squares' positions and orientations from the public figure, solved that fixed separating-axis structure and repaired it inward to a nine-decimal certificate scoring 0.097560922905179944; optimality open",
+        "url": "https://erich-friedman.github.io/packing/squincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "answer": {
+        "squares": [
+          {
+            "cx": "0.851755280",
+            "cy": "1.784305082",
+            "ux": "0.156172569",
+            "uy": "-0.000599515"
+          },
+          {
+            "cx": "0.379988960",
+            "cy": "1.474702568",
+            "ux": "0.156166012",
+            "uy": "-0.001551622"
+          },
+          {
+            "cx": "0.692321175",
+            "cy": "1.471610223",
+            "ux": "0.156166012",
+            "uy": "-0.001551631"
+          },
+          {
+            "cx": "1.317045114",
+            "cy": "1.471416763",
+            "ux": "0.156166012",
+            "uy": "-0.001551632"
+          },
+          {
+            "cx": "1.629317404",
+            "cy": "1.462293798",
+            "ux": "0.156166012",
+            "uy": "-0.001551634"
+          },
+          {
+            "cx": "0.224784325",
+            "cy": "1.163881696",
+            "ux": "0.156166012",
+            "uy": "-0.001551622"
+          },
+          {
+            "cx": "0.537802051",
+            "cy": "1.160771639",
+            "ux": "0.156166012",
+            "uy": "-0.001551622"
+          },
+          {
+            "cx": "0.851412193",
+            "cy": "1.153228829",
+            "ux": "0.156167594",
+            "uy": "-0.001383300"
+          },
+          {
+            "cx": "1.479667605",
+            "cy": "1.151417745",
+            "ux": "0.156166012",
+            "uy": "-0.001551633"
+          },
+          {
+            "cx": "1.793400833",
+            "cy": "1.148300550",
+            "ux": "0.156166012",
+            "uy": "-0.001551625"
+          },
+          {
+            "cx": "0.370682594",
+            "cy": "0.537706200",
+            "ux": "0.156166012",
+            "uy": "-0.001551620"
+          },
+          {
+            "cx": "0.682942868",
+            "cy": "0.527374081",
+            "ux": "0.156166012",
+            "uy": "-0.001551620"
+          },
+          {
+            "cx": "1.307616647",
+            "cy": "0.522131311",
+            "ux": "0.156166012",
+            "uy": "-0.001551622"
+          },
+          {
+            "cx": "1.620011047",
+            "cy": "0.525297440",
+            "ux": "0.156166012",
+            "uy": "-0.001551623"
+          },
+          {
+            "cx": "0.849245651",
+            "cy": "0.208938190",
+            "ux": "0.156173412",
+            "uy": "-0.000310221"
+          },
+          {
+            "cx": "1.165780716",
+            "cy": "1.787601980",
+            "ux": "0.156172865",
+            "uy": "-0.000516779"
+          },
+          {
+            "cx": "1.004636812",
+            "cy": "1.466850256",
+            "ux": "0.156166012",
+            "uy": "-0.001551633"
+          },
+          {
+            "cx": "1.164603633",
+            "cy": "1.150845323",
+            "ux": "0.156168358",
+            "uy": "-0.001294207"
+          },
+          {
+            "cx": "0.220693155",
+            "cy": "0.851559407",
+            "ux": "0.156166012",
+            "uy": "-0.001551612"
+          },
+          {
+            "cx": "0.535123379",
+            "cy": "0.848435302",
+            "ux": "0.156166012",
+            "uy": "-0.001551624"
+          },
+          {
+            "cx": "0.848728692",
+            "cy": "0.840564199",
+            "ux": "0.156169133",
+            "uy": "-0.001196931"
+          },
+          {
+            "cx": "1.475781668",
+            "cy": "0.839093405",
+            "ux": "0.156166012",
+            "uy": "-0.001551625"
+          },
+          {
+            "cx": "1.790029356",
+            "cy": "0.835971138",
+            "ux": "0.156166012",
+            "uy": "-0.001551623"
+          },
+          {
+            "cx": "0.995291997",
+            "cy": "0.525985441",
+            "ux": "0.156166012",
+            "uy": "-0.001551618"
+          },
+          {
+            "cx": "1.162124512",
+            "cy": "0.208882754",
+            "ux": "0.156173156",
+            "uy": "-0.000419783"
+          },
+          {
+            "cx": "1.161683445",
+            "cy": "0.838015889",
+            "ux": "0.156164601",
+            "uy": "-0.001687727"
+          }
+        ]
+      }
+    },
+    {
+      "instanceId": "p05-n27-v2",
+      "name": "n = 27",
+      "parameters": {
+        "n": 27
+      },
+      "objective": "maximize",
+      "scoreStored": "94048227817777936",
+      "scoreDisplay": "0.306672835",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "0.306701426",
+        "kind": "best",
+        "range": {
+          "lower": "0.3067004855068685",
+          "upper": "0.3067014261616317"
+        },
+        "truncated": true,
+        "certificateDisplay": "0.306672835",
+        "publishedDisplay": "3.26050+",
+        "publishedMetric": "container radius for unit squares",
+        "source": "Milan Kovacic found the r = 3.26050+ packing in May 2026 (radius of the smallest circle around unit squares). The site digitised the squares' positions and orientations from the public figure, solved that fixed separating-axis structure and repaired it inward to a nine-decimal certificate scoring 0.094048227817777936; the truncated source interval is compared separately from the certificate, and optimality is open",
+        "url": "https://erich-friedman.github.io/packing/squincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "answer": {
+        "squares": [
+          {
+            "cx": "0.263844100",
+            "cy": "1.305424515",
+            "ux": "0.153324672",
+            "uy": "-0.001897870"
+          },
+          {
+            "cx": "1.798024971",
+            "cy": "1.156127990",
+            "ux": "0.153334971",
+            "uy": "0.000666079"
+          },
+          {
+            "cx": "1.798920939",
+            "cy": "0.849455235",
+            "ux": "0.153334971",
+            "uy": "0.000666080"
+          },
+          {
+            "cx": "0.822679109",
+            "cy": "1.779295159",
+            "ux": "0.153027135",
+            "uy": "0.009734115"
+          },
+          {
+            "cx": "1.186305181",
+            "cy": "1.496845730",
+            "ux": "0.153324673",
+            "uy": "-0.001897866"
+          },
+          {
+            "cx": "1.127054333",
+            "cy": "0.192978016",
+            "ux": "0.153334972",
+            "uy": "0.000665967"
+          },
+          {
+            "cx": "1.139610486",
+            "cy": "1.804122011",
+            "ux": "0.153324661",
+            "uy": "-0.001898781"
+          },
+          {
+            "cx": "1.473475140",
+            "cy": "0.322614812",
+            "ux": "0.131309443",
+            "uy": "0.079182621"
+          },
+          {
+            "cx": "0.512843729",
+            "cy": "0.385481406",
+            "ux": "0.153334984",
+            "uy": "0.000663224"
+          },
+          {
+            "cx": "0.572896389",
+            "cy": "0.692446970",
+            "ux": "0.153334971",
+            "uy": "0.000666070"
+          },
+          {
+            "cx": "1.492953012",
+            "cy": "0.686304005",
+            "ux": "0.153334971",
+            "uy": "0.000666081"
+          },
+          {
+            "cx": "0.820299283",
+            "cy": "0.210851894",
+            "ux": "0.153334975",
+            "uy": "0.000665196"
+          },
+          {
+            "cx": "1.186762824",
+            "cy": "0.574316354",
+            "ux": "0.153334971",
+            "uy": "0.000666072"
+          },
+          {
+            "cx": "0.514922437",
+            "cy": "1.616109910",
+            "ux": "0.153329064",
+            "uy": "-0.001501792"
+          },
+          {
+            "cx": "0.878999572",
+            "cy": "0.824461061",
+            "ux": "0.153334971",
+            "uy": "0.000666070"
+          },
+          {
+            "cx": "0.880331725",
+            "cy": "0.517790203",
+            "ux": "0.153334971",
+            "uy": "0.000666072"
+          },
+          {
+            "cx": "1.494388157",
+            "cy": "1.608839335",
+            "ux": "0.153324673",
+            "uy": "-0.001897802"
+          },
+          {
+            "cx": "1.490593041",
+            "cy": "1.302189524",
+            "ux": "0.153324673",
+            "uy": "-0.001897868"
+          },
+          {
+            "cx": "1.185430666",
+            "cy": "0.880987333",
+            "ux": "0.153334971",
+            "uy": "0.000666070"
+          },
+          {
+            "cx": "0.266225310",
+            "cy": "0.691165734",
+            "ux": "0.153334971",
+            "uy": "0.000666072"
+          },
+          {
+            "cx": "0.879144922",
+            "cy": "1.459432661",
+            "ux": "0.153324673",
+            "uy": "-0.001897867"
+          },
+          {
+            "cx": "1.182509506",
+            "cy": "1.190193759",
+            "ux": "0.153324673",
+            "uy": "-0.001897868"
+          },
+          {
+            "cx": "1.491620850",
+            "cy": "0.992974864",
+            "ux": "0.153334971",
+            "uy": "0.000666079"
+          },
+          {
+            "cx": "0.165326655",
+            "cy": "0.997404086",
+            "ux": "0.153334971",
+            "uy": "0.000666072"
+          },
+          {
+            "cx": "0.570577101",
+            "cy": "1.308312914",
+            "ux": "0.153324673",
+            "uy": "-0.001897867"
+          },
+          {
+            "cx": "0.566781304",
+            "cy": "1.001658761",
+            "ux": "0.153324672",
+            "uy": "-0.001897870"
+          },
+          {
+            "cx": "0.875113581",
+            "cy": "1.133749049",
+            "ux": "0.153324673",
+            "uy": "-0.001897867"
+          }
+        ]
+      }
+    },
+    {
+      "instanceId": "p05-n28-v2",
+      "name": "n = 28",
+      "parameters": {
+        "n": 28
+      },
+      "objective": "maximize",
+      "scoreStored": "90100176011310440",
+      "scoreDisplay": "0.300166913",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "0.300167793",
+        "kind": "best",
+        "range": {
+          "lower": "0.3001668927923925",
+          "upper": "0.3001677937967324"
+        },
+        "truncated": true,
+        "certificateDisplay": "0.300166913",
+        "publishedDisplay": "3.33147+",
+        "publishedMetric": "container radius for unit squares",
+        "source": "Milan Kovacic found the r = 3.33147+ packing in May 2026 (radius of the smallest circle around unit squares). The site digitised the squares' positions and orientations from the public figure, solved that fixed separating-axis structure and repaired it inward to a nine-decimal certificate scoring 0.09010017601131044; the truncated source interval is compared separately from the certificate, and optimality is open",
+        "url": "https://erich-friedman.github.io/packing/squincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "answer": {
+        "squares": [
+          {
+            "cx": "0.885793076",
+            "cy": "1.813270299",
+            "ux": "0.001512134",
+            "uy": "0.150075840"
+          },
+          {
+            "cx": "0.303687952",
+            "cy": "0.618407947",
+            "ux": "0.150075835",
+            "uy": "-0.001512630"
+          },
+          {
+            "cx": "0.598785356",
+            "cy": "0.315251376",
+            "ux": "0.150075834",
+            "uy": "-0.001512639"
+          },
+          {
+            "cx": "0.220012037",
+            "cy": "1.219615865",
+            "ux": "0.150075834",
+            "uy": "-0.001512666"
+          },
+          {
+            "cx": "0.778609026",
+            "cy": "0.913803325",
+            "ux": "0.150075834",
+            "uy": "-0.001512638"
+          },
+          {
+            "cx": "1.510317218",
+            "cy": "1.645153777",
+            "ux": "0.076171792",
+            "uy": "0.129317061"
+          },
+          {
+            "cx": "1.347797797",
+            "cy": "1.392513484",
+            "ux": "0.076171790",
+            "uy": "0.129317062"
+          },
+          {
+            "cx": "1.699594268",
+            "cy": "1.370697165",
+            "ux": "0.074873273",
+            "uy": "0.130073199"
+          },
+          {
+            "cx": "1.555167203",
+            "cy": "0.411791320",
+            "ux": "0.076171757",
+            "uy": "0.129317081"
+          },
+          {
+            "cx": "1.794294298",
+            "cy": "0.967676586",
+            "ux": "0.076171758",
+            "uy": "0.129317081"
+          },
+          {
+            "cx": "1.441373053",
+            "cy": "0.809690524",
+            "ux": "0.083803211",
+            "uy": "0.124507293"
+          },
+          {
+            "cx": "0.478347827",
+            "cy": "0.916829785",
+            "ux": "0.150075834",
+            "uy": "-0.001512666"
+          },
+          {
+            "cx": "1.744926074",
+            "cy": "0.648386743",
+            "ux": "0.076171758",
+            "uy": "0.129317081"
+          },
+          {
+            "cx": "1.218828960",
+            "cy": "1.809534908",
+            "ux": "0.039164089",
+            "uy": "0.144883465"
+          },
+          {
+            "cx": "1.532756331",
+            "cy": "1.115090547",
+            "ux": "0.076171787",
+            "uy": "0.129317064"
+          },
+          {
+            "cx": "0.903027967",
+            "cy": "0.516764658",
+            "ux": "0.150075834",
+            "uy": "-0.001512634"
+          },
+          {
+            "cx": "0.405764138",
+            "cy": "1.517925856",
+            "ux": "0.150075834",
+            "uy": "-0.001512668"
+          },
+          {
+            "cx": "1.006067569",
+            "cy": "1.511875657",
+            "ux": "0.150075834",
+            "uy": "-0.001512672"
+          },
+          {
+            "cx": "1.119503701",
+            "cy": "1.114947559",
+            "ux": "0.150075834",
+            "uy": "-0.001512667"
+          },
+          {
+            "cx": "0.897619681",
+            "cy": "0.181499954",
+            "ux": "0.150075836",
+            "uy": "-0.001512463"
+          },
+          {
+            "cx": "1.203179707",
+            "cy": "0.513739656",
+            "ux": "0.150075834",
+            "uy": "-0.001512634"
+          },
+          {
+            "cx": "1.198125489",
+            "cy": "0.213608175",
+            "ux": "0.150075836",
+            "uy": "-0.001512463"
+          },
+          {
+            "cx": "0.705915851",
+            "cy": "1.514900559",
+            "ux": "0.150075834",
+            "uy": "-0.001512667"
+          },
+          {
+            "cx": "0.520163758",
+            "cy": "1.216590535",
+            "ux": "0.150075834",
+            "uy": "-0.001512666"
+          },
+          {
+            "cx": "1.077894632",
+            "cy": "0.815184698",
+            "ux": "0.150075834",
+            "uy": "-0.001512659"
+          },
+          {
+            "cx": "0.820315482",
+            "cy": "1.213565235",
+            "ux": "0.150075834",
+            "uy": "-0.001512666"
+          },
+          {
+            "cx": "0.178150263",
+            "cy": "0.919855542",
+            "ux": "0.150075834",
+            "uy": "-0.001512654"
+          },
+          {
+            "cx": "0.603839708",
+            "cy": "0.615382638",
+            "ux": "0.150075834",
+            "uy": "-0.001512640"
+          }
+        ]
+      }
+    },
+    {
+      "instanceId": "p05-n29-v2",
+      "name": "n = 29",
+      "parameters": {
+        "n": 29
+      },
+      "objective": "maximize",
+      "scoreStored": "86857341160798480",
+      "scoreDisplay": "0.294715695",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "0.294716615",
+        "kind": "best",
+        "range": {
+          "lower": "0.2947157466623441",
+          "upper": "0.2947166152386174"
+        },
+        "truncated": true,
+        "certificateDisplay": "0.294715695",
+        "publishedDisplay": "3.39309+",
+        "publishedMetric": "container radius for unit squares",
+        "source": "Milan Kovacic found the r = 3.39309+ packing in May 2026 (radius of the smallest circle around unit squares). The site digitised the squares' positions and orientations from the public figure, solved that fixed separating-axis structure and repaired it inward to a nine-decimal certificate scoring 0.08685734116079848; the truncated source interval is compared separately from the certificate, and optimality is open",
+        "url": "https://erich-friedman.github.io/packing/squincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "answer": {
+        "squares": [
+          {
+            "cx": "1.314920902",
+            "cy": "0.543981357",
+            "ux": "0.147355668",
+            "uy": "-0.000801661"
+          },
+          {
+            "cx": "0.876471872",
+            "cy": "0.834523107",
+            "ux": "0.147355668",
+            "uy": "-0.000801641"
+          },
+          {
+            "cx": "0.311392597",
+            "cy": "1.417861844",
+            "ux": "0.117239173",
+            "uy": "0.089271001"
+          },
+          {
+            "cx": "0.828196930",
+            "cy": "1.772984498",
+            "ux": "0.085727547",
+            "uy": "0.119854592"
+          },
+          {
+            "cx": "0.490072901",
+            "cy": "1.669683271",
+            "ux": "0.117239172",
+            "uy": "0.089271003"
+          },
+          {
+            "cx": "1.024937689",
+            "cy": "1.541455635",
+            "ux": "0.085727545",
+            "uy": "0.119854593"
+          },
+          {
+            "cx": "1.675811683",
+            "cy": "1.438254983",
+            "ux": "0.085727517",
+            "uy": "0.119854613"
+          },
+          {
+            "cx": "0.681556271",
+            "cy": "1.445058918",
+            "ux": "0.117239189",
+            "uy": "0.089270981"
+          },
+          {
+            "cx": "1.196392817",
+            "cy": "1.781164893",
+            "ux": "0.085727544",
+            "uy": "0.119854594"
+          },
+          {
+            "cx": "0.495943858",
+            "cy": "1.142052641",
+            "ux": "0.138153541",
+            "uy": "0.051263384"
+          },
+          {
+            "cx": "1.007180417",
+            "cy": "0.512792242",
+            "ux": "0.014265249",
+            "uy": "0.146665736"
+          },
+          {
+            "cx": "1.618441021",
+            "cy": "0.500991344",
+            "ux": "0.012650734",
+            "uy": "0.146813808"
+          },
+          {
+            "cx": "1.818334270",
+            "cy": "1.075382562",
+            "ux": "0.012650733",
+            "uy": "0.146813809"
+          },
+          {
+            "cx": "1.791804044",
+            "cy": "0.781860775",
+            "ux": "0.012650734",
+            "uy": "0.146813808"
+          },
+          {
+            "cx": "1.515697803",
+            "cy": "1.130225505",
+            "ux": "0.026013921",
+            "uy": "0.145043481"
+          },
+          {
+            "cx": "1.488967865",
+            "cy": "0.835601233",
+            "ux": "0.026013923",
+            "uy": "0.145043481"
+          },
+          {
+            "cx": "1.489685316",
+            "cy": "1.684623775",
+            "ux": "0.085727542",
+            "uy": "0.119854595"
+          },
+          {
+            "cx": "1.318230159",
+            "cy": "1.444914526",
+            "ux": "0.085727544",
+            "uy": "0.119854594"
+          },
+          {
+            "cx": "0.538894356",
+            "cy": "0.843639088",
+            "ux": "0.138153541",
+            "uy": "0.051263383"
+          },
+          {
+            "cx": "1.291864963",
+            "cy": "0.249386675",
+            "ux": "0.147355668",
+            "uy": "-0.000801661"
+          },
+          {
+            "cx": "0.713848865",
+            "cy": "0.541322748",
+            "ux": "0.014265249",
+            "uy": "0.146665736"
+          },
+          {
+            "cx": "0.217269356",
+            "cy": "0.762853261",
+            "ux": "0.146920506",
+            "uy": "0.011344613"
+          },
+          {
+            "cx": "0.399529935",
+            "cy": "0.481333645",
+            "ux": "0.146920507",
+            "uy": "0.011344610"
+          },
+          {
+            "cx": "0.696236975",
+            "cy": "0.246929221",
+            "ux": "0.014265250",
+            "uy": "0.146665736"
+          },
+          {
+            "cx": "0.851345634",
+            "cy": "1.129379895",
+            "ux": "0.147355668",
+            "uy": "-0.000801641"
+          },
+          {
+            "cx": "0.176652984",
+            "cy": "1.055310166",
+            "ux": "0.146920507",
+            "uy": "0.011344608"
+          },
+          {
+            "cx": "1.146092744",
+            "cy": "1.134340125",
+            "ux": "0.147355668",
+            "uy": "-0.000801642"
+          },
+          {
+            "cx": "0.996650177",
+            "cy": "0.158464233",
+            "ux": "0.147355667",
+            "uy": "-0.000801684"
+          },
+          {
+            "cx": "1.171218999",
+            "cy": "0.839483289",
+            "ux": "0.147355668",
+            "uy": "-0.000801642"
+          }
+        ]
+      }
+    },
+    {
+      "instanceId": "p05-n30-v2",
+      "name": "n = 30",
+      "parameters": {
+        "n": 30
+      },
+      "objective": "maximize",
+      "scoreStored": "83548982816364776",
+      "scoreDisplay": "0.289048409",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "0.289049086",
+        "kind": "best",
+        "range": {
+          "lower": "0.2890482508245101",
+          "upper": "0.2890490863158382"
+        },
+        "truncated": true,
+        "certificateDisplay": "0.289048409",
+        "publishedDisplay": "3.45962+",
+        "publishedMetric": "container radius for unit squares",
+        "source": "Milan Kovacic found the r = 3.45962+ packing in May 2026 (radius of the smallest circle around unit squares). The site digitised the squares' positions and orientations from the public figure, solved that fixed separating-axis structure and repaired it inward to a nine-decimal certificate scoring 0.083548982816364776; the truncated source interval is compared separately from the certificate, and optimality is open",
+        "url": "https://erich-friedman.github.io/packing/squincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "answer": {
+        "squares": [
+          {
+            "cx": "1.533113666",
+            "cy": "1.126265015",
+            "ux": "0.144522481",
+            "uy": "-0.000705939"
+          },
+          {
+            "cx": "1.275665988",
+            "cy": "1.416574503",
+            "ux": "0.144522481",
+            "uy": "-0.000705957"
+          },
+          {
+            "cx": "1.243548663",
+            "cy": "1.127679465",
+            "ux": "0.144522481",
+            "uy": "-0.000705960"
+          },
+          {
+            "cx": "1.019090745",
+            "cy": "0.155238693",
+            "ux": "0.144487313",
+            "uy": "0.003265285"
+          },
+          {
+            "cx": "0.727143940",
+            "cy": "0.236345910",
+            "ux": "0.144520556",
+            "uy": "0.001027030"
+          },
+          {
+            "cx": "1.195499108",
+            "cy": "1.790205531",
+            "ux": "0.075629959",
+            "uy": "0.123155816"
+          },
+          {
+            "cx": "1.670586915",
+            "cy": "1.454199526",
+            "ux": "0.082855954",
+            "uy": "0.118415103"
+          },
+          {
+            "cx": "1.484426532",
+            "cy": "1.692327296",
+            "ux": "0.082855934",
+            "uy": "0.118415117"
+          },
+          {
+            "cx": "0.253416827",
+            "cy": "1.373528066",
+            "ux": "0.075629964",
+            "uy": "0.123155813"
+          },
+          {
+            "cx": "0.736055267",
+            "cy": "1.054748739",
+            "ux": "0.075629969",
+            "uy": "0.123155810"
+          },
+          {
+            "cx": "1.223427755",
+            "cy": "0.838725827",
+            "ux": "0.144522481",
+            "uy": "-0.000705957"
+          },
+          {
+            "cx": "0.740388833",
+            "cy": "1.752879463",
+            "ux": "0.075629955",
+            "uy": "0.123155819"
+          },
+          {
+            "cx": "0.446370324",
+            "cy": "1.594235760",
+            "ux": "0.075629959",
+            "uy": "0.123155816"
+          },
+          {
+            "cx": "0.488643436",
+            "cy": "1.204217214",
+            "ux": "0.075629964",
+            "uy": "0.123155813"
+          },
+          {
+            "cx": "0.479526853",
+            "cy": "0.804678742",
+            "ux": "0.135317718",
+            "uy": "0.050757866"
+          },
+          {
+            "cx": "0.930389587",
+            "cy": "1.274608488",
+            "ux": "0.075629967",
+            "uy": "0.123155812"
+          },
+          {
+            "cx": "1.512472783",
+            "cy": "0.837313869",
+            "ux": "0.144522481",
+            "uy": "-0.000705956"
+          },
+          {
+            "cx": "0.393186393",
+            "cy": "0.463578094",
+            "ux": "0.135317719",
+            "uy": "0.050757865"
+          },
+          {
+            "cx": "0.190078061",
+            "cy": "1.004820334",
+            "ux": "0.135317718",
+            "uy": "0.050757867"
+          },
+          {
+            "cx": "0.904339485",
+            "cy": "0.746902404",
+            "ux": "0.135317729",
+            "uy": "0.050757838"
+          },
+          {
+            "cx": "0.663832170",
+            "cy": "0.565066488",
+            "ux": "0.135317719",
+            "uy": "0.050757863"
+          },
+          {
+            "cx": "1.026843692",
+            "cy": "0.484139739",
+            "ux": "0.135317729",
+            "uy": "0.050757838"
+          },
+          {
+            "cx": "0.976715614",
+            "cy": "1.585360067",
+            "ux": "0.075629958",
+            "uy": "0.123155817"
+          },
+          {
+            "cx": "0.683272095",
+            "cy": "1.426363281",
+            "ux": "0.075629983",
+            "uy": "0.123155802"
+          },
+          {
+            "cx": "1.310706226",
+            "cy": "0.246766942",
+            "ux": "0.143900059",
+            "uy": "0.013417106"
+          },
+          {
+            "cx": "0.208891339",
+            "cy": "0.703163007",
+            "ux": "0.135317718",
+            "uy": "0.050757866"
+          },
+          {
+            "cx": "1.356036093",
+            "cy": "0.549026079",
+            "ux": "0.144522481",
+            "uy": "-0.000705958"
+          },
+          {
+            "cx": "1.822387569",
+            "cy": "1.107834627",
+            "ux": "0.144522481",
+            "uy": "-0.000705953"
+          },
+          {
+            "cx": "1.644998021",
+            "cy": "0.530597254",
+            "ux": "0.144522481",
+            "uy": "-0.000705957"
+          },
+          {
+            "cx": "1.801434704",
+            "cy": "0.818885050",
+            "ux": "0.144522481",
+            "uy": "-0.000705956"
+          }
+        ]
+      }
+    },
+    {
+      "instanceId": "p05-n31-v2",
+      "name": "n = 31",
+      "parameters": {
+        "n": 31
+      },
+      "objective": "maximize",
+      "scoreStored": "80355247477381876",
+      "scoreDisplay": "0.283470011",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "0.283470013",
+        "kind": "best",
+        "range": {
+          "lower": "0.2834692095744560",
+          "upper": "0.2834700131246617"
+        },
+        "truncated": true,
+        "certificateDisplay": "0.283470011",
+        "publishedDisplay": "3.52771+",
+        "publishedMetric": "container radius for unit squares",
+        "source": "Haowei Lin found the r = 3.52771+ packing in July 2026 (radius of the smallest circle around unit squares). The site digitised the squares' positions and orientations from the public figure, solved that fixed separating-axis structure and repaired it inward to a nine-decimal certificate scoring 0.080355247477381876; the truncated source interval is compared separately from the certificate, and optimality is open",
+        "url": "https://erich-friedman.github.io/packing/squincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "answer": {
+        "squares": [
+          {
+            "cx": "0.614006544",
+            "cy": "0.288904478",
+            "ux": "0.114111335",
+            "uy": "0.084067921"
+          },
+          {
+            "cx": "1.586322435",
+            "cy": "1.611990961",
+            "ux": "0.097576165",
+            "uy": "0.102799338"
+          },
+          {
+            "cx": "1.300121872",
+            "cy": "0.226803123",
+            "ux": "0.122195117",
+            "uy": "0.071813407"
+          },
+          {
+            "cx": "1.241029690",
+            "cy": "1.488376234",
+            "ux": "0.072900092",
+            "uy": "0.121549943"
+          },
+          {
+            "cx": "0.359611594",
+            "cy": "0.471302045",
+            "ux": "0.122346386",
+            "uy": "0.071555391"
+          },
+          {
+            "cx": "0.863758476",
+            "cy": "0.451045102",
+            "ux": "0.122195102",
+            "uy": "0.071813433"
+          },
+          {
+            "cx": "0.740762139",
+            "cy": "1.756900296",
+            "ux": "0.072900101",
+            "uy": "0.121549938"
+          },
+          {
+            "cx": "0.985736002",
+            "cy": "1.614034874",
+            "ux": "0.072900078",
+            "uy": "0.121549951"
+          },
+          {
+            "cx": "0.740551148",
+            "cy": "1.095778250",
+            "ux": "0.072772815",
+            "uy": "0.121626187"
+          },
+          {
+            "cx": "0.195455310",
+            "cy": "1.091976459",
+            "ux": "0.072900117",
+            "uy": "0.121549928"
+          },
+          {
+            "cx": "0.843177842",
+            "cy": "0.767860176",
+            "ux": "0.122346394",
+            "uy": "0.071555377"
+          },
+          {
+            "cx": "1.172437793",
+            "cy": "0.485472609",
+            "ux": "0.122195112",
+            "uy": "0.071813415"
+          },
+          {
+            "cx": "0.989347403",
+            "cy": "0.195940706",
+            "ux": "0.122195134",
+            "uy": "0.071813377"
+          },
+          {
+            "cx": "0.253810780",
+            "cy": "1.387635516",
+            "ux": "0.072900116",
+            "uy": "0.121549929"
+          },
+          {
+            "cx": "0.461638442",
+            "cy": "0.873219774",
+            "ux": "0.122346408",
+            "uy": "0.071555352"
+          },
+          {
+            "cx": "0.598400729",
+            "cy": "0.624700289",
+            "ux": "0.122346391",
+            "uy": "0.071555382"
+          },
+          {
+            "cx": "1.416912175",
+            "cy": "0.629148892",
+            "ux": "0.122195118",
+            "uy": "0.071813405"
+          },
+          {
+            "cx": "1.542500993",
+            "cy": "0.374044613",
+            "ux": "0.122195116",
+            "uy": "0.071813409"
+          },
+          {
+            "cx": "0.445668755",
+            "cy": "1.603225847",
+            "ux": "0.072900116",
+            "uy": "0.121549929"
+          },
+          {
+            "cx": "0.688852320",
+            "cy": "1.457375426",
+            "ux": "0.072900116",
+            "uy": "0.121549929"
+          },
+          {
+            "cx": "0.933716073",
+            "cy": "1.314326477",
+            "ux": "0.072900116",
+            "uy": "0.121549928"
+          },
+          {
+            "cx": "0.217630372",
+            "cy": "0.721188117",
+            "ux": "0.124252846",
+            "uy": "0.068191218"
+          },
+          {
+            "cx": "1.151883963",
+            "cy": "0.802305387",
+            "ux": "0.122195119",
+            "uy": "0.071813404"
+          },
+          {
+            "cx": "0.497073474",
+            "cy": "1.241737630",
+            "ux": "0.072900110",
+            "uy": "0.121549932"
+          },
+          {
+            "cx": "1.305664433",
+            "cy": "1.791116881",
+            "ux": "0.051081817",
+            "uy": "0.132209909"
+          },
+          {
+            "cx": "1.228457981",
+            "cy": "1.142817417",
+            "ux": "0.140529172",
+            "uy": "0.018448950"
+          },
+          {
+            "cx": "1.823417832",
+            "cy": "0.981403341",
+            "ux": "0.140529172",
+            "uy": "0.018448950"
+          },
+          {
+            "cx": "1.499540030",
+            "cy": "1.256456493",
+            "ux": "0.140529172",
+            "uy": "0.018448949"
+          },
+          {
+            "cx": "1.740109327",
+            "cy": "0.684465622",
+            "ux": "0.140529173",
+            "uy": "0.018448948"
+          },
+          {
+            "cx": "1.536450631",
+            "cy": "0.975301377",
+            "ux": "0.140529173",
+            "uy": "0.018448946"
+          },
+          {
+            "cx": "1.784769711",
+            "cy": "1.262330357",
+            "ux": "0.140529172",
+            "uy": "0.018448950"
+          }
+        ]
+      }
+    },
+    {
+      "instanceId": "p05-n32-v2",
+      "name": "n = 32",
+      "parameters": {
+        "n": 32
+      },
+      "objective": "maximize",
+      "scoreStored": "78313252593796580",
+      "scoreDisplay": "0.279845051",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "0.279845525",
+        "kind": "best",
+        "range": {
+          "lower": "0.2798447421370623",
+          "upper": "0.2798455252700510"
+        },
+        "truncated": true,
+        "certificateDisplay": "0.279845051",
+        "publishedDisplay": "3.57340+",
+        "publishedMetric": "container radius for unit squares",
+        "source": "Milan Kovacic found the r = 3.57340+ packing in May 2026 (radius of the smallest circle around unit squares). The site digitised the squares' positions and orientations from the public figure, solved that fixed separating-axis structure and repaired it inward to a nine-decimal certificate scoring 0.07831325259379658; the truncated source interval is compared separately from the certificate, and optimality is open",
+        "url": "https://erich-friedman.github.io/packing/squincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "answer": {
+        "squares": [
+          {
+            "cx": "1.701782276",
+            "cy": "0.600294886",
+            "ux": "0.139921414",
+            "uy": "0.000557972"
+          },
+          {
+            "cx": "0.583552046",
+            "cy": "0.309434121",
+            "ux": "0.139921414",
+            "uy": "0.000558005"
+          },
+          {
+            "cx": "1.824725430",
+            "cy": "0.880632649",
+            "ux": "0.139921414",
+            "uy": "0.000557997"
+          },
+          {
+            "cx": "1.175948427",
+            "cy": "1.787395021",
+            "ux": "0.096583384",
+            "uy": "0.101242102"
+          },
+          {
+            "cx": "1.814286462",
+            "cy": "1.160438450",
+            "ux": "0.139921414",
+            "uy": "0.000557997"
+          },
+          {
+            "cx": "0.463764927",
+            "cy": "1.153522838",
+            "ux": "0.139921417",
+            "uy": "0.000557261"
+          },
+          {
+            "cx": "1.442782845",
+            "cy": "1.661682072",
+            "ux": "0.096583387",
+            "uy": "0.101242099"
+          },
+          {
+            "cx": "0.582432275",
+            "cy": "0.590225900",
+            "ux": "0.139921414",
+            "uy": "0.000558006"
+          },
+          {
+            "cx": "1.264093728",
+            "cy": "1.432045394",
+            "ux": "0.090688523",
+            "uy": "0.106554704"
+          },
+          {
+            "cx": "1.532578447",
+            "cy": "0.889983380",
+            "ux": "0.139917979",
+            "uy": "-0.001127989"
+          },
+          {
+            "cx": "1.011921692",
+            "cy": "1.233398665",
+            "ux": "0.090694269",
+            "uy": "0.106549814"
+          },
+          {
+            "cx": "1.476696870",
+            "cy": "1.250063404",
+            "ux": "0.090693222",
+            "uy": "0.106550706"
+          },
+          {
+            "cx": "1.247115630",
+            "cy": "1.077964989",
+            "ux": "0.090693203",
+            "uy": "0.106550721"
+          },
+          {
+            "cx": "1.697130861",
+            "cy": "1.486740391",
+            "ux": "0.114725657",
+            "uy": "0.080102041"
+          },
+          {
+            "cx": "0.944414480",
+            "cy": "1.560787514",
+            "ux": "0.128101480",
+            "uy": "0.056287869"
+          },
+          {
+            "cx": "0.348352702",
+            "cy": "1.476855178",
+            "ux": "0.128104831",
+            "uy": "0.056280241"
+          },
+          {
+            "cx": "0.464873748",
+            "cy": "0.873452816",
+            "ux": "0.139921495",
+            "uy": "0.000537095"
+          },
+          {
+            "cx": "0.714516947",
+            "cy": "1.388306145",
+            "ux": "0.128089831",
+            "uy": "0.056314371"
+          },
+          {
+            "cx": "0.179093055",
+            "cy": "0.872310100",
+            "ux": "0.139921414",
+            "uy": "0.000558006"
+          },
+          {
+            "cx": "1.141528825",
+            "cy": "0.740305581",
+            "ux": "0.139921414",
+            "uy": "0.000558014"
+          },
+          {
+            "cx": "0.302573870",
+            "cy": "0.592955098",
+            "ux": "0.139921414",
+            "uy": "0.000558006"
+          },
+          {
+            "cx": "0.583674881",
+            "cy": "1.636960125",
+            "ux": "0.128104831",
+            "uy": "0.056280241"
+          },
+          {
+            "cx": "0.744268968",
+            "cy": "1.018379302",
+            "ux": "0.139921673",
+            "uy": "0.000488617"
+          },
+          {
+            "cx": "0.813734105",
+            "cy": "1.809044725",
+            "ux": "0.128104826",
+            "uy": "0.056280253"
+          },
+          {
+            "cx": "0.861687000",
+            "cy": "0.738867734",
+            "ux": "0.139921414",
+            "uy": "0.000558009"
+          },
+          {
+            "cx": "1.421907459",
+            "cy": "0.607123011",
+            "ux": "0.139921414",
+            "uy": "0.000558013"
+          },
+          {
+            "cx": "1.430018858",
+            "cy": "0.318276067",
+            "ux": "0.139921534",
+            "uy": "0.000526980"
+          },
+          {
+            "cx": "1.143783076",
+            "cy": "0.180616266",
+            "ux": "0.139921406",
+            "uy": "0.000559815"
+          },
+          {
+            "cx": "0.863923822",
+            "cy": "0.179176232",
+            "ux": "0.139921395",
+            "uy": "0.000562744"
+          },
+          {
+            "cx": "0.183921900",
+            "cy": "1.152176836",
+            "ux": "0.139921414",
+            "uy": "0.000557996"
+          },
+          {
+            "cx": "0.862803055",
+            "cy": "0.459024050",
+            "ux": "0.139921413",
+            "uy": "0.000558015"
+          },
+          {
+            "cx": "1.142644867",
+            "cy": "0.460461814",
+            "ux": "0.139921414",
+            "uy": "0.000558015"
+          }
+        ]
+      }
+    },
+    {
+      "instanceId": "p05-n33-v2",
+      "name": "n = 33",
+      "parameters": {
+        "n": 33
+      },
+      "objective": "maximize",
+      "scoreStored": "77065507635187604",
+      "scoreDisplay": "0.277606749",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "0.277770061",
+        "kind": "best",
+        "range": {
+          "lower": "0.2777692903827938",
+          "upper": "0.2777700619427239"
+        },
+        "truncated": true,
+        "certificateDisplay": "0.277606749",
+        "publishedDisplay": "3.60010+",
+        "publishedMetric": "container radius for unit squares",
+        "source": "Haowei Lin found the r = 3.60010+ packing in July 2026 (radius of the smallest circle around unit squares). The site digitised the squares' positions and orientations from the public figure, solved that fixed separating-axis structure and repaired it inward to a nine-decimal certificate scoring 0.077065507635187604; the truncated source interval is compared separately from the certificate, and optimality is open",
+        "url": "https://erich-friedman.github.io/packing/squincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "answer": {
+        "squares": [
+          {
+            "cx": "1.624821385",
+            "cy": "1.578514181",
+            "ux": "0.101850399",
+            "uy": "0.094302032"
+          },
+          {
+            "cx": "1.753884686",
+            "cy": "1.319685273",
+            "ux": "0.101850405",
+            "uy": "0.094302025"
+          },
+          {
+            "cx": "1.387160488",
+            "cy": "1.365588636",
+            "ux": "0.059833316",
+            "uy": "0.125245165"
+          },
+          {
+            "cx": "1.362054943",
+            "cy": "1.770711804",
+            "ux": "0.059017581",
+            "uy": "0.125631613"
+          },
+          {
+            "cx": "0.724417691",
+            "cy": "1.805354538",
+            "ux": "0.131446340",
+            "uy": "0.044589647"
+          },
+          {
+            "cx": "1.137113457",
+            "cy": "1.543143907",
+            "ux": "0.034074634",
+            "uy": "0.134555923"
+          },
+          {
+            "cx": "0.817919574",
+            "cy": "1.487781712",
+            "ux": "0.034082336",
+            "uy": "0.134553972"
+          },
+          {
+            "cx": "0.983113424",
+            "cy": "1.009402859",
+            "ux": "0.034074634",
+            "uy": "0.134555923"
+          },
+          {
+            "cx": "1.589636283",
+            "cy": "0.445239342",
+            "ux": "0.033644536",
+            "uy": "0.134664109"
+          },
+          {
+            "cx": "0.487822468",
+            "cy": "1.638651861",
+            "ux": "0.131446161",
+            "uy": "0.044590176"
+          },
+          {
+            "cx": "0.716151571",
+            "cy": "0.504252022",
+            "ux": "0.034559249",
+            "uy": "0.134432270"
+          },
+          {
+            "cx": "0.749731307",
+            "cy": "1.218679017",
+            "ux": "0.034082990",
+            "uy": "0.134553806"
+          },
+          {
+            "cx": "1.287196110",
+            "cy": "1.079220330",
+            "ux": "0.034089671",
+            "uy": "0.134552114"
+          },
+          {
+            "cx": "1.829567041",
+            "cy": "0.959247197",
+            "ux": "0.034100010",
+            "uy": "0.134549494"
+          },
+          {
+            "cx": "0.217170632",
+            "cy": "0.793218058",
+            "ux": "0.034558773",
+            "uy": "0.134432393"
+          },
+          {
+            "cx": "1.219014042",
+            "cy": "0.810101995",
+            "ux": "0.034075792",
+            "uy": "0.134555630"
+          },
+          {
+            "cx": "0.174553348",
+            "cy": "1.209089196",
+            "ux": "0.034083055",
+            "uy": "0.134553790"
+          },
+          {
+            "cx": "1.560468017",
+            "cy": "1.027447243",
+            "ux": "0.034100024",
+            "uy": "0.134549491"
+          },
+          {
+            "cx": "0.914938490",
+            "cy": "0.740297482",
+            "ux": "0.034074636",
+            "uy": "0.134555922"
+          },
+          {
+            "cx": "1.770293013",
+            "cy": "0.686854346",
+            "ux": "0.034066427",
+            "uy": "0.134558001"
+          },
+          {
+            "cx": "0.682226435",
+            "cy": "0.226340126",
+            "ux": "0.034559250",
+            "uy": "0.134432270"
+          },
+          {
+            "cx": "0.483576650",
+            "cy": "1.298502854",
+            "ux": "0.034083000",
+            "uy": "0.134553804"
+          },
+          {
+            "cx": "1.497878915",
+            "cy": "0.756926189",
+            "ux": "0.034100010",
+            "uy": "0.134549494"
+          },
+          {
+            "cx": "1.290523191",
+            "cy": "0.505059564",
+            "ux": "0.015606829",
+            "uy": "0.137923181"
+          },
+          {
+            "cx": "0.414049800",
+            "cy": "0.444081192",
+            "ux": "0.034559177",
+            "uy": "0.134432289"
+          },
+          {
+            "cx": "0.483168316",
+            "cy": "0.712945748",
+            "ux": "0.034559189",
+            "uy": "0.134432286"
+          },
+          {
+            "cx": "1.051292791",
+            "cy": "1.278507105",
+            "ux": "0.034074634",
+            "uy": "0.134555923"
+          },
+          {
+            "cx": "0.415410470",
+            "cy": "1.029395196",
+            "ux": "0.034083064",
+            "uy": "0.134553788"
+          },
+          {
+            "cx": "1.046366313",
+            "cy": "1.850253275",
+            "ux": "0.007558045",
+            "uy": "0.138597449"
+          },
+          {
+            "cx": "0.681565125",
+            "cy": "0.949571340",
+            "ux": "0.034083071",
+            "uy": "0.134553786"
+          },
+          {
+            "cx": "1.003033733",
+            "cy": "0.433379262",
+            "ux": "0.015606814",
+            "uy": "0.137923183"
+          },
+          {
+            "cx": "0.969701226",
+            "cy": "0.157772631",
+            "ux": "0.015606813",
+            "uy": "0.137923183"
+          },
+          {
+            "cx": "1.259309558",
+            "cy": "0.229213166",
+            "ux": "0.137923181",
+            "uy": "-0.015606828"
+          }
+        ]
+      }
+    },
+    {
+      "instanceId": "p05-n34-v2",
+      "name": "n = 34",
+      "parameters": {
+        "n": 34
+      },
+      "objective": "maximize",
+      "scoreStored": "75927367926578312",
+      "scoreDisplay": "0.275549211",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "0.275549652",
+        "kind": "best",
+        "range": {
+          "lower": "0.2755488933956441",
+          "upper": "0.2755496526696629"
+        },
+        "truncated": true,
+        "certificateDisplay": "0.275549211",
+        "publishedDisplay": "3.62911+",
+        "publishedMetric": "container radius for unit squares",
+        "source": "Jonathan Viquerat found the r = 3.62911+ packing in August 2026 (radius of the smallest circle around unit squares). The site digitised the squares' positions and orientations from the public figure, solved that fixed separating-axis structure and repaired it inward to a nine-decimal certificate scoring 0.075927367926578312; the truncated source interval is compared separately from the certificate, and optimality is open",
+        "url": "https://erich-friedman.github.io/packing/squincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "answer": {
+        "squares": [
+          {
+            "cx": "1.788987030",
+            "cy": "0.721583403",
+            "ux": "0.026187863",
+            "uy": "0.135262848"
+          },
+          {
+            "cx": "0.977536701",
+            "cy": "1.745578752",
+            "ux": "0.025612183",
+            "uy": "0.135373033"
+          },
+          {
+            "cx": "1.605240862",
+            "cy": "0.462051189",
+            "ux": "0.025301326",
+            "uy": "0.135431477"
+          },
+          {
+            "cx": "0.818133069",
+            "cy": "0.757162525",
+            "ux": "0.025612431",
+            "uy": "0.135372987"
+          },
+          {
+            "cx": "0.935351712",
+            "cy": "1.467144202",
+            "ux": "0.025800121",
+            "uy": "0.135337341"
+          },
+          {
+            "cx": "0.211121689",
+            "cy": "1.278079856",
+            "ux": "0.025857141",
+            "uy": "0.135326459"
+          },
+          {
+            "cx": "0.697992938",
+            "cy": "1.750303466",
+            "ux": "0.025612197",
+            "uy": "0.135373031"
+          },
+          {
+            "cx": "1.524634429",
+            "cy": "1.613720034",
+            "ux": "0.025113739",
+            "uy": "0.135466388"
+          },
+          {
+            "cx": "1.474640118",
+            "cy": "1.342172859",
+            "ux": "0.024927064",
+            "uy": "0.135500862"
+          },
+          {
+            "cx": "1.569232919",
+            "cy": "1.044425136",
+            "ux": "0.011294463",
+            "uy": "0.137310878"
+          },
+          {
+            "cx": "1.842629871",
+            "cy": "1.006361741",
+            "ux": "0.011247495",
+            "uy": "0.137314733"
+          },
+          {
+            "cx": "1.515522796",
+            "cy": "0.759864999",
+            "ux": "0.025985834",
+            "uy": "0.135301805"
+          },
+          {
+            "cx": "1.333966016",
+            "cy": "0.513558174",
+            "ux": "0.025683498",
+            "uy": "0.135359522"
+          },
+          {
+            "cx": "0.464370106",
+            "cy": "0.392315809",
+            "ux": "0.025612380",
+            "uy": "0.135372996"
+          },
+          {
+            "cx": "1.283235825",
+            "cy": "0.241919805",
+            "ux": "0.025249050",
+            "uy": "0.135441233"
+          },
+          {
+            "cx": "0.982281349",
+            "cy": "0.165230324",
+            "ux": "0.025612416",
+            "uy": "0.135372990"
+          },
+          {
+            "cx": "1.226232417",
+            "cy": "1.521263791",
+            "ux": "0.025612434",
+            "uy": "0.135372986"
+          },
+          {
+            "cx": "1.174877254",
+            "cy": "1.250542386",
+            "ux": "0.025612432",
+            "uy": "0.135372986"
+          },
+          {
+            "cx": "0.482753782",
+            "cy": "1.230150799",
+            "ux": "0.025612199",
+            "uy": "0.135373030"
+          },
+          {
+            "cx": "1.089411074",
+            "cy": "0.705836998",
+            "ux": "0.025612426",
+            "uy": "0.135372988"
+          },
+          {
+            "cx": "0.515521804",
+            "cy": "0.663075897",
+            "ux": "0.025612199",
+            "uy": "0.135373031"
+          },
+          {
+            "cx": "1.037973326",
+            "cy": "0.435131207",
+            "ux": "0.025612415",
+            "uy": "0.135372990"
+          },
+          {
+            "cx": "1.267128951",
+            "cy": "1.793963954",
+            "ux": "0.025612433",
+            "uy": "0.135372986"
+          },
+          {
+            "cx": "0.656640622",
+            "cy": "1.477689553",
+            "ux": "0.025612199",
+            "uy": "0.135373031"
+          },
+          {
+            "cx": "0.184469999",
+            "cy": "1.002630500",
+            "ux": "0.025852758",
+            "uy": "0.135327296"
+          },
+          {
+            "cx": "1.000672496",
+            "cy": "1.003063998",
+            "ux": "0.025612430",
+            "uy": "0.135372987"
+          },
+          {
+            "cx": "1.271419454",
+            "cy": "0.951838951",
+            "ux": "0.025612432",
+            "uy": "0.135372986"
+          },
+          {
+            "cx": "0.762760133",
+            "cy": "0.487201270",
+            "ux": "0.025612422",
+            "uy": "0.135372988"
+          },
+          {
+            "cx": "0.385886119",
+            "cy": "1.528915553",
+            "ux": "0.025612211",
+            "uy": "0.135373028"
+          },
+          {
+            "cx": "0.753506840",
+            "cy": "1.178925160",
+            "ux": "0.025612198",
+            "uy": "0.135373031"
+          },
+          {
+            "cx": "0.457766881",
+            "cy": "0.954440611",
+            "ux": "0.025612198",
+            "uy": "0.135373031"
+          },
+          {
+            "cx": "0.244076279",
+            "cy": "0.710665888",
+            "ux": "0.025612863",
+            "uy": "0.135372905"
+          },
+          {
+            "cx": "1.749388530",
+            "cy": "1.304809278",
+            "ux": "0.023648792",
+            "uy": "0.135729793"
+          },
+          {
+            "cx": "0.711535292",
+            "cy": "0.216455200",
+            "ux": "0.025612414",
+            "uy": "0.135372990"
+          }
+        ]
+      }
+    },
+    {
+      "instanceId": "p05-n35-v2",
+      "name": "n = 35",
+      "parameters": {
+        "n": 35
+      },
+      "objective": "maximize",
+      "scoreStored": "75471685538306580",
+      "scoreDisplay": "0.274721105",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "0.274721127",
+        "kind": "best",
+        "exact": "2√53/53",
+        "precision": "rounded",
+        "certificateDisplay": "0.274721105",
+        "publishedDisplay": "√53 / 2 = 3.640+",
+        "publishedMetric": "container radius for unit squares",
+        "source": "r = √53 / 2, giving continuous score 4/53; found by David Eppstein in March 2002. The site digitised the squares' positions and orientations from the public figure, solved that fixed separating-axis structure and repaired it inward to a nine-decimal certificate scoring 0.07547168553830658; optimality open",
+        "url": "https://erich-friedman.github.io/packing/squincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "answer": {
+        "squares": [
+          {
+            "cx": "0.869463507",
+            "cy": "1.825271732",
+            "ux": "0.137355851",
+            "uy": "-0.001136557"
+          },
+          {
+            "cx": "0.592012445",
+            "cy": "1.682095880",
+            "ux": "0.137360514",
+            "uy": "-0.000104098"
+          },
+          {
+            "cx": "1.421924425",
+            "cy": "1.682326654",
+            "ux": "0.137360445",
+            "uy": "-0.000171915"
+          },
+          {
+            "cx": "0.316543811",
+            "cy": "1.420670848",
+            "ux": "0.137359111",
+            "uy": "-0.000629324"
+          },
+          {
+            "cx": "0.593416293",
+            "cy": "1.407220447",
+            "ux": "0.137360428",
+            "uy": "-0.000185215"
+          },
+          {
+            "cx": "1.420425039",
+            "cy": "1.406483942",
+            "ux": "0.137359932",
+            "uy": "-0.000413013"
+          },
+          {
+            "cx": "1.695790241",
+            "cy": "1.407148752",
+            "ux": "0.137360511",
+            "uy": "-0.000106782"
+          },
+          {
+            "cx": "1.002273133",
+            "cy": "1.274711718",
+            "ux": "0.137355851",
+            "uy": "-0.001136563"
+          },
+          {
+            "cx": "0.177001393",
+            "cy": "1.144175238",
+            "ux": "0.137355851",
+            "uy": "-0.001136567"
+          },
+          {
+            "cx": "0.726350824",
+            "cy": "1.130683383",
+            "ux": "0.137355851",
+            "uy": "-0.001136562"
+          },
+          {
+            "cx": "1.275816070",
+            "cy": "1.131190124",
+            "ux": "0.137355851",
+            "uy": "-0.001136562"
+          },
+          {
+            "cx": "1.825271728",
+            "cy": "1.130536498",
+            "ux": "0.137355851",
+            "uy": "-0.001136560"
+          },
+          {
+            "cx": "1.000000008",
+            "cy": "1.000000007",
+            "ux": "0.137355851",
+            "uy": "-0.001136562"
+          },
+          {
+            "cx": "0.997726886",
+            "cy": "0.725288296",
+            "ux": "0.137355851",
+            "uy": "-0.001136562"
+          },
+          {
+            "cx": "0.308190928",
+            "cy": "0.580559638",
+            "ux": "0.137358529",
+            "uy": "-0.000745680"
+          },
+          {
+            "cx": "0.590386260",
+            "cy": "0.580757882",
+            "ux": "0.137359528",
+            "uy": "-0.000530568"
+          },
+          {
+            "cx": "1.416595796",
+            "cy": "0.579427657",
+            "ux": "0.137360019",
+            "uy": "-0.000382892"
+          },
+          {
+            "cx": "1.691478006",
+            "cy": "0.577756461",
+            "ux": "0.137359730",
+            "uy": "-0.000475403"
+          },
+          {
+            "cx": "0.581726342",
+            "cy": "0.305626142",
+            "ux": "0.137357362",
+            "uy": "-0.000936281"
+          },
+          {
+            "cx": "1.415586697",
+            "cy": "0.304395115",
+            "ux": "0.137359849",
+            "uy": "-0.000439631"
+          },
+          {
+            "cx": "0.855824732",
+            "cy": "0.177001402",
+            "ux": "0.137355851",
+            "uy": "-0.001136567"
+          },
+          {
+            "cx": "1.144175246",
+            "cy": "1.822998605",
+            "ux": "0.137355851",
+            "uy": "-0.001136568"
+          },
+          {
+            "cx": "0.869841543",
+            "cy": "1.550538056",
+            "ux": "0.137355851",
+            "uy": "-0.001136562"
+          },
+          {
+            "cx": "0.451627148",
+            "cy": "1.131511528",
+            "ux": "0.137355851",
+            "uy": "-0.001136562"
+          },
+          {
+            "cx": "1.550535711",
+            "cy": "1.129872628",
+            "ux": "0.137355851",
+            "uy": "-0.001136561"
+          },
+          {
+            "cx": "0.174728272",
+            "cy": "0.869463505",
+            "ux": "0.137355851",
+            "uy": "-0.001136561"
+          },
+          {
+            "cx": "0.724074522",
+            "cy": "0.855587168",
+            "ux": "0.137355851",
+            "uy": "-0.001136561"
+          },
+          {
+            "cx": "1.273540516",
+            "cy": "0.856183023",
+            "ux": "0.137355851",
+            "uy": "-0.001136563"
+          },
+          {
+            "cx": "1.822998610",
+            "cy": "0.855824782",
+            "ux": "0.137355851",
+            "uy": "-0.001136562"
+          },
+          {
+            "cx": "0.865427705",
+            "cy": "0.451652480",
+            "ux": "0.137355851",
+            "uy": "-0.001136563"
+          },
+          {
+            "cx": "1.130536474",
+            "cy": "0.174728255",
+            "ux": "0.137355851",
+            "uy": "-0.001136546"
+          },
+          {
+            "cx": "1.144697578",
+            "cy": "1.548263742",
+            "ux": "0.137355851",
+            "uy": "-0.001136563"
+          },
+          {
+            "cx": "0.449353051",
+            "cy": "0.856682997",
+            "ux": "0.137355851",
+            "uy": "-0.001136560"
+          },
+          {
+            "cx": "1.548260474",
+            "cy": "0.854905663",
+            "ux": "0.137355851",
+            "uy": "-0.001136563"
+          },
+          {
+            "cx": "1.140476894",
+            "cy": "0.449376562",
+            "ux": "0.137355851",
+            "uy": "-0.001136557"
+          }
+        ]
+      }
+    },
+    {
+      "instanceId": "p05-n36-v2",
+      "name": "n = 36",
+      "parameters": {
+        "n": 36
+      },
+      "objective": "maximize",
+      "scoreStored": "3084039594856900",
+      "scoreDisplay": "0.05553413",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "answer": {
+        "squares": [
+          {
+            "cx": "0.028152725",
+            "cy": "1",
+            "ux": "0.027767065",
+            "uy": "0"
+          },
+          {
+            "cx": "0.083686855",
+            "cy": "1",
+            "ux": "0.027767065",
+            "uy": "0"
+          },
+          {
+            "cx": "0.139220985",
+            "cy": "1",
+            "ux": "0.027767065",
+            "uy": "0"
+          },
+          {
+            "cx": "0.194755115",
+            "cy": "1",
+            "ux": "0.027767065",
+            "uy": "0"
+          },
+          {
+            "cx": "0.250289245",
+            "cy": "1",
+            "ux": "0.027767065",
+            "uy": "0"
+          },
+          {
+            "cx": "0.305823375",
+            "cy": "1",
+            "ux": "0.027767065",
+            "uy": "0"
+          },
+          {
+            "cx": "0.361357505",
+            "cy": "1",
+            "ux": "0.027767065",
+            "uy": "0"
+          },
+          {
+            "cx": "0.416891635",
+            "cy": "1",
+            "ux": "0.027767065",
+            "uy": "0"
+          },
+          {
+            "cx": "0.472425765",
+            "cy": "1",
+            "ux": "0.027767065",
+            "uy": "0"
+          },
+          {
+            "cx": "0.527959895",
+            "cy": "1",
+            "ux": "0.027767065",
+            "uy": "0"
+          },
+          {
+            "cx": "0.583494025",
+            "cy": "1",
+            "ux": "0.027767065",
+            "uy": "0"
+          },
+          {
+            "cx": "0.639028155",
+            "cy": "1",
+            "ux": "0.027767065",
+            "uy": "0"
+          },
+          {
+            "cx": "0.694562285",
+            "cy": "1",
+            "ux": "0.027767065",
+            "uy": "0"
+          },
+          {
+            "cx": "0.750096415",
+            "cy": "1",
+            "ux": "0.027767065",
+            "uy": "0"
+          },
+          {
+            "cx": "0.805630545",
+            "cy": "1",
+            "ux": "0.027767065",
+            "uy": "0"
+          },
+          {
+            "cx": "0.861164675",
+            "cy": "1",
+            "ux": "0.027767065",
+            "uy": "0"
+          },
+          {
+            "cx": "0.916698805",
+            "cy": "1",
+            "ux": "0.027767065",
+            "uy": "0"
+          },
+          {
+            "cx": "0.972232935",
+            "cy": "1",
+            "ux": "0.027767065",
+            "uy": "0"
+          },
+          {
+            "cx": "1.027767065",
+            "cy": "1",
+            "ux": "0.027767065",
+            "uy": "0"
+          },
+          {
+            "cx": "1.083301195",
+            "cy": "1",
+            "ux": "0.027767065",
+            "uy": "0"
+          },
+          {
+            "cx": "1.138835325",
+            "cy": "1",
+            "ux": "0.027767065",
+            "uy": "0"
+          },
+          {
+            "cx": "1.194369455",
+            "cy": "1",
+            "ux": "0.027767065",
+            "uy": "0"
+          },
+          {
+            "cx": "1.249903585",
+            "cy": "1",
+            "ux": "0.027767065",
+            "uy": "0"
+          },
+          {
+            "cx": "1.305437715",
+            "cy": "1",
+            "ux": "0.027767065",
+            "uy": "0"
+          },
+          {
+            "cx": "1.360971845",
+            "cy": "1",
+            "ux": "0.027767065",
+            "uy": "0"
+          },
+          {
+            "cx": "1.416505975",
+            "cy": "1",
+            "ux": "0.027767065",
+            "uy": "0"
+          },
+          {
+            "cx": "1.472040105",
+            "cy": "1",
+            "ux": "0.027767065",
+            "uy": "0"
+          },
+          {
+            "cx": "1.527574235",
+            "cy": "1",
+            "ux": "0.027767065",
+            "uy": "0"
+          },
+          {
+            "cx": "1.583108365",
+            "cy": "1",
+            "ux": "0.027767065",
+            "uy": "0"
+          },
+          {
+            "cx": "1.638642495",
+            "cy": "1",
+            "ux": "0.027767065",
+            "uy": "0"
+          },
+          {
+            "cx": "1.694176625",
+            "cy": "1",
+            "ux": "0.027767065",
+            "uy": "0"
+          },
+          {
+            "cx": "1.749710755",
+            "cy": "1",
+            "ux": "0.027767065",
+            "uy": "0"
+          },
+          {
+            "cx": "1.805244885",
+            "cy": "1",
+            "ux": "0.027767065",
+            "uy": "0"
+          },
+          {
+            "cx": "1.860779015",
+            "cy": "1",
+            "ux": "0.027767065",
+            "uy": "0"
+          },
+          {
+            "cx": "1.916313145",
+            "cy": "1",
+            "ux": "0.027767065",
+            "uy": "0"
+          },
+          {
+            "cx": "1.971847275",
+            "cy": "1",
+            "ux": "0.027767065",
+            "uy": "0"
+          }
+        ]
+      }
+    },
+    {
+      "instanceId": "p05-n37-v2",
+      "name": "n = 37",
+      "parameters": {
+        "n": 37
+      },
+      "objective": "maximize",
+      "scoreStored": "2919707521725124",
+      "scoreDisplay": "0.054034318",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "answer": {
+        "squares": [
+          {
+            "cx": "0.027382276",
+            "cy": "1",
+            "ux": "0.027017159",
+            "uy": "0"
+          },
+          {
+            "cx": "0.081416594",
+            "cy": "1",
+            "ux": "0.027017159",
+            "uy": "0"
+          },
+          {
+            "cx": "0.135450912",
+            "cy": "1",
+            "ux": "0.027017159",
+            "uy": "0"
+          },
+          {
+            "cx": "0.18948523",
+            "cy": "1",
+            "ux": "0.027017159",
+            "uy": "0"
+          },
+          {
+            "cx": "0.243519548",
+            "cy": "1",
+            "ux": "0.027017159",
+            "uy": "0"
+          },
+          {
+            "cx": "0.297553866",
+            "cy": "1",
+            "ux": "0.027017159",
+            "uy": "0"
+          },
+          {
+            "cx": "0.351588184",
+            "cy": "1",
+            "ux": "0.027017159",
+            "uy": "0"
+          },
+          {
+            "cx": "0.405622502",
+            "cy": "1",
+            "ux": "0.027017159",
+            "uy": "0"
+          },
+          {
+            "cx": "0.45965682",
+            "cy": "1",
+            "ux": "0.027017159",
+            "uy": "0"
+          },
+          {
+            "cx": "0.513691138",
+            "cy": "1",
+            "ux": "0.027017159",
+            "uy": "0"
+          },
+          {
+            "cx": "0.567725456",
+            "cy": "1",
+            "ux": "0.027017159",
+            "uy": "0"
+          },
+          {
+            "cx": "0.621759774",
+            "cy": "1",
+            "ux": "0.027017159",
+            "uy": "0"
+          },
+          {
+            "cx": "0.675794092",
+            "cy": "1",
+            "ux": "0.027017159",
+            "uy": "0"
+          },
+          {
+            "cx": "0.72982841",
+            "cy": "1",
+            "ux": "0.027017159",
+            "uy": "0"
+          },
+          {
+            "cx": "0.783862728",
+            "cy": "1",
+            "ux": "0.027017159",
+            "uy": "0"
+          },
+          {
+            "cx": "0.837897046",
+            "cy": "1",
+            "ux": "0.027017159",
+            "uy": "0"
+          },
+          {
+            "cx": "0.891931364",
+            "cy": "1",
+            "ux": "0.027017159",
+            "uy": "0"
+          },
+          {
+            "cx": "0.945965682",
+            "cy": "1",
+            "ux": "0.027017159",
+            "uy": "0"
+          },
+          {
+            "cx": "1",
+            "cy": "1",
+            "ux": "0.027017159",
+            "uy": "0"
+          },
+          {
+            "cx": "1.054034318",
+            "cy": "1",
+            "ux": "0.027017159",
+            "uy": "0"
+          },
+          {
+            "cx": "1.108068636",
+            "cy": "1",
+            "ux": "0.027017159",
+            "uy": "0"
+          },
+          {
+            "cx": "1.162102954",
+            "cy": "1",
+            "ux": "0.027017159",
+            "uy": "0"
+          },
+          {
+            "cx": "1.216137272",
+            "cy": "1",
+            "ux": "0.027017159",
+            "uy": "0"
+          },
+          {
+            "cx": "1.27017159",
+            "cy": "1",
+            "ux": "0.027017159",
+            "uy": "0"
+          },
+          {
+            "cx": "1.324205908",
+            "cy": "1",
+            "ux": "0.027017159",
+            "uy": "0"
+          },
+          {
+            "cx": "1.378240226",
+            "cy": "1",
+            "ux": "0.027017159",
+            "uy": "0"
+          },
+          {
+            "cx": "1.432274544",
+            "cy": "1",
+            "ux": "0.027017159",
+            "uy": "0"
+          },
+          {
+            "cx": "1.486308862",
+            "cy": "1",
+            "ux": "0.027017159",
+            "uy": "0"
+          },
+          {
+            "cx": "1.54034318",
+            "cy": "1",
+            "ux": "0.027017159",
+            "uy": "0"
+          },
+          {
+            "cx": "1.594377498",
+            "cy": "1",
+            "ux": "0.027017159",
+            "uy": "0"
+          },
+          {
+            "cx": "1.648411816",
+            "cy": "1",
+            "ux": "0.027017159",
+            "uy": "0"
+          },
+          {
+            "cx": "1.702446134",
+            "cy": "1",
+            "ux": "0.027017159",
+            "uy": "0"
+          },
+          {
+            "cx": "1.756480452",
+            "cy": "1",
+            "ux": "0.027017159",
+            "uy": "0"
+          },
+          {
+            "cx": "1.81051477",
+            "cy": "1",
+            "ux": "0.027017159",
+            "uy": "0"
+          },
+          {
+            "cx": "1.864549088",
+            "cy": "1",
+            "ux": "0.027017159",
+            "uy": "0"
+          },
+          {
+            "cx": "1.918583406",
+            "cy": "1",
+            "ux": "0.027017159",
+            "uy": "0"
+          },
+          {
+            "cx": "1.972617724",
+            "cy": "1",
+            "ux": "0.027017159",
+            "uy": "0"
+          }
+        ]
+      }
+    },
+    {
+      "instanceId": "p05-n38-v2",
+      "name": "n = 38",
+      "parameters": {
+        "n": 38
+      },
+      "objective": "maximize",
+      "scoreStored": "2768165650489600",
+      "scoreDisplay": "0.05261336",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "answer": {
+        "squares": [
+          {
+            "cx": "0.02665284",
+            "cy": "1",
+            "ux": "0.02630668",
+            "uy": "0"
+          },
+          {
+            "cx": "0.0792662",
+            "cy": "1",
+            "ux": "0.02630668",
+            "uy": "0"
+          },
+          {
+            "cx": "0.13187956",
+            "cy": "1",
+            "ux": "0.02630668",
+            "uy": "0"
+          },
+          {
+            "cx": "0.18449292",
+            "cy": "1",
+            "ux": "0.02630668",
+            "uy": "0"
+          },
+          {
+            "cx": "0.23710628",
+            "cy": "1",
+            "ux": "0.02630668",
+            "uy": "0"
+          },
+          {
+            "cx": "0.28971964",
+            "cy": "1",
+            "ux": "0.02630668",
+            "uy": "0"
+          },
+          {
+            "cx": "0.342333",
+            "cy": "1",
+            "ux": "0.02630668",
+            "uy": "0"
+          },
+          {
+            "cx": "0.39494636",
+            "cy": "1",
+            "ux": "0.02630668",
+            "uy": "0"
+          },
+          {
+            "cx": "0.44755972",
+            "cy": "1",
+            "ux": "0.02630668",
+            "uy": "0"
+          },
+          {
+            "cx": "0.50017308",
+            "cy": "1",
+            "ux": "0.02630668",
+            "uy": "0"
+          },
+          {
+            "cx": "0.55278644",
+            "cy": "1",
+            "ux": "0.02630668",
+            "uy": "0"
+          },
+          {
+            "cx": "0.6053998",
+            "cy": "1",
+            "ux": "0.02630668",
+            "uy": "0"
+          },
+          {
+            "cx": "0.65801316",
+            "cy": "1",
+            "ux": "0.02630668",
+            "uy": "0"
+          },
+          {
+            "cx": "0.71062652",
+            "cy": "1",
+            "ux": "0.02630668",
+            "uy": "0"
+          },
+          {
+            "cx": "0.76323988",
+            "cy": "1",
+            "ux": "0.02630668",
+            "uy": "0"
+          },
+          {
+            "cx": "0.81585324",
+            "cy": "1",
+            "ux": "0.02630668",
+            "uy": "0"
+          },
+          {
+            "cx": "0.8684666",
+            "cy": "1",
+            "ux": "0.02630668",
+            "uy": "0"
+          },
+          {
+            "cx": "0.92107996",
+            "cy": "1",
+            "ux": "0.02630668",
+            "uy": "0"
+          },
+          {
+            "cx": "0.97369332",
+            "cy": "1",
+            "ux": "0.02630668",
+            "uy": "0"
+          },
+          {
+            "cx": "1.02630668",
+            "cy": "1",
+            "ux": "0.02630668",
+            "uy": "0"
+          },
+          {
+            "cx": "1.07892004",
+            "cy": "1",
+            "ux": "0.02630668",
+            "uy": "0"
+          },
+          {
+            "cx": "1.1315334",
+            "cy": "1",
+            "ux": "0.02630668",
+            "uy": "0"
+          },
+          {
+            "cx": "1.18414676",
+            "cy": "1",
+            "ux": "0.02630668",
+            "uy": "0"
+          },
+          {
+            "cx": "1.23676012",
+            "cy": "1",
+            "ux": "0.02630668",
+            "uy": "0"
+          },
+          {
+            "cx": "1.28937348",
+            "cy": "1",
+            "ux": "0.02630668",
+            "uy": "0"
+          },
+          {
+            "cx": "1.34198684",
+            "cy": "1",
+            "ux": "0.02630668",
+            "uy": "0"
+          },
+          {
+            "cx": "1.3946002",
+            "cy": "1",
+            "ux": "0.02630668",
+            "uy": "0"
+          },
+          {
+            "cx": "1.44721356",
+            "cy": "1",
+            "ux": "0.02630668",
+            "uy": "0"
+          },
+          {
+            "cx": "1.49982692",
+            "cy": "1",
+            "ux": "0.02630668",
+            "uy": "0"
+          },
+          {
+            "cx": "1.55244028",
+            "cy": "1",
+            "ux": "0.02630668",
+            "uy": "0"
+          },
+          {
+            "cx": "1.60505364",
+            "cy": "1",
+            "ux": "0.02630668",
+            "uy": "0"
+          },
+          {
+            "cx": "1.657667",
+            "cy": "1",
+            "ux": "0.02630668",
+            "uy": "0"
+          },
+          {
+            "cx": "1.71028036",
+            "cy": "1",
+            "ux": "0.02630668",
+            "uy": "0"
+          },
+          {
+            "cx": "1.76289372",
+            "cy": "1",
+            "ux": "0.02630668",
+            "uy": "0"
+          },
+          {
+            "cx": "1.81550708",
+            "cy": "1",
+            "ux": "0.02630668",
+            "uy": "0"
+          },
+          {
+            "cx": "1.86812044",
+            "cy": "1",
+            "ux": "0.02630668",
+            "uy": "0"
+          },
+          {
+            "cx": "1.9207338",
+            "cy": "1",
+            "ux": "0.02630668",
+            "uy": "0"
+          },
+          {
+            "cx": "1.97334716",
+            "cy": "1",
+            "ux": "0.02630668",
+            "uy": "0"
+          }
+        ]
+      }
+    },
+    {
+      "instanceId": "p05-n39-v2",
+      "name": "n = 39",
+      "parameters": {
+        "n": 39
+      },
+      "objective": "maximize",
+      "scoreStored": "2628120320918416",
+      "scoreDisplay": "0.051265196",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "answer": {
+        "squares": [
+          {
+            "cx": "0.025961276",
+            "cy": "1",
+            "ux": "0.025632598",
+            "uy": "0"
+          },
+          {
+            "cx": "0.077226472",
+            "cy": "1",
+            "ux": "0.025632598",
+            "uy": "0"
+          },
+          {
+            "cx": "0.128491668",
+            "cy": "1",
+            "ux": "0.025632598",
+            "uy": "0"
+          },
+          {
+            "cx": "0.179756864",
+            "cy": "1",
+            "ux": "0.025632598",
+            "uy": "0"
+          },
+          {
+            "cx": "0.23102206",
+            "cy": "1",
+            "ux": "0.025632598",
+            "uy": "0"
+          },
+          {
+            "cx": "0.282287256",
+            "cy": "1",
+            "ux": "0.025632598",
+            "uy": "0"
+          },
+          {
+            "cx": "0.333552452",
+            "cy": "1",
+            "ux": "0.025632598",
+            "uy": "0"
+          },
+          {
+            "cx": "0.384817648",
+            "cy": "1",
+            "ux": "0.025632598",
+            "uy": "0"
+          },
+          {
+            "cx": "0.436082844",
+            "cy": "1",
+            "ux": "0.025632598",
+            "uy": "0"
+          },
+          {
+            "cx": "0.48734804",
+            "cy": "1",
+            "ux": "0.025632598",
+            "uy": "0"
+          },
+          {
+            "cx": "0.538613236",
+            "cy": "1",
+            "ux": "0.025632598",
+            "uy": "0"
+          },
+          {
+            "cx": "0.589878432",
+            "cy": "1",
+            "ux": "0.025632598",
+            "uy": "0"
+          },
+          {
+            "cx": "0.641143628",
+            "cy": "1",
+            "ux": "0.025632598",
+            "uy": "0"
+          },
+          {
+            "cx": "0.692408824",
+            "cy": "1",
+            "ux": "0.025632598",
+            "uy": "0"
+          },
+          {
+            "cx": "0.74367402",
+            "cy": "1",
+            "ux": "0.025632598",
+            "uy": "0"
+          },
+          {
+            "cx": "0.794939216",
+            "cy": "1",
+            "ux": "0.025632598",
+            "uy": "0"
+          },
+          {
+            "cx": "0.846204412",
+            "cy": "1",
+            "ux": "0.025632598",
+            "uy": "0"
+          },
+          {
+            "cx": "0.897469608",
+            "cy": "1",
+            "ux": "0.025632598",
+            "uy": "0"
+          },
+          {
+            "cx": "0.948734804",
+            "cy": "1",
+            "ux": "0.025632598",
+            "uy": "0"
+          },
+          {
+            "cx": "1",
+            "cy": "1",
+            "ux": "0.025632598",
+            "uy": "0"
+          },
+          {
+            "cx": "1.051265196",
+            "cy": "1",
+            "ux": "0.025632598",
+            "uy": "0"
+          },
+          {
+            "cx": "1.102530392",
+            "cy": "1",
+            "ux": "0.025632598",
+            "uy": "0"
+          },
+          {
+            "cx": "1.153795588",
+            "cy": "1",
+            "ux": "0.025632598",
+            "uy": "0"
+          },
+          {
+            "cx": "1.205060784",
+            "cy": "1",
+            "ux": "0.025632598",
+            "uy": "0"
+          },
+          {
+            "cx": "1.25632598",
+            "cy": "1",
+            "ux": "0.025632598",
+            "uy": "0"
+          },
+          {
+            "cx": "1.307591176",
+            "cy": "1",
+            "ux": "0.025632598",
+            "uy": "0"
+          },
+          {
+            "cx": "1.358856372",
+            "cy": "1",
+            "ux": "0.025632598",
+            "uy": "0"
+          },
+          {
+            "cx": "1.410121568",
+            "cy": "1",
+            "ux": "0.025632598",
+            "uy": "0"
+          },
+          {
+            "cx": "1.461386764",
+            "cy": "1",
+            "ux": "0.025632598",
+            "uy": "0"
+          },
+          {
+            "cx": "1.51265196",
+            "cy": "1",
+            "ux": "0.025632598",
+            "uy": "0"
+          },
+          {
+            "cx": "1.563917156",
+            "cy": "1",
+            "ux": "0.025632598",
+            "uy": "0"
+          },
+          {
+            "cx": "1.615182352",
+            "cy": "1",
+            "ux": "0.025632598",
+            "uy": "0"
+          },
+          {
+            "cx": "1.666447548",
+            "cy": "1",
+            "ux": "0.025632598",
+            "uy": "0"
+          },
+          {
+            "cx": "1.717712744",
+            "cy": "1",
+            "ux": "0.025632598",
+            "uy": "0"
+          },
+          {
+            "cx": "1.76897794",
+            "cy": "1",
+            "ux": "0.025632598",
+            "uy": "0"
+          },
+          {
+            "cx": "1.820243136",
+            "cy": "1",
+            "ux": "0.025632598",
+            "uy": "0"
+          },
+          {
+            "cx": "1.871508332",
+            "cy": "1",
+            "ux": "0.025632598",
+            "uy": "0"
+          },
+          {
+            "cx": "1.922773528",
+            "cy": "1",
+            "ux": "0.025632598",
+            "uy": "0"
+          },
+          {
+            "cx": "1.974038724",
+            "cy": "1",
+            "ux": "0.025632598",
+            "uy": "0"
+          }
+        ]
+      }
+    },
+    {
+      "instanceId": "p05-n40-v2",
+      "name": "n = 40",
+      "parameters": {
+        "n": 40
+      },
+      "objective": "maximize",
+      "scoreStored": "2498438044046884",
+      "scoreDisplay": "0.049984378",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "answer": {
+        "squares": [
+          {
+            "cx": "0.025304629",
+            "cy": "1",
+            "ux": "0.024992189",
+            "uy": "0"
+          },
+          {
+            "cx": "0.075289007",
+            "cy": "1",
+            "ux": "0.024992189",
+            "uy": "0"
+          },
+          {
+            "cx": "0.125273385",
+            "cy": "1",
+            "ux": "0.024992189",
+            "uy": "0"
+          },
+          {
+            "cx": "0.175257763",
+            "cy": "1",
+            "ux": "0.024992189",
+            "uy": "0"
+          },
+          {
+            "cx": "0.225242141",
+            "cy": "1",
+            "ux": "0.024992189",
+            "uy": "0"
+          },
+          {
+            "cx": "0.275226519",
+            "cy": "1",
+            "ux": "0.024992189",
+            "uy": "0"
+          },
+          {
+            "cx": "0.325210897",
+            "cy": "1",
+            "ux": "0.024992189",
+            "uy": "0"
+          },
+          {
+            "cx": "0.375195275",
+            "cy": "1",
+            "ux": "0.024992189",
+            "uy": "0"
+          },
+          {
+            "cx": "0.425179653",
+            "cy": "1",
+            "ux": "0.024992189",
+            "uy": "0"
+          },
+          {
+            "cx": "0.475164031",
+            "cy": "1",
+            "ux": "0.024992189",
+            "uy": "0"
+          },
+          {
+            "cx": "0.525148409",
+            "cy": "1",
+            "ux": "0.024992189",
+            "uy": "0"
+          },
+          {
+            "cx": "0.575132787",
+            "cy": "1",
+            "ux": "0.024992189",
+            "uy": "0"
+          },
+          {
+            "cx": "0.625117165",
+            "cy": "1",
+            "ux": "0.024992189",
+            "uy": "0"
+          },
+          {
+            "cx": "0.675101543",
+            "cy": "1",
+            "ux": "0.024992189",
+            "uy": "0"
+          },
+          {
+            "cx": "0.725085921",
+            "cy": "1",
+            "ux": "0.024992189",
+            "uy": "0"
+          },
+          {
+            "cx": "0.775070299",
+            "cy": "1",
+            "ux": "0.024992189",
+            "uy": "0"
+          },
+          {
+            "cx": "0.825054677",
+            "cy": "1",
+            "ux": "0.024992189",
+            "uy": "0"
+          },
+          {
+            "cx": "0.875039055",
+            "cy": "1",
+            "ux": "0.024992189",
+            "uy": "0"
+          },
+          {
+            "cx": "0.925023433",
+            "cy": "1",
+            "ux": "0.024992189",
+            "uy": "0"
+          },
+          {
+            "cx": "0.975007811",
+            "cy": "1",
+            "ux": "0.024992189",
+            "uy": "0"
+          },
+          {
+            "cx": "1.024992189",
+            "cy": "1",
+            "ux": "0.024992189",
+            "uy": "0"
+          },
+          {
+            "cx": "1.074976567",
+            "cy": "1",
+            "ux": "0.024992189",
+            "uy": "0"
+          },
+          {
+            "cx": "1.124960945",
+            "cy": "1",
+            "ux": "0.024992189",
+            "uy": "0"
+          },
+          {
+            "cx": "1.174945323",
+            "cy": "1",
+            "ux": "0.024992189",
+            "uy": "0"
+          },
+          {
+            "cx": "1.224929701",
+            "cy": "1",
+            "ux": "0.024992189",
+            "uy": "0"
+          },
+          {
+            "cx": "1.274914079",
+            "cy": "1",
+            "ux": "0.024992189",
+            "uy": "0"
+          },
+          {
+            "cx": "1.324898457",
+            "cy": "1",
+            "ux": "0.024992189",
+            "uy": "0"
+          },
+          {
+            "cx": "1.374882835",
+            "cy": "1",
+            "ux": "0.024992189",
+            "uy": "0"
+          },
+          {
+            "cx": "1.424867213",
+            "cy": "1",
+            "ux": "0.024992189",
+            "uy": "0"
+          },
+          {
+            "cx": "1.474851591",
+            "cy": "1",
+            "ux": "0.024992189",
+            "uy": "0"
+          },
+          {
+            "cx": "1.524835969",
+            "cy": "1",
+            "ux": "0.024992189",
+            "uy": "0"
+          },
+          {
+            "cx": "1.574820347",
+            "cy": "1",
+            "ux": "0.024992189",
+            "uy": "0"
+          },
+          {
+            "cx": "1.624804725",
+            "cy": "1",
+            "ux": "0.024992189",
+            "uy": "0"
+          },
+          {
+            "cx": "1.674789103",
+            "cy": "1",
+            "ux": "0.024992189",
+            "uy": "0"
+          },
+          {
+            "cx": "1.724773481",
+            "cy": "1",
+            "ux": "0.024992189",
+            "uy": "0"
+          },
+          {
+            "cx": "1.774757859",
+            "cy": "1",
+            "ux": "0.024992189",
+            "uy": "0"
+          },
+          {
+            "cx": "1.824742237",
+            "cy": "1",
+            "ux": "0.024992189",
+            "uy": "0"
+          },
+          {
+            "cx": "1.874726615",
+            "cy": "1",
+            "ux": "0.024992189",
+            "uy": "0"
+          },
+          {
+            "cx": "1.924710993",
+            "cy": "1",
+            "ux": "0.024992189",
+            "uy": "0"
+          },
+          {
+            "cx": "1.974695371",
+            "cy": "1",
+            "ux": "0.024992189",
+            "uy": "0"
           }
         ]
       }

@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/graduated-circles-in-square",
-  "generatedAt": "2026-09-07T10:29:41.256Z",
+  "generatedAt": "2026-09-08T09:50:35.255Z",
   "instances": [
     {
       "instanceId": "p13-n2-v1",
@@ -23,6 +23,7 @@
       "scoreDisplay": "5.121320344",
       "status": "proven",
       "settled": true,
+      "recordStatus": "optimal",
       "knownBest": {
         "display": "5.121320344",
         "kind": "proven",
@@ -30,7 +31,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -56,6 +57,7 @@
       "scoreDisplay": "8.535533906",
       "status": "proven",
       "settled": true,
+      "recordStatus": "optimal",
       "knownBest": {
         "display": "8.535533906",
         "kind": "proven",
@@ -63,7 +65,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -93,6 +95,7 @@
       "scoreDisplay": "11.949747469",
       "status": "proven",
       "settled": true,
+      "recordStatus": "optimal",
       "knownBest": {
         "display": "11.949747469",
         "kind": "proven",
@@ -100,7 +103,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -134,6 +137,7 @@
       "scoreDisplay": "15.603280276",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "15.6032802757",
         "kind": "best",
@@ -144,7 +148,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -182,6 +186,7 @@
       "scoreDisplay": "19.422903276",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "19.4229032754",
         "kind": "best",
@@ -192,7 +197,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -234,6 +239,7 @@
       "scoreDisplay": "23.818879928",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "23.8188799275",
         "kind": "best",
@@ -290,6 +296,7 @@
       "scoreDisplay": "29.105276686",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "29.1052766848",
         "kind": "best",
@@ -300,7 +307,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -350,6 +357,7 @@
       "scoreDisplay": "33.754305827",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "33.7543058260",
         "kind": "best",
@@ -360,7 +368,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -414,6 +422,7 @@
       "scoreDisplay": "38.580426415",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "38.5804264146",
         "kind": "best",
@@ -424,7 +433,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -482,6 +491,7 @@
       "scoreDisplay": "44.504984317",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "44.5049843156",
         "kind": "best",
@@ -492,7 +502,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -554,6 +564,7 @@
       "scoreDisplay": "50.181183005",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "50.1811830036",
         "kind": "best",
@@ -564,7 +575,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -630,6 +641,7 @@
       "scoreDisplay": "55.99136154",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "55.9913615390",
         "kind": "best",
@@ -640,7 +652,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -710,6 +722,7 @@
       "scoreDisplay": "61.849921315",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "61.8499213131",
         "kind": "best",
@@ -720,7 +733,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -794,6 +807,7 @@
       "scoreDisplay": "68.527563912",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "68.5275639104",
         "kind": "best",
@@ -804,7 +818,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -882,6 +896,7 @@
       "scoreDisplay": "75.009342562",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "75.0093425601",
         "kind": "best",
@@ -892,7 +907,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -974,6 +989,7 @@
       "scoreDisplay": "81.502023294",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "81.5020232924",
         "kind": "best",
@@ -1070,6 +1086,7 @@
       "scoreDisplay": "88.404088125",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "88.4040881240",
         "kind": "best",
@@ -1080,7 +1097,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -1170,6 +1187,7 @@
       "scoreDisplay": "95.751147949",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "95.7511479474",
         "kind": "best",
@@ -1274,6 +1292,7 @@
       "scoreDisplay": "103.117653256",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "103.1176532553",
         "kind": "best",
@@ -1284,7 +1303,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -1382,6 +1401,7 @@
       "scoreDisplay": "110.560297197",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "110.5602971954",
         "kind": "best",
@@ -1494,6 +1514,7 @@
       "scoreDisplay": "118.363865188",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "118.3638651864",
         "kind": "best",
@@ -1610,6 +1631,7 @@
       "scoreDisplay": "126.003553138",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "126.0035531370",
         "kind": "best",
@@ -1730,6 +1752,7 @@
       "scoreDisplay": "134.072386876",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "134.0723868749",
         "kind": "best",
@@ -1854,6 +1877,7 @@
       "scoreDisplay": "142.220544221",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "142.2205442197",
         "kind": "best",
@@ -1982,6 +2006,7 @@
       "scoreDisplay": "150.722283636",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "150.7222836351",
         "kind": "best",
@@ -2114,6 +2139,7 @@
       "scoreDisplay": "159.0374705",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "159.0374704985",
         "kind": "best",
@@ -2250,6 +2276,7 @@
       "scoreDisplay": "167.820337892",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "167.8203378909",
         "kind": "best",
@@ -2390,6 +2417,7 @@
       "scoreDisplay": "176.505704217",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "176.5057042147",
         "kind": "best",
@@ -2400,7 +2428,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -2534,6 +2562,7 @@
       "scoreDisplay": "185.662545649",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "185.6625456478",
         "kind": "best",

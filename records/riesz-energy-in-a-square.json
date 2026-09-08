@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/riesz-energy-in-a-square",
-  "generatedAt": "2026-09-07T10:29:41.695Z",
+  "generatedAt": "2026-09-08T09:50:36.871Z",
   "instances": [
     {
       "instanceId": "p33-n5-v2",
@@ -23,6 +23,7 @@
       "scoreDisplay": "13",
       "status": "matched",
       "settled": false,
+      "recordStatus": "matched",
       "knownBest": {
         "display": "13",
         "kind": "best",
@@ -30,7 +31,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "points": [
           [
@@ -67,6 +68,7 @@
       "scoreDisplay": "25.2",
       "status": "matched",
       "settled": false,
+      "recordStatus": "matched",
       "knownBest": {
         "display": "25.2",
         "kind": "best",
@@ -74,7 +76,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "points": [
           [
@@ -115,6 +117,7 @@
       "scoreDisplay": "38.719997254",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": null,
       "holder": "Sigmoid with Codex",
       "method": "ai",
@@ -163,6 +166,7 @@
       "scoreDisplay": "53.4",
       "status": "matched",
       "settled": false,
+      "recordStatus": "matched",
       "knownBest": {
         "display": "53.4",
         "kind": "best",
@@ -170,7 +174,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "points": [
           [
@@ -219,6 +223,7 @@
       "scoreDisplay": "77.4",
       "status": "matched",
       "settled": false,
+      "recordStatus": "matched",
       "knownBest": {
         "display": "77.4",
         "kind": "best",
@@ -226,7 +231,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "points": [
           [
@@ -279,6 +284,7 @@
       "scoreDisplay": "110.659971408",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": null,
       "holder": "Sigmoid with Codex",
       "method": "ai",
@@ -339,6 +345,7 @@
       "scoreDisplay": "145.484824588",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": null,
       "holder": "Sigmoid with Codex",
       "method": "ai",
@@ -403,6 +410,7 @@
       "scoreDisplay": "184.441324472",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": null,
       "holder": "Sigmoid with Codex",
       "method": "ai",
@@ -471,6 +479,7 @@
       "scoreDisplay": "225.02778539",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": null,
       "holder": "Sigmoid with Codex",
       "method": "ai",
@@ -543,6 +552,7 @@
       "scoreDisplay": "277.689644161",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": null,
       "holder": "Sigmoid with Codex",
       "method": "ai",
@@ -619,6 +629,7 @@
       "scoreDisplay": "339.025020549",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": null,
       "holder": "Sigmoid with Codex",
       "method": "ai",
@@ -699,6 +710,7 @@
       "scoreDisplay": "409.399891823",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": null,
       "holder": "Sigmoid with Codex",
       "method": "ai",
@@ -783,6 +795,7 @@
       "scoreDisplay": "485.454812687",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": null,
       "holder": "Sigmoid with Codex",
       "method": "ai",
@@ -871,6 +884,7 @@
       "scoreDisplay": "564.326663466",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": null,
       "holder": "Sigmoid with Codex",
       "method": "ai",
@@ -963,6 +977,7 @@
       "scoreDisplay": "646.497435202",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": null,
       "holder": "Sigmoid with Codex",
       "method": "ai",
@@ -1059,6 +1074,7 @@
       "scoreDisplay": "733.476353908",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": null,
       "holder": "Sigmoid with Codex",
       "method": "ai",
@@ -1159,6 +1175,7 @@
       "scoreDisplay": "839.242213148",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": null,
       "holder": "Sigmoid with Codex",
       "method": "ai",
@@ -1263,6 +1280,7 @@
       "scoreDisplay": "954.852988392",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": null,
       "holder": "Sigmoid with Codex",
       "method": "ai",
@@ -1371,6 +1389,7 @@
       "scoreDisplay": "1079.794342334",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": null,
       "holder": "Sigmoid with Codex",
       "method": "ai",
@@ -1483,6 +1502,7 @@
       "scoreDisplay": "1210.337429368",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": null,
       "holder": "Sigmoid with Codex",
       "method": "ai",

@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/circles-in-a-cross",
-  "generatedAt": "2026-09-07T10:29:41.169Z",
+  "generatedAt": "2026-09-08T09:50:34.940Z",
   "instances": [
     {
       "instanceId": "p10-n3-v2",
@@ -23,6 +23,7 @@
       "scoreDisplay": "0.5",
       "status": "proven",
       "settled": true,
+      "recordStatus": "optimal",
       "knownBest": {
         "display": "0.5",
         "kind": "proven",
@@ -32,7 +33,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -62,6 +63,7 @@
       "scoreDisplay": "0.5",
       "status": "proven",
       "settled": true,
+      "recordStatus": "optimal",
       "knownBest": {
         "display": "0.5",
         "kind": "proven",
@@ -71,7 +73,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -105,6 +107,7 @@
       "scoreDisplay": "0.5",
       "status": "proven",
       "settled": true,
+      "recordStatus": "optimal",
       "knownBest": {
         "display": "0.5",
         "kind": "proven",
@@ -114,7 +117,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -152,6 +155,7 @@
       "scoreDisplay": "0.390461734",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": null,
       "holder": "Sigmoid with Codex",
       "method": "ai",
@@ -197,6 +201,7 @@
       "scoreDisplay": "0.363567378",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": null,
       "holder": "Sigmoid with Codex",
       "method": "ai",
@@ -246,6 +251,7 @@
       "scoreDisplay": "0.357823968",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": null,
       "holder": "Sigmoid with Codex",
       "method": "ai",
@@ -299,6 +305,7 @@
       "scoreDisplay": "0.325182472",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": null,
       "holder": "邱仲普",
       "method": "ai",
@@ -356,6 +363,7 @@
       "scoreDisplay": "0.311743331",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": null,
       "holder": "bowen2147483647",
       "method": "human",
@@ -417,6 +425,7 @@
       "scoreDisplay": "0.298412502",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": null,
       "holder": "邱仲普",
       "method": "ai",
@@ -482,6 +491,7 @@
       "scoreDisplay": "0.295146444",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": null,
       "holder": "邱仲普",
       "method": "ai",
@@ -551,6 +561,7 @@
       "scoreDisplay": "0.280809859",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": null,
       "holder": "Sigmoid with Codex",
       "method": "ai",
@@ -624,6 +635,7 @@
       "scoreDisplay": "0.274003142",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": null,
       "holder": "Sigmoid with Codex",
       "method": "ai",
@@ -701,6 +713,7 @@
       "scoreDisplay": "0.27053504",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": null,
       "holder": "邱仲普",
       "method": "ai",
@@ -782,6 +795,7 @@
       "scoreDisplay": "0.268046126",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": null,
       "holder": "邱仲普",
       "method": "ai",
@@ -867,6 +881,7 @@
       "scoreDisplay": "0.263932022",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": null,
       "holder": "Sigmoid with Codex",
       "method": "ai",
@@ -956,6 +971,7 @@
       "scoreDisplay": "0.254333094",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": null,
       "holder": "邱仲普",
       "method": "ai",

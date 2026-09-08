@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/line-packing",
-  "generatedAt": "2026-09-07T10:29:42.157Z",
+  "generatedAt": "2026-09-08T09:50:38.129Z",
   "instances": [
     {
       "instanceId": "p60-d3-n9-v1",
@@ -20,10 +20,11 @@
         "d": 3
       },
       "objective": "minimize",
-      "scoreStored": "448045914487608852",
+      "scoreStored": "448045914486574210",
       "scoreDisplay": "0.66936232",
       "status": "matched",
       "settled": false,
+      "recordStatus": "matched",
       "knownBest": {
         "display": "0.66936232",
         "kind": "best",
@@ -40,7 +41,7 @@
       },
       "holder": "Stonebubu",
       "method": "ai",
-      "recordedAt": "2026-09-03T17:29:20.889Z",
+      "recordedAt": "2026-09-07T21:08:59.094Z",
       "answer": {
         "vectors": [
           [
@@ -59,14 +60,14 @@
             "0.999500104"
           ],
           [
-            "0.999499855",
-            "-0.619716401",
-            "-0.598261405"
+            "0.999499576",
+            "-0.619716228",
+            "-0.598261238"
           ],
           [
-            "-0.999500299",
-            "0.728907079",
-            "-0.470848779"
+            "-0.999502615",
+            "0.728908768",
+            "-0.470849870"
           ],
           [
             "0.914530379",
@@ -103,6 +104,7 @@
       "scoreDisplay": "0.686140662",
       "status": "matched",
       "settled": false,
+      "recordStatus": "matched",
       "knownBest": {
         "display": "0.686140662",
         "kind": "best",
@@ -187,6 +189,7 @@
       "scoreDisplay": "0.714434498",
       "status": "matched",
       "settled": false,
+      "recordStatus": "matched",
       "knownBest": {
         "display": "0.714434498",
         "kind": "best",
@@ -276,6 +279,7 @@
       "scoreDisplay": "0.744520839",
       "status": "matched",
       "settled": false,
+      "recordStatus": "matched",
       "knownBest": {
         "display": "0.744520839",
         "kind": "best",
@@ -370,6 +374,7 @@
       "scoreDisplay": "0.768137377",
       "status": "matched",
       "settled": false,
+      "recordStatus": "matched",
       "knownBest": {
         "display": "0.768137377",
         "kind": "best",
@@ -469,6 +474,7 @@
       "scoreDisplay": "0.780622193",
       "status": "matched",
       "settled": false,
+      "recordStatus": "matched",
       "knownBest": {
         "display": "0.780622193",
         "kind": "best",
@@ -573,6 +579,7 @@
       "scoreDisplay": "0.786558572",
       "status": "matched",
       "settled": false,
+      "recordStatus": "matched",
       "knownBest": {
         "display": "0.786558572",
         "kind": "best",
@@ -682,6 +689,7 @@
       "scoreDisplay": "0.794654473",
       "status": "matched",
       "settled": false,
+      "recordStatus": "matched",
       "knownBest": {
         "display": "0.794654473",
         "kind": "best",
@@ -796,6 +804,7 @@
       "scoreDisplay": "0.434258546",
       "status": "matched",
       "settled": false,
+      "recordStatus": "matched",
       "knownBest": {
         "display": "0.434258546",
         "kind": "best",
@@ -884,6 +893,7 @@
       "scoreDisplay": "0.434258546",
       "status": "matched",
       "settled": false,
+      "recordStatus": "matched",
       "knownBest": {
         "display": "0.434258546",
         "kind": "best",
@@ -978,6 +988,7 @@
       "scoreDisplay": "0.5",
       "status": "matched",
       "settled": false,
+      "recordStatus": "matched",
       "knownBest": {
         "display": "0.5",
         "kind": "best",
@@ -1078,6 +1089,7 @@
       "scoreDisplay": "0.5",
       "status": "matched",
       "settled": false,
+      "recordStatus": "matched",
       "knownBest": {
         "display": "0.5",
         "kind": "best",
@@ -1184,6 +1196,7 @@
       "scoreDisplay": "0.566915271",
       "status": "matched",
       "settled": false,
+      "recordStatus": "matched",
       "knownBest": {
         "display": "0.566915271",
         "kind": "best",
@@ -1296,6 +1309,7 @@
       "scoreDisplay": "0.590076516",
       "status": "matched",
       "settled": false,
+      "recordStatus": "matched",
       "knownBest": {
         "display": "0.590076516",
         "kind": "best",
@@ -1410,10 +1424,11 @@
         "d": 4
       },
       "objective": "minimize",
-      "scoreStored": "370563671413981334",
+      "scoreStored": "370563671407730979",
       "scoreDisplay": "0.608739412",
       "status": "matched",
       "settled": false,
+      "recordStatus": "matched",
       "knownBest": {
         "display": "0.608739412",
         "kind": "best",
@@ -1430,20 +1445,20 @@
       },
       "holder": "Stonebubu",
       "method": "ai",
-      "recordedAt": "2026-09-02T09:20:56.652Z",
+      "recordedAt": "2026-09-08T07:51:51.368Z",
       "answer": {
         "vectors": [
           [
-            "0.114384175",
-            "0.999500228",
-            "-0.203649968",
-            "-0.977936153"
+            "0.114384048",
+            "0.999499118",
+            "-0.203649742",
+            "-0.977935067"
           ],
           [
-            "0.169676728",
-            "0.119732701",
-            "-0.999501115",
-            "-0.787351758"
+            "0.169676691",
+            "0.119732675",
+            "-0.999500899",
+            "-0.787351588"
           ],
           [
             "-0.999499006",
@@ -1458,40 +1473,40 @@
             "0.214403844"
           ],
           [
-            "-0.837063346",
-            "0.999500372",
-            "0.519046525",
-            "-0.498673318"
+            "-0.837063262",
+            "0.999500272",
+            "0.519046473",
+            "-0.498673268"
           ],
           [
-            "-0.901991205",
-            "-0.212087391",
-            "0.581612777",
-            "-0.999498706"
+            "-0.901990916",
+            "-0.212087323",
+            "0.581612591",
+            "-0.999498386"
           ],
           [
-            "-0.233945938",
-            "-0.252779398",
-            "-0.729206953",
-            "0.999500009"
+            "-0.233946003",
+            "-0.252779468",
+            "-0.729207155",
+            "0.999500286"
           ],
           [
-            "0.169612885",
-            "-0.999499945",
-            "0.100831557",
-            "-0.267995814"
+            "0.169612883",
+            "-0.999499933",
+            "0.100831556",
+            "-0.267995811"
           ],
           [
-            "-0.411199996",
-            "0.420291268",
-            "0.107620517",
-            "0.999500019"
+            "-0.411200087",
+            "0.420291361",
+            "0.107620541",
+            "0.999500240"
           ],
           [
-            "-0.999500183",
-            "0.118304219",
-            "0.517652939",
-            "0.316985925"
+            "-0.999500233",
+            "0.118304225",
+            "0.517652965",
+            "0.316985941"
           ],
           [
             "0.812415926",
@@ -1506,10 +1521,10 @@
             "-0.999499896"
           ],
           [
-            "0.999500008",
-            "-0.415716914",
-            "0.600802725",
-            "0.937248993"
+            "0.999499958",
+            "-0.415716893",
+            "0.600802695",
+            "0.937248946"
           ],
           [
             "-0.065744822",
@@ -1518,10 +1533,10 @@
             "0.013873763"
           ],
           [
-            "0.999500064",
-            "-0.505808323",
-            "0.494402071",
-            "-0.328564675"
+            "0.999500070",
+            "-0.505808326",
+            "0.494402074",
+            "-0.328564677"
           ]
         ]
       }
@@ -1534,10 +1549,11 @@
         "d": 4
       },
       "objective": "minimize",
-      "scoreStored": "381966011321688601",
+      "scoreStored": "381966011319834664",
       "scoreDisplay": "0.618033989",
       "status": "matched",
       "settled": false,
+      "recordStatus": "matched",
       "knownBest": {
         "display": "0.618033989",
         "kind": "best",
@@ -1554,7 +1570,7 @@
       },
       "holder": "Stonebubu",
       "method": "ai",
-      "recordedAt": "2026-09-04T06:04:12.192Z",
+      "recordedAt": "2026-09-07T19:41:38.630Z",
       "answer": {
         "vectors": [
           [
@@ -1606,10 +1622,10 @@
             "0.313532668"
           ],
           [
-            "0.409332029",
-            "0.215972020",
-            "-0.907691663",
-            "-0.999501157"
+            "0.409332016",
+            "0.215972013",
+            "-0.907691634",
+            "-0.999501125"
           ],
           [
             "-0.999500399",
@@ -1668,6 +1684,7 @@
       "scoreDisplay": "0.630851712",
       "status": "matched",
       "settled": false,
+      "recordStatus": "matched",
       "knownBest": {
         "display": "0.630851712",
         "kind": "best",
@@ -1804,6 +1821,7 @@
       "scoreDisplay": "0.636647309",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.636647309",
         "kind": "best",
@@ -1946,6 +1964,7 @@
       "scoreDisplay": "0.646648904",
       "status": "matched",
       "settled": false,
+      "recordStatus": "matched",
       "knownBest": {
         "display": "0.646648904",
         "kind": "best",
@@ -2094,6 +2113,7 @@
       "scoreDisplay": "0.652985798",
       "status": "matched",
       "settled": false,
+      "recordStatus": "matched",
       "knownBest": {
         "display": "0.652985798",
         "kind": "best",
@@ -2248,6 +2268,7 @@
       "scoreDisplay": "0.386641199",
       "status": "matched",
       "settled": false,
+      "recordStatus": "matched",
       "knownBest": {
         "display": "0.386641199",
         "kind": "best",
@@ -2359,6 +2380,7 @@
       "scoreDisplay": "0.390388204",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.390388204",
         "kind": "best",
@@ -2477,6 +2499,7 @@
       "scoreDisplay": "0.411006676",
       "status": "matched",
       "settled": false,
+      "recordStatus": "matched",
       "knownBest": {
         "display": "0.411006676",
         "kind": "best",
@@ -2598,10 +2621,11 @@
         "d": 5
       },
       "objective": "minimize",
-      "scoreStored": "169028329882182923",
+      "scoreStored": "169028329877315964",
       "scoreDisplay": "0.411130551",
       "status": "matched",
       "settled": false,
+      "recordStatus": "matched",
       "knownBest": {
         "display": "0.411130551",
         "kind": "best",
@@ -2618,7 +2642,7 @@
       },
       "holder": "Stonebubu",
       "method": "ai",
-      "recordedAt": "2026-09-06T00:54:03.462Z",
+      "recordedAt": "2026-09-07T13:34:21.827Z",
       "answer": {
         "vectors": [
           [
@@ -2636,11 +2660,11 @@
             "0.210522280"
           ],
           [
-            "0.346918535",
-            "0.698934872",
-            "0.928370653",
-            "0.332163852",
-            "-0.999499250"
+            "0.346918257",
+            "0.698934312",
+            "0.928369909",
+            "0.332163586",
+            "-0.999498449"
           ],
           [
             "-0.961157229",
@@ -2664,11 +2688,11 @@
             "0.849980459"
           ],
           [
-            "-0.999500601",
-            "-0.768240651",
-            "0.831154088",
-            "-0.407234312",
-            "0.967622071"
+            "-0.999500398",
+            "-0.768240495",
+            "0.831153919",
+            "-0.407234229",
+            "0.967621874"
           ],
           [
             "0.021100782",
@@ -2734,6 +2758,7 @@
       "scoreDisplay": "0.414213563",
       "status": "matched",
       "settled": false,
+      "recordStatus": "matched",
       "knownBest": {
         "display": "0.414213563",
         "kind": "best",
@@ -2873,6 +2898,7 @@
       "scoreDisplay": "0.447213596",
       "status": "matched",
       "settled": false,
+      "recordStatus": "matched",
       "knownBest": {
         "display": "0.447213596",
         "kind": "best",
@@ -3019,6 +3045,7 @@
       "scoreDisplay": "0.480904102",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.480904102",
         "kind": "best",
@@ -3172,6 +3199,7 @@
       "scoreDisplay": "0.483999001",
       "status": "matched",
       "settled": false,
+      "recordStatus": "matched",
       "knownBest": {
         "display": "0.483999001",
         "kind": "best",
@@ -3332,6 +3360,7 @@
       "scoreDisplay": "0.5",
       "status": "matched",
       "settled": false,
+      "recordStatus": "matched",
       "knownBest": {
         "display": "0.5",
         "kind": "best",
@@ -3499,6 +3528,7 @@
       "scoreDisplay": "0.5",
       "status": "matched",
       "settled": false,
+      "recordStatus": "matched",
       "knownBest": {
         "display": "0.5",
         "kind": "best",
@@ -3673,6 +3703,7 @@
       "scoreDisplay": "0.541672065",
       "status": "matched",
       "settled": false,
+      "recordStatus": "matched",
       "knownBest": {
         "display": "0.541672065",
         "kind": "best",
@@ -3854,6 +3885,7 @@
       "scoreDisplay": "0.554034329",
       "status": "matched",
       "settled": false,
+      "recordStatus": "matched",
       "knownBest": {
         "display": "0.554034329",
         "kind": "best",

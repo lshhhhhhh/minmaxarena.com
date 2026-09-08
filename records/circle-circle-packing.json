@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/circle-circle-packing",
-  "generatedAt": "2026-09-07T10:29:40.700Z",
+  "generatedAt": "2026-09-08T09:50:33.418Z",
   "instances": [
     {
       "instanceId": "p02-n1-v1",
@@ -23,6 +23,7 @@
       "scoreDisplay": "1.000000000",
       "status": "proven",
       "settled": true,
+      "recordStatus": "optimal",
       "knownBest": {
         "display": "1",
         "kind": "proven",
@@ -35,7 +36,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -57,6 +58,7 @@
       "scoreDisplay": "0.500000000",
       "status": "proven",
       "settled": true,
+      "recordStatus": "optimal",
       "knownBest": {
         "display": "0.5",
         "kind": "proven",
@@ -69,7 +71,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -95,6 +97,7 @@
       "scoreDisplay": "0.464101614",
       "status": "proven",
       "settled": true,
+      "recordStatus": "optimal",
       "knownBest": {
         "display": "0.464101614",
         "kind": "proven",
@@ -107,7 +110,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -137,6 +140,7 @@
       "scoreDisplay": "0.414213562",
       "status": "proven",
       "settled": true,
+      "recordStatus": "optimal",
       "knownBest": {
         "display": "0.414213562",
         "kind": "proven",
@@ -149,7 +153,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -183,6 +187,7 @@
       "scoreDisplay": "0.370191907",
       "status": "proven",
       "settled": true,
+      "recordStatus": "optimal",
       "knownBest": {
         "display": "0.370191907",
         "kind": "proven",
@@ -195,7 +200,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -233,6 +238,7 @@
       "scoreDisplay": "0.333333333",
       "status": "proven",
       "settled": true,
+      "recordStatus": "optimal",
       "knownBest": {
         "display": "0.333333333",
         "kind": "proven",
@@ -245,7 +251,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -287,6 +293,7 @@
       "scoreDisplay": "0.333333333",
       "status": "proven",
       "settled": true,
+      "recordStatus": "optimal",
       "knownBest": {
         "display": "0.333333333",
         "kind": "proven",
@@ -299,7 +306,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -345,6 +352,7 @@
       "scoreDisplay": "0.302593388",
       "status": "proven",
       "settled": true,
+      "recordStatus": "optimal",
       "knownBest": {
         "display": "0.302593388",
         "kind": "proven",
@@ -357,7 +365,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -407,6 +415,7 @@
       "scoreDisplay": "0.276768653",
       "status": "proven",
       "settled": true,
+      "recordStatus": "optimal",
       "knownBest": {
         "display": "0.276768653",
         "kind": "proven",
@@ -419,7 +428,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -473,6 +482,7 @@
       "scoreDisplay": "0.262258924",
       "status": "open",
       "settled": true,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.262258923",
         "kind": "proven",
@@ -542,6 +552,7 @@
       "scoreDisplay": "0.254854701",
       "status": "proven",
       "settled": true,
+      "recordStatus": "optimal",
       "knownBest": {
         "display": "0.254854701",
         "kind": "proven",
@@ -554,7 +565,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -616,6 +627,7 @@
       "scoreDisplay": "0.248163470",
       "status": "proven",
       "settled": true,
+      "recordStatus": "optimal",
       "knownBest": {
         "display": "0.24816347",
         "kind": "proven",
@@ -627,7 +639,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -693,6 +705,7 @@
       "scoreDisplay": "0.236067977",
       "status": "proven",
       "settled": true,
+      "recordStatus": "optimal",
       "knownBest": {
         "display": "0.236067977",
         "kind": "proven",
@@ -705,7 +718,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -775,6 +788,7 @@
       "scoreDisplay": "0.231030727",
       "status": "proven",
       "settled": true,
+      "recordStatus": "optimal",
       "knownBest": {
         "display": "0.231030727",
         "kind": "proven",
@@ -786,7 +800,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -860,6 +874,7 @@
       "scoreDisplay": "0.221172539",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.221172539",
         "kind": "best",
@@ -952,6 +967,7 @@
       "scoreDisplay": "0.216664742",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.216664742924422421010647936933",
         "kind": "best",
@@ -966,7 +982,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -1048,6 +1064,7 @@
       "scoreDisplay": "0.208679665",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.208679665570499743200080125264",
         "kind": "best",
@@ -1062,7 +1079,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -1148,6 +1165,7 @@
       "scoreDisplay": "0.205604646",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.205604646759568224693193969093",
         "kind": "best",
@@ -1162,7 +1180,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -1252,6 +1270,7 @@
       "scoreDisplay": "0.205604646",
       "status": "proven",
       "settled": true,
+      "recordStatus": "optimal",
       "knownBest": {
         "display": "0.205604646",
         "kind": "proven",
@@ -1264,7 +1283,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -1358,6 +1377,7 @@
       "scoreDisplay": "0.195224010",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.195224011",
         "kind": "best",
@@ -1372,7 +1392,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -1470,6 +1490,7 @@
       "scoreDisplay": "0.190392146",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.190392146849053511968808973057",
         "kind": "best",
@@ -1484,7 +1505,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -1586,6 +1607,7 @@
       "scoreDisplay": "0.183833026",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.183833026581681677264411480513",
         "kind": "best",
@@ -1706,6 +1728,7 @@
       "scoreDisplay": "0.180336009",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.180336009",
         "kind": "best",
@@ -1830,6 +1853,7 @@
       "scoreDisplay": "0.176939130",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.176939130595961682695732682453",
         "kind": "best",
@@ -1844,7 +1868,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -1958,6 +1982,7 @@
       "scoreDisplay": "0.173827661",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.173827661421222233359259594413",
         "kind": "best",
@@ -2090,6 +2115,7 @@
       "scoreDisplay": "0.171580252",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.171580252",
         "kind": "best",
@@ -2226,6 +2252,7 @@
       "scoreDisplay": "0.169307930",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.169307931",
         "kind": "best",
@@ -2240,7 +2267,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -2366,6 +2393,7 @@
       "scoreDisplay": "0.166252749",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.166252750",
         "kind": "best",
@@ -2380,7 +2408,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -2510,6 +2538,7 @@
       "scoreDisplay": "0.162903649",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.162903649",
         "kind": "best",
@@ -2658,6 +2687,7 @@
       "scoreDisplay": "0.161349108",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.161349109064689865167358846536",
         "kind": "best",
@@ -2672,7 +2702,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -2810,6 +2840,7 @@
       "scoreDisplay": "0.158944541",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.158944541560340043740860426196",
         "kind": "best",
@@ -2824,7 +2855,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -2966,6 +2997,7 @@
       "scoreDisplay": "0.155533985",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.155533985422770861614341265770",
         "kind": "best",
@@ -3126,6 +3158,7 @@
       "scoreDisplay": "0.154161517",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.154161517947058164731937622494",
         "kind": "best",
@@ -3140,7 +3173,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -3290,6 +3323,7 @@
       "scoreDisplay": "0.151264028",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.151264028246755464100569487881",
         "kind": "best",
@@ -3458,6 +3492,7 @@
       "scoreDisplay": "0.149316776",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.149316776635116022601721177537",
         "kind": "best",
@@ -3472,7 +3507,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -3630,6 +3665,7 @@
       "scoreDisplay": "0.148219429",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.148219429761119335369545525679",
         "kind": "best",
@@ -3644,7 +3680,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -3806,6 +3842,7 @@
       "scoreDisplay": "0.147955904",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.147955904479076327030170123453",
         "kind": "best",
@@ -3986,6 +4023,7 @@
       "scoreDisplay": "0.143639217",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.143639218073289832432495924488",
         "kind": "best",
@@ -4000,7 +4038,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -4170,6 +4208,7 @@
       "scoreDisplay": "0.141685521",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.141685521745403170506570588310",
         "kind": "best",
@@ -4184,7 +4223,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -4354,10 +4393,11 @@
         "n": 40
       },
       "objective": "maximize",
-      "scoreStored": "140373603",
-      "scoreDisplay": "0.140373603",
+      "scoreStored": "140373604",
+      "scoreDisplay": "0.140373604",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.140373604202714704755923179430",
         "kind": "best",
@@ -4370,173 +4410,173 @@
         "source": "Packomania's cci radius table and public coordinates (Eckard Specht); the source precision is preserved and the coordinates are conservatively repaired to the site's nine-place grid",
         "url": "https://www.packomania.com/cci/cci40.html"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-07T18:27:55.561Z",
       "answer": {
         "centers": [
           [
-            "0.958215483",
-            "0.141389731"
+            "0.442892221",
+            "1.65466668"
           ],
           [
-            "1.237095267",
-            "0.173717134"
+            "0.261664405",
+            "1.440247759"
           ],
           [
-            "0.683792536",
-            "0.200643771"
+            "0.683542497",
+            "1.799257273"
           ],
           [
-            "1.490685898",
-            "0.294177862"
+            "0.159189246",
+            "1.178870949"
           ],
           [
-            "0.443097041",
-            "0.345159077"
+            "0.957946894",
+            "1.858597156"
           ],
           [
-            "0.872319514",
-            "0.408673994"
+            "0.688436486",
+            "1.518552724"
           ],
           [
-            "1.153848051",
-            "0.447042971"
+            "0.509411731",
+            "1.297915845"
           ],
           [
-            "1.691938786",
-            "0.489923284"
+            "0.146396992",
+            "0.898415332"
           ],
           [
-            "0.26180216",
-            "0.559521296"
+            "1.236836777",
+            "1.826356994"
           ],
           [
-            "1.411211542",
-            "0.563441343"
+            "0.401405513",
+            "1.036919285"
           ],
           [
-            "0.628974616",
-            "0.564217677"
+            "0.972319833",
+            "1.571664129"
           ],
           [
-            "0.924556072",
-            "0.684518764"
+            "0.839117012",
+            "1.281667997"
           ],
           [
-            "1.819387813",
-            "0.740074719"
+            "0.224652095",
+            "0.628794981"
           ],
           [
-            "1.198371277",
-            "0.746520606"
+            "0.681889343",
+            "1.049077251"
           ],
           [
-            "0.436854885",
-            "0.779010563"
+            "1.259397582",
+            "1.546517745"
           ],
           [
-            "1.547241095",
-            "0.809032376"
+            "0.470283126",
+            "0.764752297"
           ],
           [
-            "0.159245242",
-            "0.820866037"
+            "1.490465078",
+            "1.7059756"
           ],
           [
-            "0.705596174",
-            "0.860233187"
+            "1.119023082",
+            "1.303384048"
           ],
           [
-            "1.320571625",
-            "0.999277544"
+            "0.765754654",
+            "0.781148894"
           ],
           [
             "1",
-            "1"
+            "1.000000001"
           ],
           [
-            "1.859438958",
-            "1.017950412"
+            "0.385607677",
+            "0.398768253"
           ],
           [
-            "0.4239749",
-            "1.059462165"
+            "1.460711694",
+            "1.350835289"
           ],
           [
-            "1.58729224",
-            "1.086908069"
+            "0.631238708",
+            "0.534725569"
           ],
           [
-            "0.146365256",
-            "1.101317639"
+            "1.69177919",
+            "1.510293144"
           ],
           [
-            "0.710499368",
-            "1.140937576"
+            "1.307543238",
+            "1.095347643"
           ],
           [
-            "1.202979081",
-            "1.254210846"
+            "1.025958908",
+            "0.675731907"
           ],
           [
-            "1.807820269",
-            "1.293911471"
+            "0.612095828",
+            "0.232870354"
           ],
           [
-            "0.929307029",
-            "1.316841534"
+            "1.268372408",
+            "0.81734649"
           ],
           [
-            "0.502145656",
-            "1.329106982"
+            "1.588238968",
+            "1.100723734"
           ],
           [
-            "1.469699695",
-            "1.341841371"
+            "0.891442962",
+            "0.429308581"
           ],
           [
-            "0.224536012",
-            "1.370962457"
+            "1.819306463",
+            "1.26018159"
           ],
           [
-            "0.718940442",
-            "1.507485837"
+            "1.552229517",
+            "0.822295441"
           ],
           [
-            "1.260449127",
-            "1.529012936"
+            "1.172109795",
+            "0.436026018"
           ],
           [
-            "1.670037521",
-            "1.538523223"
+            "0.879958774",
+            "0.148796356"
           ],
           [
-            "0.986777075",
-            "1.591643625"
+            "1.414523295",
+            "0.5776406"
           ],
           [
-            "0.38541963",
-            "1.601039524"
+            "1.859444531",
+            "0.982318439"
           ],
           [
-            "1.460786952",
-            "1.725694788"
+            "1.160625607",
+            "0.155513793"
           ],
           [
-            "0.611855873",
-            "1.767008264"
+            "1.807912171",
+            "0.706341246"
           ],
           [
-            "1.178793156",
-            "1.831262184"
+            "1.438490093",
+            "0.2715151"
           ],
           [
-            "0.879692506",
-            "1.851166051"
+            "1.670205949",
+            "0.461686405"
           ]
         ],
-        "radius": "0.140373603"
+        "radius": "0.140373604"
       }
     },
     {
@@ -4550,6 +4590,7 @@
       "scoreDisplay": "0.137740812",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.137740812925344543668333160976",
         "kind": "best",
@@ -4564,7 +4605,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -4746,6 +4787,7 @@
       "scoreDisplay": "0.136113748",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.136113748715697869103282520606",
         "kind": "best",
@@ -4760,7 +4802,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -4946,6 +4988,7 @@
       "scoreDisplay": "0.134771890",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.134771891080212409936044364810",
         "kind": "best",
@@ -4960,7 +5003,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -5150,6 +5193,7 @@
       "scoreDisplay": "0.133368245",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.133368245886005585125775990829",
         "kind": "best",
@@ -5164,7 +5208,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -5358,6 +5402,7 @@
       "scoreDisplay": "0.132049594",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.132049594251630179295715088299",
         "kind": "best",
@@ -5570,6 +5615,7 @@
       "scoreDisplay": "0.130715879",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.130715880038233387098796307589",
         "kind": "best",
@@ -5584,7 +5630,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -5786,6 +5832,7 @@
       "scoreDisplay": "0.129463747",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.129463747326957253958643624106",
         "kind": "best",
@@ -6006,6 +6053,7 @@
       "scoreDisplay": "0.128348756",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.128348756542845242582550782087",
         "kind": "best",
@@ -6020,7 +6068,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -6230,6 +6278,7 @@
       "scoreDisplay": "0.126792996",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.126792996262206930030641666747",
         "kind": "best",
@@ -6458,6 +6507,7 @@
       "scoreDisplay": "0.125825489",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.125825489530404188680567705027",
         "kind": "best",
@@ -6472,7 +6522,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -6690,6 +6740,7 @@
       "scoreDisplay": "0.124571676",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.124571676602365016800421876010",
         "kind": "best",
@@ -6704,7 +6755,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -6926,6 +6977,7 @@
       "scoreDisplay": "0.123690164",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.123690164592469592698028160669",
         "kind": "best",
@@ -6940,7 +6992,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -7166,6 +7218,7 @@
       "scoreDisplay": "0.122255623",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.122255623687619917741756548918",
         "kind": "best",
@@ -7180,7 +7233,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -7410,6 +7463,7 @@
       "scoreDisplay": "0.121892021",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.121892021856964967683082110027",
         "kind": "best",
@@ -7424,7 +7478,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -7658,6 +7712,7 @@
       "scoreDisplay": "0.121786324",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.121786324527999580122322402646",
         "kind": "best",
@@ -7672,7 +7727,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -7910,6 +7965,7 @@
       "scoreDisplay": "0.119281496",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.119281497082362427277580294513",
         "kind": "best",
@@ -7924,7 +7980,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -8166,6 +8222,7 @@
       "scoreDisplay": "0.118382637",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.118382637651500196288774808577",
         "kind": "best",
@@ -8180,7 +8237,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -8426,6 +8483,7 @@
       "scoreDisplay": "0.117308192",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.117308193128286521431023410865",
         "kind": "best",
@@ -8440,7 +8498,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -8690,6 +8748,7 @@
       "scoreDisplay": "0.116380564",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.116380564996047018242806338051",
         "kind": "best",
@@ -8704,7 +8763,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -8958,6 +9017,7 @@
       "scoreDisplay": "0.115657479",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.115657480132814989492225867360",
         "kind": "best",
@@ -8972,7 +9032,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -9230,6 +9290,7 @@
       "scoreDisplay": "0.115456141",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.115456141678356872441258327524",
         "kind": "best",
@@ -9244,7 +9305,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -9506,6 +9567,7 @@
       "scoreDisplay": "0.113253291",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.113253291982580375079587821923",
         "kind": "best",
@@ -9520,7 +9582,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -9786,6 +9848,7 @@
       "scoreDisplay": "0.112456192",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.112456192917835928601006733985",
         "kind": "best",
@@ -9800,7 +9863,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -10070,6 +10133,7 @@
       "scoreDisplay": "0.111582595",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.111582595825726250416836436490",
         "kind": "best",
@@ -10084,7 +10148,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -10358,6 +10422,7 @@
       "scoreDisplay": "0.110896743",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.110896743722961708414948565804",
         "kind": "best",
@@ -10372,7 +10437,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -10650,6 +10715,7 @@
       "scoreDisplay": "0.109935057",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.109935057298270566763797746509",
         "kind": "best",
@@ -10946,6 +11012,7 @@
       "scoreDisplay": "0.109063481",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.109063482023183282669061521591",
         "kind": "best",
@@ -10960,7 +11027,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -11246,6 +11313,7 @@
       "scoreDisplay": "0.108345017",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.108345017704475043813745804917",
         "kind": "best",
@@ -11260,7 +11328,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -11550,6 +11618,7 @@
       "scoreDisplay": "0.107877643",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.107877643364849125222196097586",
         "kind": "best",
@@ -11858,6 +11927,7 @@
       "scoreDisplay": "0.107001616",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.107001616605762985305856949352",
         "kind": "best",
@@ -11872,7 +11942,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -12170,6 +12240,7 @@
       "scoreDisplay": "0.106204499",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.106204499837112319528232240253",
         "kind": "best",
@@ -12184,7 +12255,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -12486,6 +12557,7 @@
       "scoreDisplay": "0.105553252",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.105553253159066966103790581384",
         "kind": "best",
@@ -12500,7 +12572,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -12806,6 +12878,7 @@
       "scoreDisplay": "0.104817999",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.104817999688188429991340483266",
         "kind": "best",
@@ -12820,7 +12893,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -13130,6 +13203,7 @@
       "scoreDisplay": "0.104283629",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.104283629835208560624956037293",
         "kind": "best",
@@ -13144,7 +13218,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -13458,6 +13532,7 @@
       "scoreDisplay": "0.103390915",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.103390915666444882543582730100",
         "kind": "best",
@@ -13472,7 +13547,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -13790,6 +13865,7 @@
       "scoreDisplay": "0.102779181",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.102779181946967004822085630679",
         "kind": "best",
@@ -13804,7 +13880,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -14126,6 +14202,7 @@
       "scoreDisplay": "0.102052146",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.102052146983690080204725628923",
         "kind": "best",
@@ -14140,7 +14217,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -14466,6 +14543,7 @@
       "scoreDisplay": "0.101443439",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.101443439719369725871565738408",
         "kind": "best",
@@ -14480,7 +14558,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -14810,6 +14888,7 @@
       "scoreDisplay": "0.100958464",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.100958464654456228989394032478",
         "kind": "best",
@@ -14824,7 +14903,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -15158,6 +15237,7 @@
       "scoreDisplay": "0.100319499",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.100319499416176579706634470175",
         "kind": "best",
@@ -15510,6 +15590,7 @@
       "scoreDisplay": "0.099891475",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.099891475491636197647565339548",
         "kind": "best",
@@ -15866,6 +15947,7 @@
       "scoreDisplay": "0.099494327",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.099494327805157122344380823339",
         "kind": "best",
@@ -15880,7 +15962,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -16226,6 +16308,7 @@
       "scoreDisplay": "0.098844919",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.098844919276866715495742548545",
         "kind": "best",
@@ -16590,6 +16673,7 @@
       "scoreDisplay": "0.098526721",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.098526721390454986844991372393",
         "kind": "best",
@@ -16958,6 +17042,7 @@
       "scoreDisplay": "0.098395063",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.098395063692606173555669611507",
         "kind": "best",
@@ -16972,7 +17057,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -17330,6 +17415,7 @@
       "scoreDisplay": "0.097099623",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.097099624005301283457852264325",
         "kind": "best",
@@ -17344,7 +17430,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -17706,6 +17792,7 @@
       "scoreDisplay": "0.096495211",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.096495211836180559104982863224",
         "kind": "best",
@@ -17720,7 +17807,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -18086,6 +18173,7 @@
       "scoreDisplay": "0.095855792",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.095855792771800837413466921999",
         "kind": "best",
@@ -18100,7 +18188,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -18470,6 +18558,7 @@
       "scoreDisplay": "0.095233634",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.095233634543869852947685381095",
         "kind": "best",
@@ -18484,7 +18573,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -18858,6 +18947,7 @@
       "scoreDisplay": "0.094822059",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.094822059586947684161477476866",
         "kind": "best",
@@ -19250,6 +19340,7 @@
       "scoreDisplay": "0.094636278",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.094636278506046740904429941957",
         "kind": "best",
@@ -19264,7 +19355,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -19646,6 +19737,7 @@
       "scoreDisplay": "0.093592245",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.093592245754694587527484095059",
         "kind": "best",
@@ -19660,7 +19752,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -20046,6 +20138,7 @@
       "scoreDisplay": "0.093167534",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.093167534622482290793569838070",
         "kind": "best",
@@ -20060,7 +20153,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -20450,6 +20543,7 @@
       "scoreDisplay": "0.092781315",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.092781315283866927207328715190",
         "kind": "best",
@@ -20858,6 +20952,7 @@
       "scoreDisplay": "0.092249177",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.092249177760720922779845638651",
         "kind": "best",
@@ -20872,7 +20967,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -21270,6 +21365,7 @@
       "scoreDisplay": "0.091884716",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.091884716482624623441391537005",
         "kind": "best",
@@ -21686,6 +21782,7 @@
       "scoreDisplay": "0.091419459",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.091419459906364399990762380889",
         "kind": "best",
@@ -21700,7 +21797,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -22106,6 +22203,7 @@
       "scoreDisplay": "0.091079798",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.091079798229366290362012569015",
         "kind": "best",
@@ -22530,6 +22628,7 @@
       "scoreDisplay": "0.090636019",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.090636019812819429591243809954",
         "kind": "best",
@@ -22544,7 +22643,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -22958,6 +23057,7 @@
       "scoreDisplay": "0.090235200",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.090235200288473715727578780782",
         "kind": "best",
@@ -23390,6 +23490,7 @@
       "scoreDisplay": "0.089710770",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.089710770521186578901395583644",
         "kind": "best",
@@ -23826,6 +23927,7 @@
       "scoreDisplay": "0.089310725",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.089310725493077718804886178995",
         "kind": "best",
@@ -24266,6 +24368,7 @@
       "scoreDisplay": "0.088769396",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.088769396870677263021498957475",
         "kind": "best",
@@ -24280,7 +24383,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -24710,6 +24813,7 @@
       "scoreDisplay": "0.088357498",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.088357498517843071900972931118",
         "kind": "best",
@@ -24724,7 +24828,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -25158,6 +25262,7 @@
       "scoreDisplay": "0.088007564",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.088007564607859635466296569482",
         "kind": "best",
@@ -25172,7 +25277,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -25610,6 +25715,7 @@
       "scoreDisplay": "0.087551610",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.087551611059319716667800814156",
         "kind": "best",
@@ -25624,7 +25730,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -26066,6 +26172,7 @@
       "scoreDisplay": "0.087168364",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.087168364837556393216523833349",
         "kind": "best",
@@ -26080,7 +26187,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -26526,6 +26633,7 @@
       "scoreDisplay": "0.086775303",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.086775303710880891299237501842",
         "kind": "best",
@@ -26540,7 +26648,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -26990,6 +27098,7 @@
       "scoreDisplay": "0.086489335",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.086489335895334841227481993905",
         "kind": "best",
@@ -27004,7 +27113,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -27458,6 +27567,7 @@
       "scoreDisplay": "0.086081769",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.086081769647551899933256492352",
         "kind": "best",
@@ -27472,7 +27582,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -27930,6 +28040,7 @@
       "scoreDisplay": "0.085742620",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.085742621069746730575523439318",
         "kind": "best",
@@ -27944,7 +28055,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -28406,6 +28517,7 @@
       "scoreDisplay": "0.085431571",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.085431571702315622335046543123",
         "kind": "best",
@@ -28420,7 +28532,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -28886,6 +28998,7 @@
       "scoreDisplay": "0.085124290",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.085124290793257480302517599794",
         "kind": "best",
@@ -28900,7 +29013,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -29370,6 +29483,7 @@
       "scoreDisplay": "0.084780440",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.084780441044598247267792383137",
         "kind": "best",
@@ -29384,7 +29498,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -29858,6 +29972,7 @@
       "scoreDisplay": "0.084463211",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.084463211728034257462108659831",
         "kind": "best",
@@ -29872,7 +29987,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -30350,6 +30465,7 @@
       "scoreDisplay": "0.084056891",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.084056891551102368170500986686",
         "kind": "best",
@@ -30846,6 +30962,7 @@
       "scoreDisplay": "0.083727721",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.083727722048957617442352374029",
         "kind": "best",
@@ -30860,7 +30977,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -31346,6 +31463,7 @@
       "scoreDisplay": "0.083433794",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.083433794252409315419044354050",
         "kind": "best",
@@ -31850,6 +31968,7 @@
       "scoreDisplay": "0.083040377",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.083040377649437541702370667924",
         "kind": "best",
@@ -31864,7 +31983,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -32358,6 +32477,7 @@
       "scoreDisplay": "0.082745752",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.082745752572886010199923920053",
         "kind": "best",
@@ -32372,7 +32492,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -32870,6 +32990,7 @@
       "scoreDisplay": "0.082475566",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.082475566262400958293028521600",
         "kind": "best",
@@ -33386,6 +33507,7 @@
       "scoreDisplay": "0.081937830",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.081937830936556106717541189316",
         "kind": "best",
@@ -33400,7 +33522,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -33906,6 +34028,7 @@
       "scoreDisplay": "0.081457105",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.081457105292458718354757288238",
         "kind": "best",
@@ -34430,6 +34553,7 @@
       "scoreDisplay": "0.081157577",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.081157577700553840877353936618",
         "kind": "best",
@@ -34444,7 +34568,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -34958,6 +35082,7 @@
       "scoreDisplay": "0.080852343",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.080852343328705946557160723544",
         "kind": "best",
@@ -35490,6 +35615,7 @@
       "scoreDisplay": "0.080533813",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.080533814252973230057400729655",
         "kind": "best",
@@ -35504,7 +35630,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -36026,6 +36152,7 @@
       "scoreDisplay": "0.080246842",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.080246842401966631917112929101",
         "kind": "best",
@@ -36566,6 +36693,7 @@
       "scoreDisplay": "0.079985780",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.079985780457",
         "kind": "best",
@@ -36580,7 +36708,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -37110,6 +37238,7 @@
       "scoreDisplay": "0.079657676",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.079657677067103360876003143471",
         "kind": "best",
@@ -37124,7 +37253,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -37658,6 +37787,7 @@
       "scoreDisplay": "0.079362937",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.079362938013739723146095393501",
         "kind": "best",
@@ -37672,7 +37802,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -38210,6 +38340,7 @@
       "scoreDisplay": "0.079053755",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.079053755252482429722582079133",
         "kind": "best",
@@ -38766,6 +38897,7 @@
       "scoreDisplay": "0.078818126",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.078818126663851405825095094530",
         "kind": "best",
@@ -38780,7 +38912,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -39326,6 +39458,7 @@
       "scoreDisplay": "0.078522069",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.078522069613215335182311042489",
         "kind": "best",
@@ -39340,7 +39473,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -39890,6 +40023,7 @@
       "scoreDisplay": "0.078299667",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.078299667964461864036926670507",
         "kind": "best",
@@ -39904,7 +40038,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -40458,6 +40592,7 @@
       "scoreDisplay": "0.078038092",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.078038092564341362814328927486",
         "kind": "best",
@@ -40472,7 +40607,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -41030,6 +41165,7 @@
       "scoreDisplay": "0.077725686",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.077725687011400492303568917450",
         "kind": "best",
@@ -41044,7 +41180,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -41606,6 +41742,7 @@
       "scoreDisplay": "0.077432523",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.077432523961362649881829041896",
         "kind": "best",
@@ -41620,7 +41757,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -42186,6 +42323,7 @@
       "scoreDisplay": "0.077152728",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.077152729078282255237131754121",
         "kind": "best",
@@ -42200,7 +42338,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -42770,6 +42908,7 @@
       "scoreDisplay": "0.076869934",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.076869934722458099891741275619",
         "kind": "best",
@@ -42784,7 +42923,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -43358,6 +43497,7 @@
       "scoreDisplay": "0.076570982",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.076570982894694051693046492984",
         "kind": "best",
@@ -43372,7 +43512,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -43950,6 +44090,7 @@
       "scoreDisplay": "0.076293623",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.076293623455127429119632916560",
         "kind": "best",
@@ -44546,6 +44687,7 @@
       "scoreDisplay": "0.076066384",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.076066384385635250924607481877",
         "kind": "best",
@@ -45146,6 +45288,7 @@
       "scoreDisplay": "0.075772495",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.075772495907461911598932767628",
         "kind": "best",
@@ -45160,7 +45303,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -45750,6 +45893,7 @@
       "scoreDisplay": "0.075484292",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.075484292738201939186589485986",
         "kind": "best",
@@ -45764,7 +45908,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -46358,6 +46502,7 @@
       "scoreDisplay": "0.075320099",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.075320099332049999051671428655",
         "kind": "best",
@@ -46970,6 +47115,7 @@
       "scoreDisplay": "0.075011811",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.075011811914668060331918260959",
         "kind": "best",
@@ -46984,7 +47130,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -47586,6 +47732,7 @@
       "scoreDisplay": "0.074866480",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.074866480341627481119071487801",
         "kind": "best",
@@ -48206,6 +48353,7 @@
       "scoreDisplay": "0.074699673",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.074699673575154585430030517198",
         "kind": "best",
@@ -48220,7 +48368,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -48830,6 +48978,7 @@
       "scoreDisplay": "0.074429413",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.074429413777863178404769207560",
         "kind": "best",
@@ -48844,7 +48993,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -49458,6 +49607,7 @@
       "scoreDisplay": "0.074289754",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.074289754450123223513201821321",
         "kind": "best",
@@ -50090,6 +50240,7 @@
       "scoreDisplay": "0.074204941",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.074204941313100149092273560790",
         "kind": "best",
@@ -50726,6 +50877,7 @@
       "scoreDisplay": "0.073900279",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.073900279846132333922343596305",
         "kind": "best",
@@ -50740,7 +50892,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -51366,6 +51518,7 @@
       "scoreDisplay": "0.073575197",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.073575197788348409348479843269",
         "kind": "best",
@@ -51380,7 +51533,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -52010,6 +52163,7 @@
       "scoreDisplay": "0.073330461",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.073330461528316612135534327704",
         "kind": "best",
@@ -52024,7 +52178,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -52658,6 +52812,7 @@
       "scoreDisplay": "0.073133048",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.073133048706552101578045397517",
         "kind": "best",
@@ -52672,7 +52827,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -53310,6 +53465,7 @@
       "scoreDisplay": "0.072905624",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.072905624811",
         "kind": "best",
@@ -53324,7 +53480,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -53966,6 +54122,7 @@
       "scoreDisplay": "0.072605865",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.072605865685131576608695706496",
         "kind": "best",
@@ -53980,7 +54137,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -54626,6 +54783,7 @@
       "scoreDisplay": "0.072342013",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.072342013798320107443312992681",
         "kind": "best",
@@ -54640,7 +54798,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -55290,6 +55448,7 @@
       "scoreDisplay": "0.072128249",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.072128249620314972055204488361",
         "kind": "best",
@@ -55304,7 +55463,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -55958,6 +56117,7 @@
       "scoreDisplay": "0.071840902",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.071840902587110664716056915724",
         "kind": "best",
@@ -56630,6 +56790,7 @@
       "scoreDisplay": "0.071585034",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.071585034482445858460567405565",
         "kind": "best",
@@ -56644,7 +56805,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -57306,6 +57467,7 @@
       "scoreDisplay": "0.071376709",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.071376709459977585452458337967",
         "kind": "best",
@@ -57986,6 +58148,7 @@
       "scoreDisplay": "0.071097441",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.071097441639828116615845433780",
         "kind": "best",
@@ -58000,7 +58163,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -58670,6 +58833,7 @@
       "scoreDisplay": "0.070873724",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.070873724461997120025842626101",
         "kind": "best",
@@ -59358,6 +59522,7 @@
       "scoreDisplay": "0.070699661",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.070699661492232088104736604464",
         "kind": "best",
@@ -60050,6 +60215,7 @@
       "scoreDisplay": "0.070493632",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.070493632407107804081840148744",
         "kind": "best",
@@ -60746,6 +60912,7 @@
       "scoreDisplay": "0.070328203",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.070328203359510882665213476545",
         "kind": "best",
@@ -61446,6 +61613,7 @@
       "scoreDisplay": "0.070137505",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.070137505697464281753878467400",
         "kind": "best",
@@ -61460,7 +61628,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -62150,6 +62318,7 @@
       "scoreDisplay": "0.069952776",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.069952776562409293859822263104",
         "kind": "best",
@@ -62858,6 +63027,7 @@
       "scoreDisplay": "0.069778069",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.069778069510",
         "kind": "best",
@@ -63570,6 +63740,7 @@
       "scoreDisplay": "0.069600748",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.069600749130159680959044854411",
         "kind": "best",
@@ -63584,7 +63755,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -64286,6 +64457,7 @@
       "scoreDisplay": "0.069363635",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.069363635406184356840179642706",
         "kind": "best",
@@ -65006,6 +65178,7 @@
       "scoreDisplay": "0.069197728",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.069197728419754303745291981213",
         "kind": "best",
@@ -65730,6 +65903,7 @@
       "scoreDisplay": "0.068999546",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.068999546681581965876869139429",
         "kind": "best",
@@ -65744,7 +65918,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -66458,6 +66632,7 @@
       "scoreDisplay": "0.068792697",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.068792698084829538943215615414",
         "kind": "best",
@@ -66472,7 +66647,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -67190,6 +67365,7 @@
       "scoreDisplay": "0.068614703",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.068614703724413506175450848843",
         "kind": "best",
@@ -67204,7 +67380,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -67926,6 +68102,7 @@
       "scoreDisplay": "0.068425107",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.068425108047362976964127476462",
         "kind": "best",
@@ -67940,7 +68117,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -68666,6 +68843,7 @@
       "scoreDisplay": "0.068231777",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.068231777979",
         "kind": "best",
@@ -68680,7 +68858,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -69410,6 +69588,7 @@
       "scoreDisplay": "0.068027899",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.068027899252582729946077654321",
         "kind": "best",
@@ -70158,6 +70337,7 @@
       "scoreDisplay": "0.067847047",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.067847047531335201157089513460",
         "kind": "best",
@@ -70910,6 +71090,7 @@
       "scoreDisplay": "0.067655200",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.067655200908091023832778169533",
         "kind": "best",
@@ -70924,7 +71105,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -71666,6 +71847,7 @@
       "scoreDisplay": "0.067481252",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.067481252520330824803982383663",
         "kind": "best",
@@ -71680,7 +71862,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -72426,6 +72608,7 @@
       "scoreDisplay": "0.067269079",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.067269079945",
         "kind": "best",
@@ -72440,7 +72623,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -73190,6 +73373,7 @@
       "scoreDisplay": "0.067089696",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.067089697153931000795187596642",
         "kind": "best",
@@ -73204,7 +73388,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -73958,6 +74142,7 @@
       "scoreDisplay": "0.066942716",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.066942716850996510378299072016",
         "kind": "best",
@@ -73972,7 +74157,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -74730,6 +74915,7 @@
       "scoreDisplay": "0.066839622",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.066839622277083852309035329187",
         "kind": "best",
@@ -75506,6 +75692,7 @@
       "scoreDisplay": "0.066715116",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.066715116294",
         "kind": "best",
@@ -76286,6 +76473,7 @@
       "scoreDisplay": "0.066539130",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.066539130278",
         "kind": "best",
@@ -77070,6 +77258,7 @@
       "scoreDisplay": "0.066360966",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.066360966589624368757768419440",
         "kind": "best",
@@ -77084,7 +77273,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -77858,6 +78047,7 @@
       "scoreDisplay": "0.066209373",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.066209373949943821853772606459",
         "kind": "best",
@@ -77872,7 +78062,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -78650,6 +78840,7 @@
       "scoreDisplay": "0.066039914",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.066039914806236843243772230100",
         "kind": "best",
@@ -78664,7 +78855,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -79446,6 +79637,7 @@
       "scoreDisplay": "0.065922032",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.065922032429183823026789253574",
         "kind": "best",
@@ -80246,6 +80438,7 @@
       "scoreDisplay": "0.065792180",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.065792181139066906800020556741",
         "kind": "best",
@@ -80260,7 +80453,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -81050,6 +81243,7 @@
       "scoreDisplay": "0.065610647",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.065610647302416428402259261200",
         "kind": "best",
@@ -81858,6 +82052,7 @@
       "scoreDisplay": "0.065414321",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.065414321826151577300910463357",
         "kind": "best",
@@ -81872,7 +82067,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -82670,6 +82865,7 @@
       "scoreDisplay": "0.065261371",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.065261371807548672584002896201",
         "kind": "best",
@@ -82684,7 +82880,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -83486,6 +83682,7 @@
       "scoreDisplay": "0.065072910",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.065072910980",
         "kind": "best",
@@ -83500,7 +83697,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -84306,6 +84503,7 @@
       "scoreDisplay": "0.064977666",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.064977666650342140302432567925",
         "kind": "best",
@@ -84320,7 +84518,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -85130,6 +85328,7 @@
       "scoreDisplay": "0.064925534",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.064925535151151042604720832194",
         "kind": "best",
@@ -85144,7 +85343,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -85958,6 +86157,7 @@
       "scoreDisplay": "0.064669353",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.064669354186264187505944262919",
         "kind": "best",
@@ -85972,7 +86172,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -86790,6 +86990,7 @@
       "scoreDisplay": "0.064432054",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.064432054376096068528082532162",
         "kind": "best",
@@ -87626,6 +87827,7 @@
       "scoreDisplay": "0.064234207",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.064234207842",
         "kind": "best",
@@ -87640,7 +87842,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -88466,6 +88668,7 @@
       "scoreDisplay": "0.064056428",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.064056429030064484163512196842",
         "kind": "best",
@@ -88480,7 +88683,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -89310,6 +89513,7 @@
       "scoreDisplay": "0.063928464",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.063928465234767290633221687760",
         "kind": "best",
@@ -89324,7 +89528,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -90158,6 +90362,7 @@
       "scoreDisplay": "0.063730848",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.063730848744047195884573201225",
         "kind": "best",
@@ -90172,7 +90377,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -91010,6 +91215,7 @@
       "scoreDisplay": "0.063554376",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.063554376999947141997322147893",
         "kind": "best",
@@ -91024,7 +91230,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -91866,6 +92072,7 @@
       "scoreDisplay": "0.063410774",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.063410774626407793940990810949",
         "kind": "best",
@@ -91880,7 +92087,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -92726,6 +92933,7 @@
       "scoreDisplay": "0.063244049",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.063244050097736125219939876036",
         "kind": "best",
@@ -92740,7 +92948,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -93590,6 +93798,7 @@
       "scoreDisplay": "0.063131825",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.063131825845742271453414065257",
         "kind": "best",
@@ -93604,7 +93813,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -94458,6 +94667,7 @@
       "scoreDisplay": "0.062977132",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.062977132770116453870927526410",
         "kind": "best",
@@ -94472,7 +94682,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -95330,6 +95540,7 @@
       "scoreDisplay": "0.062883144",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.062883145091",
         "kind": "best",
@@ -95344,7 +95555,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -96206,6 +96417,7 @@
       "scoreDisplay": "0.062753488",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.062753488406371386800433070181",
         "kind": "best",
@@ -97086,6 +97298,7 @@
       "scoreDisplay": "0.062617972",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.062617972490949547865965436329",
         "kind": "best",
@@ -97970,6 +98183,7 @@
       "scoreDisplay": "0.062429782",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.062429782822950242912223832491",
         "kind": "best",
@@ -97984,7 +98198,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -98858,6 +99072,7 @@
       "scoreDisplay": "0.062312624",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.062312624755",
         "kind": "best",
@@ -98872,7 +99087,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -99750,6 +99965,7 @@
       "scoreDisplay": "0.062169125",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.062169126200657221093188149212",
         "kind": "best",
@@ -99764,7 +99980,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -100646,6 +100862,7 @@
       "scoreDisplay": "0.062047467",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.062047467282833326981655115550",
         "kind": "best",
@@ -101546,6 +101763,7 @@
       "scoreDisplay": "0.061921218",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.061921218738980871652993235416",
         "kind": "best",
@@ -101560,7 +101778,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -102450,6 +102668,7 @@
       "scoreDisplay": "0.061846150",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.061846150589",
         "kind": "best",
@@ -102464,7 +102683,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -103358,6 +103577,7 @@
       "scoreDisplay": "0.061636720",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.061636720618759530682694337989",
         "kind": "best",
@@ -103372,7 +103592,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -104270,6 +104490,7 @@
       "scoreDisplay": "0.061505024",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.061505024207053757678405723905",
         "kind": "best",
@@ -105186,6 +105407,7 @@
       "scoreDisplay": "0.061354624",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.061354624807",
         "kind": "best",
@@ -105200,7 +105422,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -106106,6 +106328,7 @@
       "scoreDisplay": "0.061210124",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.061210124410366466748047875393",
         "kind": "best",
@@ -107030,6 +107253,7 @@
       "scoreDisplay": "0.061092088",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.061092088495",
         "kind": "best",
@@ -107958,6 +108182,7 @@
       "scoreDisplay": "0.060962213",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.060962213749890186639756444065",
         "kind": "best",
@@ -107972,7 +108197,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -108890,6 +109115,7 @@
       "scoreDisplay": "0.060796487",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.060796487298909256201610075217",
         "kind": "best",
@@ -109826,6 +110052,7 @@
       "scoreDisplay": "0.060648808",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.060648809113610562799479067019",
         "kind": "best",
@@ -109840,7 +110067,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -110766,6 +110993,7 @@
       "scoreDisplay": "0.060514378",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.060514379227249235146371102470",
         "kind": "best",
@@ -110780,7 +111008,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -111710,6 +111938,7 @@
       "scoreDisplay": "0.060376758",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.060376758442253510708047884568",
         "kind": "best",
@@ -112658,6 +112887,7 @@
       "scoreDisplay": "0.060272507",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.060272507779",
         "kind": "best",
@@ -112672,7 +112902,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -113610,6 +113840,7 @@
       "scoreDisplay": "0.060136138",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.060136138369",
         "kind": "best",
@@ -114566,6 +114797,7 @@
       "scoreDisplay": "0.060007063",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.060007064108617018915861101473",
         "kind": "best",
@@ -114580,7 +114812,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -115526,6 +115758,7 @@
       "scoreDisplay": "0.059907645",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.059907646293",
         "kind": "best",
@@ -115540,7 +115773,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -116490,6 +116723,7 @@
       "scoreDisplay": "0.059857529",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.059857529921211104278963554169",
         "kind": "best",
@@ -116504,7 +116738,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -117458,6 +117692,7 @@
       "scoreDisplay": "0.059835180",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.059835181171776612317920658375",
         "kind": "best",
@@ -117472,7 +117707,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -118430,6 +118665,7 @@
       "scoreDisplay": "0.059614677",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.059614677592478296223335067661",
         "kind": "best",
@@ -118444,7 +118680,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -119406,6 +119642,7 @@
       "scoreDisplay": "0.059518210",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.059518210815",
         "kind": "best",
@@ -119420,7 +119657,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -120386,6 +120623,7 @@
       "scoreDisplay": "0.059428620",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.059428621163812236316089432764",
         "kind": "best",
@@ -120400,7 +120638,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -121370,6 +121608,7 @@
       "scoreDisplay": "0.059299650",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.059299651118754481303437505832",
         "kind": "best",
@@ -121384,7 +121623,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -122358,6 +122597,7 @@
       "scoreDisplay": "0.059190958",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.059190958765594540736702230552",
         "kind": "best",
@@ -122372,7 +122612,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -123350,6 +123590,7 @@
       "scoreDisplay": "0.059118899",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.059118899313165779990095924460",
         "kind": "best",
@@ -124346,6 +124587,7 @@
       "scoreDisplay": "0.058959800",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.058959800565081925326479132165",
         "kind": "best",
@@ -125346,6 +125588,7 @@
       "scoreDisplay": "0.058822671",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.058822671447678052010872126778",
         "kind": "best",
@@ -126350,6 +126593,7 @@
       "scoreDisplay": "0.058703337",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.058703338201762024370835065791",
         "kind": "best",
@@ -126364,7 +126608,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -127358,6 +127602,7 @@
       "scoreDisplay": "0.058566219",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.058566219740030845940311744398",
         "kind": "best",
@@ -127372,7 +127617,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -128370,6 +128615,7 @@
       "scoreDisplay": "0.058452450",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.058452450971281583379437364574",
         "kind": "best",
@@ -128384,7 +128630,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -129386,6 +129632,7 @@
       "scoreDisplay": "0.058370066",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.058370066289097847458039627360",
         "kind": "best",
@@ -130406,6 +130653,7 @@
       "scoreDisplay": "0.058199873",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.058199873510179505215137276448",
         "kind": "best",
@@ -131430,6 +131678,7 @@
       "scoreDisplay": "0.058075374",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.058075374681249419920764884075",
         "kind": "best",
@@ -131444,7 +131693,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -132458,6 +132707,7 @@
       "scoreDisplay": "0.057930866",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.057930866466",
         "kind": "best",
@@ -133490,6 +133740,7 @@
       "scoreDisplay": "0.057818875",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.057818875775651875438976953808",
         "kind": "best",
@@ -133504,7 +133755,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -134526,6 +134777,7 @@
       "scoreDisplay": "0.057719404",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.057719405065464012447366088394",
         "kind": "best",
@@ -134540,7 +134792,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -135566,6 +135818,7 @@
       "scoreDisplay": "0.057650373",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.057650373900",
         "kind": "best",
@@ -135580,7 +135833,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -136610,6 +136863,7 @@
       "scoreDisplay": "0.057491975",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.057491975416",
         "kind": "best",
@@ -137658,6 +137912,7 @@
       "scoreDisplay": "0.057326263",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.057326264006863181374093412161",
         "kind": "best",
@@ -137672,7 +137927,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -138710,6 +138965,7 @@
       "scoreDisplay": "0.057187785",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.057187786140711687070535155045",
         "kind": "best",
@@ -138724,7 +138980,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -139766,6 +140022,7 @@
       "scoreDisplay": "0.057084261",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.057084261908",
         "kind": "best",
@@ -139780,7 +140037,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -140826,6 +141083,7 @@
       "scoreDisplay": "0.057018277",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.057018277823",
         "kind": "best",
@@ -140840,7 +141098,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -141890,6 +142148,7 @@
       "scoreDisplay": "0.056904305",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.056904305437",
         "kind": "best",
@@ -142958,6 +143217,7 @@
       "scoreDisplay": "0.056815484",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.056815484748987672691076832521",
         "kind": "best",
@@ -142972,7 +143232,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -144030,6 +144290,7 @@
       "scoreDisplay": "0.056730376",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.056730376500649784294138892978",
         "kind": "best",
@@ -144044,7 +144305,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -145106,6 +145367,7 @@
       "scoreDisplay": "0.056633255",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.056633255884",
         "kind": "best",
@@ -145120,7 +145382,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -146186,6 +146448,7 @@
       "scoreDisplay": "0.056533913",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.056533913416",
         "kind": "best",
@@ -147270,6 +147533,7 @@
       "scoreDisplay": "0.056492789",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.056492790004188918480797294630",
         "kind": "best",
@@ -147284,7 +147548,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -148358,6 +148622,7 @@
       "scoreDisplay": "0.056365894",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.056365894314762878686693497801",
         "kind": "best",
@@ -149450,6 +149715,7 @@
       "scoreDisplay": "0.056255350",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.056255350968247209872093697670",
         "kind": "best",
@@ -149464,7 +149730,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -150546,6 +150812,7 @@
       "scoreDisplay": "0.056188136",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.056188137037",
         "kind": "best",
@@ -150560,7 +150827,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -151646,6 +151913,7 @@
       "scoreDisplay": "0.056079351",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.056079352251",
         "kind": "best",
@@ -151660,7 +151928,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -152750,6 +153018,7 @@
       "scoreDisplay": "0.055982956",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.055982956607",
         "kind": "best",
@@ -152764,7 +153033,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -153858,6 +154127,7 @@
       "scoreDisplay": "0.055905693",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.055905693948811231554084641860",
         "kind": "best",
@@ -153872,7 +154142,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -154970,6 +155240,7 @@
       "scoreDisplay": "0.055773461",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.055773462121",
         "kind": "best",
@@ -154984,7 +155255,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -156086,6 +156357,7 @@
       "scoreDisplay": "0.055681799",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.055681799429631870200911985485",
         "kind": "best",
@@ -157206,6 +157478,7 @@
       "scoreDisplay": "0.055570067",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.055570067534055499106473280636",
         "kind": "best",
@@ -157220,7 +157493,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -158330,6 +158603,7 @@
       "scoreDisplay": "0.055452090",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.055452091074",
         "kind": "best",
@@ -158344,7 +158618,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -159458,6 +159732,7 @@
       "scoreDisplay": "0.055362850",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.055362850731620702240235013704",
         "kind": "best",
@@ -159472,7 +159747,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -160590,6 +160865,7 @@
       "scoreDisplay": "0.055238192",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.055238192273770967890321791452",
         "kind": "best",
@@ -161726,6 +162002,7 @@
       "scoreDisplay": "0.055138711",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.055138711870",
         "kind": "best",
@@ -161740,7 +162017,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -162866,6 +163143,7 @@
       "scoreDisplay": "0.055005421",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.055005421847",
         "kind": "best",
@@ -162880,7 +163158,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -164010,6 +164288,7 @@
       "scoreDisplay": "0.054892667",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.054892667943",
         "kind": "best",
@@ -164024,7 +164303,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -165158,6 +165437,7 @@
       "scoreDisplay": "0.054806763",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.054806763919",
         "kind": "best",
@@ -165172,7 +165452,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -166310,6 +166590,7 @@
       "scoreDisplay": "0.054703982",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.054703982953",
         "kind": "best",
@@ -166324,7 +166605,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -167466,6 +167747,7 @@
       "scoreDisplay": "0.054623097",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.054623097825",
         "kind": "best",
@@ -167480,7 +167762,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -168626,6 +168908,7 @@
       "scoreDisplay": "0.054525379",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.054525379293",
         "kind": "best",
@@ -169790,6 +170073,7 @@
       "scoreDisplay": "0.054467927",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.054467927319",
         "kind": "best",
@@ -170958,6 +171242,7 @@
       "scoreDisplay": "0.054345726",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.054345727175",
         "kind": "best",
@@ -170972,7 +171257,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -172130,6 +172415,7 @@
       "scoreDisplay": "0.054261591",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.054261592199",
         "kind": "best",
@@ -172144,7 +172430,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -173306,6 +173592,7 @@
       "scoreDisplay": "0.054149357",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.054149357525",
         "kind": "best",
@@ -174486,6 +174773,7 @@
       "scoreDisplay": "0.054070753",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.054070753970",
         "kind": "best",
@@ -174500,7 +174788,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -175670,6 +175958,7 @@
       "scoreDisplay": "0.054020521",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.054020521554",
         "kind": "best",
@@ -176858,6 +177147,7 @@
       "scoreDisplay": "0.053912351",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.053912352041",
         "kind": "best",
@@ -176872,7 +177162,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -178050,6 +178340,7 @@
       "scoreDisplay": "0.053861777",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.053861778013",
         "kind": "best",
@@ -178064,7 +178355,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -179246,6 +179537,7 @@
       "scoreDisplay": "0.053779816",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.053779816800",
         "kind": "best",
@@ -179260,7 +179552,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -180446,6 +180738,7 @@
       "scoreDisplay": "0.053697651",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.053697651228",
         "kind": "best",
@@ -181650,6 +181943,7 @@
       "scoreDisplay": "0.053635769",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.053635769640",
         "kind": "best",
@@ -181664,7 +181958,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -182858,6 +183152,7 @@
       "scoreDisplay": "0.053604306",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.053604306613691310936498516199",
         "kind": "best",
@@ -182872,7 +183167,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -184070,6 +184365,7 @@
       "scoreDisplay": "0.053468572",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.053468572294",
         "kind": "best",
@@ -185286,6 +185582,7 @@
       "scoreDisplay": "0.053390925",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.053390925332",
         "kind": "best",
@@ -186506,6 +186803,7 @@
       "scoreDisplay": "0.053306765",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.053306765953402802185633859661",
         "kind": "best",
@@ -186520,7 +186818,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -187730,6 +188028,7 @@
       "scoreDisplay": "0.053233238",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.053233238500",
         "kind": "best",
@@ -188958,6 +189257,7 @@
       "scoreDisplay": "0.053154298",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.053154299146851187500993025786",
         "kind": "best",
@@ -188972,7 +189272,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [

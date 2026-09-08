@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/heilbronn-in-triangle",
-  "generatedAt": "2026-09-07T10:29:41.580Z",
+  "generatedAt": "2026-09-08T09:50:36.468Z",
   "instances": [
     {
       "instanceId": "p29-n5-v1",
@@ -23,6 +23,7 @@
       "scoreDisplay": "0.0857864375",
       "status": "proven",
       "settled": true,
+      "recordStatus": "optimal",
       "knownBest": {
         "display": "0.0857864375",
         "kind": "proven",
@@ -32,7 +33,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "points": [
           [
@@ -69,6 +70,7 @@
       "scoreDisplay": "0.0625",
       "status": "proven",
       "settled": true,
+      "recordStatus": "optimal",
       "knownBest": {
         "display": "0.0625",
         "kind": "proven",
@@ -78,7 +80,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "points": [
           [
@@ -119,6 +121,7 @@
       "scoreDisplay": "0.048611111055555543",
       "status": "open",
       "settled": true,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.0486111109722222225",
         "kind": "proven",
@@ -173,6 +176,7 @@
       "scoreDisplay": "0.033894606512292792",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": null,
       "holder": "Sigmoid with Codex",
       "method": "ai",
@@ -225,6 +229,7 @@
       "scoreDisplay": "0.0274234693265306125",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": null,
       "holder": "Sigmoid with Codex",
       "method": "ai",
@@ -281,6 +286,7 @@
       "scoreDisplay": "0.02168837032131315",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": null,
       "holder": "Sigmoid with Codex",
       "method": "ai",

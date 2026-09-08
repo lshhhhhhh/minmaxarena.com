@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/graduated-circles-in-circle",
-  "generatedAt": "2026-09-07T10:29:41.008Z",
+  "generatedAt": "2026-09-08T09:50:34.541Z",
   "instances": [
     {
       "instanceId": "p06-n1-v2",
@@ -23,6 +23,7 @@
       "scoreDisplay": "1",
       "status": "proven",
       "settled": true,
+      "recordStatus": "optimal",
       "knownBest": {
         "display": "1",
         "kind": "proven",
@@ -33,7 +34,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -55,6 +56,7 @@
       "scoreDisplay": "3",
       "status": "proven",
       "settled": true,
+      "recordStatus": "optimal",
       "knownBest": {
         "display": "3",
         "kind": "proven",
@@ -65,7 +67,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -91,6 +93,7 @@
       "scoreDisplay": "5",
       "status": "proven",
       "settled": true,
+      "recordStatus": "optimal",
       "knownBest": {
         "display": "5",
         "kind": "proven",
@@ -101,7 +104,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -131,6 +134,7 @@
       "scoreDisplay": "7",
       "status": "proven",
       "settled": true,
+      "recordStatus": "optimal",
       "knownBest": {
         "display": "7",
         "kind": "proven",
@@ -141,7 +145,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "centers": [
           [
@@ -175,6 +179,7 @@
       "scoreDisplay": "9.001397747",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "9.0013977461",
         "kind": "best",
@@ -227,6 +232,7 @@
       "scoreDisplay": "11.0570404",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "11.0570403997",
         "kind": "best",
@@ -283,6 +289,7 @@
       "scoreDisplay": "13.462110678",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "13.4621106776",
         "kind": "best",
@@ -343,6 +350,7 @@
       "scoreDisplay": "16.221746677",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "16.2217466766",
         "kind": "best",
@@ -407,6 +415,7 @@
       "scoreDisplay": "19.233193909",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "19.2331939081",
         "kind": "best",
@@ -475,6 +484,7 @@
       "scoreDisplay": "22.000193013",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "22.0001930127",
         "kind": "best",
@@ -547,6 +557,7 @@
       "scoreDisplay": "24.96063429",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "24.9606342889",
         "kind": "best",
@@ -623,6 +634,7 @@
       "scoreDisplay": "28.371389438",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "28.3713894364",
         "kind": "best",
@@ -703,6 +715,7 @@
       "scoreDisplay": "31.545867018",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "31.5458670176",
         "kind": "best",
@@ -787,6 +800,7 @@
       "scoreDisplay": "35.095647145",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "35.0956471436",
         "kind": "best",
@@ -875,6 +889,7 @@
       "scoreDisplay": "38.837995509",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "38.8379955082",
         "kind": "best",
@@ -967,6 +982,7 @@
       "scoreDisplay": "42.458116436",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "42.4581164357",
         "kind": "best",
@@ -1063,6 +1079,7 @@
       "scoreDisplay": "46.291342118",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "46.2913421172",
         "kind": "best",
@@ -1163,6 +1180,7 @@
       "scoreDisplay": "50.119762624",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "50.1197626235",
         "kind": "best",
@@ -1267,6 +1285,7 @@
       "scoreDisplay": "54.240293592",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "54.2402935914",
         "kind": "best",
@@ -1375,6 +1394,7 @@
       "scoreDisplay": "58.40056748",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "58.4005674790",
         "kind": "best",
@@ -1487,6 +1507,7 @@
       "scoreDisplay": "62.558877095",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "62.5588770939",
         "kind": "best",
@@ -1603,6 +1624,7 @@
       "scoreDisplay": "66.760286242",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "66.7602862414",
         "kind": "best",
@@ -1723,6 +1745,7 @@
       "scoreDisplay": "71.199461609",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "71.1994616079",
         "kind": "best",
@@ -1847,6 +1870,7 @@
       "scoreDisplay": "75.749142583",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "75.7491425819",
         "kind": "best",
@@ -1975,6 +1999,7 @@
       "scoreDisplay": "80.285864441",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "80.2858644400",
         "kind": "best",
@@ -2107,6 +2132,7 @@
       "scoreDisplay": "84.978191067",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "84.9781910657",
         "kind": "best",
@@ -2243,6 +2269,7 @@
       "scoreDisplay": "89.750962683",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "89.7509626820",
         "kind": "best",
@@ -2383,6 +2410,7 @@
       "scoreDisplay": "94.525877103",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "94.5258771015",
         "kind": "best",
@@ -2527,6 +2555,7 @@
       "scoreDisplay": "99.483111565",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "99.4831115636",
         "kind": "best",
@@ -2675,6 +2704,7 @@
       "scoreDisplay": "104.540363767",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "104.5403637652",
         "kind": "best",
@@ -2827,6 +2857,7 @@
       "scoreDisplay": "109.629240664",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "109.6292406611",
         "kind": "best",
@@ -2983,6 +3014,7 @@
       "scoreDisplay": "114.799814666",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "114.7998146630",
         "kind": "best",
@@ -3143,6 +3175,7 @@
       "scoreDisplay": "120.065659643",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "120.0656596383",
         "kind": "best",
@@ -3307,6 +3340,7 @@
       "scoreDisplay": "125.366939209",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "125.3669392055",
         "kind": "best",
@@ -3475,6 +3509,7 @@
       "scoreDisplay": "130.849078762",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "130.8490787587",
         "kind": "best",
@@ -3647,6 +3682,7 @@
       "scoreDisplay": "136.307910825",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "136.3079108204",
         "kind": "best",
@@ -3823,6 +3859,7 @@
       "scoreDisplay": "141.783733434",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "141.7837334298",
         "kind": "best",
@@ -4003,6 +4040,7 @@
       "scoreDisplay": "147.45211647",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "147.4521164651",
         "kind": "best",
@@ -4187,6 +4225,7 @@
       "scoreDisplay": "153.199743355",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "153.1997433521",
         "kind": "best",
@@ -4375,6 +4414,7 @@
       "scoreDisplay": "158.954085842",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "158.9540858379",
         "kind": "best",
@@ -4567,6 +4607,7 @@
       "scoreDisplay": "164.80623042",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "164.8062304148",
         "kind": "best",
@@ -4763,6 +4804,7 @@
       "scoreDisplay": "170.697811037",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "170.6978110333",
         "kind": "best",
@@ -4963,6 +5005,7 @@
       "scoreDisplay": "176.732656246",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "176.7326562420",
         "kind": "best",
@@ -5167,6 +5210,7 @@
       "scoreDisplay": "182.772619359",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "182.7726193526",
         "kind": "best",
@@ -5375,6 +5419,7 @@
       "scoreDisplay": "188.964969009",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "188.9649690047",
         "kind": "best",
@@ -5587,6 +5632,7 @@
       "scoreDisplay": "195.203901356",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "195.2039013515",
         "kind": "best",
@@ -5803,6 +5849,7 @@
       "scoreDisplay": "201.486193339",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "201.4861933308",
         "kind": "best",
@@ -6023,6 +6070,7 @@
       "scoreDisplay": "207.800843413",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "207.8008434073",
         "kind": "best",
@@ -6247,6 +6295,7 @@
       "scoreDisplay": "214.180930116",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "214.1809301120",
         "kind": "best",
@@ -6475,6 +6524,7 @@
       "scoreDisplay": "220.565400268",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "220.5654002624",
         "kind": "best",
@@ -6707,6 +6757,7 @@
       "scoreDisplay": "227.611888913",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "227.6118889083",
         "kind": "best",
@@ -6943,6 +6994,7 @@
       "scoreDisplay": "234.230396596",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "234.2303965905",
         "kind": "best",
@@ -7183,6 +7235,7 @@
       "scoreDisplay": "240.913142281",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "240.9131422751",
         "kind": "best",
@@ -7427,6 +7480,7 @@
       "scoreDisplay": "247.533470734",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "247.5334707287",
         "kind": "best",
@@ -7675,6 +7729,7 @@
       "scoreDisplay": "254.488890271",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "254.4888902654",
         "kind": "best",
@@ -7927,6 +7982,7 @@
       "scoreDisplay": "261.414024486",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "261.4140244768",
         "kind": "best",
@@ -8183,6 +8239,7 @@
       "scoreDisplay": "268.358130035",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "268.3581300305",
         "kind": "best",
@@ -8443,6 +8500,7 @@
       "scoreDisplay": "275.155438848",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "275.1554388395",
         "kind": "best",
@@ -8707,6 +8765,7 @@
       "scoreDisplay": "282.230169719",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "282.2301697134",
         "kind": "best",
@@ -8975,6 +9034,7 @@
       "scoreDisplay": "289.040355469",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "289.0403554611",
         "kind": "best",
@@ -9247,6 +9307,7 @@
       "scoreDisplay": "296.212719294",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "296.2127192889",
         "kind": "best",
@@ -9523,6 +9584,7 @@
       "scoreDisplay": "303.668337708",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "303.6683376993",
         "kind": "best",
@@ -9803,6 +9865,7 @@
       "scoreDisplay": "310.923532208",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "310.9235322023",
         "kind": "best",
@@ -10087,6 +10150,7 @@
       "scoreDisplay": "318.223159149",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "318.2231591442",
         "kind": "best",
@@ -10375,6 +10439,7 @@
       "scoreDisplay": "325.56800216",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "325.5680021542",
         "kind": "best",
@@ -10667,6 +10732,7 @@
       "scoreDisplay": "332.891928175",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "332.8919281694",
         "kind": "best",
@@ -10963,6 +11029,7 @@
       "scoreDisplay": "340.435988046",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "340.4359880387",
         "kind": "best",
@@ -11263,6 +11330,7 @@
       "scoreDisplay": "347.986794595",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "347.9867945882",
         "kind": "best",
@@ -11567,6 +11635,7 @@
       "scoreDisplay": "355.606112328",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "355.6061123203",
         "kind": "best",
@@ -11875,6 +11944,7 @@
       "scoreDisplay": "362.952080429",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "362.9520804209",
         "kind": "best",
@@ -12187,6 +12257,7 @@
       "scoreDisplay": "371.068750868",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "371.0687508599",
         "kind": "best",
@@ -12503,6 +12574,7 @@
       "scoreDisplay": "378.747870637",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "378.7478706300",
         "kind": "best",
@@ -12823,6 +12895,7 @@
       "scoreDisplay": "386.656846542",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "386.6568465306",
         "kind": "best",
@@ -13147,6 +13220,7 @@
       "scoreDisplay": "394.346500545",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "394.3465005357",
         "kind": "best",
@@ -13475,6 +13549,7 @@
       "scoreDisplay": "402.07998804",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "402.0799880334",
         "kind": "best",
@@ -13807,6 +13882,7 @@
       "scoreDisplay": "410.017747437",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "410.0177474292",
         "kind": "best",
@@ -14143,6 +14219,7 @@
       "scoreDisplay": "418.060399495",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "418.0603994857",
         "kind": "best",
@@ -14483,6 +14560,7 @@
       "scoreDisplay": "426.323202123",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "426.3232021158",
         "kind": "best",
@@ -14827,6 +14905,7 @@
       "scoreDisplay": "434.534399438",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "434.5343994310",
         "kind": "best",
@@ -15175,6 +15254,7 @@
       "scoreDisplay": "442.483193285",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "442.4831932676",
         "kind": "best",
@@ -15527,6 +15607,7 @@
       "scoreDisplay": "450.892321262",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "450.8923212532",
         "kind": "best",
@@ -15883,6 +15964,7 @@
       "scoreDisplay": "458.819711476",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "458.8197114672",
         "kind": "best",
@@ -16243,6 +16325,7 @@
       "scoreDisplay": "467.278099353",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "467.2780993459",
         "kind": "best",
@@ -16607,6 +16690,7 @@
       "scoreDisplay": "475.702809577",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "475.7028095683",
         "kind": "best",
@@ -16975,6 +17059,7 @@
       "scoreDisplay": "484.275314767",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "484.2753147581",
         "kind": "best",
@@ -17347,6 +17432,7 @@
       "scoreDisplay": "492.664275306",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "492.6642752977",
         "kind": "best",
@@ -17723,6 +17809,7 @@
       "scoreDisplay": "501.255605044",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "501.2556050329",
         "kind": "best",
@@ -18103,6 +18190,7 @@
       "scoreDisplay": "509.82324579",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "509.8232457804",
         "kind": "best",
@@ -18487,6 +18575,7 @@
       "scoreDisplay": "518.27811929",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "518.2781192774",
         "kind": "best",
@@ -18875,6 +18964,7 @@
       "scoreDisplay": "526.801617667",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "526.8016176568",
         "kind": "best",
@@ -19267,6 +19357,7 @@
       "scoreDisplay": "535.583476078",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "535.5834760683",
         "kind": "best",
@@ -19663,6 +19754,7 @@
       "scoreDisplay": "544.22223985",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "544.2222398393",
         "kind": "best",
@@ -20063,6 +20155,7 @@
       "scoreDisplay": "553.093447917",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "553.0934479101",
         "kind": "best",
@@ -20467,6 +20560,7 @@
       "scoreDisplay": "561.966331464",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "561.9663314498",
         "kind": "best",
@@ -20875,6 +20969,7 @@
       "scoreDisplay": "570.710642427",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "570.7106424143",
         "kind": "best",
@@ -21287,6 +21382,7 @@
       "scoreDisplay": "579.835206688",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "579.8352066764",
         "kind": "best",
@@ -21703,6 +21799,7 @@
       "scoreDisplay": "588.548012845",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "588.5480128356",
         "kind": "best",
@@ -22123,6 +22220,7 @@
       "scoreDisplay": "597.876198682",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "597.8761986706",
         "kind": "best",
@@ -22547,6 +22645,7 @@
       "scoreDisplay": "606.607964458",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "606.6079644498",
         "kind": "best",
@@ -22975,6 +23074,7 @@
       "scoreDisplay": "615.8160669",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "615.8160668874",
         "kind": "best",
@@ -23407,6 +23507,7 @@
       "scoreDisplay": "625.109277431",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "625.1092774207",
         "kind": "best",
@@ -23843,6 +23944,7 @@
       "scoreDisplay": "634.438614026",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "634.4386140185",
         "kind": "best",
@@ -24283,6 +24385,7 @@
       "scoreDisplay": "643.996426673",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "643.9964266607",
         "kind": "best",
@@ -24727,6 +24830,7 @@
       "scoreDisplay": "652.880184472",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "652.8801844647",
         "kind": "best",
@@ -25175,6 +25279,7 @@
       "scoreDisplay": "662.221679238",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "662.2216792295",
         "kind": "best",
@@ -25627,6 +25732,7 @@
       "scoreDisplay": "672.152369243",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "672.1523692332",
         "kind": "best",
@@ -26083,6 +26189,7 @@
       "scoreDisplay": "681.640585484",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "681.6405854696",
         "kind": "best",
@@ -26543,6 +26650,7 @@
       "scoreDisplay": "690.614556434",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "690.6145564206",
         "kind": "best",
@@ -27007,6 +27115,7 @@
       "scoreDisplay": "700.204264678",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "700.2042646679",
         "kind": "best",
@@ -27475,6 +27584,7 @@
       "scoreDisplay": "709.771086058",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "709.7710860461",
         "kind": "best",
@@ -27947,6 +28057,7 @@
       "scoreDisplay": "719.394287564",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "719.3942875519",
         "kind": "best",
@@ -28423,6 +28534,7 @@
       "scoreDisplay": "728.909586689",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "728.9095866761",
         "kind": "best",
@@ -28903,6 +29015,7 @@
       "scoreDisplay": "737.899324617",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "737.8993245986",
         "kind": "best",
@@ -29387,6 +29500,7 @@
       "scoreDisplay": "748.836275015",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "748.8362749995",
         "kind": "best",
@@ -29875,6 +29989,7 @@
       "scoreDisplay": "758.169311208",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "758.1693111953",
         "kind": "best",
@@ -30367,6 +30482,7 @@
       "scoreDisplay": "767.903402158",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "767.9034021398",
         "kind": "best",
@@ -30863,6 +30979,7 @@
       "scoreDisplay": "777.649171411",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "777.6491713981",
         "kind": "best",
@@ -31363,6 +31480,7 @@
       "scoreDisplay": "787.8276049",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "787.8276048873",
         "kind": "best",
@@ -31867,6 +31985,7 @@
       "scoreDisplay": "797.671878041",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "797.6718780299",
         "kind": "best",
@@ -32375,6 +32494,7 @@
       "scoreDisplay": "807.711183684",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "807.7111836725",
         "kind": "best",
@@ -32887,6 +33007,7 @@
       "scoreDisplay": "818.194096935",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "818.1940969276",
         "kind": "best",
@@ -33403,6 +33524,7 @@
       "scoreDisplay": "827.74184804",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "827.7418480278",
         "kind": "best",
@@ -33923,6 +34045,7 @@
       "scoreDisplay": "837.753829172",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "837.7538291538",
         "kind": "best",
@@ -34447,6 +34570,7 @@
       "scoreDisplay": "847.604312527",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "847.6043125074",
         "kind": "best",
@@ -34975,6 +35099,7 @@
       "scoreDisplay": "858.13681136",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "858.1368113436",
         "kind": "best",
@@ -35507,6 +35632,7 @@
       "scoreDisplay": "868.328063554",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "868.3280635415",
         "kind": "best",
@@ -36043,6 +36169,7 @@
       "scoreDisplay": "878.803764616",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "878.8037646021",
         "kind": "best",
@@ -36583,6 +36710,7 @@
       "scoreDisplay": "888.494088552",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "888.4940885375",
         "kind": "best",
@@ -37127,6 +37255,7 @@
       "scoreDisplay": "899.075654418",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "899.0756544042",
         "kind": "best",
@@ -37675,6 +37804,7 @@
       "scoreDisplay": "909.814669455",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "909.8146694425",
         "kind": "best",
@@ -38227,6 +38357,7 @@
       "scoreDisplay": "920.087864924",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "920.0878649058",
         "kind": "best",
@@ -38783,6 +38914,7 @@
       "scoreDisplay": "930.754981074",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "930.7549810598",
         "kind": "best",
@@ -39343,6 +39475,7 @@
       "scoreDisplay": "941.080169232",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "941.0801692134",
         "kind": "best",
@@ -39907,6 +40040,7 @@
       "scoreDisplay": "951.266898364",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "951.2668983559",
         "kind": "best",
@@ -40475,6 +40609,7 @@
       "scoreDisplay": "961.838991846",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "961.8389918270",
         "kind": "best",
@@ -41047,6 +41182,7 @@
       "scoreDisplay": "972.504415025",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "972.5044150034",
         "kind": "best",
@@ -41623,6 +41759,7 @@
       "scoreDisplay": "983.303825378",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "983.3038253563",
         "kind": "best",
@@ -42203,6 +42340,7 @@
       "scoreDisplay": "993.584046429",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "993.5840464089",
         "kind": "best",
@@ -42787,6 +42925,7 @@
       "scoreDisplay": "1004.815726287",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1004.8157262623",
         "kind": "best",
@@ -43375,6 +43514,7 @@
       "scoreDisplay": "1015.3251446",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1015.3251445848",
         "kind": "best",
@@ -43967,6 +44107,7 @@
       "scoreDisplay": "1026.590119838",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1026.5901198232",
         "kind": "best",
@@ -44563,6 +44704,7 @@
       "scoreDisplay": "1037.917633407",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1037.9176333846",
         "kind": "best",
@@ -45163,6 +45305,7 @@
       "scoreDisplay": "1047.950856004",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1047.9508559839",
         "kind": "best",
@@ -45767,6 +45910,7 @@
       "scoreDisplay": "1058.712022183",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1058.7120221664",
         "kind": "best",
@@ -46375,6 +46519,7 @@
       "scoreDisplay": "1070.101478407",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1070.1014783933",
         "kind": "best",
@@ -46987,6 +47132,7 @@
       "scoreDisplay": "1081.467189662",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1081.4671896447",
         "kind": "best",
@@ -47603,6 +47749,7 @@
       "scoreDisplay": "1092.090917669",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1092.0909176524",
         "kind": "best",
@@ -48223,6 +48370,7 @@
       "scoreDisplay": "1102.855605449",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1102.8556054325",
         "kind": "best",
@@ -48847,6 +48995,7 @@
       "scoreDisplay": "1114.256282367",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1114.2562823463",
         "kind": "best",
@@ -49475,6 +49624,7 @@
       "scoreDisplay": "1124.955618299",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1124.9556182786",
         "kind": "best",
@@ -50107,6 +50257,7 @@
       "scoreDisplay": "1136.430940159",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1136.4309401434",
         "kind": "best",
@@ -50743,6 +50894,7 @@
       "scoreDisplay": "1147.610373103",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1147.6103730818",
         "kind": "best",
@@ -51383,6 +51535,7 @@
       "scoreDisplay": "1159.088666446",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1159.0886664300",
         "kind": "best",
@@ -52027,6 +52180,7 @@
       "scoreDisplay": "1169.964671248",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1169.9646712328",
         "kind": "best",
@@ -52675,6 +52829,7 @@
       "scoreDisplay": "1180.881433995",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1180.8814339797",
         "kind": "best",
@@ -53327,6 +53482,7 @@
       "scoreDisplay": "1193.178051786",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1193.1780517755",
         "kind": "best",
@@ -53983,6 +54139,7 @@
       "scoreDisplay": "1204.069341849",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1204.0693418312",
         "kind": "best",
@@ -54643,6 +54800,7 @@
       "scoreDisplay": "1216.395189388",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1216.3951893780",
         "kind": "best",
@@ -55307,6 +55465,7 @@
       "scoreDisplay": "1227.006925813",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1227.0069257967",
         "kind": "best",
@@ -55975,6 +56134,7 @@
       "scoreDisplay": "1238.037439202",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1238.0374391856",
         "kind": "best",
@@ -56647,6 +56807,7 @@
       "scoreDisplay": "1250.101530198",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1250.1015301775",
         "kind": "best",
@@ -57323,6 +57484,7 @@
       "scoreDisplay": "1262.340448832",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1262.3404488002",
         "kind": "best",
@@ -58003,6 +58165,7 @@
       "scoreDisplay": "1273.469131082",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1273.4691310669",
         "kind": "best",
@@ -58687,6 +58850,7 @@
       "scoreDisplay": "1285.023431809",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1285.0234317928",
         "kind": "best",
@@ -59375,6 +59539,7 @@
       "scoreDisplay": "1297.289187406",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1297.2891873905",
         "kind": "best",
@@ -60067,6 +60232,7 @@
       "scoreDisplay": "1308.666096623",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1308.6660966062",
         "kind": "best",
@@ -60763,6 +60929,7 @@
       "scoreDisplay": "1320.981961422",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1320.9819614037",
         "kind": "best",
@@ -61463,6 +61630,7 @@
       "scoreDisplay": "1332.554246459",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1332.5542464402",
         "kind": "best",
@@ -62167,6 +62335,7 @@
       "scoreDisplay": "1343.955754292",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1343.9557542696",
         "kind": "best",
@@ -62875,6 +63044,7 @@
       "scoreDisplay": "1356.049354437",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1356.0493544161",
         "kind": "best",
@@ -63587,6 +63757,7 @@
       "scoreDisplay": "1367.297655878",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1367.2976558608",
         "kind": "best",
@@ -64303,6 +64474,7 @@
       "scoreDisplay": "1379.446244326",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1379.4462443030",
         "kind": "best",
@@ -65023,6 +65195,7 @@
       "scoreDisplay": "1391.706954167",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1391.7069541439",
         "kind": "best",
@@ -65747,6 +65920,7 @@
       "scoreDisplay": "1403.334254551",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1403.3342545327",
         "kind": "best",
@@ -66475,6 +66649,7 @@
       "scoreDisplay": "1415.072581254",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1415.0725812301",
         "kind": "best",
@@ -67207,6 +67382,7 @@
       "scoreDisplay": "1427.198483683",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1427.1984836633",
         "kind": "best",
@@ -67943,6 +68119,7 @@
       "scoreDisplay": "1440.06254995",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1440.0625499257",
         "kind": "best",
@@ -68683,6 +68860,7 @@
       "scoreDisplay": "1451.733460988",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1451.7334609693",
         "kind": "best",
@@ -69427,6 +69605,7 @@
       "scoreDisplay": "1463.758657469",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1463.7586574513",
         "kind": "best",
@@ -70175,6 +70354,7 @@
       "scoreDisplay": "1476.404239804",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1476.4042397750",
         "kind": "best",
@@ -70927,6 +71107,7 @@
       "scoreDisplay": "1488.032101477",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1488.0321014417",
         "kind": "best",
@@ -71683,6 +71864,7 @@
       "scoreDisplay": "1500.632026423",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1500.6320264029",
         "kind": "best",
@@ -72443,6 +72625,7 @@
       "scoreDisplay": "1513.072882972",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1513.0728829481",
         "kind": "best",
@@ -73207,6 +73390,7 @@
       "scoreDisplay": "1525.58922335",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1525.5892233309",
         "kind": "best",
@@ -73975,6 +74159,7 @@
       "scoreDisplay": "1537.250883257",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1537.2508832463",
         "kind": "best",
@@ -74747,6 +74932,7 @@
       "scoreDisplay": "1549.368803185",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1549.3688031620",
         "kind": "best",
@@ -75523,6 +75709,7 @@
       "scoreDisplay": "1562.880909445",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1562.8809094279",
         "kind": "best",
@@ -76303,6 +76490,7 @@
       "scoreDisplay": "1574.793389454",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1574.7933894217",
         "kind": "best",
@@ -77087,6 +77275,7 @@
       "scoreDisplay": "1587.750944864",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1587.7509448260",
         "kind": "best",
@@ -77875,6 +78064,7 @@
       "scoreDisplay": "1600.343314347",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1600.3433143186",
         "kind": "best",
@@ -78667,6 +78857,7 @@
       "scoreDisplay": "1613.136875145",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1613.1368750470",
         "kind": "best",
@@ -79463,6 +79654,7 @@
       "scoreDisplay": "1625.438185248",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1625.4381852272",
         "kind": "best",
@@ -80263,6 +80455,7 @@
       "scoreDisplay": "1638.255186944",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1638.2551869232",
         "kind": "best",
@@ -81067,6 +81260,7 @@
       "scoreDisplay": "1650.83744686",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1650.8374468374",
         "kind": "best",
@@ -81875,6 +82069,7 @@
       "scoreDisplay": "1662.9823332",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1662.9823331706",
         "kind": "best",
@@ -82687,6 +82882,7 @@
       "scoreDisplay": "1675.599781549",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1675.5997815157",
         "kind": "best",
@@ -83503,6 +83699,7 @@
       "scoreDisplay": "1688.719608534",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1688.7196085113",
         "kind": "best",
@@ -84323,6 +84520,7 @@
       "scoreDisplay": "1701.297469655",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1701.2974696319",
         "kind": "best",
@@ -85147,6 +85345,7 @@
       "scoreDisplay": "1714.408391245",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1714.4083912211",
         "kind": "best",
@@ -85975,6 +86174,7 @@
       "scoreDisplay": "1726.221829683",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "1726.2218296583",
         "kind": "best",

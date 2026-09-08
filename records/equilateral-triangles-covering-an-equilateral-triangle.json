@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/equilateral-triangles-covering-an-equilateral-triangle",
-  "generatedAt": "2026-09-07T10:29:42.611Z",
+  "generatedAt": "2026-09-08T09:50:39.856Z",
   "instances": [
     {
       "instanceId": "p77-n6-v1",
@@ -23,6 +23,7 @@
       "scoreDisplay": "0.428571429",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.428571428571429",
         "kind": "best",
@@ -34,7 +35,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "side": "0.428571429",
         "triangles": [
@@ -88,6 +89,7 @@
       "scoreDisplay": "0.400000001",
       "status": "matched",
       "settled": false,
+      "recordStatus": "matched",
       "knownBest": {
         "display": "0.4",
         "kind": "best",
@@ -99,7 +101,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "side": "0.400000001",
         "triangles": [
@@ -159,6 +161,7 @@
       "scoreDisplay": "0.375000001",
       "status": "matched",
       "settled": false,
+      "recordStatus": "matched",
       "knownBest": {
         "display": "0.375",
         "kind": "best",
@@ -170,7 +173,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "side": "0.375000001",
         "triangles": [
@@ -236,6 +239,7 @@
       "scoreDisplay": "0.333333334",
       "status": "proven",
       "settled": true,
+      "recordStatus": "optimal",
       "knownBest": {
         "display": "0.333333334",
         "kind": "proven",
@@ -245,7 +249,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "side": "0.333333334",
         "triangles": [
@@ -317,10 +321,11 @@
       "scoreDisplay": "0.333333334",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "side": "0.333333334",
         "triangles": [
@@ -398,6 +403,7 @@
       "scoreDisplay": "0.307692309",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.307692307692308",
         "kind": "best",
@@ -409,7 +415,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "side": "0.307692309",
         "triangles": [
@@ -493,6 +499,7 @@
       "scoreDisplay": "0.300000001",
       "status": "matched",
       "settled": false,
+      "recordStatus": "matched",
       "knownBest": {
         "display": "0.3",
         "kind": "best",
@@ -504,7 +511,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "side": "0.300000001",
         "triangles": [
@@ -594,6 +601,7 @@
       "scoreDisplay": "0.285714287",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.285714285714286",
         "kind": "best",
@@ -605,7 +613,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "side": "0.285714287",
         "triangles": [
@@ -701,6 +709,7 @@
       "scoreDisplay": "0.272727274",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.272727272727273",
         "kind": "best",
@@ -712,7 +721,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "side": "0.272727274",
         "triangles": [
@@ -814,6 +823,7 @@
       "scoreDisplay": "0.266666668",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.266666666666667",
         "kind": "best",
@@ -825,7 +835,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "side": "0.266666668",
         "triangles": [

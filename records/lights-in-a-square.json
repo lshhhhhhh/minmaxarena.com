@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/lights-in-a-square",
-  "generatedAt": "2026-09-07T10:29:41.886Z",
+  "generatedAt": "2026-09-08T09:50:37.070Z",
   "instances": [
     {
       "instanceId": "p51-n2-v1",
@@ -23,6 +23,7 @@
       "scoreDisplay": "4.799999",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "4.8",
         "kind": "best",
@@ -59,6 +60,7 @@
       "scoreDisplay": "7.568389",
       "status": "matched",
       "settled": false,
+      "recordStatus": "matched",
       "knownBest": {
         "display": "7.568",
         "kind": "best",
@@ -99,6 +101,7 @@
       "scoreDisplay": "17.729703",
       "status": "matched",
       "settled": false,
+      "recordStatus": "matched",
       "knownBest": {
         "display": "17.729",
         "kind": "best",
@@ -143,6 +146,7 @@
       "scoreDisplay": "22.252208",
       "status": "ahead",
       "settled": false,
+      "recordStatus": "ahead",
       "knownBest": {
         "display": "22.213",
         "kind": "best",
@@ -191,6 +195,7 @@
       "scoreDisplay": "29.790386",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "29.791",
         "kind": "best",
@@ -243,6 +248,7 @@
       "scoreDisplay": "35.909893",
       "status": "matched",
       "settled": false,
+      "recordStatus": "matched",
       "knownBest": {
         "display": "35.909",
         "kind": "best",
@@ -299,6 +305,7 @@
       "scoreDisplay": "47.839106",
       "status": "matched",
       "settled": false,
+      "recordStatus": "matched",
       "knownBest": {
         "display": "47.839",
         "kind": "best",
@@ -359,6 +366,7 @@
       "scoreDisplay": "57.388395",
       "status": "matched",
       "settled": false,
+      "recordStatus": "matched",
       "knownBest": {
         "display": "57.388",
         "kind": "best",
@@ -423,6 +431,7 @@
       "scoreDisplay": "63.548773",
       "status": "ahead",
       "settled": false,
+      "recordStatus": "ahead",
       "knownBest": {
         "display": "62.408",
         "kind": "best",
@@ -491,6 +500,7 @@
       "scoreDisplay": "74.352685",
       "status": "matched",
       "settled": false,
+      "recordStatus": "matched",
       "knownBest": {
         "display": "74.352",
         "kind": "best",
@@ -559,10 +569,11 @@
         "n": 12
       },
       "objective": "maximize",
-      "scoreStored": "83567326",
-      "scoreDisplay": "83.567326",
+      "scoreStored": "83569465",
+      "scoreDisplay": "83.569465",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "83.571",
         "kind": "best",
@@ -571,59 +582,59 @@
         "source": "published by Satoshi Kishimoto and GPT-5.6 Sol Pro (July 2026) on Erich Friedman's page as 83.571+, meaning at least that much. The page gives figures and no coordinates; the configuration this site reconstructed from the pictured topology and symmetries verifies at 83.564255, which is the site's reference answer and not the record. Optimality is open",
         "url": "https://erich-friedman.github.io/packing/light/"
       },
-      "holder": "hadsajnc",
-      "method": "human",
-      "recordedAt": "2026-09-05T14:00:33.471Z",
+      "holder": "游侠",
+      "method": "ai",
+      "recordedAt": "2026-09-07T12:32:21.290Z",
       "answer": {
-        "intensity": "83.567326",
+        "intensity": "83.569465",
         "lights": [
           [
-            "0.130700477",
-            "0.973612185"
+            "0.130708612",
+            "0.973626980"
           ],
           [
-            "0.869299523",
-            "0.973612185"
+            "0.869292947",
+            "0.973627316"
           ],
           [
-            "0.500000000",
-            "0.950968428"
+            "0.499999328",
+            "0.950987301"
           ],
           [
-            "0.123818627",
-            "0.725698687"
+            "0.123809740",
+            "0.725690173"
           ],
           [
-            "0.876181373",
-            "0.725698687"
+            "0.876190184",
+            "0.725692036"
           ],
           [
-            "0.500000000",
-            "0.546842000"
+            "0.499999757",
+            "0.546820827"
           ],
           [
-            "0.092066120",
-            "0.425858879"
+            "0.092067468",
+            "0.425858916"
           ],
           [
-            "0.907933880",
-            "0.425858879"
+            "0.907932682",
+            "0.425860709"
           ],
           [
-            "0.360557704",
-            "0.122907390"
+            "0.360557311",
+            "0.122902828"
           ],
           [
-            "0.639447000",
-            "0.122907390"
+            "0.639445757",
+            "0.122903804"
           ],
           [
-            "0.078782398",
-            "0.102318360"
+            "0.078786907",
+            "0.102314730"
           ],
           [
-            "0.921217602",
-            "0.102318360"
+            "0.921214010",
+            "0.102315810"
           ]
         ]
       }
@@ -639,6 +650,7 @@
       "scoreDisplay": "96.347101",
       "status": "matched",
       "settled": false,
+      "recordStatus": "matched",
       "knownBest": {
         "display": "96.347",
         "kind": "best",
@@ -719,6 +731,7 @@
       "scoreDisplay": "106.189738",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "106.190",
         "kind": "best",
@@ -803,6 +816,7 @@
       "scoreDisplay": "114.942008",
       "status": "ahead",
       "settled": false,
+      "recordStatus": "ahead",
       "knownBest": {
         "display": "113.191",
         "kind": "best",
@@ -891,6 +905,7 @@
       "scoreDisplay": "125.436726",
       "status": "ahead",
       "settled": false,
+      "recordStatus": "ahead",
       "knownBest": {
         "display": "124.553",
         "kind": "best",
@@ -983,6 +998,7 @@
       "scoreDisplay": "134.777195",
       "status": "ahead",
       "settled": false,
+      "recordStatus": "ahead",
       "knownBest": {
         "display": "133.907",
         "kind": "best",
@@ -1082,6 +1098,7 @@
       "scoreDisplay": "147.340097",
       "status": "ahead",
       "settled": false,
+      "recordStatus": "ahead",
       "knownBest": {
         "display": "141.556",
         "kind": "best",
@@ -1182,6 +1199,7 @@
       "scoreDisplay": "158.868738",
       "status": "ahead",
       "settled": false,
+      "recordStatus": "ahead",
       "knownBest": {
         "display": "152.854",
         "kind": "best",
@@ -1285,10 +1303,11 @@
         "n": 20
       },
       "objective": "maximize",
-      "scoreStored": "174495313",
-      "scoreDisplay": "174.495313",
+      "scoreStored": "174538435",
+      "scoreDisplay": "174.538435",
       "status": "ahead",
       "settled": false,
+      "recordStatus": "ahead",
       "knownBest": {
         "display": "165.272",
         "kind": "best",
@@ -1297,91 +1316,91 @@
         "source": "published by Satoshi Kishimoto and GPT-5.6 Sol Pro (July 2026) on Erich Friedman's page as 165.272+, meaning at least that much. The page gives figures and no coordinates; the configuration this site reconstructed from the pictured topology and symmetries verifies at 165.261482, which is the site's reference answer and not the record. Optimality is open",
         "url": "https://erich-friedman.github.io/packing/light/"
       },
-      "holder": "今天",
-      "method": "human",
-      "recordedAt": "2026-09-07T08:37:53.738Z",
+      "holder": "游侠",
+      "method": "ai",
+      "recordedAt": "2026-09-07T12:31:08.099Z",
       "answer": {
-        "intensity": "174.495313",
+        "intensity": "174.538435",
         "lights": [
           [
-            "0.063826551",
-            "0.063826131"
+            "0.063851609",
+            "0.063851443"
           ],
           [
-            "0.280611834",
-            "0.071568598"
+            "0.280600677",
+            "0.071511831"
           ],
           [
-            "0.500000094",
-            "0.074860195"
+            "0.500003092",
+            "0.074800683"
           ],
           [
-            "0.719388068",
-            "0.071568503"
+            "0.719393402",
+            "0.071507149"
           ],
           [
-            "0.936174161",
-            "0.063825897"
+            "0.936145849",
+            "0.063858600"
           ],
           [
-            "0.071568667",
-            "0.280611921"
+            "0.071511977",
+            "0.280601212"
           ],
           [
-            "0.363679124",
-            "0.363679178"
+            "0.363673829",
+            "0.363675856"
           ],
           [
-            "0.636320838",
-            "0.363679173"
+            "0.636322516",
+            "0.363675805"
           ],
           [
-            "0.928431457",
-            "0.280611803"
+            "0.928492201",
+            "0.280599701"
           ],
           [
-            "0.063825676",
-            "0.936174326"
+            "0.063850161",
+            "0.936148707"
           ],
           [
-            "0.280611889",
-            "0.928431307"
+            "0.280600844",
+            "0.928488180"
           ],
           [
-            "0.499999989",
-            "0.925139675"
+            "0.500000568",
+            "0.925197825"
           ],
           [
-            "0.719388125",
-            "0.928431358"
+            "0.719396570",
+            "0.928491749"
           ],
           [
-            "0.936174214",
-            "0.936174324"
+            "0.936144392",
+            "0.936143705"
           ],
           [
-            "0.071568692",
-            "0.719388116"
+            "0.071511427",
+            "0.719399060"
           ],
           [
-            "0.363679123",
-            "0.636320894"
+            "0.363673790",
+            "0.636324478"
           ],
           [
-            "0.636320833",
-            "0.636320893"
+            "0.636322738",
+            "0.636324514"
           ],
           [
-            "0.928431312",
-            "0.719388099"
+            "0.928496392",
+            "0.719390701"
           ],
           [
-            "0.074860318",
-            "0.500000030"
+            "0.074804849",
+            "0.500000662"
           ],
           [
-            "0.925139720",
-            "0.499999994"
+            "0.925203801",
+            "0.500008555"
           ]
         ]
       }
@@ -1397,6 +1416,7 @@
       "scoreDisplay": "184.439329",
       "status": "ahead",
       "settled": false,
+      "recordStatus": "ahead",
       "knownBest": {
         "display": "172.658",
         "kind": "best",
@@ -1505,10 +1525,11 @@
         "n": 22
       },
       "objective": "maximize",
-      "scoreStored": "195047673",
-      "scoreDisplay": "195.047673",
+      "scoreStored": "195048804",
+      "scoreDisplay": "195.048804",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "195.050",
         "kind": "best",
@@ -1517,99 +1538,99 @@
         "source": "published by Satoshi Kishimoto and GPT-5.6 Sol Pro (July 2026) on Erich Friedman's page as 195.050+, meaning at least that much. The page gives figures and no coordinates; the configuration this site reconstructed from the pictured topology and symmetries verifies at 195.039312, which is the site's reference answer and not the record. Optimality is open",
         "url": "https://erich-friedman.github.io/packing/light/"
       },
-      "holder": "今天",
-      "method": "human",
-      "recordedAt": "2026-09-06T04:52:11.357Z",
+      "holder": "游侠",
+      "method": "ai",
+      "recordedAt": "2026-09-07T12:42:06.705Z",
       "answer": {
-        "intensity": "195.047673",
+        "intensity": "195.048804",
         "lights": [
           [
-            "0.266718708",
-            "0.952059464"
+            "0.266719197",
+            "0.952063172"
           ],
           [
-            "0.500000000",
-            "0.951843517"
+            "0.500000121",
+            "0.951841758"
           ],
           [
-            "0.733281640",
-            "0.952059956"
+            "0.733280997",
+            "0.952063044"
           ],
           [
-            "0.054854587",
-            "0.934004926"
+            "0.054854594",
+            "0.934004530"
           ],
           [
-            "0.945145139",
-            "0.934005246"
+            "0.945145422",
+            "0.934004508"
           ],
           [
-            "0.061067113",
-            "0.720744281"
+            "0.061065240",
+            "0.720743954"
           ],
           [
-            "0.938933487",
-            "0.720743920"
+            "0.938935067",
+            "0.720743694"
           ],
           [
-            "0.348400484",
-            "0.709482006"
+            "0.348402343",
+            "0.709478732"
           ],
           [
-            "0.651599167",
-            "0.709481727"
+            "0.651597708",
+            "0.709478738"
           ],
           [
-            "0.058124938",
-            "0.500000000"
+            "0.058128476",
+            "0.499999624"
           ],
           [
-            "0.339895921",
-            "0.500000000"
+            "0.339893726",
+            "0.499998999"
           ],
           [
-            "0.660104515",
-            "0.500000000"
+            "0.660106827",
+            "0.499998931"
           ],
           [
-            "0.941874566",
-            "0.500000000"
+            "0.941871358",
+            "0.499999337"
           ],
           [
-            "0.348401613",
-            "0.290514368"
+            "0.348403257",
+            "0.290515226"
           ],
           [
-            "0.651598869",
-            "0.290514923"
+            "0.651597379",
+            "0.290515871"
           ],
           [
-            "0.061070064",
-            "0.279256035"
+            "0.061069411",
+            "0.279257439"
           ],
           [
-            "0.938931082",
-            "0.279254471"
+            "0.938931754",
+            "0.279256641"
           ],
           [
-            "0.054851475",
-            "0.065997002"
+            "0.054851122",
+            "0.065998068"
           ],
           [
-            "0.945148339",
-            "0.065995056"
+            "0.945147961",
+            "0.065997247"
           ],
           [
-            "0.266716124",
-            "0.047931176"
+            "0.266715656",
+            "0.047929472"
           ],
           [
-            "0.500000000",
-            "0.048155621"
+            "0.499999669",
+            "0.048156138"
           ],
           [
-            "0.733282657",
-            "0.047931958"
+            "0.733283205",
+            "0.047930531"
           ]
         ]
       }
@@ -1625,6 +1646,7 @@
       "scoreDisplay": "205.753001",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": {
         "display": "205.756",
         "kind": "best",
@@ -1745,6 +1767,7 @@
       "scoreDisplay": "218.375555",
       "status": "ahead",
       "settled": false,
+      "recordStatus": "ahead",
       "knownBest": {
         "display": "215.573",
         "kind": "best",
@@ -1872,6 +1895,7 @@
       "scoreDisplay": "228.066424",
       "status": "ahead",
       "settled": false,
+      "recordStatus": "ahead",
       "knownBest": {
         "display": "225.100",
         "kind": "best",
@@ -1999,10 +2023,11 @@
         "n": 26
       },
       "objective": "maximize",
-      "scoreStored": "239688299",
-      "scoreDisplay": "239.688299",
+      "scoreStored": "239689730",
+      "scoreDisplay": "239.68973",
       "status": "ahead",
       "settled": false,
+      "recordStatus": "ahead",
       "knownBest": {
         "display": "234.759",
         "kind": "best",
@@ -2011,120 +2036,117 @@
         "source": "published by Satoshi Kishimoto and GPT-5.6 Sol Pro (July 2026) on Erich Friedman's page as 234.759+, meaning at least that much. The page gives figures and no coordinates; the configuration this site reconstructed from the pictured topology and symmetries verifies at 234.742765, which is the site's reference answer and not the record. Optimality is open",
         "url": "https://erich-friedman.github.io/packing/light/"
       },
-      "holder": "邱仲普",
+      "holder": "游侠",
       "method": "ai",
-      "recordedAt": "2026-09-07T04:24:57.200Z",
+      "recordedAt": "2026-09-07T12:44:39.394Z",
       "answer": {
-        "certify": "local site-replica raw-certified vs ours=239.67203",
-        "instanceId": "p51-n26-v1",
-        "intensity": "239.688299",
+        "intensity": "239.689730",
         "lights": [
           [
-            "0.034045053",
-            "0.929228167"
+            "0.034044917",
+            "0.929228347"
           ],
           [
-            "0.403892763",
-            "0.937976187"
+            "0.403892657",
+            "0.937976364"
           ],
           [
-            "0.966117660",
-            "0.929343041"
+            "0.966118360",
+            "0.929338886"
           ],
           [
-            "0.208730903",
-            "0.944326726"
+            "0.208730774",
+            "0.944326905"
           ],
           [
-            "0.596116394",
-            "0.937867436"
+            "0.596116383",
+            "0.937867602"
           ],
           [
-            "0.791109350",
-            "0.944227755"
+            "0.791110344",
+            "0.944228069"
           ],
           [
-            "0.023451096",
-            "0.711650542"
+            "0.023450961",
+            "0.711650716"
           ],
           [
-            "0.499822687",
-            "0.690308356"
+            "0.499822594",
+            "0.690308553"
           ],
           [
-            "0.976317988",
-            "0.711753625"
+            "0.976318838",
+            "0.711758625"
           ],
           [
-            "0.248182063",
-            "0.703105390"
+            "0.248181933",
+            "0.703105567"
           ],
           [
-            "0.340440327",
-            "0.499683257"
+            "0.340440185",
+            "0.499683423"
           ],
           [
-            "0.751524509",
-            "0.703118345"
+            "0.751524684",
+            "0.703118709"
           ],
           [
-            "0.033905103",
-            "0.070775389"
+            "0.033908790",
+            "0.070771989"
           ],
           [
-            "0.403944082",
-            "0.062118608"
+            "0.403943733",
+            "0.062118759"
           ],
           [
-            "0.966281106",
-            "0.070743707"
+            "0.966280952",
+            "0.070743913"
           ],
           [
-            "0.208835606",
-            "0.055697023"
+            "0.208832036",
+            "0.055695295"
           ],
           [
-            "0.596312951",
-            "0.062118127"
+            "0.596312762",
+            "0.062118320"
           ],
           [
-            "0.791436606",
-            "0.055765262"
+            "0.791436446",
+            "0.055765464"
           ],
           [
-            "0.023837901",
-            "0.288180829"
+            "0.023837821",
+            "0.288180815"
           ],
           [
-            "0.500131643",
-            "0.309635656"
+            "0.500131475",
+            "0.309635831"
           ],
           [
-            "0.976498658",
-            "0.288321825"
+            "0.976498507",
+            "0.288322061"
           ],
           [
-            "0.248583963",
-            "0.296841842"
+            "0.248583756",
+            "0.296841887"
           ],
           [
-            "0.659417884",
-            "0.500248472"
+            "0.659417782",
+            "0.500248705"
           ],
           [
-            "0.751570381",
-            "0.296830274"
+            "0.751570237",
+            "0.296830492"
           ],
           [
-            "0.058468159",
-            "0.500163774"
+            "0.058468026",
+            "0.500163920"
           ],
           [
-            "0.941762718",
-            "0.500197364"
+            "0.941762602",
+            "0.500197760"
           ]
-        ],
-        "source": "pad: climb from our record, state-rollback"
+        ]
       }
     },
     {
@@ -2138,6 +2160,7 @@
       "scoreDisplay": "252.066633",
       "status": "ahead",
       "settled": false,
+      "recordStatus": "ahead",
       "knownBest": {
         "display": "242.055",
         "kind": "best",
@@ -2277,6 +2300,7 @@
       "scoreDisplay": "268.155641",
       "status": "ahead",
       "settled": false,
+      "recordStatus": "ahead",
       "knownBest": {
         "display": "252.447",
         "kind": "best",
@@ -2420,6 +2444,7 @@
       "scoreDisplay": "283.920489",
       "status": "ahead",
       "settled": false,
+      "recordStatus": "ahead",
       "knownBest": {
         "display": "282.856",
         "kind": "best",
@@ -2564,6 +2589,7 @@
       "scoreDisplay": "294.519372",
       "status": "ahead",
       "settled": false,
+      "recordStatus": "ahead",
       "knownBest": {
         "display": "285.345",
         "kind": "best",
@@ -2715,6 +2741,7 @@
       "scoreDisplay": "305.851239",
       "status": "ahead",
       "settled": false,
+      "recordStatus": "ahead",
       "knownBest": {
         "display": "305.298",
         "kind": "best",
@@ -2870,6 +2897,7 @@
       "scoreDisplay": "318.204745",
       "status": "ahead",
       "settled": false,
+      "recordStatus": "ahead",
       "knownBest": {
         "display": "317.203",
         "kind": "best",
@@ -3026,6 +3054,7 @@
       "scoreDisplay": "334.037191",
       "status": "ahead",
       "settled": false,
+      "recordStatus": "ahead",
       "knownBest": {
         "display": "330.595",
         "kind": "best",
@@ -3182,10 +3211,11 @@
         "n": 34
       },
       "objective": "maximize",
-      "scoreStored": "344236429",
-      "scoreDisplay": "344.236429",
+      "scoreStored": "344242053",
+      "scoreDisplay": "344.242053",
       "status": "ahead",
       "settled": false,
+      "recordStatus": "ahead",
       "knownBest": {
         "display": "337.906",
         "kind": "best",
@@ -3194,147 +3224,147 @@
         "source": "published by Shaoheng Lai and Codex (August 2026) on Erich Friedman's page as 337.906+, meaning at least that much. The page gives figures and no coordinates; the configuration this site reconstructed from the pictured topology and symmetries verifies at 337.902847, which is the site's reference answer and not the record. Optimality is open",
         "url": "https://erich-friedman.github.io/packing/light/"
       },
-      "holder": "今天",
-      "method": "human",
-      "recordedAt": "2026-09-06T08:33:53.682Z",
+      "holder": "游侠",
+      "method": "ai",
+      "recordedAt": "2026-09-07T12:43:44.667Z",
       "answer": {
-        "intensity": "344.236429",
+        "intensity": "344.242053",
         "lights": [
           [
-            "0.045636674",
-            "0.047288190"
+            "0.045636783",
+            "0.047287375"
           ],
           [
-            "0.502438097",
-            "0.243258794"
+            "0.502438178",
+            "0.243257949"
           ],
           [
-            "0.500274270",
-            "0.044126678"
+            "0.500276107",
+            "0.044125012"
           ],
           [
-            "0.954674948",
-            "0.047462405"
+            "0.954674996",
+            "0.047461630"
           ],
           [
-            "0.196937892",
-            "0.060748779"
+            "0.196938009",
+            "0.060747974"
           ],
           [
-            "0.341831352",
-            "0.067378112"
+            "0.341831539",
+            "0.067377284"
           ],
           [
-            "0.659491811",
-            "0.066613060"
+            "0.659490133",
+            "0.066610535"
           ],
           [
-            "0.804224042",
-            "0.061281107"
+            "0.804223913",
+            "0.061280226"
           ],
           [
-            "0.058862162",
-            "0.201864415"
+            "0.058862288",
+            "0.201863659"
           ],
           [
-            "0.277498481",
-            "0.287263471"
+            "0.277498572",
+            "0.287262798"
           ],
           [
-            "0.728109358",
-            "0.286108688"
+            "0.728109354",
+            "0.286107879"
           ],
           [
-            "0.946388722",
-            "0.205988031"
+            "0.946388773",
+            "0.205987131"
           ],
           [
-            "0.064349658",
-            "0.350938100"
+            "0.064349834",
+            "0.350937487"
           ],
           [
-            "0.282079521",
-            "0.496211749"
+            "0.282079467",
+            "0.496211687"
           ],
           [
             "0.504807283",
-            "0.396343058"
+            "0.396342424"
           ],
           [
-            "0.932445649",
-            "0.356402399"
+            "0.932445633",
+            "0.356401623"
           ],
           [
-            "0.045203743",
-            "0.952544146"
+            "0.045205233",
+            "0.952539411"
           ],
           [
-            "0.497557053",
-            "0.756742810"
+            "0.497556205",
+            "0.756743329"
           ],
           [
-            "0.499733244",
-            "0.955995300"
+            "0.499713244",
+            "0.956003536"
           ],
           [
-            "0.954754707",
-            "0.952622922"
+            "0.954753888",
+            "0.952621345"
           ],
           [
-            "0.196180912",
-            "0.939167398"
+            "0.196182182",
+            "0.939156762"
           ],
           [
-            "0.340453775",
-            "0.933338492"
+            "0.340470805",
+            "0.933354678"
           ],
           [
-            "0.658222064",
-            "0.932623259"
+            "0.658221585",
+            "0.932621869"
           ],
           [
-            "0.803454512",
-            "0.939659443"
+            "0.803454203",
+            "0.939654770"
           ],
           [
-            "0.053643962",
-            "0.794019454"
+            "0.053652853",
+            "0.794021452"
           ],
           [
-            "0.271861685",
-            "0.713923149"
+            "0.271854397",
+            "0.713931449"
           ],
           [
-            "0.722498931",
-            "0.712741337"
+            "0.722501559",
+            "0.712743983"
           ],
           [
-            "0.941054346",
-            "0.798139417"
+            "0.941050700",
+            "0.798138807"
           ],
           [
-            "0.067557044",
-            "0.643609508"
+            "0.067558876",
+            "0.643611140"
           ],
           [
-            "0.495188488",
-            "0.603661723"
+            "0.495188240",
+            "0.603661514"
           ],
           [
-            "0.717916862",
-            "0.503794562"
+            "0.717916859",
+            "0.503794075"
           ],
           [
-            "0.935647695",
-            "0.649066818"
+            "0.935646984",
+            "0.649066780"
           ],
           [
-            "0.064490754",
-            "0.498747823"
+            "0.064491135",
+            "0.498747641"
           ],
           [
-            "0.935507240",
-            "0.501258433"
+            "0.935507129",
+            "0.501257813"
           ]
         ]
       }
@@ -3350,6 +3380,7 @@
       "scoreDisplay": "357.334366",
       "status": "ahead",
       "settled": false,
+      "recordStatus": "ahead",
       "knownBest": {
         "display": "347.195",
         "kind": "best",

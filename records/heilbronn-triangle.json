@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/heilbronn-triangle",
-  "generatedAt": "2026-09-07T10:29:40.929Z",
+  "generatedAt": "2026-09-08T09:50:33.728Z",
   "instances": [
     {
       "instanceId": "p03-n5-v1",
@@ -23,6 +23,7 @@
       "scoreDisplay": "0.192450089729743335",
       "status": "open",
       "settled": true,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.192450089",
         "kind": "proven",
@@ -69,8 +70,9 @@
       "scoreDisplay": "0.125",
       "status": "proven",
       "settled": true,
+      "recordStatus": "optimal",
       "knownBest": {
-        "display": "0.125000000",
+        "display": "0.125",
         "kind": "proven",
         "exact": "1/8",
         "source": "Δ₆ = 1/8; optimality proved by Dress, Yang and Zeng (1995)",
@@ -78,7 +80,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "points": [
           [
@@ -119,6 +121,7 @@
       "scoreDisplay": "0.083859008855033897",
       "status": "open",
       "settled": true,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.083859008",
         "kind": "proven",
@@ -172,6 +175,7 @@
       "scoreDisplay": "0.07237642412866586",
       "status": "open",
       "settled": true,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.072376424",
         "kind": "proven",
@@ -230,6 +234,7 @@
       "scoreDisplay": "0.054875999031743604",
       "status": "open",
       "settled": true,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.054875999",
         "kind": "proven",
@@ -239,7 +244,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-07T03:25:45.796Z",
+      "recordedAt": "2026-09-08T09:21:32.381Z",
       "answer": {
         "points": [
           [
@@ -292,6 +297,7 @@
       "scoreDisplay": "0.046537419582125784",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": null,
       "holder": "小转风",
       "method": "ai",
@@ -352,6 +358,7 @@
       "scoreDisplay": "0.037037036935185185",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": null,
       "holder": "Sigmoid with Codex",
       "method": "ai",
@@ -416,6 +423,7 @@
       "scoreDisplay": "0.03259885858223028",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": null,
       "holder": "Sigmoid with Codex",
       "method": "ai",
@@ -484,6 +492,7 @@
       "scoreDisplay": "0.027019916574198289",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": null,
       "holder": "Sigmoid with Codex",
       "method": "ai",
@@ -556,6 +565,7 @@
       "scoreDisplay": "0.024303979527662839",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": null,
       "holder": "Sigmoid with Codex",
       "method": "ai",
@@ -632,6 +642,7 @@
       "scoreDisplay": "0.021210540906976616",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": null,
       "holder": "Sigmoid with Codex",
       "method": "ai",
@@ -712,6 +723,7 @@
       "scoreDisplay": "0.02052785903714565",
       "status": "open",
       "settled": false,
+      "recordStatus": "open",
       "knownBest": null,
       "holder": "lird",
       "method": "human",
