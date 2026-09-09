@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/erasure-frames",
-  "generatedAt": "2026-09-08T09:50:38.688Z",
+  "generatedAt": "2026-09-09T09:53:34.133Z",
   "instances": [
     {
       "instanceId": "p65-d3-n6-v1",
@@ -490,7 +490,7 @@
         "d": 4
       },
       "objective": "maximize",
-      "scoreStored": "4423205667197531",
+      "scoreStored": "4423205667462256",
       "scoreDisplay": "0.004423205667",
       "status": "open",
       "settled": false,
@@ -498,16 +498,16 @@
       "knownBest": null,
       "holder": "邱仲普",
       "method": "ai",
-      "recordedAt": "2026-09-04T13:22:46.844Z",
+      "recordedAt": "2026-09-08T18:54:52.393Z",
       "answer": {
         "_meta": {
-          "gain_over_window": 3197532,
+          "gain_over_window": 3462257,
           "iid": "p65-d4-n12-v1",
           "method": "holder-cert seed + exact 9dp lattice ascent + ILS",
-          "our_score": 4423205667197531,
+          "our_score": 4423205667462256,
           "record_disp": 0.004423205663,
           "record_window_top": 4423205663999999,
-          "source": "energy2-p65-squeeze-0905-12345",
+          "source": "energy2-p65-squeeze-0905-1",
           "verified_by": "energy2 (self, exact Fraction minvol)"
         },
         "vectors": [
@@ -521,7 +521,7 @@
             "0.212374660",
             "-0.817100163",
             "0.133522188",
-            "-0.999998593"
+            "-0.999998594"
           ],
           [
             "0.999997335",
@@ -578,7 +578,7 @@
             "0.999997882"
           ],
           [
-            "0.302090504",
+            "0.302090505",
             "-0.810338050",
             "-0.070462171",
             "0.999996316"
