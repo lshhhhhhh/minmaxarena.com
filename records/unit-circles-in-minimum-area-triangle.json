@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/unit-circles-in-minimum-area-triangle",
-  "generatedAt": "2026-09-09T09:53:34.249Z",
+  "generatedAt": "2026-09-10T09:51:20.009Z",
   "instances": [
     {
       "instanceId": "p66-n4-v1",
@@ -537,8 +537,8 @@
         "n": 11
       },
       "objective": "minimize",
-      "scoreStored": "94007090654164851520",
-      "scoreDisplay": "47.00354532708242576",
+      "scoreStored": "94007090647615381933",
+      "scoreDisplay": "47.0035453238076909665",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -556,7 +556,7 @@
       },
       "holder": "邱仲普",
       "method": "ai",
-      "recordedAt": "2026-09-05T19:49:01.881Z",
+      "recordedAt": "2026-09-09T10:15:43.302Z",
       "answer": {
         "centers": [
           [
@@ -607,7 +607,7 @@
         "triangle": [
           [
             "0",
-            "0"
+            "0.000000001"
           ],
           [
             "12.081354508",
@@ -627,8 +627,8 @@
         "n": 12
       },
       "objective": "minimize",
-      "scoreStored": "102608042107998693640",
-      "scoreDisplay": "51.30402105399934682",
+      "scoreStored": "102608042099977886670",
+      "scoreDisplay": "51.304021049988943335",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -646,7 +646,7 @@
       },
       "holder": "邱仲普",
       "method": "ai",
-      "recordedAt": "2026-09-05T19:50:45.002Z",
+      "recordedAt": "2026-09-09T10:21:35.284Z",
       "answer": {
         "centers": [
           [
@@ -700,7 +700,7 @@
         ],
         "triangle": [
           [
-            "0",
+            "0.000000001",
             "0"
           ],
           [
@@ -721,8 +721,8 @@
         "n": 13
       },
       "objective": "minimize",
-      "scoreStored": "109789930723897308192",
-      "scoreDisplay": "54.894965361948654096",
+      "scoreStored": "109789930717290880855",
+      "scoreDisplay": "54.8949653586454404275",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -740,7 +740,7 @@
       },
       "holder": "邱仲普",
       "method": "ai",
-      "recordedAt": "2026-09-05T20:29:51.347Z",
+      "recordedAt": "2026-09-09T10:31:39.708Z",
       "answer": {
         "centers": [
           [
@@ -799,7 +799,7 @@
         "triangle": [
           [
             "0",
-            "0"
+            "0.000000001"
           ],
           [
             "11.922869497",
@@ -1027,8 +1027,8 @@
         "n": 16
       },
       "objective": "minimize",
-      "scoreStored": "132066642228377218605",
-      "scoreDisplay": "66.0333211141886093025",
+      "scoreStored": "132066642219645167790",
+      "scoreDisplay": "66.033321109822583895",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -1046,7 +1046,7 @@
       },
       "holder": "邱仲普",
       "method": "ai",
-      "recordedAt": "2026-09-05T20:51:03.345Z",
+      "recordedAt": "2026-09-09T11:28:03.918Z",
       "answer": {
         "centers": [
           [
@@ -1116,7 +1116,7 @@
         ],
         "triangle": [
           [
-            "0.000000000",
+            "0.000000001",
             "0.000000000"
           ],
           [
@@ -1137,8 +1137,8 @@
         "n": 17
       },
       "objective": "minimize",
-      "scoreStored": "140550135236565287520",
-      "scoreDisplay": "70.27506761828264376",
+      "scoreStored": "140550135227052745435",
+      "scoreDisplay": "70.2750676135263727175",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -1156,7 +1156,7 @@
       },
       "holder": "邱仲普",
       "method": "ai",
-      "recordedAt": "2026-09-05T21:01:00.092Z",
+      "recordedAt": "2026-09-09T12:41:05.730Z",
       "answer": {
         "centers": [
           [
@@ -1230,7 +1230,7 @@
         ],
         "triangle": [
           [
-            "0.000000000",
+            "0.000000001",
             "0.000000000"
           ],
           [
@@ -1251,8 +1251,8 @@
         "n": 18
       },
       "objective": "minimize",
-      "scoreStored": "149606706129186040536",
-      "scoreDisplay": "74.803353064593020268",
+      "scoreStored": "149606706121970277705",
+      "scoreDisplay": "74.8033530609851388525",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -1270,7 +1270,7 @@
       },
       "holder": "邱仲普",
       "method": "ai",
-      "recordedAt": "2026-09-05T21:10:58.573Z",
+      "recordedAt": "2026-09-09T13:20:51.089Z",
       "answer": {
         "centers": [
           [
@@ -1349,7 +1349,7 @@
         "triangle": [
           [
             "0.000000000",
-            "0.000000000"
+            "0.000000001"
           ],
           [
             "13.577449128",
@@ -1369,8 +1369,8 @@
         "n": 19
       },
       "objective": "minimize",
-      "scoreStored": "154692349544758548528",
-      "scoreDisplay": "77.346174772379274264",
+      "scoreStored": "154692349537437963383",
+      "scoreDisplay": "77.3461747687189816915",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -1388,7 +1388,7 @@
       },
       "holder": "邱仲普",
       "method": "ai",
-      "recordedAt": "2026-09-05T21:20:56.246Z",
+      "recordedAt": "2026-09-09T14:11:29.056Z",
       "answer": {
         "centers": [
           [
@@ -1471,7 +1471,7 @@
         "triangle": [
           [
             "0.000000000",
-            "0.000000000"
+            "0.000000001"
           ],
           [
             "14.130809646",
@@ -1747,8 +1747,8 @@
         "n": 22
       },
       "objective": "minimize",
-      "scoreStored": "178255488623851950896",
-      "scoreDisplay": "89.127744311925975448",
+      "scoreStored": "178255488612410357632",
+      "scoreDisplay": "89.127744306205178816",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -1766,7 +1766,7 @@
       },
       "holder": "邱仲普",
       "method": "ai",
-      "recordedAt": "2026-09-05T21:50:58.349Z",
+      "recordedAt": "2026-09-09T15:13:10.654Z",
       "answer": {
         "centers": [
           [
@@ -1860,7 +1860,7 @@
         ],
         "triangle": [
           [
-            "0.000000000",
+            "0.000000001",
             "0.000000000"
           ],
           [
@@ -1881,8 +1881,8 @@
         "n": 23
       },
       "objective": "minimize",
-      "scoreStored": "185482761081766521051",
-      "scoreDisplay": "92.7413805408832605255",
+      "scoreStored": "185482761068471332648",
+      "scoreDisplay": "92.741380534235666324",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -1900,7 +1900,7 @@
       },
       "holder": "邱仲普",
       "method": "ai",
-      "recordedAt": "2026-09-05T22:00:50.798Z",
+      "recordedAt": "2026-09-09T15:22:25.375Z",
       "answer": {
         "centers": [
           [
@@ -1998,7 +1998,7 @@
         ],
         "triangle": [
           [
-            "0.000000000",
+            "0.000000001",
             "0.000000000"
           ],
           [
@@ -2019,8 +2019,8 @@
         "n": 24
       },
       "objective": "minimize",
-      "scoreStored": "192994845587243920286",
-      "scoreDisplay": "96.497422793621960143",
+      "scoreStored": "192994845579779818663",
+      "scoreDisplay": "96.4974227898899093315",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -2038,7 +2038,7 @@
       },
       "holder": "邱仲普",
       "method": "ai",
-      "recordedAt": "2026-09-05T22:10:49.860Z",
+      "recordedAt": "2026-09-09T15:32:48.668Z",
       "answer": {
         "centers": [
           [
@@ -2141,7 +2141,7 @@
         "triangle": [
           [
             "0.000000000",
-            "0.000000000"
+            "0.000000001"
           ],
           [
             "14.928203246",
@@ -2161,8 +2161,8 @@
         "n": 25
       },
       "objective": "minimize",
-      "scoreStored": "199492268192253851845",
-      "scoreDisplay": "99.7461340961269259225",
+      "scoreStored": "199492268181521801028",
+      "scoreDisplay": "99.746134090760900514",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -2180,7 +2180,7 @@
       },
       "holder": "邱仲普",
       "method": "ai",
-      "recordedAt": "2026-09-05T22:21:02.023Z",
+      "recordedAt": "2026-09-09T15:42:34.660Z",
       "answer": {
         "centers": [
           [
@@ -2286,7 +2286,7 @@
         ],
         "triangle": [
           [
-            "0.000000000",
+            "0.000000001",
             "0.000000000"
           ],
           [
@@ -2769,8 +2769,8 @@
         "n": 29
       },
       "objective": "minimize",
-      "scoreStored": "230584486273624450978",
-      "scoreDisplay": "115.292243136812225489",
+      "scoreStored": "230584486267580255519",
+      "scoreDisplay": "115.2922431337901277595",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -2788,7 +2788,7 @@
       },
       "holder": "邱仲普",
       "method": "ai",
-      "recordedAt": "2026-09-05T23:00:50.758Z",
+      "recordedAt": "2026-09-09T15:52:07.728Z",
       "answer": {
         "centers": [
           [
@@ -2911,7 +2911,7 @@
         "triangle": [
           [
             "0.000000000",
-            "0.000000000"
+            "0.000000001"
           ],
           [
             "16.465445158",
@@ -2931,8 +2931,8 @@
         "n": 30
       },
       "objective": "minimize",
-      "scoreStored": "237697244921564683273",
-      "scoreDisplay": "118.8486224607823416365",
+      "scoreStored": "237697244913963624019",
+      "scoreDisplay": "118.8486224569818120095",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -2948,9 +2948,9 @@
         "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid. External comparisons use the publication interval of the table value 118.84862+, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-09T16:01:37.829Z",
       "answer": {
         "centers": [
           [
@@ -3077,7 +3077,7 @@
         "triangle": [
           [
             "0.000000000",
-            "0.000000000"
+            "0.000000001"
           ],
           [
             "18.054663667",
@@ -3097,8 +3097,8 @@
         "n": 31
       },
       "objective": "minimize",
-      "scoreStored": "245176089718740495255",
-      "scoreDisplay": "122.5880448593702476275",
+      "scoreStored": "245176089704479127220",
+      "scoreDisplay": "122.58804485223956361",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -3116,7 +3116,7 @@
       },
       "holder": "邱仲普",
       "method": "ai",
-      "recordedAt": "2026-09-05T23:24:16.559Z",
+      "recordedAt": "2026-09-09T16:57:04.900Z",
       "answer": {
         "centers": [
           [
@@ -3246,7 +3246,7 @@
         ],
         "triangle": [
           [
-            "0.000000000",
+            "0.000000001",
             "0.000000000"
           ],
           [
@@ -3267,8 +3267,8 @@
         "n": 32
       },
       "objective": "minimize",
-      "scoreStored": "254149808326484242128",
-      "scoreDisplay": "127.074904163242121064",
+      "scoreStored": "254149808311750796896",
+      "scoreDisplay": "127.074904155875398448",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -3286,7 +3286,7 @@
       },
       "holder": "邱仲普",
       "method": "ai",
-      "recordedAt": "2026-09-05T23:55:19.783Z",
+      "recordedAt": "2026-09-09T17:01:36.983Z",
       "answer": {
         "centers": [
           [
@@ -3420,7 +3420,7 @@
         ],
         "triangle": [
           [
-            "0.000000000",
+            "0.000000001",
             "0.000000000"
           ],
           [
@@ -3619,8 +3619,8 @@
         "n": 34
       },
       "objective": "minimize",
-      "scoreStored": "263171846089302864590",
-      "scoreDisplay": "131.585923044651432295",
+      "scoreStored": "263171846074457992195",
+      "scoreDisplay": "131.5859230372289960975",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -3638,7 +3638,7 @@
       },
       "holder": "邱仲普",
       "method": "ai",
-      "recordedAt": "2026-09-06T00:00:49.797Z",
+      "recordedAt": "2026-09-09T17:11:25.761Z",
       "answer": {
         "centers": [
           [
@@ -3780,7 +3780,7 @@
         ],
         "triangle": [
           [
-            "0.000000000",
+            "0.000000001",
             "0.000000000"
           ],
           [
@@ -4771,8 +4771,8 @@
         "n": 40
       },
       "objective": "minimize",
-      "scoreStored": "310276878126042795000",
-      "scoreDisplay": "155.1384390630213975",
+      "scoreStored": "310276878116578693375",
+      "scoreDisplay": "155.1384390582893466875",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -4790,7 +4790,7 @@
       },
       "holder": "邱仲普",
       "method": "ai",
-      "recordedAt": "2026-09-06T00:36:06.960Z",
+      "recordedAt": "2026-09-09T17:24:18.162Z",
       "answer": {
         "centers": [
           [
@@ -4957,7 +4957,7 @@
         "triangle": [
           [
             "0.000000000",
-            "0.000000000"
+            "0.000000001"
           ],
           [
             "18.928203250",
@@ -5187,8 +5187,8 @@
         "n": 42
       },
       "objective": "minimize",
-      "scoreStored": "323774183237487609714",
-      "scoreDisplay": "161.887091618743804857",
+      "scoreStored": "323774183228122367733",
+      "scoreDisplay": "161.8870916140611838665",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -5206,7 +5206,7 @@
       },
       "holder": "邱仲普",
       "method": "ai",
-      "recordedAt": "2026-09-06T00:40:35.909Z",
+      "recordedAt": "2026-09-09T17:31:36.446Z",
       "answer": {
         "centers": [
           [
@@ -5381,7 +5381,7 @@
         "triangle": [
           [
             "0.000000000",
-            "0.000000000"
+            "0.000000001"
           ],
           [
             "19.960094171",

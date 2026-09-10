@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/circles-covering-a-regular-pentagon",
-  "generatedAt": "2026-09-08T09:50:39.571Z",
+  "generatedAt": "2026-09-10T09:51:20.861Z",
   "instances": [
     {
       "instanceId": "p75-n7-v1",
@@ -81,8 +81,8 @@
         "n": 8
       },
       "objective": "minimize",
-      "scoreStored": "191956540838554756",
-      "scoreDisplay": "0.191956540838555",
+      "scoreStored": "191956540506000995",
+      "scoreDisplay": "0.191956540506001",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -100,9 +100,9 @@
         "source": "The public vector construction in Figure 9 of Yanchao Liu (2022), reconstructed point by point and verified here at 0.191962518329166. Literature comparisons use the interval transferred from Table 1's three-decimal 20.183, including the geometric difference between the two fixed-precision polygons; reconstruction digits do not define publication precision. The paper's best lower bound still leaves a 5.75% gap, so optimality is open.",
         "url": "https://link.springer.com/article/10.1007/s43762-021-00032-9"
       },
-      "holder": "hadsajnc",
-      "method": "human",
-      "recordedAt": "2026-09-05T05:51:01.794Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-09T10:52:01.560Z",
       "answer": {
         "points": [
           [
@@ -122,7 +122,7 @@
             "0.555858088"
           ],
           [
-            "0.479529048",
+            "0.479529047",
             "0.506655106"
           ],
           [
@@ -147,8 +147,8 @@
         "n": 9
       },
       "objective": "minimize",
-      "scoreStored": "181862304660882771",
-      "scoreDisplay": "0.181862304660883",
+      "scoreStored": "181862304185615816",
+      "scoreDisplay": "0.181862304185616",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -162,9 +162,9 @@
         "source": "The public vector construction in Figure 9 of Yanchao Liu (2022), reconstructed point by point and verified here at 0.181871774083792. Table 1's 19.377 conflicts with the Figure 9 reconstruction, and the PDF drawing coordinates are rounded. The original radius is unresolved: this reconstruction cannot establish a match or advance over the literature and remains a review item. The paper's best lower bound still leaves a 6.35% gap, so optimality is open.",
         "url": "https://link.springer.com/article/10.1007/s43762-021-00032-9"
       },
-      "holder": "hadsajnc",
-      "method": "human",
-      "recordedAt": "2026-09-05T05:55:43.333Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-09T12:21:10.702Z",
       "answer": {
         "points": [
           [
@@ -181,7 +181,7 @@
           ],
           [
             "0.828218958",
-            "0.547868300"
+            "0.547868299"
           ],
           [
             "0.523630432",
@@ -213,8 +213,8 @@
         "n": 10
       },
       "objective": "minimize",
-      "scoreStored": "174311703583511192",
-      "scoreDisplay": "0.174311703583512",
+      "scoreStored": "174311702883820430",
+      "scoreDisplay": "0.174311702883821",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -228,9 +228,9 @@
         "source": "The public vector construction in Figure 9 of Yanchao Liu (2022), reconstructed point by point and verified here at 0.174314361048804. Table 1's 18.338 conflicts with the Figure 9 reconstruction, and the PDF drawing coordinates are rounded. The original radius is unresolved: this reconstruction cannot establish a match or advance over the literature and remains a review item. The paper's best lower bound still leaves a 10.24% gap, so optimality is open.",
         "url": "https://link.springer.com/article/10.1007/s43762-021-00032-9"
       },
-      "holder": "hadsajnc",
-      "method": "human",
-      "recordedAt": "2026-09-05T06:44:45.567Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-09T13:00:51.080Z",
       "answer": {
         "points": [
           [
@@ -251,7 +251,7 @@
           ],
           [
             "0.842397710",
-            "0.544093415"
+            "0.544093416"
           ],
           [
             "0.543003230",
@@ -490,15 +490,15 @@
         "n": 14
       },
       "objective": "minimize",
-      "scoreStored": "142337342196189234",
-      "scoreDisplay": "0.142337342196190",
+      "scoreStored": "142337342169814154",
+      "scoreDisplay": "0.142337342169815",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
       "knownBest": null,
       "holder": "邱仲普",
       "method": "ai",
-      "recordedAt": "2026-09-05T13:06:53.212Z",
+      "recordedAt": "2026-09-09T14:01:47.926Z",
       "answer": {
         "points": [
           [
@@ -539,7 +539,7 @@
           ],
           [
             "0.795873590",
-            "0.419627744"
+            "0.419627743"
           ],
           [
             "0.162480595",

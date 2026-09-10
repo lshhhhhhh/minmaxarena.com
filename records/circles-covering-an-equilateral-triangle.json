@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/circles-covering-an-equilateral-triangle",
-  "generatedAt": "2026-09-08T09:50:39.453Z",
+  "generatedAt": "2026-09-10T09:51:20.722Z",
   "instances": [
     {
       "instanceId": "p74-n7-v1",
@@ -135,8 +135,8 @@
         "n": 9
       },
       "objective": "minimize",
-      "scoreStored": "166666667000000000",
-      "scoreDisplay": "0.166666667000000",
+      "scoreStored": "166666666927979945",
+      "scoreDisplay": "0.166666666927980",
       "status": "open",
       "settled": true,
       "recordStatus": "open",
@@ -148,11 +148,11 @@
       },
       "holder": "邱仲普",
       "method": "ai",
-      "recordedAt": "2026-09-05T16:30:51.898Z",
+      "recordedAt": "2026-09-09T11:01:46.402Z",
       "answer": {
         "points": [
           [
-            "0.833333333",
+            "0.833333334",
             "0"
           ],
           [
@@ -197,8 +197,8 @@
         "n": 10
       },
       "objective": "minimize",
-      "scoreStored": "144337567669540122",
-      "scoreDisplay": "0.144337567669541",
+      "scoreStored": "144337567553514723",
+      "scoreDisplay": "0.144337567553515",
       "status": "open",
       "settled": true,
       "recordStatus": "open",
@@ -210,7 +210,7 @@
       },
       "holder": "邱仲普",
       "method": "ai",
-      "recordedAt": "2026-09-05T16:50:29.796Z",
+      "recordedAt": "2026-09-09T12:11:16.327Z",
       "answer": {
         "points": [
           [
@@ -243,7 +243,7 @@
           ],
           [
             "0.625000001",
-            "0.505181486"
+            "0.505181487"
           ],
           [
             "0.749999999",
@@ -411,8 +411,8 @@
         "n": 13
       },
       "objective": "minimize",
-      "scoreStored": "132664386321531372",
-      "scoreDisplay": "0.132664386321532",
+      "scoreStored": "132664386292729548",
+      "scoreDisplay": "0.132664386292730",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -424,9 +424,9 @@
         "source": "The construction by Kari J. Nurmela appears in Figure 2 of Nurmela (2000); the paper's continuous value is 0.1326643857765088351. Optimality remains open; the site's nine-decimal reconstruction of the published contact graph verifies at 0.132664386321532.",
         "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-09T12:53:24.265Z",
       "answer": {
         "points": [
           [
@@ -454,7 +454,7 @@
             "0.114760442"
           ],
           [
-            "0.111160306",
+            "0.111160305",
             "0.072410122"
           ],
           [
@@ -491,8 +491,8 @@
         "n": 14
       },
       "objective": "minimize",
-      "scoreStored": "127516386733133431",
-      "scoreDisplay": "0.127516386733134",
+      "scoreStored": "127516386643131184",
+      "scoreDisplay": "0.127516386643132",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -504,9 +504,9 @@
         "source": "The construction by Hans Melissen appears in Figure 2 of Nurmela (2000); the paper's continuous value is 0.1275163863998600644. Optimality remains open; the site's nine-decimal reconstruction of the published contact graph verifies at 0.127516386733134.",
         "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-09T13:31:07.314Z",
       "answer": {
         "points": [
           [
@@ -554,7 +554,7 @@
             "0.076463384"
           ],
           [
-            "0.788098862",
+            "0.788098863",
             "0.266734724"
           ],
           [
@@ -575,8 +575,8 @@
         "n": 15
       },
       "objective": "minimize",
-      "scoreStored": "115470054378443869",
-      "scoreDisplay": "0.115470054378444",
+      "scoreStored": "115470054374304381",
+      "scoreDisplay": "0.115470054374305",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -588,9 +588,9 @@
         "source": "The construction by Hans Melissen appears in Figure 2 of Nurmela (2000); the paper's continuous value is 0.1154700538379251529. Optimality remains open; the site's nine-decimal reconstruction of the published contact graph verifies at 0.115470054378444.",
         "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-09T13:52:51.914Z",
       "answer": {
         "points": [
           [
@@ -650,7 +650,7 @@
             "0.230940108"
           ],
           [
-            "0.9",
+            "0.900000001",
             "0.057735028"
           ]
         ]

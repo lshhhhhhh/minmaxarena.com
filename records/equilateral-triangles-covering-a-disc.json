@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/equilateral-triangles-covering-a-disc",
-  "generatedAt": "2026-09-08T09:50:39.957Z",
+  "generatedAt": "2026-09-10T09:51:21.231Z",
   "instances": [
     {
       "instanceId": "p78-n7-v1",
@@ -96,8 +96,8 @@
         "n": 8
       },
       "objective": "minimize",
-      "scoreStored": "1033924892",
-      "scoreDisplay": "1.033924892",
+      "scoreStored": "1031924892",
+      "scoreDisplay": "1.031924892",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -111,59 +111,59 @@
         "source": "Maurizio Morandi's arrangement (June 2009), listed in Friedman's table as the largest covered-disc radius r = (453√3 − 3√347)/752 ≈ 0.969+ for n unit triangles; here it is converted in closed form by s = 1/r and shown rounded upward to fifteen places. The site reconstructed the same contact topology from the public raster, and its nine-decimal certificate verifies at 1.047235397; the gap from the continuous target remains explicit. Optimality is open",
         "url": "https://erich-friedman.github.io/packing/tricovcir/"
       },
-      "holder": "Sigmoid with Codex",
+      "holder": "Helpfulcanoe",
       "method": "ai",
-      "recordedAt": "2026-09-03T04:12:18.751Z",
+      "recordedAt": "2026-09-10T02:48:34.932Z",
       "answer": {
-        "side": "1.033924892",
+        "side": "1.031924892",
         "triangles": [
           {
             "down": true,
             "turn": "0.000000000",
-            "x": "1.365164567",
-            "y": "2.000000103"
+            "x": "1.368326943",
+            "y": "2.000000000"
           },
           {
             "down": true,
             "turn": "0.000000000",
-            "x": "0.631895420",
-            "y": "1.989337394"
+            "x": "0.637507114",
+            "y": "1.989895121"
           },
           {
             "down": false,
             "turn": "0.000000000",
-            "x": "1.729738635",
-            "y": "0.840650468"
+            "x": "1.730819828",
+            "y": "0.840509756"
           },
           {
             "down": false,
             "turn": "0.000000000",
-            "x": "1.002572723",
-            "y": "0.840612787"
+            "x": "1.005834056",
+            "y": "0.840509756"
           },
           {
             "down": true,
             "turn": "0.000000000",
-            "x": "1.545737645",
-            "y": "0.840650468"
+            "x": "1.546656358",
+            "y": "0.840509756"
           },
           {
             "down": false,
             "turn": "0.000000000",
-            "x": "0.259948309",
-            "y": "0.842758289"
+            "x": "0.269180172",
+            "y": "0.840509756"
           },
           {
             "down": true,
             "turn": "0.000000000",
-            "x": "0.450553141",
-            "y": "0.842758355"
+            "x": "0.453343642",
+            "y": "0.840509756"
           },
           {
             "down": false,
             "turn": "0.000000000",
-            "x": "0.997162621",
-            "y": "-0.000000104"
+            "x": "1.000000000",
+            "y": "0.000000000"
           }
         ]
       }
