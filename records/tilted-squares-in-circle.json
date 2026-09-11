@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/tilted-squares-in-circle",
-  "generatedAt": "2026-09-09T09:53:28.001Z",
+  "generatedAt": "2026-09-11T09:50:32.071Z",
   "instances": [
     {
       "instanceId": "p05-n3-v2",
@@ -975,7 +975,7 @@
         "n": 15
       },
       "objective": "maximize",
-      "scoreStored": "155839785393977360",
+      "scoreStored": "155839785522389800",
       "scoreDisplay": "0.394765481",
       "status": "matched",
       "settled": false,
@@ -994,9 +994,9 @@
         "source": "David W. Cantrell found the r = 2.533+ packing in June 2002 (radius of the smallest circle around unit squares). The site digitised the squares' positions and orientations from the public figure, solved that fixed separating-axis structure and repaired it inward to a nine-decimal certificate scoring 0.15583978539397736; the truncated source interval is compared separately from the certificate, and optimality is open",
         "url": "https://erich-friedman.github.io/packing/squincir/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-10T10:14:54.566Z",
       "answer": {
         "squares": [
           {
@@ -1038,7 +1038,7 @@
           {
             "cx": "1.008449420",
             "cy": "1.397823531",
-            "ux": "0.147365506",
+            "ux": "0.147365507",
             "uy": "0.131313952"
           },
           {
@@ -1099,7 +1099,7 @@
         "n": 16
       },
       "objective": "maximize",
-      "scoreStored": "145335604071926560",
+      "scoreStored": "145335604138634128",
       "scoreDisplay": "0.38122907",
       "status": "open",
       "settled": false,
@@ -1115,9 +1115,9 @@
         "source": "r = √11009 / 40, giving continuous score 1600/11009; found by Erich Friedman in 1997. The site digitised the squares' positions and orientations from the public figure, solved that fixed separating-axis structure and repaired it inward to a nine-decimal certificate scoring 0.14533560407192656; optimality open",
         "url": "https://erich-friedman.github.io/packing/squincir/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-11T01:52:11.403Z",
       "answer": {
         "squares": [
           {
@@ -1171,7 +1171,7 @@
           {
             "cx": "1.007046042",
             "cy": "1.028444877",
-            "ux": "0.190568934",
+            "ux": "0.190568935",
             "uy": "-0.004169222"
           },
           {
@@ -1207,7 +1207,7 @@
           {
             "cx": "1.198594771",
             "cy": "1.405574550",
-            "ux": "0.190568934",
+            "ux": "0.190568935",
             "uy": "-0.004169223"
           },
           {
@@ -1226,7 +1226,7 @@
         "n": 17
       },
       "objective": "maximize",
-      "scoreStored": "139554506980699732",
+      "scoreStored": "139554507288853172",
       "scoreDisplay": "0.373569949",
       "status": "matched",
       "settled": false,
@@ -1245,9 +1245,9 @@
         "source": "Milan Kovacic found the r = 2.67687+ packing in May 2026 (radius of the smallest circle around unit squares). The site digitised the squares' positions and orientations from the public figure, solved that fixed separating-axis structure and repaired it inward to a nine-decimal certificate scoring 0.139554506980699732; the truncated source interval is compared separately from the certificate, and optimality is open",
         "url": "https://erich-friedman.github.io/packing/squincir/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-10T12:42:35.366Z",
       "answer": {
         "squares": [
           {
@@ -1259,7 +1259,7 @@
           {
             "cx": "0.957503999",
             "cy": "1.779972864",
-            "ux": "0.186600182",
+            "ux": "0.186600183",
             "uy": "-0.008306553"
           },
           {
@@ -1362,7 +1362,7 @@
         "n": 18
       },
       "objective": "maximize",
-      "scoreStored": "133056056790360548",
+      "scoreStored": "133056056856136208",
       "scoreDisplay": "0.364768497",
       "status": "open",
       "settled": false,
@@ -1378,9 +1378,9 @@
         "source": "r = √481 / 8, giving continuous score 64/481; found by David W. Cantrell in March 2002. The site digitised the squares' positions and orientations from the public figure, solved that fixed separating-axis structure and repaired it inward to a nine-decimal certificate scoring 0.133056056790360548; optimality open",
         "url": "https://erich-friedman.github.io/packing/squincir/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-10T12:52:33.392Z",
       "answer": {
         "squares": [
           {
@@ -1464,7 +1464,7 @@
           {
             "cx": "0.272428588",
             "cy": "1.147753944",
-            "ux": "0.182363656",
+            "ux": "0.182363657",
             "uy": "-0.002740651"
           },
           {
@@ -1501,7 +1501,7 @@
         "n": 19
       },
       "objective": "maximize",
-      "scoreStored": "127414008330679360",
+      "scoreStored": "127414008468231812",
       "scoreDisplay": "0.356950988",
       "status": "matched",
       "settled": false,
@@ -1520,9 +1520,9 @@
         "source": "Milan Kovacic found the r = 2.80150+ packing in May 2026 (radius of the smallest circle around unit squares). The site digitised the squares' positions and orientations from the public figure, solved that fixed separating-axis structure and repaired it inward to a nine-decimal certificate scoring 0.12741400833067936; the truncated source interval is compared separately from the certificate, and optimality is open",
         "url": "https://erich-friedman.github.io/packing/squincir/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-10T13:04:14.047Z",
       "answer": {
         "squares": [
           {
@@ -1552,7 +1552,7 @@
           {
             "cx": "1.360804564",
             "cy": "0.926106679",
-            "ux": "0.029306076",
+            "ux": "0.029306077",
             "uy": "0.176052992"
           },
           {
@@ -1649,8 +1649,8 @@
         "n": 20
       },
       "objective": "maximize",
-      "scoreStored": "119435778792790036",
-      "scoreDisplay": "0.345594818",
+      "scoreStored": "119435779132810016",
+      "scoreDisplay": "0.345594819",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -1668,9 +1668,9 @@
         "source": "David W. Cantrell found the r = 2.893+ packing in June 2002 (radius of the smallest circle around unit squares). The site digitised the squares' positions and orientations from the public figure, solved that fixed separating-axis structure and repaired it inward to a nine-decimal certificate scoring 0.119435778792790036; the truncated source interval is compared separately from the certificate, and optimality is open",
         "url": "https://erich-friedman.github.io/packing/squincir/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-10T13:13:29.035Z",
       "answer": {
         "squares": [
           {
@@ -1706,7 +1706,7 @@
           {
             "cx": "1.695123619",
             "cy": "0.986131952",
-            "ux": "0.172792497",
+            "ux": "0.172792498",
             "uy": "-0.001302950"
           },
           {
@@ -1803,7 +1803,7 @@
         "n": 21
       },
       "objective": "maximize",
-      "scoreStored": "117647050456019828",
+      "scoreStored": "117647050469065504",
       "scoreDisplay": "0.342997158",
       "status": "open",
       "settled": false,
@@ -1819,9 +1819,9 @@
         "source": "r = √34 / 2, giving continuous score 4/34; found by Erich Friedman in 1997. The site digitised the squares' positions and orientations from the public figure, solved that fixed separating-axis structure and repaired it inward to a nine-decimal certificate scoring 0.117647050456019828; optimality open",
         "url": "https://erich-friedman.github.io/packing/squincir/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-10T13:22:58.851Z",
       "answer": {
         "squares": [
           {
@@ -1881,7 +1881,7 @@
           {
             "cx": "1.689224748",
             "cy": "1.336458827",
-            "ux": "0.171490826",
+            "ux": "0.171490827",
             "uy": "-0.001630709"
           },
           {
@@ -1960,7 +1960,7 @@
         "n": 22
       },
       "objective": "maximize",
-      "scoreStored": "108749419743005248",
+      "scoreStored": "108749419758437540",
       "scoreDisplay": "0.329771769",
       "status": "open",
       "settled": false,
@@ -1979,9 +1979,9 @@
         "source": "Haowei Lin found the r = 3.03239+ packing in July 2026 (radius of the smallest circle around unit squares). The site digitised the squares' positions and orientations from the public figure, solved that fixed separating-axis structure and repaired it inward to a nine-decimal certificate scoring 0.108749419743005248; the truncated source interval is compared separately from the certificate, and optimality is open",
         "url": "https://erich-friedman.github.io/packing/squincir/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-10T13:34:39.216Z",
       "answer": {
         "squares": [
           {
@@ -2029,7 +2029,7 @@
           {
             "cx": "1.634622899",
             "cy": "1.436172735",
-            "ux": "0.060206356",
+            "ux": "0.060206357",
             "uy": "0.153500976"
           },
           {
@@ -2298,8 +2298,8 @@
         "n": 24
       },
       "objective": "maximize",
-      "scoreStored": "103412218420073488",
-      "scoreDisplay": "0.321577701",
+      "scoreStored": "103412218423848808",
+      "scoreDisplay": "0.321577702",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -2317,9 +2317,9 @@
         "source": "Milan Kovacic found the r = 3.10940+ packing in May 2026 (radius of the smallest circle around unit squares). The site digitised the squares' positions and orientations from the public figure, solved that fixed separating-axis structure and repaired it inward to a nine-decimal certificate scoring 0.103412218420073488; the truncated source interval is compared separately from the certificate, and optimality is open",
         "url": "https://erich-friedman.github.io/packing/squincir/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-10T13:52:52.600Z",
       "answer": {
         "squares": [
           {
@@ -2463,7 +2463,7 @@
           {
             "cx": "1.075038659",
             "cy": "1.460032292",
-            "ux": "0.160786754",
+            "ux": "0.160786755",
             "uy": "-0.000821184"
           }
         ]
@@ -2476,7 +2476,7 @@
         "n": 25
       },
       "objective": "maximize",
-      "scoreStored": "99231229510207204",
+      "scoreStored": "99231229517720420",
       "scoreDisplay": "0.315009887",
       "status": "matched",
       "settled": false,
@@ -2495,9 +2495,9 @@
         "source": "Haowei Lin found the r = 3.17450+ packing in July 2026 (radius of the smallest circle around unit squares). The site digitised the squares' positions and orientations from the public figure, solved that fixed separating-axis structure and repaired it inward to a nine-decimal certificate scoring 0.099231229510207204; the truncated source interval is compared separately from the certificate, and optimality is open",
         "url": "https://erich-friedman.github.io/packing/squincir/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-10T14:02:44.701Z",
       "answer": {
         "squares": [
           {
@@ -2629,7 +2629,7 @@
           {
             "cx": "0.552210002",
             "cy": "1.137552785",
-            "ux": "0.025785395",
+            "ux": "0.025785396",
             "uy": "0.155379924"
           },
           {
@@ -2660,7 +2660,7 @@
         "n": 26
       },
       "objective": "maximize",
-      "scoreStored": "97560922905179944",
+      "scoreStored": "97560922983161800",
       "scoreDisplay": "0.312347439",
       "status": "open",
       "settled": false,
@@ -2676,15 +2676,15 @@
         "source": "r = √41 / 2, giving continuous score 4/41; found by Erich Friedman in 1997. The site digitised the squares' positions and orientations from the public figure, solved that fixed separating-axis structure and repaired it inward to a nine-decimal certificate scoring 0.097560922905179944; optimality open",
         "url": "https://erich-friedman.github.io/packing/squincir/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-10T14:13:09.930Z",
       "answer": {
         "squares": [
           {
             "cx": "0.851755280",
             "cy": "1.784305082",
-            "ux": "0.156172569",
+            "ux": "0.156172570",
             "uy": "-0.000599515"
           },
           {
@@ -3043,7 +3043,7 @@
         "n": 28
       },
       "objective": "maximize",
-      "scoreStored": "90100176011310440",
+      "scoreStored": "90100176049654048",
       "scoreDisplay": "0.300166913",
       "status": "matched",
       "settled": false,
@@ -3062,9 +3062,9 @@
         "source": "Milan Kovacic found the r = 3.33147+ packing in May 2026 (radius of the smallest circle around unit squares). The site digitised the squares' positions and orientations from the public figure, solved that fixed separating-axis structure and repaired it inward to a nine-decimal certificate scoring 0.09010017601131044; the truncated source interval is compared separately from the certificate, and optimality is open",
         "url": "https://erich-friedman.github.io/packing/squincir/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-10T14:33:24.856Z",
       "answer": {
         "squares": [
           {
@@ -3118,7 +3118,7 @@
           {
             "cx": "1.555167203",
             "cy": "0.411791320",
-            "ux": "0.076171757",
+            "ux": "0.076171758",
             "uy": "0.129317081"
           },
           {
@@ -3453,7 +3453,7 @@
         "n": 30
       },
       "objective": "maximize",
-      "scoreStored": "83548982816364776",
+      "scoreStored": "83548982851870148",
       "scoreDisplay": "0.289048409",
       "status": "matched",
       "settled": false,
@@ -3472,9 +3472,9 @@
         "source": "Milan Kovacic found the r = 3.45962+ packing in May 2026 (radius of the smallest circle around unit squares). The site digitised the squares' positions and orientations from the public figure, solved that fixed separating-axis structure and repaired it inward to a nine-decimal certificate scoring 0.083548982816364776; the truncated source interval is compared separately from the certificate, and optimality is open",
         "url": "https://erich-friedman.github.io/packing/squincir/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-10T14:54:11.276Z",
       "answer": {
         "squares": [
           {
@@ -3498,7 +3498,7 @@
           {
             "cx": "1.019090745",
             "cy": "0.155238693",
-            "ux": "0.144487313",
+            "ux": "0.144487314",
             "uy": "0.003265285"
           },
           {
@@ -3667,7 +3667,7 @@
         "n": 31
       },
       "objective": "maximize",
-      "scoreStored": "80355247477381876",
+      "scoreStored": "80355247557688340",
       "scoreDisplay": "0.283470011",
       "status": "matched",
       "settled": false,
@@ -3686,9 +3686,9 @@
         "source": "Haowei Lin found the r = 3.52771+ packing in July 2026 (radius of the smallest circle around unit squares). The site digitised the squares' positions and orientations from the public figure, solved that fixed separating-axis structure and repaired it inward to a nine-decimal certificate scoring 0.080355247477381876; the truncated source interval is compared separately from the certificate, and optimality is open",
         "url": "https://erich-friedman.github.io/packing/squincir/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-10T15:04:45.883Z",
       "answer": {
         "squares": [
           {
@@ -3700,7 +3700,7 @@
           {
             "cx": "1.586322435",
             "cy": "1.611990961",
-            "ux": "0.097576165",
+            "ux": "0.097576166",
             "uy": "0.102799338"
           },
           {
@@ -3887,7 +3887,7 @@
         "n": 32
       },
       "objective": "maximize",
-      "scoreStored": "78313252593796580",
+      "scoreStored": "78313252746936808",
       "scoreDisplay": "0.279845051",
       "status": "matched",
       "settled": false,
@@ -3906,9 +3906,9 @@
         "source": "Milan Kovacic found the r = 3.57340+ packing in May 2026 (radius of the smallest circle around unit squares). The site digitised the squares' positions and orientations from the public figure, solved that fixed separating-axis structure and repaired it inward to a nine-decimal certificate scoring 0.07831325259379658; the truncated source interval is compared separately from the certificate, and optimality is open",
         "url": "https://erich-friedman.github.io/packing/squincir/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-10T15:15:53.284Z",
       "answer": {
         "squares": [
           {
@@ -3962,7 +3962,7 @@
           {
             "cx": "1.264093728",
             "cy": "1.432045394",
-            "ux": "0.090688523",
+            "ux": "0.090688524",
             "uy": "0.106554704"
           },
           {
@@ -4113,8 +4113,8 @@
         "n": 33
       },
       "objective": "maximize",
-      "scoreStored": "77065507635187604",
-      "scoreDisplay": "0.277606749",
+      "scoreStored": "77065507654118504",
+      "scoreDisplay": "0.27760675",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -4132,9 +4132,9 @@
         "source": "Haowei Lin found the r = 3.60010+ packing in July 2026 (radius of the smallest circle around unit squares). The site digitised the squares' positions and orientations from the public figure, solved that fixed separating-axis structure and repaired it inward to a nine-decimal certificate scoring 0.077065507635187604; the truncated source interval is compared separately from the certificate, and optimality is open",
         "url": "https://erich-friedman.github.io/packing/squincir/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-10T15:23:33.209Z",
       "answer": {
         "squares": [
           {
@@ -4200,7 +4200,7 @@
           {
             "cx": "0.716151571",
             "cy": "0.504252022",
-            "ux": "0.034559249",
+            "ux": "0.03455925",
             "uy": "0.134432270"
           },
           {
@@ -4345,7 +4345,7 @@
         "n": 34
       },
       "objective": "maximize",
-      "scoreStored": "75927367926578312",
+      "scoreStored": "75927367955986004",
       "scoreDisplay": "0.275549211",
       "status": "matched",
       "settled": false,
@@ -4364,9 +4364,9 @@
         "source": "Jonathan Viquerat found the r = 3.62911+ packing in August 2026 (radius of the smallest circle around unit squares). The site digitised the squares' positions and orientations from the public figure, solved that fixed separating-axis structure and repaired it inward to a nine-decimal certificate scoring 0.075927367926578312; the truncated source interval is compared separately from the certificate, and optimality is open",
         "url": "https://erich-friedman.github.io/packing/squincir/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-10T15:34:26.122Z",
       "answer": {
         "squares": [
           {
@@ -4378,7 +4378,7 @@
           {
             "cx": "0.977536701",
             "cy": "1.745578752",
-            "ux": "0.025612183",
+            "ux": "0.025612184",
             "uy": "0.135373033"
           },
           {
@@ -4583,7 +4583,7 @@
         "n": 35
       },
       "objective": "maximize",
-      "scoreStored": "75471685538306580",
+      "scoreStored": "75471685570875848",
       "scoreDisplay": "0.274721105",
       "status": "open",
       "settled": false,
@@ -4599,9 +4599,9 @@
         "source": "r = √53 / 2, giving continuous score 4/53; found by David Eppstein in March 2002. The site digitised the squares' positions and orientations from the public figure, solved that fixed separating-axis structure and repaired it inward to a nine-decimal certificate scoring 0.07547168553830658; optimality open",
         "url": "https://erich-friedman.github.io/packing/squincir/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-09-10T15:43:52.026Z",
       "answer": {
         "squares": [
           {
@@ -4643,7 +4643,7 @@
           {
             "cx": "1.695790241",
             "cy": "1.407148752",
-            "ux": "0.137360511",
+            "ux": "0.137360512",
             "uy": "-0.000106782"
           },
           {
@@ -4824,7 +4824,7 @@
         "n": 36
       },
       "objective": "maximize",
-      "scoreStored": "68917710319901876",
+      "scoreStored": "68917710354441076",
       "scoreDisplay": "0.262521828",
       "status": "open",
       "settled": false,
@@ -4832,7 +4832,7 @@
       "knownBest": null,
       "holder": "邱仲普",
       "method": "ai",
-      "recordedAt": "2026-09-08T15:04:09.213Z",
+      "recordedAt": "2026-09-10T15:52:15.897Z",
       "answer": {
         "squares": [
           {
@@ -5048,7 +5048,7 @@
           {
             "cx": "0.871069033",
             "cy": "0.697299493",
-            "ux": "0.13079929",
+            "ux": "0.130799291",
             "uy": "0.010998787"
           }
         ]
@@ -5061,7 +5061,7 @@
         "n": 37
       },
       "objective": "maximize",
-      "scoreStored": "68443821030741032",
+      "scoreStored": "68443821128491220",
       "scoreDisplay": "0.2616177",
       "status": "open",
       "settled": false,
@@ -5069,7 +5069,7 @@
       "knownBest": null,
       "holder": "邱仲普",
       "method": "ai",
-      "recordedAt": "2026-09-08T15:13:09.637Z",
+      "recordedAt": "2026-09-10T16:02:31.070Z",
       "answer": {
         "squares": [
           {
@@ -5207,7 +5207,7 @@
           {
             "cx": "1.374575499",
             "cy": "0.54838558",
-            "ux": "-0.106364827",
+            "ux": "-0.106364828",
             "uy": "0.076141177"
           },
           {
@@ -5304,15 +5304,15 @@
         "n": 38
       },
       "objective": "maximize",
-      "scoreStored": "64891374738452096",
-      "scoreDisplay": "0.254737854",
+      "scoreStored": "64891374770327752",
+      "scoreDisplay": "0.254737855",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
       "knownBest": null,
       "holder": "邱仲普",
       "method": "ai",
-      "recordedAt": "2026-09-08T15:22:28.282Z",
+      "recordedAt": "2026-09-11T01:24:17.183Z",
       "answer": {
         "squares": [
           {
@@ -5420,7 +5420,7 @@
           {
             "cx": "1.610177189",
             "cy": "1.608892042",
-            "ux": "0.091885532",
+            "ux": "0.091885533",
             "uy": "0.0882037"
           },
           {
@@ -5553,250 +5553,250 @@
         "n": 39
       },
       "objective": "maximize",
-      "scoreStored": "63478995732800740",
-      "scoreDisplay": "0.251950383",
+      "scoreStored": "63479858187963208",
+      "scoreDisplay": "0.251952095",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
       "knownBest": null,
       "holder": "邱仲普",
       "method": "ai",
-      "recordedAt": "2026-09-08T15:32:59.471Z",
+      "recordedAt": "2026-09-11T01:31:32.132Z",
       "answer": {
         "squares": [
           {
             "cx": "1.151599349",
             "cy": "1.561904307",
-            "ux": "0.104475654",
-            "uy": "0.070388826"
+            "ux": "0.104476364",
+            "uy": "0.070389304"
           },
           {
             "cx": "1.593329723",
             "cy": "1.610525951",
-            "ux": "0.100028688",
-            "uy": "0.076576828"
+            "ux": "0.100029368",
+            "uy": "0.076577348"
           },
           {
             "cx": "0.474079808",
             "cy": "0.681601893",
-            "ux": "0.012715362",
-            "uy": "0.125331834"
+            "ux": "0.012715448",
+            "uy": "0.125332685"
           },
           {
             "cx": "0.769431713",
             "cy": "1.187985842",
-            "ux": "0.125415467",
-            "uy": "-0.011862116"
+            "ux": "0.125416319",
+            "uy": "-0.011862197"
           },
           {
             "cx": "1.767230535",
             "cy": "1.401691783",
-            "ux": "0.111587972",
-            "uy": "0.058462583"
+            "ux": "0.111588730",
+            "uy": "0.058462980"
           },
           {
             "cx": "0.502783297",
             "cy": "1.185757697",
-            "ux": "0.125266046",
-            "uy": "-0.013347914"
+            "ux": "0.125266897",
+            "uy": "-0.013348005"
           },
           {
             "cx": "0.201255609",
             "cy": "1.264196078",
-            "ux": "0.069770876",
-            "uy": "0.104889341"
+            "ux": "0.069771350",
+            "uy": "0.104890054"
           },
           {
             "cx": "1.028482071",
             "cy": "1.200970813",
-            "ux": "0.125859094",
-            "uy": "-0.005407166"
+            "ux": "0.125859949",
+            "uy": "-0.005407203"
           },
           {
             "cx": "0.902630719",
             "cy": "1.480320724",
-            "ux": "0.104617997",
-            "uy": "0.070177089"
+            "ux": "0.104618707",
+            "uy": "0.070177566"
           },
           {
             "cx": "1.480455022",
             "cy": "0.612062183",
-            "ux": "0.125383581",
-            "uy": "-0.012194533"
+            "ux": "0.125384433",
+            "uy": "-0.012194616"
           },
           {
             "cx": "0.395156898",
             "cy": "0.385807712",
-            "ux": "0.084992866",
-            "uy": "0.092983664"
+            "ux": "0.084993443",
+            "uy": "0.092984296"
           },
           {
             "cx": "0.980278245",
-            "cy": "0.6753023",
-            "ux": "0.012207514",
-            "uy": "0.125382318"
+            "cy": "0.675302300",
+            "ux": "0.012207597",
+            "uy": "0.125383170"
           },
           {
             "cx": "0.223517612",
             "cy": "0.708106394",
-            "ux": "0.012719638",
-            "uy": "0.1253314"
+            "ux": "0.012719724",
+            "uy": "0.125332252"
           },
           {
             "cx": "1.295982712",
             "cy": "0.886595002",
-            "ux": "0.125384632",
-            "uy": "-0.012183726"
+            "ux": "0.125385484",
+            "uy": "-0.012183809"
           },
           {
             "cx": "1.230001431",
             "cy": "0.639864068",
-            "ux": "0.012180447",
-            "uy": "0.12538495"
+            "ux": "0.012180530",
+            "uy": "0.125385802"
           },
           {
             "cx": "0.800440525",
             "cy": "1.784662529",
-            "ux": "-0.008486632",
-            "uy": "0.125689006"
+            "ux": "-0.008486690",
+            "uy": "0.125689859"
           },
           {
             "cx": "1.839496941",
             "cy": "0.847323227",
-            "ux": "0.125390211",
-            "uy": "-0.012126171"
+            "ux": "0.125391063",
+            "uy": "-0.012126253"
           },
           {
             "cx": "0.170198441",
             "cy": "0.970598756",
-            "ux": "0.015027084",
-            "uy": "0.12507572"
+            "ux": "0.015027186",
+            "uy": "0.125076570"
           },
           {
             "cx": "1.571012326",
             "cy": "1.183426203",
-            "ux": "0.121202752",
-            "uy": "0.034345915"
+            "ux": "0.121203576",
+            "uy": "0.034346148"
           },
           {
             "cx": "0.606052994",
             "cy": "1.448160326",
-            "ux": "0.125688376",
-            "uy": "0.008495955"
+            "ux": "0.125689230",
+            "uy": "0.008496013"
           },
           {
             "cx": "0.728105153",
             "cy": "0.685383107",
-            "ux": "0.012212423",
-            "uy": "0.12538184"
+            "ux": "0.012212506",
+            "uy": "0.125382692"
           },
           {
             "cx": "1.016993463",
             "cy": "0.934479798",
-            "ux": "0.002477129",
-            "uy": "0.125950835"
+            "ux": "0.002477146",
+            "uy": "0.125951691"
           },
           {
             "cx": "0.955309109",
             "cy": "0.418527862",
-            "ux": "0.012201759",
-            "uy": "0.125382878"
+            "ux": "0.012201842",
+            "uy": "0.125383730"
           },
           {
             "cx": "1.205619971",
             "cy": "0.389093473",
-            "ux": "0.012181115",
-            "uy": "0.125384885"
+            "ux": "0.012181198",
+            "uy": "0.125385737"
           },
           {
             "cx": "1.050335403",
             "cy": "0.151035174",
-            "ux": "0.125384348",
-            "uy": "-0.012186641"
+            "ux": "0.125385200",
+            "uy": "-0.012186724"
           },
           {
             "cx": "0.703703391",
             "cy": "0.434614754",
-            "ux": "0.125381879",
-            "uy": "-0.012212023"
+            "ux": "0.125382731",
+            "uy": "-0.012212106"
           },
           {
             "cx": "1.853906699",
             "cy": "1.128160904",
-            "ux": "-0.021660711",
-            "uy": "0.124099003"
+            "ux": "-0.021660859",
+            "uy": "0.124099846"
           },
           {
             "cx": "1.411160354",
             "cy": "1.434002156",
-            "ux": "0.100028525",
-            "uy": "0.076577041"
+            "ux": "0.100029205",
+            "uy": "0.076577561"
           },
           {
             "cx": "0.461661843",
             "cy": "0.936753467",
-            "ux": "0.013355102",
-            "uy": "0.12526528"
+            "ux": "0.013355193",
+            "uy": "0.125266131"
           },
           {
             "cx": "1.561487096",
             "cy": "0.885138112",
-            "ux": "0.023295723",
-            "uy": "0.123802497"
+            "ux": "0.023295881",
+            "uy": "0.123803338"
           },
           {
-            "cx": "0.29915119",
-            "cy": "1.50201334",
-            "ux": "0.069539784",
-            "uy": "0.105042694"
+            "cx": "0.299151190",
+            "cy": "1.502013340",
+            "ux": "0.069540256",
+            "uy": "0.105043407"
           },
           {
             "cx": "1.048654101",
             "cy": "1.852155973",
-            "ux": "-0.008242865",
-            "uy": "0.125705228"
+            "ux": "-0.008242921",
+            "uy": "0.125706081"
           },
           {
             "cx": "0.553812903",
             "cy": "1.697157174",
-            "ux": "-0.00849644",
-            "uy": "0.125688343"
+            "ux": "-0.008496498",
+            "uy": "0.125689197"
           },
           {
             "cx": "1.358024124",
             "cy": "1.768907217",
-            "ux": "0.072960304",
-            "uy": "0.102696363"
+            "ux": "0.072960800",
+            "uy": "0.102697061"
           },
           {
             "cx": "0.742959644",
             "cy": "0.937325298",
-            "ux": "0.011950603",
-            "uy": "0.125407066"
+            "ux": "0.011950684",
+            "uy": "0.125407918"
           },
           {
             "cx": "1.491833485",
             "cy": "0.335708165",
-            "ux": "0.125197393",
-            "uy": "0.013977192"
+            "ux": "0.125198243",
+            "uy": "0.013977287"
           },
           {
             "cx": "0.799207354",
             "cy": "0.172153806",
-            "ux": "0.125380495",
-            "uy": "-0.012226227"
+            "ux": "0.125381346",
+            "uy": "-0.012226310"
           },
           {
             "cx": "1.282435242",
             "cy": "1.141052917",
-            "ux": "0.125384965",
-            "uy": "-0.012180296"
+            "ux": "0.125385817",
+            "uy": "-0.012180379"
           },
           {
             "cx": "1.732863245",
             "cy": "0.604483095",
-            "ux": "0.125383481",
-            "uy": "-0.012195561"
+            "ux": "0.125384333",
+            "uy": "-0.012195644"
           }
         ]
       }
@@ -5808,7 +5808,7 @@
         "n": 40
       },
       "objective": "maximize",
-      "scoreStored": "62178936655393028",
+      "scoreStored": "62178936671463844",
       "scoreDisplay": "0.249357046",
       "status": "open",
       "settled": false,
@@ -5816,7 +5816,7 @@
       "knownBest": null,
       "holder": "邱仲普",
       "method": "ai",
-      "recordedAt": "2026-09-08T15:43:02.436Z",
+      "recordedAt": "2026-09-11T01:42:01.521Z",
       "answer": {
         "squares": [
           {
@@ -6020,7 +6020,7 @@
           {
             "cx": "1.032710416",
             "cy": "0.45204152",
-            "ux": "0.123241744",
+            "ux": "0.123241745",
             "uy": "0.018873439"
           },
           {
