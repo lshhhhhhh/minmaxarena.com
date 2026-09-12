@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/circle-circle-packing",
-  "generatedAt": "2026-09-08T09:50:33.418Z",
+  "generatedAt": "2026-09-12T09:27:12.691Z",
   "instances": [
     {
       "instanceId": "p02-n1-v1",
@@ -36,7 +36,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -71,7 +71,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -93,11 +93,11 @@
         "n": 3
       },
       "objective": "maximize",
-      "scoreStored": "464101614",
-      "scoreDisplay": "0.464101614",
-      "status": "proven",
+      "scoreStored": "464101615",
+      "scoreDisplay": "0.464101615",
+      "status": "open",
       "settled": true,
-      "recordStatus": "optimal",
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.464101614",
         "kind": "proven",
@@ -108,25 +108,25 @@
         "source": "Packomania's cci radius table and public coordinates (Eckard Specht); the source precision is preserved and the coordinates are conservatively repaired to the site's nine-place grid",
         "url": "https://www.packomania.com/cci/cci3.html"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "holder": "游侠",
+      "method": "ai",
+      "recordedAt": "2026-09-12T07:37:51.430Z",
       "answer": {
         "centers": [
           [
-            "0.535898385",
-            "0.732050808"
+            "1.326790569",
+            "1.424729329"
           ],
           [
-            "1.464101615",
-            "0.732050808"
+            "0.468778327",
+            "1.070644270"
           ],
           [
-            "1",
-            "1.535898385"
+            "1.204431104",
+            "0.504626401"
           ]
         ],
-        "radius": "0.464101614"
+        "radius": "0.464101615"
       }
     },
     {
@@ -153,7 +153,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -183,11 +183,11 @@
         "n": 5
       },
       "objective": "maximize",
-      "scoreStored": "370191907",
-      "scoreDisplay": "0.370191907",
-      "status": "proven",
+      "scoreStored": "370191908",
+      "scoreDisplay": "0.370191908",
+      "status": "open",
       "settled": true,
-      "recordStatus": "optimal",
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.370191907",
         "kind": "proven",
@@ -198,33 +198,33 @@
         "source": "Packomania's cci radius table and public coordinates (Eckard Specht); the source precision is preserved and the coordinates are conservatively repaired to the site's nine-place grid",
         "url": "https://www.packomania.com/cci/cci5.html"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "holder": "游侠",
+      "method": "ai",
+      "recordedAt": "2026-09-12T07:37:56.204Z",
       "answer": {
         "centers": [
           [
-            "0.629808092",
-            "0.490474551"
+            "0.407156557",
+            "1.212590886"
           ],
           [
-            "1.370191908",
-            "0.490474551"
+            "0.614615354",
+            "0.501866577"
           ],
           [
-            "0.40101691",
-            "1.194621404"
+            "1.018987249",
+            "1.629521816"
           ],
           [
-            "1.59898309",
-            "1.194621404"
+            "1.354662633",
+            "0.479545728"
           ],
           [
-            "1",
-            "1.629808092"
+            "1.604578208",
+            "1.176474993"
           ]
         ],
-        "radius": "0.370191907"
+        "radius": "0.370191908"
       }
     },
     {
@@ -251,7 +251,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -306,7 +306,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -365,7 +365,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -428,7 +428,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -565,7 +565,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -639,7 +639,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -718,7 +718,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -800,7 +800,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -982,7 +982,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -1079,7 +1079,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -1180,7 +1180,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -1283,7 +1283,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -1392,7 +1392,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -1505,7 +1505,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -1868,7 +1868,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -2267,7 +2267,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -2408,7 +2408,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -2702,7 +2702,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -2855,7 +2855,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -3173,7 +3173,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -3507,7 +3507,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -3680,7 +3680,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -4038,7 +4038,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -4223,7 +4223,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -4605,7 +4605,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -4802,7 +4802,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -5003,7 +5003,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -5208,7 +5208,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -5630,7 +5630,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -6068,7 +6068,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -6522,7 +6522,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -6755,7 +6755,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -6992,7 +6992,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -7233,7 +7233,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -7478,7 +7478,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -7727,7 +7727,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -7980,7 +7980,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -8237,7 +8237,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -8498,7 +8498,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -8763,7 +8763,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -9032,7 +9032,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -9305,7 +9305,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -9582,7 +9582,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -9863,7 +9863,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -10148,7 +10148,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -10437,7 +10437,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -11027,7 +11027,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -11328,7 +11328,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -11942,7 +11942,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -12255,7 +12255,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -12572,7 +12572,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -12893,7 +12893,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -13218,7 +13218,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -13547,7 +13547,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -13880,7 +13880,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -14217,7 +14217,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -14558,7 +14558,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -14903,7 +14903,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -15962,7 +15962,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -17057,7 +17057,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -17430,7 +17430,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -17807,7 +17807,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -18188,7 +18188,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -18573,7 +18573,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -19355,7 +19355,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -19752,7 +19752,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -20153,7 +20153,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -20967,7 +20967,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -21797,7 +21797,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -22643,7 +22643,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -24383,7 +24383,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -24828,7 +24828,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -25277,7 +25277,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -25730,7 +25730,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -26187,7 +26187,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -26648,7 +26648,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -27113,7 +27113,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -27582,7 +27582,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -28055,7 +28055,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -28532,7 +28532,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -29013,7 +29013,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -29498,7 +29498,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -29987,7 +29987,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -30977,7 +30977,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -31983,7 +31983,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -32492,7 +32492,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -33522,7 +33522,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -34568,7 +34568,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -35630,7 +35630,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -36708,7 +36708,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -37253,7 +37253,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -37802,7 +37802,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -38912,7 +38912,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -39473,7 +39473,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -40038,7 +40038,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -40607,7 +40607,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -41180,7 +41180,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -41757,7 +41757,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -42338,7 +42338,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -42923,7 +42923,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -43512,7 +43512,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -45303,7 +45303,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -45908,7 +45908,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -47130,7 +47130,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -48368,7 +48368,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -48993,7 +48993,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -50892,7 +50892,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -51533,7 +51533,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -52178,7 +52178,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -52827,7 +52827,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -53480,7 +53480,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -54137,7 +54137,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -54798,7 +54798,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -55463,7 +55463,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -56805,7 +56805,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -58163,7 +58163,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -61628,7 +61628,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -63755,7 +63755,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -65918,7 +65918,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -66647,7 +66647,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -67380,7 +67380,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -68117,7 +68117,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -68858,7 +68858,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -71105,7 +71105,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -71862,7 +71862,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -72623,7 +72623,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -73388,7 +73388,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -74157,7 +74157,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -77273,7 +77273,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -78062,7 +78062,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -78855,7 +78855,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -80453,7 +80453,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -82067,7 +82067,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -82880,7 +82880,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -83697,7 +83697,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -84518,7 +84518,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -85343,7 +85343,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -86172,7 +86172,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -87842,7 +87842,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -88683,7 +88683,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -89528,7 +89528,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -90377,7 +90377,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -91230,7 +91230,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -92087,7 +92087,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -92948,7 +92948,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -93813,7 +93813,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -94682,7 +94682,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -95555,7 +95555,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -98198,7 +98198,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -99087,7 +99087,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -99980,7 +99980,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -101778,7 +101778,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -102683,7 +102683,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -103592,7 +103592,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -105422,7 +105422,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -108197,7 +108197,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -110067,7 +110067,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -111008,7 +111008,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -112902,7 +112902,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -114812,7 +114812,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -115773,7 +115773,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -116738,7 +116738,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -117707,7 +117707,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -118680,7 +118680,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -119657,7 +119657,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -120638,7 +120638,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -121623,7 +121623,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -122612,7 +122612,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -126608,7 +126608,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -127617,7 +127617,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -128630,7 +128630,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -131693,7 +131693,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -133755,7 +133755,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -134792,7 +134792,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -135833,7 +135833,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -137927,7 +137927,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -138980,7 +138980,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -140037,7 +140037,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -141098,7 +141098,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -143232,7 +143232,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -144305,7 +144305,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -145382,7 +145382,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -147548,7 +147548,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -149730,7 +149730,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -150827,7 +150827,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -151928,7 +151928,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -153033,7 +153033,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -154142,7 +154142,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -155255,7 +155255,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -157493,7 +157493,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -158618,7 +158618,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -159747,7 +159747,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -162017,7 +162017,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -163158,7 +163158,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -164303,7 +164303,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -165452,7 +165452,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -166605,7 +166605,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -167762,7 +167762,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -171257,7 +171257,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -172430,7 +172430,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -174788,7 +174788,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -177162,7 +177162,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -178355,7 +178355,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -179552,7 +179552,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -181958,7 +181958,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -183167,7 +183167,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -186818,7 +186818,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [
@@ -189272,7 +189272,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "centers": [
           [

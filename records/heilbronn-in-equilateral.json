@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/heilbronn-in-equilateral",
-  "generatedAt": "2026-09-08T09:50:37.892Z",
+  "generatedAt": "2026-09-12T09:27:14.200Z",
   "instances": [
     {
       "instanceId": "p58-n5-v1",
@@ -21,10 +21,17 @@
       "objective": "maximize",
       "scoreStored": "148586468397388176",
       "scoreDisplay": "0.074293234198694088",
-      "status": "open",
-      "settled": false,
+      "status": "proven",
+      "settled": true,
       "recordStatus": "open",
-      "knownBest": null,
+      "knownBest": {
+        "display": "0.07429323428506885",
+        "kind": "proven",
+        "exact": "√3*(3-2*√2)/4",
+        "proofScope": "continuous",
+        "source": "Peng (1989), Yang, Zhang and Zeng (1994): the unit-area triangle optimum is 3−2sqrt(2), scaled by container area sqrt(3)/4. The continuous problem is solved, not the current nine-decimal certificate",
+        "url": "https://minmaxarena.com/proofs/heilbronn-in-equilateral-n5-n6"
+      },
       "holder": "大小糖",
       "method": "human",
       "recordedAt": "2026-09-06T03:36:29.311Z",
@@ -62,10 +69,17 @@
       "objective": "maximize",
       "scoreStored": "108253175316987297",
       "scoreDisplay": "0.0541265876584936485",
-      "status": "open",
-      "settled": false,
+      "status": "proven",
+      "settled": true,
       "recordStatus": "open",
-      "knownBest": null,
+      "knownBest": {
+        "display": "0.0541265877365274",
+        "kind": "proven",
+        "exact": "√3/32",
+        "proofScope": "continuous",
+        "source": "Yang, Zhang and Zeng (1994): the unit-area triangle optimum is 1/8, scaled by container area sqrt(3)/4. The continuous problem is solved, not the current nine-decimal certificate",
+        "url": "https://minmaxarena.com/proofs/heilbronn-in-equilateral-n5-n6"
+      },
       "holder": "Gaozx1",
       "method": "ai",
       "recordedAt": "2026-09-05T21:36:09.830Z",
@@ -342,7 +356,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "points": [
           [

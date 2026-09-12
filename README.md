@@ -37,7 +37,7 @@ managed.
 
 ## The records
 
-55 problem families, 1760 sub-problems, 1669 still open.
+55 problem families, 1760 sub-problems, 1672 still open.
 `records/` holds today's snapshot of each family; the live files are at
 `https://minmaxarena.com/data/{slug}.json`, and the citable ones are the monthly frozen
 editions at `https://minmaxarena.com/data/editions/{YYYY-MM}/{slug}.json`, which never change
@@ -48,7 +48,7 @@ once published. Data is CC BY 4.0; see
 | Code | Family | Sub-problems | Open | Data |
 | --- | --- | ---: | ---: | --- |
 | [P01](https://minmaxarena.com/en/problems/square-circle-packing) | Equal-circle packing in a unit square | 300 | 269 | [json](records/square-circle-packing.json) |
-| [P02](https://minmaxarena.com/en/problems/circle-circle-packing) | Equal-circle packing in a unit circle | 300 | 286 | [json](records/circle-circle-packing.json) |
+| [P02](https://minmaxarena.com/en/problems/circle-circle-packing) | Equal-circle packing in a unit circle | 300 | 288 | [json](records/circle-circle-packing.json) |
 | [P03](https://minmaxarena.com/en/problems/heilbronn-triangle) | Heilbronn minimum triangle area | 12 | 11 | [json](records/heilbronn-triangle.json) |
 | [P05](https://minmaxarena.com/en/problems/tilted-squares-in-circle) | Tilted equal squares in a circle | 38 | 37 | [json](records/tilted-squares-in-circle.json) |
 | [P06](https://minmaxarena.com/en/problems/graduated-circles-in-circle) | Packing circles of radius 1,2,…,n into a circle | 200 | 196 | [json](records/graduated-circles-in-circle.json) |
@@ -63,7 +63,7 @@ once published. Data is CC BY 4.0; see
 | [P18](https://minmaxarena.com/en/problems/tilted-squares-in-square) | Tilted equal squares in the unit square | 28 | 22 | [json](records/tilted-squares-in-square.json) |
 | [P19](https://minmaxarena.com/en/problems/spread-points-in-an-l) | Spreading points in an L | 17 | 16 | [json](records/spread-points-in-an-l.json) |
 | [P20](https://minmaxarena.com/en/problems/spread-points-in-a-semicircle) | Spreading points in a half-disc | 15 | 14 | [json](records/spread-points-in-a-semicircle.json) |
-| [P21](https://minmaxarena.com/en/problems/spread-points-in-a-cross) | Spreading points in a plus sign | 17 | 14 | [json](records/spread-points-in-a-cross.json) |
+| [P21](https://minmaxarena.com/en/problems/spread-points-in-a-cross) | Spreading points in a plus sign | 17 | 13 | [json](records/spread-points-in-a-cross.json) |
 | [P22](https://minmaxarena.com/en/problems/heilbronn-in-a-circle) | The smallest triangle in a disc | 10 | 10 | [json](records/heilbronn-in-a-circle.json) |
 | [P24](https://minmaxarena.com/en/problems/heilbronn-in-an-l) | The smallest triangle in an L | 10 | 10 | [json](records/heilbronn-in-an-l.json) |
 | [P25](https://minmaxarena.com/en/problems/heilbronn-in-a-cross) | The smallest triangle in a plus sign | 10 | 10 | [json](records/heilbronn-in-a-cross.json) |
@@ -77,12 +77,12 @@ once published. Data is CC BY 4.0; see
 | [P34](https://minmaxarena.com/en/problems/riesz-energy-in-a-disc) | Riesz 2-energy in a disc | 16 | 16 | [json](records/riesz-energy-in-a-disc.json) |
 | [P51](https://minmaxarena.com/en/problems/lights-in-a-square) | Lighting a unit square | 34 | 34 | [json](records/lights-in-a-square.json) |
 | [P52](https://minmaxarena.com/en/problems/min-distance-ratio) | Smallest ratio of largest to smallest distance | 20 | 20 | [json](records/min-distance-ratio.json) |
-| [P53](https://minmaxarena.com/en/problems/biggest-little-polygon) | The biggest little polygon | 13 | 9 | [json](records/biggest-little-polygon.json) |
+| [P53](https://minmaxarena.com/en/problems/biggest-little-polygon) | The biggest little polygon | 13 | 13 | [json](records/biggest-little-polygon.json) |
 | [P54](https://minmaxarena.com/en/problems/star-discrepancy) | Minimum star discrepancy in the unit square | 29 | 29 | [json](records/star-discrepancy.json) |
 | [P55](https://minmaxarena.com/en/problems/optimal-quantization) | Optimal quantization in the unit square | 25 | 25 | [json](records/optimal-quantization.json) |
 | [P56](https://minmaxarena.com/en/problems/uniform-mesh) | The most uniform sampling mesh in the unit square | 36 | 29 | [json](records/uniform-mesh.json) |
 | [P57](https://minmaxarena.com/en/problems/sum-of-radii) | Sum of radii in the unit square | 30 | 29 | [json](records/sum-of-radii.json) |
-| [P58](https://minmaxarena.com/en/problems/heilbronn-in-equilateral) | The smallest triangle in an equilateral triangle | 10 | 10 | [json](records/heilbronn-in-equilateral.json) |
+| [P58](https://minmaxarena.com/en/problems/heilbronn-in-equilateral) | The smallest triangle in an equilateral triangle | 10 | 8 | [json](records/heilbronn-in-equilateral.json) |
 | [P59](https://minmaxarena.com/en/problems/l2-star-discrepancy) | Minimum L2-star discrepancy in the unit hypercube | 25 | 25 | [json](records/l2-star-discrepancy.json) |
 | [P60](https://minmaxarena.com/en/problems/line-packing) | Line packing in real projective space | 32 | 32 | [json](records/line-packing.json) |
 | [P61](https://minmaxarena.com/en/problems/complex-projective-packing) | Codebook packing in complex projective space | 25 | 25 | [json](records/complex-projective-packing.json) |

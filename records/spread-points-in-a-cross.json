@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/spread-points-in-a-cross",
-  "generatedAt": "2026-09-08T09:50:35.870Z",
+  "generatedAt": "2026-09-12T09:27:13.632Z",
   "instances": [
     {
       "instanceId": "p21-n4-v2",
@@ -32,7 +32,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "points": [
           [
@@ -74,7 +74,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-08T09:21:32.381Z",
+      "recordedAt": "2026-09-11T21:06:15.520Z",
       "answer": {
         "points": [
           [
@@ -109,10 +109,15 @@
       "objective": "maximize",
       "scoreStored": "2000000000000000000",
       "scoreDisplay": "1.414213562",
-      "status": "open",
-      "settled": false,
-      "recordStatus": "open",
-      "knownBest": null,
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "optimal",
+      "knownBest": {
+        "display": "1.414213562",
+        "kind": "proven",
+        "source": "HwaterB #40's five-square pigeonhole proof, checked and formalized by MinMax Arena; integer coordinates attain the optimum distance sqrt(2), with exact squared distance 2",
+        "url": "https://minmaxarena.com/proofs/spread-points-in-a-cross-n6"
+      },
       "holder": "HwaterB",
       "method": "human",
       "recordedAt": "2026-08-29T03:49:21.563Z",
