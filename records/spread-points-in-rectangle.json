@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/spread-points-in-rectangle",
-  "generatedAt": "2026-09-08T09:50:35.452Z",
+  "generatedAt": "2026-09-13T10:23:14.609Z",
   "instances": [
     {
       "instanceId": "p17-n4-v2",
@@ -21,10 +21,17 @@
       "objective": "maximize",
       "scoreStored": "1444444443555555556",
       "scoreDisplay": "1.201850424",
-      "status": "open",
-      "settled": false,
+      "status": "proven",
+      "settled": true,
       "recordStatus": "open",
-      "knownBest": null,
+      "knownBest": {
+        "display": "1.201850425",
+        "kind": "proven",
+        "exact": "√13/3",
+        "proofScope": "continuous",
+        "source": "HwaterB #40's three-strip pigeonhole upper bound, with an attaining zigzag witness checked by MinMax Arena; continuous optimum sqrt(13)/3. Historical records remain; decimal-grid optimality is not claimed",
+        "url": "https://minmaxarena.com/proofs/spread-points-in-rectangle-n4"
+      },
       "holder": "NUE_13",
       "method": "human",
       "recordedAt": "2026-08-26T12:27:49.953Z",

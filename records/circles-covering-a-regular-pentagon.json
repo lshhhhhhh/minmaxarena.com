@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/circles-covering-a-regular-pentagon",
-  "generatedAt": "2026-09-10T09:51:20.861Z",
+  "generatedAt": "2026-09-13T10:23:18.813Z",
   "instances": [
     {
       "instanceId": "p75-n7-v1",
@@ -19,8 +19,8 @@
         "n": 7
       },
       "objective": "minimize",
-      "scoreStored": "213059050166518480",
-      "scoreDisplay": "0.213059050166519",
+      "scoreStored": "213059048892176987",
+      "scoreDisplay": "0.213059048892177",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -38,38 +38,38 @@
         "source": "The public vector construction in Figure 9 of Yanchao Liu (2022), reconstructed point by point and verified here at 0.213065485409387. Literature comparisons use the interval transferred from Table 1's three-decimal 22.402, including the geometric difference between the two fixed-precision polygons; reconstruction digits do not define publication precision. The paper's best lower bound still leaves a 5.87% gap, so optimality is open.",
         "url": "https://link.springer.com/article/10.1007/s43762-021-00032-9"
       },
-      "holder": "邱仲普",
+      "holder": "HY",
       "method": "ai",
-      "recordedAt": "2026-09-05T18:33:08.352Z",
+      "recordedAt": "2026-09-12T17:19:00.566Z",
       "answer": {
         "points": [
           [
-            "0.626730004",
-            "0.860389894"
+            "0.500000000",
+            "0.845207690"
           ],
           [
-            "0.262254037",
-            "0.827229737"
+            "0.500000000",
+            "0.470349263"
           ],
           [
-            "0.847023437",
-            "0.557135158"
+            "0.500000000",
+            "0.095496570"
           ],
           [
-            "0.482546057",
-            "0.52394322"
+            "0.814369081",
+            "0.657772391"
           ],
           [
-            "0.118068763",
-            "0.490837031"
+            "0.185630919",
+            "0.657772391"
           ],
           [
-            "0.702907239",
-            "0.220722007"
+            "0.814373860",
+            "0.282920069"
           ],
           [
-            "0.338398559",
-            "0.187561892"
+            "0.185626140",
+            "0.282920069"
           ]
         ]
       }

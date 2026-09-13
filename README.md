@@ -37,7 +37,7 @@ managed.
 
 ## The records
 
-55 problem families, 1760 sub-problems, 1672 still open.
+56 problem families, 1763 sub-problems, 1674 still open.
 `records/` holds today's snapshot of each family; the live files are at
 `https://minmaxarena.com/data/{slug}.json`, and the citable ones are the monthly frozen
 editions at `https://minmaxarena.com/data/editions/{YYYY-MM}/{slug}.json`, which never change
@@ -59,7 +59,7 @@ once published. Data is CC BY 4.0; see
 | [P12](https://minmaxarena.com/en/problems/circles-in-rectangle) | Equal-circle packing in a 2:1 rectangle | 10 | 6 | [json](records/circles-in-rectangle.json) |
 | [P13](https://minmaxarena.com/en/problems/graduated-circles-in-square) | Packing circles of radius 1,2,…,n into a square | 29 | 26 | [json](records/graduated-circles-in-square.json) |
 | [P16](https://minmaxarena.com/en/problems/spread-points-in-triangle) | Spreading points in a right triangle | 15 | 15 | [json](records/spread-points-in-triangle.json) |
-| [P17](https://minmaxarena.com/en/problems/spread-points-in-rectangle) | Spreading points in a rectangle | 17 | 17 | [json](records/spread-points-in-rectangle.json) |
+| [P17](https://minmaxarena.com/en/problems/spread-points-in-rectangle) | Spreading points in a rectangle | 17 | 16 | [json](records/spread-points-in-rectangle.json) |
 | [P18](https://minmaxarena.com/en/problems/tilted-squares-in-square) | Tilted equal squares in the unit square | 28 | 22 | [json](records/tilted-squares-in-square.json) |
 | [P19](https://minmaxarena.com/en/problems/spread-points-in-an-l) | Spreading points in an L | 17 | 16 | [json](records/spread-points-in-an-l.json) |
 | [P20](https://minmaxarena.com/en/problems/spread-points-in-a-semicircle) | Spreading points in a half-disc | 15 | 14 | [json](records/spread-points-in-a-semicircle.json) |
@@ -102,6 +102,7 @@ once published. Data is CC BY 4.0; see
 | [P77](https://minmaxarena.com/en/problems/equilateral-triangles-covering-an-equilateral-triangle) | Covering an equilateral triangle with n equilateral triangles | 10 | 9 | [json](records/equilateral-triangles-covering-an-equilateral-triangle.json) |
 | [P78](https://minmaxarena.com/en/problems/equilateral-triangles-covering-a-disc) | Covering a disc with n equilateral triangles | 12 | 12 | [json](records/equilateral-triangles-covering-a-disc.json) |
 | [P80](https://minmaxarena.com/en/problems/moving-sofa-hairpin) | The sofa in a hairpin | 8 | 8 | [json](records/moving-sofa-hairpin.json) |
+| [P81](https://minmaxarena.com/en/problems/irregular-strip-nesting) | Irregular strip nesting | 3 | 3 | [json](records/irregular-strip-nesting.json) |
 <!-- records:end -->
 
 ## Problems the catalogue no longer offers
