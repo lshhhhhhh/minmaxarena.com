@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/line-packing",
-  "generatedAt": "2026-09-13T10:23:17.289Z",
+  "generatedAt": "2026-09-14T10:47:36.502Z",
   "instances": [
     {
       "instanceId": "p60-d3-n9-v1",
@@ -685,7 +685,7 @@
         "d": 3
       },
       "objective": "minimize",
-      "scoreStored": "631475730362776945",
+      "scoreStored": "631475730361315225",
       "scoreDisplay": "0.794654473",
       "status": "matched",
       "settled": false,
@@ -706,7 +706,7 @@
       },
       "holder": "Stonebubu",
       "method": "ai",
-      "recordedAt": "2026-09-12T23:00:40.832Z",
+      "recordedAt": "2026-09-13T11:13:49.754Z",
       "answer": {
         "vectors": [
           [
@@ -760,9 +760,9 @@
             "0.999499999"
           ],
           [
-            "-0.236846409",
-            "-0.999500030",
-            "0.882647255"
+            "-0.236846178",
+            "-0.999499055",
+            "0.882646394"
           ],
           [
             "-0.999500354",
@@ -780,9 +780,9 @@
             "-0.999499961"
           ],
           [
-            "0.073142948",
-            "-0.999499900",
-            "-0.531904836"
+            "0.073142941",
+            "-0.999499804",
+            "-0.531904785"
           ],
           [
             "0.953558084",

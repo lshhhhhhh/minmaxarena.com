@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/lights-in-a-square",
-  "generatedAt": "2026-09-12T09:27:13.973Z",
+  "generatedAt": "2026-09-14T10:47:35.508Z",
   "instances": [
     {
       "instanceId": "p51-n2-v1",
@@ -427,8 +427,8 @@
         "n": 10
       },
       "objective": "maximize",
-      "scoreStored": "63548774",
-      "scoreDisplay": "63.548774",
+      "scoreStored": "63548775",
+      "scoreDisplay": "63.548775",
       "status": "ahead",
       "settled": false,
       "recordStatus": "ahead",
@@ -440,11 +440,11 @@
         "source": "published by Satoshi Kishimoto and GPT-5.6 Sol Pro (July 2026) on Erich Friedman's page as 62.408+, meaning at least that much. The page gives figures and no coordinates; the configuration this site reconstructed from the pictured topology and symmetries verifies at 62.403068, which is the site's reference answer and not the record. Optimality is open",
         "url": "https://erich-friedman.github.io/packing/light/"
       },
-      "holder": "游侠",
-      "method": "ai",
-      "recordedAt": "2026-09-12T06:47:14.042Z",
+      "holder": "hadsajnc",
+      "method": "human",
+      "recordedAt": "2026-09-14T10:01:30.606Z",
       "answer": {
-        "intensity": "63.548774",
+        "intensity": "63.548775",
         "lights": [
           [
             "0.555718995",
@@ -467,7 +467,7 @@
             "0.414974905"
           ],
           [
-            "0.966105495",
+            "0.966105400",
             "0.483650225"
           ],
           [
@@ -479,7 +479,7 @@
             "0.073020505"
           ],
           [
-            "0.894370500",
+            "0.894370510",
             "0.101615995"
           ],
           [
@@ -812,8 +812,8 @@
         "n": 15
       },
       "objective": "maximize",
-      "scoreStored": "114942022",
-      "scoreDisplay": "114.942022",
+      "scoreStored": "114942023",
+      "scoreDisplay": "114.942023",
       "status": "ahead",
       "settled": false,
       "recordStatus": "ahead",
@@ -825,11 +825,11 @@
         "source": "published by Satoshi Kishimoto and GPT-5.6 Sol Pro (July 2026) on Erich Friedman's page as 113.191+, meaning at least that much. The page gives figures and no coordinates; the configuration this site reconstructed from the pictured topology and symmetries verifies at 113.185559, which is the site's reference answer and not the record. Optimality is open",
         "url": "https://erich-friedman.github.io/packing/light/"
       },
-      "holder": "游侠",
-      "method": "ai",
-      "recordedAt": "2026-09-12T06:47:22.755Z",
+      "holder": "hadsajnc",
+      "method": "human",
+      "recordedAt": "2026-09-14T10:05:08.483Z",
       "answer": {
-        "intensity": "114.942022",
+        "intensity": "114.942023",
         "lights": [
           [
             "0.092289995",
@@ -876,7 +876,7 @@
             "0.912800272"
           ],
           [
-            "0.931944139",
+            "0.931944000",
             "0.676185664"
           ],
           [
