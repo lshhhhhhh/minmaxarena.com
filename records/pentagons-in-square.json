@@ -1,0 +1,3276 @@
+{
+  "problem": "pentagons-in-square",
+  "code": "P86",
+  "title": "正五边形装入正方形",
+  "titleEn": "Regular pentagons in a square",
+  "objective": "minimize",
+  "scoreLabel": "容器正方形边长",
+  "scoreLabelEn": "container square side",
+  "verifierVersion": "1.0.0",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseName": "CC BY 4.0",
+  "source": "https://minmaxarena.com/problems/pentagons-in-square",
+  "generatedAt": "2026-09-15T10:10:57.478Z",
+  "instances": [
+    {
+      "instanceId": "p86-n3-v1",
+      "name": "n = 3",
+      "parameters": {
+        "n": 3,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "2908117297734095656",
+      "scoreDisplay": "2.908117298",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "2.90811",
+        "kind": "best",
+        "range": {
+          "lower": "2.90811",
+          "upper": "2.90812"
+        },
+        "truncated": true,
+        "certificateDisplay": "2.908117298",
+        "source": "Compiled by Erich Friedman; Found by Jonathan Viquerat in April 2026. Source expression: s = (4+5√5/2)√(5+2√5)−55/4−23√5/4; s = 2.90811+.",
+        "url": "https://erich-friedman.github.io/packing/peninsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "-0.158384440",
+            "x": "0.641553343",
+            "y": "0.763355156"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.236644844",
+            "y": "0.444769951"
+          },
+          {
+            "turn": "0.158384440",
+            "x": "0.721807302",
+            "y": "0.236644844"
+          }
+        ],
+        "radius": "0.292509112"
+      }
+    },
+    {
+      "instanceId": "p86-n4-v1",
+      "name": "n = 4",
+      "parameters": {
+        "n": 4,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "3102525027164766161",
+      "scoreDisplay": "3.102525028",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "3.10252",
+        "kind": "best",
+        "range": {
+          "lower": "3.10252",
+          "upper": "3.10253"
+        },
+        "truncated": true,
+        "certificateDisplay": "3.102525028",
+        "source": "Compiled by Erich Friedman; Found by Jonathan Viquerat in April 2026. Source expression: s = ((3−√5)√(5−√5)+7√10+√2)/8; s = 3.10252+.",
+        "url": "https://erich-friedman.github.io/packing/peninsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.078701707",
+            "x": "0.244296313",
+            "y": "0.729195451"
+          },
+          {
+            "turn": "-0.240078759",
+            "x": "0.755703687",
+            "y": "0.755703687"
+          },
+          {
+            "turn": "-0.240081900",
+            "x": "0.274230288",
+            "y": "0.274252974"
+          },
+          {
+            "turn": "0.078701707",
+            "x": "0.729195451",
+            "y": "0.244296313"
+          }
+        ],
+        "radius": "0.274180160"
+      }
+    },
+    {
+      "instanceId": "p86-n5-v1",
+      "name": "n = 5",
+      "parameters": {
+        "n": 5,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "3549034775697439252",
+      "scoreDisplay": "3.549034776",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "3.54903",
+        "kind": "best",
+        "range": {
+          "lower": "3.54903",
+          "upper": "3.54904"
+        },
+        "truncated": true,
+        "certificateDisplay": "3.549034776",
+        "source": "Compiled by Erich Friedman; Found by Jonathan Viquerat in April 2026. Source expression: s = 3.54903+.",
+        "url": "https://erich-friedman.github.io/packing/peninsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "-0.158384440",
+            "x": "0.227954092",
+            "y": "0.806090668"
+          },
+          {
+            "turn": "-0.158384440",
+            "x": "0.772045908",
+            "y": "0.806090668"
+          },
+          {
+            "turn": "0.158384440",
+            "x": "0.500000000",
+            "y": "0.524373357"
+          },
+          {
+            "turn": "-0.000000000",
+            "x": "0.193909332",
+            "y": "0.227954092"
+          },
+          {
+            "turn": "0.324919696",
+            "x": "0.806090668",
+            "y": "0.227954092"
+          }
+        ],
+        "radius": "0.239685115"
+      }
+    },
+    {
+      "instanceId": "p86-n6-v1",
+      "name": "n = 6",
+      "parameters": {
+        "n": 6,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "3882991556613901164",
+      "scoreDisplay": "3.882991557",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "3.88299",
+        "kind": "best",
+        "range": {
+          "lower": "3.88299",
+          "upper": "3.883"
+        },
+        "truncated": true,
+        "certificateDisplay": "3.882991557",
+        "source": "Compiled by Erich Friedman; Found by Haowei Lin in July 2026. Source expression: s = 3.88299+.",
+        "url": "https://erich-friedman.github.io/packing/peninsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "-0.158384440",
+            "x": "0.208348894",
+            "y": "0.822767845"
+          },
+          {
+            "turn": "-0.157314780",
+            "x": "0.624678084",
+            "y": "0.822499455"
+          },
+          {
+            "turn": "0.158384440",
+            "x": "0.416099666",
+            "y": "0.535565633"
+          },
+          {
+            "turn": "0.324919696",
+            "x": "0.822767845",
+            "y": "0.489898967"
+          },
+          {
+            "turn": "-0.000000000",
+            "x": "0.177232155",
+            "y": "0.208348894"
+          },
+          {
+            "turn": "0.158384440",
+            "x": "0.597127129",
+            "y": "0.177232155"
+          }
+        ],
+        "radius": "0.219070991"
+      }
+    },
+    {
+      "instanceId": "p86-n7-v1",
+      "name": "n = 7",
+      "parameters": {
+        "n": 7,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "4180370617758183416",
+      "scoreDisplay": "4.180370618",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "4.18037",
+        "kind": "best",
+        "range": {
+          "lower": "4.18037",
+          "upper": "4.18038"
+        },
+        "truncated": true,
+        "certificateDisplay": "4.180370618",
+        "source": "Compiled by Erich Friedman; Found by Nicolas Campailla in May 2026. Source expression: s = 4.18037+.",
+        "url": "https://erich-friedman.github.io/packing/peninsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "-0.158384440",
+            "x": "0.363204929",
+            "y": "0.835375610"
+          },
+          {
+            "turn": "-0.320289145",
+            "x": "0.814857979",
+            "y": "0.800029732"
+          },
+          {
+            "turn": "0.091039106",
+            "x": "0.564957832",
+            "y": "0.557225872"
+          },
+          {
+            "turn": "0.158384440",
+            "x": "0.193527578",
+            "y": "0.551679546"
+          },
+          {
+            "turn": "-0.324919696",
+            "x": "0.835375610",
+            "y": "0.337130987"
+          },
+          {
+            "turn": "0.324919696",
+            "x": "0.203486937",
+            "y": "0.193527578"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.532735718",
+            "y": "0.193527578"
+          }
+        ],
+        "radius": "0.203486936"
+      }
+    },
+    {
+      "instanceId": "p86-n8-v1",
+      "name": "n = 8",
+      "parameters": {
+        "n": 8,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "4381909625138225549",
+      "scoreDisplay": "4.381909626",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "4.38190",
+        "kind": "best",
+        "range": {
+          "lower": "4.3819",
+          "upper": "4.38191"
+        },
+        "truncated": true,
+        "certificateDisplay": "4.381909626",
+        "source": "Compiled by Erich Friedman; Found by Aristotle Papowitz in July 2026. Source expression: s = 4.38190+.",
+        "url": "https://erich-friedman.github.io/packing/peninsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "-0.000000000",
+            "x": "0.157052752",
+            "y": "0.815373418"
+          },
+          {
+            "turn": "-0.000000000",
+            "x": "0.508233380",
+            "y": "0.815373418"
+          },
+          {
+            "turn": "-0.324919696",
+            "x": "0.842947248",
+            "y": "0.741679334"
+          },
+          {
+            "turn": "-0.324919696",
+            "x": "0.342947248",
+            "y": "0.536847042"
+          },
+          {
+            "turn": "-0.000000000",
+            "x": "0.657052752",
+            "y": "0.463152958"
+          },
+          {
+            "turn": "-0.000000000",
+            "x": "0.157052752",
+            "y": "0.258320666"
+          },
+          {
+            "turn": "0.324919696",
+            "x": "0.842947248",
+            "y": "0.184626582"
+          },
+          {
+            "turn": "-0.324919696",
+            "x": "0.491766620",
+            "y": "0.184626582"
+          }
+        ],
+        "radius": "0.194127876"
+      }
+    },
+    {
+      "instanceId": "p86-n9-v1",
+      "name": "n = 9",
+      "parameters": {
+        "n": 9,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "4600330010710297538",
+      "scoreDisplay": "4.600330011",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "4.60033",
+        "kind": "best",
+        "range": {
+          "lower": "4.60033",
+          "upper": "4.60034"
+        },
+        "truncated": true,
+        "certificateDisplay": "4.600330011",
+        "source": "Compiled by Erich Friedman; Found by Jonathan Viquerat in April 2026. Source expression: s = 4.60033+.",
+        "url": "https://erich-friedman.github.io/packing/peninsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.078655778",
+            "x": "0.164749090",
+            "y": "0.817368368"
+          },
+          {
+            "turn": "-0.240127037",
+            "x": "0.509661591",
+            "y": "0.835235572"
+          },
+          {
+            "turn": "0.078833508",
+            "x": "0.815916220",
+            "y": "0.815920672"
+          },
+          {
+            "turn": "-0.240127035",
+            "x": "0.182636904",
+            "y": "0.509651982"
+          },
+          {
+            "turn": "-0.240134156",
+            "x": "0.835252029",
+            "y": "0.509651366"
+          },
+          {
+            "turn": "0.078655779",
+            "x": "0.488845748",
+            "y": "0.488856347"
+          },
+          {
+            "turn": "0.078655779",
+            "x": "0.164749252",
+            "y": "0.164764413"
+          },
+          {
+            "turn": "-0.240127037",
+            "x": "0.509661756",
+            "y": "0.182631623"
+          },
+          {
+            "turn": "0.078649005",
+            "x": "0.817362697",
+            "y": "0.164765548"
+          }
+        ],
+        "radius": "0.184910823"
+      }
+    },
+    {
+      "instanceId": "p86-n10-v1",
+      "name": "n = 10",
+      "parameters": {
+        "n": 10,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "5316567552200249577",
+      "scoreDisplay": "5.316567553",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "4.90581",
+        "kind": "best",
+        "range": {
+          "lower": "4.90581",
+          "upper": "4.90582"
+        },
+        "truncated": true,
+        "source": "Compiled by Erich Friedman; Found by Jonathan Viquerat in June 2026. Source expression: s = 4.90581+.",
+        "url": "https://erich-friedman.github.io/packing/peninsqu/"
+      },
+      "holder": "XSsMC",
+      "method": "human",
+      "recordedAt": "2026-09-14T12:13:43.369Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.000000000",
+            "x": "0.255305326",
+            "y": "0.158639193"
+          },
+          {
+            "turn": "-0.324919696",
+            "x": "0.165797017",
+            "y": "0.409554940"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.129442724",
+            "y": "0.699450090"
+          },
+          {
+            "turn": "-0.324919696",
+            "x": "0.351549862",
+            "y": "0.847830953"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.616232451",
+            "y": "0.845620609"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.459411461",
+            "y": "0.517774346"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.546197369",
+            "y": "0.221886609"
+          },
+          {
+            "turn": "-0.324919696",
+            "x": "0.863310944",
+            "y": "0.733487348"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.839999996",
+            "y": "0.152169047"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.750309572",
+            "y": "0.437606168"
+          }
+        ],
+        "radius": "0.160000000"
+      }
+    },
+    {
+      "instanceId": "p86-n11-v1",
+      "name": "n = 11",
+      "parameters": {
+        "n": 11,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "5250930883340179314",
+      "scoreDisplay": "5.250930884",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "5.11555",
+        "kind": "best",
+        "range": {
+          "lower": "5.11555",
+          "upper": "5.11556"
+        },
+        "truncated": true,
+        "source": "Compiled by Erich Friedman; Found by Jonathan Viquerat in August 2026. Source expression: s = 5.11555+.",
+        "url": "https://erich-friedman.github.io/packing/peninsqu/"
+      },
+      "holder": "XSsMC",
+      "method": "human",
+      "recordedAt": "2026-09-14T12:05:31.405Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.000000000",
+            "x": "0.133802421",
+            "y": "0.841981289"
+          },
+          {
+            "turn": "-0.324919696",
+            "x": "0.369800743",
+            "y": "0.708862006"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.137251741",
+            "y": "0.534959724"
+          },
+          {
+            "turn": "-0.324919696",
+            "x": "0.360077745",
+            "y": "0.387621802"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.137251741",
+            "y": "0.195399487"
+          },
+          {
+            "turn": "0.158384440",
+            "x": "0.504984686",
+            "y": "0.133251741"
+          },
+          {
+            "turn": "-0.324919696",
+            "x": "0.864539319",
+            "y": "0.840633530"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.631922255",
+            "y": "0.708862006"
+          },
+          {
+            "turn": "-0.324919696",
+            "x": "0.867748259",
+            "y": "0.529975522"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.643960053",
+            "y": "0.388183773"
+          },
+          {
+            "turn": "0.158384440",
+            "x": "0.837879895",
+            "y": "0.136251741"
+          }
+        ],
+        "radius": "0.162000001"
+      }
+    },
+    {
+      "instanceId": "p86-n12-v1",
+      "name": "n = 12",
+      "parameters": {
+        "n": 12,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "5232214412763143690",
+      "scoreDisplay": "5.232214413",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "5.23221",
+        "kind": "best",
+        "range": {
+          "lower": "5.23221",
+          "upper": "5.23222"
+        },
+        "truncated": true,
+        "certificateDisplay": "5.232214413",
+        "source": "Compiled by Erich Friedman; Found by Timo Berthold et al in May 2026. Source expression: s = 5.23221+.",
+        "url": "https://erich-friedman.github.io/packing/peninsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "-0.158384440",
+            "x": "0.154622295",
+            "y": "0.868470420"
+          },
+          {
+            "turn": "-0.158384440",
+            "x": "0.595309629",
+            "y": "0.868470420"
+          },
+          {
+            "turn": "0.324919696",
+            "x": "0.868470420",
+            "y": "0.757613345"
+          },
+          {
+            "turn": "0.158384440",
+            "x": "0.374965962",
+            "y": "0.703400459"
+          },
+          {
+            "turn": "0.013691475",
+            "x": "0.637562153",
+            "y": "0.581318000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.131529580",
+            "y": "0.551631245"
+          },
+          {
+            "turn": "0.324919696",
+            "x": "0.868470420",
+            "y": "0.448368755"
+          },
+          {
+            "turn": "-0.309849814",
+            "x": "0.362437847",
+            "y": "0.418682000"
+          },
+          {
+            "turn": "-0.158384440",
+            "x": "0.625034038",
+            "y": "0.296599541"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.131529580",
+            "y": "0.242386655"
+          },
+          {
+            "turn": "0.158384440",
+            "x": "0.404690371",
+            "y": "0.131529580"
+          },
+          {
+            "turn": "0.158384440",
+            "x": "0.845377705",
+            "y": "0.131529580"
+          }
+        ],
+        "radius": "0.162579501"
+      }
+    },
+    {
+      "instanceId": "p86-n13-v1",
+      "name": "n = 13",
+      "parameters": {
+        "n": 13,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "5521022434567443522",
+      "scoreDisplay": "5.521022435",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "5.52102",
+        "kind": "best",
+        "range": {
+          "lower": "5.52102",
+          "upper": "5.52103"
+        },
+        "truncated": true,
+        "certificateDisplay": "5.521022435",
+        "source": "Compiled by Erich Friedman; Found by Jake Loyd in June 2026. Source expression: s = 5.52102+.",
+        "url": "https://erich-friedman.github.io/packing/peninsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "-0.217289213",
+            "x": "0.332029526",
+            "y": "0.865875733"
+          },
+          {
+            "turn": "-0.158384440",
+            "x": "0.613504221",
+            "y": "0.875350812"
+          },
+          {
+            "turn": "0.324919696",
+            "x": "0.875350812",
+            "y": "0.774387484"
+          },
+          {
+            "turn": "0.100532718",
+            "x": "0.140181665",
+            "y": "0.703551931"
+          },
+          {
+            "turn": "0.107901299",
+            "x": "0.409122147",
+            "y": "0.621577791"
+          },
+          {
+            "turn": "-0.000000000",
+            "x": "0.684299803",
+            "y": "0.613214908"
+          },
+          {
+            "turn": "0.324919696",
+            "x": "0.875350812",
+            "y": "0.452042333"
+          },
+          {
+            "turn": "-0.000000000",
+            "x": "0.124649188",
+            "y": "0.427892401"
+          },
+          {
+            "turn": "-0.209667607",
+            "x": "0.390707333",
+            "y": "0.372880576"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.656455404",
+            "y": "0.329194284"
+          },
+          {
+            "turn": "0.271188449",
+            "x": "0.865092900",
+            "y": "0.156410082"
+          },
+          {
+            "turn": "-0.181230951",
+            "x": "0.151681002",
+            "y": "0.157420616"
+          },
+          {
+            "turn": "0.158384440",
+            "x": "0.476623334",
+            "y": "0.124649188"
+          }
+        ],
+        "radius": "0.154074869"
+      }
+    },
+    {
+      "instanceId": "p86-n14-v1",
+      "name": "n = 14",
+      "parameters": {
+        "n": 14,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "5696593614050225674",
+      "scoreDisplay": "5.696593615",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "5.69659",
+        "kind": "best",
+        "range": {
+          "lower": "5.69659",
+          "upper": "5.6966"
+        },
+        "truncated": true,
+        "certificateDisplay": "5.696593615",
+        "source": "Compiled by Erich Friedman; Found by Jake Loyd in June 2026. Source expression: s = 5.69659+.",
+        "url": "https://erich-friedman.github.io/packing/peninsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.288143357",
+            "x": "0.381330754",
+            "y": "0.855203182"
+          },
+          {
+            "turn": "-0.158384440",
+            "x": "0.642937682",
+            "y": "0.879192547"
+          },
+          {
+            "turn": "-0.000000000",
+            "x": "0.120807453",
+            "y": "0.805101520"
+          },
+          {
+            "turn": "0.324919696",
+            "x": "0.879192547",
+            "y": "0.757224650"
+          },
+          {
+            "turn": "-0.033627973",
+            "x": "0.677629743",
+            "y": "0.614024806"
+          },
+          {
+            "turn": "-0.033627973",
+            "x": "0.406778037",
+            "y": "0.612444862"
+          },
+          {
+            "turn": "-0.033627973",
+            "x": "0.126431038",
+            "y": "0.528283213"
+          },
+          {
+            "turn": "0.288143357",
+            "x": "0.873568962",
+            "y": "0.471716787"
+          },
+          {
+            "turn": "0.288143357",
+            "x": "0.593221963",
+            "y": "0.387555138"
+          },
+          {
+            "turn": "0.288143357",
+            "x": "0.322370257",
+            "y": "0.385975194"
+          },
+          {
+            "turn": "-0.000000000",
+            "x": "0.120807453",
+            "y": "0.242775350"
+          },
+          {
+            "turn": "-0.324919696",
+            "x": "0.879192547",
+            "y": "0.194898480"
+          },
+          {
+            "turn": "-0.033627973",
+            "x": "0.618669246",
+            "y": "0.144796818"
+          },
+          {
+            "turn": "0.158384440",
+            "x": "0.357062318",
+            "y": "0.120807453"
+          }
+        ],
+        "radius": "0.149326223"
+      }
+    },
+    {
+      "instanceId": "p86-n15-v1",
+      "name": "n = 15",
+      "parameters": {
+        "n": 15,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "5901183981461260190",
+      "scoreDisplay": "5.901183982",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "5.90118",
+        "kind": "best",
+        "range": {
+          "lower": "5.90118",
+          "upper": "5.90119"
+        },
+        "truncated": true,
+        "certificateDisplay": "5.901183982",
+        "source": "Compiled by Erich Friedman; Found by Jonathan Viquerat in August 2026. Source expression: s = 5.90118+.",
+        "url": "https://erich-friedman.github.io/packing/peninsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "-0.322710959",
+            "x": "0.880123242",
+            "y": "0.863085181"
+          },
+          {
+            "turn": "-0.322710959",
+            "x": "0.404916336",
+            "y": "0.863085181"
+          },
+          {
+            "turn": "0.324919696",
+            "x": "0.144149177",
+            "y": "0.862905986"
+          },
+          {
+            "turn": "0.001999119",
+            "x": "0.638415314",
+            "y": "0.798345648"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.116619134",
+            "y": "0.608719704"
+          },
+          {
+            "turn": "0.001999119",
+            "x": "0.377389427",
+            "y": "0.608457107"
+          },
+          {
+            "turn": "0.034313024",
+            "x": "0.856189861",
+            "y": "0.604137971"
+          },
+          {
+            "turn": "-0.287402429",
+            "x": "0.625730780",
+            "y": "0.555684994"
+          },
+          {
+            "turn": "0.324919696",
+            "x": "0.255147777",
+            "y": "0.402579381"
+          },
+          {
+            "turn": "0.310301669",
+            "x": "0.809319273",
+            "y": "0.367677723"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.488386045",
+            "y": "0.347768834"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.116619134",
+            "y": "0.196439058"
+          },
+          {
+            "turn": "-0.013279179",
+            "x": "0.855901651",
+            "y": "0.138228495"
+          },
+          {
+            "turn": "-0.324919696",
+            "x": "0.361800790",
+            "y": "0.137094014"
+          },
+          {
+            "turn": "0.310301669",
+            "x": "0.622518273",
+            "y": "0.135862852"
+          }
+        ],
+        "radius": "0.144149176"
+      }
+    },
+    {
+      "instanceId": "p86-n16-v1",
+      "name": "n = 16",
+      "parameters": {
+        "n": 16,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "6064520046661647842",
+      "scoreDisplay": "6.064520047",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "6.06452",
+        "kind": "best",
+        "range": {
+          "lower": "6.06452",
+          "upper": "6.06453"
+        },
+        "truncated": true,
+        "certificateDisplay": "6.064520047",
+        "source": "Compiled by Erich Friedman; Found by Timo Berthold et al in April 2026. Source expression: s = 6.06452+.",
+        "url": "https://erich-friedman.github.io/packing/peninsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "-0.076289847",
+            "x": "0.635518039",
+            "y": "0.874717465"
+          },
+          {
+            "turn": "0.242615877",
+            "x": "0.138643502",
+            "y": "0.861566923"
+          },
+          {
+            "turn": "-0.076289840",
+            "x": "0.370275505",
+            "y": "0.874717464"
+          },
+          {
+            "turn": "-0.324919696",
+            "x": "0.886521776",
+            "y": "0.815029350"
+          },
+          {
+            "turn": "0.242615877",
+            "x": "0.503748883",
+            "y": "0.686961985"
+          },
+          {
+            "turn": "-0.030639622",
+            "x": "0.732201065",
+            "y": "0.633086977"
+          },
+          {
+            "turn": "-0.076289840",
+            "x": "0.124671857",
+            "y": "0.629322530"
+          },
+          {
+            "turn": "0.242615877",
+            "x": "0.310847496",
+            "y": "0.494777157"
+          },
+          {
+            "turn": "-0.076289840",
+            "x": "0.535458071",
+            "y": "0.462177428"
+          },
+          {
+            "turn": "0.324919696",
+            "x": "0.886521776",
+            "y": "0.455896855"
+          },
+          {
+            "turn": "-0.076289840",
+            "x": "0.124671857",
+            "y": "0.360616972"
+          },
+          {
+            "turn": "-0.158384440",
+            "x": "0.709336466",
+            "y": "0.279754378"
+          },
+          {
+            "turn": "-0.158384438",
+            "x": "0.371396603",
+            "y": "0.262741584"
+          },
+          {
+            "turn": "0.158384440",
+            "x": "0.190718620",
+            "y": "0.113478224"
+          },
+          {
+            "turn": "0.158384440",
+            "x": "0.552074585",
+            "y": "0.113478224"
+          },
+          {
+            "turn": "0.158384440",
+            "x": "0.866598347",
+            "y": "0.113478224"
+          }
+        ],
+        "radius": "0.140266798"
+      }
+    },
+    {
+      "instanceId": "p86-n17-v1",
+      "name": "n = 17",
+      "parameters": {
+        "n": 17,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "6237617597308501415",
+      "scoreDisplay": "6.237617598",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "6.23761",
+        "kind": "best",
+        "range": {
+          "lower": "6.23761",
+          "upper": "6.23762"
+        },
+        "truncated": true,
+        "certificateDisplay": "6.237617598",
+        "source": "Compiled by Erich Friedman; Found by Jonathan Viquerat in June 2026. Source expression: s = 6.23761+.",
+        "url": "https://erich-friedman.github.io/packing/peninsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "-0.158384440",
+            "x": "0.328446781",
+            "y": "0.889670863"
+          },
+          {
+            "turn": "-0.158384440",
+            "x": "0.661897877",
+            "y": "0.889670863"
+          },
+          {
+            "turn": "-0.324919696",
+            "x": "0.889670863",
+            "y": "0.794812070"
+          },
+          {
+            "turn": "-0.000000000",
+            "x": "0.110329137",
+            "y": "0.781522632"
+          },
+          {
+            "turn": "0.158384440",
+            "x": "0.495172329",
+            "y": "0.738055438"
+          },
+          {
+            "turn": "-0.000000000",
+            "x": "0.719928920",
+            "y": "0.653035533"
+          },
+          {
+            "turn": "0.324919696",
+            "x": "0.276383067",
+            "y": "0.634669982"
+          },
+          {
+            "turn": "-0.324919696",
+            "x": "0.889670863",
+            "y": "0.511258996"
+          },
+          {
+            "turn": "-0.158384440",
+            "x": "0.494424188",
+            "y": "0.517397164"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.110329137",
+            "y": "0.487817331"
+          },
+          {
+            "turn": "-0.000000000",
+            "x": "0.729302476",
+            "y": "0.356580867"
+          },
+          {
+            "turn": "-0.324919696",
+            "x": "0.274385536",
+            "y": "0.338215315"
+          },
+          {
+            "turn": "-0.158384440",
+            "x": "0.504827671",
+            "y": "0.270693714"
+          },
+          {
+            "turn": "0.324919696",
+            "x": "0.889670863",
+            "y": "0.201902737"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.110329137",
+            "y": "0.188613299"
+          },
+          {
+            "turn": "0.158384440",
+            "x": "0.350144297",
+            "y": "0.110329137"
+          },
+          {
+            "turn": "0.158384440",
+            "x": "0.659511045",
+            "y": "0.110329137"
+          }
+        ],
+        "radius": "0.136374312"
+      }
+    },
+    {
+      "instanceId": "p86-n18-v1",
+      "name": "n = 18",
+      "parameters": {
+        "n": 18,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "6325657134331241197",
+      "scoreDisplay": "6.325657135",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "6.32565",
+        "kind": "best",
+        "range": {
+          "lower": "6.32565",
+          "upper": "6.32566"
+        },
+        "truncated": true,
+        "certificateDisplay": "6.325657135",
+        "source": "Compiled by Erich Friedman; Found by Bhavithran Ananthan in July 2026. Source expression: s = 6.32565+.",
+        "url": "https://erich-friedman.github.io/packing/peninsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.000000000",
+            "x": "0.108793593",
+            "y": "0.872105461"
+          },
+          {
+            "turn": "-0.158384440",
+            "x": "0.372105461",
+            "y": "0.891206407"
+          },
+          {
+            "turn": "-0.158384440",
+            "x": "0.627894539",
+            "y": "0.891206407"
+          },
+          {
+            "turn": "0.324919696",
+            "x": "0.891206407",
+            "y": "0.872105461"
+          },
+          {
+            "turn": "0.158384440",
+            "x": "0.500000000",
+            "y": "0.715174677"
+          },
+          {
+            "turn": "0.324919696",
+            "x": "0.245758583",
+            "y": "0.690440168"
+          },
+          {
+            "turn": "-0.000000000",
+            "x": "0.754241417",
+            "y": "0.690440168"
+          },
+          {
+            "turn": "0.324007017",
+            "x": "0.890905846",
+            "y": "0.508091727"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.363770934",
+            "y": "0.500000000"
+          },
+          {
+            "turn": "-0.324919696",
+            "x": "0.636229066",
+            "y": "0.500000000"
+          },
+          {
+            "turn": "-0.000094526",
+            "x": "0.110339679",
+            "y": "0.494748040"
+          },
+          {
+            "turn": "0.324919696",
+            "x": "0.245758583",
+            "y": "0.309559832"
+          },
+          {
+            "turn": "-0.000000000",
+            "x": "0.754241417",
+            "y": "0.309559832"
+          },
+          {
+            "turn": "-0.158384440",
+            "x": "0.500000000",
+            "y": "0.284825323"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.108793593",
+            "y": "0.127894539"
+          },
+          {
+            "turn": "0.324919696",
+            "x": "0.891206407",
+            "y": "0.127894539"
+          },
+          {
+            "turn": "0.158384440",
+            "x": "0.372105461",
+            "y": "0.108793593"
+          },
+          {
+            "turn": "0.158384440",
+            "x": "0.627894539",
+            "y": "0.108793593"
+          }
+        ],
+        "radius": "0.134476275"
+      }
+    },
+    {
+      "instanceId": "p86-n19-v1",
+      "name": "n = 19",
+      "parameters": {
+        "n": 19,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "6557812112991276197",
+      "scoreDisplay": "6.557812113",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "6.55781",
+        "kind": "best",
+        "range": {
+          "lower": "6.55781",
+          "upper": "6.55782"
+        },
+        "truncated": true,
+        "certificateDisplay": "6.557812113",
+        "source": "Compiled by Erich Friedman; Found by Jake Loyd in June 2026. Source expression: s = 6.55781+.",
+        "url": "https://erich-friedman.github.io/packing/peninsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "-0.158384440",
+            "x": "0.167662919",
+            "y": "0.895057840"
+          },
+          {
+            "turn": "-0.158384440",
+            "x": "0.876633092",
+            "y": "0.895057840"
+          },
+          {
+            "turn": "-0.160670803",
+            "x": "0.523742336",
+            "y": "0.887587697"
+          },
+          {
+            "turn": "0.158384440",
+            "x": "0.340117627",
+            "y": "0.760922233"
+          },
+          {
+            "turn": "0.158384440",
+            "x": "0.705691962",
+            "y": "0.759822555"
+          },
+          {
+            "turn": "0.158384440",
+            "x": "0.123366908",
+            "y": "0.667809490"
+          },
+          {
+            "turn": "-0.324919696",
+            "x": "0.895057840",
+            "y": "0.632039740"
+          },
+          {
+            "turn": "-0.158384440",
+            "x": "0.522726141",
+            "y": "0.643733527"
+          },
+          {
+            "turn": "-0.158384440",
+            "x": "0.306110956",
+            "y": "0.551037914"
+          },
+          {
+            "turn": "0.158384440",
+            "x": "0.699520668",
+            "y": "0.512750983"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.104942160",
+            "y": "0.439500423"
+          },
+          {
+            "turn": "0.118240212",
+            "x": "0.489343734",
+            "y": "0.401542129"
+          },
+          {
+            "turn": "0.324919696",
+            "x": "0.895057840",
+            "y": "0.385305925"
+          },
+          {
+            "turn": "-0.324919696",
+            "x": "0.277703629",
+            "y": "0.320209654"
+          },
+          {
+            "turn": "-0.158384440",
+            "x": "0.681785620",
+            "y": "0.302866664"
+          },
+          {
+            "turn": "0.008651415",
+            "x": "0.115421437",
+            "y": "0.184495701"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.351083874",
+            "y": "0.123366908"
+          },
+          {
+            "turn": "-0.003089868",
+            "x": "0.866231120",
+            "y": "0.127199157"
+          },
+          {
+            "turn": "0.158384440",
+            "x": "0.597128797",
+            "y": "0.104942160"
+          }
+        ],
+        "radius": "0.129715642"
+      }
+    },
+    {
+      "instanceId": "p86-n20-v1",
+      "name": "n = 20",
+      "parameters": {
+        "n": 20,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "6661350708047226111",
+      "scoreDisplay": "6.661350709",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "6.66135",
+        "kind": "best",
+        "range": {
+          "lower": "6.66135",
+          "upper": "6.66136"
+        },
+        "truncated": true,
+        "certificateDisplay": "6.661350709",
+        "source": "Compiled by Erich Friedman; Found by Haowei Lin in July 2026. Source expression: s = 6.66135+.",
+        "url": "https://erich-friedman.github.io/packing/peninsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "-0.184161447",
+            "x": "0.845687786",
+            "y": "0.893060905"
+          },
+          {
+            "turn": "-0.158384440",
+            "x": "0.121449394",
+            "y": "0.896688975"
+          },
+          {
+            "turn": "-0.158384440",
+            "x": "0.485482811",
+            "y": "0.896688975"
+          },
+          {
+            "turn": "0.158384440",
+            "x": "0.297679327",
+            "y": "0.769328618"
+          },
+          {
+            "turn": "0.132811139",
+            "x": "0.668968729",
+            "y": "0.770115858"
+          },
+          {
+            "turn": "0.132811139",
+            "x": "0.876727396",
+            "y": "0.666584810"
+          },
+          {
+            "turn": "-0.184161447",
+            "x": "0.483169376",
+            "y": "0.665664760"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.103311025",
+            "y": "0.654468373"
+          },
+          {
+            "turn": "-0.184161447",
+            "x": "0.690928043",
+            "y": "0.562133712"
+          },
+          {
+            "turn": "0.065559937",
+            "x": "0.304666206",
+            "y": "0.540451089"
+          },
+          {
+            "turn": "-0.276997320",
+            "x": "0.890500255",
+            "y": "0.447440705"
+          },
+          {
+            "turn": "0.132811139",
+            "x": "0.514208986",
+            "y": "0.439188665"
+          },
+          {
+            "turn": "0.054421307",
+            "x": "0.110846470",
+            "y": "0.409914158"
+          },
+          {
+            "turn": "0.043965407",
+            "x": "0.718029371",
+            "y": "0.330878081"
+          },
+          {
+            "turn": "-0.265798394",
+            "x": "0.302612977",
+            "y": "0.329023507"
+          },
+          {
+            "turn": "-0.184161447",
+            "x": "0.511378264",
+            "y": "0.232449102"
+          },
+          {
+            "turn": "0.324919696",
+            "x": "0.896688975",
+            "y": "0.203049160"
+          },
+          {
+            "turn": "-0.011621317",
+            "x": "0.109111509",
+            "y": "0.175406146"
+          },
+          {
+            "turn": "0.158384440",
+            "x": "0.336561342",
+            "y": "0.103311025"
+          },
+          {
+            "turn": "0.158384440",
+            "x": "0.691333817",
+            "y": "0.103311025"
+          }
+        ],
+        "radius": "0.127699448"
+      }
+    },
+    {
+      "instanceId": "p86-n21-v1",
+      "name": "n = 21",
+      "parameters": {
+        "n": 21,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "6853686760313567592",
+      "scoreDisplay": "6.853686761",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "6.85368",
+        "kind": "best",
+        "range": {
+          "lower": "6.85368",
+          "upper": "6.85369"
+        },
+        "truncated": true,
+        "certificateDisplay": "6.853686761",
+        "source": "Compiled by Erich Friedman; Found by Jake Loyd in June 2026. Source expression: s = 6.85368+.",
+        "url": "https://erich-friedman.github.io/packing/peninsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "-0.158384440",
+            "x": "0.121500823",
+            "y": "0.899588209"
+          },
+          {
+            "turn": "-0.158384440",
+            "x": "0.439695407",
+            "y": "0.899588209"
+          },
+          {
+            "turn": "0.324517598",
+            "x": "0.675098220",
+            "y": "0.881930989"
+          },
+          {
+            "turn": "0.324919696",
+            "x": "0.899588209",
+            "y": "0.830207584"
+          },
+          {
+            "turn": "0.158384440",
+            "x": "0.305136370",
+            "y": "0.749119473"
+          },
+          {
+            "turn": "0.154543984",
+            "x": "0.530848004",
+            "y": "0.717213197"
+          },
+          {
+            "turn": "-0.000363744",
+            "x": "0.749541742",
+            "y": "0.694950730"
+          },
+          {
+            "turn": "-0.158384440",
+            "x": "0.118041140",
+            "y": "0.675060618"
+          },
+          {
+            "turn": "0.324517598",
+            "x": "0.899535163",
+            "y": "0.559763632"
+          },
+          {
+            "turn": "-0.324131373",
+            "x": "0.283297585",
+            "y": "0.530721371"
+          },
+          {
+            "turn": "0.229161301",
+            "x": "0.505890019",
+            "y": "0.494148954"
+          },
+          {
+            "turn": "-0.001457407",
+            "x": "0.716833897",
+            "y": "0.469466618"
+          },
+          {
+            "turn": "-0.000000000",
+            "x": "0.100411791",
+            "y": "0.439637491"
+          },
+          {
+            "turn": "0.154937620",
+            "x": "0.881703470",
+            "y": "0.324587501"
+          },
+          {
+            "turn": "-0.324919696",
+            "x": "0.250935609",
+            "y": "0.305154267"
+          },
+          {
+            "turn": "-0.150450887",
+            "x": "0.468780000",
+            "y": "0.284660292"
+          },
+          {
+            "turn": "-0.161834936",
+            "x": "0.694267038",
+            "y": "0.251307717"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.100411791",
+            "y": "0.121473922"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.324939382",
+            "y": "0.118041140"
+          },
+          {
+            "turn": "0.154937620",
+            "x": "0.559848591",
+            "y": "0.100900382"
+          },
+          {
+            "turn": "0.158384440",
+            "x": "0.829069339",
+            "y": "0.100411791"
+          }
+        ],
+        "radius": "0.124115799"
+      }
+    },
+    {
+      "instanceId": "p86-n22-v1",
+      "name": "n = 22",
+      "parameters": {
+        "n": 22,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "7044451305522286686",
+      "scoreDisplay": "7.044451306",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "7.04445",
+        "kind": "best",
+        "range": {
+          "lower": "7.04445",
+          "upper": "7.04446"
+        },
+        "truncated": true,
+        "certificateDisplay": "7.044451306",
+        "source": "Compiled by Erich Friedman; Found by Haowei Lin in July 2026. Source expression: s = 7.04445+.",
+        "url": "https://erich-friedman.github.io/packing/peninsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "-0.158384440",
+            "x": "0.594926949",
+            "y": "0.902307372"
+          },
+          {
+            "turn": "-0.158384440",
+            "x": "0.365237804",
+            "y": "0.902307372"
+          },
+          {
+            "turn": "-0.170247844",
+            "x": "0.825113038",
+            "y": "0.900688478"
+          },
+          {
+            "turn": "-0.003948438",
+            "x": "0.105078212",
+            "y": "0.873247276"
+          },
+          {
+            "turn": "0.158384440",
+            "x": "0.690643273",
+            "y": "0.730339892"
+          },
+          {
+            "turn": "0.215972054",
+            "x": "0.279776261",
+            "y": "0.717768101"
+          },
+          {
+            "turn": "-0.087424094",
+            "x": "0.480082377",
+            "y": "0.717186315"
+          },
+          {
+            "turn": "-0.324919696",
+            "x": "0.902307372",
+            "y": "0.693990174"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.097692628",
+            "y": "0.616409814"
+          },
+          {
+            "turn": "-0.148830416",
+            "x": "0.689552407",
+            "y": "0.533646757"
+          },
+          {
+            "turn": "-0.321484634",
+            "x": "0.477686249",
+            "y": "0.501206192"
+          },
+          {
+            "turn": "-0.299519441",
+            "x": "0.259121478",
+            "y": "0.500778967"
+          },
+          {
+            "turn": "-0.317923412",
+            "x": "0.901415089",
+            "y": "0.465512915"
+          },
+          {
+            "turn": "0.023147542",
+            "x": "0.100872161",
+            "y": "0.385823565"
+          },
+          {
+            "turn": "0.006341237",
+            "x": "0.757285939",
+            "y": "0.331957129"
+          },
+          {
+            "turn": "0.023147542",
+            "x": "0.320678301",
+            "y": "0.315177460"
+          },
+          {
+            "turn": "0.003110183",
+            "x": "0.539029718",
+            "y": "0.315700352"
+          },
+          {
+            "turn": "0.324919696",
+            "x": "0.902307372",
+            "y": "0.197634712"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.097692628",
+            "y": "0.160304224"
+          },
+          {
+            "turn": "-0.299519441",
+            "x": "0.306535217",
+            "y": "0.116448157"
+          },
+          {
+            "turn": "-0.321484634",
+            "x": "0.525183406",
+            "y": "0.115074463"
+          },
+          {
+            "turn": "0.003110183",
+            "x": "0.720575331",
+            "y": "0.114610238"
+          }
+        ],
+        "radius": "0.120754729"
+      }
+    },
+    {
+      "instanceId": "p86-n23-v1",
+      "name": "n = 23",
+      "parameters": {
+        "n": 23,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "7206241777420703903",
+      "scoreDisplay": "7.206241778",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "7.20624",
+        "kind": "best",
+        "range": {
+          "lower": "7.20624",
+          "upper": "7.20625"
+        },
+        "truncated": true,
+        "certificateDisplay": "7.206241778",
+        "source": "Compiled by Erich Friedman; Found by Jake Loyd in June 2026. Source expression: s = 7.20624+.",
+        "url": "https://erich-friedman.github.io/packing/peninsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "-0.093541270",
+            "x": "0.106710550",
+            "y": "0.896446567"
+          },
+          {
+            "turn": "-0.158384440",
+            "x": "0.425107935",
+            "y": "0.904500711"
+          },
+          {
+            "turn": "-0.158384440",
+            "x": "0.649640231",
+            "y": "0.904500711"
+          },
+          {
+            "turn": "0.246617058",
+            "x": "0.895490314",
+            "y": "0.851271108"
+          },
+          {
+            "turn": "-0.324919696",
+            "x": "0.262013850",
+            "y": "0.766183296"
+          },
+          {
+            "turn": "0.074205882",
+            "x": "0.732904210",
+            "y": "0.721249244"
+          },
+          {
+            "turn": "-0.269352997",
+            "x": "0.537374083",
+            "y": "0.725381708"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.095499289",
+            "y": "0.670424736"
+          },
+          {
+            "turn": "-0.324919696",
+            "x": "0.904500711",
+            "y": "0.617333496"
+          },
+          {
+            "turn": "0.051094965",
+            "x": "0.388010711",
+            "y": "0.605866205"
+          },
+          {
+            "turn": "0.313423695",
+            "x": "0.557416135",
+            "y": "0.501736356"
+          },
+          {
+            "turn": "-0.010433481",
+            "x": "0.748517163",
+            "y": "0.504652666"
+          },
+          {
+            "turn": "-0.293243776",
+            "x": "0.204936110",
+            "y": "0.489554937"
+          },
+          {
+            "turn": "0.313423695",
+            "x": "0.903073818",
+            "y": "0.392364595"
+          },
+          {
+            "turn": "-0.040238689",
+            "x": "0.397254559",
+            "y": "0.390571519"
+          },
+          {
+            "turn": "0.028920368",
+            "x": "0.099349559",
+            "y": "0.317026483"
+          },
+          {
+            "turn": "-0.040238689",
+            "x": "0.741228890",
+            "y": "0.283621382"
+          },
+          {
+            "turn": "0.281007025",
+            "x": "0.548828745",
+            "y": "0.273919464"
+          },
+          {
+            "turn": "-0.293243776",
+            "x": "0.268981928",
+            "y": "0.227719294"
+          },
+          {
+            "turn": "0.066656204",
+            "x": "0.882982696",
+            "y": "0.124928945"
+          },
+          {
+            "turn": "0.150476064",
+            "x": "0.111689261",
+            "y": "0.096559718"
+          },
+          {
+            "turn": "0.158384440",
+            "x": "0.436562597",
+            "y": "0.095499289"
+          },
+          {
+            "turn": "0.158384440",
+            "x": "0.661094893",
+            "y": "0.095499289"
+          }
+        ],
+        "radius": "0.118043612"
+      }
+    },
+    {
+      "instanceId": "p86-n24-v1",
+      "name": "n = 24",
+      "parameters": {
+        "n": 24,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "7336904100514653446",
+      "scoreDisplay": "7.336904101",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "7.33690",
+        "kind": "best",
+        "range": {
+          "lower": "7.3369",
+          "upper": "7.33691"
+        },
+        "truncated": true,
+        "certificateDisplay": "7.336904101",
+        "source": "Compiled by Erich Friedman; Found by Jake Loyd in June 2026. Source expression: s = 7.33690+.",
+        "url": "https://erich-friedman.github.io/packing/peninsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "-0.158384440",
+            "x": "0.296181314",
+            "y": "0.906201450"
+          },
+          {
+            "turn": "-0.158384440",
+            "x": "0.524453858",
+            "y": "0.906201450"
+          },
+          {
+            "turn": "-0.000000000",
+            "x": "0.728519217",
+            "y": "0.889733191"
+          },
+          {
+            "turn": "-0.000000000",
+            "x": "0.093798550",
+            "y": "0.837580703"
+          },
+          {
+            "turn": "0.324919696",
+            "x": "0.906201450",
+            "y": "0.815132555"
+          },
+          {
+            "turn": "0.158384440",
+            "x": "0.410317586",
+            "y": "0.757243537"
+          },
+          {
+            "turn": "-0.324919696",
+            "x": "0.217864562",
+            "y": "0.689183669"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.770447318",
+            "y": "0.682822840"
+          },
+          {
+            "turn": "0.324919696",
+            "x": "0.582850218",
+            "y": "0.647537607"
+          },
+          {
+            "turn": "-0.158384440",
+            "x": "0.393591577",
+            "y": "0.569646437"
+          },
+          {
+            "turn": "-0.324919696",
+            "x": "0.906201450",
+            "y": "0.550513124"
+          },
+          {
+            "turn": "-0.000000000",
+            "x": "0.093798550",
+            "y": "0.540786635"
+          },
+          {
+            "turn": "-0.000000000",
+            "x": "0.731881517",
+            "y": "0.471284678"
+          },
+          {
+            "turn": "0.158384440",
+            "x": "0.527816159",
+            "y": "0.435283536"
+          },
+          {
+            "turn": "0.158384440",
+            "x": "0.265923679",
+            "y": "0.430519826"
+          },
+          {
+            "turn": "0.222391217",
+            "x": "0.894986567",
+            "y": "0.328544586"
+          },
+          {
+            "turn": "-0.000000000",
+            "x": "0.093798550",
+            "y": "0.320253018"
+          },
+          {
+            "turn": "-0.095619111",
+            "x": "0.719689372",
+            "y": "0.260538577"
+          },
+          {
+            "turn": "-0.158384440",
+            "x": "0.504497605",
+            "y": "0.247686436"
+          },
+          {
+            "turn": "-0.158384440",
+            "x": "0.283239431",
+            "y": "0.242922726"
+          },
+          {
+            "turn": "0.159906789",
+            "x": "0.149819144",
+            "y": "0.107223119"
+          },
+          {
+            "turn": "-0.195247848",
+            "x": "0.869370224",
+            "y": "0.115645879"
+          },
+          {
+            "turn": "0.158384440",
+            "x": "0.397146860",
+            "y": "0.093798550"
+          },
+          {
+            "turn": "0.158384440",
+            "x": "0.617680478",
+            "y": "0.093798550"
+          }
+        ],
+        "radius": "0.115941383"
+      }
+    },
+    {
+      "instanceId": "p86-n25-v1",
+      "name": "n = 25",
+      "parameters": {
+        "n": 25,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "7453600087629683841",
+      "scoreDisplay": "7.453600088",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "7.45360",
+        "kind": "best",
+        "range": {
+          "lower": "7.4536",
+          "upper": "7.45361"
+        },
+        "truncated": true,
+        "certificateDisplay": "7.453600088",
+        "source": "Compiled by Erich Friedman; Found by Jake Loyd in June 2026. Source expression: s = 7.45360+.",
+        "url": "https://erich-friedman.github.io/packing/peninsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "-0.158384440",
+            "x": "0.304220615",
+            "y": "0.907669990"
+          },
+          {
+            "turn": "-0.146427724",
+            "x": "0.519229945",
+            "y": "0.906127624"
+          },
+          {
+            "turn": "-0.158384440",
+            "x": "0.828487975",
+            "y": "0.907669990"
+          },
+          {
+            "turn": "-0.000084734",
+            "x": "0.094264873",
+            "y": "0.851662728"
+          },
+          {
+            "turn": "0.170385498",
+            "x": "0.672532878",
+            "y": "0.790819194"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.427698515",
+            "y": "0.724238889"
+          },
+          {
+            "turn": "0.324919696",
+            "x": "0.907669990",
+            "y": "0.716909566"
+          },
+          {
+            "turn": "-0.324919696",
+            "x": "0.243038496",
+            "y": "0.716341580"
+          },
+          {
+            "turn": "-0.324919696",
+            "x": "0.573616877",
+            "y": "0.610915894"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.092330010",
+            "y": "0.609611626"
+          },
+          {
+            "turn": "-0.000000000",
+            "x": "0.758276896",
+            "y": "0.608369130"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.425570166",
+            "y": "0.500522322"
+          },
+          {
+            "turn": "0.324919696",
+            "x": "0.240910146",
+            "y": "0.499952251"
+          },
+          {
+            "turn": "0.324919696",
+            "x": "0.907669990",
+            "y": "0.499828694"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.092330010",
+            "y": "0.390292875"
+          },
+          {
+            "turn": "0.324919696",
+            "x": "0.573616877",
+            "y": "0.390128749"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.758276896",
+            "y": "0.391288258"
+          },
+          {
+            "turn": "0.324919696",
+            "x": "0.243038496",
+            "y": "0.283562921"
+          },
+          {
+            "turn": "-0.324919696",
+            "x": "0.907669990",
+            "y": "0.282747822"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.427698515",
+            "y": "0.276805754"
+          },
+          {
+            "turn": "-0.175425824",
+            "x": "0.671514730",
+            "y": "0.209563390"
+          },
+          {
+            "turn": "0.015597918",
+            "x": "0.103280087",
+            "y": "0.157190215"
+          },
+          {
+            "turn": "0.158384440",
+            "x": "0.304514530",
+            "y": "0.092330010"
+          },
+          {
+            "turn": "0.141432327",
+            "x": "0.518706273",
+            "y": "0.094503167"
+          },
+          {
+            "turn": "0.158384440",
+            "x": "0.828016411",
+            "y": "0.092330010"
+          }
+        ],
+        "radius": "0.114126167"
+      }
+    },
+    {
+      "instanceId": "p86-n26-v1",
+      "name": "n = 26",
+      "parameters": {
+        "n": 26,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "7581760051823483819",
+      "scoreDisplay": "7.581760052",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "7.58176",
+        "kind": "best",
+        "range": {
+          "lower": "7.58176",
+          "upper": "7.58177"
+        },
+        "truncated": true,
+        "certificateDisplay": "7.581760052",
+        "source": "Compiled by Erich Friedman; Found by Jonathan Viquerat in August 2026. Source expression: s = 7.58176+.",
+        "url": "https://erich-friedman.github.io/packing/peninsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "-0.168860793",
+            "x": "0.182838755",
+            "y": "0.907903957"
+          },
+          {
+            "turn": "-0.170482844",
+            "x": "0.394948832",
+            "y": "0.907702347"
+          },
+          {
+            "turn": "-0.158384440",
+            "x": "0.606307896",
+            "y": "0.909230712"
+          },
+          {
+            "turn": "-0.155334113",
+            "x": "0.819184412",
+            "y": "0.908839660"
+          },
+          {
+            "turn": "0.146331100",
+            "x": "0.288895981",
+            "y": "0.760272943"
+          },
+          {
+            "turn": "0.158384440",
+            "x": "0.711749751",
+            "y": "0.761444682"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.500768207",
+            "y": "0.741817276"
+          },
+          {
+            "turn": "-0.000000000",
+            "x": "0.090769288",
+            "y": "0.730808173"
+          },
+          {
+            "turn": "-0.324919696",
+            "x": "0.909230712",
+            "y": "0.730186102"
+          },
+          {
+            "turn": "0.324919696",
+            "x": "0.612091119",
+            "y": "0.586188246"
+          },
+          {
+            "turn": "-0.324919696",
+            "x": "0.205942482",
+            "y": "0.580478601"
+          },
+          {
+            "turn": "0.324919696",
+            "x": "0.408908781",
+            "y": "0.580783257"
+          },
+          {
+            "turn": "-0.000000000",
+            "x": "0.887802989",
+            "y": "0.532342857"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.710176696",
+            "y": "0.427177226"
+          },
+          {
+            "turn": "0.007024949",
+            "x": "0.094360967",
+            "y": "0.423342484"
+          },
+          {
+            "turn": "-0.000000000",
+            "x": "0.300983174",
+            "y": "0.420478237"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.503949473",
+            "y": "0.420782894"
+          },
+          {
+            "turn": "0.324919696",
+            "x": "0.875256673",
+            "y": "0.345538447"
+          },
+          {
+            "turn": "-0.324919696",
+            "x": "0.616435428",
+            "y": "0.266754654"
+          },
+          {
+            "turn": "0.324919696",
+            "x": "0.202668372",
+            "y": "0.261541697"
+          },
+          {
+            "turn": "-0.324919696",
+            "x": "0.409266926",
+            "y": "0.260666162"
+          },
+          {
+            "turn": "0.324919696",
+            "x": "0.909230712",
+            "y": "0.143165885"
+          },
+          {
+            "turn": "-0.000000000",
+            "x": "0.090769288",
+            "y": "0.106705698"
+          },
+          {
+            "turn": "-0.000000000",
+            "x": "0.711326566",
+            "y": "0.106705698"
+          },
+          {
+            "turn": "0.126288263",
+            "x": "0.511882884",
+            "y": "0.094735935"
+          },
+          {
+            "turn": "0.158384439",
+            "x": "0.303584830",
+            "y": "0.090769289"
+          }
+        ],
+        "radius": "0.112197010"
+      }
+    },
+    {
+      "instanceId": "p86-n27-v1",
+      "name": "n = 27",
+      "parameters": {
+        "n": 27,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "7679480070055496613",
+      "scoreDisplay": "7.679480071",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "7.67948",
+        "kind": "best",
+        "range": {
+          "lower": "7.67948",
+          "upper": "7.67949"
+        },
+        "truncated": true,
+        "certificateDisplay": "7.679480071",
+        "source": "Compiled by Erich Friedman; Found by Jonathan Viquerat in August 2026. Source expression: s = 7.67948+.",
+        "url": "https://erich-friedman.github.io/packing/peninsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "-0.161566150",
+            "x": "0.180335566",
+            "y": "0.909312781"
+          },
+          {
+            "turn": "-0.232709085",
+            "x": "0.391890733",
+            "y": "0.902015387"
+          },
+          {
+            "turn": "-0.158384440",
+            "x": "0.592646436",
+            "y": "0.910385734"
+          },
+          {
+            "turn": "-0.158384440",
+            "x": "0.824383341",
+            "y": "0.910385734"
+          },
+          {
+            "turn": "0.158384440",
+            "x": "0.708514888",
+            "y": "0.773030445"
+          },
+          {
+            "turn": "0.085728526",
+            "x": "0.288017813",
+            "y": "0.753026023"
+          },
+          {
+            "turn": "0.085728526",
+            "x": "0.491554775",
+            "y": "0.751948159"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.089614266",
+            "y": "0.733880068"
+          },
+          {
+            "turn": "-0.324919696",
+            "x": "0.910385734",
+            "y": "0.731883657"
+          },
+          {
+            "turn": "0.324919696",
+            "x": "0.609682533",
+            "y": "0.592986296"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.788911064",
+            "y": "0.594157407"
+          },
+          {
+            "turn": "-0.324919696",
+            "x": "0.201178057",
+            "y": "0.582512663"
+          },
+          {
+            "turn": "-0.232709085",
+            "x": "0.404321585",
+            "y": "0.583439018"
+          },
+          {
+            "turn": "0.324919696",
+            "x": "0.910385734",
+            "y": "0.456431157"
+          },
+          {
+            "turn": "0.085728526",
+            "x": "0.503162116",
+            "y": "0.432937605"
+          },
+          {
+            "turn": "-0.000161416",
+            "x": "0.089635280",
+            "y": "0.430971530"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.293187217",
+            "y": "0.423956222"
+          },
+          {
+            "turn": "-0.130131978",
+            "x": "0.695950321",
+            "y": "0.417545396"
+          },
+          {
+            "turn": "0.258140571",
+            "x": "0.821000546",
+            "y": "0.277943125"
+          },
+          {
+            "turn": "-0.324919696",
+            "x": "0.192918618",
+            "y": "0.268083435"
+          },
+          {
+            "turn": "0.291338307",
+            "x": "0.401029413",
+            "y": "0.267019191"
+          },
+          {
+            "turn": "-0.135867920",
+            "x": "0.590925644",
+            "y": "0.246843936"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.089614266",
+            "y": "0.105347887"
+          },
+          {
+            "turn": "-0.030677417",
+            "x": "0.290283375",
+            "y": "0.107247964"
+          },
+          {
+            "turn": "0.258140571",
+            "x": "0.708434549",
+            "y": "0.100349195"
+          },
+          {
+            "turn": "-0.061611466",
+            "x": "0.890068451",
+            "y": "0.108753038"
+          },
+          {
+            "turn": "0.181058729",
+            "x": "0.499551673",
+            "y": "0.092396105"
+          }
+        ],
+        "radius": "0.110769323"
+      }
+    },
+    {
+      "instanceId": "p86-n28-v1",
+      "name": "n = 28",
+      "parameters": {
+        "n": 28,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "7820100052617873863",
+      "scoreDisplay": "7.820100053",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "7.82010",
+        "kind": "best",
+        "range": {
+          "lower": "7.8201",
+          "upper": "7.82011"
+        },
+        "truncated": true,
+        "certificateDisplay": "7.820100053",
+        "source": "Compiled by Erich Friedman; Found by Jonathan Viquerat in August 2026. Source expression: s = 7.82010+.",
+        "url": "https://erich-friedman.github.io/packing/peninsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "-0.249016834",
+            "x": "0.107709980",
+            "y": "0.902259384"
+          },
+          {
+            "turn": "-0.225071090",
+            "x": "0.306008063",
+            "y": "0.904523843"
+          },
+          {
+            "turn": "0.324919696",
+            "x": "0.911997166",
+            "y": "0.896546464"
+          },
+          {
+            "turn": "-0.209281827",
+            "x": "0.505871809",
+            "y": "0.906138830"
+          },
+          {
+            "turn": "-0.158384433",
+            "x": "0.705497880",
+            "y": "0.911997162"
+          },
+          {
+            "turn": "-0.062363395",
+            "x": "0.203038771",
+            "y": "0.737734802"
+          },
+          {
+            "turn": "-0.062363504",
+            "x": "0.403548068",
+            "y": "0.739800326"
+          },
+          {
+            "turn": "-0.062363504",
+            "x": "0.601825449",
+            "y": "0.739484056"
+          },
+          {
+            "turn": "-0.056390391",
+            "x": "0.799921639",
+            "y": "0.740086505"
+          },
+          {
+            "turn": "0.263697637",
+            "x": "0.905366960",
+            "y": "0.594596579"
+          },
+          {
+            "turn": "0.257341657",
+            "x": "0.107934647",
+            "y": "0.587941666"
+          },
+          {
+            "turn": "0.257341645",
+            "x": "0.306617523",
+            "y": "0.590864209"
+          },
+          {
+            "turn": "0.257341645",
+            "x": "0.504895006",
+            "y": "0.590547891"
+          },
+          {
+            "turn": "0.257341645",
+            "x": "0.703172324",
+            "y": "0.590231504"
+          },
+          {
+            "turn": "-0.062363504",
+            "x": "0.693382482",
+            "y": "0.409135775"
+          },
+          {
+            "turn": "-0.062363342",
+            "x": "0.892065349",
+            "y": "0.412058315"
+          },
+          {
+            "turn": "-0.062363504",
+            "x": "0.296827697",
+            "y": "0.409768483"
+          },
+          {
+            "turn": "-0.062363504",
+            "x": "0.495105019",
+            "y": "0.409452134"
+          },
+          {
+            "turn": "-0.056390543",
+            "x": "0.094633046",
+            "y": "0.405403406"
+          },
+          {
+            "turn": "0.257341645",
+            "x": "0.398174566",
+            "y": "0.260515974"
+          },
+          {
+            "turn": "0.257341817",
+            "x": "0.796961246",
+            "y": "0.262265180"
+          },
+          {
+            "turn": "0.263697637",
+            "x": "0.200078369",
+            "y": "0.259913502"
+          },
+          {
+            "turn": "0.257341645",
+            "x": "0.596451925",
+            "y": "0.260199664"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.088002834",
+            "y": "0.103453536"
+          },
+          {
+            "turn": "0.070221449",
+            "x": "0.892290026",
+            "y": "0.097740586"
+          },
+          {
+            "turn": "0.108275095",
+            "x": "0.494128161",
+            "y": "0.093861179"
+          },
+          {
+            "turn": "0.093044502",
+            "x": "0.693991932",
+            "y": "0.095476133"
+          },
+          {
+            "turn": "0.158384451",
+            "x": "0.294502101",
+            "y": "0.088002835"
+          }
+        ],
+        "radius": "0.108777484"
+      }
+    },
+    {
+      "instanceId": "p86-n29-v1",
+      "name": "n = 29",
+      "parameters": {
+        "n": 29,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "7985120067940244458",
+      "scoreDisplay": "7.985120068",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "7.98512",
+        "kind": "best",
+        "range": {
+          "lower": "7.98512",
+          "upper": "7.98513"
+        },
+        "truncated": true,
+        "certificateDisplay": "7.985120068",
+        "source": "Compiled by Erich Friedman; Found by Jonathan Viquerat in August 2026. Source expression: s = 7.98512+.",
+        "url": "https://erich-friedman.github.io/packing/peninsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "-0.158384440",
+            "x": "0.332501187",
+            "y": "0.913815827"
+          },
+          {
+            "turn": "-0.158384440",
+            "x": "0.535132329",
+            "y": "0.913815827"
+          },
+          {
+            "turn": "0.063563183",
+            "x": "0.894327858",
+            "y": "0.895331734"
+          },
+          {
+            "turn": "-0.098037904",
+            "x": "0.128874617",
+            "y": "0.884458175"
+          },
+          {
+            "turn": "-0.256067959",
+            "x": "0.724731564",
+            "y": "0.862658072"
+          },
+          {
+            "turn": "0.158384440",
+            "x": "0.258460605",
+            "y": "0.754550467"
+          },
+          {
+            "turn": "0.063563183",
+            "x": "0.600704635",
+            "y": "0.742938498"
+          },
+          {
+            "turn": "0.313452287",
+            "x": "0.912531282",
+            "y": "0.708023009"
+          },
+          {
+            "turn": "-0.158384440",
+            "x": "0.422361064",
+            "y": "0.701188529"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.086184173",
+            "y": "0.678000891"
+          },
+          {
+            "turn": "-0.010407444",
+            "x": "0.757066408",
+            "y": "0.629679585"
+          },
+          {
+            "turn": "-0.158384440",
+            "x": "0.248330191",
+            "y": "0.582182122"
+          },
+          {
+            "turn": "-0.256067959",
+            "x": "0.569925537",
+            "y": "0.573335296"
+          },
+          {
+            "turn": "0.197070054",
+            "x": "0.901435653",
+            "y": "0.506000401"
+          },
+          {
+            "turn": "0.158384440",
+            "x": "0.403022847",
+            "y": "0.481513923"
+          },
+          {
+            "turn": "0.158384440",
+            "x": "0.101315571",
+            "y": "0.475935503"
+          },
+          {
+            "turn": "0.202286325",
+            "x": "0.716270432",
+            "y": "0.449628538"
+          },
+          {
+            "turn": "-0.158384440",
+            "x": "0.253075479",
+            "y": "0.385208790"
+          },
+          {
+            "turn": "-0.158384440",
+            "x": "0.552084507",
+            "y": "0.382482857"
+          },
+          {
+            "turn": "0.324919696",
+            "x": "0.913815827",
+            "y": "0.316714514"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.086184173",
+            "y": "0.288435760"
+          },
+          {
+            "turn": "0.158384440",
+            "x": "0.401406506",
+            "y": "0.278897841"
+          },
+          {
+            "turn": "-0.115070176",
+            "x": "0.730155534",
+            "y": "0.277818697"
+          },
+          {
+            "turn": "-0.158384440",
+            "x": "0.248241648",
+            "y": "0.192495121"
+          },
+          {
+            "turn": "-0.158384440",
+            "x": "0.553685655",
+            "y": "0.189769189"
+          },
+          {
+            "turn": "0.306174003",
+            "x": "0.909042415",
+            "y": "0.104631743"
+          },
+          {
+            "turn": "0.158384440",
+            "x": "0.101315571",
+            "y": "0.086184173"
+          },
+          {
+            "turn": "0.158384440",
+            "x": "0.400027474",
+            "y": "0.086184173"
+          },
+          {
+            "turn": "0.158384440",
+            "x": "0.704363656",
+            "y": "0.086184173"
+          }
+        ],
+        "radius": "0.106529495"
+      }
+    },
+    {
+      "instanceId": "p86-n30-v1",
+      "name": "n = 30",
+      "parameters": {
+        "n": 30,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "8102220101941290018",
+      "scoreDisplay": "8.102220102",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "8.10222",
+        "kind": "best",
+        "range": {
+          "lower": "8.10222",
+          "upper": "8.10223"
+        },
+        "truncated": true,
+        "certificateDisplay": "8.102220102",
+        "source": "Compiled by Erich Friedman; Found by Jonathan Viquerat in August 2026. Source expression: s = 8.10222+.",
+        "url": "https://erich-friedman.github.io/packing/peninsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "-0.158384440",
+            "x": "0.145249409",
+            "y": "0.915061433"
+          },
+          {
+            "turn": "-0.008321199",
+            "x": "0.330352007",
+            "y": "0.900702455"
+          },
+          {
+            "turn": "0.324919696",
+            "x": "0.915061433",
+            "y": "0.900148725"
+          },
+          {
+            "turn": "-0.118401546",
+            "x": "0.524891975",
+            "y": "0.908160186"
+          },
+          {
+            "turn": "-0.324919696",
+            "x": "0.725133022",
+            "y": "0.900148725"
+          },
+          {
+            "turn": "0.198867519",
+            "x": "0.445294897",
+            "y": "0.757699641"
+          },
+          {
+            "turn": "-0.000000000",
+            "x": "0.813901042",
+            "y": "0.750371813"
+          },
+          {
+            "turn": "0.226648004",
+            "x": "0.103245261",
+            "y": "0.736225592"
+          },
+          {
+            "turn": "-0.029968489",
+            "x": "0.624161029",
+            "y": "0.744084710"
+          },
+          {
+            "turn": "-0.091531121",
+            "x": "0.273189733",
+            "y": "0.721041305"
+          },
+          {
+            "turn": "0.260749998",
+            "x": "0.724429250",
+            "y": "0.597206396"
+          },
+          {
+            "turn": "0.324919696",
+            "x": "0.915061433",
+            "y": "0.598109080"
+          },
+          {
+            "turn": "0.226648004",
+            "x": "0.372649795",
+            "y": "0.581209499"
+          },
+          {
+            "turn": "-0.091531121",
+            "x": "0.543779907",
+            "y": "0.572447648"
+          },
+          {
+            "turn": "-0.160110396",
+            "x": "0.172241524",
+            "y": "0.560810112"
+          },
+          {
+            "turn": "-0.011204754",
+            "x": "0.816923018",
+            "y": "0.441856579"
+          },
+          {
+            "turn": "0.312576960",
+            "x": "0.646596965",
+            "y": "0.423730037"
+          },
+          {
+            "turn": "0.167374907",
+            "x": "0.271238181",
+            "y": "0.421192812"
+          },
+          {
+            "turn": "-0.232987043",
+            "x": "0.457924610",
+            "y": "0.407444793"
+          },
+          {
+            "turn": "-0.000000000",
+            "x": "0.084938567",
+            "y": "0.395851459"
+          },
+          {
+            "turn": "0.158874204",
+            "x": "0.900179770",
+            "y": "0.274867424"
+          },
+          {
+            "turn": "0.085462931",
+            "x": "0.551622702",
+            "y": "0.264793862"
+          },
+          {
+            "turn": "-0.000000000",
+            "x": "0.357267028",
+            "y": "0.255459349"
+          },
+          {
+            "turn": "-0.324919696",
+            "x": "0.187389893",
+            "y": "0.247851367"
+          },
+          {
+            "turn": "-0.157894751",
+            "x": "0.731717872",
+            "y": "0.243536798"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.084938567",
+            "y": "0.099851275"
+          },
+          {
+            "turn": "-0.232987043",
+            "x": "0.477235664",
+            "y": "0.103908489"
+          },
+          {
+            "turn": "-0.157894751",
+            "x": "0.899743919",
+            "y": "0.104989795"
+          },
+          {
+            "turn": "0.158384440",
+            "x": "0.284083538",
+            "y": "0.084938567"
+          },
+          {
+            "turn": "0.158384685",
+            "x": "0.660955469",
+            "y": "0.084938597"
+          }
+        ],
+        "radius": "0.104989842"
+      }
+    }
+  ]
+}

@@ -1,0 +1,5391 @@
+{
+  "problem": "squares-in-triangle",
+  "code": "P85",
+  "title": "正方形装入等边三角形",
+  "titleEn": "Squares in an equilateral triangle",
+  "objective": "minimize",
+  "scoreLabel": "容器三角形边长",
+  "scoreLabelEn": "container triangle side",
+  "verifierVersion": "1.0.0",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseName": "CC BY 4.0",
+  "source": "https://minmaxarena.com/problems/squares-in-triangle",
+  "generatedAt": "2026-09-15T10:10:57.368Z",
+  "instances": [
+    {
+      "instanceId": "p85-n3-v1",
+      "name": "n = 3",
+      "parameters": {
+        "n": 3,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "3232050829467871700",
+      "scoreDisplay": "3.23205083",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "3.232",
+        "kind": "best",
+        "range": {
+          "lower": "3.232",
+          "upper": "3.233"
+        },
+        "truncated": true,
+        "certificateDisplay": "3.23205083",
+        "source": "Compiled by Erich Friedman; Found by Erich Friedman in 1997. Source expression: s = 3 / 2 + √3 = 3.232+.",
+        "url": "https://erich-friedman.github.io/packing/squintri/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "-0.414213562",
+            "x": "0.333333333",
+            "y": "0.154700538"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.699358737",
+            "y": "0.211324865"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.467307930",
+            "y": "0.500000000"
+          }
+        ],
+        "radius": "0.218779598"
+      }
+    },
+    {
+      "instanceId": "p85-n4-v1",
+      "name": "n = 4",
+      "parameters": {
+        "n": 4,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "4154700558434624460",
+      "scoreDisplay": "4.154700559",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "4.154",
+        "kind": "best",
+        "range": {
+          "lower": "4.154",
+          "upper": "4.155"
+        },
+        "truncated": true,
+        "certificateDisplay": "4.154700559",
+        "source": "Compiled by Erich Friedman; Found by Erich Friedman in 1997. Source expression: s = 3 + 2 / √3 = 4.154+.",
+        "url": "https://erich-friedman.github.io/packing/squintri/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "-0.414213562",
+            "x": "0.259308766",
+            "y": "0.120345617"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.500000000",
+            "y": "0.120345617"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.740691234",
+            "y": "0.120345617"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.500000000",
+            "y": "0.361036851"
+          }
+        ],
+        "radius": "0.170194403"
+      }
+    },
+    {
+      "instanceId": "p85-n5-v1",
+      "name": "n = 5",
+      "parameters": {
+        "n": 5,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "4309401092825526190",
+      "scoreDisplay": "4.309401093",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "4.309",
+        "kind": "best",
+        "range": {
+          "lower": "4.309",
+          "upper": "4.31"
+        },
+        "truncated": true,
+        "certificateDisplay": "4.309401093",
+        "source": "Compiled by Erich Friedman; Found by Erich Friedman in 1997. Source expression: s = 2 + 4 / √3 = 4.309+.",
+        "url": "https://erich-friedman.github.io/packing/squintri/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "-0.414213562",
+            "x": "0.250000000",
+            "y": "0.116025404"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.482050808",
+            "y": "0.116025404"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.774519053",
+            "y": "0.158493649"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.658493649",
+            "y": "0.359455543"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.475480947",
+            "y": "0.591506351"
+          }
+        ],
+        "radius": "0.164084699"
+      }
+    },
+    {
+      "instanceId": "p85-n6-v1",
+      "name": "n = 6",
+      "parameters": {
+        "n": 6,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "4309401119088798423",
+      "scoreDisplay": "4.30940112",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "4.309",
+        "kind": "best",
+        "range": {
+          "lower": "4.309",
+          "upper": "4.31"
+        },
+        "truncated": true,
+        "certificateDisplay": "4.30940112",
+        "source": "Compiled by Erich Friedman; Found by Erich Friedman in 1997. Source expression: s = 2 + 4 / √3 = 4.309+.",
+        "url": "https://erich-friedman.github.io/packing/squintri/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "-0.414213562",
+            "x": "0.250000000",
+            "y": "0.116025404"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.482050808",
+            "y": "0.116025404"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.774519053",
+            "y": "0.158493649"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.658493649",
+            "y": "0.359455543"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.475480947",
+            "y": "0.591506351"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.359455543",
+            "y": "0.390544457"
+          }
+        ],
+        "radius": "0.164084698"
+      }
+    },
+    {
+      "instanceId": "p85-n7-v1",
+      "name": "n = 7",
+      "parameters": {
+        "n": 7,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "5154700558410679158",
+      "scoreDisplay": "5.154700559",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "5.154",
+        "kind": "best",
+        "range": {
+          "lower": "5.154",
+          "upper": "5.155"
+        },
+        "truncated": true,
+        "certificateDisplay": "5.154700559",
+        "source": "Compiled by Erich Friedman; Found by Erich Friedman in 1997. Source expression: s = 4 + 2 / √3 = 5.154+.",
+        "url": "https://erich-friedman.github.io/packing/squintri/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "-0.414213562",
+            "x": "0.209003464",
+            "y": "0.096998845"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.403001155",
+            "y": "0.096998845"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.596998845",
+            "y": "0.096998845"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.790996536",
+            "y": "0.096998845"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.403001155",
+            "y": "0.290996536"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.596998845",
+            "y": "0.290996536"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.500000000",
+            "y": "0.484994226"
+          }
+        ],
+        "radius": "0.137177082"
+      }
+    },
+    {
+      "instanceId": "p85-n8-v1",
+      "name": "n = 8",
+      "parameters": {
+        "n": 8,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "5301221348800612417",
+      "scoreDisplay": "5.301221349",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "5.301",
+        "kind": "best",
+        "range": {
+          "lower": "5.301",
+          "upper": "5.302"
+        },
+        "truncated": true,
+        "certificateDisplay": "5.301221349",
+        "source": "Compiled by Erich Friedman; Found by David W. Cantrell in July 2002. Source expression: s = 5.301+.",
+        "url": "https://erich-friedman.github.io/packing/squintri/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.131652498",
+            "x": "0.480068285",
+            "y": "0.642866885"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.385750397",
+            "y": "0.479503511"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.588977201",
+            "y": "0.454231109"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.291432509",
+            "y": "0.316140136"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.608137420",
+            "y": "0.231072589"
+          },
+          {
+            "turn": "-0.231047659",
+            "x": "0.419887392",
+            "y": "0.119866284"
+          },
+          {
+            "turn": "0.414208219",
+            "x": "0.203581010",
+            "y": "0.094904915"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.796773196",
+            "y": "0.094317888"
+          }
+        ],
+        "radius": "0.133385636"
+      }
+    },
+    {
+      "instanceId": "p85-n9-v1",
+      "name": "n = 9",
+      "parameters": {
+        "n": 9,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "5309401135153849963",
+      "scoreDisplay": "5.309401136",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "5.309",
+        "kind": "best",
+        "range": {
+          "lower": "5.309",
+          "upper": "5.31"
+        },
+        "truncated": true,
+        "certificateDisplay": "5.309401136",
+        "source": "Compiled by Erich Friedman; Found by Erich Friedman in 1997. Source expression: s = 3 + 4 / √3 = 5.309+.",
+        "url": "https://erich-friedman.github.io/packing/squintri/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "-0.414213562",
+            "x": "0.202913710",
+            "y": "0.094172580"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.391258871",
+            "y": "0.094172580"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.579604032",
+            "y": "0.094172580"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.816987298",
+            "y": "0.128642137"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.722814718",
+            "y": "0.291753831"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.628642137",
+            "y": "0.454865525"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.480098992",
+            "y": "0.643210686"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.385926412",
+            "y": "0.480098992"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.291753831",
+            "y": "0.316987298"
+          }
+        ],
+        "radius": "0.133180139"
+      }
+    },
+    {
+      "instanceId": "p85-n10-v1",
+      "name": "n = 10",
+      "parameters": {
+        "n": 10,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "5464101638413806400",
+      "scoreDisplay": "5.464101639",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "5.464",
+        "kind": "best",
+        "range": {
+          "lower": "5.464",
+          "upper": "5.465"
+        },
+        "truncated": true,
+        "certificateDisplay": "5.464101639",
+        "source": "Compiled by Erich Friedman; Found by Erich Friedman in 1997. Source expression: s = 2 + 2 √3 = 5.464+.",
+        "url": "https://erich-friedman.github.io/packing/squintri/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.131652498",
+            "x": "0.480662433",
+            "y": "0.283493649"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.177831216",
+            "y": "0.125000000"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.519337567",
+            "y": "0.649519053"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.625000000",
+            "y": "0.466506351"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.716506351",
+            "y": "0.308012702"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.375000000",
+            "y": "0.466506351"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.802831216",
+            "y": "0.091506351"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.619818514",
+            "y": "0.091506351"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.389156082",
+            "y": "0.125000000"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.283493649",
+            "y": "0.308012702"
+          }
+        ],
+        "radius": "0.129409522"
+      }
+    },
+    {
+      "instanceId": "p85-n11-v1",
+      "name": "n = 11",
+      "parameters": {
+        "n": 11,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "6154700594979563078",
+      "scoreDisplay": "6.154700595",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "6.154",
+        "kind": "best",
+        "range": {
+          "lower": "6.154",
+          "upper": "6.155"
+        },
+        "truncated": true,
+        "certificateDisplay": "6.154700595",
+        "source": "Compiled by Erich Friedman; Found by Erich Friedman in 1997. Source expression: s = 5 + 2 / √3 = 6.154+.",
+        "url": "https://erich-friedman.github.io/packing/squintri/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "-0.414213562",
+            "x": "0.175045116",
+            "y": "0.081238721"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.337522558",
+            "y": "0.081238721"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.500000000",
+            "y": "0.081238721"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.662477442",
+            "y": "0.081238721"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.824954884",
+            "y": "0.081238721"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.337522558",
+            "y": "0.243716163"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.500000000",
+            "y": "0.243716163"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.662477442",
+            "y": "0.243716163"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.418761279",
+            "y": "0.406193605"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.581238721",
+            "y": "0.406193605"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.500000000",
+            "y": "0.568671047"
+          }
+        ],
+        "radius": "0.114888900"
+      }
+    },
+    {
+      "instanceId": "p85-n12-v1",
+      "name": "n = 12",
+      "parameters": {
+        "n": 12,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "6301221382486186676",
+      "scoreDisplay": "6.301221383",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "6.301",
+        "kind": "best",
+        "range": {
+          "lower": "6.301",
+          "upper": "6.302"
+        },
+        "truncated": true,
+        "certificateDisplay": "6.301221383",
+        "source": "Compiled by Erich Friedman; Found by David W. Cantrell in July 2002. Source expression: s = 6.301+.",
+        "url": "https://erich-friedman.github.io/packing/squintri/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.131652498",
+            "x": "0.483231436",
+            "y": "0.678282006"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.403881740",
+            "y": "0.540844300"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.574856573",
+            "y": "0.519582613"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.324532043",
+            "y": "0.403406594"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.495506877",
+            "y": "0.382144907"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.245182347",
+            "y": "0.265968889"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.670325773",
+            "y": "0.238265021"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.511626380",
+            "y": "0.194401510"
+          },
+          {
+            "turn": "-0.231047661",
+            "x": "0.353251518",
+            "y": "0.100843577"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.171532847",
+            "y": "0.080291971"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.670325773",
+            "y": "0.079392579"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.829025166",
+            "y": "0.079349696"
+          }
+        ],
+        "radius": "0.112217416"
+      }
+    },
+    {
+      "instanceId": "p85-n13-v1",
+      "name": "n = 13",
+      "parameters": {
+        "n": 13,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "6309401134238913542",
+      "scoreDisplay": "6.309401135",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "6.309",
+        "kind": "best",
+        "range": {
+          "lower": "6.309",
+          "upper": "6.31"
+        },
+        "truncated": true,
+        "certificateDisplay": "6.309401135",
+        "source": "Compiled by Erich Friedman; Found by Erich Friedman in 1997. Source expression: s = 4 + 4 / √3 = 6.309+.",
+        "url": "https://erich-friedman.github.io/packing/squintri/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.131652498",
+            "x": "0.154006351",
+            "y": "0.108253175"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.516746825",
+            "y": "0.678525404"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.595993649",
+            "y": "0.541265877"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.675240474",
+            "y": "0.404006351"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.391746825",
+            "y": "0.520031755"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.754487298",
+            "y": "0.266746825"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.455889290",
+            "y": "0.314142465"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.312500000",
+            "y": "0.382772228"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.829246825",
+            "y": "0.079246825"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.670753175",
+            "y": "0.079246825"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.512259526",
+            "y": "0.079246825"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.353765877",
+            "y": "0.079246825"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.233253175",
+            "y": "0.245512702"
+          }
+        ],
+        "radius": "0.112071933"
+      }
+    },
+    {
+      "instanceId": "p85-n14-v1",
+      "name": "n = 14",
+      "parameters": {
+        "n": 14,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "6464101718028106464",
+      "scoreDisplay": "6.464101719",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "6.464",
+        "kind": "best",
+        "range": {
+          "lower": "6.464",
+          "upper": "6.465"
+        },
+        "truncated": true,
+        "certificateDisplay": "6.464101719",
+        "source": "Compiled by Erich Friedman; Found by Erich Friedman in 1997. Source expression: s = 3 + 2 √3 = 6.464+.",
+        "url": "https://erich-friedman.github.io/packing/squintri/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.131652498",
+            "x": "0.406303696",
+            "y": "0.239637029"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.150320631",
+            "y": "0.105662433"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.427029638",
+            "y": "0.528312164"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.516346035",
+            "y": "0.683012702"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.593696304",
+            "y": "0.549038106"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.671046574",
+            "y": "0.415063509"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.504379907",
+            "y": "0.394337567"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.744016936",
+            "y": "0.232050808"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.589316397",
+            "y": "0.232050808"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.305021170",
+            "y": "0.373611625"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.833333333",
+            "y": "0.077350269"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.678632795",
+            "y": "0.077350269"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.523932257",
+            "y": "0.077350269"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.328953426",
+            "y": "0.105662433"
+          }
+        ],
+        "radius": "0.109389798"
+      }
+    },
+    {
+      "instanceId": "p85-n15-v1",
+      "name": "n = 15",
+      "parameters": {
+        "n": 15,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "6464101718028106464",
+      "scoreDisplay": "6.464101719",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "6.464",
+        "kind": "best",
+        "range": {
+          "lower": "6.464",
+          "upper": "6.465"
+        },
+        "truncated": true,
+        "certificateDisplay": "6.464101719",
+        "source": "Compiled by Erich Friedman; Found by Erich Friedman in 1997. Source expression: s = 3 + 2 √3 = 6.464+.",
+        "url": "https://erich-friedman.github.io/packing/squintri/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "-0.414213562",
+            "x": "0.166666667",
+            "y": "0.077350269"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.321367205",
+            "y": "0.077350269"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.476067743",
+            "y": "0.077350269"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.255983064",
+            "y": "0.232050808"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.410683603",
+            "y": "0.232050808"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.849679369",
+            "y": "0.105662433"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.772329099",
+            "y": "0.239637029"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.694978830",
+            "y": "0.373611625"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.671046574",
+            "y": "0.105662433"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.593696304",
+            "y": "0.239637029"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.483653965",
+            "y": "0.683012702"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.406303696",
+            "y": "0.549038106"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.328953426",
+            "y": "0.415063509"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.572970362",
+            "y": "0.528312164"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.495620093",
+            "y": "0.394337567"
+          }
+        ],
+        "radius": "0.109389798"
+      }
+    },
+    {
+      "instanceId": "p85-n16-v1",
+      "name": "n = 16",
+      "parameters": {
+        "n": 16,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "7154700609780325523",
+      "scoreDisplay": "7.15470061",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "7.154",
+        "kind": "best",
+        "range": {
+          "lower": "7.154",
+          "upper": "7.155"
+        },
+        "truncated": true,
+        "certificateDisplay": "7.15470061",
+        "source": "Compiled by Erich Friedman; Found by Erich Friedman in 1997. Source expression: s = 6 + 2 / √3 = 7.154+.",
+        "url": "https://erich-friedman.github.io/packing/squintri/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "-0.414213562",
+            "x": "0.150579366",
+            "y": "0.069884127"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.290347619",
+            "y": "0.069884127"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.430115873",
+            "y": "0.069884127"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.569884127",
+            "y": "0.069884127"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.709652381",
+            "y": "0.069884127"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.849420634",
+            "y": "0.069884127"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.290347619",
+            "y": "0.209652381"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.430115873",
+            "y": "0.209652381"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.569884127",
+            "y": "0.209652381"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.709652381",
+            "y": "0.209652381"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.360231746",
+            "y": "0.349420634"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.500000000",
+            "y": "0.349420634"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.639768254",
+            "y": "0.349420634"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.430115873",
+            "y": "0.489188888"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.569884127",
+            "y": "0.489188888"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.500000000",
+            "y": "0.628957142"
+          }
+        ],
+        "radius": "0.098831079"
+      }
+    },
+    {
+      "instanceId": "p85-n17-v1",
+      "name": "n = 17",
+      "parameters": {
+        "n": 17,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "7301221440882259165",
+      "scoreDisplay": "7.301221441",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "7.301",
+        "kind": "best",
+        "range": {
+          "lower": "7.301",
+          "upper": "7.302"
+        },
+        "truncated": true,
+        "certificateDisplay": "7.301221441",
+        "source": "Compiled by Erich Friedman; Found by David W. Cantrell in July 2002. Source expression: s = 7.301+.",
+        "url": "https://erich-friedman.github.io/packing/squintri/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.131652498",
+            "x": "0.485528115",
+            "y": "0.703995978"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.417046422",
+            "y": "0.585382206"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.564603964",
+            "y": "0.567032591"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.348564729",
+            "y": "0.466768433"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.497116220",
+            "y": "0.447844962"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.280083035",
+            "y": "0.348154661"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.645985401",
+            "y": "0.342944326"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.427640577",
+            "y": "0.329805047"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.211601342",
+            "y": "0.229540889"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.578515685",
+            "y": "0.205518674"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.715479072",
+            "y": "0.205518674"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.441552299",
+            "y": "0.167775621"
+          },
+          {
+            "turn": "-0.231047659",
+            "x": "0.304868993",
+            "y": "0.087031700"
+          },
+          {
+            "turn": "0.414223413",
+            "x": "0.149356608",
+            "y": "0.069343064"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.578515685",
+            "y": "0.068548295"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.715479072",
+            "y": "0.068548295"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.852442459",
+            "y": "0.068481693"
+          }
+        ],
+        "radius": "0.096847738"
+      }
+    },
+    {
+      "instanceId": "p85-n18-v1",
+      "name": "n = 18",
+      "parameters": {
+        "n": 18,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "7309401142367994442",
+      "scoreDisplay": "7.309401143",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "7.309",
+        "kind": "best",
+        "range": {
+          "lower": "7.309",
+          "upper": "7.31"
+        },
+        "truncated": true,
+        "certificateDisplay": "7.309401143",
+        "source": "Compiled by Erich Friedman; Found by Erich Friedman in 1997. Source expression: s = 5 + 4 / √3 = 7.309+.",
+        "url": "https://erich-friedman.github.io/packing/squintri/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.131652498",
+            "x": "0.132936724",
+            "y": "0.093443046"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.514455690",
+            "y": "0.704177300"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.582860747",
+            "y": "0.585696265"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.651265804",
+            "y": "0.467215231"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.406556954",
+            "y": "0.567367186"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.719670862",
+            "y": "0.348734196"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.456632931",
+            "y": "0.380481093"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.338151897",
+            "y": "0.448886151"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.788075919",
+            "y": "0.230253161"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.546202587",
+            "y": "0.262000058"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.388227874",
+            "y": "0.262000058"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.269746839",
+            "y": "0.330405116"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.852607586",
+            "y": "0.068405057"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.715797471",
+            "y": "0.068405057"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.578987357",
+            "y": "0.068405057"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.442177242",
+            "y": "0.068405057"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.305367127",
+            "y": "0.068405057"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.201341782",
+            "y": "0.211924081"
+          }
+        ],
+        "radius": "0.096739359"
+      }
+    },
+    {
+      "instanceId": "p85-n19-v1",
+      "name": "n = 19",
+      "parameters": {
+        "n": 19,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "7464101732593910445",
+      "scoreDisplay": "7.464101733",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "7.464",
+        "kind": "best",
+        "range": {
+          "lower": "7.464",
+          "upper": "7.465"
+        },
+        "truncated": true,
+        "certificateDisplay": "7.464101733",
+        "source": "Compiled by Erich Friedman; Found by Erich Friedman in 1997. Source expression: s = 4 + 2 √3 = 7.464+.",
+        "url": "https://erich-friedman.github.io/packing/squintri/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.131652498",
+            "x": "0.351869322",
+            "y": "0.207531755"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.130181486",
+            "y": "0.091506351"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.514156082",
+            "y": "0.707531755"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.581143380",
+            "y": "0.591506351"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.648130678",
+            "y": "0.475480947"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.408493649",
+            "y": "0.573557159"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.725480947",
+            "y": "0.341506351"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.485843918",
+            "y": "0.439582562"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.341506351",
+            "y": "0.457531755"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.792468245",
+            "y": "0.225480947"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.623611625",
+            "y": "0.200961894"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.418856620",
+            "y": "0.323557159"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.264156082",
+            "y": "0.323557159"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.855662433",
+            "y": "0.066987298"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.721687836",
+            "y": "0.066987298"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.587713240",
+            "y": "0.066987298"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.453738644",
+            "y": "0.066987298"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.284882024",
+            "y": "0.091506351"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.197168784",
+            "y": "0.207531755"
+          }
+        ],
+        "radius": "0.094734344"
+      }
+    },
+    {
+      "instanceId": "p85-n20-v1",
+      "name": "n = 20",
+      "parameters": {
+        "n": 20,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "7616954283411467042",
+      "scoreDisplay": "7.616954284",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "7.61695",
+        "kind": "best",
+        "range": {
+          "lower": "7.61695",
+          "upper": "7.61696"
+        },
+        "truncated": true,
+        "certificateDisplay": "7.616954284",
+        "source": "Compiled by Erich Friedman; Found by Haowei Lin in July 2026. Source expression: s = 7.61695+.",
+        "url": "https://erich-friedman.github.io/packing/squintri/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.131652498",
+            "x": "0.486123621",
+            "y": "0.710704738"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.420470681",
+            "y": "0.596990509"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.561926044",
+            "y": "0.579426240"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.354825969",
+            "y": "0.483290533"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.496283007",
+            "y": "0.465729166"
+          },
+          {
+            "turn": "-0.122541828",
+            "x": "0.662727702",
+            "y": "0.441408945"
+          },
+          {
+            "turn": "-0.068598303",
+            "x": "0.571706786",
+            "y": "0.332644473"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.734036221",
+            "y": "0.329376706"
+          },
+          {
+            "turn": "-0.395459928",
+            "x": "0.414609275",
+            "y": "0.328467898"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.258855152",
+            "y": "0.317064203"
+          },
+          {
+            "turn": "-0.068598303",
+            "x": "0.637864501",
+            "y": "0.218055949"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.799999854",
+            "y": "0.215124342"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.193212116",
+            "y": "0.203367129"
+          },
+          {
+            "turn": "-0.414105290",
+            "x": "0.476337674",
+            "y": "0.197004097"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.127569080",
+            "y": "0.089670055"
+          },
+          {
+            "turn": "-0.203095735",
+            "x": "0.710810947",
+            "y": "0.086310777"
+          },
+          {
+            "turn": "-0.304463964",
+            "x": "0.859248093",
+            "y": "0.077102556"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.424323257",
+            "y": "0.065697223"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.293037184",
+            "y": "0.065643036"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.555609329",
+            "y": "0.065643036"
+          }
+        ],
+        "radius": "0.092833271"
+      }
+    },
+    {
+      "instanceId": "p85-n21-v1",
+      "name": "n = 21",
+      "parameters": {
+        "n": 21,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "7618802247706634561",
+      "scoreDisplay": "7.618802248",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "7.618",
+        "kind": "best",
+        "range": {
+          "lower": "7.618",
+          "upper": "7.619"
+        },
+        "truncated": true,
+        "certificateDisplay": "7.618802248",
+        "source": "Compiled by Erich Friedman; Found by Erich Friedman in 1997. Source expression: s = 3 + 8 / √3 = 7.618+.",
+        "url": "https://erich-friedman.github.io/packing/squintri/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.131652498",
+            "x": "0.496283909",
+            "y": "0.203317802"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.344724580",
+            "y": "0.203317802"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.127538137",
+            "y": "0.089648305"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.438088977",
+            "y": "0.579495755"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.513868641",
+            "y": "0.710749984"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.579495755",
+            "y": "0.597080488"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.645122870",
+            "y": "0.483410991"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.503716091",
+            "y": "0.465826259"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.710749984",
+            "y": "0.369741495"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.579495755",
+            "y": "0.334572030"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.324419480",
+            "y": "0.430656794"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.782813557",
+            "y": "0.196881343"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.651559329",
+            "y": "0.196881343"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.410351695",
+            "y": "0.316987298"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.258792366",
+            "y": "0.316987298"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.858593221",
+            "y": "0.065627114"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.727338993",
+            "y": "0.065627114"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.596084764",
+            "y": "0.065627114"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.430656794",
+            "y": "0.089648305"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.279097466",
+            "y": "0.089648305"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.193165252",
+            "y": "0.203317802"
+          }
+        ],
+        "radius": "0.092810754"
+      }
+    },
+    {
+      "instanceId": "p85-n22-v1",
+      "name": "n = 22",
+      "parameters": {
+        "n": 22,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "8154700639745728060",
+      "scoreDisplay": "8.15470064",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "8.15470",
+        "kind": "best",
+        "range": {
+          "lower": "8.1547",
+          "upper": "8.15471"
+        },
+        "truncated": true,
+        "certificateDisplay": "8.15470064",
+        "source": "Compiled by Erich Friedman; Found by Erich Friedman in 1997. Source expression: s = 7 + 2 / √3 = 8.15470+.",
+        "url": "https://erich-friedman.github.io/packing/squintri/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "-0.414213562",
+            "x": "0.132114020",
+            "y": "0.061314330"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.254742680",
+            "y": "0.061314330"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.377371340",
+            "y": "0.061314330"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.500000000",
+            "y": "0.061314330"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.622628660",
+            "y": "0.061314330"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.745257320",
+            "y": "0.061314330"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.867885980",
+            "y": "0.061314330"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.254742680",
+            "y": "0.183942990"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.377371340",
+            "y": "0.183942990"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.500000000",
+            "y": "0.183942990"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.622628660",
+            "y": "0.183942990"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.745257320",
+            "y": "0.183942990"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.316057010",
+            "y": "0.306571650"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.438685670",
+            "y": "0.306571650"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.561314330",
+            "y": "0.306571650"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.683942990",
+            "y": "0.306571650"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.377371340",
+            "y": "0.429200310"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.500000000",
+            "y": "0.429200310"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.622628660",
+            "y": "0.429200310"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.438685670",
+            "y": "0.551828970"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.561314330",
+            "y": "0.551828970"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.500000000",
+            "y": "0.674457630"
+          }
+        ],
+        "radius": "0.086711556"
+      }
+    },
+    {
+      "instanceId": "p85-n23-v1",
+      "name": "n = 23",
+      "parameters": {
+        "n": 23,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "8301221413482027798",
+      "scoreDisplay": "8.301221414",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "8.301",
+        "kind": "best",
+        "range": {
+          "lower": "8.301",
+          "upper": "8.302"
+        },
+        "truncated": true,
+        "certificateDisplay": "8.301221414",
+        "source": "Compiled by Erich Friedman; Found by David W. Cantrell in July 2002. Source expression: s = 8.301+.",
+        "url": "https://erich-friedman.github.io/packing/squintri/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.131652498",
+            "x": "0.487271459",
+            "y": "0.723514723"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.427039359",
+            "y": "0.619189664"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.556821499",
+            "y": "0.603050522"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.367494001",
+            "y": "0.514468114"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.498355296",
+            "y": "0.497705921"
+          },
+          {
+            "turn": "0.414210431",
+            "x": "0.627737227",
+            "y": "0.422158883"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.306575157",
+            "y": "0.410539547"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.437138539",
+            "y": "0.393949354"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.246343056",
+            "y": "0.306214488"
+          },
+          {
+            "turn": "0.414208565",
+            "x": "0.569329776",
+            "y": "0.301679017"
+          },
+          {
+            "turn": "0.414209957",
+            "x": "0.689794313",
+            "y": "0.301678380"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.376125196",
+            "y": "0.290075345"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.186110955",
+            "y": "0.201889429"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.508825255",
+            "y": "0.181198622"
+          },
+          {
+            "turn": "0.414207456",
+            "x": "0.629290085",
+            "y": "0.181197051"
+          },
+          {
+            "turn": "0.414200653",
+            "x": "0.749754986",
+            "y": "0.181196175"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.388361054",
+            "y": "0.147564664"
+          },
+          {
+            "turn": "-0.231047658",
+            "x": "0.268143194",
+            "y": "0.076547495"
+          },
+          {
+            "turn": "0.414224323",
+            "x": "0.130700788",
+            "y": "0.060871247"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.508825255",
+            "y": "0.060715696"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.629289457",
+            "y": "0.060714821"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.749753658",
+            "y": "0.060714821"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.870217860",
+            "y": "0.060232101"
+          }
+        ],
+        "radius": "0.085181053"
+      }
+    },
+    {
+      "instanceId": "p85-n24-v1",
+      "name": "n = 24",
+      "parameters": {
+        "n": 24,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "8309401165692247909",
+      "scoreDisplay": "8.309401166",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "8.309",
+        "kind": "best",
+        "range": {
+          "lower": "8.309",
+          "upper": "8.31"
+        },
+        "truncated": true,
+        "certificateDisplay": "8.309401166",
+        "source": "Compiled by Erich Friedman; Found by Erich Friedman in 1997. Source expression: s = 6 + 4 / √3 = 8.309+.",
+        "url": "https://erich-friedman.github.io/packing/squintri/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.131652498",
+            "x": "0.116938372",
+            "y": "0.082197585"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.512716011",
+            "y": "0.723655010"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.572888819",
+            "y": "0.619432649"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.633061628",
+            "y": "0.515210287"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.417802415",
+            "y": "0.603309393"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.693234436",
+            "y": "0.410987925"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.466506351",
+            "y": "0.446975851"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.357629606",
+            "y": "0.499087032"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.753407245",
+            "y": "0.306765564"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.540642308",
+            "y": "0.334691861"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.406333542",
+            "y": "0.342753489"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.297456798",
+            "y": "0.394864670"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.813580053",
+            "y": "0.202543202"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.610123883",
+            "y": "0.214346244"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.480469500",
+            "y": "0.230469500"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.346160734",
+            "y": "0.238531127"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.237283989",
+            "y": "0.290642308"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.870345617",
+            "y": "0.060172809"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.750000000",
+            "y": "0.060172809"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.629654383",
+            "y": "0.060172809"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.509308766",
+            "y": "0.060172809"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.388963149",
+            "y": "0.060172809"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.268617532",
+            "y": "0.060172809"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.177111181",
+            "y": "0.186419947"
+          }
+        ],
+        "radius": "0.085097201"
+      }
+    },
+    {
+      "instanceId": "p85-n25-v1",
+      "name": "n = 25",
+      "parameters": {
+        "n": 25,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "8464101686444985751",
+      "scoreDisplay": "8.464101687",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "8.464",
+        "kind": "best",
+        "range": {
+          "lower": "8.464",
+          "upper": "8.465"
+        },
+        "truncated": true,
+        "certificateDisplay": "8.464101687",
+        "source": "Compiled by Erich Friedman; Found by Erich Friedman in 1997. Source expression: s = 5 + 2 √3 = 8.464+.",
+        "url": "https://erich-friedman.github.io/packing/squintri/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.131652498",
+            "x": "0.514932285",
+            "y": "0.301158731"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.310297359",
+            "y": "0.183012702"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.114801060",
+            "y": "0.080695239"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.512483597",
+            "y": "0.726257150"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.571556612",
+            "y": "0.623939687"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.419304761",
+            "y": "0.608111120"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.630629627",
+            "y": "0.521622224"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.487516403",
+            "y": "0.489965091"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.360231746",
+            "y": "0.505793657"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.757914283",
+            "y": "0.301158731"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.689702641",
+            "y": "0.419304761"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.428443388",
+            "y": "0.387647628"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.292020104",
+            "y": "0.387647628"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.816987298",
+            "y": "0.198841269"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.668080417",
+            "y": "0.177219044"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.455859270",
+            "y": "0.198841269"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.369370373",
+            "y": "0.285330165"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.232947090",
+            "y": "0.285330165"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.872715343",
+            "y": "0.059073015"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.754569314",
+            "y": "0.059073015"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.636423284",
+            "y": "0.059073015"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.518277254",
+            "y": "0.059073015"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.400131225",
+            "y": "0.059073015"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.251224344",
+            "y": "0.080695239"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.173874075",
+            "y": "0.183012702"
+          }
+        ],
+        "radius": "0.083541858"
+      }
+    },
+    {
+      "instanceId": "p85-n26-v1",
+      "name": "n = 26",
+      "parameters": {
+        "n": 26,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "8618802343230687699",
+      "scoreDisplay": "8.618802344",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "8.618",
+        "kind": "best",
+        "range": {
+          "lower": "8.618",
+          "upper": "8.619"
+        },
+        "truncated": true,
+        "certificateDisplay": "8.618802344",
+        "source": "Compiled by Erich Friedman; Found by Erich Friedman in 1997. Source expression: s = 4 + 8 / √3 = 8.618+.",
+        "url": "https://erich-friedman.github.io/packing/squintri/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.131652498",
+            "x": "0.438702368",
+            "y": "0.179727772"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.304727772",
+            "y": "0.179727772"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.112740474",
+            "y": "0.079246825"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.445272228",
+            "y": "0.612740474"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.512259526",
+            "y": "0.728765877"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.570272228",
+            "y": "0.628284930"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.628284930",
+            "y": "0.527803983"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.503284930",
+            "y": "0.512259526"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.699759526",
+            "y": "0.404006351"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.561297632",
+            "y": "0.411778579"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.378284930",
+            "y": "0.496715070"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.757772228",
+            "y": "0.303525404"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.619310334",
+            "y": "0.311297632"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.436297632",
+            "y": "0.396234123"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.286778579",
+            "y": "0.380689666"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.815784930",
+            "y": "0.203044457"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.677323036",
+            "y": "0.210816685"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.362740474",
+            "y": "0.280208719"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.228765877",
+            "y": "0.280208719"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.875000000",
+            "y": "0.058012702"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.758974596",
+            "y": "0.058012702"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.642949192",
+            "y": "0.058012702"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.526923789",
+            "y": "0.058012702"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.380689666",
+            "y": "0.079246825"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.246715070",
+            "y": "0.079246825"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.170753175",
+            "y": "0.179727772"
+          }
+        ],
+        "radius": "0.082042348"
+      }
+    },
+    {
+      "instanceId": "p85-n27-v1",
+      "name": "n = 27",
+      "parameters": {
+        "n": 27,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "8618802343230687699",
+      "scoreDisplay": "8.618802344",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "8.618",
+        "kind": "best",
+        "range": {
+          "lower": "8.618",
+          "upper": "8.619"
+        },
+        "truncated": true,
+        "certificateDisplay": "8.618802344",
+        "source": "Compiled by Erich Friedman; Found by Erich Friedman in 1997. Source expression: s = 4 + 8 / √3 = 8.618+.",
+        "url": "https://erich-friedman.github.io/packing/squintri/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "-0.414213562",
+            "x": "0.125000000",
+            "y": "0.058012702"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.241025404",
+            "y": "0.058012702"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.357050808",
+            "y": "0.058012702"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.473076211",
+            "y": "0.058012702"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.191987298",
+            "y": "0.174038106"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.308012702",
+            "y": "0.174038106"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.424038106",
+            "y": "0.174038106"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.258974596",
+            "y": "0.290063509"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.375000000",
+            "y": "0.290063509"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.887259526",
+            "y": "0.079246825"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.829246825",
+            "y": "0.179727772"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.771234123",
+            "y": "0.280208719"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.713221421",
+            "y": "0.380689666"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.753284930",
+            "y": "0.079246825"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.695272228",
+            "y": "0.179727772"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.637259526",
+            "y": "0.280208719"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.619310334",
+            "y": "0.079246825"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.561297632",
+            "y": "0.179727772"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.487740474",
+            "y": "0.728765877"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.429727772",
+            "y": "0.628284930"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.371715070",
+            "y": "0.527803983"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.313702368",
+            "y": "0.427323036"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.554727772",
+            "y": "0.612740474"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.496715070",
+            "y": "0.512259526"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.438702368",
+            "y": "0.411778579"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.621715070",
+            "y": "0.496715070"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.563702368",
+            "y": "0.396234123"
+          }
+        ],
+        "radius": "0.082042348"
+      }
+    },
+    {
+      "instanceId": "p85-n28-v1",
+      "name": "n = 28",
+      "parameters": {
+        "n": 28,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "8773502875668180946",
+      "scoreDisplay": "8.773502876",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "8.773",
+        "kind": "best",
+        "range": {
+          "lower": "8.773",
+          "upper": "8.774"
+        },
+        "truncated": true,
+        "certificateDisplay": "8.773502876",
+        "source": "Compiled by Erich Friedman; Found by Erich Friedman in 1997. Source expression: s = 3 + 10 / √3 = 8.773+.",
+        "url": "https://erich-friedman.github.io/packing/squintri/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.131652498",
+            "x": "0.430966861",
+            "y": "0.176558686"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.110752555",
+            "y": "0.077849489"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.299354598",
+            "y": "0.176558686"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.380431095",
+            "y": "0.503227008"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.446237227",
+            "y": "0.617206571"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.512043358",
+            "y": "0.731186133"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.569033139",
+            "y": "0.632476937"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.643655620",
+            "y": "0.503227008"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.503227008",
+            "y": "0.518497374"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.700645402",
+            "y": "0.404517811"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.573441314",
+            "y": "0.396882628"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.437420877",
+            "y": "0.404517811"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.757635183",
+            "y": "0.305808614"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.630431095",
+            "y": "0.298173431"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.281721899",
+            "y": "0.373977079"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.811397956",
+            "y": "0.170969344"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.697418394",
+            "y": "0.170969344"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.562579123",
+            "y": "0.176558686"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.494410658",
+            "y": "0.305808614"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.356344380",
+            "y": "0.275267883"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.224732117",
+            "y": "0.275267883"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.877204087",
+            "y": "0.056989781"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.763224525",
+            "y": "0.056989781"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.649244962",
+            "y": "0.056989781"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.505589342",
+            "y": "0.077849489"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.373977079",
+            "y": "0.077849489"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.242364817",
+            "y": "0.077849489"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.167742336",
+            "y": "0.176558686"
+          }
+        ],
+        "radius": "0.080595720"
+      }
+    },
+    {
+      "instanceId": "p85-n29-v1",
+      "name": "n = 29",
+      "parameters": {
+        "n": 29,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "9154700660492145365",
+      "scoreDisplay": "9.154700661",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "9.154",
+        "kind": "best",
+        "range": {
+          "lower": "9.154",
+          "upper": "9.155"
+        },
+        "truncated": true,
+        "certificateDisplay": "9.154700661",
+        "source": "Compiled by Erich Friedman; Found by Erich Friedman in 1997. Source expression: s = 8 + 2 / √3 = 9.154+.",
+        "url": "https://erich-friedman.github.io/packing/squintri/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "-0.414213562",
+            "x": "0.117682743",
+            "y": "0.054616751"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.226916245",
+            "y": "0.054616751"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.336149747",
+            "y": "0.054616751"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.445383249",
+            "y": "0.054616751"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.554616751",
+            "y": "0.054616751"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.663850253",
+            "y": "0.054616751"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.773083755",
+            "y": "0.054616751"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.882317257",
+            "y": "0.054616751"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.226916245",
+            "y": "0.163850253"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.336149747",
+            "y": "0.163850253"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.445383249",
+            "y": "0.163850253"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.554616751",
+            "y": "0.163850253"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.663850253",
+            "y": "0.163850253"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.773083755",
+            "y": "0.163850253"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.281532996",
+            "y": "0.273083755"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.390766498",
+            "y": "0.273083755"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.500000000",
+            "y": "0.273083755"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.609233502",
+            "y": "0.273083755"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.718467004",
+            "y": "0.273083755"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.336149747",
+            "y": "0.382317257"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.445383249",
+            "y": "0.382317257"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.554616751",
+            "y": "0.382317257"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.663850253",
+            "y": "0.382317257"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.390766498",
+            "y": "0.491550759"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.500000000",
+            "y": "0.491550759"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.609233502",
+            "y": "0.491550759"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.445383249",
+            "y": "0.600784261"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.554616751",
+            "y": "0.600784261"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.500000000",
+            "y": "0.710017763"
+          }
+        ],
+        "radius": "0.077239749"
+      }
+    },
+    {
+      "instanceId": "p85-n30-v1",
+      "name": "n = 30",
+      "parameters": {
+        "n": 30,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "9301221506440215613",
+      "scoreDisplay": "9.301221507",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "9.301",
+        "kind": "best",
+        "range": {
+          "lower": "9.301",
+          "upper": "9.302"
+        },
+        "truncated": true,
+        "certificateDisplay": "9.301221507",
+        "source": "Compiled by Erich Friedman; Found by David W. Cantrell in July 2002. Source expression: s = 9.301+.",
+        "url": "https://erich-friedman.github.io/packing/squintri/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.131652498",
+            "x": "0.488639940",
+            "y": "0.738836440"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.434883559",
+            "y": "0.645727657"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.550712462",
+            "y": "0.631323678"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.381671156",
+            "y": "0.552304807"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.497926450",
+            "y": "0.537654651"
+          },
+          {
+            "turn": "0.414211995",
+            "x": "0.614311865",
+            "y": "0.484187230"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.330293407",
+            "y": "0.457822719"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.447299199",
+            "y": "0.442739264"
+          },
+          {
+            "turn": "0.414211873",
+            "x": "0.562046602",
+            "y": "0.376651047"
+          },
+          {
+            "turn": "0.414214302",
+            "x": "0.669571044",
+            "y": "0.376650960"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.273614415",
+            "y": "0.366401306"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.392780089",
+            "y": "0.350070842"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.219858034",
+            "y": "0.273292522"
+          },
+          {
+            "turn": "0.414211785",
+            "x": "0.506899544",
+            "y": "0.269067582"
+          },
+          {
+            "turn": "0.414213521",
+            "x": "0.614423985",
+            "y": "0.269067269"
+          },
+          {
+            "turn": "0.414214116",
+            "x": "0.724264706",
+            "y": "0.269067405"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.335686937",
+            "y": "0.258888543"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.166101652",
+            "y": "0.180183739"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.454120046",
+            "y": "0.161519287"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.561632809",
+            "y": "0.161519287"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.669145571",
+            "y": "0.161519287"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.776658334",
+            "y": "0.161519286"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.346607284",
+            "y": "0.131699580"
+          },
+          {
+            "turn": "-0.231047659",
+            "x": "0.239314378",
+            "y": "0.068317663"
+          },
+          {
+            "turn": "0.414212012",
+            "x": "0.116522777",
+            "y": "0.054937651"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.454120046",
+            "y": "0.053935664"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.561632809",
+            "y": "0.053935664"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.669145571",
+            "y": "0.053935664"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.776658334",
+            "y": "0.053935663"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.884171096",
+            "y": "0.053756381"
+          }
+        ],
+        "radius": "0.076023002"
+      }
+    },
+    {
+      "instanceId": "p85-n31-v1",
+      "name": "n = 31",
+      "parameters": {
+        "n": 31,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "9309401259527760556",
+      "scoreDisplay": "9.30940126",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "9.309",
+        "kind": "best",
+        "range": {
+          "lower": "9.309",
+          "upper": "9.31"
+        },
+        "truncated": true,
+        "certificateDisplay": "9.30940126",
+        "source": "Compiled by Erich Friedman; Found by Erich Friedman in 1997. Source expression: s = 7 + 4 / √3 = 9.309+.",
+        "url": "https://erich-friedman.github.io/packing/squintri/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.131652498",
+            "x": "0.488649922",
+            "y": "0.738948195"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.434940774",
+            "y": "0.645921222"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.573368061",
+            "y": "0.631529899"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.384740082",
+            "y": "0.550868641"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.621635142",
+            "y": "0.535360948"
+          },
+          {
+            "turn": "0.414205767",
+            "x": "0.493814798",
+            "y": "0.485599326"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.331457719",
+            "y": "0.457595263"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.678175377",
+            "y": "0.443968503"
+          },
+          {
+            "turn": "0.414205766",
+            "x": "0.437499999",
+            "y": "0.378181780"
+          },
+          {
+            "turn": "0.414213968",
+            "x": "0.547794118",
+            "y": "0.378180316"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.275626514",
+            "y": "0.365793460"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.733005460",
+            "y": "0.351588702"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.220519611",
+            "y": "0.273573481"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.385228581",
+            "y": "0.269255893"
+          },
+          {
+            "turn": "0.414213691",
+            "x": "0.492646994",
+            "y": "0.269255896"
+          },
+          {
+            "turn": "0.414215863",
+            "x": "0.600065596",
+            "y": "0.269256550"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.783354224",
+            "y": "0.256621611"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.166395034",
+            "y": "0.180786357"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.841913800",
+            "y": "0.166395034"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.330481975",
+            "y": "0.161837492"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.437900377",
+            "y": "0.161837492"
+          },
+          {
+            "turn": "0.414218214",
+            "x": "0.547393668",
+            "y": "0.161837514"
+          },
+          {
+            "turn": "0.414219796",
+            "x": "0.654812215",
+            "y": "0.161837657"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.895622948",
+            "y": "0.073368061"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.115727130",
+            "y": "0.053709148"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.223145426",
+            "y": "0.053709148"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.330563722",
+            "y": "0.054419089"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.437982018",
+            "y": "0.054419090"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.545400314",
+            "y": "0.054418689"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.652818610",
+            "y": "0.054418720"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.760236906",
+            "y": "0.053709148"
+          }
+        ],
+        "radius": "0.075956204"
+      }
+    },
+    {
+      "instanceId": "p85-n32-v1",
+      "name": "n = 32",
+      "parameters": {
+        "n": 32,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "9464101701358370313",
+      "scoreDisplay": "9.464101702",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "9.464",
+        "kind": "best",
+        "range": {
+          "lower": "9.464",
+          "upper": "9.465"
+        },
+        "truncated": true,
+        "certificateDisplay": "9.464101702",
+        "source": "Compiled by Erich Friedman; Found by Erich Friedman in 1997. Source expression: s = 6 + 2 √3 = 9.464+.",
+        "url": "https://erich-friedman.github.io/packing/squintri/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.131652498",
+            "x": "0.488835450",
+            "y": "0.741025404"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.436004234",
+            "y": "0.649519053"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.572168784",
+            "y": "0.635362971"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.384960492",
+            "y": "0.556980703"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.624022072",
+            "y": "0.543292013"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.492805755",
+            "y": "0.478417266"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.331443080",
+            "y": "0.465870528"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.676665673",
+            "y": "0.451677343"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.278951474",
+            "y": "0.374168102"
+          },
+          {
+            "turn": "0.414221741",
+            "x": "0.438046237",
+            "y": "0.372340505"
+          },
+          {
+            "turn": "0.414221741",
+            "x": "0.543968144",
+            "y": "0.372341967"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.729532220",
+            "y": "0.360191390"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.224679369",
+            "y": "0.283493649"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.783493649",
+            "y": "0.269337567"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.386164550",
+            "y": "0.266417858"
+          },
+          {
+            "turn": "0.414221384",
+            "x": "0.492003073",
+            "y": "0.266419348"
+          },
+          {
+            "turn": "0.414221744",
+            "x": "0.597924984",
+            "y": "0.266420810"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.836324865",
+            "y": "0.177831216"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.174839684",
+            "y": "0.158493649"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.280502117",
+            "y": "0.158493649"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.386164550",
+            "y": "0.160495947"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.491826982",
+            "y": "0.160497413"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.597489415",
+            "y": "0.160498899"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.703151848",
+            "y": "0.158493649"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.113835450",
+            "y": "0.052831216"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.219510220",
+            "y": "0.052831216"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.325172657",
+            "y": "0.052831216"
+          },
+          {
+            "turn": "0.414213600",
+            "x": "0.430844144",
+            "y": "0.053956835"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.536589669",
+            "y": "0.053956835"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.642279524",
+            "y": "0.052831216"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.748201439",
+            "y": "0.052831216"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.854123350",
+            "y": "0.052831216"
+          }
+        ],
+        "radius": "0.074714622"
+      }
+    },
+    {
+      "instanceId": "p85-n33-v1",
+      "name": "n = 33",
+      "parameters": {
+        "n": 33,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "9618802280383092156",
+      "scoreDisplay": "9.618802281",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "9.618",
+        "kind": "best",
+        "range": {
+          "lower": "9.618",
+          "upper": "9.619"
+        },
+        "truncated": true,
+        "certificateDisplay": "9.618802281",
+        "source": "Compiled by Erich Friedman; Found by Erich Friedman in 1997. Source expression: s = 5 + 8 / √3 = 9.618+.",
+        "url": "https://erich-friedman.github.io/packing/squintri/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.131652498",
+            "x": "0.393093532",
+            "y": "0.161042725"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.273047343",
+            "y": "0.161042725"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.101019630",
+            "y": "0.071008083"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.450961894",
+            "y": "0.639072747"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.510984989",
+            "y": "0.743035796"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.562966513",
+            "y": "0.653001155"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.614948038",
+            "y": "0.562966513"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.502943419",
+            "y": "0.549038106"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.666929562",
+            "y": "0.472931872"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.554924943",
+            "y": "0.459003464"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.390938800",
+            "y": "0.535109698"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.718911087",
+            "y": "0.382897230"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.606906468",
+            "y": "0.368968823"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.442920324",
+            "y": "0.445075057"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.308945728",
+            "y": "0.431146649"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.770892611",
+            "y": "0.292862589"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.658887992",
+            "y": "0.278934181"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.475086604",
+            "y": "0.303058891"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.377010392",
+            "y": "0.341112008"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.256964204",
+            "y": "0.341112008"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.827972287",
+            "y": "0.155944574"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.724009238",
+            "y": "0.155944574"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.620046189",
+            "y": "0.155944574"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.516083140",
+            "y": "0.155944574"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.325028868",
+            "y": "0.251077366"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.204982679",
+            "y": "0.251077366"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.887995381",
+            "y": "0.051981525"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.784032332",
+            "y": "0.051981525"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.680069283",
+            "y": "0.051981525"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.576106234",
+            "y": "0.051981525"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.472143185",
+            "y": "0.051981525"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.341112008",
+            "y": "0.071008083"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.221065819",
+            "y": "0.071008083"
+          }
+        ],
+        "radius": "0.073512976"
+      }
+    },
+    {
+      "instanceId": "p85-n34-v1",
+      "name": "n = 34",
+      "parameters": {
+        "n": 34,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "9618802280383092156",
+      "scoreDisplay": "9.618802281",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "9.618",
+        "kind": "best",
+        "range": {
+          "lower": "9.618",
+          "upper": "9.619"
+        },
+        "truncated": true,
+        "certificateDisplay": "9.618802281",
+        "source": "Compiled by Erich Friedman; Found by Erich Friedman in 1997. Source expression: s = 5 + 8 / √3 = 9.618+.",
+        "url": "https://erich-friedman.github.io/packing/squintri/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.131652498",
+            "x": "0.393093532",
+            "y": "0.161042725"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.273047343",
+            "y": "0.161042725"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.101019630",
+            "y": "0.071008083"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.450961894",
+            "y": "0.639072747"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.510984989",
+            "y": "0.743035796"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.562966513",
+            "y": "0.653001155"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.614948038",
+            "y": "0.562966513"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.502943419",
+            "y": "0.549038106"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.666929562",
+            "y": "0.472931872"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.554924943",
+            "y": "0.459003464"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.390938800",
+            "y": "0.535109698"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.718911087",
+            "y": "0.382897230"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.606906468",
+            "y": "0.368968823"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.442920324",
+            "y": "0.445075057"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.308945728",
+            "y": "0.431146649"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.770892611",
+            "y": "0.292862589"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.658887992",
+            "y": "0.278934181"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.475086604",
+            "y": "0.303058891"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.377010392",
+            "y": "0.341112008"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.256964204",
+            "y": "0.341112008"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.827972287",
+            "y": "0.155944574"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.724009238",
+            "y": "0.155944574"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.620046189",
+            "y": "0.155944574"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.516083140",
+            "y": "0.155944574"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.325028868",
+            "y": "0.251077366"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.204982679",
+            "y": "0.251077366"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.887995381",
+            "y": "0.051981525"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.784032332",
+            "y": "0.051981525"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.680069283",
+            "y": "0.051981525"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.576106234",
+            "y": "0.051981525"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.472143185",
+            "y": "0.051981525"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.341112008",
+            "y": "0.071008083"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.221065819",
+            "y": "0.071008083"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.153001155",
+            "y": "0.161042725"
+          }
+        ],
+        "radius": "0.073512976"
+      }
+    },
+    {
+      "instanceId": "p85-n35-v1",
+      "name": "n = 35",
+      "parameters": {
+        "n": 35,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "9773502815754231290",
+      "scoreDisplay": "9.773502816",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "9.773",
+        "kind": "best",
+        "range": {
+          "lower": "9.773",
+          "upper": "9.774"
+        },
+        "truncated": true,
+        "certificateDisplay": "9.773502816",
+        "source": "Compiled by Erich Friedman; Found by Erich Friedman in 1997. Source expression: s = 4 + 10 / √3 = 9.773+.",
+        "url": "https://erich-friedman.github.io/packing/squintri/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.131652498",
+            "x": "0.615249201",
+            "y": "0.349420634"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.099420634",
+            "y": "0.069884127"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.445944440",
+            "y": "0.465446038"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.319884127",
+            "y": "0.451738097"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.510811112",
+            "y": "0.744982545"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.561969844",
+            "y": "0.656373023"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.422201590",
+            "y": "0.628957142"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.607334918",
+            "y": "0.540347619"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.497103171",
+            "y": "0.554055560"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.371042858",
+            "y": "0.540347619"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.747103171",
+            "y": "0.335712693"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.666407932",
+            "y": "0.438030156"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.556176186",
+            "y": "0.451738097"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.394785708",
+            "y": "0.376836516"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.268725395",
+            "y": "0.363128575"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.798261903",
+            "y": "0.247103171"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.680115873",
+            "y": "0.247103171"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.505017455",
+            "y": "0.363128575"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.453858723",
+            "y": "0.274519053"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.343626977",
+            "y": "0.288226994"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.217566664",
+            "y": "0.274519053"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.849420634",
+            "y": "0.158493649"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.731274605",
+            "y": "0.158493649"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.597300008",
+            "y": "0.185909531"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.476257150",
+            "y": "0.153476194"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.373939687",
+            "y": "0.153476194"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.271622224",
+            "y": "0.153476194"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.900579366",
+            "y": "0.069884127"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.782433336",
+            "y": "0.069884127"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.653476194",
+            "y": "0.051158731"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.551158731",
+            "y": "0.051158731"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.448841269",
+            "y": "0.051158731"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.346523806",
+            "y": "0.051158731"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.244206343",
+            "y": "0.051158731"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.150579366",
+            "y": "0.158493649"
+          }
+        ],
+        "radius": "0.072349371"
+      }
+    },
+    {
+      "instanceId": "p85-n36-v1",
+      "name": "n = 36",
+      "parameters": {
+        "n": 36,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "9773502815754231290",
+      "scoreDisplay": "9.773502816",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "9.773",
+        "kind": "best",
+        "range": {
+          "lower": "9.773",
+          "upper": "9.774"
+        },
+        "truncated": true,
+        "certificateDisplay": "9.773502816",
+        "source": "Compiled by Erich Friedman; Found by Erich Friedman in 1997. Source expression: s = 4 + 10 / √3 = 9.773+.",
+        "url": "https://erich-friedman.github.io/packing/squintri/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.131652498",
+            "x": "0.386871425",
+            "y": "0.158493649"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.268725395",
+            "y": "0.158493649"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.099420634",
+            "y": "0.069884127"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.392665082",
+            "y": "0.540347619"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.451738097",
+            "y": "0.642665082"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.510811112",
+            "y": "0.744982545"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.561969844",
+            "y": "0.656373023"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.613128575",
+            "y": "0.567763501"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.502896829",
+            "y": "0.554055560"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.664287307",
+            "y": "0.479153979"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.554055560",
+            "y": "0.465446038"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.443823814",
+            "y": "0.451738097"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.715446038",
+            "y": "0.390544457"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.605214292",
+            "y": "0.376836516"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.494982545",
+            "y": "0.363128575"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.304055560",
+            "y": "0.424322216"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.771622224",
+            "y": "0.255793657"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.669304761",
+            "y": "0.255793657"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.566987298",
+            "y": "0.255793657"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.371042858",
+            "y": "0.335712693"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.252896829",
+            "y": "0.335712693"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.830695239",
+            "y": "0.153476194"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.728377776",
+            "y": "0.153476194"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.626060313",
+            "y": "0.153476194"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.523742850",
+            "y": "0.153476194"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.438030156",
+            "y": "0.247103171"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.319884127",
+            "y": "0.247103171"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.201738097",
+            "y": "0.247103171"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.889768254",
+            "y": "0.051158731"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.787450791",
+            "y": "0.051158731"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.685133328",
+            "y": "0.051158731"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.582815865",
+            "y": "0.051158731"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.480498402",
+            "y": "0.051158731"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.335712693",
+            "y": "0.069884127"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.217566664",
+            "y": "0.069884127"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.150579366",
+            "y": "0.158493649"
+          }
+        ],
+        "radius": "0.072349371"
+      }
+    },
+    {
+      "instanceId": "p85-n37-v1",
+      "name": "n = 37",
+      "parameters": {
+        "n": 37,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "14480990808653441008",
+      "scoreDisplay": "14.480990809",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "10.15299",
+        "kind": "best",
+        "range": {
+          "lower": "10.15299",
+          "upper": "10.153"
+        },
+        "truncated": true,
+        "source": "Compiled by Erich Friedman; Found by Gianluca Costantino in May 2026. Source expression: s = 10.15299+.",
+        "url": "https://erich-friedman.github.io/packing/squintri/"
+      },
+      "holder": "迪",
+      "method": "ai",
+      "recordedAt": "2026-09-14T23:43:07.405Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.000000000",
+            "x": "0.109360000",
+            "y": "0.048830000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.207020000",
+            "y": "0.048830000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.304680000",
+            "y": "0.048830000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.402340000",
+            "y": "0.048830000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.048830000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.597660000",
+            "y": "0.048830000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.695320000",
+            "y": "0.048830000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.792980000",
+            "y": "0.048830000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.890640000",
+            "y": "0.048830000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.207020000",
+            "y": "0.146490000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.304680000",
+            "y": "0.146490000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.402340000",
+            "y": "0.146490000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.146490000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.597660000",
+            "y": "0.146490000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.695320000",
+            "y": "0.146490000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.792980000",
+            "y": "0.146490000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.255850000",
+            "y": "0.244150000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.353510000",
+            "y": "0.244150000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.451170000",
+            "y": "0.244150000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.548830000",
+            "y": "0.244150000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.646490000",
+            "y": "0.244150000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.744150000",
+            "y": "0.244150000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.304680000",
+            "y": "0.341810000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.402340000",
+            "y": "0.341810000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.341810000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.597660000",
+            "y": "0.341810000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.695320000",
+            "y": "0.341810000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.353510000",
+            "y": "0.439470000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.451170000",
+            "y": "0.439470000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.548830000",
+            "y": "0.439470000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.646490000",
+            "y": "0.439470000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.402340000",
+            "y": "0.537130000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.537130000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.597660000",
+            "y": "0.537130000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.451170000",
+            "y": "0.634790000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.548830000",
+            "y": "0.634790000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.732450000"
+          }
+        ],
+        "radius": "0.048830000"
+      }
+    },
+    {
+      "instanceId": "p85-n38-v1",
+      "name": "n = 38",
+      "parameters": {
+        "n": 38,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "29168155015626635538",
+      "scoreDisplay": "29.168155016",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "10.304",
+        "kind": "best",
+        "range": {
+          "lower": "10.304",
+          "upper": "10.305"
+        },
+        "truncated": true,
+        "source": "Compiled by Erich Friedman; Found by Gianluca Costantino in April 2026. Source expression: s = 10.304+.",
+        "url": "https://erich-friedman.github.io/packing/squintri/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0",
+            "x": "0.285714286",
+            "y": "0.106666667"
+          },
+          {
+            "turn": "0",
+            "x": "0.357142857",
+            "y": "0.106666667"
+          },
+          {
+            "turn": "0",
+            "x": "0.428571429",
+            "y": "0.106666667"
+          },
+          {
+            "turn": "0",
+            "x": "0.500000000",
+            "y": "0.106666667"
+          },
+          {
+            "turn": "0",
+            "x": "0.571428571",
+            "y": "0.106666667"
+          },
+          {
+            "turn": "0",
+            "x": "0.642857143",
+            "y": "0.106666667"
+          },
+          {
+            "turn": "0",
+            "x": "0.714285714",
+            "y": "0.106666667"
+          },
+          {
+            "turn": "0",
+            "x": "0.285714286",
+            "y": "0.160000000"
+          },
+          {
+            "turn": "0",
+            "x": "0.357142857",
+            "y": "0.160000000"
+          },
+          {
+            "turn": "0",
+            "x": "0.428571429",
+            "y": "0.160000000"
+          },
+          {
+            "turn": "0",
+            "x": "0.500000000",
+            "y": "0.160000000"
+          },
+          {
+            "turn": "0",
+            "x": "0.571428571",
+            "y": "0.160000000"
+          },
+          {
+            "turn": "0",
+            "x": "0.642857143",
+            "y": "0.160000000"
+          },
+          {
+            "turn": "0",
+            "x": "0.714285714",
+            "y": "0.160000000"
+          },
+          {
+            "turn": "0",
+            "x": "0.285714286",
+            "y": "0.213333333"
+          },
+          {
+            "turn": "0",
+            "x": "0.357142857",
+            "y": "0.213333333"
+          },
+          {
+            "turn": "0",
+            "x": "0.428571429",
+            "y": "0.213333333"
+          },
+          {
+            "turn": "0",
+            "x": "0.500000000",
+            "y": "0.213333333"
+          },
+          {
+            "turn": "0",
+            "x": "0.571428571",
+            "y": "0.213333333"
+          },
+          {
+            "turn": "0",
+            "x": "0.642857143",
+            "y": "0.213333333"
+          },
+          {
+            "turn": "0",
+            "x": "0.714285714",
+            "y": "0.213333333"
+          },
+          {
+            "turn": "0",
+            "x": "0.285714286",
+            "y": "0.266666667"
+          },
+          {
+            "turn": "0",
+            "x": "0.357142857",
+            "y": "0.266666667"
+          },
+          {
+            "turn": "0",
+            "x": "0.428571429",
+            "y": "0.266666667"
+          },
+          {
+            "turn": "0",
+            "x": "0.500000000",
+            "y": "0.266666667"
+          },
+          {
+            "turn": "0",
+            "x": "0.571428571",
+            "y": "0.266666667"
+          },
+          {
+            "turn": "0",
+            "x": "0.642857143",
+            "y": "0.266666667"
+          },
+          {
+            "turn": "0",
+            "x": "0.714285714",
+            "y": "0.266666667"
+          },
+          {
+            "turn": "0",
+            "x": "0.285714286",
+            "y": "0.320000000"
+          },
+          {
+            "turn": "0",
+            "x": "0.357142857",
+            "y": "0.320000000"
+          },
+          {
+            "turn": "0",
+            "x": "0.428571429",
+            "y": "0.320000000"
+          },
+          {
+            "turn": "0",
+            "x": "0.500000000",
+            "y": "0.320000000"
+          },
+          {
+            "turn": "0",
+            "x": "0.571428571",
+            "y": "0.320000000"
+          },
+          {
+            "turn": "0",
+            "x": "0.642857143",
+            "y": "0.320000000"
+          },
+          {
+            "turn": "0",
+            "x": "0.714285714",
+            "y": "0.320000000"
+          },
+          {
+            "turn": "0",
+            "x": "0.285714286",
+            "y": "0.373333333"
+          },
+          {
+            "turn": "0",
+            "x": "0.357142857",
+            "y": "0.373333333"
+          },
+          {
+            "turn": "0",
+            "x": "0.428571429",
+            "y": "0.373333333"
+          }
+        ],
+        "radius": "0.024242424"
+      }
+    },
+    {
+      "instanceId": "p85-n39-v1",
+      "name": "n = 39",
+      "parameters": {
+        "n": 39,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "10309401267129283178",
+      "scoreDisplay": "10.309401268",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "10.30940",
+        "kind": "best",
+        "range": {
+          "lower": "10.3094",
+          "upper": "10.30941"
+        },
+        "truncated": true,
+        "certificateDisplay": "10.309401268",
+        "source": "Compiled by Erich Friedman; Found by Bhavithran Ananthan in July 2026. Source expression: s = 8 + 4 / √3 = 10.30940+.",
+        "url": "https://erich-friedman.github.io/packing/squintri/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.131652498",
+            "x": "0.489750866",
+            "y": "0.751274538"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.441251443",
+            "y": "0.667271074"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.566251443",
+            "y": "0.654275692"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.394877386",
+            "y": "0.582040529"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.613974006",
+            "y": "0.569823708"
+          },
+          {
+            "turn": "-0.300059210",
+            "x": "0.509285537",
+            "y": "0.532986350"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.344519242",
+            "y": "0.499110198"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.659465431",
+            "y": "0.484083576"
+          },
+          {
+            "turn": "0.077928099",
+            "x": "0.431990814",
+            "y": "0.444528394"
+          },
+          {
+            "turn": "-0.300667504",
+            "x": "0.555662555",
+            "y": "0.443022989"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.298147343",
+            "y": "0.413878408"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.711288098",
+            "y": "0.401998787"
+          },
+          {
+            "turn": "0.093828102",
+            "x": "0.382012868",
+            "y": "0.358510919"
+          },
+          {
+            "turn": "-0.230352285",
+            "x": "0.622770031",
+            "y": "0.344498847"
+          },
+          {
+            "turn": "-0.251180699",
+            "x": "0.522305259",
+            "y": "0.332883942"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.247709274",
+            "y": "0.330994222"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.759994586",
+            "y": "0.318114872"
+          },
+          {
+            "turn": "0.127116306",
+            "x": "0.320660764",
+            "y": "0.262335517"
+          },
+          {
+            "turn": "-0.111052614",
+            "x": "0.681756833",
+            "y": "0.255310021"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.198754833",
+            "y": "0.247253463"
+          },
+          {
+            "turn": "-0.407488738",
+            "x": "0.435996114",
+            "y": "0.243091269"
+          },
+          {
+            "turn": "-0.242739443",
+            "x": "0.554851406",
+            "y": "0.240587007"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.808659291",
+            "y": "0.234206834"
+          },
+          {
+            "turn": "-0.123651604",
+            "x": "0.734558408",
+            "y": "0.166949253"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.150254908",
+            "y": "0.163250289"
+          },
+          {
+            "turn": "-0.249444697",
+            "x": "0.615691221",
+            "y": "0.157552155"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.857247979",
+            "y": "0.150254908"
+          },
+          {
+            "turn": "-0.397766418",
+            "x": "0.274473662",
+            "y": "0.146848342"
+          },
+          {
+            "turn": "0.414513407",
+            "x": "0.372801353",
+            "y": "0.145529739"
+          },
+          {
+            "turn": "-0.404302325",
+            "x": "0.470593428",
+            "y": "0.146324173"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.905747402",
+            "y": "0.066251443"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.686494804",
+            "y": "0.051796680"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.395498268",
+            "y": "0.048504698"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.492497113",
+            "y": "0.048798717"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.104501732",
+            "y": "0.048499423"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.201500577",
+            "y": "0.048499423"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.298499423",
+            "y": "0.048506077"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.589495958",
+            "y": "0.048499436"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.783493649",
+            "y": "0.048499423"
+          }
+        ],
+        "radius": "0.068588540"
+      }
+    },
+    {
+      "instanceId": "p85-n40-v1",
+      "name": "n = 40",
+      "parameters": {
+        "n": 40,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "10464101788918753066",
+      "scoreDisplay": "10.464101789",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "10.46410",
+        "kind": "best",
+        "range": {
+          "lower": "10.4641",
+          "upper": "10.46411"
+        },
+        "truncated": true,
+        "certificateDisplay": "10.464101789",
+        "source": "Compiled by Erich Friedman; Found by Bhavithran Ananthan in July 2026. Source expression: s = 7 + 2√3 = 10.46410+.",
+        "url": "https://erich-friedman.github.io/packing/squintri/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.139014541",
+            "x": "0.490110712",
+            "y": "0.749757764"
+          },
+          {
+            "turn": "-0.123429023",
+            "x": "0.561519369",
+            "y": "0.660620124"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.432368715",
+            "y": "0.653319760"
+          },
+          {
+            "turn": "-0.131652498",
+            "x": "0.611127628",
+            "y": "0.577981885"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.381454130",
+            "y": "0.565133113"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.489902389",
+            "y": "0.561841364"
+          },
+          {
+            "turn": "-0.134829526",
+            "x": "0.652094646",
+            "y": "0.490844535"
+          },
+          {
+            "turn": "0.123879053",
+            "x": "0.334120273",
+            "y": "0.481238862"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.443875654",
+            "y": "0.478066161"
+          },
+          {
+            "turn": "0.152448479",
+            "x": "0.527449966",
+            "y": "0.427875972"
+          },
+          {
+            "turn": "-0.133299825",
+            "x": "0.706836569",
+            "y": "0.411900215"
+          },
+          {
+            "turn": "0.127536167",
+            "x": "0.285711072",
+            "y": "0.398444519"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.396333211",
+            "y": "0.395166053"
+          },
+          {
+            "turn": "0.197249610",
+            "x": "0.604267467",
+            "y": "0.360036818"
+          },
+          {
+            "turn": "0.156096206",
+            "x": "0.479998137",
+            "y": "0.344345038"
+          },
+          {
+            "turn": "-0.130619735",
+            "x": "0.748321517",
+            "y": "0.325239844"
+          },
+          {
+            "turn": "0.132014560",
+            "x": "0.238075541",
+            "y": "0.315114613"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.347534848",
+            "y": "0.312991050"
+          },
+          {
+            "turn": "0.245026390",
+            "x": "0.552631750",
+            "y": "0.260343476"
+          },
+          {
+            "turn": "0.282386149",
+            "x": "0.434417420",
+            "y": "0.249024471"
+          },
+          {
+            "turn": "-0.134136147",
+            "x": "0.801121920",
+            "y": "0.244986703"
+          },
+          {
+            "turn": "0.298251692",
+            "x": "0.651528258",
+            "y": "0.244202218"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.189548887",
+            "y": "0.232743482"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.312202526",
+            "y": "0.223041426"
+          },
+          {
+            "turn": "-0.105171451",
+            "x": "0.737367815",
+            "y": "0.162395751"
+          },
+          {
+            "turn": "-0.127593111",
+            "x": "0.850573838",
+            "y": "0.162488850"
+          },
+          {
+            "turn": "0.371675391",
+            "x": "0.611963484",
+            "y": "0.147812075"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.141293211",
+            "y": "0.149162199"
+          },
+          {
+            "turn": "0.363879433",
+            "x": "0.515428020",
+            "y": "0.149004586"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.250990335",
+            "y": "0.148033550"
+          },
+          {
+            "turn": "0.347033730",
+            "x": "0.416851128",
+            "y": "0.149481748"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.093323166",
+            "y": "0.066075643"
+          },
+          {
+            "turn": "0.131652498",
+            "x": "0.203207925",
+            "y": "0.065271987"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.419219108",
+            "y": "0.047870714"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.705913572",
+            "y": "0.048517341"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.801478393",
+            "y": "0.048996581"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.897043214",
+            "y": "0.047782411"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.323654287",
+            "y": "0.047782411"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.514783929",
+            "y": "0.047784526"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.610348751",
+            "y": "0.047784542"
+          }
+        ],
+        "radius": "0.067574532"
+      }
+    }
+  ]
+}

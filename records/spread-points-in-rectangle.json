@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/spread-points-in-rectangle",
-  "generatedAt": "2026-09-13T10:23:14.609Z",
+  "generatedAt": "2026-09-15T10:10:52.033Z",
   "instances": [
     {
       "instanceId": "p17-n4-v2",
@@ -65,10 +65,17 @@
       "objective": "maximize",
       "scoreStored": "1071796769493452864",
       "scoreDisplay": "1.03527618",
-      "status": "open",
-      "settled": false,
+      "status": "proven",
+      "settled": true,
       "recordStatus": "open",
-      "knownBest": null,
+      "knownBest": {
+        "display": "1.03527618",
+        "kind": "proven",
+        "exact": "√6 − √2",
+        "proofScope": "continuous",
+        "source": "XSsMC #250's two-square reduction using the classical three-point theorem, with an exact attaining witness checked by MinMax Arena. Continuous optimum sqrt(6) - sqrt(2); history retained, no decimal-grid optimality claim",
+        "url": "https://minmaxarena.com/proofs/spread-points-in-rectangle-n5"
+      },
       "holder": "HwaterB",
       "method": "human",
       "recordedAt": "2026-08-28T14:39:00.929Z",

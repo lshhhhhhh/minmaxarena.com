@@ -1,0 +1,5115 @@
+{
+  "problem": "triangles-in-disc",
+  "code": "P84",
+  "title": "等边三角形装入圆盘",
+  "titleEn": "Equilateral triangles in a disc",
+  "objective": "minimize",
+  "scoreLabel": "容器圆半径",
+  "scoreLabelEn": "container circle radius",
+  "verifierVersion": "1.0.0",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseName": "CC BY 4.0",
+  "source": "https://minmaxarena.com/problems/triangles-in-disc",
+  "generatedAt": "2026-09-15T10:10:57.247Z",
+  "instances": [
+    {
+      "instanceId": "p84-n3-v1",
+      "name": "n = 3",
+      "parameters": {
+        "n": 3,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "953511737649080797",
+      "scoreDisplay": "0.953511738",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "0.953",
+        "kind": "best",
+        "range": {
+          "lower": "0.953",
+          "upper": "0.954"
+        },
+        "truncated": true,
+        "certificateDisplay": "0.953511738",
+        "source": "Compiled by Erich Friedman; Found by Erich Friedman in 1997. Source expression: r = 3√3 − 3√2 = .953+.",
+        "url": "https://erich-friedman.github.io/packing/triincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "-0.267278838",
+            "x": "0.581189909",
+            "y": "1.302225690"
+          },
+          {
+            "turn": "-0.267278838",
+            "x": "1.341894523",
+            "y": "0.803177023"
+          },
+          {
+            "turn": "0.268619772",
+            "x": "0.581947453",
+            "y": "0.696727304"
+          }
+        ],
+        "radius": "0.605498859"
+      }
+    },
+    {
+      "instanceId": "p84-n4-v1",
+      "name": "n = 4",
+      "parameters": {
+        "n": 4,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "980597931143017357",
+      "scoreDisplay": "0.980597932",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "0.980",
+        "kind": "best",
+        "range": {
+          "lower": "0.98",
+          "upper": "0.981"
+        },
+        "truncated": true,
+        "certificateDisplay": "0.980597932",
+        "source": "Compiled by Erich Friedman; Found by Erich Friedman in 1997. Source expression: r = .980+.",
+        "url": "https://erich-friedman.github.io/packing/triincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "-0.267782820",
+            "x": "0.999872327",
+            "y": "1.411226282"
+          },
+          {
+            "turn": "0.268115579",
+            "x": "0.516797310",
+            "y": "0.822302576"
+          },
+          {
+            "turn": "0.268115579",
+            "x": "1.489562305",
+            "y": "0.741118147"
+          },
+          {
+            "turn": "-0.267782820",
+            "x": "0.979760748",
+            "y": "0.446573006"
+          }
+        ],
+        "radius": "0.588773697"
+      }
+    },
+    {
+      "instanceId": "p84-n7-v1",
+      "name": "n = 7",
+      "parameters": {
+        "n": 7,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "1152382438133410628",
+      "scoreDisplay": "1.152382439",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "1.152",
+        "kind": "best",
+        "range": {
+          "lower": "1.152",
+          "upper": "1.153"
+        },
+        "truncated": true,
+        "certificateDisplay": "1.152382439",
+        "source": "Compiled by Erich Friedman; Found by Erich Friedman in 1997. Source expression: r = 1.152+.",
+        "url": "https://erich-friedman.github.io/packing/triincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.151017308",
+            "x": "1.144380713",
+            "y": "1.634239855"
+          },
+          {
+            "turn": "-0.481223484",
+            "x": "0.594151216",
+            "y": "1.508323468"
+          },
+          {
+            "turn": "-0.308146982",
+            "x": "1.585888588",
+            "y": "1.282560695"
+          },
+          {
+            "turn": "0.000285071",
+            "x": "0.349534131",
+            "y": "0.999629142"
+          },
+          {
+            "turn": "0.308771371",
+            "x": "1.586210406",
+            "y": "0.718107568"
+          },
+          {
+            "turn": "0.481925850",
+            "x": "0.594731113",
+            "y": "0.491214080"
+          },
+          {
+            "turn": "-0.150434214",
+            "x": "1.145103832",
+            "y": "0.365925192"
+          }
+        ],
+        "radius": "0.501005786"
+      }
+    },
+    {
+      "instanceId": "p84-n8-v1",
+      "name": "n = 8",
+      "parameters": {
+        "n": 8,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "1263359172792024559",
+      "scoreDisplay": "1.263359173",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "1.263",
+        "kind": "best",
+        "range": {
+          "lower": "1.263",
+          "upper": "1.264"
+        },
+        "truncated": true,
+        "certificateDisplay": "1.263359173",
+        "source": "Compiled by Erich Friedman; Found by Maurizio Morandi in April 2008. Source expression: r = 1.263+.",
+        "url": "https://erich-friedman.github.io/packing/triincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.142514601",
+            "x": "1.332425347",
+            "y": "1.508895332"
+          },
+          {
+            "turn": "0.398313171",
+            "x": "0.670619747",
+            "y": "1.510871529"
+          },
+          {
+            "turn": "-0.145562615",
+            "x": "0.338775758",
+            "y": "1.196666114"
+          },
+          {
+            "turn": "-0.401777109",
+            "x": "1.662386957",
+            "y": "1.192713721"
+          },
+          {
+            "turn": "-0.269550058",
+            "x": "0.999986989",
+            "y": "0.995642760"
+          },
+          {
+            "turn": "0.266349607",
+            "x": "1.394390879",
+            "y": "0.537466861"
+          },
+          {
+            "turn": "0.266349607",
+            "x": "0.602853868",
+            "y": "0.539830444"
+          },
+          {
+            "turn": "-0.269550058",
+            "x": "0.997940066",
+            "y": "0.310151599"
+          }
+        ],
+        "radius": "0.456996143"
+      }
+    },
+    {
+      "instanceId": "p84-n9-v1",
+      "name": "n = 9",
+      "parameters": {
+        "n": 9,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "1314752193829023512",
+      "scoreDisplay": "1.314752194",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "1.314",
+        "kind": "best",
+        "range": {
+          "lower": "1.314",
+          "upper": "1.315"
+        },
+        "truncated": true,
+        "certificateDisplay": "1.314752194",
+        "source": "Compiled by Erich Friedman; Found by David W. Cantrell in July 2002. Source expression: r = 1.314+.",
+        "url": "https://erich-friedman.github.io/packing/triincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.067216310",
+            "x": "1.267733489",
+            "y": "1.652504971"
+          },
+          {
+            "turn": "0.492010729",
+            "x": "0.731284965",
+            "y": "1.652101364"
+          },
+          {
+            "turn": "-0.281632044",
+            "x": "1.625376026",
+            "y": "1.221005189"
+          },
+          {
+            "turn": "-0.263855583",
+            "x": "0.378687446",
+            "y": "1.210004263"
+          },
+          {
+            "turn": "0.268352427",
+            "x": "0.995071933",
+            "y": "1.026596044"
+          },
+          {
+            "turn": "0.204055598",
+            "x": "0.351090320",
+            "y": "0.723666532"
+          },
+          {
+            "turn": "0.336341958",
+            "x": "1.650091477",
+            "y": "0.726458358"
+          },
+          {
+            "turn": "-0.490210027",
+            "x": "0.733178215",
+            "y": "0.347121685"
+          },
+          {
+            "turn": "-0.065759108",
+            "x": "1.269625652",
+            "y": "0.348274623"
+          }
+        ],
+        "radius": "0.439132387"
+      }
+    },
+    {
+      "instanceId": "p84-n10-v1",
+      "name": "n = 10",
+      "parameters": {
+        "n": 10,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "1384681283474659252",
+      "scoreDisplay": "1.384681284",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "1.38468",
+        "kind": "best",
+        "range": {
+          "lower": "1.38468",
+          "upper": "1.38469"
+        },
+        "truncated": true,
+        "certificateDisplay": "1.384681284",
+        "source": "Compiled by Erich Friedman; Found by Jonathan Viquerat in June 2026. Source expression: r = 1.38468+.",
+        "url": "https://erich-friedman.github.io/packing/triincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "-0.546042338",
+            "x": "1.081810374",
+            "y": "1.591446248"
+          },
+          {
+            "turn": "-0.000283421",
+            "x": "1.515778700",
+            "y": "1.360801619"
+          },
+          {
+            "turn": "-0.546042338",
+            "x": "0.467828862",
+            "y": "1.336153768"
+          },
+          {
+            "turn": "0.023803648",
+            "x": "0.890749787",
+            "y": "1.220841854"
+          },
+          {
+            "turn": "-0.577728226",
+            "x": "1.724051659",
+            "y": "0.999589577"
+          },
+          {
+            "turn": "0.023803649",
+            "x": "0.276768276",
+            "y": "0.965549371"
+          },
+          {
+            "turn": "0.576972436",
+            "x": "1.098527817",
+            "y": "0.839555136"
+          },
+          {
+            "turn": "-0.000283421",
+            "x": "1.515369333",
+            "y": "0.638613882"
+          },
+          {
+            "turn": "0.424896039",
+            "x": "0.497403236",
+            "y": "0.478801894"
+          },
+          {
+            "turn": "-0.122422336",
+            "x": "0.902045122",
+            "y": "0.378220041"
+          }
+        ],
+        "radius": "0.416955350"
+      }
+    },
+    {
+      "instanceId": "p84-n11-v1",
+      "name": "n = 11",
+      "parameters": {
+        "n": 11,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "1466988272193645158",
+      "scoreDisplay": "1.466988273",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "1.466",
+        "kind": "best",
+        "range": {
+          "lower": "1.466",
+          "upper": "1.467"
+        },
+        "truncated": true,
+        "certificateDisplay": "1.466988273",
+        "source": "Compiled by Erich Friedman; Found by David W. Cantrell in August 2012. Source expression: r = 1.466+.",
+        "url": "https://erich-friedman.github.io/packing/triincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.468342575",
+            "x": "1.088097982",
+            "y": "1.638072529"
+          },
+          {
+            "turn": "-0.468083702",
+            "x": "0.523850926",
+            "y": "1.570824158"
+          },
+          {
+            "turn": "-0.085805959",
+            "x": "1.475906629",
+            "y": "1.571026304"
+          },
+          {
+            "turn": "-0.510470890",
+            "x": "1.703100014",
+            "y": "1.144684267"
+          },
+          {
+            "turn": "-0.051442567",
+            "x": "0.296838609",
+            "y": "1.144385681"
+          },
+          {
+            "turn": "0.577491828",
+            "x": "0.803231265",
+            "y": "0.943125158"
+          },
+          {
+            "turn": "0.000106163",
+            "x": "1.196792869",
+            "y": "0.943208721"
+          },
+          {
+            "turn": "0.088231316",
+            "x": "0.493371083",
+            "y": "0.602225004"
+          },
+          {
+            "turn": "0.465669099",
+            "x": "1.506797787",
+            "y": "0.602440181"
+          },
+          {
+            "turn": "-0.088017341",
+            "x": "1.253505057",
+            "y": "0.301220102"
+          },
+          {
+            "turn": "-0.465410756",
+            "x": "0.746791705",
+            "y": "0.301112513"
+          }
+        ],
+        "radius": "0.393561612"
+      }
+    },
+    {
+      "instanceId": "p84-n12-v1",
+      "name": "n = 12",
+      "parameters": {
+        "n": 12,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "1507145205907318767",
+      "scoreDisplay": "1.507145206",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "1.507",
+        "kind": "best",
+        "range": {
+          "lower": "1.507",
+          "upper": "1.508"
+        },
+        "truncated": true,
+        "certificateDisplay": "1.507145206",
+        "source": "Compiled by Erich Friedman; Found by David W. Cantrell in October 2005. Source expression: r = 1.507+.",
+        "url": "https://erich-friedman.github.io/packing/triincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.340824764",
+            "x": "0.900035708",
+            "y": "1.745153226"
+          },
+          {
+            "turn": "-0.197635689",
+            "x": "1.254310327",
+            "y": "1.599426544"
+          },
+          {
+            "turn": "0.515252062",
+            "x": "0.473953341",
+            "y": "1.383745798"
+          },
+          {
+            "turn": "0.340824764",
+            "x": "1.221247753",
+            "y": "1.208483978"
+          },
+          {
+            "turn": "-0.269252420",
+            "x": "1.668572563",
+            "y": "1.175550296"
+          },
+          {
+            "turn": "-0.047860594",
+            "x": "0.251607896",
+            "y": "1.071801453"
+          },
+          {
+            "turn": "-0.195294841",
+            "x": "0.854446853",
+            "y": "1.054375067"
+          },
+          {
+            "turn": "0.266646813",
+            "x": "1.667641283",
+            "y": "0.792476016"
+          },
+          {
+            "turn": "0.266646813",
+            "x": "1.028237789",
+            "y": "0.637864590"
+          },
+          {
+            "turn": "0.298779996",
+            "x": "0.371401454",
+            "y": "0.587555994"
+          },
+          {
+            "turn": "-0.269252420",
+            "x": "1.392503290",
+            "y": "0.502323031"
+          },
+          {
+            "turn": "-0.269252420",
+            "x": "0.725471513",
+            "y": "0.395834996"
+          }
+        ],
+        "radius": "0.383075411"
+      }
+    },
+    {
+      "instanceId": "p84-n13-v1",
+      "name": "n = 13",
+      "parameters": {
+        "n": 13,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "1527525239772141876",
+      "scoreDisplay": "1.52752524",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "1.527",
+        "kind": "best",
+        "range": {
+          "lower": "1.527",
+          "upper": "1.528"
+        },
+        "truncated": true,
+        "certificateDisplay": "1.52752524",
+        "source": "Compiled by Erich Friedman; Found by Erich Friedman in 1997. Source expression: r = √(7/3) = 1.527+.",
+        "url": "https://erich-friedman.github.io/packing/triincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.267949192",
+            "x": "0.345346329",
+            "y": "0.622035527"
+          },
+          {
+            "turn": "-0.267949192",
+            "x": "0.345346329",
+            "y": "1.000000000"
+          },
+          {
+            "turn": "0.267949192",
+            "x": "0.672673165",
+            "y": "1.188982237"
+          },
+          {
+            "turn": "-0.267949192",
+            "x": "0.672673165",
+            "y": "1.566946710"
+          },
+          {
+            "turn": "0.267949192",
+            "x": "1.000000000",
+            "y": "1.755928946"
+          },
+          {
+            "turn": "-0.267949192",
+            "x": "0.672673165",
+            "y": "0.433053290"
+          },
+          {
+            "turn": "0.267949192",
+            "x": "1.000000000",
+            "y": "0.622035527"
+          },
+          {
+            "turn": "-0.267949192",
+            "x": "1.000000000",
+            "y": "1.000000000"
+          },
+          {
+            "turn": "0.267949192",
+            "x": "1.327326835",
+            "y": "1.188982237"
+          },
+          {
+            "turn": "-0.267949192",
+            "x": "1.327326835",
+            "y": "1.566946710"
+          },
+          {
+            "turn": "-0.267949192",
+            "x": "1.327326835",
+            "y": "0.433053290"
+          },
+          {
+            "turn": "0.267949192",
+            "x": "1.654653671",
+            "y": "0.622035527"
+          },
+          {
+            "turn": "-0.267949192",
+            "x": "1.654653671",
+            "y": "1.000000000"
+          }
+        ],
+        "radius": "0.377964471"
+      }
+    },
+    {
+      "instanceId": "p84-n14-v1",
+      "name": "n = 14",
+      "parameters": {
+        "n": 14,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "1604489740067908179",
+      "scoreDisplay": "1.604489741",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "1.60448",
+        "kind": "best",
+        "range": {
+          "lower": "1.60448",
+          "upper": "1.60449"
+        },
+        "truncated": true,
+        "certificateDisplay": "1.604489741",
+        "source": "Compiled by Erich Friedman; Found by Jake Loyd in June 2026. Source expression: r = 1.60448+.",
+        "url": "https://erich-friedman.github.io/packing/triincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.047245168",
+            "x": "1.320535342",
+            "y": "1.700428816"
+          },
+          {
+            "turn": "0.568528850",
+            "x": "0.927999297",
+            "y": "1.684495387"
+          },
+          {
+            "turn": "0.568528850",
+            "x": "0.426672860",
+            "y": "1.354760795"
+          },
+          {
+            "turn": "-0.006641433",
+            "x": "0.786475311",
+            "y": "1.349981376"
+          },
+          {
+            "turn": "-0.045936025",
+            "x": "1.616453928",
+            "y": "1.256188822"
+          },
+          {
+            "turn": "0.567291188",
+            "x": "1.232183174",
+            "y": "1.186434091"
+          },
+          {
+            "turn": "-0.025441396",
+            "x": "0.230708626",
+            "y": "1.039169046"
+          },
+          {
+            "turn": "0.517684638",
+            "x": "1.767043937",
+            "y": "0.929381087"
+          },
+          {
+            "turn": "-0.490378552",
+            "x": "0.736170486",
+            "y": "0.858833169"
+          },
+          {
+            "turn": "0.067781427",
+            "x": "1.107274952",
+            "y": "0.800468326"
+          },
+          {
+            "turn": "0.067781427",
+            "x": "0.488074604",
+            "y": "0.571536995"
+          },
+          {
+            "turn": "0.162191911",
+            "x": "1.576246247",
+            "y": "0.488840832"
+          },
+          {
+            "turn": "-0.379610998",
+            "x": "1.234858549",
+            "y": "0.375108314"
+          },
+          {
+            "turn": "-0.490378552",
+            "x": "0.708397718",
+            "y": "0.287040295"
+          }
+        ],
+        "radius": "0.359834192"
+      }
+    },
+    {
+      "instanceId": "p84-n15-v1",
+      "name": "n = 15",
+      "parameters": {
+        "n": 15,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "1636720718046339182",
+      "scoreDisplay": "1.636720719",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "1.636",
+        "kind": "best",
+        "range": {
+          "lower": "1.636",
+          "upper": "1.637"
+        },
+        "truncated": true,
+        "certificateDisplay": "1.636720719",
+        "source": "Compiled by Erich Friedman; Found by David W. Cantrell in July 2002. Source expression: r = 1.636+.",
+        "url": "https://erich-friedman.github.io/packing/triincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.267840825",
+            "x": "1.305613309",
+            "y": "1.615211854"
+          },
+          {
+            "turn": "0.267840825",
+            "x": "0.694635533",
+            "y": "1.615335407"
+          },
+          {
+            "turn": "-0.311118512",
+            "x": "0.361114628",
+            "y": "1.440141510"
+          },
+          {
+            "turn": "-0.225904512",
+            "x": "1.639063332",
+            "y": "1.439883082"
+          },
+          {
+            "turn": "-0.268057565",
+            "x": "1.000088755",
+            "y": "1.438899539"
+          },
+          {
+            "turn": "0.225691981",
+            "x": "0.333046944",
+            "y": "1.088511746"
+          },
+          {
+            "turn": "0.310896731",
+            "x": "1.666988799",
+            "y": "1.088241995"
+          },
+          {
+            "turn": "0.267840825",
+            "x": "1.000017422",
+            "y": "1.086151355"
+          },
+          {
+            "turn": "-0.268057565",
+            "x": "0.679536143",
+            "y": "0.935756947"
+          },
+          {
+            "turn": "-0.268057565",
+            "x": "1.320437848",
+            "y": "0.935627344"
+          },
+          {
+            "turn": "0.302613075",
+            "x": "0.362006075",
+            "y": "0.563805630"
+          },
+          {
+            "turn": "0.233662595",
+            "x": "1.637817457",
+            "y": "0.563547634"
+          },
+          {
+            "turn": "0.267840825",
+            "x": "0.999910422",
+            "y": "0.557029080"
+          },
+          {
+            "turn": "-0.268057565",
+            "x": "0.690128417",
+            "y": "0.388094329"
+          },
+          {
+            "turn": "-0.268057565",
+            "x": "1.309624077",
+            "y": "0.387969054"
+          }
+        ],
+        "radius": "0.352748189"
+      }
+    },
+    {
+      "instanceId": "p84-n16-v1",
+      "name": "n = 16",
+      "parameters": {
+        "n": 16,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "1687452418860789565",
+      "scoreDisplay": "1.687452419",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "1.687",
+        "kind": "best",
+        "range": {
+          "lower": "1.687",
+          "upper": "1.688"
+        },
+        "truncated": true,
+        "certificateDisplay": "1.687452419",
+        "source": "Compiled by Erich Friedman; Found by Maurizio Morandi in April 2008. Source expression: r = 1.687+.",
+        "url": "https://erich-friedman.github.io/packing/triincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.268220009",
+            "x": "0.894658075",
+            "y": "1.744835028"
+          },
+          {
+            "turn": "-0.267678413",
+            "x": "0.598439905",
+            "y": "1.573613752"
+          },
+          {
+            "turn": "-0.267678413",
+            "x": "1.400980178",
+            "y": "1.574019288"
+          },
+          {
+            "turn": "0.268220009",
+            "x": "0.598612795",
+            "y": "1.231470653"
+          },
+          {
+            "turn": "0.268220009",
+            "x": "1.401153068",
+            "y": "1.231876189"
+          },
+          {
+            "turn": "-0.267678413",
+            "x": "0.999877508",
+            "y": "1.242407488"
+          },
+          {
+            "turn": "-0.267678413",
+            "x": "0.302394625",
+            "y": "1.060249377"
+          },
+          {
+            "turn": "-0.267678413",
+            "x": "1.697544128",
+            "y": "1.060954367"
+          },
+          {
+            "turn": "0.268220009",
+            "x": "1.000050398",
+            "y": "0.900264390"
+          },
+          {
+            "turn": "-0.267678413",
+            "x": "1.296441458",
+            "y": "0.729342568"
+          },
+          {
+            "turn": "0.268220009",
+            "x": "0.302567516",
+            "y": "0.718106278"
+          },
+          {
+            "turn": "0.268220009",
+            "x": "1.697717019",
+            "y": "0.718811269"
+          },
+          {
+            "turn": "-0.267678413",
+            "x": "0.703832228",
+            "y": "0.729043113"
+          },
+          {
+            "turn": "0.268220009",
+            "x": "1.296614348",
+            "y": "0.387199469"
+          },
+          {
+            "turn": "0.268220009",
+            "x": "0.704005118",
+            "y": "0.386900015"
+          },
+          {
+            "turn": "-0.267678413",
+            "x": "1.000396179",
+            "y": "0.215978193"
+          }
+        ],
+        "radius": "0.342143140"
+      }
+    },
+    {
+      "instanceId": "p84-n17-v1",
+      "name": "n = 17",
+      "parameters": {
+        "n": 17,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "1730310720592713232",
+      "scoreDisplay": "1.730310721",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "1.730",
+        "kind": "best",
+        "range": {
+          "lower": "1.73",
+          "upper": "1.731"
+        },
+        "truncated": true,
+        "certificateDisplay": "1.730310721",
+        "source": "Compiled by Erich Friedman; Found by David W. Cantrell in July 2005. Source expression: r = 1.730+.",
+        "url": "https://erich-friedman.github.io/packing/triincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.119639667",
+            "x": "1.222598852",
+            "y": "1.758517176"
+          },
+          {
+            "turn": "0.267731693",
+            "x": "0.742727348",
+            "y": "1.670722579"
+          },
+          {
+            "turn": "-0.268166715",
+            "x": "0.453694215",
+            "y": "1.504005603"
+          },
+          {
+            "turn": "-0.268166715",
+            "x": "1.546714738",
+            "y": "1.503561966"
+          },
+          {
+            "turn": "-0.268166715",
+            "x": "1.000085438",
+            "y": "1.210500383"
+          },
+          {
+            "turn": "0.267731693",
+            "x": "0.591465461",
+            "y": "1.170281105"
+          },
+          {
+            "turn": "0.267731693",
+            "x": "1.408672632",
+            "y": "1.169949416"
+          },
+          {
+            "turn": "-0.268166715",
+            "x": "0.302432328",
+            "y": "1.003564129"
+          },
+          {
+            "turn": "-0.268166715",
+            "x": "1.697570335",
+            "y": "1.002997869"
+          },
+          {
+            "turn": "0.267731693",
+            "x": "0.999950008",
+            "y": "0.876831860"
+          },
+          {
+            "turn": "-0.268166715",
+            "x": "0.710916875",
+            "y": "0.710114883"
+          },
+          {
+            "turn": "-0.268166715",
+            "x": "1.288847712",
+            "y": "0.709880312"
+          },
+          {
+            "turn": "0.267731693",
+            "x": "0.302296898",
+            "y": "0.669895605"
+          },
+          {
+            "turn": "0.267731693",
+            "x": "1.697434906",
+            "y": "0.669329345"
+          },
+          {
+            "turn": "0.267731693",
+            "x": "0.710781446",
+            "y": "0.376446360"
+          },
+          {
+            "turn": "0.267731693",
+            "x": "1.288712282",
+            "y": "0.376211788"
+          },
+          {
+            "turn": "-0.268166715",
+            "x": "0.999679149",
+            "y": "0.209494812"
+          }
+        ],
+        "radius": "0.333668550"
+      }
+    },
+    {
+      "instanceId": "p84-n18-v1",
+      "name": "n = 18",
+      "parameters": {
+        "n": 18,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "1801764490031920925",
+      "scoreDisplay": "1.801764491",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "1.80176",
+        "kind": "best",
+        "range": {
+          "lower": "1.80176",
+          "upper": "1.80177"
+        },
+        "truncated": true,
+        "certificateDisplay": "1.801764491",
+        "source": "Compiled by Erich Friedman; Found by Jake Loyd in June 2026. Source expression: r = 1.80176+.",
+        "url": "https://erich-friedman.github.io/packing/triincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.371235163",
+            "x": "0.892481897",
+            "y": "1.781708168"
+          },
+          {
+            "turn": "-0.169735282",
+            "x": "1.194971408",
+            "y": "1.675975725"
+          },
+          {
+            "turn": "0.371235163",
+            "x": "0.503984897",
+            "y": "1.496256245"
+          },
+          {
+            "turn": "0.371235163",
+            "x": "1.465869932",
+            "y": "1.401183990"
+          },
+          {
+            "turn": "-0.169735282",
+            "x": "0.806474407",
+            "y": "1.390523802"
+          },
+          {
+            "turn": "-0.169735282",
+            "x": "0.261173159",
+            "y": "1.287158866"
+          },
+          {
+            "turn": "-0.169735282",
+            "x": "1.697423068",
+            "y": "1.092509968"
+          },
+          {
+            "turn": "0.371235163",
+            "x": "1.101652326",
+            "y": "1.087537922"
+          },
+          {
+            "turn": "0.371235163",
+            "x": "0.568628227",
+            "y": "1.019296631"
+          },
+          {
+            "turn": "-0.169735282",
+            "x": "0.858840588",
+            "y": "0.878440543"
+          },
+          {
+            "turn": "-0.169735282",
+            "x": "0.325816490",
+            "y": "0.810199252"
+          },
+          {
+            "turn": "0.371235163",
+            "x": "1.757100842",
+            "y": "0.777680145"
+          },
+          {
+            "turn": "-0.169735282",
+            "x": "1.357484857",
+            "y": "0.750669753"
+          },
+          {
+            "turn": "0.371235163",
+            "x": "0.955074906",
+            "y": "0.570540220"
+          },
+          {
+            "turn": "0.371235163",
+            "x": "0.409773658",
+            "y": "0.467175284"
+          },
+          {
+            "turn": "0.371235163",
+            "x": "1.417162631",
+            "y": "0.435839931"
+          },
+          {
+            "turn": "-0.169735282",
+            "x": "0.712263168",
+            "y": "0.361442841"
+          },
+          {
+            "turn": "-0.169735282",
+            "x": "1.174350893",
+            "y": "0.226742552"
+          }
+        ],
+        "radius": "0.320436035"
+      }
+    },
+    {
+      "instanceId": "p84-n19-v1",
+      "name": "n = 19",
+      "parameters": {
+        "n": 19,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "1825741864221270275",
+      "scoreDisplay": "1.825741865",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "1.825",
+        "kind": "best",
+        "range": {
+          "lower": "1.825",
+          "upper": "1.826"
+        },
+        "truncated": true,
+        "certificateDisplay": "1.825741865",
+        "source": "Compiled by Erich Friedman; Found by Haym Hirsh in August 2019. Source expression: r = √(10/3) = 1.825+.",
+        "url": "https://erich-friedman.github.io/packing/triincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.267752141",
+            "x": "1.042657193",
+            "y": "1.790553783"
+          },
+          {
+            "turn": "-0.268146263",
+            "x": "1.316460312",
+            "y": "1.632339206"
+          },
+          {
+            "turn": "0.267752141",
+            "x": "0.610608340",
+            "y": "1.590232272"
+          },
+          {
+            "turn": "-0.268146263",
+            "x": "0.336688938",
+            "y": "1.432219104"
+          },
+          {
+            "turn": "-0.268146263",
+            "x": "0.884411458",
+            "y": "1.432017695"
+          },
+          {
+            "turn": "-0.268146263",
+            "x": "1.705968255",
+            "y": "1.358334678"
+          },
+          {
+            "turn": "0.267752141",
+            "x": "1.316344028",
+            "y": "1.316111461"
+          },
+          {
+            "turn": "0.267752141",
+            "x": "0.568067430",
+            "y": "1.115906234"
+          },
+          {
+            "turn": "0.267752141",
+            "x": "1.705851972",
+            "y": "1.042106934"
+          },
+          {
+            "turn": "-0.577595442",
+            "x": "1.000000000",
+            "y": "1.000000000"
+          },
+          {
+            "turn": "-0.268146263",
+            "x": "0.294148028",
+            "y": "0.957893066"
+          },
+          {
+            "turn": "-0.268146263",
+            "x": "1.431932570",
+            "y": "0.884093766"
+          },
+          {
+            "turn": "-0.268146263",
+            "x": "0.683655972",
+            "y": "0.683888539"
+          },
+          {
+            "turn": "0.267752141",
+            "x": "0.294031745",
+            "y": "0.641665322"
+          },
+          {
+            "turn": "0.267752141",
+            "x": "1.663311062",
+            "y": "0.567780896"
+          },
+          {
+            "turn": "0.267752141",
+            "x": "1.115588542",
+            "y": "0.567982305"
+          },
+          {
+            "turn": "-0.268146263",
+            "x": "1.389391660",
+            "y": "0.409767728"
+          },
+          {
+            "turn": "0.267752141",
+            "x": "0.683539688",
+            "y": "0.367660794"
+          },
+          {
+            "turn": "-0.268146263",
+            "x": "0.957342807",
+            "y": "0.209446217"
+          }
+        ],
+        "radius": "0.316227765"
+      }
+    },
+    {
+      "instanceId": "p84-n20-v1",
+      "name": "n = 20",
+      "parameters": {
+        "n": 20,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "1874369583232293810",
+      "scoreDisplay": "1.874369584",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "1.874",
+        "kind": "best",
+        "range": {
+          "lower": "1.874",
+          "upper": "1.875"
+        },
+        "truncated": true,
+        "certificateDisplay": "1.874369584",
+        "source": "Compiled by Erich Friedman; Found by Erich Friedman in 1997. Source expression: r = 1.874+.",
+        "url": "https://erich-friedman.github.io/packing/triincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.267460348",
+            "x": "1.263642146",
+            "y": "1.693892164"
+          },
+          {
+            "turn": "0.267460348",
+            "x": "0.732123471",
+            "y": "1.690918209"
+          },
+          {
+            "turn": "-0.268438157",
+            "x": "0.998739212",
+            "y": "1.536663054"
+          },
+          {
+            "turn": "-0.268438157",
+            "x": "0.465226718",
+            "y": "1.537149782"
+          },
+          {
+            "turn": "-0.268438157",
+            "x": "1.530257886",
+            "y": "1.539637009"
+          },
+          {
+            "turn": "0.267460348",
+            "x": "1.535721211",
+            "y": "1.231608187"
+          },
+          {
+            "turn": "0.267460348",
+            "x": "0.466696095",
+            "y": "1.229124603"
+          },
+          {
+            "turn": "0.267460348",
+            "x": "1.000208588",
+            "y": "1.228637876"
+          },
+          {
+            "turn": "-0.268438157",
+            "x": "0.733311835",
+            "y": "1.074869449"
+          },
+          {
+            "turn": "-0.268438157",
+            "x": "1.268824459",
+            "y": "1.077839760"
+          },
+          {
+            "turn": "-0.268438157",
+            "x": "0.298646005",
+            "y": "0.903787448"
+          },
+          {
+            "turn": "-0.268438157",
+            "x": "1.701177277",
+            "y": "0.902507908"
+          },
+          {
+            "turn": "0.267460348",
+            "x": "0.733030823",
+            "y": "0.766845867"
+          },
+          {
+            "turn": "0.267460348",
+            "x": "1.268543446",
+            "y": "0.769816178"
+          },
+          {
+            "turn": "-0.268438157",
+            "x": "1.001646693",
+            "y": "0.616047751"
+          },
+          {
+            "turn": "0.267460348",
+            "x": "0.298364993",
+            "y": "0.595763867"
+          },
+          {
+            "turn": "0.267460348",
+            "x": "1.700896264",
+            "y": "0.594484326"
+          },
+          {
+            "turn": "-0.268438157",
+            "x": "0.564980733",
+            "y": "0.441508712"
+          },
+          {
+            "turn": "-0.268438157",
+            "x": "1.433999511",
+            "y": "0.440715899"
+          },
+          {
+            "turn": "0.267460348",
+            "x": "1.001365681",
+            "y": "0.308024170"
+          }
+        ],
+        "radius": "0.308023708"
+      }
+    },
+    {
+      "instanceId": "p84-n21-v1",
+      "name": "n = 21",
+      "parameters": {
+        "n": 21,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "1910541298039669936",
+      "scoreDisplay": "1.910541299",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "1.910",
+        "kind": "best",
+        "range": {
+          "lower": "1.91",
+          "upper": "1.911"
+        },
+        "truncated": true,
+        "certificateDisplay": "1.910541299",
+        "source": "Compiled by Erich Friedman; Found by Maurizio Morandi in May 2008. Source expression: r = 1.910+.",
+        "url": "https://erich-friedman.github.io/packing/triincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.222940118",
+            "x": "1.067078279",
+            "y": "1.810764193"
+          },
+          {
+            "turn": "-0.313994495",
+            "x": "0.793503235",
+            "y": "1.682402623"
+          },
+          {
+            "turn": "0.268652021",
+            "x": "1.442551256",
+            "y": "1.558702609"
+          },
+          {
+            "turn": "-0.267246610",
+            "x": "1.704455096",
+            "y": "1.407949911"
+          },
+          {
+            "turn": "0.268652021",
+            "x": "0.525980629",
+            "y": "1.379833362"
+          },
+          {
+            "turn": "0.268652021",
+            "x": "1.035701657",
+            "y": "1.356735259"
+          },
+          {
+            "turn": "-0.267246610",
+            "x": "0.264473042",
+            "y": "1.228394333"
+          },
+          {
+            "turn": "-0.267246610",
+            "x": "0.774194071",
+            "y": "1.205296229"
+          },
+          {
+            "turn": "-0.267246610",
+            "x": "1.297605497",
+            "y": "1.205982561"
+          },
+          {
+            "turn": "0.268652021",
+            "x": "1.704851350",
+            "y": "1.105758183"
+          },
+          {
+            "turn": "0.268652021",
+            "x": "0.264869296",
+            "y": "0.926202605"
+          },
+          {
+            "turn": "0.268652021",
+            "x": "1.298001751",
+            "y": "0.903790833"
+          },
+          {
+            "turn": "0.268652021",
+            "x": "0.774590325",
+            "y": "0.903104501"
+          },
+          {
+            "turn": "-0.267246610",
+            "x": "1.036494165",
+            "y": "0.752351803"
+          },
+          {
+            "turn": "-0.267246610",
+            "x": "1.559905591",
+            "y": "0.753038135"
+          },
+          {
+            "turn": "-0.267246610",
+            "x": "0.513082738",
+            "y": "0.751665471"
+          },
+          {
+            "turn": "0.268652021",
+            "x": "1.524132475",
+            "y": "0.450798979"
+          },
+          {
+            "turn": "0.268652021",
+            "x": "1.000721049",
+            "y": "0.450112647"
+          },
+          {
+            "turn": "0.268652021",
+            "x": "0.477309623",
+            "y": "0.449426315"
+          },
+          {
+            "turn": "-0.267246610",
+            "x": "1.262624889",
+            "y": "0.299359950"
+          },
+          {
+            "turn": "-0.267246610",
+            "x": "0.739213463",
+            "y": "0.298673617"
+          }
+        ],
+        "radius": "0.302191986"
+      }
+    },
+    {
+      "instanceId": "p84-n22-v1",
+      "name": "n = 22",
+      "parameters": {
+        "n": 22,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "1943988369832369743",
+      "scoreDisplay": "1.94398837",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "1.943",
+        "kind": "best",
+        "range": {
+          "lower": "1.943",
+          "upper": "1.944"
+        },
+        "truncated": true,
+        "certificateDisplay": "1.94398837",
+        "source": "Compiled by Erich Friedman; Found by Maurizio Morandi in June 2008. Source expression: r = 1.943+.",
+        "url": "https://erich-friedman.github.io/packing/triincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.268200414",
+            "x": "0.867571454",
+            "y": "1.772565558"
+          },
+          {
+            "turn": "0.268200414",
+            "x": "1.321102191",
+            "y": "1.667252860"
+          },
+          {
+            "turn": "-0.267698002",
+            "x": "0.610437905",
+            "y": "1.623948680"
+          },
+          {
+            "turn": "-0.267698002",
+            "x": "1.063968642",
+            "y": "1.518635982"
+          },
+          {
+            "turn": "-0.267698002",
+            "x": "1.578374957",
+            "y": "1.518877113"
+          },
+          {
+            "turn": "0.268200414",
+            "x": "0.514707568",
+            "y": "1.326911116"
+          },
+          {
+            "turn": "0.268200414",
+            "x": "1.482644620",
+            "y": "1.221839549"
+          },
+          {
+            "turn": "0.268200414",
+            "x": "0.968238305",
+            "y": "1.221598418"
+          },
+          {
+            "turn": "-0.267698002",
+            "x": "0.257574019",
+            "y": "1.178294239"
+          },
+          {
+            "turn": "-0.267698002",
+            "x": "1.739917387",
+            "y": "1.073463802"
+          },
+          {
+            "turn": "-0.267698002",
+            "x": "1.225511071",
+            "y": "1.073222671"
+          },
+          {
+            "turn": "-0.267698002",
+            "x": "0.711104756",
+            "y": "1.072981540"
+          },
+          {
+            "turn": "0.268200414",
+            "x": "0.257713236",
+            "y": "0.881301614"
+          },
+          {
+            "turn": "0.268200414",
+            "x": "1.740056604",
+            "y": "0.776471178"
+          },
+          {
+            "turn": "0.268200414",
+            "x": "0.711243973",
+            "y": "0.775988916"
+          },
+          {
+            "turn": "0.268200414",
+            "x": "1.225650289",
+            "y": "0.776230047"
+          },
+          {
+            "turn": "-0.267698002",
+            "x": "1.482923055",
+            "y": "0.627854300"
+          },
+          {
+            "turn": "-0.267698002",
+            "x": "0.968516740",
+            "y": "0.627613169"
+          },
+          {
+            "turn": "-0.267698002",
+            "x": "0.454110424",
+            "y": "0.627372038"
+          },
+          {
+            "turn": "0.268200414",
+            "x": "0.743110611",
+            "y": "0.330514819"
+          },
+          {
+            "turn": "0.268200414",
+            "x": "1.257516926",
+            "y": "0.330755950"
+          },
+          {
+            "turn": "-0.267698002",
+            "x": "1.000383377",
+            "y": "0.182139072"
+          }
+        ],
+        "radius": "0.296992656"
+      }
+    },
+    {
+      "instanceId": "p84-n23-v1",
+      "name": "n = 23",
+      "parameters": {
+        "n": 23,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "1984672741332099295",
+      "scoreDisplay": "1.984672742",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "1.98467",
+        "kind": "best",
+        "range": {
+          "lower": "1.98467",
+          "upper": "1.98468"
+        },
+        "truncated": true,
+        "certificateDisplay": "1.984672742",
+        "source": "Compiled by Erich Friedman; Found by Jake Loyd in June 2026. Source expression: r = 1.98467+.",
+        "url": "https://erich-friedman.github.io/packing/triincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.302552234",
+            "x": "0.771195531",
+            "y": "1.742948006"
+          },
+          {
+            "turn": "0.302552234",
+            "x": "1.372174363",
+            "y": "1.627816522"
+          },
+          {
+            "turn": "-0.233934654",
+            "x": "1.031912341",
+            "y": "1.613904661"
+          },
+          {
+            "turn": "-0.233934654",
+            "x": "0.529082311",
+            "y": "1.581682298"
+          },
+          {
+            "turn": "-0.198839465",
+            "x": "1.652298695",
+            "y": "1.500671766"
+          },
+          {
+            "turn": "0.302552234",
+            "x": "1.050515931",
+            "y": "1.323595608"
+          },
+          {
+            "turn": "0.302552234",
+            "x": "0.547685901",
+            "y": "1.291373245"
+          },
+          {
+            "turn": "-0.233934654",
+            "x": "0.243993387",
+            "y": "1.222558444"
+          },
+          {
+            "turn": "-0.233934654",
+            "x": "1.311232741",
+            "y": "1.194552263"
+          },
+          {
+            "turn": "-0.233934654",
+            "x": "0.808402711",
+            "y": "1.162329900"
+          },
+          {
+            "turn": "-0.233934654",
+            "x": "1.737680713",
+            "y": "1.072453716"
+          },
+          {
+            "turn": "0.302552234",
+            "x": "0.262596977",
+            "y": "0.932249391"
+          },
+          {
+            "turn": "0.302552234",
+            "x": "1.222946284",
+            "y": "0.897393480"
+          },
+          {
+            "turn": "0.302552234",
+            "x": "0.720116254",
+            "y": "0.865171117"
+          },
+          {
+            "turn": "0.302552234",
+            "x": "1.756284303",
+            "y": "0.782144663"
+          },
+          {
+            "turn": "-0.233934654",
+            "x": "0.980833064",
+            "y": "0.736127772"
+          },
+          {
+            "turn": "-0.233934654",
+            "x": "1.454794020",
+            "y": "0.710023585"
+          },
+          {
+            "turn": "-0.233934654",
+            "x": "0.475800804",
+            "y": "0.707211686"
+          },
+          {
+            "turn": "0.302552234",
+            "x": "0.999436654",
+            "y": "0.445818719"
+          },
+          {
+            "turn": "0.302552234",
+            "x": "1.473397609",
+            "y": "0.419714532"
+          },
+          {
+            "turn": "0.302552234",
+            "x": "0.494404394",
+            "y": "0.416902632"
+          },
+          {
+            "turn": "-0.233934654",
+            "x": "0.755121204",
+            "y": "0.287859287"
+          },
+          {
+            "turn": "-0.233934654",
+            "x": "1.231284389",
+            "y": "0.258448824"
+          }
+        ],
+        "radius": "0.290904519"
+      }
+    },
+    {
+      "instanceId": "p84-n25-v1",
+      "name": "n = 25",
+      "parameters": {
+        "n": 25,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "2055249513794531292",
+      "scoreDisplay": "2.055249514",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "2.055",
+        "kind": "best",
+        "range": {
+          "lower": "2.055",
+          "upper": "2.056"
+        },
+        "truncated": true,
+        "certificateDisplay": "2.055249514",
+        "source": "Compiled by Erich Friedman; Found by David W. Cantrell in July 2005. Source expression: r = 2.055+.",
+        "url": "https://erich-friedman.github.io/packing/triincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.577352738",
+            "x": "0.648853619",
+            "y": "1.734272980"
+          },
+          {
+            "turn": "0.000001852",
+            "x": "0.929768549",
+            "y": "1.734274021"
+          },
+          {
+            "turn": "0.000001852",
+            "x": "1.351140943",
+            "y": "1.734275581"
+          },
+          {
+            "turn": "0.000001852",
+            "x": "0.640862641",
+            "y": "1.414514607"
+          },
+          {
+            "turn": "0.577352738",
+            "x": "1.359134289",
+            "y": "1.414517267"
+          },
+          {
+            "turn": "0.577352738",
+            "x": "0.359947803",
+            "y": "1.389641325"
+          },
+          {
+            "turn": "0.000001852",
+            "x": "1.640049311",
+            "y": "1.389646066"
+          },
+          {
+            "turn": "0.577352738",
+            "x": "0.859541734",
+            "y": "1.216396807"
+          },
+          {
+            "turn": "0.000001852",
+            "x": "1.140456663",
+            "y": "1.216397847"
+          },
+          {
+            "turn": "0.000001852",
+            "x": "0.219491239",
+            "y": "1.146361340"
+          },
+          {
+            "turn": "0.577352738",
+            "x": "1.780507677",
+            "y": "1.146367120"
+          },
+          {
+            "turn": "0.000001852",
+            "x": "0.719085170",
+            "y": "0.973116821"
+          },
+          {
+            "turn": "-0.577347800",
+            "x": "1.280915029",
+            "y": "0.973118902"
+          },
+          {
+            "turn": "-0.577347800",
+            "x": "0.438170332",
+            "y": "0.948243539"
+          },
+          {
+            "turn": "0.000001852",
+            "x": "1.561830051",
+            "y": "0.948247700"
+          },
+          {
+            "turn": "0.577352738",
+            "x": "0.859543536",
+            "y": "0.729837876"
+          },
+          {
+            "turn": "0.000001852",
+            "x": "1.140458465",
+            "y": "0.729838916"
+          },
+          {
+            "turn": "0.000001852",
+            "x": "0.297713769",
+            "y": "0.704963554"
+          },
+          {
+            "turn": "0.577352738",
+            "x": "1.702288417",
+            "y": "0.704968755"
+          },
+          {
+            "turn": "0.000001852",
+            "x": "0.719086972",
+            "y": "0.486557890"
+          },
+          {
+            "turn": "0.577352738",
+            "x": "1.280916831",
+            "y": "0.486559971"
+          },
+          {
+            "turn": "-0.577347800",
+            "x": "0.438172134",
+            "y": "0.461684608"
+          },
+          {
+            "turn": "0.000001852",
+            "x": "1.561831853",
+            "y": "0.461688769"
+          },
+          {
+            "turn": "0.577352738",
+            "x": "0.859545337",
+            "y": "0.243278945"
+          },
+          {
+            "turn": "0.000001852",
+            "x": "1.140460267",
+            "y": "0.243279985"
+          }
+        ],
+        "radius": "0.280914928"
+      }
+    },
+    {
+      "instanceId": "p84-n26-v1",
+      "name": "n = 26",
+      "parameters": {
+        "n": 26,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "2106647673105653524",
+      "scoreDisplay": "2.106647674",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "2.10664",
+        "kind": "best",
+        "range": {
+          "lower": "2.10664",
+          "upper": "2.10665"
+        },
+        "truncated": true,
+        "certificateDisplay": "2.106647674",
+        "source": "Compiled by Erich Friedman; Found by Thomas Schadt in August 2026. Source expression: r = 2.10664+.",
+        "url": "https://erich-friedman.github.io/packing/triincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.035143881",
+            "x": "1.014152943",
+            "y": "1.763125436"
+          },
+          {
+            "turn": "-0.531423627",
+            "x": "0.740767945",
+            "y": "1.743886054"
+          },
+          {
+            "turn": "0.035143881",
+            "x": "1.431394396",
+            "y": "1.690187150"
+          },
+          {
+            "turn": "-0.531423627",
+            "x": "1.167507236",
+            "y": "1.535986774"
+          },
+          {
+            "turn": "0.035143881",
+            "x": "0.650907289",
+            "y": "1.482809734"
+          },
+          {
+            "turn": "-0.531423627",
+            "x": "0.377522291",
+            "y": "1.463570352"
+          },
+          {
+            "turn": "-0.531423627",
+            "x": "1.584748689",
+            "y": "1.463048488"
+          },
+          {
+            "turn": "0.035143881",
+            "x": "1.077646580",
+            "y": "1.274910454"
+          },
+          {
+            "turn": "-0.531423627",
+            "x": "0.804261582",
+            "y": "1.255671072"
+          },
+          {
+            "turn": "0.035143881",
+            "x": "0.257491586",
+            "y": "1.217192308"
+          },
+          {
+            "turn": "0.035143881",
+            "x": "1.494888034",
+            "y": "1.201972169"
+          },
+          {
+            "turn": "-0.503201998",
+            "x": "1.828904255",
+            "y": "1.095566445"
+          },
+          {
+            "turn": "-0.531423627",
+            "x": "1.231000873",
+            "y": "1.047771792"
+          },
+          {
+            "turn": "0.035143881",
+            "x": "0.684230877",
+            "y": "1.009293028"
+          },
+          {
+            "turn": "-0.531423627",
+            "x": "0.410845879",
+            "y": "0.990053645"
+          },
+          {
+            "turn": "-0.191563755",
+            "x": "1.588969649",
+            "y": "0.802224198"
+          },
+          {
+            "turn": "0.035143881",
+            "x": "1.110970167",
+            "y": "0.801393748"
+          },
+          {
+            "turn": "-0.531423627",
+            "x": "0.837585169",
+            "y": "0.782154366"
+          },
+          {
+            "turn": "0.035143881",
+            "x": "0.242234947",
+            "y": "0.767342965"
+          },
+          {
+            "turn": "0.035143881",
+            "x": "0.668974238",
+            "y": "0.559443685"
+          },
+          {
+            "turn": "-0.531423627",
+            "x": "0.395589240",
+            "y": "0.540204303"
+          },
+          {
+            "turn": "0.347367844",
+            "x": "1.633649256",
+            "y": "0.531781157"
+          },
+          {
+            "turn": "0.547943763",
+            "x": "1.134178405",
+            "y": "0.474989860"
+          },
+          {
+            "turn": "-0.022339335",
+            "x": "1.399476788",
+            "y": "0.272836882"
+          },
+          {
+            "turn": "-0.022339335",
+            "x": "0.986685613",
+            "y": "0.244002009"
+          },
+          {
+            "turn": "-0.531423627",
+            "x": "0.685838527",
+            "y": "0.240152821"
+          }
+        ],
+        "radius": "0.274061143"
+      }
+    },
+    {
+      "instanceId": "p84-n27-v1",
+      "name": "n = 27",
+      "parameters": {
+        "n": 27,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "2138465228164635710",
+      "scoreDisplay": "2.138465229",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "2.138",
+        "kind": "best",
+        "range": {
+          "lower": "2.138",
+          "upper": "2.139"
+        },
+        "truncated": true,
+        "certificateDisplay": "2.138465229",
+        "source": "Compiled by Erich Friedman; Found by David W. Cantrell in July 2005. Source expression: r = 2.138+.",
+        "url": "https://erich-friedman.github.io/packing/triincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.399178434",
+            "x": "0.804231102",
+            "y": "1.814081697"
+          },
+          {
+            "turn": "0.144800318",
+            "x": "1.195768898",
+            "y": "1.814081697"
+          },
+          {
+            "turn": "0.366295857",
+            "x": "0.491652134",
+            "y": "1.555777406"
+          },
+          {
+            "turn": "0.174211903",
+            "x": "1.508347866",
+            "y": "1.555777406"
+          },
+          {
+            "turn": "-0.174211903",
+            "x": "0.745730445",
+            "y": "1.464479605"
+          },
+          {
+            "turn": "-0.366295857",
+            "x": "1.254269555",
+            "y": "1.464479605"
+          },
+          {
+            "turn": "-0.238231847",
+            "x": "0.252645603",
+            "y": "1.377512751"
+          },
+          {
+            "turn": "-0.298114758",
+            "x": "1.747354397",
+            "y": "1.377512751"
+          },
+          {
+            "turn": "0.267949192",
+            "x": "1.000000000",
+            "y": "1.196006996"
+          },
+          {
+            "turn": "0.267949192",
+            "x": "0.480994160",
+            "y": "1.107012935"
+          },
+          {
+            "turn": "0.267949192",
+            "x": "1.519005840",
+            "y": "1.107012935"
+          },
+          {
+            "turn": "-0.267949192",
+            "x": "0.766187452",
+            "y": "1.061015258"
+          },
+          {
+            "turn": "-0.267949192",
+            "x": "1.233812548",
+            "y": "1.061015258"
+          },
+          {
+            "turn": "-0.267949192",
+            "x": "0.247181612",
+            "y": "0.972021198"
+          },
+          {
+            "turn": "-0.267949192",
+            "x": "1.752818388",
+            "y": "0.972021198"
+          },
+          {
+            "turn": "0.267949192",
+            "x": "0.766187452",
+            "y": "0.791031784"
+          },
+          {
+            "turn": "0.267949192",
+            "x": "1.233812548",
+            "y": "0.791031784"
+          },
+          {
+            "turn": "0.267949192",
+            "x": "0.247181612",
+            "y": "0.702037723"
+          },
+          {
+            "turn": "0.267949192",
+            "x": "1.752818388",
+            "y": "0.702037723"
+          },
+          {
+            "turn": "-0.267949192",
+            "x": "1.000000000",
+            "y": "0.656040046"
+          },
+          {
+            "turn": "-0.267949192",
+            "x": "0.532374905",
+            "y": "0.656040046"
+          },
+          {
+            "turn": "-0.267949192",
+            "x": "1.467625095",
+            "y": "0.656040046"
+          },
+          {
+            "turn": "0.267949192",
+            "x": "1.000000000",
+            "y": "0.386056572"
+          },
+          {
+            "turn": "0.267949192",
+            "x": "0.532374905",
+            "y": "0.386056572"
+          },
+          {
+            "turn": "0.267949192",
+            "x": "1.467625095",
+            "y": "0.386056572"
+          },
+          {
+            "turn": "-0.267949192",
+            "x": "0.766187452",
+            "y": "0.251064834"
+          },
+          {
+            "turn": "-0.267949192",
+            "x": "1.233812548",
+            "y": "0.251064834"
+          }
+        ],
+        "radius": "0.269983473"
+      }
+    },
+    {
+      "instanceId": "p84-n28-v1",
+      "name": "n = 28",
+      "parameters": {
+        "n": 28,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "2188057308669942961",
+      "scoreDisplay": "2.188057309",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "2.18805",
+        "kind": "best",
+        "range": {
+          "lower": "2.18805",
+          "upper": "2.18806"
+        },
+        "truncated": true,
+        "certificateDisplay": "2.188057309",
+        "source": "Compiled by Erich Friedman; Found by Thomas Schadt in August 2026. Source expression: r = 2.18805+.",
+        "url": "https://erich-friedman.github.io/packing/triincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.382247798",
+            "x": "0.864546531",
+            "y": "1.822123388"
+          },
+          {
+            "turn": "-0.159829549",
+            "x": "1.115265579",
+            "y": "1.739877759"
+          },
+          {
+            "turn": "-0.057010629",
+            "x": "1.500913449",
+            "y": "1.676306758"
+          },
+          {
+            "turn": "0.245556389",
+            "x": "0.546949458",
+            "y": "1.595652307"
+          },
+          {
+            "turn": "-0.298461953",
+            "x": "0.309281182",
+            "y": "1.473622703"
+          },
+          {
+            "turn": "0.442982540",
+            "x": "1.188690398",
+            "y": "1.462206592"
+          },
+          {
+            "turn": "-0.283137199",
+            "x": "0.773353995",
+            "y": "1.454110798"
+          },
+          {
+            "turn": "0.503758381",
+            "x": "1.606019824",
+            "y": "1.434279830"
+          },
+          {
+            "turn": "-0.107001455",
+            "x": "1.407961835",
+            "y": "1.227983311"
+          },
+          {
+            "turn": "0.252875654",
+            "x": "0.469749353",
+            "y": "1.198714960"
+          },
+          {
+            "turn": "0.252875654",
+            "x": "0.926593652",
+            "y": "1.185813846"
+          },
+          {
+            "turn": "-0.485401586",
+            "x": "1.832970723",
+            "y": "1.120270072"
+          },
+          {
+            "turn": "-0.283137199",
+            "x": "0.233107022",
+            "y": "1.081607117"
+          },
+          {
+            "turn": "-0.283137199",
+            "x": "0.694447272",
+            "y": "1.060384813"
+          },
+          {
+            "turn": "-0.283137199",
+            "x": "1.109405887",
+            "y": "0.979446283"
+          },
+          {
+            "turn": "0.252875654",
+            "x": "1.455365525",
+            "y": "0.894227626"
+          },
+          {
+            "turn": "0.252875654",
+            "x": "0.225658560",
+            "y": "0.817847938"
+          },
+          {
+            "turn": "0.252875654",
+            "x": "0.686998810",
+            "y": "0.796625634"
+          },
+          {
+            "turn": "-0.335004537",
+            "x": "1.704115325",
+            "y": "0.754886541"
+          },
+          {
+            "turn": "0.252875654",
+            "x": "1.101957426",
+            "y": "0.715687104"
+          },
+          {
+            "turn": "-0.283137199",
+            "x": "0.450356479",
+            "y": "0.679517791"
+          },
+          {
+            "turn": "-0.283137199",
+            "x": "0.869811045",
+            "y": "0.590258071"
+          },
+          {
+            "turn": "-0.283137199",
+            "x": "1.326655344",
+            "y": "0.577356957"
+          },
+          {
+            "turn": "0.203069125",
+            "x": "1.671765619",
+            "y": "0.493012754"
+          },
+          {
+            "turn": "0.492597609",
+            "x": "0.487072746",
+            "y": "0.332758854"
+          },
+          {
+            "turn": "0.252875654",
+            "x": "0.862362584",
+            "y": "0.326498893"
+          },
+          {
+            "turn": "0.252875654",
+            "x": "1.319206883",
+            "y": "0.313597778"
+          },
+          {
+            "turn": "-0.283137199",
+            "x": "1.087060502",
+            "y": "0.188168746"
+          }
+        ],
+        "radius": "0.263864327"
+      }
+    },
+    {
+      "instanceId": "p84-n29-v1",
+      "name": "n = 29",
+      "parameters": {
+        "n": 29,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "2209353135874537503",
+      "scoreDisplay": "2.209353136",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "2.20935",
+        "kind": "best",
+        "range": {
+          "lower": "2.20935",
+          "upper": "2.20936"
+        },
+        "truncated": true,
+        "certificateDisplay": "2.209353136",
+        "source": "Compiled by Erich Friedman; Found by Jake Loyd in June 2026. Source expression: r = 2.20935+.",
+        "url": "https://erich-friedman.github.io/packing/triincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.357898083",
+            "x": "0.833888532",
+            "y": "1.819761002"
+          },
+          {
+            "turn": "-0.181871594",
+            "x": "1.083586224",
+            "y": "1.741336527"
+          },
+          {
+            "turn": "-0.028216365",
+            "x": "1.462212158",
+            "y": "1.705460535"
+          },
+          {
+            "turn": "0.391515212",
+            "x": "0.510698516",
+            "y": "1.596392483"
+          },
+          {
+            "turn": "-0.151573230",
+            "x": "0.771771809",
+            "y": "1.482739074"
+          },
+          {
+            "turn": "0.357898083",
+            "x": "1.126196445",
+            "y": "1.483512923"
+          },
+          {
+            "turn": "-0.151573230",
+            "x": "0.318842424",
+            "y": "1.418966775"
+          },
+          {
+            "turn": "0.106398833",
+            "x": "1.649158281",
+            "y": "1.371214360"
+          },
+          {
+            "turn": "-0.432457393",
+            "x": "1.401336293",
+            "y": "1.264936601"
+          },
+          {
+            "turn": "0.391515212",
+            "x": "0.829498933",
+            "y": "1.227873970"
+          },
+          {
+            "turn": "-0.443695491",
+            "x": "1.824512815",
+            "y": "1.177463414"
+          },
+          {
+            "turn": "0.391515212",
+            "x": "0.401013804",
+            "y": "1.169638312"
+          },
+          {
+            "turn": "-0.151573230",
+            "x": "1.064132206",
+            "y": "1.102251669"
+          },
+          {
+            "turn": "-0.151573230",
+            "x": "0.637642842",
+            "y": "1.050448262"
+          },
+          {
+            "turn": "-0.151573230",
+            "x": "0.209157712",
+            "y": "0.992212605"
+          },
+          {
+            "turn": "0.218849942",
+            "x": "1.491184027",
+            "y": "0.951588144"
+          },
+          {
+            "turn": "0.391515212",
+            "x": "1.121859330",
+            "y": "0.847386566"
+          },
+          {
+            "turn": "-0.291228043",
+            "x": "1.722797364",
+            "y": "0.808243527"
+          },
+          {
+            "turn": "0.391515212",
+            "x": "0.695369966",
+            "y": "0.795583159"
+          },
+          {
+            "turn": "0.391515212",
+            "x": "0.266884836",
+            "y": "0.737347501"
+          },
+          {
+            "turn": "-0.151573230",
+            "x": "0.930003238",
+            "y": "0.669960858"
+          },
+          {
+            "turn": "-0.151573230",
+            "x": "0.503513874",
+            "y": "0.618157451"
+          },
+          {
+            "turn": "-0.151573230",
+            "x": "1.321960961",
+            "y": "0.610470547"
+          },
+          {
+            "turn": "0.244938177",
+            "x": "1.711516802",
+            "y": "0.547166161"
+          },
+          {
+            "turn": "0.391515212",
+            "x": "0.987730363",
+            "y": "0.415095755"
+          },
+          {
+            "turn": "0.391515212",
+            "x": "1.379688085",
+            "y": "0.355605444"
+          },
+          {
+            "turn": "0.391515212",
+            "x": "0.512038406",
+            "y": "0.352147926"
+          },
+          {
+            "turn": "-0.151573230",
+            "x": "0.761621622",
+            "y": "0.274708531"
+          },
+          {
+            "turn": "-0.151573230",
+            "x": "1.187831993",
+            "y": "0.178179736"
+          }
+        ],
+        "radius": "0.261320954"
+      }
+    },
+    {
+      "instanceId": "p84-n30-v1",
+      "name": "n = 30",
+      "parameters": {
+        "n": 30,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "2251247455814228077",
+      "scoreDisplay": "2.251247456",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "2.25124",
+        "kind": "best",
+        "range": {
+          "lower": "2.25124",
+          "upper": "2.25125"
+        },
+        "truncated": true,
+        "certificateDisplay": "2.251247456",
+        "source": "Compiled by Erich Friedman; Found by Thomas Schadt in August 2026. Source expression: r = 2.25124+.",
+        "url": "https://erich-friedman.github.io/packing/triincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.169603979",
+            "x": "0.887684917",
+            "y": "1.784438329"
+          },
+          {
+            "turn": "0.169603979",
+            "x": "1.306704520",
+            "y": "1.751379926"
+          },
+          {
+            "turn": "-0.371380387",
+            "x": "0.645568721",
+            "y": "1.699878173"
+          },
+          {
+            "turn": "-0.371380387",
+            "x": "1.081974259",
+            "y": "1.617039631"
+          },
+          {
+            "turn": "-0.371380387",
+            "x": "1.500993862",
+            "y": "1.583981228"
+          },
+          {
+            "turn": "-0.371380387",
+            "x": "0.318837817",
+            "y": "1.468691691"
+          },
+          {
+            "turn": "0.169603979",
+            "x": "0.597741867",
+            "y": "1.447919318"
+          },
+          {
+            "turn": "0.169603979",
+            "x": "1.034147404",
+            "y": "1.365080777"
+          },
+          {
+            "turn": "0.169603979",
+            "x": "1.504970839",
+            "y": "1.322188965"
+          },
+          {
+            "turn": "-0.371380387",
+            "x": "0.792031209",
+            "y": "1.280520620"
+          },
+          {
+            "turn": "-0.371380387",
+            "x": "1.800227353",
+            "y": "1.271976635"
+          },
+          {
+            "turn": "-0.371380387",
+            "x": "1.262854643",
+            "y": "1.237628809"
+          },
+          {
+            "turn": "0.169603979",
+            "x": "0.271010963",
+            "y": "1.216732837"
+          },
+          {
+            "turn": "-0.371380387",
+            "x": "0.465300305",
+            "y": "1.049334139"
+          },
+          {
+            "turn": "0.169603979",
+            "x": "0.744204354",
+            "y": "1.028561766"
+          },
+          {
+            "turn": "0.169603979",
+            "x": "1.752400498",
+            "y": "1.020017781"
+          },
+          {
+            "turn": "0.169603979",
+            "x": "1.215027789",
+            "y": "0.985669954"
+          },
+          {
+            "turn": "-0.371380387",
+            "x": "1.510284303",
+            "y": "0.935457624"
+          },
+          {
+            "turn": "-0.371380387",
+            "x": "0.972911593",
+            "y": "0.901109798"
+          },
+          {
+            "turn": "0.077458159",
+            "x": "0.172694927",
+            "y": "0.846815604"
+          },
+          {
+            "turn": "0.030541448",
+            "x": "0.608933141",
+            "y": "0.676918816"
+          },
+          {
+            "turn": "-0.478493641",
+            "x": "0.333595955",
+            "y": "0.647111995"
+          },
+          {
+            "turn": "0.169603979",
+            "x": "1.717765949",
+            "y": "0.635036085"
+          },
+          {
+            "turn": "0.169603979",
+            "x": "1.132156911",
+            "y": "0.609844483"
+          },
+          {
+            "turn": "-0.407498704",
+            "x": "1.459951057",
+            "y": "0.553969138"
+          },
+          {
+            "turn": "-0.371380387",
+            "x": "0.890040716",
+            "y": "0.525284327"
+          },
+          {
+            "turn": "0.513234510",
+            "x": "0.506303354",
+            "y": "0.312013359"
+          },
+          {
+            "turn": "0.137501628",
+            "x": "1.396425506",
+            "y": "0.305503493"
+          },
+          {
+            "turn": "0.169603979",
+            "x": "0.842213861",
+            "y": "0.273325472"
+          },
+          {
+            "turn": "-0.371380387",
+            "x": "1.138610613",
+            "y": "0.224436546"
+          }
+        ],
+        "radius": "0.256457933"
+      }
+    },
+    {
+      "instanceId": "p84-n31-v1",
+      "name": "n = 31",
+      "parameters": {
+        "n": 31,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "2272610888124764649",
+      "scoreDisplay": "2.272610889",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "2.272",
+        "kind": "best",
+        "range": {
+          "lower": "2.272",
+          "upper": "2.273"
+        },
+        "truncated": true,
+        "certificateDisplay": "2.272610889",
+        "source": "Compiled by Erich Friedman; Found by Maurizio Morandi in July 2008. Source expression: r = 2.272+.",
+        "url": "https://erich-friedman.github.io/packing/triincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "-0.267651546",
+            "x": "1.001077912",
+            "y": "1.745952471"
+          },
+          {
+            "turn": "0.268246883",
+            "x": "1.320559453",
+            "y": "1.714198178"
+          },
+          {
+            "turn": "0.268246883",
+            "x": "0.683375990",
+            "y": "1.716868111"
+          },
+          {
+            "turn": "-0.267651546",
+            "x": "1.540641244",
+            "y": "1.587296839"
+          },
+          {
+            "turn": "-0.267651546",
+            "x": "0.463435312",
+            "y": "1.589722359"
+          },
+          {
+            "turn": "0.268246883",
+            "x": "1.001219024",
+            "y": "1.491905380"
+          },
+          {
+            "turn": "-0.267651546",
+            "x": "1.225136967",
+            "y": "1.371656984"
+          },
+          {
+            "turn": "-0.267651546",
+            "x": "0.777434805",
+            "y": "1.371408305"
+          },
+          {
+            "turn": "0.268246883",
+            "x": "1.540782356",
+            "y": "1.333249749"
+          },
+          {
+            "turn": "0.268246883",
+            "x": "0.461257110",
+            "y": "1.335673981"
+          },
+          {
+            "turn": "-0.267651546",
+            "x": "0.225811837",
+            "y": "1.235348560"
+          },
+          {
+            "turn": "-0.267651546",
+            "x": "1.774576011",
+            "y": "1.230128553"
+          },
+          {
+            "turn": "0.268246883",
+            "x": "1.225278079",
+            "y": "1.117609894"
+          },
+          {
+            "turn": "0.268246883",
+            "x": "0.777575917",
+            "y": "1.117361215"
+          },
+          {
+            "turn": "-0.267651546",
+            "x": "0.556474466",
+            "y": "0.992223404"
+          },
+          {
+            "turn": "-0.267651546",
+            "x": "0.997657707",
+            "y": "0.990459876"
+          },
+          {
+            "turn": "-0.267651546",
+            "x": "1.445359869",
+            "y": "0.990708555"
+          },
+          {
+            "turn": "0.268246883",
+            "x": "0.225952949",
+            "y": "0.981301469"
+          },
+          {
+            "turn": "0.268246883",
+            "x": "1.774717124",
+            "y": "0.976081462"
+          },
+          {
+            "turn": "0.268246883",
+            "x": "0.778668822",
+            "y": "0.736291068"
+          },
+          {
+            "turn": "0.268246883",
+            "x": "1.218691290",
+            "y": "0.736535482"
+          },
+          {
+            "turn": "-0.267651546",
+            "x": "0.998750612",
+            "y": "0.609389730"
+          },
+          {
+            "turn": "-0.267651546",
+            "x": "0.557567371",
+            "y": "0.611153258"
+          },
+          {
+            "turn": "-0.267651546",
+            "x": "1.438773081",
+            "y": "0.609634143"
+          },
+          {
+            "turn": "0.268246883",
+            "x": "0.258025240",
+            "y": "0.600248531"
+          },
+          {
+            "turn": "0.268246883",
+            "x": "1.740680195",
+            "y": "0.594991803"
+          },
+          {
+            "turn": "0.268246883",
+            "x": "0.998891724",
+            "y": "0.355342639"
+          },
+          {
+            "turn": "0.268246883",
+            "x": "0.557708483",
+            "y": "0.357106167"
+          },
+          {
+            "turn": "0.268246883",
+            "x": "1.438914193",
+            "y": "0.355587053"
+          },
+          {
+            "turn": "-0.267651546",
+            "x": "0.777790274",
+            "y": "0.230204829"
+          },
+          {
+            "turn": "-0.267651546",
+            "x": "1.218973515",
+            "y": "0.228441301"
+          }
+        ],
+        "radius": "0.254047128"
+      }
+    },
+    {
+      "instanceId": "p84-n32-v1",
+      "name": "n = 32",
+      "parameters": {
+        "n": 32,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "2312955247057520539",
+      "scoreDisplay": "2.312955248",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "2.31295",
+        "kind": "best",
+        "range": {
+          "lower": "2.31295",
+          "upper": "2.31296"
+        },
+        "truncated": true,
+        "certificateDisplay": "2.312955248",
+        "source": "Compiled by Erich Friedman; Found by Thomas Schadt in August 2026. Source expression: r = 2.31295+.",
+        "url": "https://erich-friedman.github.io/packing/triincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.577232428",
+            "x": "0.997305461",
+            "y": "1.776359860"
+          },
+          {
+            "turn": "-0.000088385",
+            "x": "1.246921299",
+            "y": "1.776315736"
+          },
+          {
+            "turn": "0.535854130",
+            "x": "0.621776579",
+            "y": "1.762941251"
+          },
+          {
+            "turn": "-0.000088385",
+            "x": "0.872459329",
+            "y": "1.560208266"
+          },
+          {
+            "turn": "-0.000088385",
+            "x": "1.590572587",
+            "y": "1.542338704"
+          },
+          {
+            "turn": "0.577232428",
+            "x": "1.340956749",
+            "y": "1.542382828"
+          },
+          {
+            "turn": "-0.165644408",
+            "x": "0.421100098",
+            "y": "1.533875848"
+          },
+          {
+            "turn": "-0.000088385",
+            "x": "1.216110617",
+            "y": "1.326231234"
+          },
+          {
+            "turn": "0.577232428",
+            "x": "0.966494779",
+            "y": "1.326275359"
+          },
+          {
+            "turn": "0.577232428",
+            "x": "1.715342293",
+            "y": "1.326142984"
+          },
+          {
+            "turn": "0.375769230",
+            "x": "0.349979002",
+            "y": "1.265354556"
+          },
+          {
+            "turn": "-0.000088385",
+            "x": "0.662593946",
+            "y": "1.213543250"
+          },
+          {
+            "turn": "-0.577468122",
+            "x": "1.340880323",
+            "y": "1.110035514"
+          },
+          {
+            "turn": "-0.000088385",
+            "x": "1.590496161",
+            "y": "1.109991390"
+          },
+          {
+            "turn": "-0.017019833",
+            "x": "0.148946192",
+            "y": "1.028977981"
+          },
+          {
+            "turn": "-0.000088385",
+            "x": "1.036979490",
+            "y": "0.997303406"
+          },
+          {
+            "turn": "0.577232428",
+            "x": "0.787363652",
+            "y": "0.997347531"
+          },
+          {
+            "turn": "-0.577468122",
+            "x": "1.843956888",
+            "y": "0.968065138"
+          },
+          {
+            "turn": "0.577232428",
+            "x": "0.412919979",
+            "y": "0.884752148"
+          },
+          {
+            "turn": "-0.000088385",
+            "x": "0.662517520",
+            "y": "0.781195936"
+          },
+          {
+            "turn": "0.577232428",
+            "x": "1.161749196",
+            "y": "0.781107687"
+          },
+          {
+            "turn": "-0.000088385",
+            "x": "1.411365034",
+            "y": "0.781063562"
+          },
+          {
+            "turn": "-0.000088385",
+            "x": "0.288073847",
+            "y": "0.668600553"
+          },
+          {
+            "turn": "-0.577468122",
+            "x": "1.683996049",
+            "y": "0.628064821"
+          },
+          {
+            "turn": "-0.000088385",
+            "x": "1.036903064",
+            "y": "0.564956092"
+          },
+          {
+            "turn": "-0.577468122",
+            "x": "0.787287225",
+            "y": "0.565000217"
+          },
+          {
+            "turn": "-0.577468122",
+            "x": "0.412843553",
+            "y": "0.452404834"
+          },
+          {
+            "turn": "0.577232428",
+            "x": "1.309537992",
+            "y": "0.434095551"
+          },
+          {
+            "turn": "-0.000088385",
+            "x": "1.559149917",
+            "y": "0.411913226"
+          },
+          {
+            "turn": "-0.000088385",
+            "x": "0.662441093",
+            "y": "0.348848622"
+          },
+          {
+            "turn": "-0.577468122",
+            "x": "0.935076022",
+            "y": "0.217988081"
+          },
+          {
+            "turn": "-0.000088385",
+            "x": "1.184691860",
+            "y": "0.217943956"
+          }
+        ],
+        "radius": "0.249615841"
+      }
+    },
+    {
+      "instanceId": "p84-n33-v1",
+      "name": "n = 33",
+      "parameters": {
+        "n": 33,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "2341693802368735092",
+      "scoreDisplay": "2.341693803",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "2.34169",
+        "kind": "best",
+        "range": {
+          "lower": "2.34169",
+          "upper": "2.3417"
+        },
+        "truncated": true,
+        "certificateDisplay": "2.341693803",
+        "source": "Compiled by Erich Friedman; Found by Thomas Schadt in August 2026. Source expression: r = 2.34169+.",
+        "url": "https://erich-friedman.github.io/packing/triincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.172925527",
+            "x": "1.209984722",
+            "y": "1.814112101"
+          },
+          {
+            "turn": "-0.367712810",
+            "x": "0.977749600",
+            "y": "1.731317513"
+          },
+          {
+            "turn": "0.183515780",
+            "x": "0.568965132",
+            "y": "1.627107576"
+          },
+          {
+            "turn": "0.172925527",
+            "x": "1.506187025",
+            "y": "1.591544149"
+          },
+          {
+            "turn": "-0.356104219",
+            "x": "0.338478455",
+            "y": "1.539563374"
+          },
+          {
+            "turn": "-0.367712810",
+            "x": "1.273951903",
+            "y": "1.508749561"
+          },
+          {
+            "turn": "0.172925527",
+            "x": "0.933334255",
+            "y": "1.488798704"
+          },
+          {
+            "turn": "-0.367712810",
+            "x": "1.694006803",
+            "y": "1.431819928"
+          },
+          {
+            "turn": "-0.367712810",
+            "x": "0.703818928",
+            "y": "1.398375212"
+          },
+          {
+            "turn": "0.172925527",
+            "x": "1.255569156",
+            "y": "1.261463094"
+          },
+          {
+            "turn": "0.172925527",
+            "x": "0.497383399",
+            "y": "1.185529080"
+          },
+          {
+            "turn": "0.172925527",
+            "x": "1.675624055",
+            "y": "1.184533460"
+          },
+          {
+            "turn": "-0.367712810",
+            "x": "0.237107331",
+            "y": "1.181388094"
+          },
+          {
+            "turn": "-0.367712810",
+            "x": "1.023334034",
+            "y": "1.178668506"
+          },
+          {
+            "turn": "-0.367712810",
+            "x": "1.443388933",
+            "y": "1.101738872"
+          },
+          {
+            "turn": "-0.367712810",
+            "x": "0.685203177",
+            "y": "1.025804859"
+          },
+          {
+            "turn": "0.172925527",
+            "x": "0.192691986",
+            "y": "0.938869284"
+          },
+          {
+            "turn": "0.172925527",
+            "x": "0.978918689",
+            "y": "0.936149696"
+          },
+          {
+            "turn": "-0.367712810",
+            "x": "1.786428684",
+            "y": "0.934247094"
+          },
+          {
+            "turn": "0.172925527",
+            "x": "1.398973589",
+            "y": "0.859220063"
+          },
+          {
+            "turn": "0.172925527",
+            "x": "0.640787832",
+            "y": "0.783286049"
+          },
+          {
+            "turn": "-0.367712810",
+            "x": "0.380511764",
+            "y": "0.779145063"
+          },
+          {
+            "turn": "-0.367712810",
+            "x": "1.166738467",
+            "y": "0.776425475"
+          },
+          {
+            "turn": "0.172925527",
+            "x": "1.742013340",
+            "y": "0.691728285"
+          },
+          {
+            "turn": "-0.367712810",
+            "x": "0.828607609",
+            "y": "0.623561828"
+          },
+          {
+            "turn": "-0.367712810",
+            "x": "1.509778218",
+            "y": "0.608933697"
+          },
+          {
+            "turn": "0.172925527",
+            "x": "0.336096419",
+            "y": "0.536626254"
+          },
+          {
+            "turn": "0.172925527",
+            "x": "1.122323122",
+            "y": "0.533906666"
+          },
+          {
+            "turn": "0.172925527",
+            "x": "0.784192265",
+            "y": "0.381043019"
+          },
+          {
+            "turn": "-0.367712810",
+            "x": "0.523916197",
+            "y": "0.376902032"
+          },
+          {
+            "turn": "0.172925527",
+            "x": "1.511020481",
+            "y": "0.358053068"
+          },
+          {
+            "turn": "-0.367712810",
+            "x": "1.278785359",
+            "y": "0.275258480"
+          },
+          {
+            "turn": "-0.367712810",
+            "x": "0.925067245",
+            "y": "0.166116391"
+          }
+        ],
+        "radius": "0.246552418"
+      }
+    },
+    {
+      "instanceId": "p84-n34-v1",
+      "name": "n = 34",
+      "parameters": {
+        "n": 34,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "2375042540493338599",
+      "scoreDisplay": "2.375042541",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "2.37504",
+        "kind": "best",
+        "range": {
+          "lower": "2.37504",
+          "upper": "2.37505"
+        },
+        "truncated": true,
+        "certificateDisplay": "2.375042541",
+        "source": "Compiled by Erich Friedman; Found by Thomas Schadt in August 2026. Source expression: r = 2.37504+.",
+        "url": "https://erich-friedman.github.io/packing/triincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.200541705",
+            "x": "1.166948108",
+            "y": "1.826557881"
+          },
+          {
+            "turn": "0.200541705",
+            "x": "0.795376300",
+            "y": "1.770031036"
+          },
+          {
+            "turn": "-0.337707806",
+            "x": "0.571082582",
+            "y": "1.676301008"
+          },
+          {
+            "turn": "0.200541705",
+            "x": "1.471459241",
+            "y": "1.624551129"
+          },
+          {
+            "turn": "-0.337707806",
+            "x": "0.988695744",
+            "y": "1.622651992"
+          },
+          {
+            "turn": "-0.337707806",
+            "x": "1.664778685",
+            "y": "1.477172085"
+          },
+          {
+            "turn": "0.200541705",
+            "x": "0.540108308",
+            "y": "1.435191937"
+          },
+          {
+            "turn": "-0.337707806",
+            "x": "0.280824915",
+            "y": "1.425191366"
+          },
+          {
+            "turn": "-0.337707806",
+            "x": "1.279756130",
+            "y": "1.403001680"
+          },
+          {
+            "turn": "0.200541705",
+            "x": "0.957721470",
+            "y": "1.381542921"
+          },
+          {
+            "turn": "-0.337707806",
+            "x": "0.733427752",
+            "y": "1.287812893"
+          },
+          {
+            "turn": "0.200541705",
+            "x": "1.611799267",
+            "y": "1.238889923"
+          },
+          {
+            "turn": "0.200541705",
+            "x": "0.249850641",
+            "y": "1.184082294"
+          },
+          {
+            "turn": "0.200541705",
+            "x": "1.248781856",
+            "y": "1.161892609"
+          },
+          {
+            "turn": "-0.337707806",
+            "x": "1.805118710",
+            "y": "1.091510879"
+          },
+          {
+            "turn": "-0.337707806",
+            "x": "1.024488138",
+            "y": "1.068162581"
+          },
+          {
+            "turn": "0.200541705",
+            "x": "0.702453478",
+            "y": "1.046703822"
+          },
+          {
+            "turn": "-0.337707806",
+            "x": "0.443170085",
+            "y": "1.036703250"
+          },
+          {
+            "turn": "-0.337707806",
+            "x": "1.442101300",
+            "y": "1.014513565"
+          },
+          {
+            "turn": "0.200541705",
+            "x": "1.774144436",
+            "y": "0.850401807"
+          },
+          {
+            "turn": "0.097516661",
+            "x": "0.160083974",
+            "y": "0.834615666"
+          },
+          {
+            "turn": "0.200541705",
+            "x": "0.993513864",
+            "y": "0.827053510"
+          },
+          {
+            "turn": "0.200541705",
+            "x": "1.411127026",
+            "y": "0.773404494"
+          },
+          {
+            "turn": "0.081086445",
+            "x": "0.581745452",
+            "y": "0.709595637"
+          },
+          {
+            "turn": "-0.337707806",
+            "x": "1.186833308",
+            "y": "0.679674466"
+          },
+          {
+            "turn": "-0.454258290",
+            "x": "0.335778629",
+            "y": "0.665315059"
+          },
+          {
+            "turn": "-0.337707806",
+            "x": "1.604446470",
+            "y": "0.626025450"
+          },
+          {
+            "turn": "-0.337707806",
+            "x": "0.824698912",
+            "y": "0.552267139"
+          },
+          {
+            "turn": "0.200541705",
+            "x": "1.134531252",
+            "y": "0.441305286"
+          },
+          {
+            "turn": "0.200541705",
+            "x": "1.552144414",
+            "y": "0.387656270"
+          },
+          {
+            "turn": "0.473394652",
+            "x": "0.457396572",
+            "y": "0.337887904"
+          },
+          {
+            "turn": "0.200541705",
+            "x": "0.793724638",
+            "y": "0.311158068"
+          },
+          {
+            "turn": "-0.337707806",
+            "x": "1.327850696",
+            "y": "0.293926242"
+          },
+          {
+            "turn": "-0.337707806",
+            "x": "0.987044082",
+            "y": "0.163779024"
+          }
+        ],
+        "radius": "0.243090496"
+      }
+    },
+    {
+      "instanceId": "p84-n35-v1",
+      "name": "n = 35",
+      "parameters": {
+        "n": 35,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "2399064679724394467",
+      "scoreDisplay": "2.39906468",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "2.39906",
+        "kind": "best",
+        "range": {
+          "lower": "2.39906",
+          "upper": "2.39907"
+        },
+        "truncated": true,
+        "certificateDisplay": "2.39906468",
+        "source": "Compiled by Erich Friedman; Found by Thomas Schadt in August 2026. Source expression: r = 2.39906+.",
+        "url": "https://erich-friedman.github.io/packing/triincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.160740342",
+            "x": "1.120792395",
+            "y": "1.838063361"
+          },
+          {
+            "turn": "0.150062122",
+            "x": "0.769842796",
+            "y": "1.749797091"
+          },
+          {
+            "turn": "-0.393220177",
+            "x": "0.539786211",
+            "y": "1.679160901"
+          },
+          {
+            "turn": "0.150062122",
+            "x": "1.448837095",
+            "y": "1.663600400"
+          },
+          {
+            "turn": "-0.393220177",
+            "x": "1.220912092",
+            "y": "1.586021814"
+          },
+          {
+            "turn": "-0.393220177",
+            "x": "1.625038123",
+            "y": "1.499683648"
+          },
+          {
+            "turn": "-0.393220177",
+            "x": "0.874805319",
+            "y": "1.483395764"
+          },
+          {
+            "turn": "0.150062122",
+            "x": "0.505789817",
+            "y": "1.440048109"
+          },
+          {
+            "turn": "-0.393220177",
+            "x": "0.275733231",
+            "y": "1.369411919"
+          },
+          {
+            "turn": "0.150062122",
+            "x": "1.167056534",
+            "y": "1.351468872"
+          },
+          {
+            "turn": "0.150062122",
+            "x": "1.571182565",
+            "y": "1.265130706"
+          },
+          {
+            "turn": "0.150062122",
+            "x": "0.820949761",
+            "y": "1.248842822"
+          },
+          {
+            "turn": "-0.393220177",
+            "x": "1.343257562",
+            "y": "1.187552119"
+          },
+          {
+            "turn": "-0.393220177",
+            "x": "1.823613860",
+            "y": "1.183157082"
+          },
+          {
+            "turn": "-0.393220177",
+            "x": "0.590893175",
+            "y": "1.178206632"
+          },
+          {
+            "turn": "0.150062122",
+            "x": "0.221877674",
+            "y": "1.134858977"
+          },
+          {
+            "turn": "-0.393220177",
+            "x": "0.997150788",
+            "y": "1.084926069"
+          },
+          {
+            "turn": "0.150062122",
+            "x": "0.537037618",
+            "y": "0.943653690"
+          },
+          {
+            "turn": "0.150062122",
+            "x": "1.489137527",
+            "y": "0.907138026"
+          },
+          {
+            "turn": "-0.393220177",
+            "x": "0.306981032",
+            "y": "0.873017500"
+          },
+          {
+            "turn": "0.150062122",
+            "x": "0.943295230",
+            "y": "0.850373127"
+          },
+          {
+            "turn": "-0.393220177",
+            "x": "1.259080941",
+            "y": "0.836501836"
+          },
+          {
+            "turn": "-0.393220177",
+            "x": "1.765055580",
+            "y": "0.826224587"
+          },
+          {
+            "turn": "-0.393220177",
+            "x": "0.713238645",
+            "y": "0.779736937"
+          },
+          {
+            "turn": "0.150062122",
+            "x": "0.250487394",
+            "y": "0.639070286"
+          },
+          {
+            "turn": "0.150062122",
+            "x": "1.205225384",
+            "y": "0.601948894"
+          },
+          {
+            "turn": "0.150062122",
+            "x": "1.711200023",
+            "y": "0.591671645"
+          },
+          {
+            "turn": "0.150062122",
+            "x": "0.656745007",
+            "y": "0.545789723"
+          },
+          {
+            "turn": "-0.393220177",
+            "x": "1.475559994",
+            "y": "0.539220298"
+          },
+          {
+            "turn": "-0.393220177",
+            "x": "0.975168798",
+            "y": "0.531312704"
+          },
+          {
+            "turn": "-0.393220177",
+            "x": "0.426688422",
+            "y": "0.475153534"
+          },
+          {
+            "turn": "0.150062122",
+            "x": "1.421704436",
+            "y": "0.304667356"
+          },
+          {
+            "turn": "0.150062122",
+            "x": "0.921313240",
+            "y": "0.296759762"
+          },
+          {
+            "turn": "-0.393220177",
+            "x": "1.191647850",
+            "y": "0.234031166"
+          },
+          {
+            "turn": "-0.393220177",
+            "x": "0.690462191",
+            "y": "0.228711081"
+          }
+        ],
+        "radius": "0.240656400"
+      }
+    },
+    {
+      "instanceId": "p84-n36-v1",
+      "name": "n = 36",
+      "parameters": {
+        "n": 36,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "2439690194307703906",
+      "scoreDisplay": "2.439690195",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "2.43969",
+        "kind": "best",
+        "range": {
+          "lower": "2.43969",
+          "upper": "2.4397"
+        },
+        "truncated": true,
+        "certificateDisplay": "2.439690195",
+        "source": "Compiled by Erich Friedman; Found by Thomas Schadt in August 2026. Source expression: r = 2.43969+.",
+        "url": "https://erich-friedman.github.io/packing/triincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.119843188",
+            "x": "1.260454368",
+            "y": "1.815577958"
+          },
+          {
+            "turn": "0.119843188",
+            "x": "0.839511951",
+            "y": "1.774913997"
+          },
+          {
+            "turn": "-0.427900037",
+            "x": "0.609564381",
+            "y": "1.718995575"
+          },
+          {
+            "turn": "-0.427900037",
+            "x": "1.056082732",
+            "y": "1.654486257"
+          },
+          {
+            "turn": "-0.427900037",
+            "x": "1.423854926",
+            "y": "1.644396732"
+          },
+          {
+            "turn": "0.119843188",
+            "x": "0.535804239",
+            "y": "1.494009591"
+          },
+          {
+            "turn": "-0.237398095",
+            "x": "1.719247112",
+            "y": "1.472288459"
+          },
+          {
+            "turn": "-0.427900037",
+            "x": "0.305856670",
+            "y": "1.438091169"
+          },
+          {
+            "turn": "0.119843188",
+            "x": "0.989535721",
+            "y": "1.427386609"
+          },
+          {
+            "turn": "0.119843188",
+            "x": "1.357307915",
+            "y": "1.417297084"
+          },
+          {
+            "turn": "-0.427900037",
+            "x": "0.759588151",
+            "y": "1.371468187"
+          },
+          {
+            "turn": "-0.427900037",
+            "x": "1.152936279",
+            "y": "1.256205383"
+          },
+          {
+            "turn": "0.119843188",
+            "x": "0.239309659",
+            "y": "1.210991521"
+          },
+          {
+            "turn": "0.134412340",
+            "x": "1.742157271",
+            "y": "1.178986598"
+          },
+          {
+            "turn": "0.119843188",
+            "x": "0.676404601",
+            "y": "1.137487116"
+          },
+          {
+            "turn": "-0.411039993",
+            "x": "1.513907437",
+            "y": "1.116498456"
+          },
+          {
+            "turn": "-0.427900037",
+            "x": "0.446457031",
+            "y": "1.081568694"
+          },
+          {
+            "turn": "0.119843188",
+            "x": "1.066674459",
+            "y": "1.034882766"
+          },
+          {
+            "turn": "-0.427900037",
+            "x": "0.839805160",
+            "y": "0.966305890"
+          },
+          {
+            "turn": "-0.411039993",
+            "x": "1.794262577",
+            "y": "0.895157930"
+          },
+          {
+            "turn": "0.134412340",
+            "x": "1.453898838",
+            "y": "0.887584230"
+          },
+          {
+            "turn": "0.119843188",
+            "x": "0.163990476",
+            "y": "0.863162424"
+          },
+          {
+            "turn": "-0.411039993",
+            "x": "1.219935209",
+            "y": "0.845966813"
+          },
+          {
+            "turn": "0.119843188",
+            "x": "0.601085418",
+            "y": "0.789658018"
+          },
+          {
+            "turn": "-0.427900037",
+            "x": "0.371137849",
+            "y": "0.733739596"
+          },
+          {
+            "turn": "0.134412340",
+            "x": "1.734253978",
+            "y": "0.666243705"
+          },
+          {
+            "turn": "0.119843188",
+            "x": "0.998366812",
+            "y": "0.658220851"
+          },
+          {
+            "turn": "-0.427900037",
+            "x": "0.764485977",
+            "y": "0.618476792"
+          },
+          {
+            "turn": "-0.411039993",
+            "x": "1.506004144",
+            "y": "0.603755563"
+          },
+          {
+            "turn": "-0.427900037",
+            "x": "1.167774162",
+            "y": "0.492773391"
+          },
+          {
+            "turn": "0.119843188",
+            "x": "0.404964190",
+            "y": "0.477227545"
+          },
+          {
+            "turn": "0.134412340",
+            "x": "1.538214718",
+            "y": "0.350666591"
+          },
+          {
+            "turn": "0.119843188",
+            "x": "0.802245584",
+            "y": "0.345790377"
+          },
+          {
+            "turn": "-0.427900037",
+            "x": "0.568364748",
+            "y": "0.306046319"
+          },
+          {
+            "turn": "0.119843188",
+            "x": "1.201600503",
+            "y": "0.236261339"
+          },
+          {
+            "turn": "-0.427900037",
+            "x": "0.971652934",
+            "y": "0.180342917"
+          }
+        ],
+        "radius": "0.236649010"
+      }
+    },
+    {
+      "instanceId": "p84-n37-v1",
+      "name": "n = 37",
+      "parameters": {
+        "n": 37,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "2463494363806688643",
+      "scoreDisplay": "2.463494364",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "2.46349",
+        "kind": "best",
+        "range": {
+          "lower": "2.46349",
+          "upper": "2.4635"
+        },
+        "truncated": true,
+        "certificateDisplay": "2.463494364",
+        "source": "Compiled by Erich Friedman; Found by Thomas Schadt in August 2026. Source expression: r = 2.46349+.",
+        "url": "https://erich-friedman.github.io/packing/triincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.010107077",
+            "x": "0.995772435",
+            "y": "1.791541459"
+          },
+          {
+            "turn": "-0.563952348",
+            "x": "0.761457984",
+            "y": "1.786804507"
+          },
+          {
+            "turn": "-0.563952348",
+            "x": "1.307907703",
+            "y": "1.701769857"
+          },
+          {
+            "turn": "0.010107077",
+            "x": "1.543905186",
+            "y": "1.623255242"
+          },
+          {
+            "turn": "0.010107077",
+            "x": "0.648403079",
+            "y": "1.581513764"
+          },
+          {
+            "turn": "-0.563952348",
+            "x": "0.414088629",
+            "y": "1.576776811"
+          },
+          {
+            "turn": "-0.563952348",
+            "x": "0.960445962",
+            "y": "1.496312072"
+          },
+          {
+            "turn": "0.010107077",
+            "x": "1.194943633",
+            "y": "1.491985982"
+          },
+          {
+            "turn": "-0.563952348",
+            "x": "1.665164733",
+            "y": "1.422701451"
+          },
+          {
+            "turn": "0.010107077",
+            "x": "0.301033724",
+            "y": "1.371486068"
+          },
+          {
+            "turn": "0.010107077",
+            "x": "0.847391057",
+            "y": "1.291021329"
+          },
+          {
+            "turn": "-0.563952348",
+            "x": "1.316252496",
+            "y": "1.288992740"
+          },
+          {
+            "turn": "-0.563952348",
+            "x": "0.613076606",
+            "y": "1.286284377"
+          },
+          {
+            "turn": "0.010107077",
+            "x": "1.552109828",
+            "y": "1.217410708"
+          },
+          {
+            "turn": "-0.563952348",
+            "x": "1.834506162",
+            "y": "1.114284015"
+          },
+          {
+            "turn": "-0.563952348",
+            "x": "0.968650604",
+            "y": "1.090467538"
+          },
+          {
+            "turn": "0.010107077",
+            "x": "0.500021702",
+            "y": "1.080993633"
+          },
+          {
+            "turn": "0.010107077",
+            "x": "1.203268150",
+            "y": "1.080211836"
+          },
+          {
+            "turn": "-0.563952348",
+            "x": "0.265707251",
+            "y": "1.076256681"
+          },
+          {
+            "turn": "0.010107077",
+            "x": "1.721451257",
+            "y": "0.908993271"
+          },
+          {
+            "turn": "-0.563952348",
+            "x": "1.487136806",
+            "y": "0.904256319"
+          },
+          {
+            "turn": "0.010107077",
+            "x": "0.855595699",
+            "y": "0.885176795"
+          },
+          {
+            "turn": "-0.563952348",
+            "x": "0.621281249",
+            "y": "0.880439843"
+          },
+          {
+            "turn": "0.010107077",
+            "x": "0.175067330",
+            "y": "0.858621865"
+          },
+          {
+            "turn": "-0.558209257",
+            "x": "1.135938678",
+            "y": "0.759974809"
+          },
+          {
+            "turn": "0.010107077",
+            "x": "1.374081902",
+            "y": "0.698965576"
+          },
+          {
+            "turn": "0.010107077",
+            "x": "0.530641328",
+            "y": "0.662805027"
+          },
+          {
+            "turn": "-0.563952348",
+            "x": "0.296326877",
+            "y": "0.658068075"
+          },
+          {
+            "turn": "-0.563952348",
+            "x": "1.690305411",
+            "y": "0.616291590"
+          },
+          {
+            "turn": "0.010107077",
+            "x": "1.025452713",
+            "y": "0.551255825"
+          },
+          {
+            "turn": "-0.563952348",
+            "x": "0.791139889",
+            "y": "0.546438425"
+          },
+          {
+            "turn": "0.010107077",
+            "x": "1.577250507",
+            "y": "0.411000847"
+          },
+          {
+            "turn": "-0.563952348",
+            "x": "1.342936056",
+            "y": "0.406263894"
+          },
+          {
+            "turn": "0.463609357",
+            "x": "0.442989161",
+            "y": "0.342130937"
+          },
+          {
+            "turn": "0.010107077",
+            "x": "0.715689062",
+            "y": "0.320438879"
+          },
+          {
+            "turn": "0.010107077",
+            "x": "1.212956872",
+            "y": "0.210293458"
+          },
+          {
+            "turn": "-0.563952348",
+            "x": "0.978642421",
+            "y": "0.205556506"
+          }
+        ],
+        "radius": "0.234362326"
+      }
+    },
+    {
+      "instanceId": "p84-n38-v1",
+      "name": "n = 38",
+      "parameters": {
+        "n": 38,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "2490030015423367526",
+      "scoreDisplay": "2.490030016",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "2.49003",
+        "kind": "best",
+        "range": {
+          "lower": "2.49003",
+          "upper": "2.49004"
+        },
+        "truncated": true,
+        "certificateDisplay": "2.490030016",
+        "source": "Compiled by Erich Friedman; Found by Thomas Schadt in August 2026. Source expression: r = 2.49003+.",
+        "url": "https://erich-friedman.github.io/packing/triincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.473692034",
+            "x": "0.905198593",
+            "y": "1.819234404"
+          },
+          {
+            "turn": "-0.081397218",
+            "x": "1.134011156",
+            "y": "1.781736550"
+          },
+          {
+            "turn": "0.473692034",
+            "x": "0.529505653",
+            "y": "1.677323693"
+          },
+          {
+            "turn": "0.473692034",
+            "x": "1.422277223",
+            "y": "1.642768745"
+          },
+          {
+            "turn": "-0.081397218",
+            "x": "0.758318217",
+            "y": "1.639825839"
+          },
+          {
+            "turn": "-0.111670733",
+            "x": "1.648113036",
+            "y": "1.536594057"
+          },
+          {
+            "turn": "0.473692034",
+            "x": "1.046584284",
+            "y": "1.500858035"
+          },
+          {
+            "turn": "-0.081397218",
+            "x": "0.382625277",
+            "y": "1.497915128"
+          },
+          {
+            "turn": "-0.081397218",
+            "x": "1.275396847",
+            "y": "1.463360180"
+          },
+          {
+            "turn": "0.473692034",
+            "x": "0.670891344",
+            "y": "1.358947324"
+          },
+          {
+            "turn": "-0.081397218",
+            "x": "0.899703907",
+            "y": "1.321449469"
+          },
+          {
+            "turn": "0.437474206",
+            "x": "1.535373875",
+            "y": "1.258780542"
+          },
+          {
+            "turn": "0.473692034",
+            "x": "0.295198404",
+            "y": "1.217036613"
+          },
+          {
+            "turn": "-0.111670733",
+            "x": "1.761527014",
+            "y": "1.207633345"
+          },
+          {
+            "turn": "-0.081397218",
+            "x": "0.524010968",
+            "y": "1.179538758"
+          },
+          {
+            "turn": "0.473692034",
+            "x": "1.169726676",
+            "y": "1.175590613"
+          },
+          {
+            "turn": "-0.111670733",
+            "x": "1.399189820",
+            "y": "1.068918753"
+          },
+          {
+            "turn": "0.473692034",
+            "x": "0.794033737",
+            "y": "1.033679903"
+          },
+          {
+            "turn": "-0.081397218",
+            "x": "0.158171216",
+            "y": "1.029561320"
+          },
+          {
+            "turn": "-0.081397218",
+            "x": "1.022846300",
+            "y": "0.996182048"
+          },
+          {
+            "turn": "0.437474206",
+            "x": "1.830308812",
+            "y": "0.986205383"
+          },
+          {
+            "turn": "0.473692034",
+            "x": "0.416281400",
+            "y": "0.879202716"
+          },
+          {
+            "turn": "-0.081397218",
+            "x": "0.647153360",
+            "y": "0.854271337"
+          },
+          {
+            "turn": "0.437474206",
+            "x": "1.467971617",
+            "y": "0.847490790"
+          },
+          {
+            "turn": "-0.111670733",
+            "x": "1.694124757",
+            "y": "0.796343593"
+          },
+          {
+            "turn": "0.473692034",
+            "x": "1.104778487",
+            "y": "0.779275628"
+          },
+          {
+            "turn": "-0.081397218",
+            "x": "0.269401024",
+            "y": "0.699794151"
+          },
+          {
+            "turn": "0.473692034",
+            "x": "0.729085548",
+            "y": "0.637364917"
+          },
+          {
+            "turn": "-0.081397218",
+            "x": "0.957898111",
+            "y": "0.599867063"
+          },
+          {
+            "turn": "-0.081397218",
+            "x": "1.320142663",
+            "y": "0.581606829"
+          },
+          {
+            "turn": "0.212679502",
+            "x": "1.698867145",
+            "y": "0.492494444"
+          },
+          {
+            "turn": "0.473692034",
+            "x": "0.351333211",
+            "y": "0.482887731"
+          },
+          {
+            "turn": "-0.081397218",
+            "x": "0.582205171",
+            "y": "0.457956352"
+          },
+          {
+            "turn": "0.473692034",
+            "x": "1.053475430",
+            "y": "0.388114826"
+          },
+          {
+            "turn": "0.473692034",
+            "x": "1.402074850",
+            "y": "0.364700409"
+          },
+          {
+            "turn": "0.473692034",
+            "x": "0.677782490",
+            "y": "0.246204116"
+          },
+          {
+            "turn": "-0.081397218",
+            "x": "0.906595053",
+            "y": "0.208706261"
+          },
+          {
+            "turn": "-0.081397218",
+            "x": "1.255194474",
+            "y": "0.185291844"
+          }
+        ],
+        "radius": "0.231864783"
+      }
+    },
+    {
+      "instanceId": "p84-n39-v1",
+      "name": "n = 39",
+      "parameters": {
+        "n": 39,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "9879104680775720670",
+      "scoreDisplay": "9.879104681",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "2.51938",
+        "kind": "best",
+        "range": {
+          "lower": "2.51938",
+          "upper": "2.51939"
+        },
+        "truncated": true,
+        "source": "Compiled by Erich Friedman; Found by Thomas Schadt in August 2026. Source expression: r = 2.51938+.",
+        "url": "https://erich-friedman.github.io/packing/triincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0",
+            "x": "0.614285714",
+            "y": "0.625000000"
+          },
+          {
+            "turn": "0",
+            "x": "0.742857143",
+            "y": "0.625000000"
+          },
+          {
+            "turn": "0",
+            "x": "0.871428571",
+            "y": "0.625000000"
+          },
+          {
+            "turn": "0",
+            "x": "1.000000000",
+            "y": "0.625000000"
+          },
+          {
+            "turn": "0",
+            "x": "1.128571429",
+            "y": "0.625000000"
+          },
+          {
+            "turn": "0",
+            "x": "1.257142857",
+            "y": "0.625000000"
+          },
+          {
+            "turn": "0",
+            "x": "1.385714286",
+            "y": "0.625000000"
+          },
+          {
+            "turn": "0",
+            "x": "0.614285714",
+            "y": "0.775000000"
+          },
+          {
+            "turn": "0",
+            "x": "0.742857143",
+            "y": "0.775000000"
+          },
+          {
+            "turn": "0",
+            "x": "0.871428571",
+            "y": "0.775000000"
+          },
+          {
+            "turn": "0",
+            "x": "1.000000000",
+            "y": "0.775000000"
+          },
+          {
+            "turn": "0",
+            "x": "1.128571429",
+            "y": "0.775000000"
+          },
+          {
+            "turn": "0",
+            "x": "1.257142857",
+            "y": "0.775000000"
+          },
+          {
+            "turn": "0",
+            "x": "1.385714286",
+            "y": "0.775000000"
+          },
+          {
+            "turn": "0",
+            "x": "0.614285714",
+            "y": "0.925000000"
+          },
+          {
+            "turn": "0",
+            "x": "0.742857143",
+            "y": "0.925000000"
+          },
+          {
+            "turn": "0",
+            "x": "0.871428571",
+            "y": "0.925000000"
+          },
+          {
+            "turn": "0",
+            "x": "1.000000000",
+            "y": "0.925000000"
+          },
+          {
+            "turn": "0",
+            "x": "1.128571429",
+            "y": "0.925000000"
+          },
+          {
+            "turn": "0",
+            "x": "1.257142857",
+            "y": "0.925000000"
+          },
+          {
+            "turn": "0",
+            "x": "1.385714286",
+            "y": "0.925000000"
+          },
+          {
+            "turn": "0",
+            "x": "0.614285714",
+            "y": "1.075000000"
+          },
+          {
+            "turn": "0",
+            "x": "0.742857143",
+            "y": "1.075000000"
+          },
+          {
+            "turn": "0",
+            "x": "0.871428571",
+            "y": "1.075000000"
+          },
+          {
+            "turn": "0",
+            "x": "1.000000000",
+            "y": "1.075000000"
+          },
+          {
+            "turn": "0",
+            "x": "1.128571429",
+            "y": "1.075000000"
+          },
+          {
+            "turn": "0",
+            "x": "1.257142857",
+            "y": "1.075000000"
+          },
+          {
+            "turn": "0",
+            "x": "1.385714286",
+            "y": "1.075000000"
+          },
+          {
+            "turn": "0",
+            "x": "0.614285714",
+            "y": "1.225000000"
+          },
+          {
+            "turn": "0",
+            "x": "0.742857143",
+            "y": "1.225000000"
+          },
+          {
+            "turn": "0",
+            "x": "0.871428571",
+            "y": "1.225000000"
+          },
+          {
+            "turn": "0",
+            "x": "1.000000000",
+            "y": "1.225000000"
+          },
+          {
+            "turn": "0",
+            "x": "1.128571429",
+            "y": "1.225000000"
+          },
+          {
+            "turn": "0",
+            "x": "1.257142857",
+            "y": "1.225000000"
+          },
+          {
+            "turn": "0",
+            "x": "1.385714286",
+            "y": "1.225000000"
+          },
+          {
+            "turn": "0",
+            "x": "0.614285714",
+            "y": "1.375000000"
+          },
+          {
+            "turn": "0",
+            "x": "0.742857143",
+            "y": "1.375000000"
+          },
+          {
+            "turn": "0",
+            "x": "0.871428571",
+            "y": "1.375000000"
+          },
+          {
+            "turn": "0",
+            "x": "1.000000000",
+            "y": "1.375000000"
+          }
+        ],
+        "radius": "0.058441558"
+      }
+    },
+    {
+      "instanceId": "p84-n40-v1",
+      "name": "n = 40",
+      "parameters": {
+        "n": 40,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "2556750011244317659",
+      "scoreDisplay": "2.556750012",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "2.55675",
+        "kind": "best",
+        "range": {
+          "lower": "2.55675",
+          "upper": "2.55676"
+        },
+        "truncated": true,
+        "certificateDisplay": "2.556750012",
+        "source": "Compiled by Erich Friedman; Found by Thomas Schadt in August 2026. Source expression: r = 2.55675+.",
+        "url": "https://erich-friedman.github.io/packing/triincir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.002105389",
+            "x": "0.984974908",
+            "y": "1.796592872"
+          },
+          {
+            "turn": "-0.574546492",
+            "x": "0.759162783",
+            "y": "1.795642023"
+          },
+          {
+            "turn": "0.002022616",
+            "x": "1.323755526",
+            "y": "1.782586425"
+          },
+          {
+            "turn": "0.002154826",
+            "x": "0.647041117",
+            "y": "1.599607618"
+          },
+          {
+            "turn": "-0.545690442",
+            "x": "0.412790876",
+            "y": "1.593462975"
+          },
+          {
+            "turn": "-0.574546492",
+            "x": "1.040980457",
+            "y": "1.567857433"
+          },
+          {
+            "turn": "0.002022616",
+            "x": "1.605575844",
+            "y": "1.554778703"
+          },
+          {
+            "turn": "-0.574656593",
+            "x": "1.379763565",
+            "y": "1.553865236"
+          },
+          {
+            "turn": "0.002022859",
+            "x": "0.928833127",
+            "y": "1.371822805"
+          },
+          {
+            "turn": "-0.574655093",
+            "x": "0.703020901",
+            "y": "1.370810454"
+          },
+          {
+            "turn": "-0.122842521",
+            "x": "0.249456382",
+            "y": "1.365522784"
+          },
+          {
+            "turn": "-0.574656593",
+            "x": "1.719273070",
+            "y": "1.359676266"
+          },
+          {
+            "turn": "0.002022616",
+            "x": "1.311526821",
+            "y": "1.332752291"
+          },
+          {
+            "turn": "-0.574656593",
+            "x": "1.086238996",
+            "y": "1.202191786"
+          },
+          {
+            "turn": "-0.016121894",
+            "x": "0.577137352",
+            "y": "1.174907188"
+          },
+          {
+            "turn": "0.424407431",
+            "x": "0.311674402",
+            "y": "1.148449207"
+          },
+          {
+            "turn": "0.002022616",
+            "x": "1.651036326",
+            "y": "1.138563321"
+          },
+          {
+            "turn": "-0.574656593",
+            "x": "1.425224046",
+            "y": "1.137649854"
+          },
+          {
+            "turn": "0.001728067",
+            "x": "0.974124519",
+            "y": "1.006042858"
+          },
+          {
+            "turn": "0.579656660",
+            "x": "0.748311741",
+            "y": "1.005262416"
+          },
+          {
+            "turn": "-0.574656593",
+            "x": "1.867777421",
+            "y": "1.003510376"
+          },
+          {
+            "turn": "0.002022616",
+            "x": "1.313108992",
+            "y": "0.941633950"
+          },
+          {
+            "turn": "0.001728463",
+            "x": "0.148079511",
+            "y": "0.930595138"
+          },
+          {
+            "turn": "0.579656660",
+            "x": "0.404960623",
+            "y": "0.818821022"
+          },
+          {
+            "turn": "0.001728067",
+            "x": "0.630798504",
+            "y": "0.812338283"
+          },
+          {
+            "turn": "0.579656660",
+            "x": "1.087706791",
+            "y": "0.810873476"
+          },
+          {
+            "turn": "0.002022616",
+            "x": "1.755662367",
+            "y": "0.807494472"
+          },
+          {
+            "turn": "-0.574656593",
+            "x": "1.529850088",
+            "y": "0.806581005"
+          },
+          {
+            "turn": "0.001728067",
+            "x": "0.292730116",
+            "y": "0.622871199"
+          },
+          {
+            "turn": "-0.575048476",
+            "x": "0.744380776",
+            "y": "0.617168901"
+          },
+          {
+            "turn": "0.001728067",
+            "x": "0.970193554",
+            "y": "0.617949343"
+          },
+          {
+            "turn": "-0.099384886",
+            "x": "1.342319717",
+            "y": "0.571939120"
+          },
+          {
+            "turn": "0.213986879",
+            "x": "1.703445441",
+            "y": "0.491851904"
+          },
+          {
+            "turn": "-0.575048476",
+            "x": "0.406312388",
+            "y": "0.427701817"
+          },
+          {
+            "turn": "0.001728067",
+            "x": "0.632150269",
+            "y": "0.421219078"
+          },
+          {
+            "turn": "-0.575048476",
+            "x": "1.055437044",
+            "y": "0.406287706"
+          },
+          {
+            "turn": "0.452028062",
+            "x": "1.414526773",
+            "y": "0.357980804"
+          },
+          {
+            "turn": "-0.575048476",
+            "x": "0.717393759",
+            "y": "0.209557441"
+          },
+          {
+            "turn": "0.001728067",
+            "x": "0.943206537",
+            "y": "0.210337883"
+          },
+          {
+            "turn": "-0.099384886",
+            "x": "1.277485586",
+            "y": "0.177776353"
+          }
+        ],
+        "radius": "0.225814126"
+      }
+    }
+  ]
+}
