@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/circles-in-regular-polygons",
-  "generatedAt": "2026-09-15T10:10:56.957Z",
+  "generatedAt": "2026-09-16T10:04:02.395Z",
   "instances": [
     {
       "instanceId": "p82-m5-n1-v1",
@@ -40,7 +40,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -80,7 +80,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -123,7 +123,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -171,7 +171,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -224,7 +224,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -282,7 +282,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -345,7 +345,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -413,7 +413,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -486,7 +486,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -564,7 +564,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -629,8 +629,8 @@
         "sides": 5
       },
       "objective": "maximize",
-      "scoreStored": "224333592",
-      "scoreDisplay": "0.224333592",
+      "scoreStored": "224333593",
+      "scoreDisplay": "0.224333593",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -645,9 +645,9 @@
         "source": "Packomania (compiled by Eckard Specht), m=5, n=11. Eckard Specht, program cpt , 2023. Coordinates imported from the public archive, normalized, decimalized and exactly verified by MinMax Arena. The web-table target and grid certificate are separate.",
         "url": "https://www.packomania.com/cpt/cpt.html"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "holder": "w33d",
+      "method": "ai",
+      "recordedAt": "2026-09-15T11:10:48.549Z",
       "answer": {
         "placements": [
           {
@@ -668,7 +668,7 @@
           {
             "turn": "0",
             "x": "0.797948384",
-            "y": "0.450878040"
+            "y": "0.450878041"
           },
           {
             "turn": "0",
@@ -698,15 +698,15 @@
           {
             "turn": "0",
             "x": "1.553979233",
-            "y": "0.767764186"
+            "y": "0.767764185"
           },
           {
             "turn": "0",
             "x": "1.565570638",
-            "y": "1.216281614"
+            "y": "1.216281613"
           }
         ],
-        "radius": "0.224333592"
+        "radius": "0.224333593"
       }
     },
     {
@@ -735,7 +735,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -828,7 +828,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -926,7 +926,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -1011,8 +1011,8 @@
         "sides": 5
       },
       "objective": "maximize",
-      "scoreStored": "197735767",
-      "scoreDisplay": "0.197735767",
+      "scoreStored": "197735768",
+      "scoreDisplay": "0.197735768",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -1027,9 +1027,9 @@
         "source": "Packomania (compiled by Eckard Specht), m=5, n=15. Eckard Specht, program cpt , 2023. Coordinates imported from the public archive, normalized, decimalized and exactly verified by MinMax Arena. The web-table target and grid certificate are separate.",
         "url": "https://www.packomania.com/cpt/cpt.html"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "holder": "w33d",
+      "method": "ai",
+      "recordedAt": "2026-09-15T11:11:12.676Z",
       "answer": {
         "placements": [
           {
@@ -1085,7 +1085,7 @@
           {
             "turn": "0",
             "x": "1.259036960",
-            "y": "0.316560051"
+            "y": "0.316560050"
           },
           {
             "turn": "0",
@@ -1099,8 +1099,8 @@
           },
           {
             "turn": "0",
-            "x": "1.532301072",
-            "y": "0.692675833"
+            "x": "1.532301071",
+            "y": "0.692675832"
           },
           {
             "turn": "0",
@@ -1108,7 +1108,7 @@
             "y": "1.035164230"
           }
         ],
-        "radius": "0.197735767"
+        "radius": "0.197735768"
       }
     },
     {
@@ -1137,7 +1137,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -1250,7 +1250,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -1368,7 +1368,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -1473,8 +1473,8 @@
         "sides": 5
       },
       "objective": "maximize",
-      "scoreStored": "173441903",
-      "scoreDisplay": "0.173441903",
+      "scoreStored": "173441904",
+      "scoreDisplay": "0.173441904",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -1489,9 +1489,9 @@
         "source": "Packomania (compiled by Eckard Specht), m=5, n=19. Eckard Specht, program cpt , 2023. Coordinates imported from the public archive, normalized, decimalized and exactly verified by MinMax Arena. The web-table target and grid certificate are separate.",
         "url": "https://www.packomania.com/cpt/cpt.html"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "holder": "w33d",
+      "method": "ai",
+      "recordedAt": "2026-09-15T11:11:30.527Z",
       "answer": {
         "placements": [
           {
@@ -1536,12 +1536,12 @@
           },
           {
             "turn": "0",
-            "x": "0.946552577",
-            "y": "0.996872946"
+            "x": "0.946552578",
+            "y": "0.996872947"
           },
           {
             "turn": "0",
-            "x": "0.970573198",
+            "x": "0.970573199",
             "y": "0.650821814"
           },
           {
@@ -1590,7 +1590,7 @@
             "y": "1.000000000"
           }
         ],
-        "radius": "0.173441903"
+        "radius": "0.173441904"
       }
     },
     {
@@ -1619,7 +1619,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -1752,7 +1752,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -1890,7 +1890,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -2015,8 +2015,8 @@
         "sides": 5
       },
       "objective": "maximize",
-      "scoreStored": "158923366",
-      "scoreDisplay": "0.158923366",
+      "scoreStored": "158923367",
+      "scoreDisplay": "0.158923367",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -2031,9 +2031,9 @@
         "source": "Packomania (compiled by Eckard Specht), m=5, n=23. Eckard Specht, program cpt , 2023. Coordinates imported from the public archive, normalized, decimalized and exactly verified by MinMax Arena. The web-table target and grid certificate are separate.",
         "url": "https://www.packomania.com/cpt/cpt.html"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "holder": "w33d",
+      "method": "ai",
+      "recordedAt": "2026-09-15T11:11:48.934Z",
       "answer": {
         "placements": [
           {
@@ -2064,7 +2064,7 @@
           {
             "turn": "0",
             "x": "0.653222535",
-            "y": "1.567325156"
+            "y": "1.567325155"
           },
           {
             "turn": "0",
@@ -2073,23 +2073,23 @@
           },
           {
             "turn": "0",
-            "x": "0.770666378",
+            "x": "0.770666377",
             "y": "1.000000000"
           },
           {
             "turn": "0",
-            "x": "0.840048158",
+            "x": "0.840048157",
             "y": "0.689818254"
           },
           {
             "turn": "0",
-            "x": "0.899946292",
-            "y": "1.290367441"
+            "x": "0.899946291",
+            "y": "1.290367440"
           },
           {
             "turn": "0",
             "x": "0.954452702",
-            "y": "1.668749677"
+            "y": "1.668749676"
           },
           {
             "turn": "0",
@@ -2098,18 +2098,18 @@
           },
           {
             "turn": "0",
-            "x": "1.085892280",
+            "x": "1.085892279",
             "y": "0.959266998"
           },
           {
             "turn": "0",
-            "x": "1.141278325",
+            "x": "1.141278324",
             "y": "0.588393733"
           },
           {
             "turn": "0",
             "x": "1.182401875",
-            "y": "1.436125426"
+            "y": "1.436125425"
           },
           {
             "turn": "0",
@@ -2118,23 +2118,23 @@
           },
           {
             "turn": "0",
-            "x": "1.263389164",
-            "y": "0.256518745"
+            "x": "1.263389165",
+            "y": "0.256518746"
           },
           {
             "turn": "0",
-            "x": "1.348193931",
-            "y": "1.138778532"
+            "x": "1.348193930",
+            "y": "1.138778533"
           },
           {
             "turn": "0",
-            "x": "1.372504654",
+            "x": "1.372504653",
             "y": "0.821862872"
           },
           {
             "turn": "0",
-            "x": "1.450214787",
-            "y": "0.513662155"
+            "x": "1.450214788",
+            "y": "0.513662156"
           },
           {
             "turn": "0",
@@ -2144,15 +2144,15 @@
           {
             "turn": "0",
             "x": "1.686566711",
-            "y": "1.161027330"
+            "y": "1.161027329"
           },
           {
             "turn": "0",
-            "x": "1.689634706",
+            "x": "1.689634705",
             "y": "0.843195402"
           }
         ],
-        "radius": "0.158923366"
+        "radius": "0.158923367"
       }
     },
     {
@@ -2163,8 +2163,8 @@
         "sides": 5
       },
       "objective": "maximize",
-      "scoreStored": "156027297",
-      "scoreDisplay": "0.156027297",
+      "scoreStored": "156027298",
+      "scoreDisplay": "0.156027298",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -2179,9 +2179,9 @@
         "source": "Packomania (compiled by Eckard Specht), m=5, n=24. Eckard Specht, program cpt , 2023. Coordinates imported from the public archive, normalized, decimalized and exactly verified by MinMax Arena. The web-table target and grid certificate are separate.",
         "url": "https://www.packomania.com/cpt/cpt.html"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "holder": "w33d",
+      "method": "ai",
+      "recordedAt": "2026-09-15T11:12:07.076Z",
       "answer": {
         "placements": [
           {
@@ -2222,7 +2222,7 @@
           {
             "turn": "0",
             "x": "0.709471113",
-            "y": "1.592195441"
+            "y": "1.592195440"
           },
           {
             "turn": "0",
@@ -2305,7 +2305,7 @@
             "y": "1.000000000"
           }
         ],
-        "radius": "0.156027297"
+        "radius": "0.156027298"
       }
     },
     {
@@ -2334,7 +2334,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -2492,7 +2492,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -2655,7 +2655,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -2823,7 +2823,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -2996,7 +2996,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -3174,7 +3174,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -3339,8 +3339,8 @@
         "sides": 5
       },
       "objective": "maximize",
-      "scoreStored": "138616361",
-      "scoreDisplay": "0.138616361",
+      "scoreStored": "138616362",
+      "scoreDisplay": "0.138616362",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -3355,9 +3355,9 @@
         "source": "Packomania (compiled by Eckard Specht), m=5, n=31. Eckard Specht, program cpt , 2023. Coordinates imported from the public archive, normalized, decimalized and exactly verified by MinMax Arena. The web-table target and grid certificate are separate.",
         "url": "https://www.packomania.com/cpt/cpt.html"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "holder": "w33d",
+      "method": "ai",
+      "recordedAt": "2026-09-15T11:22:59.783Z",
       "answer": {
         "placements": [
           {
@@ -3368,32 +3368,32 @@
           {
             "turn": "0",
             "x": "0.329599368",
-            "y": "1.116064768"
+            "y": "1.116064769"
           },
           {
             "turn": "0",
             "x": "0.329599368",
-            "y": "0.790158154"
+            "y": "0.790158155"
           },
           {
             "turn": "0",
             "x": "0.329599368",
-            "y": "0.512925430"
+            "y": "0.512925431"
           },
           {
             "turn": "0",
-            "x": "0.535623432",
+            "x": "0.535623433",
             "y": "1.301569669"
           },
           {
             "turn": "0",
             "x": "0.553885353",
-            "y": "0.953111461"
+            "y": "0.953111462"
           },
           {
             "turn": "0",
             "x": "0.569689950",
-            "y": "0.651541792"
+            "y": "0.651541793"
           },
           {
             "turn": "0",
@@ -3402,8 +3402,8 @@
           },
           {
             "turn": "0",
-            "x": "0.682450658",
-            "y": "0.398277096"
+            "x": "0.682450657",
+            "y": "0.398277097"
           },
           {
             "turn": "0",
@@ -3413,7 +3413,7 @@
           {
             "turn": "0",
             "x": "0.793975935",
-            "y": "0.814495099"
+            "y": "0.814495100"
           },
           {
             "turn": "0",
@@ -3422,18 +3422,18 @@
           },
           {
             "turn": "0",
-            "x": "0.903218966",
-            "y": "1.673454876"
+            "x": "0.903218965",
+            "y": "1.673454875"
           },
           {
             "turn": "0",
-            "x": "0.906736643",
-            "y": "0.561230403"
+            "x": "0.906736642",
+            "y": "0.561230404"
           },
           {
             "turn": "0",
-            "x": "0.992406266",
-            "y": "0.297566414"
+            "x": "0.992406265",
+            "y": "0.297566415"
           },
           {
             "turn": "0",
@@ -3447,22 +3447,22 @@
           },
           {
             "turn": "0",
-            "x": "1.112760708",
+            "x": "1.112760707",
             "y": "0.746735304"
           },
           {
             "turn": "0",
-            "x": "1.143309548",
+            "x": "1.143309547",
             "y": "1.534838513"
           },
           {
             "turn": "0",
-            "x": "1.198430331",
+            "x": "1.198430330",
             "y": "0.483071315"
           },
           {
             "turn": "0",
-            "x": "1.256070255",
+            "x": "1.256070254",
             "y": "1.788103209"
           },
           {
@@ -3473,17 +3473,17 @@
           {
             "turn": "0",
             "x": "1.275714015",
-            "y": "1.028978711"
+            "y": "1.028978710"
           },
           {
             "turn": "0",
             "x": "1.333353939",
-            "y": "1.300153235"
+            "y": "1.300153234"
           },
           {
             "turn": "0",
             "x": "1.388474722",
-            "y": "0.775714015"
+            "y": "0.775714014"
           },
           {
             "turn": "0",
@@ -3507,16 +3507,16 @@
           },
           {
             "turn": "0",
-            "x": "1.665707447",
-            "y": "0.775714015"
+            "x": "1.665707446",
+            "y": "0.775714014"
           },
           {
             "turn": "0",
-            "x": "1.828660754",
-            "y": "1.000000000"
+            "x": "1.828660753",
+            "y": "0.999999999"
           }
         ],
-        "radius": "0.138616361"
+        "radius": "0.138616362"
       }
     },
     {
@@ -3545,7 +3545,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -3738,7 +3738,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -3936,7 +3936,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -4139,7 +4139,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -4329,8 +4329,8 @@
         "sides": 5
       },
       "objective": "maximize",
-      "scoreStored": "128215137",
-      "scoreDisplay": "0.128215137",
+      "scoreStored": "128215138",
+      "scoreDisplay": "0.128215138",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -4345,15 +4345,15 @@
         "source": "Packomania (compiled by Eckard Specht), m=5, n=36. Paolo Amore, Circle packing in regular polygons , Phys. Fluids 35 , 027130 (2023). Coordinates imported from the public archive, normalized, decimalized and exactly verified by MinMax Arena. The web-table target and grid certificate are separate.",
         "url": "https://www.packomania.com/cpt/cpt.html"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "holder": "w33d",
+      "method": "ai",
+      "recordedAt": "2026-09-15T11:23:17.717Z",
       "answer": {
         "placements": [
           {
             "turn": "0",
             "x": "0.319198144",
-            "y": "1.414318580"
+            "y": "1.414318579"
           },
           {
             "turn": "0",
@@ -4368,7 +4368,7 @@
           {
             "turn": "0",
             "x": "0.319198144",
-            "y": "0.505368498"
+            "y": "0.505368499"
           },
           {
             "turn": "0",
@@ -4378,51 +4378,51 @@
           {
             "turn": "0",
             "x": "0.528404113",
-            "y": "1.562606642"
+            "y": "1.562606640"
           },
           {
             "turn": "0",
             "x": "0.535094101",
-            "y": "1.275951596"
+            "y": "1.275951595"
           },
           {
             "turn": "0",
-            "x": "0.546975446",
-            "y": "1.019796720"
+            "x": "0.546975445",
+            "y": "1.019796717"
           },
           {
             "turn": "0",
-            "x": "0.565174206",
-            "y": "0.432895997"
+            "x": "0.565174205",
+            "y": "0.432895991"
           },
           {
             "turn": "0",
-            "x": "0.739681335",
-            "y": "0.620788915"
+            "x": "0.739681334",
+            "y": "0.620788912"
           },
           {
             "turn": "0",
-            "x": "0.759594195",
-            "y": "0.876444865"
+            "x": "0.759594194",
+            "y": "0.876444862"
           },
           {
             "turn": "0",
             "x": "0.766959488",
-            "y": "1.385472959"
+            "y": "1.385472958"
           },
           {
             "turn": "0",
-            "x": "0.772283799",
-            "y": "1.641847955"
+            "x": "0.772283798",
+            "y": "1.641847954"
           },
           {
             "turn": "0",
             "x": "0.797956380",
-            "y": "1.130137250"
+            "y": "1.130137248"
           },
           {
             "turn": "0",
-            "x": "0.806771288",
+            "x": "0.806771289",
             "y": "0.346946380"
           },
           {
@@ -4433,57 +4433,57 @@
           {
             "turn": "0",
             "x": "0.999370050",
-            "y": "0.967351552"
+            "y": "0.967351550"
           },
           {
             "turn": "0",
             "x": "1.010839173",
-            "y": "1.464714273"
+            "y": "1.464714272"
           },
           {
             "turn": "0",
-            "x": "1.016163484",
+            "x": "1.016163483",
             "y": "1.721089268"
           },
           {
             "turn": "0",
-            "x": "1.050650974",
+            "x": "1.050650976",
             "y": "0.267705067"
           },
           {
             "turn": "0",
-            "x": "1.067387192",
-            "y": "1.214596684"
+            "x": "1.067387189",
+            "y": "1.214596682"
           },
           {
             "turn": "0",
-            "x": "1.129670485",
-            "y": "0.745795800"
+            "x": "1.129670491",
+            "y": "0.745795799"
           },
           {
             "turn": "0",
             "x": "1.236592575",
-            "y": "0.510940190"
+            "y": "0.510940193"
           },
           {
             "turn": "0",
-            "x": "1.255721369",
+            "x": "1.255721368",
             "y": "1.388627499"
           },
           {
             "turn": "0",
-            "x": "1.255721369",
-            "y": "0.973714596"
+            "x": "1.255721368",
+            "y": "0.973714595"
           },
           {
             "turn": "0",
             "x": "1.260043169",
-            "y": "1.800330582"
+            "y": "1.800330581"
           },
           {
             "turn": "0",
-            "x": "1.307059720",
-            "y": "0.264382148"
+            "x": "1.307059722",
+            "y": "0.264382151"
           },
           {
             "turn": "0",
@@ -4492,7 +4492,7 @@
           },
           {
             "turn": "0",
-            "x": "1.406447303",
+            "x": "1.406447302",
             "y": "1.181171047"
           },
           {
@@ -4507,22 +4507,22 @@
           },
           {
             "turn": "0",
-            "x": "1.539285098",
-            "y": "0.961829745"
+            "x": "1.539285099",
+            "y": "0.961829746"
           },
           {
             "turn": "0",
-            "x": "1.561495039",
+            "x": "1.561495038",
             "y": "1.385417678"
           },
           {
             "turn": "0",
             "x": "1.643584688",
-            "y": "0.727569030"
+            "y": "0.727569031"
           },
           {
             "turn": "0",
-            "x": "1.712220974",
+            "x": "1.712220973",
             "y": "1.177961227"
           },
           {
@@ -4531,7 +4531,7 @@
             "y": "0.935025482"
           }
         ],
-        "radius": "0.128215137"
+        "radius": "0.128215138"
       }
     },
     {
@@ -4560,7 +4560,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -4778,7 +4778,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -4983,8 +4983,8 @@
         "sides": 5
       },
       "objective": "maximize",
-      "scoreStored": "124185740",
-      "scoreDisplay": "0.12418574",
+      "scoreStored": "124185741",
+      "scoreDisplay": "0.124185741",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -4999,9 +4999,9 @@
         "source": "Packomania (compiled by Eckard Specht), m=5, n=39. Paolo Amore, Circle packing in regular polygons , Phys. Fluids 35 , 027130 (2023). Coordinates imported from the public archive, normalized, decimalized and exactly verified by MinMax Arena. The web-table target and grid certificate are separate.",
         "url": "https://www.packomania.com/cpt/cpt.html"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "holder": "w33d",
+      "method": "ai",
+      "recordedAt": "2026-09-15T11:12:25.101Z",
       "answer": {
         "placements": [
           {
@@ -5026,8 +5026,8 @@
           },
           {
             "turn": "0",
-            "x": "0.316065546",
-            "y": "0.502149582"
+            "x": "0.316065545",
+            "y": "0.502149583"
           },
           {
             "turn": "0",
@@ -5200,7 +5200,7 @@
             "y": "0.999984265"
           }
         ],
-        "radius": "0.124185740"
+        "radius": "0.124185741"
       }
     },
     {
@@ -5229,7 +5229,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -5464,7 +5464,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -5504,7 +5504,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -5547,7 +5547,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -5595,7 +5595,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -5648,7 +5648,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -5706,7 +5706,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -5769,7 +5769,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -5837,7 +5837,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -5910,7 +5910,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -5988,7 +5988,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -6071,7 +6071,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -6159,7 +6159,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -6252,7 +6252,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -6350,7 +6350,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -6453,7 +6453,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -6543,8 +6543,8 @@
         "sides": 6
       },
       "objective": "maximize",
-      "scoreStored": "200025786",
-      "scoreDisplay": "0.200025786",
+      "scoreStored": "200025787",
+      "scoreDisplay": "0.200025787",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -6559,9 +6559,9 @@
         "source": "Packomania (compiled by Eckard Specht), m=6, n=16. Eckard Specht, program chx , 2020. Coordinates imported from the public archive, normalized, decimalized and exactly verified by MinMax Arena. The web-table target and grid certificate are separate.",
         "url": "https://www.packomania.com/chx/chx.html"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "holder": "w33d",
+      "method": "ai",
+      "recordedAt": "2026-09-15T11:12:43.397Z",
       "answer": {
         "placements": [
           {
@@ -6577,16 +6577,16 @@
           {
             "turn": "0",
             "x": "1.453519386",
-            "y": "0.453519386"
+            "y": "0.453519387"
           },
           {
             "turn": "0",
             "x": "0.430995672",
-            "y": "0.653545173"
+            "y": "0.653545174"
           },
           {
             "turn": "0",
-            "x": "0.871712941",
+            "x": "0.871712942",
             "y": "0.680455210"
           },
           {
@@ -6596,7 +6596,7 @@
           },
           {
             "turn": "0",
-            "x": "1.653545173",
+            "x": "1.653545174",
             "y": "0.799974213"
           },
           {
@@ -6611,7 +6611,7 @@
           },
           {
             "turn": "0",
-            "x": "1.253493599",
+            "x": "1.253493598",
             "y": "1.200025787"
           },
           {
@@ -6626,26 +6626,26 @@
           },
           {
             "turn": "0",
-            "x": "0.430995672",
-            "y": "1.346454827"
+            "x": "0.430995671",
+            "y": "1.346454826"
           },
           {
             "turn": "0",
             "x": "1.453519386",
-            "y": "1.546480614"
+            "y": "1.546480613"
           },
           {
             "turn": "0",
-            "x": "0.671687154",
+            "x": "0.671687153",
             "y": "1.665999616"
           },
           {
             "turn": "0",
-            "x": "1.071738729",
+            "x": "1.071738728",
             "y": "1.665999616"
           }
         ],
-        "radius": "0.200025786"
+        "radius": "0.200025787"
       }
     },
     {
@@ -6674,7 +6674,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -6792,7 +6792,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -6915,7 +6915,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -7043,7 +7043,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -7158,8 +7158,8 @@
         "sides": 6
       },
       "objective": "maximize",
-      "scoreStored": "175149749",
-      "scoreDisplay": "0.175149749",
+      "scoreStored": "175149750",
+      "scoreDisplay": "0.17514975",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -7174,20 +7174,20 @@
         "source": "Packomania (compiled by Eckard Specht), m=6, n=21. Eckard Specht, program chx , 2020. Coordinates imported from the public archive, normalized, decimalized and exactly verified by MinMax Arena. The web-table target and grid certificate are separate.",
         "url": "https://www.packomania.com/chx/chx.html"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "holder": "w33d",
+      "method": "ai",
+      "recordedAt": "2026-09-15T11:13:01.215Z",
       "answer": {
         "placements": [
           {
             "turn": "0",
             "x": "0.892589638",
-            "y": "0.309124346"
+            "y": "0.309124347"
           },
           {
             "turn": "0",
             "x": "1.242889138",
-            "y": "0.309124346"
+            "y": "0.309124347"
           },
           {
             "turn": "0",
@@ -7202,7 +7202,7 @@
           {
             "turn": "0",
             "x": "1.067739388",
-            "y": "0.612492612"
+            "y": "0.612492613"
           },
           {
             "turn": "0",
@@ -7236,7 +7236,7 @@
           },
           {
             "turn": "0",
-            "x": "1.000000000",
+            "x": "1.000000001",
             "y": "1.000000000"
           },
           {
@@ -7262,7 +7262,7 @@
           {
             "turn": "0",
             "x": "1.067739388",
-            "y": "1.387507388"
+            "y": "1.387507387"
           },
           {
             "turn": "0",
@@ -7277,15 +7277,15 @@
           {
             "turn": "0",
             "x": "0.892589638",
-            "y": "1.690875654"
+            "y": "1.690875653"
           },
           {
             "turn": "0",
             "x": "1.242889138",
-            "y": "1.690875654"
+            "y": "1.690875653"
           }
         ],
-        "radius": "0.175149749"
+        "radius": "0.175149750"
       }
     },
     {
@@ -7314,7 +7314,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -7457,7 +7457,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -7605,7 +7605,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -7758,7 +7758,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -7916,7 +7916,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -8079,7 +8079,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -8247,7 +8247,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -8402,8 +8402,8 @@
         "sides": 6
       },
       "objective": "maximize",
-      "scoreStored": "150002434",
-      "scoreDisplay": "0.150002434",
+      "scoreStored": "150002435",
+      "scoreDisplay": "0.150002435",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -8418,14 +8418,14 @@
         "source": "Packomania (compiled by Eckard Specht), m=6, n=29. Eckard Specht, program chx , 2020. Coordinates imported from the public archive, normalized, decimalized and exactly verified by MinMax Arena. The web-table target and grid certificate are separate.",
         "url": "https://www.packomania.com/chx/chx.html"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "holder": "w33d",
+      "method": "ai",
+      "recordedAt": "2026-09-15T11:13:22.572Z",
       "answer": {
         "placements": [
           {
             "turn": "0",
-            "x": "0.699995129",
+            "x": "0.699995130",
             "y": "0.283977032"
           },
           {
@@ -8446,7 +8446,7 @@
           {
             "turn": "0",
             "x": "1.526787236",
-            "y": "0.480376321"
+            "y": "0.480376322"
           },
           {
             "turn": "0",
@@ -8555,7 +8555,7 @@
           },
           {
             "turn": "0",
-            "x": "0.699995129",
+            "x": "0.699995130",
             "y": "1.716022968"
           },
           {
@@ -8565,11 +8565,11 @@
           },
           {
             "turn": "0",
-            "x": "1.300004871",
+            "x": "1.300004870",
             "y": "1.716022968"
           }
         ],
-        "radius": "0.150002434"
+        "radius": "0.150002435"
       }
     },
     {
@@ -8580,8 +8580,8 @@
         "sides": 6
       },
       "objective": "maximize",
-      "scoreStored": "150002434",
-      "scoreDisplay": "0.150002434",
+      "scoreStored": "150002435",
+      "scoreDisplay": "0.150002435",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -8596,14 +8596,14 @@
         "source": "Packomania (compiled by Eckard Specht), m=6, n=30. Eckard Specht, program chx , 2020. Coordinates imported from the public archive, normalized, decimalized and exactly verified by MinMax Arena. The web-table target and grid certificate are separate.",
         "url": "https://www.packomania.com/chx/chx.html"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "holder": "w33d",
+      "method": "ai",
+      "recordedAt": "2026-09-15T11:13:48.859Z",
       "answer": {
         "placements": [
           {
             "turn": "0",
-            "x": "0.699995129",
+            "x": "0.699995130",
             "y": "0.283977032"
           },
           {
@@ -8624,7 +8624,7 @@
           {
             "turn": "0",
             "x": "1.526787236",
-            "y": "0.480376321"
+            "y": "0.480376322"
           },
           {
             "turn": "0",
@@ -8738,7 +8738,7 @@
           },
           {
             "turn": "0",
-            "x": "0.699995129",
+            "x": "0.699995130",
             "y": "1.716022968"
           },
           {
@@ -8748,11 +8748,11 @@
           },
           {
             "turn": "0",
-            "x": "1.300004871",
+            "x": "1.300004870",
             "y": "1.716022968"
           }
         ],
-        "radius": "0.150002434"
+        "radius": "0.150002435"
       }
     },
     {
@@ -8763,8 +8763,8 @@
         "sides": 6
       },
       "objective": "maximize",
-      "scoreStored": "144498617",
-      "scoreDisplay": "0.144498617",
+      "scoreStored": "144498618",
+      "scoreDisplay": "0.144498618",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -8779,9 +8779,9 @@
         "source": "Packomania (compiled by Eckard Specht), m=6, n=31. Eckard Specht, program chx , 2020. Coordinates imported from the public archive, normalized, decimalized and exactly verified by MinMax Arena. The web-table target and grid certificate are separate.",
         "url": "https://www.packomania.com/chx/chx.html"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "holder": "w33d",
+      "method": "ai",
+      "recordedAt": "2026-09-15T11:14:07.817Z",
       "answer": {
         "placements": [
           {
@@ -8906,7 +8906,7 @@
           },
           {
             "turn": "0",
-            "x": "1.583728090",
+            "x": "1.583728089",
             "y": "1.432006862"
           },
           {
@@ -8940,7 +8940,7 @@
             "y": "1.721526785"
           }
         ],
-        "radius": "0.144498617"
+        "radius": "0.144498618"
       }
     },
     {
@@ -8951,8 +8951,8 @@
         "sides": 6
       },
       "objective": "maximize",
-      "scoreStored": "142897922",
-      "scoreDisplay": "0.142897922",
+      "scoreStored": "142897923",
+      "scoreDisplay": "0.142897923",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -8967,9 +8967,9 @@
         "source": "Packomania (compiled by Eckard Specht), m=6, n=32. Eckard Specht, program chx , 2020. Coordinates imported from the public archive, normalized, decimalized and exactly verified by MinMax Arena. The web-table target and grid certificate are separate.",
         "url": "https://www.packomania.com/chx/chx.html"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "holder": "w33d",
+      "method": "ai",
+      "recordedAt": "2026-09-15T11:14:25.733Z",
       "answer": {
         "placements": [
           {
@@ -9020,7 +9020,7 @@
           {
             "turn": "0",
             "x": "0.307902232",
-            "y": "0.752493536"
+            "y": "0.752493537"
           },
           {
             "turn": "0",
@@ -9085,7 +9085,7 @@
           {
             "turn": "0",
             "x": "0.307902232",
-            "y": "1.247506464"
+            "y": "1.247506463"
           },
           {
             "turn": "0",
@@ -9133,7 +9133,7 @@
             "y": "1.723127480"
           }
         ],
-        "radius": "0.142897922"
+        "radius": "0.142897923"
       }
     },
     {
@@ -9162,7 +9162,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -9360,7 +9360,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -9563,7 +9563,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -9771,7 +9771,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -9984,7 +9984,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -10184,8 +10184,8 @@
         "sides": 6
       },
       "objective": "maximize",
-      "scoreStored": "131624251",
-      "scoreDisplay": "0.131624251",
+      "scoreStored": "131624252",
+      "scoreDisplay": "0.131624252",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -10200,9 +10200,9 @@
         "source": "Packomania (compiled by Eckard Specht), m=6, n=38. Eckard Specht, program chx , 2020. Coordinates imported from the public archive, normalized, decimalized and exactly verified by MinMax Arena. The web-table target and grid certificate are separate.",
         "url": "https://www.packomania.com/chx/chx.html"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "holder": "w33d",
+      "method": "ai",
+      "recordedAt": "2026-09-15T11:14:43.609Z",
       "answer": {
         "placements": [
           {
@@ -10227,8 +10227,8 @@
           },
           {
             "turn": "0",
-            "x": "1.526347734",
-            "y": "0.442858714"
+            "x": "1.526347733",
+            "y": "0.442858715"
           },
           {
             "turn": "0",
@@ -10268,7 +10268,7 @@
           {
             "turn": "0",
             "x": "0.283610847",
-            "y": "0.772020107"
+            "y": "0.772020108"
           },
           {
             "turn": "0",
@@ -10328,7 +10328,7 @@
           {
             "turn": "0",
             "x": "0.283610847",
-            "y": "1.227979893"
+            "y": "1.227979892"
           },
           {
             "turn": "0",
@@ -10372,8 +10372,8 @@
           },
           {
             "turn": "0",
-            "x": "1.526347734",
-            "y": "1.557141286"
+            "x": "1.526347733",
+            "y": "1.557141285"
           },
           {
             "turn": "0",
@@ -10396,7 +10396,7 @@
             "y": "1.734401151"
           }
         ],
-        "radius": "0.131624251"
+        "radius": "0.131624252"
       }
     },
     {
@@ -10425,7 +10425,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -10653,7 +10653,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -10888,7 +10888,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -10928,7 +10928,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -10971,7 +10971,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -11019,7 +11019,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -11072,7 +11072,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -11130,7 +11130,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -11193,7 +11193,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -11261,7 +11261,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -11334,7 +11334,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -11412,7 +11412,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -11477,8 +11477,8 @@
         "sides": 8
       },
       "objective": "maximize",
-      "scoreStored": "239556873",
-      "scoreDisplay": "0.239556873",
+      "scoreStored": "239556874",
+      "scoreDisplay": "0.239556874",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -11493,25 +11493,25 @@
         "source": "Packomania (compiled by Eckard Specht), m=8, n=11. Eckard Specht, program coc , 2020. Coordinates imported from the public archive, normalized, decimalized and exactly verified by MinMax Arena. The web-table target and grid certificate are separate.",
         "url": "https://www.packomania.com/coc/coc.html"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "holder": "w33d",
+      "method": "ai",
+      "recordedAt": "2026-09-15T11:23:39.681Z",
       "answer": {
         "placements": [
           {
             "turn": "0",
-            "x": "0.439695544",
-            "y": "0.564473334"
+            "x": "0.439695546",
+            "y": "0.564473329"
           },
           {
             "turn": "0",
-            "x": "1.284017468",
-            "y": "0.376938379"
+            "x": "1.284017470",
+            "y": "0.376938380"
           },
           {
             "turn": "0",
-            "x": "0.906576793",
-            "y": "0.672046022"
+            "x": "0.906576794",
+            "y": "0.672046021"
           },
           {
             "turn": "0",
@@ -11521,40 +11521,40 @@
           {
             "turn": "0",
             "x": "1.622909557",
-            "y": "0.715615418"
+            "y": "0.715615420"
           },
           {
             "turn": "0",
-            "x": "0.730311632",
-            "y": "1.117557613"
+            "x": "0.730311633",
+            "y": "1.117557611"
           },
           {
             "turn": "0",
-            "x": "1.204268567",
-            "y": "1.047451925"
+            "x": "1.204268568",
+            "y": "1.047451923"
           },
           {
             "turn": "0",
-            "x": "0.476242113",
-            "y": "1.523757887"
+            "x": "0.476242111",
+            "y": "1.523757884"
           },
           {
             "turn": "0",
-            "x": "1.660663135",
-            "y": "1.193239382"
+            "x": "1.660663134",
+            "y": "1.193239384"
           },
           {
             "turn": "0",
-            "x": "0.918885499",
-            "y": "1.707106781"
+            "x": "0.918885496",
+            "y": "1.707106780"
           },
           {
             "turn": "0",
-            "x": "1.381554978",
-            "y": "1.582660261"
+            "x": "1.381554976",
+            "y": "1.582660262"
           }
         ],
-        "radius": "0.239556873"
+        "radius": "0.239556874"
       }
     },
     {
@@ -11583,7 +11583,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -11658,8 +11658,8 @@
         "sides": 8
       },
       "objective": "maximize",
-      "scoreStored": "223537234",
-      "scoreDisplay": "0.223537234",
+      "scoreStored": "223537235",
+      "scoreDisplay": "0.223537235",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -11674,45 +11674,45 @@
         "source": "Packomania (compiled by Eckard Specht), m=8, n=13. Eckard Specht, program coc , 2020. Coordinates imported from the public archive, normalized, decimalized and exactly verified by MinMax Arena. The web-table target and grid certificate are separate.",
         "url": "https://www.packomania.com/coc/coc.html"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "holder": "w33d",
+      "method": "ai",
+      "recordedAt": "2026-09-15T11:15:02.532Z",
       "answer": {
         "placements": [
           {
             "turn": "0",
-            "x": "0.699726356",
-            "y": "0.366332376"
+            "x": "0.699726357",
+            "y": "0.366332375"
           },
           {
             "turn": "0",
-            "x": "1.182358485",
-            "y": "0.319809650"
+            "x": "1.182358486",
+            "y": "0.319809651"
           },
           {
             "turn": "0",
-            "x": "0.376493575",
-            "y": "0.675195050"
+            "x": "0.376493576",
+            "y": "0.675195049"
           },
           {
             "turn": "0",
-            "x": "0.902555834",
-            "y": "0.764748973"
+            "x": "0.902555835",
+            "y": "0.764748972"
           },
           {
             "turn": "0",
-            "x": "1.569937040",
+            "x": "1.569937041",
             "y": "0.550882476"
           },
           {
             "turn": "0",
-            "x": "0.289021588",
-            "y": "1.113628891"
+            "x": "0.289021587",
+            "y": "1.113628890"
           },
           {
             "turn": "0",
             "x": "0.731467841",
-            "y": "1.177791926"
+            "y": "1.177791925"
           },
           {
             "turn": "0",
@@ -11721,8 +11721,8 @@
           },
           {
             "turn": "0",
-            "x": "0.463981212",
-            "y": "1.536018788"
+            "x": "0.463981211",
+            "y": "1.536018787"
           },
           {
             "turn": "0",
@@ -11732,7 +11732,7 @@
           {
             "turn": "0",
             "x": "1.144510794",
-            "y": "1.348879918"
+            "y": "1.348879919"
           },
           {
             "turn": "0",
@@ -11745,7 +11745,7 @@
             "y": "1.413042953"
           }
         ],
-        "radius": "0.223537234"
+        "radius": "0.223537235"
       }
     },
     {
@@ -11774,7 +11774,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -11877,7 +11877,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -11967,8 +11967,8 @@
         "sides": 8
       },
       "objective": "maximize",
-      "scoreStored": "204286600",
-      "scoreDisplay": "0.2042866",
+      "scoreStored": "204286601",
+      "scoreDisplay": "0.204286601",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -11983,9 +11983,9 @@
         "source": "Packomania (compiled by Eckard Specht), m=8, n=16. Paolo Amore, Circle packing in regular polygons , Phys. Fluids 35 , 027130 (2023). Coordinates imported from the public archive, normalized, decimalized and exactly verified by MinMax Arena. The web-table target and grid certificate are separate.",
         "url": "https://www.packomania.com/coc/coc.html"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "holder": "w33d",
+      "method": "ai",
+      "recordedAt": "2026-09-15T11:15:20.678Z",
       "answer": {
         "placements": [
           {
@@ -12065,11 +12065,11 @@
           },
           {
             "turn": "0",
-            "x": "1.433037715",
-            "y": "1.599511682"
+            "x": "1.433037714",
+            "y": "1.599511681"
           }
         ],
-        "radius": "0.204286600"
+        "radius": "0.204286601"
       }
     },
     {
@@ -12080,8 +12080,8 @@
         "sides": 8
       },
       "objective": "maximize",
-      "scoreStored": "198194124",
-      "scoreDisplay": "0.198194124",
+      "scoreStored": "198194125",
+      "scoreDisplay": "0.198194125",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -12096,9 +12096,9 @@
         "source": "Packomania (compiled by Eckard Specht), m=8, n=17. Eckard Specht, program coc , 2020. Coordinates imported from the public archive, normalized, decimalized and exactly verified by MinMax Arena. The web-table target and grid certificate are separate.",
         "url": "https://www.packomania.com/coc/coc.html"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "holder": "w33d",
+      "method": "ai",
+      "recordedAt": "2026-09-15T11:15:38.835Z",
       "answer": {
         "placements": [
           {
@@ -12153,7 +12153,7 @@
           },
           {
             "turn": "0",
-            "x": "1.744655225",
+            "x": "1.744655224",
             "y": "0.901449388"
           },
           {
@@ -12187,7 +12187,7 @@
             "y": "1.503496020"
           }
         ],
-        "radius": "0.198194124"
+        "radius": "0.198194125"
       }
     },
     {
@@ -12216,7 +12216,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -12339,7 +12339,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -12467,7 +12467,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -12582,8 +12582,8 @@
         "sides": 8
       },
       "objective": "maximize",
-      "scoreStored": "180670259",
-      "scoreDisplay": "0.180670259",
+      "scoreStored": "180670260",
+      "scoreDisplay": "0.18067026",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -12598,14 +12598,14 @@
         "source": "Packomania (compiled by Eckard Specht), m=8, n=21. Eckard Specht, program coc , 2020. Coordinates imported from the public archive, normalized, decimalized and exactly verified by MinMax Arena. The web-table target and grid certificate are separate.",
         "url": "https://www.packomania.com/coc/coc.html"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "holder": "w33d",
+      "method": "ai",
+      "recordedAt": "2026-09-15T11:16:01.267Z",
       "answer": {
         "placements": [
           {
             "turn": "0",
-            "x": "0.678086424",
+            "x": "0.678086425",
             "y": "0.328897049"
           },
           {
@@ -12616,7 +12616,7 @@
           {
             "turn": "0",
             "x": "0.385631727",
-            "y": "0.541116797"
+            "y": "0.541116798"
           },
           {
             "turn": "0",
@@ -12646,7 +12646,7 @@
           {
             "turn": "0",
             "x": "1.656107992",
-            "y": "0.641885392"
+            "y": "0.641885393"
           },
           {
             "turn": "0",
@@ -12670,8 +12670,8 @@
           },
           {
             "turn": "0",
-            "x": "1.799006212",
-            "y": "0.986872212"
+            "x": "1.799006211",
+            "y": "0.986872213"
           },
           {
             "turn": "0",
@@ -12705,11 +12705,11 @@
           },
           {
             "turn": "0",
-            "x": "1.456027243",
+            "x": "1.456027242",
             "y": "1.615551251"
           }
         ],
-        "radius": "0.180670259"
+        "radius": "0.180670260"
       }
     },
     {
@@ -12738,7 +12738,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -12881,7 +12881,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -13029,7 +13029,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -13164,8 +13164,8 @@
         "sides": 8
       },
       "objective": "maximize",
-      "scoreStored": "166450890",
-      "scoreDisplay": "0.16645089",
+      "scoreStored": "166450891",
+      "scoreDisplay": "0.166450891",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -13180,9 +13180,9 @@
         "source": "Packomania (compiled by Eckard Specht), m=8, n=25. Paolo Amore, Circle packing in regular polygons , Phys. Fluids 35 , 027130 (2023). Coordinates imported from the public archive, normalized, decimalized and exactly verified by MinMax Arena. The web-table target and grid certificate are separate.",
         "url": "https://www.packomania.com/coc/coc.html"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "holder": "w33d",
+      "method": "ai",
+      "recordedAt": "2026-09-15T11:16:21.041Z",
       "answer": {
         "placements": [
           {
@@ -13213,7 +13213,7 @@
           {
             "turn": "0",
             "x": "0.199832080",
-            "y": "0.952519821"
+            "y": "0.952519822"
           },
           {
             "turn": "0",
@@ -13277,8 +13277,8 @@
           },
           {
             "turn": "0",
-            "x": "1.800167920",
-            "y": "1.047480179"
+            "x": "1.800167919",
+            "y": "1.047480178"
           },
           {
             "turn": "0",
@@ -13311,7 +13311,7 @@
             "y": "1.767921814"
           }
         ],
-        "radius": "0.166450890"
+        "radius": "0.166450891"
       }
     },
     {
@@ -13322,8 +13322,8 @@
         "sides": 8
       },
       "objective": "maximize",
-      "scoreStored": "163606135",
-      "scoreDisplay": "0.163606135",
+      "scoreStored": "163606136",
+      "scoreDisplay": "0.163606136",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -13338,64 +13338,64 @@
         "source": "Packomania (compiled by Eckard Specht), m=8, n=26. Paolo Amore, Circle packing in regular polygons , Phys. Fluids 35 , 027130 (2023). Coordinates imported from the public archive, normalized, decimalized and exactly verified by MinMax Arena. The web-table target and grid certificate are separate.",
         "url": "https://www.packomania.com/coc/coc.html"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "holder": "w33d",
+      "method": "ai",
+      "recordedAt": "2026-09-15T11:16:41.235Z",
       "answer": {
         "placements": [
           {
             "turn": "0",
-            "x": "0.997247696",
-            "y": "0.178226047"
+            "x": "0.997247695",
+            "y": "0.178226048"
           },
           {
             "turn": "0",
             "x": "0.527592545",
-            "y": "0.372927962"
+            "y": "0.372927963"
           },
           {
             "turn": "0",
             "x": "0.327033380",
-            "y": "0.637995016"
+            "y": "0.637995015"
           },
           {
             "turn": "0",
-            "x": "0.841497852",
+            "x": "0.841497851",
             "y": "0.465993067"
           },
           {
             "turn": "0",
-            "x": "1.224893318",
+            "x": "1.224893317",
             "y": "0.413269325"
           },
           {
             "turn": "0",
-            "x": "0.642303641",
-            "y": "0.725588016"
+            "x": "0.642303642",
+            "y": "0.725588017"
           },
           {
             "turn": "0",
-            "x": "0.201814664",
-            "y": "0.940299738"
+            "x": "0.201814665",
+            "y": "0.940299737"
           },
           {
             "turn": "0",
-            "x": "1.552018946",
+            "x": "1.552018945",
             "y": "0.405739740"
           },
           {
             "turn": "0",
-            "x": "0.966716567",
+            "x": "0.966716568",
             "y": "0.768297788"
           },
           {
             "turn": "0",
             "x": "0.517084926",
-            "y": "1.027892737"
+            "y": "1.027892738"
           },
           {
             "turn": "0",
-            "x": "1.292074421",
+            "x": "1.292074422",
             "y": "0.733510750"
           },
           {
@@ -13416,11 +13416,11 @@
           {
             "turn": "0",
             "x": "1.166855706",
-            "y": "1.035815472"
+            "y": "1.035815471"
           },
           {
             "turn": "0",
-            "x": "0.642303641",
+            "x": "0.642303642",
             "y": "1.330197459"
           },
           {
@@ -13436,16 +13436,16 @@
           {
             "turn": "0",
             "x": "1.822913994",
-            "y": "1.000000000"
+            "y": "1.000000001"
           },
           {
             "turn": "0",
-            "x": "0.970127675",
-            "y": "1.373205623"
+            "x": "0.970127676",
+            "y": "1.373205624"
           },
           {
             "turn": "0",
-            "x": "1.370651220",
+            "x": "1.370651219",
             "y": "1.291814026"
           },
           {
@@ -13455,13 +13455,13 @@
           },
           {
             "turn": "0",
-            "x": "1.697695279",
-            "y": "1.302304721"
+            "x": "1.697695278",
+            "y": "1.302304722"
           },
           {
             "turn": "0",
             "x": "1.223837030",
-            "y": "1.584240881"
+            "y": "1.584240880"
           },
           {
             "turn": "0",
@@ -13474,7 +13474,7 @@
             "y": "1.594731576"
           }
         ],
-        "radius": "0.163606135"
+        "radius": "0.163606136"
       }
     },
     {
@@ -13503,7 +13503,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -13671,7 +13671,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -13826,8 +13826,8 @@
         "sides": 8
       },
       "objective": "maximize",
-      "scoreStored": "154929848",
-      "scoreDisplay": "0.154929848",
+      "scoreStored": "154929849",
+      "scoreDisplay": "0.154929849",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -13842,9 +13842,9 @@
         "source": "Packomania (compiled by Eckard Specht), m=8, n=29. Stefan Zorcic, private communication, July 2026. Coordinates imported from the public archive, normalized, decimalized and exactly verified by MinMax Arena. The web-table target and grid certificate are separate.",
         "url": "https://www.packomania.com/coc/coc.html"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "holder": "w33d",
+      "method": "ai",
+      "recordedAt": "2026-09-15T11:16:59.164Z",
       "answer": {
         "placements": [
           {
@@ -13859,17 +13859,17 @@
           },
           {
             "turn": "0",
-            "x": "0.474903666",
+            "x": "0.474903667",
             "y": "1.040444807"
           },
           {
             "turn": "0",
             "x": "1.428526246",
-            "y": "1.170962445"
+            "y": "1.170962446"
           },
           {
             "turn": "0",
-            "x": "1.821137005",
+            "x": "1.821137006",
             "y": "0.973311854"
           },
           {
@@ -13879,12 +13879,12 @@
           },
           {
             "turn": "0",
-            "x": "1.286273034",
+            "x": "1.286273033",
             "y": "0.286273034"
           },
           {
             "turn": "0",
-            "x": "0.982788579",
+            "x": "0.982788578",
             "y": "1.825175935"
           },
           {
@@ -13899,12 +13899,12 @@
           },
           {
             "turn": "0",
-            "x": "0.167694860",
+            "x": "0.167694861",
             "y": "1.000000000"
           },
           {
             "turn": "0",
-            "x": "0.356325493",
+            "x": "0.356325494",
             "y": "0.754171773"
           },
           {
@@ -13925,7 +13925,7 @@
           {
             "turn": "0",
             "x": "0.657236201",
-            "y": "0.615271080"
+            "y": "0.615271081"
           },
           {
             "turn": "0",
@@ -13959,13 +13959,13 @@
           },
           {
             "turn": "0",
-            "x": "0.877585468",
-            "y": "1.214949977"
+            "x": "0.877585467",
+            "y": "1.214949976"
           },
           {
             "turn": "0",
-            "x": "0.763234634",
-            "y": "0.926962269"
+            "x": "0.763234633",
+            "y": "0.926962268"
           },
           {
             "turn": "0",
@@ -13975,7 +13975,7 @@
           {
             "turn": "0",
             "x": "1.000000000",
-            "y": "0.167694860"
+            "y": "0.167694861"
           },
           {
             "turn": "0",
@@ -13989,11 +13989,11 @@
           },
           {
             "turn": "0",
-            "x": "1.273843906",
+            "x": "1.273843905",
             "y": "1.718875280"
           }
         ],
-        "radius": "0.154929848"
+        "radius": "0.154929849"
       }
     },
     {
@@ -14004,8 +14004,8 @@
         "sides": 8
       },
       "objective": "maximize",
-      "scoreStored": "152319578",
-      "scoreDisplay": "0.152319578",
+      "scoreStored": "152319579",
+      "scoreDisplay": "0.152319579",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -14020,9 +14020,9 @@
         "source": "Packomania (compiled by Eckard Specht), m=8, n=30. Eckard Specht, program coc , 2020. Coordinates imported from the public archive, normalized, decimalized and exactly verified by MinMax Arena. The web-table target and grid certificate are separate.",
         "url": "https://www.packomania.com/coc/coc.html"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "holder": "w33d",
+      "method": "ai",
+      "recordedAt": "2026-09-15T11:17:17.343Z",
       "answer": {
         "placements": [
           {
@@ -14077,7 +14077,7 @@
           },
           {
             "turn": "0",
-            "x": "1.387620382",
+            "x": "1.387620381",
             "y": "0.636705080"
           },
           {
@@ -14122,8 +14122,8 @@
           },
           {
             "turn": "0",
-            "x": "0.612379618",
-            "y": "1.363294920"
+            "x": "0.612379617",
+            "y": "1.363294919"
           },
           {
             "turn": "0",
@@ -14176,7 +14176,7 @@
             "y": "1.726922930"
           }
         ],
-        "radius": "0.152319578"
+        "radius": "0.152319579"
       }
     },
     {
@@ -14187,8 +14187,8 @@
         "sides": 8
       },
       "objective": "maximize",
-      "scoreStored": "149878152",
-      "scoreDisplay": "0.149878152",
+      "scoreStored": "149878153",
+      "scoreDisplay": "0.149878153",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -14203,9 +14203,9 @@
         "source": "Packomania (compiled by Eckard Specht), m=8, n=31. Eckard Specht, program coc , 2020. Coordinates imported from the public archive, normalized, decimalized and exactly verified by MinMax Arena. The web-table target and grid certificate are separate.",
         "url": "https://www.packomania.com/coc/coc.html"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "holder": "w33d",
+      "method": "ai",
+      "recordedAt": "2026-09-15T11:17:35.327Z",
       "answer": {
         "placements": [
           {
@@ -14260,8 +14260,8 @@
           },
           {
             "turn": "0",
-            "x": "1.613474897",
-            "y": "0.458496342"
+            "x": "1.613474896",
+            "y": "0.458496341"
           },
           {
             "turn": "0",
@@ -14341,12 +14341,12 @@
           {
             "turn": "0",
             "x": "0.678656487",
-            "y": "1.704668215"
+            "y": "1.704668214"
           },
           {
             "turn": "0",
-            "x": "1.696354678",
-            "y": "1.341414167"
+            "x": "1.696354677",
+            "y": "1.341414166"
           },
           {
             "turn": "0",
@@ -14364,7 +14364,7 @@
             "y": "1.606946811"
           }
         ],
-        "radius": "0.149878152"
+        "radius": "0.149878153"
       }
     },
     {
@@ -14393,7 +14393,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -14586,7 +14586,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -14766,8 +14766,8 @@
         "sides": 8
       },
       "objective": "maximize",
-      "scoreStored": "143477531",
-      "scoreDisplay": "0.143477531",
+      "scoreStored": "143477532",
+      "scoreDisplay": "0.143477532",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -14782,9 +14782,9 @@
         "source": "Packomania (compiled by Eckard Specht), m=8, n=34. Eckard Specht, program coc , 2020. Coordinates imported from the public archive, normalized, decimalized and exactly verified by MinMax Arena. The web-table target and grid certificate are separate.",
         "url": "https://www.packomania.com/coc/coc.html"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "holder": "w33d",
+      "method": "ai",
+      "recordedAt": "2026-09-15T11:17:53.608Z",
       "answer": {
         "placements": [
           {
@@ -14805,7 +14805,7 @@
           {
             "turn": "0",
             "x": "0.830830073",
-            "y": "0.421610238"
+            "y": "0.421610239"
           },
           {
             "turn": "0",
@@ -14889,7 +14889,7 @@
           },
           {
             "turn": "0",
-            "x": "1.230939531",
+            "x": "1.230939530",
             "y": "1.082853224"
           },
           {
@@ -14958,7 +14958,7 @@
             "y": "1.638617922"
           }
         ],
-        "radius": "0.143477531"
+        "radius": "0.143477532"
       }
     },
     {
@@ -14969,8 +14969,8 @@
         "sides": 8
       },
       "objective": "maximize",
-      "scoreStored": "142256368",
-      "scoreDisplay": "0.142256368",
+      "scoreStored": "142256369",
+      "scoreDisplay": "0.142256369",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -14985,19 +14985,19 @@
         "source": "Packomania (compiled by Eckard Specht), m=8, n=35. Eckard Specht, program coc , 2020. Coordinates imported from the public archive, normalized, decimalized and exactly verified by MinMax Arena. The web-table target and grid certificate are separate.",
         "url": "https://www.packomania.com/coc/coc.html"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "holder": "w33d",
+      "method": "ai",
+      "recordedAt": "2026-09-15T11:18:11.699Z",
       "answer": {
         "placements": [
           {
             "turn": "0",
-            "x": "0.437016306",
+            "x": "0.437016307",
             "y": "0.387172666"
           },
           {
             "turn": "0",
-            "x": "0.911413586",
+            "x": "0.911413585",
             "y": "0.190670879"
           },
           {
@@ -15013,12 +15013,12 @@
           {
             "turn": "0",
             "x": "0.303706649",
-            "y": "0.638521097"
+            "y": "0.638521096"
           },
           {
             "turn": "0",
             "x": "1.011541067",
-            "y": "0.457322854"
+            "y": "0.457322855"
           },
           {
             "turn": "0",
@@ -15038,7 +15038,7 @@
           {
             "turn": "0",
             "x": "0.866986662",
-            "y": "0.708448100"
+            "y": "0.708448098"
           },
           {
             "turn": "0",
@@ -15053,67 +15053,67 @@
           {
             "turn": "0",
             "x": "0.693786281",
-            "y": "0.934167232"
+            "y": "0.934167231"
           },
           {
             "turn": "0",
-            "x": "1.149065355",
-            "y": "0.745584465"
+            "x": "1.149065354",
+            "y": "0.745584464"
           },
           {
             "turn": "0",
-            "x": "1.692708845",
-            "y": "0.629867332"
+            "x": "1.692708844",
+            "y": "0.629867334"
           },
           {
             "turn": "0",
-            "x": "1.433572777",
+            "x": "1.433572776",
             "y": "0.747323695"
           },
           {
             "turn": "0",
-            "x": "0.975864974",
+            "x": "0.975864973",
             "y": "0.971303596"
           },
           {
             "turn": "0",
-            "x": "0.519977600",
+            "x": "0.519977601",
             "y": "1.164842566"
           },
           {
             "turn": "0",
-            "x": "0.293692724",
+            "x": "0.293692725",
             "y": "1.337303151"
           },
           {
             "turn": "0",
-            "x": "0.802664592",
-            "y": "1.197022728"
+            "x": "0.802664593",
+            "y": "1.197022729"
           },
           {
             "turn": "0",
             "x": "1.257943666",
-            "y": "1.008439961"
+            "y": "1.008439960"
           },
           {
             "turn": "0",
-            "x": "1.801587156",
-            "y": "0.892722828"
+            "x": "1.801587157",
+            "y": "0.892722830"
           },
           {
             "turn": "0",
             "x": "1.542451089",
-            "y": "1.010179191"
+            "y": "1.010179190"
           },
           {
             "turn": "0",
-            "x": "1.084743285",
+            "x": "1.084743286",
             "y": "1.234159092"
           },
           {
             "turn": "0",
-            "x": "0.633452259",
-            "y": "1.425746763"
+            "x": "0.633452257",
+            "y": "1.425746764"
           },
           {
             "turn": "0",
@@ -15128,12 +15128,12 @@
           {
             "turn": "0",
             "x": "0.912223486",
-            "y": "1.506826270"
+            "y": "1.506826271"
           },
           {
             "turn": "0",
-            "x": "1.772417276",
-            "y": "1.177699491"
+            "x": "1.772417277",
+            "y": "1.177699489"
           },
           {
             "turn": "0",
@@ -15142,17 +15142,17 @@
           },
           {
             "turn": "0",
-            "x": "1.234354397",
+            "x": "1.234354398",
             "y": "1.476159120"
           },
           {
             "turn": "0",
             "x": "1.663538965",
-            "y": "1.440554987"
+            "y": "1.440554986"
           },
           {
             "turn": "0",
-            "x": "0.930202255",
+            "x": "0.930202256",
             "y": "1.817111643"
           },
           {
@@ -15162,11 +15162,11 @@
           },
           {
             "turn": "0",
-            "x": "1.471681496",
-            "y": "1.650645943"
+            "x": "1.471681495",
+            "y": "1.650645941"
           }
         ],
-        "radius": "0.142256368"
+        "radius": "0.142256369"
       }
     },
     {
@@ -15177,8 +15177,8 @@
         "sides": 8
       },
       "objective": "maximize",
-      "scoreStored": "139934446",
-      "scoreDisplay": "0.139934446",
+      "scoreStored": "139934447",
+      "scoreDisplay": "0.139934447",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -15193,15 +15193,15 @@
         "source": "Packomania (compiled by Eckard Specht), m=8, n=36. Eckard Specht, program coc , 2020. Coordinates imported from the public archive, normalized, decimalized and exactly verified by MinMax Arena. The web-table target and grid certificate are separate.",
         "url": "https://www.packomania.com/coc/coc.html"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "holder": "w33d",
+      "method": "ai",
+      "recordedAt": "2026-09-15T11:18:29.666Z",
       "answer": {
         "placements": [
           {
             "turn": "0",
-            "x": "0.485703658",
-            "y": "0.364492474"
+            "x": "0.485703659",
+            "y": "0.364492475"
           },
           {
             "turn": "0",
@@ -15220,8 +15220,8 @@
           },
           {
             "turn": "0",
-            "x": "0.856283749",
-            "y": "0.513865942"
+            "x": "0.856283748",
+            "y": "0.513865943"
           },
           {
             "turn": "0",
@@ -15236,27 +15236,27 @@
           {
             "turn": "0",
             "x": "1.376562523",
-            "y": "0.307441258"
+            "y": "0.307441259"
           },
           {
             "turn": "0",
             "x": "0.213879294",
-            "y": "0.849316041"
+            "y": "0.849316040"
           },
           {
             "turn": "0",
             "x": "0.491926270",
-            "y": "0.885323100"
+            "y": "0.885323101"
           },
           {
             "turn": "0",
-            "x": "1.619340476",
-            "y": "0.446672948"
+            "x": "1.619340477",
+            "y": "0.446672949"
           },
           {
             "turn": "0",
             "x": "0.821721712",
-            "y": "0.793101966"
+            "y": "0.793101965"
           },
           {
             "turn": "0",
@@ -15266,12 +15266,12 @@
           {
             "turn": "0",
             "x": "1.341356294",
-            "y": "0.585086931"
+            "y": "0.585086932"
           },
           {
             "turn": "0",
-            "x": "0.204914620",
-            "y": "1.129041322"
+            "x": "0.204914621",
+            "y": "1.129041321"
           },
           {
             "turn": "0",
@@ -15281,21 +15281,21 @@
           {
             "turn": "0",
             "x": "0.742157700",
-            "y": "1.061422979"
+            "y": "1.061422978"
           },
           {
             "turn": "0",
-            "x": "1.584134248",
-            "y": "0.724318621"
+            "x": "1.584134247",
+            "y": "0.724318622"
           },
           {
             "turn": "0",
-            "x": "1.042941413",
-            "y": "0.964532541"
+            "x": "1.042941414",
+            "y": "0.964532540"
           },
           {
             "turn": "0",
-            "x": "1.303502911",
+            "x": "1.303502912",
             "y": "0.862384100"
           },
           {
@@ -15310,8 +15310,8 @@
           },
           {
             "turn": "0",
-            "x": "1.805353949",
-            "y": "0.895749196"
+            "x": "1.805353948",
+            "y": "0.895749197"
           },
           {
             "turn": "0",
@@ -15331,36 +15331,36 @@
           {
             "turn": "0",
             "x": "0.460279390",
-            "y": "1.624976449"
+            "y": "1.624976448"
           },
           {
             "turn": "0",
-            "x": "1.446638678",
-            "y": "1.263145965"
+            "x": "1.446638677",
+            "y": "1.263145966"
           },
           {
             "turn": "0",
-            "x": "1.776414089",
+            "x": "1.776414088",
             "y": "1.174117806"
           },
           {
             "turn": "0",
             "x": "0.737889415",
-            "y": "1.660462673"
+            "y": "1.660462674"
           },
           {
             "turn": "0",
             "x": "0.996855597",
-            "y": "1.554334851"
+            "y": "1.554334852"
           },
           {
             "turn": "0",
             "x": "1.265738754",
-            "y": "1.476691782"
+            "y": "1.476691783"
           },
           {
             "turn": "0",
-            "x": "1.669312900",
+            "x": "1.669312899",
             "y": "1.432682950"
           },
           {
@@ -15379,7 +15379,7 @@
             "y": "1.646228767"
           }
         ],
-        "radius": "0.139934446"
+        "radius": "0.139934447"
       }
     },
     {
@@ -15408,7 +15408,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -15608,8 +15608,8 @@
         "sides": 8
       },
       "objective": "maximize",
-      "scoreStored": "136097980",
-      "scoreDisplay": "0.13609798",
+      "scoreStored": "136097981",
+      "scoreDisplay": "0.136097981",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -15624,25 +15624,25 @@
         "source": "Packomania (compiled by Eckard Specht), m=8, n=38. Paolo Amore, Circle packing in regular polygons , Phys. Fluids 35 , 027130 (2023). Coordinates imported from the public archive, normalized, decimalized and exactly verified by MinMax Arena. The web-table target and grid certificate are separate.",
         "url": "https://www.packomania.com/coc/coc.html"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "holder": "w33d",
+      "method": "ai",
+      "recordedAt": "2026-09-15T11:18:50.286Z",
       "answer": {
         "placements": [
           {
             "turn": "0",
-            "x": "0.573571172",
-            "y": "0.323943997"
+            "x": "0.573571170",
+            "y": "0.323943998"
           },
           {
             "turn": "0",
             "x": "0.825047451",
-            "y": "0.219779112"
+            "y": "0.219779113"
           },
           {
             "turn": "0",
-            "x": "0.358328126",
-            "y": "0.490560543"
+            "x": "0.358328125",
+            "y": "0.490560544"
           },
           {
             "turn": "0",
@@ -15652,21 +15652,21 @@
           {
             "turn": "0",
             "x": "0.857830114",
-            "y": "0.489993729"
+            "y": "0.489993730"
           },
           {
             "turn": "0",
-            "x": "0.254163241",
-            "y": "0.742036822"
+            "x": "0.254163240",
+            "y": "0.742036823"
           },
           {
             "turn": "0",
             "x": "0.608201941",
-            "y": "0.598512933"
+            "y": "0.598512932"
           },
           {
             "turn": "0",
-            "x": "1.349181389",
+            "x": "1.349181390",
             "y": "0.291947061"
           },
           {
@@ -15676,73 +15676,73 @@
           },
           {
             "turn": "0",
-            "x": "0.149998355",
-            "y": "0.993513100"
+            "x": "0.149998354",
+            "y": "0.993513103"
           },
           {
             "turn": "0",
             "x": "0.504037056",
-            "y": "0.849989212"
+            "y": "0.849989211"
           },
           {
             "turn": "0",
-            "x": "1.602941896",
+            "x": "1.602941895",
             "y": "0.397058104"
           },
           {
             "turn": "0",
-            "x": "1.023532517",
+            "x": "1.023532518",
             "y": "0.705941305"
           },
           {
             "turn": "0",
-            "x": "0.773904344",
-            "y": "0.814460509"
+            "x": "0.773904345",
+            "y": "0.814460508"
           },
           {
             "turn": "0",
             "x": "1.386126997",
-            "y": "0.561624023"
+            "y": "0.561624024"
           },
           {
             "turn": "0",
-            "x": "0.399872171",
+            "x": "0.399872170",
             "y": "1.101465490"
           },
           {
             "turn": "0",
             "x": "1.275008796",
-            "y": "0.810106190"
+            "y": "0.810106191"
           },
           {
             "turn": "0",
             "x": "0.669739459",
-            "y": "1.065936788"
+            "y": "1.065936787"
           },
           {
             "turn": "0",
-            "x": "1.703388593",
-            "y": "0.650042497"
+            "x": "1.703388588",
+            "y": "0.650042499"
           },
           {
             "turn": "0",
-            "x": "0.994315783",
+            "x": "0.994315784",
             "y": "0.976564705"
           },
           {
             "turn": "0",
-            "x": "0.293040161",
-            "y": "1.351820366"
+            "x": "0.293040160",
+            "y": "1.351820365"
           },
           {
             "turn": "0",
-            "x": "1.540887355",
-            "y": "0.868409138"
+            "x": "1.540887354",
+            "y": "0.868409143"
           },
           {
             "turn": "0",
-            "x": "0.563269848",
-            "y": "1.319162163"
+            "x": "0.563269847",
+            "y": "1.319162162"
           },
           {
             "turn": "0",
@@ -15752,27 +15752,27 @@
           {
             "turn": "0",
             "x": "1.245792062",
-            "y": "1.080729590"
+            "y": "1.080729591"
           },
           {
             "turn": "0",
             "x": "1.811249032",
-            "y": "0.899956018"
+            "y": "0.899956017"
           },
           {
             "turn": "0",
-            "x": "1.511670621",
-            "y": "1.139032538"
+            "x": "1.511670620",
+            "y": "1.139032543"
           },
           {
             "turn": "0",
             "x": "0.783860544",
-            "y": "1.478631241"
+            "y": "1.478631240"
           },
           {
             "turn": "0",
-            "x": "1.140289918",
-            "y": "1.331647783"
+            "x": "1.140289917",
+            "y": "1.331647784"
           },
           {
             "turn": "0",
@@ -15782,45 +15782,45 @@
           {
             "turn": "0",
             "x": "1.782032298",
-            "y": "1.170579418"
+            "y": "1.170579417"
           },
           {
             "turn": "0",
             "x": "1.406168477",
-            "y": "1.389950731"
+            "y": "1.389950736"
           },
           {
             "turn": "0",
-            "x": "1.035336823",
+            "x": "1.035336822",
             "y": "1.582796126"
           },
           {
             "turn": "0",
             "x": "0.748523721",
-            "y": "1.748523721"
+            "y": "1.748523720"
           },
           {
             "turn": "0",
             "x": "1.677603467",
-            "y": "1.422520332"
+            "y": "1.422520333"
           },
           {
             "turn": "0",
-            "x": "1.251471306",
-            "y": "1.748511716"
+            "x": "1.251402156",
+            "y": "1.748344952"
           },
           {
             "turn": "0",
             "x": "1.000000000",
-            "y": "1.852688607"
+            "y": "1.852688606"
           },
           {
             "turn": "0",
-            "x": "1.502952557",
-            "y": "1.644358836"
+            "x": "1.502952432",
+            "y": "1.644358888"
           }
         ],
-        "radius": "0.136097980"
+        "radius": "0.136097981"
       }
     },
     {
@@ -15849,7 +15849,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {
@@ -16077,7 +16077,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-14T11:06:43.923Z",
+      "recordedAt": "2026-09-16T08:17:54.115Z",
       "answer": {
         "placements": [
           {

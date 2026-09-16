@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/lights-in-a-square",
-  "generatedAt": "2026-09-15T10:10:53.665Z",
+  "generatedAt": "2026-09-16T10:04:01.437Z",
   "instances": [
     {
       "instanceId": "p51-n2-v1",
@@ -810,8 +810,8 @@
         "n": 15
       },
       "objective": "maximize",
-      "scoreStored": "114942023",
-      "scoreDisplay": "114.942023",
+      "scoreStored": "114942024",
+      "scoreDisplay": "114.942024",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -824,9 +824,9 @@
       },
       "holder": "hadsajnc",
       "method": "human",
-      "recordedAt": "2026-09-14T10:05:08.483Z",
+      "recordedAt": "2026-09-15T12:29:31.641Z",
       "answer": {
-        "intensity": "114.942023",
+        "intensity": "114.942024",
         "lights": [
           [
             "0.092289995",
@@ -841,11 +841,11 @@
             "0.383597482"
           ],
           [
-            "0.381349022",
+            "0.381348900",
             "0.536753627"
           ],
           [
-            "0.283730409",
+            "0.283730410",
             "0.127411308"
           ],
           [
@@ -858,7 +858,7 @@
           ],
           [
             "0.621405786",
-            "0.535191151"
+            "0.535191000"
           ],
           [
             "0.907765495",
