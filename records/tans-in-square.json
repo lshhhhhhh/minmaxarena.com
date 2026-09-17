@@ -1,0 +1,2544 @@
+{
+  "problem": "tans-in-square",
+  "code": "P89",
+  "title": "等腰直角三角形装入正方形",
+  "titleEn": "Tans in a square",
+  "objective": "minimize",
+  "scoreLabel": "容器正方形边长",
+  "scoreLabelEn": "container square side",
+  "verifierVersion": "1.0.0",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseName": "CC BY 4.0",
+  "source": "https://minmaxarena.com/problems/tans-in-square",
+  "generatedAt": "2026-09-17T10:07:13.888Z",
+  "instances": [
+    {
+      "instanceId": "p89-n1-v1",
+      "name": "n = 1",
+      "parameters": {
+        "n": 1,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "1000000000000000000",
+      "scoreDisplay": "1",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "1",
+        "kind": "best",
+        "range": {
+          "lower": "1",
+          "upper": "1"
+        },
+        "comparisonUncertain": true,
+        "certificateDisplay": "1",
+        "source": "Compiled by Erich Friedman; Trivial. Source expression: s = 1.",
+        "url": "https://erich-friedman.github.io/packing/taninsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.500000000"
+          }
+        ],
+        "radius": "1.000000000"
+      }
+    },
+    {
+      "instanceId": "p89-n2-v1",
+      "name": "n = 2",
+      "parameters": {
+        "n": 2,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "1000000000000000000",
+      "scoreDisplay": "1",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "1",
+        "kind": "best",
+        "range": {
+          "lower": "1",
+          "upper": "1"
+        },
+        "comparisonUncertain": true,
+        "certificateDisplay": "1",
+        "source": "Compiled by Erich Friedman; Trivial. Source expression: s = 1.",
+        "url": "https://erich-friedman.github.io/packing/taninsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.500000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.500000000"
+          }
+        ],
+        "radius": "1.000000000"
+      }
+    },
+    {
+      "instanceId": "p89-n3-v1",
+      "name": "n = 3",
+      "parameters": {
+        "n": 3,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "1414213620746192508",
+      "scoreDisplay": "1.414213621",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "1.414",
+        "kind": "best",
+        "range": {
+          "lower": "1.414",
+          "upper": "1.415"
+        },
+        "comparisonUncertain": true,
+        "truncated": true,
+        "certificateDisplay": "1.414213621",
+        "source": "Compiled by Erich Friedman; Trivial. Source expression: s = √2 = 1.414+.",
+        "url": "https://erich-friedman.github.io/packing/taninsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 3,
+            "turn": "-0.414213562",
+            "x": "0.500000000",
+            "y": "0.000000020"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.999999980",
+            "y": "0.500000000"
+          },
+          {
+            "quarter": 1,
+            "turn": "-0.414213562",
+            "x": "0.500000000",
+            "y": "0.999999980"
+          }
+        ],
+        "radius": "0.707106752"
+      }
+    },
+    {
+      "instanceId": "p89-n4-v1",
+      "name": "n = 4",
+      "parameters": {
+        "n": 4,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "1414213620746192508",
+      "scoreDisplay": "1.414213621",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "1.414",
+        "kind": "best",
+        "range": {
+          "lower": "1.414",
+          "upper": "1.415"
+        },
+        "comparisonUncertain": true,
+        "truncated": true,
+        "certificateDisplay": "1.414213621",
+        "source": "Compiled by Erich Friedman; Trivial. Source expression: s = √2 = 1.414+.",
+        "url": "https://erich-friedman.github.io/packing/taninsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 3,
+            "turn": "-0.414213562",
+            "x": "0.500000000",
+            "y": "0.000000020"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.999999980",
+            "y": "0.500000000"
+          },
+          {
+            "quarter": 1,
+            "turn": "-0.414213562",
+            "x": "0.500000000",
+            "y": "0.999999980"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.414213562",
+            "x": "0.000000020",
+            "y": "0.500000000"
+          }
+        ],
+        "radius": "0.707106752"
+      }
+    },
+    {
+      "instanceId": "p89-n5-v1",
+      "name": "n = 5",
+      "parameters": {
+        "n": 5,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "1788569823672395192",
+      "scoreDisplay": "1.788569824",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "1.788",
+        "kind": "best",
+        "range": {
+          "lower": "1.788",
+          "upper": "1.789"
+        },
+        "truncated": true,
+        "certificateDisplay": "1.788569824",
+        "source": "Compiled by Erich Friedman; Found by Maurizio Morandi in August 2007. Source expression: s = 1.788+.",
+        "url": "https://erich-friedman.github.io/packing/taninsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 2,
+            "turn": "-0.414206718",
+            "x": "0.000004622",
+            "y": "0.603188421"
+          },
+          {
+            "quarter": 1,
+            "turn": "0.000000000",
+            "x": "0.720447030",
+            "y": "0.279552970"
+          },
+          {
+            "quarter": 1,
+            "turn": "0.090276847",
+            "x": "0.224966858",
+            "y": "0.334139083"
+          },
+          {
+            "quarter": 1,
+            "turn": "-0.414213562",
+            "x": "0.395347600",
+            "y": "0.999999997"
+          },
+          {
+            "quarter": 3,
+            "turn": "0.090276847",
+            "x": "0.775033142",
+            "y": "0.434271656"
+          }
+        ],
+        "radius": "0.559105933"
+      }
+    },
+    {
+      "instanceId": "p89-n6-v1",
+      "name": "n = 6",
+      "parameters": {
+        "n": 6,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "1937914832592577986",
+      "scoreDisplay": "1.937914833",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "1.937",
+        "kind": "best",
+        "range": {
+          "lower": "1.937",
+          "upper": "1.938"
+        },
+        "truncated": true,
+        "certificateDisplay": "1.937914833",
+        "source": "Compiled by Erich Friedman; Found by Maurizio Morandi in February 2008. Source expression: s = 1.937+.",
+        "url": "https://erich-friedman.github.io/packing/taninsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 2,
+            "turn": "0.414213559",
+            "x": "0.483981445",
+            "y": "0.603082668"
+          },
+          {
+            "quarter": 3,
+            "turn": "-0.413423643",
+            "x": "0.510104573",
+            "y": "0.000730888"
+          },
+          {
+            "quarter": 3,
+            "turn": "0.000000000",
+            "x": "0.258009278",
+            "y": "0.741990722"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.058838192",
+            "x": "0.713514129",
+            "y": "0.225972168"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.741990722",
+            "y": "0.709953612"
+          },
+          {
+            "quarter": 3,
+            "turn": "0.093928203",
+            "x": "0.324552917",
+            "y": "0.301541334"
+          }
+        ],
+        "radius": "0.516018549"
+      }
+    },
+    {
+      "instanceId": "p89-n7-v1",
+      "name": "n = 7",
+      "parameters": {
+        "n": 7,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "1999598088782547064",
+      "scoreDisplay": "1.999598089",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "1.999",
+        "kind": "best",
+        "range": {
+          "lower": "1.999",
+          "upper": "2"
+        },
+        "truncated": true,
+        "certificateDisplay": "1.999598089",
+        "source": "Compiled by Erich Friedman; Found by Maurizio Morandi in August 2007. Source expression: s = 1.999+.",
+        "url": "https://erich-friedman.github.io/packing/taninsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "-0.414213562",
+            "x": "0.999999997",
+            "y": "0.625726430"
+          },
+          {
+            "quarter": 3,
+            "turn": "-0.000000040",
+            "x": "0.250050272",
+            "y": "0.749949728"
+          },
+          {
+            "quarter": 1,
+            "turn": "-0.000000053",
+            "x": "0.250050327",
+            "y": "0.749949765"
+          },
+          {
+            "turn": "-0.138638089",
+            "x": "0.827406164",
+            "y": "0.308644820"
+          },
+          {
+            "quarter": 3,
+            "turn": "0.014181215",
+            "x": "0.757140907",
+            "y": "0.742959694"
+          },
+          {
+            "quarter": 1,
+            "turn": "-0.014176177",
+            "x": "0.272041524",
+            "y": "0.257037859"
+          },
+          {
+            "quarter": 3,
+            "turn": "-0.014176176",
+            "x": "0.257037859",
+            "y": "0.242861682"
+          }
+        ],
+        "radius": "0.500100498"
+      }
+    },
+    {
+      "instanceId": "p89-n8-v1",
+      "name": "n = 8",
+      "parameters": {
+        "n": 8,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "2000000000000000000",
+      "scoreDisplay": "2",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "2",
+        "kind": "best",
+        "range": {
+          "lower": "2",
+          "upper": "2"
+        },
+        "comparisonUncertain": true,
+        "certificateDisplay": "2",
+        "source": "Compiled by Erich Friedman; Trivial. Source expression: s = 2.",
+        "url": "https://erich-friedman.github.io/packing/taninsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.000000000",
+            "x": "0.250000000",
+            "y": "0.250000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.250000000",
+            "y": "0.250000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.750000000",
+            "y": "0.250000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.750000000",
+            "y": "0.250000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.250000000",
+            "y": "0.750000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.250000000",
+            "y": "0.750000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.750000000",
+            "y": "0.750000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.750000000",
+            "y": "0.750000000"
+          }
+        ],
+        "radius": "0.500000000"
+      }
+    },
+    {
+      "instanceId": "p89-n9-v1",
+      "name": "n = 9",
+      "parameters": {
+        "n": 9,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "2207106836339505543",
+      "scoreDisplay": "2.207106837",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "2.207",
+        "kind": "best",
+        "range": {
+          "lower": "2.207",
+          "upper": "2.208"
+        },
+        "truncated": true,
+        "certificateDisplay": "2.207106837",
+        "source": "Compiled by Erich Friedman; Found by Erich Friedman in March 2005. Source expression: s = 3/2 + 1/√2 = 2.207+.",
+        "url": "https://erich-friedman.github.io/packing/taninsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 1,
+            "turn": "-0.414213562",
+            "x": "0.679622764",
+            "y": "0.999999997"
+          },
+          {
+            "quarter": 3,
+            "turn": "0.414213562",
+            "x": "0.999999997",
+            "y": "0.679622759"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.000000027",
+            "x": "0.226540910",
+            "y": "0.679622785"
+          },
+          {
+            "turn": "-0.000000023",
+            "x": "0.226540927",
+            "y": "0.679622760"
+          },
+          {
+            "turn": "-0.000000005",
+            "x": "0.679622767",
+            "y": "0.679622751"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.000000015",
+            "x": "0.226540927",
+            "y": "0.226540926"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.000000006",
+            "x": "0.679622771",
+            "y": "0.226540920"
+          },
+          {
+            "turn": "-0.000000015",
+            "x": "0.226540924",
+            "y": "0.226540924"
+          },
+          {
+            "turn": "-0.000000001",
+            "x": "0.679622764",
+            "y": "0.226540918"
+          }
+        ],
+        "radius": "0.453081828"
+      }
+    },
+    {
+      "instanceId": "p89-n10-v1",
+      "name": "n = 10",
+      "parameters": {
+        "n": 10,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "2393754585132181058",
+      "scoreDisplay": "2.393754586",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "2.393",
+        "kind": "best",
+        "range": {
+          "lower": "2.393",
+          "upper": "2.394"
+        },
+        "truncated": true,
+        "certificateDisplay": "2.393754586",
+        "source": "Compiled by Erich Friedman; Found by Maurizio Morandi in January 2008. Source expression: s = 2.393+.",
+        "url": "https://erich-friedman.github.io/packing/taninsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "-0.000000033",
+            "x": "0.208876906",
+            "y": "0.635177682"
+          },
+          {
+            "quarter": 3,
+            "turn": "-0.000000009",
+            "x": "0.782576279",
+            "y": "0.373369344"
+          },
+          {
+            "quarter": 3,
+            "turn": "-0.000000237",
+            "x": "0.208876987",
+            "y": "0.217423825"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.782576286",
+            "y": "0.791123112"
+          },
+          {
+            "quarter": 1,
+            "turn": "-0.000000241",
+            "x": "0.208876989",
+            "y": "0.217423819"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.000000014",
+            "x": "0.364822509",
+            "y": "0.479232079"
+          },
+          {
+            "quarter": 3,
+            "turn": "-0.414213562",
+            "x": "0.704603470",
+            "y": "0.000000003"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.999999997",
+            "y": "0.295396526"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.397593826",
+            "x": "0.582126012",
+            "y": "0.687868422"
+          },
+          {
+            "turn": "0.397594479",
+            "x": "0.295276261",
+            "y": "0.991571618"
+          }
+        ],
+        "radius": "0.417753769"
+      }
+    },
+    {
+      "instanceId": "p89-n11-v1",
+      "name": "n = 11",
+      "parameters": {
+        "n": 11,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "2414213611175070336",
+      "scoreDisplay": "2.414213612",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "2.414",
+        "kind": "best",
+        "range": {
+          "lower": "2.414",
+          "upper": "2.415"
+        },
+        "truncated": true,
+        "certificateDisplay": "2.414213612",
+        "source": "Compiled by Erich Friedman; Found by Maurizio Morandi in August 2007. Source expression: s = 1 + √2 = 2.414+.",
+        "url": "https://erich-friedman.github.io/packing/taninsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.414213562",
+            "x": "0.707106783",
+            "y": "0.999999997"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.999999997",
+            "y": "0.707106781"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.414213562",
+            "x": "0.292893216",
+            "y": "0.000000003"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000008",
+            "x": "0.207106793",
+            "y": "0.792893216"
+          },
+          {
+            "turn": "0.000000004",
+            "x": "0.207106779",
+            "y": "0.792893222"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.000000011",
+            "x": "0.792893216",
+            "y": "0.207106785"
+          },
+          {
+            "turn": "-0.000000011",
+            "x": "0.792893212",
+            "y": "0.207106785"
+          },
+          {
+            "turn": "0.414213560",
+            "x": "0.292893216",
+            "y": "0.585786439"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.414213561",
+            "x": "0.000000003",
+            "y": "0.292893221"
+          },
+          {
+            "turn": "-0.000000007",
+            "x": "0.792893215",
+            "y": "0.621320344"
+          },
+          {
+            "quarter": 3,
+            "turn": "0.414213555",
+            "x": "0.585786431",
+            "y": "0.292893222"
+          }
+        ],
+        "radius": "0.414213554"
+      }
+    },
+    {
+      "instanceId": "p89-n12-v1",
+      "name": "n = 12",
+      "parameters": {
+        "n": 12,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "2611150003755225378",
+      "scoreDisplay": "2.611150004",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "2.61115",
+        "kind": "best",
+        "range": {
+          "lower": "2.61115",
+          "upper": "2.61116"
+        },
+        "truncated": true,
+        "certificateDisplay": "2.611150004",
+        "source": "Compiled by Erich Friedman; Found by Haowei Lin in July 2026. Source expression: s = 2.61115+.",
+        "url": "https://erich-friedman.github.io/packing/taninsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 3,
+            "turn": "0.414145804",
+            "x": "0.999919193",
+            "y": "0.271044385"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.414213560",
+            "x": "0.000000004",
+            "y": "0.729084980"
+          },
+          {
+            "quarter": 1,
+            "turn": "-0.353273174",
+            "x": "0.333598409",
+            "y": "0.970508942"
+          },
+          {
+            "quarter": 3,
+            "turn": "0.013986251",
+            "x": "0.467730757",
+            "y": "0.395252860"
+          },
+          {
+            "quarter": 1,
+            "turn": "0.048583348",
+            "x": "0.442975980",
+            "y": "0.790619891"
+          },
+          {
+            "turn": "-0.414058210",
+            "x": "0.270915010",
+            "y": "0.458098108"
+          },
+          {
+            "quarter": 3,
+            "turn": "0.048583346",
+            "x": "0.827906332",
+            "y": "0.790766356"
+          },
+          {
+            "quarter": 1,
+            "turn": "0.000822757",
+            "x": "0.808119187",
+            "y": "0.734341303"
+          },
+          {
+            "quarter": 1,
+            "turn": "0.013986251",
+            "x": "0.420650829",
+            "y": "0.345462700"
+          },
+          {
+            "quarter": 3,
+            "turn": "0.000822758",
+            "x": "0.808749635",
+            "y": "0.351210127"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.191565848",
+            "y": "0.191565848"
+          },
+          {
+            "quarter": 3,
+            "turn": "-0.414213562",
+            "x": "0.729084980",
+            "y": "0.000000003"
+          }
+        ],
+        "radius": "0.382973019"
+      }
+    },
+    {
+      "instanceId": "p89-n13-v1",
+      "name": "n = 13",
+      "parameters": {
+        "n": 13,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "2688240166774333822",
+      "scoreDisplay": "2.688240167",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "2.688",
+        "kind": "best",
+        "range": {
+          "lower": "2.688",
+          "upper": "2.689"
+        },
+        "truncated": true,
+        "certificateDisplay": "2.688240167",
+        "source": "Compiled by Erich Friedman; Found by Maurizio Morandi in March 2008. Source expression: s = 2.688+.",
+        "url": "https://erich-friedman.github.io/packing/taninsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.660552731",
+            "y": "0.441382568"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.414213562",
+            "x": "0.312824115",
+            "y": "0.526074123"
+          },
+          {
+            "quarter": 1,
+            "turn": "-0.414213562",
+            "x": "0.736962938",
+            "y": "0.999999997"
+          },
+          {
+            "quarter": 1,
+            "turn": "-0.414213562",
+            "x": "0.575861177",
+            "y": "0.263037060"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.312824112",
+            "y": "0.476287074"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.288078700",
+            "y": "0.813856599"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.414213562",
+            "x": "0.000000003",
+            "y": "0.263037060"
+          },
+          {
+            "quarter": 3,
+            "turn": "-0.414213562",
+            "x": "0.575861174",
+            "y": "0.263037063"
+          },
+          {
+            "quarter": 3,
+            "turn": "-0.414213562",
+            "x": "0.263037065",
+            "y": "0.000000003"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.999999997",
+            "y": "0.736962938"
+          },
+          {
+            "quarter": 1,
+            "turn": "0.000000000",
+            "x": "0.813632779",
+            "y": "0.186227244"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.660306922",
+            "y": "0.813618951"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.359721205",
+            "x": "0.024893534",
+            "y": "0.738143536"
+          }
+        ],
+        "radius": "0.371990573"
+      }
+    },
+    {
+      "instanceId": "p89-n14-v1",
+      "name": "n = 14",
+      "parameters": {
+        "n": 14,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "2763450003401392437",
+      "scoreDisplay": "2.763450004",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "2.76345",
+        "kind": "best",
+        "range": {
+          "lower": "2.76345",
+          "upper": "2.76346"
+        },
+        "truncated": true,
+        "certificateDisplay": "2.763450004",
+        "source": "Compiled by Erich Friedman; Found by Haowei Lin in July 2026. Source expression: s = 2.76345+.",
+        "url": "https://erich-friedman.github.io/packing/taninsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 3,
+            "turn": "0.000000000",
+            "x": "0.180985610",
+            "y": "0.819014390"
+          },
+          {
+            "quarter": 3,
+            "turn": "-0.414213562",
+            "x": "0.743987130",
+            "y": "0.000046262"
+          },
+          {
+            "quarter": 1,
+            "turn": "0.388386939",
+            "x": "0.451792235",
+            "y": "0.744300941"
+          },
+          {
+            "turn": "0.388386565",
+            "x": "0.721020783",
+            "y": "0.500007594"
+          },
+          {
+            "quarter": 1,
+            "turn": "-0.064088731",
+            "x": "0.245973243",
+            "y": "0.515777301"
+          },
+          {
+            "quarter": 1,
+            "turn": "0.388197584",
+            "x": "0.453854735",
+            "y": "0.255695299"
+          },
+          {
+            "quarter": 1,
+            "turn": "-0.064086212",
+            "x": "0.251775641",
+            "y": "0.843597422"
+          },
+          {
+            "quarter": 3,
+            "turn": "0.387808321",
+            "x": "0.988359826",
+            "y": "0.744312328"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.388386461",
+            "x": "0.721020788",
+            "y": "0.500007643"
+          },
+          {
+            "quarter": 1,
+            "turn": "-0.022414808",
+            "x": "0.269691295",
+            "y": "0.188913279"
+          },
+          {
+            "quarter": 3,
+            "turn": "-0.064088602",
+            "x": "0.202608285",
+            "y": "0.156401614"
+          },
+          {
+            "turn": "0.405652766",
+            "x": "0.719253061",
+            "y": "0.996230878"
+          },
+          {
+            "quarter": 3,
+            "turn": "-0.064088731",
+            "x": "0.205567858",
+            "y": "0.484586754"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.999999997",
+            "y": "0.255952302"
+          }
+        ],
+        "radius": "0.361866507"
+      }
+    },
+    {
+      "instanceId": "p89-n15-v1",
+      "name": "n = 15",
+      "parameters": {
+        "n": 15,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "2828427241492385015",
+      "scoreDisplay": "2.828427242",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "2.82735",
+        "kind": "best",
+        "range": {
+          "lower": "2.82735",
+          "upper": "2.82736"
+        },
+        "truncated": true,
+        "source": "Compiled by Erich Friedman; Found by Aapo Lipponen in July 2026. Source expression: s = 2.82735+.",
+        "url": "https://erich-friedman.github.io/packing/taninsqu/"
+      },
+      "holder": "XSsMC",
+      "method": "human",
+      "recordedAt": "2026-09-16T14:54:09.176Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 3,
+            "turn": "-0.414213562",
+            "x": "0.500000000",
+            "y": "0.250000010"
+          },
+          {
+            "quarter": 3,
+            "turn": "-0.414213562",
+            "x": "0.250000010",
+            "y": "0.000000020"
+          },
+          {
+            "quarter": 3,
+            "turn": "-0.414213562",
+            "x": "0.749999990",
+            "y": "0.000000020"
+          },
+          {
+            "quarter": 1,
+            "turn": "-0.414213562",
+            "x": "0.500000000",
+            "y": "0.250000010"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.749999990",
+            "y": "0.500000000"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.999999980",
+            "y": "0.250000010"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.999999980",
+            "y": "0.749999990"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.414213562",
+            "x": "0.749999990",
+            "y": "0.500000000"
+          },
+          {
+            "quarter": 1,
+            "turn": "-0.414213562",
+            "x": "0.500000000",
+            "y": "0.749999990"
+          },
+          {
+            "quarter": 1,
+            "turn": "-0.414213562",
+            "x": "0.749999990",
+            "y": "0.999999980"
+          },
+          {
+            "quarter": 1,
+            "turn": "-0.414213562",
+            "x": "0.250000010",
+            "y": "0.999999980"
+          },
+          {
+            "quarter": 3,
+            "turn": "-0.414213562",
+            "x": "0.500000000",
+            "y": "0.749999990"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.414213562",
+            "x": "0.250000010",
+            "y": "0.500000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.414213562",
+            "x": "0.000000020",
+            "y": "0.749999990"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.414213562",
+            "x": "0.000000020",
+            "y": "0.250000010"
+          }
+        ],
+        "radius": "0.353553376"
+      }
+    },
+    {
+      "instanceId": "p89-n16-v1",
+      "name": "n = 16",
+      "parameters": {
+        "n": 16,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "2828427241492385015",
+      "scoreDisplay": "2.828427242",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "2.828",
+        "kind": "best",
+        "range": {
+          "lower": "2.828",
+          "upper": "2.829"
+        },
+        "comparisonUncertain": true,
+        "truncated": true,
+        "certificateDisplay": "2.828427242",
+        "source": "Compiled by Erich Friedman; Trivial. Source expression: s = 2√2 = 2.828+.",
+        "url": "https://erich-friedman.github.io/packing/taninsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 3,
+            "turn": "-0.414213562",
+            "x": "0.500000000",
+            "y": "0.250000010"
+          },
+          {
+            "quarter": 3,
+            "turn": "-0.414213562",
+            "x": "0.250000010",
+            "y": "0.000000020"
+          },
+          {
+            "quarter": 3,
+            "turn": "-0.414213562",
+            "x": "0.749999990",
+            "y": "0.000000020"
+          },
+          {
+            "quarter": 1,
+            "turn": "-0.414213562",
+            "x": "0.500000000",
+            "y": "0.250000010"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.749999990",
+            "y": "0.500000000"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.999999980",
+            "y": "0.250000010"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.999999980",
+            "y": "0.749999990"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.414213562",
+            "x": "0.749999990",
+            "y": "0.500000000"
+          },
+          {
+            "quarter": 1,
+            "turn": "-0.414213562",
+            "x": "0.500000000",
+            "y": "0.749999990"
+          },
+          {
+            "quarter": 1,
+            "turn": "-0.414213562",
+            "x": "0.749999990",
+            "y": "0.999999980"
+          },
+          {
+            "quarter": 1,
+            "turn": "-0.414213562",
+            "x": "0.250000010",
+            "y": "0.999999980"
+          },
+          {
+            "quarter": 3,
+            "turn": "-0.414213562",
+            "x": "0.500000000",
+            "y": "0.749999990"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.414213562",
+            "x": "0.250000010",
+            "y": "0.500000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.414213562",
+            "x": "0.000000020",
+            "y": "0.749999990"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.414213562",
+            "x": "0.000000020",
+            "y": "0.250000010"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.250000010",
+            "y": "0.500000000"
+          }
+        ],
+        "radius": "0.353553376"
+      }
+    },
+    {
+      "instanceId": "p89-n17-v1",
+      "name": "n = 17",
+      "parameters": {
+        "n": 17,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "2970710990926310852",
+      "scoreDisplay": "2.970710991",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "2.970",
+        "kind": "best",
+        "range": {
+          "lower": "2.97",
+          "upper": "2.971"
+        },
+        "truncated": true,
+        "certificateDisplay": "2.970710991",
+        "source": "Compiled by Erich Friedman; Found by David W. Cantrell in August 2007. Source expression: s = 2.970+.",
+        "url": "https://erich-friedman.github.io/packing/taninsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 2,
+            "turn": "-0.000000011",
+            "x": "0.831690116",
+            "y": "0.495070354"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.412509052",
+            "x": "0.000694056",
+            "y": "0.716995177"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.414213543",
+            "x": "0.238026113",
+            "y": "0.476052243"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.414213558",
+            "x": "0.238026113",
+            "y": "0.000000005"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.411976182",
+            "x": "0.718335617",
+            "y": "0.000911991"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.000000002",
+            "x": "0.831690120",
+            "y": "0.831690120"
+          },
+          {
+            "turn": "-0.000000011",
+            "x": "0.821975243",
+            "y": "0.504785224"
+          },
+          {
+            "turn": "0.414213542",
+            "x": "0.238026115",
+            "y": "0.476052242"
+          },
+          {
+            "quarter": 3,
+            "turn": "0.414213554",
+            "x": "0.476052224",
+            "y": "0.238026121"
+          },
+          {
+            "quarter": 1,
+            "turn": "0.414213558",
+            "x": "0.476052229",
+            "y": "0.238026113"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.000000011",
+            "x": "0.485355486",
+            "y": "0.466748977"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.014647703",
+            "x": "0.826832680",
+            "y": "0.163308023"
+          },
+          {
+            "turn": "-0.000000008",
+            "x": "0.831690120",
+            "y": "0.831690111"
+          },
+          {
+            "turn": "-0.028271264",
+            "x": "0.495133388",
+            "y": "0.812608962"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.028274536",
+            "x": "0.158530820",
+            "y": "0.822448851"
+          },
+          {
+            "quarter": 1,
+            "turn": "0.414213559",
+            "x": "0.000000004",
+            "y": "0.238026120"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.000000006",
+            "x": "0.495070364",
+            "y": "0.831690118"
+          }
+        ],
+        "radius": "0.336619753"
+      }
+    },
+    {
+      "instanceId": "p89-n18-v1",
+      "name": "n = 18",
+      "parameters": {
+        "n": 18,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "3000000003000000004",
+      "scoreDisplay": "3.000000004",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "3",
+        "kind": "best",
+        "range": {
+          "lower": "3",
+          "upper": "3"
+        },
+        "comparisonUncertain": true,
+        "certificateDisplay": "3.000000004",
+        "source": "Compiled by Erich Friedman; Trivial. Source expression: s = 3.",
+        "url": "https://erich-friedman.github.io/packing/taninsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.000000000",
+            "x": "0.166666667",
+            "y": "0.166666667"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.166666667",
+            "y": "0.166666667"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.166666667"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.166666667"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.833333333",
+            "y": "0.166666667"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.833333333",
+            "y": "0.166666667"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.166666667",
+            "y": "0.500000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.166666667",
+            "y": "0.500000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.500000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.500000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.833333333",
+            "y": "0.500000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.833333333",
+            "y": "0.500000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.166666667",
+            "y": "0.833333333"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.166666667",
+            "y": "0.833333333"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.833333333"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.833333333"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.833333333",
+            "y": "0.833333333"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.833333333",
+            "y": "0.833333333"
+          }
+        ],
+        "radius": "0.333333333"
+      }
+    },
+    {
+      "instanceId": "p89-n19-v1",
+      "name": "n = 19",
+      "parameters": {
+        "n": 19,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "3201496210289689498",
+      "scoreDisplay": "3.201496211",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "3.201",
+        "kind": "best",
+        "range": {
+          "lower": "3.201",
+          "upper": "3.202"
+        },
+        "truncated": true,
+        "certificateDisplay": "3.201496211",
+        "source": "Compiled by Erich Friedman; Found by Maurizio Morandi in February 2008. Source expression: s = 3.201+.",
+        "url": "https://erich-friedman.github.io/packing/taninsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.219115100",
+            "y": "0.843823020"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.531469060",
+            "y": "0.843823020"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.843823020",
+            "y": "0.843823020"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.531469060",
+            "y": "0.531469060"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.843823017",
+            "y": "0.531469058"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.532960235",
+            "y": "0.185175259"
+          },
+          {
+            "quarter": 1,
+            "turn": "0.000000000",
+            "x": "0.249604552",
+            "y": "0.156176980"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.561958510",
+            "y": "0.156176980"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.156176980",
+            "y": "0.465025926"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.843823020",
+            "y": "0.219115100"
+          },
+          {
+            "quarter": 3,
+            "turn": "-0.075206786",
+            "x": "0.177779241",
+            "y": "0.131069708"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.531469058",
+            "y": "0.843823017"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.843823017",
+            "y": "0.843823017"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.843823020",
+            "y": "0.531469060"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.414213562",
+            "x": "0.279850674",
+            "y": "0.562219841"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.279850671",
+            "y": "0.562219839"
+          },
+          {
+            "turn": "-0.048915272",
+            "x": "0.859811014",
+            "y": "0.170674536"
+          },
+          {
+            "quarter": 3,
+            "turn": "-0.414213562",
+            "x": "0.500718276",
+            "y": "0.341352240"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.337772885",
+            "x": "0.029493573",
+            "y": "0.781109919"
+          }
+        ],
+        "radius": "0.312353954"
+      }
+    },
+    {
+      "instanceId": "p89-n20-v1",
+      "name": "n = 20",
+      "parameters": {
+        "n": 20,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "3268570007060993730",
+      "scoreDisplay": "3.268570008",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "3.26857",
+        "kind": "best",
+        "range": {
+          "lower": "3.26857",
+          "upper": "3.26858"
+        },
+        "truncated": true,
+        "certificateDisplay": "3.268570008",
+        "source": "Compiled by Erich Friedman; Found by Aapo Lippoen in July 2026. Source expression: s = 3.26857+.",
+        "url": "https://erich-friedman.github.io/packing/taninsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 2,
+            "turn": "0.035798384",
+            "x": "0.836419363",
+            "y": "0.141696040"
+          },
+          {
+            "turn": "0.028065282",
+            "x": "0.484597625",
+            "y": "0.161371947"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.028065298",
+            "x": "0.179019521",
+            "y": "0.144206150"
+          },
+          {
+            "turn": "0.028065288",
+            "x": "0.809383418",
+            "y": "0.161371949"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.028065286",
+            "x": "0.503805240",
+            "y": "0.144207531"
+          },
+          {
+            "turn": "0.028065307",
+            "x": "0.189764231",
+            "y": "0.451352121"
+          },
+          {
+            "turn": "0.028065301",
+            "x": "0.501288452",
+            "y": "0.450608541"
+          },
+          {
+            "turn": "0.035798328",
+            "x": "0.814534522",
+            "y": "0.446972478"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.806059864",
+            "y": "0.761106120"
+          },
+          {
+            "quarter": 1,
+            "turn": "0.000000000",
+            "x": "0.193940139",
+            "y": "0.761106121"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.028065299",
+            "x": "0.505657518",
+            "y": "0.446704236"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.500000002",
+            "y": "0.761106118"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.035798330",
+            "x": "0.817393995",
+            "y": "0.444495568"
+          },
+          {
+            "quarter": 1,
+            "turn": "-0.414213562",
+            "x": "0.783582993",
+            "y": "0.999999997"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.028065302",
+            "x": "0.194965390",
+            "y": "0.446704238"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.500000001",
+            "y": "0.761106123"
+          },
+          {
+            "quarter": 1,
+            "turn": "-0.414213562",
+            "x": "0.216417009",
+            "y": "0.999999997"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.999999997",
+            "y": "0.783582993"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.414213562",
+            "x": "0.000000003",
+            "y": "0.783582995"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.153029933",
+            "y": "0.153029933"
+          }
+        ],
+        "radius": "0.305944189"
+      }
+    },
+    {
+      "instanceId": "p89-n21-v1",
+      "name": "n = 21",
+      "parameters": {
+        "n": 21,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "3340065736835786387",
+      "scoreDisplay": "3.340065737",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "3.340",
+        "kind": "best",
+        "range": {
+          "lower": "3.34",
+          "upper": "3.341"
+        },
+        "truncated": true,
+        "certificateDisplay": "3.340065737",
+        "source": "Compiled by Erich Friedman; Found by Maurizio Morandi in March 2008. Source expression: s = 3.340+.",
+        "url": "https://erich-friedman.github.io/packing/taninsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "-0.000000068",
+            "x": "0.850302354",
+            "y": "0.550906961"
+          },
+          {
+            "quarter": 3,
+            "turn": "0.414213555",
+            "x": "0.233350328",
+            "y": "0.577144755"
+          },
+          {
+            "turn": "0.414213531",
+            "x": "0.445054780",
+            "y": "0.445054803"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.000000018",
+            "x": "0.251511727",
+            "y": "0.850302339"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.000000029",
+            "x": "0.550907039",
+            "y": "0.850302336"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.414213472",
+            "x": "0.656759220",
+            "y": "0.233350315"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.000000077",
+            "x": "0.850302323",
+            "y": "0.251511641"
+          },
+          {
+            "turn": "-0.000000019",
+            "x": "0.449092972",
+            "y": "0.149697661"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.000000020",
+            "x": "0.550907025",
+            "y": "0.550907022"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.000000005",
+            "x": "0.149697659",
+            "y": "0.149697659"
+          },
+          {
+            "turn": "0.414213471",
+            "x": "0.577144787",
+            "y": "0.233350324"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.000000033",
+            "x": "0.850302335",
+            "y": "0.850302335"
+          },
+          {
+            "turn": "-0.000000037",
+            "x": "0.850302350",
+            "y": "0.850302313"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.149697656",
+            "y": "0.149697656"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.149697656",
+            "y": "0.449092969"
+          },
+          {
+            "turn": "-0.000000026",
+            "x": "0.550907038",
+            "y": "0.850302332"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.000000042",
+            "x": "0.850302332",
+            "y": "0.550907003"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.414213529",
+            "x": "0.445054784",
+            "y": "0.445054806"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.384561065",
+            "x": "0.788572377",
+            "y": "0.010822938"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.384561063",
+            "x": "0.010822939",
+            "y": "0.788572377"
+          },
+          {
+            "quarter": 1,
+            "turn": "0.414213548",
+            "x": "0.233350335",
+            "y": "0.656759269"
+          }
+        ],
+        "radius": "0.299395305"
+      }
+    },
+    {
+      "instanceId": "p89-n22-v1",
+      "name": "n = 22",
+      "parameters": {
+        "n": 22,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "3392767023088943312",
+      "scoreDisplay": "3.392767024",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "3.392",
+        "kind": "best",
+        "range": {
+          "lower": "3.392",
+          "upper": "3.393"
+        },
+        "truncated": true,
+        "certificateDisplay": "3.392767024",
+        "source": "Compiled by Erich Friedman; Found by Maurizio Morandi in December 2007. Source expression: s = 3.392+.",
+        "url": "https://erich-friedman.github.io/packing/taninsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 2,
+            "turn": "-0.414213562",
+            "x": "0.000000003",
+            "y": "0.208415963"
+          },
+          {
+            "quarter": 1,
+            "turn": "-0.414213562",
+            "x": "0.208415959",
+            "y": "0.576846801"
+          },
+          {
+            "quarter": 1,
+            "turn": "0.000000000",
+            "x": "0.551561714",
+            "y": "0.160014880"
+          },
+          {
+            "quarter": 3,
+            "turn": "0.000000000",
+            "x": "0.846306389",
+            "y": "0.147372341"
+          },
+          {
+            "quarter": 1,
+            "turn": "-0.414213562",
+            "x": "0.791584037",
+            "y": "0.705255322"
+          },
+          {
+            "quarter": 3,
+            "turn": "-0.414213562",
+            "x": "0.564204259",
+            "y": "0.515803184"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.557882982",
+            "y": "0.852627661"
+          },
+          {
+            "quarter": 3,
+            "turn": "-0.414213562",
+            "x": "0.208415961",
+            "y": "0.576846804"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.999999997",
+            "y": "0.496839365"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.852627656",
+            "y": "0.852627661"
+          },
+          {
+            "quarter": 3,
+            "turn": "0.000000000",
+            "x": "0.551561714",
+            "y": "0.160014884"
+          },
+          {
+            "quarter": 1,
+            "turn": "-0.414213562",
+            "x": "0.564204262",
+            "y": "0.515803181"
+          },
+          {
+            "quarter": 3,
+            "turn": "-0.414213562",
+            "x": "0.772620220",
+            "y": "0.307387223"
+          },
+          {
+            "quarter": 3,
+            "turn": "-0.414213562",
+            "x": "0.355788300",
+            "y": "0.307387226"
+          },
+          {
+            "quarter": 1,
+            "turn": "0.000000000",
+            "x": "0.846306391",
+            "y": "0.147372339"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.414213562",
+            "x": "0.000000003",
+            "y": "0.785262763"
+          },
+          {
+            "quarter": 3,
+            "turn": "-0.414213562",
+            "x": "0.208415959",
+            "y": "0.000000003"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.256817039",
+            "y": "0.160014887"
+          },
+          {
+            "quarter": 1,
+            "turn": "-0.414213562",
+            "x": "0.208415959",
+            "y": "0.993678723"
+          },
+          {
+            "quarter": 3,
+            "turn": "-0.414213562",
+            "x": "0.416831917",
+            "y": "0.785262765"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.852627661",
+            "y": "0.852627661"
+          },
+          {
+            "quarter": 1,
+            "turn": "-0.414213562",
+            "x": "0.416831920",
+            "y": "0.785262762"
+          }
+        ],
+        "radius": "0.294744671"
+      }
+    },
+    {
+      "instanceId": "p89-n23-v1",
+      "name": "n = 23",
+      "parameters": {
+        "n": 23,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "3464000009255808025",
+      "scoreDisplay": "3.46400001",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "3.464",
+        "kind": "best",
+        "range": {
+          "lower": "3.464",
+          "upper": "3.465"
+        },
+        "truncated": true,
+        "certificateDisplay": "3.46400001",
+        "source": "Compiled by Erich Friedman; Found by Maurizio Morandi in December 2007. Source expression: s = 3.464+.",
+        "url": "https://erich-friedman.github.io/packing/taninsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "-0.414213562",
+            "x": "0.999999997",
+            "y": "0.204134726"
+          },
+          {
+            "quarter": 3,
+            "turn": "-0.414213562",
+            "x": "0.781514924",
+            "y": "0.000000003"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.855654945",
+            "y": "0.552614563"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.144345053",
+            "y": "0.433035151"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.433035149",
+            "y": "0.433035150"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.144345051",
+            "y": "0.144345053"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.433035149",
+            "y": "0.144345053"
+          },
+          {
+            "quarter": 1,
+            "turn": "0.000000000",
+            "x": "0.855654950",
+            "y": "0.841304660"
+          },
+          {
+            "quarter": 1,
+            "turn": "-0.414213562",
+            "x": "0.204134728",
+            "y": "0.999999997"
+          },
+          {
+            "quarter": 3,
+            "turn": "-0.414213562",
+            "x": "0.401094281",
+            "y": "0.788690100"
+          },
+          {
+            "quarter": 3,
+            "turn": "-0.414213562",
+            "x": "0.204134726",
+            "y": "0.577380201"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.144345050",
+            "y": "0.433035150"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.144345050",
+            "y": "0.144345050"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.433035148",
+            "y": "0.144345050"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.414213562",
+            "x": "0.795865274",
+            "y": "0.408269471"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.414213562",
+            "x": "0.577380199",
+            "y": "0.204134728"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.795865271",
+            "y": "0.393919107"
+          },
+          {
+            "quarter": 3,
+            "turn": "0.012428988",
+            "x": "0.859287111",
+            "y": "0.852111969"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.414213562",
+            "x": "0.000000003",
+            "y": "0.795865272"
+          },
+          {
+            "quarter": 1,
+            "turn": "-0.414213562",
+            "x": "0.401094281",
+            "y": "0.788690097"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.552614501",
+            "y": "0.517590526"
+          },
+          {
+            "quarter": 1,
+            "turn": "0.335237318",
+            "x": "0.580791168",
+            "y": "0.613337157"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.012428983",
+            "x": "0.570507806",
+            "y": "0.852111970"
+          }
+        ],
+        "radius": "0.288683602"
+      }
+    },
+    {
+      "instanceId": "p89-n24-v1",
+      "name": "n = 24",
+      "parameters": {
+        "n": 24,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "3517000006872218014",
+      "scoreDisplay": "3.517000007",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "3.517",
+        "kind": "best",
+        "range": {
+          "lower": "3.517",
+          "upper": "3.518"
+        },
+        "truncated": true,
+        "certificateDisplay": "3.517000007",
+        "source": "Compiled by Erich Friedman; Found by David W. Cantrell in August 2007. Source expression: s = 3.517+.",
+        "url": "https://erich-friedman.github.io/packing/taninsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 3,
+            "turn": "-0.414213562",
+            "x": "0.798848742",
+            "y": "0.402302521"
+          },
+          {
+            "quarter": 1,
+            "turn": "0.396521633",
+            "x": "0.396192022",
+            "y": "0.798941620"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.597697479",
+            "y": "0.201151258"
+          },
+          {
+            "turn": "-0.003498798",
+            "x": "0.143227333",
+            "y": "0.429707091"
+          },
+          {
+            "quarter": 1,
+            "turn": "0.400636497",
+            "x": "0.201034191",
+            "y": "0.576934430"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.573293292",
+            "y": "0.857764401"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.857764470",
+            "y": "0.857764467"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.857764128",
+            "y": "0.857764532"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.857764478",
+            "y": "0.573293419"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.003497337",
+            "x": "0.141238854",
+            "y": "0.145242788"
+          },
+          {
+            "turn": "-0.003495982",
+            "x": "0.143226436",
+            "y": "0.143226436"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.426699303",
+            "y": "0.142235420"
+          },
+          {
+            "quarter": 1,
+            "turn": "-0.414213562",
+            "x": "0.201151397",
+            "y": "0.999999997"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.414213562",
+            "x": "0.000000003",
+            "y": "0.798848742"
+          },
+          {
+            "quarter": 3,
+            "turn": "-0.414213562",
+            "x": "0.617739237",
+            "y": "0.612167197"
+          },
+          {
+            "quarter": 1,
+            "turn": "-0.414213562",
+            "x": "0.606410899",
+            "y": "0.612167194"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.414213562",
+            "x": "0.405259641",
+            "y": "0.411015936"
+          },
+          {
+            "quarter": 1,
+            "turn": "-0.414213562",
+            "x": "0.798848739",
+            "y": "0.402302518"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.414213562",
+            "x": "0.597697482",
+            "y": "0.201151261"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.999999997",
+            "y": "0.201151260"
+          },
+          {
+            "quarter": 3,
+            "turn": "-0.414213562",
+            "x": "0.798848739",
+            "y": "0.000000003"
+          },
+          {
+            "quarter": 3,
+            "turn": "0.400635788",
+            "x": "0.201096709",
+            "y": "0.579628994"
+          },
+          {
+            "quarter": 3,
+            "turn": "0.396521634",
+            "x": "0.395808817",
+            "y": "0.786335918"
+          },
+          {
+            "quarter": 3,
+            "turn": "0.400636416",
+            "x": "0.400575575",
+            "y": "0.374139926"
+          }
+        ],
+        "radius": "0.284333238"
+      }
+    }
+  ]
+}

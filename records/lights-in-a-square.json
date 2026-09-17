@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/lights-in-a-square",
-  "generatedAt": "2026-09-16T10:04:01.437Z",
+  "generatedAt": "2026-09-17T10:07:09.450Z",
   "instances": [
     {
       "instanceId": "p51-n2-v1",
@@ -426,11 +426,11 @@
         "n": 10
       },
       "objective": "maximize",
-      "scoreStored": "63548775",
-      "scoreDisplay": "63.548775",
-      "status": "open",
+      "scoreStored": "64751955",
+      "scoreDisplay": "64.751955",
+      "status": "matched",
       "settled": false,
-      "recordStatus": "open",
+      "recordStatus": "matched",
       "knownBest": {
         "display": "64.751",
         "kind": "best",
@@ -438,51 +438,51 @@
         "source": "Mishari Alhussain (September 2026), compiled by Erich Friedman, checked 2026-09-15: 64.751+. The displayed starter reconstructs an earlier source (Satoshi Kishimoto and GPT-5.6 Sol Pro, previously 62.408+) and verifies at 62.403068; it is not a reconstruction of this updated record. Optimality is open. Source revision 49f5b2261645c5000de85dd9c3af4fa41b6f0224",
         "url": "https://erich-friedman.github.io/packing/light/"
       },
-      "holder": "hadsajnc",
-      "method": "human",
-      "recordedAt": "2026-09-14T10:01:30.606Z",
+      "holder": "今天",
+      "method": "ai",
+      "recordedAt": "2026-09-17T03:46:30.197Z",
       "answer": {
-        "intensity": "63.548775",
+        "intensity": "64.751955",
         "lights": [
           [
-            "0.555718995",
-            "0.940084005"
+            "0.500000000",
+            "0.973522033"
           ],
           [
-            "0.136242700",
-            "0.933090005"
+            "0.113029008",
+            "0.909052583"
           ],
           [
-            "0.916085945",
-            "0.879463295"
+            "0.886970992",
+            "0.909052583"
           ],
           [
-            "0.194127995",
-            "0.699246005"
+            "0.500000000",
+            "0.573852310"
           ],
           [
-            "0.092741995",
-            "0.414974905"
+            "0.057075901",
+            "0.547457852"
           ],
           [
-            "0.966105400",
-            "0.483650225"
+            "0.942924099",
+            "0.547457852"
           ],
           [
-            "0.575819995",
-            "0.473674205"
+            "0.045773280",
+            "0.141136353"
           ],
           [
-            "0.128068455",
-            "0.073020505"
+            "0.954226720",
+            "0.141136353"
           ],
           [
-            "0.894370510",
-            "0.101615995"
+            "0.338903172",
+            "0.133323543"
           ],
           [
-            "0.520194995",
-            "0.067449005"
+            "0.661096828",
+            "0.133323543"
           ]
         ]
       }
@@ -567,11 +567,11 @@
         "n": 12
       },
       "objective": "maximize",
-      "scoreStored": "83569465",
-      "scoreDisplay": "83.569465",
-      "status": "open",
+      "scoreStored": "83571365",
+      "scoreDisplay": "83.571365",
+      "status": "matched",
       "settled": false,
-      "recordStatus": "open",
+      "recordStatus": "matched",
       "knownBest": {
         "display": "83.571",
         "kind": "best",
@@ -580,59 +580,59 @@
         "source": "published by Satoshi Kishimoto and GPT-5.6 Sol Pro (July 2026) on Erich Friedman's page as 83.571+, meaning at least that much. The page gives figures and no coordinates; the configuration this site reconstructed from the pictured topology and symmetries verifies at 83.564255, which is the site's reference answer and not the record. Optimality is open",
         "url": "https://erich-friedman.github.io/packing/light/"
       },
-      "holder": "游侠",
+      "holder": "今天",
       "method": "ai",
-      "recordedAt": "2026-09-07T12:32:21.290Z",
+      "recordedAt": "2026-09-17T00:56:05.223Z",
       "answer": {
-        "intensity": "83.569465",
+        "intensity": "83.571365",
         "lights": [
           [
-            "0.130708612",
-            "0.973626980"
+            "0.130579345",
+            "0.973282010"
           ],
           [
-            "0.869292947",
-            "0.973627316"
+            "0.869420655",
+            "0.973282010"
           ],
           [
-            "0.499999328",
-            "0.950987301"
+            "0.123382676",
+            "0.724795537"
           ],
           [
-            "0.123809740",
-            "0.725690173"
+            "0.876617324",
+            "0.724795537"
           ],
           [
-            "0.876190184",
-            "0.725692036"
+            "0.093079289",
+            "0.425125196"
           ],
           [
-            "0.499999757",
-            "0.546820827"
+            "0.906920711",
+            "0.425125196"
           ],
           [
-            "0.092067468",
-            "0.425858916"
+            "0.360697668",
+            "0.123094410"
           ],
           [
-            "0.907932682",
-            "0.425860709"
+            "0.639302332",
+            "0.123094410"
           ],
           [
-            "0.360557311",
-            "0.122902828"
+            "0.078929819",
+            "0.102215088"
           ],
           [
-            "0.639445757",
-            "0.122903804"
+            "0.921070181",
+            "0.102215088"
           ],
           [
-            "0.078786907",
-            "0.102314730"
+            "0.500000000",
+            "0.952052474"
           ],
           [
-            "0.921214010",
-            "0.102315810"
+            "0.500000000",
+            "0.548614734"
           ]
         ]
       }
@@ -725,11 +725,11 @@
         "n": 14
       },
       "objective": "maximize",
-      "scoreStored": "106189738",
-      "scoreDisplay": "106.189738",
-      "status": "open",
+      "scoreStored": "106190726",
+      "scoreDisplay": "106.190726",
+      "status": "matched",
       "settled": false,
-      "recordStatus": "open",
+      "recordStatus": "matched",
       "knownBest": {
         "display": "106.190",
         "kind": "best",
@@ -738,67 +738,67 @@
         "source": "published by Satoshi Kishimoto and GPT-5.6 Sol Pro (July 2026) on Erich Friedman's page as 106.190+, meaning at least that much. The page gives figures and no coordinates; the configuration this site reconstructed from the pictured topology and symmetries verifies at 106.182892, which is the site's reference answer and not the record. Optimality is open",
         "url": "https://erich-friedman.github.io/packing/light/"
       },
-      "holder": "游侠",
+      "holder": "今天",
       "method": "ai",
-      "recordedAt": "2026-09-05T01:42:13.936Z",
+      "recordedAt": "2026-09-17T03:24:30.032Z",
       "answer": {
-        "intensity": "106.189738",
+        "intensity": "106.190726",
         "lights": [
           [
-            "0.350163510",
-            "0.073119300"
+            "0.350519691",
+            "0.073818100"
           ],
           [
-            "0.649836490",
-            "0.073119300"
+            "0.649480309",
+            "0.073818100"
           ],
           [
-            "0.350163510",
-            "0.926880700"
+            "0.350519691",
+            "0.926181900"
           ],
           [
-            "0.649836490",
-            "0.926880700"
+            "0.649480309",
+            "0.926181900"
           ],
           [
-            "0.072461660",
-            "0.089036940"
+            "0.072869454",
+            "0.088696824"
           ],
           [
-            "0.927538340",
-            "0.089036940"
+            "0.927130546",
+            "0.088696824"
           ],
           [
-            "0.072461660",
-            "0.910963060"
+            "0.072869454",
+            "0.911303176"
           ],
           [
-            "0.927538340",
-            "0.910963060"
+            "0.927130546",
+            "0.911303176"
           ],
           [
-            "0.095791880",
-            "0.364822390"
+            "0.095371000",
+            "0.364531244"
           ],
           [
-            "0.904208120",
-            "0.364822390"
+            "0.904629000",
+            "0.364531244"
           ],
           [
-            "0.095791880",
-            "0.635177610"
+            "0.095371000",
+            "0.635468756"
           ],
           [
-            "0.904208120",
-            "0.635177610"
-          ],
-          [
-            "0.500000000",
-            "0.391058310"
+            "0.904629000",
+            "0.635468756"
           ],
           [
             "0.500000000",
-            "0.608941690"
+            "0.392183720"
+          ],
+          [
+            "0.500000000",
+            "0.607816280"
           ]
         ]
       }

@@ -1,0 +1,5773 @@
+{
+  "problem": "ells-in-square",
+  "code": "P91",
+  "title": "L 形三格骨牌装入正方形",
+  "titleEn": "L's in a square",
+  "objective": "minimize",
+  "scoreLabel": "容器正方形边长",
+  "scoreLabelEn": "container square side",
+  "verifierVersion": "1.0.0",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseName": "CC BY 4.0",
+  "source": "https://minmaxarena.com/problems/ells-in-square",
+  "generatedAt": "2026-09-17T10:07:14.187Z",
+  "instances": [
+    {
+      "instanceId": "p91-n1-v1",
+      "name": "n = 1",
+      "parameters": {
+        "n": 1,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "2000000000000000000",
+      "scoreDisplay": "2",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "2",
+        "kind": "best",
+        "range": {
+          "lower": "2",
+          "upper": "2"
+        },
+        "comparisonUncertain": true,
+        "certificateDisplay": "2",
+        "source": "Compiled by Erich Friedman; Trivial. Source expression: s = 2.",
+        "url": "https://erich-friedman.github.io/packing/linsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.500000000"
+          }
+        ],
+        "radius": "0.500000000"
+      }
+    },
+    {
+      "instanceId": "p91-n2-v1",
+      "name": "n = 2",
+      "parameters": {
+        "n": 2,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "3000000003000000004",
+      "scoreDisplay": "3.000000004",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "3",
+        "kind": "best",
+        "range": {
+          "lower": "3",
+          "upper": "3"
+        },
+        "comparisonUncertain": true,
+        "certificateDisplay": "3.000000004",
+        "source": "Compiled by Erich Friedman; Trivial. Source expression: s = 3.",
+        "url": "https://erich-friedman.github.io/packing/linsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.000000000",
+            "x": "0.333333333",
+            "y": "0.333333333"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.666666667",
+            "y": "0.333333333"
+          }
+        ],
+        "radius": "0.333333333"
+      }
+    },
+    {
+      "instanceId": "p91-n3-v1",
+      "name": "n = 3",
+      "parameters": {
+        "n": 3,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "3621320381792041680",
+      "scoreDisplay": "3.621320382",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "3.621",
+        "kind": "best",
+        "range": {
+          "lower": "3.621",
+          "upper": "3.622"
+        },
+        "truncated": true,
+        "certificateDisplay": "3.621320382",
+        "source": "Compiled by Erich Friedman; Found by Serhiy Grabarchuk in July 2005. Source expression: s = (3 + 3√2) / 2 = 3.621+.",
+        "url": "https://erich-friedman.github.io/packing/linsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.414213562",
+            "x": "0.414213562",
+            "y": "0.804737853"
+          },
+          {
+            "quarter": 3,
+            "turn": "0.414213561",
+            "x": "0.804737853",
+            "y": "0.414213562"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.276142375",
+            "y": "0.276142375"
+          }
+        ],
+        "radius": "0.276142372"
+      }
+    },
+    {
+      "instanceId": "p91-n4-v1",
+      "name": "n = 4",
+      "parameters": {
+        "n": 4,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "4000000000000000000",
+      "scoreDisplay": "4",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "4",
+        "kind": "best",
+        "range": {
+          "lower": "4",
+          "upper": "4"
+        },
+        "comparisonUncertain": true,
+        "certificateDisplay": "4",
+        "source": "Compiled by Erich Friedman; Trivial. Source expression: s = 4.",
+        "url": "https://erich-friedman.github.io/packing/linsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.000000000",
+            "x": "0.250000000",
+            "y": "0.250000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.750000000",
+            "y": "0.250000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.250000000",
+            "y": "0.500000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.750000000",
+            "y": "0.500000000"
+          }
+        ],
+        "radius": "0.250000000"
+      }
+    },
+    {
+      "instanceId": "p91-n5-v1",
+      "name": "n = 5",
+      "parameters": {
+        "n": 5,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "4000000000000000000",
+      "scoreDisplay": "4",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "4",
+        "kind": "best",
+        "range": {
+          "lower": "4",
+          "upper": "4"
+        },
+        "comparisonUncertain": true,
+        "certificateDisplay": "4",
+        "source": "Compiled by Erich Friedman; Trivial. Source expression: s = 4.",
+        "url": "https://erich-friedman.github.io/packing/linsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.000000000",
+            "x": "0.250000000",
+            "y": "0.250000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.750000000",
+            "y": "0.250000000"
+          },
+          {
+            "quarter": 3,
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.500000000"
+          },
+          {
+            "quarter": 3,
+            "turn": "0.000000000",
+            "x": "0.250000000",
+            "y": "0.750000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.750000000",
+            "y": "0.750000000"
+          }
+        ],
+        "radius": "0.250000000"
+      }
+    },
+    {
+      "instanceId": "p91-n6-v1",
+      "name": "n = 6",
+      "parameters": {
+        "n": 6,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "4949747564111667197",
+      "scoreDisplay": "4.949747565",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "4.949",
+        "kind": "best",
+        "range": {
+          "lower": "4.949",
+          "upper": "4.95"
+        },
+        "truncated": true,
+        "certificateDisplay": "4.949747565",
+        "source": "Compiled by Erich Friedman; Found by Erich Friedman in June 2005. Source expression: s = 7 / √2 = 4.949+.",
+        "url": "https://erich-friedman.github.io/packing/linsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 2,
+            "turn": "0.414213557",
+            "x": "0.285714284",
+            "y": "0.142857145"
+          },
+          {
+            "turn": "0.414213557",
+            "x": "0.714285714",
+            "y": "0.571428570"
+          },
+          {
+            "turn": "0.414213560",
+            "x": "0.714285712",
+            "y": "0.285714284"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.414213554",
+            "x": "0.285714291",
+            "y": "0.714285716"
+          },
+          {
+            "turn": "0.414213562",
+            "x": "0.714285716",
+            "y": "0.857142856"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.414213555",
+            "x": "0.285714287",
+            "y": "0.428571430"
+          }
+        ],
+        "radius": "0.202030505"
+      }
+    },
+    {
+      "instanceId": "p91-n7-v1",
+      "name": "n = 7",
+      "parameters": {
+        "n": 7,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "5000000000000000000",
+      "scoreDisplay": "5",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "5",
+        "kind": "best",
+        "range": {
+          "lower": "5",
+          "upper": "5"
+        },
+        "comparisonUncertain": true,
+        "certificateDisplay": "5",
+        "source": "Compiled by Erich Friedman; Trivial. Source expression: s = 5.",
+        "url": "https://erich-friedman.github.io/packing/linsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.000000000",
+            "x": "0.200000000",
+            "y": "0.200000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.600000000",
+            "y": "0.200000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.800000000",
+            "y": "0.200000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.200000000",
+            "y": "0.400000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.600000000",
+            "y": "0.600000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.800000000",
+            "y": "0.600000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.200000000",
+            "y": "0.800000000"
+          }
+        ],
+        "radius": "0.200000000"
+      }
+    },
+    {
+      "instanceId": "p91-n8-v1",
+      "name": "n = 8",
+      "parameters": {
+        "n": 8,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "5000000000000000000",
+      "scoreDisplay": "5",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "5",
+        "kind": "best",
+        "range": {
+          "lower": "5",
+          "upper": "5"
+        },
+        "comparisonUncertain": true,
+        "certificateDisplay": "5",
+        "source": "Compiled by Erich Friedman; Trivial. Source expression: s = 5.",
+        "url": "https://erich-friedman.github.io/packing/linsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.000000000",
+            "x": "0.200000000",
+            "y": "0.200000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.600000000",
+            "y": "0.200000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.800000000",
+            "y": "0.200000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.200000000",
+            "y": "0.400000000"
+          },
+          {
+            "quarter": 1,
+            "turn": "0.000000000",
+            "x": "0.600000000",
+            "y": "0.600000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.200000000",
+            "y": "0.800000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.400000000",
+            "y": "0.800000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.800000000",
+            "y": "0.800000000"
+          }
+        ],
+        "radius": "0.200000000"
+      }
+    },
+    {
+      "instanceId": "p91-n9-v1",
+      "name": "n = 9",
+      "parameters": {
+        "n": 9,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "5819020027914770118",
+      "scoreDisplay": "5.819020028",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "5.81902",
+        "kind": "best",
+        "range": {
+          "lower": "5.81902",
+          "upper": "5.81903"
+        },
+        "truncated": true,
+        "certificateDisplay": "5.819020028",
+        "source": "Compiled by Erich Friedman; Found by Aapo Lipponen in July 2026. Source expression: s = 5.81902+.",
+        "url": "https://erich-friedman.github.io/packing/linsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.828149461",
+            "y": "0.828149461"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.828149458",
+            "y": "0.656298923"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.828149461",
+            "y": "0.312597849"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.248150064",
+            "x": "0.424043181",
+            "y": "0.488073772"
+          },
+          {
+            "quarter": 1,
+            "turn": "0.367168067",
+            "x": "0.131019858",
+            "y": "0.757775807"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.000000002",
+            "x": "0.171850542",
+            "y": "0.343701078"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.000000031",
+            "x": "0.481876590",
+            "y": "0.828148133"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.171850539",
+            "y": "0.171850539"
+          },
+          {
+            "quarter": 3,
+            "turn": "-0.414213562",
+            "x": "0.604346730",
+            "y": "0.121516682"
+          }
+        ],
+        "radius": "0.171850242"
+      }
+    },
+    {
+      "instanceId": "p91-n10-v1",
+      "name": "n = 10",
+      "parameters": {
+        "n": 10,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "6000000024000000097",
+      "scoreDisplay": "6.000000025",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "6",
+        "kind": "best",
+        "range": {
+          "lower": "6",
+          "upper": "6"
+        },
+        "comparisonUncertain": true,
+        "certificateDisplay": "6.000000025",
+        "source": "Compiled by Erich Friedman; Trivial. Source expression: s = 6.",
+        "url": "https://erich-friedman.github.io/packing/linsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.000000000",
+            "x": "0.166666667",
+            "y": "0.166666667"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.166666667"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.833333333",
+            "y": "0.166666667"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.166666667",
+            "y": "0.333333333"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.333333333"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.833333333",
+            "y": "0.333333333"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.166666667",
+            "y": "0.666666667"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.666666667"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.833333333",
+            "y": "0.666666667"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.166666667",
+            "y": "0.833333333"
+          }
+        ],
+        "radius": "0.166666666"
+      }
+    },
+    {
+      "instanceId": "p91-n11-v1",
+      "name": "n = 11",
+      "parameters": {
+        "n": 11,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "6000000024000000097",
+      "scoreDisplay": "6.000000025",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "6",
+        "kind": "best",
+        "range": {
+          "lower": "6",
+          "upper": "6"
+        },
+        "comparisonUncertain": true,
+        "certificateDisplay": "6.000000025",
+        "source": "Compiled by Erich Friedman; Trivial. Source expression: s = 6.",
+        "url": "https://erich-friedman.github.io/packing/linsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.000000000",
+            "x": "0.166666667",
+            "y": "0.166666667"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.166666667"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.833333333",
+            "y": "0.166666667"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.166666667",
+            "y": "0.333333333"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.333333333"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.833333333",
+            "y": "0.333333333"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.166666667",
+            "y": "0.666666667"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.666666667"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.833333333",
+            "y": "0.666666667"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.166666667",
+            "y": "0.833333333"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.833333333"
+          }
+        ],
+        "radius": "0.166666666"
+      }
+    },
+    {
+      "instanceId": "p91-n12-v1",
+      "name": "n = 12",
+      "parameters": {
+        "n": 12,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "6000000024000000097",
+      "scoreDisplay": "6.000000025",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "6",
+        "kind": "best",
+        "range": {
+          "lower": "6",
+          "upper": "6"
+        },
+        "comparisonUncertain": true,
+        "certificateDisplay": "6.000000025",
+        "source": "Compiled by Erich Friedman; Trivial. Source expression: s = 6.",
+        "url": "https://erich-friedman.github.io/packing/linsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.000000000",
+            "x": "0.166666667",
+            "y": "0.166666667"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.166666667"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.833333333",
+            "y": "0.166666667"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.166666667",
+            "y": "0.333333333"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.333333333"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.833333333",
+            "y": "0.333333333"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.166666667",
+            "y": "0.666666667"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.666666667"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.833333333",
+            "y": "0.666666667"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.166666667",
+            "y": "0.833333333"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.833333333"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.833333333",
+            "y": "0.833333333"
+          }
+        ],
+        "radius": "0.166666666"
+      }
+    },
+    {
+      "instanceId": "p91-n13-v1",
+      "name": "n = 13",
+      "parameters": {
+        "n": 13,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "6828427283593038681",
+      "scoreDisplay": "6.828427284",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "6.828",
+        "kind": "best",
+        "range": {
+          "lower": "6.828",
+          "upper": "6.829"
+        },
+        "truncated": true,
+        "certificateDisplay": "6.828427284",
+        "source": "Compiled by Erich Friedman; Found by Maurizio Morandi in June 2012. Source expression: s = 4 + 2√2 = 6.828+.",
+        "url": "https://erich-friedman.github.io/packing/linsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.414213558",
+            "x": "0.500000000",
+            "y": "0.439339830"
+          },
+          {
+            "turn": "-0.000000002",
+            "x": "0.146446610",
+            "y": "0.439339830"
+          },
+          {
+            "quarter": 1,
+            "turn": "0.414213560",
+            "x": "0.707106783",
+            "y": "0.646446610"
+          },
+          {
+            "turn": "0.414213561",
+            "x": "0.500000000",
+            "y": "0.646446611"
+          },
+          {
+            "turn": "-0.414213561",
+            "x": "0.292893217",
+            "y": "0.646446610"
+          },
+          {
+            "quarter": 1,
+            "turn": "-0.000000005",
+            "x": "0.853553389",
+            "y": "0.439339828"
+          },
+          {
+            "quarter": 3,
+            "turn": "-0.000000005",
+            "x": "0.707106778",
+            "y": "0.146446614"
+          },
+          {
+            "quarter": 1,
+            "turn": "-0.399700547",
+            "x": "0.500064190",
+            "y": "0.858821505"
+          },
+          {
+            "quarter": 3,
+            "turn": "0.000000000",
+            "x": "0.146446610",
+            "y": "0.853553390"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.853553390",
+            "y": "0.853553390"
+          },
+          {
+            "turn": "-0.000000005",
+            "x": "0.146446611",
+            "y": "0.146446611"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.000000007",
+            "x": "0.292893221",
+            "y": "0.146446613"
+          },
+          {
+            "quarter": 1,
+            "turn": "0.000000000",
+            "x": "0.853553390",
+            "y": "0.146446610"
+          }
+        ],
+        "radius": "0.146446606"
+      }
+    },
+    {
+      "instanceId": "p91-n14-v1",
+      "name": "n = 14",
+      "parameters": {
+        "n": 14,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "7000000042000000253",
+      "scoreDisplay": "7.000000043",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "7",
+        "kind": "best",
+        "range": {
+          "lower": "7",
+          "upper": "7"
+        },
+        "comparisonUncertain": true,
+        "certificateDisplay": "7.000000043",
+        "source": "Compiled by Erich Friedman; Trivial. Source expression: s = 7.",
+        "url": "https://erich-friedman.github.io/packing/linsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.000000000",
+            "x": "0.142857143",
+            "y": "0.142857143"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.428571429",
+            "y": "0.142857143"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.714285714",
+            "y": "0.142857143"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.857142857",
+            "y": "0.142857143"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.142857143",
+            "y": "0.285714286"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.428571429",
+            "y": "0.285714286"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.714285714",
+            "y": "0.428571429"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.857142857",
+            "y": "0.428571429"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.142857143",
+            "y": "0.571428571"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.428571429",
+            "y": "0.571428571"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.142857143",
+            "y": "0.714285714"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.571428571",
+            "y": "0.714285714"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.857142857",
+            "y": "0.714285714"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.285714286",
+            "y": "0.857142857"
+          }
+        ],
+        "radius": "0.142857142"
+      }
+    },
+    {
+      "instanceId": "p91-n15-v1",
+      "name": "n = 15",
+      "parameters": {
+        "n": 15,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "7000000042000000253",
+      "scoreDisplay": "7.000000043",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "7",
+        "kind": "best",
+        "range": {
+          "lower": "7",
+          "upper": "7"
+        },
+        "comparisonUncertain": true,
+        "certificateDisplay": "7.000000043",
+        "source": "Compiled by Erich Friedman; Trivial. Source expression: s = 7.",
+        "url": "https://erich-friedman.github.io/packing/linsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.000000000",
+            "x": "0.142857143",
+            "y": "0.142857143"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.428571429",
+            "y": "0.142857143"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.714285714",
+            "y": "0.142857143"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.857142857",
+            "y": "0.142857143"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.142857143",
+            "y": "0.285714286"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.428571429",
+            "y": "0.285714286"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.714285714",
+            "y": "0.428571429"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.857142857",
+            "y": "0.428571429"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.142857143",
+            "y": "0.571428571"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.428571429",
+            "y": "0.571428571"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.142857143",
+            "y": "0.714285714"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.571428571",
+            "y": "0.714285714"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.857142857",
+            "y": "0.714285714"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.285714286",
+            "y": "0.857142857"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.571428571",
+            "y": "0.857142857"
+          }
+        ],
+        "radius": "0.142857142"
+      }
+    },
+    {
+      "instanceId": "p91-n16-v1",
+      "name": "n = 16",
+      "parameters": {
+        "n": 16,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "7000000042000000253",
+      "scoreDisplay": "7.000000043",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "7",
+        "kind": "best",
+        "range": {
+          "lower": "7",
+          "upper": "7"
+        },
+        "comparisonUncertain": true,
+        "certificateDisplay": "7.000000043",
+        "source": "Compiled by Erich Friedman; Trivial. Source expression: s = 7.",
+        "url": "https://erich-friedman.github.io/packing/linsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.000000000",
+            "x": "0.142857143",
+            "y": "0.142857143"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.428571429",
+            "y": "0.142857143"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.714285714",
+            "y": "0.142857143"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.857142857",
+            "y": "0.142857143"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.142857143",
+            "y": "0.285714286"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.428571429",
+            "y": "0.285714286"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.714285714",
+            "y": "0.428571429"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.857142857",
+            "y": "0.428571429"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.142857143",
+            "y": "0.571428571"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.428571429",
+            "y": "0.571428571"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.142857143",
+            "y": "0.714285714"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.571428571",
+            "y": "0.714285714"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.857142857",
+            "y": "0.714285714"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.285714286",
+            "y": "0.857142857"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.571428571",
+            "y": "0.857142857"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.857142857",
+            "y": "0.857142857"
+          }
+        ],
+        "radius": "0.142857142"
+      }
+    },
+    {
+      "instanceId": "p91-n17-v1",
+      "name": "n = 17",
+      "parameters": {
+        "n": 17,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "7747547167241473978",
+      "scoreDisplay": "7.747547168",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "7.747",
+        "kind": "best",
+        "range": {
+          "lower": "7.747",
+          "upper": "7.748"
+        },
+        "truncated": true,
+        "certificateDisplay": "7.747547168",
+        "source": "Compiled by Erich Friedman; Found by Maurizio Morandi in June 2012. Source expression: s = 19/3 + √2 = 7.747+.",
+        "url": "https://erich-friedman.github.io/packing/linsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 2,
+            "turn": "-0.000000172",
+            "x": "0.131803914",
+            "y": "0.516292497"
+          },
+          {
+            "turn": "0.405462072",
+            "x": "0.703249322",
+            "y": "0.275769455"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.401579635",
+            "x": "0.612669365",
+            "y": "0.554181814"
+          },
+          {
+            "turn": "-0.000000133",
+            "x": "0.130265469",
+            "y": "0.387219375"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.414213562",
+            "x": "0.306390333",
+            "y": "0.736634052"
+          },
+          {
+            "quarter": 3,
+            "turn": "-0.407623071",
+            "x": "0.796137275",
+            "y": "0.370658168"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.483707553",
+            "y": "0.870926887"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.741853775",
+            "y": "0.870483827"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.006879541",
+            "x": "0.869162191",
+            "y": "0.610573142"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.000000085",
+            "x": "0.390110872",
+            "y": "0.516292469"
+          },
+          {
+            "turn": "-0.000000081",
+            "x": "0.390099211",
+            "y": "0.387219356"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.000000011",
+            "x": "0.262830685",
+            "y": "0.129073118"
+          },
+          {
+            "quarter": 3,
+            "turn": "0.000000000",
+            "x": "0.129073113",
+            "y": "0.870926887"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.870926887",
+            "y": "0.870490688"
+          },
+          {
+            "turn": "0.000000005",
+            "x": "0.133738134",
+            "y": "0.129073114"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.523057898",
+            "y": "0.129073113"
+          },
+          {
+            "quarter": 1,
+            "turn": "-0.001725289",
+            "x": "0.870465245",
+            "y": "0.129542974"
+          }
+        ],
+        "radius": "0.129073109"
+      }
+    },
+    {
+      "instanceId": "p91-n18-v1",
+      "name": "n = 18",
+      "parameters": {
+        "n": 18,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "7914213784710069783",
+      "scoreDisplay": "7.914213785",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "7.914",
+        "kind": "best",
+        "range": {
+          "lower": "7.914",
+          "upper": "7.915"
+        },
+        "truncated": true,
+        "certificateDisplay": "7.914213785",
+        "source": "Compiled by Erich Friedman; Found by Maurizio Morandi in June 2012. Source expression: s = 13/2 + √2 = 7.914+.",
+        "url": "https://erich-friedman.github.io/packing/linsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 3,
+            "turn": "0.414213086",
+            "x": "0.627664955",
+            "y": "0.435512514"
+          },
+          {
+            "quarter": 3,
+            "turn": "0.414213558",
+            "x": "0.281565540",
+            "y": "0.655256987"
+          },
+          {
+            "quarter": 1,
+            "turn": "0.414213560",
+            "x": "0.717017723",
+            "y": "0.346159748"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.000000003",
+            "x": "0.620935171",
+            "y": "0.873645056"
+          },
+          {
+            "quarter": 1,
+            "turn": "0.392786623",
+            "x": "0.374430299",
+            "y": "0.562759395"
+          },
+          {
+            "turn": "-0.000000002",
+            "x": "0.620935167",
+            "y": "0.746475695"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.000000006",
+            "x": "0.126354947",
+            "y": "0.252709887"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.000000006",
+            "x": "0.379064832",
+            "y": "0.252709904"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.126354943",
+            "y": "0.126354943"
+          },
+          {
+            "turn": "-0.000000006",
+            "x": "0.379064828",
+            "y": "0.126354959"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.413389536",
+            "x": "0.089474129",
+            "y": "0.821283280"
+          },
+          {
+            "quarter": 3,
+            "turn": "0.406024958",
+            "x": "0.909409670",
+            "y": "0.178675397"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.873645057",
+            "y": "0.873645056"
+          },
+          {
+            "turn": "-0.000000004",
+            "x": "0.126354944",
+            "y": "0.505419770"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.000000002",
+            "x": "0.873645056",
+            "y": "0.494580229"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000003",
+            "x": "0.368225284",
+            "y": "0.873645056"
+          },
+          {
+            "turn": "-0.000000002",
+            "x": "0.873645054",
+            "y": "0.747290112"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.631774715",
+            "y": "0.126354943"
+          }
+        ],
+        "radius": "0.126354939"
+      }
+    },
+    {
+      "instanceId": "p91-n19-v1",
+      "name": "n = 19",
+      "parameters": {
+        "n": 19,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "8000000000000000000",
+      "scoreDisplay": "8",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "8",
+        "kind": "best",
+        "range": {
+          "lower": "8",
+          "upper": "8"
+        },
+        "comparisonUncertain": true,
+        "certificateDisplay": "8",
+        "source": "Compiled by Erich Friedman; Trivial. Source expression: s = 8.",
+        "url": "https://erich-friedman.github.io/packing/linsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.000000000",
+            "x": "0.125000000",
+            "y": "0.125000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.375000000",
+            "y": "0.125000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.625000000",
+            "y": "0.125000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.875000000",
+            "y": "0.125000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.125000000",
+            "y": "0.250000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.375000000",
+            "y": "0.250000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.625000000",
+            "y": "0.250000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.875000000",
+            "y": "0.250000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.125000000",
+            "y": "0.500000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.375000000",
+            "y": "0.500000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.625000000",
+            "y": "0.500000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.875000000",
+            "y": "0.500000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.125000000",
+            "y": "0.625000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.375000000",
+            "y": "0.625000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.625000000",
+            "y": "0.625000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.875000000",
+            "y": "0.625000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.125000000",
+            "y": "0.875000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.375000000",
+            "y": "0.875000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.625000000",
+            "y": "0.875000000"
+          }
+        ],
+        "radius": "0.125000000"
+      }
+    },
+    {
+      "instanceId": "p91-n20-v1",
+      "name": "n = 20",
+      "parameters": {
+        "n": 20,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "8000000000000000000",
+      "scoreDisplay": "8",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "8",
+        "kind": "best",
+        "range": {
+          "lower": "8",
+          "upper": "8"
+        },
+        "comparisonUncertain": true,
+        "certificateDisplay": "8",
+        "source": "Compiled by Erich Friedman; Trivial. Source expression: s = 8.",
+        "url": "https://erich-friedman.github.io/packing/linsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.000000000",
+            "x": "0.125000000",
+            "y": "0.125000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.375000000",
+            "y": "0.125000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.625000000",
+            "y": "0.125000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.875000000",
+            "y": "0.125000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.125000000",
+            "y": "0.250000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.375000000",
+            "y": "0.250000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.625000000",
+            "y": "0.250000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.875000000",
+            "y": "0.250000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.125000000",
+            "y": "0.500000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.375000000",
+            "y": "0.500000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.625000000",
+            "y": "0.500000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.875000000",
+            "y": "0.500000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.125000000",
+            "y": "0.625000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.375000000",
+            "y": "0.625000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.625000000",
+            "y": "0.625000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.875000000",
+            "y": "0.625000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.125000000",
+            "y": "0.875000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.375000000",
+            "y": "0.875000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.625000000",
+            "y": "0.875000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.875000000",
+            "y": "0.875000000"
+          }
+        ],
+        "radius": "0.125000000"
+      }
+    },
+    {
+      "instanceId": "p91-n21-v1",
+      "name": "n = 21",
+      "parameters": {
+        "n": 21,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "8000000000000000000",
+      "scoreDisplay": "8",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "8",
+        "kind": "best",
+        "range": {
+          "lower": "8",
+          "upper": "8"
+        },
+        "comparisonUncertain": true,
+        "certificateDisplay": "8",
+        "source": "Compiled by Erich Friedman; Trivial. Source expression: s = 8.",
+        "url": "https://erich-friedman.github.io/packing/linsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.000000000",
+            "x": "0.125000000",
+            "y": "0.125000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.375000000",
+            "y": "0.125000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.625000000",
+            "y": "0.125000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.875000000",
+            "y": "0.125000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.125000000",
+            "y": "0.250000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.375000000",
+            "y": "0.250000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.625000000",
+            "y": "0.250000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.875000000",
+            "y": "0.250000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.125000000",
+            "y": "0.500000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.375000000",
+            "y": "0.500000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.625000000",
+            "y": "0.500000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.875000000",
+            "y": "0.500000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.125000000",
+            "y": "0.625000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.375000000",
+            "y": "0.625000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.625000000",
+            "y": "0.625000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.875000000",
+            "y": "0.625000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.125000000",
+            "y": "0.875000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.375000000",
+            "y": "0.875000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.875000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.750000000",
+            "y": "0.875000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.875000000",
+            "y": "0.875000000"
+          }
+        ],
+        "radius": "0.125000000"
+      }
+    },
+    {
+      "instanceId": "p91-n22-v1",
+      "name": "n = 22",
+      "parameters": {
+        "n": 22,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "8656909118123265210",
+      "scoreDisplay": "8.656909119",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "8.656",
+        "kind": "best",
+        "range": {
+          "lower": "8.656",
+          "upper": "8.657"
+        },
+        "truncated": true,
+        "source": "Compiled by Erich Friedman; Found by Maurizio Morandi in June 2012. Source expression: s = 3 + 4√2 = 8.656+.",
+        "url": "https://erich-friedman.github.io/packing/linsqu/"
+      },
+      "holder": "SegmaTree",
+      "method": "ai",
+      "recordedAt": "2026-09-17T08:14:42.066Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 3,
+            "turn": "0.000000000",
+            "x": "0.115514670",
+            "y": "0.884474619"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.421475742",
+            "y": "0.880554787"
+          },
+          {
+            "quarter": 3,
+            "turn": "0.000000000",
+            "x": "0.652505094",
+            "y": "0.884450262"
+          },
+          {
+            "quarter": 3,
+            "turn": "0.000000000",
+            "x": "0.884373288",
+            "y": "0.880566117"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.414213562",
+            "x": "0.266535290",
+            "y": "0.756618140"
+          },
+          {
+            "quarter": 1,
+            "turn": "0.000000000",
+            "x": "0.653343936",
+            "y": "0.768935580"
+          },
+          {
+            "quarter": 1,
+            "turn": "0.000000000",
+            "x": "0.884373299",
+            "y": "0.765051435"
+          },
+          {
+            "quarter": 0,
+            "turn": "0.414213562",
+            "x": "0.184851391",
+            "y": "0.674934225"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.414213562",
+            "x": "0.432265775",
+            "y": "0.595621972"
+          },
+          {
+            "quarter": 0,
+            "turn": "0.414213562",
+            "x": "0.350567436",
+            "y": "0.513923616"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.884127729",
+            "y": "0.534022084"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.414213562",
+            "x": "0.651320688",
+            "y": "0.487952026"
+          },
+          {
+            "quarter": 0,
+            "turn": "0.000000000",
+            "x": "0.115514670",
+            "y": "0.462058703"
+          },
+          {
+            "quarter": 0,
+            "turn": "0.414213562",
+            "x": "0.568963004",
+            "y": "0.405594326"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.414213562",
+            "x": "0.814679075",
+            "y": "0.324585555"
+          },
+          {
+            "quarter": 0,
+            "turn": "0.414213562",
+            "x": "0.732354693",
+            "y": "0.242261156"
+          },
+          {
+            "quarter": 3,
+            "turn": "0.000000000",
+            "x": "0.115514670",
+            "y": "0.231029352"
+          },
+          {
+            "quarter": 3,
+            "turn": "0.000000000",
+            "x": "0.346544033",
+            "y": "0.231029352"
+          },
+          {
+            "quarter": 1,
+            "turn": "0.000000000",
+            "x": "0.115514682",
+            "y": "0.115514670"
+          },
+          {
+            "quarter": 1,
+            "turn": "0.000000000",
+            "x": "0.346544045",
+            "y": "0.115514670"
+          },
+          {
+            "quarter": 0,
+            "turn": "0.000000000",
+            "x": "0.577573396",
+            "y": "0.115514670"
+          },
+          {
+            "quarter": 1,
+            "turn": "0.000000000",
+            "x": "0.884485306",
+            "y": "0.115514670"
+          }
+        ],
+        "radius": "0.115514670"
+      }
+    },
+    {
+      "instanceId": "p91-n23-v1",
+      "name": "n = 23",
+      "parameters": {
+        "n": 23,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "8914213813765243395",
+      "scoreDisplay": "8.914213814",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "8.914",
+        "kind": "best",
+        "range": {
+          "lower": "8.914",
+          "upper": "8.915"
+        },
+        "truncated": true,
+        "certificateDisplay": "8.914213814",
+        "source": "Compiled by Erich Friedman; Found by Maurizio Morandi in June 2012. Source expression: s = 15/2 + √2 = 8.914+.",
+        "url": "https://erich-friedman.github.io/packing/linsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 1,
+            "turn": "0.414213551",
+            "x": "0.388810090",
+            "y": "0.667280109"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.414213557",
+            "x": "0.634713372",
+            "y": "0.421376822"
+          },
+          {
+            "quarter": 1,
+            "turn": "0.000000000",
+            "x": "0.570797819",
+            "y": "0.112180395"
+          },
+          {
+            "quarter": 3,
+            "turn": "0.414213552",
+            "x": "0.308758507",
+            "y": "0.747331691"
+          },
+          {
+            "quarter": 1,
+            "turn": "-0.410087471",
+            "x": "0.158804200",
+            "y": "0.916322717"
+          },
+          {
+            "quarter": 3,
+            "turn": "0.414208431",
+            "x": "0.555257537",
+            "y": "0.500832654"
+          },
+          {
+            "turn": "-0.413819943",
+            "x": "0.802537265",
+            "y": "0.271721892"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.000000008",
+            "x": "0.775639208",
+            "y": "0.775639207"
+          },
+          {
+            "turn": "-0.000000011",
+            "x": "0.112180398",
+            "y": "0.673082374"
+          },
+          {
+            "turn": "-0.000000005",
+            "x": "0.112180397",
+            "y": "0.448721582"
+          },
+          {
+            "quarter": 3,
+            "turn": "-0.000000003",
+            "x": "0.663458813",
+            "y": "0.887819604"
+          },
+          {
+            "quarter": 1,
+            "turn": "-0.000000012",
+            "x": "0.887819602",
+            "y": "0.663458809"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.000000007",
+            "x": "0.224360792",
+            "y": "0.448721584"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.000000017",
+            "x": "0.887819601",
+            "y": "0.439098020"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.112180396",
+            "y": "0.112180396"
+          },
+          {
+            "turn": "-0.000000001",
+            "x": "0.336541186",
+            "y": "0.112180396"
+          },
+          {
+            "quarter": 1,
+            "turn": "-0.000000003",
+            "x": "0.448721582",
+            "y": "0.224360791"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.000000001",
+            "x": "0.439098025",
+            "y": "0.887819604"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.887819605",
+            "y": "0.887819602"
+          },
+          {
+            "quarter": 2,
+            "turn": "-0.000000006",
+            "x": "0.663458811",
+            "y": "0.663458813"
+          },
+          {
+            "quarter": 1,
+            "turn": "-0.000000003",
+            "x": "0.336541187",
+            "y": "0.336541187"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000001",
+            "x": "0.112180398",
+            "y": "0.224360792"
+          },
+          {
+            "quarter": 1,
+            "turn": "0.015538692",
+            "x": "0.884309660",
+            "y": "0.115612152"
+          }
+        ],
+        "radius": "0.112180392"
+      }
+    },
+    {
+      "instanceId": "p91-n24-v1",
+      "name": "n = 24",
+      "parameters": {
+        "n": 24,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "9000000009000000010",
+      "scoreDisplay": "9.00000001",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "9",
+        "kind": "best",
+        "range": {
+          "lower": "9",
+          "upper": "9"
+        },
+        "comparisonUncertain": true,
+        "certificateDisplay": "9.00000001",
+        "source": "Compiled by Erich Friedman; Trivial. Source expression: s = 9.",
+        "url": "https://erich-friedman.github.io/packing/linsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.000000000",
+            "x": "0.111111111",
+            "y": "0.111111111"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.333333333",
+            "y": "0.111111111"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.555555556",
+            "y": "0.111111111"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.777777778",
+            "y": "0.111111111"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.888888889",
+            "y": "0.111111111"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.111111111",
+            "y": "0.222222222"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.333333333",
+            "y": "0.222222222"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.555555556",
+            "y": "0.222222222"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.777777778",
+            "y": "0.333333333"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.888888889",
+            "y": "0.333333333"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.111111111",
+            "y": "0.444444444"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.333333333",
+            "y": "0.444444444"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.555555556",
+            "y": "0.444444444"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.111111111",
+            "y": "0.555555556"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.333333333",
+            "y": "0.555555556"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.666666667",
+            "y": "0.555555556"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.888888889",
+            "y": "0.555555556"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.444444444",
+            "y": "0.666666667"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.666666667",
+            "y": "0.666666667"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.888888889",
+            "y": "0.666666667"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.111111111",
+            "y": "0.777777778"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.222222222",
+            "y": "0.777777778"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.444444444",
+            "y": "0.888888889"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.666666667",
+            "y": "0.888888889"
+          }
+        ],
+        "radius": "0.111111111"
+      }
+    },
+    {
+      "instanceId": "p91-n25-v1",
+      "name": "n = 25",
+      "parameters": {
+        "n": 25,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "9000000009000000010",
+      "scoreDisplay": "9.00000001",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "9",
+        "kind": "best",
+        "range": {
+          "lower": "9",
+          "upper": "9"
+        },
+        "comparisonUncertain": true,
+        "certificateDisplay": "9.00000001",
+        "source": "Compiled by Erich Friedman; Trivial. Source expression: s = 9.",
+        "url": "https://erich-friedman.github.io/packing/linsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.000000000",
+            "x": "0.111111111",
+            "y": "0.111111111"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.333333333",
+            "y": "0.111111111"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.555555556",
+            "y": "0.111111111"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.777777778",
+            "y": "0.111111111"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.888888889",
+            "y": "0.111111111"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.111111111",
+            "y": "0.222222222"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.333333333",
+            "y": "0.222222222"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.555555556",
+            "y": "0.222222222"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.777777778",
+            "y": "0.333333333"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.888888889",
+            "y": "0.333333333"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.111111111",
+            "y": "0.444444444"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.333333333",
+            "y": "0.444444444"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.555555556",
+            "y": "0.444444444"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.111111111",
+            "y": "0.555555556"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.333333333",
+            "y": "0.555555556"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.666666667",
+            "y": "0.555555556"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.888888889",
+            "y": "0.555555556"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.444444444",
+            "y": "0.666666667"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.666666667",
+            "y": "0.666666667"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.888888889",
+            "y": "0.666666667"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.111111111",
+            "y": "0.777777778"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.222222222",
+            "y": "0.777777778"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.444444444",
+            "y": "0.888888889"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.666666667",
+            "y": "0.888888889"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.888888889",
+            "y": "0.888888889"
+          }
+        ],
+        "radius": "0.111111111"
+      }
+    },
+    {
+      "instanceId": "p91-n26-v1",
+      "name": "n = 26",
+      "parameters": {
+        "n": 26,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "9000000009000000010",
+      "scoreDisplay": "9.00000001",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "9",
+        "kind": "best",
+        "range": {
+          "lower": "9",
+          "upper": "9"
+        },
+        "comparisonUncertain": true,
+        "certificateDisplay": "9.00000001",
+        "source": "Compiled by Erich Friedman; Trivial. Source expression: s = 9.",
+        "url": "https://erich-friedman.github.io/packing/linsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.000000000",
+            "x": "0.111111111",
+            "y": "0.111111111"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.333333333",
+            "y": "0.111111111"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.555555556",
+            "y": "0.111111111"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.777777778",
+            "y": "0.111111111"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.888888889",
+            "y": "0.111111111"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.111111111",
+            "y": "0.222222222"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.333333333",
+            "y": "0.222222222"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.555555556",
+            "y": "0.222222222"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.777777778",
+            "y": "0.333333333"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.888888889",
+            "y": "0.333333333"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.111111111",
+            "y": "0.444444444"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.333333333",
+            "y": "0.444444444"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.555555556",
+            "y": "0.444444444"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.111111111",
+            "y": "0.555555556"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.333333333",
+            "y": "0.555555556"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.666666667",
+            "y": "0.555555556"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.888888889",
+            "y": "0.555555556"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.444444444",
+            "y": "0.666666667"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.666666667",
+            "y": "0.666666667"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.888888889",
+            "y": "0.666666667"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.111111111",
+            "y": "0.777777778"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.222222222",
+            "y": "0.777777778"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.444444444",
+            "y": "0.888888889"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.555555556",
+            "y": "0.888888889"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.777777778",
+            "y": "0.888888889"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.888888889",
+            "y": "0.888888889"
+          }
+        ],
+        "radius": "0.111111111"
+      }
+    },
+    {
+      "instanceId": "p91-n27-v1",
+      "name": "n = 27",
+      "parameters": {
+        "n": 27,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "9000000009000000010",
+      "scoreDisplay": "9.00000001",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "9",
+        "kind": "best",
+        "range": {
+          "lower": "9",
+          "upper": "9"
+        },
+        "comparisonUncertain": true,
+        "certificateDisplay": "9.00000001",
+        "source": "Compiled by Erich Friedman; Trivial. Source expression: s = 9.",
+        "url": "https://erich-friedman.github.io/packing/linsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.000000000",
+            "x": "0.111111111",
+            "y": "0.111111111"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.333333333",
+            "y": "0.111111111"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.555555556",
+            "y": "0.111111111"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.777777778",
+            "y": "0.111111111"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.888888889",
+            "y": "0.111111111"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.111111111",
+            "y": "0.222222222"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.333333333",
+            "y": "0.222222222"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.555555556",
+            "y": "0.222222222"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.777777778",
+            "y": "0.333333333"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.888888889",
+            "y": "0.333333333"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.111111111",
+            "y": "0.444444444"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.333333333",
+            "y": "0.444444444"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.555555556",
+            "y": "0.444444444"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.111111111",
+            "y": "0.555555556"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.333333333",
+            "y": "0.555555556"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.666666667",
+            "y": "0.555555556"
+          },
+          {
+            "quarter": 1,
+            "turn": "0.000000000",
+            "x": "0.888888889",
+            "y": "0.555555556"
+          },
+          {
+            "quarter": 3,
+            "turn": "0.000000000",
+            "x": "0.555555556",
+            "y": "0.666666667"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.777777778",
+            "y": "0.666666667"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.111111111",
+            "y": "0.777777778"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.333333333",
+            "y": "0.777777778"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.888888889",
+            "y": "0.777777778"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.111111111",
+            "y": "0.888888889"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.333333333",
+            "y": "0.888888889"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.555555556",
+            "y": "0.888888889"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.666666667",
+            "y": "0.888888889"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.888888889",
+            "y": "0.888888889"
+          }
+        ],
+        "radius": "0.111111111"
+      }
+    },
+    {
+      "instanceId": "p91-n28-v1",
+      "name": "n = 28",
+      "parameters": {
+        "n": 28,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "10000000000000000000",
+      "scoreDisplay": "10",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "9.828",
+        "kind": "best",
+        "range": {
+          "lower": "9.828",
+          "upper": "9.829"
+        },
+        "truncated": true,
+        "source": "Compiled by Erich Friedman; Found by Maurizio Morandi in May 2026. Source expression: s = 7 + 2√2 = 9.828+.",
+        "url": "https://erich-friedman.github.io/packing/linsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.000000000",
+            "x": "0.100000000",
+            "y": "0.100000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.300000000",
+            "y": "0.100000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.100000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.700000000",
+            "y": "0.100000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.900000000",
+            "y": "0.100000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.100000000",
+            "y": "0.200000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.300000000",
+            "y": "0.200000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.200000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.700000000",
+            "y": "0.200000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.900000000",
+            "y": "0.200000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.100000000",
+            "y": "0.400000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.300000000",
+            "y": "0.400000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.400000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.700000000",
+            "y": "0.400000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.900000000",
+            "y": "0.400000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.100000000",
+            "y": "0.500000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.300000000",
+            "y": "0.500000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.500000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.700000000",
+            "y": "0.500000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.900000000",
+            "y": "0.500000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.100000000",
+            "y": "0.700000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.300000000",
+            "y": "0.700000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.700000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.700000000",
+            "y": "0.700000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.900000000",
+            "y": "0.700000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.100000000",
+            "y": "0.800000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.300000000",
+            "y": "0.800000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.800000000"
+          }
+        ],
+        "radius": "0.100000000"
+      }
+    },
+    {
+      "instanceId": "p91-n29-v1",
+      "name": "n = 29",
+      "parameters": {
+        "n": 29,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "10000000000000000000",
+      "scoreDisplay": "10",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.000000000",
+            "x": "0.100000000",
+            "y": "0.100000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.300000000",
+            "y": "0.100000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.100000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.700000000",
+            "y": "0.100000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.900000000",
+            "y": "0.100000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.100000000",
+            "y": "0.200000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.300000000",
+            "y": "0.200000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.200000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.700000000",
+            "y": "0.200000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.900000000",
+            "y": "0.200000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.100000000",
+            "y": "0.400000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.300000000",
+            "y": "0.400000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.400000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.700000000",
+            "y": "0.400000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.900000000",
+            "y": "0.400000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.100000000",
+            "y": "0.500000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.300000000",
+            "y": "0.500000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.500000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.700000000",
+            "y": "0.500000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.900000000",
+            "y": "0.500000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.100000000",
+            "y": "0.700000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.300000000",
+            "y": "0.700000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.700000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.700000000",
+            "y": "0.700000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.900000000",
+            "y": "0.700000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.100000000",
+            "y": "0.800000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.300000000",
+            "y": "0.800000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.800000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.700000000",
+            "y": "0.800000000"
+          }
+        ],
+        "radius": "0.100000000"
+      }
+    },
+    {
+      "instanceId": "p91-n30-v1",
+      "name": "n = 30",
+      "parameters": {
+        "n": 30,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "10000000000000000000",
+      "scoreDisplay": "10",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.000000000",
+            "x": "0.100000000",
+            "y": "0.100000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.300000000",
+            "y": "0.100000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.100000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.700000000",
+            "y": "0.100000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.900000000",
+            "y": "0.100000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.100000000",
+            "y": "0.200000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.300000000",
+            "y": "0.200000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.200000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.700000000",
+            "y": "0.200000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.900000000",
+            "y": "0.200000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.100000000",
+            "y": "0.400000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.300000000",
+            "y": "0.400000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.400000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.700000000",
+            "y": "0.400000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.900000000",
+            "y": "0.400000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.100000000",
+            "y": "0.500000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.300000000",
+            "y": "0.500000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.500000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.700000000",
+            "y": "0.500000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.900000000",
+            "y": "0.500000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.100000000",
+            "y": "0.700000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.300000000",
+            "y": "0.700000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.700000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.700000000",
+            "y": "0.700000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.900000000",
+            "y": "0.700000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.100000000",
+            "y": "0.800000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.300000000",
+            "y": "0.800000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.800000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.700000000",
+            "y": "0.800000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.900000000",
+            "y": "0.800000000"
+          }
+        ],
+        "radius": "0.100000000"
+      }
+    },
+    {
+      "instanceId": "p91-n31-v1",
+      "name": "n = 31",
+      "parameters": {
+        "n": 31,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "10000000000000000000",
+      "scoreDisplay": "10",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.000000000",
+            "x": "0.100000000",
+            "y": "0.100000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.300000000",
+            "y": "0.100000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.100000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.700000000",
+            "y": "0.100000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.900000000",
+            "y": "0.100000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.100000000",
+            "y": "0.200000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.300000000",
+            "y": "0.200000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.200000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.700000000",
+            "y": "0.200000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.900000000",
+            "y": "0.200000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.100000000",
+            "y": "0.400000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.300000000",
+            "y": "0.400000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.400000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.700000000",
+            "y": "0.400000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.900000000",
+            "y": "0.400000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.100000000",
+            "y": "0.500000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.300000000",
+            "y": "0.500000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.500000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.700000000",
+            "y": "0.500000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.900000000",
+            "y": "0.500000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.100000000",
+            "y": "0.700000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.300000000",
+            "y": "0.700000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.700000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.700000000",
+            "y": "0.700000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.900000000",
+            "y": "0.700000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.100000000",
+            "y": "0.800000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.300000000",
+            "y": "0.800000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.800000000"
+          },
+          {
+            "quarter": 3,
+            "turn": "0.000000000",
+            "x": "0.800000000",
+            "y": "0.800000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.600000000",
+            "y": "0.900000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.900000000",
+            "y": "0.900000000"
+          }
+        ],
+        "radius": "0.100000000"
+      }
+    },
+    {
+      "instanceId": "p91-n32-v1",
+      "name": "n = 32",
+      "parameters": {
+        "n": 32,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "10000000000000000000",
+      "scoreDisplay": "10",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.000000000",
+            "x": "0.100000000",
+            "y": "0.100000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.300000000",
+            "y": "0.100000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.100000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.700000000",
+            "y": "0.100000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.900000000",
+            "y": "0.100000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.100000000",
+            "y": "0.200000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.300000000",
+            "y": "0.200000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.200000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.700000000",
+            "y": "0.200000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.900000000",
+            "y": "0.200000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.100000000",
+            "y": "0.400000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.300000000",
+            "y": "0.400000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.400000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.700000000",
+            "y": "0.400000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.900000000",
+            "y": "0.400000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.100000000",
+            "y": "0.500000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.300000000",
+            "y": "0.500000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.500000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.700000000",
+            "y": "0.500000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.900000000",
+            "y": "0.500000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.100000000",
+            "y": "0.700000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.300000000",
+            "y": "0.700000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.700000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.700000000",
+            "y": "0.700000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.900000000",
+            "y": "0.700000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.100000000",
+            "y": "0.800000000"
+          },
+          {
+            "quarter": 3,
+            "turn": "0.000000000",
+            "x": "0.400000000",
+            "y": "0.800000000"
+          },
+          {
+            "quarter": 3,
+            "turn": "0.000000000",
+            "x": "0.800000000",
+            "y": "0.800000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.200000000",
+            "y": "0.900000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.900000000"
+          },
+          {
+            "quarter": 3,
+            "turn": "0.000000000",
+            "x": "0.700000000",
+            "y": "0.900000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.900000000",
+            "y": "0.900000000"
+          }
+        ],
+        "radius": "0.100000000"
+      }
+    },
+    {
+      "instanceId": "p91-n33-v1",
+      "name": "n = 33",
+      "parameters": {
+        "n": 33,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "10000000000000000000",
+      "scoreDisplay": "10",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.000000000",
+            "x": "0.100000000",
+            "y": "0.100000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.300000000",
+            "y": "0.100000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.100000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.700000000",
+            "y": "0.100000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.900000000",
+            "y": "0.100000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.100000000",
+            "y": "0.200000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.300000000",
+            "y": "0.200000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.200000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.700000000",
+            "y": "0.200000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.900000000",
+            "y": "0.200000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.100000000",
+            "y": "0.400000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.300000000",
+            "y": "0.400000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.400000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.700000000",
+            "y": "0.400000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.900000000",
+            "y": "0.400000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.100000000",
+            "y": "0.500000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.300000000",
+            "y": "0.500000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.500000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.700000000",
+            "y": "0.500000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.900000000",
+            "y": "0.500000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.100000000",
+            "y": "0.700000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.300000000",
+            "y": "0.700000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.700000000"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.700000000",
+            "y": "0.700000000"
+          },
+          {
+            "quarter": 1,
+            "turn": "0.000000000",
+            "x": "0.900000000",
+            "y": "0.700000000"
+          },
+          {
+            "quarter": 3,
+            "turn": "0.000000000",
+            "x": "0.200000000",
+            "y": "0.800000000"
+          },
+          {
+            "quarter": 3,
+            "turn": "0.000000000",
+            "x": "0.600000000",
+            "y": "0.800000000"
+          },
+          {
+            "quarter": 1,
+            "turn": "0.000000000",
+            "x": "0.800000000",
+            "y": "0.800000000"
+          },
+          {
+            "quarter": 3,
+            "turn": "0.000000000",
+            "x": "0.100000000",
+            "y": "0.900000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.300000000",
+            "y": "0.900000000"
+          },
+          {
+            "quarter": 3,
+            "turn": "0.000000000",
+            "x": "0.500000000",
+            "y": "0.900000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.700000000",
+            "y": "0.900000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.900000000",
+            "y": "0.900000000"
+          }
+        ],
+        "radius": "0.100000000"
+      }
+    },
+    {
+      "instanceId": "p91-n34-v1",
+      "name": "n = 34",
+      "parameters": {
+        "n": 34,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "11000000110000001101",
+      "scoreDisplay": "11.000000111",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.000000000",
+            "x": "0.090909091",
+            "y": "0.090909091"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.272727273",
+            "y": "0.090909091"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.454545455",
+            "y": "0.090909091"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.636363636",
+            "y": "0.090909091"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.818181818",
+            "y": "0.090909091"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.909090909",
+            "y": "0.090909091"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.090909091",
+            "y": "0.181818182"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.272727273",
+            "y": "0.181818182"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.454545455",
+            "y": "0.181818182"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.636363636",
+            "y": "0.181818182"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.818181818",
+            "y": "0.272727273"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.909090909",
+            "y": "0.272727273"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.090909091",
+            "y": "0.363636364"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.272727273",
+            "y": "0.363636364"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.454545455",
+            "y": "0.363636364"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.636363636",
+            "y": "0.363636364"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.090909091",
+            "y": "0.454545455"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.272727273",
+            "y": "0.454545455"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.454545455",
+            "y": "0.454545455"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.727272727",
+            "y": "0.454545455"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.909090909",
+            "y": "0.454545455"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.545454545",
+            "y": "0.545454545"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.727272727",
+            "y": "0.545454545"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.909090909",
+            "y": "0.545454545"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.090909091",
+            "y": "0.636363636"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.272727273",
+            "y": "0.636363636"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.363636364",
+            "y": "0.636363636"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.090909091",
+            "y": "0.727272727"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.545454545",
+            "y": "0.727272727"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.727272727",
+            "y": "0.727272727"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.909090909",
+            "y": "0.727272727"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.272727273",
+            "y": "0.818181818"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.363636364",
+            "y": "0.818181818"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.545454545",
+            "y": "0.818181818"
+          }
+        ],
+        "radius": "0.090909090"
+      }
+    },
+    {
+      "instanceId": "p91-n35-v1",
+      "name": "n = 35",
+      "parameters": {
+        "n": 35,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "11000000110000001101",
+      "scoreDisplay": "11.000000111",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.000000000",
+            "x": "0.090909091",
+            "y": "0.090909091"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.272727273",
+            "y": "0.090909091"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.454545455",
+            "y": "0.090909091"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.636363636",
+            "y": "0.090909091"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.818181818",
+            "y": "0.090909091"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.909090909",
+            "y": "0.090909091"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.090909091",
+            "y": "0.181818182"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.272727273",
+            "y": "0.181818182"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.454545455",
+            "y": "0.181818182"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.636363636",
+            "y": "0.181818182"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.818181818",
+            "y": "0.272727273"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.909090909",
+            "y": "0.272727273"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.090909091",
+            "y": "0.363636364"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.272727273",
+            "y": "0.363636364"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.454545455",
+            "y": "0.363636364"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.636363636",
+            "y": "0.363636364"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.090909091",
+            "y": "0.454545455"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.272727273",
+            "y": "0.454545455"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.454545455",
+            "y": "0.454545455"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.727272727",
+            "y": "0.454545455"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.909090909",
+            "y": "0.454545455"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.545454545",
+            "y": "0.545454545"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.727272727",
+            "y": "0.545454545"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.909090909",
+            "y": "0.545454545"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.090909091",
+            "y": "0.636363636"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.272727273",
+            "y": "0.636363636"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.363636364",
+            "y": "0.636363636"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.090909091",
+            "y": "0.727272727"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.545454545",
+            "y": "0.727272727"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.727272727",
+            "y": "0.727272727"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.909090909",
+            "y": "0.727272727"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.272727273",
+            "y": "0.818181818"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.363636364",
+            "y": "0.818181818"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.545454545",
+            "y": "0.818181818"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.727272727",
+            "y": "0.818181818"
+          }
+        ],
+        "radius": "0.090909090"
+      }
+    },
+    {
+      "instanceId": "p91-n36-v1",
+      "name": "n = 36",
+      "parameters": {
+        "n": 36,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "11000000110000001101",
+      "scoreDisplay": "11.000000111",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.000000000",
+            "x": "0.090909091",
+            "y": "0.090909091"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.272727273",
+            "y": "0.090909091"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.454545455",
+            "y": "0.090909091"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.636363636",
+            "y": "0.090909091"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.818181818",
+            "y": "0.090909091"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.909090909",
+            "y": "0.090909091"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.090909091",
+            "y": "0.181818182"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.272727273",
+            "y": "0.181818182"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.454545455",
+            "y": "0.181818182"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.636363636",
+            "y": "0.181818182"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.818181818",
+            "y": "0.272727273"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.909090909",
+            "y": "0.272727273"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.090909091",
+            "y": "0.363636364"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.272727273",
+            "y": "0.363636364"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.454545455",
+            "y": "0.363636364"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.636363636",
+            "y": "0.363636364"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.090909091",
+            "y": "0.454545455"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.272727273",
+            "y": "0.454545455"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.454545455",
+            "y": "0.454545455"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.727272727",
+            "y": "0.454545455"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.909090909",
+            "y": "0.454545455"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.545454545",
+            "y": "0.545454545"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.727272727",
+            "y": "0.545454545"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.909090909",
+            "y": "0.545454545"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.090909091",
+            "y": "0.636363636"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.272727273",
+            "y": "0.636363636"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.363636364",
+            "y": "0.636363636"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.090909091",
+            "y": "0.727272727"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.545454545",
+            "y": "0.727272727"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.727272727",
+            "y": "0.727272727"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.909090909",
+            "y": "0.727272727"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.272727273",
+            "y": "0.818181818"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.363636364",
+            "y": "0.818181818"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.545454545",
+            "y": "0.818181818"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.727272727",
+            "y": "0.818181818"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.909090909",
+            "y": "0.818181818"
+          }
+        ],
+        "radius": "0.090909090"
+      }
+    },
+    {
+      "instanceId": "p91-n37-v1",
+      "name": "n = 37",
+      "parameters": {
+        "n": 37,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "11000000110000001101",
+      "scoreDisplay": "11.000000111",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.000000000",
+            "x": "0.090909091",
+            "y": "0.090909091"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.272727273",
+            "y": "0.090909091"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.454545455",
+            "y": "0.090909091"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.636363636",
+            "y": "0.090909091"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.818181818",
+            "y": "0.090909091"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.909090909",
+            "y": "0.090909091"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.090909091",
+            "y": "0.181818182"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.272727273",
+            "y": "0.181818182"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.454545455",
+            "y": "0.181818182"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.636363636",
+            "y": "0.181818182"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.818181818",
+            "y": "0.272727273"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.909090909",
+            "y": "0.272727273"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.090909091",
+            "y": "0.363636364"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.272727273",
+            "y": "0.363636364"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.454545455",
+            "y": "0.363636364"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.636363636",
+            "y": "0.363636364"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.090909091",
+            "y": "0.454545455"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.272727273",
+            "y": "0.454545455"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.454545455",
+            "y": "0.454545455"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.727272727",
+            "y": "0.454545455"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.909090909",
+            "y": "0.454545455"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.545454545",
+            "y": "0.545454545"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.727272727",
+            "y": "0.545454545"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.909090909",
+            "y": "0.545454545"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.090909091",
+            "y": "0.636363636"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.272727273",
+            "y": "0.636363636"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.363636364",
+            "y": "0.636363636"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.090909091",
+            "y": "0.727272727"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.545454545",
+            "y": "0.727272727"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.727272727",
+            "y": "0.727272727"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.909090909",
+            "y": "0.727272727"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.272727273",
+            "y": "0.818181818"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.363636364",
+            "y": "0.818181818"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.545454545",
+            "y": "0.818181818"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.727272727",
+            "y": "0.818181818"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.909090909",
+            "y": "0.818181818"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.090909091",
+            "y": "0.909090909"
+          }
+        ],
+        "radius": "0.090909090"
+      }
+    },
+    {
+      "instanceId": "p91-n38-v1",
+      "name": "n = 38",
+      "parameters": {
+        "n": 38,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "11000000110000001101",
+      "scoreDisplay": "11.000000111",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.000000000",
+            "x": "0.090909091",
+            "y": "0.090909091"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.272727273",
+            "y": "0.090909091"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.454545455",
+            "y": "0.090909091"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.636363636",
+            "y": "0.090909091"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.818181818",
+            "y": "0.090909091"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.909090909",
+            "y": "0.090909091"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.090909091",
+            "y": "0.181818182"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.272727273",
+            "y": "0.181818182"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.454545455",
+            "y": "0.181818182"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.636363636",
+            "y": "0.181818182"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.818181818",
+            "y": "0.272727273"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.909090909",
+            "y": "0.272727273"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.090909091",
+            "y": "0.363636364"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.272727273",
+            "y": "0.363636364"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.454545455",
+            "y": "0.363636364"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.636363636",
+            "y": "0.363636364"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.090909091",
+            "y": "0.454545455"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.272727273",
+            "y": "0.454545455"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.454545455",
+            "y": "0.454545455"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.727272727",
+            "y": "0.454545455"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.909090909",
+            "y": "0.454545455"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.545454545",
+            "y": "0.545454545"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.727272727",
+            "y": "0.545454545"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.909090909",
+            "y": "0.545454545"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.090909091",
+            "y": "0.636363636"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.272727273",
+            "y": "0.636363636"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.363636364",
+            "y": "0.636363636"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.090909091",
+            "y": "0.727272727"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.545454545",
+            "y": "0.727272727"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.727272727",
+            "y": "0.727272727"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.909090909",
+            "y": "0.727272727"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.272727273",
+            "y": "0.818181818"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.363636364",
+            "y": "0.818181818"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.545454545",
+            "y": "0.818181818"
+          },
+          {
+            "quarter": 3,
+            "turn": "0.000000000",
+            "x": "0.818181818",
+            "y": "0.818181818"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.090909091",
+            "y": "0.909090909"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.636363636",
+            "y": "0.909090909"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.909090909",
+            "y": "0.909090909"
+          }
+        ],
+        "radius": "0.090909090"
+      }
+    },
+    {
+      "instanceId": "p91-n39-v1",
+      "name": "n = 39",
+      "parameters": {
+        "n": 39,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "11000000110000001101",
+      "scoreDisplay": "11.000000111",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.000000000",
+            "x": "0.090909091",
+            "y": "0.090909091"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.272727273",
+            "y": "0.090909091"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.454545455",
+            "y": "0.090909091"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.636363636",
+            "y": "0.090909091"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.818181818",
+            "y": "0.090909091"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.909090909",
+            "y": "0.090909091"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.090909091",
+            "y": "0.181818182"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.272727273",
+            "y": "0.181818182"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.454545455",
+            "y": "0.181818182"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.636363636",
+            "y": "0.181818182"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.818181818",
+            "y": "0.272727273"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.909090909",
+            "y": "0.272727273"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.090909091",
+            "y": "0.363636364"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.272727273",
+            "y": "0.363636364"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.454545455",
+            "y": "0.363636364"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.636363636",
+            "y": "0.363636364"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.090909091",
+            "y": "0.454545455"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.272727273",
+            "y": "0.454545455"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.454545455",
+            "y": "0.454545455"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.727272727",
+            "y": "0.454545455"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.909090909",
+            "y": "0.454545455"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.545454545",
+            "y": "0.545454545"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.727272727",
+            "y": "0.545454545"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.909090909",
+            "y": "0.545454545"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.090909091",
+            "y": "0.636363636"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.272727273",
+            "y": "0.636363636"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.363636364",
+            "y": "0.636363636"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.090909091",
+            "y": "0.727272727"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.545454545",
+            "y": "0.727272727"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.727272727",
+            "y": "0.727272727"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.909090909",
+            "y": "0.727272727"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.272727273",
+            "y": "0.818181818"
+          },
+          {
+            "quarter": 3,
+            "turn": "0.000000000",
+            "x": "0.454545455",
+            "y": "0.818181818"
+          },
+          {
+            "quarter": 3,
+            "turn": "0.000000000",
+            "x": "0.818181818",
+            "y": "0.818181818"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.090909091",
+            "y": "0.909090909"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.272727273",
+            "y": "0.909090909"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.545454545",
+            "y": "0.909090909"
+          },
+          {
+            "quarter": 3,
+            "turn": "0.000000000",
+            "x": "0.727272727",
+            "y": "0.909090909"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.909090909",
+            "y": "0.909090909"
+          }
+        ],
+        "radius": "0.090909090"
+      }
+    },
+    {
+      "instanceId": "p91-n40-v1",
+      "name": "n = 40",
+      "parameters": {
+        "n": 40,
+        "sides": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "11000000110000001101",
+      "scoreDisplay": "11.000000111",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "answer": {
+        "placements": [
+          {
+            "turn": "0.000000000",
+            "x": "0.090909091",
+            "y": "0.090909091"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.272727273",
+            "y": "0.090909091"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.454545455",
+            "y": "0.090909091"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.636363636",
+            "y": "0.090909091"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.818181818",
+            "y": "0.090909091"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.909090909",
+            "y": "0.090909091"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.090909091",
+            "y": "0.181818182"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.272727273",
+            "y": "0.181818182"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.454545455",
+            "y": "0.181818182"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.636363636",
+            "y": "0.181818182"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.818181818",
+            "y": "0.272727273"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.909090909",
+            "y": "0.272727273"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.090909091",
+            "y": "0.363636364"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.272727273",
+            "y": "0.363636364"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.454545455",
+            "y": "0.363636364"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.636363636",
+            "y": "0.363636364"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.090909091",
+            "y": "0.454545455"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.272727273",
+            "y": "0.454545455"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.454545455",
+            "y": "0.454545455"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.727272727",
+            "y": "0.454545455"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.909090909",
+            "y": "0.454545455"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.545454545",
+            "y": "0.545454545"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.727272727",
+            "y": "0.545454545"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.909090909",
+            "y": "0.545454545"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.090909091",
+            "y": "0.636363636"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.272727273",
+            "y": "0.636363636"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.363636364",
+            "y": "0.636363636"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.090909091",
+            "y": "0.727272727"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.545454545",
+            "y": "0.727272727"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.727272727",
+            "y": "0.727272727"
+          },
+          {
+            "quarter": 1,
+            "turn": "0.000000000",
+            "x": "0.909090909",
+            "y": "0.727272727"
+          },
+          {
+            "quarter": 1,
+            "turn": "0.000000000",
+            "x": "0.272727273",
+            "y": "0.818181818"
+          },
+          {
+            "quarter": 3,
+            "turn": "0.000000000",
+            "x": "0.636363636",
+            "y": "0.818181818"
+          },
+          {
+            "quarter": 1,
+            "turn": "0.000000000",
+            "x": "0.818181818",
+            "y": "0.818181818"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.090909091",
+            "y": "0.909090909"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.181818182",
+            "y": "0.909090909"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.363636364",
+            "y": "0.909090909"
+          },
+          {
+            "quarter": 3,
+            "turn": "0.000000000",
+            "x": "0.545454545",
+            "y": "0.909090909"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.727272727",
+            "y": "0.909090909"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.909090909",
+            "y": "0.909090909"
+          }
+        ],
+        "radius": "0.090909090"
+      }
+    }
+  ]
+}
