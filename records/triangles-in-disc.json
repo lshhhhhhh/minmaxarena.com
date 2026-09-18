@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/triangles-in-disc",
-  "generatedAt": "2026-09-17T10:07:13.406Z",
+  "generatedAt": "2026-09-18T09:54:03.702Z",
   "instances": [
     {
       "instanceId": "p84-n3-v1",
@@ -30,7 +30,8 @@
         "kind": "best",
         "range": {
           "lower": "0.953",
-          "upper": "0.954"
+          "upper": "0.954",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "0.953511738",
@@ -79,7 +80,8 @@
         "kind": "best",
         "range": {
           "lower": "0.98",
-          "upper": "0.981"
+          "upper": "0.981",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "0.980597932",
@@ -133,7 +135,8 @@
         "kind": "best",
         "range": {
           "lower": "1.152",
-          "upper": "1.153"
+          "upper": "1.153",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "1.152382439",
@@ -202,7 +205,8 @@
         "kind": "best",
         "range": {
           "lower": "1.263",
-          "upper": "1.264"
+          "upper": "1.264",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "1.263359173",
@@ -276,7 +280,8 @@
         "kind": "best",
         "range": {
           "lower": "1.314",
-          "upper": "1.315"
+          "upper": "1.315",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "1.314752194",
@@ -355,7 +360,8 @@
         "kind": "best",
         "range": {
           "lower": "1.38468",
-          "upper": "1.38469"
+          "upper": "1.38469",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "1.384681284",
@@ -439,7 +445,8 @@
         "kind": "best",
         "range": {
           "lower": "1.466",
-          "upper": "1.467"
+          "upper": "1.467",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "1.466988273",
@@ -528,7 +535,8 @@
         "kind": "best",
         "range": {
           "lower": "1.507",
-          "upper": "1.508"
+          "upper": "1.508",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "1.507145206",
@@ -622,7 +630,8 @@
         "kind": "best",
         "range": {
           "lower": "1.527",
-          "upper": "1.528"
+          "upper": "1.528",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "1.52752524",
@@ -721,7 +730,8 @@
         "kind": "best",
         "range": {
           "lower": "1.60448",
-          "upper": "1.60449"
+          "upper": "1.60449",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "1.604489741",
@@ -825,7 +835,8 @@
         "kind": "best",
         "range": {
           "lower": "1.636",
-          "upper": "1.637"
+          "upper": "1.637",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "1.636720719",
@@ -934,7 +945,8 @@
         "kind": "best",
         "range": {
           "lower": "1.687",
-          "upper": "1.688"
+          "upper": "1.688",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "1.687452419",
@@ -1048,7 +1060,8 @@
         "kind": "best",
         "range": {
           "lower": "1.73",
-          "upper": "1.731"
+          "upper": "1.731",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "1.730310721",
@@ -1167,7 +1180,8 @@
         "kind": "best",
         "range": {
           "lower": "1.80176",
-          "upper": "1.80177"
+          "upper": "1.80177",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "1.801764491",
@@ -1291,7 +1305,8 @@
         "kind": "best",
         "range": {
           "lower": "1.825",
-          "upper": "1.826"
+          "upper": "1.826",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "1.825741865",
@@ -1420,7 +1435,8 @@
         "kind": "best",
         "range": {
           "lower": "1.874",
-          "upper": "1.875"
+          "upper": "1.875",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "1.874369584",
@@ -1554,7 +1570,8 @@
         "kind": "best",
         "range": {
           "lower": "1.91",
-          "upper": "1.911"
+          "upper": "1.911",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "1.910541299",
@@ -1693,7 +1710,8 @@
         "kind": "best",
         "range": {
           "lower": "1.943",
-          "upper": "1.944"
+          "upper": "1.944",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "1.94398837",
@@ -1837,7 +1855,8 @@
         "kind": "best",
         "range": {
           "lower": "1.98467",
-          "upper": "1.98468"
+          "upper": "1.98468",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "1.984672742",
@@ -1986,7 +2005,8 @@
         "kind": "best",
         "range": {
           "lower": "2.055",
-          "upper": "2.056"
+          "upper": "2.056",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "2.055249514",
@@ -2145,7 +2165,8 @@
         "kind": "best",
         "range": {
           "lower": "2.10664",
-          "upper": "2.10665"
+          "upper": "2.10665",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "2.106647674",
@@ -2309,7 +2330,8 @@
         "kind": "best",
         "range": {
           "lower": "2.138",
-          "upper": "2.139"
+          "upper": "2.139",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "2.138465229",
@@ -2478,7 +2500,8 @@
         "kind": "best",
         "range": {
           "lower": "2.18805",
-          "upper": "2.18806"
+          "upper": "2.18806",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "2.188057309",
@@ -2652,7 +2675,8 @@
         "kind": "best",
         "range": {
           "lower": "2.20935",
-          "upper": "2.20936"
+          "upper": "2.20936",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "2.209353136",
@@ -2831,7 +2855,8 @@
         "kind": "best",
         "range": {
           "lower": "2.25124",
-          "upper": "2.25125"
+          "upper": "2.25125",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "2.251247456",
@@ -3015,7 +3040,8 @@
         "kind": "best",
         "range": {
           "lower": "2.272",
-          "upper": "2.273"
+          "upper": "2.273",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "2.272610889",
@@ -3204,7 +3230,8 @@
         "kind": "best",
         "range": {
           "lower": "2.31295",
-          "upper": "2.31296"
+          "upper": "2.31296",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "2.312955248",
@@ -3398,7 +3425,8 @@
         "kind": "best",
         "range": {
           "lower": "2.34169",
-          "upper": "2.3417"
+          "upper": "2.3417",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "2.341693803",
@@ -3597,7 +3625,8 @@
         "kind": "best",
         "range": {
           "lower": "2.37504",
-          "upper": "2.37505"
+          "upper": "2.37505",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "2.375042541",
@@ -3801,7 +3830,8 @@
         "kind": "best",
         "range": {
           "lower": "2.39906",
-          "upper": "2.39907"
+          "upper": "2.39907",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "2.39906468",
@@ -4010,7 +4040,8 @@
         "kind": "best",
         "range": {
           "lower": "2.43969",
-          "upper": "2.4397"
+          "upper": "2.4397",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "2.439690195",
@@ -4224,7 +4255,8 @@
         "kind": "best",
         "range": {
           "lower": "2.46349",
-          "upper": "2.4635"
+          "upper": "2.4635",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "2.463494364",
@@ -4443,7 +4475,8 @@
         "kind": "best",
         "range": {
           "lower": "2.49003",
-          "upper": "2.49004"
+          "upper": "2.49004",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "2.490030016",
@@ -4667,7 +4700,8 @@
         "kind": "best",
         "range": {
           "lower": "2.51938",
-          "upper": "2.51939"
+          "upper": "2.51939",
+          "upperInclusive": false
         },
         "truncated": true,
         "source": "Compiled by Erich Friedman; Found by Thomas Schadt in August 2026. Source expression: r = 2.51938+.",
@@ -4895,7 +4929,8 @@
         "kind": "best",
         "range": {
           "lower": "2.55675",
-          "upper": "2.55676"
+          "upper": "2.55676",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "2.556750012",

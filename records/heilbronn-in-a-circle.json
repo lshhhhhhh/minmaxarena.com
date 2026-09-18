@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/heilbronn-in-a-circle",
-  "generatedAt": "2026-09-08T09:50:35.964Z",
+  "generatedAt": "2026-09-18T09:53:58.979Z",
   "instances": [
     {
       "instanceId": "p22-n5-v2",
@@ -375,16 +375,23 @@
       "objective": "maximize",
       "scoreStored": "227876234660303235",
       "scoreDisplay": "0.1139381173301516175",
-      "status": "ahead",
+      "status": "matched",
       "settled": false,
-      "recordStatus": "ahead",
+      "recordStatus": "matched",
       "knownBest": {
-        "display": "0.1097733212804615",
+        "display": "0.113",
         "kind": "best",
-        "precision": "rounded",
+        "range": {
+          "lower": "0.113",
+          "upper": "0.114",
+          "upperInclusive": false
+        },
+        "truncated": true,
         "certificateDisplay": "0.109773321178321206",
-        "source": "Friedman/Cantrell's construction in MathWorld's public SVG; the unit-area-disc table value converts to 0.219546642560923 here. The nine-decimal certificate reconstructed from the figure reaches 0.219546642356642412; optimality open",
-        "url": "https://mathworld.wolfram.com/HeilbronnTriangleProblem.html"
+        "publishedDisplay": "0.113+",
+        "publishedMetric": "minimum triangle area in a radius-one disc",
+        "source": "David Cantrell, August 2006; Friedman's original circle page reports minimum triangle area 0.113+ in a radius-one disc, with publication interval [0.113, 0.114). Values inside it match the known best at published precision; this does not prove exact equality or optimality. This corrects the previously cited, weaker MathWorld benchmark of about 0.10977332128. The exhibited site certificate remains the older MathWorld reconstruction, 0.109773321178321206, not an exact value for Cantrell's stronger construction.",
+        "url": "https://web.archive.org/web/20110311004102/http://www2.stetson.edu/~efriedma/heilcirc/"
       },
       "holder": "Sigmoid with Codex",
       "method": "ai",

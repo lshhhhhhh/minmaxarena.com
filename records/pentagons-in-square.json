@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/pentagons-in-square",
-  "generatedAt": "2026-09-17T10:07:13.659Z",
+  "generatedAt": "2026-09-18T09:54:03.954Z",
   "instances": [
     {
       "instanceId": "p86-n3-v1",
@@ -30,7 +30,8 @@
         "kind": "best",
         "range": {
           "lower": "2.90811",
-          "upper": "2.90812"
+          "upper": "2.90812",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "2.908117298",
@@ -79,7 +80,8 @@
         "kind": "best",
         "range": {
           "lower": "3.10252",
-          "upper": "3.10253"
+          "upper": "3.10253",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "3.102525028",
@@ -133,7 +135,8 @@
         "kind": "best",
         "range": {
           "lower": "3.54903",
-          "upper": "3.54904"
+          "upper": "3.54904",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "3.549034776",
@@ -192,7 +195,8 @@
         "kind": "best",
         "range": {
           "lower": "3.88299",
-          "upper": "3.883"
+          "upper": "3.883",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "3.882991557",
@@ -256,7 +260,8 @@
         "kind": "best",
         "range": {
           "lower": "4.18037",
-          "upper": "4.18038"
+          "upper": "4.18038",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "4.180370618",
@@ -325,7 +330,8 @@
         "kind": "best",
         "range": {
           "lower": "4.3819",
-          "upper": "4.38191"
+          "upper": "4.38191",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "4.381909626",
@@ -399,7 +405,8 @@
         "kind": "best",
         "range": {
           "lower": "4.60033",
-          "upper": "4.60034"
+          "upper": "4.60034",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "4.600330011",
@@ -478,7 +485,8 @@
         "kind": "best",
         "range": {
           "lower": "4.90581",
-          "upper": "4.90582"
+          "upper": "4.90582",
+          "upperInclusive": false
         },
         "truncated": true,
         "source": "Compiled by Erich Friedman; Found by Jonathan Viquerat in June 2026. Source expression: s = 4.90581+.",
@@ -561,7 +569,8 @@
         "kind": "best",
         "range": {
           "lower": "5.11555",
-          "upper": "5.11556"
+          "upper": "5.11556",
+          "upperInclusive": false
         },
         "truncated": true,
         "source": "Compiled by Erich Friedman; Found by Jonathan Viquerat in August 2026. Source expression: s = 5.11555+.",
@@ -649,7 +658,8 @@
         "kind": "best",
         "range": {
           "lower": "5.23221",
-          "upper": "5.23222"
+          "upper": "5.23222",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "5.232214413",
@@ -743,7 +753,8 @@
         "kind": "best",
         "range": {
           "lower": "5.52102",
-          "upper": "5.52103"
+          "upper": "5.52103",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "5.521022435",
@@ -842,7 +853,8 @@
         "kind": "best",
         "range": {
           "lower": "5.69659",
-          "upper": "5.6966"
+          "upper": "5.6966",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "5.696593615",
@@ -946,7 +958,8 @@
         "kind": "best",
         "range": {
           "lower": "5.90118",
-          "upper": "5.90119"
+          "upper": "5.90119",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "5.901183982",
@@ -1055,7 +1068,8 @@
         "kind": "best",
         "range": {
           "lower": "6.06452",
-          "upper": "6.06453"
+          "upper": "6.06453",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "6.064520047",
@@ -1169,7 +1183,8 @@
         "kind": "best",
         "range": {
           "lower": "6.23761",
-          "upper": "6.23762"
+          "upper": "6.23762",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "6.237617598",
@@ -1288,7 +1303,8 @@
         "kind": "best",
         "range": {
           "lower": "6.32565",
-          "upper": "6.32566"
+          "upper": "6.32566",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "6.325657135",
@@ -1412,7 +1428,8 @@
         "kind": "best",
         "range": {
           "lower": "6.55781",
-          "upper": "6.55782"
+          "upper": "6.55782",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "6.557812113",
@@ -1541,7 +1558,8 @@
         "kind": "best",
         "range": {
           "lower": "6.66135",
-          "upper": "6.66136"
+          "upper": "6.66136",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "6.661350709",
@@ -1675,7 +1693,8 @@
         "kind": "best",
         "range": {
           "lower": "6.85368",
-          "upper": "6.85369"
+          "upper": "6.85369",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "6.853686761",
@@ -1814,7 +1833,8 @@
         "kind": "best",
         "range": {
           "lower": "7.04445",
-          "upper": "7.04446"
+          "upper": "7.04446",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "7.044451306",
@@ -1958,7 +1978,8 @@
         "kind": "best",
         "range": {
           "lower": "7.20624",
-          "upper": "7.20625"
+          "upper": "7.20625",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "7.206241778",
@@ -2107,7 +2128,8 @@
         "kind": "best",
         "range": {
           "lower": "7.3369",
-          "upper": "7.33691"
+          "upper": "7.33691",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "7.336904101",
@@ -2261,7 +2283,8 @@
         "kind": "best",
         "range": {
           "lower": "7.4536",
-          "upper": "7.45361"
+          "upper": "7.45361",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "7.453600088",
@@ -2420,7 +2443,8 @@
         "kind": "best",
         "range": {
           "lower": "7.58176",
-          "upper": "7.58177"
+          "upper": "7.58177",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "7.581760052",
@@ -2584,7 +2608,8 @@
         "kind": "best",
         "range": {
           "lower": "7.67948",
-          "upper": "7.67949"
+          "upper": "7.67949",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "7.679480071",
@@ -2753,7 +2778,8 @@
         "kind": "best",
         "range": {
           "lower": "7.8201",
-          "upper": "7.82011"
+          "upper": "7.82011",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "7.820100053",
@@ -2927,7 +2953,8 @@
         "kind": "best",
         "range": {
           "lower": "7.98512",
-          "upper": "7.98513"
+          "upper": "7.98513",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "7.985120068",
@@ -3106,7 +3133,8 @@
         "kind": "best",
         "range": {
           "lower": "8.10222",
-          "upper": "8.10223"
+          "upper": "8.10223",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "8.102220102",

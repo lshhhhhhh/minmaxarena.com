@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/dominoes-in-square",
-  "generatedAt": "2026-09-17T10:07:14.075Z",
+  "generatedAt": "2026-09-18T09:54:04.297Z",
   "instances": [
     {
       "instanceId": "p90-n1-v1",
@@ -219,7 +219,8 @@
         "kind": "best",
         "range": {
           "lower": "3.76776",
-          "upper": "3.76777"
+          "upper": "3.76777",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "3.767766991",
@@ -488,7 +489,8 @@
         "kind": "best",
         "range": {
           "lower": "4.86784",
-          "upper": "4.86785"
+          "upper": "4.86785",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "4.867843383",
@@ -859,7 +861,8 @@
         "kind": "best",
         "range": {
           "lower": "5.7071",
-          "upper": "5.70711"
+          "upper": "5.70711",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "5.707106892",
@@ -967,7 +970,8 @@
         "kind": "best",
         "range": {
           "lower": "5.82842",
-          "upper": "5.82843"
+          "upper": "5.82843",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "5.828427236",
@@ -1546,7 +1550,8 @@
         "kind": "best",
         "range": {
           "lower": "6.71428",
-          "upper": "6.71429"
+          "upper": "6.71429",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "6.714285905",
@@ -1688,7 +1693,8 @@
         "kind": "best",
         "range": {
           "lower": "6.91421",
-          "upper": "6.91422"
+          "upper": "6.91422",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "6.914214826",
@@ -2461,7 +2467,8 @@
         "kind": "best",
         "range": {
           "lower": "7.7071",
-          "upper": "7.70711"
+          "upper": "7.70711",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "7.707106998",
@@ -2628,7 +2635,8 @@
         "kind": "best",
         "range": {
           "lower": "7.82842",
-          "upper": "7.82843"
+          "upper": "7.82843",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "7.828427303",

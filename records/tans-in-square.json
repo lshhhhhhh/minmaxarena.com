@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/tans-in-square",
-  "generatedAt": "2026-09-17T10:07:13.888Z",
+  "generatedAt": "2026-09-18T09:54:04.184Z",
   "instances": [
     {
       "instanceId": "p89-n1-v1",
@@ -114,7 +114,8 @@
         "kind": "best",
         "range": {
           "lower": "1.414",
-          "upper": "1.415"
+          "upper": "1.415",
+          "upperInclusive": false
         },
         "comparisonUncertain": true,
         "truncated": true,
@@ -166,7 +167,8 @@
         "kind": "best",
         "range": {
           "lower": "1.414",
-          "upper": "1.415"
+          "upper": "1.415",
+          "upperInclusive": false
         },
         "comparisonUncertain": true,
         "truncated": true,
@@ -224,7 +226,8 @@
         "kind": "best",
         "range": {
           "lower": "1.788",
-          "upper": "1.789"
+          "upper": "1.789",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "1.788569824",
@@ -288,7 +291,8 @@
         "kind": "best",
         "range": {
           "lower": "1.937",
-          "upper": "1.938"
+          "upper": "1.938",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "1.937914833",
@@ -358,7 +362,8 @@
         "kind": "best",
         "range": {
           "lower": "1.999",
-          "upper": "2"
+          "upper": "2",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "1.999598089",
@@ -510,7 +515,8 @@
         "kind": "best",
         "range": {
           "lower": "2.207",
-          "upper": "2.208"
+          "upper": "2.208",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "2.207106837",
@@ -594,7 +600,8 @@
         "kind": "best",
         "range": {
           "lower": "2.393",
-          "upper": "2.394"
+          "upper": "2.394",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "2.393754586",
@@ -685,7 +692,8 @@
         "kind": "best",
         "range": {
           "lower": "2.414",
-          "upper": "2.415"
+          "upper": "2.415",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "2.414213612",
@@ -779,7 +787,8 @@
         "kind": "best",
         "range": {
           "lower": "2.61115",
-          "upper": "2.61116"
+          "upper": "2.61116",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "2.611150004",
@@ -883,7 +892,8 @@
         "kind": "best",
         "range": {
           "lower": "2.688",
-          "upper": "2.689"
+          "upper": "2.689",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "2.688240167",
@@ -992,7 +1002,8 @@
         "kind": "best",
         "range": {
           "lower": "2.76345",
-          "upper": "2.76346"
+          "upper": "2.76346",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "2.763450004",
@@ -1107,7 +1118,8 @@
         "kind": "best",
         "range": {
           "lower": "2.82735",
-          "upper": "2.82736"
+          "upper": "2.82736",
+          "upperInclusive": false
         },
         "truncated": true,
         "source": "Compiled by Erich Friedman; Found by Aapo Lipponen in July 2026. Source expression: s = 2.82735+.",
@@ -1227,7 +1239,8 @@
         "kind": "best",
         "range": {
           "lower": "2.828",
-          "upper": "2.829"
+          "upper": "2.829",
+          "upperInclusive": false
         },
         "comparisonUncertain": true,
         "truncated": true,
@@ -1354,7 +1367,8 @@
         "kind": "best",
         "range": {
           "lower": "2.97",
-          "upper": "2.971"
+          "upper": "2.971",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "2.970710991",
@@ -1619,7 +1633,8 @@
         "kind": "best",
         "range": {
           "lower": "3.201",
-          "upper": "3.202"
+          "upper": "3.202",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "3.201496211",
@@ -1760,7 +1775,8 @@
         "kind": "best",
         "range": {
           "lower": "3.26857",
-          "upper": "3.26858"
+          "upper": "3.26858",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "3.268570008",
@@ -1905,7 +1921,8 @@
         "kind": "best",
         "range": {
           "lower": "3.34",
-          "upper": "3.341"
+          "upper": "3.341",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "3.340065737",
@@ -2057,7 +2074,8 @@
         "kind": "best",
         "range": {
           "lower": "3.392",
-          "upper": "3.393"
+          "upper": "3.393",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "3.392767024",
@@ -2221,7 +2239,8 @@
         "kind": "best",
         "range": {
           "lower": "3.464",
-          "upper": "3.465"
+          "upper": "3.465",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "3.46400001",
@@ -2386,7 +2405,8 @@
         "kind": "best",
         "range": {
           "lower": "3.517",
-          "upper": "3.518"
+          "upper": "3.518",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "3.517000007",

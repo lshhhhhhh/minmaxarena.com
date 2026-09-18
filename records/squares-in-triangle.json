@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/squares-in-triangle",
-  "generatedAt": "2026-09-17T10:07:13.542Z",
+  "generatedAt": "2026-09-18T09:54:03.825Z",
   "instances": [
     {
       "instanceId": "p85-n3-v1",
@@ -30,7 +30,8 @@
         "kind": "best",
         "range": {
           "lower": "3.232",
-          "upper": "3.233"
+          "upper": "3.233",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "3.23205083",
@@ -79,7 +80,8 @@
         "kind": "best",
         "range": {
           "lower": "4.154",
-          "upper": "4.155"
+          "upper": "4.155",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "4.154700559",
@@ -133,7 +135,8 @@
         "kind": "best",
         "range": {
           "lower": "4.309",
-          "upper": "4.31"
+          "upper": "4.31",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "4.309401093",
@@ -192,7 +195,8 @@
         "kind": "best",
         "range": {
           "lower": "4.309",
-          "upper": "4.31"
+          "upper": "4.31",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "4.30940112",
@@ -256,7 +260,8 @@
         "kind": "best",
         "range": {
           "lower": "5.154",
-          "upper": "5.155"
+          "upper": "5.155",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "5.154700559",
@@ -325,7 +330,8 @@
         "kind": "best",
         "range": {
           "lower": "5.301",
-          "upper": "5.302"
+          "upper": "5.302",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "5.301221349",
@@ -399,7 +405,8 @@
         "kind": "best",
         "range": {
           "lower": "5.309",
-          "upper": "5.31"
+          "upper": "5.31",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "5.309401136",
@@ -478,7 +485,8 @@
         "kind": "best",
         "range": {
           "lower": "5.464",
-          "upper": "5.465"
+          "upper": "5.465",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "5.464101639",
@@ -562,7 +570,8 @@
         "kind": "best",
         "range": {
           "lower": "6.154",
-          "upper": "6.155"
+          "upper": "6.155",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "6.154700595",
@@ -651,7 +660,8 @@
         "kind": "best",
         "range": {
           "lower": "6.301",
-          "upper": "6.302"
+          "upper": "6.302",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "6.301221383",
@@ -745,7 +755,8 @@
         "kind": "best",
         "range": {
           "lower": "6.309",
-          "upper": "6.31"
+          "upper": "6.31",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "6.309401135",
@@ -844,7 +855,8 @@
         "kind": "best",
         "range": {
           "lower": "6.464",
-          "upper": "6.465"
+          "upper": "6.465",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "6.464101719",
@@ -948,7 +960,8 @@
         "kind": "best",
         "range": {
           "lower": "6.464",
-          "upper": "6.465"
+          "upper": "6.465",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "6.464101719",
@@ -1057,7 +1070,8 @@
         "kind": "best",
         "range": {
           "lower": "7.154",
-          "upper": "7.155"
+          "upper": "7.155",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "7.15470061",
@@ -1171,7 +1185,8 @@
         "kind": "best",
         "range": {
           "lower": "7.301",
-          "upper": "7.302"
+          "upper": "7.302",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "7.301221441",
@@ -1290,7 +1305,8 @@
         "kind": "best",
         "range": {
           "lower": "7.309",
-          "upper": "7.31"
+          "upper": "7.31",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "7.309401143",
@@ -1414,7 +1430,8 @@
         "kind": "best",
         "range": {
           "lower": "7.464",
-          "upper": "7.465"
+          "upper": "7.465",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "7.464101733",
@@ -1543,7 +1560,8 @@
         "kind": "best",
         "range": {
           "lower": "7.61695",
-          "upper": "7.61696"
+          "upper": "7.61696",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "7.616954284",
@@ -1677,7 +1695,8 @@
         "kind": "best",
         "range": {
           "lower": "7.618",
-          "upper": "7.619"
+          "upper": "7.619",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "7.618802248",
@@ -1816,7 +1835,8 @@
         "kind": "best",
         "range": {
           "lower": "8.1547",
-          "upper": "8.15471"
+          "upper": "8.15471",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "8.15470064",
@@ -1960,7 +1980,8 @@
         "kind": "best",
         "range": {
           "lower": "8.301",
-          "upper": "8.302"
+          "upper": "8.302",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "8.301221414",
@@ -2109,7 +2130,8 @@
         "kind": "best",
         "range": {
           "lower": "8.309",
-          "upper": "8.31"
+          "upper": "8.31",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "8.309401166",
@@ -2263,7 +2285,8 @@
         "kind": "best",
         "range": {
           "lower": "8.464",
-          "upper": "8.465"
+          "upper": "8.465",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "8.464101687",
@@ -2422,7 +2445,8 @@
         "kind": "best",
         "range": {
           "lower": "8.618",
-          "upper": "8.619"
+          "upper": "8.619",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "8.618802344",
@@ -2586,7 +2610,8 @@
         "kind": "best",
         "range": {
           "lower": "8.618",
-          "upper": "8.619"
+          "upper": "8.619",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "8.618802344",
@@ -2755,7 +2780,8 @@
         "kind": "best",
         "range": {
           "lower": "8.773",
-          "upper": "8.774"
+          "upper": "8.774",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "8.773502876",
@@ -2929,7 +2955,8 @@
         "kind": "best",
         "range": {
           "lower": "9.154",
-          "upper": "9.155"
+          "upper": "9.155",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "9.154700661",
@@ -3108,7 +3135,8 @@
         "kind": "best",
         "range": {
           "lower": "9.301",
-          "upper": "9.302"
+          "upper": "9.302",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "9.301221507",
@@ -3292,7 +3320,8 @@
         "kind": "best",
         "range": {
           "lower": "9.309",
-          "upper": "9.31"
+          "upper": "9.31",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "9.30940126",
@@ -3481,7 +3510,8 @@
         "kind": "best",
         "range": {
           "lower": "9.464",
-          "upper": "9.465"
+          "upper": "9.465",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "9.464101702",
@@ -3675,7 +3705,8 @@
         "kind": "best",
         "range": {
           "lower": "9.618",
-          "upper": "9.619"
+          "upper": "9.619",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "9.618802281",
@@ -3874,7 +3905,8 @@
         "kind": "best",
         "range": {
           "lower": "9.618",
-          "upper": "9.619"
+          "upper": "9.619",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "9.618802281",
@@ -4078,7 +4110,8 @@
         "kind": "best",
         "range": {
           "lower": "9.773",
-          "upper": "9.774"
+          "upper": "9.774",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "9.773502816",
@@ -4287,7 +4320,8 @@
         "kind": "best",
         "range": {
           "lower": "9.773",
-          "upper": "9.774"
+          "upper": "9.774",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "9.773502816",
@@ -4501,7 +4535,8 @@
         "kind": "best",
         "range": {
           "lower": "10.15299",
-          "upper": "10.153"
+          "upper": "10.153",
+          "upperInclusive": false
         },
         "truncated": true,
         "source": "Compiled by Erich Friedman; Found by Gianluca Costantino in May 2026. Source expression: s = 10.15299+.",
@@ -4719,7 +4754,8 @@
         "kind": "best",
         "range": {
           "lower": "10.304",
-          "upper": "10.305"
+          "upper": "10.305",
+          "upperInclusive": false
         },
         "truncated": true,
         "source": "Compiled by Erich Friedman; Found by Gianluca Costantino in April 2026. Source expression: s = 10.304+.",
@@ -4942,7 +4978,8 @@
         "kind": "best",
         "range": {
           "lower": "10.3094",
-          "upper": "10.30941"
+          "upper": "10.30941",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "10.309401268",
@@ -5171,7 +5208,8 @@
         "kind": "best",
         "range": {
           "lower": "10.4641",
-          "upper": "10.46411"
+          "upper": "10.46411",
+          "upperInclusive": false
         },
         "truncated": true,
         "certificateDisplay": "10.464101789",
