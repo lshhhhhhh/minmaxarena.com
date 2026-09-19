@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/spread-points-in-a-quadrant",
-  "generatedAt": "2026-09-16T10:04:01.329Z",
+  "generatedAt": "2026-09-19T09:36:51.564Z",
   "instances": [
     {
       "instanceId": "p31-n4-v2",
@@ -21,10 +21,17 @@
       "objective": "maximize",
       "scoreStored": "585786437472363922",
       "scoreDisplay": "0.765366864",
-      "status": "open",
-      "settled": false,
+      "status": "proven",
+      "settled": true,
       "recordStatus": "open",
-      "knownBest": null,
+      "knownBest": {
+        "display": "0.765366864",
+        "kind": "proven",
+        "exact": "√(2−√2)",
+        "proofScope": "continuous",
+        "source": "XSsMC #250’s three-region diameter proof; MinMax Arena supplied the radial convexity inequality and checked the exact witness. Continuous optimum, not a decimal-grid optimum claim.",
+        "url": "https://minmaxarena.com/proofs/discussion-results-2026-09-18"
+      },
       "holder": "qwert",
       "method": "human",
       "recordedAt": "2026-08-26T13:10:34.831Z",

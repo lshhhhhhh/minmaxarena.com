@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/spread-points-in-an-l",
-  "generatedAt": "2026-09-08T09:50:35.666Z",
+  "generatedAt": "2026-09-19T09:36:50.550Z",
   "instances": [
     {
       "instanceId": "p19-n4-v2",
@@ -149,10 +149,17 @@
       "objective": "maximize",
       "scoreStored": "1071796769493452864",
       "scoreDisplay": "1.03527618",
-      "status": "open",
-      "settled": false,
+      "status": "proven",
+      "settled": true,
       "recordStatus": "open",
-      "knownBest": null,
+      "knownBest": {
+        "display": "1.03527618",
+        "kind": "proven",
+        "exact": "√6 − √2",
+        "proofScope": "continuous",
+        "source": "HwaterB #40: three-square reduction to the classical three-point theorem, with an exact attaining witness. Continuous optimum; history and decimal-grid caveats retained.",
+        "url": "https://minmaxarena.com/proofs/discussion-results-2026-09-18"
+      },
       "holder": "HwaterB",
       "method": "human",
       "recordedAt": "2026-08-29T05:02:41.709Z",

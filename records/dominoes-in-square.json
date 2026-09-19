@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/dominoes-in-square",
-  "generatedAt": "2026-09-18T09:54:04.297Z",
+  "generatedAt": "2026-09-19T09:36:56.060Z",
   "instances": [
     {
       "instanceId": "p90-n1-v1",
@@ -39,7 +39,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "recordedAt": "2026-09-19T07:26:44.308Z",
       "answer": {
         "placements": [
           {
@@ -61,24 +61,20 @@
       "objective": "minimize",
       "scoreStored": "2000000000000000000",
       "scoreDisplay": "2",
-      "status": "open",
-      "settled": false,
+      "status": "proven",
+      "settled": true,
       "recordStatus": "open",
       "knownBest": {
         "display": "2",
-        "kind": "best",
-        "range": {
-          "lower": "2",
-          "upper": "2"
-        },
-        "comparisonUncertain": true,
-        "certificateDisplay": "2",
-        "source": "Compiled by Erich Friedman; Trivial. Source expression: s = 2.",
-        "url": "https://erich-friedman.github.io/packing/dominsqu/"
+        "kind": "proven",
+        "exact": "2",
+        "proofScope": "continuous",
+        "source": "NUE_13 #31’s full-tiling area argument: L²≥2n, attained for n=2k² by k rows and 2k columns of unit dominoes. Construction in Friedman’s table; no claim for other n with gaps.",
+        "url": "https://minmaxarena.com/proofs/discussion-results-2026-09-18"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "recordedAt": "2026-09-19T07:26:44.308Z",
       "answer": {
         "placements": [
           {
@@ -122,7 +118,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "recordedAt": "2026-09-19T07:26:44.308Z",
       "answer": {
         "placements": [
           {
@@ -172,7 +168,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "recordedAt": "2026-09-19T07:26:44.308Z",
       "answer": {
         "placements": [
           {
@@ -291,7 +287,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "recordedAt": "2026-09-19T07:26:44.308Z",
       "answer": {
         "placements": [
           {
@@ -355,7 +351,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "recordedAt": "2026-09-19T07:26:44.308Z",
       "answer": {
         "placements": [
           {
@@ -407,24 +403,20 @@
       "objective": "minimize",
       "scoreStored": "4000000000000000000",
       "scoreDisplay": "4",
-      "status": "open",
-      "settled": false,
+      "status": "proven",
+      "settled": true,
       "recordStatus": "open",
       "knownBest": {
         "display": "4",
-        "kind": "best",
-        "range": {
-          "lower": "4",
-          "upper": "4"
-        },
-        "comparisonUncertain": true,
-        "certificateDisplay": "4",
-        "source": "Compiled by Erich Friedman; Trivial. Source expression: s = 4.",
-        "url": "https://erich-friedman.github.io/packing/dominsqu/"
+        "kind": "proven",
+        "exact": "4",
+        "proofScope": "continuous",
+        "source": "NUE_13 #31’s full-tiling area argument: L²≥2n, attained for n=2k² by k rows and 2k columns of unit dominoes. Construction in Friedman’s table; no claim for other n with gaps.",
+        "url": "https://minmaxarena.com/proofs/discussion-results-2026-09-18"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "recordedAt": "2026-09-19T07:26:44.308Z",
       "answer": {
         "placements": [
           {
@@ -499,7 +491,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "recordedAt": "2026-09-19T07:26:44.308Z",
       "answer": {
         "placements": [
           {
@@ -585,7 +577,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "recordedAt": "2026-09-19T07:26:44.308Z",
       "answer": {
         "placements": [
           {
@@ -675,7 +667,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "recordedAt": "2026-09-19T07:26:44.308Z",
       "answer": {
         "placements": [
           {
@@ -770,7 +762,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "recordedAt": "2026-09-19T07:26:44.308Z",
       "answer": {
         "placements": [
           {
@@ -871,7 +863,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "recordedAt": "2026-09-19T07:26:44.308Z",
       "answer": {
         "placements": [
           {
@@ -980,7 +972,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "recordedAt": "2026-09-19T07:26:44.308Z",
       "answer": {
         "placements": [
           {
@@ -1093,7 +1085,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "recordedAt": "2026-09-19T07:26:44.308Z",
       "answer": {
         "placements": [
           {
@@ -1202,7 +1194,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "recordedAt": "2026-09-19T07:26:44.308Z",
       "answer": {
         "placements": [
           {
@@ -1316,7 +1308,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "recordedAt": "2026-09-19T07:26:44.308Z",
       "answer": {
         "placements": [
           {
@@ -1418,24 +1410,20 @@
       "objective": "minimize",
       "scoreStored": "6000000024000000097",
       "scoreDisplay": "6.000000025",
-      "status": "open",
-      "settled": false,
+      "status": "proven",
+      "settled": true,
       "recordStatus": "open",
       "knownBest": {
         "display": "6",
-        "kind": "best",
-        "range": {
-          "lower": "6",
-          "upper": "6"
-        },
-        "comparisonUncertain": true,
-        "certificateDisplay": "6.000000025",
-        "source": "Compiled by Erich Friedman; Trivial. Source expression: s = 6.",
-        "url": "https://erich-friedman.github.io/packing/dominsqu/"
+        "kind": "proven",
+        "exact": "6",
+        "proofScope": "continuous",
+        "source": "NUE_13 #31’s full-tiling area argument: L²≥2n, attained for n=2k² by k rows and 2k columns of unit dominoes. Construction in Friedman’s table; no claim for other n with gaps.",
+        "url": "https://minmaxarena.com/proofs/discussion-results-2026-09-18"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "recordedAt": "2026-09-19T07:26:44.308Z",
       "answer": {
         "placements": [
           {
@@ -1560,7 +1548,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "recordedAt": "2026-09-19T07:26:44.308Z",
       "answer": {
         "placements": [
           {
@@ -1703,7 +1691,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "recordedAt": "2026-09-19T07:26:44.308Z",
       "answer": {
         "placements": [
           {
@@ -1848,7 +1836,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "recordedAt": "2026-09-19T07:26:44.308Z",
       "answer": {
         "placements": [
           {
@@ -1996,7 +1984,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "recordedAt": "2026-09-19T07:26:44.308Z",
       "answer": {
         "placements": [
           {
@@ -2150,7 +2138,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "recordedAt": "2026-09-19T07:26:44.308Z",
       "answer": {
         "placements": [
           {
@@ -2310,7 +2298,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "recordedAt": "2026-09-19T07:26:44.308Z",
       "answer": {
         "placements": [
           {
@@ -2477,7 +2465,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "recordedAt": "2026-09-19T07:26:44.308Z",
       "answer": {
         "placements": [
           {
@@ -2645,7 +2633,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "recordedAt": "2026-09-19T07:26:44.308Z",
       "answer": {
         "placements": [
           {
@@ -2825,7 +2813,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "recordedAt": "2026-09-19T07:26:44.308Z",
       "answer": {
         "placements": [
           {
@@ -2994,7 +2982,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "recordedAt": "2026-09-19T07:26:44.308Z",
       "answer": {
         "placements": [
           {
@@ -3168,7 +3156,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "recordedAt": "2026-09-19T07:26:44.308Z",
       "answer": {
         "placements": [
           {
@@ -3347,7 +3335,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "recordedAt": "2026-09-19T07:26:44.308Z",
       "answer": {
         "placements": [
           {
@@ -3531,7 +3519,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "recordedAt": "2026-09-19T07:26:44.308Z",
       "answer": {
         "placements": [
           {
@@ -3703,24 +3691,20 @@
       "objective": "minimize",
       "scoreStored": "8000000000000000000",
       "scoreDisplay": "8",
-      "status": "open",
-      "settled": false,
+      "status": "proven",
+      "settled": true,
       "recordStatus": "open",
       "knownBest": {
         "display": "8",
-        "kind": "best",
-        "range": {
-          "lower": "8",
-          "upper": "8"
-        },
-        "comparisonUncertain": true,
-        "certificateDisplay": "8",
-        "source": "Compiled by Erich Friedman; Trivial. Source expression: s = 8.",
-        "url": "https://erich-friedman.github.io/packing/dominsqu/"
+        "kind": "proven",
+        "exact": "8",
+        "proofScope": "continuous",
+        "source": "NUE_13 #31’s full-tiling area argument: L²≥2n, attained for n=2k² by k rows and 2k columns of unit dominoes. Construction in Friedman’s table; no claim for other n with gaps.",
+        "url": "https://minmaxarena.com/proofs/discussion-results-2026-09-18"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "recordedAt": "2026-09-19T07:26:44.308Z",
       "answer": {
         "placements": [
           {
@@ -3903,7 +3887,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "recordedAt": "2026-09-19T07:26:44.308Z",
       "answer": {
         "placements": [
           {
@@ -4111,7 +4095,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "recordedAt": "2026-09-19T07:26:44.308Z",
       "answer": {
         "placements": [
           {
@@ -4324,7 +4308,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "recordedAt": "2026-09-19T07:26:44.308Z",
       "answer": {
         "placements": [
           {
@@ -4542,7 +4526,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "recordedAt": "2026-09-19T07:26:44.308Z",
       "answer": {
         "placements": [
           {
@@ -4765,7 +4749,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "recordedAt": "2026-09-19T07:26:44.308Z",
       "answer": {
         "placements": [
           {
@@ -4993,7 +4977,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "recordedAt": "2026-09-19T07:26:44.308Z",
       "answer": {
         "placements": [
           {
@@ -5226,7 +5210,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "recordedAt": "2026-09-19T07:26:44.308Z",
       "answer": {
         "placements": [
           {
@@ -5464,7 +5448,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-17T06:41:09.868Z",
+      "recordedAt": "2026-09-19T07:26:44.308Z",
       "answer": {
         "placements": [
           {

@@ -37,7 +37,7 @@ managed.
 
 ## The records
 
-65 problem families, 2141 sub-problems, 2045 still open.
+65 problem families, 2141 sub-problems, 2038 still open.
 `records/` holds today's snapshot of each family; the live files are at
 `https://minmaxarena.com/data/{slug}.json`, and the citable ones are the monthly frozen
 editions at `https://minmaxarena.com/data/editions/{YYYY-MM}/{slug}.json`, which never change
@@ -58,10 +58,10 @@ once published. Data is CC BY 4.0; see
 | [P11](https://minmaxarena.com/en/problems/circles-in-right-triangle) | Equal-circle packing in a right triangle | 11 | 11 | [json](records/circles-in-right-triangle.json) |
 | [P12](https://minmaxarena.com/en/problems/circles-in-rectangle) | Equal-circle packing in a 2:1 rectangle | 10 | 6 | [json](records/circles-in-rectangle.json) |
 | [P13](https://minmaxarena.com/en/problems/graduated-circles-in-square) | Packing circles of radius 1,2,…,n into a square | 29 | 26 | [json](records/graduated-circles-in-square.json) |
-| [P16](https://minmaxarena.com/en/problems/spread-points-in-triangle) | Spreading points in a right triangle | 15 | 15 | [json](records/spread-points-in-triangle.json) |
+| [P16](https://minmaxarena.com/en/problems/spread-points-in-triangle) | Spreading points in a right triangle | 15 | 14 | [json](records/spread-points-in-triangle.json) |
 | [P17](https://minmaxarena.com/en/problems/spread-points-in-rectangle) | Spreading points in a rectangle | 17 | 15 | [json](records/spread-points-in-rectangle.json) |
 | [P18](https://minmaxarena.com/en/problems/tilted-squares-in-square) | Tilted equal squares in the unit square | 28 | 22 | [json](records/tilted-squares-in-square.json) |
-| [P19](https://minmaxarena.com/en/problems/spread-points-in-an-l) | Spreading points in an L | 17 | 16 | [json](records/spread-points-in-an-l.json) |
+| [P19](https://minmaxarena.com/en/problems/spread-points-in-an-l) | Spreading points in an L | 17 | 15 | [json](records/spread-points-in-an-l.json) |
 | [P20](https://minmaxarena.com/en/problems/spread-points-in-a-semicircle) | Spreading points in a half-disc | 15 | 14 | [json](records/spread-points-in-a-semicircle.json) |
 | [P21](https://minmaxarena.com/en/problems/spread-points-in-a-cross) | Spreading points in a plus sign | 17 | 13 | [json](records/spread-points-in-a-cross.json) |
 | [P22](https://minmaxarena.com/en/problems/heilbronn-in-a-circle) | The smallest triangle in a disc | 10 | 10 | [json](records/heilbronn-in-a-circle.json) |
@@ -71,7 +71,7 @@ once published. Data is CC BY 4.0; see
 | [P28](https://minmaxarena.com/en/problems/heilbronn-in-an-annulus) | The smallest triangle in an annulus | 10 | 10 | [json](records/heilbronn-in-an-annulus.json) |
 | [P29](https://minmaxarena.com/en/problems/heilbronn-in-triangle) | Heilbronn's problem in a triangle | 6 | 4 | [json](records/heilbronn-in-triangle.json) |
 | [P30](https://minmaxarena.com/en/problems/circles-in-a-quadrant) | Equal circles in a quadrant | 14 | 14 | [json](records/circles-in-a-quadrant.json) |
-| [P31](https://minmaxarena.com/en/problems/spread-points-in-a-quadrant) | Spreading points in a quadrant | 15 | 15 | [json](records/spread-points-in-a-quadrant.json) |
+| [P31](https://minmaxarena.com/en/problems/spread-points-in-a-quadrant) | Spreading points in a quadrant | 15 | 14 | [json](records/spread-points-in-a-quadrant.json) |
 | [P32](https://minmaxarena.com/en/problems/heilbronn-in-a-quadrant) | The smallest triangle in a quadrant | 10 | 10 | [json](records/heilbronn-in-a-quadrant.json) |
 | [P33](https://minmaxarena.com/en/problems/riesz-energy-in-a-square) | Riesz 2-energy in a square | 20 | 20 | [json](records/riesz-energy-in-a-square.json) |
 | [P34](https://minmaxarena.com/en/problems/riesz-energy-in-a-disc) | Riesz 2-energy in a disc | 16 | 16 | [json](records/riesz-energy-in-a-disc.json) |
@@ -110,7 +110,7 @@ once published. Data is CC BY 4.0; see
 | [P86](https://minmaxarena.com/en/problems/pentagons-in-square) | Regular pentagons in a square | 28 | 28 | [json](records/pentagons-in-square.json) |
 | [P87](https://minmaxarena.com/en/problems/circles-cover-disc) | Equal discs covering a disc | 15 | 15 | [json](records/circles-cover-disc.json) |
 | [P89](https://minmaxarena.com/en/problems/tans-in-square) | Tans in a square | 24 | 24 | [json](records/tans-in-square.json) |
-| [P90](https://minmaxarena.com/en/problems/dominoes-in-square) | Dominoes in a square | 40 | 40 | [json](records/dominoes-in-square.json) |
+| [P90](https://minmaxarena.com/en/problems/dominoes-in-square) | Dominoes in a square | 40 | 36 | [json](records/dominoes-in-square.json) |
 | [P91](https://minmaxarena.com/en/problems/ells-in-square) | L's in a square | 40 | 40 | [json](records/ells-in-square.json) |
 <!-- records:end -->
 

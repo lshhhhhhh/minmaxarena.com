@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/circles-in-an-l",
-  "generatedAt": "2026-09-08T09:50:34.745Z",
+  "generatedAt": "2026-09-19T09:36:49.606Z",
   "instances": [
     {
       "instanceId": "p08-n4-v2",
@@ -28,7 +28,7 @@
         "display": "0.377016124",
         "kind": "proven",
         "exact": "(6 + 2√2 − √(14 + 4√2))/(6 + 4√2)",
-        "source": "optimality proof by MinMax Arena (2026); the attaining construction was submitted by Cphysics",
+        "source": "Construction published by Erich Friedman (June 2005); site certificate and record submitted by Cphysics; global optimality proof by MinMax Arena (2026). Construction discovery, site record and proof are credited separately",
         "url": "https://minmaxarena.com/proofs/circles-in-an-l-n4"
       },
       "holder": "Cphysics",
@@ -68,7 +68,12 @@
       "status": "open",
       "settled": false,
       "recordStatus": "open",
-      "knownBest": null,
+      "knownBest": {
+        "display": "0.34602076124567474048443",
+        "kind": "best",
+        "source": "Compiled by Erich Friedman. The source uses unit-radius circles and L long side s; P08 fixes long side 2, hence r=2/s. Decimal source intervals are inverted with outward rounding, not treated as optimality proofs. Checked 2026-09-18.",
+        "url": "https://erich-friedman.github.io/packing/cirinl/"
+      },
       "holder": "HwaterB",
       "method": "human",
       "recordedAt": "2026-08-30T13:59:35.288Z",
@@ -110,7 +115,12 @@
       "status": "open",
       "settled": false,
       "recordStatus": "open",
-      "knownBest": null,
+      "knownBest": {
+        "display": "0.311720698254364089775562",
+        "kind": "best",
+        "source": "Compiled by Erich Friedman. The source uses unit-radius circles and L long side s; P08 fixes long side 2, hence r=2/s. Decimal source intervals are inverted with outward rounding, not treated as optimality proofs. Checked 2026-09-18.",
+        "url": "https://erich-friedman.github.io/packing/cirinl/"
+      },
       "holder": "HwaterB",
       "method": "human",
       "recordedAt": "2026-08-30T14:10:51.977Z",
@@ -156,7 +166,12 @@
       "status": "open",
       "settled": false,
       "recordStatus": "open",
-      "knownBest": null,
+      "knownBest": {
+        "display": "0.294681007809046706939738",
+        "kind": "best",
+        "source": "Compiled by Erich Friedman. The source uses unit-radius circles and L long side s; P08 fixes long side 2, hence r=2/s. Decimal source intervals are inverted with outward rounding, not treated as optimality proofs. Checked 2026-09-18.",
+        "url": "https://erich-friedman.github.io/packing/cirinl/"
+      },
       "holder": "Sigmoid with Codex",
       "method": "ai",
       "recordedAt": "2026-09-02T21:02:00.778Z",
@@ -206,7 +221,12 @@
       "status": "open",
       "settled": false,
       "recordStatus": "open",
-      "knownBest": null,
+      "knownBest": {
+        "display": "0.281056773468240584598089",
+        "kind": "best",
+        "source": "Compiled by Erich Friedman. The source uses unit-radius circles and L long side s; P08 fixes long side 2, hence r=2/s. Decimal source intervals are inverted with outward rounding, not treated as optimality proofs. Checked 2026-09-18.",
+        "url": "https://erich-friedman.github.io/packing/cirinl/"
+      },
       "holder": "邱仲普",
       "method": "ai",
       "recordedAt": "2026-09-01T10:34:17.112Z",
@@ -260,7 +280,13 @@
       "status": "open",
       "settled": false,
       "recordStatus": "open",
-      "knownBest": null,
+      "knownBest": {
+        "display": "0.272918271701",
+        "kind": "best",
+        "exact": "2/(4+12/√13)",
+        "source": "Compiled by Erich Friedman. The source uses unit-radius circles and L long side s; P08 fixes long side 2, hence r=2/s. Exact construction radius: 2/(4+12/√13). Decimal source intervals are inverted with outward rounding, not treated as optimality proofs. Checked 2026-09-18.",
+        "url": "https://erich-friedman.github.io/packing/cirinl/"
+      },
       "holder": "HwaterB",
       "method": "human",
       "recordedAt": "2026-08-30T14:22:19.553Z",
@@ -318,7 +344,12 @@
       "status": "open",
       "settled": false,
       "recordStatus": "open",
-      "knownBest": null,
+      "knownBest": {
+        "display": "0.262191924488725747246985",
+        "kind": "best",
+        "source": "Compiled by Erich Friedman. The source uses unit-radius circles and L long side s; P08 fixes long side 2, hence r=2/s. Decimal source intervals are inverted with outward rounding, not treated as optimality proofs. Checked 2026-09-18.",
+        "url": "https://erich-friedman.github.io/packing/cirinl/"
+      },
       "holder": "HwaterB",
       "method": "human",
       "recordedAt": "2026-08-30T13:38:33.673Z",
@@ -380,7 +411,13 @@
       "status": "open",
       "settled": false,
       "recordStatus": "open",
-      "knownBest": null,
+      "knownBest": {
+        "display": "0.25433309503",
+        "kind": "best",
+        "exact": "2/(4+√2+√6)",
+        "source": "Compiled by Erich Friedman. The source uses unit-radius circles and L long side s; P08 fixes long side 2, hence r=2/s. Exact construction radius: 2/(4+√2+√6). Decimal source intervals are inverted with outward rounding, not treated as optimality proofs. Checked 2026-09-18.",
+        "url": "https://erich-friedman.github.io/packing/cirinl/"
+      },
       "holder": "邱仲普",
       "method": "ai",
       "recordedAt": "2026-09-01T10:37:47.153Z",
@@ -443,10 +480,16 @@
       "objective": "maximize",
       "scoreStored": "250000000",
       "scoreDisplay": "0.25",
-      "status": "open",
+      "status": "matched",
       "settled": false,
-      "recordStatus": "open",
-      "knownBest": null,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "0.25",
+        "kind": "best",
+        "exact": "1/4",
+        "source": "Compiled by Erich Friedman. The source uses unit-radius circles and L long side s; P08 fixes long side 2, hence r=2/s. Exact construction radius: 1/4. Decimal source intervals are inverted with outward rounding, not treated as optimality proofs. Checked 2026-09-18.",
+        "url": "https://erich-friedman.github.io/packing/cirinl/"
+      },
       "holder": "NUE_13",
       "method": "human",
       "recordedAt": "2026-08-26T12:19:44.382Z",
@@ -516,7 +559,12 @@
       "status": "open",
       "settled": false,
       "recordStatus": "open",
-      "knownBest": null,
+      "knownBest": {
+        "display": "0.226963231956423059464367",
+        "kind": "best",
+        "source": "Compiled by Erich Friedman. The source uses unit-radius circles and L long side s; P08 fixes long side 2, hence r=2/s. Decimal source intervals are inverted with outward rounding, not treated as optimality proofs. Checked 2026-09-18.",
+        "url": "https://erich-friedman.github.io/packing/cirinl/"
+      },
       "holder": "邱仲普",
       "method": "ai",
       "recordedAt": "2026-09-02T04:43:14.897Z",
@@ -590,7 +638,12 @@
       "status": "open",
       "settled": false,
       "recordStatus": "open",
-      "knownBest": null,
+      "knownBest": {
+        "display": "0.220143093010456796917997",
+        "kind": "best",
+        "source": "Compiled by Erich Friedman. The source uses unit-radius circles and L long side s; P08 fixes long side 2, hence r=2/s. Decimal source intervals are inverted with outward rounding, not treated as optimality proofs. Checked 2026-09-18.",
+        "url": "https://erich-friedman.github.io/packing/cirinl/"
+      },
       "holder": "Sigmoid with Codex",
       "method": "ai",
       "recordedAt": "2026-09-02T20:45:36.964Z",
@@ -668,7 +721,12 @@
       "status": "open",
       "settled": false,
       "recordStatus": "open",
-      "knownBest": null,
+      "knownBest": {
+        "display": "0.212494687632809179770506",
+        "kind": "best",
+        "source": "Compiled by Erich Friedman. The source uses unit-radius circles and L long side s; P08 fixes long side 2, hence r=2/s. Decimal source intervals are inverted with outward rounding, not treated as optimality proofs. Checked 2026-09-18.",
+        "url": "https://erich-friedman.github.io/packing/cirinl/"
+      },
       "holder": "邱仲普",
       "method": "ai",
       "recordedAt": "2026-09-01T10:33:26.718Z",
@@ -750,7 +808,12 @@
       "status": "open",
       "settled": false,
       "recordStatus": "open",
-      "knownBest": null,
+      "knownBest": {
+        "display": "0.207576543850544888427608",
+        "kind": "best",
+        "source": "Compiled by Erich Friedman. The source uses unit-radius circles and L long side s; P08 fixes long side 2, hence r=2/s. Decimal source intervals are inverted with outward rounding, not treated as optimality proofs. Checked 2026-09-18.",
+        "url": "https://erich-friedman.github.io/packing/cirinl/"
+      },
       "holder": "邱仲普",
       "method": "ai",
       "recordedAt": "2026-09-01T10:33:38.002Z",
@@ -836,7 +899,12 @@
       "status": "open",
       "settled": false,
       "recordStatus": "open",
-      "knownBest": null,
+      "knownBest": {
+        "display": "0.199915036109653397306145",
+        "kind": "best",
+        "source": "Compiled by Erich Friedman. The source uses unit-radius circles and L long side s; P08 fixes long side 2, hence r=2/s. Decimal source intervals are inverted with outward rounding, not treated as optimality proofs. Checked 2026-09-18.",
+        "url": "https://erich-friedman.github.io/packing/cirinl/"
+      },
       "holder": "Sigmoid with Codex",
       "method": "ai",
       "recordedAt": "2026-09-02T21:55:54.136Z",
@@ -926,7 +994,12 @@
       "status": "open",
       "settled": false,
       "recordStatus": "open",
-      "knownBest": null,
+      "knownBest": {
+        "display": "0.19466842127803711937457",
+        "kind": "best",
+        "source": "Compiled by Erich Friedman. The source uses unit-radius circles and L long side s; P08 fixes long side 2, hence r=2/s. Decimal source intervals are inverted with outward rounding, not treated as optimality proofs. Checked 2026-09-18.",
+        "url": "https://erich-friedman.github.io/packing/cirinl/"
+      },
       "holder": "Sigmoid with Codex",
       "method": "ai",
       "recordedAt": "2026-09-02T20:45:52.611Z",
