@@ -37,7 +37,7 @@ managed.
 
 ## The records
 
-65 problem families, 2141 sub-problems, 2038 still open.
+66 problem families, 2161 sub-problems, 2058 still open.
 `records/` holds today's snapshot of each family; the live files are at
 `https://minmaxarena.com/data/{slug}.json`, and the citable ones are the monthly frozen
 editions at `https://minmaxarena.com/data/editions/{YYYY-MM}/{slug}.json`, which never change
@@ -94,6 +94,7 @@ once published. Data is CC BY 4.0; see
 | [P67](https://minmaxarena.com/en/problems/variable-circles-in-fixed-perimeter-rectangle) | Variable-radius circles in a fixed-perimeter rectangle | 28 | 28 | [json](records/variable-circles-in-fixed-perimeter-rectangle.json) |
 | [P68](https://minmaxarena.com/en/problems/spherical-code-on-s2) | Spherical codes: maximize the minimum angle | 17 | 17 | [json](records/spherical-code-on-s2.json) |
 | [P70](https://minmaxarena.com/en/problems/probe-codebook) | Four-phase radar probe codebook | 9 | 8 | [json](records/probe-codebook.json) |
+| [P71](https://minmaxarena.com/en/problems/l-shaped-optimal-quantization) | Optimal quantization in an L-shaped region | 20 | 20 | [json](records/l-shaped-optimal-quantization.json) |
 | [P72](https://minmaxarena.com/en/problems/heilbronn-tetrahedron) | Heilbronn minimum tetrahedron volume | 12 | 12 | [json](records/heilbronn-tetrahedron.json) |
 | [P73](https://minmaxarena.com/en/problems/circles-covering-a-square) | Covering a square with n equal discs | 31 | 29 | [json](records/circles-covering-a-square.json) |
 | [P74](https://minmaxarena.com/en/problems/circles-covering-an-equilateral-triangle) | Covering an equilateral triangle with n equal discs | 34 | 34 | [json](records/circles-covering-an-equilateral-triangle.json) |

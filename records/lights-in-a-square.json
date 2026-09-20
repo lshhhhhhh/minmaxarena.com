@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/lights-in-a-square",
-  "generatedAt": "2026-09-19T09:36:51.965Z",
+  "generatedAt": "2026-09-20T09:52:41.725Z",
   "instances": [
     {
       "instanceId": "p51-n2-v1",
@@ -1290,8 +1290,8 @@
         "n": 20
       },
       "objective": "maximize",
-      "scoreStored": "174540507",
-      "scoreDisplay": "174.540507",
+      "scoreStored": "174540657",
+      "scoreDisplay": "174.540657",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -1302,11 +1302,11 @@
         "source": "Mishari Alhussain (September 2026), compiled by Erich Friedman, checked 2026-09-18. The interval follows the source's three-decimal truncated precision; optimality is open.",
         "url": "https://erich-friedman.github.io/packing/light/"
       },
-      "holder": "游侠",
-      "method": "ai",
-      "recordedAt": "2026-09-12T06:42:24.689Z",
+      "holder": "jiehangbenren",
+      "method": "human",
+      "recordedAt": "2026-09-19T13:58:27.336Z",
       "answer": {
-        "intensity": "174.540507",
+        "intensity": "174.540657",
         "lights": [
           [
             "0.063853608",
@@ -1334,7 +1334,7 @@
           ],
           [
             "0.363674163",
-            "0.363675990"
+            "0.363600000"
           ],
           [
             "0.636323237",
@@ -1365,7 +1365,7 @@
             "0.936141717"
           ],
           [
-            "0.071508099",
+            "0.071508090",
             "0.719398482"
           ],
           [
@@ -1381,12 +1381,12 @@
             "0.719395314"
           ],
           [
-            "0.074800325",
+            "0.074800900",
             "0.500000234"
           ],
           [
-            "0.925204859",
-            "0.499999981"
+            "0.925204865",
+            "0.499999982"
           ]
         ]
       }
