@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/probe-codebook",
-  "generatedAt": "2026-09-21T10:50:50.396Z",
+  "generatedAt": "2026-09-22T10:05:58.843Z",
   "instances": [
     {
       "instanceId": "p70-n9-v1",
@@ -85,25 +85,21 @@
         "correlation": "aperiodic"
       },
       "objective": "minimize",
-      "scoreStored": "1951304526",
-      "scoreDisplay": "20 · 14 · 2972",
+      "scoreStored": "1950356678",
+      "scoreDisplay": "20 · 10 · 3048",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
       "knownBest": null,
       "holder": "CCHES",
       "method": "ai",
-      "recordedAt": "2026-09-21T04:27:56.326Z",
+      "recordedAt": "2026-09-22T06:07:57.056Z",
       "answer": {
-        "C": 14,
-        "E": 2972,
-        "M": 20,
-        "n": 17,
         "sequences": [
           "00301000103012110",
-          "01122130131031013",
+          "01303031111223032",
           "02320332221132011",
-          "02213200001123211",
+          "02320310233210123",
           "02231220211331202"
         ]
       }
