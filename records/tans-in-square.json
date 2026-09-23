@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/tans-in-square",
-  "generatedAt": "2026-09-21T10:50:51.737Z",
+  "generatedAt": "2026-09-23T10:06:40.205Z",
   "instances": [
     {
       "instanceId": "p89-n1-v1",
@@ -2064,8 +2064,8 @@
         "sides": 5
       },
       "objective": "minimize",
-      "scoreStored": "3392767023088943312",
-      "scoreDisplay": "3.392767024",
+      "scoreStored": "3392766988556339444",
+      "scoreDisplay": "3.392766989",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -2082,9 +2082,9 @@
         "source": "Compiled by Erich Friedman; Found by Maurizio Morandi in December 2007. Source expression: s = 3.392+.",
         "url": "https://erich-friedman.github.io/packing/taninsqu/"
       },
-      "holder": null,
+      "holder": "😰",
       "method": "human",
-      "recordedAt": "2026-09-21T02:34:44.872Z",
+      "recordedAt": "2026-09-22T11:13:14.704Z",
       "answer": {
         "placements": [
           {
@@ -2218,7 +2218,7 @@
             "y": "0.785262762"
           }
         ],
-        "radius": "0.294744671"
+        "radius": "0.294744674"
       }
     },
     {
@@ -2229,11 +2229,11 @@
         "sides": 5
       },
       "objective": "minimize",
-      "scoreStored": "3464000009255808025",
-      "scoreDisplay": "3.46400001",
-      "status": "matched",
+      "scoreStored": "3463922087580032535",
+      "scoreDisplay": "3.463922088",
+      "status": "ahead",
       "settled": false,
-      "recordStatus": "matched",
+      "recordStatus": "ahead",
       "knownBest": {
         "display": "3.464",
         "kind": "best",
@@ -2247,9 +2247,9 @@
         "source": "Compiled by Erich Friedman; Found by Maurizio Morandi in December 2007. Source expression: s = 3.464+.",
         "url": "https://erich-friedman.github.io/packing/taninsqu/"
       },
-      "holder": null,
+      "holder": "😰",
       "method": "human",
-      "recordedAt": "2026-09-21T02:34:44.872Z",
+      "recordedAt": "2026-09-22T10:21:51.131Z",
       "answer": {
         "placements": [
           {
@@ -2384,7 +2384,7 @@
             "y": "0.852111970"
           }
         ],
-        "radius": "0.288683602"
+        "radius": "0.288690096"
       }
     },
     {
@@ -2395,11 +2395,11 @@
         "sides": 5
       },
       "objective": "minimize",
-      "scoreStored": "3517000006872218014",
-      "scoreDisplay": "3.517000007",
-      "status": "matched",
+      "scoreStored": "3515298853044109074",
+      "scoreDisplay": "3.515298854",
+      "status": "ahead",
       "settled": false,
-      "recordStatus": "matched",
+      "recordStatus": "ahead",
       "knownBest": {
         "display": "3.517",
         "kind": "best",
@@ -2413,9 +2413,9 @@
         "source": "Compiled by Erich Friedman; Found by David W. Cantrell in August 2007. Source expression: s = 3.517+.",
         "url": "https://erich-friedman.github.io/packing/taninsqu/"
       },
-      "holder": null,
+      "holder": "😰",
       "method": "human",
-      "recordedAt": "2026-09-21T02:34:44.872Z",
+      "recordedAt": "2026-09-22T10:21:28.610Z",
       "answer": {
         "placements": [
           {
@@ -2557,7 +2557,7 @@
             "y": "0.374139926"
           }
         ],
-        "radius": "0.284333238"
+        "radius": "0.284470835"
       }
     }
   ]
