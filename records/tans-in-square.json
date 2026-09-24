@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/tans-in-square",
-  "generatedAt": "2026-09-23T10:06:40.205Z",
+  "generatedAt": "2026-09-24T10:12:48.747Z",
   "instances": [
     {
       "instanceId": "p89-n1-v1",
@@ -1911,8 +1911,8 @@
         "sides": 5
       },
       "objective": "minimize",
-      "scoreStored": "3340065736835786387",
-      "scoreDisplay": "3.340065737",
+      "scoreStored": "3340065714523708283",
+      "scoreDisplay": "3.340065715",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -1929,9 +1929,9 @@
         "source": "Compiled by Erich Friedman; Found by Maurizio Morandi in March 2008. Source expression: s = 3.340+.",
         "url": "https://erich-friedman.github.io/packing/taninsqu/"
       },
-      "holder": null,
+      "holder": "😰",
       "method": "human",
-      "recordedAt": "2026-09-21T02:34:44.872Z",
+      "recordedAt": "2026-09-24T05:22:06.736Z",
       "answer": {
         "placements": [
           {
@@ -2053,7 +2053,7 @@
             "y": "0.656759269"
           }
         ],
-        "radius": "0.299395305"
+        "radius": "0.299395307"
       }
     },
     {

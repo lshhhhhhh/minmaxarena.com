@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/ells-in-square",
-  "generatedAt": "2026-09-21T10:50:51.882Z",
+  "generatedAt": "2026-09-24T10:12:48.959Z",
   "instances": [
     {
       "instanceId": "p91-n1-v1",
@@ -104,8 +104,8 @@
         "sides": 5
       },
       "objective": "minimize",
-      "scoreStored": "3621320381792041680",
-      "scoreDisplay": "3.621320382",
+      "scoreStored": "3621320368678080420",
+      "scoreDisplay": "3.621320369",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -122,13 +122,13 @@
         "source": "Compiled by Erich Friedman; Found by Serhiy Grabarchuk in July 2005. Source expression: s = (3 + 3√2) / 2 = 3.621+.",
         "url": "https://erich-friedman.github.io/packing/linsqu/"
       },
-      "holder": null,
+      "holder": "玄月",
       "method": "human",
-      "recordedAt": "2026-09-21T02:34:44.872Z",
+      "recordedAt": "2026-09-23T18:55:55.547Z",
       "answer": {
         "placements": [
           {
-            "turn": "0.414213562",
+            "turn": "0.414213563",
             "x": "0.414213562",
             "y": "0.804737853"
           },
@@ -144,7 +144,7 @@
             "y": "0.276142375"
           }
         ],
-        "radius": "0.276142372"
+        "radius": "0.276142373"
       }
     },
     {
@@ -492,8 +492,8 @@
         "sides": 5
       },
       "objective": "minimize",
-      "scoreStored": "5819019858609804617",
-      "scoreDisplay": "5.819019859",
+      "scoreStored": "5819016337068755827",
+      "scoreDisplay": "5.819016338",
       "status": "ahead",
       "settled": false,
       "recordStatus": "ahead",
@@ -510,9 +510,9 @@
         "source": "Compiled by Erich Friedman; Found by Aapo Lipponen in July 2026. Source expression: s = 5.81902+.",
         "url": "https://erich-friedman.github.io/packing/linsqu/"
       },
-      "holder": "qwert",
+      "holder": "玄月",
       "method": "human",
-      "recordedAt": "2026-09-17T13:37:45.370Z",
+      "recordedAt": "2026-09-23T19:22:14.268Z",
       "answer": {
         "placements": [
           {
@@ -535,8 +535,8 @@
           {
             "quarter": 2,
             "turn": "-0.248150064",
-            "x": "0.424043181",
-            "y": "0.488073772"
+            "x": "0.424043000",
+            "y": "0.488073000"
           },
           {
             "quarter": 1,
@@ -553,8 +553,8 @@
           {
             "quarter": 2,
             "turn": "0.000000000",
-            "x": "0.484448963",
-            "y": "0.828149474"
+            "x": "0.483845917",
+            "y": "0.828149174"
           },
           {
             "turn": "0.000000000",
@@ -568,7 +568,7 @@
             "y": "0.121516682"
           }
         ],
-        "radius": "0.171850247"
+        "radius": "0.171850351"
       }
     },
     {
@@ -1317,8 +1317,8 @@
         "sides": 5
       },
       "objective": "minimize",
-      "scoreStored": "7747547167241473978",
-      "scoreDisplay": "7.747547168",
+      "scoreStored": "7747547107216987334",
+      "scoreDisplay": "7.747547108",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -1335,9 +1335,9 @@
         "source": "Compiled by Erich Friedman; Found by Maurizio Morandi in June 2012. Source expression: s = 19/3 + √2 = 7.747+.",
         "url": "https://erich-friedman.github.io/packing/linsqu/"
       },
-      "holder": null,
+      "holder": "玄月",
       "method": "human",
-      "recordedAt": "2026-09-21T02:34:44.872Z",
+      "recordedAt": "2026-09-23T19:48:58.653Z",
       "answer": {
         "placements": [
           {
@@ -1437,7 +1437,7 @@
             "y": "0.129542974"
           }
         ],
-        "radius": "0.129073109"
+        "radius": "0.129073110"
       }
     },
     {
