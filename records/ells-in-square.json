@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/ells-in-square",
-  "generatedAt": "2026-09-24T10:12:48.959Z",
+  "generatedAt": "2026-09-25T10:17:56.360Z",
   "instances": [
     {
       "instanceId": "p91-n1-v1",
@@ -22,24 +22,20 @@
       "objective": "minimize",
       "scoreStored": "2000000000000000000",
       "scoreDisplay": "2",
-      "status": "open",
-      "settled": false,
+      "status": "proven",
+      "settled": true,
       "recordStatus": "open",
       "knownBest": {
         "display": "2",
-        "kind": "best",
-        "range": {
-          "lower": "2",
-          "upper": "2"
-        },
-        "comparisonUncertain": true,
-        "certificateDisplay": "2",
-        "source": "Compiled by Erich Friedman; Trivial. Source expression: s = 2.",
-        "url": "https://erich-friedman.github.io/packing/linsqu/"
+        "kind": "proven",
+        "exact": "2",
+        "proofScope": "continuous",
+        "source": "Diameter bound submitted by 😰 #106: two points of a contained shape cannot be farther apart than the square diagonal. Existing constructions attain equality exactly; Friedman provenance and site history remain. No new construction is claimed.",
+        "url": "https://minmaxarena.com/proofs/square-container-diameter"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-21T02:34:44.872Z",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
       "answer": {
         "placements": [
           {
@@ -78,7 +74,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-21T02:34:44.872Z",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
       "answer": {
         "placements": [
           {
@@ -174,7 +170,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-21T02:34:44.872Z",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
       "answer": {
         "placements": [
           {
@@ -230,7 +226,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-21T02:34:44.872Z",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
       "answer": {
         "placements": [
           {
@@ -293,7 +289,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-21T02:34:44.872Z",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
       "answer": {
         "placements": [
           {
@@ -360,7 +356,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-21T02:34:44.872Z",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
       "answer": {
         "placements": [
           {
@@ -432,7 +428,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-21T02:34:44.872Z",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
       "answer": {
         "placements": [
           {
@@ -598,7 +594,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-21T02:34:44.872Z",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
       "answer": {
         "placements": [
           {
@@ -686,7 +682,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-21T02:34:44.872Z",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
       "answer": {
         "placements": [
           {
@@ -780,7 +776,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-21T02:34:44.872Z",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
       "answer": {
         "placements": [
           {
@@ -881,7 +877,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-21T02:34:44.872Z",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
       "answer": {
         "placements": [
           {
@@ -988,7 +984,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-21T02:34:44.872Z",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
       "answer": {
         "placements": [
           {
@@ -1098,7 +1094,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-21T02:34:44.872Z",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
       "answer": {
         "placements": [
           {
@@ -1214,7 +1210,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-21T02:34:44.872Z",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
       "answer": {
         "placements": [
           {
@@ -1468,7 +1464,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-21T02:34:44.872Z",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
       "answer": {
         "placements": [
           {
@@ -1604,7 +1600,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-21T02:34:44.872Z",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
       "answer": {
         "placements": [
           {
@@ -1741,7 +1737,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-21T02:34:44.872Z",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
       "answer": {
         "placements": [
           {
@@ -1883,7 +1879,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-21T02:34:44.872Z",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
       "answer": {
         "placements": [
           {
@@ -2199,7 +2195,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-21T02:34:44.872Z",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
       "answer": {
         "placements": [
           {
@@ -2366,7 +2362,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-21T02:34:44.872Z",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
       "answer": {
         "placements": [
           {
@@ -2531,7 +2527,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-21T02:34:44.872Z",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
       "answer": {
         "placements": [
           {
@@ -2701,7 +2697,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-21T02:34:44.872Z",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
       "answer": {
         "placements": [
           {
@@ -2878,7 +2874,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-21T02:34:44.872Z",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
       "answer": {
         "placements": [
           {
@@ -3060,7 +3056,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-21T02:34:44.872Z",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
       "answer": {
         "placements": [
           {
@@ -3236,7 +3232,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-21T02:34:44.872Z",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
       "answer": {
         "placements": [
           {
@@ -3418,7 +3414,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-21T02:34:44.872Z",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
       "answer": {
         "placements": [
           {
@@ -3606,7 +3602,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-21T02:34:44.872Z",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
       "answer": {
         "placements": [
           {
@@ -3800,7 +3796,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-21T02:34:44.872Z",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
       "answer": {
         "placements": [
           {
@@ -4000,7 +3996,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-21T02:34:44.872Z",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
       "answer": {
         "placements": [
           {
@@ -4207,7 +4203,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-21T02:34:44.872Z",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
       "answer": {
         "placements": [
           {
@@ -4416,7 +4412,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-21T02:34:44.872Z",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
       "answer": {
         "placements": [
           {
@@ -4631,7 +4627,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-21T02:34:44.872Z",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
       "answer": {
         "placements": [
           {
@@ -4852,7 +4848,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-21T02:34:44.872Z",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
       "answer": {
         "placements": [
           {
@@ -5078,7 +5074,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-21T02:34:44.872Z",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
       "answer": {
         "placements": [
           {
@@ -5310,7 +5306,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-21T02:34:44.872Z",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
       "answer": {
         "placements": [
           {
@@ -5548,7 +5544,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-21T02:34:44.872Z",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
       "answer": {
         "placements": [
           {

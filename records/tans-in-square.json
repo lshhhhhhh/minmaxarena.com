@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/tans-in-square",
-  "generatedAt": "2026-09-24T10:12:48.747Z",
+  "generatedAt": "2026-09-25T10:17:56.124Z",
   "instances": [
     {
       "instanceId": "p89-n1-v1",
@@ -22,24 +22,20 @@
       "objective": "minimize",
       "scoreStored": "1000000000000000000",
       "scoreDisplay": "1",
-      "status": "open",
-      "settled": false,
+      "status": "proven",
+      "settled": true,
       "recordStatus": "open",
       "knownBest": {
         "display": "1",
-        "kind": "best",
-        "range": {
-          "lower": "1",
-          "upper": "1"
-        },
-        "comparisonUncertain": true,
-        "certificateDisplay": "1",
-        "source": "Compiled by Erich Friedman; Trivial. Source expression: s = 1.",
-        "url": "https://erich-friedman.github.io/packing/taninsqu/"
+        "kind": "proven",
+        "exact": "1",
+        "proofScope": "continuous",
+        "source": "Diameter bound submitted by 😰 #106: two points of a contained shape cannot be farther apart than the square diagonal. Existing constructions attain equality exactly; Friedman provenance and site history remain. No new construction is claimed.",
+        "url": "https://minmaxarena.com/proofs/square-container-diameter"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-21T02:34:44.872Z",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
       "answer": {
         "placements": [
           {
@@ -61,24 +57,20 @@
       "objective": "minimize",
       "scoreStored": "1000000000000000000",
       "scoreDisplay": "1",
-      "status": "open",
-      "settled": false,
+      "status": "proven",
+      "settled": true,
       "recordStatus": "open",
       "knownBest": {
         "display": "1",
-        "kind": "best",
-        "range": {
-          "lower": "1",
-          "upper": "1"
-        },
-        "comparisonUncertain": true,
-        "certificateDisplay": "1",
-        "source": "Compiled by Erich Friedman; Trivial. Source expression: s = 1.",
-        "url": "https://erich-friedman.github.io/packing/taninsqu/"
+        "kind": "proven",
+        "exact": "1",
+        "proofScope": "continuous",
+        "source": "Diameter bound submitted by 😰 #106: two points of a contained shape cannot be farther apart than the square diagonal. Existing constructions attain equality exactly; Friedman provenance and site history remain. No new construction is claimed.",
+        "url": "https://minmaxarena.com/proofs/square-container-diameter"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-21T02:34:44.872Z",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
       "answer": {
         "placements": [
           {
@@ -125,7 +117,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-21T02:34:44.872Z",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
       "answer": {
         "placements": [
           {
@@ -178,7 +170,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-21T02:34:44.872Z",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
       "answer": {
         "placements": [
           {
@@ -236,7 +228,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-21T02:34:44.872Z",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
       "answer": {
         "placements": [
           {
@@ -301,7 +293,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-21T02:34:44.872Z",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
       "answer": {
         "placements": [
           {
@@ -372,7 +364,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-21T02:34:44.872Z",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
       "answer": {
         "placements": [
           {
@@ -446,7 +438,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-21T02:34:44.872Z",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
       "answer": {
         "placements": [
           {
@@ -525,7 +517,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-21T02:34:44.872Z",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
       "answer": {
         "placements": [
           {
@@ -610,7 +602,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-21T02:34:44.872Z",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
       "answer": {
         "placements": [
           {
@@ -702,7 +694,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-21T02:34:44.872Z",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
       "answer": {
         "placements": [
           {
@@ -797,7 +789,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-21T02:34:44.872Z",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
       "answer": {
         "placements": [
           {
@@ -902,7 +894,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-21T02:34:44.872Z",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
       "answer": {
         "placements": [
           {
@@ -1012,7 +1004,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-21T02:34:44.872Z",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
       "answer": {
         "placements": [
           {
@@ -1250,7 +1242,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-21T02:34:44.872Z",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
       "answer": {
         "placements": [
           {
@@ -1377,7 +1369,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-21T02:34:44.872Z",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
       "answer": {
         "placements": [
           {
@@ -1509,7 +1501,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-21T02:34:44.872Z",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
       "answer": {
         "placements": [
           {
@@ -1643,7 +1635,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-21T02:34:44.872Z",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
       "answer": {
         "placements": [
           {
@@ -1785,7 +1777,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-21T02:34:44.872Z",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
       "answer": {
         "placements": [
           {
