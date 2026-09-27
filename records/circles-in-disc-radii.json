@@ -1,0 +1,7984 @@
+{
+  "problem": "circles-in-disc-radii",
+  "code": "P92",
+  "title": "单位圆内圆的半径之和",
+  "titleEn": "Sum of radii in the unit circle",
+  "objective": "maximize",
+  "scoreLabel": "半径之和",
+  "scoreLabelEn": "the sum of the radii",
+  "verifierVersion": "1.0.0",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseName": "CC BY 4.0",
+  "source": "https://minmaxarena.com/problems/circles-in-disc-radii",
+  "generatedAt": "2026-09-27T10:36:59.165Z",
+  "instances": [
+    {
+      "instanceId": "p92-n1-v1",
+      "name": "n = 1",
+      "parameters": {
+        "n": 1
+      },
+      "objective": "maximize",
+      "scoreStored": "1000000000",
+      "scoreDisplay": "1",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "optimal",
+      "knownBest": {
+        "display": "1",
+        "kind": "proven",
+        "exact": "1",
+        "certificateDisplay": "1",
+        "source": "with one circle the container itself, r = 1",
+        "url": "https://erich-friedman.github.io/packing/cirRcir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "answer": {
+        "circles": [
+          [
+            "1.000000000",
+            "1.000000000",
+            "1.000000000"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p92-n2-v1",
+      "name": "n = 2",
+      "parameters": {
+        "n": 2
+      },
+      "objective": "maximize",
+      "scoreStored": "1000000000",
+      "scoreDisplay": "1",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "optimal",
+      "knownBest": {
+        "display": "1",
+        "kind": "proven",
+        "exact": "1",
+        "certificateDisplay": "1",
+        "source": "two disjoint circles: their centres are at least r₁ + r₂ apart and at most 1 − r₁ and 1 − r₂ from the container's centre, so r₁ + r₂ ≤ 1, attained by two circles of radius 1/2",
+        "url": "https://erich-friedman.github.io/packing/cirRcir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "answer": {
+        "circles": [
+          [
+            "0.500000000",
+            "1.000000000",
+            "0.500000000"
+          ],
+          [
+            "1.500000000",
+            "1.000000000",
+            "0.500000000"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p92-n3-v1",
+      "name": "n = 3",
+      "parameters": {
+        "n": 3
+      },
+      "objective": "maximize",
+      "scoreStored": "1392304844",
+      "scoreDisplay": "1.392304844",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "1.392",
+        "kind": "best",
+        "range": {
+          "lower": "1.392",
+          "upper": "1.393"
+        },
+        "comparisonUncertain": true,
+        "truncated": true,
+        "certificateDisplay": "1.392304844",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Circles); Trivial. Source expression: Σ r = 6√3−9 = 1.392+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRcir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "answer": {
+        "circles": [
+          [
+            "1.001410712",
+            "1.535896527",
+            "0.464101616"
+          ],
+          [
+            "1.463394644",
+            "0.730830014",
+            "0.464101616"
+          ],
+          [
+            "0.535194631",
+            "0.733273453",
+            "0.464101612"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p92-n4-v1",
+      "name": "n = 4",
+      "parameters": {
+        "n": 4
+      },
+      "objective": "maximize",
+      "scoreStored": "1666666666",
+      "scoreDisplay": "1.666666666",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "1.666",
+        "kind": "best",
+        "range": {
+          "lower": "1.666",
+          "upper": "1.667"
+        },
+        "truncated": true,
+        "certificateDisplay": "1.666666664",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Circles); Found by Veit Elser in November 2009. Source expression: Σ r = 5/3 = 1.666+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRcir/"
+      },
+      "holder": "Tmrg",
+      "method": "human",
+      "recordedAt": "2026-09-27T04:28:09.029Z",
+      "answer": {
+        "circles": [
+          [
+            "0.500000000",
+            "1.000000000",
+            "0.500000000"
+          ],
+          [
+            "1.500000000",
+            "1.000000000",
+            "0.500000000"
+          ],
+          [
+            "1.000000000",
+            "1.666666667",
+            "0.333333333"
+          ],
+          [
+            "1.000000000",
+            "0.333333333",
+            "0.333333333"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p92-n5-v1",
+      "name": "n = 5",
+      "parameters": {
+        "n": 5
+      },
+      "objective": "maximize",
+      "scoreStored": "1866843607",
+      "scoreDisplay": "1.866843607",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "1.86684",
+        "kind": "best",
+        "range": {
+          "lower": "1.866835",
+          "upper": "1.866845"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "1.866843606",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Circles); Found by Haowei Lin in July 2026. Source expression: Σ r = 1.86684+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRcir/"
+      },
+      "holder": "NUE_13",
+      "method": "human",
+      "recordedAt": "2026-09-27T05:50:41.503Z",
+      "answer": {
+        "circles": [
+          [
+            "1.448390923",
+            "0.896988764",
+            "0.539928554"
+          ],
+          [
+            "0.513924773",
+            "0.681747432",
+            "0.419006176"
+          ],
+          [
+            "0.701558006",
+            "1.498483905",
+            "0.419006172"
+          ],
+          [
+            "1.012969245",
+            "0.244562674",
+            "0.244451354"
+          ],
+          [
+            "1.341369154",
+            "1.674033279",
+            "0.244451351"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p92-n6-v1",
+      "name": "n = 6",
+      "parameters": {
+        "n": 6
+      },
+      "objective": "maximize",
+      "scoreStored": "2110575722",
+      "scoreDisplay": "2.110575722",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "2.110",
+        "kind": "best",
+        "range": {
+          "lower": "2.110",
+          "upper": "2.111"
+        },
+        "truncated": true,
+        "certificateDisplay": "2.110575721",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Circles); Found by Veit Elser in November 2009. Source expression: Σ r = 1+3/(1+csc(π/5)) = 2.110+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRcir/"
+      },
+      "holder": "Tmrg",
+      "method": "ai",
+      "recordedAt": "2026-09-27T10:15:48.514Z",
+      "answer": {
+        "circles": [
+          [
+            "1.220574145",
+            "1.589919725",
+            "0.370191905"
+          ],
+          [
+            "0.474805664",
+            "0.652395142",
+            "0.370191911"
+          ],
+          [
+            "0.507114165",
+            "1.392073697",
+            "0.370191910"
+          ],
+          [
+            "1.168297897",
+            "0.393094694",
+            "0.370191908"
+          ],
+          [
+            "1.629208159",
+            "0.972516753",
+            "0.370191905"
+          ],
+          [
+            "1.000000006",
+            "1.000000002",
+            "0.259616183"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p92-n7-v1",
+      "name": "n = 7",
+      "parameters": {
+        "n": 7
+      },
+      "objective": "maximize",
+      "scoreStored": "2333333331",
+      "scoreDisplay": "2.333333331",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "2.333",
+        "kind": "best",
+        "range": {
+          "lower": "2.333",
+          "upper": "2.334"
+        },
+        "truncated": true,
+        "certificateDisplay": "2.333333327",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Circles); Found by Veit Elser in November 2009. Source expression: Σ r = 7/3 = 2.333+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRcir/"
+      },
+      "holder": "Tmrg",
+      "method": "human",
+      "recordedAt": "2026-09-27T04:33:46.153Z",
+      "answer": {
+        "circles": [
+          [
+            "1.666666667",
+            "1.000000000",
+            "0.333333333"
+          ],
+          [
+            "1.333333333",
+            "1.577350269",
+            "0.333333333"
+          ],
+          [
+            "1.333333333",
+            "0.422649731",
+            "0.333333333"
+          ],
+          [
+            "0.666666666",
+            "1.577350269",
+            "0.333333333"
+          ],
+          [
+            "1.000000000",
+            "1.000000000",
+            "0.333333333"
+          ],
+          [
+            "0.666666666",
+            "0.422649731",
+            "0.333333333"
+          ],
+          [
+            "0.333333333",
+            "1.000000000",
+            "0.333333333"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p92-n8-v1",
+      "name": "n = 8",
+      "parameters": {
+        "n": 8
+      },
+      "objective": "maximize",
+      "scoreStored": "2512966937",
+      "scoreDisplay": "2.512966937",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "2.512",
+        "kind": "best",
+        "range": {
+          "lower": "2.512",
+          "upper": "2.513"
+        },
+        "truncated": true,
+        "certificateDisplay": "2.512966937",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Circles); Found by Veit Elser in November 2009. Source expression: Σ r = 1+5/(1+csc(π/7)) = 2.512+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRcir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "answer": {
+        "circles": [
+          [
+            "1.000000007",
+            "1.000000006",
+            "0.394813223"
+          ],
+          [
+            "1.545626066",
+            "1.434359510",
+            "0.302593383"
+          ],
+          [
+            "1.679788228",
+            "0.844231100",
+            "0.302593385"
+          ],
+          [
+            "0.696869437",
+            "0.371917332",
+            "0.302593392"
+          ],
+          [
+            "1.302055998",
+            "0.371399845",
+            "0.302593389"
+          ],
+          [
+            "1.000596360",
+            "1.697406360",
+            "0.302593384"
+          ],
+          [
+            "0.455117582",
+            "1.435292007",
+            "0.302593389"
+          ],
+          [
+            "0.319946379",
+            "0.845393892",
+            "0.302593392"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p92-n9-v1",
+      "name": "n = 9",
+      "parameters": {
+        "n": 9
+      },
+      "objective": "maximize",
+      "scoreStored": "2660611920",
+      "scoreDisplay": "2.66061192",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "2.660",
+        "kind": "best",
+        "range": {
+          "lower": "2.660",
+          "upper": "2.661"
+        },
+        "truncated": true,
+        "certificateDisplay": "2.660611918",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Circles); Found by Veit Elser in November 2009. Source expression: Σ r = 1+6/(1+csc(π/8)) = 2.660+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRcir/"
+      },
+      "holder": "Tmrg",
+      "method": "human",
+      "recordedAt": "2026-09-27T05:44:01.147Z",
+      "answer": {
+        "circles": [
+          [
+            "1.000000000",
+            "1.000000000",
+            "0.446462692"
+          ],
+          [
+            "1.723231346",
+            "1.000000000",
+            "0.276768654"
+          ],
+          [
+            "0.276768654",
+            "1.000000000",
+            "0.276768654"
+          ],
+          [
+            "1.000000000",
+            "0.276768654",
+            "0.276768654"
+          ],
+          [
+            "1.000000000",
+            "1.723231346",
+            "0.276768654"
+          ],
+          [
+            "1.511401789",
+            "1.511401789",
+            "0.276768653"
+          ],
+          [
+            "1.511401789",
+            "0.488598211",
+            "0.276768653"
+          ],
+          [
+            "0.488598211",
+            "1.511401789",
+            "0.276768653"
+          ],
+          [
+            "0.488598211",
+            "0.488598211",
+            "0.276768653"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p92-n10-v1",
+      "name": "n = 10",
+      "parameters": {
+        "n": 10
+      },
+      "objective": "maximize",
+      "scoreStored": "2783982904",
+      "scoreDisplay": "2.783982904",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "2.783",
+        "kind": "best",
+        "range": {
+          "lower": "2.783",
+          "upper": "2.784"
+        },
+        "truncated": true,
+        "certificateDisplay": "2.783982904",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Circles); Found by David W. Cantrell in April 2011. Source expression: Σ r = 1+7/(1+csc(π/9)) = 2.783+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRcir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "answer": {
+        "circles": [
+          [
+            "1.000000005",
+            "1.000000006",
+            "0.490290596"
+          ],
+          [
+            "1.479278619",
+            "1.570555454",
+            "0.254854697"
+          ],
+          [
+            "1.645113299",
+            "0.627078629",
+            "0.254854700"
+          ],
+          [
+            "1.000402756",
+            "1.745145192",
+            "0.254854698"
+          ],
+          [
+            "1.254476219",
+            "0.299654823",
+            "0.254854703"
+          ],
+          [
+            "0.521338437",
+            "1.571073222",
+            "0.254854700"
+          ],
+          [
+            "0.266245181",
+            "1.129789744",
+            "0.254854703"
+          ],
+          [
+            "0.744766884",
+            "0.299930313",
+            "0.254854705"
+          ],
+          [
+            "1.733894697",
+            "1.128996486",
+            "0.254854698"
+          ],
+          [
+            "0.354483964",
+            "0.627776199",
+            "0.254854704"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p92-n11-v1",
+      "name": "n = 11",
+      "parameters": {
+        "n": 11
+      },
+      "objective": "maximize",
+      "scoreStored": "2947616238",
+      "scoreDisplay": "2.947616238",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "2.947",
+        "kind": "best",
+        "range": {
+          "lower": "2.947",
+          "upper": "2.948"
+        },
+        "truncated": true,
+        "certificateDisplay": "2.947616238",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Circles); Found by Veit Elser in November 2009. Source expression: Σ r = 2.947+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRcir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "answer": {
+        "circles": [
+          [
+            "0.999810377",
+            "0.351607491",
+            "0.351607463"
+          ],
+          [
+            "1.502242979",
+            "1.447838563",
+            "0.327090356"
+          ],
+          [
+            "0.498019087",
+            "1.448132281",
+            "0.327090363"
+          ],
+          [
+            "1.263623343",
+            "0.907435655",
+            "0.263650392"
+          ],
+          [
+            "0.736322577",
+            "0.907589875",
+            "0.263650395"
+          ],
+          [
+            "1.000217658",
+            "1.744144047",
+            "0.255855920"
+          ],
+          [
+            "0.425703003",
+            "0.507095580",
+            "0.243183107"
+          ],
+          [
+            "1.574008596",
+            "0.506759744",
+            "0.243183101"
+          ],
+          [
+            "1.761927307",
+            "0.947875070",
+            "0.236291790"
+          ],
+          [
+            "0.238042342",
+            "0.948320763",
+            "0.236291798"
+          ],
+          [
+            "1.000084409",
+            "1.288566593",
+            "0.199721553"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p92-n12-v1",
+      "name": "n = 12",
+      "parameters": {
+        "n": 12
+      },
+      "objective": "maximize",
+      "scoreStored": "3103853432",
+      "scoreDisplay": "3.103853432",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "3.103",
+        "kind": "best",
+        "range": {
+          "lower": "3.103",
+          "upper": "3.104"
+        },
+        "truncated": true,
+        "certificateDisplay": "3.103853432",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Circles); Found by Veit Elser in November 2009. Source expression: Σ r = 3.103+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRcir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "answer": {
+        "circles": [
+          [
+            "1.000189398",
+            "1.678403930",
+            "0.321596043"
+          ],
+          [
+            "1.587420358",
+            "0.660634054",
+            "0.321596047"
+          ],
+          [
+            "0.412390283",
+            "0.660962054",
+            "0.321596058"
+          ],
+          [
+            "0.733296694",
+            "1.154080532",
+            "0.266746322"
+          ],
+          [
+            "1.266789314",
+            "1.153931604",
+            "0.266746318"
+          ],
+          [
+            "0.999914033",
+            "0.691987902",
+            "0.266746324"
+          ],
+          [
+            "1.756051384",
+            "1.178609390",
+            "0.223137714"
+          ],
+          [
+            "1.222930014",
+            "0.255811042",
+            "0.223137723"
+          ],
+          [
+            "1.533021564",
+            "1.565157521",
+            "0.223137713"
+          ],
+          [
+            "0.467294078",
+            "1.565455039",
+            "0.223137720"
+          ],
+          [
+            "0.244048464",
+            "1.179031477",
+            "0.223137724"
+          ],
+          [
+            "0.776654580",
+            "0.255935611",
+            "0.223137726"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p92-n13-v1",
+      "name": "n = 13",
+      "parameters": {
+        "n": 13
+      },
+      "objective": "maximize",
+      "scoreStored": "3227013902",
+      "scoreDisplay": "3.227013902",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "3.227",
+        "kind": "best",
+        "range": {
+          "lower": "3.227",
+          "upper": "3.228"
+        },
+        "truncated": true,
+        "certificateDisplay": "3.227013902",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Circles); Found by David W. Cantrell in April 2011. Source expression: Σ r = 3.227+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRcir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "answer": {
+        "circles": [
+          [
+            "0.999841156",
+            "0.738736245",
+            "0.304612725"
+          ],
+          [
+            "1.595232384",
+            "0.632105606",
+            "0.300251562"
+          ],
+          [
+            "0.404320691",
+            "0.632829707",
+            "0.300251570"
+          ],
+          [
+            "1.471955949",
+            "1.530865098",
+            "0.289676010"
+          ],
+          [
+            "0.528689991",
+            "1.531438647",
+            "0.289676017"
+          ],
+          [
+            "1.000173584",
+            "1.285463023",
+            "0.242114152"
+          ],
+          [
+            "1.000464428",
+            "1.763788473",
+            "0.236211385"
+          ],
+          [
+            "0.774088833",
+            "0.259138807",
+            "0.225460677"
+          ],
+          [
+            "1.225010102",
+            "0.258864641",
+            "0.225460674"
+          ],
+          [
+            "1.771863460",
+            "1.120212795",
+            "0.218831441"
+          ],
+          [
+            "0.228283307",
+            "1.121151346",
+            "0.218831450"
+          ],
+          [
+            "1.369035328",
+            "1.064594802",
+            "0.187818118"
+          ],
+          [
+            "0.631043517",
+            "1.065043526",
+            "0.187818121"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p92-n14-v1",
+      "name": "n = 14",
+      "parameters": {
+        "n": 14
+      },
+      "objective": "maximize",
+      "scoreStored": "3359761377",
+      "scoreDisplay": "3.359761377",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "3.359",
+        "kind": "best",
+        "range": {
+          "lower": "3.359",
+          "upper": "3.360"
+        },
+        "truncated": true,
+        "certificateDisplay": "3.359761377",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Circles); Found by Veit Elser in November 2009. Source expression: Σ r = 3.359+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRcir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "answer": {
+        "circles": [
+          [
+            "0.892006774",
+            "0.742650318",
+            "0.308868866"
+          ],
+          [
+            "1.418526450",
+            "0.438119660",
+            "0.299376058"
+          ],
+          [
+            "1.490492672",
+            "1.514335068",
+            "0.289279503"
+          ],
+          [
+            "0.308917374",
+            "0.782851970",
+            "0.275604760"
+          ],
+          [
+            "0.569681603",
+            "1.586607655",
+            "0.272481983"
+          ],
+          [
+            "1.000020928",
+            "1.290733797",
+            "0.249756729"
+          ],
+          [
+            "1.393691753",
+            "0.985386360",
+            "0.248453844"
+          ],
+          [
+            "1.037921027",
+            "1.769028446",
+            "0.230037172"
+          ],
+          [
+            "0.950040962",
+            "0.219293067",
+            "0.217696209"
+          ],
+          [
+            "0.543734645",
+            "0.356485620",
+            "0.211147142"
+          ],
+          [
+            "0.238852276",
+            "1.251596692",
+            "0.198347485"
+          ],
+          [
+            "1.776899278",
+            "0.771770990",
+            "0.190271051"
+          ],
+          [
+            "1.798134635",
+            "1.149440904",
+            "0.187995394"
+          ],
+          [
+            "0.599136674",
+            "1.134639275",
+            "0.180445181"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p92-n15-v1",
+      "name": "n = 15",
+      "parameters": {
+        "n": 15
+      },
+      "objective": "maximize",
+      "scoreStored": "3480652310",
+      "scoreDisplay": "3.48065231",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "3.480",
+        "kind": "best",
+        "range": {
+          "lower": "3.480",
+          "upper": "3.481"
+        },
+        "truncated": true,
+        "certificateDisplay": "3.48065231",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Circles); Found by David W. Cantrell in April 2011. Source expression: Σ r = 3.480+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRcir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "answer": {
+        "circles": [
+          [
+            "0.999766050",
+            "0.291990980",
+            "0.291990941"
+          ],
+          [
+            "1.000078738",
+            "1.238303083",
+            "0.291755988"
+          ],
+          [
+            "0.535780290",
+            "1.559632381",
+            "0.272890419"
+          ],
+          [
+            "1.464589435",
+            "1.559325483",
+            "0.272890421"
+          ],
+          [
+            "1.723386252",
+            "0.800378136",
+            "0.249575747"
+          ],
+          [
+            "0.276481982",
+            "0.800856233",
+            "0.249575745"
+          ],
+          [
+            "0.762342517",
+            "0.765356989",
+            "0.237579933"
+          ],
+          [
+            "1.237502359",
+            "0.765199982",
+            "0.237579934"
+          ],
+          [
+            "1.000252780",
+            "1.765029501",
+            "0.234970457"
+          ],
+          [
+            "1.497278465",
+            "0.393626524",
+            "0.215796796"
+          ],
+          [
+            "0.502320912",
+            "0.393955288",
+            "0.215796794"
+          ],
+          [
+            "1.782331033",
+            "1.230384459",
+            "0.184451813"
+          ],
+          [
+            "0.217821384",
+            "1.230901410",
+            "0.184451811"
+          ],
+          [
+            "0.553995168",
+            "1.116443360",
+            "0.170672755"
+          ],
+          [
+            "1.446081680",
+            "1.116148592",
+            "0.170672756"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p92-n16-v1",
+      "name": "n = 16",
+      "parameters": {
+        "n": 16
+      },
+      "objective": "maximize",
+      "scoreStored": "3611063205",
+      "scoreDisplay": "3.611063205",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "3.611",
+        "kind": "best",
+        "range": {
+          "lower": "3.611",
+          "upper": "3.612"
+        },
+        "truncated": true,
+        "certificateDisplay": "3.611063205",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Circles); Found by David W. Cantrell in April 2011. Source expression: Σ r = 3.611+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRcir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "answer": {
+        "circles": [
+          [
+            "0.569442453",
+            "1.592162239",
+            "0.267855260"
+          ],
+          [
+            "1.430130103",
+            "1.592472809",
+            "0.267855250"
+          ],
+          [
+            "0.303770670",
+            "0.773503628",
+            "0.267855283"
+          ],
+          [
+            "1.696392641",
+            "0.774006192",
+            "0.267855265"
+          ],
+          [
+            "1.000264240",
+            "0.267855334",
+            "0.267855286"
+          ],
+          [
+            "0.648938640",
+            "1.113926762",
+            "0.216942445"
+          ],
+          [
+            "1.350979083",
+            "1.114180100",
+            "0.216942437"
+          ],
+          [
+            "0.999866835",
+            "1.369084542",
+            "0.216942436"
+          ],
+          [
+            "1.217050211",
+            "0.701482692",
+            "0.216942446"
+          ],
+          [
+            "0.783165341",
+            "0.701326112",
+            "0.216942451"
+          ],
+          [
+            "0.999713865",
+            "1.793013450",
+            "0.206986498"
+          ],
+          [
+            "1.754112158",
+            "1.245326849",
+            "0.206986500"
+          ],
+          [
+            "1.466353172",
+            "0.358606908",
+            "0.206986519"
+          ],
+          [
+            "0.534109916",
+            "0.358270466",
+            "0.206986528"
+          ],
+          [
+            "0.245710999",
+            "1.244782535",
+            "0.206986515"
+          ],
+          [
+            "1.000000023",
+            "1.000000042",
+            "0.152142086"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p92-n17-v1",
+      "name": "n = 17",
+      "parameters": {
+        "n": 17
+      },
+      "objective": "maximize",
+      "scoreStored": "3730893245",
+      "scoreDisplay": "3.730893245",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "3.730",
+        "kind": "best",
+        "range": {
+          "lower": "3.730",
+          "upper": "3.731"
+        },
+        "truncated": true,
+        "certificateDisplay": "3.730893245",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Circles); Found by David W. Cantrell in April 2011. Source expression: Σ r = 3.730+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRcir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "answer": {
+        "circles": [
+          [
+            "0.999922820",
+            "0.607129478",
+            "0.270922900"
+          ],
+          [
+            "0.483140444",
+            "0.474180070",
+            "0.262687040"
+          ],
+          [
+            "1.516652900",
+            "0.473976999",
+            "0.262687029"
+          ],
+          [
+            "1.679456159",
+            "1.300555927",
+            "0.257036651"
+          ],
+          [
+            "0.320662039",
+            "1.300822957",
+            "0.257036665"
+          ],
+          [
+            "1.000147616",
+            "1.751041068",
+            "0.248958917"
+          ],
+          [
+            "0.632017213",
+            "0.936028832",
+            "0.222563999"
+          ],
+          [
+            "1.367957650",
+            "0.935884216",
+            "0.222563992"
+          ],
+          [
+            "0.787989879",
+            "1.341720313",
+            "0.212077290"
+          ],
+          [
+            "1.212144447",
+            "1.341636958",
+            "0.212077286"
+          ],
+          [
+            "1.784483803",
+            "0.853704458",
+            "0.201991715"
+          ],
+          [
+            "0.215458776",
+            "0.854012774",
+            "0.201991727"
+          ],
+          [
+            "0.564125914",
+            "1.679240517",
+            "0.192935009"
+          ],
+          [
+            "1.436141054",
+            "1.679069136",
+            "0.192935002"
+          ],
+          [
+            "1.176528057",
+            "0.195833529",
+            "0.176686044"
+          ],
+          [
+            "0.823155972",
+            "0.195902957",
+            "0.176686047"
+          ],
+          [
+            "1.000007312",
+            "1.037108303",
+            "0.159055932"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p92-n18-v1",
+      "name": "n = 18",
+      "parameters": {
+        "n": 18
+      },
+      "objective": "maximize",
+      "scoreStored": "3850913208",
+      "scoreDisplay": "3.850913208",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "3.850",
+        "kind": "best",
+        "range": {
+          "lower": "3.850",
+          "upper": "3.851"
+        },
+        "truncated": true,
+        "certificateDisplay": "3.850913208",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Circles); Found by David W. Cantrell in April 2011. Source expression: Σ r = 3.850+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRcir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "answer": {
+        "circles": [
+          [
+            "0.593392935",
+            "1.629641370",
+            "0.250481781"
+          ],
+          [
+            "1.407259426",
+            "1.629219617",
+            "0.250481777"
+          ],
+          [
+            "0.748233240",
+            "0.295008270",
+            "0.251401415"
+          ],
+          [
+            "1.251036001",
+            "0.294747726",
+            "0.251401413"
+          ],
+          [
+            "0.247520208",
+            "0.909045064",
+            "0.242043115"
+          ],
+          [
+            "1.752385131",
+            "0.908265250",
+            "0.242043108"
+          ],
+          [
+            "1.000203794",
+            "1.393253735",
+            "0.220022404"
+          ],
+          [
+            "1.371458110",
+            "1.163580161",
+            "0.216531965"
+          ],
+          [
+            "0.628711639",
+            "1.163965053",
+            "0.216531968"
+          ],
+          [
+            "1.336670368",
+            "0.743266356",
+            "0.205219005"
+          ],
+          [
+            "0.663063753",
+            "0.743615414",
+            "0.205219007"
+          ],
+          [
+            "0.999985306",
+            "0.971626889",
+            "0.201604498"
+          ],
+          [
+            "1.000418013",
+            "1.806637988",
+            "0.193361903"
+          ],
+          [
+            "1.736974131",
+            "1.338879193",
+            "0.188846514"
+          ],
+          [
+            "0.263377488",
+            "1.339642817",
+            "0.188846519"
+          ],
+          [
+            "1.639271847",
+            "0.495692110",
+            "0.185754986"
+          ],
+          [
+            "0.360205850",
+            "0.496354907",
+            "0.185754991"
+          ],
+          [
+            "0.999800326",
+            "0.614655599",
+            "0.155366839"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p92-n19-v1",
+      "name": "n = 19",
+      "parameters": {
+        "n": 19
+      },
+      "objective": "maximize",
+      "scoreStored": "3981543886",
+      "scoreDisplay": "3.981543886",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "3.981",
+        "kind": "best",
+        "range": {
+          "lower": "3.981",
+          "upper": "3.982"
+        },
+        "truncated": true,
+        "certificateDisplay": "3.981543885",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Circles); Found by David W. Cantrell in May 2011. Source expression: Σ r = 3.981+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRcir/"
+      },
+      "holder": "Tmrg",
+      "method": "human",
+      "recordedAt": "2026-09-27T07:08:08.073Z",
+      "answer": {
+        "circles": [
+          [
+            "0.337404050",
+            "1.382549950",
+            "0.234900099"
+          ],
+          [
+            "0.337404050",
+            "0.617450050",
+            "0.234900099"
+          ],
+          [
+            "1.000000000",
+            "1.765099900",
+            "0.234900099"
+          ],
+          [
+            "1.662595950",
+            "1.382549950",
+            "0.234900099"
+          ],
+          [
+            "1.662595950",
+            "0.617450050",
+            "0.234900099"
+          ],
+          [
+            "1.000000000",
+            "0.234900099",
+            "0.234900099"
+          ],
+          [
+            "1.213928351",
+            "1.370534773",
+            "0.213928351"
+          ],
+          [
+            "0.786071649",
+            "0.629465227",
+            "0.213928351"
+          ],
+          [
+            "1.000000000",
+            "1.000000000",
+            "0.213928350"
+          ],
+          [
+            "1.213928351",
+            "0.629465227",
+            "0.213928351"
+          ],
+          [
+            "0.572143298",
+            "1.000000000",
+            "0.213928350"
+          ],
+          [
+            "1.427856702",
+            "1.000000000",
+            "0.213928350"
+          ],
+          [
+            "0.786071649",
+            "1.370534773",
+            "0.213928351"
+          ],
+          [
+            "0.589553737",
+            "1.710913782",
+            "0.179107473"
+          ],
+          [
+            "1.410446263",
+            "0.289086218",
+            "0.179107473"
+          ],
+          [
+            "1.410446263",
+            "1.710913782",
+            "0.179107473"
+          ],
+          [
+            "0.179107473",
+            "1.000000000",
+            "0.179107473"
+          ],
+          [
+            "0.589553737",
+            "0.289086218",
+            "0.179107473"
+          ],
+          [
+            "1.820892527",
+            "1.000000000",
+            "0.179107473"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p92-n20-v1",
+      "name": "n = 20",
+      "parameters": {
+        "n": 20
+      },
+      "objective": "maximize",
+      "scoreStored": "4076548917",
+      "scoreDisplay": "4.076548917",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "4.076",
+        "kind": "best",
+        "range": {
+          "lower": "4.076",
+          "upper": "4.077"
+        },
+        "truncated": true,
+        "certificateDisplay": "4.076548917",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Circles); Found by David W. Cantrell in April 2011. Source expression: Σ r = 4.076+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRcir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "answer": {
+        "circles": [
+          [
+            "0.999806532",
+            "0.547516772",
+            "0.260815327"
+          ],
+          [
+            "1.766847703",
+            "1.072190083",
+            "0.229761849"
+          ],
+          [
+            "1.461748794",
+            "0.383174241",
+            "0.229489801"
+          ],
+          [
+            "0.537723878",
+            "0.383569361",
+            "0.229489814"
+          ],
+          [
+            "0.233214342",
+            "1.072845936",
+            "0.229761869"
+          ],
+          [
+            "0.638198432",
+            "1.688694291",
+            "0.222053856"
+          ],
+          [
+            "1.362390541",
+            "1.688384567",
+            "0.222053847"
+          ],
+          [
+            "1.000012411",
+            "1.028957317",
+            "0.220625260"
+          ],
+          [
+            "0.609086078",
+            "0.826820198",
+            "0.219468834"
+          ],
+          [
+            "1.390765709",
+            "0.826485927",
+            "0.219468824"
+          ],
+          [
+            "1.366667327",
+            "1.255815410",
+            "0.210536450"
+          ],
+          [
+            "0.633551653",
+            "1.256128932",
+            "0.210536459"
+          ],
+          [
+            "1.000195557",
+            "1.457210650",
+            "0.207628111"
+          ],
+          [
+            "0.246893562",
+            "0.666827264",
+            "0.176487170"
+          ],
+          [
+            "1.752821235",
+            "0.666183294",
+            "0.176487155"
+          ],
+          [
+            "1.686051289",
+            "1.464960709",
+            "0.171232944"
+          ],
+          [
+            "0.314346677",
+            "1.465547345",
+            "0.171232958"
+          ],
+          [
+            "1.000356026",
+            "1.832419326",
+            "0.167580597"
+          ],
+          [
+            "1.150561609",
+            "0.164374531",
+            "0.150918895"
+          ],
+          [
+            "0.848723844",
+            "0.164503595",
+            "0.150918897"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p92-n21-v1",
+      "name": "n = 21",
+      "parameters": {
+        "n": 21
+      },
+      "objective": "maximize",
+      "scoreStored": "4181572894",
+      "scoreDisplay": "4.181572894",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "4.181",
+        "kind": "best",
+        "range": {
+          "lower": "4.181",
+          "upper": "4.182"
+        },
+        "truncated": true,
+        "certificateDisplay": "4.181572894",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Circles); Found by David W. Cantrell in June 2011. Source expression: Σ r = 4.181+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRcir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "answer": {
+        "circles": [
+          [
+            "0.999994090",
+            "0.976903721",
+            "0.258930580"
+          ],
+          [
+            "0.774823331",
+            "0.258419226",
+            "0.224986079"
+          ],
+          [
+            "1.224795469",
+            "0.258303578",
+            "0.224986073"
+          ],
+          [
+            "1.000199933",
+            "1.777612861",
+            "0.222387113"
+          ],
+          [
+            "1.642384023",
+            "1.444167891",
+            "0.219011940"
+          ],
+          [
+            "0.357844455",
+            "1.444498120",
+            "0.219011957"
+          ],
+          [
+            "0.787224850",
+            "1.398011905",
+            "0.212877486"
+          ],
+          [
+            "1.212979804",
+            "1.397902453",
+            "0.212877481"
+          ],
+          [
+            "1.743772599",
+            "0.743559768",
+            "0.213260353"
+          ],
+          [
+            "0.256095688",
+            "0.743942160",
+            "0.213260371"
+          ],
+          [
+            "0.539168204",
+            "1.057006893",
+            "0.208805472"
+          ],
+          [
+            "1.460861086",
+            "1.056769965",
+            "0.208805461"
+          ],
+          [
+            "1.338121895",
+            "0.667365985",
+            "0.199484103"
+          ],
+          [
+            "0.661707195",
+            "0.667539847",
+            "0.199484111"
+          ],
+          [
+            "0.612110018",
+            "1.736146860",
+            "0.167911760"
+          ],
+          [
+            "1.388268468",
+            "1.735947312",
+            "0.167911753"
+          ],
+          [
+            "1.829226157",
+            "1.110450293",
+            "0.163450368"
+          ],
+          [
+            "1.585388581",
+            "0.402039690",
+            "0.163198755"
+          ],
+          [
+            "0.170830754",
+            "1.110876601",
+            "0.163450384"
+          ],
+          [
+            "0.414304137",
+            "0.402340682",
+            "0.163198766"
+          ],
+          [
+            "0.999887878",
+            "0.563690625",
+            "0.154282528"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p92-n22-v1",
+      "name": "n = 22",
+      "parameters": {
+        "n": 22
+      },
+      "objective": "maximize",
+      "scoreStored": "4287688578",
+      "scoreDisplay": "4.287688578",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "4.287",
+        "kind": "best",
+        "range": {
+          "lower": "4.287",
+          "upper": "4.288"
+        },
+        "truncated": true,
+        "certificateDisplay": "4.287688578",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Circles); Found by David W. Cantrell in June 2011. Source expression: Σ r = 4.287+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRcir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "answer": {
+        "circles": [
+          [
+            "1.000000029",
+            "1.000000026",
+            "0.270210210"
+          ],
+          [
+            "1.771199758",
+            "1.175737197",
+            "0.209030575"
+          ],
+          [
+            "0.657060900",
+            "1.712758999",
+            "0.209030584"
+          ],
+          [
+            "1.343438363",
+            "1.712518576",
+            "0.209030575"
+          ],
+          [
+            "0.381422537",
+            "0.507055266",
+            "0.209030601"
+          ],
+          [
+            "1.618232070",
+            "0.506622131",
+            "0.209030585"
+          ],
+          [
+            "0.228923553",
+            "1.176277370",
+            "0.209030595"
+          ],
+          [
+            "0.999723025",
+            "0.209030646",
+            "0.209030597"
+          ],
+          [
+            "1.000167205",
+            "1.477305147",
+            "0.207094940"
+          ],
+          [
+            "0.534624731",
+            "0.893952624",
+            "0.207094952"
+          ],
+          [
+            "0.626932087",
+            "1.297725611",
+            "0.207094947"
+          ],
+          [
+            "0.792754482",
+            "0.570035489",
+            "0.207094953"
+          ],
+          [
+            "1.206944359",
+            "0.569890436",
+            "0.207094948"
+          ],
+          [
+            "1.465300919",
+            "0.893626676",
+            "0.207094941"
+          ],
+          [
+            "1.373276425",
+            "1.297464203",
+            "0.207094937"
+          ],
+          [
+            "1.000295019",
+            "1.842200007",
+            "0.157799941"
+          ],
+          [
+            "1.658642389",
+            "1.524872507",
+            "0.157799937"
+          ],
+          [
+            "1.821018670",
+            "0.812305352",
+            "0.157799942"
+          ],
+          [
+            "1.365151188",
+            "0.241076070",
+            "0.157799951"
+          ],
+          [
+            "0.341725479",
+            "1.525333778",
+            "0.157799950"
+          ],
+          [
+            "0.634317388",
+            "0.241331999",
+            "0.157799959"
+          ],
+          [
+            "0.178850078",
+            "0.812880476",
+            "0.157799958"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p92-n23-v1",
+      "name": "n = 23",
+      "parameters": {
+        "n": 23
+      },
+      "objective": "maximize",
+      "scoreStored": "4372978434",
+      "scoreDisplay": "4.372978434",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "4.372",
+        "kind": "best",
+        "range": {
+          "lower": "4.372",
+          "upper": "4.373"
+        },
+        "truncated": true,
+        "certificateDisplay": "4.372978434",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Circles); Found by David W. Cantrell in June 2011. Source expression: Σ r = 4.372+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRcir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "answer": {
+        "circles": [
+          [
+            "1.382109109",
+            "0.893103882",
+            "0.249849608"
+          ],
+          [
+            "0.617227461",
+            "0.895504565",
+            "0.249849620"
+          ],
+          [
+            "1.747594989",
+            "1.198574001",
+            "0.226482125"
+          ],
+          [
+            "0.253666260",
+            "1.203262924",
+            "0.226482147"
+          ],
+          [
+            "0.416287357",
+            "0.475812065",
+            "0.215466099"
+          ],
+          [
+            "1.580410759",
+            "0.472158341",
+            "0.215466082"
+          ],
+          [
+            "1.000422183",
+            "1.134501329",
+            "0.201767084"
+          ],
+          [
+            "0.656933038",
+            "1.344356228",
+            "0.200754805"
+          ],
+          [
+            "1.345221864",
+            "1.342195922",
+            "0.200754796"
+          ],
+          [
+            "0.684030056",
+            "1.739765035",
+            "0.195581381"
+          ],
+          [
+            "1.320607475",
+            "1.737767018",
+            "0.195581373"
+          ],
+          [
+            "1.001646008",
+            "1.524420761",
+            "0.188154268"
+          ],
+          [
+            "0.997447251",
+            "0.186653474",
+            "0.186649468"
+          ],
+          [
+            "0.814415017",
+            "0.509007562",
+            "0.184043067"
+          ],
+          [
+            "1.182499336",
+            "0.507852290",
+            "0.184043063"
+          ],
+          [
+            "1.798138878",
+            "0.798462474",
+            "0.176809230"
+          ],
+          [
+            "0.200611776",
+            "0.803476516",
+            "0.176809248"
+          ],
+          [
+            "0.376430071",
+            "1.566862345",
+            "0.157282743"
+          ],
+          [
+            "1.627116020",
+            "1.562936847",
+            "0.157282730"
+          ],
+          [
+            "0.999324487",
+            "0.784764706",
+            "0.147971260"
+          ],
+          [
+            "0.665845635",
+            "0.214190146",
+            "0.146093525"
+          ],
+          [
+            "1.329215178",
+            "0.212108101",
+            "0.146093519"
+          ],
+          [
+            "1.002687624",
+            "1.856284588",
+            "0.143711193"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p92-n24-v1",
+      "name": "n = 24",
+      "parameters": {
+        "n": 24
+      },
+      "objective": "maximize",
+      "scoreStored": "4466438675",
+      "scoreDisplay": "4.466438675",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "4.466",
+        "kind": "best",
+        "range": {
+          "lower": "4.466",
+          "upper": "4.467"
+        },
+        "truncated": true,
+        "certificateDisplay": "4.466438675",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Circles); Found by David W. Cantrell in June 2011. Source expression: Σ r = 4.466+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRcir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "answer": {
+        "circles": [
+          [
+            "1.414179996",
+            "0.898055357",
+            "0.236934194"
+          ],
+          [
+            "0.585345863",
+            "0.900001599",
+            "0.236934207"
+          ],
+          [
+            "1.001080343",
+            "1.460059785",
+            "0.221680789"
+          ],
+          [
+            "1.764497615",
+            "1.182152187",
+            "0.214101772"
+          ],
+          [
+            "1.594873743",
+            "0.485473683",
+            "0.213481022"
+          ],
+          [
+            "0.236366290",
+            "1.185740528",
+            "0.214101796"
+          ],
+          [
+            "0.402716495",
+            "0.488273034",
+            "0.213481040"
+          ],
+          [
+            "0.658392031",
+            "1.716431662",
+            "0.206293296"
+          ],
+          [
+            "1.344968896",
+            "1.714819423",
+            "0.206293286"
+          ],
+          [
+            "0.998109810",
+            "0.195014326",
+            "0.195012106"
+          ],
+          [
+            "1.191420014",
+            "0.530890890",
+            "0.192520990"
+          ],
+          [
+            "0.806379090",
+            "0.531795021",
+            "0.192520995"
+          ],
+          [
+            "0.614199339",
+            "1.324288257",
+            "0.188332404"
+          ],
+          [
+            "1.387319436",
+            "1.322472818",
+            "0.188332393"
+          ],
+          [
+            "0.999649246",
+            "0.850611832",
+            "0.180302705"
+          ],
+          [
+            "1.807889529",
+            "0.802258074",
+            "0.168262444"
+          ],
+          [
+            "0.191190745",
+            "0.806054344",
+            "0.168262464"
+          ],
+          [
+            "1.001974568",
+            "1.840868603",
+            "0.159129078"
+          ],
+          [
+            "0.346108443",
+            "1.536977392",
+            "0.153880098"
+          ],
+          [
+            "1.656406227",
+            "1.533900532",
+            "0.153880083"
+          ],
+          [
+            "0.653701529",
+            "0.224455713",
+            "0.150652266"
+          ],
+          [
+            "1.342652548",
+            "0.222837973",
+            "0.150652259"
+          ],
+          [
+            "1.131010045",
+            "1.132509130",
+            "0.130698493"
+          ],
+          [
+            "0.869613777",
+            "1.133122937",
+            "0.130698495"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p92-n25-v1",
+      "name": "n = 25",
+      "parameters": {
+        "n": 25
+      },
+      "objective": "maximize",
+      "scoreStored": "4564882207",
+      "scoreDisplay": "4.564882207",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "4.564",
+        "kind": "best",
+        "range": {
+          "lower": "4.564",
+          "upper": "4.565"
+        },
+        "truncated": true,
+        "certificateDisplay": "4.564882207",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Circles); Found by David W. Cantrell in June 2011. Source expression: Σ r = 4.564+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRcir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "answer": {
+        "circles": [
+          [
+            "1.296740062",
+            "1.336162884",
+            "0.230873910"
+          ],
+          [
+            "1.231078797",
+            "0.262038136",
+            "0.226705021"
+          ],
+          [
+            "0.780887983",
+            "0.255096561",
+            "0.223539305"
+          ],
+          [
+            "0.533370381",
+            "1.624998322",
+            "0.220021727"
+          ],
+          [
+            "0.266320032",
+            "1.283602475",
+            "0.213414556"
+          ],
+          [
+            "1.204080958",
+            "1.765198981",
+            "0.208053967"
+          ],
+          [
+            "1.730000955",
+            "1.320694331",
+            "0.202663027"
+          ],
+          [
+            "0.997593621",
+            "0.611666954",
+            "0.193718143"
+          ],
+          [
+            "1.748162569",
+            "0.685619946",
+            "0.188469317"
+          ],
+          [
+            "1.527483917",
+            "0.988570578",
+            "0.186334835"
+          ],
+          [
+            "1.375514352",
+            "0.648652231",
+            "0.186008059"
+          ],
+          [
+            "0.916594179",
+            "1.499996994",
+            "0.183073559"
+          ],
+          [
+            "0.261586473",
+            "0.648384483",
+            "0.182144261"
+          ],
+          [
+            "0.623661497",
+            "0.627335211",
+            "0.180542096"
+          ],
+          [
+            "1.163080396",
+            "0.947204289",
+            "0.180409074"
+          ],
+          [
+            "0.658104782",
+            "1.244598015",
+            "0.180306966"
+          ],
+          [
+            "0.462126986",
+            "0.946077286",
+            "0.176795151"
+          ],
+          [
+            "0.810825974",
+            "0.926618215",
+            "0.172446369"
+          ],
+          [
+            "1.548886308",
+            "1.635346970",
+            "0.160391786"
+          ],
+          [
+            "0.846921977",
+            "1.830916335",
+            "0.155100694"
+          ],
+          [
+            "1.587415472",
+            "0.386801439",
+            "0.150841939"
+          ],
+          [
+            "0.428249308",
+            "0.365678504",
+            "0.146031256"
+          ],
+          [
+            "1.856827241",
+            "0.998953686",
+            "0.143172120"
+          ],
+          [
+            "0.143403179",
+            "0.950167477",
+            "0.141954899"
+          ],
+          [
+            "0.965261390",
+            "1.188836175",
+            "0.131870170"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p92-n26-v1",
+      "name": "n = 26",
+      "parameters": {
+        "n": 26
+      },
+      "objective": "maximize",
+      "scoreStored": "4664464659",
+      "scoreDisplay": "4.664464659",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "4.664",
+        "kind": "best",
+        "range": {
+          "lower": "4.664",
+          "upper": "4.665"
+        },
+        "truncated": true,
+        "certificateDisplay": "4.664464659",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Circles); Found by David W. Cantrell in June 2011. Source expression: Σ r = 4.664+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRcir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "answer": {
+        "circles": [
+          [
+            "1.354537306",
+            "1.294714840",
+            "0.229509709"
+          ],
+          [
+            "0.646640125",
+            "1.296125499",
+            "0.229509716"
+          ],
+          [
+            "0.781320310",
+            "0.248345779",
+            "0.217181454"
+          ],
+          [
+            "1.215682352",
+            "0.247480229",
+            "0.217181449"
+          ],
+          [
+            "0.673389634",
+            "1.727423620",
+            "0.202617121"
+          ],
+          [
+            "1.329506950",
+            "1.726116131",
+            "0.202617114"
+          ],
+          [
+            "1.772931752",
+            "1.227771559",
+            "0.194206368"
+          ],
+          [
+            "0.999193125",
+            "0.595076580",
+            "0.192319231"
+          ],
+          [
+            "0.227982179",
+            "1.230850245",
+            "0.194206383"
+          ],
+          [
+            "1.001027849",
+            "1.515783639",
+            "0.187431953"
+          ],
+          [
+            "0.455741968",
+            "0.932899024",
+            "0.180826217"
+          ],
+          [
+            "0.818130037",
+            "0.922364994",
+            "0.181714922"
+          ],
+          [
+            "1.181559157",
+            "0.921640779",
+            "0.181714919"
+          ],
+          [
+            "1.371506946",
+            "0.613296612",
+            "0.180440141"
+          ],
+          [
+            "0.626954869",
+            "0.614780289",
+            "0.180440148"
+          ],
+          [
+            "1.543986317",
+            "0.930730449",
+            "0.180826207"
+          ],
+          [
+            "1.730232200",
+            "0.623520345",
+            "0.178430771"
+          ],
+          [
+            "0.268273190",
+            "0.626433608",
+            "0.178430785"
+          ],
+          [
+            "1.641014391",
+            "1.550881862",
+            "0.154795719"
+          ],
+          [
+            "0.361186254",
+            "1.553432251",
+            "0.154795729"
+          ],
+          [
+            "1.001697066",
+            "1.851606618",
+            "0.148391691"
+          ],
+          [
+            "1.560292663",
+            "0.351081302",
+            "0.142664974"
+          ],
+          [
+            "0.437125611",
+            "0.353319434",
+            "0.142664982"
+          ],
+          [
+            "1.000374578",
+            "1.187959410",
+            "0.140392926"
+          ],
+          [
+            "1.859683365",
+            "0.909602996",
+            "0.135577009"
+          ],
+          [
+            "0.139963203",
+            "0.913029927",
+            "0.135577021"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p92-n27-v1",
+      "name": "n = 27",
+      "parameters": {
+        "n": 27
+      },
+      "objective": "maximize",
+      "scoreStored": "4762847432",
+      "scoreDisplay": "4.762847432",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "4.762",
+        "kind": "best",
+        "range": {
+          "lower": "4.762",
+          "upper": "4.763"
+        },
+        "truncated": true,
+        "certificateDisplay": "4.762847432",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Circles); Found by David W. Cantrell in June 2011. Source expression: Σ r = 4.762+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRcir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "answer": {
+        "circles": [
+          [
+            "0.792023039",
+            "1.764233961",
+            "0.207972245"
+          ],
+          [
+            "1.207967525",
+            "1.764236536",
+            "0.207972238"
+          ],
+          [
+            "1.765834544",
+            "0.797996502",
+            "0.207972246"
+          ],
+          [
+            "1.557864575",
+            "0.437776678",
+            "0.207972255"
+          ],
+          [
+            "0.442142530",
+            "0.437769655",
+            "0.207972274"
+          ],
+          [
+            "0.234168014",
+            "0.797986903",
+            "0.207972271"
+          ],
+          [
+            "0.630036529",
+            "0.786398428",
+            "0.188065825"
+          ],
+          [
+            "1.369966210",
+            "0.786403066",
+            "0.188065814"
+          ],
+          [
+            "0.999997375",
+            "1.427198625",
+            "0.188065810"
+          ],
+          [
+            "1.000001353",
+            "0.789941580",
+            "0.181915963"
+          ],
+          [
+            "0.818083422",
+            "1.105028134",
+            "0.181915961"
+          ],
+          [
+            "1.181915340",
+            "1.105030405",
+            "0.181915956"
+          ],
+          [
+            "1.539830720",
+            "1.108429930",
+            "0.176015567"
+          ],
+          [
+            "0.460167979",
+            "1.108423190",
+            "0.176015582"
+          ],
+          [
+            "0.636181670",
+            "1.413292206",
+            "0.176015575"
+          ],
+          [
+            "1.363813243",
+            "1.413296731",
+            "0.176015565"
+          ],
+          [
+            "0.823987725",
+            "0.478277983",
+            "0.176015586"
+          ],
+          [
+            "1.176018893",
+            "0.478280198",
+            "0.176015581"
+          ],
+          [
+            "1.000005223",
+            "0.174807237",
+            "0.174807236"
+          ],
+          [
+            "0.285359564",
+            "1.412591997",
+            "0.174807229"
+          ],
+          [
+            "1.714635328",
+            "1.412600885",
+            "0.174807208"
+          ],
+          [
+            "1.540815583",
+            "1.671977059",
+            "0.137425561"
+          ],
+          [
+            "0.688468680",
+            "0.195647556",
+            "0.137425587"
+          ],
+          [
+            "0.459176106",
+            "1.671970355",
+            "0.137425572"
+          ],
+          [
+            "1.852355330",
+            "1.132382209",
+            "0.137425563"
+          ],
+          [
+            "1.311541496",
+            "0.195651490",
+            "0.137425580"
+          ],
+          [
+            "0.147643037",
+            "1.132371571",
+            "0.137425582"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p92-n28-v1",
+      "name": "n = 28",
+      "parameters": {
+        "n": 28
+      },
+      "objective": "maximize",
+      "scoreStored": "4849872279",
+      "scoreDisplay": "4.849872279",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "4.849",
+        "kind": "best",
+        "range": {
+          "lower": "4.849",
+          "upper": "4.850"
+        },
+        "truncated": true,
+        "certificateDisplay": "4.849872279",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Circles); Found by David W. Cantrell in June 2011. Source expression: Σ r = 4.849+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRcir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "answer": {
+        "circles": [
+          [
+            "0.999972038",
+            "0.532483327",
+            "0.234828277"
+          ],
+          [
+            "1.756908782",
+            "1.252536654",
+            "0.202074147"
+          ],
+          [
+            "0.243121525",
+            "1.252627391",
+            "0.202074173"
+          ],
+          [
+            "1.539252607",
+            "1.590759661",
+            "0.200131039"
+          ],
+          [
+            "0.460818280",
+            "1.590824335",
+            "0.200131059"
+          ],
+          [
+            "0.809891975",
+            "0.912530711",
+            "0.190102827"
+          ],
+          [
+            "1.190097624",
+            "0.912507932",
+            "0.190102821"
+          ],
+          [
+            "0.679201257",
+            "0.255279965",
+            "0.189124075"
+          ],
+          [
+            "1.320709620",
+            "0.255241569",
+            "0.189124064"
+          ],
+          [
+            "0.631470324",
+            "1.244038179",
+            "0.186369596"
+          ],
+          [
+            "1.368558996",
+            "1.243993998",
+            "0.186369585"
+          ],
+          [
+            "1.000013993",
+            "1.232798291",
+            "0.182345429"
+          ],
+          [
+            "0.594371984",
+            "0.613218221",
+            "0.178728885"
+          ],
+          [
+            "1.405581746",
+            "0.613169643",
+            "0.178728872"
+          ],
+          [
+            "0.445284145",
+            "0.934154359",
+            "0.175145651"
+          ],
+          [
+            "1.554708019",
+            "0.934087890",
+            "0.175145634"
+          ],
+          [
+            "1.171179192",
+            "1.542086391",
+            "0.171146654"
+          ],
+          [
+            "0.828885879",
+            "1.542106916",
+            "0.171146659"
+          ],
+          [
+            "1.752619854",
+            "0.650891114",
+            "0.170353292"
+          ],
+          [
+            "0.247338361",
+            "0.650981262",
+            "0.170353314"
+          ],
+          [
+            "1.000050005",
+            "1.833339580",
+            "0.166660418"
+          ],
+          [
+            "0.999949074",
+            "0.148827526",
+            "0.148827524"
+          ],
+          [
+            "1.863670217",
+            "0.934064416",
+            "0.133816563"
+          ],
+          [
+            "0.136321909",
+            "0.934167906",
+            "0.133816584"
+          ],
+          [
+            "0.702901945",
+            "1.816684545",
+            "0.130954028"
+          ],
+          [
+            "1.297196057",
+            "1.816648894",
+            "0.130954021"
+          ],
+          [
+            "1.613426937",
+            "0.383995154",
+            "0.130658537"
+          ],
+          [
+            "0.386499334",
+            "0.384068603",
+            "0.130658551"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p92-n29-v1",
+      "name": "n = 29",
+      "parameters": {
+        "n": 29
+      },
+      "objective": "maximize",
+      "scoreStored": "4934129701",
+      "scoreDisplay": "4.934129701",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "4.934",
+        "kind": "best",
+        "range": {
+          "lower": "4.934",
+          "upper": "4.935"
+        },
+        "truncated": true,
+        "certificateDisplay": "4.934129701",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Circles); Found by David W. Cantrell in June 2011. Source expression: Σ r = 4.934+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRcir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "answer": {
+        "circles": [
+          [
+            "0.670209874",
+            "0.617405927",
+            "0.214647629"
+          ],
+          [
+            "1.329898038",
+            "0.617498918",
+            "0.214647617"
+          ],
+          [
+            "1.741142226",
+            "1.286218990",
+            "0.205510787"
+          ],
+          [
+            "0.258777173",
+            "1.286010119",
+            "0.205510813"
+          ],
+          [
+            "1.517717382",
+            "1.617571433",
+            "0.194130429"
+          ],
+          [
+            "0.482108666",
+            "1.617425543",
+            "0.194130447"
+          ],
+          [
+            "1.731785335",
+            "0.649232684",
+            "0.188490611"
+          ],
+          [
+            "0.268313609",
+            "0.649026393",
+            "0.188490635"
+          ],
+          [
+            "1.530002360",
+            "0.960616885",
+            "0.182557214"
+          ],
+          [
+            "0.470008822",
+            "0.960467497",
+            "0.182557231"
+          ],
+          [
+            "1.354195517",
+            "1.279406187",
+            "0.181495892"
+          ],
+          [
+            "0.645725826",
+            "1.279306360",
+            "0.181495903"
+          ],
+          [
+            "1.286282259",
+            "0.228340574",
+            "0.176947266"
+          ],
+          [
+            "0.713935381",
+            "0.228259875",
+            "0.176947275"
+          ],
+          [
+            "0.826171087",
+            "0.973205156",
+            "0.173832731"
+          ],
+          [
+            "1.173836542",
+            "0.973254153",
+            "0.173832726"
+          ],
+          [
+            "0.999961556",
+            "1.273116635",
+            "0.172793900"
+          ],
+          [
+            "1.000081496",
+            "0.422130155",
+            "0.168690228"
+          ],
+          [
+            "1.163543652",
+            "1.567085293",
+            "0.163623510"
+          ],
+          [
+            "0.836296630",
+            "1.567039191",
+            "0.163623514"
+          ],
+          [
+            "0.999881285",
+            "1.842903723",
+            "0.157096268"
+          ],
+          [
+            "1.855726339",
+            "0.956884159",
+            "0.143188151"
+          ],
+          [
+            "0.144285870",
+            "0.956642960",
+            "0.143188173"
+          ],
+          [
+            "1.574635527",
+            "0.360491349",
+            "0.140245788"
+          ],
+          [
+            "0.425544840",
+            "0.360329343",
+            "0.140245802"
+          ],
+          [
+            "1.000039187",
+            "0.722271128",
+            "0.131450746"
+          ],
+          [
+            "1.000123148",
+            "0.126719969",
+            "0.126719960"
+          ],
+          [
+            "1.280690841",
+            "1.829792125",
+            "0.124019224"
+          ],
+          [
+            "0.719075428",
+            "1.829713018",
+            "0.124019231"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p92-n30-v1",
+      "name": "n = 30",
+      "parameters": {
+        "n": 30
+      },
+      "objective": "maximize",
+      "scoreStored": "5019820049",
+      "scoreDisplay": "5.019820049",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "5.019",
+        "kind": "best",
+        "range": {
+          "lower": "5.019",
+          "upper": "5.020"
+        },
+        "truncated": true,
+        "certificateDisplay": "5.019820049",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Circles); Found by David W. Cantrell in June 2011. Source expression: Σ r = 5.019+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRcir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "answer": {
+        "circles": [
+          [
+            "0.834345096",
+            "1.089533805",
+            "0.217633682"
+          ],
+          [
+            "0.256670095",
+            "0.706259024",
+            "0.200735895"
+          ],
+          [
+            "1.740762714",
+            "0.687873566",
+            "0.196164003"
+          ],
+          [
+            "0.484147836",
+            "0.382226392",
+            "0.195172262"
+          ],
+          [
+            "1.748374078",
+            "1.307800705",
+            "0.190799756"
+          ],
+          [
+            "0.645015989",
+            "0.730389643",
+            "0.188358977"
+          ],
+          [
+            "0.622753985",
+            "1.719374851",
+            "0.187710192"
+          ],
+          [
+            "1.517368183",
+            "0.374766989",
+            "0.188466787"
+          ],
+          [
+            "1.534429541",
+            "1.616064828",
+            "0.184432218"
+          ],
+          [
+            "0.983026664",
+            "1.814829742",
+            "0.184993495"
+          ],
+          [
+            "0.442999656",
+            "1.035351559",
+            "0.177444752"
+          ],
+          [
+            "1.012458692",
+            "0.735015330",
+            "0.179112839"
+          ],
+          [
+            "1.367881679",
+            "0.708582859",
+            "0.177291671"
+          ],
+          [
+            "0.558784491",
+            "1.365231163",
+            "0.172164573"
+          ],
+          [
+            "1.553169106",
+            "1.003339809",
+            "0.170865031"
+          ],
+          [
+            "1.214005191",
+            "1.018398816",
+            "0.168633031"
+          ],
+          [
+            "0.224710455",
+            "1.302711084",
+            "0.167709257"
+          ],
+          [
+            "0.883204695",
+            "1.474117185",
+            "0.170040969"
+          ],
+          [
+            "0.841277413",
+            "0.435460699",
+            "0.165903111"
+          ],
+          [
+            "1.394122979",
+            "1.297568586",
+            "0.163599083"
+          ],
+          [
+            "1.170316401",
+            "0.431316481",
+            "0.163161972"
+          ],
+          [
+            "1.200024459",
+            "1.551632347",
+            "0.156123655"
+          ],
+          [
+            "1.004995815",
+            "0.157072518",
+            "0.157057713"
+          ],
+          [
+            "1.862003462",
+            "0.999263576",
+            "0.137996223"
+          ],
+          [
+            "0.133146912",
+            "1.016287422",
+            "0.132993912"
+          ],
+          [
+            "1.296535695",
+            "1.819446465",
+            "0.128549526"
+          ],
+          [
+            "0.342938873",
+            "1.573559591",
+            "0.127818866"
+          ],
+          [
+            "0.723387267",
+            "0.169697993",
+            "0.124833714"
+          ],
+          [
+            "1.108875854",
+            "1.289108548",
+            "0.121773470"
+          ],
+          [
+            "1.284055705",
+            "0.169514731",
+            "0.122279414"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p92-n31-v1",
+      "name": "n = 31",
+      "parameters": {
+        "n": 31
+      },
+      "objective": "maximize",
+      "scoreStored": "5104855721",
+      "scoreDisplay": "5.104855721",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "5.104",
+        "kind": "best",
+        "range": {
+          "lower": "5.104",
+          "upper": "5.105"
+        },
+        "truncated": true,
+        "certificateDisplay": "5.104855721",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Circles); Found by David W. Cantrell in June 2011. Source expression: Σ r = 5.104+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRcir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "answer": {
+        "circles": [
+          [
+            "1.161213569",
+            "0.882860225",
+            "0.219904860"
+          ],
+          [
+            "1.047070501",
+            "1.531060705",
+            "0.206124950"
+          ],
+          [
+            "0.307159060",
+            "1.413399510",
+            "0.193199080"
+          ],
+          [
+            "1.128677180",
+            "0.202490405",
+            "0.192176151"
+          ],
+          [
+            "1.814836209",
+            "0.999551062",
+            "0.185163667"
+          ],
+          [
+            "0.953808810",
+            "0.535906712",
+            "0.184314725"
+          ],
+          [
+            "0.750699625",
+            "0.225652100",
+            "0.186510388"
+          ],
+          [
+            "0.186475592",
+            "1.055403719",
+            "0.184591185"
+          ],
+          [
+            "1.734493149",
+            "1.358513370",
+            "0.182679975"
+          ],
+          [
+            "0.763854619",
+            "0.845815919",
+            "0.179177105"
+          ],
+          [
+            "0.542206705",
+            "1.125999575",
+            "0.178077256"
+          ],
+          [
+            "0.894547977",
+            "1.178367914",
+            "0.178134499"
+          ],
+          [
+            "0.673438896",
+            "1.454149334",
+            "0.175340559"
+          ],
+          [
+            "0.768552241",
+            "1.791600122",
+            "0.175258332"
+          ],
+          [
+            "1.311114005",
+            "0.519265537",
+            "0.173377783"
+          ],
+          [
+            "1.476924314",
+            "1.114853685",
+            "0.171878548"
+          ],
+          [
+            "1.536947292",
+            "0.778131619",
+            "0.170151431"
+          ],
+          [
+            "1.342033578",
+            "1.759554666",
+            "0.166987239"
+          ],
+          [
+            "1.642214981",
+            "0.462522516",
+            "0.162550223"
+          ],
+          [
+            "0.608260415",
+            "0.542964453",
+            "0.161305737"
+          ],
+          [
+            "0.426664026",
+            "0.808163139",
+            "0.160109245"
+          ],
+          [
+            "1.401155646",
+            "1.437962040",
+            "0.159994770"
+          ],
+          [
+            "0.296236032",
+            "0.525485101",
+            "0.151207851"
+          ],
+          [
+            "0.477066202",
+            "1.691703365",
+            "0.132870654"
+          ],
+          [
+            "1.064759248",
+            "1.867152867",
+            "0.130432374"
+          ],
+          [
+            "1.198196000",
+            "1.230814899",
+            "0.130009636"
+          ],
+          [
+            "1.444989620",
+            "0.249662761",
+            "0.127634403"
+          ],
+          [
+            "1.818303748",
+            "0.689602543",
+            "0.124804247"
+          ],
+          [
+            "1.604281896",
+            "1.635302179",
+            "0.123207283"
+          ],
+          [
+            "0.456044648",
+            "0.307295509",
+            "0.119246380"
+          ],
+          [
+            "0.153399171",
+            "0.754187962",
+            "0.118435185"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p92-n32-v1",
+      "name": "n = 32",
+      "parameters": {
+        "n": 32
+      },
+      "objective": "maximize",
+      "scoreStored": "5191687361",
+      "scoreDisplay": "5.191687361",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "5.191",
+        "kind": "best",
+        "range": {
+          "lower": "5.191",
+          "upper": "5.192"
+        },
+        "truncated": true,
+        "certificateDisplay": "5.191687361",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Circles); Found by David W. Cantrell in June 2011. Source expression: Σ r = 5.191+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRcir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "answer": {
+        "circles": [
+          [
+            "0.999893251",
+            "0.478199959",
+            "0.210467962"
+          ],
+          [
+            "1.811558224",
+            "0.995971334",
+            "0.188431776"
+          ],
+          [
+            "0.188440225",
+            "0.996303577",
+            "0.188431806"
+          ],
+          [
+            "1.721501689",
+            "0.629508991",
+            "0.188933865"
+          ],
+          [
+            "0.278346754",
+            "0.629804345",
+            "0.188933892"
+          ],
+          [
+            "1.598262061",
+            "1.552965790",
+            "0.185329110"
+          ],
+          [
+            "0.401964457",
+            "1.553210731",
+            "0.185329131"
+          ],
+          [
+            "0.706803838",
+            "1.761587671",
+            "0.183924163"
+          ],
+          [
+            "1.293508067",
+            "1.761467531",
+            "0.183924153"
+          ],
+          [
+            "0.706143328",
+            "0.228903535",
+            "0.174808202"
+          ],
+          [
+            "1.293541114",
+            "0.228783342",
+            "0.174808192"
+          ],
+          [
+            "1.369547276",
+            "0.564127808",
+            "0.169041843"
+          ],
+          [
+            "0.630274415",
+            "0.564279101",
+            "0.169041855"
+          ],
+          [
+            "0.527697805",
+            "0.885739404",
+            "0.168387673"
+          ],
+          [
+            "1.472255454",
+            "0.885546069",
+            "0.168387657"
+          ],
+          [
+            "0.722354862",
+            "1.414021532",
+            "0.163989697"
+          ],
+          [
+            "1.277814716",
+            "1.413907810",
+            "0.163989688"
+          ],
+          [
+            "0.466251504",
+            "1.211122918",
+            "0.162746859"
+          ],
+          [
+            "1.533834955",
+            "1.210904367",
+            "0.162746842"
+          ],
+          [
+            "1.000119076",
+            "1.581408606",
+            "0.160311691"
+          ],
+          [
+            "0.843557434",
+            "0.810094460",
+            "0.156403741"
+          ],
+          [
+            "1.156364905",
+            "0.810030435",
+            "0.156403736"
+          ],
+          [
+            "0.758594876",
+            "1.103286951",
+            "0.148851026"
+          ],
+          [
+            "1.241447480",
+            "1.103188109",
+            "0.148851019"
+          ],
+          [
+            "1.000056169",
+            "1.274148595",
+            "0.146948325"
+          ],
+          [
+            "0.999822792",
+            "0.133866010",
+            "0.133865991"
+          ],
+          [
+            "1.808810755",
+            "1.316030668",
+            "0.131639348"
+          ],
+          [
+            "0.191318735",
+            "1.316361810",
+            "0.131639370"
+          ],
+          [
+            "1.000178346",
+            "1.870860136",
+            "0.129139845"
+          ],
+          [
+            "1.574555284",
+            "0.346566691",
+            "0.129891464"
+          ],
+          [
+            "0.425177362",
+            "0.346801889",
+            "0.129891479"
+          ],
+          [
+            "1.000004348",
+            "1.021004313",
+            "0.106195960"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p92-n33-v1",
+      "name": "n = 33",
+      "parameters": {
+        "n": 33
+      },
+      "objective": "maximize",
+      "scoreStored": "5277477052",
+      "scoreDisplay": "5.277477052",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "5.27748",
+        "kind": "best",
+        "range": {
+          "lower": "5.277475",
+          "upper": "5.277485"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "5.277477052",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Circles); Found by Jonathan Viquerat in September 2026. Source expression: Σ r = 5.27748+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRcir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "answer": {
+        "circles": [
+          [
+            "1.419809311",
+            "1.336226869",
+            "0.205669672"
+          ],
+          [
+            "0.465651781",
+            "0.938679091",
+            "0.205669701"
+          ],
+          [
+            "0.523676447",
+            "1.660513299",
+            "0.185652441"
+          ],
+          [
+            "0.866421697",
+            "1.803317371",
+            "0.185652431"
+          ],
+          [
+            "1.563001853",
+            "0.407518609",
+            "0.182684097"
+          ],
+          [
+            "1.024237764",
+            "0.183043580",
+            "0.182684111"
+          ],
+          [
+            "0.666715657",
+            "0.252439836",
+            "0.181510750"
+          ],
+          [
+            "1.765482307",
+            "0.710238830",
+            "0.181510721"
+          ],
+          [
+            "0.811523795",
+            "1.452363397",
+            "0.169569288"
+          ],
+          [
+            "1.430813286",
+            "1.710675485",
+            "0.168940595"
+          ],
+          [
+            "0.192030877",
+            "1.194539401",
+            "0.168940626"
+          ],
+          [
+            "1.787110653",
+            "1.272080347",
+            "0.167190960"
+          ],
+          [
+            "0.252557513",
+            "0.632711880",
+            "0.167190997"
+          ],
+          [
+            "1.127600541",
+            "1.566916545",
+            "0.166625495"
+          ],
+          [
+            "0.507616754",
+            "1.308601604",
+            "0.166625509"
+          ],
+          [
+            "0.900776096",
+            "0.508514049",
+            "0.165416174"
+          ],
+          [
+            "1.418843165",
+            "0.724365676",
+            "0.165416161"
+          ],
+          [
+            "1.588294793",
+            "1.007024071",
+            "0.164143577"
+          ],
+          [
+            "0.580756367",
+            "0.587235194",
+            "0.164143601"
+          ],
+          [
+            "1.223867963",
+            "0.462693009",
+            "0.160908698"
+          ],
+          [
+            "1.067305622",
+            "1.248315365",
+            "0.157630868"
+          ],
+          [
+            "0.776292848",
+            "1.127065492",
+            "0.157630874"
+          ],
+          [
+            "1.268458140",
+            "1.008084933",
+            "0.155694834"
+          ],
+          [
+            "0.805220789",
+            "0.815078023",
+            "0.155694844"
+          ],
+          [
+            "1.104184198",
+            "0.749946888",
+            "0.150280946"
+          ],
+          [
+            "1.335177186",
+            "0.195538962",
+            "0.128506277"
+          ],
+          [
+            "0.133636938",
+            "0.903151694",
+            "0.128240543"
+          ],
+          [
+            "1.678828145",
+            "1.546952419",
+            "0.128240515"
+          ],
+          [
+            "1.173890212",
+            "1.856190960",
+            "0.126329143"
+          ],
+          [
+            "0.269625746",
+            "1.479431105",
+            "0.126329160"
+          ],
+          [
+            "0.386699426",
+            "0.374370399",
+            "0.123900695"
+          ],
+          [
+            "1.876084602",
+            "0.994919792",
+            "0.123900668"
+          ],
+          [
+            "1.004482996",
+            "0.989240499",
+            "0.108952080"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p92-n34-v1",
+      "name": "n = 34",
+      "parameters": {
+        "n": 34
+      },
+      "objective": "maximize",
+      "scoreStored": "5360442286",
+      "scoreDisplay": "5.360442286",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "5.36044",
+        "kind": "best",
+        "range": {
+          "lower": "5.360435",
+          "upper": "5.360445"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "5.360442286",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Circles); Found by Jonathan Viquerat in September 2026. Source expression: Σ r = 5.36044+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRcir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "answer": {
+        "circles": [
+          [
+            "1.255654784",
+            "0.920195108",
+            "0.201433794"
+          ],
+          [
+            "1.582741185",
+            "1.572355598",
+            "0.183190218"
+          ],
+          [
+            "1.153652641",
+            "0.197772459",
+            "0.183190253"
+          ],
+          [
+            "0.579922085",
+            "0.296174502",
+            "0.180344104"
+          ],
+          [
+            "1.054915799",
+            "1.817814223",
+            "0.180344066"
+          ],
+          [
+            "1.777492444",
+            "1.269022454",
+            "0.177280374"
+          ],
+          [
+            "0.701655130",
+            "1.767589400",
+            "0.176469096"
+          ],
+          [
+            "1.486380982",
+            "0.336448131",
+            "0.177280397"
+          ],
+          [
+            "0.317966369",
+            "0.538444776",
+            "0.176469126"
+          ],
+          [
+            "1.428103928",
+            "1.252014525",
+            "0.172521861"
+          ],
+          [
+            "0.175823729",
+            "1.076826171",
+            "0.172250770"
+          ],
+          [
+            "1.208713194",
+            "0.549197354",
+            "0.172521878"
+          ],
+          [
+            "0.278477817",
+            "1.405677877",
+            "0.172250762"
+          ],
+          [
+            "0.915536531",
+            "1.504377065",
+            "0.162685716"
+          ],
+          [
+            "0.643603605",
+            "0.633241464",
+            "0.162685736"
+          ],
+          [
+            "0.896207890",
+            "0.428466392",
+            "0.162493836"
+          ],
+          [
+            "1.239776010",
+            "1.529085088",
+            "0.162493811"
+          ],
+          [
+            "1.517148448",
+            "0.671652217",
+            "0.159332757"
+          ],
+          [
+            "1.612103897",
+            "0.975841581",
+            "0.159332750"
+          ],
+          [
+            "0.495987700",
+            "1.157332109",
+            "0.157879770"
+          ],
+          [
+            "1.098747887",
+            "1.242431152",
+            "0.156973574"
+          ],
+          [
+            "0.943296782",
+            "0.744444350",
+            "0.156973585"
+          ],
+          [
+            "0.602402494",
+            "1.451443289",
+            "0.154890903"
+          ],
+          [
+            "0.416189845",
+            "0.854912194",
+            "0.154890916"
+          ],
+          [
+            "0.795202449",
+            "1.218466111",
+            "0.147516418"
+          ],
+          [
+            "0.707288993",
+            "0.936835852",
+            "0.147516424"
+          ],
+          [
+            "1.814308141",
+            "0.745806431",
+            "0.146939557"
+          ],
+          [
+            "1.362554487",
+            "1.792707219",
+            "0.128317436"
+          ],
+          [
+            "0.847212599",
+            "0.141812113",
+            "0.128317466"
+          ],
+          [
+            "0.422769808",
+            "1.661870807",
+            "0.121781542"
+          ],
+          [
+            "0.148747825",
+            "0.784043136",
+            "0.121781557"
+          ],
+          [
+            "1.729408127",
+            "0.498309056",
+            "0.114714724"
+          ],
+          [
+            "1.885282167",
+            "0.997650921",
+            "0.114714716"
+          ],
+          [
+            "0.955827174",
+            "1.013789019",
+            "0.112662393"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p92-n35-v1",
+      "name": "n = 35",
+      "parameters": {
+        "n": 35
+      },
+      "objective": "maximize",
+      "scoreStored": "5446248690",
+      "scoreDisplay": "5.44624869",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "5.44625",
+        "kind": "best",
+        "range": {
+          "lower": "5.446245",
+          "upper": "5.446255"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "5.44624869",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Circles); Found by Jonathan Viquerat in September 2026. Source expression: Σ r = 5.44625+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRcir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "answer": {
+        "circles": [
+          [
+            "1.183349882",
+            "0.485513991",
+            "0.194205246"
+          ],
+          [
+            "1.558094557",
+            "0.410228350",
+            "0.188027011"
+          ],
+          [
+            "1.769029911",
+            "0.709111399",
+            "0.177793710"
+          ],
+          [
+            "0.317019665",
+            "1.459925218",
+            "0.176596487"
+          ],
+          [
+            "0.186922739",
+            "1.131889584",
+            "0.176295262"
+          ],
+          [
+            "0.771396305",
+            "1.792369470",
+            "0.175312770"
+          ],
+          [
+            "0.288711020",
+            "0.580459649",
+            "0.174199709"
+          ],
+          [
+            "1.119595728",
+            "1.817505532",
+            "0.173792742"
+          ],
+          [
+            "0.521938899",
+            "0.324264458",
+            "0.172255510"
+          ],
+          [
+            "1.609001937",
+            "1.561549010",
+            "0.171615638"
+          ],
+          [
+            "1.784258855",
+            "1.266241957",
+            "0.171780987"
+          ],
+          [
+            "0.521171305",
+            "1.188832795",
+            "0.162769087"
+          ],
+          [
+            "0.967624612",
+            "1.518716438",
+            "0.161423818"
+          ],
+          [
+            "1.034539198",
+            "0.162316859",
+            "0.161605103"
+          ],
+          [
+            "0.617888185",
+            "0.643333651",
+            "0.160928245"
+          ],
+          [
+            "1.433857464",
+            "0.733464203",
+            "0.158262278"
+          ],
+          [
+            "1.454497710",
+            "1.270380753",
+            "0.158006129"
+          ],
+          [
+            "0.650601423",
+            "1.482019858",
+            "0.157716184"
+          ],
+          [
+            "0.839028295",
+            "0.414373504",
+            "0.157388729"
+          ],
+          [
+            "0.413774073",
+            "0.887391003",
+            "0.157232973"
+          ],
+          [
+            "0.721244195",
+            "0.941912810",
+            "0.155033744"
+          ],
+          [
+            "0.836708633",
+            "1.230139488",
+            "0.155460465"
+          ],
+          [
+            "1.283705148",
+            "1.532639628",
+            "0.154963223"
+          ],
+          [
+            "1.602646325",
+            "0.995979426",
+            "0.153833734"
+          ],
+          [
+            "1.143798626",
+            "1.258374753",
+            "0.152924834"
+          ],
+          [
+            "0.922265359",
+            "0.711247555",
+            "0.150933522"
+          ],
+          [
+            "1.304164587",
+            "1.007449439",
+            "0.144868306"
+          ],
+          [
+            "1.016034565",
+            "0.990617299",
+            "0.143752951"
+          ],
+          [
+            "1.324897109",
+            "0.193384645",
+            "0.130410175"
+          ],
+          [
+            "0.484500238",
+            "1.708910663",
+            "0.123475994"
+          ],
+          [
+            "0.138257468",
+            "0.836663895",
+            "0.122914556"
+          ],
+          [
+            "1.878143448",
+            "0.988102843",
+            "0.121775963"
+          ],
+          [
+            "1.411375741",
+            "1.777045212",
+            "0.120779173"
+          ],
+          [
+            "0.755403754",
+            "0.152292602",
+            "0.117710276"
+          ],
+          [
+            "1.171344085",
+            "0.789686550",
+            "0.110204156"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p92-n36-v1",
+      "name": "n = 36",
+      "parameters": {
+        "n": 36
+      },
+      "objective": "maximize",
+      "scoreStored": "5530328043",
+      "scoreDisplay": "5.530328043",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "5.53033",
+        "kind": "best",
+        "range": {
+          "lower": "5.530325",
+          "upper": "5.530335"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "5.530328043",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Circles); Found by Jonathan Viquerat in September 2026. Source expression: Σ r = 5.53033+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRcir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "answer": {
+        "circles": [
+          [
+            "1.596489141",
+            "0.437267415",
+            "0.179958990"
+          ],
+          [
+            "1.298072620",
+            "0.236049770",
+            "0.179959000"
+          ],
+          [
+            "0.794045332",
+            "1.800918557",
+            "0.173024873"
+          ],
+          [
+            "0.334704725",
+            "1.491192459",
+            "0.173024888"
+          ],
+          [
+            "0.191115336",
+            "1.177643845",
+            "0.171838339"
+          ],
+          [
+            "1.138556849",
+            "1.816488694",
+            "0.171838308"
+          ],
+          [
+            "0.955507137",
+            "0.170090560",
+            "0.168898745"
+          ],
+          [
+            "1.617697739",
+            "1.556093063",
+            "0.168862230"
+          ],
+          [
+            "1.786062916",
+            "0.730121450",
+            "0.168898718"
+          ],
+          [
+            "0.252893603",
+            "0.635827034",
+            "0.168862275"
+          ],
+          [
+            "0.456952545",
+            "0.368711870",
+            "0.167278412"
+          ],
+          [
+            "1.788831589",
+            "1.266777131",
+            "0.167278369"
+          ],
+          [
+            "0.980336663",
+            "1.523563227",
+            "0.161086543"
+          ],
+          [
+            "0.521992853",
+            "1.214509218",
+            "0.161086557"
+          ],
+          [
+            "1.463859583",
+            "1.268040707",
+            "0.157696092"
+          ],
+          [
+            "0.577610644",
+            "0.670456912",
+            "0.157696119"
+          ],
+          [
+            "0.839041332",
+            "1.238710525",
+            "0.156884261"
+          ],
+          [
+            "0.663951034",
+            "1.498378906",
+            "0.156299839"
+          ],
+          [
+            "0.705309765",
+            "0.956418217",
+            "0.155482637"
+          ],
+          [
+            "1.150880525",
+            "1.256859593",
+            "0.155482623"
+          ],
+          [
+            "1.295588382",
+            "1.530705351",
+            "0.154246069"
+          ],
+          [
+            "0.397186120",
+            "0.924926826",
+            "0.154246096"
+          ],
+          [
+            "1.011784897",
+            "0.982522504",
+            "0.152102213"
+          ],
+          [
+            "1.314654194",
+            "0.997633881",
+            "0.151143833"
+          ],
+          [
+            "0.884232250",
+            "0.707407083",
+            "0.151143846"
+          ],
+          [
+            "0.768761769",
+            "0.428958473",
+            "0.150297790"
+          ],
+          [
+            "1.616084050",
+            "1.000294692",
+            "0.150297765"
+          ],
+          [
+            "1.468494835",
+            "0.740116266",
+            "0.148826606"
+          ],
+          [
+            "1.065295051",
+            "0.468244917",
+            "0.148826617"
+          ],
+          [
+            "1.176734147",
+            "0.737893898",
+            "0.142942545"
+          ],
+          [
+            "0.508752117",
+            "1.728547319",
+            "0.121304558"
+          ],
+          [
+            "1.425966348",
+            "1.771008427",
+            "0.119147387"
+          ],
+          [
+            "0.125530982",
+            "0.894145338",
+            "0.119147417"
+          ],
+          [
+            "0.669997651",
+            "0.180779843",
+            "0.116810770"
+          ],
+          [
+            "1.883188463",
+            "0.998815559",
+            "0.116810742"
+          ],
+          [
+            "1.319037777",
+            "0.526849984",
+            "0.111595971"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p92-n37-v1",
+      "name": "n = 37",
+      "parameters": {
+        "n": 37
+      },
+      "objective": "maximize",
+      "scoreStored": "5621722703",
+      "scoreDisplay": "5.621722703",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "5.62172",
+        "kind": "best",
+        "range": {
+          "lower": "5.621715",
+          "upper": "5.621725"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "5.621722703",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Circles); Found by Jonathan Viquerat in September 2026. Source expression: Σ r = 5.62172+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRcir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "answer": {
+        "circles": [
+          [
+            "1.617246323",
+            "1.561313239",
+            "0.165694554"
+          ],
+          [
+            "0.382753699",
+            "0.438686788",
+            "0.165694589"
+          ],
+          [
+            "1.787069046",
+            "1.276745171",
+            "0.165694556"
+          ],
+          [
+            "0.212930955",
+            "0.723254922",
+            "0.165694588"
+          ],
+          [
+            "1.153866278",
+            "1.819994353",
+            "0.165694558"
+          ],
+          [
+            "0.846133848",
+            "0.180005652",
+            "0.165694586"
+          ],
+          [
+            "0.822511729",
+            "1.815207627",
+            "0.165694563"
+          ],
+          [
+            "1.177488443",
+            "0.184792429",
+            "0.165694581"
+          ],
+          [
+            "0.366797239",
+            "1.543249305",
+            "0.165694573"
+          ],
+          [
+            "0.205265367",
+            "1.253894459",
+            "0.165694580"
+          ],
+          [
+            "1.794734705",
+            "0.746105712",
+            "0.165694563"
+          ],
+          [
+            "1.633202901",
+            "0.456750853",
+            "0.165694570"
+          ],
+          [
+            "0.992194475",
+            "1.540328054",
+            "0.157339512"
+          ],
+          [
+            "1.007805642",
+            "0.459672006",
+            "0.157339526"
+          ],
+          [
+            "0.535965024",
+            "0.723076191",
+            "0.157339529"
+          ],
+          [
+            "1.464035030",
+            "1.276923882",
+            "0.157339508"
+          ],
+          [
+            "0.528159462",
+            "1.263404239",
+            "0.157339522"
+          ],
+          [
+            "1.471840635",
+            "0.736595882",
+            "0.157339516"
+          ],
+          [
+            "1.000000045",
+            "1.000000043",
+            "0.155324629"
+          ],
+          [
+            "0.840805619",
+            "1.266758540",
+            "0.155324627"
+          ],
+          [
+            "1.159194482",
+            "0.733241549",
+            "0.155324630"
+          ],
+          [
+            "1.151422462",
+            "1.271245706",
+            "0.155324623"
+          ],
+          [
+            "0.848577625",
+            "0.728754367",
+            "0.155324635"
+          ],
+          [
+            "1.310616890",
+            "1.004487221",
+            "0.155324624"
+          ],
+          [
+            "0.689383191",
+            "0.995512873",
+            "0.155324633"
+          ],
+          [
+            "0.683621943",
+            "1.530147694",
+            "0.151400908"
+          ],
+          [
+            "1.316378193",
+            "0.469852406",
+            "0.151400913"
+          ],
+          [
+            "1.617310417",
+            "1.008917730",
+            "0.151400902"
+          ],
+          [
+            "1.300932305",
+            "1.539065335",
+            "0.151400899"
+          ],
+          [
+            "0.382689637",
+            "0.991082387",
+            "0.151400919"
+          ],
+          [
+            "0.699067775",
+            "0.460934703",
+            "0.151400922"
+          ],
+          [
+            "1.431084752",
+            "1.772209711",
+            "0.115612131"
+          ],
+          [
+            "1.884295598",
+            "1.012774618",
+            "0.115612135"
+          ],
+          [
+            "0.115704419",
+            "0.987225534",
+            "0.115612154"
+          ],
+          [
+            "0.568915318",
+            "0.227790279",
+            "0.115612157"
+          ],
+          [
+            "0.546789220",
+            "1.759435232",
+            "0.115612141"
+          ],
+          [
+            "1.453210965",
+            "0.240564885",
+            "0.115612147"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p92-n38-v1",
+      "name": "n = 38",
+      "parameters": {
+        "n": 38
+      },
+      "objective": "maximize",
+      "scoreStored": "5692492719",
+      "scoreDisplay": "5.692492719",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "5.69249",
+        "kind": "best",
+        "range": {
+          "lower": "5.692485",
+          "upper": "5.692495"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "5.692492719",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Circles); Found by Jonathan Viquerat in September 2026. Source expression: Σ r = 5.69249+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRcir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "answer": {
+        "circles": [
+          [
+            "1.477826183",
+            "1.326065238",
+            "0.194222612"
+          ],
+          [
+            "0.726464333",
+            "1.790079087",
+            "0.163909858"
+          ],
+          [
+            "1.635978148",
+            "0.457249120",
+            "0.163909859"
+          ],
+          [
+            "1.050641420",
+            "1.835088938",
+            "0.163376973"
+          ],
+          [
+            "1.307176743",
+            "1.011597262",
+            "0.163564109"
+          ],
+          [
+            "1.796076336",
+            "0.742705321",
+            "0.163376975"
+          ],
+          [
+            "1.122787358",
+            "1.281807230",
+            "0.163564109"
+          ],
+          [
+            "0.309647248",
+            "1.474613703",
+            "0.162238047"
+          ],
+          [
+            "1.190264529",
+            "0.184129608",
+            "0.162238048"
+          ],
+          [
+            "0.180181009",
+            "1.178454070",
+            "0.160983292"
+          ],
+          [
+            "0.867288244",
+            "0.171545643",
+            "0.160983294"
+          ],
+          [
+            "0.228559497",
+            "0.666966420",
+            "0.159743006"
+          ],
+          [
+            "0.408641267",
+            "0.403068962",
+            "0.159743006"
+          ],
+          [
+            "0.927239699",
+            "1.537762073",
+            "0.158541104"
+          ],
+          [
+            "1.474224112",
+            "0.736194020",
+            "0.158541105"
+          ],
+          [
+            "0.986196936",
+            "0.990580890",
+            "0.158102992"
+          ],
+          [
+            "1.159187752",
+            "0.727676571",
+            "0.156610374"
+          ],
+          [
+            "0.804454781",
+            "1.247513356",
+            "0.156610373"
+          ],
+          [
+            "0.494158204",
+            "1.216234296",
+            "0.155258741"
+          ],
+          [
+            "1.016935787",
+            "0.450139683",
+            "0.155258742"
+          ],
+          [
+            "0.848793919",
+            "0.710034441",
+            "0.154284425"
+          ],
+          [
+            "0.674865725",
+            "0.964914253",
+            "0.154284425"
+          ],
+          [
+            "1.237354733",
+            "1.578198486",
+            "0.154199103"
+          ],
+          [
+            "1.624936988",
+            "1.010223340",
+            "0.154199104"
+          ],
+          [
+            "0.541507890",
+            "0.687128208",
+            "0.153854178"
+          ],
+          [
+            "1.321967901",
+            "0.467527936",
+            "0.150268574"
+          ],
+          [
+            "0.621556117",
+            "1.493933256",
+            "0.150268573"
+          ],
+          [
+            "1.528226440",
+            "1.666296323",
+            "0.149721244"
+          ],
+          [
+            "1.813015391",
+            "1.248957698",
+            "0.149721244"
+          ],
+          [
+            "0.714030344",
+            "0.439644003",
+            "0.147828484"
+          ],
+          [
+            "0.373953806",
+            "0.938002794",
+            "0.147828483"
+          ],
+          [
+            "0.462320770",
+            "1.704520780",
+            "0.113744684"
+          ],
+          [
+            "1.460008842",
+            "0.242477495",
+            "0.113744686"
+          ],
+          [
+            "1.732130786",
+            "1.499600915",
+            "0.113649864"
+          ],
+          [
+            "0.597231229",
+            "0.208070880",
+            "0.111532547"
+          ],
+          [
+            "0.115736950",
+            "0.913667654",
+            "0.111532546"
+          ],
+          [
+            "1.324458319",
+            "1.828184202",
+            "0.110526968"
+          ],
+          [
+            "1.889473010",
+            "1.000194024",
+            "0.110526968"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p92-n39-v1",
+      "name": "n = 39",
+      "parameters": {
+        "n": 39
+      },
+      "objective": "maximize",
+      "scoreStored": "5763372582",
+      "scoreDisplay": "5.763372582",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "5.76337",
+        "kind": "best",
+        "range": {
+          "lower": "5.763365",
+          "upper": "5.763375"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "5.763372582",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Circles); Found by Jonathan Viquerat in September 2026. Source expression: Σ r = 5.76337+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRcir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "answer": {
+        "circles": [
+          [
+            "1.332203895",
+            "1.051695385",
+            "0.193441828"
+          ],
+          [
+            "0.979540466",
+            "1.000116757",
+            "0.162973447"
+          ],
+          [
+            "1.693499471",
+            "1.469485008",
+            "0.162528992"
+          ],
+          [
+            "1.168895297",
+            "0.735789731",
+            "0.162178868"
+          ],
+          [
+            "1.205237813",
+            "0.186839014",
+            "0.161338358"
+          ],
+          [
+            "1.464830008",
+            "1.698414551",
+            "0.161042419"
+          ],
+          [
+            "1.085638703",
+            "1.305916306",
+            "0.160708803"
+          ],
+          [
+            "0.969298163",
+            "1.839203506",
+            "0.160235075"
+          ],
+          [
+            "0.883986983",
+            "0.168490174",
+            "0.160436058"
+          ],
+          [
+            "1.642892224",
+            "0.458375979",
+            "0.159365125"
+          ],
+          [
+            "0.657966457",
+            "1.768208882",
+            "0.159088690"
+          ],
+          [
+            "1.489605382",
+            "0.736876245",
+            "0.158533056"
+          ],
+          [
+            "0.422647165",
+            "0.387257695",
+            "0.158103670"
+          ],
+          [
+            "0.277248339",
+            "1.433631698",
+            "0.157143895"
+          ],
+          [
+            "0.236895430",
+            "0.641798987",
+            "0.157007383"
+          ],
+          [
+            "0.168164326",
+            "1.139520661",
+            "0.156544841"
+          ],
+          [
+            "1.028149568",
+            "0.450306795",
+            "0.156113241"
+          ],
+          [
+            "0.852071290",
+            "0.707857757",
+            "0.155874030"
+          ],
+          [
+            "0.775757174",
+            "1.244473381",
+            "0.155205417"
+          ],
+          [
+            "0.872813023",
+            "1.539100923",
+            "0.154996494"
+          ],
+          [
+            "0.665670910",
+            "0.955469081",
+            "0.154055751"
+          ],
+          [
+            "1.801574629",
+            "0.728083375",
+            "0.153560080"
+          ],
+          [
+            "1.386935537",
+            "1.393984318",
+            "0.153195253"
+          ],
+          [
+            "0.545238580",
+            "0.673102977",
+            "0.152920734"
+          ],
+          [
+            "0.472409650",
+            "1.193332798",
+            "0.152422734"
+          ],
+          [
+            "1.333679883",
+            "0.470543231",
+            "0.150086508"
+          ],
+          [
+            "1.169695772",
+            "1.603862642",
+            "0.148867697"
+          ],
+          [
+            "0.724992789",
+            "0.432296080",
+            "0.147578079"
+          ],
+          [
+            "0.578494750",
+            "1.472969092",
+            "0.146660038"
+          ],
+          [
+            "0.369010603",
+            "0.913930297",
+            "0.145498597"
+          ],
+          [
+            "1.834698740",
+            "1.200048846",
+            "0.141663511"
+          ],
+          [
+            "1.657341553",
+            "0.982574749",
+            "0.138961780"
+          ],
+          [
+            "1.471752739",
+            "0.247725452",
+            "0.112042994"
+          ],
+          [
+            "1.241030215",
+            "1.854725180",
+            "0.111939924"
+          ],
+          [
+            "0.614433125",
+            "0.198754422",
+            "0.110811442"
+          ],
+          [
+            "0.409236394",
+            "1.665783207",
+            "0.109905107"
+          ],
+          [
+            "1.584168442",
+            "1.220201450",
+            "0.109676015"
+          ],
+          [
+            "0.117072852",
+            "0.879105777",
+            "0.108834604"
+          ],
+          [
+            "1.897477354",
+            "0.964785309",
+            "0.101832044"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p92-n40-v1",
+      "name": "n = 40",
+      "parameters": {
+        "n": 40
+      },
+      "objective": "maximize",
+      "scoreStored": "5836314155",
+      "scoreDisplay": "5.836314155",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "5.83631",
+        "kind": "best",
+        "range": {
+          "lower": "5.836305",
+          "upper": "5.836315"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "5.836314155",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Circles); Found by Jonathan Viquerat in September 2026. Source expression: Σ r = 5.83631+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRcir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "answer": {
+        "circles": [
+          [
+            "0.997457065",
+            "1.029381877",
+            "0.190296339"
+          ],
+          [
+            "0.929172279",
+            "1.818345383",
+            "0.178595268"
+          ],
+          [
+            "1.267303369",
+            "1.796049772",
+            "0.160270083"
+          ],
+          [
+            "0.599899989",
+            "1.738286047",
+            "0.160270099"
+          ],
+          [
+            "1.183509061",
+            "0.732828907",
+            "0.159787949"
+          ],
+          [
+            "1.229952340",
+            "0.191438494",
+            "0.159375358"
+          ],
+          [
+            "0.912388820",
+            "0.163953316",
+            "0.159375365"
+          ],
+          [
+            "0.865123430",
+            "0.705272600",
+            "0.159787956"
+          ],
+          [
+            "1.655038237",
+            "0.469974366",
+            "0.157383678"
+          ],
+          [
+            "0.445767939",
+            "0.365311855",
+            "0.157383706"
+          ],
+          [
+            "1.342885377",
+            "1.005405335",
+            "0.155963090"
+          ],
+          [
+            "0.661284891",
+            "0.946412773",
+            "0.155963105"
+          ],
+          [
+            "1.047753591",
+            "0.448255691",
+            "0.155507884"
+          ],
+          [
+            "1.805020331",
+            "0.744441115",
+            "0.155388801"
+          ],
+          [
+            "0.250859098",
+            "0.609928304",
+            "0.155388835"
+          ],
+          [
+            "1.496493862",
+            "0.737073269",
+            "0.153225629"
+          ],
+          [
+            "0.556063588",
+            "0.655678936",
+            "0.153225649"
+          ],
+          [
+            "1.813375171",
+            "1.238022176",
+            "0.152513289"
+          ],
+          [
+            "0.157824788",
+            "1.094734240",
+            "0.152513324"
+          ],
+          [
+            "1.676526019",
+            "1.510550781",
+            "0.152444954"
+          ],
+          [
+            "0.245815002",
+            "1.386722756",
+            "0.152444985"
+          ],
+          [
+            "1.513018542",
+            "1.257898191",
+            "0.148500266"
+          ],
+          [
+            "0.450300086",
+            "1.165919883",
+            "0.148500289"
+          ],
+          [
+            "0.745628488",
+            "0.421881484",
+            "0.147766210"
+          ],
+          [
+            "1.349917381",
+            "0.474182768",
+            "0.147766198"
+          ],
+          [
+            "0.734992985",
+            "1.238525085",
+            "0.145305023"
+          ],
+          [
+            "1.220084660",
+            "1.280509778",
+            "0.145305013"
+          ],
+          [
+            "0.810337225",
+            "1.518135612",
+            "0.144278818"
+          ],
+          [
+            "1.097820113",
+            "1.543017250",
+            "0.144278812"
+          ],
+          [
+            "0.367703192",
+            "0.885446838",
+            "0.143881953"
+          ],
+          [
+            "1.642576093",
+            "0.995787168",
+            "0.143881926"
+          ],
+          [
+            "1.382533208",
+            "1.517017367",
+            "0.141618965"
+          ],
+          [
+            "0.534325024",
+            "1.443604960",
+            "0.141618983"
+          ],
+          [
+            "1.491241927",
+            "0.258233352",
+            "0.110316690"
+          ],
+          [
+            "0.643508467",
+            "0.184861881",
+            "0.110316704"
+          ],
+          [
+            "1.524725546",
+            "1.721760931",
+            "0.107657162"
+          ],
+          [
+            "0.359069531",
+            "1.620873451",
+            "0.107657179"
+          ],
+          [
+            "0.971820254",
+            "1.325589903",
+            "0.107019049"
+          ],
+          [
+            "1.893188139",
+            "0.991328853",
+            "0.106769771"
+          ],
+          [
+            "0.121583801",
+            "0.837996379",
+            "0.106769798"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p92-n41-v1",
+      "name": "n = 41",
+      "parameters": {
+        "n": 41
+      },
+      "objective": "maximize",
+      "scoreStored": "5910325983",
+      "scoreDisplay": "5.910325983",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "5.91033",
+        "kind": "best",
+        "range": {
+          "lower": "5.910325",
+          "upper": "5.910335"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "5.910325983",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Circles); Found by Jonathan Viquerat in September 2026. Source expression: Σ r = 5.91033+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRcir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "answer": {
+        "circles": [
+          [
+            "1.002660160",
+            "1.015712102",
+            "0.194305993"
+          ],
+          [
+            "0.762148406",
+            "1.542970231",
+            "0.181232303"
+          ],
+          [
+            "0.952599235",
+            "1.832953051",
+            "0.165699323"
+          ],
+          [
+            "0.894001375",
+            "0.679510299",
+            "0.159018763"
+          ],
+          [
+            "1.207562001",
+            "0.728664314",
+            "0.158371191"
+          ],
+          [
+            "0.669186413",
+            "0.902725824",
+            "0.157788651"
+          ],
+          [
+            "1.272899297",
+            "1.798148883",
+            "0.156486119"
+          ],
+          [
+            "1.352652678",
+            "1.007311526",
+            "0.155787324"
+          ],
+          [
+            "0.982948393",
+            "0.154272037",
+            "0.154100156"
+          ],
+          [
+            "0.714414339",
+            "1.211185216",
+            "0.153968885"
+          ],
+          [
+            "0.513286600",
+            "0.307738570",
+            "0.153763731"
+          ],
+          [
+            "1.286700538",
+            "0.203683323",
+            "0.153644608"
+          ],
+          [
+            "0.297914023",
+            "0.526119511",
+            "0.152953698"
+          ],
+          [
+            "0.592848365",
+            "0.602729405",
+            "0.151768046"
+          ],
+          [
+            "1.092801038",
+            "0.440134835",
+            "0.152143443"
+          ],
+          [
+            "1.681313200",
+            "0.495260283",
+            "0.152090890"
+          ],
+          [
+            "1.674855399",
+            "1.515899031",
+            "0.150540395"
+          ],
+          [
+            "0.151102030",
+            "0.991391468",
+            "0.151058382"
+          ],
+          [
+            "1.816318762",
+            "0.766584526",
+            "0.150965780"
+          ],
+          [
+            "1.515613739",
+            "0.748210818",
+            "0.150300055"
+          ],
+          [
+            "0.432162794",
+            "1.098810645",
+            "0.149830355"
+          ],
+          [
+            "1.092894638",
+            "1.550584758",
+            "0.149601569"
+          ],
+          [
+            "1.812843563",
+            "1.249076951",
+            "0.149850609"
+          ],
+          [
+            "0.200046157",
+            "1.288166781",
+            "0.149725782"
+          ],
+          [
+            "1.219719998",
+            "1.280916382",
+            "0.148401291"
+          ],
+          [
+            "1.515481966",
+            "1.263616222",
+            "0.147866218"
+          ],
+          [
+            "0.800062438",
+            "0.390629935",
+            "0.144751526"
+          ],
+          [
+            "0.475681977",
+            "1.389264256",
+            "0.143865438"
+          ],
+          [
+            "1.385525053",
+            "0.484335899",
+            "0.143898922"
+          ],
+          [
+            "0.382804858",
+            "0.809907281",
+            "0.143258981"
+          ],
+          [
+            "1.382669660",
+            "1.520915207",
+            "0.141688399"
+          ],
+          [
+            "1.650048447",
+            "1.007320605",
+            "0.141608445"
+          ],
+          [
+            "0.467714175",
+            "1.674100519",
+            "0.141082245"
+          ],
+          [
+            "0.959516206",
+            "1.322024287",
+            "0.115029673"
+          ],
+          [
+            "0.673479692",
+            "1.824111632",
+            "0.113560214"
+          ],
+          [
+            "0.721906213",
+            "0.151361434",
+            "0.106958248"
+          ],
+          [
+            "1.524651892",
+            "1.723866018",
+            "0.105996856"
+          ],
+          [
+            "1.534012280",
+            "0.283175889",
+            "0.106128688"
+          ],
+          [
+            "0.145648330",
+            "0.734920934",
+            "0.105470130"
+          ],
+          [
+            "1.895802938",
+            "1.009004104",
+            "0.104151811"
+          ],
+          [
+            "0.273527753",
+            "1.528523936",
+            "0.101612847"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p92-n42-v1",
+      "name": "n = 42",
+      "parameters": {
+        "n": 42
+      },
+      "objective": "maximize",
+      "scoreStored": "5981663735",
+      "scoreDisplay": "5.981663735",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "5.98166",
+        "kind": "best",
+        "range": {
+          "lower": "5.981655",
+          "upper": "5.981665"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "5.981663735",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Circles); Found by Jonathan Viquerat in September 2026. Source expression: Σ r = 5.98166+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRcir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "answer": {
+        "circles": [
+          [
+            "1.011640683",
+            "1.012845727",
+            "0.202341652"
+          ],
+          [
+            "0.675745139",
+            "0.879205572",
+            "0.159162852"
+          ],
+          [
+            "1.436269031",
+            "1.718651330",
+            "0.159291726"
+          ],
+          [
+            "0.911627312",
+            "0.665451380",
+            "0.159162852"
+          ],
+          [
+            "1.672342194",
+            "1.504724059",
+            "0.159291725"
+          ],
+          [
+            "1.223097985",
+            "0.721847544",
+            "0.157372307"
+          ],
+          [
+            "0.701286010",
+            "1.194708618",
+            "0.157372308"
+          ],
+          [
+            "0.961299121",
+            "1.365113231",
+            "0.153504756"
+          ],
+          [
+            "1.367148930",
+            "0.997335972",
+            "0.153504755"
+          ],
+          [
+            "0.551467681",
+            "0.279599743",
+            "0.151378899"
+          ],
+          [
+            "0.327121462",
+            "0.482900161",
+            "0.151378900"
+          ],
+          [
+            "0.614995794",
+            "0.575139887",
+            "0.150912015"
+          ],
+          [
+            "0.152793160",
+            "0.934772364",
+            "0.150285886"
+          ],
+          [
+            "1.018273370",
+            "0.150482395",
+            "0.150285884"
+          ],
+          [
+            "0.425361208",
+            "1.060007835",
+            "0.149676216"
+          ],
+          [
+            "1.116140686",
+            "0.434030011",
+            "0.149676215"
+          ],
+          [
+            "1.312026658",
+            "0.208399085",
+            "0.149122426"
+          ],
+          [
+            "0.181586848",
+            "1.232792939",
+            "0.149122428"
+          ],
+          [
+            "1.151959260",
+            "1.837475395",
+            "0.148849805"
+          ],
+          [
+            "1.818507973",
+            "1.233455248",
+            "0.148849803"
+          ],
+          [
+            "1.689342761",
+            "0.497765307",
+            "0.147103095"
+          ],
+          [
+            "0.432506783",
+            "1.636698181",
+            "0.147103098"
+          ],
+          [
+            "1.526702299",
+            "0.742746029",
+            "0.146950426"
+          ],
+          [
+            "0.681498464",
+            "1.792003535",
+            "0.146353218"
+          ],
+          [
+            "0.692273117",
+            "1.498897862",
+            "0.146950427"
+          ],
+          [
+            "1.819449584",
+            "0.760802988",
+            "0.146353216"
+          ],
+          [
+            "1.245472648",
+            "1.270884136",
+            "0.145884147"
+          ],
+          [
+            "0.829758446",
+            "0.374841731",
+            "0.142758459"
+          ],
+          [
+            "0.394578324",
+            "0.769197837",
+            "0.142758460"
+          ],
+          [
+            "1.402059434",
+            "0.483697851",
+            "0.140524446"
+          ],
+          [
+            "0.446715167",
+            "1.349421785",
+            "0.140524448"
+          ],
+          [
+            "1.529812563",
+            "1.241594637",
+            "0.139960322"
+          ],
+          [
+            "1.188405828",
+            "1.550974193",
+            "0.139960323"
+          ],
+          [
+            "0.930653570",
+            "1.654991638",
+            "0.137989051"
+          ],
+          [
+            "1.658635635",
+            "0.995301172",
+            "0.137989050"
+          ],
+          [
+            "0.763716911",
+            "0.136400325",
+            "0.104659786"
+          ],
+          [
+            "0.163773608",
+            "0.680063262",
+            "0.104659787"
+          ],
+          [
+            "1.413386184",
+            "1.456180192",
+            "0.104175013"
+          ],
+          [
+            "1.549853624",
+            "0.290718125",
+            "0.102548170"
+          ],
+          [
+            "0.240156283",
+            "1.477553461",
+            "0.102548172"
+          ],
+          [
+            "1.898307357",
+            "0.995970411",
+            "0.101683605"
+          ],
+          [
+            "0.907786616",
+            "1.893570945",
+            "0.101683606"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p92-n43-v1",
+      "name": "n = 43",
+      "parameters": {
+        "n": 43
+      },
+      "objective": "maximize",
+      "scoreStored": "6047099045",
+      "scoreDisplay": "6.047099045",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "6.04710",
+        "kind": "best",
+        "range": {
+          "lower": "6.047095",
+          "upper": "6.047105"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "6.047099045",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Circles); Found by Jonathan Viquerat in September 2026. Source expression: Σ r = 6.04710+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRcir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "answer": {
+        "circles": [
+          [
+            "1.215414152",
+            "1.785611256",
+            "0.185390705"
+          ],
+          [
+            "0.907961006",
+            "0.718640428",
+            "0.184098584"
+          ],
+          [
+            "0.752256227",
+            "1.479992528",
+            "0.180719771"
+          ],
+          [
+            "1.008853250",
+            "0.157457050",
+            "0.157410537"
+          ],
+          [
+            "1.677715058",
+            "1.502355906",
+            "0.156401069"
+          ],
+          [
+            "0.460319877",
+            "1.648464725",
+            "0.156340628"
+          ],
+          [
+            "1.116801677",
+            "0.451016384",
+            "0.155367252"
+          ],
+          [
+            "0.525608369",
+            "0.301271086",
+            "0.155447150"
+          ],
+          [
+            "1.314425265",
+            "0.213874230",
+            "0.153325934"
+          ],
+          [
+            "0.592895198",
+            "0.601356023",
+            "0.152089004"
+          ],
+          [
+            "1.242569779",
+            "0.730054911",
+            "0.150704822"
+          ],
+          [
+            "0.815922026",
+            "0.397164075",
+            "0.150293728"
+          ],
+          [
+            "0.304247017",
+            "0.511892782",
+            "0.150105376"
+          ],
+          [
+            "1.819354406",
+            "1.232615116",
+            "0.148265631"
+          ],
+          [
+            "1.373881834",
+            "1.492763439",
+            "0.147583541"
+          ],
+          [
+            "0.184006440",
+            "1.246821323",
+            "0.147494131"
+          ],
+          [
+            "0.719363687",
+            "1.805792647",
+            "0.146736540"
+          ],
+          [
+            "1.079723002",
+            "1.482445505",
+            "0.146756190"
+          ],
+          [
+            "1.695786067",
+            "0.504560913",
+            "0.145846536"
+          ],
+          [
+            "1.525243655",
+            "1.241239705",
+            "0.145971546"
+          ],
+          [
+            "0.146162599",
+            "0.956718804",
+            "0.145066336"
+          ],
+          [
+            "1.234810791",
+            "1.235901413",
+            "0.144510373"
+          ],
+          [
+            "1.383164967",
+            "0.988761932",
+            "0.143737582"
+          ],
+          [
+            "1.823064186",
+            "0.765023861",
+            "0.144051146"
+          ],
+          [
+            "1.536252548",
+            "0.745835772",
+            "0.143401628"
+          ],
+          [
+            "0.456069407",
+            "1.349022591",
+            "0.143131670"
+          ],
+          [
+            "1.097290812",
+            "0.984357827",
+            "0.142170494"
+          ],
+          [
+            "0.411305635",
+            "1.067236430",
+            "0.142187862"
+          ],
+          [
+            "0.949505605",
+            "1.225871136",
+            "0.140971071"
+          ],
+          [
+            "0.632914380",
+            "0.891401926",
+            "0.140704712"
+          ],
+          [
+            "1.409790772",
+            "0.491726430",
+            "0.140436596"
+          ],
+          [
+            "0.674444573",
+            "1.168937041",
+            "0.139920477"
+          ],
+          [
+            "0.374118413",
+            "0.790452193",
+            "0.137083337"
+          ],
+          [
+            "1.662995640",
+            "0.995019637",
+            "0.136163050"
+          ],
+          [
+            "1.510969244",
+            "1.719587832",
+            "0.117449028"
+          ],
+          [
+            "0.741913933",
+            "0.147927376",
+            "0.109698829"
+          ],
+          [
+            "0.251744057",
+            "1.490421863",
+            "0.105348917"
+          ],
+          [
+            "0.851645392",
+            "1.001236490",
+            "0.104054122"
+          ],
+          [
+            "0.942140787",
+            "1.691607680",
+            "0.103598920"
+          ],
+          [
+            "1.557130700",
+            "0.297473013",
+            "0.103373665"
+          ],
+          [
+            "0.950630101",
+            "1.896836621",
+            "0.101805526"
+          ],
+          [
+            "0.149473545",
+            "0.710213288",
+            "0.101461414"
+          ],
+          [
+            "1.899572085",
+            "0.997218716",
+            "0.100423615"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p92-n44-v1",
+      "name": "n = 44",
+      "parameters": {
+        "n": 44
+      },
+      "objective": "maximize",
+      "scoreStored": "6113931150",
+      "scoreDisplay": "6.11393115",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "6.11393",
+        "kind": "best",
+        "range": {
+          "lower": "6.113925",
+          "upper": "6.113935"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "6.11393115",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Circles); Found by Jonathan Viquerat in September 2026. Source expression: Σ r = 6.11393+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRcir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "answer": {
+        "circles": [
+          [
+            "1.183909821",
+            "1.776324589",
+            "0.202188812"
+          ],
+          [
+            "0.933764218",
+            "0.713391747",
+            "0.184626460"
+          ],
+          [
+            "0.690485212",
+            "1.194504066",
+            "0.164964770"
+          ],
+          [
+            "0.563775072",
+            "0.279072524",
+            "0.157368043"
+          ],
+          [
+            "1.677949912",
+            "1.500652004",
+            "0.157225705"
+          ],
+          [
+            "1.054204120",
+            "0.157803051",
+            "0.156060554"
+          ],
+          [
+            "0.619263727",
+            "0.586117931",
+            "0.154650982"
+          ],
+          [
+            "1.149287882",
+            "0.452603373",
+            "0.153694431"
+          ],
+          [
+            "0.329429931",
+            "0.482694705",
+            "0.153082656"
+          ],
+          [
+            "0.851804076",
+            "0.388270870",
+            "0.150666022"
+          ],
+          [
+            "1.352568329",
+            "0.226752286",
+            "0.150166808"
+          ],
+          [
+            "1.265963385",
+            "0.730857546",
+            "0.148031533"
+          ],
+          [
+            "0.641226733",
+            "1.773641287",
+            "0.147216851"
+          ],
+          [
+            "1.373460595",
+            "1.482073718",
+            "0.147829858"
+          ],
+          [
+            "0.412508118",
+            "1.055030389",
+            "0.146040328"
+          ],
+          [
+            "0.149450782",
+            "0.927373508",
+            "0.146355705"
+          ],
+          [
+            "0.650949944",
+            "0.885578008",
+            "0.146480805"
+          ],
+          [
+            "1.821549016",
+            "1.233766077",
+            "0.145839964"
+          ],
+          [
+            "1.532055360",
+            "1.237483703",
+            "0.143677559"
+          ],
+          [
+            "0.171847278",
+            "1.216802959",
+            "0.143938989"
+          ],
+          [
+            "0.400368245",
+            "1.614177673",
+            "0.141645495"
+          ],
+          [
+            "1.713820840",
+            "0.522585830",
+            "0.141242477"
+          ],
+          [
+            "0.388742107",
+            "0.769847209",
+            "0.140131419"
+          ],
+          [
+            "1.552946007",
+            "0.753037693",
+            "0.139806935"
+          ],
+          [
+            "1.398675013",
+            "0.986805265",
+            "0.140276654"
+          ],
+          [
+            "1.831221898",
+            "0.777664395",
+            "0.139556529"
+          ],
+          [
+            "1.249534131",
+            "1.223168568",
+            "0.139206105"
+          ],
+          [
+            "1.120021872",
+            "0.977474873",
+            "0.138532650"
+          ],
+          [
+            "1.089498449",
+            "1.449505472",
+            "0.137993846"
+          ],
+          [
+            "1.436073702",
+            "0.501803460",
+            "0.137281092"
+          ],
+          [
+            "0.425030595",
+            "1.337210513",
+            "0.136417517"
+          ],
+          [
+            "0.648339134",
+            "1.491503708",
+            "0.135010361"
+          ],
+          [
+            "0.881945012",
+            "1.626611635",
+            "0.134852303"
+          ],
+          [
+            "1.671684159",
+            "0.998636401",
+            "0.132988728"
+          ],
+          [
+            "0.983056301",
+            "1.205924039",
+            "0.127829112"
+          ],
+          [
+            "1.503335258",
+            "1.718982554",
+            "0.122342723"
+          ],
+          [
+            "0.882682160",
+            "1.876824595",
+            "0.115361742"
+          ],
+          [
+            "0.789141377",
+            "0.135293928",
+            "0.109956208"
+          ],
+          [
+            "0.876660034",
+            "0.998043732",
+            "0.105696876"
+          ],
+          [
+            "0.163202714",
+            "0.678006660",
+            "0.103390046"
+          ],
+          [
+            "1.586098222",
+            "0.317489924",
+            "0.100371671"
+          ],
+          [
+            "0.221277894",
+            "1.454165203",
+            "0.098515585"
+          ],
+          [
+            "0.860151936",
+            "1.395054793",
+            "0.097727809"
+          ],
+          [
+            "1.902300641",
+            "1.004013536",
+            "0.097690432"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p92-n45-v1",
+      "name": "n = 45",
+      "parameters": {
+        "n": 45
+      },
+      "objective": "maximize",
+      "scoreStored": "6187996093",
+      "scoreDisplay": "6.187996093",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "6.18800",
+        "kind": "best",
+        "range": {
+          "lower": "6.187995",
+          "upper": "6.188005"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "6.187996093",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Circles); Found by Jonathan Viquerat in September 2026. Source expression: Σ r = 6.18800+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRcir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "answer": {
+        "circles": [
+          [
+            "1.196550042",
+            "0.750409060",
+            "0.180371576"
+          ],
+          [
+            "1.004938704",
+            "1.826348637",
+            "0.173636604"
+          ],
+          [
+            "0.383029885",
+            "0.991967408",
+            "0.166063357"
+          ],
+          [
+            "0.678947411",
+            "0.851130974",
+            "0.161659211"
+          ],
+          [
+            "0.334415425",
+            "0.481785074",
+            "0.156466043"
+          ],
+          [
+            "1.329963491",
+            "1.777942660",
+            "0.154972966"
+          ],
+          [
+            "0.681771699",
+            "1.785979260",
+            "0.152042071"
+          ],
+          [
+            "1.306820385",
+            "0.208518294",
+            "0.151128961"
+          ],
+          [
+            "1.105374461",
+            "0.432639634",
+            "0.150219400"
+          ],
+          [
+            "0.185176394",
+            "1.239389227",
+            "0.150738726"
+          ],
+          [
+            "1.691024499",
+            "0.505440809",
+            "0.150233178"
+          ],
+          [
+            "1.526839428",
+            "0.756778729",
+            "0.149979224"
+          ],
+          [
+            "1.013332651",
+            "0.148530969",
+            "0.148426591"
+          ],
+          [
+            "0.186108702",
+            "0.747509545",
+            "0.147843632"
+          ],
+          [
+            "0.555973165",
+            "0.272896057",
+            "0.148037574"
+          ],
+          [
+            "1.146056988",
+            "1.538480900",
+            "0.146960032"
+          ],
+          [
+            "1.385269566",
+            "1.016955697",
+            "0.146220169"
+          ],
+          [
+            "1.822596459",
+            "0.770984198",
+            "0.146118760"
+          ],
+          [
+            "1.395352229",
+            "0.491888955",
+            "0.145749496"
+          ],
+          [
+            "0.855322381",
+            "1.546292514",
+            "0.143879498"
+          ],
+          [
+            "0.894325466",
+            "0.635924312",
+            "0.142810185"
+          ],
+          [
+            "0.307244356",
+            "1.505759065",
+            "0.142268915"
+          ],
+          [
+            "1.705446932",
+            "1.487590927",
+            "0.142445170"
+          ],
+          [
+            "1.827041694",
+            "1.231307231",
+            "0.141221216"
+          ],
+          [
+            "0.622815823",
+            "0.553909494",
+            "0.140816181"
+          ],
+          [
+            "1.266904326",
+            "1.277880548",
+            "0.140297033"
+          ],
+          [
+            "1.546444730",
+            "1.253817045",
+            "0.140277180"
+          ],
+          [
+            "0.826178278",
+            "0.364318241",
+            "0.137214628"
+          ],
+          [
+            "1.105188077",
+            "1.053554986",
+            "0.136242479"
+          ],
+          [
+            "0.991223648",
+            "1.301201380",
+            "0.136368281"
+          ],
+          [
+            "1.427138698",
+            "1.503348342",
+            "0.136308787"
+          ],
+          [
+            "1.666807664",
+            "1.005642266",
+            "0.135545148"
+          ],
+          [
+            "0.467208209",
+            "1.280225259",
+            "0.134234125"
+          ],
+          [
+            "0.580868361",
+            "1.520716775",
+            "0.131763617"
+          ],
+          [
+            "0.727494391",
+            "1.306989657",
+            "0.127424487"
+          ],
+          [
+            "0.845821546",
+            "1.084110217",
+            "0.124917662"
+          ],
+          [
+            "0.108502213",
+            "0.991786083",
+            "0.108464373"
+          ],
+          [
+            "0.441001765",
+            "0.723968187",
+            "0.108134236"
+          ],
+          [
+            "1.548763024",
+            "0.293260166",
+            "0.105225139"
+          ],
+          [
+            "0.942729807",
+            "0.877353337",
+            "0.103423350"
+          ],
+          [
+            "1.572119074",
+            "1.692323038",
+            "0.101873380"
+          ],
+          [
+            "0.763468789",
+            "0.133590109",
+            "0.101883574"
+          ],
+          [
+            "0.442581538",
+            "1.706652790",
+            "0.099959162"
+          ],
+          [
+            "0.622668101",
+            "1.105951380",
+            "0.099302088"
+          ],
+          [
+            "1.901166416",
+            "1.002988476",
+            "0.098828628"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p92-n46-v1",
+      "name": "n = 46",
+      "parameters": {
+        "n": 46
+      },
+      "objective": "maximize",
+      "scoreStored": "6260153261",
+      "scoreDisplay": "6.260153261",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "6.26015",
+        "kind": "best",
+        "range": {
+          "lower": "6.260145",
+          "upper": "6.260155"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "6.260153261",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Circles); Found by Jonathan Viquerat in September 2026. Source expression: Σ r = 6.26015+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRcir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "answer": {
+        "circles": [
+          [
+            "1.003302083",
+            "1.340622806",
+            "0.175565189"
+          ],
+          [
+            "0.670523398",
+            "0.913513379",
+            "0.175565196"
+          ],
+          [
+            "1.655282044",
+            "0.489442648",
+            "0.169299471"
+          ],
+          [
+            "1.493422010",
+            "1.690403852",
+            "0.151399528"
+          ],
+          [
+            "0.451197074",
+            "0.352745740",
+            "0.151399547"
+          ],
+          [
+            "1.817219657",
+            "0.763879017",
+            "0.149352548"
+          ],
+          [
+            "1.428770509",
+            "0.265318488",
+            "0.149352555"
+          ],
+          [
+            "0.427215892",
+            "1.126559908",
+            "0.147834503"
+          ],
+          [
+            "1.704991545",
+            "1.479073227",
+            "0.147636089"
+          ],
+          [
+            "0.707843633",
+            "0.199269794",
+            "0.147636106"
+          ],
+          [
+            "0.737231584",
+            "1.524453837",
+            "0.147834498"
+          ],
+          [
+            "1.226945736",
+            "1.823027788",
+            "0.146255830"
+          ],
+          [
+            "0.257443160",
+            "0.578706256",
+            "0.146255846"
+          ],
+          [
+            "0.756439970",
+            "1.818087088",
+            "0.146426352"
+          ],
+          [
+            "0.147191743",
+            "1.036139041",
+            "0.146426362"
+          ],
+          [
+            "0.494637064",
+            "1.689171192",
+            "0.145395630"
+          ],
+          [
+            "0.700576192",
+            "1.233293562",
+            "0.145624056"
+          ],
+          [
+            "0.208181973",
+            "1.321516458",
+            "0.145395634"
+          ],
+          [
+            "1.524266198",
+            "0.773777205",
+            "0.143768080"
+          ],
+          [
+            "1.347543416",
+            "0.546959870",
+            "0.143768083"
+          ],
+          [
+            "0.993519409",
+            "1.656512588",
+            "0.140476033"
+          ],
+          [
+            "0.361829733",
+            "0.845761720",
+            "0.140476044"
+          ],
+          [
+            "0.537443766",
+            "0.629284218",
+            "0.138276170"
+          ],
+          [
+            "0.987835745",
+            "0.138880365",
+            "0.138794452"
+          ],
+          [
+            "1.832008163",
+            "1.222345303",
+            "0.138794439"
+          ],
+          [
+            "1.246365177",
+            "1.539159264",
+            "0.138276159"
+          ],
+          [
+            "1.244827153",
+            "0.809245056",
+            "0.137912852"
+          ],
+          [
+            "0.477487560",
+            "1.407111184",
+            "0.137185249"
+          ],
+          [
+            "1.140743586",
+            "1.061823732",
+            "0.135270925"
+          ],
+          [
+            "1.408702933",
+            "1.027350236",
+            "0.134896862"
+          ],
+          [
+            "1.073410891",
+            "0.597014973",
+            "0.134896867"
+          ],
+          [
+            "0.974465681",
+            "0.848412035",
+            "0.135270927"
+          ],
+          [
+            "1.304639326",
+            "1.274212896",
+            "0.133003132"
+          ],
+          [
+            "0.808596809",
+            "0.637560208",
+            "0.133003140"
+          ],
+          [
+            "1.160465704",
+            "0.345971462",
+            "0.130812343"
+          ],
+          [
+            "1.673412163",
+            "1.004319795",
+            "0.130812335"
+          ],
+          [
+            "0.904888563",
+            "0.393696953",
+            "0.129182651"
+          ],
+          [
+            "1.564644736",
+            "1.240470245",
+            "0.129182641"
+          ],
+          [
+            "0.899492836",
+            "1.078309347",
+            "0.106542432"
+          ],
+          [
+            "0.990964580",
+            "1.898464851",
+            "0.101489717"
+          ],
+          [
+            "0.126596650",
+            "0.789079878",
+            "0.101489727"
+          ],
+          [
+            "0.290220534",
+            "1.553018710",
+            "0.100213034"
+          ],
+          [
+            "1.462111601",
+            "1.443082357",
+            "0.097896005"
+          ],
+          [
+            "0.683356116",
+            "0.443577764",
+            "0.097896014"
+          ],
+          [
+            "1.224250400",
+            "0.126275146",
+            "0.097956008"
+          ],
+          [
+            "1.902035947",
+            "0.996188543",
+            "0.097956000"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p92-n47-v1",
+      "name": "n = 47",
+      "parameters": {
+        "n": 47
+      },
+      "objective": "maximize",
+      "scoreStored": "6327794800",
+      "scoreDisplay": "6.3277948",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "6.32779",
+        "kind": "best",
+        "range": {
+          "lower": "6.327785",
+          "upper": "6.327795"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "6.3277948",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Circles); Found by Jonathan Viquerat in September 2026. Source expression: Σ r = 6.32779+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRcir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "answer": {
+        "circles": [
+          [
+            "1.532043714",
+            "1.281811778",
+            "0.181126454"
+          ],
+          [
+            "0.481919834",
+            "1.177321697",
+            "0.172006027"
+          ],
+          [
+            "0.867102015",
+            "0.406576433",
+            "0.171529436"
+          ],
+          [
+            "1.563276761",
+            "1.622208535",
+            "0.160700189"
+          ],
+          [
+            "1.088308516",
+            "0.162508855",
+            "0.157865917"
+          ],
+          [
+            "0.261483688",
+            "1.415579847",
+            "0.152584545"
+          ],
+          [
+            "0.161703112",
+            "1.127781534",
+            "0.152020169"
+          ],
+          [
+            "1.279055234",
+            "1.495931719",
+            "0.150310598"
+          ],
+          [
+            "1.305588661",
+            "1.794148913",
+            "0.149084654"
+          ],
+          [
+            "1.182998756",
+            "0.453113800",
+            "0.147776808"
+          ],
+          [
+            "1.383349101",
+            "0.237496272",
+            "0.146554941"
+          ],
+          [
+            "0.369063943",
+            "0.425249389",
+            "0.146525586"
+          ],
+          [
+            "1.214093288",
+            "1.207437846",
+            "0.145406782"
+          ],
+          [
+            "1.399443745",
+            "0.983786362",
+            "0.145066587"
+          ],
+          [
+            "0.596466536",
+            "0.244816911",
+            "0.143763610"
+          ],
+          [
+            "1.010114063",
+            "0.684870007",
+            "0.141359935"
+          ],
+          [
+            "0.209023714",
+            "0.663349894",
+            "0.140362414"
+          ],
+          [
+            "1.289334596",
+            "0.720683141",
+            "0.140147944"
+          ],
+          [
+            "0.585921588",
+            "1.753524629",
+            "0.140197523"
+          ],
+          [
+            "0.848669357",
+            "1.847685160",
+            "0.138912840"
+          ],
+          [
+            "1.120409889",
+            "0.940738266",
+            "0.137268375"
+          ],
+          [
+            "1.564815517",
+            "0.754750700",
+            "0.137431478"
+          ],
+          [
+            "1.007816157",
+            "1.400602112",
+            "0.137193090"
+          ],
+          [
+            "0.543577925",
+            "1.479845884",
+            "0.136737561"
+          ],
+          [
+            "1.726354781",
+            "0.533331440",
+            "0.136651395"
+          ],
+          [
+            "0.798776459",
+            "1.577002469",
+            "0.136329634"
+          ],
+          [
+            "1.836499630",
+            "0.782364452",
+            "0.135652348"
+          ],
+          [
+            "0.341670959",
+            "0.904438370",
+            "0.134808340"
+          ],
+          [
+            "1.678707254",
+            "1.002002441",
+            "0.134790399"
+          ],
+          [
+            "1.052975897",
+            "1.667499965",
+            "0.133498368"
+          ],
+          [
+            "1.839421600",
+            "1.216378287",
+            "0.133138889"
+          ],
+          [
+            "1.458347133",
+            "0.506488855",
+            "0.132697120"
+          ],
+          [
+            "0.753686818",
+            "1.312824501",
+            "0.131668639"
+          ],
+          [
+            "0.738060304",
+            "0.679915786",
+            "0.130738929"
+          ],
+          [
+            "0.605298931",
+            "0.902956647",
+            "0.128823795"
+          ],
+          [
+            "0.478143837",
+            "0.678460832",
+            "0.129181609"
+          ],
+          [
+            "0.949035229",
+            "1.142537711",
+            "0.127481109"
+          ],
+          [
+            "0.859803818",
+            "0.905607666",
+            "0.125694898"
+          ],
+          [
+            "0.822284500",
+            "0.128281761",
+            "0.110350918"
+          ],
+          [
+            "1.769741411",
+            "1.448439430",
+            "0.109157835"
+          ],
+          [
+            "0.607786643",
+            "0.488839538",
+            "0.100521442"
+          ],
+          [
+            "0.371698439",
+            "1.643531653",
+            "0.100613631"
+          ],
+          [
+            "0.107911539",
+            "0.881492650",
+            "0.100074550"
+          ],
+          [
+            "1.080744550",
+            "1.897853625",
+            "0.098522981"
+          ],
+          [
+            "1.607746548",
+            "0.332071494",
+            "0.096958275"
+          ],
+          [
+            "0.733385614",
+            "1.086814181",
+            "0.095251618"
+          ],
+          [
+            "1.906745356",
+            "1.000226648",
+            "0.093254615"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p92-n48-v1",
+      "name": "n = 48",
+      "parameters": {
+        "n": 48
+      },
+      "objective": "maximize",
+      "scoreStored": "6408617980",
+      "scoreDisplay": "6.40861798",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "6.40862",
+        "kind": "best",
+        "range": {
+          "lower": "6.408615",
+          "upper": "6.408625"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "6.40861798",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Circles); Found by Jonathan Viquerat in September 2026. Source expression: Σ r = 6.40862+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRcir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "answer": {
+        "circles": [
+          [
+            "1.235886324",
+            "0.432198610",
+            "0.169896351"
+          ],
+          [
+            "0.240910992",
+            "1.343430005",
+            "0.166837176"
+          ],
+          [
+            "1.675642639",
+            "1.492076274",
+            "0.164157888"
+          ],
+          [
+            "1.065570463",
+            "0.156614741",
+            "0.154069636"
+          ],
+          [
+            "0.148116721",
+            "1.043624599",
+            "0.147000453"
+          ],
+          [
+            "0.403981640",
+            "1.610958293",
+            "0.146473245"
+          ],
+          [
+            "0.920792883",
+            "0.418853517",
+            "0.145479564"
+          ],
+          [
+            "1.825914695",
+            "1.222228490",
+            "0.144710233"
+          ],
+          [
+            "1.465042472",
+            "1.717906022",
+            "0.144632501"
+          ],
+          [
+            "0.432978057",
+            "1.099851211",
+            "0.143356933"
+          ],
+          [
+            "0.550288570",
+            "1.361126848",
+            "0.143046129"
+          ],
+          [
+            "1.044268904",
+            "0.679666705",
+            "0.143085587"
+          ],
+          [
+            "0.769634940",
+            "0.173887441",
+            "0.142369531"
+          ],
+          [
+            "1.716245093",
+            "0.528323660",
+            "0.142395427"
+          ],
+          [
+            "1.373329755",
+            "1.446849521",
+            "0.141519290"
+          ],
+          [
+            "1.540014452",
+            "1.218475511",
+            "0.141214641"
+          ],
+          [
+            "1.525189604",
+            "0.319654513",
+            "0.140526845"
+          ],
+          [
+            "0.713803514",
+            "1.131072454",
+            "0.139198730"
+          ],
+          [
+            "0.877910525",
+            "0.906954039",
+            "0.138578472"
+          ],
+          [
+            "0.764605142",
+            "0.655020001",
+            "0.137662128"
+          ],
+          [
+            "1.262403084",
+            "1.190497821",
+            "0.137802961"
+          ],
+          [
+            "1.151970961",
+            "0.938537333",
+            "0.137295823"
+          ],
+          [
+            "0.988931064",
+            "1.159623871",
+            "0.137406316"
+          ],
+          [
+            "0.603941488",
+            "0.877722882",
+            "0.136945561"
+          ],
+          [
+            "0.828676848",
+            "1.381222559",
+            "0.136066519"
+          ],
+          [
+            "1.098806540",
+            "1.409474153",
+            "0.135536504"
+          ],
+          [
+            "1.836510571",
+            "0.777683480",
+            "0.134451289"
+          ],
+          [
+            "1.421473416",
+            "0.970051035",
+            "0.134042870"
+          ],
+          [
+            "0.229409815",
+            "0.603544990",
+            "0.133405626"
+          ],
+          [
+            "0.494750772",
+            "0.630515647",
+            "0.133302527"
+          ],
+          [
+            "0.385463896",
+            "0.387996332",
+            "0.132703560"
+          ],
+          [
+            "1.316871760",
+            "0.724204205",
+            "0.133131548"
+          ],
+          [
+            "0.785562049",
+            "1.840479023",
+            "0.132596620"
+          ],
+          [
+            "0.940211944",
+            "1.625360304",
+            "0.132342340"
+          ],
+          [
+            "1.049052810",
+            "1.866442359",
+            "0.132170212"
+          ],
+          [
+            "0.339211091",
+            "0.843027511",
+            "0.130048729"
+          ],
+          [
+            "0.679643993",
+            "1.600875866",
+            "0.129373430"
+          ],
+          [
+            "0.646007873",
+            "0.415822809",
+            "0.129322157"
+          ],
+          [
+            "1.199559495",
+            "1.653569468",
+            "0.128534850"
+          ],
+          [
+            "1.682673032",
+            "0.990241904",
+            "0.127935966"
+          ],
+          [
+            "1.575252130",
+            "0.758478087",
+            "0.127512104"
+          ],
+          [
+            "1.327095696",
+            "0.169915259",
+            "0.107793593"
+          ],
+          [
+            "1.475846212",
+            "0.554474676",
+            "0.099421647"
+          ],
+          [
+            "0.117211045",
+            "0.803085642",
+            "0.095515835"
+          ],
+          [
+            "0.563087076",
+            "1.792573319",
+            "0.094977696"
+          ],
+          [
+            "1.905259349",
+            "0.996313557",
+            "0.094733144"
+          ],
+          [
+            "1.275359428",
+            "1.862970328",
+            "0.094163038"
+          ],
+          [
+            "0.538031226",
+            "0.220482322",
+            "0.093874755"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p92-n49-v1",
+      "name": "n = 49",
+      "parameters": {
+        "n": 49
+      },
+      "objective": "maximize",
+      "scoreStored": "6473314965",
+      "scoreDisplay": "6.473314965",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "6.47331",
+        "kind": "best",
+        "range": {
+          "lower": "6.473305",
+          "upper": "6.473315"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "6.473314965",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Circles); Found by Jonathan Viquerat in September 2026. Source expression: Σ r = 6.47331+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRcir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "answer": {
+        "circles": [
+          [
+            "0.364597422",
+            "1.535418905",
+            "0.169090955"
+          ],
+          [
+            "0.172651546",
+            "1.076839729",
+            "0.169090974"
+          ],
+          [
+            "1.677498670",
+            "1.489013551",
+            "0.164453052"
+          ],
+          [
+            "1.127156050",
+            "0.174185281",
+            "0.164453105"
+          ],
+          [
+            "0.815895610",
+            "0.166992489",
+            "0.146890429"
+          ],
+          [
+            "1.464166958",
+            "1.715782837",
+            "0.146890373"
+          ],
+          [
+            "1.827946507",
+            "1.220730090",
+            "0.143135254"
+          ],
+          [
+            "1.423853876",
+            "0.255308772",
+            "0.143135288"
+          ],
+          [
+            "1.374682884",
+            "1.440937356",
+            "0.142155362"
+          ],
+          [
+            "0.948873624",
+            "0.423632975",
+            "0.142155399"
+          ],
+          [
+            "1.544203816",
+            "1.214540281",
+            "0.140674943"
+          ],
+          [
+            "0.243370579",
+            "0.592450394",
+            "0.140590457"
+          ],
+          [
+            "1.229120658",
+            "0.461772417",
+            "0.140674969"
+          ],
+          [
+            "0.759277650",
+            "1.825007628",
+            "0.140590414"
+          ],
+          [
+            "0.410518140",
+            "0.370286540",
+            "0.137429478"
+          ],
+          [
+            "1.034843348",
+            "1.861866540",
+            "0.137429427"
+          ],
+          [
+            "1.058098209",
+            "0.680554563",
+            "0.137019657"
+          ],
+          [
+            "1.268327427",
+            "1.182814905",
+            "0.137019640"
+          ],
+          [
+            "0.787220235",
+            "0.649535826",
+            "0.135628538"
+          ],
+          [
+            "1.100309786",
+            "1.397540517",
+            "0.135628513"
+          ],
+          [
+            "0.517784429",
+            "0.621046160",
+            "0.135309304"
+          ],
+          [
+            "0.931502810",
+            "1.609463824",
+            "0.135309271"
+          ],
+          [
+            "1.162586203",
+            "0.931947023",
+            "0.135222715"
+          ],
+          [
+            "0.998791404",
+            "1.146764392",
+            "0.134916578"
+          ],
+          [
+            "0.894606666",
+            "0.897855820",
+            "0.134916586"
+          ],
+          [
+            "0.665791504",
+            "1.567074282",
+            "0.133762041"
+          ],
+          [
+            "0.627718353",
+            "0.866663846",
+            "0.133788290"
+          ],
+          [
+            "1.326209965",
+            "0.718457261",
+            "0.133757978"
+          ],
+          [
+            "0.361492760",
+            "0.840071995",
+            "0.133762065"
+          ],
+          [
+            "0.833697286",
+            "1.358769651",
+            "0.133788273"
+          ],
+          [
+            "1.429499981",
+            "0.965228319",
+            "0.133757970"
+          ],
+          [
+            "0.733221223",
+            "1.111664731",
+            "0.132963072"
+          ],
+          [
+            "1.195109708",
+            "1.646647466",
+            "0.130907219"
+          ],
+          [
+            "0.572524608",
+            "1.320105644",
+            "0.130230803"
+          ],
+          [
+            "0.676307508",
+            "0.407173084",
+            "0.130907259"
+          ],
+          [
+            "0.471958275",
+            "1.079841903",
+            "0.130230810"
+          ],
+          [
+            "1.587347418",
+            "0.754156349",
+            "0.129808321"
+          ],
+          [
+            "1.744533837",
+            "0.548329658",
+            "0.129174683"
+          ],
+          [
+            "1.844284536",
+            "0.786644973",
+            "0.129174675"
+          ],
+          [
+            "1.490716811",
+            "0.516639072",
+            "0.126613071"
+          ],
+          [
+            "1.688719477",
+            "0.989688999",
+            "0.126613057"
+          ],
+          [
+            "0.125480701",
+            "0.807336282",
+            "0.104509457"
+          ],
+          [
+            "0.523467325",
+            "1.758168824",
+            "0.104509432"
+          ],
+          [
+            "0.170838498",
+            "1.347059265",
+            "0.101134643"
+          ],
+          [
+            "1.269160166",
+            "1.862070200",
+            "0.096887479"
+          ],
+          [
+            "0.574826330",
+            "0.203231838",
+            "0.096887518"
+          ],
+          [
+            "0.352197290",
+            "1.271148552",
+            "0.095470157"
+          ],
+          [
+            "1.907566478",
+            "0.999025191",
+            "0.092432998"
+          ],
+          [
+            "1.637662264",
+            "0.354194555",
+            "0.092433013"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p92-n50-v1",
+      "name": "n = 50",
+      "parameters": {
+        "n": 50
+      },
+      "objective": "maximize",
+      "scoreStored": "6534856438",
+      "scoreDisplay": "6.534856438",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "6.53486",
+        "kind": "best",
+        "range": {
+          "lower": "6.534855",
+          "upper": "6.534865"
+        },
+        "precision": "rounded",
+        "certificateDisplay": "6.534856438",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Circles); Found by Jonathan Viquerat in September 2026. Source expression: Σ r = 6.53486+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRcir/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "answer": {
+        "circles": [
+          [
+            "0.655503953",
+            "0.881279390",
+            "0.181224401"
+          ],
+          [
+            "1.395095977",
+            "0.520690051",
+            "0.168360364"
+          ],
+          [
+            "1.154047332",
+            "1.827299484",
+            "0.158480530"
+          ],
+          [
+            "1.713027896",
+            "0.537310531",
+            "0.150005691"
+          ],
+          [
+            "0.981937567",
+            "0.845289069",
+            "0.147187240"
+          ],
+          [
+            "1.271381596",
+            "0.808187187",
+            "0.144625020"
+          ],
+          [
+            "0.879050457",
+            "1.118385203",
+            "0.144647054"
+          ],
+          [
+            "1.558073072",
+            "0.785908191",
+            "0.142930810"
+          ],
+          [
+            "0.170778635",
+            "1.218704583",
+            "0.142422151"
+          ],
+          [
+            "0.822113648",
+            "0.605174439",
+            "0.141254643"
+          ],
+          [
+            "1.160529047",
+            "1.071167820",
+            "0.140764364"
+          ],
+          [
+            "0.856323190",
+            "1.847954641",
+            "0.139959245"
+          ],
+          [
+            "1.092252545",
+            "0.144215369",
+            "0.139257374"
+          ],
+          [
+            "1.438733649",
+            "1.740750399",
+            "0.139071217"
+          ],
+          [
+            "0.542358487",
+            "0.581142735",
+            "0.139530814"
+          ],
+          [
+            "0.283078502",
+            "1.476770998",
+            "0.139019733"
+          ],
+          [
+            "1.242983173",
+            "1.543922612",
+            "0.138524579"
+          ],
+          [
+            "0.970362070",
+            "1.593787094",
+            "0.138619303"
+          ],
+          [
+            "1.063620943",
+            "1.332954874",
+            "0.138383700"
+          ],
+          [
+            "1.359772135",
+            "0.216514223",
+            "0.137859667"
+          ],
+          [
+            "1.838175572",
+            "0.795986071",
+            "0.137352926"
+          ],
+          [
+            "0.138692357",
+            "0.941429562",
+            "0.136703207"
+          ],
+          [
+            "1.434955527",
+            "1.036081082",
+            "0.135896026"
+          ],
+          [
+            "1.098491754",
+            "0.587545185",
+            "0.135685148"
+          ],
+          [
+            "1.332299633",
+            "1.286074986",
+            "0.134354199"
+          ],
+          [
+            "0.387706687",
+            "1.047466340",
+            "0.133947738"
+          ],
+          [
+            "0.274345275",
+            "0.527130832",
+            "0.133870661"
+          ],
+          [
+            "0.796342097",
+            "1.384233279",
+            "0.133769669"
+          ],
+          [
+            "0.356792936",
+            "0.781645306",
+            "0.133664820"
+          ],
+          [
+            "0.611694772",
+            "1.192122570",
+            "0.132690757"
+          ],
+          [
+            "0.448281204",
+            "0.327998696",
+            "0.130529251"
+          ],
+          [
+            "0.459098474",
+            "1.680823901",
+            "0.130462395"
+          ],
+          [
+            "0.823504991",
+            "0.147591683",
+            "0.129511386"
+          ],
+          [
+            "1.592705160",
+            "1.248559688",
+            "0.128739769"
+          ],
+          [
+            "0.951215993",
+            "0.370040022",
+            "0.126990784"
+          ],
+          [
+            "1.748152122",
+            "1.450945266",
+            "0.126453647"
+          ],
+          [
+            "1.846000918",
+            "1.217769443",
+            "0.126420533"
+          ],
+          [
+            "1.695301568",
+            "1.016264717",
+            "0.125203090"
+          ],
+          [
+            "0.708968198",
+            "1.627779790",
+            "0.124975574"
+          ],
+          [
+            "0.544160317",
+            "1.440377729",
+            "0.124586381"
+          ],
+          [
+            "1.499253332",
+            "1.484076905",
+            "0.124640583"
+          ],
+          [
+            "0.699830876",
+            "0.369342261",
+            "0.124395300"
+          ],
+          [
+            "1.580307111",
+            "0.319123181",
+            "0.105377405"
+          ],
+          [
+            "1.176911140",
+            "0.366635980",
+            "0.098730031"
+          ],
+          [
+            "0.400564206",
+            "1.275276306",
+            "0.094224776"
+          ],
+          [
+            "0.140783507",
+            "0.711192123",
+            "0.093543728"
+          ],
+          [
+            "0.625656449",
+            "1.827686068",
+            "0.091596278"
+          ],
+          [
+            "1.645292615",
+            "1.641503903",
+            "0.090093511"
+          ],
+          [
+            "1.910188895",
+            "1.011358735",
+            "0.089740231"
+          ],
+          [
+            "0.607466948",
+            "0.177439044",
+            "0.088578734"
+          ]
+        ]
+      }
+    }
+  ]
+}

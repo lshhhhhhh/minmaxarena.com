@@ -37,7 +37,7 @@ managed.
 
 ## The records
 
-66 problem families, 2161 sub-problems, 2055 still open.
+67 problem families, 2211 sub-problems, 2103 still open.
 `records/` holds today's snapshot of each family; the live files are at
 `https://minmaxarena.com/data/{slug}.json`, and the citable ones are the monthly frozen
 editions at `https://minmaxarena.com/data/editions/{YYYY-MM}/{slug}.json`, which never change
@@ -113,6 +113,7 @@ once published. Data is CC BY 4.0; see
 | [P89](https://minmaxarena.com/en/problems/tans-in-square) | Tans in a square | 24 | 22 | [json](records/tans-in-square.json) |
 | [P90](https://minmaxarena.com/en/problems/dominoes-in-square) | Dominoes in a square | 40 | 36 | [json](records/dominoes-in-square.json) |
 | [P91](https://minmaxarena.com/en/problems/ells-in-square) | L's in a square | 40 | 39 | [json](records/ells-in-square.json) |
+| [P92](https://minmaxarena.com/en/problems/circles-in-disc-radii) | Sum of radii in the unit circle | 50 | 48 | [json](records/circles-in-disc-radii.json) |
 <!-- records:end -->
 
 ## Problems the catalogue no longer offers
