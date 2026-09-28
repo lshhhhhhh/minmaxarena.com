@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/probe-codebook",
-  "generatedAt": "2026-09-25T10:17:53.843Z",
+  "generatedAt": "2026-09-28T11:48:15.298Z",
   "instances": [
     {
       "instanceId": "p70-n9-v1",
@@ -85,22 +85,22 @@
         "correlation": "aperiodic"
       },
       "objective": "minimize",
-      "scoreStored": "1950356678",
-      "scoreDisplay": "20 · 10 · 3048",
+      "scoreStored": "1950119661",
+      "scoreDisplay": "20 · 9 · 3012",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
       "knownBest": null,
       "holder": "CCHES",
       "method": "ai",
-      "recordedAt": "2026-09-22T06:07:57.056Z",
+      "recordedAt": "2026-09-28T08:07:54.868Z",
       "answer": {
         "sequences": [
-          "00301000103012110",
-          "01303031111223032",
-          "02320332221132011",
-          "02320310233210123",
-          "02231220211331202"
+          "01323112102120212",
+          "02020021011013233",
+          "01022103033230031",
+          "00101130103220122",
+          "01231222010022202"
         ]
       }
     },
@@ -114,26 +114,22 @@
         "correlation": "aperiodic"
       },
       "objective": "minimize",
-      "scoreStored": "6666351780",
-      "scoreDisplay": "29 · 1 · 4560",
+      "scoreStored": "5981274477",
+      "scoreDisplay": "26 · 11 · 4640",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
       "knownBest": null,
       "holder": "CCHES",
       "method": "ai",
-      "recordedAt": "2026-09-21T04:28:36.150Z",
+      "recordedAt": "2026-09-28T10:00:59.529Z",
       "answer": {
-        "C": 1,
-        "E": 4560,
-        "M": 29,
-        "n": 21,
         "sequences": [
-          "032310201011102233202",
-          "021230003032331212332",
-          "021312310000200231210",
-          "003321130320101102310",
-          "023003203000123013320"
+          "011113212203332112011",
+          "011203322323122133033",
+          "030231020230321022231",
+          "001031330103333031213",
+          "030201333120021131013"
         ]
       }
     },
@@ -147,22 +143,22 @@
         "correlation": "aperiodic"
       },
       "objective": "minimize",
-      "scoreStored": "16772741021",
-      "scoreDisplay": "36 · 1 · 6524",
+      "scoreStored": "15848589889",
+      "scoreDisplay": "34 · 11 · 6604",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
       "knownBest": null,
-      "holder": "My-Nlll",
+      "holder": "CCHES",
       "method": "ai",
-      "recordedAt": "2026-09-04T13:50:16.682Z",
+      "recordedAt": "2026-09-28T10:32:27.308Z",
       "answer": {
         "sequences": [
-          "0000013331032211303101220",
-          "0132112101031312030010033",
-          "0232201312301131031002232",
-          "0100223001101112211313212",
-          "0030102032213010231103120"
+          "0122230022302021032013123",
+          "0130103331220232320102210",
+          "0211323222123122333302122",
+          "0212321100102102332130311",
+          "0112132231210033133112033"
         ]
       }
     },
