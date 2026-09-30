@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/equilateral-triangles-covering-a-square",
-  "generatedAt": "2026-09-25T10:17:54.522Z",
+  "generatedAt": "2026-09-30T11:13:56.663Z",
   "instances": [
     {
       "instanceId": "p76-n2-v1",
@@ -35,7 +35,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "recordedAt": "2026-09-30T04:41:56.400Z",
       "answer": {
         "side": "1.366025405",
         "triangles": [
@@ -77,7 +77,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "recordedAt": "2026-09-30T04:41:56.400Z",
       "answer": {
         "side": "1.077350270",
         "triangles": [
@@ -529,12 +529,14 @@
       "settled": false,
       "recordStatus": "open",
       "knownBest": {
-        "display": "0.530011547174745",
+        "display": "0.529461907863038",
         "kind": "best",
-        "exact": "(5√3 + 3) / 22",
-        "precision": "rounded",
-        "certificateDisplay": "0.530227833",
-        "source": "Maurizio Morandi's construction appears in Friedman's public table (April 2009). Rescaling the largest square covered by unit triangles gives common side (5√3 + 3) / 22 ≈ 0.530011547174745; optimality is open. The site's nine-decimal reconstruction of the source figure verifies at 0.530227833, with its gap from the published target explicitly preserved.",
+        "range": {
+          "lower": "0.529461907863038",
+          "upper": "0.529464711177001"
+        },
+        "truncated": true,
+        "source": "Abdulfayyod Mukhamedov (September 2026) in Erich Friedman's compiled table, printed as s = 1.88870+; checked 2026-09-29 at revision b5b5578. The interval is converted conservatively from the printed truncated precision; optimality is open. The new construction is published as a figure only and has not been rebuilt here yet.",
         "url": "https://erich-friedman.github.io/packing/tricosqu/"
       },
       "holder": "Sigmoid with Codex",
@@ -619,12 +621,14 @@
       "settled": false,
       "recordStatus": "open",
       "knownBest": {
-        "display": "0.504527934491533",
+        "display": "0.504103401689754",
         "kind": "best",
-        "exact": "(16√3 − 4) / 47",
-        "precision": "rounded",
-        "certificateDisplay": "0.504894626",
-        "source": "Maurizio Morandi's construction appears in Friedman's public table (April 2009). Rescaling the largest square covered by unit triangles gives common side (16√3 − 4) / 47 ≈ 0.504527934491533; optimality is open. The site's nine-decimal reconstruction of the source figure verifies at 0.504894626, with its gap from the published target explicitly preserved.",
+        "range": {
+          "lower": "0.504103401689754",
+          "upper": "0.504105942904961"
+        },
+        "truncated": true,
+        "source": "Abdulfayyod Mukhamedov (September 2026) in Erich Friedman's compiled table, printed as s = 1.98371+; checked 2026-09-29 at revision b5b5578. The interval is converted conservatively from the printed truncated precision; optimality is open. The new construction is published as a figure only and has not been rebuilt here yet.",
         "url": "https://erich-friedman.github.io/packing/tricosqu/"
       },
       "holder": "Sigmoid with Codex",

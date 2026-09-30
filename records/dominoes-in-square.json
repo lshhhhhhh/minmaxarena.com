@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/dominoes-in-square",
-  "generatedAt": "2026-09-27T10:37:00.176Z",
+  "generatedAt": "2026-09-30T11:13:58.027Z",
   "instances": [
     {
       "instanceId": "p90-n1-v1",
@@ -39,7 +39,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "recordedAt": "2026-09-30T04:41:56.400Z",
       "answer": {
         "placements": [
           {
@@ -74,7 +74,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "recordedAt": "2026-09-30T04:41:56.400Z",
       "answer": {
         "placements": [
           {
@@ -118,7 +118,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "recordedAt": "2026-09-30T04:41:56.400Z",
       "answer": {
         "placements": [
           {
@@ -168,7 +168,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "recordedAt": "2026-09-30T04:41:56.400Z",
       "answer": {
         "placements": [
           {
@@ -287,7 +287,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "recordedAt": "2026-09-30T04:41:56.400Z",
       "answer": {
         "placements": [
           {
@@ -351,7 +351,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "recordedAt": "2026-09-30T04:41:56.400Z",
       "answer": {
         "placements": [
           {
@@ -416,7 +416,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "recordedAt": "2026-09-30T04:41:56.400Z",
       "answer": {
         "placements": [
           {
@@ -577,7 +577,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "recordedAt": "2026-09-30T04:41:56.400Z",
       "answer": {
         "placements": [
           {
@@ -667,7 +667,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "recordedAt": "2026-09-30T04:41:56.400Z",
       "answer": {
         "placements": [
           {
@@ -762,7 +762,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "recordedAt": "2026-09-30T04:41:56.400Z",
       "answer": {
         "placements": [
           {
@@ -972,7 +972,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "recordedAt": "2026-09-30T04:41:56.400Z",
       "answer": {
         "placements": [
           {
@@ -1085,7 +1085,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "recordedAt": "2026-09-30T04:41:56.400Z",
       "answer": {
         "placements": [
           {
@@ -1194,7 +1194,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "recordedAt": "2026-09-30T04:41:56.400Z",
       "answer": {
         "placements": [
           {
@@ -1308,7 +1308,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "recordedAt": "2026-09-30T04:41:56.400Z",
       "answer": {
         "placements": [
           {
@@ -1423,7 +1423,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "recordedAt": "2026-09-30T04:41:56.400Z",
       "answer": {
         "placements": [
           {
@@ -1673,25 +1673,24 @@
       "objective": "minimize",
       "scoreStored": "6914214825014152361",
       "scoreDisplay": "6.914214826",
-      "status": "matched",
+      "status": "open",
       "settled": false,
-      "recordStatus": "matched",
+      "recordStatus": "open",
       "knownBest": {
-        "display": "6.91421",
+        "display": "6.89791",
         "kind": "best",
         "range": {
-          "lower": "6.91421",
-          "upper": "6.91422",
+          "lower": "6.89791",
+          "upper": "6.89792",
           "upperInclusive": false
         },
         "truncated": true,
-        "certificateDisplay": "6.914214826",
-        "source": "Compiled by Erich Friedman; Found by Maurizio Morandi in August 2026. Source expression: s = 11/2+√2 = 6.91421+.",
+        "source": "Joshua Wolk (September 2026) in Erich Friedman's compiled table, printed as s = 6.89791+; checked 2026-09-29 at revision b5b5578. The interval is converted conservatively from the printed truncated precision; optimality is open. The new construction is published as a figure only and has not been rebuilt here yet.",
         "url": "https://erich-friedman.github.io/packing/dominsqu/"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "recordedAt": "2026-09-30T04:41:56.400Z",
       "answer": {
         "placements": [
           {
@@ -1836,7 +1835,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "recordedAt": "2026-09-30T04:41:56.400Z",
       "answer": {
         "placements": [
           {
@@ -1984,7 +1983,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "recordedAt": "2026-09-30T04:41:56.400Z",
       "answer": {
         "placements": [
           {
@@ -2138,7 +2137,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "recordedAt": "2026-09-30T04:41:56.400Z",
       "answer": {
         "placements": [
           {
@@ -2298,7 +2297,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "recordedAt": "2026-09-30T04:41:56.400Z",
       "answer": {
         "placements": [
           {
@@ -2447,25 +2446,24 @@
       "objective": "minimize",
       "scoreStored": "7707106997735621136",
       "scoreDisplay": "7.707106998",
-      "status": "matched",
+      "status": "open",
       "settled": false,
-      "recordStatus": "matched",
+      "recordStatus": "open",
       "knownBest": {
-        "display": "7.70710",
+        "display": "7.64575",
         "kind": "best",
         "range": {
-          "lower": "7.7071",
-          "upper": "7.70711",
+          "lower": "7.64575",
+          "upper": "7.64576",
           "upperInclusive": false
         },
         "truncated": true,
-        "certificateDisplay": "7.707106998",
-        "source": "Compiled by Erich Friedman; Found by Maurizio Morandi in August 2026. Source expression: s = 7+1/√2 = 7.70710+.",
+        "source": "Joshua Wolk (September 2026) in Erich Friedman's compiled table, printed as s = 7.64575+; checked 2026-09-29 at revision b5b5578. The interval is converted conservatively from the printed truncated precision; optimality is open. The new construction is published as a figure only and has not been rebuilt here yet.",
         "url": "https://erich-friedman.github.io/packing/dominsqu/"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "recordedAt": "2026-09-30T04:41:56.400Z",
       "answer": {
         "placements": [
           {
@@ -2615,25 +2613,24 @@
       "objective": "minimize",
       "scoreStored": "7828427302304067421",
       "scoreDisplay": "7.828427303",
-      "status": "matched",
+      "status": "open",
       "settled": false,
-      "recordStatus": "matched",
+      "recordStatus": "open",
       "knownBest": {
-        "display": "7.82842",
+        "display": "7.79511",
         "kind": "best",
         "range": {
-          "lower": "7.82842",
-          "upper": "7.82843",
+          "lower": "7.79511",
+          "upper": "7.79512",
           "upperInclusive": false
         },
         "truncated": true,
-        "certificateDisplay": "7.828427303",
-        "source": "Compiled by Erich Friedman; Found by Maurizio Morandi in August 2026. Source expression: s = 5+2√2 = 7.82842+.",
+        "source": "Joshua Wolk (September 2026) in Erich Friedman's compiled table, printed as s = 7.79511+; checked 2026-09-29 at revision b5b5578. The interval is converted conservatively from the printed truncated precision; optimality is open. The new construction is published as a figure only and has not been rebuilt here yet.",
         "url": "https://erich-friedman.github.io/packing/dominsqu/"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "recordedAt": "2026-09-30T04:41:56.400Z",
       "answer": {
         "placements": [
           {
@@ -2813,7 +2810,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "recordedAt": "2026-09-30T04:41:56.400Z",
       "answer": {
         "placements": [
           {
@@ -2982,7 +2979,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "recordedAt": "2026-09-30T04:41:56.400Z",
       "answer": {
         "placements": [
           {
@@ -3156,7 +3153,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "recordedAt": "2026-09-30T04:41:56.400Z",
       "answer": {
         "placements": [
           {
@@ -3335,7 +3332,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "recordedAt": "2026-09-30T04:41:56.400Z",
       "answer": {
         "placements": [
           {
@@ -3519,7 +3516,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "recordedAt": "2026-09-30T04:41:56.400Z",
       "answer": {
         "placements": [
           {
@@ -3704,7 +3701,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "recordedAt": "2026-09-30T04:41:56.400Z",
       "answer": {
         "placements": [
           {
@@ -4095,7 +4092,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "recordedAt": "2026-09-30T04:41:56.400Z",
       "answer": {
         "placements": [
           {
@@ -4308,7 +4305,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "recordedAt": "2026-09-30T04:41:56.400Z",
       "answer": {
         "placements": [
           {
@@ -4526,7 +4523,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "recordedAt": "2026-09-30T04:41:56.400Z",
       "answer": {
         "placements": [
           {
@@ -4749,7 +4746,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "recordedAt": "2026-09-30T04:41:56.400Z",
       "answer": {
         "placements": [
           {
@@ -4977,7 +4974,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "recordedAt": "2026-09-30T04:41:56.400Z",
       "answer": {
         "placements": [
           {
@@ -5210,7 +5207,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "recordedAt": "2026-09-30T04:41:56.400Z",
       "answer": {
         "placements": [
           {
@@ -5448,7 +5445,7 @@
       "knownBest": null,
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "recordedAt": "2026-09-30T04:41:56.400Z",
       "answer": {
         "placements": [
           {

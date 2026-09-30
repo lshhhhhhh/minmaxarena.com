@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/tilted-squares-in-circle",
-  "generatedAt": "2026-09-25T10:17:48.389Z",
+  "generatedAt": "2026-09-30T11:13:51.822Z",
   "instances": [
     {
       "instanceId": "p05-n3-v2",
@@ -78,7 +78,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "recordedAt": "2026-09-30T04:41:56.400Z",
       "answer": {
         "squares": [
           {
@@ -129,7 +129,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "recordedAt": "2026-09-30T04:41:56.400Z",
       "answer": {
         "squares": [
           {
@@ -667,7 +667,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "recordedAt": "2026-09-30T04:41:56.400Z",
       "answer": {
         "squares": [
           {
@@ -878,7 +878,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "recordedAt": "2026-09-30T04:41:56.400Z",
       "answer": {
         "squares": [
           {
@@ -3669,21 +3669,18 @@
       "objective": "maximize",
       "scoreStored": "80579819143598036",
       "scoreDisplay": "0.283865847",
-      "status": "ahead",
+      "status": "matched",
       "settled": false,
-      "recordStatus": "ahead",
+      "recordStatus": "matched",
       "knownBest": {
-        "display": "0.283470013",
+        "display": "0.283865913",
         "kind": "best",
         "range": {
-          "lower": "0.2834692095744560",
-          "upper": "0.2834700131246617"
+          "lower": "0.2838651073010105",
+          "upper": "0.2838659130972894"
         },
         "truncated": true,
-        "certificateDisplay": "0.283470011",
-        "publishedDisplay": "3.52771+",
-        "publishedMetric": "container radius for unit squares",
-        "source": "Haowei Lin found the r = 3.52771+ packing in July 2026 (radius of the smallest circle around unit squares). The site digitised the squares' positions and orientations from the public figure, solved that fixed separating-axis structure and repaired it inward to a nine-decimal certificate scoring 0.080355247477381876; the truncated source interval is compared separately from the certificate, and optimality is open",
+        "source": "Daniel Lu (September 2026) in Erich Friedman's compiled table, printed as r = 3.52279+; checked 2026-09-29 at revision b5b5578. The interval is converted conservatively from the printed truncated precision; optimality is open. The new construction is published as a figure only and has not been rebuilt here yet.",
         "url": "https://erich-friedman.github.io/packing/squincir/"
       },
       "holder": "Ephraim Duncan",
@@ -4347,21 +4344,18 @@
       "objective": "maximize",
       "scoreStored": "75927406030064164",
       "scoreDisplay": "0.27554928",
-      "status": "matched",
+      "status": "open",
       "settled": false,
-      "recordStatus": "matched",
+      "recordStatus": "open",
       "knownBest": {
-        "display": "0.275549652",
+        "display": "0.275594457",
         "kind": "best",
         "range": {
-          "lower": "0.2755488933956441",
-          "upper": "0.2755496526696629"
+          "lower": "0.2755936977233204",
+          "upper": "0.2755944572442760"
         },
         "truncated": true,
-        "certificateDisplay": "0.275549211",
-        "publishedDisplay": "3.62911+",
-        "publishedMetric": "container radius for unit squares",
-        "source": "Jonathan Viquerat found the r = 3.62911+ packing in August 2026 (radius of the smallest circle around unit squares). The site digitised the squares' positions and orientations from the public figure, solved that fixed separating-axis structure and repaired it inward to a nine-decimal certificate scoring 0.075927367926578312; the truncated source interval is compared separately from the certificate, and optimality is open",
+        "source": "Daniel Lu (September 2026) in Erich Friedman's compiled table, printed as r = 3.62852+; checked 2026-09-29 at revision b5b5578. The interval is converted conservatively from the printed truncated precision; optimality is open. The new construction is published as a figure only and has not been rebuilt here yet.",
         "url": "https://erich-friedman.github.io/packing/squincir/"
       },
       "holder": "游侠",

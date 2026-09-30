@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/tans-in-square",
-  "generatedAt": "2026-09-27T10:37:00.028Z",
+  "generatedAt": "2026-09-30T11:13:57.923Z",
   "instances": [
     {
       "instanceId": "p89-n1-v1",
@@ -35,7 +35,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "recordedAt": "2026-09-30T04:41:56.400Z",
       "answer": {
         "placements": [
           {
@@ -70,7 +70,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "recordedAt": "2026-09-30T04:41:56.400Z",
       "answer": {
         "placements": [
           {
@@ -117,7 +117,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "recordedAt": "2026-09-30T04:41:56.400Z",
       "answer": {
         "placements": [
           {
@@ -170,7 +170,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "recordedAt": "2026-09-30T04:41:56.400Z",
       "answer": {
         "placements": [
           {
@@ -228,7 +228,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "recordedAt": "2026-09-30T04:41:56.400Z",
       "answer": {
         "placements": [
           {
@@ -438,7 +438,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "recordedAt": "2026-09-30T04:41:56.400Z",
       "answer": {
         "placements": [
           {
@@ -584,25 +584,24 @@
       "objective": "minimize",
       "scoreStored": "2393754585132181058",
       "scoreDisplay": "2.393754586",
-      "status": "matched",
+      "status": "open",
       "settled": false,
-      "recordStatus": "matched",
+      "recordStatus": "open",
       "knownBest": {
-        "display": "2.393",
+        "display": "2.39057",
         "kind": "best",
         "range": {
-          "lower": "2.393",
-          "upper": "2.394",
+          "lower": "2.39057",
+          "upper": "2.39058",
           "upperInclusive": false
         },
         "truncated": true,
-        "certificateDisplay": "2.393754586",
-        "source": "Compiled by Erich Friedman; Found by Maurizio Morandi in January 2008. Source expression: s = 2.393+.",
+        "source": "Joshua Wolk (September 2026) in Erich Friedman's compiled table, printed as s = 2.39057+; checked 2026-09-29 at revision b5b5578. The interval is converted conservatively from the printed truncated precision; optimality is open. The new construction is published as a figure only and has not been rebuilt here yet.",
         "url": "https://erich-friedman.github.io/packing/taninsqu/"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "recordedAt": "2026-09-30T04:41:56.400Z",
       "answer": {
         "placements": [
           {
@@ -694,7 +693,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "recordedAt": "2026-09-30T04:41:56.400Z",
       "answer": {
         "placements": [
           {
@@ -771,25 +770,24 @@
       "objective": "minimize",
       "scoreStored": "2611150003755225378",
       "scoreDisplay": "2.611150004",
-      "status": "matched",
+      "status": "open",
       "settled": false,
-      "recordStatus": "matched",
+      "recordStatus": "open",
       "knownBest": {
-        "display": "2.61115",
+        "display": "2.61005",
         "kind": "best",
         "range": {
-          "lower": "2.61115",
-          "upper": "2.61116",
+          "lower": "2.61005",
+          "upper": "2.61006",
           "upperInclusive": false
         },
         "truncated": true,
-        "certificateDisplay": "2.611150004",
-        "source": "Compiled by Erich Friedman; Found by Haowei Lin in July 2026. Source expression: s = 2.61115+.",
+        "source": "Joshua Wolk (September 2026) in Erich Friedman's compiled table, printed as s = 2.61005+; checked 2026-09-29 at revision b5b5578. The interval is converted conservatively from the printed truncated precision; optimality is open. The new construction is published as a figure only and has not been rebuilt here yet.",
         "url": "https://erich-friedman.github.io/packing/taninsqu/"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "recordedAt": "2026-09-30T04:41:56.400Z",
       "answer": {
         "placements": [
           {
@@ -894,7 +892,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "recordedAt": "2026-09-30T04:41:56.400Z",
       "answer": {
         "placements": [
           {
@@ -986,25 +984,24 @@
       "objective": "minimize",
       "scoreStored": "2763450003401392437",
       "scoreDisplay": "2.763450004",
-      "status": "matched",
+      "status": "open",
       "settled": false,
-      "recordStatus": "matched",
+      "recordStatus": "open",
       "knownBest": {
-        "display": "2.76345",
+        "display": "2.76246",
         "kind": "best",
         "range": {
-          "lower": "2.76345",
-          "upper": "2.76346",
+          "lower": "2.76246",
+          "upper": "2.76247",
           "upperInclusive": false
         },
         "truncated": true,
-        "certificateDisplay": "2.763450004",
-        "source": "Compiled by Erich Friedman; Found by Haowei Lin in July 2026. Source expression: s = 2.76345+.",
+        "source": "Joshua Wolk (September 2026) in Erich Friedman's compiled table, printed as s = 2.76246+; checked 2026-09-29 at revision b5b5578. The interval is converted conservatively from the printed truncated precision; optimality is open. The new construction is published as a figure only and has not been rebuilt here yet.",
         "url": "https://erich-friedman.github.io/packing/taninsqu/"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "recordedAt": "2026-09-30T04:41:56.400Z",
       "answer": {
         "placements": [
           {
@@ -1106,15 +1103,15 @@
       "settled": false,
       "recordStatus": "open",
       "knownBest": {
-        "display": "2.82735",
+        "display": "2.82714",
         "kind": "best",
         "range": {
-          "lower": "2.82735",
-          "upper": "2.82736",
+          "lower": "2.82714",
+          "upper": "2.82715",
           "upperInclusive": false
         },
         "truncated": true,
-        "source": "Compiled by Erich Friedman; Found by Aapo Lipponen in July 2026. Source expression: s = 2.82735+.",
+        "source": "Joshua Wolk (September 2026) in Erich Friedman's compiled table, printed as s = 2.82714+; checked 2026-09-29 at revision b5b5578. The interval is converted conservatively from the printed truncated precision; optimality is open. The new construction is published as a figure only and has not been rebuilt here yet.",
         "url": "https://erich-friedman.github.io/packing/taninsqu/"
       },
       "holder": "XSsMC",
@@ -1242,7 +1239,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "recordedAt": "2026-09-30T04:41:56.400Z",
       "answer": {
         "placements": [
           {
@@ -1369,7 +1366,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "recordedAt": "2026-09-30T04:41:56.400Z",
       "answer": {
         "placements": [
           {
@@ -1501,7 +1498,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "recordedAt": "2026-09-30T04:41:56.400Z",
       "answer": {
         "placements": [
           {
@@ -1615,27 +1612,26 @@
         "sides": 5
       },
       "objective": "minimize",
-      "scoreStored": "3201496210289689498",
-      "scoreDisplay": "3.201496211",
-      "status": "matched",
+      "scoreStored": "3201496179540955840",
+      "scoreDisplay": "3.20149618",
+      "status": "open",
       "settled": false,
-      "recordStatus": "matched",
+      "recordStatus": "open",
       "knownBest": {
-        "display": "3.201",
+        "display": "3.19001",
         "kind": "best",
         "range": {
-          "lower": "3.201",
-          "upper": "3.202",
+          "lower": "3.19001",
+          "upper": "3.19002",
           "upperInclusive": false
         },
         "truncated": true,
-        "certificateDisplay": "3.201496211",
-        "source": "Compiled by Erich Friedman; Found by Maurizio Morandi in February 2008. Source expression: s = 3.201+.",
+        "source": "Joshua Wolk (September 2026) in Erich Friedman's compiled table, printed as s = 3.19001+; checked 2026-09-29 at revision b5b5578. The interval is converted conservatively from the printed truncated precision; optimality is open. The new construction is published as a figure only and has not been rebuilt here yet.",
         "url": "https://erich-friedman.github.io/packing/taninsqu/"
       },
-      "holder": null,
+      "holder": "😰",
       "method": "human",
-      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "recordedAt": "2026-09-30T10:32:26.737Z",
       "answer": {
         "placements": [
           {
@@ -1746,7 +1742,7 @@
             "y": "0.781109919"
           }
         ],
-        "radius": "0.312353954"
+        "radius": "0.312353957"
       }
     },
     {
@@ -1757,27 +1753,26 @@
         "sides": 5
       },
       "objective": "minimize",
-      "scoreStored": "3268570007060993730",
-      "scoreDisplay": "3.268570008",
+      "scoreStored": "3267334686530488884",
+      "scoreDisplay": "3.267334687",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
       "knownBest": {
-        "display": "3.26857",
+        "display": "3.26733",
         "kind": "best",
         "range": {
-          "lower": "3.26857",
-          "upper": "3.26858",
+          "lower": "3.26733",
+          "upper": "3.26734",
           "upperInclusive": false
         },
         "truncated": true,
-        "certificateDisplay": "3.268570008",
-        "source": "Compiled by Erich Friedman; Found by Aapo Lippoen in July 2026. Source expression: s = 3.26857+.",
+        "source": "Joshua Wolk (September 2026) in Erich Friedman's compiled table, printed as s = 3.26733+; checked 2026-09-29 at revision b5b5578. The interval is converted conservatively from the printed truncated precision; optimality is open. The new construction is published as a figure only and has not been rebuilt here yet.",
         "url": "https://erich-friedman.github.io/packing/taninsqu/"
       },
-      "holder": null,
+      "holder": "😰",
       "method": "human",
-      "recordedAt": "2026-09-25T04:41:49.748Z",
+      "recordedAt": "2026-09-30T10:17:53.782Z",
       "answer": {
         "placements": [
           {
@@ -1892,7 +1887,7 @@
             "y": "0.153029933"
           }
         ],
-        "radius": "0.305944189"
+        "radius": "0.306059861"
       }
     },
     {
@@ -2223,20 +2218,19 @@
       "objective": "minimize",
       "scoreStored": "3463922087580032535",
       "scoreDisplay": "3.463922088",
-      "status": "ahead",
+      "status": "open",
       "settled": false,
-      "recordStatus": "ahead",
+      "recordStatus": "open",
       "knownBest": {
-        "display": "3.464",
+        "display": "3.46363",
         "kind": "best",
         "range": {
-          "lower": "3.464",
-          "upper": "3.465",
+          "lower": "3.46363",
+          "upper": "3.46364",
           "upperInclusive": false
         },
         "truncated": true,
-        "certificateDisplay": "3.46400001",
-        "source": "Compiled by Erich Friedman; Found by Maurizio Morandi in December 2007. Source expression: s = 3.464+.",
+        "source": "Joshua Wolk (September 2026) in Erich Friedman's compiled table, printed as s = 3.46363+; checked 2026-09-29 at revision b5b5578. The interval is converted conservatively from the printed truncated precision; optimality is open. The new construction is published as a figure only and has not been rebuilt here yet.",
         "url": "https://erich-friedman.github.io/packing/taninsqu/"
       },
       "holder": "😰",
@@ -2389,20 +2383,19 @@
       "objective": "minimize",
       "scoreStored": "3515298853044109074",
       "scoreDisplay": "3.515298854",
-      "status": "ahead",
+      "status": "open",
       "settled": false,
-      "recordStatus": "ahead",
+      "recordStatus": "open",
       "knownBest": {
-        "display": "3.517",
+        "display": "3.51127",
         "kind": "best",
         "range": {
-          "lower": "3.517",
-          "upper": "3.518",
+          "lower": "3.51127",
+          "upper": "3.51128",
           "upperInclusive": false
         },
         "truncated": true,
-        "certificateDisplay": "3.517000007",
-        "source": "Compiled by Erich Friedman; Found by David W. Cantrell in August 2007. Source expression: s = 3.517+.",
+        "source": "Joshua Wolk (September 2026) in Erich Friedman's compiled table, printed as s = 3.51127+; checked 2026-09-29 at revision b5b5578. The interval is converted conservatively from the printed truncated precision; optimality is open. The new construction is published as a figure only and has not been rebuilt here yet.",
         "url": "https://erich-friedman.github.io/packing/taninsqu/"
       },
       "holder": "😰",

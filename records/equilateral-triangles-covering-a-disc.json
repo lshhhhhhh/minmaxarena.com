@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/equilateral-triangles-covering-a-disc",
-  "generatedAt": "2026-09-10T09:51:21.231Z",
+  "generatedAt": "2026-09-30T11:13:56.836Z",
   "instances": [
     {
       "instanceId": "p78-n7-v1",
@@ -181,13 +181,14 @@
       "settled": false,
       "recordStatus": "open",
       "knownBest": {
-        "display": "0.986663640247231",
+        "display": "0.985639236326719",
         "kind": "best",
-        "exact": "106/(81√3 − 6√30)",
-        "certificateDisplay": "0.999344344",
-        "publishedDisplay": "(81√3 − 6√30)/106 ≈ 1.013+",
-        "publishedMetric": "the radius r of the largest disc that n unit triangles cover (s = 1/r)",
-        "source": "David Cantrell's arrangement (July 2005), listed in Friedman's table as the largest covered-disc radius r = (81√3 − 6√30)/106 ≈ 1.013+ for n unit triangles; here it is converted in closed form by s = 1/r and shown rounded upward to fifteen places. The site reconstructed the same contact topology from the public raster, and its nine-decimal certificate verifies at 0.999344344; the gap from the continuous target remains explicit. Optimality is open",
+        "range": {
+          "lower": "0.985639236326719",
+          "upper": "0.985648951269516"
+        },
+        "truncated": true,
+        "source": "Abdulfayyod Mukhamedov (September 2026) in Erich Friedman's compiled table, printed as r = 1.01456+; checked 2026-09-29 at revision b5b5578. The interval is converted conservatively from the printed truncated precision; optimality is open. The new construction is published as a figure only and has not been rebuilt here yet.",
         "url": "https://erich-friedman.github.io/packing/tricovcir/"
       },
       "holder": "Sigmoid with Codex",
@@ -454,13 +455,14 @@
       "settled": false,
       "recordStatus": "open",
       "knownBest": {
-        "display": "0.844006112231242",
+        "display": "0.842850520460196",
         "kind": "best",
-        "exact": "8/(7√3 − √7)",
-        "certificateDisplay": "0.856294952",
-        "publishedDisplay": "(7√3 − √7)/8 ≈ 1.184+",
-        "publishedMetric": "the radius r of the largest disc that n unit triangles cover (s = 1/r)",
-        "source": "David Cantrell's arrangement (July 2005), listed in Friedman's table as the largest covered-disc radius r = (7√3 − √7)/8 ≈ 1.184+ for n unit triangles; here it is converted in closed form by s = 1/r and shown rounded upward to fifteen places. The site reconstructed the same contact topology from the public raster, and its nine-decimal certificate verifies at 0.856294952; the gap from the continuous target remains explicit. Optimality is open",
+        "range": {
+          "lower": "0.842850520460196",
+          "upper": "0.842857624490072"
+        },
+        "truncated": true,
+        "source": "Abdulfayyod Mukhamedov (September 2026) in Erich Friedman's compiled table, printed as r = 1.18644+; checked 2026-09-29 at revision b5b5578. The interval is converted conservatively from the printed truncated precision; optimality is open. The new construction is published as a figure only and has not been rebuilt here yet.",
         "url": "https://erich-friedman.github.io/packing/tricovcir/"
       },
       "holder": "Sigmoid with Codex",
