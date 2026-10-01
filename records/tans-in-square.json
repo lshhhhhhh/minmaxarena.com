@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/tans-in-square",
-  "generatedAt": "2026-09-30T11:13:57.923Z",
+  "generatedAt": "2026-10-01T11:41:21.541Z",
   "instances": [
     {
       "instanceId": "p89-n1-v1",
@@ -497,8 +497,8 @@
         "sides": 5
       },
       "objective": "minimize",
-      "scoreStored": "2207106826596864412",
-      "scoreDisplay": "2.207106827",
+      "scoreStored": "2207106792497621131",
+      "scoreDisplay": "2.207106793",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -515,63 +515,61 @@
         "source": "Compiled by Erich Friedman; Found by Erich Friedman in March 2005. Source expression: s = 3/2 + 1/√2 = 2.207+.",
         "url": "https://erich-friedman.github.io/packing/taninsqu/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-09-26T14:07:30.257Z",
+      "holder": "NUE_13",
+      "method": "ai",
+      "recordedAt": "2026-10-01T10:46:08.857Z",
       "answer": {
         "placements": [
           {
-            "quarter": 1,
-            "turn": "-0.414213562",
-            "x": "0.679622764",
-            "y": "0.999999997"
+            "turn": "0.000000000",
+            "x": "0.226540919",
+            "y": "0.226540919"
           },
           {
-            "quarter": 3,
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.226540919",
+            "y": "0.226540919"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.679622758",
+            "y": "0.226540919"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.679622758",
+            "y": "0.226540919"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.226540919",
+            "y": "0.679622758"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.226540919",
+            "y": "0.679622758"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.679622758",
+            "y": "0.679622758"
+          },
+          {
             "turn": "0.414213562",
-            "x": "0.999999997",
+            "x": "0.679622759",
+            "y": "0.999999999"
+          },
+          {
+            "turn": "-0.414213562",
+            "x": "0.999999999",
             "y": "0.679622759"
-          },
-          {
-            "quarter": 2,
-            "turn": "-0.000000027",
-            "x": "0.226540910",
-            "y": "0.679622785"
-          },
-          {
-            "turn": "-0.000000023",
-            "x": "0.226540927",
-            "y": "0.679622760"
-          },
-          {
-            "turn": "-0.000000005",
-            "x": "0.679622767",
-            "y": "0.679622751"
-          },
-          {
-            "quarter": 2,
-            "turn": "-0.000000015",
-            "x": "0.226540927",
-            "y": "0.226540926"
-          },
-          {
-            "quarter": 2,
-            "turn": "-0.000000006",
-            "x": "0.679622771",
-            "y": "0.226540920"
-          },
-          {
-            "turn": "-0.000000015",
-            "x": "0.226540924",
-            "y": "0.226540924"
-          },
-          {
-            "turn": "-0.000000001",
-            "x": "0.679622764",
-            "y": "0.226540918"
           }
         ],
-        "radius": "0.453081830"
+        "radius": "0.453081837"
       }
     },
     {
@@ -1346,8 +1344,8 @@
         "sides": 5
       },
       "objective": "minimize",
-      "scoreStored": "2970710990926310852",
-      "scoreDisplay": "2.970710991",
+      "scoreStored": "2970710973276063374",
+      "scoreDisplay": "2.970710974",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -1364,9 +1362,9 @@
         "source": "Compiled by Erich Friedman; Found by David W. Cantrell in August 2007. Source expression: s = 2.970+.",
         "url": "https://erich-friedman.github.io/packing/taninsqu/"
       },
-      "holder": null,
+      "holder": "😰",
       "method": "human",
-      "recordedAt": "2026-09-30T04:41:56.400Z",
+      "recordedAt": "2026-10-01T11:19:57.329Z",
       "answer": {
         "placements": [
           {
@@ -1468,7 +1466,7 @@
             "y": "0.831690118"
           }
         ],
-        "radius": "0.336619753"
+        "radius": "0.336619755"
       }
     },
     {
