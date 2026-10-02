@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/probe-codebook",
-  "generatedAt": "2026-09-30T11:13:56.138Z",
+  "generatedAt": "2026-10-02T11:10:50.896Z",
   "instances": [
     {
       "instanceId": "p70-n9-v1",
@@ -35,7 +35,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-09-30T04:41:56.400Z",
+      "recordedAt": "2026-10-02T05:52:42.695Z",
       "answer": {
         "sequences": [
           "000212332",
@@ -85,22 +85,22 @@
         "correlation": "aperiodic"
       },
       "objective": "minimize",
-      "scoreStored": "1950119641",
-      "scoreDisplay": "20 · 9 · 2992",
+      "scoreStored": "1949882670",
+      "scoreDisplay": "20 · 8 · 3002",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
       "knownBest": null,
-      "holder": "CCHES",
+      "holder": "zzzcy",
       "method": "ai",
-      "recordedAt": "2026-09-28T12:14:05.809Z",
+      "recordedAt": "2026-10-02T04:59:38.312Z",
       "answer": {
         "sequences": [
           "01233232330323321",
-          "03012221101123113",
-          "03120132031132333",
-          "02101131201302220",
-          "02330021102120333"
+          "01333130210330202",
+          "02212223001103133",
+          "02113222103323112",
+          "01030313122201202"
         ]
       }
     },
