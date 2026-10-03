@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/tans-in-square",
-  "generatedAt": "2026-10-02T11:10:52.768Z",
+  "generatedAt": "2026-10-03T10:28:37.263Z",
   "instances": [
     {
       "instanceId": "p89-n1-v1",
@@ -35,7 +35,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-02T05:52:42.695Z",
+      "recordedAt": "2026-10-03T04:36:12.271Z",
       "answer": {
         "placements": [
           {
@@ -70,7 +70,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-02T05:52:42.695Z",
+      "recordedAt": "2026-10-03T04:36:12.271Z",
       "answer": {
         "placements": [
           {
@@ -117,7 +117,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-02T05:52:42.695Z",
+      "recordedAt": "2026-10-03T04:36:12.271Z",
       "answer": {
         "placements": [
           {
@@ -151,26 +151,20 @@
       "objective": "minimize",
       "scoreStored": "1414213620746192508",
       "scoreDisplay": "1.414213621",
-      "status": "open",
-      "settled": false,
+      "status": "proven",
+      "settled": true,
       "recordStatus": "open",
       "knownBest": {
-        "display": "1.414",
-        "kind": "best",
-        "range": {
-          "lower": "1.414",
-          "upper": "1.415",
-          "upperInclusive": false
-        },
-        "comparisonUncertain": true,
-        "truncated": true,
-        "certificateDisplay": "1.414213621",
-        "source": "Compiled by Erich Friedman; Trivial. Source expression: s = √2 = 1.414+.",
-        "url": "https://erich-friedman.github.io/packing/taninsqu/"
+        "display": "1.414213563",
+        "kind": "proven",
+        "exact": "√2",
+        "proofScope": "continuous",
+        "source": "NUE_13 #31’s full-tiling area argument (the same as their P90 argument), with the inequality written out by 😰 #106: n triangles of area 1/2 in a square of side d give n/2 ≤ d². The full tilings in Friedman’s table attain it for n = 4, 8, 16, 18. History retained; no new construction claimed.",
+        "url": "https://minmaxarena.com/proofs/tans-and-ells-full-tilings"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-02T05:52:42.695Z",
+      "recordedAt": "2026-10-03T04:36:12.271Z",
       "answer": {
         "placements": [
           {
@@ -228,7 +222,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-02T05:52:42.695Z",
+      "recordedAt": "2026-10-03T04:36:12.271Z",
       "answer": {
         "placements": [
           {
@@ -421,24 +415,20 @@
       "objective": "minimize",
       "scoreStored": "2000000000000000000",
       "scoreDisplay": "2",
-      "status": "open",
-      "settled": false,
+      "status": "proven",
+      "settled": true,
       "recordStatus": "open",
       "knownBest": {
         "display": "2",
-        "kind": "best",
-        "range": {
-          "lower": "2",
-          "upper": "2"
-        },
-        "comparisonUncertain": true,
-        "certificateDisplay": "2",
-        "source": "Compiled by Erich Friedman; Trivial. Source expression: s = 2.",
-        "url": "https://erich-friedman.github.io/packing/taninsqu/"
+        "kind": "proven",
+        "exact": "2",
+        "proofScope": "continuous",
+        "source": "NUE_13 #31’s full-tiling area argument (the same as their P90 argument), with the inequality written out by 😰 #106: n triangles of area 1/2 in a square of side d give n/2 ≤ d². The full tilings in Friedman’s table attain it for n = 4, 8, 16, 18. History retained; no new construction claimed.",
+        "url": "https://minmaxarena.com/proofs/tans-and-ells-full-tilings"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-02T05:52:42.695Z",
+      "recordedAt": "2026-10-03T04:36:12.271Z",
       "answer": {
         "placements": [
           {
@@ -599,7 +589,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-02T05:52:42.695Z",
+      "recordedAt": "2026-10-03T04:36:12.271Z",
       "answer": {
         "placements": [
           {
@@ -691,7 +681,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-02T05:52:42.695Z",
+      "recordedAt": "2026-10-03T04:36:12.271Z",
       "answer": {
         "placements": [
           {
@@ -785,7 +775,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-02T05:52:42.695Z",
+      "recordedAt": "2026-10-03T04:36:12.271Z",
       "answer": {
         "placements": [
           {
@@ -890,7 +880,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-02T05:52:42.695Z",
+      "recordedAt": "2026-10-03T04:36:12.271Z",
       "answer": {
         "placements": [
           {
@@ -999,7 +989,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-02T05:52:42.695Z",
+      "recordedAt": "2026-10-03T04:36:12.271Z",
       "answer": {
         "placements": [
           {
@@ -1218,26 +1208,20 @@
       "objective": "minimize",
       "scoreStored": "2828427241492385015",
       "scoreDisplay": "2.828427242",
-      "status": "open",
-      "settled": false,
+      "status": "proven",
+      "settled": true,
       "recordStatus": "open",
       "knownBest": {
-        "display": "2.828",
-        "kind": "best",
-        "range": {
-          "lower": "2.828",
-          "upper": "2.829",
-          "upperInclusive": false
-        },
-        "comparisonUncertain": true,
-        "truncated": true,
-        "certificateDisplay": "2.828427242",
-        "source": "Compiled by Erich Friedman; Trivial. Source expression: s = 2√2 = 2.828+.",
-        "url": "https://erich-friedman.github.io/packing/taninsqu/"
+        "display": "2.828427125",
+        "kind": "proven",
+        "exact": "2√2",
+        "proofScope": "continuous",
+        "source": "NUE_13 #31’s full-tiling area argument (the same as their P90 argument), with the inequality written out by 😰 #106: n triangles of area 1/2 in a square of side d give n/2 ≤ d². The full tilings in Friedman’s table attain it for n = 4, 8, 16, 18. History retained; no new construction claimed.",
+        "url": "https://minmaxarena.com/proofs/tans-and-ells-full-tilings"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-02T05:52:42.695Z",
+      "recordedAt": "2026-10-03T04:36:12.271Z",
       "answer": {
         "placements": [
           {
@@ -1479,24 +1463,20 @@
       "objective": "minimize",
       "scoreStored": "3000000003000000004",
       "scoreDisplay": "3.000000004",
-      "status": "open",
-      "settled": false,
+      "status": "proven",
+      "settled": true,
       "recordStatus": "open",
       "knownBest": {
         "display": "3",
-        "kind": "best",
-        "range": {
-          "lower": "3",
-          "upper": "3"
-        },
-        "comparisonUncertain": true,
-        "certificateDisplay": "3.000000004",
-        "source": "Compiled by Erich Friedman; Trivial. Source expression: s = 3.",
-        "url": "https://erich-friedman.github.io/packing/taninsqu/"
+        "kind": "proven",
+        "exact": "3",
+        "proofScope": "continuous",
+        "source": "NUE_13 #31’s full-tiling area argument (the same as their P90 argument), with the inequality written out by 😰 #106: n triangles of area 1/2 in a square of side d give n/2 ≤ d². The full tilings in Friedman’s table attain it for n = 4, 8, 16, 18. History retained; no new construction claimed.",
+        "url": "https://minmaxarena.com/proofs/tans-and-ells-full-tilings"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-02T05:52:42.695Z",
+      "recordedAt": "2026-10-03T04:36:12.271Z",
       "answer": {
         "placements": [
           {
