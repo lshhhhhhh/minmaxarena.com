@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/tans-in-square",
-  "generatedAt": "2026-10-03T10:28:37.263Z",
+  "generatedAt": "2026-10-04T11:10:12.922Z",
   "instances": [
     {
       "instanceId": "p89-n1-v1",
@@ -35,7 +35,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-03T04:36:12.271Z",
+      "recordedAt": "2026-10-04T04:45:45.621Z",
       "answer": {
         "placements": [
           {
@@ -70,7 +70,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-03T04:36:12.271Z",
+      "recordedAt": "2026-10-04T04:45:45.621Z",
       "answer": {
         "placements": [
           {
@@ -117,7 +117,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-03T04:36:12.271Z",
+      "recordedAt": "2026-10-04T04:45:45.621Z",
       "answer": {
         "placements": [
           {
@@ -164,7 +164,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-03T04:36:12.271Z",
+      "recordedAt": "2026-10-04T04:45:45.621Z",
       "answer": {
         "placements": [
           {
@@ -222,7 +222,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-03T04:36:12.271Z",
+      "recordedAt": "2026-10-04T04:45:45.621Z",
       "answer": {
         "placements": [
           {
@@ -428,7 +428,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-03T04:36:12.271Z",
+      "recordedAt": "2026-10-04T04:45:45.621Z",
       "answer": {
         "placements": [
           {
@@ -589,7 +589,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-03T04:36:12.271Z",
+      "recordedAt": "2026-10-04T04:45:45.621Z",
       "answer": {
         "placements": [
           {
@@ -681,7 +681,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-03T04:36:12.271Z",
+      "recordedAt": "2026-10-04T04:45:45.621Z",
       "answer": {
         "placements": [
           {
@@ -756,8 +756,8 @@
         "sides": 5
       },
       "objective": "minimize",
-      "scoreStored": "2611150003755225378",
-      "scoreDisplay": "2.611150004",
+      "scoreStored": "2610324347026385720",
+      "scoreDisplay": "2.610324348",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -773,9 +773,9 @@
         "source": "Joshua Wolk (September 2026) in Erich Friedman's compiled table, printed as s = 2.61005+; checked 2026-09-29 at revision b5b5578. The interval is converted conservatively from the printed truncated precision; optimality is open. The new construction is published as a figure only and has not been rebuilt here yet.",
         "url": "https://erich-friedman.github.io/packing/taninsqu/"
       },
-      "holder": null,
+      "holder": "NUE_13",
       "method": "human",
-      "recordedAt": "2026-10-03T04:36:12.271Z",
+      "recordedAt": "2026-10-03T11:05:53.342Z",
       "answer": {
         "placements": [
           {
@@ -787,8 +787,8 @@
           {
             "quarter": 2,
             "turn": "-0.414213560",
-            "x": "0.000000004",
-            "y": "0.729084980"
+            "x": "0.000010006",
+            "y": "0.729097174"
           },
           {
             "quarter": 1,
@@ -799,57 +799,57 @@
           {
             "quarter": 3,
             "turn": "0.013986251",
-            "x": "0.467730757",
-            "y": "0.395252860"
+            "x": "0.467800757",
+            "y": "0.395382860"
           },
           {
             "quarter": 1,
             "turn": "0.048583348",
-            "x": "0.442975980",
-            "y": "0.790619891"
+            "x": "0.442995980",
+            "y": "0.790749891"
           },
           {
             "turn": "-0.414058210",
-            "x": "0.270915010",
-            "y": "0.458098108"
+            "x": "0.270915012",
+            "y": "0.458098106"
           },
           {
             "quarter": 3,
-            "turn": "0.048583346",
+            "turn": "0.048583348",
             "x": "0.827906332",
             "y": "0.790766356"
           },
           {
             "quarter": 1,
             "turn": "0.000822757",
-            "x": "0.808119187",
-            "y": "0.734341303"
+            "x": "0.808129187",
+            "y": "0.734351303"
           },
           {
             "quarter": 1,
             "turn": "0.013986251",
-            "x": "0.420650829",
-            "y": "0.345462700"
+            "x": "0.420620829",
+            "y": "0.345452700"
           },
           {
             "quarter": 3,
             "turn": "0.000822758",
-            "x": "0.808749635",
-            "y": "0.351210127"
+            "x": "0.808680212",
+            "y": "0.351249542"
           },
           {
             "turn": "0.000000000",
-            "x": "0.191565848",
-            "y": "0.191565848"
+            "x": "0.191555848",
+            "y": "0.191555848"
           },
           {
             "quarter": 3,
             "turn": "-0.414213562",
-            "x": "0.729084980",
-            "y": "0.000000003"
+            "x": "0.729104980",
+            "y": "0.000050003"
           }
         ],
-        "radius": "0.382973019"
+        "radius": "0.383094155"
       }
     },
     {
@@ -880,7 +880,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-03T04:36:12.271Z",
+      "recordedAt": "2026-10-04T04:45:45.621Z",
       "answer": {
         "placements": [
           {
@@ -970,11 +970,11 @@
         "sides": 5
       },
       "objective": "minimize",
-      "scoreStored": "2763450003401392437",
-      "scoreDisplay": "2.763450004",
-      "status": "open",
+      "scoreStored": "2762459586390296435",
+      "scoreDisplay": "2.762459587",
+      "status": "ahead",
       "settled": false,
-      "recordStatus": "open",
+      "recordStatus": "ahead",
       "knownBest": {
         "display": "2.76246",
         "kind": "best",
@@ -987,94 +987,97 @@
         "source": "Joshua Wolk (September 2026) in Erich Friedman's compiled table, printed as s = 2.76246+; checked 2026-09-29 at revision b5b5578. The interval is converted conservatively from the printed truncated precision; optimality is open. The new construction is published as a figure only and has not been rebuilt here yet.",
         "url": "https://erich-friedman.github.io/packing/taninsqu/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-10-03T04:36:12.271Z",
+      "holder": "zzzcy",
+      "method": "ai",
+      "recordedAt": "2026-10-04T03:00:10.116Z",
       "answer": {
         "placements": [
           {
             "quarter": 3,
             "turn": "0.000000000",
-            "x": "0.180985610",
-            "y": "0.819014390"
-          },
-          {
-            "quarter": 3,
-            "turn": "-0.414213562",
-            "x": "0.743987130",
-            "y": "0.000046262"
+            "x": "0.180998126",
+            "y": "0.819001874"
           },
           {
             "quarter": 1,
-            "turn": "0.388386939",
-            "x": "0.451792235",
-            "y": "0.744300941"
-          },
-          {
-            "turn": "0.388386565",
-            "x": "0.721020783",
-            "y": "0.500007594"
+            "turn": "-0.414197742",
+            "x": "0.720083786",
+            "y": "0.999728382"
           },
           {
             "quarter": 1,
-            "turn": "-0.064088731",
-            "x": "0.245973243",
-            "y": "0.515777301"
+            "turn": "0.387734718",
+            "x": "0.720948974",
+            "y": "0.500266331"
           },
           {
-            "quarter": 1,
-            "turn": "0.388197584",
-            "x": "0.453854735",
-            "y": "0.255695299"
-          },
-          {
-            "quarter": 1,
-            "turn": "-0.064086212",
-            "x": "0.251775641",
-            "y": "0.843597422"
-          },
-          {
-            "quarter": 3,
-            "turn": "0.387808321",
-            "x": "0.988359826",
-            "y": "0.744312328"
-          },
-          {
-            "quarter": 2,
-            "turn": "0.388386461",
-            "x": "0.721020788",
-            "y": "0.500007643"
-          },
-          {
-            "quarter": 1,
-            "turn": "-0.022414808",
-            "x": "0.269691295",
-            "y": "0.188913279"
-          },
-          {
-            "quarter": 3,
-            "turn": "-0.064088602",
-            "x": "0.202608285",
-            "y": "0.156401614"
-          },
-          {
-            "turn": "0.405652766",
-            "x": "0.719253061",
-            "y": "0.996230878"
-          },
-          {
-            "quarter": 3,
-            "turn": "-0.064088731",
-            "x": "0.205567858",
-            "y": "0.484586754"
-          },
-          {
+            "quarter": 0,
             "turn": "-0.414213562",
             "x": "0.999999997",
-            "y": "0.255952302"
+            "y": "0.255970003"
+          },
+          {
+            "quarter": 3,
+            "turn": "-0.411788497",
+            "x": "0.723994255",
+            "y": "0.001060584"
+          },
+          {
+            "quarter": 3,
+            "turn": "-0.062223615",
+            "x": "0.204832132",
+            "y": "0.483631957"
+          },
+          {
+            "quarter": 1,
+            "turn": "-0.062223615",
+            "x": "0.246915488",
+            "y": "0.516368045"
+          },
+          {
+            "quarter": 1,
+            "turn": "-0.028096240",
+            "x": "0.265914063",
+            "y": "0.190875303"
+          },
+          {
+            "quarter": 3,
+            "turn": "0.387734718",
+            "x": "0.720912101",
+            "y": "0.499458720"
+          },
+          {
+            "quarter": 1,
+            "turn": "0.381675443",
+            "x": "0.450836188",
+            "y": "0.255566197"
+          },
+          {
+            "quarter": 1,
+            "turn": "-0.062223615",
+            "x": "0.249707817",
+            "y": "0.842835878"
+          },
+          {
+            "quarter": 3,
+            "turn": "-0.062223615",
+            "x": "0.202039803",
+            "y": "0.157164123"
+          },
+          {
+            "quarter": 3,
+            "turn": "0.387734718",
+            "x": "0.988326320",
+            "y": "0.744296328"
+          },
+          {
+            "quarter": 1,
+            "turn": "0.387734718",
+            "x": "0.452185898",
+            "y": "0.744296328"
           }
         ],
-        "radius": "0.361866507"
+        "radius": "0.361996246"
       }
     },
     {
@@ -1221,7 +1224,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-03T04:36:12.271Z",
+      "recordedAt": "2026-10-04T04:45:45.621Z",
       "answer": {
         "placements": [
           {
@@ -1476,7 +1479,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-03T04:36:12.271Z",
+      "recordedAt": "2026-10-04T04:45:45.621Z",
       "answer": {
         "placements": [
           {
@@ -2359,11 +2362,11 @@
         "sides": 5
       },
       "objective": "minimize",
-      "scoreStored": "3515298853044109074",
-      "scoreDisplay": "3.515298854",
-      "status": "open",
+      "scoreStored": "3511269921167952310",
+      "scoreDisplay": "3.511269922",
+      "status": "ahead",
       "settled": false,
-      "recordStatus": "open",
+      "recordStatus": "ahead",
       "knownBest": {
         "display": "3.51127",
         "kind": "best",
@@ -2376,151 +2379,157 @@
         "source": "Joshua Wolk (September 2026) in Erich Friedman's compiled table, printed as s = 3.51127+; checked 2026-09-29 at revision b5b5578. The interval is converted conservatively from the printed truncated precision; optimality is open. The new construction is published as a figure only and has not been rebuilt here yet.",
         "url": "https://erich-friedman.github.io/packing/taninsqu/"
       },
-      "holder": "😰",
-      "method": "human",
-      "recordedAt": "2026-09-22T10:21:28.610Z",
+      "holder": "zzzcy",
+      "method": "ai",
+      "recordedAt": "2026-10-04T03:00:23.125Z",
       "answer": {
         "placements": [
           {
-            "quarter": 3,
-            "turn": "-0.414213562",
-            "x": "0.798848742",
-            "y": "0.402302521"
-          },
-          {
-            "quarter": 1,
-            "turn": "0.396521633",
-            "x": "0.396192022",
-            "y": "0.798941620"
-          },
-          {
-            "turn": "-0.414213562",
-            "x": "0.597697479",
-            "y": "0.201151258"
-          },
-          {
-            "turn": "-0.003498798",
-            "x": "0.143227333",
-            "y": "0.429707091"
-          },
-          {
-            "quarter": 1,
-            "turn": "0.400636497",
-            "x": "0.201034191",
-            "y": "0.576934430"
+            "quarter": 2,
+            "turn": "0.414213557",
+            "x": "0.402764134",
+            "y": "0.798617932"
           },
           {
             "quarter": 2,
+            "turn": "-0.000000009",
+            "x": "0.857601372",
+            "y": "0.857601372"
+          },
+          {
+            "quarter": 0,
             "turn": "0.000000000",
-            "x": "0.573293292",
-            "y": "0.857764401"
+            "x": "0.142398626",
+            "y": "0.142398626"
           },
           {
             "quarter": 2,
-            "turn": "0.000000000",
-            "x": "0.857764470",
-            "y": "0.857764467"
-          },
-          {
-            "turn": "0.000000000",
-            "x": "0.857764128",
-            "y": "0.857764532"
+            "turn": "0.000000001",
+            "x": "0.572804114",
+            "y": "0.857601374"
           },
           {
             "quarter": 2,
+            "turn": "0.000000001",
+            "x": "0.857601374",
+            "y": "0.572804121"
+          },
+          {
+            "quarter": 0,
+            "turn": "-0.000000001",
+            "x": "0.142398626",
+            "y": "0.427195876"
+          },
+          {
+            "quarter": 0,
             "turn": "0.000000000",
-            "x": "0.857764478",
-            "y": "0.573293419"
-          },
-          {
-            "quarter": 2,
-            "turn": "-0.003497337",
-            "x": "0.141238854",
-            "y": "0.145242788"
-          },
-          {
-            "turn": "-0.003495982",
-            "x": "0.143226436",
-            "y": "0.143226436"
-          },
-          {
-            "turn": "0.000000000",
-            "x": "0.426699303",
-            "y": "0.142235420"
-          },
-          {
-            "quarter": 1,
-            "turn": "-0.414213562",
-            "x": "0.201151397",
-            "y": "0.999999997"
+            "x": "0.427195876",
+            "y": "0.142398626"
           },
           {
             "quarter": 2,
             "turn": "-0.414213562",
             "x": "0.000000003",
-            "y": "0.798848742"
+            "y": "0.784797256"
           },
           {
             "quarter": 3,
-            "turn": "-0.414213562",
-            "x": "0.617739237",
-            "y": "0.612167197"
+            "turn": "-0.414213535",
+            "x": "0.201382067",
+            "y": "0.583415180"
+          },
+          {
+            "quarter": 0,
+            "turn": "0.414213559",
+            "x": "0.604146199",
+            "y": "0.611056539"
+          },
+          {
+            "quarter": 0,
+            "turn": "0.414213562",
+            "x": "0.201382066",
+            "y": "0.999999997"
           },
           {
             "quarter": 1,
-            "turn": "-0.414213562",
-            "x": "0.606410899",
-            "y": "0.612167194"
+            "turn": "0.414213557",
+            "x": "0.402764132",
+            "y": "0.409674474"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.414213560",
+            "x": "0.798617934",
+            "y": "0.402764143"
+          },
+          {
+            "quarter": 0,
+            "turn": "0.414213559",
+            "x": "0.798617934",
+            "y": "0.402764139"
+          },
+          {
+            "quarter": 3,
+            "turn": "0.414213560",
+            "x": "0.597235866",
+            "y": "0.201382067"
           },
           {
             "quarter": 2,
             "turn": "-0.414213562",
-            "x": "0.405259641",
-            "y": "0.411015936"
+            "x": "0.597235869",
+            "y": "0.201382071"
           },
           {
-            "quarter": 1,
-            "turn": "-0.414213562",
-            "x": "0.798848739",
-            "y": "0.402302518"
-          },
-          {
-            "quarter": 2,
-            "turn": "-0.414213562",
-            "x": "0.597697482",
-            "y": "0.201151261"
-          },
-          {
+            "quarter": 0,
             "turn": "-0.414213562",
             "x": "0.999999997",
-            "y": "0.201151260"
+            "y": "0.201382069"
           },
           {
             "quarter": 3,
             "turn": "-0.414213562",
-            "x": "0.798848739",
+            "x": "0.798617932",
             "y": "0.000000003"
           },
           {
-            "quarter": 3,
-            "turn": "0.400635788",
-            "x": "0.201096709",
-            "y": "0.579628994"
+            "quarter": 1,
+            "turn": "-0.414213562",
+            "x": "0.201382066",
+            "y": "0.583415168"
+          },
+          {
+            "quarter": 0,
+            "turn": "0.000000001",
+            "x": "0.857601362",
+            "y": "0.857601372"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "0.142398628",
+            "y": "0.142398627"
+          },
+          {
+            "quarter": 0,
+            "turn": "-0.414213562",
+            "x": "0.395853799",
+            "y": "0.375122770"
           },
           {
             "quarter": 3,
-            "turn": "0.396521634",
-            "x": "0.395808817",
-            "y": "0.786335918"
+            "turn": "-0.414213561",
+            "x": "0.617966878",
+            "y": "0.611056543"
           },
           {
-            "quarter": 3,
-            "turn": "0.400636416",
-            "x": "0.400575575",
-            "y": "0.374139926"
+            "quarter": 0,
+            "turn": "0.414213557",
+            "x": "0.388943459",
+            "y": "0.798617929"
           }
         ],
-        "radius": "0.284470835"
+        "radius": "0.284797245"
       }
     }
   ]

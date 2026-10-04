@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/tilted-squares-in-circle",
-  "generatedAt": "2026-10-03T10:28:32.651Z",
+  "generatedAt": "2026-10-04T11:10:09.848Z",
   "instances": [
     {
       "instanceId": "p05-n3-v2",
@@ -21,15 +21,17 @@
       "objective": "maximize",
       "scoreStored": "602352941176468736",
       "scoreDisplay": "0.776114",
-      "status": "open",
-      "settled": false,
+      "status": "proven",
+      "settled": true,
       "recordStatus": "open",
       "knownBest": {
         "display": "0.776114",
-        "kind": "best",
+        "kind": "proven",
         "exact": "16√17/85",
-        "source": "r = 5√17/16, giving continuous score 256/425; found by Erich Friedman in 1997. The nine-decimal certificate reconstructed from the public figure reaches 0.60235294117646464; optimality open",
-        "url": "https://erich-friedman.github.io/packing/squincir/"
+        "proofScope": "continuous",
+        "certificateDisplay": "0.776114",
+        "source": "The-Anh Vu-Le proved in Lean 4 with Mathlib (September 2026) the least radius of a disc holding n = 1–7 unit squares and the optimal packings (repository vltanh/three-unit-squares-in-circle, cited at commit 089a1cb); Erich Friedman's table lists it as proved. For n = 3 the optimal radius is r = 5√17/16, and this problem scores 1/r. The site cites the formal proof and has not re-run its build; a nine-decimal certificate cannot attain this value, and no grid optimum is claimed.",
+        "url": "https://github.com/vltanh/three-unit-squares-in-circle/tree/089a1cb83aeb40eea802375c1f35d3301fda06a3"
       },
       "holder": "Sigmoid with Codex",
       "method": "ai",
@@ -73,12 +75,12 @@
         "display": "0.707106781",
         "kind": "proven",
         "exact": "√2/2",
-        "source": "the tilted 2 × 2 block has common side √2/2; optimality proved by the International Math Summer Camp (2026)",
+        "source": "the tilted 2 × 2 block has common side √2/2; optimality proved by the International Math Summer Camp (2026). The-Anh Vu-Le's Lean 4 formalisation (https://github.com/vltanh/three-unit-squares-in-circle, commit 089a1cb) also covers this case.",
         "url": "https://erich-friedman.github.io/packing/squincir/"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-03T04:36:12.271Z",
+      "recordedAt": "2026-10-04T04:45:45.621Z",
       "answer": {
         "squares": [
           {
@@ -117,19 +119,20 @@
       "objective": "maximize",
       "scoreStored": "400000000000000000",
       "scoreDisplay": "0.632455532",
-      "status": "matched",
-      "settled": false,
-      "recordStatus": "matched",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "open",
       "knownBest": {
         "display": "0.632455532",
-        "kind": "best",
+        "kind": "proven",
         "exact": "√10/5",
-        "source": "r = √10/2, so the score is 2/5; found by Erich Friedman in 1997, optimality open",
-        "url": "https://erich-friedman.github.io/packing/squincir/"
+        "proofScope": "continuous",
+        "source": "The-Anh Vu-Le proved in Lean 4 with Mathlib (September 2026) the least radius of a disc holding n = 1–7 unit squares and the optimal packings (repository vltanh/three-unit-squares-in-circle, cited at commit 089a1cb); Erich Friedman's table lists it as proved. For n = 5 the optimal radius is r = √10/2, and this problem scores 1/r. The site cites the formal proof and has not re-run its build; exact comparison uses 1/r² = 2/5, which the site certificate attains.",
+        "url": "https://github.com/vltanh/three-unit-squares-in-circle/tree/089a1cb83aeb40eea802375c1f35d3301fda06a3"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-03T04:36:12.271Z",
+      "recordedAt": "2026-10-04T04:45:45.621Z",
       "answer": {
         "squares": [
           {
@@ -174,18 +177,19 @@
       "objective": "maximize",
       "scoreStored": "350732302777624384",
       "scoreDisplay": "0.592226563",
-      "status": "open",
-      "settled": false,
+      "status": "proven",
+      "settled": true,
       "recordStatus": "open",
       "knownBest": {
         "display": "0.592226563",
-        "kind": "best",
-        "precision": "rounded",
+        "kind": "proven",
+        "exact": "534/√(19706163 + 13275064√2 − 40√(443374242065 + 313512226176√2))",
+        "proofScope": "continuous",
         "certificateDisplay": "0.592226563",
         "publishedDisplay": "1.688542968202848…",
         "publishedMetric": "container radius for unit squares",
-        "source": "Erich Friedman's 1997 packing, whose continuous radius was expressed as a nested radical by David Ellsworth in 2023. The site reconstructed the public contact graph and repaired it to a nine-decimal certificate scoring 0.350732302416621508; optimality open",
-        "url": "https://erich-friedman.github.io/packing/squincir/"
+        "source": "The-Anh Vu-Le proved in Lean 4 with Mathlib (September 2026) the least radius of a disc holding n = 1–7 unit squares and the optimal packings (repository vltanh/three-unit-squares-in-circle, cited at commit 089a1cb); Erich Friedman's table lists it as proved. For n = 6 the optimal radius is r = √(19706163 + 13275064√2 − 40√(443374242065 + 313512226176√2))/534, and this problem scores 1/r. The site cites the formal proof and has not re-run its build; a nine-decimal certificate cannot attain this value, and no grid optimum is claimed.",
+        "url": "https://github.com/vltanh/three-unit-squares-in-circle/tree/089a1cb83aeb40eea802375c1f35d3301fda06a3"
       },
       "holder": "Sigmoid with Codex",
       "method": "ai",
@@ -240,15 +244,17 @@
       "objective": "maximize",
       "scoreStored": "307692307692307684",
       "scoreDisplay": "0.554700196",
-      "status": "open",
-      "settled": false,
+      "status": "proven",
+      "settled": true,
       "recordStatus": "open",
       "knownBest": {
         "display": "0.554700196",
-        "kind": "best",
+        "kind": "proven",
         "exact": "2√13/13",
-        "source": "r = sqrt(13)/2, giving continuous score 4/13; found by Erich Friedman in 1997. The nine-decimal certificate reconstructed from the public figure reaches 0.307692307692307652; optimality open",
-        "url": "https://erich-friedman.github.io/packing/squincir/"
+        "proofScope": "continuous",
+        "certificateDisplay": "0.554700196",
+        "source": "The-Anh Vu-Le proved in Lean 4 with Mathlib (September 2026) the least radius of a disc holding n = 1–7 unit squares and the optimal packings (repository vltanh/three-unit-squares-in-circle, cited at commit 089a1cb); Erich Friedman's table lists it as proved. For n = 7 the optimal radius is r = √13/2, and this problem scores 1/r. The site cites the formal proof and has not re-run its build; a nine-decimal certificate cannot attain this value, and no grid optimum is claimed.",
+        "url": "https://github.com/vltanh/three-unit-squares-in-circle/tree/089a1cb83aeb40eea802375c1f35d3301fda06a3"
       },
       "holder": "Sigmoid with Codex",
       "method": "ai",
@@ -667,7 +673,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-03T04:36:12.271Z",
+      "recordedAt": "2026-10-04T04:45:45.621Z",
       "answer": {
         "squares": [
           {
@@ -878,7 +884,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-03T04:36:12.271Z",
+      "recordedAt": "2026-10-04T04:45:45.621Z",
       "answer": {
         "squares": [
           {
@@ -4823,7 +4829,17 @@
       "status": "open",
       "settled": false,
       "recordStatus": "open",
-      "knownBest": null,
+      "knownBest": {
+        "display": "0.268202213",
+        "kind": "best",
+        "range": {
+          "lower": "0.2682014944187269",
+          "upper": "0.2682022137410723"
+        },
+        "truncated": true,
+        "source": "Joshua Wolk (September 2026) in Erich Friedman's compiled table, printed as r = 3.72853+ (smallest circle around n = 36 unit squares); checked 2026-10-04 at revision 08715a7. The interval is converted conservatively from the printed truncated precision; optimality is open. The layout is published as a figure only; the site cites the value without rebuilding it.",
+        "url": "https://erich-friedman.github.io/packing/squincir/"
+      },
       "holder": "ephraimduncan",
       "method": "ai",
       "recordedAt": "2026-09-13T21:48:16.862Z",
@@ -5057,10 +5073,20 @@
       "objective": "maximize",
       "scoreStored": "70311526402538500",
       "scoreDisplay": "0.265163207",
-      "status": "open",
+      "status": "matched",
       "settled": false,
-      "recordStatus": "open",
-      "knownBest": null,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "0.265163367",
+        "kind": "best",
+        "range": {
+          "lower": "0.2651626640362530",
+          "upper": "0.2651633671505015"
+        },
+        "truncated": true,
+        "source": "Ephraim Duncan (September 2026) in Erich Friedman's compiled table, printed as r = 3.77126+ (smallest circle around n = 37 unit squares); checked 2026-10-04 at revision 08715a7. The interval is converted conservatively from the printed truncated precision; optimality is open. The layout is published as a figure only; the site cites the value without rebuilding it.",
+        "url": "https://erich-friedman.github.io/packing/squincir/"
+      },
       "holder": "ephraimduncan",
       "method": "ai",
       "recordedAt": "2026-09-14T14:53:39.604Z",
@@ -5303,7 +5329,17 @@
       "status": "open",
       "settled": false,
       "recordStatus": "open",
-      "knownBest": null,
+      "knownBest": {
+        "display": "0.260746674",
+        "kind": "best",
+        "range": {
+          "lower": "0.2607459942896627",
+          "upper": "0.2607466741761709"
+        },
+        "truncated": true,
+        "source": "Beppe Björkland (September 2026) in Erich Friedman's compiled table, printed as r = 3.83514+ (smallest circle around n = 38 unit squares); checked 2026-10-04 at revision 08715a7. The interval is converted conservatively from the printed truncated precision; optimality is open. The layout is published as a figure only; the site cites the value without rebuilding it.",
+        "url": "https://erich-friedman.github.io/packing/squincir/"
+      },
       "holder": "ephraimduncan",
       "method": "ai",
       "recordedAt": "2026-09-14T14:55:21.164Z",
@@ -5552,7 +5588,17 @@
       "status": "open",
       "settled": false,
       "recordStatus": "open",
-      "knownBest": null,
+      "knownBest": {
+        "display": "0.257426099",
+        "kind": "best",
+        "range": {
+          "lower": "0.2574254367222533",
+          "upper": "0.2574260994025141"
+        },
+        "truncated": true,
+        "source": "Beppe Björkland (September 2026) in Erich Friedman's compiled table, printed as r = 3.88461+ (smallest circle around n = 39 unit squares); checked 2026-10-04 at revision 08715a7. The interval is converted conservatively from the printed truncated precision; optimality is open. The layout is published as a figure only; the site cites the value without rebuilding it.",
+        "url": "https://erich-friedman.github.io/packing/squincir/"
+      },
       "holder": "ephraimduncan",
       "method": "ai",
       "recordedAt": "2026-09-14T15:16:37.633Z",
@@ -5804,10 +5850,20 @@
       "objective": "maximize",
       "scoreStored": "64472649745776032",
       "scoreDisplay": "0.25391465",
-      "status": "open",
+      "status": "matched",
       "settled": false,
-      "recordStatus": "open",
-      "knownBest": null,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "0.253914730",
+        "kind": "best",
+        "range": {
+          "lower": "0.2539140856299862",
+          "upper": "0.2539147303552521"
+        },
+        "truncated": true,
+        "source": "Ephraim Duncan (September 2026) in Erich Friedman's compiled table, printed as r = 3.93833+ (smallest circle around n = 40 unit squares); checked 2026-10-04 at revision 08715a7. The interval is converted conservatively from the printed truncated precision; optimality is open. The layout is published as a figure only; the site cites the value without rebuilding it.",
+        "url": "https://erich-friedman.github.io/packing/squincir/"
+      },
       "holder": "ephraimduncan",
       "method": "ai",
       "recordedAt": "2026-09-14T14:53:42.002Z",

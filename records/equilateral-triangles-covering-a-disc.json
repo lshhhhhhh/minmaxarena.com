@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/equilateral-triangles-covering-a-disc",
-  "generatedAt": "2026-09-30T11:13:56.836Z",
+  "generatedAt": "2026-10-04T11:10:12.151Z",
   "instances": [
     {
       "instanceId": "p78-n7-v1",
@@ -352,11 +352,11 @@
         "n": 11
       },
       "objective": "minimize",
-      "scoreStored": "881432472",
-      "scoreDisplay": "0.881432472",
-      "status": "open",
+      "scoreStored": "875274028",
+      "scoreDisplay": "0.875274028",
+      "status": "ahead",
       "settled": false,
-      "recordStatus": "open",
+      "recordStatus": "ahead",
       "knownBest": {
         "display": "0.875432470252361",
         "kind": "best",
@@ -367,77 +367,77 @@
         "source": "David Cantrell's arrangement (July 2005), listed in Friedman's table as the largest covered-disc radius r = (177√3 − 2√586)/226 ≈ 1.142+ for n unit triangles; here it is converted in closed form by s = 1/r and shown rounded upward to fifteen places. The site reconstructed the same contact topology from the public raster, and its nine-decimal certificate verifies at 0.888565311; the gap from the continuous target remains explicit. Optimality is open",
         "url": "https://erich-friedman.github.io/packing/tricovcir/"
       },
-      "holder": "Sigmoid with Codex",
+      "holder": "zzzcy",
       "method": "ai",
-      "recordedAt": "2026-09-03T03:11:59.719Z",
+      "recordedAt": "2026-10-04T03:01:19.638Z",
       "answer": {
-        "side": "0.881432472",
+        "side": "0.875274028",
         "triangles": [
           {
             "down": true,
-            "turn": "0.000000000",
-            "x": "1.001912446",
-            "y": "2.000679389"
-          },
-          {
-            "down": false,
-            "turn": "0.000000000",
-            "x": "1.509800879",
-            "y": "1.353682137"
+            "turn": "-0.686053076",
+            "x": "1.120134412",
+            "y": "1.123353737"
           },
           {
             "down": true,
-            "turn": "0.000000000",
-            "x": "1.922702231",
-            "y": "1.358926123"
-          },
-          {
-            "down": false,
-            "turn": "0.000000000",
-            "x": "0.491646777",
-            "y": "1.357799630"
+            "turn": "-0.686053076",
+            "x": "0.572942908",
+            "y": "0.445317956"
           },
           {
             "down": true,
-            "turn": "0.000000000",
-            "x": "1.005182619",
-            "y": "1.358531796"
-          },
-          {
-            "down": true,
-            "turn": "0.000000000",
-            "x": "0.088447397",
-            "y": "1.359805508"
+            "turn": "-0.077862157",
+            "x": "1.646412129",
+            "y": "0.812171627"
           },
           {
             "down": false,
-            "turn": "0.000000000",
-            "x": "1.464056258",
-            "y": "0.626638429"
-          },
-          {
-            "down": true,
-            "turn": "0.000000000",
-            "x": "1.506637374",
-            "y": "0.636913941"
+            "turn": "0.478000216",
+            "x": "1.006738497",
+            "y": "0.373863454"
           },
           {
             "down": false,
-            "turn": "0.000000000",
-            "x": "0.546447319",
-            "y": "0.626398820"
-          },
-          {
-            "down": true,
-            "turn": "0.000000000",
-            "x": "0.496046268",
-            "y": "0.636211151"
+            "turn": "0.478000216",
+            "x": "1.524433557",
+            "y": "1.128358462"
           },
           {
             "down": false,
-            "turn": "0.000000000",
-            "x": "1.003356275",
-            "y": "-0.011787965"
+            "turn": "0.478000216",
+            "x": "1.036243760",
+            "y": "1.622892281"
+          },
+          {
+            "down": true,
+            "turn": "0.478000216",
+            "x": "1.004238167",
+            "y": "0.370765247"
+          },
+          {
+            "down": false,
+            "turn": "-0.077862157",
+            "x": "1.443947409",
+            "y": "1.524596807"
+          },
+          {
+            "down": false,
+            "turn": "0.478000215",
+            "x": "0.398808851",
+            "y": "0.833034117"
+          },
+          {
+            "down": true,
+            "turn": "-0.686053076",
+            "x": "0.654167493",
+            "y": "1.560282510"
+          },
+          {
+            "down": true,
+            "turn": "-0.686053076",
+            "x": "2.018805555",
+            "y": "1.137455448"
           }
         ]
       }

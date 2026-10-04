@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/lights-in-a-square",
-  "generatedAt": "2026-09-24T10:12:45.092Z",
+  "generatedAt": "2026-10-04T11:10:11.005Z",
   "instances": [
     {
       "instanceId": "p51-n2-v1",
@@ -2266,8 +2266,8 @@
         "n": 28
       },
       "objective": "maximize",
-      "scoreStored": "268161838",
-      "scoreDisplay": "268.161838",
+      "scoreStored": "268163301",
+      "scoreDisplay": "268.163301",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -2278,11 +2278,11 @@
         "source": "Mishari Alhussain (September 2026), compiled by Erich Friedman, checked 2026-09-18. The interval follows the source's three-decimal truncated precision; optimality is open.",
         "url": "https://erich-friedman.github.io/packing/light/"
       },
-      "holder": "今天",
+      "holder": "NUE_13",
       "method": "human",
-      "recordedAt": "2026-09-23T12:32:44.338Z",
+      "recordedAt": "2026-10-03T11:43:50.481Z",
       "answer": {
-        "intensity": "268.161838",
+        "intensity": "268.163301",
         "lights": [
           [
             "0.050846663",
@@ -2318,11 +2318,11 @@
           ],
           [
             "0.277856195",
-            "0.714959751"
+            "0.715099751"
           ],
           [
-            "0.344856565",
-            "0.499815862"
+            "0.344866565",
+            "0.499825862"
           ],
           [
             "0.721890327",
@@ -2374,7 +2374,7 @@
           ],
           [
             "0.278100710",
-            "0.284968766"
+            "0.284958766"
           ],
           [
             "0.655003553",
@@ -2406,8 +2406,8 @@
         "n": 29
       },
       "objective": "maximize",
-      "scoreStored": "283920489",
-      "scoreDisplay": "283.920489",
+      "scoreStored": "283929981",
+      "scoreDisplay": "283.929981",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -2418,11 +2418,11 @@
         "source": "Mishari Alhussain (September 2026), compiled by Erich Friedman, checked 2026-09-18. The interval follows the source's three-decimal truncated precision; optimality is open.",
         "url": "https://erich-friedman.github.io/packing/light/"
       },
-      "holder": "游侠",
-      "method": "ai",
-      "recordedAt": "2026-09-06T02:29:01.717Z",
+      "holder": "NUE_13",
+      "method": "human",
+      "recordedAt": "2026-10-03T11:58:15.220Z",
       "answer": {
-        "intensity": "283.920489",
+        "intensity": "283.929981",
         "lights": [
           [
             "0.053356471",
@@ -2462,7 +2462,7 @@
           ],
           [
             "0.503664850",
-            "0.279397811"
+            "0.279387811"
           ],
           [
             "0.724756002",
@@ -2473,7 +2473,7 @@
             "0.400163412"
           ],
           [
-            "0.280741956",
+            "0.282071956",
             "0.275244130"
           ],
           [
@@ -2513,15 +2513,15 @@
             "0.781515214"
           ],
           [
-            "0.275248472",
-            "0.719255271"
+            "0.275378472",
+            "0.719045271"
           ],
           [
-            "0.719263816",
+            "0.719163816",
             "0.724750621"
           ],
           [
-            "0.720600812",
+            "0.720670812",
             "0.503657019"
           ],
           [
@@ -2530,7 +2530,7 @@
           ],
           [
             "0.496341584",
-            "0.720594240"
+            "0.720604240"
           ],
           [
             "0.946941637",
@@ -2538,7 +2538,7 @@
           ],
           [
             "0.500002716",
-            "0.499995341"
+            "0.500005341"
           ]
         ]
       }

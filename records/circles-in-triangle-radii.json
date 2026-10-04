@@ -1,0 +1,7803 @@
+{
+  "problem": "circles-in-triangle-radii",
+  "code": "P93",
+  "title": "正三角形内圆的半径之和",
+  "titleEn": "Sum of radii in the equilateral triangle",
+  "objective": "maximize",
+  "scoreLabel": "半径之和",
+  "scoreLabelEn": "the sum of the radii",
+  "verifierVersion": "1.0.0",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseName": "CC BY 4.0",
+  "source": "https://minmaxarena.com/problems/circles-in-triangle-radii",
+  "generatedAt": "2026-10-04T11:10:12.397Z",
+  "instances": [
+    {
+      "instanceId": "p93-n1-v1",
+      "name": "n = 1",
+      "parameters": {
+        "n": 1
+      },
+      "objective": "maximize",
+      "scoreStored": "288675134",
+      "scoreDisplay": "0.288675134",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "0.2886751345948129",
+        "kind": "proven",
+        "exact": "√3/6",
+        "proofScope": "continuous",
+        "certificateDisplay": "0.288675134",
+        "source": "From any point of the triangle the distances to the three sides add up to the height √3/2 (Viviani's theorem); each is at least r for the centre of an inscribed circle, so 3r ≤ √3/2 and r ≤ √3/6, attained by the incircle. The continuous problem is solved; a nine-decimal certificate cannot attain this irrational value, and no grid-optimality claim is made.",
+        "url": "https://erich-friedman.github.io/packing/cirRtri/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-10-04T04:45:45.621Z",
+      "answer": {
+        "circles": [
+          [
+            "0.500000000",
+            "0.288675134",
+            "0.288675134"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p93-n2-v1",
+      "name": "n = 2",
+      "parameters": {
+        "n": 2
+      },
+      "objective": "maximize",
+      "scoreStored": "384900179",
+      "scoreDisplay": "0.384900179",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "0.384",
+        "kind": "best",
+        "range": {
+          "lower": "0.384",
+          "upper": "0.385",
+          "upperInclusive": false
+        },
+        "comparisonUncertain": true,
+        "truncated": true,
+        "certificateDisplay": "0.384900178",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Triangles); Trivial. Source expression: Σ r = 2√3/9 = .384+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRtri/"
+      },
+      "holder": "zzzcy",
+      "method": "ai",
+      "recordedAt": "2026-10-04T09:16:41.415Z",
+      "answer": {
+        "circles": [
+          [
+            "0.500000000",
+            "0.288675134",
+            "0.288675134"
+          ],
+          [
+            "0.500000000",
+            "0.673575313",
+            "0.096225045"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p93-n3-v1",
+      "name": "n = 3",
+      "parameters": {
+        "n": 3
+      },
+      "objective": "maximize",
+      "scoreStored": "549038104",
+      "scoreDisplay": "0.549038104",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "0.549",
+        "kind": "best",
+        "range": {
+          "lower": "0.549",
+          "upper": "0.550",
+          "upperInclusive": false
+        },
+        "comparisonUncertain": true,
+        "truncated": true,
+        "certificateDisplay": "0.549038103",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Triangles); Trivial. Source expression: Σ r = (3√3 − 3) / 4 = .549+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRtri/"
+      },
+      "holder": "NUE_13",
+      "method": "human",
+      "recordedAt": "2026-10-04T04:18:37.466Z",
+      "answer": {
+        "circles": [
+          [
+            "0.316987299",
+            "0.183012702",
+            "0.183012702"
+          ],
+          [
+            "0.683012702",
+            "0.183012702",
+            "0.183012701"
+          ],
+          [
+            "0.500000000",
+            "0.500000000",
+            "0.183012701"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p93-n4-v1",
+      "name": "n = 4",
+      "parameters": {
+        "n": 4
+      },
+      "objective": "maximize",
+      "scoreStored": "617524883",
+      "scoreDisplay": "0.617524883",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "0.617",
+        "kind": "best",
+        "range": {
+          "lower": "0.617",
+          "upper": "0.618",
+          "upperInclusive": false
+        },
+        "truncated": true,
+        "certificateDisplay": "0.617524882",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Triangles); Found by David W. Cantrell in June 2011. Source expression: Σ r = .617+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRtri/"
+      },
+      "holder": "NUE_13",
+      "method": "human",
+      "recordedAt": "2026-10-04T04:19:28.318Z",
+      "answer": {
+        "circles": [
+          [
+            "0.500000000",
+            "0.423644795",
+            "0.221190304"
+          ],
+          [
+            "0.255570449",
+            "0.147553667",
+            "0.147553667"
+          ],
+          [
+            "0.744429551",
+            "0.147553667",
+            "0.147553667"
+          ],
+          [
+            "0.500000000",
+            "0.101227246",
+            "0.101227245"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p93-n5-v1",
+      "name": "n = 5",
+      "parameters": {
+        "n": 5
+      },
+      "objective": "maximize",
+      "scoreStored": "693904525",
+      "scoreDisplay": "0.693904525",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "0.693",
+        "kind": "best",
+        "range": {
+          "lower": "0.693",
+          "upper": "0.694",
+          "upperInclusive": false
+        },
+        "truncated": true,
+        "certificateDisplay": "0.693904523",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Triangles); Found by David W. Cantrell in June 2011. Source expression: Σ r = .693+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRtri/"
+      },
+      "holder": "zzzcy",
+      "method": "ai",
+      "recordedAt": "2026-10-04T09:17:05.332Z",
+      "answer": {
+        "circles": [
+          [
+            "0.386117831",
+            "0.493126371",
+            "0.087824665"
+          ],
+          [
+            "0.717281114",
+            "0.163227824",
+            "0.163227824"
+          ],
+          [
+            "0.500000000",
+            "0.651515095",
+            "0.107255154"
+          ],
+          [
+            "0.597563393",
+            "0.433074396",
+            "0.131983126"
+          ],
+          [
+            "0.352669371",
+            "0.203613756",
+            "0.203613756"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p93-n6-v1",
+      "name": "n = 6",
+      "parameters": {
+        "n": 6
+      },
+      "objective": "maximize",
+      "scoreStored": "803847575",
+      "scoreDisplay": "0.803847575",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "0.803",
+        "kind": "best",
+        "range": {
+          "lower": "0.803",
+          "upper": "0.804",
+          "upperInclusive": false
+        },
+        "comparisonUncertain": true,
+        "truncated": true,
+        "certificateDisplay": "0.803847574",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Triangles); Trivial. Source expression: Σ r = 6 − 3√3 = .803+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRtri/"
+      },
+      "holder": "zzzcy",
+      "method": "ai",
+      "recordedAt": "2026-10-04T09:17:08.768Z",
+      "answer": {
+        "circles": [
+          [
+            "0.232050808",
+            "0.133974596",
+            "0.133974596"
+          ],
+          [
+            "0.500000000",
+            "0.133974596",
+            "0.133974596"
+          ],
+          [
+            "0.767949192",
+            "0.133974596",
+            "0.133974596"
+          ],
+          [
+            "0.366025404",
+            "0.366025404",
+            "0.133974596"
+          ],
+          [
+            "0.633974596",
+            "0.366025404",
+            "0.133974596"
+          ],
+          [
+            "0.500000000",
+            "0.598076211",
+            "0.133974595"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p93-n7-v1",
+      "name": "n = 7",
+      "parameters": {
+        "n": 7
+      },
+      "objective": "maximize",
+      "scoreStored": "855687591",
+      "scoreDisplay": "0.855687591",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "0.855",
+        "kind": "best",
+        "range": {
+          "lower": "0.855",
+          "upper": "0.856",
+          "upperInclusive": false
+        },
+        "truncated": true,
+        "certificateDisplay": "0.85568759",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Triangles); Found by David W. Cantrell in June 2011. Source expression: Σ r = .855+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRtri/"
+      },
+      "holder": "zzzcy",
+      "method": "ai",
+      "recordedAt": "2026-10-04T09:17:12.084Z",
+      "answer": {
+        "circles": [
+          [
+            "0.617731996",
+            "0.512302746",
+            "0.074902429"
+          ],
+          [
+            "0.251336934",
+            "0.145109446",
+            "0.145109446"
+          ],
+          [
+            "0.786565723",
+            "0.123226337",
+            "0.123226337"
+          ],
+          [
+            "0.500000000",
+            "0.651385849",
+            "0.107319777"
+          ],
+          [
+            "0.676400933",
+            "0.333021551",
+            "0.113734235"
+          ],
+          [
+            "0.529881671",
+            "0.133670089",
+            "0.133670089"
+          ],
+          [
+            "0.413548479",
+            "0.400836420",
+            "0.157725278"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p93-n8-v1",
+      "name": "n = 8",
+      "parameters": {
+        "n": 8
+      },
+      "objective": "maximize",
+      "scoreStored": "912454561",
+      "scoreDisplay": "0.912454561",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "0.912",
+        "kind": "best",
+        "range": {
+          "lower": "0.912",
+          "upper": "0.913",
+          "upperInclusive": false
+        },
+        "truncated": true,
+        "certificateDisplay": "0.912454558",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Triangles); Found by David W. Cantrell in June 2011. Source expression: Σ r = .912+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRtri/"
+      },
+      "holder": "zzzcy",
+      "method": "ai",
+      "recordedAt": "2026-10-04T09:17:16.464Z",
+      "answer": {
+        "circles": [
+          [
+            "0.375848988",
+            "0.486293577",
+            "0.082347983"
+          ],
+          [
+            "0.331997219",
+            "0.069978921",
+            "0.069978921"
+          ],
+          [
+            "0.763916401",
+            "0.136302929",
+            "0.136302929"
+          ],
+          [
+            "0.167479131",
+            "0.096694121",
+            "0.096694121"
+          ],
+          [
+            "0.500000000",
+            "0.638258429",
+            "0.113883487"
+          ],
+          [
+            "0.512292151",
+            "0.116128764",
+            "0.116128764"
+          ],
+          [
+            "0.316658086",
+            "0.275747232",
+            "0.136360330"
+          ],
+          [
+            "0.594711351",
+            "0.380464479",
+            "0.160758026"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p93-n9-v1",
+      "name": "n = 9",
+      "parameters": {
+        "n": 9
+      },
+      "objective": "maximize",
+      "scoreStored": "976596440",
+      "scoreDisplay": "0.97659644",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "0.976",
+        "kind": "best",
+        "range": {
+          "lower": "0.976",
+          "upper": "0.977",
+          "upperInclusive": false
+        },
+        "truncated": true,
+        "certificateDisplay": "0.976596438",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Triangles); Found by David W. Cantrell in June 2011. Source expression: Σ r = .976+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRtri/"
+      },
+      "holder": "zzzcy",
+      "method": "ai",
+      "recordedAt": "2026-10-04T09:17:18.688Z",
+      "answer": {
+        "circles": [
+          [
+            "0.249464167",
+            "0.275077524",
+            "0.078503543"
+          ],
+          [
+            "0.613492041",
+            "0.512444336",
+            "0.078503543"
+          ],
+          [
+            "0.637043792",
+            "0.078503544",
+            "0.078503544"
+          ],
+          [
+            "0.500000000",
+            "0.656402481",
+            "0.104811461"
+          ],
+          [
+            "0.818461224",
+            "0.104811461",
+            "0.104811461"
+          ],
+          [
+            "0.181538776",
+            "0.104811461",
+            "0.104811461"
+          ],
+          [
+            "0.663976878",
+            "0.297574835",
+            "0.142217142"
+          ],
+          [
+            "0.410304195",
+            "0.426233426",
+            "0.142217143"
+          ],
+          [
+            "0.425718927",
+            "0.142217143",
+            "0.142217142"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p93-n10-v1",
+      "name": "n = 10",
+      "parameters": {
+        "n": 10
+      },
+      "objective": "maximize",
+      "scoreStored": "1056624324",
+      "scoreDisplay": "1.056624324",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "1.056",
+        "kind": "best",
+        "range": {
+          "lower": "1.056",
+          "upper": "1.057",
+          "upperInclusive": false
+        },
+        "comparisonUncertain": true,
+        "truncated": true,
+        "certificateDisplay": "1.05662432",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Triangles); Trivial. Source expression: Σ r = (15 − 5√3) / 6 = 1.056+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRtri/"
+      },
+      "holder": "zzzcy",
+      "method": "ai",
+      "recordedAt": "2026-10-04T11:08:56.874Z",
+      "answer": {
+        "circles": [
+          [
+            "0.500000000",
+            "0.654700539",
+            "0.105662432"
+          ],
+          [
+            "0.183012703",
+            "0.105662433",
+            "0.105662433"
+          ],
+          [
+            "0.816987297",
+            "0.105662433",
+            "0.105662433"
+          ],
+          [
+            "0.288675135",
+            "0.288675135",
+            "0.105662432"
+          ],
+          [
+            "0.711324865",
+            "0.288675135",
+            "0.105662432"
+          ],
+          [
+            "0.394337567",
+            "0.471687836",
+            "0.105662432"
+          ],
+          [
+            "0.605662432",
+            "0.471687837",
+            "0.105662433"
+          ],
+          [
+            "0.605662432",
+            "0.105662432",
+            "0.105662432"
+          ],
+          [
+            "0.394337568",
+            "0.105662432",
+            "0.105662432"
+          ],
+          [
+            "0.500000000",
+            "0.288675134",
+            "0.105662433"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p93-n11-v1",
+      "name": "n = 11",
+      "parameters": {
+        "n": 11
+      },
+      "objective": "maximize",
+      "scoreStored": "1098475706",
+      "scoreDisplay": "1.098475706",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "1.098",
+        "kind": "best",
+        "range": {
+          "lower": "1.098",
+          "upper": "1.099",
+          "upperInclusive": false
+        },
+        "truncated": true,
+        "certificateDisplay": "1.098475703",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Triangles); Found by David W. Cantrell in June 2011. Source expression: Σ r = 1.098+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRtri/"
+      },
+      "holder": "zzzcy",
+      "method": "ai",
+      "recordedAt": "2026-10-04T11:09:07.937Z",
+      "answer": {
+        "circles": [
+          [
+            "0.302085574",
+            "0.402941081",
+            "0.060143240"
+          ],
+          [
+            "0.500000000",
+            "0.672936237",
+            "0.096544583"
+          ],
+          [
+            "0.167220123",
+            "0.096544583",
+            "0.096544583"
+          ],
+          [
+            "0.806675973",
+            "0.111615679",
+            "0.111615679"
+          ],
+          [
+            "0.593681493",
+            "0.495426675",
+            "0.104168811"
+          ],
+          [
+            "0.367788660",
+            "0.104168814",
+            "0.104168812"
+          ],
+          [
+            "0.695060294",
+            "0.304939706",
+            "0.111615679"
+          ],
+          [
+            "0.583444615",
+            "0.111615679",
+            "0.111615679"
+          ],
+          [
+            "0.254174302",
+            "0.261099313",
+            "0.089571746"
+          ],
+          [
+            "0.400968515",
+            "0.515354343",
+            "0.089571747"
+          ],
+          [
+            "0.460618789",
+            "0.311411888",
+            "0.122915147"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p93-n12-v1",
+      "name": "n = 12",
+      "parameters": {
+        "n": 12
+      },
+      "objective": "maximize",
+      "scoreStored": "1143117744",
+      "scoreDisplay": "1.143117744",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "1.143",
+        "kind": "best",
+        "range": {
+          "lower": "1.143",
+          "upper": "1.144",
+          "upperInclusive": false
+        },
+        "truncated": true,
+        "certificateDisplay": "1.14311774",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Triangles); Found by David W. Cantrell in June 2011. Source expression: Σ r = 1.143+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRtri/"
+      },
+      "holder": "zzzcy",
+      "method": "ai",
+      "recordedAt": "2026-10-04T11:09:19.073Z",
+      "answer": {
+        "circles": [
+          [
+            "0.500000000",
+            "0.625891269",
+            "0.120067067"
+          ],
+          [
+            "0.163691952",
+            "0.094507593",
+            "0.094507592"
+          ],
+          [
+            "0.852487791",
+            "0.085166213",
+            "0.085166213"
+          ],
+          [
+            "0.608100741",
+            "0.204398098",
+            "0.065792164"
+          ],
+          [
+            "0.523350974",
+            "0.082594569",
+            "0.082594569"
+          ],
+          [
+            "0.376169616",
+            "0.432645167",
+            "0.109449860"
+          ],
+          [
+            "0.349576561",
+            "0.091402942",
+            "0.091402942"
+          ],
+          [
+            "0.262598485",
+            "0.259358370",
+            "0.097737774"
+          ],
+          [
+            "0.760885035",
+            "0.234356198",
+            "0.089901535"
+          ],
+          [
+            "0.686657955",
+            "0.080723134",
+            "0.080723134"
+          ],
+          [
+            "0.453623245",
+            "0.244677375",
+            "0.093850301"
+          ],
+          [
+            "0.615587345",
+            "0.401973063",
+            "0.131924593"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p93-n13-v1",
+      "name": "n = 13",
+      "parameters": {
+        "n": 13
+      },
+      "objective": "maximize",
+      "scoreStored": "1191922476",
+      "scoreDisplay": "1.191922476",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "1.191",
+        "kind": "best",
+        "range": {
+          "lower": "1.191",
+          "upper": "1.192",
+          "upperInclusive": false
+        },
+        "truncated": true,
+        "certificateDisplay": "1.191922471",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Triangles); Found by David W. Cantrell in June 2011. Source expression: Σ r = 1.191+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRtri/"
+      },
+      "holder": "zzzcy",
+      "method": "ai",
+      "recordedAt": "2026-10-04T09:17:30.237Z",
+      "answer": {
+        "circles": [
+          [
+            "0.484752224",
+            "0.279871827",
+            "0.118584902"
+          ],
+          [
+            "0.603246843",
+            "0.472335092",
+            "0.107430766"
+          ],
+          [
+            "0.710677610",
+            "0.286259545",
+            "0.107430767"
+          ],
+          [
+            "0.500000000",
+            "0.657273432",
+            "0.104375985"
+          ],
+          [
+            "0.394553895",
+            "0.480540530",
+            "0.101423431"
+          ],
+          [
+            "0.819215490",
+            "0.104375986",
+            "0.104375985"
+          ],
+          [
+            "0.613437254",
+            "0.101423431",
+            "0.101423430"
+          ],
+          [
+            "0.287376461",
+            "0.328408461",
+            "0.084671084"
+          ],
+          [
+            "0.428098301",
+            "0.084671085",
+            "0.084671085"
+          ],
+          [
+            "0.125870810",
+            "0.072671546",
+            "0.072671546"
+          ],
+          [
+            "0.271213902",
+            "0.072671546",
+            "0.072671546"
+          ],
+          [
+            "0.198542356",
+            "0.198542356",
+            "0.072671546"
+          ],
+          [
+            "0.330508503",
+            "0.190819173",
+            "0.059520403"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p93-n14-v1",
+      "name": "n = 14",
+      "parameters": {
+        "n": 14
+      },
+      "objective": "maximize",
+      "scoreStored": "1243543701",
+      "scoreDisplay": "1.243543701",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "1.243",
+        "kind": "best",
+        "range": {
+          "lower": "1.243",
+          "upper": "1.244",
+          "upperInclusive": false
+        },
+        "truncated": true,
+        "certificateDisplay": "1.2435437",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Triangles); Found by David W. Cantrell in June 2011. Source expression: Σ r = 1.243+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRtri/"
+      },
+      "holder": "zzzcy",
+      "method": "ai",
+      "recordedAt": "2026-10-04T09:19:05.375Z",
+      "answer": {
+        "circles": [
+          [
+            "0.588545217",
+            "0.124617869",
+            "0.124617869"
+          ],
+          [
+            "0.817636577",
+            "0.105287572",
+            "0.105287571"
+          ],
+          [
+            "0.364305371",
+            "0.100875398",
+            "0.100875398"
+          ],
+          [
+            "0.167039514",
+            "0.096440309",
+            "0.096440308"
+          ],
+          [
+            "0.257710525",
+            "0.261899617",
+            "0.092234052"
+          ],
+          [
+            "0.734368325",
+            "0.281275949",
+            "0.089405804"
+          ],
+          [
+            "0.437907896",
+            "0.275321690",
+            "0.088462501"
+          ],
+          [
+            "0.340284635",
+            "0.418963596",
+            "0.085213340"
+          ],
+          [
+            "0.419970594",
+            "0.565040670",
+            "0.081184867"
+          ],
+          [
+            "0.500000000",
+            "0.705345763",
+            "0.080339820"
+          ],
+          [
+            "0.580644238",
+            "0.567335169",
+            "0.079505158"
+          ],
+          [
+            "0.503930547",
+            "0.428932657",
+            "0.078735940"
+          ],
+          [
+            "0.660682513",
+            "0.431636443",
+            "0.078039342"
+          ],
+          [
+            "0.584969058",
+            "0.312403421",
+            "0.063201731"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p93-n15-v1",
+      "name": "n = 15",
+      "parameters": {
+        "n": 15
+      },
+      "objective": "maximize",
+      "scoreStored": "1308432222",
+      "scoreDisplay": "1.308432222",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "1.308",
+        "kind": "best",
+        "range": {
+          "lower": "1.308",
+          "upper": "1.309",
+          "upperInclusive": false
+        },
+        "comparisonUncertain": true,
+        "truncated": true,
+        "certificateDisplay": "1.30843222",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Triangles); Trivial. Source expression: Σ r = (60 − 15√3) / 26 = 1.308+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRtri/"
+      },
+      "holder": "zzzcy",
+      "method": "ai",
+      "recordedAt": "2026-10-04T11:09:30.557Z",
+      "answer": {
+        "circles": [
+          [
+            "0.151084740",
+            "0.087228815",
+            "0.087228815"
+          ],
+          [
+            "0.325542370",
+            "0.087228815",
+            "0.087228815"
+          ],
+          [
+            "0.500000000",
+            "0.087228815",
+            "0.087228815"
+          ],
+          [
+            "0.674457630",
+            "0.087228815",
+            "0.087228815"
+          ],
+          [
+            "0.848915260",
+            "0.087228815",
+            "0.087228815"
+          ],
+          [
+            "0.238313555",
+            "0.238313555",
+            "0.087228815"
+          ],
+          [
+            "0.412771185",
+            "0.238313555",
+            "0.087228815"
+          ],
+          [
+            "0.587228815",
+            "0.238313555",
+            "0.087228815"
+          ],
+          [
+            "0.761686445",
+            "0.238313555",
+            "0.087228815"
+          ],
+          [
+            "0.325542370",
+            "0.389398294",
+            "0.087228814"
+          ],
+          [
+            "0.500000000",
+            "0.389398294",
+            "0.087228814"
+          ],
+          [
+            "0.674457630",
+            "0.389398294",
+            "0.087228814"
+          ],
+          [
+            "0.412771185",
+            "0.540483033",
+            "0.087228815"
+          ],
+          [
+            "0.587228815",
+            "0.540483033",
+            "0.087228815"
+          ],
+          [
+            "0.500000000",
+            "0.691567773",
+            "0.087228815"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p93-n16-v1",
+      "name": "n = 16",
+      "parameters": {
+        "n": 16
+      },
+      "objective": "maximize",
+      "scoreStored": "1343255460",
+      "scoreDisplay": "1.34325546",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "1.343",
+        "kind": "best",
+        "range": {
+          "lower": "1.343",
+          "upper": "1.344",
+          "upperInclusive": false
+        },
+        "truncated": true,
+        "certificateDisplay": "1.343255459",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Triangles); Found by David W. Cantrell in June 2011. Source expression: Σ r = 1.343+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRtri/"
+      },
+      "holder": "zzzcy",
+      "method": "ai",
+      "recordedAt": "2026-10-04T09:19:29.301Z",
+      "answer": {
+        "circles": [
+          [
+            "0.412114512",
+            "0.201072672",
+            "0.101431796"
+          ],
+          [
+            "0.501978792",
+            "0.371452730",
+            "0.091194662"
+          ],
+          [
+            "0.319330605",
+            "0.370180928",
+            "0.091457952"
+          ],
+          [
+            "0.409820377",
+            "0.528330317",
+            "0.090749698"
+          ],
+          [
+            "0.500000000",
+            "0.685360303",
+            "0.090332550"
+          ],
+          [
+            "0.590484169",
+            "0.529466890",
+            "0.089917667"
+          ],
+          [
+            "0.681100607",
+            "0.376361166",
+            "0.087994391"
+          ],
+          [
+            "0.598836066",
+            "0.222462936",
+            "0.086510966"
+          ],
+          [
+            "0.225835763",
+            "0.219622467",
+            "0.085768274"
+          ],
+          [
+            "0.770197796",
+            "0.228139569",
+            "0.084944762"
+          ],
+          [
+            "0.855745935",
+            "0.083285123",
+            "0.083285123"
+          ],
+          [
+            "0.690805073",
+            "0.081663708",
+            "0.081663707"
+          ],
+          [
+            "0.137866290",
+            "0.079597140",
+            "0.079597139"
+          ],
+          [
+            "0.534657850",
+            "0.074641343",
+            "0.074641343"
+          ],
+          [
+            "0.291303776",
+            "0.073944435",
+            "0.073944435"
+          ],
+          [
+            "0.412695462",
+            "0.049820995",
+            "0.049820995"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p93-n17-v1",
+      "name": "n = 17",
+      "parameters": {
+        "n": 17
+      },
+      "objective": "maximize",
+      "scoreStored": "1381402236",
+      "scoreDisplay": "1.381402236",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "1.381",
+        "kind": "best",
+        "range": {
+          "lower": "1.381",
+          "upper": "1.382",
+          "upperInclusive": false
+        },
+        "truncated": true,
+        "certificateDisplay": "1.381402235",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Triangles); Found by David W. Cantrell in June 2011. Source expression: Σ r = 1.381+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRtri/"
+      },
+      "holder": "zzzcy",
+      "method": "ai",
+      "recordedAt": "2026-10-04T09:19:41.174Z",
+      "answer": {
+        "circles": [
+          [
+            "0.500000000",
+            "0.332480020",
+            "0.106021723"
+          ],
+          [
+            "0.500000000",
+            "0.675174062",
+            "0.095425670"
+          ],
+          [
+            "0.404574329",
+            "0.509891952",
+            "0.095425670"
+          ],
+          [
+            "0.595425671",
+            "0.509891952",
+            "0.095425670"
+          ],
+          [
+            "0.693317896",
+            "0.354170546",
+            "0.088509219"
+          ],
+          [
+            "0.306682104",
+            "0.354170546",
+            "0.088509219"
+          ],
+          [
+            "0.215142852",
+            "0.212773252",
+            "0.079932549"
+          ],
+          [
+            "0.784857148",
+            "0.212773252",
+            "0.079932549"
+          ],
+          [
+            "0.865645792",
+            "0.077569438",
+            "0.077569438"
+          ],
+          [
+            "0.134354208",
+            "0.077569438",
+            "0.077569438"
+          ],
+          [
+            "0.371695357",
+            "0.201973507",
+            "0.076992023"
+          ],
+          [
+            "0.628304643",
+            "0.201973507",
+            "0.076992023"
+          ],
+          [
+            "0.712804842",
+            "0.075288530",
+            "0.075288530"
+          ],
+          [
+            "0.287195158",
+            "0.075288530",
+            "0.075288530"
+          ],
+          [
+            "0.431169462",
+            "0.068830538",
+            "0.068830538"
+          ],
+          [
+            "0.568830538",
+            "0.068830538",
+            "0.068830538"
+          ],
+          [
+            "0.500000000",
+            "0.171599388",
+            "0.054858909"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p93-n18-v1",
+      "name": "n = 18",
+      "parameters": {
+        "n": 18
+      },
+      "objective": "maximize",
+      "scoreStored": "1420030145",
+      "scoreDisplay": "1.420030145",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "1.420",
+        "kind": "best",
+        "range": {
+          "lower": "1.420",
+          "upper": "1.421",
+          "upperInclusive": false
+        },
+        "truncated": true,
+        "certificateDisplay": "1.420030144",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Triangles); Found by David W. Cantrell in June 2011. Source expression: Σ r = 1.420+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRtri/"
+      },
+      "holder": "zzzcy",
+      "method": "ai",
+      "recordedAt": "2026-10-04T09:19:53.184Z",
+      "answer": {
+        "circles": [
+          [
+            "0.500000000",
+            "0.404266706",
+            "0.097795590"
+          ],
+          [
+            "0.411531128",
+            "0.240352982",
+            "0.088468872"
+          ],
+          [
+            "0.588468872",
+            "0.240352982",
+            "0.088468872"
+          ],
+          [
+            "0.500000000",
+            "0.087843243",
+            "0.087843242"
+          ],
+          [
+            "0.150493538",
+            "0.086887485",
+            "0.086887484"
+          ],
+          [
+            "0.324768825",
+            "0.087388522",
+            "0.087388522"
+          ],
+          [
+            "0.675231175",
+            "0.087388522",
+            "0.087388522"
+          ],
+          [
+            "0.849506462",
+            "0.086887485",
+            "0.086887484"
+          ],
+          [
+            "0.236700873",
+            "0.237198254",
+            "0.086389842"
+          ],
+          [
+            "0.763299127",
+            "0.237198254",
+            "0.086389842"
+          ],
+          [
+            "0.319427217",
+            "0.385832830",
+            "0.083715669"
+          ],
+          [
+            "0.680572783",
+            "0.385832830",
+            "0.083715669"
+          ],
+          [
+            "0.383901538",
+            "0.525218380",
+            "0.069859294"
+          ],
+          [
+            "0.616098462",
+            "0.525218380",
+            "0.069859294"
+          ],
+          [
+            "0.440043805",
+            "0.642265837",
+            "0.059956195"
+          ],
+          [
+            "0.559956195",
+            "0.642265837",
+            "0.059956195"
+          ],
+          [
+            "0.500000000",
+            "0.746113014",
+            "0.059956194"
+          ],
+          [
+            "0.500000000",
+            "0.551165661",
+            "0.049103363"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p93-n19-v1",
+      "name": "n = 19",
+      "parameters": {
+        "n": 19
+      },
+      "objective": "maximize",
+      "scoreStored": "1462375773",
+      "scoreDisplay": "1.462375773",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "1.462",
+        "kind": "best",
+        "range": {
+          "lower": "1.462",
+          "upper": "1.463",
+          "upperInclusive": false
+        },
+        "truncated": true,
+        "certificateDisplay": "1.46237577",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Triangles); Found by David W. Cantrell in June 2011. Source expression: Σ r = 1.462+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRtri/"
+      },
+      "holder": "zzzcy",
+      "method": "ai",
+      "recordedAt": "2026-10-04T09:20:05.197Z",
+      "answer": {
+        "circles": [
+          [
+            "0.114528898",
+            "0.066123290",
+            "0.066123290"
+          ],
+          [
+            "0.410606525",
+            "0.538205574",
+            "0.086492894"
+          ],
+          [
+            "0.247524711",
+            "0.066874645",
+            "0.066874644"
+          ],
+          [
+            "0.679106805",
+            "0.376832464",
+            "0.089485426"
+          ],
+          [
+            "0.446373337",
+            "0.199780242",
+            "0.072881649"
+          ],
+          [
+            "0.690510563",
+            "0.081834808",
+            "0.081834808"
+          ],
+          [
+            "0.855668459",
+            "0.083329854",
+            "0.083329854"
+          ],
+          [
+            "0.500000000",
+            "0.688783403",
+            "0.088621000"
+          ],
+          [
+            "0.489029826",
+            "0.368132427",
+            "0.100790552"
+          ],
+          [
+            "0.770255517",
+            "0.228214479",
+            "0.084857319"
+          ],
+          [
+            "0.601617765",
+            "0.221720116",
+            "0.083905436"
+          ],
+          [
+            "0.587812600",
+            "0.532306861",
+            "0.090811329"
+          ],
+          [
+            "0.531892942",
+            "0.076860783",
+            "0.076860783"
+          ],
+          [
+            "0.243171401",
+            "0.293123218",
+            "0.064031001"
+          ],
+          [
+            "0.179638389",
+            "0.180379012",
+            "0.065381902"
+          ],
+          [
+            "0.309765031",
+            "0.182875106",
+            "0.064768677"
+          ],
+          [
+            "0.358875981",
+            "0.288553527",
+            "0.051763781"
+          ],
+          [
+            "0.384763672",
+            "0.070409841",
+            "0.070409841"
+          ],
+          [
+            "0.319509591",
+            "0.407103671",
+            "0.073151587"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p93-n20-v1",
+      "name": "n = 20",
+      "parameters": {
+        "n": 20
+      },
+      "objective": "maximize",
+      "scoreStored": "1505788223",
+      "scoreDisplay": "1.505788223",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "1.505",
+        "kind": "best",
+        "range": {
+          "lower": "1.505",
+          "upper": "1.506",
+          "upperInclusive": false
+        },
+        "truncated": true,
+        "certificateDisplay": "1.505788217",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Triangles); Found by David W. Cantrell in July 2011. Source expression: Σ r = 1.505+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRtri/"
+      },
+      "holder": "zzzcy",
+      "method": "ai",
+      "recordedAt": "2026-10-04T04:59:43.315Z",
+      "answer": {
+        "circles": [
+          [
+            "0.500000000",
+            "0.104920017",
+            "0.104920017"
+          ],
+          [
+            "0.310281257",
+            "0.085763428",
+            "0.085763428"
+          ],
+          [
+            "0.689718743",
+            "0.085763428",
+            "0.085763428"
+          ],
+          [
+            "0.142362660",
+            "0.082193120",
+            "0.082193120"
+          ],
+          [
+            "0.857637340",
+            "0.082193120",
+            "0.082193120"
+          ],
+          [
+            "0.219899110",
+            "0.223281809",
+            "0.078797311"
+          ],
+          [
+            "0.780100890",
+            "0.223281809",
+            "0.078797311"
+          ],
+          [
+            "0.626118641",
+            "0.234019676",
+            "0.075558883"
+          ],
+          [
+            "0.373881359",
+            "0.234019676",
+            "0.075558883"
+          ],
+          [
+            "0.291058643",
+            "0.357641930",
+            "0.073243213"
+          ],
+          [
+            "0.708941357",
+            "0.357641930",
+            "0.073243213"
+          ],
+          [
+            "0.430074736",
+            "0.605060765",
+            "0.069925264"
+          ],
+          [
+            "0.360294394",
+            "0.483407319",
+            "0.070320438"
+          ],
+          [
+            "0.639705606",
+            "0.483407319",
+            "0.070320438"
+          ],
+          [
+            "0.569925264",
+            "0.605060765",
+            "0.069925264"
+          ],
+          [
+            "0.500000000",
+            "0.726174875",
+            "0.069925264"
+          ],
+          [
+            "0.500000000",
+            "0.484565161",
+            "0.069389965"
+          ],
+          [
+            "0.567950615",
+            "0.365212118",
+            "0.067950615"
+          ],
+          [
+            "0.432049385",
+            "0.365212118",
+            "0.067950615"
+          ],
+          [
+            "0.500000000",
+            "0.263888470",
+            "0.054048433"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p93-n21-v1",
+      "name": "n = 21",
+      "parameters": {
+        "n": 21
+      },
+      "objective": "maximize",
+      "scoreStored": "1559703017",
+      "scoreDisplay": "1.559703017",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "1.559",
+        "kind": "best",
+        "range": {
+          "lower": "1.559",
+          "upper": "1.560",
+          "upperInclusive": false
+        },
+        "comparisonUncertain": true,
+        "truncated": true,
+        "certificateDisplay": "1.559703012",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Triangles); Trivial. Source expression: Σ r = (105 − 21√3) / 44 = 1.559+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRtri/"
+      },
+      "holder": "zzzcy",
+      "method": "ai",
+      "recordedAt": "2026-10-04T05:06:26.852Z",
+      "answer": {
+        "circles": [
+          [
+            "0.128642137",
+            "0.074271572",
+            "0.074271572"
+          ],
+          [
+            "0.277185283",
+            "0.074271572",
+            "0.074271572"
+          ],
+          [
+            "0.425728427",
+            "0.074271572",
+            "0.074271572"
+          ],
+          [
+            "0.574271571",
+            "0.074271572",
+            "0.074271572"
+          ],
+          [
+            "0.722814716",
+            "0.074271573",
+            "0.074271573"
+          ],
+          [
+            "0.871357862",
+            "0.074271573",
+            "0.074271573"
+          ],
+          [
+            "0.202913710",
+            "0.202913709",
+            "0.074271573"
+          ],
+          [
+            "0.351456856",
+            "0.202913709",
+            "0.074271572"
+          ],
+          [
+            "0.499999999",
+            "0.202913708",
+            "0.074271571"
+          ],
+          [
+            "0.648543143",
+            "0.202913711",
+            "0.074271573"
+          ],
+          [
+            "0.797086289",
+            "0.202913711",
+            "0.074271573"
+          ],
+          [
+            "0.277185283",
+            "0.331555847",
+            "0.074271573"
+          ],
+          [
+            "0.425728429",
+            "0.331555847",
+            "0.074271573"
+          ],
+          [
+            "0.574271573",
+            "0.331555849",
+            "0.074271571"
+          ],
+          [
+            "0.722814716",
+            "0.331555848",
+            "0.074271572"
+          ],
+          [
+            "0.351456856",
+            "0.460197984",
+            "0.074271572"
+          ],
+          [
+            "0.500000000",
+            "0.460197985",
+            "0.074271572"
+          ],
+          [
+            "0.648543144",
+            "0.460197985",
+            "0.074271572"
+          ],
+          [
+            "0.425728427",
+            "0.588840121",
+            "0.074271572"
+          ],
+          [
+            "0.574271572",
+            "0.588840122",
+            "0.074271572"
+          ],
+          [
+            "0.499999999",
+            "0.717482258",
+            "0.074271572"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p93-n22-v1",
+      "name": "n = 22",
+      "parameters": {
+        "n": 22
+      },
+      "objective": "maximize",
+      "scoreStored": "1589549408",
+      "scoreDisplay": "1.589549408",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "1.589",
+        "kind": "best",
+        "range": {
+          "lower": "1.589",
+          "upper": "1.590",
+          "upperInclusive": false
+        },
+        "truncated": true,
+        "certificateDisplay": "1.589549402",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Triangles); Found by David W. Cantrell in July 2011. Source expression: Σ r = 1.589+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRtri/"
+      },
+      "holder": "zzzcy",
+      "method": "ai",
+      "recordedAt": "2026-10-04T05:06:13.729Z",
+      "answer": {
+        "circles": [
+          [
+            "0.500000000",
+            "0.713514427",
+            "0.076255488"
+          ],
+          [
+            "0.423744512",
+            "0.581436047",
+            "0.076255488"
+          ],
+          [
+            "0.576255488",
+            "0.581436047",
+            "0.076255488"
+          ],
+          [
+            "0.347415971",
+            "0.449630659",
+            "0.076055727"
+          ],
+          [
+            "0.652584029",
+            "0.449630659",
+            "0.076055727"
+          ],
+          [
+            "0.500000000",
+            "0.449041430",
+            "0.076529439"
+          ],
+          [
+            "0.270844019",
+            "0.319843115",
+            "0.074636243"
+          ],
+          [
+            "0.729155981",
+            "0.319843115",
+            "0.074636243"
+          ],
+          [
+            "0.422716500",
+            "0.316053906",
+            "0.077283500"
+          ],
+          [
+            "0.577283500",
+            "0.316053906",
+            "0.077283500"
+          ],
+          [
+            "0.195318018",
+            "0.193946237",
+            "0.072177246"
+          ],
+          [
+            "0.804681982",
+            "0.193946237",
+            "0.072177246"
+          ],
+          [
+            "0.340964646",
+            "0.189304685",
+            "0.073543323"
+          ],
+          [
+            "0.659035354",
+            "0.189304685",
+            "0.073543323"
+          ],
+          [
+            "0.500000000",
+            "0.171690997",
+            "0.086464443"
+          ],
+          [
+            "0.122642822",
+            "0.070807866",
+            "0.070807866"
+          ],
+          [
+            "0.877357178",
+            "0.070807866",
+            "0.070807866"
+          ],
+          [
+            "0.262913415",
+            "0.069469115",
+            "0.069469115"
+          ],
+          [
+            "0.737086585",
+            "0.069469115",
+            "0.069469115"
+          ],
+          [
+            "0.395868580",
+            "0.063614873",
+            "0.063614873"
+          ],
+          [
+            "0.604131420",
+            "0.063614873",
+            "0.063614873"
+          ],
+          [
+            "0.500000000",
+            "0.042613277",
+            "0.042613276"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p93-n23-v1",
+      "name": "n = 23",
+      "parameters": {
+        "n": 23
+      },
+      "objective": "maximize",
+      "scoreStored": "1622481470",
+      "scoreDisplay": "1.62248147",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "1.622",
+        "kind": "best",
+        "range": {
+          "lower": "1.622",
+          "upper": "1.623",
+          "upperInclusive": false
+        },
+        "truncated": true,
+        "certificateDisplay": "1.622481463",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Triangles); Found by David W. Cantrell in July 2011. Source expression: Σ r = 1.622+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRtri/"
+      },
+      "holder": "zzzcy",
+      "method": "ai",
+      "recordedAt": "2026-10-04T05:06:07.290Z",
+      "answer": {
+        "circles": [
+          [
+            "0.424102232",
+            "0.283455644",
+            "0.089873971"
+          ],
+          [
+            "0.342264265",
+            "0.432499412",
+            "0.080159842"
+          ],
+          [
+            "0.502163931",
+            "0.434046980",
+            "0.079747311"
+          ],
+          [
+            "0.421291731",
+            "0.571035338",
+            "0.079331672"
+          ],
+          [
+            "0.500000000",
+            "0.708274303",
+            "0.078875550"
+          ],
+          [
+            "0.579041042",
+            "0.572277249",
+            "0.078422526"
+          ],
+          [
+            "0.658204490",
+            "0.439247425",
+            "0.076379882"
+          ],
+          [
+            "0.587886373",
+            "0.304850125",
+            "0.075301598"
+          ],
+          [
+            "0.260231389",
+            "0.300890502",
+            "0.074921742"
+          ],
+          [
+            "0.735860208",
+            "0.311830012",
+            "0.072836764"
+          ],
+          [
+            "0.809679493",
+            "0.189410535",
+            "0.070117126"
+          ],
+          [
+            "0.670057636",
+            "0.185551328",
+            "0.069558055"
+          ],
+          [
+            "0.880127813",
+            "0.069208239",
+            "0.069208239"
+          ],
+          [
+            "0.742609228",
+            "0.068313257",
+            "0.068313257"
+          ],
+          [
+            "0.182822741",
+            "0.180876628",
+            "0.067890823"
+          ],
+          [
+            "0.534945797",
+            "0.173769058",
+            "0.066066540"
+          ],
+          [
+            "0.114228514",
+            "0.065949863",
+            "0.065949863"
+          ],
+          [
+            "0.315889117",
+            "0.172001416",
+            "0.065471202"
+          ],
+          [
+            "0.609035088",
+            "0.065294979",
+            "0.065294979"
+          ],
+          [
+            "0.244239055",
+            "0.064074207",
+            "0.064074207"
+          ],
+          [
+            "0.484801523",
+            "0.059093282",
+            "0.059093282"
+          ],
+          [
+            "0.366953386",
+            "0.058755339",
+            "0.058755339"
+          ],
+          [
+            "0.425322321",
+            "0.146749416",
+            "0.046837700"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p93-n24-v1",
+      "name": "n = 24",
+      "parameters": {
+        "n": 24
+      },
+      "objective": "maximize",
+      "scoreStored": "1655464867",
+      "scoreDisplay": "1.655464867",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "1.655",
+        "kind": "best",
+        "range": {
+          "lower": "1.655",
+          "upper": "1.656",
+          "upperInclusive": false
+        },
+        "truncated": true,
+        "certificateDisplay": "1.655464862",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Triangles); Found by David W. Cantrell in July 2011. Source expression: Σ r = 1.655+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRtri/"
+      },
+      "holder": "zzzcy",
+      "method": "ai",
+      "recordedAt": "2026-10-04T05:05:49.925Z",
+      "answer": {
+        "circles": [
+          [
+            "0.500000000",
+            "0.400564895",
+            "0.092573946"
+          ],
+          [
+            "0.500000000",
+            "0.699571033",
+            "0.083227185"
+          ],
+          [
+            "0.583227185",
+            "0.555417320",
+            "0.083227185"
+          ],
+          [
+            "0.416772815",
+            "0.555417320",
+            "0.083227185"
+          ],
+          [
+            "0.668626829",
+            "0.419687740",
+            "0.077133714"
+          ],
+          [
+            "0.331373171",
+            "0.419687740",
+            "0.077133714"
+          ],
+          [
+            "0.251501208",
+            "0.296869687",
+            "0.069371591"
+          ],
+          [
+            "0.748498792",
+            "0.296869687",
+            "0.069371591"
+          ],
+          [
+            "0.387766507",
+            "0.286752124",
+            "0.067268801"
+          ],
+          [
+            "0.612233493",
+            "0.286752124",
+            "0.067268801"
+          ],
+          [
+            "0.181149228",
+            "0.180447481",
+            "0.066656092"
+          ],
+          [
+            "0.818850772",
+            "0.180447480",
+            "0.066656092"
+          ],
+          [
+            "0.885762547",
+            "0.065955024",
+            "0.065955024"
+          ],
+          [
+            "0.114237453",
+            "0.065955024",
+            "0.065955024"
+          ],
+          [
+            "0.245453313",
+            "0.065262662",
+            "0.065262662"
+          ],
+          [
+            "0.754546688",
+            "0.065262662",
+            "0.065262661"
+          ],
+          [
+            "0.313174621",
+            "0.177021977",
+            "0.065413732"
+          ],
+          [
+            "0.686825379",
+            "0.177021976",
+            "0.065413732"
+          ],
+          [
+            "0.625815568",
+            "0.063480790",
+            "0.063480790"
+          ],
+          [
+            "0.374184434",
+            "0.063480790",
+            "0.063480790"
+          ],
+          [
+            "0.500000001",
+            "0.062339949",
+            "0.062339949"
+          ],
+          [
+            "0.560819934",
+            "0.169434732",
+            "0.060819934"
+          ],
+          [
+            "0.439180066",
+            "0.169434732",
+            "0.060819934"
+          ],
+          [
+            "0.500000000",
+            "0.259846211",
+            "0.048144738"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p93-n25-v1",
+      "name": "n = 25",
+      "parameters": {
+        "n": 25
+      },
+      "objective": "maximize",
+      "scoreStored": "1690709146",
+      "scoreDisplay": "1.690709146",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "1.690",
+        "kind": "best",
+        "range": {
+          "lower": "1.690",
+          "upper": "1.691",
+          "upperInclusive": false
+        },
+        "truncated": true,
+        "certificateDisplay": "1.690709141",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Triangles); Found by David W. Cantrell in July 2011. Source expression: Σ r = 1.690+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRtri/"
+      },
+      "holder": "zzzcy",
+      "method": "ai",
+      "recordedAt": "2026-10-04T05:05:54.477Z",
+      "answer": {
+        "circles": [
+          [
+            "0.563574637",
+            "0.349430614",
+            "0.085567247"
+          ],
+          [
+            "0.642685121",
+            "0.207750055",
+            "0.076703666"
+          ],
+          [
+            "0.490118297",
+            "0.205665035",
+            "0.075877404"
+          ],
+          [
+            "0.794472824",
+            "0.205790131",
+            "0.075096690"
+          ],
+          [
+            "0.567372901",
+            "0.075493059",
+            "0.075493059"
+          ],
+          [
+            "0.869473120",
+            "0.075359729",
+            "0.075359729"
+          ],
+          [
+            "0.417670067",
+            "0.074215227",
+            "0.074215227"
+          ],
+          [
+            "0.718489763",
+            "0.075623859",
+            "0.075623859"
+          ],
+          [
+            "0.341633800",
+            "0.199943693",
+            "0.072717278"
+          ],
+          [
+            "0.721817017",
+            "0.335199540",
+            "0.073313759"
+          ],
+          [
+            "0.125353319",
+            "0.072372772",
+            "0.072372772"
+          ],
+          [
+            "0.270593129",
+            "0.072867881",
+            "0.072867881"
+          ],
+          [
+            "0.197054770",
+            "0.197545599",
+            "0.071881637"
+          ],
+          [
+            "0.407947179",
+            "0.328037421",
+            "0.071523726"
+          ],
+          [
+            "0.266487102",
+            "0.321383706",
+            "0.070092746"
+          ],
+          [
+            "0.330364606",
+            "0.441067341",
+            "0.065570469"
+          ],
+          [
+            "0.664032406",
+            "0.457682163",
+            "0.062115389"
+          ],
+          [
+            "0.457496048",
+            "0.452065925",
+            "0.062035849"
+          ],
+          [
+            "0.388208664",
+            "0.552476620",
+            "0.059960254"
+          ],
+          [
+            "0.443981133",
+            "0.655179553",
+            "0.056909163"
+          ],
+          [
+            "0.500000000",
+            "0.753509191",
+            "0.056258106"
+          ],
+          [
+            "0.503025353",
+            "0.559993754",
+            "0.055102247"
+          ],
+          [
+            "0.556492269",
+            "0.656946238",
+            "0.055615842"
+          ],
+          [
+            "0.612537811",
+            "0.562237796",
+            "0.054433200"
+          ],
+          [
+            "0.560068625",
+            "0.478952366",
+            "0.044001947"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p93-n26-v1",
+      "name": "n = 26",
+      "parameters": {
+        "n": 26
+      },
+      "objective": "maximize",
+      "scoreStored": "1727377835",
+      "scoreDisplay": "1.727377835",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "1.727",
+        "kind": "best",
+        "range": {
+          "lower": "1.727",
+          "upper": "1.728",
+          "upperInclusive": false
+        },
+        "truncated": true,
+        "certificateDisplay": "1.727377828",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Triangles); Found by David W. Cantrell in July 2011. Source expression: Σ r = 1.727+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRtri/"
+      },
+      "holder": "zzzcy",
+      "method": "ai",
+      "recordedAt": "2026-10-04T05:05:58.218Z",
+      "answer": {
+        "circles": [
+          [
+            "0.500000000",
+            "0.222517724",
+            "0.087282154"
+          ],
+          [
+            "0.422751195",
+            "0.077248805",
+            "0.077248805"
+          ],
+          [
+            "0.577248805",
+            "0.077248805",
+            "0.077248805"
+          ],
+          [
+            "0.271830717",
+            "0.073713082",
+            "0.073713082"
+          ],
+          [
+            "0.728169283",
+            "0.073713082",
+            "0.073713082"
+          ],
+          [
+            "0.340817300",
+            "0.203263865",
+            "0.073060737"
+          ],
+          [
+            "0.659182700",
+            "0.203263865",
+            "0.073060737"
+          ],
+          [
+            "0.874395356",
+            "0.072517875",
+            "0.072517875"
+          ],
+          [
+            "0.125604644",
+            "0.072517875",
+            "0.072517875"
+          ],
+          [
+            "0.803481325",
+            "0.197689275",
+            "0.071345527"
+          ],
+          [
+            "0.196518675",
+            "0.197689275",
+            "0.071345527"
+          ],
+          [
+            "0.262400878",
+            "0.319757683",
+            "0.067366984"
+          ],
+          [
+            "0.737599122",
+            "0.319757684",
+            "0.067366984"
+          ],
+          [
+            "0.393381857",
+            "0.329846450",
+            "0.064001962"
+          ],
+          [
+            "0.606618143",
+            "0.329846450",
+            "0.064001962"
+          ],
+          [
+            "0.677269815",
+            "0.434481074",
+            "0.062252001"
+          ],
+          [
+            "0.322730184",
+            "0.434481073",
+            "0.062252001"
+          ],
+          [
+            "0.618542178",
+            "0.541340522",
+            "0.059681903"
+          ],
+          [
+            "0.381457821",
+            "0.541340522",
+            "0.059681902"
+          ],
+          [
+            "0.500000000",
+            "0.747355905",
+            "0.059334749"
+          ],
+          [
+            "0.559334749",
+            "0.644585105",
+            "0.059334749"
+          ],
+          [
+            "0.440665251",
+            "0.644585105",
+            "0.059334749"
+          ],
+          [
+            "0.499999999",
+            "0.542357502",
+            "0.058864638"
+          ],
+          [
+            "0.442398725",
+            "0.441132989",
+            "0.057601274"
+          ],
+          [
+            "0.557601273",
+            "0.441132988",
+            "0.057601274"
+          ],
+          [
+            "0.500000000",
+            "0.355446375",
+            "0.045646497"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p93-n27-v1",
+      "name": "n = 27",
+      "parameters": {
+        "n": 27
+      },
+      "objective": "maximize",
+      "scoreStored": "1764216901",
+      "scoreDisplay": "1.764216901",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "1.76421",
+        "kind": "best",
+        "range": {
+          "lower": "1.76421",
+          "upper": "1.76422",
+          "upperInclusive": false
+        },
+        "truncated": true,
+        "certificateDisplay": "1.764216897",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Triangles); Found by Haowei Lin in July 2026. Source expression: Σ r = 1.76421+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRtri/"
+      },
+      "holder": "zzzcy",
+      "method": "ai",
+      "recordedAt": "2026-10-04T05:05:37.929Z",
+      "answer": {
+        "circles": [
+          [
+            "0.435047020",
+            "0.091025845",
+            "0.091025845"
+          ],
+          [
+            "0.270195248",
+            "0.074638435",
+            "0.074638435"
+          ],
+          [
+            "0.598929076",
+            "0.073762919",
+            "0.073762919"
+          ],
+          [
+            "0.123998193",
+            "0.071590390",
+            "0.071590390"
+          ],
+          [
+            "0.880873054",
+            "0.068777974",
+            "0.068777974"
+          ],
+          [
+            "0.742366858",
+            "0.069731504",
+            "0.069731504"
+          ],
+          [
+            "0.813378217",
+            "0.187558747",
+            "0.067839831"
+          ],
+          [
+            "0.191609525",
+            "0.194500423",
+            "0.068688504"
+          ],
+          [
+            "0.677919987",
+            "0.191074526",
+            "0.067664013"
+          ],
+          [
+            "0.325832905",
+            "0.203635124",
+            "0.065845352"
+          ],
+          [
+            "0.748459347",
+            "0.304265653",
+            "0.065707769"
+          ],
+          [
+            "0.545197967",
+            "0.202275289",
+            "0.065529799"
+          ],
+          [
+            "0.618912683",
+            "0.308679496",
+            "0.063914066"
+          ],
+          [
+            "0.685683724",
+            "0.417276214",
+            "0.063567772"
+          ],
+          [
+            "0.500000000",
+            "0.742224117",
+            "0.061900643"
+          ],
+          [
+            "0.253837562",
+            "0.311680394",
+            "0.063989580"
+          ],
+          [
+            "0.623716658",
+            "0.526945942",
+            "0.062397962"
+          ],
+          [
+            "0.560163870",
+            "0.420027854",
+            "0.061982239"
+          ],
+          [
+            "0.314630187",
+            "0.421641127",
+            "0.061657171"
+          ],
+          [
+            "0.499538377",
+            "0.527929123",
+            "0.061784211"
+          ],
+          [
+            "0.561864847",
+            "0.634875572",
+            "0.061998386"
+          ],
+          [
+            "0.376177976",
+            "0.528405152",
+            "0.061577107"
+          ],
+          [
+            "0.438063666",
+            "0.635142363",
+            "0.061803081"
+          ],
+          [
+            "0.377075530",
+            "0.317925201",
+            "0.059406507"
+          ],
+          [
+            "0.437243264",
+            "0.422171209",
+            "0.060957051"
+          ],
+          [
+            "0.495881368",
+            "0.317061806",
+            "0.059402468"
+          ],
+          [
+            "0.435839876",
+            "0.229125738",
+            "0.047076322"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p93-n28-v1",
+      "name": "n = 28",
+      "parameters": {
+        "n": 28
+      },
+      "objective": "maximize",
+      "scoreStored": "1810645101",
+      "scoreDisplay": "1.810645101",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "1.81064",
+        "kind": "best",
+        "range": {
+          "lower": "1.81064",
+          "upper": "1.81065",
+          "upperInclusive": false
+        },
+        "comparisonUncertain": true,
+        "truncated": true,
+        "certificateDisplay": "1.810645088",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Triangles); Trivial. Source expression: Σ r = (168−28√3)/66 = 1.81064+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRtri/"
+      },
+      "holder": "zzzcy",
+      "method": "ai",
+      "recordedAt": "2026-10-04T11:09:41.633Z",
+      "answer": {
+        "circles": [
+          [
+            "0.112004619",
+            "0.064665897",
+            "0.064665896"
+          ],
+          [
+            "0.241336412",
+            "0.064665897",
+            "0.064665897"
+          ],
+          [
+            "0.370668206",
+            "0.064665897",
+            "0.064665897"
+          ],
+          [
+            "0.500000000",
+            "0.064665897",
+            "0.064665897"
+          ],
+          [
+            "0.629331794",
+            "0.064665897",
+            "0.064665897"
+          ],
+          [
+            "0.758663588",
+            "0.064665897",
+            "0.064665897"
+          ],
+          [
+            "0.887995381",
+            "0.064665897",
+            "0.064665896"
+          ],
+          [
+            "0.176670516",
+            "0.176670516",
+            "0.064665896"
+          ],
+          [
+            "0.306002309",
+            "0.176670517",
+            "0.064665897"
+          ],
+          [
+            "0.435334103",
+            "0.176670517",
+            "0.064665897"
+          ],
+          [
+            "0.564665897",
+            "0.176670516",
+            "0.064665896"
+          ],
+          [
+            "0.693997691",
+            "0.176670516",
+            "0.064665896"
+          ],
+          [
+            "0.823329485",
+            "0.176670516",
+            "0.064665896"
+          ],
+          [
+            "0.241336412",
+            "0.288675135",
+            "0.064665896"
+          ],
+          [
+            "0.370668206",
+            "0.288675135",
+            "0.064665896"
+          ],
+          [
+            "0.500000000",
+            "0.288675135",
+            "0.064665896"
+          ],
+          [
+            "0.629331793",
+            "0.288675135",
+            "0.064665897"
+          ],
+          [
+            "0.758663587",
+            "0.288675135",
+            "0.064665897"
+          ],
+          [
+            "0.306002310",
+            "0.400679754",
+            "0.064665897"
+          ],
+          [
+            "0.435334104",
+            "0.400679754",
+            "0.064665897"
+          ],
+          [
+            "0.564665897",
+            "0.400679754",
+            "0.064665896"
+          ],
+          [
+            "0.693997690",
+            "0.400679753",
+            "0.064665896"
+          ],
+          [
+            "0.370668207",
+            "0.512684374",
+            "0.064665896"
+          ],
+          [
+            "0.500000000",
+            "0.512684373",
+            "0.064665896"
+          ],
+          [
+            "0.629331793",
+            "0.512684373",
+            "0.064665897"
+          ],
+          [
+            "0.435334104",
+            "0.624688992",
+            "0.064665897"
+          ],
+          [
+            "0.564665897",
+            "0.624688992",
+            "0.064665896"
+          ],
+          [
+            "0.500000000",
+            "0.736693611",
+            "0.064665896"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p93-n29-v1",
+      "name": "n = 29",
+      "parameters": {
+        "n": 29
+      },
+      "objective": "maximize",
+      "scoreStored": "1836711650",
+      "scoreDisplay": "1.83671165",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "1.83673",
+        "kind": "best",
+        "range": {
+          "lower": "1.83673",
+          "upper": "1.83674",
+          "upperInclusive": false
+        },
+        "truncated": true,
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Triangles); Found by Jonathan Viquerat in June 2026. Source expression: Σ r = 1.83673+. The published value is cited without a reconstruction of the figure; the starter is the site's triangular array of equal circles.",
+        "url": "https://erich-friedman.github.io/packing/cirRtri/"
+      },
+      "holder": "zzzcy",
+      "method": "ai",
+      "recordedAt": "2026-10-04T09:20:29.213Z",
+      "answer": {
+        "circles": [
+          [
+            "0.500000000",
+            "0.740343825",
+            "0.062840789"
+          ],
+          [
+            "0.437016863",
+            "0.632033290",
+            "0.062451060"
+          ],
+          [
+            "0.562696779",
+            "0.630964600",
+            "0.063233398"
+          ],
+          [
+            "0.374001455",
+            "0.525997840",
+            "0.060895841"
+          ],
+          [
+            "0.498141604",
+            "0.522132330",
+            "0.063304475"
+          ],
+          [
+            "0.625589817",
+            "0.520180081",
+            "0.064158689"
+          ],
+          [
+            "0.311214454",
+            "0.427914919",
+            "0.055562163"
+          ],
+          [
+            "0.430200634",
+            "0.414226543",
+            "0.064208795"
+          ],
+          [
+            "0.559290707",
+            "0.409367906",
+            "0.064972678"
+          ],
+          [
+            "0.689388949",
+            "0.407722176",
+            "0.065135972"
+          ],
+          [
+            "0.249838101",
+            "0.358418190",
+            "0.037157046"
+          ],
+          [
+            "0.347190784",
+            "0.302063893",
+            "0.075330071"
+          ],
+          [
+            "0.489645640",
+            "0.297016080",
+            "0.067214189"
+          ],
+          [
+            "0.622737986",
+            "0.294909411",
+            "0.065894828"
+          ],
+          [
+            "0.754321293",
+            "0.294146623",
+            "0.065690689"
+          ],
+          [
+            "0.220269898",
+            "0.270702726",
+            "0.055407964"
+          ],
+          [
+            "0.422099768",
+            "0.180817466",
+            "0.067190285"
+          ],
+          [
+            "0.555687980",
+            "0.180866997",
+            "0.066397936"
+          ],
+          [
+            "0.688072182",
+            "0.180347926",
+            "0.065987282"
+          ],
+          [
+            "0.819941715",
+            "0.180105149",
+            "0.065882474"
+          ],
+          [
+            "0.291059415",
+            "0.174540454",
+            "0.064000319"
+          ],
+          [
+            "0.166768759",
+            "0.167918765",
+            "0.060466599"
+          ],
+          [
+            "0.489724277",
+            "0.066033210",
+            "0.066033210"
+          ],
+          [
+            "0.621841362",
+            "0.066083884",
+            "0.066083883"
+          ],
+          [
+            "0.753901450",
+            "0.065976248",
+            "0.065976248"
+          ],
+          [
+            "0.885807031",
+            "0.065929342",
+            "0.065929341"
+          ],
+          [
+            "0.358805869",
+            "0.064890188",
+            "0.064890187"
+          ],
+          [
+            "0.106726537",
+            "0.061618595",
+            "0.061618594"
+          ],
+          [
+            "0.231136200",
+            "0.062796646",
+            "0.062796645"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p93-n30-v1",
+      "name": "n = 30",
+      "parameters": {
+        "n": 30
+      },
+      "objective": "maximize",
+      "scoreStored": "1865805817",
+      "scoreDisplay": "1.865805817",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "1.86580",
+        "kind": "best",
+        "range": {
+          "lower": "1.86580",
+          "upper": "1.86581",
+          "upperInclusive": false
+        },
+        "truncated": true,
+        "certificateDisplay": "1.865805809",
+        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Triangles); Found by Haowei Lin in July 2026. Source expression: Σ r = 1.86580+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "url": "https://erich-friedman.github.io/packing/cirRtri/"
+      },
+      "holder": "zzzcy",
+      "method": "ai",
+      "recordedAt": "2026-10-04T05:01:52.925Z",
+      "answer": {
+        "circles": [
+          [
+            "0.500000000",
+            "0.247553888",
+            "0.078098085"
+          ],
+          [
+            "0.431188824",
+            "0.377351243",
+            "0.068811176"
+          ],
+          [
+            "0.568811176",
+            "0.377351243",
+            "0.068811176"
+          ],
+          [
+            "0.500000000",
+            "0.495617434",
+            "0.068016708"
+          ],
+          [
+            "0.364466259",
+            "0.496237180",
+            "0.067518449"
+          ],
+          [
+            "0.635533741",
+            "0.496237180",
+            "0.067518449"
+          ],
+          [
+            "0.432271526",
+            "0.613259298",
+            "0.067728473"
+          ],
+          [
+            "0.567728474",
+            "0.613259298",
+            "0.067728473"
+          ],
+          [
+            "0.296406962",
+            "0.381332948",
+            "0.066029484"
+          ],
+          [
+            "0.500000000",
+            "0.730568455",
+            "0.067728474"
+          ],
+          [
+            "0.703593039",
+            "0.381332946",
+            "0.066029485"
+          ],
+          [
+            "0.229345262",
+            "0.270905511",
+            "0.063166067"
+          ],
+          [
+            "0.770654739",
+            "0.270905509",
+            "0.063166066"
+          ],
+          [
+            "0.357685950",
+            "0.265173614",
+            "0.065302555"
+          ],
+          [
+            "0.642314050",
+            "0.265173614",
+            "0.065302555"
+          ],
+          [
+            "0.165362450",
+            "0.164603015",
+            "0.060906575"
+          ],
+          [
+            "0.834637550",
+            "0.164603015",
+            "0.060906575"
+          ],
+          [
+            "0.286676749",
+            "0.161387877",
+            "0.060450321"
+          ],
+          [
+            "0.713323251",
+            "0.161387877",
+            "0.060450321"
+          ],
+          [
+            "0.104179408",
+            "0.060148009",
+            "0.060148009"
+          ],
+          [
+            "0.223725679",
+            "0.059400596",
+            "0.059400596"
+          ],
+          [
+            "0.895820591",
+            "0.060148010",
+            "0.060148009"
+          ],
+          [
+            "0.776274321",
+            "0.059400596",
+            "0.059400596"
+          ],
+          [
+            "0.339968626",
+            "0.056869894",
+            "0.056869894"
+          ],
+          [
+            "0.660031374",
+            "0.056869894",
+            "0.056869894"
+          ],
+          [
+            "0.404241659",
+            "0.151506622",
+            "0.057529114"
+          ],
+          [
+            "0.595758341",
+            "0.151506622",
+            "0.057529114"
+          ],
+          [
+            "0.448356298",
+            "0.051643702",
+            "0.051643702"
+          ],
+          [
+            "0.551643702",
+            "0.051643702",
+            "0.051643702"
+          ],
+          [
+            "0.500000000",
+            "0.128502083",
+            "0.040953720"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p93-n31-v1",
+      "name": "n = 31",
+      "parameters": {
+        "n": 31
+      },
+      "objective": "maximize",
+      "scoreStored": "1894825443",
+      "scoreDisplay": "1.894825443",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": "zzzcy",
+      "method": "ai",
+      "recordedAt": "2026-10-04T09:20:41.033Z",
+      "answer": {
+        "circles": [
+          [
+            "0.900642379",
+            "0.057364149",
+            "0.057364149"
+          ],
+          [
+            "0.103413935",
+            "0.059706063",
+            "0.059706063"
+          ],
+          [
+            "0.500000000",
+            "0.726135859",
+            "0.069944772"
+          ],
+          [
+            "0.565551237",
+            "0.227164349",
+            "0.041928187"
+          ],
+          [
+            "0.639866435",
+            "0.481409406",
+            "0.071180113"
+          ],
+          [
+            "0.712694853",
+            "0.364484071",
+            "0.066571520"
+          ],
+          [
+            "0.674324797",
+            "0.055364306",
+            "0.055364306"
+          ],
+          [
+            "0.339803287",
+            "0.058077536",
+            "0.058077535"
+          ],
+          [
+            "0.564370772",
+            "0.054592427",
+            "0.054592427"
+          ],
+          [
+            "0.453824025",
+            "0.055962812",
+            "0.055962812"
+          ],
+          [
+            "0.225603526",
+            "0.267862041",
+            "0.061447364"
+          ],
+          [
+            "0.359691601",
+            "0.487776596",
+            "0.067613765"
+          ],
+          [
+            "0.290869593",
+            "0.375292271",
+            "0.064254321"
+          ],
+          [
+            "0.781530968",
+            "0.258073335",
+            "0.060163064"
+          ],
+          [
+            "0.222425755",
+            "0.059306427",
+            "0.059306427"
+          ],
+          [
+            "0.786479771",
+            "0.056799854",
+            "0.056799853"
+          ],
+          [
+            "0.842499019",
+            "0.156929524",
+            "0.057935088"
+          ],
+          [
+            "0.163669930",
+            "0.163266856",
+            "0.060108889"
+          ],
+          [
+            "0.429899109",
+            "0.605572392",
+            "0.069517353"
+          ],
+          [
+            "0.569786857",
+            "0.604400416",
+            "0.070375302"
+          ],
+          [
+            "0.467921772",
+            "0.251924344",
+            "0.058792067"
+          ],
+          [
+            "0.421668816",
+            "0.368598897",
+            "0.066716049"
+          ],
+          [
+            "0.400790082",
+            "0.156603167",
+            "0.057796056"
+          ],
+          [
+            "0.348337208",
+            "0.263593747",
+            "0.061360514"
+          ],
+          [
+            "0.663286478",
+            "0.249720317",
+            "0.058376095"
+          ],
+          [
+            "0.617936823",
+            "0.147950040",
+            "0.053041051"
+          ],
+          [
+            "0.511601392",
+            "0.148696203",
+            "0.053296997"
+          ],
+          [
+            "0.497957633",
+            "0.482937579",
+            "0.070736916"
+          ],
+          [
+            "0.727701281",
+            "0.154124287",
+            "0.056896919"
+          ],
+          [
+            "0.283429458",
+            "0.161446638",
+            "0.059664470"
+          ],
+          [
+            "0.567006875",
+            "0.349018841",
+            "0.079934999"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p93-n32-v1",
+      "name": "n = 32",
+      "parameters": {
+        "n": 32
+      },
+      "objective": "maximize",
+      "scoreStored": "1924694750",
+      "scoreDisplay": "1.92469475",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": "zzzcy",
+      "method": "ai",
+      "recordedAt": "2026-10-04T09:20:52.966Z",
+      "answer": {
+        "circles": [
+          [
+            "0.500000000",
+            "0.768086403",
+            "0.048969500"
+          ],
+          [
+            "0.113262783",
+            "0.065392298",
+            "0.065392298"
+          ],
+          [
+            "0.889784431",
+            "0.063632988",
+            "0.063632988"
+          ],
+          [
+            "0.447676495",
+            "0.529129766",
+            "0.038290806"
+          ],
+          [
+            "0.306937280",
+            "0.404192831",
+            "0.063719066"
+          ],
+          [
+            "0.597305529",
+            "0.593071693",
+            "0.052207795"
+          ],
+          [
+            "0.763790102",
+            "0.283467618",
+            "0.062829963"
+          ],
+          [
+            "0.647658425",
+            "0.496024737",
+            "0.057124386"
+          ],
+          [
+            "0.703280624",
+            "0.391662056",
+            "0.061135489"
+          ],
+          [
+            "0.243762784",
+            "0.291818903",
+            "0.065195311"
+          ],
+          [
+            "0.374795171",
+            "0.065324626",
+            "0.065324626"
+          ],
+          [
+            "0.634248348",
+            "0.064289311",
+            "0.064289311"
+          ],
+          [
+            "0.505039875",
+            "0.064920704",
+            "0.064920704"
+          ],
+          [
+            "0.357221092",
+            "0.510665204",
+            "0.054029938"
+          ],
+          [
+            "0.402040744",
+            "0.601619519",
+            "0.047367737"
+          ],
+          [
+            "0.450825459",
+            "0.684038397",
+            "0.048407101"
+          ],
+          [
+            "0.548759988",
+            "0.682491335",
+            "0.049539646"
+          ],
+          [
+            "0.178633986",
+            "0.178649427",
+            "0.065376855"
+          ],
+          [
+            "0.826388988",
+            "0.173784820",
+            "0.063459136"
+          ],
+          [
+            "0.244062826",
+            "0.065407745",
+            "0.065407745"
+          ],
+          [
+            "0.762344157",
+            "0.063807404",
+            "0.063807404"
+          ],
+          [
+            "0.508222805",
+            "0.291241933",
+            "0.066023343"
+          ],
+          [
+            "0.579988522",
+            "0.397621961",
+            "0.062300577"
+          ],
+          [
+            "0.375582770",
+            "0.293379047",
+            "0.066633907"
+          ],
+          [
+            "0.570822715",
+            "0.176544615",
+            "0.064645029"
+          ],
+          [
+            "0.440673880",
+            "0.178370751",
+            "0.065516616"
+          ],
+          [
+            "0.637558276",
+            "0.285852158",
+            "0.063424382"
+          ],
+          [
+            "0.536945303",
+            "0.505673102",
+            "0.054008355"
+          ],
+          [
+            "0.699192992",
+            "0.174623355",
+            "0.063739623"
+          ],
+          [
+            "0.309584385",
+            "0.178823148",
+            "0.065573659"
+          ],
+          [
+            "0.497350759",
+            "0.599643211",
+            "0.047962764"
+          ],
+          [
+            "0.444550812",
+            "0.416443611",
+            "0.074438690"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p93-n33-v1",
+      "name": "n = 33",
+      "parameters": {
+        "n": 33
+      },
+      "objective": "maximize",
+      "scoreStored": "1956503782",
+      "scoreDisplay": "1.956503782",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": "zzzcy",
+      "method": "ai",
+      "recordedAt": "2026-10-04T09:21:04.920Z",
+      "answer": {
+        "circles": [
+          [
+            "0.500000000",
+            "0.762812917",
+            "0.051606243"
+          ],
+          [
+            "0.110818831",
+            "0.063981281",
+            "0.063981281"
+          ],
+          [
+            "0.889181169",
+            "0.063981281",
+            "0.063981281"
+          ],
+          [
+            "0.500000000",
+            "0.421985235",
+            "0.039680745"
+          ],
+          [
+            "0.396898692",
+            "0.583629932",
+            "0.051909384"
+          ],
+          [
+            "0.603101308",
+            "0.583629932",
+            "0.051909384"
+          ],
+          [
+            "0.236060878",
+            "0.284353878",
+            "0.062257778"
+          ],
+          [
+            "0.763939122",
+            "0.284353878",
+            "0.062257778"
+          ],
+          [
+            "0.345822732",
+            "0.490674752",
+            "0.054153895"
+          ],
+          [
+            "0.654177267",
+            "0.490674751",
+            "0.054153895"
+          ],
+          [
+            "0.293357766",
+            "0.390818743",
+            "0.058645906"
+          ],
+          [
+            "0.706642235",
+            "0.390818743",
+            "0.058645905"
+          ],
+          [
+            "0.368783931",
+            "0.065295910",
+            "0.065295910"
+          ],
+          [
+            "0.631216069",
+            "0.065295910",
+            "0.065295910"
+          ],
+          [
+            "0.500000000",
+            "0.065921651",
+            "0.065921651"
+          ],
+          [
+            "0.174305042",
+            "0.174667081",
+            "0.063619053"
+          ],
+          [
+            "0.825694958",
+            "0.174667082",
+            "0.063619052"
+          ],
+          [
+            "0.448393757",
+            "0.673428282",
+            "0.051606243"
+          ],
+          [
+            "0.551606244",
+            "0.673428281",
+            "0.051606243"
+          ],
+          [
+            "0.760854452",
+            "0.064345953",
+            "0.064345953"
+          ],
+          [
+            "0.239145547",
+            "0.064345952",
+            "0.064345952"
+          ],
+          [
+            "0.638258697",
+            "0.289572154",
+            "0.063530932"
+          ],
+          [
+            "0.361741303",
+            "0.289572154",
+            "0.063530932"
+          ],
+          [
+            "0.433212226",
+            "0.180600266",
+            "0.066787774"
+          ],
+          [
+            "0.566787774",
+            "0.180600266",
+            "0.066787774"
+          ],
+          [
+            "0.592690516",
+            "0.399699125",
+            "0.055651318"
+          ],
+          [
+            "0.407309485",
+            "0.399699125",
+            "0.055651318"
+          ],
+          [
+            "0.550092666",
+            "0.496483491",
+            "0.050092666"
+          ],
+          [
+            "0.449907334",
+            "0.496483491",
+            "0.050092666"
+          ],
+          [
+            "0.500000000",
+            "0.584517960",
+            "0.051195748"
+          ],
+          [
+            "0.697799458",
+            "0.176466629",
+            "0.064289105"
+          ],
+          [
+            "0.302200542",
+            "0.176466629",
+            "0.064289105"
+          ],
+          [
+            "0.500000000",
+            "0.306539487",
+            "0.075765002"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p93-n34-v1",
+      "name": "n = 34",
+      "parameters": {
+        "n": 34
+      },
+      "objective": "maximize",
+      "scoreStored": "1988375240",
+      "scoreDisplay": "1.98837524",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": "zzzcy",
+      "method": "ai",
+      "recordedAt": "2026-10-04T09:21:16.790Z",
+      "answer": {
+        "circles": [
+          [
+            "0.906932541",
+            "0.053732522",
+            "0.053732522"
+          ],
+          [
+            "0.500000000",
+            "0.737613536",
+            "0.064205933"
+          ],
+          [
+            "0.107201793",
+            "0.061892984",
+            "0.061892984"
+          ],
+          [
+            "0.549936649",
+            "0.324722302",
+            "0.040564618"
+          ],
+          [
+            "0.372051246",
+            "0.508032949",
+            "0.068189356"
+          ],
+          [
+            "0.303730485",
+            "0.390417227",
+            "0.067829702"
+          ],
+          [
+            "0.629000977",
+            "0.522971420",
+            "0.059808868"
+          ],
+          [
+            "0.351695621",
+            "0.059845173",
+            "0.059845172"
+          ],
+          [
+            "0.691326005",
+            "0.054217124",
+            "0.054217124"
+          ],
+          [
+            "0.800006388",
+            "0.239582149",
+            "0.053408474"
+          ],
+          [
+            "0.690357851",
+            "0.425380030",
+            "0.055467952"
+          ],
+          [
+            "0.746559984",
+            "0.332098501",
+            "0.053436241"
+          ],
+          [
+            "0.468982386",
+            "0.057465725",
+            "0.057465725"
+          ],
+          [
+            "0.581771405",
+            "0.055343262",
+            "0.055343262"
+          ],
+          [
+            "0.234579725",
+            "0.278003131",
+            "0.064150435"
+          ],
+          [
+            "0.230476965",
+            "0.061383241",
+            "0.061383241"
+          ],
+          [
+            "0.853331302",
+            "0.146764772",
+            "0.053636432"
+          ],
+          [
+            "0.799371247",
+            "0.053828815",
+            "0.053828815"
+          ],
+          [
+            "0.564568135",
+            "0.627767963",
+            "0.063211075"
+          ],
+          [
+            "0.169797420",
+            "0.169282271",
+            "0.062407743"
+          ],
+          [
+            "0.436166993",
+            "0.625024654",
+            "0.065219369"
+          ],
+          [
+            "0.482166319",
+            "0.254986359",
+            "0.056676933"
+          ],
+          [
+            "0.589466968",
+            "0.241629698",
+            "0.051451831"
+          ],
+          [
+            "0.362681642",
+            "0.272421060",
+            "0.064073043"
+          ],
+          [
+            "0.693751060",
+            "0.239862972",
+            "0.052847225"
+          ],
+          [
+            "0.638628828",
+            "0.148536460",
+            "0.053825134"
+          ],
+          [
+            "0.414800441",
+            "0.160746710",
+            "0.059164652"
+          ],
+          [
+            "0.529303914",
+            "0.153089676",
+            "0.055594554"
+          ],
+          [
+            "0.578292373",
+            "0.417914398",
+            "0.056845923"
+          ],
+          [
+            "0.641739073",
+            "0.330210010",
+            "0.051401679"
+          ],
+          [
+            "0.504770290",
+            "0.514698579",
+            "0.064696968"
+          ],
+          [
+            "0.746070136",
+            "0.147131502",
+            "0.053625359"
+          ],
+          [
+            "0.293988677",
+            "0.166937792",
+            "0.061805641"
+          ],
+          [
+            "0.448560428",
+            "0.384495429",
+            "0.077121255"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p93-n35-v1",
+      "name": "n = 35",
+      "parameters": {
+        "n": 35
+      },
+      "objective": "maximize",
+      "scoreStored": "2020699891",
+      "scoreDisplay": "2.020699891",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": "zzzcy",
+      "method": "ai",
+      "recordedAt": "2026-10-04T09:21:28.616Z",
+      "answer": {
+        "circles": [
+          [
+            "0.500000000",
+            "0.755404205",
+            "0.055310599"
+          ],
+          [
+            "0.105563318",
+            "0.060947010",
+            "0.060947010"
+          ],
+          [
+            "0.894436682",
+            "0.060947010",
+            "0.060947010"
+          ],
+          [
+            "0.500000000",
+            "0.202178073",
+            "0.041656782"
+          ],
+          [
+            "0.355256791",
+            "0.065257999",
+            "0.065257999"
+          ],
+          [
+            "0.644743209",
+            "0.065257999",
+            "0.065257999"
+          ],
+          [
+            "0.389391410",
+            "0.563755624",
+            "0.055345041"
+          ],
+          [
+            "0.610608590",
+            "0.563755623",
+            "0.055345041"
+          ],
+          [
+            "0.223035536",
+            "0.269691138",
+            "0.058308871"
+          ],
+          [
+            "0.776964464",
+            "0.269691138",
+            "0.058308871"
+          ],
+          [
+            "0.334137499",
+            "0.467555858",
+            "0.055593633"
+          ],
+          [
+            "0.665862501",
+            "0.467555858",
+            "0.055593633"
+          ],
+          [
+            "0.278881555",
+            "0.370014842",
+            "0.056511089"
+          ],
+          [
+            "0.721118446",
+            "0.370014842",
+            "0.056511089"
+          ],
+          [
+            "0.165403003",
+            "0.166211640",
+            "0.060137382"
+          ],
+          [
+            "0.834596997",
+            "0.166211640",
+            "0.060137382"
+          ],
+          [
+            "0.444689400",
+            "0.659603436",
+            "0.055310599"
+          ],
+          [
+            "0.555310600",
+            "0.659603436",
+            "0.055310599"
+          ],
+          [
+            "0.771722864",
+            "0.061769564",
+            "0.061769564"
+          ],
+          [
+            "0.228277136",
+            "0.061769564",
+            "0.061769564"
+          ],
+          [
+            "0.500000000",
+            "0.373645650",
+            "0.054329830"
+          ],
+          [
+            "0.447261376",
+            "0.280466835",
+            "0.052738624"
+          ],
+          [
+            "0.552738624",
+            "0.280466835",
+            "0.052738624"
+          ],
+          [
+            "0.661983953",
+            "0.273437126",
+            "0.056732644"
+          ],
+          [
+            "0.338016047",
+            "0.273437126",
+            "0.056732644"
+          ],
+          [
+            "0.555135404",
+            "0.468211631",
+            "0.055135404"
+          ],
+          [
+            "0.444864596",
+            "0.468211631",
+            "0.055135404"
+          ],
+          [
+            "0.609475127",
+            "0.372237547",
+            "0.055154352"
+          ],
+          [
+            "0.390524873",
+            "0.372237547",
+            "0.055154352"
+          ],
+          [
+            "0.403071127",
+            "0.178895599",
+            "0.058029124"
+          ],
+          [
+            "0.596928873",
+            "0.178895599",
+            "0.058029124"
+          ],
+          [
+            "0.500000000",
+            "0.563856947",
+            "0.055263595"
+          ],
+          [
+            "0.714529806",
+            "0.169235654",
+            "0.059967884"
+          ],
+          [
+            "0.285470194",
+            "0.169235654",
+            "0.059967884"
+          ],
+          [
+            "0.500000000",
+            "0.080260645",
+            "0.080260645"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p93-n36-v1",
+      "name": "n = 36",
+      "parameters": {
+        "n": 36
+      },
+      "objective": "maximize",
+      "scoreStored": "2061371407",
+      "scoreDisplay": "2.061371407",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": "zzzcy",
+      "method": "ai",
+      "recordedAt": "2026-10-04T09:21:40.557Z",
+      "answer": {
+        "circles": [
+          [
+            "0.099177779",
+            "0.057260317",
+            "0.057260317"
+          ],
+          [
+            "0.213698413",
+            "0.057260317",
+            "0.057260317"
+          ],
+          [
+            "0.328219048",
+            "0.057260317",
+            "0.057260317"
+          ],
+          [
+            "0.442739683",
+            "0.057260317",
+            "0.057260317"
+          ],
+          [
+            "0.557260317",
+            "0.057260317",
+            "0.057260317"
+          ],
+          [
+            "0.671780952",
+            "0.057260317",
+            "0.057260317"
+          ],
+          [
+            "0.786301587",
+            "0.057260317",
+            "0.057260317"
+          ],
+          [
+            "0.900822221",
+            "0.057260317",
+            "0.057260317"
+          ],
+          [
+            "0.156438096",
+            "0.156438096",
+            "0.057260317"
+          ],
+          [
+            "0.270958731",
+            "0.156438096",
+            "0.057260317"
+          ],
+          [
+            "0.385479365",
+            "0.156438096",
+            "0.057260317"
+          ],
+          [
+            "0.500000000",
+            "0.156438096",
+            "0.057260317"
+          ],
+          [
+            "0.614520635",
+            "0.156438096",
+            "0.057260317"
+          ],
+          [
+            "0.729041269",
+            "0.156438096",
+            "0.057260317"
+          ],
+          [
+            "0.843561904",
+            "0.156438096",
+            "0.057260317"
+          ],
+          [
+            "0.213698413",
+            "0.255615875",
+            "0.057260316"
+          ],
+          [
+            "0.328219048",
+            "0.255615875",
+            "0.057260317"
+          ],
+          [
+            "0.442739683",
+            "0.255615875",
+            "0.057260317"
+          ],
+          [
+            "0.557260317",
+            "0.255615875",
+            "0.057260317"
+          ],
+          [
+            "0.671780952",
+            "0.255615875",
+            "0.057260317"
+          ],
+          [
+            "0.786301587",
+            "0.255615875",
+            "0.057260316"
+          ],
+          [
+            "0.270958731",
+            "0.354793654",
+            "0.057260317"
+          ],
+          [
+            "0.385479365",
+            "0.354793654",
+            "0.057260317"
+          ],
+          [
+            "0.500000000",
+            "0.354793654",
+            "0.057260317"
+          ],
+          [
+            "0.614520635",
+            "0.354793654",
+            "0.057260317"
+          ],
+          [
+            "0.729041269",
+            "0.354793654",
+            "0.057260317"
+          ],
+          [
+            "0.328219048",
+            "0.453971433",
+            "0.057260316"
+          ],
+          [
+            "0.442739683",
+            "0.453971433",
+            "0.057260317"
+          ],
+          [
+            "0.557260317",
+            "0.453971433",
+            "0.057260317"
+          ],
+          [
+            "0.671780952",
+            "0.453971433",
+            "0.057260317"
+          ],
+          [
+            "0.385479365",
+            "0.553149211",
+            "0.057260317"
+          ],
+          [
+            "0.500000000",
+            "0.553149211",
+            "0.057260316"
+          ],
+          [
+            "0.614520635",
+            "0.553149211",
+            "0.057260316"
+          ],
+          [
+            "0.442739683",
+            "0.652326990",
+            "0.057260317"
+          ],
+          [
+            "0.557260317",
+            "0.652326990",
+            "0.057260317"
+          ],
+          [
+            "0.500000000",
+            "0.751504769",
+            "0.057260317"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p93-n37-v1",
+      "name": "n = 37",
+      "parameters": {
+        "n": 37
+      },
+      "objective": "maximize",
+      "scoreStored": "2084515871",
+      "scoreDisplay": "2.084515871",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": "zzzcy",
+      "method": "ai",
+      "recordedAt": "2026-10-04T09:21:52.429Z",
+      "answer": {
+        "circles": [
+          [
+            "0.096323296",
+            "0.055612281",
+            "0.055612280"
+          ],
+          [
+            "0.207208639",
+            "0.055273580",
+            "0.055273580"
+          ],
+          [
+            "0.316390607",
+            "0.053916817",
+            "0.053916817"
+          ],
+          [
+            "0.419433172",
+            "0.049232182",
+            "0.049232182"
+          ],
+          [
+            "0.500000000",
+            "0.032961233",
+            "0.032961233"
+          ],
+          [
+            "0.580566828",
+            "0.049232182",
+            "0.049232182"
+          ],
+          [
+            "0.683609393",
+            "0.053916817",
+            "0.053916817"
+          ],
+          [
+            "0.792791361",
+            "0.055273580",
+            "0.055273580"
+          ],
+          [
+            "0.903676704",
+            "0.055612281",
+            "0.055612280"
+          ],
+          [
+            "0.152401346",
+            "0.152059997",
+            "0.055953438"
+          ],
+          [
+            "0.264369336",
+            "0.150768918",
+            "0.056021993"
+          ],
+          [
+            "0.377157665",
+            "0.146522540",
+            "0.056846242"
+          ],
+          [
+            "0.500000000",
+            "0.132694412",
+            "0.066771945"
+          ],
+          [
+            "0.622842335",
+            "0.146522540",
+            "0.056846242"
+          ],
+          [
+            "0.735630664",
+            "0.150768918",
+            "0.056021993"
+          ],
+          [
+            "0.847598654",
+            "0.152059997",
+            "0.055953438"
+          ],
+          [
+            "0.209444597",
+            "0.249264138",
+            "0.056752272"
+          ],
+          [
+            "0.323654605",
+            "0.247546180",
+            "0.057470655"
+          ],
+          [
+            "0.440536452",
+            "0.244047392",
+            "0.059463547"
+          ],
+          [
+            "0.559463548",
+            "0.244047392",
+            "0.059463548"
+          ],
+          [
+            "0.676345395",
+            "0.247546180",
+            "0.057470654"
+          ],
+          [
+            "0.790555403",
+            "0.249264138",
+            "0.056752272"
+          ],
+          [
+            "0.267324235",
+            "0.347861848",
+            "0.057578654"
+          ],
+          [
+            "0.383128991",
+            "0.346791739",
+            "0.058231045"
+          ],
+          [
+            "0.500000000",
+            "0.346091604",
+            "0.058642060"
+          ],
+          [
+            "0.616871009",
+            "0.346791739",
+            "0.058231045"
+          ],
+          [
+            "0.732675765",
+            "0.347861848",
+            "0.057578654"
+          ],
+          [
+            "0.325501543",
+            "0.447750803",
+            "0.058017203"
+          ],
+          [
+            "0.441759153",
+            "0.447430726",
+            "0.058240846"
+          ],
+          [
+            "0.558240847",
+            "0.447430726",
+            "0.058240846"
+          ],
+          [
+            "0.616316088",
+            "0.548283758",
+            "0.058138135"
+          ],
+          [
+            "0.674498457",
+            "0.447750803",
+            "0.058017203"
+          ],
+          [
+            "0.383683912",
+            "0.548283758",
+            "0.058138135"
+          ],
+          [
+            "0.441845035",
+            "0.648988121",
+            "0.058154964"
+          ],
+          [
+            "0.500000000",
+            "0.548234213",
+            "0.058177963"
+          ],
+          [
+            "0.558154965",
+            "0.648988121",
+            "0.058154964"
+          ],
+          [
+            "0.500000000",
+            "0.749715475",
+            "0.058154964"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p93-n38-v1",
+      "name": "n = 38",
+      "parameters": {
+        "n": 38
+      },
+      "objective": "maximize",
+      "scoreStored": "2110458785",
+      "scoreDisplay": "2.110458785",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": "zzzcy",
+      "method": "ai",
+      "recordedAt": "2026-10-04T09:22:04.400Z",
+      "answer": {
+        "circles": [
+          [
+            "0.102702499",
+            "0.059295315",
+            "0.059295315"
+          ],
+          [
+            "0.221235984",
+            "0.059238184",
+            "0.059238183"
+          ],
+          [
+            "0.339482753",
+            "0.059008807",
+            "0.059008807"
+          ],
+          [
+            "0.456843475",
+            "0.058353744",
+            "0.058353743"
+          ],
+          [
+            "0.572330539",
+            "0.057139700",
+            "0.057139700"
+          ],
+          [
+            "0.685252135",
+            "0.055789962",
+            "0.055789962"
+          ],
+          [
+            "0.795939695",
+            "0.054901166",
+            "0.054901166"
+          ],
+          [
+            "0.905436626",
+            "0.054596190",
+            "0.054596189"
+          ],
+          [
+            "0.162075940",
+            "0.162018738",
+            "0.059352512"
+          ],
+          [
+            "0.280788379",
+            "0.161800708",
+            "0.059360126"
+          ],
+          [
+            "0.399392257",
+            "0.160965731",
+            "0.059246691"
+          ],
+          [
+            "0.516863813",
+            "0.158328896",
+            "0.058254455"
+          ],
+          [
+            "0.631304734",
+            "0.154007432",
+            "0.056268029"
+          ],
+          [
+            "0.742243672",
+            "0.150478752",
+            "0.054727013"
+          ],
+          [
+            "0.851254517",
+            "0.149048303",
+            "0.054293215"
+          ],
+          [
+            "0.221613637",
+            "0.264869869",
+            "0.059488104"
+          ],
+          [
+            "0.340931641",
+            "0.264703951",
+            "0.059830013"
+          ],
+          [
+            "0.461470821",
+            "0.263614841",
+            "0.060714085"
+          ],
+          [
+            "0.579850982",
+            "0.255939709",
+            "0.057914621"
+          ],
+          [
+            "0.691290572",
+            "0.246446560",
+            "0.053928581"
+          ],
+          [
+            "0.798397390",
+            "0.242698363",
+            "0.053243800"
+          ],
+          [
+            "0.281074660",
+            "0.367899031",
+            "0.059468279"
+          ],
+          [
+            "0.401261766",
+            "0.369076794",
+            "0.060724597"
+          ],
+          [
+            "0.531055207",
+            "0.373246057",
+            "0.069135789"
+          ],
+          [
+            "0.647114094",
+            "0.341754409",
+            "0.051119726"
+          ],
+          [
+            "0.748638960",
+            "0.333962705",
+            "0.050703693"
+          ],
+          [
+            "0.338931395",
+            "0.470464991",
+            "0.058290702"
+          ],
+          [
+            "0.454882818",
+            "0.474709458",
+            "0.057738379"
+          ],
+          [
+            "0.622557634",
+            "0.425681041",
+            "0.036325681"
+          ],
+          [
+            "0.704571014",
+            "0.419918173",
+            "0.045889920"
+          ],
+          [
+            "0.393864985",
+            "0.570508694",
+            "0.055842735"
+          ],
+          [
+            "0.503108075",
+            "0.574939783",
+            "0.053490184"
+          ],
+          [
+            "0.562611396",
+            "0.489109864",
+            "0.050948409"
+          ],
+          [
+            "0.447020483",
+            "0.666498279",
+            "0.053881954"
+          ],
+          [
+            "0.553459112",
+            "0.668288061",
+            "0.052571721"
+          ],
+          [
+            "0.500000000",
+            "0.759581267",
+            "0.053222068"
+          ],
+          [
+            "0.658810038",
+            "0.499367261",
+            "0.045795544"
+          ],
+          [
+            "0.606826689",
+            "0.580265962",
+            "0.050365094"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p93-n39-v1",
+      "name": "n = 39",
+      "parameters": {
+        "n": 39
+      },
+      "objective": "maximize",
+      "scoreStored": "2136541980",
+      "scoreDisplay": "2.13654198",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": "zzzcy",
+      "method": "ai",
+      "recordedAt": "2026-10-04T09:22:16.540Z",
+      "answer": {
+        "circles": [
+          [
+            "0.091430161",
+            "0.052787228",
+            "0.052787227"
+          ],
+          [
+            "0.196670929",
+            "0.052454068",
+            "0.052454068"
+          ],
+          [
+            "0.300550362",
+            "0.051430407",
+            "0.051430407"
+          ],
+          [
+            "0.401648803",
+            "0.049683132",
+            "0.049683131"
+          ],
+          [
+            "0.500000000",
+            "0.048673250",
+            "0.048673250"
+          ],
+          [
+            "0.598351197",
+            "0.049683132",
+            "0.049683131"
+          ],
+          [
+            "0.699449638",
+            "0.051430407",
+            "0.051430407"
+          ],
+          [
+            "0.803329071",
+            "0.052454068",
+            "0.052454068"
+          ],
+          [
+            "0.908569839",
+            "0.052787228",
+            "0.052787227"
+          ],
+          [
+            "0.144675650",
+            "0.144339790",
+            "0.053122893"
+          ],
+          [
+            "0.250537873",
+            "0.142821616",
+            "0.052750214"
+          ],
+          [
+            "0.354382488",
+            "0.138777888",
+            "0.051173101"
+          ],
+          [
+            "0.452667857",
+            "0.132199916",
+            "0.047332143"
+          ],
+          [
+            "0.547332143",
+            "0.132199916",
+            "0.047332143"
+          ],
+          [
+            "0.645617512",
+            "0.138777888",
+            "0.051173102"
+          ],
+          [
+            "0.749462127",
+            "0.142821616",
+            "0.052750214"
+          ],
+          [
+            "0.855324350",
+            "0.144339790",
+            "0.053122893"
+          ],
+          [
+            "0.199320277",
+            "0.236754841",
+            "0.054239002"
+          ],
+          [
+            "0.307669969",
+            "0.233196736",
+            "0.054169095"
+          ],
+          [
+            "0.413365101",
+            "0.223402784",
+            "0.051978832"
+          ],
+          [
+            "0.500000000",
+            "0.202241729",
+            "0.037202981"
+          ],
+          [
+            "0.586634899",
+            "0.223402784",
+            "0.051978832"
+          ],
+          [
+            "0.692330031",
+            "0.233196736",
+            "0.054169094"
+          ],
+          [
+            "0.800679723",
+            "0.236754841",
+            "0.054239002"
+          ],
+          [
+            "0.256737453",
+            "0.331533118",
+            "0.056574596"
+          ],
+          [
+            "0.371889518",
+            "0.326026306",
+            "0.058709067"
+          ],
+          [
+            "0.500000000",
+            "0.309861877",
+            "0.070417166"
+          ],
+          [
+            "0.628110482",
+            "0.326026306",
+            "0.058709067"
+          ],
+          [
+            "0.743262547",
+            "0.331533118",
+            "0.056574596"
+          ],
+          [
+            "0.317009995",
+            "0.430490703",
+            "0.059293357"
+          ],
+          [
+            "0.438123461",
+            "0.426793132",
+            "0.061876538"
+          ],
+          [
+            "0.561876539",
+            "0.426793132",
+            "0.061876538"
+          ],
+          [
+            "0.621812527",
+            "0.533688830",
+            "0.060675544"
+          ],
+          [
+            "0.682990005",
+            "0.430490703",
+            "0.059293357"
+          ],
+          [
+            "0.378187473",
+            "0.533688830",
+            "0.060675544"
+          ],
+          [
+            "0.439129396",
+            "0.638853216",
+            "0.060870603"
+          ],
+          [
+            "0.500000000",
+            "0.533113192",
+            "0.061138343"
+          ],
+          [
+            "0.560870604",
+            "0.638853216",
+            "0.060870603"
+          ],
+          [
+            "0.500000000",
+            "0.744284195",
+            "0.060870604"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p93-n40-v1",
+      "name": "n = 40",
+      "parameters": {
+        "n": 40
+      },
+      "objective": "maximize",
+      "scoreStored": "2162530930",
+      "scoreDisplay": "2.16253093",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": "zzzcy",
+      "method": "ai",
+      "recordedAt": "2026-10-04T09:22:28.396Z",
+      "answer": {
+        "circles": [
+          [
+            "0.091437280",
+            "0.052791338",
+            "0.052791338"
+          ],
+          [
+            "0.196845309",
+            "0.052616834",
+            "0.052616834"
+          ],
+          [
+            "0.301554603",
+            "0.052093767",
+            "0.052093766"
+          ],
+          [
+            "0.404858252",
+            "0.051213632",
+            "0.051213631"
+          ],
+          [
+            "0.506442065",
+            "0.050373653",
+            "0.050373653"
+          ],
+          [
+            "0.606969962",
+            "0.050154483",
+            "0.050154482"
+          ],
+          [
+            "0.707672179",
+            "0.050548505",
+            "0.050548504"
+          ],
+          [
+            "0.809213182",
+            "0.050993473",
+            "0.050993473"
+          ],
+          [
+            "0.911374476",
+            "0.051167970",
+            "0.051167970"
+          ],
+          [
+            "0.144467859",
+            "0.144292617",
+            "0.052966527"
+          ],
+          [
+            "0.250180237",
+            "0.143486677",
+            "0.052748923"
+          ],
+          [
+            "0.354854066",
+            "0.141442543",
+            "0.051944863"
+          ],
+          [
+            "0.457211557",
+            "0.138370934",
+            "0.050458704"
+          ],
+          [
+            "0.557111213",
+            "0.136393987",
+            "0.049460511"
+          ],
+          [
+            "0.656588618",
+            "0.137176958",
+            "0.050019975"
+          ],
+          [
+            "0.757610037",
+            "0.138990049",
+            "0.051017711"
+          ],
+          [
+            "0.859967247",
+            "0.139857494",
+            "0.051343174"
+          ],
+          [
+            "0.198247253",
+            "0.236249921",
+            "0.053562196"
+          ],
+          [
+            "0.305120975",
+            "0.234230174",
+            "0.053330607"
+          ],
+          [
+            "0.410211238",
+            "0.229274463",
+            "0.051876438"
+          ],
+          [
+            "0.509807334",
+            "0.221620143",
+            "0.048013355"
+          ],
+          [
+            "0.605640650",
+            "0.220710204",
+            "0.047824280"
+          ],
+          [
+            "0.704510643",
+            "0.226340615",
+            "0.051205901"
+          ],
+          [
+            "0.807701097",
+            "0.229032170",
+            "0.052019649"
+          ],
+          [
+            "0.253700798",
+            "0.329522656",
+            "0.054950008"
+          ],
+          [
+            "0.363572830",
+            "0.325435816",
+            "0.054998005"
+          ],
+          [
+            "0.470848968",
+            "0.314625040",
+            "0.052821484"
+          ],
+          [
+            "0.558566973",
+            "0.292149804",
+            "0.037730073"
+          ],
+          [
+            "0.646527673",
+            "0.312345932",
+            "0.052519405"
+          ],
+          [
+            "0.752867823",
+            "0.319872014",
+            "0.054086736"
+          ],
+          [
+            "0.312238775",
+            "0.425637620",
+            "0.057587901"
+          ],
+          [
+            "0.429541523",
+            "0.419479705",
+            "0.059876366"
+          ],
+          [
+            "0.560046878",
+            "0.401703905",
+            "0.071834023"
+          ],
+          [
+            "0.625577926",
+            "0.520624500",
+            "0.063946777"
+          ],
+          [
+            "0.690993520",
+            "0.415533218",
+            "0.059840852"
+          ],
+          [
+            "0.374015970",
+            "0.526475914",
+            "0.060669374"
+          ],
+          [
+            "0.437055110",
+            "0.632184333",
+            "0.062408661"
+          ],
+          [
+            "0.498122973",
+            "0.522058060",
+            "0.063516235"
+          ],
+          [
+            "0.562656287",
+            "0.631107266",
+            "0.063197132"
+          ],
+          [
+            "0.500000000",
+            "0.740422537",
+            "0.062801433"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p93-n41-v1",
+      "name": "n = 41",
+      "parameters": {
+        "n": 41
+      },
+      "objective": "maximize",
+      "scoreStored": "2190472445",
+      "scoreDisplay": "2.190472445",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": "zzzcy",
+      "method": "ai",
+      "recordedAt": "2026-10-04T09:22:43.316Z",
+      "answer": {
+        "circles": [
+          [
+            "0.098665780",
+            "0.056964715",
+            "0.056964714"
+          ],
+          [
+            "0.212712671",
+            "0.057082236",
+            "0.057082235"
+          ],
+          [
+            "0.327185271",
+            "0.057390781",
+            "0.057390780"
+          ],
+          [
+            "0.442287802",
+            "0.057712198",
+            "0.057712198"
+          ],
+          [
+            "0.557712198",
+            "0.057712198",
+            "0.057712198"
+          ],
+          [
+            "0.672814729",
+            "0.057390781",
+            "0.057390780"
+          ],
+          [
+            "0.787287329",
+            "0.057082236",
+            "0.057082235"
+          ],
+          [
+            "0.901334220",
+            "0.056964715",
+            "0.056964714"
+          ],
+          [
+            "0.155470319",
+            "0.155587532",
+            "0.056847479"
+          ],
+          [
+            "0.269374258",
+            "0.156165234",
+            "0.057057923"
+          ],
+          [
+            "0.384135809",
+            "0.157415410",
+            "0.057710436"
+          ],
+          [
+            "0.500000000",
+            "0.158185149",
+            "0.058156311"
+          ],
+          [
+            "0.615864191",
+            "0.157415410",
+            "0.057710436"
+          ],
+          [
+            "0.730625742",
+            "0.156165234",
+            "0.057057923"
+          ],
+          [
+            "0.844529681",
+            "0.155587532",
+            "0.056847479"
+          ],
+          [
+            "0.211715750",
+            "0.253888310",
+            "0.056407062"
+          ],
+          [
+            "0.325028393",
+            "0.255630557",
+            "0.056918974"
+          ],
+          [
+            "0.440942495",
+            "0.259433803",
+            "0.059057505"
+          ],
+          [
+            "0.559057505",
+            "0.259433803",
+            "0.059057505"
+          ],
+          [
+            "0.674971607",
+            "0.255630557",
+            "0.056918974"
+          ],
+          [
+            "0.788284250",
+            "0.253888310",
+            "0.056407062"
+          ],
+          [
+            "0.266385431",
+            "0.351117392",
+            "0.055137853"
+          ],
+          [
+            "0.377654108",
+            "0.355795553",
+            "0.056229123"
+          ],
+          [
+            "0.500000000",
+            "0.370845296",
+            "0.067038924"
+          ],
+          [
+            "0.622345892",
+            "0.355795553",
+            "0.056229123"
+          ],
+          [
+            "0.733614569",
+            "0.351117392",
+            "0.055137853"
+          ],
+          [
+            "0.317098906",
+            "0.445397965",
+            "0.051916725"
+          ],
+          [
+            "0.417964233",
+            "0.453274449",
+            "0.049255668"
+          ],
+          [
+            "0.500000000",
+            "0.473003274",
+            "0.035119053"
+          ],
+          [
+            "0.582035767",
+            "0.453274449",
+            "0.049255668"
+          ],
+          [
+            "0.682901094",
+            "0.445397965",
+            "0.051916725"
+          ],
+          [
+            "0.363535540",
+            "0.533793819",
+            "0.047934102"
+          ],
+          [
+            "0.455663046",
+            "0.538938785",
+            "0.044336954"
+          ],
+          [
+            "0.544336954",
+            "0.538938785",
+            "0.044336954"
+          ],
+          [
+            "0.636464460",
+            "0.533793819",
+            "0.047934102"
+          ],
+          [
+            "0.408743380",
+            "0.616072209",
+            "0.045946046"
+          ],
+          [
+            "0.500000000",
+            "0.616858755",
+            "0.045313963"
+          ],
+          [
+            "0.591256620",
+            "0.616072209",
+            "0.045946046"
+          ],
+          [
+            "0.454322453",
+            "0.695554477",
+            "0.045677547"
+          ],
+          [
+            "0.545677547",
+            "0.695554477",
+            "0.045677547"
+          ],
+          [
+            "0.500000000",
+            "0.774670310",
+            "0.045677546"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p93-n42-v1",
+      "name": "n = 42",
+      "parameters": {
+        "n": 42
+      },
+      "objective": "maximize",
+      "scoreStored": "2218631935",
+      "scoreDisplay": "2.218631935",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": "zzzcy",
+      "method": "ai",
+      "recordedAt": "2026-10-04T09:22:56.125Z",
+      "answer": {
+        "circles": [
+          [
+            "0.273053977",
+            "0.047971558",
+            "0.047971557"
+          ],
+          [
+            "0.129729004",
+            "0.129817277",
+            "0.047439974"
+          ],
+          [
+            "0.500000000",
+            "0.751283305",
+            "0.057371049"
+          ],
+          [
+            "0.903448487",
+            "0.055744042",
+            "0.055744042"
+          ],
+          [
+            "0.397886714",
+            "0.287308607",
+            "0.035834059"
+          ],
+          [
+            "0.469926334",
+            "0.050934453",
+            "0.050934452"
+          ],
+          [
+            "0.385033402",
+            "0.555023886",
+            "0.055936764"
+          ],
+          [
+            "0.224118886",
+            "0.293713088",
+            "0.047236104"
+          ],
+          [
+            "0.273773518",
+            "0.376164461",
+            "0.049012590"
+          ],
+          [
+            "0.327987557",
+            "0.462397637",
+            "0.052846737"
+          ],
+          [
+            "0.790443116",
+            "0.249589289",
+            "0.056686940"
+          ],
+          [
+            "0.614652099",
+            "0.550580906",
+            "0.058430618"
+          ],
+          [
+            "0.732062839",
+            "0.348222751",
+            "0.057929012"
+          ],
+          [
+            "0.672947802",
+            "0.448874168",
+            "0.058798427"
+          ],
+          [
+            "0.681919702",
+            "0.054758260",
+            "0.054758260"
+          ],
+          [
+            "0.574004988",
+            "0.053168168",
+            "0.053168168"
+          ],
+          [
+            "0.176880004",
+            "0.211908120",
+            "0.047228516"
+          ],
+          [
+            "0.442520276",
+            "0.652320369",
+            "0.057073616"
+          ],
+          [
+            "0.847389684",
+            "0.152379721",
+            "0.055974550"
+          ],
+          [
+            "0.557261315",
+            "0.651505260",
+            "0.057670317"
+          ],
+          [
+            "0.792190025",
+            "0.055514656",
+            "0.055514656"
+          ],
+          [
+            "0.082321366",
+            "0.047528263",
+            "0.047528262"
+          ],
+          [
+            "0.563484984",
+            "0.241593341",
+            "0.056650432"
+          ],
+          [
+            "0.416384638",
+            "0.135563030",
+            "0.049208991"
+          ],
+          [
+            "0.363048052",
+            "0.213819314",
+            "0.045494954"
+          ],
+          [
+            "0.457900828",
+            "0.225788731",
+            "0.050110045"
+          ],
+          [
+            "0.270837852",
+            "0.212184457",
+            "0.046729736"
+          ],
+          [
+            "0.437666055",
+            "0.455010649",
+            "0.057080241"
+          ],
+          [
+            "0.554367782",
+            "0.448895468",
+            "0.059781593"
+          ],
+          [
+            "0.614624467",
+            "0.345915515",
+            "0.059532022"
+          ],
+          [
+            "0.624965153",
+            "0.148489842",
+            "0.054920498"
+          ],
+          [
+            "0.676877593",
+            "0.247526809",
+            "0.056897309"
+          ],
+          [
+            "0.517781045",
+            "0.142551689",
+            "0.052427974"
+          ],
+          [
+            "0.372765785",
+            "0.369591047",
+            "0.050197684"
+          ],
+          [
+            "0.316766715",
+            "0.292079650",
+            "0.045426122"
+          ],
+          [
+            "0.735633851",
+            "0.151374922",
+            "0.055785799"
+          ],
+          [
+            "0.498584505",
+            "0.552230355",
+            "0.057648695"
+          ],
+          [
+            "0.224600963",
+            "0.130155842",
+            "0.047432588"
+          ],
+          [
+            "0.177466333",
+            "0.047616745",
+            "0.047616745"
+          ],
+          [
+            "0.370015414",
+            "0.048995284",
+            "0.048995283"
+          ],
+          [
+            "0.487234005",
+            "0.340185138",
+            "0.067987258"
+          ],
+          [
+            "0.319644175",
+            "0.131439904",
+            "0.047619296"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p93-n43-v1",
+      "name": "n = 43",
+      "parameters": {
+        "n": 43
+      },
+      "objective": "maximize",
+      "scoreStored": "2247076374",
+      "scoreDisplay": "2.247076374",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": "zzzcy",
+      "method": "ai",
+      "recordedAt": "2026-10-04T09:23:10.870Z",
+      "answer": {
+        "circles": [
+          [
+            "0.096228095",
+            "0.055557317",
+            "0.055557316"
+          ],
+          [
+            "0.207784692",
+            "0.056000159",
+            "0.056000159"
+          ],
+          [
+            "0.321272836",
+            "0.057497867",
+            "0.057497867"
+          ],
+          [
+            "0.439364514",
+            "0.060635486",
+            "0.060635485"
+          ],
+          [
+            "0.560635486",
+            "0.060635486",
+            "0.060635485"
+          ],
+          [
+            "0.678727164",
+            "0.057497867",
+            "0.057497867"
+          ],
+          [
+            "0.792215308",
+            "0.056000159",
+            "0.056000159"
+          ],
+          [
+            "0.903771905",
+            "0.055557317",
+            "0.055557316"
+          ],
+          [
+            "0.151185694",
+            "0.151624082",
+            "0.055118610"
+          ],
+          [
+            "0.261770289",
+            "0.153539665",
+            "0.055482574"
+          ],
+          [
+            "0.374558174",
+            "0.159354942",
+            "0.057455127"
+          ],
+          [
+            "0.500000000",
+            "0.175196859",
+            "0.068983071"
+          ],
+          [
+            "0.625441826",
+            "0.159354942",
+            "0.057455127"
+          ],
+          [
+            "0.738229711",
+            "0.153539665",
+            "0.055482574"
+          ],
+          [
+            "0.848814306",
+            "0.151624082",
+            "0.055118610"
+          ],
+          [
+            "0.204490315",
+            "0.246600359",
+            "0.053793627"
+          ],
+          [
+            "0.311412052",
+            "0.250210309",
+            "0.053189032"
+          ],
+          [
+            "0.415092004",
+            "0.259887806",
+            "0.050941589"
+          ],
+          [
+            "0.500000000",
+            "0.280647287",
+            "0.036467356"
+          ],
+          [
+            "0.584907996",
+            "0.259887806",
+            "0.050941589"
+          ],
+          [
+            "0.688587948",
+            "0.250210309",
+            "0.053189032"
+          ],
+          [
+            "0.795509685",
+            "0.246600359",
+            "0.053793627"
+          ],
+          [
+            "0.255487258",
+            "0.339009851",
+            "0.051753529"
+          ],
+          [
+            "0.357279364",
+            "0.342765327",
+            "0.050107828"
+          ],
+          [
+            "0.453582344",
+            "0.349315522",
+            "0.046417655"
+          ],
+          [
+            "0.546417656",
+            "0.349315522",
+            "0.046417655"
+          ],
+          [
+            "0.642720636",
+            "0.342765327",
+            "0.050107828"
+          ],
+          [
+            "0.744512742",
+            "0.339009851",
+            "0.051753529"
+          ],
+          [
+            "0.304801337",
+            "0.427984543",
+            "0.049973429"
+          ],
+          [
+            "0.403427478",
+            "0.430106642",
+            "0.048675539"
+          ],
+          [
+            "0.500000000",
+            "0.431427371",
+            "0.047906013"
+          ],
+          [
+            "0.596572522",
+            "0.430106642",
+            "0.048675539"
+          ],
+          [
+            "0.695198663",
+            "0.427984543",
+            "0.049973429"
+          ],
+          [
+            "0.353577013",
+            "0.514217293",
+            "0.049098028"
+          ],
+          [
+            "0.451336532",
+            "0.514839191",
+            "0.048663468"
+          ],
+          [
+            "0.548663468",
+            "0.514839191",
+            "0.048663468"
+          ],
+          [
+            "0.646422987",
+            "0.514217293",
+            "0.049098028"
+          ],
+          [
+            "0.402352803",
+            "0.599171022",
+            "0.048862237"
+          ],
+          [
+            "0.500000000",
+            "0.599267102",
+            "0.048785006"
+          ],
+          [
+            "0.597647197",
+            "0.599171022",
+            "0.048862237"
+          ],
+          [
+            "0.451170423",
+            "0.683790941",
+            "0.048829577"
+          ],
+          [
+            "0.548829577",
+            "0.683790941",
+            "0.048829577"
+          ],
+          [
+            "0.500000000",
+            "0.768366250",
+            "0.048829576"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p93-n44-v1",
+      "name": "n = 44",
+      "parameters": {
+        "n": 44
+      },
+      "objective": "maximize",
+      "scoreStored": "2275662242",
+      "scoreDisplay": "2.275662242",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": "zzzcy",
+      "method": "ai",
+      "recordedAt": "2026-10-04T09:23:22.734Z",
+      "answer": {
+        "circles": [
+          [
+            "0.092768706",
+            "0.053560037",
+            "0.053560037"
+          ],
+          [
+            "0.200169042",
+            "0.053840665",
+            "0.053840664"
+          ],
+          [
+            "0.308906875",
+            "0.054902351",
+            "0.054902351"
+          ],
+          [
+            "0.422026999",
+            "0.058267826",
+            "0.058267825"
+          ],
+          [
+            "0.551466423",
+            "0.071886003",
+            "0.071886001"
+          ],
+          [
+            "0.681197247",
+            "0.058530472",
+            "0.058530471"
+          ],
+          [
+            "0.795118052",
+            "0.055432450",
+            "0.055432450"
+          ],
+          [
+            "0.905251285",
+            "0.054703196",
+            "0.054703196"
+          ],
+          [
+            "0.145947579",
+            "0.146226344",
+            "0.053281139"
+          ],
+          [
+            "0.252578310",
+            "0.147351588",
+            "0.053355529"
+          ],
+          [
+            "0.359387081",
+            "0.150845389",
+            "0.053510368"
+          ],
+          [
+            "0.464448540",
+            "0.159993309",
+            "0.051948602"
+          ],
+          [
+            "0.638207434",
+            "0.160427632",
+            "0.052064081"
+          ],
+          [
+            "0.743751304",
+            "0.151863817",
+            "0.053826651"
+          ],
+          [
+            "0.851529986",
+            "0.149187077",
+            "0.053985264"
+          ],
+          [
+            "0.198224022",
+            "0.238240910",
+            "0.052546583"
+          ],
+          [
+            "0.302854592",
+            "0.240050493",
+            "0.052099634"
+          ],
+          [
+            "0.405713363",
+            "0.244359154",
+            "0.050849338"
+          ],
+          [
+            "0.503659643",
+            "0.251206943",
+            "0.047336027"
+          ],
+          [
+            "0.598357501",
+            "0.251518778",
+            "0.047362343"
+          ],
+          [
+            "0.696484734",
+            "0.245380751",
+            "0.050956673"
+          ],
+          [
+            "0.799758303",
+            "0.242090184",
+            "0.052369304"
+          ],
+          [
+            "0.249430936",
+            "0.328891929",
+            "0.051567562"
+          ],
+          [
+            "0.351825012",
+            "0.330596677",
+            "0.050840703"
+          ],
+          [
+            "0.452241354",
+            "0.333399473",
+            "0.049614745"
+          ],
+          [
+            "0.550706030",
+            "0.335119189",
+            "0.048864946"
+          ],
+          [
+            "0.649161417",
+            "0.334101012",
+            "0.049595705"
+          ],
+          [
+            "0.749539062",
+            "0.332211631",
+            "0.050799719"
+          ],
+          [
+            "0.299883893",
+            "0.417908535",
+            "0.050752802"
+          ],
+          [
+            "0.400832089",
+            "0.418957875",
+            "0.050200847"
+          ],
+          [
+            "0.500728314",
+            "0.420075637",
+            "0.049701631"
+          ],
+          [
+            "0.600086672",
+            "0.420372692",
+            "0.049657170"
+          ],
+          [
+            "0.699781018",
+            "0.419918105",
+            "0.050038212"
+          ],
+          [
+            "0.350002403",
+            "0.505644229",
+            "0.050288857"
+          ],
+          [
+            "0.450310838",
+            "0.506114100",
+            "0.050020677"
+          ],
+          [
+            "0.550194144",
+            "0.506483446",
+            "0.049863311"
+          ],
+          [
+            "0.649946548",
+            "0.506532157",
+            "0.049889103"
+          ],
+          [
+            "0.400018059",
+            "0.592673736",
+            "0.050088933"
+          ],
+          [
+            "0.500089884",
+            "0.592848123",
+            "0.049983042"
+          ],
+          [
+            "0.600002324",
+            "0.592957383",
+            "0.049929457"
+          ],
+          [
+            "0.450008856",
+            "0.679403999",
+            "0.050017101"
+          ],
+          [
+            "0.550005051",
+            "0.679455902",
+            "0.049979106"
+          ],
+          [
+            "0.500000000",
+            "0.766029204",
+            "0.049998099"
+          ],
+          [
+            "0.551216313",
+            "0.181127703",
+            "0.037355983"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p93-n45-v1",
+      "name": "n = 45",
+      "parameters": {
+        "n": 45
+      },
+      "objective": "maximize",
+      "scoreStored": "2311948450",
+      "scoreDisplay": "2.31194845",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": "zzzcy",
+      "method": "ai",
+      "recordedAt": "2026-10-04T11:09:53.810Z",
+      "answer": {
+        "circles": [
+          [
+            "0.088986938",
+            "0.051376633",
+            "0.051376632"
+          ],
+          [
+            "0.191740204",
+            "0.051376633",
+            "0.051376633"
+          ],
+          [
+            "0.294493470",
+            "0.051376633",
+            "0.051376632"
+          ],
+          [
+            "0.397246735",
+            "0.051376633",
+            "0.051376632"
+          ],
+          [
+            "0.140363571",
+            "0.140363571",
+            "0.051376632"
+          ],
+          [
+            "0.243116837",
+            "0.140363571",
+            "0.051376632"
+          ],
+          [
+            "0.345870102",
+            "0.140363571",
+            "0.051376632"
+          ],
+          [
+            "0.191740204",
+            "0.229350509",
+            "0.051376633"
+          ],
+          [
+            "0.294493470",
+            "0.229350509",
+            "0.051376632"
+          ],
+          [
+            "0.243116837",
+            "0.318337448",
+            "0.051376632"
+          ],
+          [
+            "0.602753265",
+            "0.051376633",
+            "0.051376632"
+          ],
+          [
+            "0.705506530",
+            "0.051376633",
+            "0.051376632"
+          ],
+          [
+            "0.808259796",
+            "0.051376633",
+            "0.051376633"
+          ],
+          [
+            "0.911013062",
+            "0.051376633",
+            "0.051376632"
+          ],
+          [
+            "0.654129898",
+            "0.140363571",
+            "0.051376632"
+          ],
+          [
+            "0.756883163",
+            "0.140363571",
+            "0.051376632"
+          ],
+          [
+            "0.859636429",
+            "0.140363571",
+            "0.051376632"
+          ],
+          [
+            "0.705506530",
+            "0.229350509",
+            "0.051376632"
+          ],
+          [
+            "0.808259796",
+            "0.229350509",
+            "0.051376633"
+          ],
+          [
+            "0.756883163",
+            "0.318337448",
+            "0.051376632"
+          ],
+          [
+            "0.294493469",
+            "0.407324386",
+            "0.051376632"
+          ],
+          [
+            "0.397246735",
+            "0.407324386",
+            "0.051376632"
+          ],
+          [
+            "0.500000000",
+            "0.407324386",
+            "0.051376633"
+          ],
+          [
+            "0.602753265",
+            "0.407324386",
+            "0.051376632"
+          ],
+          [
+            "0.705506531",
+            "0.407324386",
+            "0.051376632"
+          ],
+          [
+            "0.345870102",
+            "0.496311324",
+            "0.051376632"
+          ],
+          [
+            "0.448623367",
+            "0.496311324",
+            "0.051376632"
+          ],
+          [
+            "0.551376633",
+            "0.496311324",
+            "0.051376632"
+          ],
+          [
+            "0.654129898",
+            "0.496311324",
+            "0.051376632"
+          ],
+          [
+            "0.397246735",
+            "0.585298262",
+            "0.051376632"
+          ],
+          [
+            "0.500000000",
+            "0.585298262",
+            "0.051376633"
+          ],
+          [
+            "0.602753265",
+            "0.585298262",
+            "0.051376632"
+          ],
+          [
+            "0.448623367",
+            "0.674285200",
+            "0.051376632"
+          ],
+          [
+            "0.551376633",
+            "0.674285200",
+            "0.051376632"
+          ],
+          [
+            "0.500000000",
+            "0.763272139",
+            "0.051376632"
+          ],
+          [
+            "0.654129898",
+            "0.318337448",
+            "0.051376633"
+          ],
+          [
+            "0.551376633",
+            "0.318337448",
+            "0.051376632"
+          ],
+          [
+            "0.448623367",
+            "0.318337448",
+            "0.051376632"
+          ],
+          [
+            "0.345870102",
+            "0.318337448",
+            "0.051376633"
+          ],
+          [
+            "0.602753266",
+            "0.229350509",
+            "0.051376632"
+          ],
+          [
+            "0.500000000",
+            "0.229350509",
+            "0.051376633"
+          ],
+          [
+            "0.397246735",
+            "0.229350509",
+            "0.051376632"
+          ],
+          [
+            "0.551376633",
+            "0.140363571",
+            "0.051376632"
+          ],
+          [
+            "0.448623367",
+            "0.140363571",
+            "0.051376632"
+          ],
+          [
+            "0.500000000",
+            "0.051376633",
+            "0.051376633"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p93-n46-v1",
+      "name": "n = 46",
+      "parameters": {
+        "n": 46
+      },
+      "objective": "maximize",
+      "scoreStored": "2332746296",
+      "scoreDisplay": "2.332746296",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": "zzzcy",
+      "method": "ai",
+      "recordedAt": "2026-10-04T11:10:04.876Z",
+      "answer": {
+        "circles": [
+          [
+            "0.500000000",
+            "0.762006203",
+            "0.052009600"
+          ],
+          [
+            "0.552012893",
+            "0.671935216",
+            "0.052000607"
+          ],
+          [
+            "0.604025964",
+            "0.581914054",
+            "0.051966547"
+          ],
+          [
+            "0.656027203",
+            "0.492034944",
+            "0.051871708"
+          ],
+          [
+            "0.707978802",
+            "0.402489296",
+            "0.051653127"
+          ],
+          [
+            "0.759769549",
+            "0.313538944",
+            "0.051276201"
+          ],
+          [
+            "0.811206603",
+            "0.225328869",
+            "0.050835443"
+          ],
+          [
+            "0.862159709",
+            "0.137719817",
+            "0.050513285"
+          ],
+          [
+            "0.912717045",
+            "0.050392837",
+            "0.050392837"
+          ],
+          [
+            "0.447993692",
+            "0.671910644",
+            "0.052018596"
+          ],
+          [
+            "0.500042564",
+            "0.581831255",
+            "0.052016885"
+          ],
+          [
+            "0.552156319",
+            "0.491811549",
+            "0.051999416"
+          ],
+          [
+            "0.604412855",
+            "0.401993657",
+            "0.051914005"
+          ],
+          [
+            "0.656884555",
+            "0.312750643",
+            "0.051611811"
+          ],
+          [
+            "0.709340369",
+            "0.224520549",
+            "0.051033997"
+          ],
+          [
+            "0.761167009",
+            "0.137232459",
+            "0.050480589"
+          ],
+          [
+            "0.812051550",
+            "0.050272729",
+            "0.050272729"
+          ],
+          [
+            "0.395983672",
+            "0.581779799",
+            "0.052042018"
+          ],
+          [
+            "0.448082849",
+            "0.491636231",
+            "0.052074201"
+          ],
+          [
+            "0.500346510",
+            "0.401458807",
+            "0.052153713"
+          ],
+          [
+            "0.553083927",
+            "0.311414805",
+            "0.052197412"
+          ],
+          [
+            "0.606720498",
+            "0.222543886",
+            "0.051604909"
+          ],
+          [
+            "0.660287741",
+            "0.135724641",
+            "0.050409946"
+          ],
+          [
+            "0.711952309",
+            "0.049827502",
+            "0.049827502"
+          ],
+          [
+            "0.343948346",
+            "0.491615402",
+            "0.052060304"
+          ],
+          [
+            "0.396019750",
+            "0.401320444",
+            "0.052173137"
+          ],
+          [
+            "0.448323073",
+            "0.310574539",
+            "0.052566811"
+          ],
+          [
+            "0.501813033",
+            "0.219148154",
+            "0.053357499"
+          ],
+          [
+            "0.558882728",
+            "0.131688016",
+            "0.051075378"
+          ],
+          [
+            "0.613628097",
+            "0.048505595",
+            "0.048505595"
+          ],
+          [
+            "0.291860857",
+            "0.401545836",
+            "0.051985998"
+          ],
+          [
+            "0.343557452",
+            "0.311090318",
+            "0.052200079"
+          ],
+          [
+            "0.395118104",
+            "0.219005115",
+            "0.053337523"
+          ],
+          [
+            "0.448578343",
+            "0.119135079",
+            "0.059940988"
+          ],
+          [
+            "0.520985396",
+            "0.044235464",
+            "0.044235464"
+          ],
+          [
+            "0.239741264",
+            "0.312003794",
+            "0.051620127"
+          ],
+          [
+            "0.290284158",
+            "0.222072199",
+            "0.051541279"
+          ],
+          [
+            "0.338323078",
+            "0.131476606",
+            "0.051002854"
+          ],
+          [
+            "0.376291479",
+            "0.044186908",
+            "0.044186908"
+          ],
+          [
+            "0.187857551",
+            "0.223585802",
+            "0.050896510"
+          ],
+          [
+            "0.237137954",
+            "0.135253412",
+            "0.050252731"
+          ],
+          [
+            "0.283824262",
+            "0.048375109",
+            "0.048375109"
+          ],
+          [
+            "0.136703166",
+            "0.136399634",
+            "0.050188597"
+          ],
+          [
+            "0.185872576",
+            "0.049584038",
+            "0.049584037"
+          ],
+          [
+            "0.086403760",
+            "0.049885234",
+            "0.049885234"
+          ],
+          [
+            "0.448618573",
+            "0.029597050",
+            "0.029597050"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p93-n47-v1",
+      "name": "n = 47",
+      "parameters": {
+        "n": 47
+      },
+      "objective": "maximize",
+      "scoreStored": "2356195336",
+      "scoreDisplay": "2.356195336",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": "zzzcy",
+      "method": "ai",
+      "recordedAt": "2026-10-04T09:23:58.719Z",
+      "answer": {
+        "circles": [
+          [
+            "0.500000000",
+            "0.768133156",
+            "0.048946123"
+          ],
+          [
+            "0.084777173",
+            "0.048946124",
+            "0.048946123"
+          ],
+          [
+            "0.908449790",
+            "0.052856538",
+            "0.052856538"
+          ],
+          [
+            "0.338841969",
+            "0.381719767",
+            "0.032664596"
+          ],
+          [
+            "0.401941016",
+            "0.600666027",
+            "0.047758117"
+          ],
+          [
+            "0.180778470",
+            "0.217601259",
+            "0.047758117"
+          ],
+          [
+            "0.225461173",
+            "0.299476972",
+            "0.045516617"
+          ],
+          [
+            "0.353375921",
+            "0.521031814",
+            "0.045516617"
+          ],
+          [
+            "0.597775517",
+            "0.596691185",
+            "0.049991027"
+          ],
+          [
+            "0.282138034",
+            "0.049991027",
+            "0.049991027"
+          ],
+          [
+            "0.802763280",
+            "0.235949838",
+            "0.052837091"
+          ],
+          [
+            "0.697043086",
+            "0.052837091",
+            "0.052837091"
+          ],
+          [
+            "0.698118211",
+            "0.418501631",
+            "0.052186482"
+          ],
+          [
+            "0.486626062",
+            "0.052186483",
+            "0.052186483"
+          ],
+          [
+            "0.647334853",
+            "0.508511581",
+            "0.051161185"
+          ],
+          [
+            "0.383283479",
+            "0.051161186",
+            "0.051161185"
+          ],
+          [
+            "0.750117065",
+            "0.327415152",
+            "0.052697393"
+          ],
+          [
+            "0.591508694",
+            "0.052697393",
+            "0.052697393"
+          ],
+          [
+            "0.306350611",
+            "0.448111802",
+            "0.041251509"
+          ],
+          [
+            "0.265099101",
+            "0.376662091",
+            "0.041251509"
+          ],
+          [
+            "0.133360138",
+            "0.133625724",
+            "0.048680405"
+          ],
+          [
+            "0.450956797",
+            "0.683719274",
+            "0.048680405"
+          ],
+          [
+            "0.855593252",
+            "0.144406748",
+            "0.052856538"
+          ],
+          [
+            "0.802736713",
+            "0.052856538",
+            "0.052856537"
+          ],
+          [
+            "0.548848053",
+            "0.682990973",
+            "0.049213560"
+          ],
+          [
+            "0.182936493",
+            "0.049213560",
+            "0.049213560"
+          ],
+          [
+            "0.489849613",
+            "0.425089388",
+            "0.051916673"
+          ],
+          [
+            "0.376786597",
+            "0.229258501",
+            "0.051916673"
+          ],
+          [
+            "0.537190141",
+            "0.329955652",
+            "0.054345047"
+          ],
+          [
+            "0.482845094",
+            "0.235827269",
+            "0.054345047"
+          ],
+          [
+            "0.590601897",
+            "0.236366105",
+            "0.053413103"
+          ],
+          [
+            "0.644014673",
+            "0.144380119",
+            "0.052955812"
+          ],
+          [
+            "0.696970486",
+            "0.236102277",
+            "0.052955812"
+          ],
+          [
+            "0.447116876",
+            "0.515815365",
+            "0.048369365"
+          ],
+          [
+            "0.276849228",
+            "0.220903148",
+            "0.048369365"
+          ],
+          [
+            "0.330531238",
+            "0.137971464",
+            "0.050420423"
+          ],
+          [
+            "0.545778826",
+            "0.510791223",
+            "0.050420423"
+          ],
+          [
+            "0.538108671",
+            "0.143857264",
+            "0.052951479"
+          ],
+          [
+            "0.644470291",
+            "0.328080993",
+            "0.052951479"
+          ],
+          [
+            "0.433031508",
+            "0.141703284",
+            "0.052147758"
+          ],
+          [
+            "0.593797110",
+            "0.420157475",
+            "0.052147758"
+          ],
+          [
+            "0.316612706",
+            "0.306370553",
+            "0.045895216"
+          ],
+          [
+            "0.392981671",
+            "0.438645481",
+            "0.045895216"
+          ],
+          [
+            "0.749853596",
+            "0.144422094",
+            "0.052883117"
+          ],
+          [
+            "0.231095643",
+            "0.134881592",
+            "0.049063167"
+          ],
+          [
+            "0.498736936",
+            "0.598449910",
+            "0.049063167"
+          ],
+          [
+            "0.420872420",
+            "0.334359464",
+            "0.062056008"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p93-n48-v1",
+      "name": "n = 48",
+      "parameters": {
+        "n": 48
+      },
+      "objective": "maximize",
+      "scoreStored": "2379750652",
+      "scoreDisplay": "2.379750652",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": "zzzcy",
+      "method": "ai",
+      "recordedAt": "2026-10-04T09:24:10.873Z",
+      "answer": {
+        "circles": [
+          [
+            "0.500000000",
+            "0.769022033",
+            "0.048501685"
+          ],
+          [
+            "0.081981517",
+            "0.047332051",
+            "0.047332050"
+          ],
+          [
+            "0.906732369",
+            "0.053848092",
+            "0.053848091"
+          ],
+          [
+            "0.381680277",
+            "0.297329383",
+            "0.033413706"
+          ],
+          [
+            "0.402901009",
+            "0.602327692",
+            "0.047758662"
+          ],
+          [
+            "0.174734750",
+            "0.210353825",
+            "0.046147819"
+          ],
+          [
+            "0.262293048",
+            "0.366707818",
+            "0.043798533"
+          ],
+          [
+            "0.307495033",
+            "0.442940780",
+            "0.044828120"
+          ],
+          [
+            "0.218800054",
+            "0.289716870",
+            "0.044627969"
+          ],
+          [
+            "0.354717039",
+            "0.521214416",
+            "0.046586758"
+          ],
+          [
+            "0.691030100",
+            "0.054043498",
+            "0.054043497"
+          ],
+          [
+            "0.273157339",
+            "0.048599165",
+            "0.048599164"
+          ],
+          [
+            "0.799482442",
+            "0.240179807",
+            "0.053563395"
+          ],
+          [
+            "0.596910738",
+            "0.599703637",
+            "0.049233722"
+          ],
+          [
+            "0.695531878",
+            "0.423928731",
+            "0.051712762"
+          ],
+          [
+            "0.746799415",
+            "0.332717011",
+            "0.052919633"
+          ],
+          [
+            "0.645750372",
+            "0.512973249",
+            "0.050302552"
+          ],
+          [
+            "0.582942589",
+            "0.054044013",
+            "0.054044012"
+          ],
+          [
+            "0.372369808",
+            "0.050634172",
+            "0.050634172"
+          ],
+          [
+            "0.475940917",
+            "0.052963119",
+            "0.052963118"
+          ],
+          [
+            "0.128916085",
+            "0.129206735",
+            "0.047041236"
+          ],
+          [
+            "0.451434184",
+            "0.685254425",
+            "0.048326258"
+          ],
+          [
+            "0.852962458",
+            "0.147094764",
+            "0.053790864"
+          ],
+          [
+            "0.798978900",
+            "0.053905391",
+            "0.053905391"
+          ],
+          [
+            "0.548437119",
+            "0.684774122",
+            "0.048677865"
+          ],
+          [
+            "0.176938111",
+            "0.047624995",
+            "0.047624994"
+          ],
+          [
+            "0.583164281",
+            "0.243455125",
+            "0.055197133"
+          ],
+          [
+            "0.535701784",
+            "0.340298350",
+            "0.052651365"
+          ],
+          [
+            "0.493303084",
+            "0.432560293",
+            "0.048886390"
+          ],
+          [
+            "0.358970895",
+            "0.220592463",
+            "0.046612981"
+          ],
+          [
+            "0.437389634",
+            "0.354971854",
+            "0.046749793"
+          ],
+          [
+            "0.419774744",
+            "0.142272216",
+            "0.052539269"
+          ],
+          [
+            "0.527387285",
+            "0.148145939",
+            "0.055233452"
+          ],
+          [
+            "0.266761656",
+            "0.212920447",
+            "0.045914870"
+          ],
+          [
+            "0.319014562",
+            "0.134234041",
+            "0.048541027"
+          ],
+          [
+            "0.546198788",
+            "0.515250794",
+            "0.049275080"
+          ],
+          [
+            "0.449125400",
+            "0.518627834",
+            "0.047857029"
+          ],
+          [
+            "0.398457511",
+            "0.439379814",
+            "0.046204033"
+          ],
+          [
+            "0.692129049",
+            "0.241071571",
+            "0.053793700"
+          ],
+          [
+            "0.636987309",
+            "0.148022937",
+            "0.054366641"
+          ],
+          [
+            "0.592933552",
+            "0.426621808",
+            "0.050920902"
+          ],
+          [
+            "0.641050866",
+            "0.334684085",
+            "0.052847208"
+          ],
+          [
+            "0.348693936",
+            "0.365820518",
+            "0.042606909"
+          ],
+          [
+            "0.305915400",
+            "0.292219222",
+            "0.042523308"
+          ],
+          [
+            "0.745262032",
+            "0.147386121",
+            "0.053909954"
+          ],
+          [
+            "0.499167951",
+            "0.600991677",
+            "0.048517550"
+          ],
+          [
+            "0.223247740",
+            "0.130486334",
+            "0.047299097"
+          ],
+          [
+            "0.465005402",
+            "0.248673786",
+            "0.063076933"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p93-n49-v1",
+      "name": "n = 49",
+      "parameters": {
+        "n": 49
+      },
+      "objective": "maximize",
+      "scoreStored": "2403361683",
+      "scoreDisplay": "2.403361683",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": "zzzcy",
+      "method": "ai",
+      "recordedAt": "2026-10-04T09:24:22.786Z",
+      "answer": {
+        "circles": [
+          [
+            "0.500000000",
+            "0.771394362",
+            "0.047315520"
+          ],
+          [
+            "0.081952886",
+            "0.047315521",
+            "0.047315520"
+          ],
+          [
+            "0.904310752",
+            "0.055246213",
+            "0.055246213"
+          ],
+          [
+            "0.478086936",
+            "0.301326648",
+            "0.033847511"
+          ],
+          [
+            "0.405303774",
+            "0.608518582",
+            "0.046744073"
+          ],
+          [
+            "0.175659336",
+            "0.210762748",
+            "0.046744073"
+          ],
+          [
+            "0.312039562",
+            "0.449636153",
+            "0.045416111"
+          ],
+          [
+            "0.266623450",
+            "0.370973140",
+            "0.045416110"
+          ],
+          [
+            "0.221435459",
+            "0.291464521",
+            "0.046036471"
+          ],
+          [
+            "0.358302050",
+            "0.528524411",
+            "0.046036471"
+          ],
+          [
+            "0.594541751",
+            "0.606372523",
+            "0.047950882"
+          ],
+          [
+            "0.272136866",
+            "0.047950883",
+            "0.047950882"
+          ],
+          [
+            "0.794062200",
+            "0.246559258",
+            "0.055067737"
+          ],
+          [
+            "0.683504519",
+            "0.055067737",
+            "0.055067737"
+          ],
+          [
+            "0.642067280",
+            "0.521750422",
+            "0.049103617"
+          ],
+          [
+            "0.369184521",
+            "0.049103617",
+            "0.049103617"
+          ],
+          [
+            "0.690354318",
+            "0.433718684",
+            "0.051301684"
+          ],
+          [
+            "0.469565761",
+            "0.051301685",
+            "0.051301685"
+          ],
+          [
+            "0.740725489",
+            "0.341470174",
+            "0.053803226"
+          ],
+          [
+            "0.574640899",
+            "0.053803226",
+            "0.053803226"
+          ],
+          [
+            "0.129072412",
+            "0.129215811",
+            "0.047172082"
+          ],
+          [
+            "0.452632031",
+            "0.689637510",
+            "0.047172082"
+          ],
+          [
+            "0.849064539",
+            "0.150935461",
+            "0.055246213"
+          ],
+          [
+            "0.793818326",
+            "0.055246213",
+            "0.055246213"
+          ],
+          [
+            "0.547262775",
+            "0.689244925",
+            "0.047459475"
+          ],
+          [
+            "0.176727773",
+            "0.047459475",
+            "0.047459475"
+          ],
+          [
+            "0.494609047",
+            "0.444855716",
+            "0.046498635"
+          ],
+          [
+            "0.362048172",
+            "0.215253546",
+            "0.046498635"
+          ],
+          [
+            "0.534182141",
+            "0.359879969",
+            "0.047239869"
+          ],
+          [
+            "0.455425875",
+            "0.223470115",
+            "0.047239870"
+          ],
+          [
+            "0.401292312",
+            "0.295847583",
+            "0.043142321"
+          ],
+          [
+            "0.444434634",
+            "0.370572276",
+            "0.043142321"
+          ],
+          [
+            "0.626669995",
+            "0.150686452",
+            "0.056166706"
+          ],
+          [
+            "0.682836702",
+            "0.247970042",
+            "0.056166706"
+          ],
+          [
+            "0.517398925",
+            "0.144314618",
+            "0.053289984"
+          ],
+          [
+            "0.633719337",
+            "0.345787482",
+            "0.053289983"
+          ],
+          [
+            "0.356667449",
+            "0.371428222",
+            "0.044629036"
+          ],
+          [
+            "0.318529731",
+            "0.131654242",
+            "0.047749432"
+          ],
+          [
+            "0.545248948",
+            "0.524343444",
+            "0.047749432"
+          ],
+          [
+            "0.450933242",
+            "0.527080365",
+            "0.046605975"
+          ],
+          [
+            "0.269001636",
+            "0.211965578",
+            "0.046605975"
+          ],
+          [
+            "0.312831673",
+            "0.292826494",
+            "0.045369890"
+          ],
+          [
+            "0.402820654",
+            "0.448691981",
+            "0.045369890"
+          ],
+          [
+            "0.415324832",
+            "0.135833450",
+            "0.049135846"
+          ],
+          [
+            "0.590027197",
+            "0.438426824",
+            "0.049135846"
+          ],
+          [
+            "0.223520100",
+            "0.129834212",
+            "0.047277629"
+          ],
+          [
+            "0.499320324",
+            "0.607534213",
+            "0.047277629"
+          ],
+          [
+            "0.738327218",
+            "0.151076851",
+            "0.055491198"
+          ],
+          [
+            "0.562791565",
+            "0.252422408",
+            "0.063960969"
+          ]
+        ]
+      }
+    },
+    {
+      "instanceId": "p93-n50-v1",
+      "name": "n = 50",
+      "parameters": {
+        "n": 50
+      },
+      "objective": "maximize",
+      "scoreStored": "2427760297",
+      "scoreDisplay": "2.427760297",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": "zzzcy",
+      "method": "ai",
+      "recordedAt": "2026-10-04T09:42:55.627Z",
+      "answer": {
+        "circles": [
+          [
+            "0.088746094",
+            "0.051237581",
+            "0.051237581"
+          ],
+          [
+            "0.191262482",
+            "0.051278815",
+            "0.051278815"
+          ],
+          [
+            "0.293932314",
+            "0.051391078",
+            "0.051391078"
+          ],
+          [
+            "0.396859008",
+            "0.051535717",
+            "0.051535717"
+          ],
+          [
+            "0.500000000",
+            "0.051605299",
+            "0.051605298"
+          ],
+          [
+            "0.603140992",
+            "0.051535717",
+            "0.051535717"
+          ],
+          [
+            "0.706067685",
+            "0.051391077",
+            "0.051391077"
+          ],
+          [
+            "0.808737517",
+            "0.051278815",
+            "0.051278815"
+          ],
+          [
+            "0.911253906",
+            "0.051237581",
+            "0.051237581"
+          ],
+          [
+            "0.139927398",
+            "0.139968589",
+            "0.051196386"
+          ],
+          [
+            "0.242388082",
+            "0.140168090",
+            "0.051264490"
+          ],
+          [
+            "0.345125729",
+            "0.140612615",
+            "0.051474117"
+          ],
+          [
+            "0.448299474",
+            "0.141043261",
+            "0.051700526"
+          ],
+          [
+            "0.551700526",
+            "0.141043261",
+            "0.051700526"
+          ],
+          [
+            "0.654874271",
+            "0.140612615",
+            "0.051474117"
+          ],
+          [
+            "0.757611919",
+            "0.140168088",
+            "0.051264491"
+          ],
+          [
+            "0.860072602",
+            "0.139968589",
+            "0.051196386"
+          ],
+          [
+            "0.190917401",
+            "0.228587949",
+            "0.051045344"
+          ],
+          [
+            "0.396112082",
+            "0.230369330",
+            "0.051753185"
+          ],
+          [
+            "0.500000000",
+            "0.231095151",
+            "0.052137267"
+          ],
+          [
+            "0.603887918",
+            "0.230369330",
+            "0.051753185"
+          ],
+          [
+            "0.706836514",
+            "0.229169895",
+            "0.051202397"
+          ],
+          [
+            "0.809082599",
+            "0.228587949",
+            "0.051045344"
+          ],
+          [
+            "0.343056100",
+            "0.318439363",
+            "0.051063486"
+          ],
+          [
+            "0.447031366",
+            "0.321878269",
+            "0.052968634"
+          ],
+          [
+            "0.552968634",
+            "0.321878269",
+            "0.052968634"
+          ],
+          [
+            "0.656943900",
+            "0.318439363",
+            "0.051063486"
+          ],
+          [
+            "0.758616512",
+            "0.316845221",
+            "0.050621622"
+          ],
+          [
+            "0.290428302",
+            "0.404097087",
+            "0.049469744"
+          ],
+          [
+            "0.390251003",
+            "0.408305540",
+            "0.050441630"
+          ],
+          [
+            "0.609748997",
+            "0.408305540",
+            "0.050441630"
+          ],
+          [
+            "0.709571698",
+            "0.404097085",
+            "0.049469744"
+          ],
+          [
+            "0.335922404",
+            "0.488683993",
+            "0.046575339"
+          ],
+          [
+            "0.426408124",
+            "0.495753057",
+            "0.044186091"
+          ],
+          [
+            "0.460226149",
+            "0.572601044",
+            "0.039773851"
+          ],
+          [
+            "0.664077596",
+            "0.488683993",
+            "0.046575339"
+          ],
+          [
+            "0.377579829",
+            "0.567984879",
+            "0.043001284"
+          ],
+          [
+            "0.500000000",
+            "0.513452074",
+            "0.031504195"
+          ],
+          [
+            "0.539773851",
+            "0.572601044",
+            "0.039773851"
+          ],
+          [
+            "0.622420171",
+            "0.567984879",
+            "0.043001284"
+          ],
+          [
+            "0.418135048",
+            "0.641796036",
+            "0.041217554"
+          ],
+          [
+            "0.500000000",
+            "0.642501740",
+            "0.040650439"
+          ],
+          [
+            "0.581864952",
+            "0.641796036",
+            "0.041217554"
+          ],
+          [
+            "0.459023346",
+            "0.713098453",
+            "0.040976652"
+          ],
+          [
+            "0.540976654",
+            "0.713098453",
+            "0.040976652"
+          ],
+          [
+            "0.500000000",
+            "0.784072097",
+            "0.040976653"
+          ],
+          [
+            "0.293163486",
+            "0.229169895",
+            "0.051202397"
+          ],
+          [
+            "0.500000000",
+            "0.421812478",
+            "0.060135399"
+          ],
+          [
+            "0.573591876",
+            "0.495753057",
+            "0.044186091"
+          ],
+          [
+            "0.241383488",
+            "0.316845221",
+            "0.050621622"
+          ]
+        ]
+      }
+    }
+  ]
+}

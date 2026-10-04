@@ -37,7 +37,7 @@ managed.
 
 ## The records
 
-67 problem families, 2211 sub-problems, 2084 still open.
+68 problem families, 2261 sub-problems, 2129 still open.
 `records/` holds today's snapshot of each family; the live files are at
 `https://minmaxarena.com/data/{slug}.json`, and the citable ones are the monthly frozen
 editions at `https://minmaxarena.com/data/editions/{YYYY-MM}/{slug}.json`, which never change
@@ -50,7 +50,7 @@ once published. Data is CC BY 4.0; see
 | [P01](https://minmaxarena.com/en/problems/square-circle-packing) | Equal-circle packing in a unit square | 300 | 269 | [json](records/square-circle-packing.json) |
 | [P02](https://minmaxarena.com/en/problems/circle-circle-packing) | Equal-circle packing in a unit circle | 300 | 288 | [json](records/circle-circle-packing.json) |
 | [P03](https://minmaxarena.com/en/problems/heilbronn-triangle) | Heilbronn minimum triangle area | 12 | 11 | [json](records/heilbronn-triangle.json) |
-| [P05](https://minmaxarena.com/en/problems/tilted-squares-in-circle) | Tilted equal squares in a circle | 38 | 37 | [json](records/tilted-squares-in-circle.json) |
+| [P05](https://minmaxarena.com/en/problems/tilted-squares-in-circle) | Tilted equal squares in a circle | 38 | 33 | [json](records/tilted-squares-in-circle.json) |
 | [P06](https://minmaxarena.com/en/problems/graduated-circles-in-circle) | Packing circles of radius 1,2,…,n into a circle | 200 | 196 | [json](records/graduated-circles-in-circle.json) |
 | [P08](https://minmaxarena.com/en/problems/circles-in-an-l) | Equal circles in an L | 15 | 14 | [json](records/circles-in-an-l.json) |
 | [P09](https://minmaxarena.com/en/problems/circles-in-a-semicircle) | Equal circles in a half-disc | 14 | 14 | [json](records/circles-in-a-semicircle.json) |
@@ -114,6 +114,7 @@ once published. Data is CC BY 4.0; see
 | [P90](https://minmaxarena.com/en/problems/dominoes-in-square) | Dominoes in a square | 40 | 35 | [json](records/dominoes-in-square.json) |
 | [P91](https://minmaxarena.com/en/problems/ells-in-square) | L's in a square | 40 | 37 | [json](records/ells-in-square.json) |
 | [P92](https://minmaxarena.com/en/problems/circles-in-disc-radii) | Sum of radii in the unit circle | 50 | 48 | [json](records/circles-in-disc-radii.json) |
+| [P93](https://minmaxarena.com/en/problems/circles-in-triangle-radii) | Sum of radii in the equilateral triangle | 50 | 49 | [json](records/circles-in-triangle-radii.json) |
 <!-- records:end -->
 
 ## Problems the catalogue no longer offers

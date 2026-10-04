@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/pentagons-in-square",
-  "generatedAt": "2026-10-03T10:28:37.144Z",
+  "generatedAt": "2026-10-04T11:10:12.797Z",
   "instances": [
     {
       "instanceId": "p86-n3-v1",
@@ -40,7 +40,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-03T04:36:12.271Z",
+      "recordedAt": "2026-10-04T04:45:45.621Z",
       "answer": {
         "placements": [
           {
@@ -90,7 +90,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-03T04:36:12.271Z",
+      "recordedAt": "2026-10-04T04:45:45.621Z",
       "answer": {
         "placements": [
           {
@@ -145,7 +145,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-03T04:36:12.271Z",
+      "recordedAt": "2026-10-04T04:45:45.621Z",
       "answer": {
         "placements": [
           {
@@ -205,7 +205,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-03T04:36:12.271Z",
+      "recordedAt": "2026-10-04T04:45:45.621Z",
       "answer": {
         "placements": [
           {
@@ -270,7 +270,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-03T04:36:12.271Z",
+      "recordedAt": "2026-10-04T04:45:45.621Z",
       "answer": {
         "placements": [
           {
@@ -340,7 +340,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-03T04:36:12.271Z",
+      "recordedAt": "2026-10-04T04:45:45.621Z",
       "answer": {
         "placements": [
           {
@@ -415,7 +415,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-03T04:36:12.271Z",
+      "recordedAt": "2026-10-04T04:45:45.621Z",
       "answer": {
         "placements": [
           {
@@ -475,8 +475,8 @@
         "sides": 5
       },
       "objective": "minimize",
-      "scoreStored": "4914332593059903276",
-      "scoreDisplay": "4.914332594",
+      "scoreStored": "4914230700558174576",
+      "scoreDisplay": "4.914230701",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -492,9 +492,9 @@
         "source": "Compiled by Erich Friedman; Found by Jonathan Viquerat in June 2026. Source expression: s = 4.90581+.",
         "url": "https://erich-friedman.github.io/packing/peninsqu/"
       },
-      "holder": "今天",
+      "holder": "NUE_13",
       "method": "human",
-      "recordedAt": "2026-10-03T03:15:47.276Z",
+      "recordedAt": "2026-10-04T05:59:54.359Z",
       "answer": {
         "placements": [
           {
@@ -525,12 +525,12 @@
           {
             "turn": "-0.324919696",
             "x": "0.858342250",
-            "y": "0.531480415"
+            "y": "0.531520415"
           },
           {
             "turn": "0.000000000",
             "x": "0.141000000",
-            "y": "0.286670000"
+            "y": "0.286640000"
           },
           {
             "turn": "-0.324919696",
@@ -544,11 +544,11 @@
           },
           {
             "turn": "-0.324919695",
-            "x": "0.366144200",
-            "y": "0.453277721"
+            "x": "0.366134200",
+            "y": "0.453297721"
           }
         ],
-        "radius": "0.173095897"
+        "radius": "0.173099486"
       }
     },
     {
@@ -559,8 +559,8 @@
         "sides": 5
       },
       "objective": "minimize",
-      "scoreStored": "5119855565572268504",
-      "scoreDisplay": "5.119855566",
+      "scoreStored": "5119837138186797496",
+      "scoreDisplay": "5.119837139",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -578,7 +578,7 @@
       },
       "holder": "NUE_13",
       "method": "human",
-      "recordedAt": "2026-10-01T03:22:03.169Z",
+      "recordedAt": "2026-10-04T09:03:00.987Z",
       "answer": {
         "placements": [
           {
@@ -598,8 +598,8 @@
           },
           {
             "turn": "-0.324919696",
-            "x": "0.865576467",
-            "y": "0.548979668"
+            "x": "0.865576469",
+            "y": "0.548983890"
           },
           {
             "turn": "0.000000000",
@@ -623,7 +623,7 @@
           },
           {
             "turn": "-0.324919696",
-            "x": "0.355021062",
+            "x": "0.355020900",
             "y": "0.340122004"
           },
           {
@@ -634,10 +634,10 @@
           {
             "turn": "0.158384440",
             "x": "0.569408669",
-            "y": "0.134416089"
+            "y": "0.134417100"
           }
         ],
-        "radius": "0.166147423"
+        "radius": "0.166148021"
       }
     },
     {
@@ -668,7 +668,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-03T04:36:12.271Z",
+      "recordedAt": "2026-10-04T04:45:45.621Z",
       "answer": {
         "placements": [
           {
@@ -763,7 +763,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-03T04:36:12.271Z",
+      "recordedAt": "2026-10-04T04:45:45.621Z",
       "answer": {
         "placements": [
           {
@@ -863,7 +863,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-03T04:36:12.271Z",
+      "recordedAt": "2026-10-04T04:45:45.621Z",
       "answer": {
         "placements": [
           {
@@ -968,7 +968,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-03T04:36:12.271Z",
+      "recordedAt": "2026-10-04T04:45:45.621Z",
       "answer": {
         "placements": [
           {
@@ -1078,7 +1078,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-03T04:36:12.271Z",
+      "recordedAt": "2026-10-04T04:45:45.621Z",
       "answer": {
         "placements": [
           {
@@ -1193,7 +1193,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-03T04:36:12.271Z",
+      "recordedAt": "2026-10-04T04:45:45.621Z",
       "answer": {
         "placements": [
           {
@@ -1313,7 +1313,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-03T04:36:12.271Z",
+      "recordedAt": "2026-10-04T04:45:45.621Z",
       "answer": {
         "placements": [
           {
@@ -1438,7 +1438,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-03T04:36:12.271Z",
+      "recordedAt": "2026-10-04T04:45:45.621Z",
       "answer": {
         "placements": [
           {
@@ -1568,7 +1568,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-03T04:36:12.271Z",
+      "recordedAt": "2026-10-04T04:45:45.621Z",
       "answer": {
         "placements": [
           {
@@ -1703,7 +1703,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-03T04:36:12.271Z",
+      "recordedAt": "2026-10-04T04:45:45.621Z",
       "answer": {
         "placements": [
           {
@@ -1843,7 +1843,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-03T04:36:12.271Z",
+      "recordedAt": "2026-10-04T04:45:45.621Z",
       "answer": {
         "placements": [
           {
@@ -1988,7 +1988,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-03T04:36:12.271Z",
+      "recordedAt": "2026-10-04T04:45:45.621Z",
       "answer": {
         "placements": [
           {
@@ -2138,7 +2138,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-03T04:36:12.271Z",
+      "recordedAt": "2026-10-04T04:45:45.621Z",
       "answer": {
         "placements": [
           {
@@ -2293,7 +2293,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-03T04:36:12.271Z",
+      "recordedAt": "2026-10-04T04:45:45.621Z",
       "answer": {
         "placements": [
           {
@@ -2433,11 +2433,11 @@
         "sides": 5
       },
       "objective": "minimize",
-      "scoreStored": "7581760051823483819",
-      "scoreDisplay": "7.581760052",
-      "status": "open",
+      "scoreStored": "7573449420855716370",
+      "scoreDisplay": "7.573449421",
+      "status": "ahead",
       "settled": false,
-      "recordStatus": "open",
+      "recordStatus": "ahead",
       "knownBest": {
         "display": "7.57345",
         "kind": "best",
@@ -2450,143 +2450,143 @@
         "source": "Joshua Wolk (September 2026) in Erich Friedman's compiled table, printed as s = 7.57345+; checked 2026-09-29 at revision b5b5578. The interval is converted conservatively from the printed truncated precision; optimality is open. The new construction is published as a figure only and has not been rebuilt here yet.",
         "url": "https://erich-friedman.github.io/packing/peninsqu/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-10-03T04:36:12.271Z",
+      "holder": "zzzcy",
+      "method": "ai",
+      "recordedAt": "2026-10-04T02:59:57.512Z",
       "answer": {
         "placements": [
           {
-            "turn": "-0.168860793",
-            "x": "0.182838755",
-            "y": "0.907903957"
-          },
-          {
-            "turn": "-0.170482844",
-            "x": "0.394948832",
-            "y": "0.907702347"
-          },
-          {
             "turn": "-0.158384440",
-            "x": "0.606307896",
-            "y": "0.909230712"
+            "x": "0.818262214",
+            "y": "0.909131107"
           },
           {
-            "turn": "-0.155334113",
-            "x": "0.819184412",
-            "y": "0.908839660"
+            "turn": "0.324919696",
+            "x": "0.909131107",
+            "y": "0.730790863"
           },
           {
-            "turn": "0.146331100",
-            "x": "0.288895981",
-            "y": "0.760272943"
+            "turn": "0.000000000",
+            "x": "0.090868893",
+            "y": "0.690352549"
+          },
+          {
+            "turn": "0.324919696",
+            "x": "0.909131107",
+            "y": "0.309647452"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.090868893",
+            "y": "0.269209137"
           },
           {
             "turn": "0.158384440",
-            "x": "0.711749751",
-            "y": "0.761444682"
+            "x": "0.181737786",
+            "y": "0.090868893"
           },
           {
-            "turn": "0.000000000",
-            "x": "0.500768207",
-            "y": "0.741817276"
+            "turn": "-0.157318315",
+            "x": "0.107028927",
+            "y": "0.908568607"
           },
           {
-            "turn": "-0.000000000",
-            "x": "0.090769288",
-            "y": "0.730808173"
+            "turn": "0.159450917",
+            "x": "0.892971073",
+            "y": "0.091431393"
           },
           {
-            "turn": "-0.324919696",
-            "x": "0.909230712",
-            "y": "0.730186102"
+            "turn": "-0.158384440",
+            "x": "0.604616634",
+            "y": "0.909131107"
           },
           {
-            "turn": "0.324919696",
-            "x": "0.612091119",
-            "y": "0.586188246"
+            "turn": "0.158384440",
+            "x": "0.395383366",
+            "y": "0.090868893"
           },
           {
-            "turn": "-0.324919696",
-            "x": "0.205942482",
-            "y": "0.580478601"
+            "turn": "-0.247281847",
+            "x": "0.662013393",
+            "y": "0.576164476"
           },
           {
-            "turn": "0.324919696",
-            "x": "0.408908781",
-            "y": "0.580783257"
+            "turn": "0.071863824",
+            "x": "0.337986607",
+            "y": "0.423835524"
           },
           {
-            "turn": "-0.000000000",
-            "x": "0.887802989",
-            "y": "0.532342857"
+            "turn": "0.131894169",
+            "x": "0.499472456",
+            "y": "0.756801541"
           },
           {
-            "turn": "0.000000000",
-            "x": "0.710176696",
-            "y": "0.427177226"
+            "turn": "-0.185093349",
+            "x": "0.500527544",
+            "y": "0.243198459"
           },
           {
-            "turn": "0.007024949",
-            "x": "0.094360967",
-            "y": "0.423342484"
+            "turn": "0.158384440",
+            "x": "0.711439424",
+            "y": "0.762102150"
           },
           {
-            "turn": "-0.000000000",
-            "x": "0.300983174",
-            "y": "0.420478237"
+            "turn": "-0.247281848",
+            "x": "0.247024652",
+            "y": "0.581619743"
           },
           {
-            "turn": "0.000000000",
-            "x": "0.503949473",
-            "y": "0.420782894"
+            "turn": "0.071863825",
+            "x": "0.752975347",
+            "y": "0.418380257"
           },
           {
-            "turn": "0.324919696",
-            "x": "0.875256673",
-            "y": "0.345538447"
+            "turn": "-0.158384440",
+            "x": "0.288560576",
+            "y": "0.237897850"
           },
           {
-            "turn": "-0.324919696",
-            "x": "0.616435428",
-            "y": "0.266754654"
+            "turn": "-0.185093349",
+            "x": "0.395275924",
+            "y": "0.905829488"
           },
           {
-            "turn": "0.324919696",
-            "x": "0.202668372",
-            "y": "0.261541697"
+            "turn": "0.131894169",
+            "x": "0.604724076",
+            "y": "0.094170512"
           },
           {
-            "turn": "-0.324919696",
-            "x": "0.409266926",
-            "y": "0.260666162"
+            "turn": "-0.185093349",
+            "x": "0.452150969",
+            "y": "0.577276330"
           },
           {
-            "turn": "0.324919696",
-            "x": "0.909230712",
-            "y": "0.143165885"
+            "turn": "0.131894169",
+            "x": "0.547849031",
+            "y": "0.422723670"
           },
           {
-            "turn": "-0.000000000",
-            "x": "0.090769288",
-            "y": "0.106705698"
+            "turn": "-0.247281847",
+            "x": "0.900624690",
+            "y": "0.527243247"
           },
           {
-            "turn": "-0.000000000",
-            "x": "0.711326566",
-            "y": "0.106705698"
+            "turn": "0.071863824",
+            "x": "0.099375310",
+            "y": "0.472756753"
           },
           {
-            "turn": "0.126288263",
-            "x": "0.511882884",
-            "y": "0.094735935"
+            "turn": "0.131894169",
+            "x": "0.276357453",
+            "y": "0.768271331"
           },
           {
-            "turn": "0.158384439",
-            "x": "0.303584830",
-            "y": "0.090769289"
+            "turn": "-0.185093349",
+            "x": "0.723642547",
+            "y": "0.231728669"
           }
         ],
-        "radius": "0.112197010"
+        "radius": "0.112320128"
       }
     },
     {
@@ -2616,7 +2616,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-03T04:36:12.271Z",
+      "recordedAt": "2026-10-04T04:45:45.621Z",
       "answer": {
         "placements": [
           {
@@ -2785,7 +2785,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-03T04:36:12.271Z",
+      "recordedAt": "2026-10-04T04:45:45.621Z",
       "answer": {
         "placements": [
           {
@@ -2959,7 +2959,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-03T04:36:12.271Z",
+      "recordedAt": "2026-10-04T04:45:45.621Z",
       "answer": {
         "placements": [
           {
@@ -3138,7 +3138,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-03T04:36:12.271Z",
+      "recordedAt": "2026-10-04T04:45:45.621Z",
       "answer": {
         "placements": [
           {
