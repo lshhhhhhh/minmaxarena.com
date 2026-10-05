@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/probe-codebook",
-  "generatedAt": "2026-10-04T11:10:11.816Z",
+  "generatedAt": "2026-10-05T12:23:20.815Z",
   "instances": [
     {
       "instanceId": "p70-n9-v1",
@@ -35,7 +35,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-04T04:45:45.621Z",
+      "recordedAt": "2026-10-05T08:06:35.196Z",
       "answer": {
         "sequences": [
           "000212332",
@@ -201,38 +201,22 @@
         "correlation": "aperiodic"
       },
       "objective": "minimize",
-      "scoreStored": "70110328659",
-      "scoreDisplay": "49 · 2 · 11538",
+      "scoreStored": "70108564416",
+      "scoreDisplay": "49 · 1 · 11476",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
       "knownBest": null,
       "holder": "CCHES",
       "method": "ai",
-      "recordedAt": "2026-09-23T08:10:47.130Z",
+      "recordedAt": "2026-10-05T07:04:25.235Z",
       "answer": {
-        "base_lex": [
-          50,
-          1,
-          11360
-        ],
-        "evidence": [
-          "judge.py -> (49, 2, 11538)",
-          "n73_lexmin/verify_mce.py -> (M, C, E) : (49, 2, 11538)"
-        ],
-        "lex": [
-          49,
-          2,
-          11538
-        ],
-        "n": 33,
-        "note": "spring seed 31337, target T=48 caps oddCap=45/evenCap=40, 120 gens -> (49,2,11538)",
         "sequences": [
-          "011233131103331301211330101311321",
-          "030103333223023113223032332031213",
-          "010201122221021321221013003222120",
-          "022012200131221213232000102203021",
-          "031211313221002013030233201220122"
+          "011232030003231301311323101001331",
+          "030103233220023113223032332031202",
+          "013301221211021011221112310322113",
+          "003311210101221213232300001223021",
+          "031210313231002013030333211220322"
         ]
       }
     },

@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/lights-in-a-square",
-  "generatedAt": "2026-10-04T11:10:11.005Z",
+  "generatedAt": "2026-10-05T12:23:19.050Z",
   "instances": [
     {
       "instanceId": "p51-n2-v1",
@@ -1998,8 +1998,8 @@
         "n": 26
       },
       "objective": "maximize",
-      "scoreStored": "242004089",
-      "scoreDisplay": "242.004089",
+      "scoreStored": "242004090",
+      "scoreDisplay": "242.00409",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -2010,11 +2010,11 @@
         "source": "Mishari Alhussain (September 2026), compiled by Erich Friedman, checked 2026-09-18. The interval follows the source's three-decimal truncated precision; optimality is open.",
         "url": "https://erich-friedman.github.io/packing/light/"
       },
-      "holder": "今天",
-      "method": "ai",
-      "recordedAt": "2026-09-23T11:19:08.320Z",
+      "holder": "NUE_13",
+      "method": "human",
+      "recordedAt": "2026-10-05T05:07:42.932Z",
       "answer": {
-        "intensity": "242.004089",
+        "intensity": "242.004090",
         "lights": [
           [
             "0.778313408",
@@ -2022,15 +2022,15 @@
           ],
           [
             "0.221686592",
-            "0.937986820"
+            "0.937986821"
           ],
           [
             "0.044565986",
-            "0.936423912"
+            "0.936423913"
           ],
           [
-            "0.955434014",
-            "0.936423912"
+            "0.955434015",
+            "0.936423913"
           ],
           [
             "0.592249828",
@@ -2065,7 +2065,7 @@
             "0.536907037"
           ],
           [
-            "0.926988685",
+            "0.926988686",
             "0.536907035"
           ],
           [
@@ -2093,7 +2093,7 @@
             "0.254008771"
           ],
           [
-            "0.080440830",
+            "0.080440828",
             "0.196662561"
           ],
           [
@@ -2105,16 +2105,16 @@
             "0.037945076"
           ],
           [
-            "0.931363112",
+            "0.931363113",
             "0.037945075"
           ],
           [
             "0.500000000",
-            "0.037527386"
+            "0.037527385"
           ],
           [
             "0.281715786",
-            "0.034953652"
+            "0.034953651"
           ],
           [
             "0.718284216",
@@ -2130,8 +2130,8 @@
         "n": 27
       },
       "objective": "maximize",
-      "scoreStored": "254776540",
-      "scoreDisplay": "254.77654",
+      "scoreStored": "254776541",
+      "scoreDisplay": "254.776541",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -2142,26 +2142,26 @@
         "source": "Mishari Alhussain (September 2026), compiled by Erich Friedman, checked 2026-09-18. The interval follows the source's three-decimal truncated precision; optimality is open.",
         "url": "https://erich-friedman.github.io/packing/light/"
       },
-      "holder": "今天",
-      "method": "ai",
-      "recordedAt": "2026-09-23T12:32:15.510Z",
+      "holder": "NUE_13",
+      "method": "human",
+      "recordedAt": "2026-10-05T05:02:58.633Z",
       "answer": {
-        "intensity": "254.776540",
+        "intensity": "254.776541",
         "lights": [
           [
             "0.222456067",
-            "0.941914576"
+            "0.941914577"
           ],
           [
             "0.777543933",
-            "0.941914576"
+            "0.941914577"
           ],
           [
-            "0.046135896",
+            "0.046135897",
             "0.940049267"
           ],
           [
-            "0.953864104",
+            "0.953864103",
             "0.940049267"
           ],
           [
@@ -2189,7 +2189,7 @@
             "0.694285216"
           ],
           [
-            "0.500000000",
+            "0.500000008",
             "0.683717660"
           ],
           [
@@ -2209,7 +2209,7 @@
             "0.464219504"
           ],
           [
-            "0.078077561",
+            "0.078077570",
             "0.391890512"
           ],
           [
@@ -2242,11 +2242,11 @@
           ],
           [
             "0.228656584",
-            "0.060873074"
+            "0.060873072"
           ],
           [
             "0.771343416",
-            "0.060873074"
+            "0.060873072"
           ],
           [
             "0.049154396",
@@ -2550,8 +2550,8 @@
         "n": 30
       },
       "objective": "maximize",
-      "scoreStored": "294535816",
-      "scoreDisplay": "294.535816",
+      "scoreStored": "294536312",
+      "scoreDisplay": "294.536312",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -2562,13 +2562,11 @@
         "source": "Mishari Alhussain (September 2026), compiled by Erich Friedman, checked 2026-09-18. The interval follows the source's three-decimal truncated precision; optimality is open.",
         "url": "https://erich-friedman.github.io/packing/light/"
       },
-      "holder": "邱仲普",
-      "method": "ai",
-      "recordedAt": "2026-09-17T13:00:41.267Z",
+      "holder": "NUE_13",
+      "method": "human",
+      "recordedAt": "2026-10-05T03:57:01.670Z",
       "answer": {
-        "certify": "local site-replica raw-certified vs ours=294.519372",
-        "instanceId": "p51-n30-v1",
-        "intensity": "294.535816",
+        "intensity": "294.536312",
         "lights": [
           [
             "0.053959503",
@@ -2587,8 +2585,8 @@
             "0.953357288"
           ],
           [
-            "0.954276654",
-            "0.946732175"
+            "0.954266654",
+            "0.946722175"
           ],
           [
             "0.055761897",
@@ -2659,7 +2657,7 @@
             "0.270269447"
           ],
           [
-            "0.400228827",
+            "0.400238827",
             "0.049276812"
           ],
           [
@@ -2690,8 +2688,7 @@
             "0.956051897",
             "0.392025580"
           ]
-        ],
-        "source": "pad: climb from our record, state-rollback"
+        ]
       }
     },
     {
@@ -2701,8 +2698,8 @@
         "n": 31
       },
       "objective": "maximize",
-      "scoreStored": "305903609",
-      "scoreDisplay": "305.903609",
+      "scoreStored": "305918397",
+      "scoreDisplay": "305.918397",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -2713,17 +2710,15 @@
         "source": "Mishari Alhussain (September 2026), compiled by Erich Friedman, checked 2026-09-18. The interval follows the source's three-decimal truncated precision; optimality is open.",
         "url": "https://erich-friedman.github.io/packing/light/"
       },
-      "holder": "邱仲普",
-      "method": "ai",
-      "recordedAt": "2026-09-17T14:35:08.947Z",
+      "holder": "NUE_13",
+      "method": "human",
+      "recordedAt": "2026-10-05T04:00:51.481Z",
       "answer": {
-        "certify": "local site-replica raw-certified vs ours=305.851239",
-        "instanceId": "p51-n31-v1",
-        "intensity": "305.903609",
+        "intensity": "305.918397",
         "lights": [
           [
             "0.042903717",
-            "0.945610372"
+            "0.945600372"
           ],
           [
             "0.650994459",
@@ -2738,8 +2733,8 @@
             "0.933776934"
           ],
           [
-            "0.349112772",
-            "0.929349786"
+            "0.349132772",
+            "0.929359786"
           ],
           [
             "0.803271171",
@@ -2747,19 +2742,19 @@
           ],
           [
             "0.045651045",
-            "0.768290768"
+            "0.768310768"
           ],
           [
             "0.500155850",
-            "0.927637945"
+            "0.927647945"
           ],
           [
             "0.955708308",
-            "0.767475165"
+            "0.767495165"
           ],
           [
             "0.274336898",
-            "0.706800883"
+            "0.706810883"
           ],
           [
             "0.502857633",
@@ -2774,7 +2769,7 @@
             "0.591091472"
           ],
           [
-            "0.730483374",
+            "0.730733374",
             "0.705447595"
           ],
           [
@@ -2802,7 +2797,7 @@
             "0.069773947"
           ],
           [
-            "0.802953191",
+            "0.802963191",
             "0.065711175"
           ],
           [
@@ -2815,7 +2810,7 @@
           ],
           [
             "0.955584947",
-            "0.232321135"
+            "0.232331135"
           ],
           [
             "0.271176618",
@@ -2845,8 +2840,7 @@
             "0.281256591",
             "0.499453912"
           ]
-        ],
-        "source": "pad: climb from our record, state-rollback"
+        ]
       }
     },
     {
@@ -2856,8 +2850,8 @@
         "n": 32
       },
       "objective": "maximize",
-      "scoreStored": "318204745",
-      "scoreDisplay": "318.204745",
+      "scoreStored": "318302924",
+      "scoreDisplay": "318.302924",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -2868,19 +2862,19 @@
         "source": "Mishari Alhussain (September 2026), compiled by Erich Friedman, checked 2026-09-18. The interval follows the source's three-decimal truncated precision; optimality is open.",
         "url": "https://erich-friedman.github.io/packing/light/"
       },
-      "holder": "游侠",
-      "method": "ai",
-      "recordedAt": "2026-09-06T02:29:42.903Z",
+      "holder": "NUE_13",
+      "method": "human",
+      "recordedAt": "2026-10-05T04:54:53.090Z",
       "answer": {
-        "intensity": "318.204745",
+        "intensity": "318.302924",
         "lights": [
           [
             "0.057789472",
             "0.035726158"
           ],
           [
-            "0.407875634",
-            "0.033943316"
+            "0.407935634",
+            "0.031763316"
           ],
           [
             "0.600182902",
@@ -2892,10 +2886,10 @@
           ],
           [
             "0.055328939",
-            "0.189805167"
+            "0.189755167"
           ],
           [
-            "0.228347900",
+            "0.228627900",
             "0.055063459"
           ],
           [
@@ -2943,12 +2937,12 @@
             "0.958543216"
           ],
           [
-            "0.399709506",
+            "0.399769506",
             "0.955118881"
           ],
           [
-            "0.592091900",
-            "0.966062491"
+            "0.592051900",
+            "0.967092491"
           ],
           [
             "0.942210028",
@@ -3172,8 +3166,8 @@
         "n": 34
       },
       "objective": "maximize",
-      "scoreStored": "344245377",
-      "scoreDisplay": "344.245377",
+      "scoreStored": "344265655",
+      "scoreDisplay": "344.265655",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -3184,11 +3178,11 @@
         "source": "Mishari Alhussain (September 2026), compiled by Erich Friedman, checked 2026-09-18. The interval follows the source's three-decimal truncated precision; optimality is open.",
         "url": "https://erich-friedman.github.io/packing/light/"
       },
-      "holder": "游侠",
-      "method": "ai",
-      "recordedAt": "2026-09-12T06:43:26.232Z",
+      "holder": "NUE_13",
+      "method": "human",
+      "recordedAt": "2026-10-05T05:18:40.312Z",
       "answer": {
-        "intensity": "344.245377",
+        "intensity": "344.265655",
         "lights": [
           [
             "0.045637148",
@@ -3199,7 +3193,7 @@
             "0.243257028"
           ],
           [
-            "0.500276690",
+            "0.500296690",
             "0.044123963"
           ],
           [
@@ -3236,7 +3230,7 @@
           ],
           [
             "0.946389285",
-            "0.205985933"
+            "0.205895933"
           ],
           [
             "0.064350210",
@@ -3252,7 +3246,7 @@
           ],
           [
             "0.932445952",
-            "0.356400699"
+            "0.356390699"
           ],
           [
             "0.045200780",
@@ -3287,16 +3281,16 @@
             "0.939653563"
           ],
           [
-            "0.053647756",
+            "0.053667756",
             "0.794028577"
           ],
           [
             "0.271854736",
-            "0.713930819"
+            "0.713940819"
           ],
           [
             "0.722502218",
-            "0.712744391"
+            "0.712814391"
           ],
           [
             "0.941049976",

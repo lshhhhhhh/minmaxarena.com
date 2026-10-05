@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/equilateral-triangles-covering-a-square",
-  "generatedAt": "2026-10-04T11:10:12.069Z",
+  "generatedAt": "2026-10-05T12:23:21.383Z",
   "instances": [
     {
       "instanceId": "p76-n2-v1",
@@ -35,7 +35,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-04T04:45:45.621Z",
+      "recordedAt": "2026-10-05T08:06:35.196Z",
       "answer": {
         "side": "1.366025405",
         "triangles": [
@@ -77,7 +77,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-04T04:45:45.621Z",
+      "recordedAt": "2026-10-05T08:06:35.196Z",
       "answer": {
         "side": "1.077350270",
         "triangles": [
@@ -523,11 +523,11 @@
         "n": 10
       },
       "objective": "minimize",
-      "scoreStored": "530011676",
-      "scoreDisplay": "0.530011676",
-      "status": "open",
+      "scoreStored": "529463361",
+      "scoreDisplay": "0.529463361",
+      "status": "matched",
       "settled": false,
-      "recordStatus": "open",
+      "recordStatus": "matched",
       "knownBest": {
         "display": "0.529461907863038",
         "kind": "best",
@@ -539,71 +539,71 @@
         "source": "Abdulfayyod Mukhamedov (September 2026) in Erich Friedman's compiled table, printed as s = 1.88870+; checked 2026-09-29 at revision b5b5578. The interval is converted conservatively from the printed truncated precision; optimality is open. The new construction is published as a figure only and has not been rebuilt here yet.",
         "url": "https://erich-friedman.github.io/packing/tricosqu/"
       },
-      "holder": "Sigmoid with Codex",
+      "holder": "zzzcy",
       "method": "ai",
-      "recordedAt": "2026-09-02T15:17:10.933Z",
+      "recordedAt": "2026-10-04T11:46:46.482Z",
       "answer": {
-        "side": "0.530011676",
+        "side": "0.529463361",
         "triangles": [
           {
             "down": false,
-            "turn": "0.000000000",
-            "x": "0.193997769",
-            "y": "-0.000000325"
+            "turn": "0.577350269",
+            "x": "0.327794322",
+            "y": "0.770735640"
+          },
+          {
+            "down": false,
+            "turn": "0.577350269",
+            "x": "0.942428833",
+            "y": "0.770735640"
           },
           {
             "down": false,
             "turn": "0.000000000",
-            "x": "0.806002231",
-            "y": "-0.000000325"
-          },
-          {
-            "down": true,
-            "turn": "-1.000000000",
-            "x": "1.000000026",
-            "y": "0.387995057"
-          },
-          {
-            "down": true,
-            "turn": "-1.000000000",
-            "x": "1.000000006",
-            "y": "0.870668111"
-          },
-          {
-            "down": false,
-            "turn": "-1.000000000",
-            "x": "-0.000000026",
-            "y": "0.387995057"
-          },
-          {
-            "down": false,
-            "turn": "-1.000000000",
-            "x": "-0.000000006",
-            "y": "0.870668111"
-          },
-          {
-            "down": true,
-            "turn": "0.000000000",
-            "x": "0.500000000",
-            "y": "1.000000008"
-          },
-          {
-            "down": false,
-            "turn": "-0.577350269",
-            "x": "0.367497081",
-            "y": "0.158493542"
-          },
-          {
-            "down": false,
-            "turn": "-0.267949192",
-            "x": "0.270498213",
-            "y": "0.496828663"
+            "x": "0.502745737",
+            "y": "0.615231660"
           },
           {
             "down": false,
             "turn": "0.267949192",
-            "x": "0.729501788",
-            "y": "0.496828663"
+            "x": "0.229264360",
+            "y": "0.482865820"
+          },
+          {
+            "down": false,
+            "turn": "-0.267949192",
+            "x": "0.770735640",
+            "y": "0.473354306"
+          },
+          {
+            "down": false,
+            "turn": "1.000000000",
+            "x": "0.557945707",
+            "y": "0.407898404"
+          },
+          {
+            "down": true,
+            "turn": "-0.267949192",
+            "x": "0.229264360",
+            "y": "0.332930988"
+          },
+          {
+            "down": true,
+            "turn": "0.577350270",
+            "x": "0.243505533",
+            "y": "0.229264360"
+          },
+          {
+            "down": false,
+            "turn": "-0.267949192",
+            "x": "0.770735640",
+            "y": "-0.075132084"
+          },
+          {
+            "down": false,
+            "turn": "0.267949192",
+            "x": "0.787210067",
+            "y": "0.199111111"
           }
         ]
       }
@@ -615,11 +615,11 @@
         "n": 11
       },
       "objective": "minimize",
-      "scoreStored": "504527948",
-      "scoreDisplay": "0.504527948",
-      "status": "open",
+      "scoreStored": "504104049",
+      "scoreDisplay": "0.504104049",
+      "status": "matched",
       "settled": false,
-      "recordStatus": "open",
+      "recordStatus": "matched",
       "knownBest": {
         "display": "0.504103401689754",
         "kind": "best",
@@ -631,77 +631,77 @@
         "source": "Abdulfayyod Mukhamedov (September 2026) in Erich Friedman's compiled table, printed as s = 1.98371+; checked 2026-09-29 at revision b5b5578. The interval is converted conservatively from the printed truncated precision; optimality is open. The new construction is published as a figure only and has not been rebuilt here yet.",
         "url": "https://erich-friedman.github.io/packing/tricosqu/"
       },
-      "holder": "Sigmoid with Codex",
+      "holder": "zzzcy",
       "method": "ai",
-      "recordedAt": "2026-09-02T15:28:22.115Z",
+      "recordedAt": "2026-10-04T11:46:56.346Z",
       "answer": {
-        "side": "0.504527948",
+        "side": "0.504104049",
         "triangles": [
           {
             "down": false,
-            "turn": "0.000000000",
-            "x": "0.165157351",
-            "y": "-0.000000004"
-          },
-          {
-            "down": false,
-            "turn": "0.000000000",
-            "x": "0.834842649",
-            "y": "-0.000000004"
-          },
-          {
-            "down": true,
-            "turn": "-1.000000000",
-            "x": "1.000000004",
-            "y": "0.403137052"
-          },
-          {
-            "down": true,
-            "turn": "-1.000000000",
-            "x": "1.000000004",
-            "y": "0.890766498"
-          },
-          {
-            "down": false,
-            "turn": "-1.000000000",
-            "x": "-0.000000004",
-            "y": "0.403137052"
-          },
-          {
-            "down": false,
-            "turn": "-1.000000000",
-            "x": "-0.000000004",
-            "y": "0.890766498"
-          },
-          {
-            "down": true,
-            "turn": "0.000000000",
-            "x": "0.500000000",
-            "y": "1.000000004"
+            "turn": "0.267949192",
+            "x": "0.218283456",
+            "y": "0.691952471"
           },
           {
             "down": false,
             "turn": "-0.577350269",
-            "x": "0.373868013",
-            "y": "0.075436531"
+            "x": "0.247322409",
+            "y": "0.781716544"
+          },
+          {
+            "down": true,
+            "turn": "-0.577350269",
+            "x": "0.743768200",
+            "y": "0.768452053"
           },
           {
             "down": false,
-            "turn": "0.000000000",
-            "x": "0.500000000",
-            "y": "0.293903535"
+            "turn": "0.577350268",
+            "x": "0.988161966",
+            "y": "0.781716544"
+          },
+          {
+            "down": true,
+            "turn": "0.267949192",
+            "x": "0.071510019",
+            "y": "0.607212788"
           },
           {
             "down": false,
             "turn": "-0.267949192",
-            "x": "0.233101520",
-            "y": "0.520819787"
+            "x": "0.781716545",
+            "y": "0.424142584"
           },
           {
             "down": false,
-            "turn": "-1.000000000",
-            "x": "0.548431469",
-            "y": "0.646951774"
+            "turn": "0.267949193",
+            "x": "0.218283456",
+            "y": "0.018369057"
+          },
+          {
+            "down": true,
+            "turn": "0.577350269",
+            "x": "0.312493328",
+            "y": "0.218283456"
+          },
+          {
+            "down": true,
+            "turn": "0.000000000",
+            "x": "0.679292500",
+            "y": "0.456102478"
+          },
+          {
+            "down": true,
+            "turn": "-0.577350269",
+            "x": "1.046091672",
+            "y": "0.218283456"
+          },
+          {
+            "down": true,
+            "turn": "1.000000000",
+            "x": "0.289793474",
+            "y": "0.456102478"
           }
         ]
       }

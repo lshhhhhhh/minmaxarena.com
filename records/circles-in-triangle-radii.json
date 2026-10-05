@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/circles-in-triangle-radii",
-  "generatedAt": "2026-10-04T11:10:12.397Z",
+  "generatedAt": "2026-10-05T12:23:22.109Z",
   "instances": [
     {
       "instanceId": "p93-n1-v1",
@@ -30,12 +30,12 @@
         "exact": "√3/6",
         "proofScope": "continuous",
         "certificateDisplay": "0.288675134",
-        "source": "From any point of the triangle the distances to the three sides add up to the height √3/2 (Viviani's theorem); each is at least r for the centre of an inscribed circle, so 3r ≤ √3/2 and r ≤ √3/6, attained by the incircle. The continuous problem is solved; a nine-decimal certificate cannot attain this irrational value, and no grid-optimality claim is made.",
-        "url": "https://erich-friedman.github.io/packing/cirRtri/"
+        "source": "Computer-assisted proof submitted by zzzcy #308 (generated with AI assistance, as stated), the continuous optimum by an elementary proof; the largest nine-decimal grid score is 0.288675134, the current record, by localisation constants and complete rational exclusion trees. MinMax Arena checked every certificate with its own code without running the submitted scripts.",
+        "url": "https://minmaxarena.com/proofs/circles-in-triangle-radii-optimality"
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-04T04:45:45.621Z",
+      "recordedAt": "2026-10-05T08:06:35.196Z",
       "answer": {
         "circles": [
           [
@@ -55,22 +55,17 @@
       "objective": "maximize",
       "scoreStored": "384900179",
       "scoreDisplay": "0.384900179",
-      "status": "open",
-      "settled": false,
+      "status": "proven",
+      "settled": true,
       "recordStatus": "open",
       "knownBest": {
-        "display": "0.384",
-        "kind": "best",
-        "range": {
-          "lower": "0.384",
-          "upper": "0.385",
-          "upperInclusive": false
-        },
-        "comparisonUncertain": true,
-        "truncated": true,
+        "display": "0.3849001794597505",
+        "kind": "proven",
+        "exact": "2√3/9",
+        "proofScope": "continuous",
         "certificateDisplay": "0.384900178",
-        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Triangles); Trivial. Source expression: Σ r = 2√3/9 = .384+. The site's reconstruction of the figure, verified exactly, is stored separately.",
-        "url": "https://erich-friedman.github.io/packing/cirRtri/"
+        "source": "Computer-assisted proof submitted by zzzcy #308 (generated with AI assistance, as stated), the continuous optimum by an elementary proof; the largest nine-decimal grid score is 0.384900179, the current record, by localisation constants and complete rational exclusion trees. MinMax Arena checked every certificate with its own code without running the submitted scripts.",
+        "url": "https://minmaxarena.com/proofs/circles-in-triangle-radii-optimality"
       },
       "holder": "zzzcy",
       "method": "ai",
@@ -99,22 +94,17 @@
       "objective": "maximize",
       "scoreStored": "549038104",
       "scoreDisplay": "0.549038104",
-      "status": "open",
-      "settled": false,
+      "status": "proven",
+      "settled": true,
       "recordStatus": "open",
       "knownBest": {
-        "display": "0.549",
-        "kind": "best",
-        "range": {
-          "lower": "0.549",
-          "upper": "0.550",
-          "upperInclusive": false
-        },
-        "comparisonUncertain": true,
-        "truncated": true,
+        "display": "0.5490381056766579",
+        "kind": "proven",
+        "exact": "3(√3−1)/4",
+        "proofScope": "continuous",
         "certificateDisplay": "0.549038103",
-        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Triangles); Trivial. Source expression: Σ r = (3√3 − 3) / 4 = .549+. The site's reconstruction of the figure, verified exactly, is stored separately.",
-        "url": "https://erich-friedman.github.io/packing/cirRtri/"
+        "source": "Computer-assisted proof submitted by zzzcy #308 (generated with AI assistance, as stated), the continuous optimum by an elementary proof; the largest nine-decimal grid score is 0.549038104, the current record, by localisation constants and complete rational exclusion trees. MinMax Arena checked every certificate with its own code without running the submitted scripts.",
+        "url": "https://minmaxarena.com/proofs/circles-in-triangle-radii-optimality"
       },
       "holder": "NUE_13",
       "method": "human",
@@ -148,21 +138,20 @@
       "objective": "maximize",
       "scoreStored": "617524883",
       "scoreDisplay": "0.617524883",
-      "status": "matched",
-      "settled": false,
-      "recordStatus": "matched",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "open",
       "knownBest": {
-        "display": "0.617",
-        "kind": "best",
+        "display": "0.617524884780866651397285129470",
+        "kind": "proven",
         "range": {
-          "lower": "0.617",
-          "upper": "0.618",
-          "upperInclusive": false
+          "lower": "0.617524884780866651397285129470",
+          "upper": "0.617524884780866651397285129471"
         },
-        "truncated": true,
+        "proofScope": "continuous",
         "certificateDisplay": "0.617524882",
-        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Triangles); Found by David W. Cantrell in June 2011. Source expression: Σ r = .617+. The site's reconstruction of the figure, verified exactly, is stored separately.",
-        "url": "https://erich-friedman.github.io/packing/cirRtri/"
+        "source": "Computer-assisted proof submitted by zzzcy #308 (generated with AI assistance, as stated), the continuous optimum by enumeration of every full-contact triangulation, each with a unique realisation; the largest nine-decimal grid score is 0.617524883, the current record, by localisation constants and complete rational exclusion trees. MinMax Arena checked every certificate with its own code without running the submitted scripts.",
+        "url": "https://minmaxarena.com/proofs/circles-in-triangle-radii-optimality"
       },
       "holder": "NUE_13",
       "method": "human",
@@ -201,21 +190,20 @@
       "objective": "maximize",
       "scoreStored": "693904525",
       "scoreDisplay": "0.693904525",
-      "status": "matched",
-      "settled": false,
-      "recordStatus": "matched",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "open",
       "knownBest": {
-        "display": "0.693",
-        "kind": "best",
+        "display": "0.693904526840437313727618456234",
+        "kind": "proven",
         "range": {
-          "lower": "0.693",
-          "upper": "0.694",
-          "upperInclusive": false
+          "lower": "0.693904526840437313727618456234",
+          "upper": "0.693904526840437313727618456235"
         },
-        "truncated": true,
+        "proofScope": "continuous",
         "certificateDisplay": "0.693904523",
-        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Triangles); Found by David W. Cantrell in June 2011. Source expression: Σ r = .693+. The site's reconstruction of the figure, verified exactly, is stored separately.",
-        "url": "https://erich-friedman.github.io/packing/cirRtri/"
+        "source": "Computer-assisted proof submitted by zzzcy #308 (generated with AI assistance, as stated), the continuous optimum by enumeration of every full-contact triangulation, each with a unique realisation; the largest nine-decimal grid score is 0.693904525, the current record, by localisation constants and complete rational exclusion trees. MinMax Arena checked every certificate with its own code without running the submitted scripts.",
+        "url": "https://minmaxarena.com/proofs/circles-in-triangle-radii-optimality"
       },
       "holder": "zzzcy",
       "method": "ai",
@@ -259,22 +247,17 @@
       "objective": "maximize",
       "scoreStored": "803847575",
       "scoreDisplay": "0.803847575",
-      "status": "open",
-      "settled": false,
+      "status": "proven",
+      "settled": true,
       "recordStatus": "open",
       "knownBest": {
-        "display": "0.803",
-        "kind": "best",
-        "range": {
-          "lower": "0.803",
-          "upper": "0.804",
-          "upperInclusive": false
-        },
-        "comparisonUncertain": true,
-        "truncated": true,
+        "display": "0.803847577293368",
+        "kind": "proven",
+        "exact": "6−3√3",
+        "proofScope": "continuous",
         "certificateDisplay": "0.803847574",
-        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Triangles); Trivial. Source expression: Σ r = 6 − 3√3 = .803+. The site's reconstruction of the figure, verified exactly, is stored separately.",
-        "url": "https://erich-friedman.github.io/packing/cirRtri/"
+        "source": "Computer-assisted proof submitted by zzzcy #308 (generated with AI assistance, as stated), the continuous optimum by enumeration of every full-contact triangulation, each with a unique realisation; the largest nine-decimal grid score is 0.803847575, the current record, by localisation constants and complete rational exclusion trees. MinMax Arena checked every certificate with its own code without running the submitted scripts.",
+        "url": "https://minmaxarena.com/proofs/circles-in-triangle-radii-optimality"
       },
       "holder": "zzzcy",
       "method": "ai",
@@ -323,21 +306,20 @@
       "objective": "maximize",
       "scoreStored": "855687591",
       "scoreDisplay": "0.855687591",
-      "status": "matched",
-      "settled": false,
-      "recordStatus": "matched",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "open",
       "knownBest": {
-        "display": "0.855",
-        "kind": "best",
+        "display": "0.855687593470088819268628714968",
+        "kind": "proven",
         "range": {
-          "lower": "0.855",
-          "upper": "0.856",
-          "upperInclusive": false
+          "lower": "0.855687593470088819268628714968",
+          "upper": "0.855687593470088819268628714969"
         },
-        "truncated": true,
+        "proofScope": "continuous",
         "certificateDisplay": "0.85568759",
-        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Triangles); Found by David W. Cantrell in June 2011. Source expression: Σ r = .855+. The site's reconstruction of the figure, verified exactly, is stored separately.",
-        "url": "https://erich-friedman.github.io/packing/cirRtri/"
+        "source": "Computer-assisted proof submitted by zzzcy #308 (generated with AI assistance, as stated), the continuous optimum by enumeration of every full-contact triangulation, each with a unique realisation; the largest nine-decimal grid score is 0.855687591, the current record, by localisation constants and complete rational exclusion trees. MinMax Arena checked every certificate with its own code without running the submitted scripts.",
+        "url": "https://minmaxarena.com/proofs/circles-in-triangle-radii-optimality"
       },
       "holder": "zzzcy",
       "method": "ai",
@@ -391,21 +373,20 @@
       "objective": "maximize",
       "scoreStored": "912454561",
       "scoreDisplay": "0.912454561",
-      "status": "matched",
-      "settled": false,
-      "recordStatus": "matched",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "open",
       "knownBest": {
-        "display": "0.912",
-        "kind": "best",
+        "display": "0.912454563520543981711710219490",
+        "kind": "proven",
         "range": {
-          "lower": "0.912",
-          "upper": "0.913",
-          "upperInclusive": false
+          "lower": "0.912454563520543981711710219490",
+          "upper": "0.912454563520543981711710219491"
         },
-        "truncated": true,
+        "proofScope": "continuous",
         "certificateDisplay": "0.912454558",
-        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Triangles); Found by David W. Cantrell in June 2011. Source expression: Σ r = .912+. The site's reconstruction of the figure, verified exactly, is stored separately.",
-        "url": "https://erich-friedman.github.io/packing/cirRtri/"
+        "source": "Computer-assisted proof submitted by zzzcy #308 (generated with AI assistance, as stated), the continuous optimum by enumeration of every full-contact triangulation, each with a unique realisation; the largest nine-decimal grid score is 0.912454561, the current record, by localisation constants and complete rational exclusion trees. MinMax Arena checked every certificate with its own code without running the submitted scripts.",
+        "url": "https://minmaxarena.com/proofs/circles-in-triangle-radii-optimality"
       },
       "holder": "zzzcy",
       "method": "ai",
@@ -464,21 +445,20 @@
       "objective": "maximize",
       "scoreStored": "976596440",
       "scoreDisplay": "0.97659644",
-      "status": "matched",
-      "settled": false,
-      "recordStatus": "matched",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "open",
       "knownBest": {
-        "display": "0.976",
-        "kind": "best",
+        "display": "0.976596443373822153941411249187",
+        "kind": "proven",
         "range": {
-          "lower": "0.976",
-          "upper": "0.977",
-          "upperInclusive": false
+          "lower": "0.976596443373822153941411249187",
+          "upper": "0.976596443373822153941411249188"
         },
-        "truncated": true,
+        "proofScope": "continuous",
         "certificateDisplay": "0.976596438",
-        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Triangles); Found by David W. Cantrell in June 2011. Source expression: Σ r = .976+. The site's reconstruction of the figure, verified exactly, is stored separately.",
-        "url": "https://erich-friedman.github.io/packing/cirRtri/"
+        "source": "Computer-assisted proof submitted by zzzcy #308 (generated with AI assistance, as stated), the continuous optimum by enumeration of every full-contact triangulation, each with a unique realisation; the largest nine-decimal grid score is 0.976596440, the current record, by localisation constants and complete rational exclusion trees. MinMax Arena checked every certificate with its own code without running the submitted scripts.",
+        "url": "https://minmaxarena.com/proofs/circles-in-triangle-radii-optimality"
       },
       "holder": "zzzcy",
       "method": "ai",
@@ -542,22 +522,17 @@
       "objective": "maximize",
       "scoreStored": "1056624324",
       "scoreDisplay": "1.056624324",
-      "status": "open",
-      "settled": false,
+      "status": "proven",
+      "settled": true,
       "recordStatus": "open",
       "knownBest": {
-        "display": "1.056",
-        "kind": "best",
-        "range": {
-          "lower": "1.056",
-          "upper": "1.057",
-          "upperInclusive": false
-        },
-        "comparisonUncertain": true,
-        "truncated": true,
+        "display": "1.056624327025936",
+        "kind": "proven",
+        "exact": "5(3−√3)/6",
+        "proofScope": "continuous",
         "certificateDisplay": "1.05662432",
-        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Triangles); Trivial. Source expression: Σ r = (15 − 5√3) / 6 = 1.056+. The site's reconstruction of the figure, verified exactly, is stored separately.",
-        "url": "https://erich-friedman.github.io/packing/cirRtri/"
+        "source": "Computer-assisted proof submitted by zzzcy #308 (generated with AI assistance, as stated), the continuous optimum by enumeration of every full-contact triangulation, each with a unique realisation; the largest nine-decimal grid score is 1.056624324, the current record, by localisation constants and complete rational exclusion trees. MinMax Arena checked every certificate with its own code without running the submitted scripts.",
+        "url": "https://minmaxarena.com/proofs/circles-in-triangle-radii-optimality"
       },
       "holder": "zzzcy",
       "method": "ai",
@@ -626,21 +601,20 @@
       "objective": "maximize",
       "scoreStored": "1098475706",
       "scoreDisplay": "1.098475706",
-      "status": "matched",
-      "settled": false,
-      "recordStatus": "matched",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "open",
       "knownBest": {
-        "display": "1.098",
-        "kind": "best",
+        "display": "1.098475709724551214368757204346",
+        "kind": "proven",
         "range": {
-          "lower": "1.098",
-          "upper": "1.099",
-          "upperInclusive": false
+          "lower": "1.098475709724551214368757204346",
+          "upper": "1.098475709724551214368757204347"
         },
-        "truncated": true,
+        "proofScope": "continuous",
         "certificateDisplay": "1.098475703",
-        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Triangles); Found by David W. Cantrell in June 2011. Source expression: Σ r = 1.098+. The site's reconstruction of the figure, verified exactly, is stored separately.",
-        "url": "https://erich-friedman.github.io/packing/cirRtri/"
+        "source": "Computer-assisted proof submitted by zzzcy #308 (generated with AI assistance, as stated), the continuous optimum by enumeration of every full-contact triangulation, each with a unique realisation; the largest nine-decimal grid score is 1.098475706, the current record, by localisation constants and complete rational exclusion trees. MinMax Arena checked every certificate with its own code without running the submitted scripts.",
+        "url": "https://minmaxarena.com/proofs/circles-in-triangle-radii-optimality"
       },
       "holder": "zzzcy",
       "method": "ai",
@@ -1008,22 +982,17 @@
       "objective": "maximize",
       "scoreStored": "1308432222",
       "scoreDisplay": "1.308432222",
-      "status": "open",
-      "settled": false,
+      "status": "proven",
+      "settled": true,
       "recordStatus": "open",
       "knownBest": {
-        "display": "1.308",
-        "kind": "best",
-        "range": {
-          "lower": "1.308",
-          "upper": "1.309",
-          "upperInclusive": false
-        },
-        "comparisonUncertain": true,
-        "truncated": true,
+        "display": "1.308432226402571",
+        "kind": "proven",
+        "exact": "(60−15√3)/26",
+        "proofScope": "continuous",
         "certificateDisplay": "1.30843222",
-        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Triangles); Trivial. Source expression: Σ r = (60 − 15√3) / 26 = 1.308+. The site's reconstruction of the figure, verified exactly, is stored separately.",
-        "url": "https://erich-friedman.github.io/packing/cirRtri/"
+        "source": "Computer-assisted proof submitted by zzzcy #308 (generated with AI assistance, as stated), the continuous optimum by a power-cell charge argument; the largest nine-decimal grid score is 1.308432222, the current record, by localisation constants and complete rational exclusion trees. MinMax Arena checked every certificate with its own code without running the submitted scripts.",
+        "url": "https://minmaxarena.com/proofs/circles-in-triangle-radii-optimality"
       },
       "holder": "zzzcy",
       "method": "ai",
@@ -6752,25 +6721,25 @@
         "n": 47
       },
       "objective": "maximize",
-      "scoreStored": "2356195336",
-      "scoreDisplay": "2.356195336",
+      "scoreStored": "2356195344",
+      "scoreDisplay": "2.356195344",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
       "knownBest": null,
       "holder": "zzzcy",
       "method": "ai",
-      "recordedAt": "2026-10-04T09:23:58.719Z",
+      "recordedAt": "2026-10-04T11:10:15.945Z",
       "answer": {
         "circles": [
           [
             "0.500000000",
-            "0.768133156",
-            "0.048946123"
+            "0.768133155",
+            "0.048946124"
           ],
           [
-            "0.084777173",
-            "0.048946124",
+            "0.084777172",
+            "0.048946123",
             "0.048946123"
           ],
           [
@@ -6779,33 +6748,33 @@
             "0.052856538"
           ],
           [
-            "0.338841969",
-            "0.381719767",
-            "0.032664596"
+            "0.338841970",
+            "0.381719766",
+            "0.032664597"
           ],
           [
             "0.401941016",
-            "0.600666027",
+            "0.600666026",
             "0.047758117"
           ],
           [
-            "0.180778470",
+            "0.180778469",
             "0.217601259",
             "0.047758117"
           ],
           [
-            "0.225461173",
-            "0.299476972",
+            "0.225461172",
+            "0.299476971",
             "0.045516617"
           ],
           [
             "0.353375921",
-            "0.521031814",
+            "0.521031815",
             "0.045516617"
           ],
           [
-            "0.597775517",
-            "0.596691185",
+            "0.597775518",
+            "0.596691184",
             "0.049991027"
           ],
           [
@@ -6825,7 +6794,7 @@
           ],
           [
             "0.698118211",
-            "0.418501631",
+            "0.418501630",
             "0.052186482"
           ],
           [
@@ -6835,17 +6804,17 @@
           ],
           [
             "0.647334853",
-            "0.508511581",
-            "0.051161185"
+            "0.508511580",
+            "0.051161186"
           ],
           [
             "0.383283479",
             "0.051161186",
-            "0.051161185"
+            "0.051161186"
           ],
           [
             "0.750117065",
-            "0.327415152",
+            "0.327415151",
             "0.052697393"
           ],
           [
@@ -6855,13 +6824,13 @@
           ],
           [
             "0.306350611",
-            "0.448111802",
-            "0.041251509"
+            "0.448111803",
+            "0.041251510"
           ],
           [
-            "0.265099101",
-            "0.376662091",
-            "0.041251509"
+            "0.265099100",
+            "0.376662090",
+            "0.041251510"
           ],
           [
             "0.133360138",
@@ -6870,7 +6839,7 @@
           ],
           [
             "0.450956797",
-            "0.683719274",
+            "0.683719273",
             "0.048680405"
           ],
           [
@@ -6879,13 +6848,13 @@
             "0.052856538"
           ],
           [
-            "0.802736713",
+            "0.802736714",
             "0.052856538",
-            "0.052856537"
+            "0.052856538"
           ],
           [
             "0.548848053",
-            "0.682990973",
+            "0.682990972",
             "0.049213560"
           ],
           [
@@ -6895,33 +6864,33 @@
           ],
           [
             "0.489849613",
-            "0.425089388",
+            "0.425089387",
             "0.051916673"
           ],
           [
-            "0.376786597",
-            "0.229258501",
+            "0.376786598",
+            "0.229258500",
             "0.051916673"
           ],
           [
-            "0.537190141",
-            "0.329955652",
+            "0.537190142",
+            "0.329955651",
             "0.054345047"
           ],
           [
             "0.482845094",
-            "0.235827269",
+            "0.235827268",
             "0.054345047"
           ],
           [
-            "0.590601897",
-            "0.236366105",
-            "0.053413103"
+            "0.590601896",
+            "0.236366104",
+            "0.053413102"
           ],
           [
             "0.644014673",
             "0.144380119",
-            "0.052955812"
+            "0.052955813"
           ],
           [
             "0.696970486",
@@ -6940,12 +6909,12 @@
           ],
           [
             "0.330531238",
-            "0.137971464",
-            "0.050420423"
+            "0.137971465",
+            "0.050420422"
           ],
           [
             "0.545778826",
-            "0.510791223",
+            "0.510791221",
             "0.050420423"
           ],
           [
@@ -6954,48 +6923,48 @@
             "0.052951479"
           ],
           [
-            "0.644470291",
-            "0.328080993",
+            "0.644470290",
+            "0.328080991",
             "0.052951479"
           ],
           [
             "0.433031508",
             "0.141703284",
-            "0.052147758"
+            "0.052147757"
           ],
           [
             "0.593797110",
-            "0.420157475",
+            "0.420157473",
             "0.052147758"
           ],
           [
             "0.316612706",
-            "0.306370553",
+            "0.306370552",
             "0.045895216"
           ],
           [
-            "0.392981671",
-            "0.438645481",
+            "0.392981672",
+            "0.438645480",
             "0.045895216"
           ],
           [
-            "0.749853596",
-            "0.144422094",
-            "0.052883117"
+            "0.749853597",
+            "0.144422093",
+            "0.052883118"
           ],
           [
             "0.231095643",
             "0.134881592",
-            "0.049063167"
+            "0.049063168"
           ],
           [
-            "0.498736936",
-            "0.598449910",
-            "0.049063167"
+            "0.498736937",
+            "0.598449909",
+            "0.049063168"
           ],
           [
             "0.420872420",
-            "0.334359464",
+            "0.334359463",
             "0.062056008"
           ]
         ]
@@ -7008,15 +6977,15 @@
         "n": 48
       },
       "objective": "maximize",
-      "scoreStored": "2379750652",
-      "scoreDisplay": "2.379750652",
+      "scoreStored": "2379750661",
+      "scoreDisplay": "2.379750661",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
       "knownBest": null,
       "holder": "zzzcy",
       "method": "ai",
-      "recordedAt": "2026-10-04T09:24:10.873Z",
+      "recordedAt": "2026-10-04T11:10:28.253Z",
       "answer": {
         "circles": [
           [
@@ -7026,37 +6995,37 @@
           ],
           [
             "0.081981517",
-            "0.047332051",
+            "0.047332050",
             "0.047332050"
           ],
           [
-            "0.906732369",
+            "0.906732368",
             "0.053848092",
-            "0.053848091"
+            "0.053848092"
           ],
           [
-            "0.381680277",
+            "0.381680278",
             "0.297329383",
-            "0.033413706"
+            "0.033413707"
           ],
           [
             "0.402901009",
             "0.602327692",
-            "0.047758662"
+            "0.047758663"
           ],
           [
             "0.174734750",
-            "0.210353825",
-            "0.046147819"
+            "0.210353824",
+            "0.046147820"
           ],
           [
             "0.262293048",
-            "0.366707818",
-            "0.043798533"
+            "0.366707817",
+            "0.043798534"
           ],
           [
             "0.307495033",
-            "0.442940780",
+            "0.442940779",
             "0.044828120"
           ],
           [
@@ -7065,18 +7034,18 @@
             "0.044627969"
           ],
           [
-            "0.354717039",
+            "0.354717038",
             "0.521214416",
             "0.046586758"
           ],
           [
             "0.691030100",
-            "0.054043498",
+            "0.054043497",
             "0.054043497"
           ],
           [
-            "0.273157339",
-            "0.048599165",
+            "0.273157340",
+            "0.048599164",
             "0.048599164"
           ],
           [
@@ -7085,27 +7054,27 @@
             "0.053563395"
           ],
           [
-            "0.596910738",
-            "0.599703637",
+            "0.596910739",
+            "0.599703636",
             "0.049233722"
           ],
           [
-            "0.695531878",
-            "0.423928731",
+            "0.695531879",
+            "0.423928730",
             "0.051712762"
           ],
           [
             "0.746799415",
-            "0.332717011",
+            "0.332717010",
             "0.052919633"
           ],
           [
-            "0.645750372",
-            "0.512973249",
+            "0.645750373",
+            "0.512973248",
             "0.050302552"
           ],
           [
-            "0.582942589",
+            "0.582942590",
             "0.054044013",
             "0.054044012"
           ],
@@ -7120,7 +7089,7 @@
             "0.052963118"
           ],
           [
-            "0.128916085",
+            "0.128916084",
             "0.129206735",
             "0.047041236"
           ],
@@ -7130,9 +7099,9 @@
             "0.048326258"
           ],
           [
-            "0.852962458",
+            "0.852962457",
             "0.147094764",
-            "0.053790864"
+            "0.053790865"
           ],
           [
             "0.798978900",
@@ -7141,36 +7110,36 @@
           ],
           [
             "0.548437119",
-            "0.684774122",
+            "0.684774121",
             "0.048677865"
           ],
           [
             "0.176938111",
-            "0.047624995",
+            "0.047624994",
             "0.047624994"
           ],
           [
             "0.583164281",
-            "0.243455125",
+            "0.243455124",
             "0.055197133"
           ],
           [
             "0.535701784",
-            "0.340298350",
+            "0.340298349",
             "0.052651365"
           ],
           [
-            "0.493303084",
-            "0.432560293",
+            "0.493303085",
+            "0.432560292",
             "0.048886390"
           ],
           [
             "0.358970895",
-            "0.220592463",
-            "0.046612981"
+            "0.220592462",
+            "0.046612982"
           ],
           [
-            "0.437389634",
+            "0.437389635",
             "0.354971854",
             "0.046749793"
           ],
@@ -7181,37 +7150,37 @@
           ],
           [
             "0.527387285",
-            "0.148145939",
+            "0.148145938",
             "0.055233452"
           ],
           [
-            "0.266761656",
-            "0.212920447",
+            "0.266761657",
+            "0.212920445",
             "0.045914870"
           ],
           [
-            "0.319014562",
-            "0.134234041",
+            "0.319014563",
+            "0.134234040",
             "0.048541027"
           ],
           [
-            "0.546198788",
-            "0.515250794",
-            "0.049275080"
+            "0.546198789",
+            "0.515250793",
+            "0.049275081"
           ],
           [
-            "0.449125400",
-            "0.518627834",
-            "0.047857029"
+            "0.449125401",
+            "0.518627833",
+            "0.047857030"
           ],
           [
             "0.398457511",
-            "0.439379814",
+            "0.439379813",
             "0.046204033"
           ],
           [
-            "0.692129049",
-            "0.241071571",
+            "0.692129050",
+            "0.241071570",
             "0.053793700"
           ],
           [
@@ -7221,22 +7190,22 @@
           ],
           [
             "0.592933552",
-            "0.426621808",
+            "0.426621807",
             "0.050920902"
           ],
           [
-            "0.641050866",
-            "0.334684085",
+            "0.641050867",
+            "0.334684084",
             "0.052847208"
           ],
           [
             "0.348693936",
-            "0.365820518",
+            "0.365820517",
             "0.042606909"
           ],
           [
-            "0.305915400",
-            "0.292219222",
+            "0.305915399",
+            "0.292219221",
             "0.042523308"
           ],
           [
@@ -7245,18 +7214,18 @@
             "0.053909954"
           ],
           [
-            "0.499167951",
+            "0.499167952",
             "0.600991677",
             "0.048517550"
           ],
           [
             "0.223247740",
-            "0.130486334",
+            "0.130486333",
             "0.047299097"
           ],
           [
-            "0.465005402",
-            "0.248673786",
+            "0.465005403",
+            "0.248673785",
             "0.063076933"
           ]
         ]
@@ -7269,26 +7238,26 @@
         "n": 49
       },
       "objective": "maximize",
-      "scoreStored": "2403361683",
-      "scoreDisplay": "2.403361683",
+      "scoreStored": "2403361690",
+      "scoreDisplay": "2.40336169",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
       "knownBest": null,
       "holder": "zzzcy",
       "method": "ai",
-      "recordedAt": "2026-10-04T09:24:22.786Z",
+      "recordedAt": "2026-10-04T11:10:39.426Z",
       "answer": {
         "circles": [
           [
-            "0.500000000",
-            "0.771394362",
-            "0.047315520"
+            "0.081952887",
+            "0.047315521",
+            "0.047315521"
           ],
           [
-            "0.081952886",
-            "0.047315521",
-            "0.047315520"
+            "0.500000000",
+            "0.771394361",
+            "0.047315521"
           ],
           [
             "0.904310752",
@@ -7297,13 +7266,8 @@
           ],
           [
             "0.478086936",
-            "0.301326648",
-            "0.033847511"
-          ],
-          [
-            "0.405303774",
-            "0.608518582",
-            "0.046744073"
+            "0.301326647",
+            "0.033847512"
           ],
           [
             "0.175659336",
@@ -7311,49 +7275,49 @@
             "0.046744073"
           ],
           [
-            "0.312039562",
-            "0.449636153",
-            "0.045416111"
+            "0.405303774",
+            "0.608518582",
+            "0.046744073"
           ],
           [
             "0.266623450",
-            "0.370973140",
-            "0.045416110"
+            "0.370973139",
+            "0.045416111"
           ],
           [
-            "0.221435459",
+            "0.312039562",
+            "0.449636152",
+            "0.045416111"
+          ],
+          [
+            "0.358302050",
+            "0.528524410",
+            "0.046036472"
+          ],
+          [
+            "0.221435458",
             "0.291464521",
             "0.046036471"
           ],
           [
-            "0.358302050",
-            "0.528524411",
-            "0.046036471"
+            "0.272136867",
+            "0.047950882",
+            "0.047950882"
           ],
           [
             "0.594541751",
-            "0.606372523",
+            "0.606372522",
             "0.047950882"
           ],
           [
-            "0.272136866",
-            "0.047950883",
-            "0.047950882"
-          ],
-          [
-            "0.794062200",
-            "0.246559258",
-            "0.055067737"
-          ],
-          [
-            "0.683504519",
+            "0.683504520",
             "0.055067737",
             "0.055067737"
           ],
           [
-            "0.642067280",
-            "0.521750422",
-            "0.049103617"
+            "0.794062200",
+            "0.246559257",
+            "0.055067737"
           ],
           [
             "0.369184521",
@@ -7361,9 +7325,9 @@
             "0.049103617"
           ],
           [
-            "0.690354318",
-            "0.433718684",
-            "0.051301684"
+            "0.642067280",
+            "0.521750421",
+            "0.049103617"
           ],
           [
             "0.469565761",
@@ -7371,9 +7335,9 @@
             "0.051301685"
           ],
           [
-            "0.740725489",
-            "0.341470174",
-            "0.053803226"
+            "0.690354318",
+            "0.433718683",
+            "0.051301685"
           ],
           [
             "0.574640899",
@@ -7381,9 +7345,9 @@
             "0.053803226"
           ],
           [
-            "0.129072412",
-            "0.129215811",
-            "0.047172082"
+            "0.740725489",
+            "0.341470173",
+            "0.053803226"
           ],
           [
             "0.452632031",
@@ -7391,9 +7355,9 @@
             "0.047172082"
           ],
           [
-            "0.849064539",
-            "0.150935461",
-            "0.055246213"
+            "0.129072412",
+            "0.129215811",
+            "0.047172082"
           ],
           [
             "0.793818326",
@@ -7401,24 +7365,34 @@
             "0.055246213"
           ],
           [
-            "0.547262775",
-            "0.689244925",
-            "0.047459475"
+            "0.849064539",
+            "0.150935461",
+            "0.055246213"
           ],
           [
-            "0.176727773",
+            "0.176727774",
             "0.047459475",
             "0.047459475"
           ],
           [
-            "0.494609047",
-            "0.444855716",
-            "0.046498635"
+            "0.547262776",
+            "0.689244924",
+            "0.047459475"
           ],
           [
             "0.362048172",
-            "0.215253546",
+            "0.215253545",
             "0.046498635"
+          ],
+          [
+            "0.494609047",
+            "0.444855717",
+            "0.046498635"
+          ],
+          [
+            "0.455425875",
+            "0.223470114",
+            "0.047239869"
           ],
           [
             "0.534182141",
@@ -7426,29 +7400,29 @@
             "0.047239869"
           ],
           [
-            "0.455425875",
-            "0.223470115",
-            "0.047239870"
-          ],
-          [
-            "0.401292312",
-            "0.295847583",
-            "0.043142321"
-          ],
-          [
             "0.444434634",
             "0.370572276",
             "0.043142321"
           ],
           [
-            "0.626669995",
-            "0.150686452",
-            "0.056166706"
+            "0.401292312",
+            "0.295847582",
+            "0.043142321"
           ],
           [
             "0.682836702",
-            "0.247970042",
+            "0.247970041",
             "0.056166706"
+          ],
+          [
+            "0.626669996",
+            "0.150686451",
+            "0.056166707"
+          ],
+          [
+            "0.633719337",
+            "0.345787481",
+            "0.053289984"
           ],
           [
             "0.517398925",
@@ -7456,44 +7430,44 @@
             "0.053289984"
           ],
           [
-            "0.633719337",
-            "0.345787482",
-            "0.053289983"
-          ],
-          [
             "0.356667449",
-            "0.371428222",
-            "0.044629036"
-          ],
-          [
-            "0.318529731",
-            "0.131654242",
-            "0.047749432"
+            "0.371428221",
+            "0.044629037"
           ],
           [
             "0.545248948",
-            "0.524343444",
+            "0.524343443",
             "0.047749432"
           ],
           [
-            "0.450933242",
-            "0.527080365",
-            "0.046605975"
+            "0.318529732",
+            "0.131654241",
+            "0.047749432"
           ],
           [
-            "0.269001636",
+            "0.269001635",
             "0.211965578",
             "0.046605975"
           ],
           [
-            "0.312831673",
-            "0.292826494",
-            "0.045369890"
+            "0.450933242",
+            "0.527080364",
+            "0.046605975"
           ],
           [
             "0.402820654",
-            "0.448691981",
+            "0.448691980",
+            "0.045369889"
+          ],
+          [
+            "0.312831673",
+            "0.292826493",
             "0.045369890"
+          ],
+          [
+            "0.590027197",
+            "0.438426823",
+            "0.049135846"
           ],
           [
             "0.415324832",
@@ -7501,29 +7475,24 @@
             "0.049135846"
           ],
           [
-            "0.590027197",
-            "0.438426824",
-            "0.049135846"
+            "0.499320324",
+            "0.607534212",
+            "0.047277630"
           ],
           [
             "0.223520100",
             "0.129834212",
-            "0.047277629"
-          ],
-          [
-            "0.499320324",
-            "0.607534213",
-            "0.047277629"
+            "0.047277630"
           ],
           [
             "0.738327218",
             "0.151076851",
-            "0.055491198"
+            "0.055491197"
           ],
           [
             "0.562791565",
-            "0.252422408",
-            "0.063960969"
+            "0.252422407",
+            "0.063960968"
           ]
         ]
       }

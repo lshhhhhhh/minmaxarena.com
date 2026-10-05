@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/equilateral-triangles-covering-a-disc",
-  "generatedAt": "2026-10-04T11:10:12.151Z",
+  "generatedAt": "2026-10-05T12:23:21.567Z",
   "instances": [
     {
       "instanceId": "p78-n7-v1",
@@ -19,8 +19,8 @@
         "n": 7
       },
       "objective": "minimize",
-      "scoreStored": "1120813910",
-      "scoreDisplay": "1.12081391",
+      "scoreStored": "1120375714",
+      "scoreDisplay": "1.120375714",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -38,53 +38,53 @@
         "source": "Maurizio Morandi's arrangement (July 2009), listed in Friedman's table only as the truncated r = 0.892+; as a common side s = 1/r the true value lies between 1.119820828667413 and 1.121076233183857, and the upper end is shown. Inside the window is level; only below its lower end is ahead. The site reconstructed the same contact topology from the public raster, and its nine-decimal certificate verifies at 1.137572952 without pretending to be unpublished source coordinates. Optimality is open",
         "url": "https://erich-friedman.github.io/packing/tricovcir/"
       },
-      "holder": "Gaozx1",
+      "holder": "zzzcy",
       "method": "ai",
-      "recordedAt": "2026-09-05T06:30:08.656Z",
+      "recordedAt": "2026-10-04T14:52:59.761Z",
       "answer": {
-        "side": "1.120813910",
+        "side": "1.120375714",
         "triangles": [
           {
             "down": true,
-            "turn": "0.016712407",
-            "x": "0.865815983",
-            "y": "1.996167567"
-          },
-          {
-            "down": true,
-            "turn": "0.016459136",
-            "x": "1.956723842",
-            "y": "1.936214641"
+            "turn": "0.016305312",
+            "x": "0.864478305",
+            "y": "1.996111246"
           },
           {
             "down": false,
-            "turn": "0.016458276",
-            "x": "1.416703375",
-            "y": "0.967736068"
+            "turn": "-0.555812606",
+            "x": "1.692610035",
+            "y": "1.442136675"
           },
           {
             "down": true,
-            "turn": "0.016732310",
-            "x": "1.569028859",
-            "y": "0.973089181"
+            "turn": "-0.555812606",
+            "x": "1.679669425",
+            "y": "1.462952309"
           },
           {
             "down": false,
-            "turn": "0.016725423",
-            "x": "0.382531383",
-            "y": "0.936131539"
+            "turn": "-0.555812606",
+            "x": "1.305791789",
+            "y": "0.479966797"
           },
           {
             "down": true,
-            "turn": "0.016728434",
-            "x": "0.432349538",
-            "y": "0.937825087"
+            "turn": "0.599297292",
+            "x": "0.085765667",
+            "y": "1.410960290"
           },
           {
-            "down": false,
-            "turn": "0.016743742",
-            "x": "1.031904224",
-            "y": "-0.000418093"
+            "down": true,
+            "turn": "0.016305312",
+            "x": "0.432986983",
+            "y": "0.936891462"
+          },
+          {
+            "down": true,
+            "turn": "-0.555812606",
+            "x": "1.296730579",
+            "y": "0.494542218"
           }
         ]
       }
@@ -175,11 +175,11 @@
         "n": 9
       },
       "objective": "minimize",
-      "scoreStored": "988663641",
-      "scoreDisplay": "0.988663641",
-      "status": "open",
+      "scoreStored": "985639670",
+      "scoreDisplay": "0.98563967",
+      "status": "matched",
       "settled": false,
-      "recordStatus": "open",
+      "recordStatus": "matched",
       "knownBest": {
         "display": "0.985639236326719",
         "kind": "best",
@@ -191,65 +191,65 @@
         "source": "Abdulfayyod Mukhamedov (September 2026) in Erich Friedman's compiled table, printed as r = 1.01456+; checked 2026-09-29 at revision b5b5578. The interval is converted conservatively from the printed truncated precision; optimality is open. The new construction is published as a figure only and has not been rebuilt here yet.",
         "url": "https://erich-friedman.github.io/packing/tricovcir/"
       },
-      "holder": "Sigmoid with Codex",
+      "holder": "zzzcy",
       "method": "ai",
-      "recordedAt": "2026-09-03T04:12:35.317Z",
+      "recordedAt": "2026-10-04T14:53:09.770Z",
       "answer": {
-        "side": "0.988663641",
+        "side": "0.985639670",
         "triangles": [
           {
             "down": true,
-            "turn": "0.000000000",
-            "x": "1.000204243",
-            "y": "2.001848479"
+            "turn": "-0.508848749",
+            "x": "0.644679620",
+            "y": "1.612313607"
           },
           {
             "down": false,
-            "turn": "0.000000000",
-            "x": "1.530263588",
-            "y": "1.225348778"
+            "turn": "-0.508848749",
+            "x": "0.702798857",
+            "y": "0.760097086"
           },
           {
             "down": false,
-            "turn": "0.000000000",
-            "x": "0.464784591",
-            "y": "1.216810974"
+            "turn": "-0.508848749",
+            "x": "1.561112044",
+            "y": "0.851242205"
           },
           {
             "down": true,
-            "turn": "0.000000000",
-            "x": "0.994386369",
-            "y": "1.225348778"
-          },
-          {
-            "down": false,
-            "turn": "0.000000000",
-            "x": "1.731497208",
-            "y": "0.789649899"
+            "turn": "-0.508848749",
+            "x": "1.708866381",
+            "y": "1.725320641"
           },
           {
             "down": true,
-            "turn": "0.000000000",
-            "x": "1.539750477",
-            "y": "0.789649899"
+            "turn": "0.397020904",
+            "x": "0.375098525",
+            "y": "0.588960938"
           },
           {
             "down": false,
-            "turn": "0.000000000",
-            "x": "0.264387915",
-            "y": "0.777337302"
+            "turn": "-0.791053651",
+            "x": "0.920498282",
+            "y": "0.137337209"
           },
           {
             "down": true,
-            "turn": "0.000000000",
-            "x": "0.468185546",
-            "y": "0.777337401"
+            "turn": "0.052946645",
+            "x": "0.894402736",
+            "y": "1.994408980"
           },
           {
             "down": false,
-            "turn": "0.000000000",
-            "x": "1.007520452",
-            "y": "-0.000916313"
+            "turn": "0.052946645",
+            "x": "1.433258690",
+            "y": "0.301786046"
+          },
+          {
+            "down": true,
+            "turn": "-0.146702256",
+            "x": "0.370495018",
+            "y": "1.171140139"
           }
         ]
       }
@@ -261,8 +261,8 @@
         "n": 10
       },
       "objective": "minimize",
-      "scoreStored": "923574177",
-      "scoreDisplay": "0.923574177",
+      "scoreStored": "918596643",
+      "scoreDisplay": "0.918596643",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -276,71 +276,71 @@
         "source": "David Cantrell's arrangement (July 2005), listed in Friedman's table as the largest covered-disc radius r = (31√3 − √103)/40 ≈ 1.088+ for n unit triangles; here it is converted in closed form by s = 1/r and shown rounded upward to fifteen places. The site reconstructed the same contact topology from the public raster, and its nine-decimal certificate verifies at 0.932073399; the gap from the continuous target remains explicit. Optimality is open",
         "url": "https://erich-friedman.github.io/packing/tricovcir/"
       },
-      "holder": "Sigmoid with Codex",
+      "holder": "zzzcy",
       "method": "ai",
-      "recordedAt": "2026-09-03T02:53:07.727Z",
+      "recordedAt": "2026-10-04T11:47:06.356Z",
       "answer": {
-        "side": "0.923574177",
+        "side": "0.918596643",
         "triangles": [
           {
-            "down": true,
-            "turn": "0.008596028",
-            "x": "1.005058169",
-            "y": "2.001456976"
+            "down": false,
+            "turn": "-0.568989983",
+            "x": "0.762789590",
+            "y": "1.599298041"
           },
           {
             "down": false,
-            "turn": "0.008959978",
-            "x": "1.525847793",
-            "y": "1.292783260"
+            "turn": "0.006292996",
+            "x": "1.514423173",
+            "y": "1.313207035"
           },
           {
             "down": true,
-            "turn": "0.009877002",
-            "x": "1.827044845",
-            "y": "1.301648140"
-          },
-          {
-            "down": false,
-            "turn": "0.007016499",
-            "x": "0.486193031",
-            "y": "1.314717531"
+            "turn": "0.006292996",
+            "x": "1.842734068",
+            "y": "1.317339317"
           },
           {
             "down": true,
-            "turn": "0.009746283",
-            "x": "0.690088034",
-            "y": "1.322970390"
+            "turn": "-0.568989983",
+            "x": "0.702481601",
+            "y": "1.700783059"
           },
           {
             "down": false,
-            "turn": "0.009184153",
-            "x": "1.257846951",
-            "y": "0.697597504"
+            "turn": "-0.568989983",
+            "x": "0.489316966",
+            "y": "0.902509026"
+          },
+          {
+            "down": false,
+            "turn": "0.006292996",
+            "x": "1.286058117",
+            "y": "0.696868216"
+          },
+          {
+            "down": false,
+            "turn": "-0.568989983",
+            "x": "1.297518399",
+            "y": "0.299216941"
+          },
+          {
+            "down": false,
+            "turn": "0.006292996",
+            "x": "0.157265932",
+            "y": "0.682660683"
+          },
+          {
+            "down": false,
+            "turn": "-0.568989982",
+            "x": "0.260951912",
+            "y": "0.286170207"
           },
           {
             "down": true,
-            "turn": "0.007952254",
-            "x": "1.524503469",
-            "y": "0.704859912"
-          },
-          {
-            "down": false,
-            "turn": "0.010046986",
-            "x": "0.148111433",
-            "y": "0.675695777"
-          },
-          {
-            "down": true,
-            "turn": "0.008484932",
-            "x": "0.486941904",
-            "y": "0.685459912"
-          },
-          {
-            "down": false,
-            "turn": "0.006473347",
-            "x": "1.017174721",
-            "y": "-0.002322925"
+            "turn": "-0.568989982",
+            "x": "1.237210410",
+            "y": "0.400701960"
           }
         ]
       }
@@ -449,11 +449,11 @@
         "n": 12
       },
       "objective": "minimize",
-      "scoreStored": "846006113",
-      "scoreDisplay": "0.846006113",
-      "status": "open",
+      "scoreStored": "842856947",
+      "scoreDisplay": "0.842856947",
+      "status": "matched",
       "settled": false,
-      "recordStatus": "open",
+      "recordStatus": "matched",
       "knownBest": {
         "display": "0.842850520460196",
         "kind": "best",
@@ -465,83 +465,83 @@
         "source": "Abdulfayyod Mukhamedov (September 2026) in Erich Friedman's compiled table, printed as r = 1.18644+; checked 2026-09-29 at revision b5b5578. The interval is converted conservatively from the printed truncated precision; optimality is open. The new construction is published as a figure only and has not been rebuilt here yet.",
         "url": "https://erich-friedman.github.io/packing/tricovcir/"
       },
-      "holder": "Sigmoid with Codex",
+      "holder": "zzzcy",
       "method": "ai",
-      "recordedAt": "2026-09-03T03:39:24.804Z",
+      "recordedAt": "2026-10-04T11:47:16.373Z",
       "answer": {
-        "side": "0.846006113",
+        "side": "0.842856947",
         "triangles": [
           {
             "down": true,
-            "turn": "0.000000000",
-            "x": "1.002976975",
-            "y": "2.000004662"
-          },
-          {
-            "down": false,
-            "turn": "0.000000000",
-            "x": "1.501665314",
-            "y": "1.398432633"
+            "turn": "-0.541711057",
+            "x": "1.072508190",
+            "y": "1.153448368"
           },
           {
             "down": true,
-            "turn": "0.000000000",
-            "x": "1.567894184",
-            "y": "1.398432637"
+            "turn": "-0.541711056",
+            "x": "0.672615527",
+            "y": "0.364868620"
           },
           {
             "down": false,
-            "turn": "0.000000000",
-            "x": "0.501311661",
-            "y": "1.403588904"
+            "turn": "-0.541711055",
+            "x": "0.014360200",
+            "y": "0.680720130"
+          },
+          {
+            "down": false,
+            "turn": "-0.541711056",
+            "x": "0.447598094",
+            "y": "1.535055958"
           },
           {
             "down": true,
-            "turn": "0.000000000",
-            "x": "0.811398212",
-            "y": "1.403588905"
+            "turn": "-0.541711056",
+            "x": "2.050964930",
+            "y": "1.206614565"
           },
           {
             "down": true,
-            "turn": "0.000000000",
-            "x": "0.055695359",
-            "y": "1.403588911"
-          },
-          {
-            "down": false,
-            "turn": "0.000000000",
-            "x": "1.947754065",
-            "y": "0.591043682"
-          },
-          {
-            "down": false,
-            "turn": "0.000000000",
-            "x": "1.188157720",
-            "y": "0.590829994"
+            "turn": "0.027148370",
+            "x": "1.619554851",
+            "y": "0.817666980"
           },
           {
             "down": true,
-            "turn": "0.000000000",
-            "x": "1.504342580",
-            "y": "0.592401365"
+            "turn": "0.027148370",
+            "x": "0.840645301",
+            "y": "0.775343537"
           },
           {
             "down": false,
-            "turn": "0.000000000",
-            "x": "0.433546782",
-            "y": "0.592721210"
+            "turn": "0.614124499",
+            "x": "1.568175906",
+            "y": "1.061523416"
           },
           {
             "down": true,
-            "turn": "0.000000000",
-            "x": "0.498245225",
-            "y": "0.592721214"
+            "turn": "0.027148370",
+            "x": "0.956723881",
+            "y": "1.999123670"
+          },
+          {
+            "down": true,
+            "turn": "-0.541711056",
+            "x": "1.463256652",
+            "y": "0.389202870"
+          },
+          {
+            "down": true,
+            "turn": "0.614124499",
+            "x": "1.252475757",
+            "y": "1.775381578"
           },
           {
             "down": false,
-            "turn": "0.000000000",
-            "x": "1.001201607",
-            "y": "-0.001458338"
+            "turn": "0.027148370",
+            "x": "0.319842139",
+            "y": "1.062825185"
           }
         ]
       }
@@ -553,8 +553,8 @@
         "n": 13
       },
       "objective": "minimize",
-      "scoreStored": "799352088",
-      "scoreDisplay": "0.799352088",
+      "scoreStored": "797352089",
+      "scoreDisplay": "0.797352089",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -568,89 +568,89 @@
         "source": "Maurizio Morandi's arrangement (August 2009), listed in Friedman's table as the largest covered-disc radius r = (40√3 − √165)/45 ≈ 1.254+ for n unit triangles; here it is converted in closed form by s = 1/r and shown rounded upward to fifteen places. The site reconstructed the same contact topology from the public raster, and its nine-decimal certificate verifies at 0.809264627; the gap from the continuous target remains explicit. Optimality is open",
         "url": "https://erich-friedman.github.io/packing/tricovcir/"
       },
-      "holder": "Sigmoid with Codex",
+      "holder": "zzzcy",
       "method": "ai",
-      "recordedAt": "2026-09-03T03:25:51.452Z",
+      "recordedAt": "2026-10-04T11:47:26.396Z",
       "answer": {
-        "side": "0.799352088",
+        "side": "0.797352089",
         "triangles": [
           {
             "down": true,
-            "turn": "0.000000000",
-            "x": "1.443399847",
-            "y": "1.992077603"
-          },
-          {
-            "down": true,
-            "turn": "0.000000000",
-            "x": "0.731069455",
-            "y": "2.000004756"
+            "turn": "0.000176470",
+            "x": "1.439653389",
+            "y": "1.992439605"
           },
           {
             "down": false,
-            "turn": "0.000000000",
-            "x": "1.084946288",
-            "y": "1.228418982"
-          },
-          {
-            "down": false,
-            "turn": "0.000000000",
-            "x": "0.377021435",
-            "y": "1.228715488"
+            "turn": "0.577585588",
+            "x": "0.928868294",
+            "y": "1.654711354"
           },
           {
             "down": true,
-            "turn": "0.000000000",
-            "x": "1.003032672",
-            "y": "1.228715508"
+            "turn": "0.577585587",
+            "x": "0.883114070",
+            "y": "1.575398084"
           },
           {
             "down": true,
-            "turn": "0.000000000",
-            "x": "0.121308631",
-            "y": "1.228715488"
+            "turn": "0.577585588",
+            "x": "0.177326451",
+            "y": "1.575148982"
           },
           {
             "down": false,
-            "turn": "0.000000000",
-            "x": "1.712501759",
-            "y": "1.073657359"
+            "turn": "0.577585587",
+            "x": "1.199378630",
+            "y": "0.884982501"
           },
           {
             "down": true,
-            "turn": "0.000000000",
-            "x": "1.801559176",
-            "y": "1.080595203"
-          },
-          {
-            "down": false,
-            "turn": "0.000000000",
-            "x": "0.562171060",
-            "y": "0.607793187"
+            "turn": "0.000176470",
+            "x": "0.119911549",
+            "y": "1.229865117"
           },
           {
             "down": true,
-            "turn": "0.000000000",
-            "x": "0.471413195",
-            "y": "0.607793187"
+            "turn": "0.577585587",
+            "x": "1.510754384",
+            "y": "1.424740991"
           },
           {
             "down": false,
-            "turn": "0.000000000",
-            "x": "1.359698760",
-            "y": "0.461960866"
+            "turn": "0.577585587",
+            "x": "2.001238538",
+            "y": "0.734386897"
           },
           {
             "down": true,
-            "turn": "0.000000000",
-            "x": "1.444578805",
-            "y": "0.471136111"
+            "turn": "-0.577114999",
+            "x": "0.759349758",
+            "y": "0.956408689"
           },
           {
             "down": false,
-            "turn": "0.000000000",
-            "x": "0.918546547",
-            "y": "-0.002267558"
+            "turn": "-0.577114999",
+            "x": "0.269353037",
+            "y": "0.265708543"
+          },
+          {
+            "down": true,
+            "turn": "0.577585587",
+            "x": "1.158076303",
+            "y": "0.813386432"
+          },
+          {
+            "down": false,
+            "turn": "0.577585587",
+            "x": "1.639651216",
+            "y": "0.123029194"
+          },
+          {
+            "down": true,
+            "turn": "0.577585587",
+            "x": "0.713783276",
+            "y": "0.345162523"
           }
         ]
       }
@@ -662,11 +662,11 @@
         "n": 14
       },
       "objective": "minimize",
-      "scoreStored": "777193799",
-      "scoreDisplay": "0.777193799",
-      "status": "open",
+      "scoreStored": "774675782",
+      "scoreDisplay": "0.774675782",
+      "status": "matched",
       "settled": false,
-      "recordStatus": "open",
+      "recordStatus": "matched",
       "knownBest": {
         "display": "0.775193798449613",
         "kind": "best",
@@ -681,95 +681,95 @@
         "source": "Maurizio Morandi's arrangement (August 2009), listed in Friedman's table only as the truncated r = 1.290+; as a common side s = 1/r the true value lies between 0.774593338497288 and 0.775193798449613, and the upper end is shown. Inside the window is level; only below its lower end is ahead. The site reconstructed the same contact topology from the public raster, and its nine-decimal certificate verifies at 0.785385433 without pretending to be unpublished source coordinates. Optimality is open",
         "url": "https://erich-friedman.github.io/packing/tricovcir/"
       },
-      "holder": "Sigmoid with Codex",
+      "holder": "zzzcy",
       "method": "ai",
-      "recordedAt": "2026-09-03T03:42:16.130Z",
+      "recordedAt": "2026-10-04T12:30:19.733Z",
       "answer": {
-        "side": "0.777193799",
+        "side": "0.774675782",
         "triangles": [
           {
-            "down": true,
-            "turn": "0.000000000",
-            "x": "1.418446257",
-            "y": "1.993767618"
-          },
-          {
-            "down": true,
-            "turn": "0.000000000",
-            "x": "0.726490179",
-            "y": "2.000004702"
-          },
-          {
             "down": false,
-            "turn": "0.000000000",
-            "x": "1.070667727",
-            "y": "1.249998559"
-          },
-          {
-            "down": false,
-            "turn": "0.000000000",
-            "x": "0.380242203",
-            "y": "1.253584643"
+            "turn": "-0.573577190",
+            "x": "1.221473109",
+            "y": "1.659835994"
           },
           {
             "down": true,
-            "turn": "0.000000000",
-            "x": "0.922693020",
-            "y": "1.253584644"
+            "turn": "0.002834440",
+            "x": "0.719703089",
+            "y": "1.998427086"
           },
           {
             "down": true,
-            "turn": "0.000000000",
-            "x": "0.099269301",
-            "y": "1.253584645"
+            "turn": "-0.573577190",
+            "x": "1.260708222",
+            "y": "1.592759818"
           },
           {
             "down": false,
-            "turn": "0.000000000",
-            "x": "1.693997356",
-            "y": "1.124896976"
+            "turn": "0.002834440",
+            "x": "0.378899386",
+            "y": "1.252311067"
+          },
+          {
+            "down": false,
+            "turn": "0.581135718",
+            "x": "1.126915416",
+            "y": "0.921101672"
           },
           {
             "down": true,
-            "turn": "0.000000000",
-            "x": "1.838215965",
-            "y": "1.124896976"
-          },
-          {
-            "down": false,
-            "turn": "0.000000000",
-            "x": "1.343423691",
-            "y": "0.636172399"
-          },
-          {
-            "down": false,
-            "turn": "0.000000000",
-            "x": "0.510981160",
-            "y": "0.620551358"
+            "turn": "0.002834440",
+            "x": "0.096795934",
+            "y": "1.250711844"
           },
           {
             "down": true,
-            "turn": "0.000000000",
-            "x": "1.271978088",
-            "y": "0.636172402"
+            "turn": "0.581135718",
+            "x": "1.497207807",
+            "y": "1.466184497"
+          },
+          {
+            "down": false,
+            "turn": "0.581135718",
+            "x": "2.036042583",
+            "y": "0.798339426"
           },
           {
             "down": true,
-            "turn": "0.000000000",
-            "x": "0.448370353",
-            "y": "0.628514919"
+            "turn": "-0.573577190",
+            "x": "1.543897430",
+            "y": "0.975332346"
           },
           {
-            "down": false,
-            "turn": "0.000000000",
-            "x": "1.686276756",
-            "y": "0.054121086"
+            "down": true,
+            "turn": "0.581135717",
+            "x": "0.322013695",
+            "y": "0.968405578"
           },
           {
-            "down": false,
-            "turn": "0.000000000",
-            "x": "0.862384741",
-            "y": "-0.000530257"
+            "down": true,
+            "turn": "0.002834440",
+            "x": "1.258415296",
+            "y": "0.638264127"
+          },
+          {
+            "down": true,
+            "turn": "0.002834441",
+            "x": "0.444395921",
+            "y": "0.633649512"
+          },
+          {
+            "down": true,
+            "turn": "-0.573577190",
+            "x": "1.887713213",
+            "y": "0.387546400"
+          },
+          {
+            "down": true,
+            "turn": "-0.573577190",
+            "x": "1.046779805",
+            "y": "0.335698966"
           }
         ]
       }
@@ -781,11 +781,11 @@
         "n": 15
       },
       "objective": "minimize",
-      "scoreStored": "746601640",
-      "scoreDisplay": "0.74660164",
-      "status": "open",
+      "scoreStored": "744115024",
+      "scoreDisplay": "0.744115024",
+      "status": "matched",
       "settled": false,
-      "recordStatus": "open",
+      "recordStatus": "matched",
       "knownBest": {
         "display": "0.744601638123604",
         "kind": "best",
@@ -800,101 +800,101 @@
         "source": "Maurizio Morandi's arrangement (August 2009), listed in Friedman's table only as the truncated r = 1.343+; as a common side s = 1/r the true value lies between 0.744047619047619 and 0.744601638123604, and the upper end is shown. Inside the window is level; only below its lower end is ahead. The site reconstructed the same contact topology from the public raster, and its nine-decimal certificate verifies at 0.755638952 without pretending to be unpublished source coordinates. Optimality is open",
         "url": "https://erich-friedman.github.io/packing/tricovcir/"
       },
-      "holder": "Sigmoid with Codex",
+      "holder": "zzzcy",
       "method": "ai",
-      "recordedAt": "2026-09-03T03:35:44.894Z",
+      "recordedAt": "2026-10-04T12:32:18.552Z",
       "answer": {
-        "side": "0.746601640",
+        "side": "0.744115024",
         "triangles": [
           {
             "down": true,
-            "turn": "0.000000000",
-            "x": "0.683960276",
-            "y": "2.000189049"
-          },
-          {
-            "down": false,
-            "turn": "0.000000000",
-            "x": "1.633841151",
-            "y": "1.255584192"
+            "turn": "-0.028233726",
+            "x": "0.638113639",
+            "y": "2.016806025"
           },
           {
             "down": true,
-            "turn": "0.000000000",
-            "x": "1.891093997",
-            "y": "1.256268734"
-          },
-          {
-            "down": false,
-            "turn": "0.000000000",
-            "x": "0.999639287",
-            "y": "1.254131560"
-          },
-          {
-            "down": false,
-            "turn": "0.000000000",
-            "x": "0.366707658",
-            "y": "1.256534731"
+            "turn": "0.540309100",
+            "x": "1.456673172",
+            "y": "1.599646414"
           },
           {
             "down": true,
-            "turn": "0.000000000",
-            "x": "1.002414230",
-            "y": "1.254131560"
+            "turn": "-0.028233726",
+            "x": "1.933387172",
+            "y": "1.249980751"
           },
           {
             "down": true,
-            "turn": "0.000000000",
-            "x": "0.108823719",
-            "y": "1.256534731"
+            "turn": "0.540309100",
+            "x": "0.775226710",
+            "y": "1.638156658"
+          },
+          {
+            "down": true,
+            "turn": "-0.615619047",
+            "x": "0.528937972",
+            "y": "1.517776635"
           },
           {
             "down": false,
-            "turn": "0.000000000",
-            "x": "1.445364712",
-            "y": "0.735903934"
-          },
-          {
-            "down": true,
-            "turn": "0.000000000",
-            "x": "1.629941987",
-            "y": "0.737662284"
+            "turn": "0.540309100",
+            "x": "1.261896337",
+            "y": "0.965203014"
           },
           {
             "down": false,
-            "turn": "0.000000000",
-            "x": "0.553924141",
-            "y": "0.737787209"
+            "turn": "0.540309100",
+            "x": "0.337997285",
+            "y": "0.883116444"
           },
           {
             "down": true,
-            "turn": "0.000000000",
-            "x": "1.002327455",
-            "y": "0.738006809"
+            "turn": "0.540309100",
+            "x": "1.314657087",
+            "y": "1.045724068"
           },
           {
             "down": true,
-            "turn": "0.000000000",
-            "x": "0.359262580",
-            "y": "0.737896858"
+            "turn": "-0.028233726",
+            "x": "1.617609919",
+            "y": "0.705878083"
           },
           {
             "down": false,
-            "turn": "0.000000000",
-            "x": "1.313847639",
-            "y": "-0.000005228"
+            "turn": "-0.028233726",
+            "x": "0.643166251",
+            "y": "0.760946331"
           },
           {
             "down": false,
-            "turn": "0.000000000",
-            "x": "0.680826760",
-            "y": "0.001710384"
+            "turn": "-0.615619047",
+            "x": "0.780638625",
+            "y": "0.430452060"
+          },
+          {
+            "down": false,
+            "turn": "0.540309100",
+            "x": "0.520737549",
+            "y": "0.445139720"
           },
           {
             "down": true,
-            "turn": "0.000000000",
-            "x": "1.316526163",
-            "y": "1.998419363"
+            "turn": "-0.615619047",
+            "x": "1.463255696",
+            "y": "0.296420961"
+          },
+          {
+            "down": false,
+            "turn": "-0.028233726",
+            "x": "0.627048060",
+            "y": "0.019480888"
+          },
+          {
+            "down": false,
+            "turn": "0.540309100",
+            "x": "1.490423823",
+            "y": "1.651155119"
           }
         ]
       }
@@ -906,11 +906,11 @@
         "n": 16
       },
       "objective": "minimize",
-      "scoreStored": "724390806",
-      "scoreDisplay": "0.724390806",
-      "status": "open",
+      "scoreStored": "717981075",
+      "scoreDisplay": "0.717981075",
+      "status": "matched",
       "settled": false,
-      "recordStatus": "open",
+      "recordStatus": "matched",
       "knownBest": {
         "display": "0.718390804597702",
         "kind": "best",
@@ -925,107 +925,107 @@
         "source": "Maurizio Morandi's arrangement (August 2009), listed in Friedman's table only as the truncated r = 1.392+; as a common side s = 1/r the true value lies between 0.717875089734386 and 0.718390804597702, and the upper end is shown. Inside the window is level; only below its lower end is ahead. The site reconstructed the same contact topology from the public raster, and its nine-decimal certificate verifies at 0.729117139 without pretending to be unpublished source coordinates. Optimality is open",
         "url": "https://erich-friedman.github.io/packing/tricovcir/"
       },
-      "holder": "Sigmoid with Codex",
+      "holder": "zzzcy",
       "method": "ai",
-      "recordedAt": "2026-09-03T04:06:27.820Z",
+      "recordedAt": "2026-10-04T14:52:29.853Z",
       "answer": {
-        "side": "0.724390806",
+        "side": "0.717981075",
         "triangles": [
           {
-            "down": true,
-            "turn": "0.000000000",
-            "x": "1.318173551",
-            "y": "1.998435856"
-          },
-          {
-            "down": true,
-            "turn": "0.000000000",
-            "x": "0.694667400",
-            "y": "2.000004706"
+            "down": false,
+            "turn": "-0.578251384",
+            "x": "1.133345351",
+            "y": "1.687873213"
           },
           {
             "down": false,
-            "turn": "0.000000000",
-            "x": "1.629312679",
-            "y": "1.282662954"
+            "turn": "-0.578251384",
+            "x": "0.508917620",
+            "y": "1.689769229"
           },
           {
             "down": true,
-            "turn": "0.000000000",
-            "x": "1.932766846",
-            "y": "1.282662962"
+            "turn": "-0.578251384",
+            "x": "1.804745161",
+            "y": "1.606474297"
           },
           {
             "down": false,
-            "turn": "0.000000000",
-            "x": "1.003677977",
-            "y": "1.288476564"
+            "turn": "-0.578251384",
+            "x": "1.759036092",
+            "y": "0.984745642"
           },
           {
             "down": true,
-            "turn": "0.000000000",
-            "x": "1.183191923",
-            "y": "1.290978329"
-          },
-          {
-            "down": false,
-            "turn": "0.000000000",
-            "x": "0.377560662",
-            "y": "1.294568016"
+            "turn": "-0.578251384",
+            "x": "1.179708450",
+            "y": "1.607318813"
           },
           {
             "down": true,
-            "turn": "0.000000000",
-            "x": "0.445208319",
-            "y": "1.294568086"
+            "turn": "-0.000675572",
+            "x": "1.188110923",
+            "y": "1.296412254"
           },
           {
             "down": false,
-            "turn": "0.000000000",
-            "x": "1.551437492",
-            "y": "0.697158395"
+            "turn": "-0.000675573",
+            "x": "0.375971686",
+            "y": "1.297509570"
           },
           {
             "down": false,
-            "turn": "0.000000000",
-            "x": "0.814080926",
-            "y": "0.697156842"
+            "turn": "0.576449856",
+            "x": "0.616345627",
+            "y": "0.986289583"
           },
           {
             "down": true,
-            "turn": "0.000000000",
-            "x": "1.003466440",
-            "y": "0.710844318"
-          },
-          {
-            "down": false,
-            "turn": "0.000000000",
-            "x": "0.063690672",
-            "y": "0.700694391"
+            "turn": "0.576449857",
+            "x": "1.383654373",
+            "y": "1.013710417"
           },
           {
             "down": true,
-            "turn": "0.000000000",
-            "x": "0.379857907",
-            "y": "0.700694486"
+            "turn": "0.576449857",
+            "x": "0.632814036",
+            "y": "1.014724911"
           },
           {
             "down": false,
-            "turn": "0.000000000",
-            "x": "1.311560138",
-            "y": "-0.010190993"
-          },
-          {
-            "down": false,
-            "turn": "0.000000000",
-            "x": "0.696037270",
-            "y": "0.000747157"
+            "turn": "-0.578251384",
+            "x": "0.820291550",
+            "y": "0.392681187"
           },
           {
             "down": true,
-            "turn": "0.000000000",
-            "x": "1.625641324",
-            "y": "0.700023092"
+            "turn": "0.576449856",
+            "x": "-0.118026302",
+            "y": "1.015739407"
+          },
+          {
+            "down": false,
+            "turn": "-0.578251384",
+            "x": "0.195254839",
+            "y": "0.393525703"
+          },
+          {
+            "down": true,
+            "turn": "-0.578251384",
+            "x": "1.491082380",
+            "y": "0.310230771"
+          },
+          {
+            "down": true,
+            "turn": "-0.578251384",
+            "x": "0.866654649",
+            "y": "0.312126787"
+          },
+          {
+            "down": false,
+            "turn": "0.576449857",
+            "x": "1.803103355",
+            "y": "0.391353265"
           }
         ]
       }
@@ -1037,11 +1037,11 @@
         "n": 17
       },
       "objective": "minimize",
-      "scoreStored": "699350071",
-      "scoreDisplay": "0.699350071",
-      "status": "open",
+      "scoreStored": "697237786",
+      "scoreDisplay": "0.697237786",
+      "status": "matched",
       "settled": false,
-      "recordStatus": "open",
+      "recordStatus": "matched",
       "knownBest": {
         "display": "0.697350069735007",
         "kind": "best",
@@ -1056,113 +1056,113 @@
         "source": "Maurizio Morandi's arrangement (August 2009), listed in Friedman's table only as the truncated r = 1.434+; as a common side s = 1/r the true value lies between 0.696864111498257 and 0.697350069735007, and the upper end is shown. Inside the window is level; only below its lower end is ahead. The site reconstructed the same contact topology from the public raster, and its nine-decimal certificate verifies at 0.707502586 without pretending to be unpublished source coordinates. Optimality is open",
         "url": "https://erich-friedman.github.io/packing/tricovcir/"
       },
-      "holder": "Sigmoid with Codex",
+      "holder": "zzzcy",
       "method": "ai",
-      "recordedAt": "2026-09-03T03:51:10.405Z",
+      "recordedAt": "2026-10-04T14:52:39.777Z",
       "answer": {
-        "side": "0.699350071",
+        "side": "0.697237786",
         "triangles": [
           {
-            "down": true,
-            "turn": "0.000000000",
-            "x": "1.280676850",
-            "y": "1.997640067"
-          },
-          {
-            "down": true,
-            "turn": "0.000000000",
-            "x": "0.720375324",
-            "y": "2.000004706"
+            "down": false,
+            "turn": "0.577796709",
+            "x": "1.454373840",
+            "y": "1.696158011"
           },
           {
             "down": false,
-            "turn": "0.000000000",
-            "x": "1.604533857",
-            "y": "1.347267004"
+            "turn": "0.577796709",
+            "x": "0.893311689",
+            "y": "1.698015908"
           },
           {
             "down": true,
-            "turn": "0.000000000",
-            "x": "1.651157936",
-            "y": "1.347267004"
-          },
-          {
-            "down": false,
-            "turn": "0.000000000",
-            "x": "0.396674536",
-            "y": "1.349361064"
+            "turn": "-0.576904002",
+            "x": "1.777767209",
+            "y": "1.652632034"
           },
           {
             "down": true,
-            "turn": "0.000000000",
-            "x": "0.344734022",
-            "y": "1.349361064"
-          },
-          {
-            "down": false,
-            "turn": "0.000000000",
-            "x": "0.999843475",
-            "y": "1.272747888"
+            "turn": "0.000334766",
+            "x": "1.654169406",
+            "y": "1.350636397"
           },
           {
             "down": true,
-            "turn": "0.000000000",
-            "x": "0.992328322",
-            "y": "1.272747888"
+            "turn": "0.577796709",
+            "x": "0.222003596",
+            "y": "1.652707176"
           },
           {
             "down": false,
-            "turn": "0.000000000",
-            "x": "1.960676695",
-            "y": "0.672059367"
+            "turn": "-0.576904002",
+            "x": "0.170608874",
+            "y": "1.048846997"
           },
           {
             "down": false,
-            "turn": "0.000000000",
-            "x": "1.343254945",
-            "y": "0.669260775"
+            "turn": "0.000334765",
+            "x": "0.999169688",
+            "y": "1.277124356"
+          },
+          {
+            "down": false,
+            "turn": "0.577796709",
+            "x": "1.173681235",
+            "y": "0.975328312"
           },
           {
             "down": true,
-            "turn": "0.000000000",
-            "x": "1.615691909",
-            "y": "0.672059367"
-          },
-          {
-            "down": false,
-            "turn": "0.000000000",
-            "x": "0.646414839",
-            "y": "0.660577763"
+            "turn": "-0.576904002",
+            "x": "2.135159706",
+            "y": "0.975972052"
           },
           {
             "down": true,
-            "turn": "0.000000000",
-            "x": "1.006645555",
-            "y": "0.669261087"
-          },
-          {
-            "down": false,
-            "turn": "0.000000000",
-            "x": "0.038364276",
-            "y": "0.668699177"
+            "turn": "0.577796709",
+            "x": "1.173681234",
+            "y": "0.975328313"
           },
           {
             "down": true,
-            "turn": "0.000000000",
-            "x": "0.386248097",
-            "y": "0.668699177"
+            "turn": "0.000334765",
+            "x": "1.617679459",
+            "y": "0.673712699"
+          },
+          {
+            "down": true,
+            "turn": "-0.576904002",
+            "x": "0.825062421",
+            "y": "0.975094902"
           },
           {
             "down": false,
-            "turn": "0.000000000",
-            "x": "1.313757350",
-            "y": "-0.006591401"
+            "turn": "0.577796709",
+            "x": "1.175174543",
+            "y": "0.371503543"
+          },
+          {
+            "down": true,
+            "turn": "0.577796709",
+            "x": "-0.135126514",
+            "y": "0.974452027"
           },
           {
             "down": false,
-            "turn": "0.000000000",
-            "x": "0.696609036",
-            "y": "-0.005049763"
+            "turn": "-0.576904002",
+            "x": "0.208650745",
+            "y": "0.370856426"
+          },
+          {
+            "down": true,
+            "turn": "-0.576904002",
+            "x": "1.483729289",
+            "y": "0.302236532"
+          },
+          {
+            "down": true,
+            "turn": "0.577796710",
+            "x": "0.517649236",
+            "y": "0.302359193"
           }
         ]
       }
@@ -1174,11 +1174,11 @@
         "n": 18
       },
       "objective": "minimize",
-      "scoreStored": "679966103",
-      "scoreDisplay": "0.679966103",
-      "status": "open",
+      "scoreStored": "677850412",
+      "scoreDisplay": "0.677850412",
+      "status": "matched",
       "settled": false,
-      "recordStatus": "open",
+      "recordStatus": "matched",
       "knownBest": {
         "display": "0.677966101694916",
         "kind": "best",
@@ -1193,119 +1193,119 @@
         "source": "Maurizio Morandi's arrangement (August 2009), listed in Friedman's table only as the truncated r = 1.475+; as a common side s = 1/r the true value lies between 0.677506775067750 and 0.677966101694916, and the upper end is shown. Inside the window is level; only below its lower end is ahead. The site reconstructed the same contact topology from the public raster, and its nine-decimal certificate verifies at 0.687854879 without pretending to be unpublished source coordinates. Optimality is open",
         "url": "https://erich-friedman.github.io/packing/tricovcir/"
       },
-      "holder": "Sigmoid with Codex",
+      "holder": "zzzcy",
       "method": "ai",
-      "recordedAt": "2026-09-03T03:54:57.910Z",
+      "recordedAt": "2026-10-04T14:52:49.778Z",
       "answer": {
-        "side": "0.679966103",
+        "side": "0.677850412",
         "triangles": [
           {
-            "down": true,
-            "turn": "0.000000000",
-            "x": "0.984649103",
-            "y": "2.000005898"
-          },
-          {
             "down": false,
-            "turn": "0.000000000",
-            "x": "1.435839823",
-            "y": "1.603762990"
+            "turn": "0.577659581",
+            "x": "1.156842693",
+            "y": "1.706554998"
           },
           {
             "down": true,
-            "turn": "0.000000000",
-            "x": "1.343236306",
-            "y": "1.603762990"
-          },
-          {
-            "down": false,
-            "turn": "0.000000000",
-            "x": "0.547433063",
-            "y": "1.579550457"
+            "turn": "0.577659581",
+            "x": "1.267041469",
+            "y": "1.897629531"
           },
           {
             "down": true,
-            "turn": "0.000000000",
-            "x": "0.658965058",
-            "y": "1.579550457"
-          },
-          {
-            "down": false,
-            "turn": "0.000000000",
-            "x": "1.744670092",
-            "y": "1.121330877"
+            "turn": "0.000231953",
+            "x": "1.344791051",
+            "y": "1.604147731"
           },
           {
             "down": true,
-            "turn": "0.000000000",
-            "x": "1.870331974",
-            "y": "1.121330877"
+            "turn": "0.577659581",
+            "x": "0.380918372",
+            "y": "1.875927820"
           },
           {
             "down": false,
-            "turn": "0.000000000",
-            "x": "0.249441337",
-            "y": "1.111131572"
+            "turn": "0.577659581",
+            "x": "0.836549339",
+            "y": "1.289103450"
+          },
+          {
+            "down": false,
+            "turn": "0.000231953",
+            "x": "1.744935323",
+            "y": "1.122945441"
+          },
+          {
+            "down": false,
+            "turn": "0.577659581",
+            "x": "2.041177665",
+            "y": "0.829565000"
           },
           {
             "down": true,
-            "turn": "0.000000000",
-            "x": "0.128058771",
-            "y": "1.111131572"
-          },
-          {
-            "down": false,
-            "turn": "0.000000000",
-            "x": "1.008090238",
-            "y": "1.006517172"
+            "turn": "0.577659581",
+            "x": "0.085352178",
+            "y": "1.415693420"
           },
           {
             "down": true,
-            "turn": "0.000000000",
-            "x": "0.997115417",
-            "y": "1.006517219"
+            "turn": "0.000231953",
+            "x": "0.128307335",
+            "y": "1.122195478"
           },
           {
             "down": false,
-            "turn": "0.000000000",
-            "x": "1.466866264",
-            "y": "0.642418164"
+            "turn": "0.000231953",
+            "x": "1.012289225",
+            "y": "1.006312424"
+          },
+          {
+            "down": false,
+            "turn": "0.577659581",
+            "x": "1.169595824",
+            "y": "0.712867530"
           },
           {
             "down": true,
-            "turn": "0.000000000",
-            "x": "1.608485822",
-            "y": "0.642763338"
+            "turn": "-0.577041040",
+            "x": "1.638879820",
+            "y": "0.939054964"
           },
           {
             "down": false,
-            "turn": "0.000000000",
-            "x": "0.532387525",
-            "y": "0.634936854"
+            "turn": "0.577659581",
+            "x": "1.780718244",
+            "y": "0.352085024"
           },
           {
             "down": true,
-            "turn": "0.000000000",
-            "x": "0.991233419",
-            "y": "0.642418226"
+            "turn": "0.577659581",
+            "x": "0.361177000",
+            "y": "0.938462230"
+          },
+          {
+            "down": false,
+            "turn": "0.577659581",
+            "x": "1.169449315",
+            "y": "0.351801453"
+          },
+          {
+            "down": false,
+            "turn": "-0.577041040",
+            "x": "0.219883234",
+            "y": "0.351360944"
           },
           {
             "down": true,
-            "turn": "0.000000000",
-            "x": "0.389043978",
-            "y": "0.647068396"
+            "turn": "-0.577041040",
+            "x": "1.475110529",
+            "y": "0.294282047"
           },
           {
-            "down": false,
-            "turn": "0.000000000",
-            "x": "1.299959214",
-            "y": "-0.000588697"
-          },
-          {
-            "down": false,
-            "turn": "0.000000000",
-            "x": "0.683481507",
-            "y": "-0.002275393"
+            "down": true,
+            "turn": "-0.577041039",
+            "x": "0.864155861",
+            "y": "0.293454743"
           }
         ]
       }

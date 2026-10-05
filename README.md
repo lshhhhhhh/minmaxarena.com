@@ -37,7 +37,7 @@ managed.
 
 ## The records
 
-68 problem families, 2261 sub-problems, 2129 still open.
+68 problem families, 2336 sub-problems, 2193 still open.
 `records/` holds today's snapshot of each family; the live files are at
 `https://minmaxarena.com/data/{slug}.json`, and the citable ones are the monthly frozen
 editions at `https://minmaxarena.com/data/editions/{YYYY-MM}/{slug}.json`, which never change
@@ -109,12 +109,12 @@ once published. Data is CC BY 4.0; see
 | [P84](https://minmaxarena.com/en/problems/triangles-in-disc) | Equilateral triangles in a disc | 35 | 35 | [json](records/triangles-in-disc.json) |
 | [P85](https://minmaxarena.com/en/problems/squares-in-triangle) | Squares in an equilateral triangle | 38 | 38 | [json](records/squares-in-triangle.json) |
 | [P86](https://minmaxarena.com/en/problems/pentagons-in-square) | Regular pentagons in a square | 28 | 28 | [json](records/pentagons-in-square.json) |
-| [P87](https://minmaxarena.com/en/problems/circles-cover-disc) | Equal discs covering a disc | 15 | 5 | [json](records/circles-cover-disc.json) |
+| [P87](https://minmaxarena.com/en/problems/circles-cover-disc) | Equal discs covering a disc | 90 | 80 | [json](records/circles-cover-disc.json) |
 | [P89](https://minmaxarena.com/en/problems/tans-in-square) | Tans in a square | 24 | 18 | [json](records/tans-in-square.json) |
 | [P90](https://minmaxarena.com/en/problems/dominoes-in-square) | Dominoes in a square | 40 | 35 | [json](records/dominoes-in-square.json) |
 | [P91](https://minmaxarena.com/en/problems/ells-in-square) | L's in a square | 40 | 37 | [json](records/ells-in-square.json) |
 | [P92](https://minmaxarena.com/en/problems/circles-in-disc-radii) | Sum of radii in the unit circle | 50 | 48 | [json](records/circles-in-disc-radii.json) |
-| [P93](https://minmaxarena.com/en/problems/circles-in-triangle-radii) | Sum of radii in the equilateral triangle | 50 | 49 | [json](records/circles-in-triangle-radii.json) |
+| [P93](https://minmaxarena.com/en/problems/circles-in-triangle-radii) | Sum of radii in the equilateral triangle | 50 | 38 | [json](records/circles-in-triangle-radii.json) |
 <!-- records:end -->
 
 ## Problems the catalogue no longer offers
