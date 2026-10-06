@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/heilbronn-in-a-semicircle",
-  "generatedAt": "2026-10-05T12:23:18.323Z",
+  "generatedAt": "2026-10-06T12:05:59.554Z",
   "instances": [
     {
       "instanceId": "p26-n5-v2",
@@ -154,48 +154,48 @@
         "n": 8
       },
       "objective": "maximize",
-      "scoreStored": "215582157877428209",
-      "scoreDisplay": "0.1077910789387141045",
+      "scoreStored": "215582157988356456",
+      "scoreDisplay": "0.107791078994178228",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
       "knownBest": null,
-      "holder": "w33d",
+      "holder": "zzzcy",
       "method": "ai",
-      "recordedAt": "2026-09-15T10:37:18.391Z",
+      "recordedAt": "2026-10-05T16:22:50.168Z",
       "answer": {
         "points": [
           [
-            "0.479227518",
-            "0.793016946"
+            "0.479227522",
+            "0.793016949"
           ],
           [
-            "0.019458922",
-            "0.196314015"
-          ],
-          [
-            "1.980541079",
+            "0.019458921",
             "0.196314014"
+          ],
+          [
+            "1.980541078",
+            "0.196314015"
           ],
           [
             "1.000000000",
             "1.000000000"
           ],
           [
-            "1.000000000",
+            "1.000000003",
             "0.306244217"
           ],
           [
-            "0.229484938",
+            "0.229484935",
             "0.000000000"
           ],
           [
-            "1.770515061",
+            "1.770515059",
             "0.000000000"
           ],
           [
-            "1.520772489",
-            "0.793016948"
+            "1.520772491",
+            "0.793016944"
           ]
         ]
       }
