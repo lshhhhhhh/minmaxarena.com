@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/equilateral-triangles-covering-a-square",
-  "generatedAt": "2026-10-06T12:06:02.599Z",
+  "generatedAt": "2026-10-07T11:51:48.901Z",
   "instances": [
     {
       "instanceId": "p76-n2-v1",
@@ -35,7 +35,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-06T09:21:55.415Z",
+      "recordedAt": "2026-10-07T11:16:30.277Z",
       "answer": {
         "side": "1.366025405",
         "triangles": [
@@ -77,7 +77,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-06T09:21:55.415Z",
+      "recordedAt": "2026-10-07T11:16:30.277Z",
       "answer": {
         "side": "1.077350270",
         "triangles": [
@@ -163,8 +163,8 @@
         "n": 5
       },
       "objective": "minimize",
-      "scoreStored": "803093851",
-      "scoreDisplay": "0.803093851",
+      "scoreStored": "803089952",
+      "scoreDisplay": "0.803089952",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -177,41 +177,41 @@
         "source": "David Cantrell's construction appears in Friedman's public table (July 2005). Rescaling the largest square covered by unit triangles gives common side (10√3 + 14) / 39 ≈ 0.803089950658687; optimality is open. The site's nine-decimal reconstruction of the source figure verifies at 0.804133275, with its gap from the published target explicitly preserved.",
         "url": "https://erich-friedman.github.io/packing/tricosqu/"
       },
-      "holder": "邱仲普",
+      "holder": "zzzcy",
       "method": "ai",
-      "recordedAt": "2026-09-05T08:59:40.576Z",
+      "recordedAt": "2026-10-07T08:23:35.676Z",
       "answer": {
-        "side": "0.803093851",
+        "side": "0.803089952",
         "triangles": [
           {
+            "down": false,
+            "turn": "-0.577350269",
+            "x": "0.629922751",
+            "y": "0.054503701"
+          },
+          {
             "down": true,
-            "turn": "0.000000000",
-            "x": "0.830707664",
-            "y": "0.402242612"
+            "turn": "-0.577350270",
+            "x": "1.144337568",
+            "y": "0.750000000"
           },
           {
             "down": false,
-            "turn": "0.000000000",
-            "x": "0.943568464",
-            "y": "0.402242612"
-          },
-          {
-            "down": false,
-            "turn": "-0.577350269",
-            "x": "0.284816647",
-            "y": "0.652250162"
+            "turn": "-0.577350270",
+            "x": "0.284812696",
+            "y": "0.652251851"
           },
           {
             "down": true,
-            "turn": "-0.577350269",
-            "x": "0.460622157",
-            "y": "0.347749838"
+            "turn": "-0.577350270",
+            "x": "0.460617991",
+            "y": "0.347748149"
           },
           {
             "down": true,
-            "turn": "0.999999997",
-            "x": "-0.000000003",
-            "y": "0.646975431"
+            "turn": "1.000000000",
+            "x": "0.000000000",
+            "y": "0.646975662"
           }
         ]
       }
@@ -361,8 +361,8 @@
         "n": 8
       },
       "objective": "minimize",
-      "scoreStored": "598853945",
-      "scoreDisplay": "0.598853945",
+      "scoreStored": "598847944",
+      "scoreDisplay": "0.598847944",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -375,59 +375,59 @@
         "source": "Maurizio Morandi's construction appears in Friedman's public table (April 2009). Rescaling the largest square covered by unit triangles gives common side 2(12 + 5√3) / 69 ≈ 0.598847943125924; optimality is open. The site's nine-decimal reconstruction of the source figure verifies at 0.599559417, with its gap from the published target explicitly preserved.",
         "url": "https://erich-friedman.github.io/packing/tricosqu/"
       },
-      "holder": "Sigmoid with Codex",
+      "holder": "zzzcy",
       "method": "ai",
-      "recordedAt": "2026-09-02T15:23:35.413Z",
+      "recordedAt": "2026-10-07T08:23:46.748Z",
       "answer": {
-        "side": "0.598853945",
+        "side": "0.598847944",
         "triangles": [
           {
-            "down": false,
-            "turn": "0.000000000",
-            "x": "0.186814851",
-            "y": "-0.000000073"
-          },
-          {
-            "down": false,
-            "turn": "0.000000000",
-            "x": "0.819575966",
-            "y": "-0.000000240"
-          },
-          {
             "down": true,
-            "turn": "0.000000000",
-            "x": "0.180437267",
-            "y": "1.000000000"
-          },
-          {
-            "down": true,
-            "turn": "0.000000000",
-            "x": "0.813174904",
-            "y": "1.000000051"
-          },
-          {
-            "down": false,
-            "turn": "1.000000000",
-            "x": "1.000000031",
-            "y": "0.505542880"
-          },
-          {
-            "down": true,
-            "turn": "1.000000000",
-            "x": "0.000000000",
-            "y": "0.494476813"
+            "turn": "-0.577350269",
+            "x": "0.336529848",
+            "y": "0.259308766"
           },
           {
             "down": true,
             "turn": "0.577350269",
-            "x": "0.347069382",
-            "y": "0.770073039"
+            "x": "0.669863181",
+            "y": "0.259308766"
           },
           {
             "down": false,
             "turn": "0.577350269",
-            "x": "0.652908895",
-            "y": "0.229946654"
+            "x": "0.330136819",
+            "y": "0.740691234"
+          },
+          {
+            "down": false,
+            "turn": "0.577350269",
+            "x": "0.962894124",
+            "y": "0.740691234"
+          },
+          {
+            "down": false,
+            "turn": "-0.267949193",
+            "x": "0.740691234",
+            "y": "0.355824540"
+          },
+          {
+            "down": true,
+            "turn": "-0.267949193",
+            "x": "0.259308766",
+            "y": "0.644175460"
+          },
+          {
+            "down": true,
+            "turn": "0.577350269",
+            "x": "0.347091500",
+            "y": "0.770057603"
+          },
+          {
+            "down": false,
+            "turn": "-0.577350269",
+            "x": "0.353484529",
+            "y": "0.229942397"
           }
         ]
       }
@@ -713,8 +713,8 @@
         "n": 12
       },
       "objective": "minimize",
-      "scoreStored": "479274088",
-      "scoreDisplay": "0.479274088",
+      "scoreStored": "479274059",
+      "scoreDisplay": "0.479274059",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -727,83 +727,83 @@
         "source": "Maurizio Morandi's construction appears in Friedman's public table (April 2009). Rescaling the largest square covered by unit triangles gives common side (15 − 7√3) / 6 ≈ 0.479274057836310; optimality is open. The site's nine-decimal reconstruction of the source figure verifies at 0.479941887, with its gap from the published target explicitly preserved.",
         "url": "https://erich-friedman.github.io/packing/tricosqu/"
       },
-      "holder": "Sigmoid with Codex",
+      "holder": "zzzcy",
       "method": "ai",
-      "recordedAt": "2026-09-02T15:28:45.091Z",
+      "recordedAt": "2026-10-07T08:23:57.857Z",
       "answer": {
-        "side": "0.479274088",
+        "side": "0.479274059",
         "triangles": [
           {
-            "down": true,
-            "turn": "0.000000000",
-            "x": "0.800641263",
-            "y": "1.000000009"
-          },
-          {
-            "down": true,
-            "turn": "0.000000000",
-            "x": "0.199358737",
-            "y": "1.000000009"
+            "down": false,
+            "turn": "-0.577350269",
+            "x": "0.680822748",
+            "y": "0.792468245"
           },
           {
             "down": false,
-            "turn": "1.000000000",
-            "x": "1.000000009",
-            "y": "0.690598923"
+            "turn": "0.577350269",
+            "x": "0.319177252",
+            "y": "0.792468245"
+          },
+          {
+            "down": true,
+            "turn": "0.267949193",
+            "x": "0.792468245",
+            "y": "0.810417438"
           },
           {
             "down": false,
-            "turn": "1.000000000",
-            "x": "1.000000009",
-            "y": "0.309401076"
+            "turn": "-0.267949192",
+            "x": "0.792468245",
+            "y": "0.189582562"
+          },
+          {
+            "down": false,
+            "turn": "0.267949193",
+            "x": "0.207531755",
+            "y": "0.189582562"
           },
           {
             "down": true,
-            "turn": "1.000000000",
-            "x": "-0.000000009",
-            "y": "0.309401076"
-          },
-          {
-            "down": true,
-            "turn": "1.000000000",
-            "x": "-0.000000009",
-            "y": "0.690598923"
+            "turn": "-0.267949192",
+            "x": "0.207531755",
+            "y": "0.810417438"
           },
           {
             "down": true,
             "turn": "-0.577350269",
-            "x": "0.619818522",
-            "y": "0.898130682"
+            "x": "0.619818515",
+            "y": "0.898130678"
           },
           {
             "down": false,
-            "turn": "-0.577350269",
-            "x": "0.380181478",
-            "y": "0.101869299"
+            "turn": "0.577350270",
+            "x": "0.619818515",
+            "y": "0.101869322"
           },
           {
             "down": true,
             "turn": "-0.577350269",
-            "x": "0.319177251",
+            "x": "0.319177252",
             "y": "0.207531755"
           },
           {
             "down": true,
             "turn": "0.577350269",
-            "x": "0.680822749",
+            "x": "0.680822748",
             "y": "0.207531755"
           },
           {
             "down": false,
-            "turn": "-0.267949192",
-            "x": "0.292468241",
-            "y": "0.380181477"
+            "turn": "1.000000000",
+            "x": "0.500000000",
+            "y": "0.500000000"
           },
           {
-            "down": true,
-            "turn": "-0.267949192",
-            "x": "0.707531759",
-            "y": "0.619818522"
+            "down": false,
+            "turn": "0.267949193",
+            "x": "0.707531755",
+            "y": "0.380181485"
           }
         ]
       }

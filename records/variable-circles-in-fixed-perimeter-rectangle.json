@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/variable-circles-in-fixed-perimeter-rectangle",
-  "generatedAt": "2026-10-06T12:06:01.860Z",
+  "generatedAt": "2026-10-07T11:51:48.202Z",
   "instances": [
     {
       "instanceId": "p67-n3-v1",
@@ -21,17 +21,17 @@
       "objective": "maximize",
       "scoreStored": "813965438",
       "scoreDisplay": "0.813965438",
-      "status": "open",
-      "settled": false,
+      "status": "proven",
+      "settled": true,
       "recordStatus": "open",
       "knownBest": {
-        "display": "0.813965439073914",
-        "kind": "best",
+        "display": "0.8139654390739142",
+        "kind": "proven",
         "exact": "8(7 − 2√2) / 41",
-        "precision": "rounded",
+        "proofScope": "continuous",
         "certificateDisplay": "0.813965434",
-        "source": "David W. Cantrell configuration in Erich Friedman's table, published as 0.813965439073914. The exhibited verifiable starting point comes from the public repository of Berthold, Kamp, Mexi, Pokutta and Polik and reaches 0.813965434 on the nine-decimal grid; optimality is open",
-        "url": "https://erich-friedman.github.io/packing/cirRrec/"
+        "source": "Computer-assisted proof submitted by zzzcy #308 (generated with AI assistance, as stated): a complete interval branch-and-exclude over every contact order of the n circles leaves one contact structure, fixed by interval Newton, which gives the continuous optimum; the largest nine-decimal sum of radii is 0.813965438, the current record, by a complete branch tree over integer offsets. MinMax Arena replayed every certificate with its own code without running the submitted scripts.",
+        "url": "https://minmaxarena.com/proofs/fixed-perimeter-rectangle-circles-optimality"
       },
       "holder": "邱仲普",
       "method": "ai",
@@ -67,17 +67,17 @@
       "objective": "maximize",
       "scoreStored": "1006788474",
       "scoreDisplay": "1.006788474",
-      "status": "open",
-      "settled": false,
+      "status": "proven",
+      "settled": true,
       "recordStatus": "open",
       "knownBest": {
         "display": "1.006788474669022",
-        "kind": "best",
+        "kind": "proven",
         "exact": "6 − 2√2 − 2√(4 − 2√2)",
-        "precision": "rounded",
+        "proofScope": "continuous",
         "certificateDisplay": "1.006788468",
-        "source": "David W. Cantrell configuration in Erich Friedman's table, published as 1.006788474669022. The exhibited verifiable starting point comes from the public repository of Berthold, Kamp, Mexi, Pokutta and Polik and reaches 1.006788468 on the nine-decimal grid; optimality is open",
-        "url": "https://erich-friedman.github.io/packing/cirRrec/"
+        "source": "Computer-assisted proof submitted by zzzcy #308 (generated with AI assistance, as stated): a complete interval branch-and-exclude over every contact order of the n circles leaves one contact structure, fixed by interval Newton, which gives the continuous optimum; the largest nine-decimal sum of radii is 1.006788474, the current record, by a complete branch tree over integer offsets. MinMax Arena replayed every certificate with its own code without running the submitted scripts.",
+        "url": "https://minmaxarena.com/proofs/fixed-perimeter-rectangle-circles-optimality"
       },
       "holder": "邱仲普",
       "method": "ai",
@@ -118,16 +118,17 @@
       "objective": "maximize",
       "scoreStored": "1112261804",
       "scoreDisplay": "1.112261804",
-      "status": "matched",
-      "settled": false,
-      "recordStatus": "matched",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "open",
       "knownBest": {
-        "display": "1.112",
-        "kind": "best",
-        "truncated": true,
+        "display": "1.112261805104822",
+        "kind": "proven",
+        "exact": "(407 + 920√2 − 307√(1 + 4√2) − 34√(2 + 8√2))/712",
+        "proofScope": "continuous",
         "certificateDisplay": "1.112261797",
-        "source": "David W. Cantrell configuration in Erich Friedman's table, published as 1.112+. The exhibited verifiable starting point comes from the public repository of Berthold, Kamp, Mexi, Pokutta and Polik and reaches 1.112261797 on the nine-decimal grid; optimality is open",
-        "url": "https://erich-friedman.github.io/packing/cirRrec/"
+        "source": "Computer-assisted proof submitted by zzzcy #308 (generated with AI assistance, as stated): a complete interval branch-and-exclude over every contact order of the n circles leaves one contact structure, fixed by interval Newton, which gives the continuous optimum; the largest nine-decimal sum of radii is 1.112261804, the current record, by a complete branch tree over integer offsets. MinMax Arena replayed every certificate with its own code without running the submitted scripts.",
+        "url": "https://minmaxarena.com/proofs/fixed-perimeter-rectangle-circles-optimality"
       },
       "holder": "邱仲普",
       "method": "ai",
@@ -173,20 +174,20 @@
       "objective": "maximize",
       "scoreStored": "1212458617",
       "scoreDisplay": "1.212458617",
-      "status": "matched",
-      "settled": false,
-      "recordStatus": "matched",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "open",
       "knownBest": {
-        "display": "1.212458613888737",
-        "kind": "best",
+        "display": "1.212458618893469574115510850778",
+        "kind": "proven",
         "range": {
-          "lower": "1.212458613888736",
-          "upper": "1.212458618892870"
+          "lower": "1.212458618893469574115510850778",
+          "upper": "1.212458618893469574115510850779"
         },
-        "precision": "rounded",
+        "proofScope": "continuous",
         "certificateDisplay": "1.212458612",
-        "source": "The n=6 rectangle configuration in the pinned repository of Berthold, Kamp, Mexi, Pokutta and Polik originally sums to 1.212458613888737. The comparison envelope spans the original publication and a precision reproduction of the same published configuration. Its upper end is not a newly published paper value. A local refinement of that configuration has fifteen-place coordinates checked by exact rational geometry, reaching the upper end to its rounding precision. Last-digit differences inside this source-reproduction envelope match the known configuration and earn no breakthrough points. Optimality remains open.",
-        "url": "https://github.com/DominikKamp/Packing/blob/27f71632d8655ae4b6a049410a401976748b94e3/rectangle/n6/rectangle_n6.txt"
+        "source": "Computer-assisted proof submitted by zzzcy #308 (generated with AI assistance, as stated): a complete interval branch-and-exclude over every contact order of the n circles leaves one contact structure, fixed by interval Newton, which gives the continuous optimum; the largest nine-decimal sum of radii is 1.212458617, the current record, by a complete branch tree over integer offsets. MinMax Arena replayed every certificate with its own code without running the submitted scripts.",
+        "url": "https://minmaxarena.com/proofs/fixed-perimeter-rectangle-circles-optimality"
       },
       "holder": "邱仲普",
       "method": "ai",
@@ -237,16 +238,17 @@
       "objective": "maximize",
       "scoreStored": "1324288813",
       "scoreDisplay": "1.324288813",
-      "status": "matched",
-      "settled": false,
-      "recordStatus": "matched",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "open",
       "knownBest": {
-        "display": "1.324",
-        "kind": "best",
-        "truncated": true,
+        "display": "1.324288814631938",
+        "kind": "proven",
+        "exact": "6/(3 + 2√(2 − √2))",
+        "proofScope": "continuous",
         "certificateDisplay": "1.324288805",
-        "source": "David W. Cantrell configuration in Erich Friedman's table, published as 1.324+. The exhibited verifiable starting point comes from the public repository of Berthold, Kamp, Mexi, Pokutta and Polik and reaches 1.324288805 on the nine-decimal grid; optimality is open",
-        "url": "https://erich-friedman.github.io/packing/cirRrec/"
+        "source": "Computer-assisted proof submitted by zzzcy #308 (generated with AI assistance, as stated): a complete interval branch-and-exclude over every contact order of the n circles leaves one contact structure, fixed by interval Newton, which gives the continuous optimum; the largest nine-decimal sum of radii is 1.324288813, the current record, by a complete branch tree over integer offsets. MinMax Arena replayed every certificate with its own code without running the submitted scripts.",
+        "url": "https://minmaxarena.com/proofs/fixed-perimeter-rectangle-circles-optimality"
       },
       "holder": "邱仲普",
       "method": "ai",
@@ -302,16 +304,17 @@
       "objective": "maximize",
       "scoreStored": "1430221726",
       "scoreDisplay": "1.430221726",
-      "status": "matched",
-      "settled": false,
-      "recordStatus": "matched",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "open",
       "knownBest": {
-        "display": "1.430",
-        "kind": "best",
-        "truncated": true,
+        "display": "1.430221727992278",
+        "kind": "proven",
+        "exact": "(3 + 13√2 + √(1 + 4√2) − 5√(2 + 8√2))/4",
+        "proofScope": "continuous",
         "certificateDisplay": "1.430221717",
-        "source": "David W. Cantrell configuration in Erich Friedman's table, published as 1.430+. The exhibited verifiable starting point comes from the public repository of Berthold, Kamp, Mexi, Pokutta and Polik and reaches 1.430221717 on the nine-decimal grid; optimality is open",
-        "url": "https://erich-friedman.github.io/packing/cirRrec/"
+        "source": "Computer-assisted proof submitted by zzzcy #308 (generated with AI assistance, as stated): a complete interval branch-and-exclude over every contact order of the n circles leaves one contact structure, fixed by interval Newton, which gives the continuous optimum; the largest nine-decimal sum of radii is 1.430221726, the current record, by a complete branch tree over integer offsets. MinMax Arena replayed every certificate with its own code without running the submitted scripts.",
+        "url": "https://minmaxarena.com/proofs/fixed-perimeter-rectangle-circles-optimality"
       },
       "holder": "邱仲普",
       "method": "ai",
@@ -370,27 +373,31 @@
         "n": 9
       },
       "objective": "maximize",
-      "scoreStored": "1528312765",
-      "scoreDisplay": "1.528312765",
-      "status": "matched",
-      "settled": false,
-      "recordStatus": "matched",
+      "scoreStored": "1528312766",
+      "scoreDisplay": "1.528312766",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "open",
       "knownBest": {
-        "display": "1.528",
-        "kind": "best",
-        "truncated": true,
+        "display": "1.528312768293629548847967448450",
+        "kind": "proven",
+        "range": {
+          "lower": "1.528312768293629548847967448450",
+          "upper": "1.528312768293629548847967448451"
+        },
+        "proofScope": "continuous",
         "certificateDisplay": "1.528312759",
-        "source": "David W. Cantrell configuration in Erich Friedman's table, published as 1.528+. The exhibited verifiable starting point comes from the public repository of Berthold, Kamp, Mexi, Pokutta and Polik and reaches 1.528312759 on the nine-decimal grid; optimality is open",
-        "url": "https://erich-friedman.github.io/packing/cirRrec/"
+        "source": "Computer-assisted proof submitted by zzzcy #308 (generated with AI assistance, as stated): a complete interval branch-and-exclude over every contact order of the n circles leaves one contact structure, fixed by interval Newton, which gives the continuous optimum; the largest nine-decimal sum of radii is 1.528312766, the current record, by a complete branch tree over integer offsets. MinMax Arena replayed every certificate with its own code without running the submitted scripts.",
+        "url": "https://minmaxarena.com/proofs/fixed-perimeter-rectangle-circles-optimality"
       },
-      "holder": "邱仲普",
+      "holder": "zzzcy",
       "method": "ai",
-      "recordedAt": "2026-09-02T04:30:59.763Z",
+      "recordedAt": "2026-10-06T15:57:44.844Z",
       "answer": {
         "circles": [
           [
             "0.561307698",
-            "0.176412034",
+            "0.176412033",
             "0.176412033"
           ],
           [
@@ -399,7 +406,7 @@
             "0.115815054"
           ],
           [
-            "0.40625528",
+            "0.406255280",
             "0.491349912",
             "0.174625172"
           ],
@@ -410,32 +417,32 @@
           ],
           [
             "0.876506882",
-            "0.841906528",
+            "0.841906530",
             "0.140793294"
           ],
           [
             "0.876506882",
             "0.140793295",
-            "0.140793295"
+            "0.140793294"
           ],
           [
-            "0.799090315",
+            "0.799090314",
             "0.491349912",
-            "0.218209861"
+            "0.218209862"
           ],
           [
             "0.561307698",
-            "0.80628779",
+            "0.806287791",
             "0.176412033"
           ],
           [
             "0.192626012",
-            "0.790073811",
-            "0.192626011"
+            "0.790073812",
+            "0.192626012"
           ]
         ],
-        "height": "0.982699823",
-        "width": "1.017300177"
+        "height": "0.982699824",
+        "width": "1.017300176"
       }
     },
     {
@@ -1225,8 +1232,8 @@
         "n": 18
       },
       "objective": "maximize",
-      "scoreStored": "2180914321",
-      "scoreDisplay": "2.180914321",
+      "scoreStored": "2180914322",
+      "scoreDisplay": "2.180914322",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -1238,40 +1245,40 @@
         "source": "David W. Cantrell configuration in Erich Friedman's table, published as 2.180+. The exhibited verifiable starting point comes from the public repository of Berthold, Kamp, Mexi, Pokutta and Polik and reaches 2.1809143 on the nine-decimal grid; optimality is open",
         "url": "https://erich-friedman.github.io/packing/cirRrec/"
       },
-      "holder": "邱仲普",
+      "holder": "zzzcy",
       "method": "ai",
-      "recordedAt": "2026-09-05T00:21:45.878Z",
+      "recordedAt": "2026-10-06T15:57:55.853Z",
       "answer": {
         "circles": [
           [
-            "0.121733005",
-            "0.544808498",
-            "0.121733005"
+            "0.121733004",
+            "0.544808497",
+            "0.121733004"
           ],
           [
-            "0.328205488",
+            "0.328205487",
             "0.145581498",
             "0.145581498"
           ],
           [
             "0.118124859",
-            "0.784639223",
+            "0.784639221",
             "0.118124859"
           ],
           [
-            "0.094108094",
-            "0.995508902",
-            "0.094108094"
+            "0.094108095",
+            "0.995508901",
+            "0.094108095"
           ],
           [
             "0.328205489",
-            "0.944035497",
-            "0.145581499"
+            "0.944035498",
+            "0.145581498"
           ],
           [
-            "0.555835892",
+            "0.555835891",
             "0.544808499",
-            "0.127357156"
+            "0.127357155"
           ],
           [
             "0.094108094",
@@ -1279,38 +1286,38 @@
             "0.094108094"
           ],
           [
-            "0.550615981",
-            "0.084946281",
-            "0.084946281"
+            "0.550615982",
+            "0.084946282",
+            "0.084946282"
           ],
           [
-            "0.553223158",
-            "0.795946390",
+            "0.553223156",
+            "0.795946389",
             "0.123794325"
           ],
           [
-            "0.335527138",
+            "0.335527137",
             "0.417936549",
-            "0.126871948"
+            "0.126871947"
           ],
           [
-            "0.550615983",
-            "1.004670715",
-            "0.084946281"
+            "0.550615984",
+            "1.004670714",
+            "0.084946282"
           ],
           [
-            "0.778832720",
-            "0.676358783",
-            "0.131550284"
+            "0.778832719",
+            "0.676358784",
+            "0.131550285"
           ],
           [
-            "0.778832720",
-            "0.413258213",
-            "0.131550284"
+            "0.778832719",
+            "0.413258214",
+            "0.131550285"
           ],
           [
-            "0.553223157",
-            "0.293670607",
+            "0.553223156",
+            "0.293670608",
             "0.123794326"
           ],
           [
@@ -1319,14 +1326,14 @@
             "0.118124859"
           ],
           [
-            "0.769448214",
-            "0.948682206",
-            "0.140934790"
+            "0.769448215",
+            "0.948682207",
+            "0.140934789"
           ],
           [
-            "0.335527139",
+            "0.335527138",
             "0.671680445",
-            "0.126871948"
+            "0.126871949"
           ],
           [
             "0.769448214",
@@ -1470,8 +1477,8 @@
         "n": 20
       },
       "objective": "maximize",
-      "scoreStored": "2305713858",
-      "scoreDisplay": "2.305713858",
+      "scoreStored": "2305713860",
+      "scoreDisplay": "2.30571386",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -1483,9 +1490,9 @@
         "source": "David W. Cantrell configuration in Erich Friedman's table, published as 2.305+. The exhibited verifiable starting point comes from the public repository of Berthold, Kamp, Mexi, Pokutta and Polik and reaches 2.305713814 on the nine-decimal grid; optimality is open",
         "url": "https://erich-friedman.github.io/packing/cirRrec/"
       },
-      "holder": "邱仲普",
+      "holder": "zzzcy",
       "method": "ai",
-      "recordedAt": "2026-09-16T16:41:31.410Z",
+      "recordedAt": "2026-10-06T15:58:09.728Z",
       "answer": {
         "circles": [
           [
@@ -1496,42 +1503,42 @@
           [
             "0.715950870",
             "0.491432758",
-            "0.109676673"
+            "0.109676672"
           ],
           [
-            "0.389705091",
-            "0.864003367",
-            "0.118862149"
+            "0.389705092",
+            "0.864003366",
+            "0.118862150"
           ],
           [
             "0.729095758",
-            "0.686425874",
+            "0.686425873",
             "0.085759002"
           ],
           [
-            "0.301183613",
-            "0.491432759",
+            "0.301183614",
+            "0.491432757",
             "0.109676673"
           ],
           [
             "0.508567242",
-            "0.350204019",
+            "0.350204018",
             "0.141228739"
           ],
           [
-            "0.110654392",
+            "0.110654393",
             "0.380778365",
             "0.110654392"
           ],
           [
             "0.627429392",
             "0.118862150",
-            "0.118862149"
+            "0.118862150"
           ],
           [
             "0.906480091",
-            "0.602087151",
-            "0.110654392"
+            "0.602087150",
+            "0.110654393"
           ],
           [
             "0.135700215",
@@ -1539,58 +1546,58 @@
             "0.135700215"
           ],
           [
-            "0.288038725",
-            "0.686425875",
+            "0.288038726",
+            "0.686425873",
             "0.085759002"
           ],
           [
-            "0.508567241",
-            "0.632661498",
+            "0.508567242",
+            "0.632661496",
             "0.141228739"
           ],
           [
-            "0.288038725",
-            "0.296439643",
-            "0.085759002"
+            "0.288038726",
+            "0.296439642",
+            "0.085759001"
           ],
           [
-            "0.627429391",
-            "0.864003367",
+            "0.627429392",
+            "0.864003366",
             "0.118862150"
           ],
           [
-            "0.906480091",
+            "0.906480092",
             "0.380778365",
             "0.110654392"
           ],
           [
             "0.135700215",
-            "0.847165302",
+            "0.847165301",
             "0.135700215"
           ],
           [
-            "0.729095758",
-            "0.296439642",
+            "0.729095759",
+            "0.296439643",
             "0.085759002"
           ],
           [
-            "0.110654392",
-            "0.602087152",
-            "0.110654392"
+            "0.110654393",
+            "0.602087150",
+            "0.110654393"
           ],
           [
-            "0.881434268",
-            "0.847165302",
+            "0.881434269",
+            "0.847165301",
             "0.135700215"
           ],
           [
-            "0.881434268",
+            "0.881434269",
             "0.135700215",
             "0.135700215"
           ]
         ],
-        "height": "0.982865517",
-        "width": "1.017134483"
+        "height": "0.982865516",
+        "width": "1.017134484"
       }
     },
     {
@@ -1600,8 +1607,8 @@
         "n": 21
       },
       "objective": "maximize",
-      "scoreStored": "2365832369",
-      "scoreDisplay": "2.365832369",
+      "scoreStored": "2365832370",
+      "scoreDisplay": "2.36583237",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -1613,119 +1620,119 @@
         "source": "Timo Berthold et al. configuration in Erich Friedman's table, published as 2.365+. The exhibited verifiable starting point comes from the public repository of Berthold, Kamp, Mexi, Pokutta and Polik and reaches 2.365832315 on the nine-decimal grid; optimality is open",
         "url": "https://erich-friedman.github.io/packing/cirRrec/"
       },
-      "holder": "邱仲普",
+      "holder": "zzzcy",
       "method": "ai",
-      "recordedAt": "2026-09-04T12:30:37.876Z",
+      "recordedAt": "2026-10-06T15:58:20.521Z",
       "answer": {
         "circles": [
           [
-            "0.731338593",
-            "0.678527872",
+            "0.731338591",
+            "0.678527873",
             "0.086412063"
           ],
           [
             "0.115083126",
-            "0.362841403",
+            "0.362841405",
             "0.115083126"
           ],
           [
             "0.137071297",
-            "0.839659806",
+            "0.839659807",
             "0.137071297"
           ],
           [
-            "0.899307290",
-            "0.123961607",
-            "0.123961607"
+            "0.899307288",
+            "0.123961608",
+            "0.123961608"
           ],
           [
             "0.392571592",
-            "0.857668247",
+            "0.857668248",
             "0.119062856"
           ],
           [
-            "0.630697305",
-            "0.857668246",
+            "0.630697304",
+            "0.857668248",
             "0.119062856"
           ],
           [
-            "0.316472143",
+            "0.316472144",
             "0.074741500",
             "0.074741500"
           ],
           [
-            "0.714124557",
-            "0.480831521",
+            "0.714124556",
+            "0.480831522",
             "0.112032312"
           ],
           [
             "0.291930305",
-            "0.678527871",
-            "0.086412064"
+            "0.678527873",
+            "0.086412063"
           ],
           [
-            "0.886197600",
-            "0.839659806",
+            "0.886197599",
+            "0.839659807",
             "0.137071297"
           ],
           [
-            "0.908185771",
-            "0.362841404",
+            "0.908185770",
+            "0.362841405",
             "0.115083126"
           ],
           [
-            "0.910347199",
-            "0.590835983",
+            "0.910347198",
+            "0.590835984",
             "0.112921698"
           ],
           [
-            "0.511634449",
-            "0.628910080",
+            "0.511634448",
+            "0.628910081",
             "0.138825224"
           ],
           [
-            "0.706796755",
+            "0.706796752",
             "0.074741500",
             "0.074741500"
           ],
           [
-            "0.708742627",
-            "0.259168635",
+            "0.708742625",
+            "0.259168636",
             "0.109695900"
           ],
           [
-            "0.309144339",
-            "0.480831520",
-            "0.112032311"
+            "0.309144340",
+            "0.480831522",
+            "0.112032312"
           ],
           [
             "0.511634448",
-            "0.372442618",
-            "0.117642237"
+            "0.372442619",
+            "0.117642236"
           ],
           [
             "0.314526271",
-            "0.259168635",
+            "0.259168636",
             "0.109695900"
           ],
           [
             "0.112921698",
-            "0.590835982",
+            "0.590835984",
             "0.112921698"
           ],
           [
-            "0.511634450",
-            "0.127400190",
+            "0.511634448",
+            "0.127400193",
             "0.127400190"
           ],
           [
             "0.123961608",
-            "0.123961607",
-            "0.123961607"
+            "0.123961608",
+            "0.123961608"
           ]
         ],
-        "height": "0.976731103",
-        "width": "1.023268897"
+        "height": "0.976731104",
+        "width": "1.023268896"
       }
     },
     {
@@ -1875,8 +1882,8 @@
         "n": 23
       },
       "objective": "maximize",
-      "scoreStored": "2484239541",
-      "scoreDisplay": "2.484239541",
+      "scoreStored": "2484239542",
+      "scoreDisplay": "2.484239542",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -1888,129 +1895,129 @@
         "source": "David W. Cantrell configuration in Erich Friedman's table, published as 2.484+. The exhibited verifiable starting point comes from the public repository of Berthold, Kamp, Mexi, Pokutta and Polik and reaches 2.484239482 on the nine-decimal grid; optimality is open",
         "url": "https://erich-friedman.github.io/packing/cirRrec/"
       },
-      "holder": "邱仲普",
+      "holder": "zzzcy",
       "method": "ai",
-      "recordedAt": "2026-09-04T13:02:04.584Z",
+      "recordedAt": "2026-10-06T15:58:31.862Z",
       "answer": {
         "circles": [
           [
-            "0.132966745",
-            "0.299487602",
-            "0.132966745"
-          ],
-          [
-            "0.381095844",
-            "0.305122223",
-            "0.115226322"
-          ],
-          [
-            "0.085829403",
-            "0.085829403",
-            "0.085829403"
-          ],
-          [
-            "0.269381404",
+            "0.269381402",
             "0.503677834",
             "0.112599152"
           ],
           [
-            "0.078391125",
-            "0.503677835",
-            "0.078391125"
+            "0.714626711",
+            "0.899769254",
+            "0.107586414"
           ],
           [
-            "0.496322167",
+            "0.496322166",
+            "0.896614747",
+            "0.110740921"
+          ],
+          [
+            "0.723262928",
             "0.503677834",
-            "0.114341611"
+            "0.112599152"
           ],
           [
-            "0.132966746",
-            "0.707868066",
-            "0.132966744"
-          ],
-          [
-            "0.906814930",
+            "0.906814929",
             "0.921526264",
             "0.085829403"
           ],
           [
-            "0.496322167",
-            "0.896614745",
-            "0.110740921"
-          ],
-          [
-            "0.714626711",
+            "0.278017620",
             "0.107586414",
             "0.107586414"
           ],
           [
-            "0.381095844",
-            "0.702233445",
-            "0.115226322"
+            "0.914253206",
+            "0.503677833",
+            "0.078391125"
           ],
           [
-            "0.723262931",
-            "0.503677834",
-            "0.112599152"
+            "0.714626712",
+            "0.107586414",
+            "0.107586414"
           ],
           [
-            "0.859677589",
-            "0.707868066",
+            "0.132966744",
+            "0.707868065",
             "0.132966744"
           ],
           [
-            "0.496322166",
-            "0.110740923",
-            "0.110740921"
-          ],
-          [
-            "0.278017621",
-            "0.107586414",
-            "0.107586414"
-          ],
-          [
-            "0.714626713",
-            "0.899769253",
-            "0.107586414"
-          ],
-          [
-            "0.611548489",
+            "0.611548488",
             "0.305122223",
             "0.115226322"
           ],
           [
-            "0.859677588",
-            "0.299487601",
-            "0.132966745"
-          ],
-          [
-            "0.611548489",
-            "0.702233445",
+            "0.381095843",
+            "0.305122223",
             "0.115226322"
           ],
           [
-            "0.914253208",
-            "0.503677834",
+            "0.906814929",
+            "0.085829403",
+            "0.085829403"
+          ],
+          [
+            "0.381095843",
+            "0.702233446",
+            "0.115226323"
+          ],
+          [
+            "0.611548488",
+            "0.702233446",
+            "0.115226322"
+          ],
+          [
+            "0.085829404",
+            "0.921526264",
+            "0.085829404"
+          ],
+          [
+            "0.078391125",
+            "0.503677833",
             "0.078391125"
           ],
           [
-            "0.085829403",
-            "0.921526263",
-            "0.085829403"
+            "0.859677588",
+            "0.299487601",
+            "0.132966744"
           ],
           [
-            "0.906814930",
-            "0.085829403",
-            "0.085829403"
+            "0.496322165",
+            "0.503677834",
+            "0.114341611"
           ],
           [
-            "0.278017621",
-            "0.899769253",
-            "0.107586414"
+            "0.496322166",
+            "0.110740922",
+            "0.110740922"
+          ],
+          [
+            "0.278017622",
+            "0.899769255",
+            "0.107586413"
+          ],
+          [
+            "0.132966744",
+            "0.299487601",
+            "0.132966744"
+          ],
+          [
+            "0.859677587",
+            "0.707868066",
+            "0.132966745"
+          ],
+          [
+            "0.085829403",
+            "0.085829403",
+            "0.085829403"
           ]
         ],
-        "height": "1.007355667",
-        "width": "0.992644333"
+        "height": "1.007355668",
+        "width": "0.992644332"
       }
     },
     {
@@ -2020,8 +2027,8 @@
         "n": 24
       },
       "objective": "maximize",
-      "scoreStored": "2535696913",
-      "scoreDisplay": "2.535696913",
+      "scoreStored": "2535696914",
+      "scoreDisplay": "2.535696914",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -2033,9 +2040,9 @@
         "source": "David W. Cantrell configuration in Erich Friedman's table, published as 2.535+. The exhibited verifiable starting point comes from the public repository of Berthold, Kamp, Mexi, Pokutta and Polik and reaches 2.53534404 on the nine-decimal grid; optimality is open",
         "url": "https://erich-friedman.github.io/packing/cirRrec/"
       },
-      "holder": "邱仲普",
+      "holder": "zzzcy",
       "method": "ai",
-      "recordedAt": "2026-09-17T02:32:42.814Z",
+      "recordedAt": "2026-10-06T15:58:49.853Z",
       "answer": {
         "circles": [
           [
@@ -2050,11 +2057,11 @@
           ],
           [
             "0.105147765",
-            "0.360311046",
+            "0.360311045",
             "0.105147765"
           ],
           [
-            "0.667991382",
+            "0.667991383",
             "0.680277570",
             "0.109280577"
           ],
@@ -2090,12 +2097,12 @@
           ],
           [
             "0.102207270",
-            "0.778143201",
-            "0.102207269"
+            "0.778143200",
+            "0.102207270"
           ],
           [
             "0.105249727",
-            "0.570708514",
+            "0.570708513",
             "0.105249727"
           ],
           [
@@ -2116,7 +2123,7 @@
           [
             "0.289689077",
             "0.680277570",
-            "0.109280578"
+            "0.109280577"
           ],
           [
             "0.669711130",
@@ -2129,12 +2136,12 @@
             "0.126407656"
           ],
           [
-            "0.876114482",
-            "0.960753562",
+            "0.876114481",
+            "0.960753561",
             "0.081565978"
           ],
           [
-            "0.081565979",
+            "0.081565978",
             "0.960753562",
             "0.081565978"
           ],
@@ -2156,7 +2163,7 @@
           [
             "0.478840230",
             "0.785828763",
-            "0.107327854"
+            "0.107327855"
           ]
         ],
         "height": "1.042319540",
@@ -2485,8 +2492,8 @@
         "n": 27
       },
       "objective": "maximize",
-      "scoreStored": "2691523358",
-      "scoreDisplay": "2.691523358",
+      "scoreStored": "2691523360",
+      "scoreDisplay": "2.69152336",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -2498,149 +2505,149 @@
         "source": "Everett Dutton configuration in Erich Friedman's table, published as 2.69152+. The exhibited verifiable starting point comes from the public repository of Berthold, Kamp, Mexi, Pokutta and Polik and reaches 2.690155069 on the nine-decimal grid; optimality is open",
         "url": "https://erich-friedman.github.io/packing/cirRrec/"
       },
-      "holder": "邱仲普",
+      "holder": "zzzcy",
       "method": "ai",
-      "recordedAt": "2026-09-04T13:41:49.321Z",
+      "recordedAt": "2026-10-06T15:59:02.055Z",
       "answer": {
         "circles": [
           [
             "0.329296797",
-            "0.818568514",
+            "0.818568513",
             "0.104930153"
           ],
           [
-            "0.329296796",
+            "0.329296797",
             "0.104930153",
             "0.104930153"
           ],
           [
-            "1.009112805",
+            "1.009112806",
             "0.286187690",
             "0.067388528"
           ],
           [
-            "0.962157350",
+            "0.962157351",
             "0.461749333",
             "0.114343982"
           ],
           [
             "0.112244932",
-            "0.112244933",
+            "0.112244932",
             "0.112244932"
           ],
           [
-            "0.747204536",
+            "0.747204537",
             "0.104930153",
             "0.104930153"
           ],
           [
             "0.067388528",
-            "0.286187691",
+            "0.286187690",
             "0.067388528"
           ],
           [
             "0.112244932",
-            "0.811253735",
+            "0.811253734",
             "0.112244932"
           ],
           [
             "0.114343983",
-            "0.461749334",
+            "0.461749333",
             "0.114343982"
           ],
           [
-            "0.842791584",
+            "0.842791585",
             "0.284999326",
             "0.098936938"
           ],
           [
-            "0.538250666",
+            "0.538250667",
             "0.104025674",
             "0.104025674"
           ],
           [
-            "0.964256401",
+            "0.964256402",
             "0.811253734",
             "0.112244932"
           ],
           [
             "0.641055453",
             "0.640001503",
-            "0.102804785"
+            "0.102804786"
           ],
           [
-            "1.009112805",
+            "1.009112806",
             "0.637310976",
             "0.067388528"
           ],
           [
             "0.233709749",
-            "0.638499341",
+            "0.638499340",
             "0.098936938"
           ],
           [
-            "0.842791584",
+            "0.842791585",
             "0.638499340",
             "0.098936938"
           ],
           [
             "0.747204537",
-            "0.818568514",
+            "0.818568513",
             "0.104930153"
           ],
           [
-            "0.964256401",
+            "0.964256402",
             "0.112244932",
             "0.112244932"
           ],
           [
             "0.233709749",
-            "0.284999327",
+            "0.284999326",
             "0.098936938"
           ],
           [
             "0.538250667",
-            "0.819472993",
+            "0.819472992",
             "0.104025674"
           ],
           [
-            "0.435445880",
-            "0.283497162",
-            "0.102804785"
-          ],
-          [
             "0.435445881",
-            "0.640001504",
+            "0.283497163",
             "0.102804786"
           ],
           [
-            "0.641055452",
+            "0.435445881",
+            "0.640001503",
+            "0.102804786"
+          ],
+          [
+            "0.641055453",
             "0.283497163",
             "0.102804786"
           ],
           [
             "0.067388528",
-            "0.637310977",
+            "0.637310976",
             "0.067388528"
           ],
           [
-            "0.331985049",
-            "0.461749332",
+            "0.331985048",
+            "0.461749333",
             "0.103297082"
           ],
           [
             "0.538250667",
-            "0.461749334",
+            "0.461749333",
             "0.102968536"
           ],
           [
-            "0.744516285",
+            "0.744516287",
             "0.461749333",
             "0.103297082"
           ]
         ],
-        "height": "0.923498667",
-        "width": "1.076501333"
+        "height": "0.923498666",
+        "width": "1.076501334"
       }
     },
     {

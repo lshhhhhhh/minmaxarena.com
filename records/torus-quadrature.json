@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/torus-quadrature",
-  "generatedAt": "2026-10-06T12:06:01.434Z",
+  "generatedAt": "2026-10-07T11:51:47.803Z",
   "instances": [
     {
       "instanceId": "p63-d2-n8-v1",
@@ -22,10 +22,17 @@
       "objective": "minimize",
       "scoreStored": "7781250000000000000000000000000000000",
       "scoreDisplay": "0.34868615007",
-      "status": "open",
-      "settled": false,
+      "status": "proven",
+      "settled": true,
       "recordStatus": "open",
-      "knownBest": null,
+      "knownBest": {
+        "display": "0.3486861500690843",
+        "kind": "proven",
+        "exact": "√498/64",
+        "proofScope": "continuous",
+        "source": "Computer-assisted proof submitted by zzzcy #308 (generated with AI assistance, as stated): an auxiliary function with nonnegative coefficients gives E ≥ 249/2048, and the lattice {(j/8, 5j/8)} attains it; all eight points lie on the nine-decimal grid, so the current record 0.34868615007 is the optimum. MinMax Arena replayed every certificate with its own code without running the submitted scripts.",
+        "url": "https://minmaxarena.com/proofs/torus-quadrature-optimality"
+      },
       "holder": "Sigmoid with Codex",
       "method": "ai",
       "recordedAt": "2026-09-01T14:52:13.348Z",
@@ -76,10 +83,17 @@
       "objective": "minimize",
       "scoreStored": "8822485207100592005112425950295858208",
       "scoreDisplay": "0.228482065992",
-      "status": "open",
-      "settled": false,
+      "status": "proven",
+      "settled": true,
       "recordStatus": "open",
-      "knownBest": null,
+      "knownBest": {
+        "display": "0.2284820659918085",
+        "kind": "proven",
+        "exact": "√1491/169",
+        "proofScope": "continuous",
+        "source": "Computer-assisted proof submitted by zzzcy #308 (generated with AI assistance, as stated): an auxiliary function with nonnegative coefficients over a cyclotomic field gives the continuous bound E ≥ 1491/28561, attained by an ideal lattice whose coordinates are not nine-decimal; any better grid answer must lie in a rational ellipsoid within a few millionths of the lattice, and a complete integer enumeration shows the grid minimum is 0.228482065992, the current record. MinMax Arena replayed every certificate with its own code without running the submitted scripts.",
+        "url": "https://minmaxarena.com/proofs/torus-quadrature-optimality"
+      },
       "holder": "Ἀθηνᾶ",
       "method": "ai",
       "recordedAt": "2026-09-04T08:39:16.842Z",
@@ -236,10 +250,17 @@
       "objective": "minimize",
       "scoreStored": "9911564625850340826013605488979592272",
       "scoreDisplay": "0.149917321325",
-      "status": "open",
-      "settled": false,
+      "status": "proven",
+      "settled": true,
       "recordStatus": "open",
-      "knownBest": null,
+      "knownBest": {
+        "display": "0.149917321324858",
+        "kind": "proven",
+        "exact": "√4371/441",
+        "proofScope": "continuous",
+        "source": "Computer-assisted proof submitted by zzzcy #308 (generated with AI assistance, as stated): an auxiliary function with nonnegative coefficients over a cyclotomic field gives the continuous bound E ≥ 4371/194481, attained by an ideal lattice whose coordinates are not nine-decimal; any better grid answer must lie in a rational ellipsoid within a few millionths of the lattice, and a complete integer enumeration shows the grid minimum is 0.149917321325, the current record. MinMax Arena replayed every certificate with its own code without running the submitted scripts.",
+        "url": "https://minmaxarena.com/proofs/torus-quadrature-optimality"
+      },
       "holder": "Sigmoid with Codex",
       "method": "ai",
       "recordedAt": "2026-09-01T14:51:25.613Z",
@@ -470,15 +491,22 @@
         "d": 2
       },
       "objective": "minimize",
-      "scoreStored": "10977508650519033369633218033937717408",
+      "scoreStored": "10977508650519033365564013941480970048",
       "scoreDisplay": "0.097448010496",
-      "status": "open",
-      "settled": false,
+      "status": "proven",
+      "settled": true,
       "recordStatus": "open",
-      "knownBest": null,
-      "holder": "Ἀθηνᾶ",
+      "knownBest": {
+        "display": "0.09744801049577122",
+        "kind": "proven",
+        "exact": "√12690/1156",
+        "proofScope": "continuous",
+        "source": "Computer-assisted proof submitted by zzzcy #308 (generated with AI assistance, as stated): an auxiliary function with nonnegative coefficients over a cyclotomic field gives the continuous bound E ≥ 12690/1336336, attained by an ideal lattice whose coordinates are not nine-decimal; any better grid answer must lie in a rational ellipsoid within a few millionths of the lattice, and a complete integer enumeration shows the grid minimum is 0.097448010496, the current record. MinMax Arena replayed every certificate with its own code without running the submitted scripts.",
+        "url": "https://minmaxarena.com/proofs/torus-quadrature-optimality"
+      },
+      "holder": "zzzcy",
       "method": "ai",
-      "recordedAt": "2026-09-04T08:39:34.270Z",
+      "recordedAt": "2026-10-06T15:52:53.685Z",
       "answer": {
         "points": [
           [
@@ -486,7 +514,7 @@
             "0.000000000"
           ],
           [
-            "0.205882353",
+            "0.205882354",
             "0.323529412"
           ],
           [
@@ -526,27 +554,27 @@
             "0.235294118"
           ],
           [
-            "0.264705882",
+            "0.264705883",
             "0.558823530"
           ],
           [
-            "0.470588235",
+            "0.470588236",
             "0.882352941"
           ],
           [
-            "0.676470588",
+            "0.676470589",
             "0.205882353"
           ],
           [
-            "0.882352941",
+            "0.882352942",
             "0.529411765"
           ],
           [
-            "0.088235294",
+            "0.088235295",
             "0.852941177"
           ],
           [
-            "0.294117647",
+            "0.294117648",
             "0.176470588"
           ],
           [
@@ -554,7 +582,7 @@
             "0.500000000"
           ],
           [
-            "0.705882353",
+            "0.705882354",
             "0.823529412"
           ],
           [
@@ -594,27 +622,27 @@
             "0.735294118"
           ],
           [
-            "0.764705882",
+            "0.764705883",
             "0.058823530"
           ],
           [
-            "0.970588235",
+            "0.970588236",
             "0.382352941"
           ],
           [
-            "0.176470588",
+            "0.176470589",
             "0.705882353"
           ],
           [
-            "0.382352941",
+            "0.382352942",
             "0.029411765"
           ],
           [
-            "0.588235294",
+            "0.588235295",
             "0.352941177"
           ],
           [
-            "0.794117647",
+            "0.794117648",
             "0.676470588"
           ]
         ]
@@ -772,7 +800,7 @@
         "d": 3
       },
       "objective": "minimize",
-      "scoreStored": "46556153796502522531414113732891955145002994103090940720",
+      "scoreStored": "46556153796502522524448163836977057132508774063899855472",
       "scoreDisplay": "0.426450437645",
       "status": "open",
       "settled": false,
@@ -780,7 +808,7 @@
       "knownBest": null,
       "holder": "zzzcy",
       "method": "ai",
-      "recordedAt": "2026-10-02T04:34:15.344Z",
+      "recordedAt": "2026-10-06T15:53:07.838Z",
       "answer": {
         "points": [
           [
@@ -791,10 +819,10 @@
           [
             "0.224468364",
             "0.183975601",
-            "0.236528602"
+            "0.236528601"
           ],
           [
-            "0.043403626",
+            "0.043403627",
             "0.356772568",
             "0.488868743"
           ],
@@ -854,7 +882,7 @@
             "0.692276776"
           ],
           [
-            "0.795565072",
+            "0.795565073",
             "0.425264777",
             "0.120113118"
           ],
@@ -874,7 +902,7 @@
         "d": 3
       },
       "objective": "minimize",
-      "scoreStored": "53503092651915996713897216198136938703602334814320029280",
+      "scoreStored": "53503092651915996711200881969120124390971928737483832448",
       "scoreDisplay": "0.348313372641",
       "status": "open",
       "settled": false,
@@ -882,7 +910,7 @@
       "knownBest": null,
       "holder": "zzzcy",
       "method": "ai",
-      "recordedAt": "2026-10-02T04:34:18.270Z",
+      "recordedAt": "2026-10-06T15:53:18.947Z",
       "answer": {
         "points": [
           [
@@ -897,13 +925,13 @@
           ],
           [
             "0.655759770",
-            "0.347769410",
+            "0.347769409",
             "0.028053181"
           ],
           [
-            "0.856746952",
+            "0.856746951",
             "0.860128525",
-            "0.455392082"
+            "0.455392081"
           ],
           [
             "0.182738331",
@@ -911,14 +939,14 @@
             "0.942438813"
           ],
           [
-            "0.509121485",
+            "0.509121484",
             "0.204561578",
             "0.429460845"
           ],
           [
             "0.714815454",
             "0.716308744",
-            "0.885818193"
+            "0.885818192"
           ],
           [
             "0.041422099",
@@ -927,12 +955,12 @@
           ],
           [
             "0.367547014",
-            "0.060986953",
+            "0.060986952",
             "0.856208189"
           ],
           [
             "0.573193689",
-            "0.572505625",
+            "0.572505624",
             "0.314476760"
           ],
           [
@@ -943,10 +971,10 @@
           [
             "0.225925249",
             "0.917183833",
-            "0.284866757"
+            "0.284866756"
           ],
           [
-            "0.431619219",
+            "0.431619218",
             "0.428930999",
             "0.741224104"
           ],
@@ -956,17 +984,17 @@
             "0.228246136"
           ],
           [
-            "0.083993752",
+            "0.083993751",
             "0.773364052",
-            "0.715292868"
+            "0.715292867"
           ],
           [
             "0.284980933",
-            "0.285723168",
+            "0.285723167",
             "0.142631768"
           ],
           [
-            "0.611863453",
+            "0.611863452",
             "0.961047208",
             "0.656749254"
           ],
@@ -977,17 +1005,17 @@
           ],
           [
             "0.144886509",
-            "0.145385004",
+            "0.145385003",
             "0.569771655"
           ],
           [
             "0.470370352",
-            "0.816746289",
-            "0.085342475"
+            "0.816746288",
+            "0.085342474"
           ],
           [
             "0.795854194",
-            "0.488107574",
+            "0.488107573",
             "0.600913294"
           ]
         ]
@@ -1001,7 +1029,7 @@
         "d": 3
       },
       "objective": "minimize",
-      "scoreStored": "59035245745012750028154199658798831109561269151987002160",
+      "scoreStored": "59035245745012750016057698697471230376515548980672611632",
       "scoreDisplay": "0.284571841034",
       "status": "open",
       "settled": false,
@@ -1009,7 +1037,7 @@
       "knownBest": null,
       "holder": "zzzcy",
       "method": "ai",
-      "recordedAt": "2026-10-02T04:34:09.311Z",
+      "recordedAt": "2026-10-06T15:53:29.865Z",
       "answer": {
         "points": [
           [
@@ -1018,9 +1046,9 @@
             "0.000000000"
           ],
           [
-            "0.273138178",
+            "0.273138177",
             "0.550586646",
-            "0.414410630"
+            "0.414410631"
           ],
           [
             "0.718742205",
@@ -1028,17 +1056,17 @@
             "0.947924462"
           ],
           [
-            "0.133152836",
+            "0.133152835",
             "0.112270694",
             "0.498511107"
           ],
           [
-            "0.359371103",
+            "0.359371102",
             "0.692704436",
             "0.973962231"
           ],
           [
-            "0.834822226",
+            "0.834822225",
             "0.466486169",
             "0.554395973"
           ],
@@ -1053,7 +1081,7 @@
             "0.533513831"
           ],
           [
-            "0.918922703",
+            "0.918922702",
             "0.606471511",
             "0.116080021"
           ],
@@ -1063,7 +1091,7 @@
             "0.666666667"
           ],
           [
-            "0.606471511",
+            "0.606471510",
             "0.883919979",
             "0.081077297"
           ],
@@ -1073,14 +1101,14 @@
             "0.614591128"
           ],
           [
-            "0.466486169",
+            "0.466486168",
             "0.445604027",
             "0.165177774"
           ],
           [
-            "0.692704436",
+            "0.692704435",
             "0.026037769",
-            "0.640628897"
+            "0.640628898"
           ],
           [
             "0.168155559",
@@ -1088,22 +1116,22 @@
             "0.221062639"
           ],
           [
-            "0.550586646",
+            "0.550586645",
             "0.585589369",
-            "0.726861822"
+            "0.726861823"
           ],
           [
-            "0.778937361",
+            "0.778937360",
             "0.168155559",
             "0.200180498"
           ],
           [
-            "0.252256036",
+            "0.252256035",
             "0.939804844",
             "0.782746688"
           ],
           [
-            "0.666666667",
+            "0.666666666",
             "0.666666667",
             "0.333333333"
           ],
@@ -1113,7 +1141,7 @@
             "0.747743964"
           ],
           [
-            "0.385408872",
+            "0.385408871",
             "0.052075538",
             "0.281257795"
           ],
@@ -1128,12 +1156,12 @@
             "0.307295564"
           ],
           [
-            "0.501488893",
+            "0.501488892",
             "0.133152836",
             "0.887729306"
           ],
           [
-            "0.883919979",
+            "0.883919978",
             "0.918922703",
             "0.393528489"
           ],

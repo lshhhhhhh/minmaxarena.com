@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/erasure-frames",
-  "generatedAt": "2026-10-06T12:06:01.617Z",
+  "generatedAt": "2026-10-07T11:51:47.980Z",
   "instances": [
     {
       "instanceId": "p65-d3-n6-v1",
@@ -20,56 +20,53 @@
         "d": 3
       },
       "objective": "maximize",
-      "scoreStored": "221114561679561953",
-      "scoreDisplay": "0.221114561679",
-      "status": "open",
-      "settled": false,
+      "scoreStored": "221114561800016823",
+      "scoreDisplay": "0.2211145618",
+      "status": "proven",
+      "settled": true,
       "recordStatus": "open",
-      "knownBest": null,
-      "holder": "邱仲普",
+      "knownBest": {
+        "display": "0.2211145618000169",
+        "kind": "proven",
+        "exact": "(2/5)(1 − 1/√5)",
+        "proofScope": "continuous",
+        "source": "Computer-assisted proof submitted by zzzcy #308 (generated with AI assistance, as stated): the continuous optimum; the largest nine-decimal score is outside this proof's scope. MinMax Arena replayed every certificate with its own code without running the submitted scripts.",
+        "url": "https://minmaxarena.com/proofs/erasure-frames-optimality"
+      },
+      "holder": "zzzcy",
       "method": "ai",
-      "recordedAt": "2026-09-04T14:39:51.478Z",
+      "recordedAt": "2026-10-06T15:56:58.050Z",
       "answer": {
-        "_meta": {
-          "gain_over_window": 140561954,
-          "iid": "p65-d3-n6-v1",
-          "method": "holder-cert seed + exact 9dp lattice ascent + ILS",
-          "our_score": 221114561679561950,
-          "record_disp": 0.221114561538,
-          "record_window_top": 221114561539000000,
-          "source": "energy2-p65-squeeze-0905-88",
-          "verified_by": "energy2 (self, exact Fraction minvol)"
-        },
         "vectors": [
           [
-            "-0.000000017",
-            "0.525731090",
-            "0.850650771"
+            "0.000000000",
+            "0.433494437",
+            "0.701408733"
           ],
           [
-            "0.525731081",
-            "0.850650783",
-            "0.000000006"
+            "0.433494437",
+            "0.701408733",
+            "0.000000000"
           ],
           [
-            "0.850650785",
-            "0.000000012",
-            "0.525731112"
+            "0.701408733",
+            "0.000000000",
+            "0.433494437"
           ],
           [
-            "0.000000003",
-            "0.525731086",
-            "-0.850650768"
+            "0.000000000",
+            "0.433494437",
+            "-0.701408733"
           ],
           [
-            "0.525731091",
-            "-0.850650749",
-            "0.000000007"
+            "0.433494437",
+            "-0.701408733",
+            "0.000000000"
           ],
           [
-            "-0.850650765",
-            "-0.000000011",
-            "0.525731071"
+            "-0.701408733",
+            "0.000000000",
+            "0.433494437"
           ]
         ]
       }
@@ -82,66 +79,61 @@
         "d": 3
       },
       "objective": "maximize",
-      "scoreStored": "66035176735741081",
-      "scoreDisplay": "0.066035176735",
-      "status": "open",
-      "settled": false,
-      "recordStatus": "open",
-      "knownBest": null,
-      "holder": "邱仲普",
+      "scoreStored": "66035176782963417",
+      "scoreDisplay": "0.066035176782",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "optimal",
+      "knownBest": {
+        "display": "0.066035176782",
+        "kind": "proven",
+        "source": "Computer-assisted proof submitted by zzzcy #308 (generated with AI assistance, as stated): on the nine-decimal grid the integer score 66035176782963417 (the floor of 10¹⁸ × the normalised volume) is the largest possible, and equals the current record. Four weighted Cauchy–Binet inequalities and a 280-relation log-convex dual certificate bound every real frame just below the next integer score (a relative margin of about 2 × 10⁻¹⁶), and the current record attains this one. The continuous optimum is outside this proof's scope. MinMax Arena replayed every certificate with its own code without running the submitted scripts.",
+        "url": "https://minmaxarena.com/proofs/erasure-frames-optimality"
+      },
+      "holder": "zzzcy",
       "method": "ai",
-      "recordedAt": "2026-09-04T14:40:40.525Z",
+      "recordedAt": "2026-10-06T15:57:09.780Z",
       "answer": {
-        "_meta": {
-          "gain_over_window": 173741082,
-          "iid": "p65-d3-n8-v1",
-          "method": "holder-cert seed + exact 9dp lattice ascent + ILS",
-          "our_score": 66035176735741080,
-          "record_disp": 0.066035176561,
-          "record_window_top": 66035176562000000,
-          "source": "energy2-p65-squeeze-0905-88",
-          "verified_by": "energy2 (self, exact Fraction minvol)"
-        },
         "vectors": [
           [
-            "-0.684236556",
-            "0.330247786",
-            "-0.650197459"
+            "0.315504791",
+            "0.431761327",
+            "0.494892959"
           ],
           [
-            "0.145442608",
-            "-0.862143827",
-            "0.485339548"
+            "0.315504791",
+            "0.431761327",
+            "-0.494892959"
           ],
           [
-            "0.985715834",
-            "-0.166902841",
-            "-0.022532261"
+            "0.315504791",
+            "-0.431761327",
+            "0.494892959"
           ],
           [
-            "-0.359345177",
-            "-0.566759772",
-            "0.741386808"
+            "0.315504791",
+            "-0.431761327",
+            "-0.494892959"
           ],
           [
-            "-0.817988637",
-            "-0.563237582",
-            "0.116867615"
+            "0.267570676",
+            "0.794328857",
+            "0.000000000"
           ],
           [
-            "0.133261717",
-            "0.963915654",
-            "0.230451506"
+            "0.267570676",
+            "-0.794328857",
+            "0.000000000"
           ],
           [
-            "0.383047636",
-            "-0.634049387",
-            "-0.671755825"
+            "0.500878354",
+            "0.000000000",
+            "0.289746371"
           ],
           [
-            "0.000490352",
-            "-0.070430306",
-            "-0.997516566"
+            "0.500878354",
+            "0.000000000",
+            "-0.289746371"
           ]
         ]
       }
@@ -154,76 +146,73 @@
         "d": 3
       },
       "objective": "maximize",
-      "scoreStored": "56587557033822611",
-      "scoreDisplay": "0.056587557033",
-      "status": "open",
-      "settled": false,
+      "scoreStored": "56587557222237799",
+      "scoreDisplay": "0.056587557222",
+      "status": "proven",
+      "settled": true,
       "recordStatus": "open",
-      "knownBest": null,
-      "holder": "邱仲普",
+      "knownBest": {
+        "display": "0.05658755722223779",
+        "kind": "proven",
+        "exact": "2(3 − √5)/27",
+        "proofScope": "continuous",
+        "source": "Computer-assisted proof submitted by zzzcy #308 (generated with AI assistance, as stated): the continuous optimum; the largest nine-decimal score is outside this proof's scope. MinMax Arena replayed every certificate with its own code without running the submitted scripts.",
+        "url": "https://minmaxarena.com/proofs/erasure-frames-optimality"
+      },
+      "holder": "zzzcy",
       "method": "ai",
-      "recordedAt": "2026-09-04T13:19:30.389Z",
+      "recordedAt": "2026-10-06T15:57:23.726Z",
       "answer": {
-        "_meta": {
-          "gain_over_window": 124822612,
-          "iid": "p65-d3-n10-v1",
-          "method": "holder-cert seed + exact 9dp lattice ascent + ILS",
-          "our_score": 56587557033822610,
-          "record_disp": 0.056587556908,
-          "record_window_top": 56587556909000000,
-          "source": "energy2-p65-squeeze-0905-12345",
-          "verified_by": "energy2 (self, exact Fraction minvol)"
-        },
         "vectors": [
           [
-            "0.000000001",
-            "0.000000000",
+            "1.000000000",
+            "-1.000000000",
+            "-1.000000000"
+          ],
+          [
+            "1.000000000",
+            "-1.000000000",
             "1.000000000"
           ],
           [
-            "-0.084002861",
-            "-0.661353132",
-            "0.745355993"
+            "1.000000000",
+            "1.000000000",
+            "-1.000000000"
           ],
           [
-            "-0.530747181",
-            "0.403425178",
-            "0.745355992"
+            "1.000000000",
+            "1.000000000",
+            "1.000000000"
           ],
           [
-            "0.614750044",
-            "0.257927953",
-            "0.745355992"
+            "0.000000000",
+            "0.165580141",
+            "0.433494437"
           ],
           [
-            "-0.666666667",
-            "-0.666666667",
-            "0.333333333"
+            "0.165580141",
+            "0.433494437",
+            "0.000000000"
           ],
           [
-            "-0.942769841",
-            "-0.008597481",
-            "0.333333333"
+            "0.433494437",
+            "0.000000000",
+            "0.165580141"
           ],
           [
-            "0.478830558",
-            "-0.812163891",
-            "0.333333333"
+            "0.000000000",
+            "0.165580141",
+            "-0.433494437"
           ],
           [
-            "-0.244016936",
-            "0.910683603",
-            "0.333333333"
+            "0.165580141",
+            "-0.433494437",
+            "0.000000000"
           ],
           [
-            "0.910683603",
-            "-0.244016936",
-            "0.333333333"
-          ],
-          [
-            "0.463939283",
-            "0.820761373",
-            "0.333333333"
+            "-0.433494437",
+            "0.000000000",
+            "0.165580141"
           ]
         ]
       }
@@ -318,74 +307,74 @@
         "d": 4
       },
       "objective": "maximize",
-      "scoreStored": "49783309911245417",
-      "scoreDisplay": "0.049783309911",
-      "status": "open",
-      "settled": false,
+      "scoreStored": "49783309999212874",
+      "scoreDisplay": "0.049783309999",
+      "status": "proven",
+      "settled": true,
       "recordStatus": "open",
-      "knownBest": null,
-      "holder": "邱仲普",
-      "method": "ai",
-      "recordedAt": "2026-09-04T14:41:29.606Z",
-      "answer": {
-        "_meta": {
-          "gain_over_window": 72245418,
-          "iid": "p65-d4-n8-v1",
-          "method": "holder-cert seed + exact 9dp lattice ascent + ILS",
-          "our_score": 49783309911245416,
-          "record_disp": 0.049783309838,
-          "record_window_top": 49783309839000000,
-          "source": "energy2-p65-squeeze-0905-88",
-          "verified_by": "energy2 (self, exact Fraction minvol)"
+      "knownBest": {
+        "display": "0.049783309999360072979420928838",
+        "kind": "proven",
+        "range": {
+          "lower": "0.049783309999360072979420928838",
+          "upper": "0.049783309999360072979420928839"
         },
+        "proofScope": "continuous",
+        "source": "Computer-assisted proof submitted by zzzcy #308 (generated with AI assistance, as stated): the continuous optimum; the largest nine-decimal score is outside this proof's scope. MinMax Arena replayed every certificate with its own code without running the submitted scripts.",
+        "url": "https://minmaxarena.com/proofs/erasure-frames-optimality"
+      },
+      "holder": "zzzcy",
+      "method": "ai",
+      "recordedAt": "2026-10-06T15:57:34.608Z",
+      "answer": {
         "vectors": [
           [
-            "-0.306267166",
-            "-0.240930691",
-            "0.710862503",
-            "0.585514584"
+            "-0.314659028",
+            "-0.247532303",
+            "0.730340464",
+            "0.601557954"
           ],
           [
-            "0.599587908",
-            "-0.298695894",
-            "0.559302520",
-            "-0.488319360"
+            "0.942898744",
+            "-0.469722586",
+            "0.879546829",
+            "-0.767920274"
           ],
           [
-            "-0.206402719",
-            "-0.569922224",
-            "0.755033483",
-            "-0.250022029"
+            "-0.265615462",
+            "-0.733421319",
+            "0.971637234",
+            "-0.321748264"
           ],
           [
-            "-0.241221068",
-            "0.818828900",
-            "0.375997160",
-            "0.360496558"
+            "-0.221834855",
+            "0.753022080",
+            "0.345779398",
+            "0.331524532"
           ],
           [
-            "0.639685676",
-            "0.664276769",
-            "0.290636997",
-            "0.255085769"
+            "0.490118781",
+            "0.508960154",
+            "0.222682258",
+            "0.195443373"
           ],
           [
-            "0.581695403",
-            "-0.471632368",
-            "-0.539787919",
-            "0.384476749"
+            "0.544868968",
+            "-0.441773891",
+            "-0.505614596",
+            "0.360135989"
           ],
           [
-            "-0.391034521",
-            "-0.406650805",
-            "-0.144666702",
-            "0.812895238"
+            "-0.463719357",
+            "-0.482238369",
+            "-0.171557104",
+            "0.963994830"
           ],
           [
-            "-0.738532173",
-            "0.168450191",
-            "-0.271360380",
-            "-0.593766203"
+            "0.905684308",
+            "-0.206575556",
+            "0.332777429",
+            "0.728153426"
           ]
         ]
       }

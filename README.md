@@ -37,7 +37,7 @@ managed.
 
 ## The records
 
-68 problem families, 2336 sub-problems, 2192 still open.
+68 problem families, 2336 sub-problems, 2175 still open.
 `records/` holds today's snapshot of each family; the live files are at
 `https://minmaxarena.com/data/{slug}.json`, and the citable ones are the monthly frozen
 editions at `https://minmaxarena.com/data/editions/{YYYY-MM}/{slug}.json`, which never change
@@ -84,14 +84,14 @@ once published. Data is CC BY 4.0; see
 | [P57](https://minmaxarena.com/en/problems/sum-of-radii) | Sum of radii in the unit square | 30 | 29 | [json](records/sum-of-radii.json) |
 | [P58](https://minmaxarena.com/en/problems/heilbronn-in-equilateral) | The smallest triangle in an equilateral triangle | 10 | 8 | [json](records/heilbronn-in-equilateral.json) |
 | [P59](https://minmaxarena.com/en/problems/l2-star-discrepancy) | Minimum L2-star discrepancy in the unit hypercube | 25 | 25 | [json](records/l2-star-discrepancy.json) |
-| [P60](https://minmaxarena.com/en/problems/line-packing) | Line packing in real projective space | 32 | 32 | [json](records/line-packing.json) |
-| [P61](https://minmaxarena.com/en/problems/complex-projective-packing) | Codebook packing in complex projective space | 25 | 25 | [json](records/complex-projective-packing.json) |
+| [P60](https://minmaxarena.com/en/problems/line-packing) | Line packing in real projective space | 32 | 31 | [json](records/line-packing.json) |
+| [P61](https://minmaxarena.com/en/problems/complex-projective-packing) | Codebook packing in complex projective space | 25 | 24 | [json](records/complex-projective-packing.json) |
 | [P62](https://minmaxarena.com/en/problems/worst-projection) | A sampling design uniform in every pair of columns | 9 | 9 | [json](records/worst-projection.json) |
-| [P63](https://minmaxarena.com/en/problems/torus-quadrature) | Optimal quadrature points on the torus | 12 | 12 | [json](records/torus-quadrature.json) |
+| [P63](https://minmaxarena.com/en/problems/torus-quadrature) | Optimal quadrature points on the torus | 12 | 8 | [json](records/torus-quadrature.json) |
 | [P64](https://minmaxarena.com/en/problems/subspace-packing) | The most separated family of subspaces | 16 | 16 | [json](records/subspace-packing.json) |
-| [P65](https://minmaxarena.com/en/problems/erasure-frames) | The most erasure-robust measurement directions | 11 | 11 | [json](records/erasure-frames.json) |
+| [P65](https://minmaxarena.com/en/problems/erasure-frames) | The most erasure-robust measurement directions | 11 | 7 | [json](records/erasure-frames.json) |
 | [P66](https://minmaxarena.com/en/problems/unit-circles-in-minimum-area-triangle) | Unit circles in a minimum-area triangle | 47 | 47 | [json](records/unit-circles-in-minimum-area-triangle.json) |
-| [P67](https://minmaxarena.com/en/problems/variable-circles-in-fixed-perimeter-rectangle) | Variable-radius circles in a fixed-perimeter rectangle | 28 | 28 | [json](records/variable-circles-in-fixed-perimeter-rectangle.json) |
+| [P67](https://minmaxarena.com/en/problems/variable-circles-in-fixed-perimeter-rectangle) | Variable-radius circles in a fixed-perimeter rectangle | 28 | 21 | [json](records/variable-circles-in-fixed-perimeter-rectangle.json) |
 | [P68](https://minmaxarena.com/en/problems/spherical-code-on-s2) | Spherical codes: maximize the minimum angle | 17 | 17 | [json](records/spherical-code-on-s2.json) |
 | [P70](https://minmaxarena.com/en/problems/probe-codebook) | Four-phase radar probe codebook | 9 | 8 | [json](records/probe-codebook.json) |
 | [P71](https://minmaxarena.com/en/problems/l-shaped-optimal-quantization) | Optimal quantization in an L-shaped region | 20 | 20 | [json](records/l-shaped-optimal-quantization.json) |
