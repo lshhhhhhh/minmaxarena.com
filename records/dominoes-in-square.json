@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/dominoes-in-square",
-  "generatedAt": "2026-10-07T11:51:50.757Z",
+  "generatedAt": "2026-10-08T12:06:55.108Z",
   "instances": [
     {
       "instanceId": "p90-n1-v1",
@@ -201,8 +201,8 @@
         "sides": 5
       },
       "objective": "minimize",
-      "scoreStored": "3767766975820110528",
-      "scoreDisplay": "3.767766976",
+      "scoreStored": "3767766961624042598",
+      "scoreDisplay": "3.767766962",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -219,41 +219,41 @@
         "source": "Compiled by Erich Friedman; Found by Jonathan Viquerat in May 2026. Source expression: s = 2+5√2/4 = 3.76776+.",
         "url": "https://erich-friedman.github.io/packing/dominsqu/"
       },
-      "holder": "CJerry",
+      "holder": "今天",
       "method": "human",
-      "recordedAt": "2026-09-17T06:48:36.730Z",
+      "recordedAt": "2026-10-08T09:13:14.648Z",
       "answer": {
         "placements": [
           {
             "quarter": 1,
             "turn": "0.000000000",
-            "x": "0.398113797",
-            "y": "0.265409197"
+            "x": "0.398113794",
+            "y": "0.265409196"
           },
           {
-            "turn": "0.414198080",
-            "x": "0.718488556",
-            "y": "0.718493516"
+            "turn": "0.414213562",
+            "x": "0.718491035",
+            "y": "0.718491035"
           },
           {
             "turn": "0.006112809",
-            "x": "0.276711574",
-            "y": "0.860855429"
+            "x": "0.267011701",
+            "y": "0.864060645"
           },
           {
             "quarter": 1,
             "turn": "0.008949139",
-            "x": "0.861251398",
-            "y": "0.270195755"
+            "x": "0.862566665",
+            "y": "0.268913665"
           },
           {
             "quarter": 1,
             "turn": "0.000000000",
-            "x": "0.132704600",
-            "y": "0.265490912"
+            "x": "0.132704598",
+            "y": "0.265490916"
           }
         ],
-        "radius": "0.265409195"
+        "radius": "0.265409196"
       }
     },
     {

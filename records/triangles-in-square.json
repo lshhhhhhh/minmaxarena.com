@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/triangles-in-square",
-  "generatedAt": "2026-10-07T11:51:49.810Z",
+  "generatedAt": "2026-10-08T12:06:54.197Z",
   "instances": [
     {
       "instanceId": "p83-n3-v1",
@@ -250,8 +250,8 @@
         "sides": 5
       },
       "objective": "minimize",
-      "scoreStored": "2000000011049187824",
-      "scoreDisplay": "2.000000012",
+      "scoreStored": "2000000004120984541",
+      "scoreDisplay": "2.000000005",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -266,15 +266,15 @@
         "source": "Compiled by Erich Friedman; Found by Erich Friedman in 1996. Source expression: s = 2.",
         "url": "https://erich-friedman.github.io/packing/triinsqu/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-10-07T11:16:30.277Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-10-08T09:07:49.994Z",
       "answer": {
         "placements": [
           {
-            "turn": "0.267949192",
+            "turn": "0.267949193",
             "x": "0.250000000",
-            "y": "0.855662433"
+            "y": "0.855662432"
           },
           {
             "turn": "-0.267949192",
@@ -284,7 +284,7 @@
           {
             "turn": "0.267949192",
             "x": "0.750000000",
-            "y": "0.855662433"
+            "y": "0.855662432"
           },
           {
             "turn": "0.000000000",
@@ -292,22 +292,22 @@
             "y": "0.461324865"
           },
           {
-            "turn": "-0.577350269",
-            "x": "0.855662433",
+            "turn": "-0.577350270",
+            "x": "0.855662432",
             "y": "0.461324865"
           },
           {
-            "turn": "-0.577350269",
+            "turn": "-0.577350270",
             "x": "0.355662433",
             "y": "0.250000000"
           },
           {
-            "turn": "-0.000000000",
-            "x": "0.644337567",
-            "y": "0.250000000"
+            "turn": "-0.000000002",
+            "x": "0.644337568",
+            "y": "0.249999999"
           }
         ],
-        "radius": "0.288675133"
+        "radius": "0.288675134"
       }
     },
     {

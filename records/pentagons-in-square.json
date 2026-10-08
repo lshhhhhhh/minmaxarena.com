@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/pentagons-in-square",
-  "generatedAt": "2026-10-07T11:51:50.120Z",
+  "generatedAt": "2026-10-08T12:06:54.629Z",
   "instances": [
     {
       "instanceId": "p86-n3-v1",
@@ -475,8 +475,8 @@
         "sides": 5
       },
       "objective": "minimize",
-      "scoreStored": "4905820438572836466",
-      "scoreDisplay": "4.905820439",
+      "scoreStored": "4905820410280294097",
+      "scoreDisplay": "4.905820411",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -492,18 +492,18 @@
         "source": "Compiled by Erich Friedman; Found by Jonathan Viquerat in June 2026. Source expression: s = 4.90581+.",
         "url": "https://erich-friedman.github.io/packing/peninsqu/"
       },
-      "holder": "zzzcy",
+      "holder": "邱仲普",
       "method": "ai",
-      "recordedAt": "2026-10-05T03:44:47.096Z",
+      "recordedAt": "2026-10-08T08:41:18.104Z",
       "answer": {
         "placements": [
           {
-            "turn": "0.000000000",
+            "turn": "-0.000000002",
             "x": "0.593042595",
-            "y": "0.673649228"
+            "y": "0.673649227"
           },
           {
-            "turn": "0.324919696",
+            "turn": "0.324919697",
             "x": "0.859719495",
             "y": "0.530821119"
           },
@@ -518,9 +518,9 @@
             "y": "0.140280505"
           },
           {
-            "turn": "0.324919696",
+            "turn": "0.324919695",
             "x": "0.859719495",
-            "y": "0.164909624"
+            "y": "0.164909623"
           },
           {
             "turn": "0.324919696",
@@ -545,10 +545,10 @@
           {
             "turn": "0.000000000",
             "x": "0.140280505",
-            "y": "0.285032529"
+            "y": "0.285032530"
           }
         ],
-        "radius": "0.173396238"
+        "radius": "0.173396239"
       }
     },
     {
