@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/circles-in-disc-radii",
-  "generatedAt": "2026-10-07T11:51:49.411Z",
+  "generatedAt": "2026-10-09T11:58:33.456Z",
   "instances": [
     {
       "instanceId": "p92-n1-v1",
@@ -7707,19 +7707,19 @@
       "objective": "maximize",
       "scoreStored": "6538814818",
       "scoreDisplay": "6.538814818",
-      "status": "ahead",
+      "status": "matched",
       "settled": false,
-      "recordStatus": "ahead",
+      "recordStatus": "matched",
       "knownBest": {
-        "display": "6.53814",
+        "display": "6.53881",
         "kind": "best",
         "range": {
-          "lower": "6.53814",
-          "upper": "6.53815"
+          "lower": "6.53881",
+          "upper": "6.53882",
+          "upperInclusive": false
         },
         "truncated": true,
-        "certificateDisplay": "6.538140425",
-        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Circles); Found by Joost de Winter in September 2026. Source expression: Σ r = 6.53814+. The site's reconstruction of the figure, verified exactly, is stored separately.",
+        "source": "Jean-René Denoual (October 2026) in Erich Friedman's compiled table, printed as Σr = 6.53881+, superseding Joost de Winter's 6.53814+; checked 2026-10-08 at revision dc91d31. The interval is converted conservatively from the printed truncated precision; optimality is open. The layout is published as a figure only; the site cites the value without rebuilding it, and the site's rebuild of the older figure stays as an earlier-source starter.",
         "url": "https://erich-friedman.github.io/packing/cirRcir/"
       },
       "holder": "zzzcy",

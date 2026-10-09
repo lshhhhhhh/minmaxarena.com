@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/complex-projective-packing",
-  "generatedAt": "2026-10-07T11:51:47.625Z",
+  "generatedAt": "2026-10-09T11:58:31.391Z",
   "instances": [
     {
       "instanceId": "p61-d3-n5-v1",
@@ -1776,14 +1776,14 @@
       "objective": "minimize",
       "scoreStored": "180750003512723945",
       "scoreDisplay": "0.425147038",
-      "status": "ahead",
+      "status": "matched",
       "settled": false,
-      "recordStatus": "ahead",
+      "recordStatus": "matched",
       "knownBest": {
         "display": "0.42514727",
         "kind": "best",
         "range": {
-          "lower": "0.425147265",
+          "lower": "0.4251470372",
           "upper": "0.425147275"
         },
         "precision": "rounded",

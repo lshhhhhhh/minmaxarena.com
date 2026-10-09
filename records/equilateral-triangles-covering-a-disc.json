@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/equilateral-triangles-covering-a-disc",
-  "generatedAt": "2026-10-05T12:23:21.567Z",
+  "generatedAt": "2026-10-09T11:58:32.985Z",
   "instances": [
     {
       "instanceId": "p78-n7-v1",
@@ -354,17 +354,21 @@
       "objective": "minimize",
       "scoreStored": "875274028",
       "scoreDisplay": "0.875274028",
-      "status": "ahead",
+      "status": "matched",
       "settled": false,
-      "recordStatus": "ahead",
+      "recordStatus": "matched",
       "knownBest": {
         "display": "0.875432470252361",
         "kind": "best",
+        "range": {
+          "lower": "0.875274028",
+          "upper": "0.875432470252361"
+        },
         "exact": "226/(177√3 − 2√586)",
         "certificateDisplay": "0.888565311",
         "publishedDisplay": "(177√3 − 2√586)/226 ≈ 1.142+",
         "publishedMetric": "the radius r of the largest disc that n unit triangles cover (s = 1/r)",
-        "source": "David Cantrell's arrangement (July 2005), listed in Friedman's table as the largest covered-disc radius r = (177√3 − 2√586)/226 ≈ 1.142+ for n unit triangles; here it is converted in closed form by s = 1/r and shown rounded upward to fifteen places. The site reconstructed the same contact topology from the public raster, and its nine-decimal certificate verifies at 0.888565311; the gap from the continuous target remains explicit. Optimality is open",
+        "source": "David Cantrell's arrangement (July 2005), listed in Friedman's table as the largest covered-disc radius r = (177√3 − 2√586)/226 ≈ 1.142+ for n unit triangles; here it is converted in closed form by s = 1/r and shown rounded upward to fifteen places. The site reconstructed the same contact topology from the public raster, and its nine-decimal certificate verifies at 0.888565311; the gap from the continuous target remains explicit. Optimality is open. Rechecked 2026-10-08: the same layout, turned and adjusted, reaches 0.875274028 (the site record), so anything from 0.875274028 up to the closed form matches the known arrangement, and only a score below 0.875274028 leads",
         "url": "https://erich-friedman.github.io/packing/tricovcir/"
       },
       "holder": "zzzcy",

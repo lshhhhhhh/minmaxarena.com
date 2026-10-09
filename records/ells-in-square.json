@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/ells-in-square",
-  "generatedAt": "2026-10-07T11:51:50.855Z",
+  "generatedAt": "2026-10-09T11:58:34.671Z",
   "instances": [
     {
       "instanceId": "p91-n1-v1",
@@ -490,20 +490,19 @@
       "objective": "minimize",
       "scoreStored": "5819010038938662147",
       "scoreDisplay": "5.819010039",
-      "status": "ahead",
+      "status": "matched",
       "settled": false,
-      "recordStatus": "ahead",
+      "recordStatus": "matched",
       "knownBest": {
-        "display": "5.81902",
+        "display": "5.81901",
         "kind": "best",
         "range": {
-          "lower": "5.81902",
-          "upper": "5.81903",
+          "lower": "5.81901",
+          "upper": "5.81902",
           "upperInclusive": false
         },
         "truncated": true,
-        "certificateDisplay": "5.819020028",
-        "source": "Compiled by Erich Friedman; Found by Aapo Lipponen in July 2026. Source expression: s = 5.81902+.",
+        "source": "Junzhe You (October 2026) in Erich Friedman's compiled table, printed as s = 5.81901+, superseding Aapo Lipponen's 5.81902+; checked 2026-10-08 at revision dc91d31. The interval is converted conservatively from the printed truncated precision; optimality is open. The layout is published as a figure only; the site cites the value without rebuilding it, and the site's rebuild of the older figure stays as an earlier-source starter.",
         "url": "https://erich-friedman.github.io/packing/linsqu/"
       },
       "holder": "zzzcy",
@@ -2007,8 +2006,8 @@
         "sides": 5
       },
       "objective": "minimize",
-      "scoreStored": "8656909118123265210",
-      "scoreDisplay": "8.656909119",
+      "scoreStored": "8656909043181190379",
+      "scoreDisplay": "8.656909044",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -2024,145 +2023,146 @@
         "source": "Compiled by Erich Friedman; Found by Maurizio Morandi in June 2012. Source expression: s = 3 + 4√2 = 8.656+.",
         "url": "https://erich-friedman.github.io/packing/linsqu/"
       },
-      "holder": "SegmaTree",
+      "holder": "邱仲普",
       "method": "ai",
-      "recordedAt": "2026-09-17T08:14:42.066Z",
+      "recordedAt": "2026-10-08T21:10:52.657Z",
       "answer": {
+        "iid": "p91-n22-v1",
         "placements": [
           {
             "quarter": 3,
             "turn": "0.000000000",
-            "x": "0.115514670",
-            "y": "0.884474619"
+            "x": "0.115514671",
+            "y": "0.884474627"
           },
           {
             "quarter": 2,
             "turn": "0.000000000",
-            "x": "0.421475742",
-            "y": "0.880554787"
+            "x": "0.421475746",
+            "y": "0.880554795"
           },
           {
             "quarter": 3,
             "turn": "0.000000000",
-            "x": "0.652505094",
-            "y": "0.884450262"
+            "x": "0.652505101",
+            "y": "0.884450270"
           },
           {
             "quarter": 3,
             "turn": "0.000000000",
-            "x": "0.884373288",
-            "y": "0.880566117"
+            "x": "0.884373296",
+            "y": "0.880566125"
           },
           {
             "quarter": 2,
             "turn": "0.414213562",
-            "x": "0.266535290",
-            "y": "0.756618140"
+            "x": "0.266535292",
+            "y": "0.756618147"
           },
           {
             "quarter": 1,
             "turn": "0.000000000",
-            "x": "0.653343936",
-            "y": "0.768935580"
+            "x": "0.653343941",
+            "y": "0.768935587"
           },
           {
             "quarter": 1,
             "turn": "0.000000000",
-            "x": "0.884373299",
-            "y": "0.765051435"
+            "x": "0.884373307",
+            "y": "0.765051442"
           },
           {
             "quarter": 0,
             "turn": "0.414213562",
-            "x": "0.184851391",
-            "y": "0.674934225"
+            "x": "0.184851394",
+            "y": "0.674934232"
           },
           {
             "quarter": 2,
             "turn": "0.414213562",
-            "x": "0.432265775",
-            "y": "0.595621972"
+            "x": "0.432265779",
+            "y": "0.595621976"
           },
           {
             "quarter": 0,
             "turn": "0.414213562",
-            "x": "0.350567436",
-            "y": "0.513923616"
+            "x": "0.350567440",
+            "y": "0.513923620"
           },
           {
             "quarter": 2,
             "turn": "0.000000000",
-            "x": "0.884127729",
-            "y": "0.534022084"
+            "x": "0.884127737",
+            "y": "0.534022089"
           },
           {
             "quarter": 2,
             "turn": "0.414213562",
-            "x": "0.651320688",
-            "y": "0.487952026"
+            "x": "0.651320693",
+            "y": "0.487952030"
           },
           {
             "quarter": 0,
             "turn": "0.000000000",
-            "x": "0.115514670",
-            "y": "0.462058703"
+            "x": "0.115514671",
+            "y": "0.462058707"
           },
           {
             "quarter": 0,
             "turn": "0.414213562",
-            "x": "0.568963004",
-            "y": "0.405594326"
+            "x": "0.568963010",
+            "y": "0.405594331"
           },
           {
             "quarter": 2,
             "turn": "0.414213562",
-            "x": "0.814679075",
-            "y": "0.324585555"
+            "x": "0.814679082",
+            "y": "0.324585559"
           },
           {
             "quarter": 0,
-            "turn": "0.414213562",
-            "x": "0.732354693",
-            "y": "0.242261156"
+            "turn": "0.414213563",
+            "x": "0.732354699",
+            "y": "0.242261158"
           },
           {
             "quarter": 3,
             "turn": "0.000000000",
-            "x": "0.115514670",
-            "y": "0.231029352"
+            "x": "0.115514672",
+            "y": "0.231029354"
           },
           {
             "quarter": 3,
             "turn": "0.000000000",
-            "x": "0.346544033",
-            "y": "0.231029352"
+            "x": "0.346544036",
+            "y": "0.231029354"
           },
           {
             "quarter": 1,
             "turn": "0.000000000",
-            "x": "0.115514682",
-            "y": "0.115514670"
+            "x": "0.115514683",
+            "y": "0.115514671"
           },
           {
             "quarter": 1,
             "turn": "0.000000000",
-            "x": "0.346544045",
-            "y": "0.115514670"
+            "x": "0.346544048",
+            "y": "0.115514671"
           },
           {
             "quarter": 0,
             "turn": "0.000000000",
-            "x": "0.577573396",
-            "y": "0.115514670"
+            "x": "0.577573401",
+            "y": "0.115514671"
           },
           {
             "quarter": 1,
             "turn": "0.000000000",
-            "x": "0.884485306",
-            "y": "0.115514670"
+            "x": "0.884485314",
+            "y": "0.115514671"
           }
         ],
-        "radius": "0.115514670"
+        "radius": "0.115514671"
       }
     },
     {
@@ -3238,7 +3238,18 @@
       "status": "open",
       "settled": false,
       "recordStatus": "open",
-      "knownBest": null,
+      "knownBest": {
+        "display": "9.93198",
+        "kind": "best",
+        "range": {
+          "lower": "9.93198",
+          "upper": "9.93199",
+          "upperInclusive": false
+        },
+        "truncated": true,
+        "source": "Compiled by Erich Friedman; Found by Yanis Gomes in October 2026. Source expression: s = 27/4+9√2/4 = 9.93198+.",
+        "url": "https://erich-friedman.github.io/packing/linsqu/"
+      },
       "holder": null,
       "method": "human",
       "recordedAt": "2026-10-07T11:16:30.277Z",
@@ -3420,7 +3431,18 @@
       "status": "open",
       "settled": false,
       "recordStatus": "open",
-      "knownBest": null,
+      "knownBest": {
+        "display": "10",
+        "kind": "best",
+        "range": {
+          "lower": "10",
+          "upper": "10"
+        },
+        "comparisonUncertain": true,
+        "certificateDisplay": "10",
+        "source": "Compiled by Erich Friedman; Trivial. Source expression: s = 10.",
+        "url": "https://erich-friedman.github.io/packing/linsqu/"
+      },
       "holder": null,
       "method": "human",
       "recordedAt": "2026-10-07T11:16:30.277Z",
@@ -3608,7 +3630,18 @@
       "status": "open",
       "settled": false,
       "recordStatus": "open",
-      "knownBest": null,
+      "knownBest": {
+        "display": "10",
+        "kind": "best",
+        "range": {
+          "lower": "10",
+          "upper": "10"
+        },
+        "comparisonUncertain": true,
+        "certificateDisplay": "10",
+        "source": "Compiled by Erich Friedman; Trivial. Source expression: s = 10.",
+        "url": "https://erich-friedman.github.io/packing/linsqu/"
+      },
       "holder": null,
       "method": "human",
       "recordedAt": "2026-10-07T11:16:30.277Z",
@@ -3802,7 +3835,18 @@
       "status": "open",
       "settled": false,
       "recordStatus": "open",
-      "knownBest": null,
+      "knownBest": {
+        "display": "10",
+        "kind": "best",
+        "range": {
+          "lower": "10",
+          "upper": "10"
+        },
+        "comparisonUncertain": true,
+        "certificateDisplay": "10",
+        "source": "Compiled by Erich Friedman; Trivial. Source expression: s = 10.",
+        "url": "https://erich-friedman.github.io/packing/linsqu/"
+      },
       "holder": null,
       "method": "human",
       "recordedAt": "2026-10-07T11:16:30.277Z",
@@ -4002,7 +4046,18 @@
       "status": "open",
       "settled": false,
       "recordStatus": "open",
-      "knownBest": null,
+      "knownBest": {
+        "display": "10",
+        "kind": "best",
+        "range": {
+          "lower": "10",
+          "upper": "10"
+        },
+        "comparisonUncertain": true,
+        "certificateDisplay": "10",
+        "source": "Compiled by Erich Friedman; Trivial. Source expression: s = 10.",
+        "url": "https://erich-friedman.github.io/packing/linsqu/"
+      },
       "holder": null,
       "method": "human",
       "recordedAt": "2026-10-07T11:16:30.277Z",
@@ -4206,10 +4261,21 @@
       "objective": "minimize",
       "scoreStored": "10767767098366190547",
       "scoreDisplay": "10.767767099",
-      "status": "open",
+      "status": "matched",
       "settled": false,
-      "recordStatus": "open",
-      "knownBest": null,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "10.76777",
+        "kind": "best",
+        "range": {
+          "lower": "10.767766952",
+          "upper": "10.76778",
+          "upperInclusive": false
+        },
+        "truncated": true,
+        "source": "Compiled by Erich Friedman; Found by Joshua Wolk in September 2026. Source expression: s = 10.76777+. Rechecked 2026-10-08: Wolk's published figure re-optimises to 9 + 5√2/4 = 10.767766952…, so the printed 10.76777+ is rounded; anything from 10.767766952 up to the printed interval matches the known configuration, and only a smaller side leads.",
+        "url": "https://erich-friedman.github.io/packing/linsqu/"
+      },
       "holder": "zzzcy",
       "method": "ai",
       "recordedAt": "2026-10-05T03:47:45.110Z",
@@ -4433,10 +4499,21 @@
       "objective": "minimize",
       "scoreStored": "10869654655745373905",
       "scoreDisplay": "10.869654656",
-      "status": "open",
+      "status": "matched",
       "settled": false,
-      "recordStatus": "open",
-      "knownBest": null,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "10.86965",
+        "kind": "best",
+        "range": {
+          "lower": "10.86965",
+          "upper": "10.86966",
+          "upperInclusive": false
+        },
+        "truncated": true,
+        "source": "Compiled by Erich Friedman; Found by Joshua Wolk in September 2026. Source expression: s = 10.86965+.",
+        "url": "https://erich-friedman.github.io/packing/linsqu/"
+      },
       "holder": "zzzcy",
       "method": "ai",
       "recordedAt": "2026-10-05T03:47:55.140Z",
@@ -4669,7 +4746,18 @@
       "status": "open",
       "settled": false,
       "recordStatus": "open",
-      "knownBest": null,
+      "knownBest": {
+        "display": "11",
+        "kind": "best",
+        "range": {
+          "lower": "11",
+          "upper": "11"
+        },
+        "comparisonUncertain": true,
+        "certificateDisplay": "11.000000111",
+        "source": "Compiled by Erich Friedman; Trivial. Source expression: s = 11.",
+        "url": "https://erich-friedman.github.io/packing/linsqu/"
+      },
       "holder": null,
       "method": "human",
       "recordedAt": "2026-10-07T11:16:30.277Z",
@@ -4890,7 +4978,18 @@
       "status": "open",
       "settled": false,
       "recordStatus": "open",
-      "knownBest": null,
+      "knownBest": {
+        "display": "11",
+        "kind": "best",
+        "range": {
+          "lower": "11",
+          "upper": "11"
+        },
+        "comparisonUncertain": true,
+        "certificateDisplay": "11.000000111",
+        "source": "Compiled by Erich Friedman; Trivial. Source expression: s = 11.",
+        "url": "https://erich-friedman.github.io/packing/linsqu/"
+      },
       "holder": null,
       "method": "human",
       "recordedAt": "2026-10-07T11:16:30.277Z",
@@ -5116,7 +5215,18 @@
       "status": "open",
       "settled": false,
       "recordStatus": "open",
-      "knownBest": null,
+      "knownBest": {
+        "display": "11",
+        "kind": "best",
+        "range": {
+          "lower": "11",
+          "upper": "11"
+        },
+        "comparisonUncertain": true,
+        "certificateDisplay": "11.000000111",
+        "source": "Compiled by Erich Friedman; Trivial. Source expression: s = 11.",
+        "url": "https://erich-friedman.github.io/packing/linsqu/"
+      },
       "holder": null,
       "method": "human",
       "recordedAt": "2026-10-07T11:16:30.277Z",
@@ -5348,7 +5458,18 @@
       "status": "open",
       "settled": false,
       "recordStatus": "open",
-      "knownBest": null,
+      "knownBest": {
+        "display": "11",
+        "kind": "best",
+        "range": {
+          "lower": "11",
+          "upper": "11"
+        },
+        "comparisonUncertain": true,
+        "certificateDisplay": "11.000000111",
+        "source": "Compiled by Erich Friedman; Trivial. Source expression: s = 11.",
+        "url": "https://erich-friedman.github.io/packing/linsqu/"
+      },
       "holder": null,
       "method": "human",
       "recordedAt": "2026-10-07T11:16:30.277Z",
@@ -5586,7 +5707,18 @@
       "status": "open",
       "settled": false,
       "recordStatus": "open",
-      "knownBest": null,
+      "knownBest": {
+        "display": "11",
+        "kind": "best",
+        "range": {
+          "lower": "11",
+          "upper": "11"
+        },
+        "comparisonUncertain": true,
+        "certificateDisplay": "11.000000111",
+        "source": "Compiled by Erich Friedman; Trivial. Source expression: s = 11.",
+        "url": "https://erich-friedman.github.io/packing/linsqu/"
+      },
       "holder": null,
       "method": "human",
       "recordedAt": "2026-10-07T11:16:30.277Z",

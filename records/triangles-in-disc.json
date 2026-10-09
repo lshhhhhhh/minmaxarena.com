@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/triangles-in-disc",
-  "generatedAt": "2026-10-07T11:51:49.918Z",
+  "generatedAt": "2026-10-09T11:58:33.922Z",
   "instances": [
     {
       "instanceId": "p84-n3-v1",
@@ -4467,20 +4467,19 @@
       "objective": "minimize",
       "scoreStored": "2490030015423367526",
       "scoreDisplay": "2.490030016",
-      "status": "matched",
+      "status": "open",
       "settled": false,
-      "recordStatus": "matched",
+      "recordStatus": "open",
       "knownBest": {
-        "display": "2.49003",
+        "display": "2.49002",
         "kind": "best",
         "range": {
-          "lower": "2.49003",
-          "upper": "2.49004",
+          "lower": "2.49002",
+          "upper": "2.49003",
           "upperInclusive": false
         },
         "truncated": true,
-        "certificateDisplay": "2.490030016",
-        "source": "Compiled by Erich Friedman; Found by Thomas Schadt in August 2026. Source expression: r = 2.49003+.",
+        "source": "Yanis Gomes (October 2026) in Erich Friedman's compiled table, printed as r = 2.49002+, superseding Thomas Schadt's 2.49003+; checked 2026-10-08 at revision dc91d31. The interval is converted conservatively from the printed truncated precision; optimality is open. The layout is published as a figure only; the site cites the value without rebuilding it, and the site's rebuild of the older figure stays as an earlier-source starter.",
         "url": "https://erich-friedman.github.io/packing/triincir/"
       },
       "holder": null,
@@ -4921,20 +4920,19 @@
       "objective": "minimize",
       "scoreStored": "2556750011244317659",
       "scoreDisplay": "2.556750012",
-      "status": "matched",
+      "status": "open",
       "settled": false,
-      "recordStatus": "matched",
+      "recordStatus": "open",
       "knownBest": {
-        "display": "2.55675",
+        "display": "2.55674",
         "kind": "best",
         "range": {
-          "lower": "2.55675",
-          "upper": "2.55676",
+          "lower": "2.55674",
+          "upper": "2.55675",
           "upperInclusive": false
         },
         "truncated": true,
-        "certificateDisplay": "2.556750012",
-        "source": "Compiled by Erich Friedman; Found by Thomas Schadt in August 2026. Source expression: r = 2.55675+.",
+        "source": "Yanis Gomes (October 2026) in Erich Friedman's compiled table, printed as r = 2.55674+, superseding Thomas Schadt's 2.55675+; checked 2026-10-08 at revision dc91d31. The interval is converted conservatively from the printed truncated precision; optimality is open. The layout is published as a figure only; the site cites the value without rebuilding it, and the site's rebuild of the older figure stays as an earlier-source starter.",
         "url": "https://erich-friedman.github.io/packing/triincir/"
       },
       "holder": null,

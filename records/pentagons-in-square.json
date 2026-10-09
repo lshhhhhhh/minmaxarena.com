@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/pentagons-in-square",
-  "generatedAt": "2026-10-08T12:06:54.629Z",
+  "generatedAt": "2026-10-09T11:58:34.143Z",
   "instances": [
     {
       "instanceId": "p86-n3-v1",
@@ -397,20 +397,19 @@
       "objective": "minimize",
       "scoreStored": "4600330010710297538",
       "scoreDisplay": "4.600330011",
-      "status": "matched",
+      "status": "open",
       "settled": false,
-      "recordStatus": "matched",
+      "recordStatus": "open",
       "knownBest": {
-        "display": "4.60033",
+        "display": "4.60032",
         "kind": "best",
         "range": {
-          "lower": "4.60033",
-          "upper": "4.60034",
+          "lower": "4.60032",
+          "upper": "4.60033",
           "upperInclusive": false
         },
         "truncated": true,
-        "certificateDisplay": "4.600330011",
-        "source": "Compiled by Erich Friedman; Found by Jonathan Viquerat in April 2026. Source expression: s = 4.60033+.",
+        "source": "Yanis Gomes (October 2026) in Erich Friedman's compiled table, printed as s = 4.60032+, superseding Jonathan Viquerat's 4.60033+; checked 2026-10-08 at revision dc91d31. The interval is converted conservatively from the printed truncated precision; optimality is open. The layout is published as a figure only; the site cites the value without rebuilding it, and the site's rebuild of the older figure stays as an earlier-source starter.",
         "url": "https://erich-friedman.github.io/packing/peninsqu/"
       },
       "holder": null,
@@ -1060,20 +1059,19 @@
       "objective": "minimize",
       "scoreStored": "6064520046661647842",
       "scoreDisplay": "6.064520047",
-      "status": "matched",
+      "status": "open",
       "settled": false,
-      "recordStatus": "matched",
+      "recordStatus": "open",
       "knownBest": {
-        "display": "6.06452",
+        "display": "6.06451",
         "kind": "best",
         "range": {
-          "lower": "6.06452",
-          "upper": "6.06453",
+          "lower": "6.06451",
+          "upper": "6.06452",
           "upperInclusive": false
         },
         "truncated": true,
-        "certificateDisplay": "6.064520047",
-        "source": "Compiled by Erich Friedman; Found by Timo Berthold et al in April 2026. Source expression: s = 6.06452+.",
+        "source": "Aapo Lipponen (October 2026) in Erich Friedman's compiled table, printed as s = 6.06451+, superseding Timo Berthold et al.'s 6.06452+; checked 2026-10-08 at revision dc91d31. The interval is converted conservatively from the printed truncated precision; optimality is open. The layout is published as a figure only; the site cites the value without rebuilding it, and the site's rebuild of the older figure stays as an earlier-source starter.",
         "url": "https://erich-friedman.github.io/packing/peninsqu/"
       },
       "holder": null,
@@ -2275,20 +2273,19 @@
       "objective": "minimize",
       "scoreStored": "7453600087629683841",
       "scoreDisplay": "7.453600088",
-      "status": "matched",
+      "status": "open",
       "settled": false,
-      "recordStatus": "matched",
+      "recordStatus": "open",
       "knownBest": {
-        "display": "7.45360",
+        "display": "7.45359",
         "kind": "best",
         "range": {
-          "lower": "7.4536",
-          "upper": "7.45361",
+          "lower": "7.45359",
+          "upper": "7.45360",
           "upperInclusive": false
         },
         "truncated": true,
-        "certificateDisplay": "7.453600088",
-        "source": "Compiled by Erich Friedman; Found by Jake Loyd in June 2026. Source expression: s = 7.45360+.",
+        "source": "Aapo Lipponen (October 2026) in Erich Friedman's compiled table, printed as s = 7.45359+, superseding Jake Loyd's 7.45360+; checked 2026-10-08 at revision dc91d31. The interval is converted conservatively from the printed truncated precision; optimality is open. The layout is published as a figure only; the site cites the value without rebuilding it, and the site's rebuild of the older figure stays as an earlier-source starter.",
         "url": "https://erich-friedman.github.io/packing/peninsqu/"
       },
       "holder": null,
@@ -2766,8 +2763,8 @@
         "sides": 5
       },
       "objective": "minimize",
-      "scoreStored": "7820100052617873863",
-      "scoreDisplay": "7.820100053",
+      "scoreStored": "7820098614802192301",
+      "scoreDisplay": "7.820098615",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -2783,153 +2780,153 @@
         "source": "Joshua Wolk (September 2026) in Erich Friedman's compiled table, printed as s = 7.82006+; checked 2026-09-29 at revision b5b5578. The interval is converted conservatively from the printed truncated precision; optimality is open. The new construction is published as a figure only and has not been rebuilt here yet.",
         "url": "https://erich-friedman.github.io/packing/peninsqu/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-10-07T11:16:30.277Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-10-08T16:26:42.376Z",
       "answer": {
         "placements": [
           {
-            "turn": "-0.249016834",
-            "x": "0.107709980",
-            "y": "0.902259384"
+            "turn": "-0.247726228",
+            "x": "0.107672722",
+            "y": "0.902375743"
           },
           {
-            "turn": "-0.225071090",
-            "x": "0.306008063",
-            "y": "0.904523843"
+            "turn": "-0.224279146",
+            "x": "0.306043969",
+            "y": "0.904602522"
           },
           {
-            "turn": "0.324919696",
-            "x": "0.911997166",
-            "y": "0.896546464"
+            "turn": "0.324919695",
+            "x": "0.911997149",
+            "y": "0.896546445"
           },
           {
-            "turn": "-0.209281827",
-            "x": "0.505871809",
-            "y": "0.906138830"
+            "turn": "-0.208920027",
+            "x": "0.505972505",
+            "y": "0.906176948"
           },
           {
-            "turn": "-0.158384433",
-            "x": "0.705497880",
-            "y": "0.911997162"
+            "turn": "-0.158384532",
+            "x": "0.705640896",
+            "y": "0.911997135"
           },
           {
-            "turn": "-0.062363395",
-            "x": "0.203038771",
-            "y": "0.737734802"
+            "turn": "-0.062365831",
+            "x": "0.203104022",
+            "y": "0.737832633"
           },
           {
-            "turn": "-0.062363504",
-            "x": "0.403548068",
-            "y": "0.739800326"
+            "turn": "-0.062366128",
+            "x": "0.403617155",
+            "y": "0.739849789"
           },
           {
-            "turn": "-0.062363504",
-            "x": "0.601825449",
-            "y": "0.739484056"
+            "turn": "-0.062366116",
+            "x": "0.601887089",
+            "y": "0.739473001"
           },
           {
-            "turn": "-0.056390391",
-            "x": "0.799921639",
-            "y": "0.740086505"
+            "turn": "-0.056330865",
+            "x": "0.799974650",
+            "y": "0.740024245"
           },
           {
-            "turn": "0.263697637",
-            "x": "0.905366960",
-            "y": "0.594596579"
+            "turn": "0.263761203",
+            "x": "0.905373317",
+            "y": "0.594476902"
           },
           {
-            "turn": "0.257341657",
-            "x": "0.107934647",
-            "y": "0.587941666"
+            "turn": "0.257339173",
+            "x": "0.107934603",
+            "y": "0.588070223"
           },
           {
-            "turn": "0.257341645",
-            "x": "0.306617523",
-            "y": "0.590864209"
+            "turn": "0.257338857",
+            "x": "0.306652406",
+            "y": "0.590929816"
           },
           {
-            "turn": "0.257341645",
-            "x": "0.504895006",
-            "y": "0.590547891"
+            "turn": "0.257338869",
+            "x": "0.504922342",
+            "y": "0.590553023"
           },
           {
-            "turn": "0.257341645",
-            "x": "0.703172324",
-            "y": "0.590231504"
+            "turn": "0.257338839",
+            "x": "0.703192277",
+            "y": "0.590176234"
           },
           {
-            "turn": "-0.062363504",
-            "x": "0.693382482",
-            "y": "0.409135775"
+            "turn": "-0.062366146",
+            "x": "0.693347169",
+            "y": "0.409070087"
           },
           {
-            "turn": "-0.062363342",
-            "x": "0.892065349",
-            "y": "0.412058315"
+            "turn": "-0.062366149",
+            "x": "0.892065404",
+            "y": "0.411929681"
           },
           {
-            "turn": "-0.062363504",
-            "x": "0.296827697",
-            "y": "0.409768483"
+            "turn": "-0.062366129",
+            "x": "0.296807300",
+            "y": "0.409823670"
           },
           {
-            "turn": "-0.062363504",
-            "x": "0.495105019",
-            "y": "0.409452134"
+            "turn": "-0.062366116",
+            "x": "0.495077232",
+            "y": "0.409446873"
           },
           {
-            "turn": "-0.056390543",
-            "x": "0.094633046",
-            "y": "0.405403406"
+            "turn": "-0.056321449",
+            "x": "0.094625673",
+            "y": "0.405521615"
           },
           {
-            "turn": "0.257341645",
-            "x": "0.398174566",
-            "y": "0.260515974"
+            "turn": "0.257338867",
+            "x": "0.398112485",
+            "y": "0.260526894"
           },
           {
-            "turn": "0.257341817",
-            "x": "0.796961246",
-            "y": "0.262265180"
+            "turn": "0.257338839",
+            "x": "0.796895654",
+            "y": "0.262167438"
           },
           {
-            "turn": "0.263697637",
-            "x": "0.200078369",
-            "y": "0.259913502"
+            "turn": "0.263771255",
+            "x": "0.200025217",
+            "y": "0.259974219"
           },
           {
-            "turn": "0.257341645",
-            "x": "0.596451925",
-            "y": "0.260199664"
+            "turn": "0.257338845",
+            "x": "0.596382419",
+            "y": "0.260150110"
           },
           {
-            "turn": "0.000000000",
-            "x": "0.088002834",
-            "y": "0.103453536"
+            "turn": "0.000000001",
+            "x": "0.088002851",
+            "y": "0.103453554"
           },
           {
-            "turn": "0.070221449",
-            "x": "0.892290026",
-            "y": "0.097740586"
+            "turn": "0.071439159",
+            "x": "0.892327161",
+            "y": "0.097624616"
           },
           {
-            "turn": "0.108275095",
-            "x": "0.494128161",
-            "y": "0.093861179"
+            "turn": "0.108617396",
+            "x": "0.494027745",
+            "y": "0.093823975"
           },
           {
-            "turn": "0.093044502",
-            "x": "0.693991932",
-            "y": "0.095476133"
+            "turn": "0.093800586",
+            "x": "0.693956100",
+            "y": "0.095397906"
           },
           {
-            "turn": "0.158384451",
-            "x": "0.294502101",
-            "y": "0.088002835"
+            "turn": "0.158384434",
+            "x": "0.294360384",
+            "y": "0.088002851"
           }
         ],
-        "radius": "0.108777484"
+        "radius": "0.108777504"
       }
     },
     {

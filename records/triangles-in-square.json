@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/triangles-in-square",
-  "generatedAt": "2026-10-08T12:06:54.197Z",
+  "generatedAt": "2026-10-09T11:58:33.823Z",
   "instances": [
     {
       "instanceId": "p83-n3-v1",
@@ -4524,20 +4524,19 @@
       "objective": "minimize",
       "scoreStored": "4268720050967804295",
       "scoreDisplay": "4.268720051",
-      "status": "matched",
+      "status": "open",
       "settled": false,
-      "recordStatus": "matched",
+      "recordStatus": "open",
       "knownBest": {
-        "display": "4.26872",
+        "display": "4.26871",
         "kind": "best",
         "range": {
-          "lower": "4.26872",
-          "upper": "4.26873",
+          "lower": "4.26871",
+          "upper": "4.26872",
           "upperInclusive": false
         },
         "truncated": true,
-        "certificateDisplay": "4.268720051",
-        "source": "Compiled by Erich Friedman; 37. Found by Thomas Schadt in July 2026. Source expression: s = 4.26872+.",
+        "source": "Yanis Gomes (October 2026) in Erich Friedman's compiled table, printed as s = 4.26871+, superseding Thomas Schadt's 4.26872+; checked 2026-10-08 at revision dc91d31. The interval is converted conservatively from the printed truncated precision; optimality is open. The layout is published as a figure only; the site cites the value without rebuilding it, and the site's rebuild of the older figure stays as an earlier-source starter.",
         "url": "https://erich-friedman.github.io/packing/triinsqu/"
       },
       "holder": null,
@@ -4744,20 +4743,19 @@
       "objective": "minimize",
       "scoreStored": "4320080057137910880",
       "scoreDisplay": "4.320080058",
-      "status": "matched",
+      "status": "open",
       "settled": false,
-      "recordStatus": "matched",
+      "recordStatus": "open",
       "knownBest": {
-        "display": "4.32008",
+        "display": "4.32007",
         "kind": "best",
         "range": {
-          "lower": "4.32008",
-          "upper": "4.32009",
+          "lower": "4.32007",
+          "upper": "4.32008",
           "upperInclusive": false
         },
         "truncated": true,
-        "certificateDisplay": "4.320080058",
-        "source": "Compiled by Erich Friedman; 38. Found by Thomas Schadt in July 2026. Source expression: s = 4.32008+.",
+        "source": "Beppe Björkland (October 2026) in Erich Friedman's compiled table, printed as s = 4.32007+, superseding Thomas Schadt's 4.32008+; checked 2026-10-08 at revision dc91d31. The interval is converted conservatively from the printed truncated precision; optimality is open. The layout is published as a figure only; the site cites the value without rebuilding it, and the site's rebuild of the older figure stays as an earlier-source starter.",
         "url": "https://erich-friedman.github.io/packing/triinsqu/"
       },
       "holder": null,

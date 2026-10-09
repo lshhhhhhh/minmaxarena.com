@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/unit-circles-in-minimum-area-triangle",
-  "generatedAt": "2026-10-04T11:10:11.667Z",
+  "generatedAt": "2026-10-09T11:58:31.931Z",
   "instances": [
     {
       "instanceId": "p66-n4-v1",
@@ -2309,19 +2309,19 @@
       "objective": "minimize",
       "scoreStored": "205409736315106675560",
       "scoreDisplay": "102.70486815755333778",
-      "status": "ahead",
+      "status": "matched",
       "settled": false,
-      "recordStatus": "ahead",
+      "recordStatus": "matched",
       "knownBest": {
         "display": "102.70487",
         "kind": "best",
         "range": {
-          "lower": "102.70487",
+          "lower": "102.704868097",
           "upper": "102.70488"
         },
         "truncated": true,
         "certificateDisplay": "102.704871209199083931",
-        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid. External comparisons use the publication interval of the table value 102.70487+, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough",
+        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid. External comparisons use the publication interval of the table value 102.70487+, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough. Rechecked 2026-10-08: the same published configuration, re-optimised without the printed cap, reaches area 102.704868097, so anything from 102.704868097 up to the table's interval matches the known configuration, and only a smaller area leads",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
       "holder": "zzzcy",
@@ -3443,19 +3443,19 @@
       "objective": "minimize",
       "scoreStored": "258412696272398009682",
       "scoreDisplay": "129.206348136199004841",
-      "status": "ahead",
+      "status": "matched",
       "settled": false,
-      "recordStatus": "ahead",
+      "recordStatus": "matched",
       "knownBest": {
         "display": "129.20635",
         "kind": "best",
         "range": {
-          "lower": "129.20635",
+          "lower": "129.206348075",
           "upper": "129.20636"
         },
         "truncated": true,
         "certificateDisplay": "129.206351254338314956",
-        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid. External comparisons use the publication interval of the table value 129.20635+, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough",
+        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid. External comparisons use the publication interval of the table value 129.20635+, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough. Rechecked 2026-10-08: the same published configuration, re-optimised without the printed cap, reaches area 129.206348075, so anything from 129.206348075 up to the table's interval matches the known configuration, and only a smaller area leads",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
       "holder": "zzzcy",
@@ -4186,12 +4186,12 @@
         "display": "144.93603",
         "kind": "best",
         "range": {
-          "lower": "144.93603",
+          "lower": "144.93602862",
           "upper": "144.93604"
         },
         "truncated": true,
         "certificateDisplay": "144.936031294801118248",
-        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid. External comparisons use the publication interval of the table value 144.93603+, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough",
+        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid. External comparisons use the publication interval of the table value 144.93603+, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough. Rechecked 2026-10-08: the same published configuration, re-optimised without the printed cap, reaches area 144.93602862, so anything from 144.93602862 up to the table's interval matches the known configuration, and only a smaller area leads",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
       "holder": "Sigmoid with Codex",
@@ -4373,19 +4373,19 @@
       "objective": "minimize",
       "scoreStored": "296742819461803465725",
       "scoreDisplay": "148.3714097309017328625",
-      "status": "ahead",
+      "status": "matched",
       "settled": false,
-      "recordStatus": "ahead",
+      "recordStatus": "matched",
       "knownBest": {
         "display": "148.37141",
         "kind": "best",
         "range": {
-          "lower": "148.37141",
+          "lower": "148.371409637",
           "upper": "148.37142"
         },
         "truncated": true,
         "certificateDisplay": "148.371411296017511577",
-        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid. External comparisons use the publication interval of the table value 148.37141+, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough",
+        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid. External comparisons use the publication interval of the table value 148.37141+, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough. Rechecked 2026-10-08: the same published configuration, re-optimised without the printed cap, reaches area 148.371409637, so anything from 148.371409637 up to the table's interval matches the known configuration, and only a smaller area leads",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
       "holder": "Sigmoid with Codex",
@@ -4571,19 +4571,19 @@
       "objective": "minimize",
       "scoreStored": "303661449661223392300",
       "scoreDisplay": "151.83072483061169615",
-      "status": "ahead",
+      "status": "matched",
       "settled": false,
-      "recordStatus": "ahead",
+      "recordStatus": "matched",
       "knownBest": {
         "display": "151.83073",
         "kind": "best",
         "range": {
-          "lower": "151.83073",
+          "lower": "151.830724748",
           "upper": "151.83074"
         },
         "truncated": true,
         "certificateDisplay": "151.83073130385406932",
-        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid. External comparisons use the publication interval of the table value 151.83073+, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough",
+        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid. External comparisons use the publication interval of the table value 151.83073+, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough. Rechecked 2026-10-08: the same published configuration, re-optimised without the printed cap, reaches area 151.830724748, so anything from 151.830724748 up to the table's interval matches the known configuration, and only a smaller area leads",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
       "holder": "zzzcy",
@@ -4979,19 +4979,19 @@
       "objective": "minimize",
       "scoreStored": "320221092318432730300",
       "scoreDisplay": "160.11054615921636515",
-      "status": "ahead",
+      "status": "matched",
       "settled": false,
-      "recordStatus": "ahead",
+      "recordStatus": "matched",
       "knownBest": {
         "display": "160.11055",
         "kind": "best",
         "range": {
-          "lower": "160.11055",
+          "lower": "160.110546078",
           "upper": "160.11056"
         },
         "truncated": true,
         "certificateDisplay": "160.1105513263319162385",
-        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid. External comparisons use the publication interval of the table value 160.11055+, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough",
+        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid. External comparisons use the publication interval of the table value 160.11055+, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough. Rechecked 2026-10-08: the same published configuration, re-optimised without the printed cap, reaches area 160.110546078, so anything from 160.110546078 up to the table's interval matches the known configuration, and only a smaller area leads",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
       "holder": "zzzcy",
@@ -5403,19 +5403,19 @@
       "objective": "minimize",
       "scoreStored": "327438654740793534924",
       "scoreDisplay": "163.719327370396767462",
-      "status": "ahead",
+      "status": "matched",
       "settled": false,
-      "recordStatus": "ahead",
+      "recordStatus": "matched",
       "knownBest": {
         "display": "163.71933",
         "kind": "best",
         "range": {
-          "lower": "163.71933",
+          "lower": "163.719327302",
           "upper": "163.71934"
         },
         "truncated": true,
         "certificateDisplay": "163.719331331074244432",
-        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid. External comparisons use the publication interval of the table value 163.71933+, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough",
+        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid. External comparisons use the publication interval of the table value 163.71933+, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough. Rechecked 2026-10-08: the same published configuration, re-optimised without the printed cap, reaches area 163.719327302, so anything from 163.719327302 up to the table's interval matches the known configuration, and only a smaller area leads",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
       "holder": "zzzcy",
@@ -6069,19 +6069,19 @@
       "objective": "minimize",
       "scoreStored": "355774738283555551033",
       "scoreDisplay": "177.8873691417777755165",
-      "status": "ahead",
+      "status": "matched",
       "settled": false,
-      "recordStatus": "ahead",
+      "recordStatus": "matched",
       "knownBest": {
         "display": "177.88737",
         "kind": "best",
         "range": {
-          "lower": "177.88737",
+          "lower": "177.887369044",
           "upper": "177.88738"
         },
         "truncated": true,
         "certificateDisplay": "177.887371360134541611",
-        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid. External comparisons use the publication interval of the table value 177.88737+, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough",
+        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid. External comparisons use the publication interval of the table value 177.88737+, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough. Rechecked 2026-10-08: the same published configuration, re-optimised without the printed cap, reaches area 177.887369044, so anything from 177.887369044 up to the table's interval matches the known configuration, and only a smaller area leads",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
       "holder": "Sigmoid with Codex",
@@ -6306,12 +6306,12 @@
         "display": "183.09423",
         "kind": "best",
         "range": {
-          "lower": "183.09423",
+          "lower": "183.094227795",
           "upper": "183.09424"
         },
         "truncated": true,
         "certificateDisplay": "183.094231364901489952",
-        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid. External comparisons use the publication interval of the table value 183.09423+, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough",
+        "source": "Tej Stead configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid. External comparisons use the publication interval of the table value 183.09423+, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough. Rechecked 2026-10-08: the same published configuration, re-optimised without the printed cap, reaches area 183.094227795, so anything from 183.094227795 up to the table's interval matches the known configuration, and only a smaller area leads",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
       "holder": "zzzcy",
