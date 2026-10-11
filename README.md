@@ -37,7 +37,7 @@ managed.
 
 ## The records
 
-68 problem families, 2336 sub-problems, 2175 still open.
+69 problem families, 2346 sub-problems, 2185 still open.
 `records/` holds today's snapshot of each family; the live files are at
 `https://minmaxarena.com/data/{slug}.json`, and the citable ones are the monthly frozen
 editions at `https://minmaxarena.com/data/editions/{YYYY-MM}/{slug}.json`, which never change
@@ -110,6 +110,7 @@ once published. Data is CC BY 4.0; see
 | [P85](https://minmaxarena.com/en/problems/squares-in-triangle) | Squares in an equilateral triangle | 38 | 38 | [json](records/squares-in-triangle.json) |
 | [P86](https://minmaxarena.com/en/problems/pentagons-in-square) | Regular pentagons in a square | 28 | 28 | [json](records/pentagons-in-square.json) |
 | [P87](https://minmaxarena.com/en/problems/circles-cover-disc) | Equal discs covering a disc | 90 | 80 | [json](records/circles-cover-disc.json) |
+| [P88](https://minmaxarena.com/en/problems/moving-sofa-zigzag) | The sofa in winding hallways | 10 | 10 | [json](records/moving-sofa-zigzag.json) |
 | [P89](https://minmaxarena.com/en/problems/tans-in-square) | Tans in a square | 24 | 18 | [json](records/tans-in-square.json) |
 | [P90](https://minmaxarena.com/en/problems/dominoes-in-square) | Dominoes in a square | 40 | 35 | [json](records/dominoes-in-square.json) |
 | [P91](https://minmaxarena.com/en/problems/ells-in-square) | L's in a square | 40 | 37 | [json](records/ells-in-square.json) |
