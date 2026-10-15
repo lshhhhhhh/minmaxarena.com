@@ -37,7 +37,7 @@ managed.
 
 ## The records
 
-69 problem families, 2346 sub-problems, 2185 still open.
+69 problem families, 2586 sub-problems, 2425 still open.
 `records/` holds today's snapshot of each family; the live files are at
 `https://minmaxarena.com/data/{slug}.json`, and the citable ones are the monthly frozen
 editions at `https://minmaxarena.com/data/editions/{YYYY-MM}/{slug}.json`, which never change
@@ -56,9 +56,9 @@ once published. Data is CC BY 4.0; see
 | [P09](https://minmaxarena.com/en/problems/circles-in-a-semicircle) | Equal circles in a half-disc | 14 | 14 | [json](records/circles-in-a-semicircle.json) |
 | [P10](https://minmaxarena.com/en/problems/circles-in-a-cross) | Equal circles in a plus sign | 16 | 13 | [json](records/circles-in-a-cross.json) |
 | [P11](https://minmaxarena.com/en/problems/circles-in-right-triangle) | Equal-circle packing in a right triangle | 11 | 11 | [json](records/circles-in-right-triangle.json) |
-| [P12](https://minmaxarena.com/en/problems/circles-in-rectangle) | Equal-circle packing in a 2:1 rectangle | 10 | 6 | [json](records/circles-in-rectangle.json) |
-| [P13](https://minmaxarena.com/en/problems/graduated-circles-in-square) | Packing circles of radius 1,2,…,n into a square | 29 | 26 | [json](records/graduated-circles-in-square.json) |
-| [P16](https://minmaxarena.com/en/problems/spread-points-in-triangle) | Spreading points in a right triangle | 15 | 14 | [json](records/spread-points-in-triangle.json) |
+| [P12](https://minmaxarena.com/en/problems/circles-in-rectangle) | Equal-circle packing in a 2:1 rectangle | 98 | 94 | [json](records/circles-in-rectangle.json) |
+| [P13](https://minmaxarena.com/en/problems/graduated-circles-in-square) | Packing circles of radius 1,2,…,n into a square | 99 | 96 | [json](records/graduated-circles-in-square.json) |
+| [P16](https://minmaxarena.com/en/problems/spread-points-in-triangle) | Spreading points in a right triangle | 97 | 96 | [json](records/spread-points-in-triangle.json) |
 | [P17](https://minmaxarena.com/en/problems/spread-points-in-rectangle) | Spreading points in a rectangle | 17 | 14 | [json](records/spread-points-in-rectangle.json) |
 | [P18](https://minmaxarena.com/en/problems/tilted-squares-in-square) | Tilted equal squares in the unit square | 28 | 22 | [json](records/tilted-squares-in-square.json) |
 | [P19](https://minmaxarena.com/en/problems/spread-points-in-an-l) | Spreading points in an L | 17 | 15 | [json](records/spread-points-in-an-l.json) |
