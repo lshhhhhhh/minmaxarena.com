@@ -37,7 +37,7 @@ managed.
 
 ## The records
 
-69 problem families, 2586 sub-problems, 2425 still open.
+69 problem families, 2714 sub-problems, 2553 still open.
 `records/` holds today's snapshot of each family; the live files are at
 `https://minmaxarena.com/data/{slug}.json`, and the citable ones are the monthly frozen
 editions at `https://minmaxarena.com/data/editions/{YYYY-MM}/{slug}.json`, which never change
@@ -104,7 +104,7 @@ once published. Data is CC BY 4.0; see
 | [P78](https://minmaxarena.com/en/problems/equilateral-triangles-covering-a-disc) | Covering a disc with n equilateral triangles | 12 | 12 | [json](records/equilateral-triangles-covering-a-disc.json) |
 | [P80](https://minmaxarena.com/en/problems/moving-sofa-hairpin) | The sofa in a hairpin | 8 | 8 | [json](records/moving-sofa-hairpin.json) |
 | [P81](https://minmaxarena.com/en/problems/irregular-strip-nesting) | Irregular strip nesting | 3 | 3 | [json](records/irregular-strip-nesting.json) |
-| [P82](https://minmaxarena.com/en/problems/circles-in-regular-polygons) | Equal circles in regular polygons | 120 | 113 | [json](records/circles-in-regular-polygons.json) |
+| [P82](https://minmaxarena.com/en/problems/circles-in-regular-polygons) | Equal circles in regular polygons | 248 | 241 | [json](records/circles-in-regular-polygons.json) |
 | [P83](https://minmaxarena.com/en/problems/triangles-in-square) | Equilateral triangles in a square | 38 | 38 | [json](records/triangles-in-square.json) |
 | [P84](https://minmaxarena.com/en/problems/triangles-in-disc) | Equilateral triangles in a disc | 35 | 35 | [json](records/triangles-in-disc.json) |
 | [P85](https://minmaxarena.com/en/problems/squares-in-triangle) | Squares in an equilateral triangle | 38 | 38 | [json](records/squares-in-triangle.json) |
