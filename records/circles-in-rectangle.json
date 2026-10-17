@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/circles-in-rectangle",
-  "generatedAt": "2026-10-16T09:56:33.637Z",
+  "generatedAt": "2026-10-17T09:29:47.342Z",
   "instances": [
     {
       "instanceId": "p12-n3-v1",
@@ -632,8 +632,8 @@
         "n": 13
       },
       "objective": "maximize",
-      "scoreStored": "133333332",
-      "scoreDisplay": "0.133333332",
+      "scoreStored": "186610667",
+      "scoreDisplay": "0.186610667",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -650,65 +650,65 @@
         "source": "Packomania's crc table, compiled by Eckard Specht, keeps the best known packings of equal circles in a 1 × 0.5 rectangle; this problem's 2 × 1 rectangle is that one doubled, so the radius is twice the table's. The table cites Eckard Specht (2013-06-24) for this row. It does not mark this row proved",
         "url": "https://www.packomania.com/crc_500/crc.html"
       },
-      "holder": null,
+      "holder": "今天",
       "method": "human",
-      "recordedAt": "2026-10-15T10:27:03.353Z",
+      "recordedAt": "2026-10-17T08:57:58.326Z",
       "answer": {
         "centers": [
           [
-            "0.166666666",
-            "0.166666666"
+            "0.189014386",
+            "0.188579630"
           ],
           [
-            "0.499999998",
-            "0.166666666"
+            "0.188284729",
+            "0.811715271"
           ],
           [
-            "0.83333333",
-            "0.166666666"
+            "0.404888648",
+            "0.497129237"
           ],
           [
-            "1.166666662",
-            "0.166666666"
+            "0.611867353",
+            "0.811715271"
           ],
           [
-            "1.499999994",
-            "0.166666666"
+            "0.620340793",
+            "0.188284729"
           ],
           [
-            "1.833333326",
-            "0.166666666"
+            "0.827319498",
+            "0.502870763"
           ],
           [
-            "0.166666666",
-            "0.499999998"
+            "1.042771643",
+            "0.811715271"
           ],
           [
-            "0.499999998",
-            "0.499999998"
+            "1.034298203",
+            "0.188284729"
           ],
           [
-            "0.83333333",
-            "0.499999998"
+            "1.249750348",
+            "0.497129237"
           ],
           [
-            "1.166666662",
-            "0.499999998"
+            "1.461729053",
+            "0.811715271"
           ],
           [
-            "1.499999994",
-            "0.499999998"
+            "1.461729053",
+            "0.188284729"
           ],
           [
-            "1.833333326",
-            "0.499999998"
+            "1.813365000",
+            "0.686630000"
           ],
           [
-            "0.166666666",
-            "0.83333333"
+            "1.813365000",
+            "0.313370000"
           ]
         ],
-        "radius": "0.133333332"
+        "radius": "0.186610667"
       }
     },
     {
@@ -718,8 +718,8 @@
         "n": 14
       },
       "objective": "maximize",
-      "scoreStored": "133333332",
-      "scoreDisplay": "0.133333332",
+      "scoreStored": "176521767",
+      "scoreDisplay": "0.176521767",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -736,69 +736,69 @@
         "source": "Packomania's crc table, compiled by Eckard Specht, keeps the best known packings of equal circles in a 1 × 0.5 rectangle; this problem's 2 × 1 rectangle is that one doubled, so the radius is twice the table's. The table cites Eckard Specht (1999–2010) for this row. It does not mark this row proved",
         "url": "https://www.packomania.com/crc_500/crc.html"
       },
-      "holder": null,
+      "holder": "NUE_13",
       "method": "human",
-      "recordedAt": "2026-10-15T10:27:03.353Z",
+      "recordedAt": "2026-10-17T01:37:59.817Z",
       "answer": {
         "centers": [
           [
-            "0.166666666",
-            "0.166666666"
+            "0.187536444",
+            "0.194492859"
           ],
           [
-            "0.499999998",
-            "0.166666666"
+            "0.576521631",
+            "0.184057971"
           ],
           [
-            "0.83333333",
-            "0.166666666"
+            "1.017680997",
+            "0.191014519"
           ],
           [
-            "1.166666662",
-            "0.166666666"
+            "1.204927744",
+            "0.500579656"
           ],
           [
-            "1.499999994",
-            "0.166666666"
+            "1.419999888",
+            "0.201449142"
           ],
           [
-            "1.833333326",
-            "0.166666666"
+            "1.815942021",
+            "0.194492992"
           ],
           [
-            "0.166666666",
+            "0.385797207",
+            "0.496521923"
+          ],
+          [
+            "0.997391409",
+            "0.809565136"
+          ],
+          [
+            "0.802028929",
+            "0.496521657"
+          ],
+          [
+            "1.410145189",
+            "0.802608721"
+          ],
+          [
+            "1.621739124",
             "0.499999998"
           ],
           [
-            "0.499999998",
-            "0.499999998"
+            "1.802028925",
+            "0.823478233"
           ],
           [
-            "0.83333333",
-            "0.499999998"
+            "0.191014651",
+            "0.802028929"
           ],
           [
-            "1.166666662",
-            "0.499999998"
-          ],
-          [
-            "1.499999994",
-            "0.499999998"
-          ],
-          [
-            "1.833333326",
-            "0.499999998"
-          ],
-          [
-            "0.166666666",
-            "0.83333333"
-          ],
-          [
-            "0.499999998",
-            "0.83333333"
+            "0.583478047",
+            "0.815942026"
           ]
         ],
-        "radius": "0.133333332"
+        "radius": "0.176521767"
       }
     },
     {
@@ -808,8 +808,8 @@
         "n": 15
       },
       "objective": "maximize",
-      "scoreStored": "133333332",
-      "scoreDisplay": "0.133333332",
+      "scoreStored": "181818181",
+      "scoreDisplay": "0.181818181",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -826,73 +826,73 @@
         "source": "Packomania's crc table, compiled by Eckard Specht, keeps the best known packings of equal circles in a 1 × 0.5 rectangle; this problem's 2 × 1 rectangle is that one doubled, so the radius is twice the table's. The table cites Eckard Specht (1999–2010) for this row. It does not mark this row proved",
         "url": "https://www.packomania.com/crc_500/crc.html"
       },
-      "holder": null,
+      "holder": "NUE_13",
       "method": "human",
-      "recordedAt": "2026-10-15T10:27:03.353Z",
+      "recordedAt": "2026-10-17T02:16:25.365Z",
       "answer": {
         "centers": [
           [
-            "0.166666666",
-            "0.166666666"
+            "0.181818181",
+            "0.181818181"
           ],
           [
-            "0.499999998",
-            "0.166666666"
+            "0.545454545",
+            "0.181818181"
           ],
           [
-            "0.83333333",
-            "0.166666666"
+            "0.909090909",
+            "0.181818181"
           ],
           [
-            "1.166666662",
-            "0.166666666"
+            "1.272727272",
+            "0.181818181"
           ],
           [
-            "1.499999994",
-            "0.166666666"
+            "1.636363636",
+            "0.181818181"
           ],
           [
-            "1.833333326",
-            "0.166666666"
+            "0.363636363",
+            "0.500000000"
           ],
           [
-            "0.166666666",
-            "0.499999998"
+            "0.727272727",
+            "0.500000000"
           ],
           [
-            "0.499999998",
-            "0.499999998"
+            "1.090909090",
+            "0.500000000"
           ],
           [
-            "0.83333333",
-            "0.499999998"
+            "1.454545454",
+            "0.500000000"
           ],
           [
-            "1.166666662",
-            "0.499999998"
+            "1.818181818",
+            "0.500000000"
           ],
           [
-            "1.499999994",
-            "0.499999998"
+            "0.181818181",
+            "0.818181818"
           ],
           [
-            "1.833333326",
-            "0.499999998"
+            "0.545454545",
+            "0.818181818"
           ],
           [
-            "0.166666666",
-            "0.83333333"
+            "0.909090909",
+            "0.818181818"
           ],
           [
-            "0.499999998",
-            "0.83333333"
+            "1.272727272",
+            "0.818181818"
           ],
           [
-            "0.83333333",
-            "0.83333333"
+            "1.636363636",
+            "0.818181818"
           ]
         ],
-        "radius": "0.133333332"
+        "radius": "0.181818181"
       }
     },
     {
@@ -902,8 +902,8 @@
         "n": 16
       },
       "objective": "maximize",
-      "scoreStored": "133333332",
-      "scoreDisplay": "0.133333332",
+      "scoreStored": "167587194",
+      "scoreDisplay": "0.167587194",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -920,77 +920,77 @@
         "source": "Packomania's crc table, compiled by Eckard Specht, keeps the best known packings of equal circles in a 1 × 0.5 rectangle; this problem's 2 × 1 rectangle is that one doubled, so the radius is twice the table's. The table cites Eckard Specht (1999–2010) for this row. It does not mark this row proved",
         "url": "https://www.packomania.com/crc_500/crc.html"
       },
-      "holder": null,
+      "holder": "NUE_13",
       "method": "human",
-      "recordedAt": "2026-10-15T10:27:03.353Z",
+      "recordedAt": "2026-10-17T03:05:18.378Z",
       "answer": {
         "centers": [
           [
-            "0.166666666",
-            "0.166666666"
+            "0.238405956",
+            "0.173623081"
           ],
           [
-            "0.499999998",
-            "0.166666666"
+            "0.492999997",
+            "0.406275149"
           ],
           [
-            "0.83333333",
-            "0.166666666"
+            "0.738811698",
+            "0.169188590"
           ],
           [
-            "1.166666662",
-            "0.166666666"
+            "1.075144763",
+            "0.185058169"
           ],
           [
-            "1.499999994",
-            "0.166666666"
+            "1.411000152",
+            "0.177101554"
           ],
           [
-            "1.833333326",
-            "0.166666666"
+            "1.746898330",
+            "0.168057837"
           ],
           [
-            "0.166666666",
-            "0.499999998"
+            "0.173144874",
+            "0.515434820"
           ],
           [
-            "0.499999998",
-            "0.499999998"
+            "0.812000424",
+            "0.518521724"
           ],
           [
-            "0.83333333",
-            "0.499999998"
+            "1.154724527",
+            "0.515999933"
           ],
           [
-            "1.166666662",
-            "0.499999998"
+            "1.495492749",
+            "0.512478272"
           ],
           [
-            "1.499999994",
-            "0.499999998"
+            "1.830434776",
+            "0.499999932"
           ],
           [
-            "1.833333326",
-            "0.499999998"
+            "1.692159838",
+            "0.819565268"
           ],
           [
-            "0.166666666",
-            "0.83333333"
+            "0.320231723",
+            "0.824521912"
           ],
           [
-            "0.499999998",
-            "0.83333333"
+            "0.656522004",
+            "0.822898475"
           ],
           [
-            "0.83333333",
-            "0.83333333"
+            "1.002246110",
+            "0.824376617"
           ],
           [
-            "1.166666662",
-            "0.83333333"
+            "1.344493067",
+            "0.819942092"
           ]
         ],
-        "radius": "0.133333332"
+        "radius": "0.167587194"
       }
     },
     {
@@ -1000,8 +1000,8 @@
         "n": 17
       },
       "objective": "maximize",
-      "scoreStored": "133333332",
-      "scoreDisplay": "0.133333332",
+      "scoreStored": "169304761",
+      "scoreDisplay": "0.169304761",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -1018,81 +1018,81 @@
         "source": "Packomania's crc table, compiled by Eckard Specht, keeps the best known packings of equal circles in a 1 × 0.5 rectangle; this problem's 2 × 1 rectangle is that one doubled, so the radius is twice the table's. The table cites Eckard Specht (1999–2010) for this row. It does not mark this row proved",
         "url": "https://www.packomania.com/crc_500/crc.html"
       },
-      "holder": null,
+      "holder": "NUE_13",
       "method": "human",
-      "recordedAt": "2026-10-15T10:27:03.353Z",
+      "recordedAt": "2026-10-17T03:09:53.940Z",
       "answer": {
         "centers": [
           [
-            "0.166666666",
-            "0.166666666"
+            "0.169304761",
+            "0.169304761"
           ],
           [
-            "0.499999998",
-            "0.166666666"
+            "0.169304761",
+            "0.830695239"
           ],
           [
-            "0.83333333",
-            "0.166666666"
+            "1.830695239",
+            "0.169304761"
           ],
           [
-            "1.166666662",
-            "0.166666666"
+            "1.492085717",
+            "0.169304761"
           ],
           [
-            "1.499999994",
-            "0.166666666"
+            "1.153476195",
+            "0.169304761"
           ],
           [
-            "1.833333326",
-            "0.166666666"
+            "0.814866673",
+            "0.169304761"
           ],
           [
-            "0.166666666",
-            "0.499999998"
+            "0.492085717",
+            "0.271622223"
           ],
           [
-            "0.499999998",
-            "0.499999998"
+            "0.242085716",
+            "0.500000000"
           ],
           [
-            "0.83333333",
-            "0.499999998"
+            "0.492085717",
+            "0.728377776"
           ],
           [
-            "1.166666662",
-            "0.499999998"
+            "0.814866673",
+            "0.830695239"
           ],
           [
-            "1.499999994",
-            "0.499999998"
+            "0.742085717",
+            "0.500000000"
           ],
           [
-            "1.833333326",
-            "0.499999998"
+            "1.080695239",
+            "0.500000000"
           ],
           [
-            "0.166666666",
-            "0.83333333"
+            "1.419304761",
+            "0.500000000"
           ],
           [
-            "0.499999998",
-            "0.83333333"
+            "1.757914283",
+            "0.500000000"
           ],
           [
-            "0.83333333",
-            "0.83333333"
+            "1.153476195",
+            "0.830695239"
           ],
           [
-            "1.166666662",
-            "0.83333333"
+            "1.492085717",
+            "0.830695239"
           ],
           [
-            "1.499999994",
-            "0.83333333"
+            "1.830695239",
+            "0.830695239"
           ]
         ],
-        "radius": "0.133333332"
+        "radius": "0.169304761"
       }
     },
     {
@@ -1102,8 +1102,8 @@
         "n": 18
       },
       "objective": "maximize",
-      "scoreStored": "133333332",
-      "scoreDisplay": "0.133333332",
+      "scoreStored": "166666666",
+      "scoreDisplay": "0.166666666",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -1121,9 +1121,9 @@
         "source": "Packomania's crc table, compiled by Eckard Specht, keeps the best known packings of equal circles in a 1 × 0.5 rectangle; this problem's 2 × 1 rectangle is that one doubled, so the radius is twice the table's. The table cites Eckard Specht (1999–2010) for this row. It does not mark this row proved",
         "url": "https://www.packomania.com/crc_500/crc.html"
       },
-      "holder": null,
+      "holder": "NUE_13",
       "method": "human",
-      "recordedAt": "2026-10-15T10:27:03.353Z",
+      "recordedAt": "2026-10-17T01:38:33.956Z",
       "answer": {
         "centers": [
           [
@@ -1135,7 +1135,7 @@
             "0.166666666"
           ],
           [
-            "0.83333333",
+            "0.833333330",
             "0.166666666"
           ],
           [
@@ -1159,7 +1159,7 @@
             "0.499999998"
           ],
           [
-            "0.83333333",
+            "0.833333330",
             "0.499999998"
           ],
           [
@@ -1176,30 +1176,30 @@
           ],
           [
             "0.166666666",
-            "0.83333333"
+            "0.833333330"
           ],
           [
             "0.499999998",
-            "0.83333333"
+            "0.833333330"
           ],
           [
-            "0.83333333",
-            "0.83333333"
+            "0.833333330",
+            "0.833333330"
           ],
           [
             "1.166666662",
-            "0.83333333"
+            "0.833333330"
           ],
           [
             "1.499999994",
-            "0.83333333"
+            "0.833333330"
           ],
           [
             "1.833333326",
-            "0.83333333"
+            "0.833333330"
           ]
         ],
-        "radius": "0.133333332"
+        "radius": "0.166666666"
       }
     },
     {
@@ -1433,8 +1433,8 @@
         "n": 21
       },
       "objective": "maximize",
-      "scoreStored": "100000000",
-      "scoreDisplay": "0.1",
+      "scoreStored": "150107439",
+      "scoreDisplay": "0.150107439",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -1451,97 +1451,97 @@
         "source": "Packomania's crc table, compiled by Eckard Specht, keeps the best known packings of equal circles in a 1 × 0.5 rectangle; this problem's 2 × 1 rectangle is that one doubled, so the radius is twice the table's. The table cites Eckard Specht (1999–2010) for this row. It does not mark this row proved",
         "url": "https://www.packomania.com/crc_500/crc.html"
       },
-      "holder": null,
+      "holder": "NUE_13",
       "method": "human",
-      "recordedAt": "2026-10-15T10:27:03.353Z",
+      "recordedAt": "2026-10-17T03:14:42.534Z",
       "answer": {
         "centers": [
           [
-            "0.125",
-            "0.125"
+            "0.150107439",
+            "0.150107439"
           ],
           [
-            "0.375",
-            "0.125"
+            "0.150107439",
+            "0.450322317"
           ],
           [
-            "0.625",
-            "0.125"
+            "0.150107439",
+            "0.750537195"
           ],
           [
-            "0.875",
-            "0.125"
+            "0.433404958",
+            "0.849892561"
           ],
           [
-            "1.125",
-            "0.125"
+            "0.433404958",
+            "0.549677683"
           ],
           [
-            "1.375",
-            "0.125"
+            "0.433404958",
+            "0.249462805"
           ],
           [
-            "1.625",
-            "0.125"
+            "0.716702477",
+            "0.150107439"
           ],
           [
-            "1.875",
-            "0.125"
+            "0.716702477",
+            "0.450322317"
           ],
           [
-            "0.125",
-            "0.375"
+            "0.716702477",
+            "0.750537195"
           ],
           [
-            "0.375",
-            "0.375"
+            "0.999999996",
+            "0.849892561"
           ],
           [
-            "0.625",
-            "0.375"
+            "0.999999996",
+            "0.549677683"
           ],
           [
-            "0.875",
-            "0.375"
+            "0.999999996",
+            "0.249462805"
           ],
           [
-            "1.125",
-            "0.375"
+            "1.283297515",
+            "0.150107439"
           ],
           [
-            "1.375",
-            "0.375"
+            "1.283297515",
+            "0.450322317"
           ],
           [
-            "1.625",
-            "0.375"
+            "1.283297515",
+            "0.750537195"
           ],
           [
-            "1.875",
-            "0.375"
+            "1.566595034",
+            "0.849892561"
           ],
           [
-            "0.125",
-            "0.625"
+            "1.566595034",
+            "0.549677683"
           ],
           [
-            "0.375",
-            "0.625"
+            "1.566595034",
+            "0.249462805"
           ],
           [
-            "0.625",
-            "0.625"
+            "1.849892561",
+            "0.150107462"
           ],
           [
-            "0.875",
-            "0.625"
+            "1.849892561",
+            "0.450322340"
           ],
           [
-            "1.125",
-            "0.625"
+            "1.849892561",
+            "0.750537218"
           ]
         ],
-        "radius": "0.1"
+        "radius": "0.150107439"
       }
     },
     {
@@ -2343,8 +2343,8 @@
         "n": 28
       },
       "objective": "maximize",
-      "scoreStored": "100000000",
-      "scoreDisplay": "0.1",
+      "scoreStored": "134650918",
+      "scoreDisplay": "0.134650918",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -2361,125 +2361,125 @@
         "source": "Packomania's crc table, compiled by Eckard Specht, keeps the best known packings of equal circles in a 1 × 0.5 rectangle; this problem's 2 × 1 rectangle is that one doubled, so the radius is twice the table's. The table cites Eckard Specht (1999–2010) for this row. It does not mark this row proved",
         "url": "https://www.packomania.com/crc_500/crc.html"
       },
-      "holder": null,
+      "holder": "NUE_13",
       "method": "human",
-      "recordedAt": "2026-10-15T10:27:03.353Z",
+      "recordedAt": "2026-10-17T03:18:48.266Z",
       "answer": {
         "centers": [
           [
-            "0.125",
-            "0.125"
+            "0.134650918",
+            "0.134650918"
           ],
           [
-            "0.375",
-            "0.125"
+            "0.403952754",
+            "0.134650918"
           ],
           [
-            "0.625",
-            "0.125"
+            "0.673254590",
+            "0.134650918"
           ],
           [
-            "0.875",
-            "0.125"
+            "0.942556426",
+            "0.134650918"
           ],
           [
-            "1.125",
-            "0.125"
+            "1.211858262",
+            "0.134650918"
           ],
           [
-            "1.375",
-            "0.125"
+            "1.481160098",
+            "0.134650918"
           ],
           [
-            "1.625",
-            "0.125"
+            "1.750461934",
+            "0.134650918"
           ],
           [
-            "1.875",
-            "0.125"
+            "1.865349082",
+            "0.378216971"
           ],
           [
-            "0.125",
-            "0.375"
+            "1.596047246",
+            "0.378216971"
           ],
           [
-            "0.375",
-            "0.375"
+            "1.326745410",
+            "0.378216971"
           ],
           [
-            "0.625",
-            "0.375"
+            "1.057443574",
+            "0.378216971"
           ],
           [
-            "0.875",
-            "0.375"
+            "0.788141738",
+            "0.378216971"
           ],
           [
-            "1.125",
-            "0.375"
+            "0.518839902",
+            "0.378216971"
           ],
           [
-            "1.375",
-            "0.375"
+            "0.249538066",
+            "0.378216971"
           ],
           [
-            "1.625",
-            "0.375"
+            "0.134650918",
+            "0.621783024"
           ],
           [
-            "1.875",
-            "0.375"
+            "0.403952754",
+            "0.621783024"
           ],
           [
-            "0.125",
-            "0.625"
+            "0.673254590",
+            "0.621783024"
           ],
           [
-            "0.375",
-            "0.625"
+            "0.942556426",
+            "0.621783024"
           ],
           [
-            "0.625",
-            "0.625"
+            "1.211858262",
+            "0.621783024"
           ],
           [
-            "0.875",
-            "0.625"
+            "1.481160098",
+            "0.621783024"
           ],
           [
-            "1.125",
-            "0.625"
+            "1.750461934",
+            "0.621783024"
           ],
           [
-            "1.375",
-            "0.625"
+            "1.865349072",
+            "0.865349082"
           ],
           [
-            "1.625",
-            "0.625"
+            "1.596047236",
+            "0.865349082"
           ],
           [
-            "1.875",
-            "0.625"
+            "1.326745400",
+            "0.865349082"
           ],
           [
-            "0.125",
-            "0.875"
+            "1.057443564",
+            "0.865349082"
           ],
           [
-            "0.375",
-            "0.875"
+            "0.788141728",
+            "0.865349082"
           ],
           [
-            "0.625",
-            "0.875"
+            "0.518839892",
+            "0.865349082"
           ],
           [
-            "0.875",
-            "0.875"
+            "0.249538056",
+            "0.865349082"
           ]
         ],
-        "radius": "0.1"
+        "radius": "0.134650918"
       }
     },
     {
@@ -2951,8 +2951,8 @@
         "n": 32
       },
       "objective": "maximize",
-      "scoreStored": "100000000",
-      "scoreDisplay": "0.1",
+      "scoreStored": "125000000",
+      "scoreDisplay": "0.125",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -2969,9 +2969,9 @@
         "source": "Packomania's crc table, compiled by Eckard Specht, keeps the best known packings of equal circles in a 1 × 0.5 rectangle; this problem's 2 × 1 rectangle is that one doubled, so the radius is twice the table's. The table cites Eckard Specht (2010-08-02) for this row. It does not mark this row proved",
         "url": "https://www.packomania.com/crc_500/crc.html"
       },
-      "holder": null,
+      "holder": "NUE_13",
       "method": "human",
-      "recordedAt": "2026-10-15T10:27:03.353Z",
+      "recordedAt": "2026-10-17T01:39:12.675Z",
       "answer": {
         "centers": [
           [
@@ -3103,7 +3103,7 @@
             "0.875"
           ]
         ],
-        "radius": "0.1"
+        "radius": "0.125"
       }
     },
     {
@@ -6479,8 +6479,8 @@
         "n": 50
       },
       "objective": "maximize",
-      "scoreStored": "80000000",
-      "scoreDisplay": "0.08",
+      "scoreStored": "100000000",
+      "scoreDisplay": "0.1",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -6497,9 +6497,9 @@
         "source": "Packomania's crc table, compiled by Eckard Specht, keeps the best known packings of equal circles in a 1 × 0.5 rectangle; this problem's 2 × 1 rectangle is that one doubled, so the radius is twice the table's. The table cites David W. Cantrell (2010-08-11) for this row. It does not mark this row proved",
         "url": "https://www.packomania.com/crc_500/crc.html"
       },
-      "holder": null,
+      "holder": "NUE_13",
       "method": "human",
-      "recordedAt": "2026-10-15T10:27:03.353Z",
+      "recordedAt": "2026-10-17T01:40:54.114Z",
       "answer": {
         "centers": [
           [
@@ -6703,7 +6703,7 @@
             "0.9"
           ]
         ],
-        "radius": "0.08"
+        "radius": "0.1"
       }
     },
     {
@@ -12551,8 +12551,8 @@
         "n": 72
       },
       "objective": "maximize",
-      "scoreStored": "66666666",
-      "scoreDisplay": "0.066666666",
+      "scoreStored": "83333333",
+      "scoreDisplay": "0.083333333",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -12569,9 +12569,9 @@
         "source": "Packomania's crc table, compiled by Eckard Specht, keeps the best known packings of equal circles in a 1 × 0.5 rectangle; this problem's 2 × 1 rectangle is that one doubled, so the radius is twice the table's. The table cites Eckard Specht (1999–2010) for this row. It does not mark this row proved",
         "url": "https://www.packomania.com/crc_500/crc.html"
       },
-      "holder": null,
+      "holder": "NUE_13",
       "method": "human",
-      "recordedAt": "2026-10-15T10:27:03.353Z",
+      "recordedAt": "2026-10-17T01:42:37.446Z",
       "answer": {
         "centers": [
           [
@@ -12863,7 +12863,7 @@
             "0.916666663"
           ]
         ],
-        "radius": "0.066666666"
+        "radius": "0.083333333"
       }
     },
     {
@@ -22223,8 +22223,8 @@
         "n": 98
       },
       "objective": "maximize",
-      "scoreStored": "57142856",
-      "scoreDisplay": "0.057142856",
+      "scoreStored": "71428571",
+      "scoreDisplay": "0.071428571",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -22241,9 +22241,9 @@
         "source": "Packomania's crc table, compiled by Eckard Specht, keeps the best known packings of equal circles in a 1 × 0.5 rectangle; this problem's 2 × 1 rectangle is that one doubled, so the radius is twice the table's. The table cites Eckard Specht (2010-08-10) for this row. It does not mark this row proved",
         "url": "https://www.packomania.com/crc_500/crc.html"
       },
-      "holder": null,
+      "holder": "NUE_13",
       "method": "human",
-      "recordedAt": "2026-10-15T10:27:03.353Z",
+      "recordedAt": "2026-10-17T01:43:08.823Z",
       "answer": {
         "centers": [
           [
@@ -22639,7 +22639,7 @@
             "0.928571423"
           ]
         ],
-        "radius": "0.057142856"
+        "radius": "0.071428571"
       }
     },
     {
