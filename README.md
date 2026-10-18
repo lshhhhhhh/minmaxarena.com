@@ -37,7 +37,7 @@ managed.
 
 ## The records
 
-69 problem families, 2714 sub-problems, 2553 still open.
+70 problem families, 2764 sub-problems, 2602 still open.
 `records/` holds today's snapshot of each family; the live files are at
 `https://minmaxarena.com/data/{slug}.json`, and the citable ones are the monthly frozen
 editions at `https://minmaxarena.com/data/editions/{YYYY-MM}/{slug}.json`, which never change
@@ -116,6 +116,7 @@ once published. Data is CC BY 4.0; see
 | [P91](https://minmaxarena.com/en/problems/ells-in-square) | L's in a square | 40 | 37 | [json](records/ells-in-square.json) |
 | [P92](https://minmaxarena.com/en/problems/circles-in-disc-radii) | Sum of radii in the unit circle | 50 | 48 | [json](records/circles-in-disc-radii.json) |
 | [P93](https://minmaxarena.com/en/problems/circles-in-triangle-radii) | Sum of radii in the equilateral triangle | 50 | 38 | [json](records/circles-in-triangle-radii.json) |
+| [P94](https://minmaxarena.com/en/problems/circles-in-pentagon-radii) | Sum of radii in the regular pentagon | 50 | 49 | [json](records/circles-in-pentagon-radii.json) |
 <!-- records:end -->
 
 ## Problems the catalogue no longer offers
