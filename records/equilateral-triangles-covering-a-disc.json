@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/equilateral-triangles-covering-a-disc",
-  "generatedAt": "2026-10-09T11:58:32.985Z",
+  "generatedAt": "2026-10-19T10:57:08.087Z",
   "instances": [
     {
       "instanceId": "p78-n7-v1",
@@ -557,8 +557,8 @@
         "n": 13
       },
       "objective": "minimize",
-      "scoreStored": "797352089",
-      "scoreDisplay": "0.797352089",
+      "scoreStored": "797352088",
+      "scoreDisplay": "0.797352088",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -572,40 +572,40 @@
         "source": "Maurizio Morandi's arrangement (August 2009), listed in Friedman's table as the largest covered-disc radius r = (40√3 − √165)/45 ≈ 1.254+ for n unit triangles; here it is converted in closed form by s = 1/r and shown rounded upward to fifteen places. The site reconstructed the same contact topology from the public raster, and its nine-decimal certificate verifies at 0.809264627; the gap from the continuous target remains explicit. Optimality is open",
         "url": "https://erich-friedman.github.io/packing/tricovcir/"
       },
-      "holder": "zzzcy",
+      "holder": "Codex",
       "method": "ai",
-      "recordedAt": "2026-10-04T11:47:26.396Z",
+      "recordedAt": "2026-10-19T05:05:30.124Z",
       "answer": {
-        "side": "0.797352089",
+        "side": "0.797352088",
         "triangles": [
           {
             "down": true,
             "turn": "0.000176470",
-            "x": "1.439653389",
-            "y": "1.992439605"
+            "x": "1.439653388",
+            "y": "1.992439604"
           },
           {
             "down": false,
             "turn": "0.577585588",
-            "x": "0.928868294",
+            "x": "0.928868293",
             "y": "1.654711354"
           },
           {
             "down": true,
-            "turn": "0.577585587",
-            "x": "0.883114070",
-            "y": "1.575398084"
+            "turn": "0.577585586",
+            "x": "0.883114069",
+            "y": "1.575398085"
           },
           {
             "down": true,
-            "turn": "0.577585588",
-            "x": "0.177326451",
+            "turn": "0.577585587",
+            "x": "0.177326452",
             "y": "1.575148982"
           },
           {
             "down": false,
             "turn": "0.577585587",
-            "x": "1.199378630",
+            "x": "1.199378629",
             "y": "0.884982501"
           },
           {
@@ -617,20 +617,20 @@
           {
             "down": true,
             "turn": "0.577585587",
-            "x": "1.510754384",
-            "y": "1.424740991"
+            "x": "1.510754385",
+            "y": "1.424740992"
           },
           {
             "down": false,
             "turn": "0.577585587",
-            "x": "2.001238538",
+            "x": "2.001238537",
             "y": "0.734386897"
           },
           {
             "down": true,
             "turn": "-0.577114999",
             "x": "0.759349758",
-            "y": "0.956408689"
+            "y": "0.956408690"
           },
           {
             "down": false,
@@ -647,7 +647,7 @@
           {
             "down": false,
             "turn": "0.577585587",
-            "x": "1.639651216",
+            "x": "1.639651215",
             "y": "0.123029194"
           },
           {
@@ -910,8 +910,8 @@
         "n": 16
       },
       "objective": "minimize",
-      "scoreStored": "717981075",
-      "scoreDisplay": "0.717981075",
+      "scoreStored": "717981074",
+      "scoreDisplay": "0.717981074",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -929,107 +929,107 @@
         "source": "Maurizio Morandi's arrangement (August 2009), listed in Friedman's table only as the truncated r = 1.392+; as a common side s = 1/r the true value lies between 0.717875089734386 and 0.718390804597702, and the upper end is shown. Inside the window is level; only below its lower end is ahead. The site reconstructed the same contact topology from the public raster, and its nine-decimal certificate verifies at 0.729117139 without pretending to be unpublished source coordinates. Optimality is open",
         "url": "https://erich-friedman.github.io/packing/tricovcir/"
       },
-      "holder": "zzzcy",
+      "holder": "Codex",
       "method": "ai",
-      "recordedAt": "2026-10-04T14:52:29.853Z",
+      "recordedAt": "2026-10-19T05:05:05.801Z",
       "answer": {
-        "side": "0.717981075",
+        "side": "0.717981074",
         "triangles": [
           {
             "down": false,
-            "turn": "-0.578251384",
+            "turn": "-0.578251387",
             "x": "1.133345351",
-            "y": "1.687873213"
+            "y": "1.687873212"
           },
           {
             "down": false,
-            "turn": "-0.578251384",
+            "turn": "-0.578251383",
             "x": "0.508917620",
-            "y": "1.689769229"
+            "y": "1.689769228"
           },
           {
             "down": true,
             "turn": "-0.578251384",
-            "x": "1.804745161",
+            "x": "1.804745160",
             "y": "1.606474297"
           },
           {
             "down": false,
-            "turn": "-0.578251384",
-            "x": "1.759036092",
-            "y": "0.984745642"
+            "turn": "-0.578251382",
+            "x": "1.759036091",
+            "y": "0.984745641"
           },
           {
             "down": true,
-            "turn": "-0.578251384",
-            "x": "1.179708450",
-            "y": "1.607318813"
+            "turn": "-0.578251387",
+            "x": "1.179708448",
+            "y": "1.607318811"
           },
           {
             "down": true,
             "turn": "-0.000675572",
-            "x": "1.188110923",
-            "y": "1.296412254"
+            "x": "1.188110920",
+            "y": "1.296412253"
           },
           {
             "down": false,
             "turn": "-0.000675573",
-            "x": "0.375971686",
-            "y": "1.297509570"
+            "x": "0.375971685",
+            "y": "1.297509569"
           },
           {
             "down": false,
-            "turn": "0.576449856",
-            "x": "0.616345627",
+            "turn": "0.576449858",
+            "x": "0.616345628",
             "y": "0.986289583"
           },
           {
             "down": true,
             "turn": "0.576449857",
-            "x": "1.383654373",
+            "x": "1.383654372",
             "y": "1.013710417"
           },
           {
             "down": true,
-            "turn": "0.576449857",
-            "x": "0.632814036",
-            "y": "1.014724911"
+            "turn": "0.576449858",
+            "x": "0.632814037",
+            "y": "1.014724910"
           },
           {
             "down": false,
-            "turn": "-0.578251384",
-            "x": "0.820291550",
-            "y": "0.392681187"
+            "turn": "-0.578251388",
+            "x": "0.820291551",
+            "y": "0.392681188"
           },
           {
             "down": true,
-            "turn": "0.576449856",
-            "x": "-0.118026302",
-            "y": "1.015739407"
+            "turn": "0.576449858",
+            "x": "-0.118026301",
+            "y": "1.015739405"
           },
           {
             "down": false,
-            "turn": "-0.578251384",
-            "x": "0.195254839",
-            "y": "0.393525703"
+            "turn": "-0.578251387",
+            "x": "0.195254840",
+            "y": "0.393525702"
           },
           {
             "down": true,
-            "turn": "-0.578251384",
+            "turn": "-0.578251386",
             "x": "1.491082380",
-            "y": "0.310230771"
+            "y": "0.310230770"
           },
           {
             "down": true,
-            "turn": "-0.578251384",
-            "x": "0.866654649",
-            "y": "0.312126787"
+            "turn": "-0.578251389",
+            "x": "0.866654650",
+            "y": "0.312126786"
           },
           {
             "down": false,
-            "turn": "0.576449857",
-            "x": "1.803103355",
-            "y": "0.391353265"
+            "turn": "0.576449856",
+            "x": "1.803103354",
+            "y": "0.391353264"
           }
         ]
       }

@@ -37,7 +37,7 @@ managed.
 
 ## The records
 
-70 problem families, 2764 sub-problems, 2602 still open.
+70 problem families, 2764 sub-problems, 2595 still open.
 `records/` holds today's snapshot of each family; the live files are at
 `https://minmaxarena.com/data/{slug}.json`, and the citable ones are the monthly frozen
 editions at `https://minmaxarena.com/data/editions/{YYYY-MM}/{slug}.json`, which never change
@@ -55,10 +55,10 @@ once published. Data is CC BY 4.0; see
 | [P08](https://minmaxarena.com/en/problems/circles-in-an-l) | Equal circles in an L | 15 | 14 | [json](records/circles-in-an-l.json) |
 | [P09](https://minmaxarena.com/en/problems/circles-in-a-semicircle) | Equal circles in a half-disc | 14 | 14 | [json](records/circles-in-a-semicircle.json) |
 | [P10](https://minmaxarena.com/en/problems/circles-in-a-cross) | Equal circles in a plus sign | 16 | 13 | [json](records/circles-in-a-cross.json) |
-| [P11](https://minmaxarena.com/en/problems/circles-in-right-triangle) | Equal-circle packing in a right triangle | 11 | 11 | [json](records/circles-in-right-triangle.json) |
+| [P11](https://minmaxarena.com/en/problems/circles-in-right-triangle) | Equal-circle packing in a right triangle | 11 | 8 | [json](records/circles-in-right-triangle.json) |
 | [P12](https://minmaxarena.com/en/problems/circles-in-rectangle) | Equal-circle packing in a 2:1 rectangle | 98 | 94 | [json](records/circles-in-rectangle.json) |
 | [P13](https://minmaxarena.com/en/problems/graduated-circles-in-square) | Packing circles of radius 1,2,…,n into a square | 99 | 96 | [json](records/graduated-circles-in-square.json) |
-| [P16](https://minmaxarena.com/en/problems/spread-points-in-triangle) | Spreading points in a right triangle | 97 | 96 | [json](records/spread-points-in-triangle.json) |
+| [P16](https://minmaxarena.com/en/problems/spread-points-in-triangle) | Spreading points in a right triangle | 97 | 93 | [json](records/spread-points-in-triangle.json) |
 | [P17](https://minmaxarena.com/en/problems/spread-points-in-rectangle) | Spreading points in a rectangle | 17 | 14 | [json](records/spread-points-in-rectangle.json) |
 | [P18](https://minmaxarena.com/en/problems/tilted-squares-in-square) | Tilted equal squares in the unit square | 28 | 22 | [json](records/tilted-squares-in-square.json) |
 | [P19](https://minmaxarena.com/en/problems/spread-points-in-an-l) | Spreading points in an L | 17 | 15 | [json](records/spread-points-in-an-l.json) |
@@ -75,7 +75,7 @@ once published. Data is CC BY 4.0; see
 | [P32](https://minmaxarena.com/en/problems/heilbronn-in-a-quadrant) | The smallest triangle in a quadrant | 10 | 10 | [json](records/heilbronn-in-a-quadrant.json) |
 | [P33](https://minmaxarena.com/en/problems/riesz-energy-in-a-square) | Riesz 2-energy in a square | 20 | 20 | [json](records/riesz-energy-in-a-square.json) |
 | [P34](https://minmaxarena.com/en/problems/riesz-energy-in-a-disc) | Riesz 2-energy in a disc | 16 | 16 | [json](records/riesz-energy-in-a-disc.json) |
-| [P51](https://minmaxarena.com/en/problems/lights-in-a-square) | Lighting a unit square | 34 | 34 | [json](records/lights-in-a-square.json) |
+| [P51](https://minmaxarena.com/en/problems/lights-in-a-square) | Lighting a unit square | 34 | 33 | [json](records/lights-in-a-square.json) |
 | [P52](https://minmaxarena.com/en/problems/min-distance-ratio) | Smallest ratio of largest to smallest distance | 20 | 20 | [json](records/min-distance-ratio.json) |
 | [P53](https://minmaxarena.com/en/problems/biggest-little-polygon) | The biggest little polygon | 13 | 13 | [json](records/biggest-little-polygon.json) |
 | [P54](https://minmaxarena.com/en/problems/star-discrepancy) | Minimum star discrepancy in the unit square | 29 | 29 | [json](records/star-discrepancy.json) |
