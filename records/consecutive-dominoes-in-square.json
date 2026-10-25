@@ -1,0 +1,5457 @@
+{
+  "problem": "consecutive-dominoes-in-square",
+  "code": "P95",
+  "title": "连续尺寸多米诺装入正方形",
+  "titleEn": "Consecutive dominoes in a square",
+  "objective": "minimize",
+  "scoreLabel": "正方形边长",
+  "scoreLabelEn": "the square's side",
+  "verifierVersion": "1.0.0",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseName": "CC BY 4.0",
+  "source": "https://minmaxarena.com/problems/consecutive-dominoes-in-square",
+  "generatedAt": "2026-10-25T09:55:28.864Z",
+  "instances": [
+    {
+      "instanceId": "p95-n1-v1",
+      "name": "n = 1",
+      "parameters": {
+        "n": 1
+      },
+      "objective": "minimize",
+      "scoreStored": "2000000000",
+      "scoreDisplay": "2",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "optimal",
+      "knownBest": {
+        "display": "2",
+        "kind": "proven",
+        "source": "The largest domino, 1 × 2, needs a square of side 2 on its own: a square holds the projections of what it contains on both of its sides, and turned through θ (0 ≤ θ ≤ 90°, the rest by symmetry) the domino projects to lengths 1 sin θ + 2 cos θ and 1 cos θ + 2 sin θ. The first is at least 2 exactly when tan(θ/2) ≤ 1/2 (θ ≤ 53.13°), the second exactly when θ ≥ 36.87°, so one of them always is. The square of side 2 holds all 1 pieces: 1 × 2 lying in [0, 2] × [0, 1]. So s = 2 is optimal (Friedman's table marks it Trivial).",
+        "url": "https://erich-friedman.github.io/packing/domino/"
+      },
+      "holder": "qiboqi",
+      "method": "human",
+      "recordedAt": "2026-10-25T04:37:14.705Z",
+      "answer": {
+        "dominoes": [
+          {
+            "rotated": false,
+            "x": "0.000000000",
+            "y": "0.000000000"
+          }
+        ],
+        "side": "2.000000000"
+      }
+    },
+    {
+      "instanceId": "p95-n2-v1",
+      "name": "n = 2",
+      "parameters": {
+        "n": 2
+      },
+      "objective": "minimize",
+      "scoreStored": "4000000000",
+      "scoreDisplay": "4",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "optimal",
+      "knownBest": {
+        "display": "4",
+        "kind": "proven",
+        "source": "The largest domino, 2 × 4, needs a square of side 4 on its own: a square holds the projections of what it contains on both of its sides, and turned through θ (0 ≤ θ ≤ 90°, the rest by symmetry) the domino projects to lengths 2 sin θ + 4 cos θ and 2 cos θ + 4 sin θ. The first is at least 4 exactly when tan(θ/2) ≤ 1/2 (θ ≤ 53.13°), the second exactly when θ ≥ 36.87°, so one of them always is. The square of side 4 holds all 2 pieces: 2 × 4 standing in [0, 2] × [0, 4], 1 × 2 standing in [2, 3] × [0, 2]. So s = 4 is optimal (Friedman's table marks it Trivial).",
+        "url": "https://erich-friedman.github.io/packing/domino/"
+      },
+      "holder": "qiboqi",
+      "method": "human",
+      "recordedAt": "2026-10-25T04:37:37.160Z",
+      "answer": {
+        "dominoes": [
+          {
+            "rotated": false,
+            "x": "0.000000000",
+            "y": "2.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "0.000000000",
+            "y": "0.000000000"
+          }
+        ],
+        "side": "4.000000000"
+      }
+    },
+    {
+      "instanceId": "p95-n3-v1",
+      "name": "n = 3",
+      "parameters": {
+        "n": 3
+      },
+      "objective": "minimize",
+      "scoreStored": "6000000000",
+      "scoreDisplay": "6",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "optimal",
+      "knownBest": {
+        "display": "6",
+        "kind": "proven",
+        "source": "The largest domino, 3 × 6, needs a square of side 6 on its own: a square holds the projections of what it contains on both of its sides, and turned through θ (0 ≤ θ ≤ 90°, the rest by symmetry) the domino projects to lengths 3 sin θ + 6 cos θ and 3 cos θ + 6 sin θ. The first is at least 6 exactly when tan(θ/2) ≤ 1/2 (θ ≤ 53.13°), the second exactly when θ ≥ 36.87°, so one of them always is. The square of side 6 holds all 3 pieces: 3 × 6 standing in [0, 3] × [0, 6], 2 × 4 standing in [3, 5] × [0, 4], 1 × 2 standing in [5, 6] × [0, 2]. So s = 6 is optimal (Friedman's table marks it Trivial).",
+        "url": "https://erich-friedman.github.io/packing/domino/"
+      },
+      "holder": "qiboqi",
+      "method": "human",
+      "recordedAt": "2026-10-25T04:37:53.385Z",
+      "answer": {
+        "dominoes": [
+          {
+            "rotated": false,
+            "x": "4.000000000",
+            "y": "3.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "0.000000000",
+            "y": "3.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "0.000000000",
+            "y": "0.000000000"
+          }
+        ],
+        "side": "6.000000000"
+      }
+    },
+    {
+      "instanceId": "p95-n4-v1",
+      "name": "n = 4",
+      "parameters": {
+        "n": 4
+      },
+      "objective": "minimize",
+      "scoreStored": "8000000000",
+      "scoreDisplay": "8",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "optimal",
+      "knownBest": {
+        "display": "8",
+        "kind": "proven",
+        "source": "The largest domino, 4 × 8, needs a square of side 8 on its own: a square holds the projections of what it contains on both of its sides, and turned through θ (0 ≤ θ ≤ 90°, the rest by symmetry) the domino projects to lengths 4 sin θ + 8 cos θ and 4 cos θ + 8 sin θ. The first is at least 8 exactly when tan(θ/2) ≤ 1/2 (θ ≤ 53.13°), the second exactly when θ ≥ 36.87°, so one of them always is. The square of side 8 holds all 4 pieces: 4 × 8 standing in [0, 4] × [0, 8], 3 × 6 standing in [4, 7] × [0, 6], 2 × 4 lying in [4, 8] × [6, 8], 1 × 2 standing in [7, 8] × [0, 2]. So s = 8 is optimal (Friedman's table marks it Trivial).",
+        "url": "https://erich-friedman.github.io/packing/domino/"
+      },
+      "holder": "qiboqi",
+      "method": "human",
+      "recordedAt": "2026-10-25T04:39:45.383Z",
+      "answer": {
+        "dominoes": [
+          {
+            "rotated": false,
+            "x": "0.000000000",
+            "y": "7.000000000"
+          },
+          {
+            "rotated": false,
+            "turn": "1.000000000",
+            "x": "8.000000000",
+            "y": "4.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "0.000000000",
+            "y": "4.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "0.000000000",
+            "y": "0.000000000"
+          }
+        ],
+        "side": "8.000000000"
+      }
+    },
+    {
+      "instanceId": "p95-n5-v1",
+      "name": "n = 5",
+      "parameters": {
+        "n": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "11000000000",
+      "scoreDisplay": "11",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "11",
+        "kind": "best",
+        "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Erich Friedman (1998). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
+        "url": "https://erich-friedman.github.io/packing/domino/"
+      },
+      "holder": "qiboqi",
+      "method": "human",
+      "recordedAt": "2026-10-25T04:41:23.310Z",
+      "answer": {
+        "dominoes": [
+          {
+            "rotated": false,
+            "x": "6.000000000",
+            "y": "9.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "0.000000000",
+            "y": "9.000000000"
+          },
+          {
+            "rotated": false,
+            "turn": "1.000000000",
+            "x": "11.000000000",
+            "y": "5.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "0.000000000",
+            "y": "5.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "0.000000000",
+            "y": "0.000000000"
+          }
+        ],
+        "side": "11.000000000"
+      }
+    },
+    {
+      "instanceId": "p95-n6-v1",
+      "name": "n = 6",
+      "parameters": {
+        "n": 6
+      },
+      "objective": "minimize",
+      "scoreStored": "14000000000",
+      "scoreDisplay": "14",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "14",
+        "kind": "best",
+        "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Erich Friedman (1998). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
+        "url": "https://erich-friedman.github.io/packing/domino/"
+      },
+      "holder": "qiboqi",
+      "method": "human",
+      "recordedAt": "2026-10-25T04:44:33.390Z",
+      "answer": {
+        "dominoes": [
+          {
+            "rotated": false,
+            "x": "12.000000000",
+            "y": "4.000000000"
+          },
+          {
+            "rotated": false,
+            "turn": "1.000000000",
+            "x": "14.000000000",
+            "y": "0.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "0.000000000",
+            "y": "11.000000000"
+          },
+          {
+            "rotated": false,
+            "turn": "1.000000000",
+            "x": "14.000000000",
+            "y": "6.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "0.000000000",
+            "y": "6.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "0.000000000",
+            "y": "0.000000000"
+          }
+        ],
+        "side": "14.000000000"
+      }
+    },
+    {
+      "instanceId": "p95-n7-v1",
+      "name": "n = 7",
+      "parameters": {
+        "n": 7
+      },
+      "objective": "minimize",
+      "scoreStored": "17000000000",
+      "scoreDisplay": "17",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "17",
+        "kind": "best",
+        "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Erich Friedman (1998). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
+        "url": "https://erich-friedman.github.io/packing/domino/"
+      },
+      "holder": "qiboqi",
+      "method": "human",
+      "recordedAt": "2026-10-25T04:48:53.510Z",
+      "answer": {
+        "dominoes": [
+          {
+            "rotated": false,
+            "x": "14.000000000",
+            "y": "6.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "8.000000000",
+            "y": "13.000000000"
+          },
+          {
+            "rotated": false,
+            "turn": "1.000000000",
+            "x": "17.000000000",
+            "y": "0.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "0.000000000",
+            "y": "13.000000000"
+          },
+          {
+            "rotated": false,
+            "turn": "1.000000000",
+            "x": "17.000000000",
+            "y": "7.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "0.000000000",
+            "y": "7.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "0.000000000",
+            "y": "0.000000000"
+          }
+        ],
+        "side": "17.000000000"
+      }
+    },
+    {
+      "instanceId": "p95-n8-v1",
+      "name": "n = 8",
+      "parameters": {
+        "n": 8
+      },
+      "objective": "minimize",
+      "scoreStored": "21000000000",
+      "scoreDisplay": "21",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "21",
+        "kind": "best",
+        "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Erich Friedman (1998). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
+        "url": "https://erich-friedman.github.io/packing/domino/"
+      },
+      "holder": "qiboqi",
+      "method": "human",
+      "recordedAt": "2026-10-25T04:51:54.227Z",
+      "answer": {
+        "dominoes": [
+          {
+            "rotated": false,
+            "x": "16.000000000",
+            "y": "10.000000000"
+          },
+          {
+            "rotated": false,
+            "turn": "1.000000000",
+            "x": "16.000000000",
+            "y": "8.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "14.000000000",
+            "y": "12.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "12.000000000",
+            "y": "15.000000000"
+          },
+          {
+            "rotated": false,
+            "turn": "1.000000000",
+            "x": "21.000000000",
+            "y": "0.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "0.000000000",
+            "y": "15.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "0.000000000",
+            "y": "8.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "0.000000000",
+            "y": "0.000000000"
+          }
+        ],
+        "side": "21.000000000"
+      }
+    },
+    {
+      "instanceId": "p95-n9-v1",
+      "name": "n = 9",
+      "parameters": {
+        "n": 9
+      },
+      "objective": "minimize",
+      "scoreStored": "24000000000",
+      "scoreDisplay": "24",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "24",
+        "kind": "best",
+        "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Erich Friedman (1998). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
+        "url": "https://erich-friedman.github.io/packing/domino/"
+      },
+      "holder": "qiboqi",
+      "method": "human",
+      "recordedAt": "2026-10-25T04:53:50.674Z",
+      "answer": {
+        "dominoes": [
+          {
+            "rotated": false,
+            "x": "14.000000000",
+            "y": "18.000000000"
+          },
+          {
+            "rotated": false,
+            "turn": "1.000000000",
+            "x": "18.000000000",
+            "y": "9.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "18.000000000",
+            "y": "12.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "16.000000000",
+            "y": "15.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "14.000000000",
+            "y": "19.000000000"
+          },
+          {
+            "rotated": false,
+            "turn": "1.000000000",
+            "x": "24.000000000",
+            "y": "0.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "0.000000000",
+            "y": "17.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "0.000000000",
+            "y": "9.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "0.000000000",
+            "y": "0.000000000"
+          }
+        ],
+        "side": "24.000000000"
+      }
+    },
+    {
+      "instanceId": "p95-n10-v1",
+      "name": "n = 10",
+      "parameters": {
+        "n": 10
+      },
+      "objective": "minimize",
+      "scoreStored": "28000000000",
+      "scoreDisplay": "28",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "28",
+        "kind": "best",
+        "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Erich Friedman (1998). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
+        "url": "https://erich-friedman.github.io/packing/domino/"
+      },
+      "holder": "qiboqi",
+      "method": "human",
+      "recordedAt": "2026-10-25T05:02:41.223Z",
+      "answer": {
+        "dominoes": [
+          {
+            "rotated": false,
+            "x": "20.000000000",
+            "y": "16.000000000"
+          },
+          {
+            "rotated": false,
+            "turn": "1.000000000",
+            "x": "17.000000000",
+            "y": "24.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "9.000000000",
+            "y": "24.000000000"
+          },
+          {
+            "rotated": false,
+            "turn": "1.000000000",
+            "x": "20.000000000",
+            "y": "10.000000000"
+          },
+          {
+            "rotated": false,
+            "turn": "1.000000000",
+            "x": "22.000000000",
+            "y": "18.000000000"
+          },
+          {
+            "rotated": false,
+            "turn": "1.000000000",
+            "x": "28.000000000",
+            "y": "16.000000000"
+          },
+          {
+            "rotated": false,
+            "turn": "1.000000000",
+            "x": "16.000000000",
+            "y": "10.000000000"
+          },
+          {
+            "rotated": false,
+            "turn": "1.000000000",
+            "x": "28.000000000",
+            "y": "0.000000000"
+          },
+          {
+            "rotated": false,
+            "turn": "1.000000000",
+            "x": "9.000000000",
+            "y": "10.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "0.000000000",
+            "y": "0.000000000"
+          }
+        ],
+        "side": "28.000000000"
+      }
+    },
+    {
+      "instanceId": "p95-n11-v1",
+      "name": "n = 11",
+      "parameters": {
+        "n": 11
+      },
+      "objective": "minimize",
+      "scoreStored": "32000000000",
+      "scoreDisplay": "32",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "32",
+        "kind": "best",
+        "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Erich Friedman (1998). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
+        "url": "https://erich-friedman.github.io/packing/domino/"
+      },
+      "holder": "qiboqi",
+      "method": "ai",
+      "recordedAt": "2026-10-25T05:10:08.134Z",
+      "answer": {
+        "dominoes": [
+          {
+            "rotated": true,
+            "x": "10",
+            "y": "7"
+          },
+          {
+            "rotated": true,
+            "x": "16",
+            "y": "20"
+          },
+          {
+            "rotated": false,
+            "x": "18",
+            "y": "20"
+          },
+          {
+            "rotated": false,
+            "x": "24",
+            "y": "20"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "27"
+          },
+          {
+            "rotated": true,
+            "x": "10",
+            "y": "20"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "0"
+          },
+          {
+            "rotated": false,
+            "x": "16",
+            "y": "24"
+          },
+          {
+            "rotated": false,
+            "x": "14",
+            "y": "0"
+          },
+          {
+            "rotated": true,
+            "x": "0",
+            "y": "7"
+          },
+          {
+            "rotated": false,
+            "x": "10",
+            "y": "9"
+          }
+        ],
+        "side": "32"
+      }
+    },
+    {
+      "instanceId": "p95-n12-v1",
+      "name": "n = 12",
+      "parameters": {
+        "n": 12
+      },
+      "objective": "minimize",
+      "scoreStored": "37000000000",
+      "scoreDisplay": "37",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "37",
+        "kind": "best",
+        "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Erich Friedman (1998). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
+        "url": "https://erich-friedman.github.io/packing/domino/"
+      },
+      "holder": "qiboqi",
+      "method": "ai",
+      "recordedAt": "2026-10-25T05:10:48.586Z",
+      "answer": {
+        "dominoes": [
+          {
+            "rotated": true,
+            "x": "0",
+            "y": "0"
+          },
+          {
+            "rotated": false,
+            "x": "1",
+            "y": "0"
+          },
+          {
+            "rotated": false,
+            "x": "26",
+            "y": "34"
+          },
+          {
+            "rotated": true,
+            "x": "33",
+            "y": "0"
+          },
+          {
+            "rotated": true,
+            "x": "20",
+            "y": "20"
+          },
+          {
+            "rotated": false,
+            "x": "14",
+            "y": "30"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "30"
+          },
+          {
+            "rotated": false,
+            "x": "9",
+            "y": "12"
+          },
+          {
+            "rotated": true,
+            "x": "0",
+            "y": "2"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "20"
+          },
+          {
+            "rotated": true,
+            "x": "26",
+            "y": "12"
+          },
+          {
+            "rotated": false,
+            "x": "9",
+            "y": "0"
+          }
+        ],
+        "side": "37"
+      }
+    },
+    {
+      "instanceId": "p95-n13-v1",
+      "name": "n = 13",
+      "parameters": {
+        "n": 13
+      },
+      "objective": "minimize",
+      "scoreStored": "41000000000",
+      "scoreDisplay": "41",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "41",
+        "kind": "best",
+        "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Erich Friedman (1998). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
+        "url": "https://erich-friedman.github.io/packing/domino/"
+      },
+      "holder": "qiboqi",
+      "method": "ai",
+      "recordedAt": "2026-10-25T05:11:18.678Z",
+      "answer": {
+        "dominoes": [
+          {
+            "rotated": true,
+            "x": "40",
+            "y": "31"
+          },
+          {
+            "rotated": false,
+            "x": "33",
+            "y": "27"
+          },
+          {
+            "rotated": true,
+            "x": "37",
+            "y": "27"
+          },
+          {
+            "rotated": true,
+            "x": "37",
+            "y": "33"
+          },
+          {
+            "rotated": true,
+            "x": "13",
+            "y": "9"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "9"
+          },
+          {
+            "rotated": false,
+            "x": "19",
+            "y": "12"
+          },
+          {
+            "rotated": true,
+            "x": "33",
+            "y": "11"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "0"
+          },
+          {
+            "rotated": false,
+            "x": "13",
+            "y": "19"
+          },
+          {
+            "rotated": false,
+            "x": "19",
+            "y": "0"
+          },
+          {
+            "rotated": false,
+            "x": "13",
+            "y": "29"
+          },
+          {
+            "rotated": true,
+            "x": "0",
+            "y": "15"
+          }
+        ],
+        "side": "41"
+      }
+    },
+    {
+      "instanceId": "p95-n14-v1",
+      "name": "n = 14",
+      "parameters": {
+        "n": 14
+      },
+      "objective": "minimize",
+      "scoreStored": "46000000000",
+      "scoreDisplay": "46",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "46",
+        "kind": "best",
+        "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Erich Friedman (2004). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
+        "url": "https://erich-friedman.github.io/packing/domino/"
+      },
+      "holder": "qiboqi",
+      "method": "ai",
+      "recordedAt": "2026-10-25T05:11:41.755Z",
+      "answer": {
+        "dominoes": [
+          {
+            "rotated": false,
+            "x": "22",
+            "y": "5"
+          },
+          {
+            "rotated": true,
+            "x": "22",
+            "y": "6"
+          },
+          {
+            "rotated": false,
+            "x": "40",
+            "y": "11"
+          },
+          {
+            "rotated": false,
+            "x": "14",
+            "y": "5"
+          },
+          {
+            "rotated": false,
+            "x": "14",
+            "y": "0"
+          },
+          {
+            "rotated": true,
+            "x": "40",
+            "y": "14"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "0"
+          },
+          {
+            "rotated": true,
+            "x": "38",
+            "y": "26"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "36"
+          },
+          {
+            "rotated": false,
+            "x": "18",
+            "y": "36"
+          },
+          {
+            "rotated": false,
+            "x": "24",
+            "y": "0"
+          },
+          {
+            "rotated": false,
+            "x": "14",
+            "y": "24"
+          },
+          {
+            "rotated": false,
+            "x": "14",
+            "y": "11"
+          },
+          {
+            "rotated": true,
+            "x": "0",
+            "y": "7"
+          }
+        ],
+        "side": "46"
+      }
+    },
+    {
+      "instanceId": "p95-n15-v1",
+      "name": "n = 15",
+      "parameters": {
+        "n": 15
+      },
+      "objective": "minimize",
+      "scoreStored": "50000000000",
+      "scoreDisplay": "50",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "50",
+        "kind": "best",
+        "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Erich Friedman (2004). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
+        "url": "https://erich-friedman.github.io/packing/domino/"
+      },
+      "holder": "NUE_13",
+      "method": "human",
+      "recordedAt": "2026-10-25T09:35:32.940Z",
+      "answer": {
+        "dominoes": [
+          {
+            "rotated": true,
+            "x": "33.000000000",
+            "y": "28.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "46.000000000",
+            "y": "19.000000000"
+          },
+          {
+            "rotated": true,
+            "x": "33.000000000",
+            "y": "22.000000000"
+          },
+          {
+            "rotated": true,
+            "x": "46.000000000",
+            "y": "11.000000000"
+          },
+          {
+            "rotated": true,
+            "x": "28.000000000",
+            "y": "20.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "22.000000000",
+            "y": "30.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "36.000000000",
+            "y": "21.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "34.000000000",
+            "y": "28.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "28.000000000",
+            "y": "11.000000000"
+          },
+          {
+            "rotated": true,
+            "x": "12.000000000",
+            "y": "30.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "28.000000000",
+            "y": "0.000000000"
+          },
+          {
+            "rotated": true,
+            "x": "0.000000000",
+            "y": "26.000000000"
+          },
+          {
+            "rotated": true,
+            "x": "0.000000000",
+            "y": "0.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "22.000000000",
+            "y": "36.000000000"
+          },
+          {
+            "rotated": true,
+            "x": "13.000000000",
+            "y": "0.000000000"
+          }
+        ],
+        "side": "50.000000000"
+      }
+    },
+    {
+      "instanceId": "p95-n16-v1",
+      "name": "n = 16",
+      "parameters": {
+        "n": 16
+      },
+      "objective": "minimize",
+      "scoreStored": "56000000000",
+      "scoreDisplay": "56",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "55",
+        "kind": "best",
+        "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Erich Friedman (2004). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
+        "url": "https://erich-friedman.github.io/packing/domino/"
+      },
+      "holder": "qiboqi",
+      "method": "ai",
+      "recordedAt": "2026-10-25T05:12:53.931Z",
+      "answer": {
+        "dominoes": [
+          {
+            "rotated": false,
+            "x": "52",
+            "y": "35"
+          },
+          {
+            "rotated": false,
+            "x": "52",
+            "y": "33"
+          },
+          {
+            "rotated": false,
+            "x": "50",
+            "y": "51"
+          },
+          {
+            "rotated": true,
+            "x": "52",
+            "y": "25"
+          },
+          {
+            "rotated": false,
+            "x": "40",
+            "y": "51"
+          },
+          {
+            "rotated": false,
+            "x": "18",
+            "y": "47"
+          },
+          {
+            "rotated": false,
+            "x": "40",
+            "y": "44"
+          },
+          {
+            "rotated": false,
+            "x": "40",
+            "y": "36"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "47"
+          },
+          {
+            "rotated": true,
+            "x": "30",
+            "y": "36"
+          },
+          {
+            "rotated": false,
+            "x": "30",
+            "y": "25"
+          },
+          {
+            "rotated": false,
+            "x": "30",
+            "y": "13"
+          },
+          {
+            "rotated": false,
+            "x": "30",
+            "y": "0"
+          },
+          {
+            "rotated": true,
+            "x": "16",
+            "y": "0"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "32"
+          },
+          {
+            "rotated": true,
+            "x": "0",
+            "y": "0"
+          }
+        ],
+        "side": "56"
+      }
+    },
+    {
+      "instanceId": "p95-n17-v1",
+      "name": "n = 17",
+      "parameters": {
+        "n": 17
+      },
+      "objective": "minimize",
+      "scoreStored": "64000000000",
+      "scoreDisplay": "64",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "60",
+        "kind": "best",
+        "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Erich Friedman (2004). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
+        "url": "https://erich-friedman.github.io/packing/domino/"
+      },
+      "holder": "qiboqi",
+      "method": "human",
+      "recordedAt": "2026-10-25T07:52:52.176Z",
+      "answer": {
+        "dominoes": [
+          {
+            "rotated": false,
+            "x": "39.869565218",
+            "y": "51.321742050"
+          },
+          {
+            "rotated": false,
+            "x": "16.547823168",
+            "y": "35.782605775"
+          },
+          {
+            "rotated": false,
+            "x": "40.104344907",
+            "y": "53.513042019"
+          },
+          {
+            "rotated": false,
+            "x": "40.330437703",
+            "y": "45.199997081"
+          },
+          {
+            "rotated": false,
+            "x": "12.000000000",
+            "y": "28.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "0.000000000",
+            "y": "28.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "34.000000000",
+            "y": "28.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "34.156510061",
+            "y": "35.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "15.026069440",
+            "y": "41.400002919"
+          },
+          {
+            "rotated": false,
+            "x": "17.200008758",
+            "y": "51.452176102"
+          },
+          {
+            "rotated": false,
+            "x": "0.000000000",
+            "y": "17.000000000"
+          },
+          {
+            "rotated": false,
+            "turn": "1.000000000",
+            "x": "34.000000000",
+            "y": "17.000000000"
+          },
+          {
+            "rotated": false,
+            "turn": "1.000000000",
+            "x": "64.000000000",
+            "y": "32.000000000"
+          },
+          {
+            "rotated": false,
+            "turn": "1.000000000",
+            "x": "48.000000000",
+            "y": "0.000000000"
+          },
+          {
+            "rotated": false,
+            "turn": "1.000000000",
+            "x": "15.000000000",
+            "y": "34.000000000"
+          },
+          {
+            "rotated": false,
+            "turn": "1.000000000",
+            "x": "64.000000000",
+            "y": "0.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "0.000000000",
+            "y": "0.000000000"
+          }
+        ],
+        "side": "64.000000000"
+      }
+    },
+    {
+      "instanceId": "p95-n18-v1",
+      "name": "n = 18",
+      "parameters": {
+        "n": 18
+      },
+      "objective": "minimize",
+      "scoreStored": "69000000000",
+      "scoreDisplay": "69",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "66",
+        "kind": "best",
+        "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Erich Friedman (2004). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
+        "url": "https://erich-friedman.github.io/packing/domino/"
+      },
+      "holder": "NUE_13",
+      "method": "human",
+      "recordedAt": "2026-10-25T09:38:23.827Z",
+      "answer": {
+        "dominoes": [
+          {
+            "rotated": false,
+            "x": "54.000000000",
+            "y": "38.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "54.000000000",
+            "y": "39.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "54.000000000",
+            "y": "41.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "54.000000000",
+            "y": "46.723079388"
+          },
+          {
+            "rotated": true,
+            "x": "60.923093356",
+            "y": "35.861537640"
+          },
+          {
+            "rotated": false,
+            "x": "48.000000000",
+            "y": "61.338459896"
+          },
+          {
+            "rotated": false,
+            "x": "34.000000000",
+            "y": "60.723079388"
+          },
+          {
+            "rotated": false,
+            "x": "18.000000000",
+            "y": "60.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "0.000000000",
+            "y": "60.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "46.000000000",
+            "y": "50.723079388"
+          },
+          {
+            "rotated": false,
+            "x": "24.000000000",
+            "y": "48.861537640"
+          },
+          {
+            "rotated": false,
+            "x": "0.000000000",
+            "y": "48.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "28.000000000",
+            "y": "35.861537640"
+          },
+          {
+            "rotated": false,
+            "x": "0.000000000",
+            "y": "34.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "36.000000000",
+            "y": "0.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "0.000000000",
+            "y": "18.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "32.000000000",
+            "y": "18.861537640"
+          },
+          {
+            "rotated": false,
+            "x": "0.000000000",
+            "y": "0.000000000"
+          }
+        ],
+        "side": "69.000000000"
+      }
+    },
+    {
+      "instanceId": "p95-n19-v1",
+      "name": "n = 19",
+      "parameters": {
+        "n": 19
+      },
+      "objective": "minimize",
+      "scoreStored": "74000000000",
+      "scoreDisplay": "74",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "71",
+        "kind": "best",
+        "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Erich Friedman (2004). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
+        "url": "https://erich-friedman.github.io/packing/domino/"
+      },
+      "holder": "今天",
+      "method": "human",
+      "recordedAt": "2026-10-25T06:11:56.451Z",
+      "answer": {
+        "dominoes": [
+          {
+            "rotated": false,
+            "x": "26.000000000",
+            "y": "63.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "34.000000000",
+            "y": "35.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "58.000000000",
+            "y": "39.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "58.000000000",
+            "y": "42.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "58.000000000",
+            "y": "46.000000000"
+          },
+          {
+            "rotated": false,
+            "turn": "1.000000000",
+            "x": "72.486207178",
+            "y": "33.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "54.000000000",
+            "y": "64.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "38.000000000",
+            "y": "64.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "20.000000000",
+            "y": "64.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "0.000000000",
+            "y": "64.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "50.000000000",
+            "y": "51.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "26.000000000",
+            "y": "51.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "0.000000000",
+            "y": "51.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "30.000000000",
+            "y": "37.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "0.000000000",
+            "y": "36.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "34.000000000",
+            "y": "19.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "0.000000000",
+            "y": "19.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "38.000000000",
+            "y": "0.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "0.000000000",
+            "y": "0.000000000"
+          }
+        ],
+        "side": "74.000000000"
+      }
+    },
+    {
+      "instanceId": "p95-n20-v1",
+      "name": "n = 20",
+      "parameters": {
+        "n": 20
+      },
+      "objective": "minimize",
+      "scoreStored": "78000000000",
+      "scoreDisplay": "78",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "76",
+        "kind": "best",
+        "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Maurizio Morandi (2014). The table calls every row probably optimal except possibly this one. The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
+        "url": "https://erich-friedman.github.io/packing/domino/"
+      },
+      "holder": "今天",
+      "method": "human",
+      "recordedAt": "2026-10-25T06:14:41.429Z",
+      "answer": {
+        "dominoes": [
+          {
+            "rotated": false,
+            "x": "32.584422847",
+            "y": "38.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "36.000000000",
+            "y": "37.000000000"
+          },
+          {
+            "rotated": true,
+            "x": "70.000000000",
+            "y": "24.791820332"
+          },
+          {
+            "rotated": false,
+            "x": "62.000000000",
+            "y": "37.000000000"
+          },
+          {
+            "rotated": false,
+            "turn": "1.000000000",
+            "x": "75.000000000",
+            "y": "31.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "62.000000000",
+            "y": "41.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "62.000000000",
+            "y": "47.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "0.000000000",
+            "y": "68.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "36.000000000",
+            "y": "68.267693262"
+          },
+          {
+            "rotated": false,
+            "x": "16.000000000",
+            "y": "68.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "54.000000000",
+            "y": "66.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "54.000000000",
+            "y": "54.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "28.000000000",
+            "y": "54.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "0.000000000",
+            "y": "54.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "32.000000000",
+            "y": "39.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "0.000000000",
+            "y": "38.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "36.000000000",
+            "y": "20.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "0.000000000",
+            "y": "20.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "40.000000000",
+            "y": "0.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "0.000000000",
+            "y": "0.000000000"
+          }
+        ],
+        "side": "78.000000000"
+      }
+    },
+    {
+      "instanceId": "p95-n21-v1",
+      "name": "n = 21",
+      "parameters": {
+        "n": 21
+      },
+      "objective": "minimize",
+      "scoreStored": "84000000000",
+      "scoreDisplay": "84",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "82",
+        "kind": "best",
+        "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Erich Friedman (2014). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
+        "url": "https://erich-friedman.github.io/packing/domino/"
+      },
+      "holder": "今天",
+      "method": "human",
+      "recordedAt": "2026-10-25T06:17:03.188Z",
+      "answer": {
+        "dominoes": [
+          {
+            "rotated": false,
+            "x": "34.000000000",
+            "y": "56.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "30.000000000",
+            "y": "71.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "46.000000000",
+            "y": "71.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "74.000000000",
+            "y": "38.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "66.000000000",
+            "y": "70.000000000"
+          },
+          {
+            "rotated": false,
+            "turn": "1.000000000",
+            "x": "80.650088455",
+            "y": "25.480571386"
+          },
+          {
+            "rotated": false,
+            "x": "66.000000000",
+            "y": "42.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "66.000000000",
+            "y": "49.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "66.000000000",
+            "y": "75.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "46.000000000",
+            "y": "74.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "24.000000000",
+            "y": "73.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "0.000000000",
+            "y": "72.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "58.000000000",
+            "y": "57.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "30.000000000",
+            "y": "57.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "0.000000000",
+            "y": "57.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "34.000000000",
+            "y": "40.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "0.000000000",
+            "y": "40.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "38.000000000",
+            "y": "21.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "0.000000000",
+            "y": "21.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "42.000000000",
+            "y": "0.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "0.000000000",
+            "y": "0.000000000"
+          }
+        ],
+        "side": "84.000000000"
+      }
+    },
+    {
+      "instanceId": "p95-n22-v1",
+      "name": "n = 22",
+      "parameters": {
+        "n": 22
+      },
+      "objective": "minimize",
+      "scoreStored": "98000000000",
+      "scoreDisplay": "98",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "88",
+        "kind": "best",
+        "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Erich Friedman (2014). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
+        "url": "https://erich-friedman.github.io/packing/domino/"
+      },
+      "holder": "今天",
+      "method": "human",
+      "recordedAt": "2026-10-25T06:17:28.746Z",
+      "answer": {
+        "dominoes": [
+          {
+            "rotated": false,
+            "x": "88.000000000",
+            "y": "89.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "84.000000000",
+            "y": "89.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "78.000000000",
+            "y": "89.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "70.000000000",
+            "y": "89.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "60.000000000",
+            "y": "89.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "48.000000000",
+            "y": "89.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "34.000000000",
+            "y": "89.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "18.000000000",
+            "y": "89.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "0.000000000",
+            "y": "89.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "72.000000000",
+            "y": "76.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "50.000000000",
+            "y": "76.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "26.000000000",
+            "y": "76.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "0.000000000",
+            "y": "76.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "62.000000000",
+            "y": "60.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "32.000000000",
+            "y": "60.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "0.000000000",
+            "y": "60.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "36.000000000",
+            "y": "42.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "0.000000000",
+            "y": "42.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "40.000000000",
+            "y": "22.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "0.000000000",
+            "y": "22.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "44.000000000",
+            "y": "0.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "0.000000000",
+            "y": "0.000000000"
+          }
+        ],
+        "side": "98.000000000"
+      }
+    },
+    {
+      "instanceId": "p95-n23-v1",
+      "name": "n = 23",
+      "parameters": {
+        "n": 23
+      },
+      "objective": "minimize",
+      "scoreStored": "100000000000",
+      "scoreDisplay": "100",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "94",
+        "kind": "best",
+        "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Erich Friedman (2014). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
+        "url": "https://erich-friedman.github.io/packing/domino/"
+      },
+      "holder": "今天",
+      "method": "human",
+      "recordedAt": "2026-10-25T06:21:39.773Z",
+      "answer": {
+        "dominoes": [
+          {
+            "rotated": false,
+            "x": "34.000000000",
+            "y": "79.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "86.000000000",
+            "y": "43.000000000"
+          },
+          {
+            "rotated": false,
+            "turn": "1.000000000",
+            "x": "77.000000000",
+            "y": "57.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "90.000000000",
+            "y": "91.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "80.000000000",
+            "y": "91.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "68.000000000",
+            "y": "91.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "54.000000000",
+            "y": "91.000000000"
+          },
+          {
+            "rotated": false,
+            "turn": "1.000000000",
+            "x": "94.000000000",
+            "y": "47.000000000"
+          },
+          {
+            "rotated": false,
+            "turn": "1.000000000",
+            "x": "86.000000000",
+            "y": "45.000000000"
+          },
+          {
+            "rotated": false,
+            "turn": "1.000000000",
+            "x": "92.000000000",
+            "y": "22.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "78.000000000",
+            "y": "80.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "54.000000000",
+            "y": "79.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "28.000000000",
+            "y": "80.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "0.000000000",
+            "y": "80.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "66.000000000",
+            "y": "63.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "34.000000000",
+            "y": "63.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "0.000000000",
+            "y": "63.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "38.000000000",
+            "y": "44.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "0.000000000",
+            "y": "44.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "42.000000000",
+            "y": "23.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "0.000000000",
+            "y": "23.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "46.000000000",
+            "y": "0.000000000"
+          },
+          {
+            "rotated": false,
+            "x": "0.000000000",
+            "y": "0.000000000"
+          }
+        ],
+        "side": "100.000000000"
+      }
+    },
+    {
+      "instanceId": "p95-n24-v1",
+      "name": "n = 24",
+      "parameters": {
+        "n": 24
+      },
+      "objective": "minimize",
+      "scoreStored": "115000000000",
+      "scoreDisplay": "115",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "100",
+        "kind": "best",
+        "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Erich Friedman (2014). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
+        "url": "https://erich-friedman.github.io/packing/domino/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "answer": {
+        "dominoes": [
+          {
+            "rotated": false,
+            "x": "108",
+            "y": "97"
+          },
+          {
+            "rotated": false,
+            "x": "104",
+            "y": "97"
+          },
+          {
+            "rotated": false,
+            "x": "98",
+            "y": "97"
+          },
+          {
+            "rotated": false,
+            "x": "90",
+            "y": "97"
+          },
+          {
+            "rotated": false,
+            "x": "80",
+            "y": "97"
+          },
+          {
+            "rotated": false,
+            "x": "68",
+            "y": "97"
+          },
+          {
+            "rotated": false,
+            "x": "54",
+            "y": "97"
+          },
+          {
+            "rotated": false,
+            "x": "38",
+            "y": "97"
+          },
+          {
+            "rotated": false,
+            "x": "20",
+            "y": "97"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "97"
+          },
+          {
+            "rotated": false,
+            "x": "78",
+            "y": "83"
+          },
+          {
+            "rotated": false,
+            "x": "54",
+            "y": "83"
+          },
+          {
+            "rotated": false,
+            "x": "28",
+            "y": "83"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "83"
+          },
+          {
+            "rotated": false,
+            "x": "66",
+            "y": "66"
+          },
+          {
+            "rotated": false,
+            "x": "34",
+            "y": "66"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "66"
+          },
+          {
+            "rotated": false,
+            "x": "78",
+            "y": "46"
+          },
+          {
+            "rotated": false,
+            "x": "40",
+            "y": "46"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "46"
+          },
+          {
+            "rotated": false,
+            "x": "44",
+            "y": "24"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "24"
+          },
+          {
+            "rotated": false,
+            "x": "48",
+            "y": "0"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "0"
+          }
+        ],
+        "side": "115"
+      }
+    },
+    {
+      "instanceId": "p95-n25-v1",
+      "name": "n = 25",
+      "parameters": {
+        "n": 25
+      },
+      "objective": "minimize",
+      "scoreStored": "121000000000",
+      "scoreDisplay": "121",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "106",
+        "kind": "best",
+        "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by M. Sun and N. Sun (June 2026). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
+        "url": "https://erich-friedman.github.io/packing/domino/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "answer": {
+        "dominoes": [
+          {
+            "rotated": false,
+            "x": "10",
+            "y": "113"
+          },
+          {
+            "rotated": false,
+            "x": "6",
+            "y": "113"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "113"
+          },
+          {
+            "rotated": false,
+            "x": "112",
+            "y": "102"
+          },
+          {
+            "rotated": false,
+            "x": "102",
+            "y": "102"
+          },
+          {
+            "rotated": false,
+            "x": "90",
+            "y": "102"
+          },
+          {
+            "rotated": false,
+            "x": "76",
+            "y": "102"
+          },
+          {
+            "rotated": false,
+            "x": "60",
+            "y": "102"
+          },
+          {
+            "rotated": false,
+            "x": "42",
+            "y": "102"
+          },
+          {
+            "rotated": false,
+            "x": "22",
+            "y": "102"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "102"
+          },
+          {
+            "rotated": false,
+            "x": "84",
+            "y": "87"
+          },
+          {
+            "rotated": false,
+            "x": "58",
+            "y": "87"
+          },
+          {
+            "rotated": false,
+            "x": "30",
+            "y": "87"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "87"
+          },
+          {
+            "rotated": false,
+            "x": "70",
+            "y": "69"
+          },
+          {
+            "rotated": false,
+            "x": "36",
+            "y": "69"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "69"
+          },
+          {
+            "rotated": false,
+            "x": "82",
+            "y": "48"
+          },
+          {
+            "rotated": false,
+            "x": "42",
+            "y": "48"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "48"
+          },
+          {
+            "rotated": false,
+            "x": "46",
+            "y": "25"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "25"
+          },
+          {
+            "rotated": false,
+            "x": "50",
+            "y": "0"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "0"
+          }
+        ],
+        "side": "121"
+      }
+    },
+    {
+      "instanceId": "p95-n26-v1",
+      "name": "n = 26",
+      "parameters": {
+        "n": 26
+      },
+      "objective": "minimize",
+      "scoreStored": "127000000000",
+      "scoreDisplay": "127",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "112",
+        "kind": "best",
+        "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Ryan Chi and d/dx (September 2026). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
+        "url": "https://erich-friedman.github.io/packing/domino/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "answer": {
+        "dominoes": [
+          {
+            "rotated": false,
+            "x": "28",
+            "y": "119"
+          },
+          {
+            "rotated": false,
+            "x": "24",
+            "y": "119"
+          },
+          {
+            "rotated": false,
+            "x": "18",
+            "y": "119"
+          },
+          {
+            "rotated": false,
+            "x": "10",
+            "y": "119"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "119"
+          },
+          {
+            "rotated": false,
+            "x": "114",
+            "y": "107"
+          },
+          {
+            "rotated": false,
+            "x": "100",
+            "y": "107"
+          },
+          {
+            "rotated": false,
+            "x": "84",
+            "y": "107"
+          },
+          {
+            "rotated": false,
+            "x": "66",
+            "y": "107"
+          },
+          {
+            "rotated": false,
+            "x": "46",
+            "y": "107"
+          },
+          {
+            "rotated": false,
+            "x": "24",
+            "y": "107"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "107"
+          },
+          {
+            "rotated": false,
+            "x": "90",
+            "y": "91"
+          },
+          {
+            "rotated": false,
+            "x": "62",
+            "y": "91"
+          },
+          {
+            "rotated": false,
+            "x": "32",
+            "y": "91"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "91"
+          },
+          {
+            "rotated": false,
+            "x": "74",
+            "y": "72"
+          },
+          {
+            "rotated": false,
+            "x": "38",
+            "y": "72"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "72"
+          },
+          {
+            "rotated": false,
+            "x": "86",
+            "y": "50"
+          },
+          {
+            "rotated": false,
+            "x": "44",
+            "y": "50"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "50"
+          },
+          {
+            "rotated": false,
+            "x": "48",
+            "y": "26"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "26"
+          },
+          {
+            "rotated": false,
+            "x": "52",
+            "y": "0"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "0"
+          }
+        ],
+        "side": "127"
+      }
+    },
+    {
+      "instanceId": "p95-n27-v1",
+      "name": "n = 27",
+      "parameters": {
+        "n": 27
+      },
+      "objective": "minimize",
+      "scoreStored": "133000000000",
+      "scoreDisplay": "133",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "119",
+        "kind": "best",
+        "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Matthew Sun (June 2026). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
+        "url": "https://erich-friedman.github.io/packing/domino/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "answer": {
+        "dominoes": [
+          {
+            "rotated": false,
+            "x": "54",
+            "y": "125"
+          },
+          {
+            "rotated": false,
+            "x": "50",
+            "y": "125"
+          },
+          {
+            "rotated": false,
+            "x": "44",
+            "y": "125"
+          },
+          {
+            "rotated": false,
+            "x": "36",
+            "y": "125"
+          },
+          {
+            "rotated": false,
+            "x": "26",
+            "y": "125"
+          },
+          {
+            "rotated": false,
+            "x": "14",
+            "y": "125"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "125"
+          },
+          {
+            "rotated": false,
+            "x": "110",
+            "y": "112"
+          },
+          {
+            "rotated": false,
+            "x": "92",
+            "y": "112"
+          },
+          {
+            "rotated": false,
+            "x": "72",
+            "y": "112"
+          },
+          {
+            "rotated": false,
+            "x": "50",
+            "y": "112"
+          },
+          {
+            "rotated": false,
+            "x": "26",
+            "y": "112"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "112"
+          },
+          {
+            "rotated": false,
+            "x": "96",
+            "y": "95"
+          },
+          {
+            "rotated": false,
+            "x": "66",
+            "y": "95"
+          },
+          {
+            "rotated": false,
+            "x": "34",
+            "y": "95"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "95"
+          },
+          {
+            "rotated": false,
+            "x": "78",
+            "y": "75"
+          },
+          {
+            "rotated": false,
+            "x": "40",
+            "y": "75"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "75"
+          },
+          {
+            "rotated": false,
+            "x": "90",
+            "y": "52"
+          },
+          {
+            "rotated": false,
+            "x": "46",
+            "y": "52"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "52"
+          },
+          {
+            "rotated": false,
+            "x": "50",
+            "y": "27"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "27"
+          },
+          {
+            "rotated": false,
+            "x": "54",
+            "y": "0"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "0"
+          }
+        ],
+        "side": "133"
+      }
+    },
+    {
+      "instanceId": "p95-n28-v1",
+      "name": "n = 28",
+      "parameters": {
+        "n": 28
+      },
+      "objective": "minimize",
+      "scoreStored": "140000000000",
+      "scoreDisplay": "140",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "126",
+        "kind": "best",
+        "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Matthew Sun (June 2026). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
+        "url": "https://erich-friedman.github.io/packing/domino/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "answer": {
+        "dominoes": [
+          {
+            "rotated": false,
+            "x": "70",
+            "y": "131"
+          },
+          {
+            "rotated": false,
+            "x": "66",
+            "y": "131"
+          },
+          {
+            "rotated": false,
+            "x": "60",
+            "y": "131"
+          },
+          {
+            "rotated": false,
+            "x": "52",
+            "y": "131"
+          },
+          {
+            "rotated": false,
+            "x": "42",
+            "y": "131"
+          },
+          {
+            "rotated": false,
+            "x": "30",
+            "y": "131"
+          },
+          {
+            "rotated": false,
+            "x": "16",
+            "y": "131"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "131"
+          },
+          {
+            "rotated": false,
+            "x": "120",
+            "y": "117"
+          },
+          {
+            "rotated": false,
+            "x": "100",
+            "y": "117"
+          },
+          {
+            "rotated": false,
+            "x": "78",
+            "y": "117"
+          },
+          {
+            "rotated": false,
+            "x": "54",
+            "y": "117"
+          },
+          {
+            "rotated": false,
+            "x": "28",
+            "y": "117"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "117"
+          },
+          {
+            "rotated": false,
+            "x": "102",
+            "y": "99"
+          },
+          {
+            "rotated": false,
+            "x": "70",
+            "y": "99"
+          },
+          {
+            "rotated": false,
+            "x": "36",
+            "y": "99"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "99"
+          },
+          {
+            "rotated": false,
+            "x": "82",
+            "y": "78"
+          },
+          {
+            "rotated": false,
+            "x": "42",
+            "y": "78"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "78"
+          },
+          {
+            "rotated": false,
+            "x": "94",
+            "y": "54"
+          },
+          {
+            "rotated": false,
+            "x": "48",
+            "y": "54"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "54"
+          },
+          {
+            "rotated": false,
+            "x": "52",
+            "y": "28"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "28"
+          },
+          {
+            "rotated": false,
+            "x": "56",
+            "y": "0"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "0"
+          }
+        ],
+        "side": "140"
+      }
+    },
+    {
+      "instanceId": "p95-n29-v1",
+      "name": "n = 29",
+      "parameters": {
+        "n": 29
+      },
+      "objective": "minimize",
+      "scoreStored": "148000000000",
+      "scoreDisplay": "148",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "132",
+        "kind": "best",
+        "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Matthew Sun (June 2026). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
+        "url": "https://erich-friedman.github.io/packing/domino/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "answer": {
+        "dominoes": [
+          {
+            "rotated": false,
+            "x": "108",
+            "y": "137"
+          },
+          {
+            "rotated": false,
+            "x": "104",
+            "y": "137"
+          },
+          {
+            "rotated": false,
+            "x": "98",
+            "y": "137"
+          },
+          {
+            "rotated": false,
+            "x": "90",
+            "y": "137"
+          },
+          {
+            "rotated": false,
+            "x": "80",
+            "y": "137"
+          },
+          {
+            "rotated": false,
+            "x": "68",
+            "y": "137"
+          },
+          {
+            "rotated": false,
+            "x": "54",
+            "y": "137"
+          },
+          {
+            "rotated": false,
+            "x": "38",
+            "y": "137"
+          },
+          {
+            "rotated": false,
+            "x": "20",
+            "y": "137"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "137"
+          },
+          {
+            "rotated": false,
+            "x": "108",
+            "y": "122"
+          },
+          {
+            "rotated": false,
+            "x": "84",
+            "y": "122"
+          },
+          {
+            "rotated": false,
+            "x": "58",
+            "y": "122"
+          },
+          {
+            "rotated": false,
+            "x": "30",
+            "y": "122"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "122"
+          },
+          {
+            "rotated": false,
+            "x": "108",
+            "y": "103"
+          },
+          {
+            "rotated": false,
+            "x": "74",
+            "y": "103"
+          },
+          {
+            "rotated": false,
+            "x": "38",
+            "y": "103"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "103"
+          },
+          {
+            "rotated": false,
+            "x": "86",
+            "y": "81"
+          },
+          {
+            "rotated": false,
+            "x": "44",
+            "y": "81"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "81"
+          },
+          {
+            "rotated": false,
+            "x": "98",
+            "y": "56"
+          },
+          {
+            "rotated": false,
+            "x": "50",
+            "y": "56"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "56"
+          },
+          {
+            "rotated": false,
+            "x": "54",
+            "y": "29"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "29"
+          },
+          {
+            "rotated": false,
+            "x": "58",
+            "y": "0"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "0"
+          }
+        ],
+        "side": "148"
+      }
+    },
+    {
+      "instanceId": "p95-n30-v1",
+      "name": "n = 30",
+      "parameters": {
+        "n": 30
+      },
+      "objective": "minimize",
+      "scoreStored": "155000000000",
+      "scoreDisplay": "155",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "139",
+        "kind": "best",
+        "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Matthew Sun (June 2026). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
+        "url": "https://erich-friedman.github.io/packing/domino/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "answer": {
+        "dominoes": [
+          {
+            "rotated": false,
+            "x": "130",
+            "y": "143"
+          },
+          {
+            "rotated": false,
+            "x": "126",
+            "y": "143"
+          },
+          {
+            "rotated": false,
+            "x": "120",
+            "y": "143"
+          },
+          {
+            "rotated": false,
+            "x": "112",
+            "y": "143"
+          },
+          {
+            "rotated": false,
+            "x": "102",
+            "y": "143"
+          },
+          {
+            "rotated": false,
+            "x": "90",
+            "y": "143"
+          },
+          {
+            "rotated": false,
+            "x": "76",
+            "y": "143"
+          },
+          {
+            "rotated": false,
+            "x": "60",
+            "y": "143"
+          },
+          {
+            "rotated": false,
+            "x": "42",
+            "y": "143"
+          },
+          {
+            "rotated": false,
+            "x": "22",
+            "y": "143"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "143"
+          },
+          {
+            "rotated": false,
+            "x": "116",
+            "y": "127"
+          },
+          {
+            "rotated": false,
+            "x": "90",
+            "y": "127"
+          },
+          {
+            "rotated": false,
+            "x": "62",
+            "y": "127"
+          },
+          {
+            "rotated": false,
+            "x": "32",
+            "y": "127"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "127"
+          },
+          {
+            "rotated": false,
+            "x": "114",
+            "y": "107"
+          },
+          {
+            "rotated": false,
+            "x": "78",
+            "y": "107"
+          },
+          {
+            "rotated": false,
+            "x": "40",
+            "y": "107"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "107"
+          },
+          {
+            "rotated": false,
+            "x": "90",
+            "y": "84"
+          },
+          {
+            "rotated": false,
+            "x": "46",
+            "y": "84"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "84"
+          },
+          {
+            "rotated": false,
+            "x": "102",
+            "y": "58"
+          },
+          {
+            "rotated": false,
+            "x": "52",
+            "y": "58"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "58"
+          },
+          {
+            "rotated": false,
+            "x": "56",
+            "y": "30"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "30"
+          },
+          {
+            "rotated": false,
+            "x": "60",
+            "y": "0"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "0"
+          }
+        ],
+        "side": "155"
+      }
+    },
+    {
+      "instanceId": "p95-n31-v1",
+      "name": "n = 31",
+      "parameters": {
+        "n": 31
+      },
+      "objective": "minimize",
+      "scoreStored": "162000000000",
+      "scoreDisplay": "162",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "146",
+        "kind": "best",
+        "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Matthew Sun (June 2026). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
+        "url": "https://erich-friedman.github.io/packing/domino/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "answer": {
+        "dominoes": [
+          {
+            "rotated": false,
+            "x": "154",
+            "y": "149"
+          },
+          {
+            "rotated": false,
+            "x": "150",
+            "y": "149"
+          },
+          {
+            "rotated": false,
+            "x": "144",
+            "y": "149"
+          },
+          {
+            "rotated": false,
+            "x": "136",
+            "y": "149"
+          },
+          {
+            "rotated": false,
+            "x": "126",
+            "y": "149"
+          },
+          {
+            "rotated": false,
+            "x": "114",
+            "y": "149"
+          },
+          {
+            "rotated": false,
+            "x": "100",
+            "y": "149"
+          },
+          {
+            "rotated": false,
+            "x": "84",
+            "y": "149"
+          },
+          {
+            "rotated": false,
+            "x": "66",
+            "y": "149"
+          },
+          {
+            "rotated": false,
+            "x": "46",
+            "y": "149"
+          },
+          {
+            "rotated": false,
+            "x": "24",
+            "y": "149"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "149"
+          },
+          {
+            "rotated": false,
+            "x": "124",
+            "y": "132"
+          },
+          {
+            "rotated": false,
+            "x": "96",
+            "y": "132"
+          },
+          {
+            "rotated": false,
+            "x": "66",
+            "y": "132"
+          },
+          {
+            "rotated": false,
+            "x": "34",
+            "y": "132"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "132"
+          },
+          {
+            "rotated": false,
+            "x": "120",
+            "y": "111"
+          },
+          {
+            "rotated": false,
+            "x": "82",
+            "y": "111"
+          },
+          {
+            "rotated": false,
+            "x": "42",
+            "y": "111"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "111"
+          },
+          {
+            "rotated": false,
+            "x": "94",
+            "y": "87"
+          },
+          {
+            "rotated": false,
+            "x": "48",
+            "y": "87"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "87"
+          },
+          {
+            "rotated": false,
+            "x": "106",
+            "y": "60"
+          },
+          {
+            "rotated": false,
+            "x": "54",
+            "y": "60"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "60"
+          },
+          {
+            "rotated": false,
+            "x": "58",
+            "y": "31"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "31"
+          },
+          {
+            "rotated": false,
+            "x": "62",
+            "y": "0"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "0"
+          }
+        ],
+        "side": "162"
+      }
+    },
+    {
+      "instanceId": "p95-n32-v1",
+      "name": "n = 32",
+      "parameters": {
+        "n": 32
+      },
+      "objective": "minimize",
+      "scoreStored": "172000000000",
+      "scoreDisplay": "172",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "153",
+        "kind": "best",
+        "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Matthew Sun (June 2026). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
+        "url": "https://erich-friedman.github.io/packing/domino/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "answer": {
+        "dominoes": [
+          {
+            "rotated": false,
+            "x": "10",
+            "y": "168"
+          },
+          {
+            "rotated": false,
+            "x": "6",
+            "y": "168"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "168"
+          },
+          {
+            "rotated": false,
+            "x": "162",
+            "y": "155"
+          },
+          {
+            "rotated": false,
+            "x": "152",
+            "y": "155"
+          },
+          {
+            "rotated": false,
+            "x": "140",
+            "y": "155"
+          },
+          {
+            "rotated": false,
+            "x": "126",
+            "y": "155"
+          },
+          {
+            "rotated": false,
+            "x": "110",
+            "y": "155"
+          },
+          {
+            "rotated": false,
+            "x": "92",
+            "y": "155"
+          },
+          {
+            "rotated": false,
+            "x": "72",
+            "y": "155"
+          },
+          {
+            "rotated": false,
+            "x": "50",
+            "y": "155"
+          },
+          {
+            "rotated": false,
+            "x": "26",
+            "y": "155"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "155"
+          },
+          {
+            "rotated": false,
+            "x": "132",
+            "y": "137"
+          },
+          {
+            "rotated": false,
+            "x": "102",
+            "y": "137"
+          },
+          {
+            "rotated": false,
+            "x": "70",
+            "y": "137"
+          },
+          {
+            "rotated": false,
+            "x": "36",
+            "y": "137"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "137"
+          },
+          {
+            "rotated": false,
+            "x": "126",
+            "y": "115"
+          },
+          {
+            "rotated": false,
+            "x": "86",
+            "y": "115"
+          },
+          {
+            "rotated": false,
+            "x": "44",
+            "y": "115"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "115"
+          },
+          {
+            "rotated": false,
+            "x": "98",
+            "y": "90"
+          },
+          {
+            "rotated": false,
+            "x": "50",
+            "y": "90"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "90"
+          },
+          {
+            "rotated": false,
+            "x": "110",
+            "y": "62"
+          },
+          {
+            "rotated": false,
+            "x": "56",
+            "y": "62"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "62"
+          },
+          {
+            "rotated": false,
+            "x": "60",
+            "y": "32"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "32"
+          },
+          {
+            "rotated": false,
+            "x": "64",
+            "y": "0"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "0"
+          }
+        ],
+        "side": "172"
+      }
+    },
+    {
+      "instanceId": "p95-n33-v1",
+      "name": "n = 33",
+      "parameters": {
+        "n": 33
+      },
+      "objective": "minimize",
+      "scoreStored": "181000000000",
+      "scoreDisplay": "181",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "160",
+        "kind": "best",
+        "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Matthew Sun (June 2026). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
+        "url": "https://erich-friedman.github.io/packing/domino/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "answer": {
+        "dominoes": [
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "170"
+          },
+          {
+            "rotated": false,
+            "x": "176",
+            "y": "157"
+          },
+          {
+            "rotated": false,
+            "x": "170",
+            "y": "157"
+          },
+          {
+            "rotated": false,
+            "x": "162",
+            "y": "157"
+          },
+          {
+            "rotated": false,
+            "x": "152",
+            "y": "157"
+          },
+          {
+            "rotated": false,
+            "x": "140",
+            "y": "157"
+          },
+          {
+            "rotated": false,
+            "x": "126",
+            "y": "157"
+          },
+          {
+            "rotated": false,
+            "x": "110",
+            "y": "157"
+          },
+          {
+            "rotated": false,
+            "x": "92",
+            "y": "157"
+          },
+          {
+            "rotated": false,
+            "x": "72",
+            "y": "157"
+          },
+          {
+            "rotated": false,
+            "x": "50",
+            "y": "157"
+          },
+          {
+            "rotated": false,
+            "x": "26",
+            "y": "157"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "157"
+          },
+          {
+            "rotated": false,
+            "x": "132",
+            "y": "139"
+          },
+          {
+            "rotated": false,
+            "x": "102",
+            "y": "139"
+          },
+          {
+            "rotated": false,
+            "x": "70",
+            "y": "139"
+          },
+          {
+            "rotated": false,
+            "x": "36",
+            "y": "139"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "139"
+          },
+          {
+            "rotated": false,
+            "x": "126",
+            "y": "117"
+          },
+          {
+            "rotated": false,
+            "x": "86",
+            "y": "117"
+          },
+          {
+            "rotated": false,
+            "x": "44",
+            "y": "117"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "117"
+          },
+          {
+            "rotated": false,
+            "x": "98",
+            "y": "92"
+          },
+          {
+            "rotated": false,
+            "x": "50",
+            "y": "92"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "92"
+          },
+          {
+            "rotated": false,
+            "x": "110",
+            "y": "64"
+          },
+          {
+            "rotated": false,
+            "x": "56",
+            "y": "64"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "64"
+          },
+          {
+            "rotated": false,
+            "x": "122",
+            "y": "33"
+          },
+          {
+            "rotated": false,
+            "x": "62",
+            "y": "33"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "33"
+          },
+          {
+            "rotated": false,
+            "x": "66",
+            "y": "0"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "0"
+          }
+        ],
+        "side": "181"
+      }
+    },
+    {
+      "instanceId": "p95-n34-v1",
+      "name": "n = 34",
+      "parameters": {
+        "n": 34
+      },
+      "objective": "minimize",
+      "scoreStored": "187000000000",
+      "scoreDisplay": "187",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "167",
+        "kind": "best",
+        "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Matthew Sun (June 2026). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
+        "url": "https://erich-friedman.github.io/packing/domino/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "answer": {
+        "dominoes": [
+          {
+            "rotated": false,
+            "x": "28",
+            "y": "177"
+          },
+          {
+            "rotated": false,
+            "x": "24",
+            "y": "177"
+          },
+          {
+            "rotated": false,
+            "x": "18",
+            "y": "177"
+          },
+          {
+            "rotated": false,
+            "x": "10",
+            "y": "177"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "177"
+          },
+          {
+            "rotated": false,
+            "x": "168",
+            "y": "163"
+          },
+          {
+            "rotated": false,
+            "x": "154",
+            "y": "163"
+          },
+          {
+            "rotated": false,
+            "x": "138",
+            "y": "163"
+          },
+          {
+            "rotated": false,
+            "x": "120",
+            "y": "163"
+          },
+          {
+            "rotated": false,
+            "x": "100",
+            "y": "163"
+          },
+          {
+            "rotated": false,
+            "x": "78",
+            "y": "163"
+          },
+          {
+            "rotated": false,
+            "x": "54",
+            "y": "163"
+          },
+          {
+            "rotated": false,
+            "x": "28",
+            "y": "163"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "163"
+          },
+          {
+            "rotated": false,
+            "x": "140",
+            "y": "144"
+          },
+          {
+            "rotated": false,
+            "x": "108",
+            "y": "144"
+          },
+          {
+            "rotated": false,
+            "x": "74",
+            "y": "144"
+          },
+          {
+            "rotated": false,
+            "x": "38",
+            "y": "144"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "144"
+          },
+          {
+            "rotated": false,
+            "x": "132",
+            "y": "121"
+          },
+          {
+            "rotated": false,
+            "x": "90",
+            "y": "121"
+          },
+          {
+            "rotated": false,
+            "x": "46",
+            "y": "121"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "121"
+          },
+          {
+            "rotated": false,
+            "x": "102",
+            "y": "95"
+          },
+          {
+            "rotated": false,
+            "x": "52",
+            "y": "95"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "95"
+          },
+          {
+            "rotated": false,
+            "x": "114",
+            "y": "66"
+          },
+          {
+            "rotated": false,
+            "x": "58",
+            "y": "66"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "66"
+          },
+          {
+            "rotated": false,
+            "x": "126",
+            "y": "34"
+          },
+          {
+            "rotated": false,
+            "x": "64",
+            "y": "34"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "34"
+          },
+          {
+            "rotated": false,
+            "x": "68",
+            "y": "0"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "0"
+          }
+        ],
+        "side": "187"
+      }
+    },
+    {
+      "instanceId": "p95-n35-v1",
+      "name": "n = 35",
+      "parameters": {
+        "n": 35
+      },
+      "objective": "minimize",
+      "scoreStored": "193000000000",
+      "scoreDisplay": "193",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "174",
+        "kind": "best",
+        "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Matthew Sun (June 2026). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
+        "url": "https://erich-friedman.github.io/packing/domino/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "answer": {
+        "dominoes": [
+          {
+            "rotated": false,
+            "x": "54",
+            "y": "184"
+          },
+          {
+            "rotated": false,
+            "x": "50",
+            "y": "184"
+          },
+          {
+            "rotated": false,
+            "x": "44",
+            "y": "184"
+          },
+          {
+            "rotated": false,
+            "x": "36",
+            "y": "184"
+          },
+          {
+            "rotated": false,
+            "x": "26",
+            "y": "184"
+          },
+          {
+            "rotated": false,
+            "x": "14",
+            "y": "184"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "184"
+          },
+          {
+            "rotated": false,
+            "x": "168",
+            "y": "169"
+          },
+          {
+            "rotated": false,
+            "x": "150",
+            "y": "169"
+          },
+          {
+            "rotated": false,
+            "x": "130",
+            "y": "169"
+          },
+          {
+            "rotated": false,
+            "x": "108",
+            "y": "169"
+          },
+          {
+            "rotated": false,
+            "x": "84",
+            "y": "169"
+          },
+          {
+            "rotated": false,
+            "x": "58",
+            "y": "169"
+          },
+          {
+            "rotated": false,
+            "x": "30",
+            "y": "169"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "169"
+          },
+          {
+            "rotated": false,
+            "x": "148",
+            "y": "149"
+          },
+          {
+            "rotated": false,
+            "x": "114",
+            "y": "149"
+          },
+          {
+            "rotated": false,
+            "x": "78",
+            "y": "149"
+          },
+          {
+            "rotated": false,
+            "x": "40",
+            "y": "149"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "149"
+          },
+          {
+            "rotated": false,
+            "x": "138",
+            "y": "125"
+          },
+          {
+            "rotated": false,
+            "x": "94",
+            "y": "125"
+          },
+          {
+            "rotated": false,
+            "x": "48",
+            "y": "125"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "125"
+          },
+          {
+            "rotated": false,
+            "x": "106",
+            "y": "98"
+          },
+          {
+            "rotated": false,
+            "x": "54",
+            "y": "98"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "98"
+          },
+          {
+            "rotated": false,
+            "x": "118",
+            "y": "68"
+          },
+          {
+            "rotated": false,
+            "x": "60",
+            "y": "68"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "68"
+          },
+          {
+            "rotated": false,
+            "x": "130",
+            "y": "35"
+          },
+          {
+            "rotated": false,
+            "x": "66",
+            "y": "35"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "35"
+          },
+          {
+            "rotated": false,
+            "x": "70",
+            "y": "0"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "0"
+          }
+        ],
+        "side": "193"
+      }
+    },
+    {
+      "instanceId": "p95-n36-v1",
+      "name": "n = 36",
+      "parameters": {
+        "n": 36
+      },
+      "objective": "minimize",
+      "scoreStored": "201000000000",
+      "scoreDisplay": "201",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "182",
+        "kind": "best",
+        "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Matthew Sun (June 2026). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
+        "url": "https://erich-friedman.github.io/packing/domino/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "answer": {
+        "dominoes": [
+          {
+            "rotated": false,
+            "x": "70",
+            "y": "191"
+          },
+          {
+            "rotated": false,
+            "x": "66",
+            "y": "191"
+          },
+          {
+            "rotated": false,
+            "x": "60",
+            "y": "191"
+          },
+          {
+            "rotated": false,
+            "x": "52",
+            "y": "191"
+          },
+          {
+            "rotated": false,
+            "x": "42",
+            "y": "191"
+          },
+          {
+            "rotated": false,
+            "x": "30",
+            "y": "191"
+          },
+          {
+            "rotated": false,
+            "x": "16",
+            "y": "191"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "191"
+          },
+          {
+            "rotated": false,
+            "x": "182",
+            "y": "175"
+          },
+          {
+            "rotated": false,
+            "x": "162",
+            "y": "175"
+          },
+          {
+            "rotated": false,
+            "x": "140",
+            "y": "175"
+          },
+          {
+            "rotated": false,
+            "x": "116",
+            "y": "175"
+          },
+          {
+            "rotated": false,
+            "x": "90",
+            "y": "175"
+          },
+          {
+            "rotated": false,
+            "x": "62",
+            "y": "175"
+          },
+          {
+            "rotated": false,
+            "x": "32",
+            "y": "175"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "175"
+          },
+          {
+            "rotated": false,
+            "x": "156",
+            "y": "154"
+          },
+          {
+            "rotated": false,
+            "x": "120",
+            "y": "154"
+          },
+          {
+            "rotated": false,
+            "x": "82",
+            "y": "154"
+          },
+          {
+            "rotated": false,
+            "x": "42",
+            "y": "154"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "154"
+          },
+          {
+            "rotated": false,
+            "x": "144",
+            "y": "129"
+          },
+          {
+            "rotated": false,
+            "x": "98",
+            "y": "129"
+          },
+          {
+            "rotated": false,
+            "x": "50",
+            "y": "129"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "129"
+          },
+          {
+            "rotated": false,
+            "x": "110",
+            "y": "101"
+          },
+          {
+            "rotated": false,
+            "x": "56",
+            "y": "101"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "101"
+          },
+          {
+            "rotated": false,
+            "x": "122",
+            "y": "70"
+          },
+          {
+            "rotated": false,
+            "x": "62",
+            "y": "70"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "70"
+          },
+          {
+            "rotated": false,
+            "x": "134",
+            "y": "36"
+          },
+          {
+            "rotated": false,
+            "x": "68",
+            "y": "36"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "36"
+          },
+          {
+            "rotated": false,
+            "x": "72",
+            "y": "0"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "0"
+          }
+        ],
+        "side": "201"
+      }
+    },
+    {
+      "instanceId": "p95-n37-v1",
+      "name": "n = 37",
+      "parameters": {
+        "n": 37
+      },
+      "objective": "minimize",
+      "scoreStored": "209000000000",
+      "scoreDisplay": "209",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "189",
+        "kind": "best",
+        "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Matthew Sun (June 2026). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
+        "url": "https://erich-friedman.github.io/packing/domino/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "answer": {
+        "dominoes": [
+          {
+            "rotated": false,
+            "x": "108",
+            "y": "198"
+          },
+          {
+            "rotated": false,
+            "x": "104",
+            "y": "198"
+          },
+          {
+            "rotated": false,
+            "x": "98",
+            "y": "198"
+          },
+          {
+            "rotated": false,
+            "x": "90",
+            "y": "198"
+          },
+          {
+            "rotated": false,
+            "x": "80",
+            "y": "198"
+          },
+          {
+            "rotated": false,
+            "x": "68",
+            "y": "198"
+          },
+          {
+            "rotated": false,
+            "x": "54",
+            "y": "198"
+          },
+          {
+            "rotated": false,
+            "x": "38",
+            "y": "198"
+          },
+          {
+            "rotated": false,
+            "x": "20",
+            "y": "198"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "198"
+          },
+          {
+            "rotated": false,
+            "x": "174",
+            "y": "181"
+          },
+          {
+            "rotated": false,
+            "x": "150",
+            "y": "181"
+          },
+          {
+            "rotated": false,
+            "x": "124",
+            "y": "181"
+          },
+          {
+            "rotated": false,
+            "x": "96",
+            "y": "181"
+          },
+          {
+            "rotated": false,
+            "x": "66",
+            "y": "181"
+          },
+          {
+            "rotated": false,
+            "x": "34",
+            "y": "181"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "181"
+          },
+          {
+            "rotated": false,
+            "x": "164",
+            "y": "159"
+          },
+          {
+            "rotated": false,
+            "x": "126",
+            "y": "159"
+          },
+          {
+            "rotated": false,
+            "x": "86",
+            "y": "159"
+          },
+          {
+            "rotated": false,
+            "x": "44",
+            "y": "159"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "159"
+          },
+          {
+            "rotated": false,
+            "x": "150",
+            "y": "133"
+          },
+          {
+            "rotated": false,
+            "x": "102",
+            "y": "133"
+          },
+          {
+            "rotated": false,
+            "x": "52",
+            "y": "133"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "133"
+          },
+          {
+            "rotated": false,
+            "x": "114",
+            "y": "104"
+          },
+          {
+            "rotated": false,
+            "x": "58",
+            "y": "104"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "104"
+          },
+          {
+            "rotated": false,
+            "x": "126",
+            "y": "72"
+          },
+          {
+            "rotated": false,
+            "x": "64",
+            "y": "72"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "72"
+          },
+          {
+            "rotated": false,
+            "x": "138",
+            "y": "37"
+          },
+          {
+            "rotated": false,
+            "x": "70",
+            "y": "37"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "37"
+          },
+          {
+            "rotated": false,
+            "x": "74",
+            "y": "0"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "0"
+          }
+        ],
+        "side": "209"
+      }
+    },
+    {
+      "instanceId": "p95-n38-v1",
+      "name": "n = 38",
+      "parameters": {
+        "n": 38
+      },
+      "objective": "minimize",
+      "scoreStored": "217000000000",
+      "scoreDisplay": "217",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "197",
+        "kind": "best",
+        "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Matthew Sun (June 2026). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
+        "url": "https://erich-friedman.github.io/packing/domino/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "answer": {
+        "dominoes": [
+          {
+            "rotated": false,
+            "x": "130",
+            "y": "205"
+          },
+          {
+            "rotated": false,
+            "x": "126",
+            "y": "205"
+          },
+          {
+            "rotated": false,
+            "x": "120",
+            "y": "205"
+          },
+          {
+            "rotated": false,
+            "x": "112",
+            "y": "205"
+          },
+          {
+            "rotated": false,
+            "x": "102",
+            "y": "205"
+          },
+          {
+            "rotated": false,
+            "x": "90",
+            "y": "205"
+          },
+          {
+            "rotated": false,
+            "x": "76",
+            "y": "205"
+          },
+          {
+            "rotated": false,
+            "x": "60",
+            "y": "205"
+          },
+          {
+            "rotated": false,
+            "x": "42",
+            "y": "205"
+          },
+          {
+            "rotated": false,
+            "x": "22",
+            "y": "205"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "205"
+          },
+          {
+            "rotated": false,
+            "x": "186",
+            "y": "187"
+          },
+          {
+            "rotated": false,
+            "x": "160",
+            "y": "187"
+          },
+          {
+            "rotated": false,
+            "x": "132",
+            "y": "187"
+          },
+          {
+            "rotated": false,
+            "x": "102",
+            "y": "187"
+          },
+          {
+            "rotated": false,
+            "x": "70",
+            "y": "187"
+          },
+          {
+            "rotated": false,
+            "x": "36",
+            "y": "187"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "187"
+          },
+          {
+            "rotated": false,
+            "x": "172",
+            "y": "164"
+          },
+          {
+            "rotated": false,
+            "x": "132",
+            "y": "164"
+          },
+          {
+            "rotated": false,
+            "x": "90",
+            "y": "164"
+          },
+          {
+            "rotated": false,
+            "x": "46",
+            "y": "164"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "164"
+          },
+          {
+            "rotated": false,
+            "x": "156",
+            "y": "137"
+          },
+          {
+            "rotated": false,
+            "x": "106",
+            "y": "137"
+          },
+          {
+            "rotated": false,
+            "x": "54",
+            "y": "137"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "137"
+          },
+          {
+            "rotated": false,
+            "x": "118",
+            "y": "107"
+          },
+          {
+            "rotated": false,
+            "x": "60",
+            "y": "107"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "107"
+          },
+          {
+            "rotated": false,
+            "x": "130",
+            "y": "74"
+          },
+          {
+            "rotated": false,
+            "x": "66",
+            "y": "74"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "74"
+          },
+          {
+            "rotated": false,
+            "x": "142",
+            "y": "38"
+          },
+          {
+            "rotated": false,
+            "x": "72",
+            "y": "38"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "38"
+          },
+          {
+            "rotated": false,
+            "x": "76",
+            "y": "0"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "0"
+          }
+        ],
+        "side": "217"
+      }
+    },
+    {
+      "instanceId": "p95-n39-v1",
+      "name": "n = 39",
+      "parameters": {
+        "n": 39
+      },
+      "objective": "minimize",
+      "scoreStored": "225000000000",
+      "scoreDisplay": "225",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "204",
+        "kind": "best",
+        "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Rowan Jones (October 2026). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
+        "url": "https://erich-friedman.github.io/packing/domino/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "answer": {
+        "dominoes": [
+          {
+            "rotated": false,
+            "x": "154",
+            "y": "212"
+          },
+          {
+            "rotated": false,
+            "x": "150",
+            "y": "212"
+          },
+          {
+            "rotated": false,
+            "x": "144",
+            "y": "212"
+          },
+          {
+            "rotated": false,
+            "x": "136",
+            "y": "212"
+          },
+          {
+            "rotated": false,
+            "x": "126",
+            "y": "212"
+          },
+          {
+            "rotated": false,
+            "x": "114",
+            "y": "212"
+          },
+          {
+            "rotated": false,
+            "x": "100",
+            "y": "212"
+          },
+          {
+            "rotated": false,
+            "x": "84",
+            "y": "212"
+          },
+          {
+            "rotated": false,
+            "x": "66",
+            "y": "212"
+          },
+          {
+            "rotated": false,
+            "x": "46",
+            "y": "212"
+          },
+          {
+            "rotated": false,
+            "x": "24",
+            "y": "212"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "212"
+          },
+          {
+            "rotated": false,
+            "x": "198",
+            "y": "193"
+          },
+          {
+            "rotated": false,
+            "x": "170",
+            "y": "193"
+          },
+          {
+            "rotated": false,
+            "x": "140",
+            "y": "193"
+          },
+          {
+            "rotated": false,
+            "x": "108",
+            "y": "193"
+          },
+          {
+            "rotated": false,
+            "x": "74",
+            "y": "193"
+          },
+          {
+            "rotated": false,
+            "x": "38",
+            "y": "193"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "193"
+          },
+          {
+            "rotated": false,
+            "x": "180",
+            "y": "169"
+          },
+          {
+            "rotated": false,
+            "x": "138",
+            "y": "169"
+          },
+          {
+            "rotated": false,
+            "x": "94",
+            "y": "169"
+          },
+          {
+            "rotated": false,
+            "x": "48",
+            "y": "169"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "169"
+          },
+          {
+            "rotated": false,
+            "x": "162",
+            "y": "141"
+          },
+          {
+            "rotated": false,
+            "x": "110",
+            "y": "141"
+          },
+          {
+            "rotated": false,
+            "x": "56",
+            "y": "141"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "141"
+          },
+          {
+            "rotated": false,
+            "x": "122",
+            "y": "110"
+          },
+          {
+            "rotated": false,
+            "x": "62",
+            "y": "110"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "110"
+          },
+          {
+            "rotated": false,
+            "x": "134",
+            "y": "76"
+          },
+          {
+            "rotated": false,
+            "x": "68",
+            "y": "76"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "76"
+          },
+          {
+            "rotated": false,
+            "x": "146",
+            "y": "39"
+          },
+          {
+            "rotated": false,
+            "x": "74",
+            "y": "39"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "39"
+          },
+          {
+            "rotated": false,
+            "x": "78",
+            "y": "0"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "0"
+          }
+        ],
+        "side": "225"
+      }
+    },
+    {
+      "instanceId": "p95-n40-v1",
+      "name": "n = 40",
+      "parameters": {
+        "n": 40
+      },
+      "objective": "minimize",
+      "scoreStored": "234000000000",
+      "scoreDisplay": "234",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "212",
+        "kind": "best",
+        "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Rowan Jones (October 2026). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
+        "url": "https://erich-friedman.github.io/packing/domino/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "answer": {
+        "dominoes": [
+          {
+            "rotated": false,
+            "x": "208",
+            "y": "219"
+          },
+          {
+            "rotated": false,
+            "x": "204",
+            "y": "219"
+          },
+          {
+            "rotated": false,
+            "x": "198",
+            "y": "219"
+          },
+          {
+            "rotated": false,
+            "x": "190",
+            "y": "219"
+          },
+          {
+            "rotated": false,
+            "x": "180",
+            "y": "219"
+          },
+          {
+            "rotated": false,
+            "x": "168",
+            "y": "219"
+          },
+          {
+            "rotated": false,
+            "x": "154",
+            "y": "219"
+          },
+          {
+            "rotated": false,
+            "x": "138",
+            "y": "219"
+          },
+          {
+            "rotated": false,
+            "x": "120",
+            "y": "219"
+          },
+          {
+            "rotated": false,
+            "x": "100",
+            "y": "219"
+          },
+          {
+            "rotated": false,
+            "x": "78",
+            "y": "219"
+          },
+          {
+            "rotated": false,
+            "x": "54",
+            "y": "219"
+          },
+          {
+            "rotated": false,
+            "x": "28",
+            "y": "219"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "219"
+          },
+          {
+            "rotated": false,
+            "x": "180",
+            "y": "199"
+          },
+          {
+            "rotated": false,
+            "x": "148",
+            "y": "199"
+          },
+          {
+            "rotated": false,
+            "x": "114",
+            "y": "199"
+          },
+          {
+            "rotated": false,
+            "x": "78",
+            "y": "199"
+          },
+          {
+            "rotated": false,
+            "x": "40",
+            "y": "199"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "199"
+          },
+          {
+            "rotated": false,
+            "x": "188",
+            "y": "174"
+          },
+          {
+            "rotated": false,
+            "x": "144",
+            "y": "174"
+          },
+          {
+            "rotated": false,
+            "x": "98",
+            "y": "174"
+          },
+          {
+            "rotated": false,
+            "x": "50",
+            "y": "174"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "174"
+          },
+          {
+            "rotated": false,
+            "x": "168",
+            "y": "145"
+          },
+          {
+            "rotated": false,
+            "x": "114",
+            "y": "145"
+          },
+          {
+            "rotated": false,
+            "x": "58",
+            "y": "145"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "145"
+          },
+          {
+            "rotated": false,
+            "x": "126",
+            "y": "113"
+          },
+          {
+            "rotated": false,
+            "x": "64",
+            "y": "113"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "113"
+          },
+          {
+            "rotated": false,
+            "x": "138",
+            "y": "78"
+          },
+          {
+            "rotated": false,
+            "x": "70",
+            "y": "78"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "78"
+          },
+          {
+            "rotated": false,
+            "x": "150",
+            "y": "40"
+          },
+          {
+            "rotated": false,
+            "x": "76",
+            "y": "40"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "40"
+          },
+          {
+            "rotated": false,
+            "x": "80",
+            "y": "0"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "0"
+          }
+        ],
+        "side": "234"
+      }
+    },
+    {
+      "instanceId": "p95-n41-v1",
+      "name": "n = 41",
+      "parameters": {
+        "n": 41
+      },
+      "objective": "minimize",
+      "scoreStored": "241000000000",
+      "scoreDisplay": "241",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "220",
+        "kind": "best",
+        "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Rowan Jones (October 2026). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
+        "url": "https://erich-friedman.github.io/packing/domino/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "answer": {
+        "dominoes": [
+          {
+            "rotated": false,
+            "x": "180",
+            "y": "220"
+          },
+          {
+            "rotated": false,
+            "x": "176",
+            "y": "220"
+          },
+          {
+            "rotated": false,
+            "x": "170",
+            "y": "220"
+          },
+          {
+            "rotated": false,
+            "x": "162",
+            "y": "220"
+          },
+          {
+            "rotated": false,
+            "x": "152",
+            "y": "220"
+          },
+          {
+            "rotated": false,
+            "x": "140",
+            "y": "220"
+          },
+          {
+            "rotated": false,
+            "x": "126",
+            "y": "220"
+          },
+          {
+            "rotated": false,
+            "x": "110",
+            "y": "220"
+          },
+          {
+            "rotated": false,
+            "x": "92",
+            "y": "220"
+          },
+          {
+            "rotated": false,
+            "x": "72",
+            "y": "220"
+          },
+          {
+            "rotated": false,
+            "x": "50",
+            "y": "220"
+          },
+          {
+            "rotated": false,
+            "x": "26",
+            "y": "220"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "220"
+          },
+          {
+            "rotated": false,
+            "x": "210",
+            "y": "200"
+          },
+          {
+            "rotated": false,
+            "x": "180",
+            "y": "200"
+          },
+          {
+            "rotated": false,
+            "x": "148",
+            "y": "200"
+          },
+          {
+            "rotated": false,
+            "x": "114",
+            "y": "200"
+          },
+          {
+            "rotated": false,
+            "x": "78",
+            "y": "200"
+          },
+          {
+            "rotated": false,
+            "x": "40",
+            "y": "200"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "200"
+          },
+          {
+            "rotated": false,
+            "x": "188",
+            "y": "175"
+          },
+          {
+            "rotated": false,
+            "x": "144",
+            "y": "175"
+          },
+          {
+            "rotated": false,
+            "x": "98",
+            "y": "175"
+          },
+          {
+            "rotated": false,
+            "x": "50",
+            "y": "175"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "175"
+          },
+          {
+            "rotated": false,
+            "x": "168",
+            "y": "146"
+          },
+          {
+            "rotated": false,
+            "x": "114",
+            "y": "146"
+          },
+          {
+            "rotated": false,
+            "x": "58",
+            "y": "146"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "146"
+          },
+          {
+            "rotated": false,
+            "x": "126",
+            "y": "114"
+          },
+          {
+            "rotated": false,
+            "x": "64",
+            "y": "114"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "114"
+          },
+          {
+            "rotated": false,
+            "x": "138",
+            "y": "79"
+          },
+          {
+            "rotated": false,
+            "x": "70",
+            "y": "79"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "79"
+          },
+          {
+            "rotated": false,
+            "x": "150",
+            "y": "41"
+          },
+          {
+            "rotated": false,
+            "x": "76",
+            "y": "41"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "41"
+          },
+          {
+            "rotated": false,
+            "x": "162",
+            "y": "0"
+          },
+          {
+            "rotated": false,
+            "x": "82",
+            "y": "0"
+          },
+          {
+            "rotated": false,
+            "x": "0",
+            "y": "0"
+          }
+        ],
+        "side": "241"
+      }
+    }
+  ]
+}
