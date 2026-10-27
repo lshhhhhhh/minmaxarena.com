@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/consecutive-dominoes-in-square",
-  "generatedAt": "2026-10-26T11:17:15.523Z",
+  "generatedAt": "2026-10-27T10:42:03.921Z",
   "instances": [
     {
       "instanceId": "p95-n1-v1",
@@ -1499,125 +1499,144 @@
         "n": 20
       },
       "objective": "minimize",
-      "scoreStored": "78000000000",
-      "scoreDisplay": "78",
-      "status": "open",
+      "scoreStored": "76000000000",
+      "scoreDisplay": "76",
+      "status": "matched",
       "settled": false,
-      "recordStatus": "open",
+      "recordStatus": "matched",
       "knownBest": {
         "display": "76",
         "kind": "best",
         "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Maurizio Morandi (2014). The table calls every row probably optimal except possibly this one. The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
         "url": "https://erich-friedman.github.io/packing/domino/"
       },
-      "holder": "今天",
-      "method": "human",
-      "recordedAt": "2026-10-25T06:14:41.429Z",
+      "holder": "condor",
+      "method": "ai",
+      "recordedAt": "2026-10-27T06:30:03.400Z",
       "answer": {
         "dominoes": [
           {
-            "rotated": false,
-            "x": "32.584422847",
-            "y": "38.000000000"
+            "rotated": true,
+            "turn": "0",
+            "x": "35",
+            "y": "18"
           },
           {
             "rotated": false,
-            "x": "36.000000000",
-            "y": "37.000000000"
+            "turn": "0",
+            "x": "48",
+            "y": "60"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "36",
+            "y": "34"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "10",
+            "y": "72"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "41",
+            "y": "55"
           },
           {
             "rotated": true,
-            "x": "70.000000000",
-            "y": "24.791820332"
+            "turn": "0",
+            "x": "35",
+            "y": "38"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "35",
+            "y": "20"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "10",
+            "y": "56"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "41",
+            "y": "37"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "0",
+            "y": "56"
           },
           {
             "rotated": false,
-            "x": "62.000000000",
-            "y": "37.000000000"
+            "turn": "0",
+            "x": "19",
+            "y": "50"
           },
           {
             "rotated": false,
-            "turn": "1.000000000",
-            "x": "75.000000000",
-            "y": "31.000000000"
+            "turn": "0",
+            "x": "52",
+            "y": "50"
           },
           {
             "rotated": false,
-            "x": "62.000000000",
-            "y": "41.000000000"
+            "turn": "0",
+            "x": "50",
+            "y": "37"
           },
           {
             "rotated": false,
-            "x": "62.000000000",
-            "y": "47.000000000"
+            "turn": "0",
+            "x": "48",
+            "y": "62"
           },
           {
             "rotated": false,
-            "x": "0.000000000",
-            "y": "68.000000000"
+            "turn": "0",
+            "x": "18",
+            "y": "61"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "19",
+            "y": "18"
           },
           {
             "rotated": false,
-            "x": "36.000000000",
-            "y": "68.267693262"
+            "turn": "0",
+            "x": "42",
+            "y": "20"
           },
           {
             "rotated": false,
-            "x": "16.000000000",
-            "y": "68.000000000"
+            "turn": "0",
+            "x": "0",
+            "y": "0"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "0",
+            "y": "18"
           },
           {
             "rotated": false,
-            "x": "54.000000000",
-            "y": "66.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "54.000000000",
-            "y": "54.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "28.000000000",
-            "y": "54.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "0.000000000",
-            "y": "54.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "32.000000000",
-            "y": "39.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "0.000000000",
-            "y": "38.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "36.000000000",
-            "y": "20.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "0.000000000",
-            "y": "20.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "40.000000000",
-            "y": "0.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "0.000000000",
-            "y": "0.000000000"
+            "turn": "0",
+            "x": "36",
+            "y": "0"
           }
         ],
-        "side": "78.000000000"
+        "side": "76"
       }
     },
     {
@@ -1627,130 +1646,150 @@
         "n": 21
       },
       "objective": "minimize",
-      "scoreStored": "84000000000",
-      "scoreDisplay": "84",
-      "status": "open",
+      "scoreStored": "82000000000",
+      "scoreDisplay": "82",
+      "status": "matched",
       "settled": false,
-      "recordStatus": "open",
+      "recordStatus": "matched",
       "knownBest": {
         "display": "82",
         "kind": "best",
         "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Erich Friedman (2014). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
         "url": "https://erich-friedman.github.io/packing/domino/"
       },
-      "holder": "今天",
-      "method": "human",
-      "recordedAt": "2026-10-25T06:17:03.188Z",
+      "holder": "condor",
+      "method": "ai",
+      "recordedAt": "2026-10-27T06:30:20.733Z",
       "answer": {
         "dominoes": [
           {
             "rotated": false,
-            "x": "34.000000000",
-            "y": "56.000000000"
+            "turn": "0",
+            "x": "36",
+            "y": "20"
           },
           {
             "rotated": false,
-            "x": "30.000000000",
-            "y": "71.000000000"
+            "turn": "0",
+            "x": "32",
+            "y": "38"
           },
           {
             "rotated": false,
-            "x": "46.000000000",
-            "y": "71.000000000"
+            "turn": "0",
+            "x": "14",
+            "y": "79"
           },
           {
             "rotated": false,
-            "x": "74.000000000",
-            "y": "38.000000000"
+            "turn": "0",
+            "x": "74",
+            "y": "35"
           },
           {
             "rotated": false,
-            "x": "66.000000000",
-            "y": "70.000000000"
+            "turn": "0",
+            "x": "14",
+            "y": "74"
           },
           {
             "rotated": false,
-            "turn": "1.000000000",
-            "x": "80.650088455",
-            "y": "25.480571386"
+            "turn": "0",
+            "x": "70",
+            "y": "75"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "74",
+            "y": "21"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "24",
+            "y": "54"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "73",
+            "y": "57"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "14",
+            "y": "54"
           },
           {
             "rotated": false,
-            "x": "66.000000000",
-            "y": "42.000000000"
+            "turn": "0",
+            "x": "24",
+            "y": "70"
           },
           {
             "rotated": false,
-            "x": "66.000000000",
-            "y": "49.000000000"
+            "turn": "0",
+            "x": "46",
+            "y": "70"
           },
           {
             "rotated": false,
-            "x": "66.000000000",
-            "y": "75.000000000"
+            "turn": "0",
+            "x": "47",
+            "y": "57"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "0",
+            "y": "54"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "32",
+            "y": "40"
           },
           {
             "rotated": false,
-            "x": "46.000000000",
-            "y": "74.000000000"
+            "turn": "0",
+            "x": "0",
+            "y": "38"
           },
           {
             "rotated": false,
-            "x": "24.000000000",
-            "y": "73.000000000"
+            "turn": "0",
+            "x": "47",
+            "y": "40"
           },
           {
             "rotated": false,
-            "x": "0.000000000",
-            "y": "72.000000000"
+            "turn": "0",
+            "x": "0",
+            "y": "20"
           },
           {
             "rotated": false,
-            "x": "58.000000000",
-            "y": "57.000000000"
+            "turn": "0",
+            "x": "36",
+            "y": "21"
           },
           {
             "rotated": false,
-            "x": "30.000000000",
-            "y": "57.000000000"
+            "turn": "0",
+            "x": "0",
+            "y": "0"
           },
           {
             "rotated": false,
-            "x": "0.000000000",
-            "y": "57.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "34.000000000",
-            "y": "40.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "0.000000000",
-            "y": "40.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "38.000000000",
-            "y": "21.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "0.000000000",
-            "y": "21.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "42.000000000",
-            "y": "0.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "0.000000000",
-            "y": "0.000000000"
+            "turn": "0",
+            "x": "40",
+            "y": "0"
           }
         ],
-        "side": "84.000000000"
+        "side": "82"
       }
     },
     {
@@ -1760,138 +1799,156 @@
         "n": 22
       },
       "objective": "minimize",
-      "scoreStored": "92000000000",
-      "scoreDisplay": "92",
-      "status": "open",
+      "scoreStored": "88000000000",
+      "scoreDisplay": "88",
+      "status": "matched",
       "settled": false,
-      "recordStatus": "open",
+      "recordStatus": "matched",
       "knownBest": {
         "display": "88",
         "kind": "best",
         "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Erich Friedman (2014). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
         "url": "https://erich-friedman.github.io/packing/domino/"
       },
-      "holder": "今天",
-      "method": "human",
-      "recordedAt": "2026-10-25T11:07:03.462Z",
+      "holder": "condor",
+      "method": "ai",
+      "recordedAt": "2026-10-27T06:30:37.350Z",
       "answer": {
         "dominoes": [
           {
             "rotated": false,
-            "x": "44.000000000",
-            "y": "21.000000000"
+            "turn": "0",
+            "x": "48",
+            "y": "51"
           },
           {
             "rotated": false,
-            "turn": "1.000000000",
-            "x": "86.000000000",
-            "y": "47.000000000"
+            "turn": "0",
+            "x": "48",
+            "y": "49"
           },
           {
             "rotated": false,
-            "turn": "1.000000000",
-            "x": "89.000000000",
-            "y": "0.000000000"
+            "turn": "0",
+            "x": "24",
+            "y": "68"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "30",
+            "y": "63"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "48",
+            "y": "23"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "82",
+            "y": "0"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "53",
+            "y": "19"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "48",
+            "y": "33"
           },
           {
             "rotated": false,
-            "x": "70.000000000",
-            "y": "41.000000000"
+            "turn": "0",
+            "x": "0",
+            "y": "62"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "20",
+            "y": "48"
           },
           {
             "rotated": false,
-            "turn": "1.000000000",
-            "x": "91.000000000",
-            "y": "45.000000000"
+            "turn": "0",
+            "x": "30",
+            "y": "52"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "34",
+            "y": "64"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "20",
+            "y": "22"
           },
           {
             "rotated": false,
-            "x": "78.000000000",
-            "y": "39.000000000"
+            "turn": "0",
+            "x": "60",
+            "y": "19"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "33",
+            "y": "22"
           },
           {
             "rotated": false,
-            "x": "70.000000000",
-            "y": "45.000000000"
+            "turn": "0",
+            "x": "56",
+            "y": "33"
           },
           {
             "rotated": false,
-            "x": "70.000000000",
-            "y": "52.000000000"
+            "turn": "0",
+            "x": "0",
+            "y": "71"
           },
           {
             "rotated": false,
-            "turn": "1.000000000",
-            "x": "87.000000000",
-            "y": "21.000000000"
+            "turn": "0",
+            "x": "52",
+            "y": "49"
           },
           {
             "rotated": false,
-            "x": "72.000000000",
-            "y": "76.000000000"
+            "turn": "0",
+            "x": "44",
+            "y": "0"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "0",
+            "y": "22"
           },
           {
             "rotated": false,
-            "x": "50.000000000",
-            "y": "76.000000000"
+            "turn": "0",
+            "x": "46",
+            "y": "67"
           },
           {
             "rotated": false,
-            "x": "26.000000000",
-            "y": "76.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "0.000000000",
-            "y": "76.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "62.000000000",
-            "y": "60.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "32.000000000",
-            "y": "60.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "0.000000000",
-            "y": "60.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "36.000000000",
-            "y": "42.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "0.000000000",
-            "y": "42.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "40.000000000",
-            "y": "22.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "0.000000000",
-            "y": "22.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "44.000000000",
-            "y": "0.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "0.000000000",
-            "y": "0.000000000"
+            "turn": "0",
+            "x": "0",
+            "y": "0"
           }
         ],
-        "side": "92.000000000"
+        "side": "88"
       }
     },
     {
@@ -1901,143 +1958,162 @@
         "n": 23
       },
       "objective": "minimize",
-      "scoreStored": "100000000000",
-      "scoreDisplay": "100",
-      "status": "open",
+      "scoreStored": "94000000000",
+      "scoreDisplay": "94",
+      "status": "matched",
       "settled": false,
-      "recordStatus": "open",
+      "recordStatus": "matched",
       "knownBest": {
         "display": "94",
         "kind": "best",
         "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Erich Friedman (2014). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
         "url": "https://erich-friedman.github.io/packing/domino/"
       },
-      "holder": "今天",
-      "method": "human",
-      "recordedAt": "2026-10-25T06:21:39.773Z",
+      "holder": "condor",
+      "method": "ai",
+      "recordedAt": "2026-10-27T06:29:13.301Z",
       "answer": {
         "dominoes": [
           {
             "rotated": false,
-            "x": "34.000000000",
-            "y": "79.000000000"
+            "turn": "0",
+            "x": "42",
+            "y": "22"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "91",
+            "y": "55"
           },
           {
             "rotated": false,
-            "x": "86.000000000",
-            "y": "43.000000000"
+            "turn": "0",
+            "x": "38",
+            "y": "90"
           },
           {
             "rotated": false,
-            "turn": "1.000000000",
-            "x": "77.000000000",
-            "y": "57.000000000"
+            "turn": "0",
+            "x": "83",
+            "y": "55"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "78",
+            "y": "55"
           },
           {
             "rotated": false,
-            "x": "90.000000000",
-            "y": "91.000000000"
+            "turn": "0",
+            "x": "54",
+            "y": "60"
           },
           {
             "rotated": false,
-            "x": "80.000000000",
-            "y": "91.000000000"
+            "turn": "0",
+            "x": "67",
+            "y": "74"
           },
           {
             "rotated": false,
-            "x": "68.000000000",
-            "y": "91.000000000"
+            "turn": "0",
+            "x": "67",
+            "y": "66"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "57",
+            "y": "42"
           },
           {
             "rotated": false,
-            "x": "54.000000000",
-            "y": "91.000000000"
+            "turn": "0",
+            "x": "0",
+            "y": "84"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "83",
+            "y": "59"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "66",
+            "y": "42"
           },
           {
             "rotated": false,
-            "turn": "1.000000000",
-            "x": "94.000000000",
-            "y": "47.000000000"
+            "turn": "0",
+            "x": "67",
+            "y": "81"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "53",
+            "y": "66"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "38",
+            "y": "60"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "78",
+            "y": "23"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "21",
+            "y": "60"
           },
           {
             "rotated": false,
-            "turn": "1.000000000",
-            "x": "86.000000000",
-            "y": "45.000000000"
+            "turn": "0",
+            "x": "21",
+            "y": "42"
           },
           {
             "rotated": false,
-            "turn": "1.000000000",
-            "x": "92.000000000",
-            "y": "22.000000000"
+            "turn": "0",
+            "x": "40",
+            "y": "23"
           },
           {
             "rotated": false,
-            "x": "78.000000000",
-            "y": "80.000000000"
+            "turn": "0",
+            "x": "0",
+            "y": "22"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "0",
+            "y": "42"
           },
           {
             "rotated": false,
-            "x": "54.000000000",
-            "y": "79.000000000"
+            "turn": "0",
+            "x": "0",
+            "y": "0"
           },
           {
             "rotated": false,
-            "x": "28.000000000",
-            "y": "80.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "0.000000000",
-            "y": "80.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "66.000000000",
-            "y": "63.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "34.000000000",
-            "y": "63.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "0.000000000",
-            "y": "63.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "38.000000000",
-            "y": "44.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "0.000000000",
-            "y": "44.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "42.000000000",
-            "y": "23.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "0.000000000",
-            "y": "23.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "46.000000000",
-            "y": "0.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "0.000000000",
-            "y": "0.000000000"
+            "turn": "0",
+            "x": "44",
+            "y": "0"
           }
         ],
-        "side": "100.000000000"
+        "side": "94"
       }
     },
     {
@@ -2047,146 +2123,168 @@
         "n": 24
       },
       "objective": "minimize",
-      "scoreStored": "104000000000",
-      "scoreDisplay": "104",
-      "status": "open",
+      "scoreStored": "100000000000",
+      "scoreDisplay": "100",
+      "status": "matched",
       "settled": false,
-      "recordStatus": "open",
+      "recordStatus": "matched",
       "knownBest": {
         "display": "100",
         "kind": "best",
         "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Erich Friedman (2014). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
         "url": "https://erich-friedman.github.io/packing/domino/"
       },
-      "holder": "今天",
-      "method": "human",
-      "recordedAt": "2026-10-25T11:10:19.341Z",
+      "holder": "condor",
+      "method": "ai",
+      "recordedAt": "2026-10-27T06:28:39.726Z",
       "answer": {
         "dominoes": [
           {
             "rotated": false,
-            "x": "48.000000000",
-            "y": "23.000000000"
+            "turn": "0",
+            "x": "90",
+            "y": "20"
           },
           {
             "rotated": false,
-            "x": "44.000000000",
-            "y": "45.000000000"
+            "turn": "0",
+            "x": "94",
+            "y": "42"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "97",
+            "y": "68"
           },
           {
             "rotated": false,
-            "x": "78.000000000",
-            "y": "45.000000000"
+            "turn": "0",
+            "x": "40",
+            "y": "40"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "94",
+            "y": "32"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "94",
+            "y": "20"
           },
           {
             "rotated": false,
-            "x": "78.000000000",
-            "y": "52.198530895"
+            "turn": "0",
+            "x": "58",
+            "y": "91"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "40",
+            "y": "24"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "88",
+            "y": "68"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "90",
+            "y": "0"
           },
           {
             "rotated": false,
-            "x": "78.000000000",
-            "y": "61.000000000"
+            "turn": "0",
+            "x": "36",
+            "y": "88"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "88",
+            "y": "44"
           },
           {
             "rotated": false,
-            "x": "68.000000000",
-            "y": "97.000000000"
+            "turn": "0",
+            "x": "74",
+            "y": "87"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "74",
+            "y": "59"
           },
           {
             "rotated": false,
-            "x": "54.000000000",
-            "y": "97.000000000"
+            "turn": "0",
+            "x": "58",
+            "y": "44"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "58",
+            "y": "59"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "19",
+            "y": "44"
           },
           {
             "rotated": false,
-            "x": "38.000000000",
-            "y": "96.000000000"
+            "turn": "0",
+            "x": "0",
+            "y": "82"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "0",
+            "y": "44"
           },
           {
             "rotated": false,
-            "x": "80.000000000",
-            "y": "94.000000000"
+            "turn": "0",
+            "x": "0",
+            "y": "24"
           },
           {
             "rotated": false,
-            "turn": "1.000000000",
-            "x": "104.000000000",
-            "y": "0.000000000"
+            "turn": "0",
+            "x": "48",
+            "y": "0"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "36",
+            "y": "44"
           },
           {
             "rotated": false,
-            "x": "78.000000000",
-            "y": "83.000000000"
+            "turn": "0",
+            "x": "48",
+            "y": "21"
           },
           {
             "rotated": false,
-            "x": "54.000000000",
-            "y": "83.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "28.000000000",
-            "y": "83.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "0.000000000",
-            "y": "83.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "66.000000000",
-            "y": "66.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "34.000000000",
-            "y": "66.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "0.000000000",
-            "y": "66.000000000"
-          },
-          {
-            "rotated": false,
-            "turn": "1.000000000",
-            "x": "104.000000000",
-            "y": "23.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "40.000000000",
-            "y": "47.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "0.000000000",
-            "y": "46.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "44.000000000",
-            "y": "24.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "0.000000000",
-            "y": "24.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "48.000000000",
-            "y": "0.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "0.000000000",
-            "y": "0.000000000"
+            "turn": "0",
+            "x": "0",
+            "y": "0"
           }
         ],
-        "side": "104.000000000"
+        "side": "100"
       }
     },
     {
@@ -2196,151 +2294,174 @@
         "n": 25
       },
       "objective": "minimize",
-      "scoreStored": "109000000000",
-      "scoreDisplay": "109",
-      "status": "open",
+      "scoreStored": "106000000000",
+      "scoreDisplay": "106",
+      "status": "matched",
       "settled": false,
-      "recordStatus": "open",
+      "recordStatus": "matched",
       "knownBest": {
         "display": "106",
         "kind": "best",
         "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by M. Sun and N. Sun (June 2026). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
         "url": "https://erich-friedman.github.io/packing/domino/"
       },
-      "holder": "今天",
-      "method": "human",
-      "recordedAt": "2026-10-25T11:13:36.563Z",
+      "holder": "condor",
+      "method": "ai",
+      "recordedAt": "2026-10-27T06:29:46.800Z",
       "answer": {
         "dominoes": [
           {
-            "rotated": false,
-            "x": "88.000000000",
-            "y": "51.000000000"
+            "rotated": true,
+            "turn": "0",
+            "x": "96",
+            "y": "20"
           },
           {
             "rotated": false,
-            "x": "82.000000000",
-            "y": "54.000000000"
+            "turn": "0",
+            "x": "50",
+            "y": "23"
           },
           {
             "rotated": false,
-            "x": "82.000000000",
-            "y": "51.000000000"
+            "turn": "0",
+            "x": "91",
+            "y": "35"
           },
           {
             "rotated": false,
-            "x": "82.000000000",
-            "y": "47.000000000"
+            "turn": "0",
+            "x": "21",
+            "y": "63"
           },
           {
             "rotated": false,
-            "x": "82.000000000",
-            "y": "62.162484538"
+            "turn": "0",
+            "x": "55",
+            "y": "101"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "91",
+            "y": "23"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "84",
+            "y": "23"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "55",
+            "y": "84"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "97",
+            "y": "20"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "96",
+            "y": "0"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "44",
+            "y": "84"
           },
           {
             "rotated": false,
-            "x": "92.000000000",
-            "y": "63.000000000"
+            "turn": "0",
+            "x": "40",
+            "y": "57"
           },
           {
             "rotated": false,
-            "x": "0.000000000",
-            "y": "102.000000000"
+            "turn": "0",
+            "x": "56",
+            "y": "37"
           },
           {
             "rotated": false,
-            "x": "30.000000000",
-            "y": "101.000000000"
+            "turn": "0",
+            "x": "56",
+            "y": "23"
           },
           {
             "rotated": false,
-            "turn": "1.000000000",
-            "x": "107.000000000",
-            "y": "0.000000000"
+            "turn": "0",
+            "x": "34",
+            "y": "69"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "40",
+            "y": "25"
           },
           {
             "rotated": false,
-            "x": "64.000000000",
-            "y": "99.000000000"
+            "turn": "0",
+            "x": "0",
+            "y": "67"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "64",
+            "y": "50"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "21",
+            "y": "25"
           },
           {
             "rotated": false,
-            "x": "84.000000000",
-            "y": "98.000000000"
+            "turn": "0",
+            "x": "66",
+            "y": "86"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "0",
+            "y": "25"
           },
           {
             "rotated": false,
-            "x": "84.000000000",
-            "y": "86.000000000"
+            "turn": "0",
+            "x": "0",
+            "y": "84"
           },
           {
             "rotated": false,
-            "x": "58.000000000",
-            "y": "86.000000000"
+            "turn": "0",
+            "x": "50",
+            "y": "0"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "82",
+            "y": "38"
           },
           {
             "rotated": false,
-            "x": "30.000000000",
-            "y": "87.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "0.000000000",
-            "y": "87.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "70.000000000",
-            "y": "69.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "36.000000000",
-            "y": "69.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "0.000000000",
-            "y": "69.000000000"
-          },
-          {
-            "rotated": false,
-            "turn": "1.000000000",
-            "x": "109.000000000",
-            "y": "24.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "42.000000000",
-            "y": "48.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "0.000000000",
-            "y": "48.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "46.000000000",
-            "y": "25.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "0.000000000",
-            "y": "25.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "50.000000000",
-            "y": "0.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "0.000000000",
-            "y": "0.000000000"
+            "turn": "0",
+            "x": "0",
+            "y": "0"
           }
         ],
-        "side": "109.000000000"
+        "side": "106"
       }
     },
     {
@@ -2350,154 +2471,180 @@
         "n": 26
       },
       "objective": "minimize",
-      "scoreStored": "121000000000",
-      "scoreDisplay": "121",
-      "status": "open",
+      "scoreStored": "112000000000",
+      "scoreDisplay": "112",
+      "status": "matched",
       "settled": false,
-      "recordStatus": "open",
+      "recordStatus": "matched",
       "knownBest": {
         "display": "112",
         "kind": "best",
         "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Ryan Chi and d/dx (September 2026). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
         "url": "https://erich-friedman.github.io/packing/domino/"
       },
-      "holder": "今天",
-      "method": "human",
-      "recordedAt": "2026-10-26T09:19:34.096Z",
+      "holder": "condor",
+      "method": "ai",
+      "recordedAt": "2026-10-27T06:26:55.864Z",
       "answer": {
         "dominoes": [
           {
             "rotated": false,
-            "x": "43.063340866",
-            "y": "26.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "56.635730743",
-            "y": "26.000000000"
+            "turn": "0",
+            "x": "64",
+            "y": "68"
           },
           {
             "rotated": true,
-            "x": "99.000000000",
-            "y": "15.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "104.452038382",
-            "y": "10.472617560"
+            "turn": "0",
+            "x": "92",
+            "y": "40"
           },
           {
             "rotated": true,
-            "x": "60.476935016",
-            "y": "0.000000000"
+            "turn": "0",
+            "x": "74",
+            "y": "84"
           },
           {
             "rotated": true,
-            "x": "93.000000000",
-            "y": "15.000000000"
+            "turn": "0",
+            "x": "74",
+            "y": "76"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "69",
+            "y": "64"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "80",
+            "y": "40"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "64",
+            "y": "69"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "48",
+            "y": "68"
           },
           {
             "rotated": true,
-            "x": "96.000000000",
-            "y": "1.000000000"
+            "turn": "0",
+            "x": "69",
+            "y": "46"
           },
           {
             "rotated": true,
-            "x": "105.019151778",
-            "y": "96.274765712"
-          },
-          {
-            "rotated": false,
-            "x": "42.000000000",
-            "y": "0.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "22.000000000",
-            "y": "0.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "0.000000000",
-            "y": "0.000000000"
+            "turn": "0",
+            "x": "64",
+            "y": "92"
           },
           {
             "rotated": true,
-            "x": "93.019151778",
-            "y": "88.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "66.000000000",
-            "y": "15.000000000"
+            "turn": "0",
+            "x": "69",
+            "y": "24"
           },
           {
             "rotated": true,
-            "x": "76.418831445",
-            "y": "69.059091788"
+            "turn": "0",
+            "x": "100",
+            "y": "0"
           },
           {
             "rotated": false,
-            "x": "66.000000000",
-            "y": "0.000000000"
+            "turn": "0",
+            "x": "20",
+            "y": "77"
           },
           {
             "rotated": false,
-            "x": "34.000000000",
-            "y": "10.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "0.000000000",
-            "y": "11.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "78.000000000",
-            "y": "28.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "40.000000000",
-            "y": "28.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "0.000000000",
-            "y": "28.000000000"
+            "turn": "0",
+            "x": "46",
+            "y": "76"
           },
           {
             "rotated": true,
-            "x": "94.097419095",
-            "y": "46.000000000"
+            "turn": "0",
+            "x": "79",
+            "y": "46"
           },
           {
             "rotated": false,
-            "x": "46.000000000",
-            "y": "47.000000000"
+            "turn": "0",
+            "x": "80",
+            "y": "24"
           },
           {
             "rotated": false,
-            "x": "0.000000000",
-            "y": "48.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "0.000000000",
-            "y": "97.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "0.000000000",
-            "y": "71.000000000"
+            "turn": "0",
+            "x": "78",
+            "y": "76"
           },
           {
             "rotated": true,
-            "x": "50.418831445",
-            "y": "69.000000000"
+            "turn": "0",
+            "x": "94",
+            "y": "40"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "74",
+            "y": "93"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "0",
+            "y": "72"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "48",
+            "y": "26"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "20",
+            "y": "90"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "0",
+            "y": "26"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "52",
+            "y": "0"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "23",
+            "y": "26"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "0",
+            "y": "0"
           }
         ],
-        "side": "121.000000000"
+        "side": "112"
       }
     },
     {
@@ -2507,159 +2654,186 @@
         "n": 27
       },
       "objective": "minimize",
-      "scoreStored": "123000000000",
-      "scoreDisplay": "123",
-      "status": "open",
+      "scoreStored": "118000000000",
+      "scoreDisplay": "118",
+      "status": "ahead",
       "settled": false,
-      "recordStatus": "open",
+      "recordStatus": "ahead",
       "knownBest": {
         "display": "119",
         "kind": "best",
         "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Matthew Sun (June 2026). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
         "url": "https://erich-friedman.github.io/packing/domino/"
       },
-      "holder": "NUE's AI Chanllenge(GLM 5.3 Flash)",
+      "holder": "condor",
       "method": "ai",
-      "recordedAt": "2026-10-26T10:21:04.478Z",
+      "recordedAt": "2026-10-27T06:56:41.879Z",
       "answer": {
         "dominoes": [
           {
             "rotated": false,
-            "x": "69",
-            "y": "122"
+            "turn": "0",
+            "x": "102",
+            "y": "40"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "72",
+            "y": "37"
           },
           {
             "rotated": true,
-            "x": "112",
-            "y": "26"
-          },
-          {
-            "rotated": false,
-            "x": "71",
-            "y": "120"
-          },
-          {
-            "rotated": false,
-            "x": "114",
-            "y": "26"
-          },
-          {
-            "rotated": false,
-            "x": "113",
-            "y": "113"
-          },
-          {
-            "rotated": false,
-            "x": "71",
-            "y": "114"
+            "turn": "0",
+            "x": "101",
+            "y": "41"
           },
           {
             "rotated": true,
-            "x": "25",
-            "y": "16"
+            "turn": "0",
+            "x": "64",
+            "y": "83"
           },
           {
             "rotated": true,
-            "x": "84",
-            "y": "0"
-          },
-          {
-            "rotated": false,
-            "x": "0",
-            "y": "114"
+            "turn": "0",
+            "x": "96",
+            "y": "37"
           },
           {
             "rotated": true,
-            "x": "113",
-            "y": "93"
+            "turn": "0",
+            "x": "96",
+            "y": "25"
           },
           {
             "rotated": false,
-            "x": "25",
-            "y": "112"
+            "turn": "0",
+            "x": "104",
+            "y": "40"
           },
           {
             "rotated": false,
-            "x": "47",
-            "y": "110"
-          },
-          {
-            "rotated": false,
-            "x": "84",
-            "y": "49"
-          },
-          {
-            "rotated": false,
-            "x": "84",
-            "y": "16"
-          },
-          {
-            "rotated": false,
-            "x": "92",
-            "y": "0"
-          },
-          {
-            "rotated": false,
-            "x": "0",
-            "y": "0"
+            "turn": "0",
+            "x": "102",
+            "y": "32"
           },
           {
             "rotated": true,
+            "turn": "0",
             "x": "67",
-            "y": "30"
-          },
-          {
-            "rotated": true,
-            "x": "25",
-            "y": "30"
+            "y": "58"
           },
           {
             "rotated": false,
-            "x": "84",
-            "y": "30"
+            "turn": "0",
+            "x": "0",
+            "y": "85"
           },
           {
-            "rotated": true,
-            "x": "47",
+            "rotated": false,
+            "turn": "0",
+            "x": "19",
+            "y": "47"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "72",
+            "y": "25"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "20",
+            "y": "82"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "68",
+            "y": "77"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "42",
             "y": "26"
           },
           {
-            "rotated": false,
-            "x": "71",
-            "y": "93"
-          },
-          {
             "rotated": true,
-            "x": "47",
-            "y": "66"
-          },
-          {
-            "rotated": true,
-            "x": "24",
-            "y": "66"
-          },
-          {
-            "rotated": true,
-            "x": "0",
-            "y": "66"
-          },
-          {
-            "rotated": true,
-            "x": "0",
-            "y": "16"
-          },
-          {
-            "rotated": false,
-            "x": "32",
+            "turn": "0",
+            "x": "102",
             "y": "0"
           },
           {
             "rotated": false,
-            "x": "69",
-            "y": "66"
+            "turn": "0",
+            "x": "42",
+            "y": "41"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "46",
+            "y": "82"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "0",
+            "y": "47"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "76",
+            "y": "37"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "0",
+            "y": "26"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "96",
+            "y": "47"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "0",
+            "y": "95"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "19",
+            "y": "58"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "52",
+            "y": "0"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "0",
+            "y": "0"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "64",
+            "y": "91"
           }
         ],
-        "side": "123"
+        "side": "118"
       }
     },
     {
@@ -2669,164 +2843,192 @@
         "n": 28
       },
       "objective": "minimize",
-      "scoreStored": "132379085638",
-      "scoreDisplay": "132.379085638",
-      "status": "open",
+      "scoreStored": "125000000000",
+      "scoreDisplay": "125",
+      "status": "ahead",
       "settled": false,
-      "recordStatus": "open",
+      "recordStatus": "ahead",
       "knownBest": {
         "display": "126",
         "kind": "best",
         "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Matthew Sun (June 2026). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
         "url": "https://erich-friedman.github.io/packing/domino/"
       },
-      "holder": "NUE_13",
-      "method": "human",
-      "recordedAt": "2026-10-26T10:50:23.484Z",
+      "holder": "condor",
+      "method": "ai",
+      "recordedAt": "2026-10-27T06:05:19.842Z",
       "answer": {
         "dominoes": [
           {
-            "rotated": false,
-            "x": "91.343265847",
-            "y": "67.000000000"
+            "rotated": true,
+            "turn": "0",
+            "x": "35",
+            "y": "93"
           },
           {
             "rotated": true,
-            "x": "97.653726521",
-            "y": "83.127695524"
+            "turn": "0",
+            "x": "54",
+            "y": "23"
           },
           {
             "rotated": true,
-            "x": "97.000000000",
-            "y": "27.000000000"
+            "turn": "0",
+            "x": "32",
+            "y": "93"
           },
           {
             "rotated": false,
-            "x": "84.000000000",
-            "y": "108.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "12.968086063",
-            "y": "76.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "70.000000000",
-            "y": "115.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "70.000000000",
-            "y": "108.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "37.653726521",
-            "y": "73.000000000"
+            "turn": "0",
+            "x": "28",
+            "y": "99"
           },
           {
             "rotated": true,
-            "x": "97.653726521",
-            "y": "65.127695524"
+            "turn": "0",
+            "x": "36",
+            "y": "93"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "20",
+            "y": "93"
           },
           {
             "rotated": true,
-            "x": "97.000000000",
-            "y": "45.127695524"
-          },
-          {
-            "rotated": false,
-            "x": "82.000000000",
-            "y": "115.000000000"
+            "turn": "0",
+            "x": "73",
+            "y": "85"
           },
           {
             "rotated": true,
-            "x": "0.000000000",
-            "y": "76.000000000"
+            "turn": "0",
+            "x": "71",
+            "y": "64"
           },
           {
             "rotated": false,
-            "x": "24.000000000",
-            "y": "59.000000000"
+            "turn": "0",
+            "x": "57",
+            "y": "55"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "56",
+            "y": "45"
           },
           {
             "rotated": true,
-            "x": "110.000000000",
-            "y": "0.000000000"
+            "turn": "0",
+            "x": "28",
+            "y": "103"
           },
           {
             "rotated": false,
-            "x": "24.000000000",
-            "y": "28.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "24.000000000",
-            "y": "43.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "70.000000000",
-            "y": "91.000000000"
+            "turn": "0",
+            "x": "76",
+            "y": "45"
           },
           {
             "rotated": true,
-            "x": "52.000000000",
-            "y": "91.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "12.000000000",
-            "y": "81.000000000"
+            "turn": "0",
+            "x": "15",
+            "y": "99"
           },
           {
             "rotated": true,
-            "x": "77.000000000",
-            "y": "27.000000000"
+            "turn": "0",
+            "x": "57",
+            "y": "64"
           },
           {
             "rotated": true,
-            "x": "56.000000000",
-            "y": "27.000000000"
+            "turn": "0",
+            "x": "0",
+            "y": "95"
           },
           {
             "rotated": false,
-            "x": "53.653726521",
-            "y": "69.000000000"
+            "turn": "0",
+            "x": "41",
+            "y": "92"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "39",
+            "y": "108"
           },
           {
             "rotated": true,
-            "x": "106.653726521",
-            "y": "78.000000000"
+            "turn": "0",
+            "x": "39",
+            "y": "55"
           },
           {
             "rotated": true,
-            "x": "0.000000000",
-            "y": "28.000000000"
+            "turn": "0",
+            "x": "20",
+            "y": "55"
           },
           {
             "rotated": true,
-            "x": "107.379085638",
-            "y": "28.000000000"
+            "turn": "0",
+            "x": "0",
+            "y": "55"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "80",
+            "y": "57"
           },
           {
             "rotated": false,
-            "x": "0.000000000",
-            "y": "100.000000000"
+            "turn": "0",
+            "x": "56",
+            "y": "23"
           },
           {
             "rotated": false,
-            "x": "56.000000000",
-            "y": "0.000000000"
+            "turn": "0",
+            "x": "54",
+            "y": "0"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "101",
+            "y": "50"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "100",
+            "y": "0"
           },
           {
             "rotated": false,
-            "x": "0.000000000",
-            "y": "0.000000000"
+            "turn": "0",
+            "x": "73",
+            "y": "99"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "0",
+            "y": "0"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "0",
+            "y": "27"
           }
         ],
-        "side": "132.379085638"
+        "side": "125"
       }
     },
     {
@@ -2836,169 +3038,198 @@
         "n": 29
       },
       "objective": "minimize",
-      "scoreStored": "138000000000",
-      "scoreDisplay": "138",
-      "status": "open",
+      "scoreStored": "132000000000",
+      "scoreDisplay": "132",
+      "status": "matched",
       "settled": false,
-      "recordStatus": "open",
+      "recordStatus": "matched",
       "knownBest": {
         "display": "132",
         "kind": "best",
         "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Matthew Sun (June 2026). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
         "url": "https://erich-friedman.github.io/packing/domino/"
       },
-      "holder": "NUE_13",
-      "method": "human",
-      "recordedAt": "2026-10-26T10:53:29.279Z",
+      "holder": "condor",
+      "method": "ai",
+      "recordedAt": "2026-10-27T06:28:19.738Z",
       "answer": {
         "dominoes": [
           {
+            "rotated": true,
+            "turn": "0",
+            "x": "112",
+            "y": "40"
+          },
+          {
             "rotated": false,
-            "x": "102.000000000",
-            "y": "51.000000000"
+            "turn": "0",
+            "x": "45",
+            "y": "34"
           },
           {
             "rotated": true,
-            "x": "54.000000000",
-            "y": "70.904334358"
+            "turn": "0",
+            "x": "80",
+            "y": "73"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "72",
+            "y": "59"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "45",
+            "y": "29"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "83",
+            "y": "73"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "45",
+            "y": "36"
           },
           {
             "rotated": true,
-            "x": "86.000000000",
-            "y": "29.000000000"
+            "turn": "0",
+            "x": "72",
+            "y": "43"
           },
           {
             "rotated": true,
-            "x": "98.000000000",
-            "y": "51.000000000"
+            "turn": "0",
+            "x": "71",
+            "y": "64"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "58",
+            "y": "26"
           },
           {
             "rotated": true,
-            "x": "109.000000000",
-            "y": "29.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "44.000000000",
-            "y": "92.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "72.000000000",
-            "y": "29.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "56.000000000",
-            "y": "92.407779710"
-          },
-          {
-            "rotated": false,
-            "x": "54.000000000",
-            "y": "29.000000000"
+            "turn": "0",
+            "x": "71",
+            "y": "82"
           },
           {
             "rotated": true,
-            "x": "44.000000000",
-            "y": "55.000000000"
+            "turn": "0",
+            "x": "59",
+            "y": "63"
           },
           {
             "rotated": true,
-            "x": "98.000000000",
-            "y": "29.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "114.000000000",
-            "y": "28.000000000"
+            "turn": "0",
+            "x": "59",
+            "y": "37"
           },
           {
             "rotated": true,
-            "x": "98.000000000",
-            "y": "62.000000000"
+            "turn": "0",
+            "x": "45",
+            "y": "43"
           },
           {
             "rotated": true,
-            "x": "114.000000000",
-            "y": "0.000000000"
+            "turn": "0",
+            "x": "80",
+            "y": "43"
           },
           {
             "rotated": false,
-            "x": "42.000000000",
-            "y": "77.000000000"
+            "turn": "0",
+            "x": "27",
+            "y": "71"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "78",
+            "y": "26"
           },
           {
             "rotated": true,
-            "x": "54.000000000",
-            "y": "38.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "20.000000000",
-            "y": "116.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "20.000000000",
-            "y": "98.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "72.000000000",
-            "y": "88.000000000"
+            "turn": "0",
+            "x": "95",
+            "y": "43"
           },
           {
             "rotated": true,
-            "x": "0.000000000",
-            "y": "98.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "0.000000000",
-            "y": "77.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "0.000000000",
-            "y": "55.000000000"
+            "turn": "0",
+            "x": "113",
+            "y": "40"
           },
           {
             "rotated": true,
-            "x": "110.000000000",
-            "y": "88.000000000"
+            "turn": "0",
+            "x": "112",
+            "y": "0"
           },
           {
             "rotated": true,
-            "x": "111.000000000",
-            "y": "40.000000000"
+            "turn": "0",
+            "x": "24",
+            "y": "29"
           },
           {
             "rotated": false,
-            "x": "56.000000000",
-            "y": "107.000000000"
+            "turn": "0",
+            "x": "27",
+            "y": "87"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "27",
+            "y": "109"
           },
           {
             "rotated": true,
-            "x": "72.000000000",
-            "y": "36.000000000"
+            "turn": "0",
+            "x": "0",
+            "y": "29"
           },
           {
             "rotated": false,
-            "x": "0.000000000",
-            "y": "28.000000000"
+            "turn": "0",
+            "x": "82",
+            "y": "79"
           },
           {
             "rotated": false,
-            "x": "0.000000000",
-            "y": "0.000000000"
+            "turn": "0",
+            "x": "58",
+            "y": "0"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "0",
+            "y": "78"
           },
           {
             "rotated": false,
-            "x": "56.000000000",
-            "y": "0.000000000"
+            "turn": "0",
+            "x": "76",
+            "y": "104"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "0",
+            "y": "0"
           }
         ],
-        "side": "138.000000000"
+        "side": "132"
       }
     },
     {
@@ -3008,174 +3239,204 @@
         "n": 30
       },
       "objective": "minimize",
-      "scoreStored": "147000000000",
-      "scoreDisplay": "147",
-      "status": "open",
+      "scoreStored": "138000000000",
+      "scoreDisplay": "138",
+      "status": "ahead",
       "settled": false,
-      "recordStatus": "open",
+      "recordStatus": "ahead",
       "knownBest": {
         "display": "139",
         "kind": "best",
         "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Matthew Sun (June 2026). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
         "url": "https://erich-friedman.github.io/packing/domino/"
       },
-      "holder": "NUE_13",
-      "method": "human",
-      "recordedAt": "2026-10-26T10:58:57.747Z",
+      "holder": "condor",
+      "method": "ai",
+      "recordedAt": "2026-10-27T07:27:24.996Z",
       "answer": {
         "dominoes": [
           {
             "rotated": false,
-            "x": "91.000000000",
-            "y": "66.000000000"
+            "turn": "0",
+            "x": "100",
+            "y": "118"
           },
           {
             "rotated": true,
-            "x": "89.000000000",
-            "y": "66.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "93.965270005",
-            "y": "48.448626027"
-          },
-          {
-            "rotated": false,
-            "x": "50.000000000",
-            "y": "59.000000000"
+            "turn": "0",
+            "x": "58",
+            "y": "49"
           },
           {
             "rotated": true,
-            "x": "99.965270005",
-            "y": "48.448626027"
+            "turn": "0",
+            "x": "110",
+            "y": "52"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "46",
+            "y": "53"
           },
           {
             "rotated": true,
-            "x": "84.000000000",
-            "y": "47.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "89.000000000",
-            "y": "59.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "33.000000000",
-            "y": "132.723591994"
-          },
-          {
-            "rotated": false,
-            "x": "71.000000000",
-            "y": "59.391226743"
-          },
-          {
-            "rotated": false,
-            "x": "30.000000000",
-            "y": "60.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "121.000000000",
-            "y": "91.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "58.000000000",
-            "y": "47.391226743"
+            "turn": "0",
+            "x": "60",
+            "y": "108"
           },
           {
             "rotated": true,
-            "x": "58.000000000",
-            "y": "59.391226743"
+            "turn": "0",
+            "x": "54",
+            "y": "53"
           },
           {
             "rotated": false,
-            "x": "49.000000000",
-            "y": "128.436552715"
+            "turn": "0",
+            "x": "78",
+            "y": "65"
           },
           {
             "rotated": false,
-            "x": "0.000000000",
-            "y": "59.000000000"
+            "turn": "0",
+            "x": "28",
+            "y": "52"
           },
           {
             "rotated": false,
-            "x": "0.000000000",
-            "y": "130.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "77.000000000",
-            "y": "127.000000000"
+            "turn": "0",
+            "x": "92",
+            "y": "49"
           },
           {
             "rotated": true,
-            "x": "103.000000000",
-            "y": "91.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "108.000000000",
-            "y": "0.000000000"
+            "turn": "0",
+            "x": "102",
+            "y": "27"
           },
           {
             "rotated": true,
-            "x": "55.942610801",
-            "y": "88.436552715"
+            "turn": "0",
+            "x": "67",
+            "y": "78"
           },
           {
             "rotated": true,
-            "x": "121.000000000",
-            "y": "102.000000000"
+            "turn": "0",
+            "x": "46",
+            "y": "29"
           },
           {
             "rotated": false,
-            "x": "103.000000000",
-            "y": "69.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "60.264347300",
-            "y": "24.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "60.000000000",
-            "y": "0.000000000"
+            "turn": "0",
+            "x": "52",
+            "y": "65"
           },
           {
             "rotated": true,
-            "x": "108.000000000",
-            "y": "19.000000000"
+            "turn": "0",
+            "x": "78",
+            "y": "72"
           },
           {
             "rotated": true,
-            "x": "75.942610801",
-            "y": "70.000000000"
-          },
-          {
-            "rotated": true,
-            "x": "28.942610801",
-            "y": "74.436552715"
-          },
-          {
-            "rotated": true,
-            "x": "0.000000000",
-            "y": "74.000000000"
+            "turn": "0",
+            "x": "52",
+            "y": "78"
           },
           {
             "rotated": false,
-            "x": "0.000000000",
-            "y": "30.000000000"
+            "turn": "0",
+            "x": "60",
+            "y": "49"
           },
           {
             "rotated": false,
-            "x": "0.000000000",
-            "y": "0.000000000"
+            "turn": "0",
+            "x": "104",
+            "y": "102"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "68",
+            "y": "100"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "100",
+            "y": "119"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "60",
+            "y": "118"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "92",
+            "y": "58"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "58",
+            "y": "27"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "0",
+            "y": "29"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "28",
+            "y": "60"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "113",
+            "y": "52"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "112",
+            "y": "0"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "58",
+            "y": "0"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "0",
+            "y": "52"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "0",
+            "y": "0"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "0",
+            "y": "108"
           }
         ],
-        "side": "147.000000000"
+        "side": "138"
       }
     },
     {
@@ -3185,179 +3446,210 @@
         "n": 31
       },
       "objective": "minimize",
-      "scoreStored": "146000000000",
-      "scoreDisplay": "146",
-      "status": "matched",
+      "scoreStored": "145000000000",
+      "scoreDisplay": "145",
+      "status": "ahead",
       "settled": false,
-      "recordStatus": "matched",
+      "recordStatus": "ahead",
       "knownBest": {
         "display": "146",
         "kind": "best",
         "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Matthew Sun (June 2026). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
         "url": "https://erich-friedman.github.io/packing/domino/"
       },
-      "holder": "CCHES",
+      "holder": "condor",
       "method": "ai",
-      "recordedAt": "2026-10-26T01:59:14.391Z",
+      "recordedAt": "2026-10-27T06:36:47.075Z",
       "answer": {
         "dominoes": [
           {
             "rotated": false,
-            "x": "121",
-            "y": "25"
-          },
-          {
-            "rotated": true,
-            "x": "40",
-            "y": "126"
-          },
-          {
-            "rotated": true,
-            "x": "79",
-            "y": "84"
-          },
-          {
-            "rotated": true,
-            "x": "108",
-            "y": "0"
-          },
-          {
-            "rotated": true,
-            "x": "74",
-            "y": "83"
-          },
-          {
-            "rotated": true,
-            "x": "106",
-            "y": "14"
+            "turn": "0",
+            "x": "95",
+            "y": "104"
           },
           {
             "rotated": false,
-            "x": "30",
-            "y": "119"
+            "turn": "0",
+            "x": "53",
+            "y": "113"
           },
           {
-            "rotated": true,
-            "x": "34",
+            "rotated": false,
+            "turn": "0",
+            "x": "89",
+            "y": "56"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "62",
             "y": "28"
           },
           {
+            "rotated": true,
+            "turn": "0",
+            "x": "79",
+            "y": "69"
+          },
+          {
             "rotated": false,
+            "turn": "0",
+            "x": "50",
+            "y": "28"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "53",
+            "y": "99"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "76",
+            "y": "53"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "67",
+            "y": "53"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "103",
+            "y": "104"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "84",
+            "y": "59"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "83",
+            "y": "81"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "53",
+            "y": "71"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
             "x": "56",
-            "y": "83"
-          },
-          {
-            "rotated": true,
-            "x": "82",
-            "y": "70"
-          },
-          {
-            "rotated": true,
-            "x": "112",
             "y": "0"
           },
           {
+            "rotated": false,
+            "turn": "0",
+            "x": "53",
+            "y": "84"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "113",
+            "y": "108"
+          },
+          {
             "rotated": true,
-            "x": "80",
-            "y": "91"
+            "turn": "0",
+            "x": "70",
+            "y": "0"
           },
           {
             "rotated": false,
-            "x": "56",
-            "y": "70"
+            "turn": "0",
+            "x": "31",
+            "y": "53"
           },
           {
             "rotated": false,
-            "x": "61",
+            "turn": "0",
+            "x": "50",
+            "y": "34"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "83",
+            "y": "105"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "103",
+            "y": "124"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "31",
+            "y": "71"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "60",
+            "y": "99"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "95",
             "y": "56"
           },
           {
             "rotated": false,
+            "turn": "0",
             "x": "0",
-            "y": "111"
+            "y": "28"
           },
           {
             "rotated": true,
-            "x": "106",
-            "y": "114"
-          },
-          {
-            "rotated": false,
-            "x": "0",
-            "y": "27"
-          },
-          {
-            "rotated": false,
-            "x": "0",
-            "y": "93"
-          },
-          {
-            "rotated": true,
-            "x": "42",
-            "y": "27"
-          },
-          {
-            "rotated": false,
-            "x": "0",
-            "y": "126"
-          },
-          {
-            "rotated": false,
-            "x": "0",
-            "y": "44"
-          },
-          {
-            "rotated": false,
-            "x": "36",
-            "y": "93"
-          },
-          {
-            "rotated": true,
-            "x": "123",
-            "y": "0"
-          },
-          {
-            "rotated": true,
-            "x": "122",
-            "y": "98"
-          },
-          {
-            "rotated": true,
-            "x": "121",
-            "y": "46"
-          },
-          {
-            "rotated": false,
-            "x": "54",
-            "y": "0"
-          },
-          {
-            "rotated": false,
-            "x": "0",
-            "y": "0"
-          },
-          {
-            "rotated": false,
-            "x": "0",
-            "y": "65"
-          },
-          {
-            "rotated": true,
-            "x": "92",
+            "turn": "0",
+            "x": "119",
             "y": "56"
           },
           {
             "rotated": false,
-            "x": "61",
-            "y": "26"
+            "turn": "0",
+            "x": "91",
+            "y": "29"
           },
           {
             "rotated": false,
-            "x": "44",
+            "turn": "0",
+            "x": "0",
+            "y": "0"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "87",
+            "y": "0"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "0",
             "y": "115"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "0",
+            "y": "53"
           }
         ],
-        "side": "146"
+        "side": "145"
       }
     },
     {
@@ -3367,184 +3659,216 @@
         "n": 32
       },
       "objective": "minimize",
-      "scoreStored": "158000000000",
-      "scoreDisplay": "158",
-      "status": "open",
+      "scoreStored": "152000000000",
+      "scoreDisplay": "152",
+      "status": "ahead",
       "settled": false,
-      "recordStatus": "open",
+      "recordStatus": "ahead",
       "knownBest": {
         "display": "153",
         "kind": "best",
         "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Matthew Sun (June 2026). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
         "url": "https://erich-friedman.github.io/packing/domino/"
       },
-      "holder": "NUE's AI Chanllenge(GLM 5.3 Flash)",
+      "holder": "condor",
       "method": "ai",
-      "recordedAt": "2026-10-26T10:12:22.668Z",
+      "recordedAt": "2026-10-27T06:07:23.316Z",
       "answer": {
         "dominoes": [
           {
-            "rotated": true,
-            "x": "98",
-            "y": "102"
+            "rotated": false,
+            "turn": "0",
+            "x": "52",
+            "y": "58"
           },
           {
             "rotated": false,
-            "x": "99",
+            "turn": "0",
+            "x": "62",
+            "y": "29"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "72",
+            "y": "73"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "70",
+            "y": "69"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "52",
             "y": "102"
           },
           {
             "rotated": true,
-            "x": "78",
-            "y": "152"
+            "turn": "0",
+            "x": "64",
+            "y": "61"
           },
           {
             "rotated": true,
-            "x": "101",
-            "y": "62"
+            "turn": "0",
+            "x": "71",
+            "y": "55"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "64",
+            "y": "73"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "52",
+            "y": "83"
           },
           {
             "rotated": false,
-            "x": "22",
+            "turn": "0",
+            "x": "0",
             "y": "98"
           },
           {
-            "rotated": false,
-            "x": "81",
-            "y": "152"
+            "rotated": true,
+            "turn": "0",
+            "x": "41",
+            "y": "104"
           },
           {
             "rotated": true,
-            "x": "98",
-            "y": "48"
-          },
-          {
-            "rotated": true,
-            "x": "98",
-            "y": "0"
+            "turn": "0",
+            "x": "52",
+            "y": "59"
           },
           {
             "rotated": false,
-            "x": "33",
+            "turn": "0",
+            "x": "72",
+            "y": "76"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "54",
             "y": "31"
           },
           {
+            "rotated": true,
+            "turn": "0",
+            "x": "37",
+            "y": "74"
+          },
+          {
             "rotated": false,
-            "x": "137",
-            "y": "48"
+            "turn": "0",
+            "x": "20",
+            "y": "58"
           },
           {
             "rotated": true,
-            "x": "22",
-            "y": "18"
+            "turn": "0",
+            "x": "20",
+            "y": "74"
           },
           {
             "rotated": false,
-            "x": "128",
-            "y": "141"
-          },
-          {
-            "rotated": true,
-            "x": "85",
-            "y": "31"
+            "turn": "0",
+            "x": "62",
+            "y": "89"
           },
           {
             "rotated": false,
-            "x": "128",
-            "y": "112"
-          },
-          {
-            "rotated": false,
-            "x": "128",
-            "y": "126"
-          },
-          {
-            "rotated": false,
-            "x": "53",
-            "y": "31"
-          },
-          {
-            "rotated": false,
-            "x": "106",
-            "y": "0"
-          },
-          {
-            "rotated": false,
+            "turn": "0",
             "x": "0",
-            "y": "0"
+            "y": "108"
           },
           {
             "rotated": true,
-            "x": "137",
-            "y": "62"
-          },
-          {
-            "rotated": true,
-            "x": "81",
-            "y": "62"
-          },
-          {
-            "rotated": true,
+            "turn": "0",
             "x": "0",
-            "y": "62"
+            "y": "58"
           },
           {
-            "rotated": true,
-            "x": "0",
-            "y": "18"
-          },
-          {
-            "rotated": true,
-            "x": "105",
-            "y": "112"
-          },
-          {
-            "rotated": true,
+            "rotated": false,
+            "turn": "0",
             "x": "78",
-            "y": "104"
-          },
-          {
-            "rotated": true,
-            "x": "53",
-            "y": "104"
-          },
-          {
-            "rotated": true,
-            "x": "27",
-            "y": "104"
-          },
-          {
-            "rotated": true,
-            "x": "0",
-            "y": "104"
-          },
-          {
-            "rotated": true,
-            "x": "53",
-            "y": "48"
-          },
-          {
-            "rotated": true,
-            "x": "22",
-            "y": "40"
+            "y": "55"
           },
           {
             "rotated": false,
+            "turn": "0",
+            "x": "52",
+            "y": "107"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "50",
+            "y": "129"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
             "x": "98",
-            "y": "18"
+            "y": "76"
           },
           {
             "rotated": false,
-            "x": "36",
+            "turn": "0",
+            "x": "0",
+            "y": "127"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "68",
+            "y": "29"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "0",
+            "y": "31"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "96",
+            "y": "124"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "62",
             "y": "0"
           },
           {
             "rotated": true,
-            "x": "105",
-            "y": "48"
+            "turn": "0",
+            "x": "122",
+            "y": "64"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "0",
+            "y": "0"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "120",
+            "y": "0"
           }
         ],
-        "side": "158"
+        "side": "152"
       }
     },
     {
@@ -3554,189 +3878,222 @@
         "n": 33
       },
       "objective": "minimize",
-      "scoreStored": "167000000000",
-      "scoreDisplay": "167",
-      "status": "open",
+      "scoreStored": "159000000000",
+      "scoreDisplay": "159",
+      "status": "ahead",
       "settled": false,
-      "recordStatus": "open",
+      "recordStatus": "ahead",
       "knownBest": {
         "display": "160",
         "kind": "best",
         "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Matthew Sun (June 2026). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
         "url": "https://erich-friedman.github.io/packing/domino/"
       },
-      "holder": "NUE's AI Chanllenge(GLM 5.3 Flash)",
+      "holder": "condor",
       "method": "ai",
-      "recordedAt": "2026-10-26T10:19:55.695Z",
+      "recordedAt": "2026-10-27T06:22:16.293Z",
       "answer": {
         "dominoes": [
           {
+            "rotated": true,
+            "turn": "0",
+            "x": "52",
+            "y": "155"
+          },
+          {
             "rotated": false,
-            "x": "64",
-            "y": "135"
+            "turn": "0",
+            "x": "82",
+            "y": "95"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "49",
+            "y": "63"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "44",
+            "y": "155"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "39",
+            "y": "111"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "27",
+            "y": "111"
           },
           {
             "rotated": true,
-            "x": "140",
-            "y": "145"
+            "turn": "0",
+            "x": "69",
+            "y": "65"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "78",
+            "y": "79"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "44",
+            "y": "137"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "76",
+            "y": "59"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "67",
+            "y": "80"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "85",
+            "y": "113"
           },
           {
             "rotated": false,
-            "x": "74",
-            "y": "135"
+            "turn": "0",
+            "x": "79",
+            "y": "97"
           },
           {
             "rotated": false,
-            "x": "66",
-            "y": "135"
+            "turn": "0",
+            "x": "131",
+            "y": "114"
           },
           {
             "rotated": false,
-            "x": "157",
-            "y": "7"
+            "turn": "0",
+            "x": "49",
+            "y": "102"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "60",
+            "y": "33"
           },
           {
             "rotated": false,
+            "turn": "0",
+            "x": "97",
+            "y": "111"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "49",
+            "y": "66"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "86",
+            "y": "59"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "44",
+            "y": "117"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "23",
+            "y": "117"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "53",
+            "y": "137"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "0",
+            "y": "113"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "25",
+            "y": "63"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "0",
+            "y": "63"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "105",
+            "y": "59"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "76",
+            "y": "32"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "131",
+            "y": "58"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
             "x": "130",
-            "y": "139"
-          },
-          {
-            "rotated": false,
-            "x": "66",
-            "y": "0"
-          },
-          {
-            "rotated": true,
-            "x": "58",
-            "y": "44"
-          },
-          {
-            "rotated": true,
-            "x": "66",
-            "y": "44"
-          },
-          {
-            "rotated": true,
-            "x": "157",
-            "y": "12"
-          },
-          {
-            "rotated": false,
-            "x": "58",
-            "y": "33"
-          },
-          {
-            "rotated": false,
-            "x": "142",
-            "y": "139"
-          },
-          {
-            "rotated": true,
-            "x": "66",
-            "y": "7"
-          },
-          {
-            "rotated": true,
-            "x": "66",
-            "y": "139"
-          },
-          {
-            "rotated": true,
-            "x": "142",
             "y": "0"
           },
           {
             "rotated": false,
-            "x": "130",
-            "y": "151"
-          },
-          {
-            "rotated": false,
-            "x": "20",
-            "y": "90"
-          },
-          {
-            "rotated": false,
-            "x": "20",
-            "y": "107"
-          },
-          {
-            "rotated": false,
-            "x": "102",
-            "y": "62"
-          },
-          {
-            "rotated": true,
-            "x": "0",
-            "y": "90"
-          },
-          {
-            "rotated": true,
-            "x": "102",
-            "y": "90"
-          },
-          {
-            "rotated": true,
-            "x": "80",
-            "y": "90"
-          },
-          {
-            "rotated": false,
-            "x": "56",
-            "y": "62"
-          },
-          {
-            "rotated": true,
-            "x": "56",
-            "y": "87"
-          },
-          {
-            "rotated": false,
-            "x": "80",
-            "y": "139"
-          },
-          {
-            "rotated": true,
-            "x": "140",
-            "y": "87"
-          },
-          {
-            "rotated": true,
-            "x": "140",
-            "y": "33"
-          },
-          {
-            "rotated": false,
-            "x": "0",
-            "y": "62"
-          },
-          {
-            "rotated": false,
+            "turn": "0",
             "x": "0",
             "y": "33"
           },
           {
             "rotated": false,
-            "x": "80",
-            "y": "31"
+            "turn": "0",
+            "x": "97",
+            "y": "128"
           },
           {
             "rotated": false,
-            "x": "80",
+            "turn": "0",
+            "x": "66",
             "y": "0"
           },
           {
             "rotated": false,
-            "x": "0",
-            "y": "135"
-          },
-          {
-            "rotated": false,
+            "turn": "0",
             "x": "0",
             "y": "0"
           }
         ],
-        "side": "167"
+        "side": "159"
       }
     },
     {
@@ -3746,194 +4103,228 @@
         "n": 34
       },
       "objective": "minimize",
-      "scoreStored": "178000000000",
-      "scoreDisplay": "178",
-      "status": "open",
+      "scoreStored": "166000000000",
+      "scoreDisplay": "166",
+      "status": "ahead",
       "settled": false,
-      "recordStatus": "open",
+      "recordStatus": "ahead",
       "knownBest": {
         "display": "167",
         "kind": "best",
         "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Matthew Sun (June 2026). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
         "url": "https://erich-friedman.github.io/packing/domino/"
       },
-      "holder": "NUE_13",
-      "method": "human",
-      "recordedAt": "2026-10-26T11:02:04.360Z",
+      "holder": "condor",
+      "method": "ai",
+      "recordedAt": "2026-10-27T07:42:35.990Z",
       "answer": {
         "dominoes": [
           {
             "rotated": false,
-            "x": "128.000000000",
-            "y": "89.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "130.000000000",
-            "y": "89.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "128.000000000",
-            "y": "91.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "166.000000000",
-            "y": "60.000000000"
+            "turn": "0",
+            "x": "68",
+            "y": "33"
           },
           {
             "rotated": true,
-            "x": "63.000000000",
-            "y": "128.253917794"
+            "turn": "0",
+            "x": "112",
+            "y": "87"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "96",
+            "y": "120"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "104",
+            "y": "87"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "104",
+            "y": "82"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "78",
+            "y": "95"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "56",
+            "y": "85"
           },
           {
             "rotated": true,
-            "x": "121.048709903",
-            "y": "151.000000000"
+            "turn": "0",
+            "x": "70",
+            "y": "85"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "52",
+            "y": "92"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "56",
+            "y": "75"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "56",
+            "y": "64"
           },
           {
             "rotated": true,
-            "x": "61.000000000",
-            "y": "109.622611071"
+            "turn": "0",
+            "x": "90",
+            "y": "95"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "78",
+            "y": "82"
           },
           {
             "rotated": true,
-            "x": "0.000000000",
-            "y": "78.000000000"
+            "turn": "0",
+            "x": "58",
+            "y": "34"
           },
           {
             "rotated": false,
-            "x": "38.000000000",
-            "y": "55.000000000"
+            "turn": "0",
+            "x": "104",
+            "y": "91"
           },
           {
             "rotated": false,
-            "x": "0.000000000",
-            "y": "68.000000000"
+            "turn": "0",
+            "x": "134",
+            "y": "90"
           },
           {
             "rotated": false,
-            "x": "38.000000000",
-            "y": "82.000000000"
+            "turn": "0",
+            "x": "102",
+            "y": "106"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "78",
+            "y": "64"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "52",
+            "y": "101"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "96",
+            "y": "123"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "0",
+            "y": "145"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "52",
+            "y": "120"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "90",
+            "y": "143"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "42",
+            "y": "142"
           },
           {
             "rotated": true,
-            "x": "56.000000000",
-            "y": "55.000000000"
+            "turn": "0",
+            "x": "27",
+            "y": "91"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "114",
+            "y": "64"
           },
           {
             "rotated": true,
-            "x": "20.000000000",
-            "y": "113.000000000"
+            "turn": "0",
+            "x": "0",
+            "y": "91"
           },
           {
             "rotated": false,
-            "x": "38.000000000",
-            "y": "159.000000000"
+            "turn": "0",
+            "x": "0",
+            "y": "63"
           },
           {
             "rotated": false,
-            "x": "38.000000000",
-            "y": "94.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "0.000000000",
-            "y": "153.038255526"
+            "turn": "0",
+            "x": "0",
+            "y": "34"
           },
           {
             "rotated": true,
-            "x": "0.000000000",
-            "y": "34.000000000"
+            "turn": "0",
+            "x": "136",
+            "y": "106"
           },
           {
             "rotated": false,
-            "x": "20.000000000",
-            "y": "64.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "0.000000000",
-            "y": "94.000000000"
+            "turn": "0",
+            "x": "72",
+            "y": "33"
           },
           {
             "rotated": true,
-            "x": "0.000000000",
-            "y": "113.000000000"
+            "turn": "0",
+            "x": "134",
+            "y": "0"
           },
           {
             "rotated": false,
-            "x": "20.000000000",
-            "y": "34.000000000"
+            "turn": "0",
+            "x": "68",
+            "y": "0"
           },
           {
             "rotated": false,
-            "x": "127.048709903",
-            "y": "144.000000000"
-          },
-          {
-            "rotated": true,
-            "x": "38.000000000",
-            "y": "112.688694464"
-          },
-          {
-            "rotated": false,
-            "x": "128.000000000",
-            "y": "120.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "128.000000000",
-            "y": "64.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "126.000000000",
-            "y": "94.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "67.048709903",
-            "y": "151.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "68.000000000",
-            "y": "123.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "68.000000000",
-            "y": "94.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "68.000000000",
-            "y": "64.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "68.000000000",
-            "y": "33.000000000"
-          },
-          {
-            "rotated": true,
-            "x": "134.000000000",
-            "y": "0.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "68.000000000",
-            "y": "0.000000000"
-          },
-          {
-            "rotated": false,
-            "x": "0.000000000",
-            "y": "0.000000000"
+            "turn": "0",
+            "x": "0",
+            "y": "0"
           }
         ],
-        "side": "178.000000000"
+        "side": "166"
       }
     },
     {
@@ -3943,199 +4334,234 @@
         "n": 35
       },
       "objective": "minimize",
-      "scoreStored": "186000000000",
-      "scoreDisplay": "186",
-      "status": "open",
+      "scoreStored": "174000000000",
+      "scoreDisplay": "174",
+      "status": "matched",
       "settled": false,
-      "recordStatus": "open",
+      "recordStatus": "matched",
       "knownBest": {
         "display": "174",
         "kind": "best",
         "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Matthew Sun (June 2026). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
         "url": "https://erich-friedman.github.io/packing/domino/"
       },
-      "holder": "NUE's AI Chanllenge(GLM 5.3 Flash)",
+      "holder": "condor",
       "method": "ai",
-      "recordedAt": "2026-10-26T10:24:50.727Z",
+      "recordedAt": "2026-10-27T06:26:39.482Z",
       "answer": {
         "dominoes": [
           {
+            "rotated": true,
+            "turn": "0",
+            "x": "143",
+            "y": "62"
+          },
+          {
             "rotated": false,
-            "x": "171",
-            "y": "34"
+            "turn": "0",
+            "x": "29",
+            "y": "71"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "126",
+            "y": "121"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "64",
+            "y": "29"
           },
           {
             "rotated": true,
-            "x": "30",
-            "y": "182"
-          },
-          {
-            "rotated": false,
-            "x": "180",
-            "y": "172"
-          },
-          {
-            "rotated": false,
-            "x": "62",
-            "y": "115"
-          },
-          {
-            "rotated": true,
-            "x": "63",
-            "y": "162"
-          },
-          {
-            "rotated": false,
-            "x": "18",
-            "y": "180"
-          },
-          {
-            "rotated": true,
-            "x": "63",
-            "y": "172"
-          },
-          {
-            "rotated": false,
-            "x": "70",
-            "y": "175"
-          },
-          {
-            "rotated": true,
-            "x": "171",
-            "y": "35"
-          },
-          {
-            "rotated": false,
-            "x": "42",
-            "y": "162"
-          },
-          {
-            "rotated": false,
-            "x": "86",
-            "y": "175"
-          },
-          {
-            "rotated": true,
+            "turn": "0",
             "x": "117",
-            "y": "119"
+            "y": "44"
           },
           {
             "rotated": false,
-            "x": "138",
-            "y": "172"
-          },
-          {
-            "rotated": false,
-            "x": "35",
-            "y": "172"
+            "turn": "0",
+            "x": "126",
+            "y": "124"
           },
           {
             "rotated": true,
-            "x": "171",
-            "y": "0"
+            "turn": "0",
+            "x": "137",
+            "y": "98"
           },
           {
             "rotated": false,
-            "x": "35",
-            "y": "146"
+            "turn": "0",
+            "x": "76",
+            "y": "29"
           },
           {
             "rotated": true,
-            "x": "18",
-            "y": "146"
+            "turn": "0",
+            "x": "67",
+            "y": "121"
           },
           {
             "rotated": true,
-            "x": "0",
-            "y": "146"
-          },
-          {
-            "rotated": false,
-            "x": "0",
-            "y": "96"
+            "turn": "0",
+            "x": "122",
+            "y": "42"
           },
           {
             "rotated": true,
-            "x": "42",
-            "y": "96"
+            "turn": "0",
+            "x": "132",
+            "y": "42"
           },
           {
             "rotated": false,
-            "x": "0",
-            "y": "119"
+            "turn": "0",
+            "x": "30",
+            "y": "59"
           },
           {
             "rotated": false,
+            "turn": "0",
+            "x": "91",
+            "y": "44"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
             "x": "0",
+            "y": "59"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "92",
+            "y": "29"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "128",
             "y": "66"
           },
           {
             "rotated": true,
-            "x": "94",
-            "y": "96"
+            "turn": "0",
+            "x": "111",
+            "y": "64"
           },
           {
             "rotated": true,
+            "turn": "0",
+            "x": "73",
+            "y": "37"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "54",
+            "y": "33"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "91",
+            "y": "58"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "122",
+            "y": "0"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "126",
+            "y": "130"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "91",
+            "y": "98"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "67",
+            "y": "73"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "76",
+            "y": "121"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "148",
+            "y": "122"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "0",
+            "y": "32"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
             "x": "70",
-            "y": "96"
-          },
-          {
-            "rotated": false,
-            "x": "130",
-            "y": "66"
-          },
-          {
-            "rotated": false,
-            "x": "130",
             "y": "146"
           },
           {
             "rotated": false,
-            "x": "130",
-            "y": "119"
-          },
-          {
-            "rotated": false,
-            "x": "130",
-            "y": "91"
-          },
-          {
-            "rotated": false,
-            "x": "70",
-            "y": "146"
-          },
-          {
-            "rotated": false,
-            "x": "70",
-            "y": "66"
-          },
-          {
-            "rotated": false,
-            "x": "0",
-            "y": "35"
-          },
-          {
-            "rotated": false,
-            "x": "70",
-            "y": "34"
+            "turn": "0",
+            "x": "64",
+            "y": "0"
           },
           {
             "rotated": true,
-            "x": "138",
+            "turn": "0",
+            "x": "144",
+            "y": "62"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "143",
             "y": "0"
           },
           {
             "rotated": false,
-            "x": "70",
-            "y": "0"
-          },
-          {
-            "rotated": false,
+            "turn": "0",
             "x": "0",
             "y": "0"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "0",
+            "y": "73"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "33",
+            "y": "71"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "0",
+            "y": "139"
           }
         ],
-        "side": "186"
+        "side": "174"
       }
     },
     {
@@ -4145,204 +4571,240 @@
         "n": 36
       },
       "objective": "minimize",
-      "scoreStored": "194000000000",
-      "scoreDisplay": "194",
-      "status": "open",
+      "scoreStored": "181000000000",
+      "scoreDisplay": "181",
+      "status": "ahead",
       "settled": false,
-      "recordStatus": "open",
+      "recordStatus": "ahead",
       "knownBest": {
         "display": "182",
         "kind": "best",
         "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Matthew Sun (June 2026). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
         "url": "https://erich-friedman.github.io/packing/domino/"
       },
-      "holder": "NUE's AI Chanllenge(GLM 5.3 Flash)",
+      "holder": "condor",
       "method": "ai",
-      "recordedAt": "2026-10-26T10:25:12.655Z",
+      "recordedAt": "2026-10-27T06:56:58.853Z",
       "answer": {
         "dominoes": [
           {
             "rotated": true,
+            "turn": "0",
+            "x": "133",
+            "y": "141"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "84",
+            "y": "77"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "85",
+            "y": "65"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "86",
+            "y": "77"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "149",
+            "y": "127"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "88",
+            "y": "65"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "126",
+            "y": "109"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
             "x": "94",
-            "y": "138"
+            "y": "65"
           },
           {
             "rotated": false,
-            "x": "190",
-            "y": "192"
-          },
-          {
-            "rotated": false,
-            "x": "62",
-            "y": "114"
-          },
-          {
-            "rotated": false,
-            "x": "123",
-            "y": "190"
-          },
-          {
-            "rotated": false,
-            "x": "62",
-            "y": "68"
+            "turn": "0",
+            "x": "66",
+            "y": "72"
           },
           {
             "rotated": true,
-            "x": "136",
-            "y": "182"
+            "turn": "0",
+            "x": "59",
+            "y": "125"
           },
           {
             "rotated": true,
-            "x": "176",
-            "y": "53"
+            "turn": "0",
+            "x": "122",
+            "y": "128"
           },
           {
             "rotated": false,
-            "x": "176",
-            "y": "36"
+            "turn": "0",
+            "x": "102",
+            "y": "65"
           },
           {
             "rotated": false,
-            "x": "176",
-            "y": "44"
+            "turn": "0",
+            "x": "85",
+            "y": "52"
           },
           {
             "rotated": true,
-            "x": "182",
-            "y": "97"
+            "turn": "0",
+            "x": "111",
+            "y": "35"
           },
           {
             "rotated": false,
-            "x": "95",
-            "y": "100"
+            "turn": "0",
+            "x": "36",
+            "y": "67"
           },
           {
             "rotated": true,
-            "x": "60",
-            "y": "36"
+            "turn": "0",
+            "x": "133",
+            "y": "109"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "68",
+            "y": "0"
           },
           {
             "rotated": false,
-            "x": "18",
-            "y": "100"
-          },
-          {
-            "rotated": false,
-            "x": "44",
-            "y": "100"
-          },
-          {
-            "rotated": false,
+            "turn": "0",
             "x": "0",
-            "y": "170"
+            "y": "67"
           },
           {
             "rotated": true,
-            "x": "176",
+            "turn": "0",
+            "x": "66",
+            "y": "34"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "134",
+            "y": "141"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "59",
+            "y": "83"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "80",
+            "y": "81"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "126",
+            "y": "63"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "102",
+            "y": "77"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "72",
+            "y": "125"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "85",
             "y": "0"
           },
           {
             "rotated": true,
-            "x": "0",
-            "y": "136"
-          },
-          {
-            "rotated": true,
-            "x": "0",
-            "y": "100"
-          },
-          {
-            "rotated": true,
-            "x": "123",
-            "y": "144"
+            "turn": "0",
+            "x": "154",
+            "y": "127"
           },
           {
             "rotated": false,
-            "x": "142",
-            "y": "97"
-          },
-          {
-            "rotated": false,
-            "x": "94",
-            "y": "117"
-          },
-          {
-            "rotated": true,
-            "x": "72",
-            "y": "100"
-          },
-          {
-            "rotated": true,
-            "x": "72",
-            "y": "144"
-          },
-          {
-            "rotated": true,
-            "x": "167",
-            "y": "144"
-          },
-          {
-            "rotated": true,
-            "x": "142",
-            "y": "144"
-          },
-          {
-            "rotated": false,
-            "x": "18",
-            "y": "117"
-          },
-          {
-            "rotated": false,
-            "x": "136",
-            "y": "117"
-          },
-          {
-            "rotated": true,
-            "x": "95",
-            "y": "138"
-          },
-          {
-            "rotated": false,
-            "x": "136",
-            "y": "68"
-          },
-          {
-            "rotated": false,
-            "x": "0",
-            "y": "36"
-          },
-          {
-            "rotated": false,
-            "x": "0",
-            "y": "68"
-          },
-          {
-            "rotated": false,
-            "x": "72",
-            "y": "68"
-          },
-          {
-            "rotated": false,
-            "x": "72",
+            "turn": "0",
+            "x": "125",
             "y": "35"
           },
           {
             "rotated": true,
-            "x": "142",
-            "y": "0"
+            "turn": "0",
+            "x": "30",
+            "y": "87"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "0",
+            "y": "85"
           },
           {
             "rotated": false,
+            "turn": "0",
             "x": "72",
-            "y": "0"
+            "y": "150"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "149",
+            "y": "63"
           },
           {
             "rotated": false,
+            "turn": "0",
+            "x": "0",
+            "y": "34"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
             "x": "0",
             "y": "0"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "111",
+            "y": "0"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "0",
+            "y": "145"
           }
         ],
-        "side": "194"
+        "side": "181"
       }
     },
     {
@@ -4352,209 +4814,246 @@
         "n": 37
       },
       "objective": "minimize",
-      "scoreStored": "207000000000",
-      "scoreDisplay": "207",
-      "status": "open",
+      "scoreStored": "189000000000",
+      "scoreDisplay": "189",
+      "status": "matched",
       "settled": false,
-      "recordStatus": "open",
+      "recordStatus": "matched",
       "knownBest": {
         "display": "189",
         "kind": "best",
         "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Matthew Sun (June 2026). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
         "url": "https://erich-friedman.github.io/packing/domino/"
       },
-      "holder": "NUE's AI Chanllenge(GLM 5.3 Flash)",
+      "holder": "condor",
       "method": "ai",
-      "recordedAt": "2026-10-26T09:19:22.842Z",
+      "recordedAt": "2026-10-27T06:25:51.606Z",
       "answer": {
         "dominoes": [
           {
-            "rotated": true,
-            "x": "124",
-            "y": "155"
+            "rotated": false,
+            "turn": "0",
+            "x": "46",
+            "y": "129"
           },
           {
             "rotated": true,
-            "x": "124",
-            "y": "157"
+            "turn": "0",
+            "x": "70",
+            "y": "56"
           },
           {
             "rotated": true,
-            "x": "124",
-            "y": "194"
+            "turn": "0",
+            "x": "103",
+            "y": "87"
           },
           {
             "rotated": false,
-            "x": "35",
-            "y": "157"
+            "turn": "0",
+            "x": "64",
+            "y": "52"
           },
           {
             "rotated": true,
-            "x": "202",
-            "y": "151"
+            "turn": "0",
+            "x": "103",
+            "y": "63"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "64",
+            "y": "56"
           },
           {
             "rotated": false,
-            "x": "190",
-            "y": "155"
-          },
-          {
-            "rotated": false,
-            "x": "176",
-            "y": "187"
+            "turn": "0",
+            "x": "144",
+            "y": "182"
           },
           {
             "rotated": true,
-            "x": "118",
-            "y": "18"
-          },
-          {
-            "rotated": true,
-            "x": "118",
-            "y": "0"
-          },
-          {
-            "rotated": true,
-            "x": "196",
-            "y": "73"
-          },
-          {
-            "rotated": true,
-            "x": "35",
-            "y": "23"
-          },
-          {
-            "rotated": false,
-            "x": "176",
-            "y": "194"
-          },
-          {
-            "rotated": false,
-            "x": "127",
-            "y": "23"
-          },
-          {
-            "rotated": true,
-            "x": "176",
-            "y": "159"
-          },
-          {
-            "rotated": false,
-            "x": "97",
+            "turn": "0",
+            "x": "64",
             "y": "36"
           },
           {
             "rotated": false,
-            "x": "46",
-            "y": "77"
+            "turn": "0",
+            "x": "70",
+            "y": "65"
           },
           {
             "rotated": false,
-            "x": "156",
-            "y": "142"
-          },
-          {
-            "rotated": true,
-            "x": "156",
-            "y": "0"
-          },
-          {
-            "rotated": false,
-            "x": "118",
-            "y": "73"
-          },
-          {
-            "rotated": false,
-            "x": "156",
-            "y": "73"
-          },
-          {
-            "rotated": true,
-            "x": "155",
-            "y": "161"
-          },
-          {
-            "rotated": true,
-            "x": "66",
-            "y": "161"
-          },
-          {
-            "rotated": false,
+            "turn": "0",
             "x": "0",
-            "y": "0"
+            "y": "119"
           },
           {
             "rotated": false,
-            "x": "156",
+            "turn": "0",
+            "x": "27",
             "y": "118"
           },
           {
             "rotated": false,
-            "x": "156",
+            "turn": "0",
+            "x": "108",
+            "y": "63"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "91",
+            "y": "127"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "144",
+            "y": "154"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "88",
+            "y": "63"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "138",
+            "y": "0"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "89",
             "y": "93"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "70",
+            "y": "74"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "136",
+            "y": "33"
           },
           {
             "rotated": false,
-            "x": "66",
-            "y": "51"
+            "turn": "0",
+            "x": "49",
+            "y": "110"
           },
           {
             "rotated": true,
-            "x": "97",
-            "y": "153"
-          },
-          {
-            "rotated": true,
-            "x": "127",
-            "y": "151"
-          },
-          {
-            "rotated": true,
-            "x": "127",
-            "y": "93"
-          },
-          {
-            "rotated": true,
-            "x": "97",
-            "y": "93"
-          },
-          {
-            "rotated": true,
-            "x": "66",
-            "y": "93"
-          },
-          {
-            "rotated": true,
-            "x": "34",
-            "y": "93"
+            "turn": "0",
+            "x": "49",
+            "y": "68"
           },
           {
             "rotated": false,
-            "x": "0",
-            "y": "161"
-          },
-          {
-            "rotated": true,
-            "x": "0",
-            "y": "93"
-          },
-          {
-            "rotated": true,
-            "x": "0",
-            "y": "23"
-          },
-          {
-            "rotated": false,
+            "turn": "0",
             "x": "46",
+            "y": "130"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "0",
+            "y": "129"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "0",
+            "y": "68"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "24",
+            "y": "68"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "106",
+            "y": "75"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "104",
+            "y": "127"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "132",
+            "y": "71"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "160",
+            "y": "68"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "72",
+            "y": "33"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "158",
+            "y": "127"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "0",
+            "y": "36"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "72",
+            "y": "0"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "155",
             "y": "0"
           },
           {
             "rotated": false,
-            "x": "127",
-            "y": "36"
+            "turn": "0",
+            "x": "74",
+            "y": "154"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "0",
+            "y": "0"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "0",
+            "y": "152"
           }
         ],
-        "side": "207"
+        "side": "189"
       }
     },
     {
@@ -4564,214 +5063,252 @@
         "n": 38
       },
       "objective": "minimize",
-      "scoreStored": "208000000000",
-      "scoreDisplay": "208",
-      "status": "open",
+      "scoreStored": "196000000000",
+      "scoreDisplay": "196",
+      "status": "ahead",
       "settled": false,
-      "recordStatus": "open",
+      "recordStatus": "ahead",
       "knownBest": {
         "display": "197",
         "kind": "best",
         "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Matthew Sun (June 2026). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
         "url": "https://erich-friedman.github.io/packing/domino/"
       },
-      "holder": "NUE's AI Chanllenge(GLM 5.3 Flash)",
+      "holder": "condor",
       "method": "ai",
-      "recordedAt": "2026-10-26T10:12:39.216Z",
+      "recordedAt": "2026-10-27T06:43:34.307Z",
       "answer": {
         "dominoes": [
           {
             "rotated": false,
-            "x": "205",
-            "y": "37"
+            "turn": "0",
+            "x": "79",
+            "y": "65"
           },
           {
-            "rotated": true,
-            "x": "206",
-            "y": "72"
-          },
-          {
-            "rotated": true,
-            "x": "183",
+            "rotated": false,
+            "turn": "0",
+            "x": "110",
             "y": "72"
           },
           {
             "rotated": false,
-            "x": "106",
-            "y": "190"
-          },
-          {
-            "rotated": true,
-            "x": "186",
-            "y": "128"
-          },
-          {
-            "rotated": false,
-            "x": "99",
+            "turn": "0",
+            "x": "101",
             "y": "72"
           },
           {
-            "rotated": true,
-            "x": "106",
-            "y": "124"
+            "rotated": false,
+            "turn": "0",
+            "x": "136",
+            "y": "114"
           },
           {
             "rotated": true,
-            "x": "106",
-            "y": "108"
+            "turn": "0",
+            "x": "96",
+            "y": "72"
           },
           {
             "rotated": false,
+            "turn": "0",
             "x": "76",
-            "y": "198"
+            "y": "158"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "89",
+            "y": "72"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "102",
+            "y": "75"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "70",
+            "y": "65"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "79",
+            "y": "66"
           },
           {
             "rotated": false,
-            "x": "94",
-            "y": "198"
+            "turn": "0",
+            "x": "92",
+            "y": "61"
           },
           {
             "rotated": false,
-            "x": "0",
-            "y": "126"
+            "turn": "0",
+            "x": "141",
+            "y": "134"
           },
           {
             "rotated": false,
+            "turn": "0",
             "x": "114",
-            "y": "126"
+            "y": "61"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "84",
+            "y": "86"
           },
           {
             "rotated": false,
-            "x": "181",
-            "y": "192"
+            "turn": "0",
+            "x": "136",
+            "y": "118"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "68",
+            "y": "86"
           },
           {
             "rotated": false,
-            "x": "0",
-            "y": "194"
+            "turn": "0",
+            "x": "110",
+            "y": "74"
           },
           {
             "rotated": true,
-            "x": "99",
-            "y": "78"
-          },
-          {
-            "rotated": true,
-            "x": "132",
-            "y": "138"
-          },
-          {
-            "rotated": true,
-            "x": "57",
-            "y": "138"
-          },
-          {
-            "rotated": false,
-            "x": "114",
-            "y": "190"
-          },
-          {
-            "rotated": true,
-            "x": "186",
+            "turn": "0",
+            "x": "140",
             "y": "0"
           },
           {
             "rotated": true,
-            "x": "186",
-            "y": "38"
+            "turn": "0",
+            "x": "140",
+            "y": "36"
           },
           {
             "rotated": true,
-            "x": "54",
-            "y": "78"
+            "turn": "0",
+            "x": "68",
+            "y": "118"
           },
           {
-            "rotated": true,
-            "x": "0",
-            "y": "78"
-          },
-          {
-            "rotated": true,
-            "x": "76",
-            "y": "78"
-          },
-          {
-            "rotated": true,
-            "x": "114",
-            "y": "78"
-          },
-          {
-            "rotated": true,
-            "x": "183",
-            "y": "78"
-          },
-          {
-            "rotated": true,
-            "x": "106",
-            "y": "138"
-          },
-          {
-            "rotated": true,
-            "x": "181",
-            "y": "138"
-          },
-          {
-            "rotated": true,
-            "x": "0",
-            "y": "138"
-          },
-          {
-            "rotated": true,
+            "rotated": false,
+            "turn": "0",
             "x": "28",
-            "y": "138"
+            "y": "65"
           },
           {
             "rotated": true,
-            "x": "76",
-            "y": "138"
-          },
-          {
-            "rotated": true,
-            "x": "150",
-            "y": "138"
-          },
-          {
-            "rotated": true,
-            "x": "22",
-            "y": "72"
-          },
-          {
-            "rotated": true,
-            "x": "150",
-            "y": "72"
+            "turn": "0",
+            "x": "144",
+            "y": "74"
           },
           {
             "rotated": false,
+            "turn": "0",
+            "x": "98",
+            "y": "91"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "88",
+            "y": "114"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "140",
+            "y": "146"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "88",
+            "y": "138"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "86",
+            "y": "34"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
             "x": "0",
-            "y": "38"
+            "y": "36"
           },
           {
             "rotated": false,
-            "x": "76",
-            "y": "37"
+            "turn": "0",
+            "x": "28",
+            "y": "36"
           },
           {
             "rotated": true,
-            "x": "150",
-            "y": "0"
+            "turn": "0",
+            "x": "166",
+            "y": "74"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "165",
+            "y": "134"
           },
           {
             "rotated": false,
+            "turn": "0",
             "x": "76",
-            "y": "0"
+            "y": "164"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "0",
+            "y": "92"
           },
           {
             "rotated": false,
+            "turn": "0",
+            "x": "72",
+            "y": "0"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "33",
+            "y": "88"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
             "x": "0",
             "y": "0"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "159",
+            "y": "0"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "0",
+            "y": "158"
           }
         ],
-        "side": "208"
+        "side": "196"
       }
     },
     {
@@ -4781,219 +5318,258 @@
         "n": 39
       },
       "objective": "minimize",
-      "scoreStored": "220000000000",
-      "scoreDisplay": "220",
-      "status": "open",
+      "scoreStored": "204000000000",
+      "scoreDisplay": "204",
+      "status": "matched",
       "settled": false,
-      "recordStatus": "open",
+      "recordStatus": "matched",
       "knownBest": {
         "display": "204",
         "kind": "best",
         "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Rowan Jones (October 2026). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
         "url": "https://erich-friedman.github.io/packing/domino/"
       },
-      "holder": "NUE's AI Chanllenge(GLM 5.3 Flash)",
+      "holder": "condor",
       "method": "ai",
-      "recordedAt": "2026-10-26T10:15:42.523Z",
+      "recordedAt": "2026-10-27T06:26:22.818Z",
       "answer": {
         "dominoes": [
           {
             "rotated": false,
-            "x": "146",
-            "y": "219"
-          },
-          {
-            "rotated": true,
-            "x": "76",
-            "y": "189"
-          },
-          {
-            "rotated": false,
-            "x": "72",
-            "y": "70"
-          },
-          {
-            "rotated": true,
-            "x": "72",
-            "y": "101"
-          },
-          {
-            "rotated": true,
-            "x": "140",
-            "y": "163"
-          },
-          {
-            "rotated": true,
-            "x": "56",
-            "y": "149"
-          },
-          {
-            "rotated": false,
-            "x": "0",
-            "y": "101"
-          },
-          {
-            "rotated": false,
-            "x": "62",
-            "y": "181"
-          },
-          {
-            "rotated": false,
-            "x": "128",
-            "y": "211"
-          },
-          {
-            "rotated": false,
-            "x": "128",
-            "y": "139"
-          },
-          {
-            "rotated": false,
-            "x": "56",
-            "y": "207"
-          },
-          {
-            "rotated": true,
-            "x": "128",
-            "y": "149"
-          },
-          {
-            "rotated": false,
-            "x": "52",
-            "y": "194"
-          },
-          {
-            "rotated": false,
-            "x": "78",
-            "y": "149"
-          },
-          {
-            "rotated": true,
-            "x": "136",
-            "y": "109"
-          },
-          {
-            "rotated": true,
-            "x": "62",
-            "y": "149"
-          },
-          {
-            "rotated": true,
-            "x": "191",
-            "y": "39"
-          },
-          {
-            "rotated": true,
-            "x": "54",
-            "y": "70"
-          },
-          {
-            "rotated": true,
-            "x": "128",
-            "y": "173"
-          },
-          {
-            "rotated": true,
-            "x": "56",
-            "y": "109"
-          },
-          {
-            "rotated": false,
-            "x": "148",
-            "y": "173"
-          },
-          {
-            "rotated": true,
-            "x": "106",
-            "y": "149"
-          },
-          {
-            "rotated": true,
-            "x": "191",
-            "y": "173"
-          },
-          {
-            "rotated": false,
-            "x": "0",
-            "y": "139"
-          },
-          {
-            "rotated": false,
-            "x": "78",
-            "y": "194"
-          },
-          {
-            "rotated": false,
-            "x": "0",
-            "y": "194"
-          },
-          {
-            "rotated": false,
-            "x": "0",
-            "y": "74"
-          },
-          {
-            "rotated": false,
-            "x": "0",
-            "y": "109"
-          },
-          {
-            "rotated": false,
-            "x": "78",
-            "y": "109"
-          },
-          {
-            "rotated": false,
-            "x": "0",
-            "y": "163"
-          },
-          {
-            "rotated": false,
-            "x": "0",
-            "y": "39"
-          },
-          {
-            "rotated": false,
-            "x": "154",
-            "y": "107"
-          },
-          {
-            "rotated": false,
-            "x": "154",
-            "y": "74"
-          },
-          {
-            "rotated": false,
-            "x": "148",
-            "y": "139"
-          },
-          {
-            "rotated": false,
-            "x": "78",
-            "y": "74"
-          },
-          {
-            "rotated": false,
+            "turn": "0",
             "x": "78",
             "y": "38"
           },
           {
+            "rotated": false,
+            "turn": "0",
+            "x": "169",
+            "y": "142"
+          },
+          {
             "rotated": true,
+            "turn": "0",
+            "x": "140",
+            "y": "171"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "97",
+            "y": "77"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "154",
+            "y": "28"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "78",
+            "y": "93"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "126",
+            "y": "50"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "132",
+            "y": "57"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "120",
+            "y": "59"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "59",
+            "y": "117"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "140",
+            "y": "51"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "126",
+            "y": "38"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "84",
+            "y": "77"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
             "x": "154",
             "y": "0"
           },
           {
             "rotated": false,
+            "turn": "0",
+            "x": "101",
+            "y": "77"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "79",
+            "y": "107"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "151",
+            "y": "39"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "84",
+            "y": "59"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "131",
+            "y": "73"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "59",
+            "y": "127"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "84",
+            "y": "38"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "34",
+            "y": "95"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "97",
+            "y": "92"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "95",
+            "y": "115"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "34",
+            "y": "117"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "143",
+            "y": "92"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "57",
+            "y": "39"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "29",
+            "y": "39"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "0",
+            "y": "39"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "143",
+            "y": "144"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "173",
+            "y": "142"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "79",
+            "y": "139"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "74",
+            "y": "171"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "0",
+            "y": "99"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "169",
+            "y": "72"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "168",
+            "y": "0"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "0",
+            "y": "167"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
             "x": "78",
             "y": "0"
           },
           {
             "rotated": false,
+            "turn": "0",
             "x": "0",
             "y": "0"
           }
         ],
-        "side": "220"
+        "side": "204"
       }
     },
     {
@@ -5003,224 +5579,264 @@
         "n": 40
       },
       "objective": "minimize",
-      "scoreStored": "231000000000",
-      "scoreDisplay": "231",
-      "status": "open",
+      "scoreStored": "212000000000",
+      "scoreDisplay": "212",
+      "status": "matched",
       "settled": false,
-      "recordStatus": "open",
+      "recordStatus": "matched",
       "knownBest": {
         "display": "212",
         "kind": "best",
         "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Rowan Jones (October 2026). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
         "url": "https://erich-friedman.github.io/packing/domino/"
       },
-      "holder": "NUE's AI Chanllenge(GLM 5.3 Flash)",
+      "holder": "condor",
       "method": "ai",
-      "recordedAt": "2026-10-26T10:12:46.269Z",
+      "recordedAt": "2026-10-27T06:26:07.264Z",
       "answer": {
         "dominoes": [
           {
             "rotated": true,
-            "x": "76",
-            "y": "229"
-          },
-          {
-            "rotated": false,
-            "x": "76",
-            "y": "217"
-          },
-          {
-            "rotated": true,
-            "x": "227",
-            "y": "167"
-          },
-          {
-            "rotated": true,
-            "x": "76",
-            "y": "219"
-          },
-          {
-            "rotated": true,
-            "x": "191",
-            "y": "99"
-          },
-          {
-            "rotated": true,
-            "x": "70",
-            "y": "219"
-          },
-          {
-            "rotated": true,
-            "x": "80",
-            "y": "217"
-          },
-          {
-            "rotated": false,
-            "x": "90",
-            "y": "159"
-          },
-          {
-            "rotated": true,
-            "x": "222",
-            "y": "40"
-          },
-          {
-            "rotated": true,
-            "x": "70",
-            "y": "190"
-          },
-          {
-            "rotated": true,
-            "x": "38",
+            "turn": "0",
+            "x": "174",
             "y": "76"
           },
           {
             "rotated": true,
-            "x": "64",
-            "y": "166"
+            "turn": "0",
+            "x": "172",
+            "y": "32"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "93",
+            "y": "144"
           },
           {
             "rotated": false,
-            "x": "196",
-            "y": "40"
+            "turn": "0",
+            "x": "146",
+            "y": "75"
           },
           {
             "rotated": true,
-            "x": "64",
-            "y": "70"
+            "turn": "0",
+            "x": "99",
+            "y": "113"
           },
           {
             "rotated": true,
-            "x": "64",
-            "y": "40"
-          },
-          {
-            "rotated": true,
-            "x": "64",
-            "y": "134"
-          },
-          {
-            "rotated": false,
-            "x": "124",
-            "y": "214"
-          },
-          {
-            "rotated": true,
+            "turn": "0",
             "x": "72",
-            "y": "98"
+            "y": "64"
           },
           {
             "rotated": false,
-            "x": "0",
-            "y": "76"
+            "turn": "0",
+            "x": "158",
+            "y": "32"
           },
           {
             "rotated": true,
-            "x": "196",
+            "turn": "0",
+            "x": "72",
+            "y": "40"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "76",
+            "y": "76"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "36",
+            "y": "104"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "81",
+            "y": "39"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "67",
+            "y": "114"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "78",
+            "y": "100"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "108",
+            "y": "61"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "78",
+            "y": "61"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "158",
             "y": "0"
           },
           {
-            "rotated": false,
-            "x": "153",
-            "y": "76"
-          },
-          {
-            "rotated": false,
-            "x": "80",
-            "y": "76"
+            "rotated": true,
+            "turn": "0",
+            "x": "68",
+            "y": "178"
           },
           {
             "rotated": true,
-            "x": "196",
-            "y": "53"
-          },
-          {
-            "rotated": false,
-            "x": "105",
-            "y": "190"
-          },
-          {
-            "rotated": true,
-            "x": "80",
-            "y": "167"
-          },
-          {
-            "rotated": true,
-            "x": "158",
-            "y": "167"
-          },
-          {
-            "rotated": false,
-            "x": "0",
-            "y": "40"
-          },
-          {
-            "rotated": true,
-            "x": "124",
-            "y": "134"
-          },
-          {
-            "rotated": true,
-            "x": "124",
-            "y": "76"
-          },
-          {
-            "rotated": true,
-            "x": "90",
-            "y": "99"
-          },
-          {
-            "rotated": true,
-            "x": "196",
-            "y": "167"
-          },
-          {
-            "rotated": false,
-            "x": "0",
-            "y": "134"
-          },
-          {
-            "rotated": true,
-            "x": "158",
-            "y": "99"
-          },
-          {
-            "rotated": true,
-            "x": "196",
-            "y": "99"
-          },
-          {
-            "rotated": false,
-            "x": "0",
-            "y": "190"
-          },
-          {
-            "rotated": false,
-            "x": "0",
-            "y": "98"
-          },
-          {
-            "rotated": false,
-            "x": "80",
+            "turn": "0",
+            "x": "136",
             "y": "39"
           },
           {
             "rotated": true,
-            "x": "158",
+            "turn": "0",
+            "x": "56",
+            "y": "76"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "154",
+            "y": "39"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "133",
+            "y": "79"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "92",
+            "y": "39"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "104",
+            "y": "100"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "85",
+            "y": "76"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "150",
+            "y": "100"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "67",
+            "y": "126"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "96",
+            "y": "123"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "0",
+            "y": "76"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "93",
+            "y": "150"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "182",
+            "y": "150"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "151",
+            "y": "150"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "35",
+            "y": "114"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "85",
+            "y": "179"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "0",
+            "y": "178"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "0",
+            "y": "108"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "0",
+            "y": "40"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "175",
+            "y": "76"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "174",
             "y": "0"
           },
           {
             "rotated": false,
+            "turn": "0",
             "x": "80",
             "y": "0"
           },
           {
             "rotated": false,
+            "turn": "0",
             "x": "0",
             "y": "0"
           }
         ],
-        "side": "231"
+        "side": "212"
       }
     },
     {
@@ -5230,229 +5846,270 @@
         "n": 41
       },
       "objective": "minimize",
-      "scoreStored": "227000000000",
-      "scoreDisplay": "227",
-      "status": "open",
+      "scoreStored": "220000000000",
+      "scoreDisplay": "220",
+      "status": "matched",
       "settled": false,
-      "recordStatus": "open",
+      "recordStatus": "matched",
       "knownBest": {
         "display": "220",
         "kind": "best",
         "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Rowan Jones (October 2026). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
         "url": "https://erich-friedman.github.io/packing/domino/"
       },
-      "holder": "NUE's AI Chanllenge(GLM 5.3 Flash)",
+      "holder": "condor",
       "method": "ai",
-      "recordedAt": "2026-10-26T10:17:28.454Z",
+      "recordedAt": "2026-10-27T06:29:29.994Z",
       "answer": {
         "dominoes": [
           {
             "rotated": false,
-            "x": "165",
-            "y": "189"
-          },
-          {
-            "rotated": false,
-            "x": "223",
-            "y": "102"
-          },
-          {
-            "rotated": false,
-            "x": "221",
-            "y": "187"
+            "turn": "0",
+            "x": "62",
+            "y": "34"
           },
           {
             "rotated": true,
-            "x": "219",
-            "y": "96"
+            "turn": "0",
+            "x": "108",
+            "y": "91"
           },
           {
             "rotated": true,
-            "x": "219",
-            "y": "104"
+            "turn": "0",
+            "x": "114",
+            "y": "150"
           },
           {
             "rotated": false,
-            "x": "214",
-            "y": "190"
+            "turn": "0",
+            "x": "98",
+            "y": "144"
           },
           {
             "rotated": false,
-            "x": "167",
-            "y": "130"
+            "turn": "0",
+            "x": "184",
+            "y": "74"
           },
           {
             "rotated": false,
-            "x": "165",
-            "y": "122"
-          },
-          {
-            "rotated": false,
-            "x": "74",
-            "y": "104"
-          },
-          {
-            "rotated": false,
-            "x": "161",
-            "y": "179"
-          },
-          {
-            "rotated": false,
-            "x": "74",
-            "y": "215"
-          },
-          {
-            "rotated": false,
-            "x": "106",
-            "y": "102"
+            "turn": "0",
+            "x": "65",
+            "y": "150"
           },
           {
             "rotated": true,
-            "x": "214",
-            "y": "161"
+            "turn": "0",
+            "x": "131",
+            "y": "59"
           },
           {
             "rotated": false,
-            "x": "137",
-            "y": "100"
+            "turn": "0",
+            "x": "98",
+            "y": "148"
           },
           {
             "rotated": true,
-            "x": "152",
-            "y": "0"
+            "turn": "0",
+            "x": "130",
+            "y": "159"
           },
           {
             "rotated": true,
-            "x": "198",
-            "y": "161"
+            "turn": "0",
+            "x": "139",
+            "y": "159"
           },
           {
             "rotated": true,
-            "x": "181",
-            "y": "161"
-          },
-          {
-            "rotated": false,
-            "x": "181",
-            "y": "143"
-          },
-          {
-            "rotated": false,
-            "x": "74",
-            "y": "196"
+            "turn": "0",
+            "x": "149",
+            "y": "159"
           },
           {
             "rotated": true,
-            "x": "161",
-            "y": "139"
-          },
-          {
-            "rotated": false,
-            "x": "181",
-            "y": "122"
+            "turn": "0",
+            "x": "126",
+            "y": "35"
           },
           {
             "rotated": true,
-            "x": "115",
-            "y": "139"
+            "turn": "0",
+            "x": "117",
+            "y": "141"
           },
           {
             "rotated": false,
-            "x": "181",
-            "y": "196"
+            "turn": "0",
+            "x": "37",
+            "y": "150"
           },
           {
             "rotated": true,
-            "x": "137",
-            "y": "139"
-          },
-          {
-            "rotated": false,
-            "x": "115",
-            "y": "114"
-          },
-          {
-            "rotated": false,
-            "x": "167",
-            "y": "96"
-          },
-          {
-            "rotated": false,
-            "x": "167",
-            "y": "69"
-          },
-          {
-            "rotated": false,
-            "x": "167",
-            "y": "0"
-          },
-          {
-            "rotated": false,
-            "x": "167",
-            "y": "40"
-          },
-          {
-            "rotated": true,
-            "x": "137",
-            "y": "40"
-          },
-          {
-            "rotated": true,
-            "x": "106",
-            "y": "40"
-          },
-          {
-            "rotated": true,
-            "x": "74",
-            "y": "40"
-          },
-          {
-            "rotated": false,
-            "x": "115",
-            "y": "190"
-          },
-          {
-            "rotated": true,
-            "x": "38",
+            "turn": "0",
+            "x": "98",
             "y": "114"
           },
           {
             "rotated": true,
-            "x": "39",
-            "y": "40"
+            "turn": "0",
+            "x": "138",
+            "y": "41"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "113",
+            "y": "107"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "59",
+            "y": "114"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "40",
+            "y": "109"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "110",
+            "y": "67"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "77",
+            "y": "114"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "40",
+            "y": "65"
           },
           {
             "rotated": false,
+            "turn": "0",
+            "x": "62",
+            "y": "91"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "62",
+            "y": "67"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "159",
+            "y": "101"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "65",
+            "y": "156"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "130",
+            "y": "74"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "37",
+            "y": "164"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "130",
+            "y": "101"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "160",
+            "y": "151"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "0",
+            "y": "34"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "62",
+            "y": "35"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "154",
+            "y": "41"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
             "x": "0",
             "y": "0"
           },
           {
             "rotated": false,
-            "x": "0",
-            "y": "190"
-          },
-          {
-            "rotated": true,
-            "x": "0",
-            "y": "114"
-          },
-          {
-            "rotated": true,
-            "x": "0",
-            "y": "36"
-          },
-          {
-            "rotated": false,
-            "x": "72",
+            "turn": "0",
+            "x": "68",
             "y": "0"
           },
           {
             "rotated": true,
-            "x": "74",
-            "y": "114"
+            "turn": "0",
+            "x": "184",
+            "y": "79"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "0",
+            "y": "145"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "66",
+            "y": "182"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "142",
+            "y": "181"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "0",
+            "y": "65"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "138",
+            "y": "0"
           }
         ],
-        "side": "227"
+        "side": "220"
       }
     }
   ]

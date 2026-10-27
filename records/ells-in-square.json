@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/ells-in-square",
-  "generatedAt": "2026-10-25T09:55:30.459Z",
+  "generatedAt": "2026-10-27T10:42:04.777Z",
   "instances": [
     {
       "instanceId": "p91-n1-v1",
@@ -4271,19 +4271,18 @@
       "objective": "minimize",
       "scoreStored": "10656854403497494361",
       "scoreDisplay": "10.656854404",
-      "status": "ahead",
+      "status": "open",
       "settled": false,
-      "recordStatus": "ahead",
+      "recordStatus": "open",
       "knownBest": {
-        "display": "10.76777",
+        "display": "10.656854249492380195206754896836",
         "kind": "best",
         "range": {
-          "lower": "10.767766952",
-          "upper": "10.76778",
-          "upperInclusive": false
+          "lower": "10.656854249492380195206754896836",
+          "upper": "10.656854249492380195206754896840"
         },
-        "truncated": true,
-        "source": "Compiled by Erich Friedman; Found by Joshua Wolk in September 2026. Source expression: s = 10.76777+. Rechecked 2026-10-08: Wolk's published figure re-optimises to 9 + 5√2/4 = 10.767766952…, so the printed 10.76777+ is rounded; anything from 10.767766952 up to the printed interval matches the known configuration, and only a smaller side leads.",
+        "exact": "5 + 4√2",
+        "source": "Maurizio Morandi (October 2026), compiled by Erich Friedman. Checked 2026-10-27 at revision 813d182ac0a4d679b230ce7d3062c841468b88b4. The value and precision are those of the source; optimality is unproved.",
         "url": "https://erich-friedman.github.io/packing/linsqu/"
       },
       "holder": "NUE_13",
@@ -4509,19 +4508,18 @@
       "objective": "minimize",
       "scoreStored": "10863961184718009103",
       "scoreDisplay": "10.863961185",
-      "status": "ahead",
+      "status": "open",
       "settled": false,
-      "recordStatus": "ahead",
+      "recordStatus": "open",
       "knownBest": {
-        "display": "10.86965",
+        "display": "10.8639610306789277196075992589405",
         "kind": "best",
         "range": {
-          "lower": "10.86965",
-          "upper": "10.86966",
-          "upperInclusive": false
+          "lower": "10.8639610306789277196075992589405",
+          "upper": "10.8639610306789277196075992589450"
         },
-        "truncated": true,
-        "source": "Compiled by Erich Friedman; Found by Joshua Wolk in September 2026. Source expression: s = 10.86965+.",
+        "exact": "9(1 + √2)/2",
+        "source": "Maurizio Morandi (October 2026), compiled by Erich Friedman. Checked 2026-10-27 at revision 813d182ac0a4d679b230ce7d3062c841468b88b4. The value and precision are those of the source; optimality is unproved.",
         "url": "https://erich-friedman.github.io/packing/linsqu/"
       },
       "holder": "NUE_13",

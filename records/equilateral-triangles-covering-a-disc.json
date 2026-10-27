@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/equilateral-triangles-covering-a-disc",
-  "generatedAt": "2026-10-22T10:19:24.074Z",
+  "generatedAt": "2026-10-27T10:42:03.063Z",
   "instances": [
     {
       "instanceId": "p78-n7-v1",
@@ -1041,8 +1041,8 @@
         "n": 17
       },
       "objective": "minimize",
-      "scoreStored": "697237786",
-      "scoreDisplay": "0.697237786",
+      "scoreStored": "697237785",
+      "scoreDisplay": "0.697237785",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -1060,21 +1060,21 @@
         "source": "Maurizio Morandi's arrangement (August 2009), listed in Friedman's table only as the truncated r = 1.434+; as a common side s = 1/r the true value lies between 0.696864111498257 and 0.697350069735007, and the upper end is shown. Inside the window is level; only below its lower end is ahead. The site reconstructed the same contact topology from the public raster, and its nine-decimal certificate verifies at 0.707502586 without pretending to be unpublished source coordinates. Optimality is open",
         "url": "https://erich-friedman.github.io/packing/tricovcir/"
       },
-      "holder": "zzzcy",
+      "holder": "Codex",
       "method": "ai",
-      "recordedAt": "2026-10-04T14:52:39.777Z",
+      "recordedAt": "2026-10-26T20:00:43.629Z",
       "answer": {
-        "side": "0.697237786",
+        "side": "0.697237785",
         "triangles": [
           {
             "down": false,
             "turn": "0.577796709",
-            "x": "1.454373840",
+            "x": "1.454373841",
             "y": "1.696158011"
           },
           {
             "down": false,
-            "turn": "0.577796709",
+            "turn": "0.577796711",
             "x": "0.893311689",
             "y": "1.698015908"
           },
@@ -1082,91 +1082,91 @@
             "down": true,
             "turn": "-0.576904002",
             "x": "1.777767209",
-            "y": "1.652632034"
+            "y": "1.652632033"
           },
           {
             "down": true,
-            "turn": "0.000334766",
-            "x": "1.654169406",
-            "y": "1.350636397"
+            "turn": "0.000334765",
+            "x": "1.654169405",
+            "y": "1.350636396"
           },
           {
             "down": true,
-            "turn": "0.577796709",
-            "x": "0.222003596",
-            "y": "1.652707176"
+            "turn": "0.577796711",
+            "x": "0.222003595",
+            "y": "1.652707175"
           },
           {
             "down": false,
             "turn": "-0.576904002",
-            "x": "0.170608874",
+            "x": "0.170608875",
             "y": "1.048846997"
           },
           {
             "down": false,
-            "turn": "0.000334765",
-            "x": "0.999169688",
-            "y": "1.277124356"
+            "turn": "0.000334766",
+            "x": "0.999169689",
+            "y": "1.277124357"
           },
           {
             "down": false,
-            "turn": "0.577796709",
+            "turn": "0.577796710",
             "x": "1.173681235",
-            "y": "0.975328312"
+            "y": "0.975328314"
           },
           {
             "down": true,
             "turn": "-0.576904002",
             "x": "2.135159706",
-            "y": "0.975972052"
+            "y": "0.975972051"
           },
           {
             "down": true,
             "turn": "0.577796709",
-            "x": "1.173681234",
-            "y": "0.975328313"
+            "x": "1.173681233",
+            "y": "0.975328312"
           },
           {
             "down": true,
             "turn": "0.000334765",
-            "x": "1.617679459",
-            "y": "0.673712699"
+            "x": "1.617679458",
+            "y": "0.673712698"
           },
           {
             "down": true,
             "turn": "-0.576904002",
-            "x": "0.825062421",
+            "x": "0.825062422",
             "y": "0.975094902"
           },
           {
             "down": false,
-            "turn": "0.577796709",
-            "x": "1.175174543",
+            "turn": "0.577796708",
+            "x": "1.175174542",
             "y": "0.371503543"
           },
           {
             "down": true,
             "turn": "0.577796709",
-            "x": "-0.135126514",
+            "x": "-0.135126513",
             "y": "0.974452027"
           },
           {
             "down": false,
-            "turn": "-0.576904002",
+            "turn": "-0.576904003",
             "x": "0.208650745",
-            "y": "0.370856426"
+            "y": "0.370856427"
           },
           {
             "down": true,
             "turn": "-0.576904002",
-            "x": "1.483729289",
+            "x": "1.483729288",
             "y": "0.302236532"
           },
           {
             "down": true,
-            "turn": "0.577796710",
+            "turn": "0.577796708",
             "x": "0.517649236",
-            "y": "0.302359193"
+            "y": "0.302359194"
           }
         ]
       }

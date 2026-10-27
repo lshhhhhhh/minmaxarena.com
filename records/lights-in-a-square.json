@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/lights-in-a-square",
-  "generatedAt": "2026-10-19T10:57:04.247Z",
+  "generatedAt": "2026-10-27T10:42:01.118Z",
   "instances": [
     {
       "instanceId": "p51-n2-v1",
@@ -3169,14 +3169,19 @@
       "objective": "maximize",
       "scoreStored": "346523376",
       "scoreDisplay": "346.523376",
-      "status": "ahead",
+      "status": "matched",
       "settled": false,
-      "recordStatus": "ahead",
+      "recordStatus": "matched",
       "knownBest": {
-        "display": "346.509",
+        "display": "346.523",
         "kind": "best",
+        "range": {
+          "lower": "346.523",
+          "upper": "346.524",
+          "upperInclusive": false
+        },
         "truncated": true,
-        "source": "Mishari Alhussain (September 2026), compiled by Erich Friedman, checked 2026-09-18. The interval follows the source's three-decimal truncated precision; optimality is open.",
+        "source": "Mishari Alhussain (October 2026), compiled by Erich Friedman. Checked 2026-10-27 at revision eeb786be0b6647cac547bd5de3feebf1cdcd35ac. The value and precision are those of the source; optimality is unproved.",
         "url": "https://erich-friedman.github.io/packing/light/"
       },
       "holder": "qiboqi",
