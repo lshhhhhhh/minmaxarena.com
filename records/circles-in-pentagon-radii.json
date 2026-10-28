@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/circles-in-pentagon-radii",
-  "generatedAt": "2026-10-27T10:42:03.852Z",
+  "generatedAt": "2026-10-28T11:26:02.191Z",
   "instances": [
     {
       "instanceId": "p94-n1-v1",
@@ -25,12 +25,16 @@
       "settled": true,
       "recordStatus": "open",
       "knownBest": {
-        "display": "0.6881909602355868",
+        "display": "0.688190960235586769103604790955",
         "kind": "proven",
+        "range": {
+          "lower": "0.688190960235586769103604790955",
+          "upper": "0.688190960235586769103604790956"
+        },
         "exact": "√(25 + 10√5)/10",
         "proofScope": "continuous",
-        "source": "Joining any interior point to the five corners cuts the pentagon into five triangles whose areas add up to ½·(sum of the point's distances to the sides)·1 = 5ρ/2, where ρ = cot(π/5)/2 is the inradius. Each distance is at least r for the centre of an inscribed circle, so 5r/2 ≤ 5ρ/2 and r ≤ ρ, attained by the incircle. The continuous problem is solved; a nine-decimal certificate cannot attain this irrational value, and no grid-optimality claim is made.",
-        "url": "https://erich-friedman.github.io/packing/cirRpen/"
+        "source": "Optimality proof submitted by zzzcy #308. MinMax Arena reviewed the derivations and verifier code, then replayed the complete certificates from scratch. The continuous optimum and nine-decimal grid optimum are proved separately; this instance's grid maximum sum of radii is 0.688190959. Construction discovery and proof credit are distinguished in the article.",
+        "url": "https://minmaxarena.com/proofs/circles-in-pentagon-radii-optimality"
       },
       "holder": null,
       "method": "human",
@@ -54,20 +58,20 @@
       "objective": "maximize",
       "scoreStored": "760845212",
       "scoreDisplay": "0.760845212",
-      "status": "open",
-      "settled": false,
+      "status": "proven",
+      "settled": true,
       "recordStatus": "open",
       "knownBest": {
-        "display": "0.76085",
-        "kind": "best",
+        "display": "0.760845213036122857693151466703",
+        "kind": "proven",
         "range": {
-          "lower": "0.76085",
-          "upper": "0.76086",
-          "upperInclusive": false
+          "lower": "0.760845213036122857693151466703",
+          "upper": "0.760845213036122857693151466704"
         },
-        "truncated": true,
-        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Pentagons); found by Jonathan Viquerat (June 2026). Source expression: 0.76085+. The published value is cited without reconstructing its configuration; the starter is the site's ordinary ring of equal circles, not the external record.",
-        "url": "https://erich-friedman.github.io/packing/cirRpen/"
+        "exact": "√(10 + 2√5)/5",
+        "proofScope": "continuous",
+        "source": "Optimality proof submitted by zzzcy #308. MinMax Arena reviewed the derivations and verifier code, then replayed the complete certificates from scratch. The continuous optimum and nine-decimal grid optimum are proved separately; this instance's grid maximum sum of radii is 0.760845212. Construction discovery and proof credit are distinguished in the article.",
+        "url": "https://minmaxarena.com/proofs/circles-in-pentagon-radii-optimality"
       },
       "holder": "今天",
       "method": "ai",
@@ -96,20 +100,19 @@
       "objective": "maximize",
       "scoreStored": "1034563887",
       "scoreDisplay": "1.034563887",
-      "status": "open",
-      "settled": false,
+      "status": "proven",
+      "settled": true,
       "recordStatus": "open",
       "knownBest": {
-        "display": "1.03457",
-        "kind": "best",
+        "display": "1.034563887852745238722502573982",
+        "kind": "proven",
         "range": {
-          "lower": "1.03457",
-          "upper": "1.03458",
-          "upperInclusive": false
+          "lower": "1.034563887852745238722502573982",
+          "upper": "1.034563887852745238722502573983"
         },
-        "truncated": true,
-        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Pentagons); found by Jonathan Viquerat (June 2026). Source expression: 1.03457+. The published value is cited without reconstructing its configuration; the starter is the site's ordinary ring of equal circles, not the external record.",
-        "url": "https://erich-friedman.github.io/packing/cirRpen/"
+        "proofScope": "continuous",
+        "source": "Optimality proof submitted by zzzcy #308. MinMax Arena reviewed the derivations and verifier code, then replayed the complete certificates from scratch. The continuous optimum and nine-decimal grid optimum are proved separately; this instance's grid maximum sum of radii is 1.034563887. Construction discovery and proof credit are distinguished in the article.",
+        "url": "https://minmaxarena.com/proofs/circles-in-pentagon-radii-optimality"
       },
       "holder": "今天",
       "method": "ai",
@@ -143,20 +146,19 @@
       "objective": "maximize",
       "scoreStored": "1250988878",
       "scoreDisplay": "1.250988878",
-      "status": "open",
-      "settled": false,
+      "status": "proven",
+      "settled": true,
       "recordStatus": "open",
       "knownBest": {
-        "display": "1.25099",
-        "kind": "best",
+        "display": "1.250988879234854835726034468650",
+        "kind": "proven",
         "range": {
-          "lower": "1.25099",
-          "upper": "1.25100",
-          "upperInclusive": false
+          "lower": "1.250988879234854835726034468650",
+          "upper": "1.250988879234854835726034468651"
         },
-        "truncated": true,
-        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Pentagons); found by Jonathan Viquerat (June 2026). Source expression: 1.25099+. The published value is cited without reconstructing its configuration; the starter is the site's ordinary ring of equal circles, not the external record.",
-        "url": "https://erich-friedman.github.io/packing/cirRpen/"
+        "proofScope": "continuous",
+        "source": "Optimality proof submitted by zzzcy #308. MinMax Arena reviewed the derivations and verifier code, then replayed the complete certificates from scratch. The continuous optimum and nine-decimal grid optimum are proved separately; this instance's grid maximum sum of radii is 1.250988878. Construction discovery and proof credit are distinguished in the article.",
+        "url": "https://minmaxarena.com/proofs/circles-in-pentagon-radii-optimality"
       },
       "holder": "zzzcy",
       "method": "ai",
@@ -195,19 +197,20 @@
       "objective": "maximize",
       "scoreStored": "1447980549",
       "scoreDisplay": "1.447980549",
-      "status": "open",
-      "settled": false,
+      "status": "proven",
+      "settled": true,
       "recordStatus": "open",
       "knownBest": {
-        "display": "1.447980550405",
-        "kind": "best",
+        "display": "1.447980550405670367298603865867",
+        "kind": "proven",
         "range": {
           "lower": "1.447980550405670367298603865867",
           "upper": "1.447980550405670367298603865868"
         },
         "exact": "5/(2√(5 − 2√5) + 2)",
-        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Pentagons); found by Jonathan Viquerat (June 2026). Source expression: 5/(2tan(π/5)+2). The published value is cited without reconstructing its configuration; the starter is the site's ordinary ring of equal circles, not the external record.",
-        "url": "https://erich-friedman.github.io/packing/cirRpen/"
+        "proofScope": "continuous",
+        "source": "Optimality proof submitted by zzzcy #308. MinMax Arena reviewed the derivations and verifier code, then replayed the complete certificates from scratch. The continuous optimum and nine-decimal grid optimum are proved separately; this instance's grid maximum sum of radii is 1.447980549. Construction discovery and proof credit are distinguished in the article.",
+        "url": "https://minmaxarena.com/proofs/circles-in-pentagon-radii-optimality"
       },
       "holder": "今天",
       "method": "ai",
@@ -251,19 +254,20 @@
       "objective": "maximize",
       "scoreStored": "1651074767",
       "scoreDisplay": "1.651074767",
-      "status": "open",
-      "settled": false,
+      "status": "proven",
+      "settled": true,
       "recordStatus": "open",
       "knownBest": {
-        "display": "1.651074770596",
-        "kind": "best",
+        "display": "1.651074770596782374034569505953",
+        "kind": "proven",
         "range": {
           "lower": "1.651074770596782374034569505953",
           "upper": "1.651074770596782374034569505954"
         },
         "exact": "(4 + 1/sin 36°)/(2√(5 − 2√5) + 2)",
-        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Pentagons); found by Jonathan Viquerat (June 2026). Source expression: (4+csc(π/5))/(2tan(π/5)+2). The published value is cited without reconstructing its configuration; the starter is the site's ordinary ring of equal circles, not the external record.",
-        "url": "https://erich-friedman.github.io/packing/cirRpen/"
+        "proofScope": "continuous",
+        "source": "Optimality proof submitted by zzzcy #308. MinMax Arena reviewed the derivations and verifier code, then replayed the complete certificates from scratch. The continuous optimum and nine-decimal grid optimum are proved separately; this instance's grid maximum sum of radii is 1.651074767. Construction discovery and proof credit are distinguished in the article.",
+        "url": "https://minmaxarena.com/proofs/circles-in-pentagon-radii-optimality"
       },
       "holder": "今天",
       "method": "ai",
@@ -312,20 +316,19 @@
       "objective": "maximize",
       "scoreStored": "1740983297",
       "scoreDisplay": "1.740983297",
-      "status": "open",
-      "settled": false,
+      "status": "proven",
+      "settled": true,
       "recordStatus": "open",
       "knownBest": {
-        "display": "1.74099",
-        "kind": "best",
+        "display": "1.740983299207393612609980566106",
+        "kind": "proven",
         "range": {
-          "lower": "1.74099",
-          "upper": "1.74100",
-          "upperInclusive": false
+          "lower": "1.740983299207393612609980566106",
+          "upper": "1.740983299207393612609980566107"
         },
-        "truncated": true,
-        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Pentagons); found by Jonathan Viquerat (June 2026). Source expression: 1.74099+. The published value is cited without reconstructing its configuration; the starter is the site's ordinary ring of equal circles, not the external record.",
-        "url": "https://erich-friedman.github.io/packing/cirRpen/"
+        "proofScope": "continuous",
+        "source": "Optimality proof submitted by zzzcy #308. MinMax Arena reviewed the derivations and verifier code, then replayed the complete certificates from scratch. The continuous optimum and nine-decimal grid optimum are proved separately; this instance's grid maximum sum of radii is 1.740983297. Construction discovery and proof credit are distinguished in the article.",
+        "url": "https://minmaxarena.com/proofs/circles-in-pentagon-radii-optimality"
       },
       "holder": "zzzcy",
       "method": "ai",
@@ -379,20 +382,19 @@
       "objective": "maximize",
       "scoreStored": "1852488896",
       "scoreDisplay": "1.852488896",
-      "status": "open",
-      "settled": false,
+      "status": "proven",
+      "settled": true,
       "recordStatus": "open",
       "knownBest": {
-        "display": "1.85250",
-        "kind": "best",
+        "display": "1.852488899111271345913487762578",
+        "kind": "proven",
         "range": {
-          "lower": "1.85250",
-          "upper": "1.85251",
-          "upperInclusive": false
+          "lower": "1.852488899111271345913487762578",
+          "upper": "1.852488899111271345913487762579"
         },
-        "truncated": true,
-        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Pentagons); found by Jonathan Viquerat (June 2026). Source expression: 1.85250+. The published value is cited without reconstructing its configuration; the starter is the site's ordinary ring of equal circles, not the external record.",
-        "url": "https://erich-friedman.github.io/packing/cirRpen/"
+        "proofScope": "continuous",
+        "source": "Optimality proof submitted by zzzcy #308. MinMax Arena reviewed the derivations and verifier code, then replayed the complete certificates from scratch. The continuous optimum and nine-decimal grid optimum are proved separately; this instance's grid maximum sum of radii is 1.852488896. Construction discovery and proof credit are distinguished in the article.",
+        "url": "https://minmaxarena.com/proofs/circles-in-pentagon-radii-optimality"
       },
       "holder": "zzzcy",
       "method": "ai",
