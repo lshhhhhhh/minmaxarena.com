@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/tans-in-square",
-  "generatedAt": "2026-10-24T09:38:00.687Z",
+  "generatedAt": "2026-10-30T11:27:55.187Z",
   "instances": [
     {
       "instanceId": "p89-n1-v1",
@@ -96,8 +96,8 @@
         "sides": 5
       },
       "objective": "minimize",
-      "scoreStored": "1414213620746192508",
-      "scoreDisplay": "1.414213621",
+      "scoreStored": "1414213566746190112",
+      "scoreDisplay": "1.414213567",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -115,30 +115,31 @@
         "source": "Compiled by Erich Friedman; Trivial. Source expression: s = √2 = 1.414+.",
         "url": "https://erich-friedman.github.io/packing/taninsqu/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-10-30T11:15:50.139Z",
       "answer": {
         "placements": [
           {
             "quarter": 3,
-            "turn": "-0.414213562",
+            "turn": "-0.414213563",
             "x": "0.500000000",
-            "y": "0.000000020"
+            "y": "0.000000001"
           },
           {
-            "turn": "-0.414213562",
-            "x": "0.999999980",
+            "quarter": 0,
+            "turn": "-0.414213563",
+            "x": "0.999999999",
             "y": "0.500000000"
           },
           {
             "quarter": 1,
-            "turn": "-0.414213562",
+            "turn": "-0.414213563",
             "x": "0.500000000",
-            "y": "0.999999980"
+            "y": "0.999999999"
           }
         ],
-        "radius": "0.707106752"
+        "radius": "0.707106779"
       }
     },
     {
@@ -202,8 +203,8 @@
         "sides": 5
       },
       "objective": "minimize",
-      "scoreStored": "1788569823672395192",
-      "scoreDisplay": "1.788569824",
+      "scoreStored": "1788569810876467227",
+      "scoreDisplay": "1.788569811",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -220,43 +221,43 @@
         "source": "Compiled by Erich Friedman; Found by Maurizio Morandi in August 2007. Source expression: s = 1.788+.",
         "url": "https://erich-friedman.github.io/packing/taninsqu/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "holder": "邱仲普",
+      "method": "ai",
+      "recordedAt": "2026-10-30T11:24:22.535Z",
       "answer": {
         "placements": [
           {
             "quarter": 2,
             "turn": "-0.414206718",
-            "x": "0.000004622",
-            "y": "0.603188421"
+            "x": "0.000004630",
+            "y": "0.603188409"
           },
           {
             "quarter": 1,
             "turn": "0.000000000",
-            "x": "0.720447030",
-            "y": "0.279552970"
+            "x": "0.720447031",
+            "y": "0.279552969"
           },
           {
             "quarter": 1,
             "turn": "0.090276847",
-            "x": "0.224966858",
-            "y": "0.334139083"
+            "x": "0.224966857",
+            "y": "0.334139081"
           },
           {
             "quarter": 1,
             "turn": "-0.414213562",
-            "x": "0.395347600",
-            "y": "0.999999997"
+            "x": "0.395347601",
+            "y": "0.999999999"
           },
           {
             "quarter": 3,
             "turn": "0.090276847",
-            "x": "0.775033142",
-            "y": "0.434271656"
+            "x": "0.775033143",
+            "y": "0.434271655"
           }
         ],
-        "radius": "0.559105933"
+        "radius": "0.559105937"
       }
     },
     {
