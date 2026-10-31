@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/pentagons-in-square",
-  "generatedAt": "2026-10-24T09:38:00.397Z",
+  "generatedAt": "2026-10-31T10:58:59.973Z",
   "instances": [
     {
       "instanceId": "p86-n3-v1",
@@ -20,8 +20,8 @@
         "sides": 5
       },
       "objective": "minimize",
-      "scoreStored": "2908117297734095656",
-      "scoreDisplay": "2.908117298",
+      "scoreStored": "2908117287792124043",
+      "scoreDisplay": "2.908117288",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -38,28 +38,28 @@
         "source": "Compiled by Erich Friedman; Found by Jonathan Viquerat in April 2026. Source expression: s = (4+5√5/2)√(5+2√5)−55/4−23√5/4; s = 2.90811+.",
         "url": "https://erich-friedman.github.io/packing/peninsqu/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "holder": "NUE_13",
+      "method": "ai",
+      "recordedAt": "2026-10-31T07:02:18.994Z",
       "answer": {
         "placements": [
           {
-            "turn": "-0.158384440",
-            "x": "0.641553343",
+            "turn": "-0.158384441",
+            "x": "0.641553342",
             "y": "0.763355156"
           },
           {
-            "turn": "0.000000000",
+            "turn": "-0.000000001",
             "x": "0.236644844",
-            "y": "0.444769951"
+            "y": "0.444769950"
           },
           {
-            "turn": "0.158384440",
+            "turn": "0.158384441",
             "x": "0.721807302",
             "y": "0.236644844"
           }
         ],
-        "radius": "0.292509112"
+        "radius": "0.292509113"
       }
     },
     {
@@ -70,8 +70,8 @@
         "sides": 5
       },
       "objective": "minimize",
-      "scoreStored": "3102525027164766161",
-      "scoreDisplay": "3.102525028",
+      "scoreStored": "3102525015849122404",
+      "scoreDisplay": "3.102525016",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -88,13 +88,13 @@
         "source": "Compiled by Erich Friedman; Found by Jonathan Viquerat in April 2026. Source expression: s = ((3−√5)√(5−√5)+7√10+√2)/8; s = 3.10252+.",
         "url": "https://erich-friedman.github.io/packing/peninsqu/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "holder": "NUE_13",
+      "method": "ai",
+      "recordedAt": "2026-10-31T07:00:15.471Z",
       "answer": {
         "placements": [
           {
-            "turn": "0.078701707",
+            "turn": "0.078701708",
             "x": "0.244296313",
             "y": "0.729195451"
           },
@@ -109,12 +109,12 @@
             "y": "0.274252974"
           },
           {
-            "turn": "0.078701707",
+            "turn": "0.078701706",
             "x": "0.729195451",
             "y": "0.244296313"
           }
         ],
-        "radius": "0.274180160"
+        "radius": "0.274180161"
       }
     },
     {
@@ -145,7 +145,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "recordedAt": "2026-10-31T01:51:51.977Z",
       "answer": {
         "placements": [
           {
@@ -205,7 +205,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "recordedAt": "2026-10-31T01:51:51.977Z",
       "answer": {
         "placements": [
           {
@@ -270,7 +270,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "recordedAt": "2026-10-31T01:51:51.977Z",
       "answer": {
         "placements": [
           {
@@ -340,7 +340,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "recordedAt": "2026-10-31T01:51:51.977Z",
       "answer": {
         "placements": [
           {
@@ -414,7 +414,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "recordedAt": "2026-10-31T01:51:51.977Z",
       "answer": {
         "placements": [
           {
@@ -667,7 +667,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "recordedAt": "2026-10-31T01:51:51.977Z",
       "answer": {
         "placements": [
           {
@@ -762,7 +762,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "recordedAt": "2026-10-31T01:51:51.977Z",
       "answer": {
         "placements": [
           {
@@ -862,7 +862,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "recordedAt": "2026-10-31T01:51:51.977Z",
       "answer": {
         "placements": [
           {
@@ -967,7 +967,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "recordedAt": "2026-10-31T01:51:51.977Z",
       "answer": {
         "placements": [
           {
@@ -1076,7 +1076,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "recordedAt": "2026-10-31T01:51:51.977Z",
       "answer": {
         "placements": [
           {
@@ -1191,7 +1191,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "recordedAt": "2026-10-31T01:51:51.977Z",
       "answer": {
         "placements": [
           {
@@ -1311,7 +1311,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "recordedAt": "2026-10-31T01:51:51.977Z",
       "answer": {
         "placements": [
           {
@@ -1436,7 +1436,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "recordedAt": "2026-10-31T01:51:51.977Z",
       "answer": {
         "placements": [
           {
@@ -1546,8 +1546,8 @@
         "sides": 5
       },
       "objective": "minimize",
-      "scoreStored": "6661350708047226111",
-      "scoreDisplay": "6.661350709",
+      "scoreStored": "6661350655882939105",
+      "scoreDisplay": "6.661350656",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -1564,9 +1564,9 @@
         "source": "Compiled by Erich Friedman; Found by Haowei Lin in July 2026. Source expression: s = 6.66135+.",
         "url": "https://erich-friedman.github.io/packing/peninsqu/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "holder": "NUE_13",
+      "method": "ai",
+      "recordedAt": "2026-10-31T07:00:34.841Z",
       "answer": {
         "placements": [
           {
@@ -1586,7 +1586,7 @@
           },
           {
             "turn": "0.158384440",
-            "x": "0.297679327",
+            "x": "0.297679328",
             "y": "0.769328618"
           },
           {
@@ -1636,7 +1636,7 @@
           },
           {
             "turn": "0.043965407",
-            "x": "0.718029371",
+            "x": "0.718029370",
             "y": "0.330878081"
           },
           {
@@ -1670,7 +1670,7 @@
             "y": "0.103311025"
           }
         ],
-        "radius": "0.127699448"
+        "radius": "0.127699449"
       }
     },
     {
@@ -1701,7 +1701,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "recordedAt": "2026-10-31T01:51:51.977Z",
       "answer": {
         "placements": [
           {
@@ -1841,7 +1841,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "recordedAt": "2026-10-31T01:51:51.977Z",
       "answer": {
         "placements": [
           {
@@ -1986,7 +1986,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "recordedAt": "2026-10-31T01:51:51.977Z",
       "answer": {
         "placements": [
           {
@@ -2136,7 +2136,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "recordedAt": "2026-10-31T01:51:51.977Z",
       "answer": {
         "placements": [
           {
@@ -2290,7 +2290,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "recordedAt": "2026-10-31T01:51:51.977Z",
       "answer": {
         "placements": [
           {
@@ -2763,8 +2763,8 @@
         "sides": 5
       },
       "objective": "minimize",
-      "scoreStored": "7820098614802192301",
-      "scoreDisplay": "7.820098615",
+      "scoreStored": "7820098255348354523",
+      "scoreDisplay": "7.820098256",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -2780,30 +2780,30 @@
         "source": "Joshua Wolk (September 2026) in Erich Friedman's compiled table, printed as s = 7.82006+; checked 2026-09-29 at revision b5b5578. The interval is converted conservatively from the printed truncated precision; optimality is open. The new construction is published as a figure only and has not been rebuilt here yet.",
         "url": "https://erich-friedman.github.io/packing/peninsqu/"
       },
-      "holder": "邱仲普",
+      "holder": "NUE_13",
       "method": "ai",
-      "recordedAt": "2026-10-08T16:26:42.376Z",
+      "recordedAt": "2026-10-31T06:58:30.186Z",
       "answer": {
         "placements": [
           {
             "turn": "-0.247726228",
-            "x": "0.107672722",
-            "y": "0.902375743"
+            "x": "0.107672727",
+            "y": "0.902375741"
           },
           {
             "turn": "-0.224279146",
             "x": "0.306043969",
-            "y": "0.904602522"
+            "y": "0.904602521"
           },
           {
             "turn": "0.324919695",
-            "x": "0.911997149",
-            "y": "0.896546445"
+            "x": "0.911997146",
+            "y": "0.896546441"
           },
           {
             "turn": "-0.208920027",
             "x": "0.505972505",
-            "y": "0.906176948"
+            "y": "0.906176947"
           },
           {
             "turn": "-0.158384532",
@@ -2832,12 +2832,12 @@
           },
           {
             "turn": "0.263761203",
-            "x": "0.905373317",
+            "x": "0.905373315",
             "y": "0.594476902"
           },
           {
             "turn": "0.257339173",
-            "x": "0.107934603",
+            "x": "0.107934608",
             "y": "0.588070223"
           },
           {
@@ -2862,7 +2862,7 @@
           },
           {
             "turn": "-0.062366149",
-            "x": "0.892065404",
+            "x": "0.892065400",
             "y": "0.411929681"
           },
           {
@@ -2877,7 +2877,7 @@
           },
           {
             "turn": "-0.056321449",
-            "x": "0.094625673",
+            "x": "0.094625678",
             "y": "0.405521615"
           },
           {
@@ -2902,31 +2902,31 @@
           },
           {
             "turn": "0.000000001",
-            "x": "0.088002851",
-            "y": "0.103453554"
+            "x": "0.088002854",
+            "y": "0.103453559"
           },
           {
             "turn": "0.071439159",
-            "x": "0.892327161",
-            "y": "0.097624616"
+            "x": "0.892327156",
+            "y": "0.097624620"
           },
           {
             "turn": "0.108617396",
             "x": "0.494027745",
-            "y": "0.093823975"
+            "y": "0.093823979"
           },
           {
             "turn": "0.093800586",
             "x": "0.693956100",
-            "y": "0.095397906"
+            "y": "0.095397910"
           },
           {
             "turn": "0.158384434",
             "x": "0.294360384",
-            "y": "0.088002851"
+            "y": "0.088002855"
           }
         ],
-        "radius": "0.108777504"
+        "radius": "0.108777509"
       }
     },
     {

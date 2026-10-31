@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/triangles-in-disc",
-  "generatedAt": "2026-10-24T09:38:00.198Z",
+  "generatedAt": "2026-10-31T10:58:59.859Z",
   "instances": [
     {
       "instanceId": "p84-n3-v1",
@@ -40,7 +40,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "recordedAt": "2026-10-31T01:51:51.977Z",
       "answer": {
         "placements": [
           {
@@ -90,7 +90,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "recordedAt": "2026-10-31T01:51:51.977Z",
       "answer": {
         "placements": [
           {
@@ -145,7 +145,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "recordedAt": "2026-10-31T01:51:51.977Z",
       "answer": {
         "placements": [
           {
@@ -215,7 +215,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "recordedAt": "2026-10-31T01:51:51.977Z",
       "answer": {
         "placements": [
           {
@@ -290,7 +290,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "recordedAt": "2026-10-31T01:51:51.977Z",
       "answer": {
         "placements": [
           {
@@ -370,7 +370,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "recordedAt": "2026-10-31T01:51:51.977Z",
       "answer": {
         "placements": [
           {
@@ -455,7 +455,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "recordedAt": "2026-10-31T01:51:51.977Z",
       "answer": {
         "placements": [
           {
@@ -525,8 +525,8 @@
         "sides": 5
       },
       "objective": "minimize",
-      "scoreStored": "1507145205907318767",
-      "scoreDisplay": "1.507145206",
+      "scoreStored": "1507145201972988454",
+      "scoreDisplay": "1.507145202",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -543,9 +543,9 @@
         "source": "Compiled by Erich Friedman; Found by David W. Cantrell in October 2005. Source expression: r = 1.507+.",
         "url": "https://erich-friedman.github.io/packing/triincir/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "holder": "NUE_13",
+      "method": "ai",
+      "recordedAt": "2026-10-31T07:23:50.898Z",
       "answer": {
         "placements": [
           {
@@ -560,7 +560,7 @@
           },
           {
             "turn": "0.515252062",
-            "x": "0.473953341",
+            "x": "0.473953342",
             "y": "1.383745798"
           },
           {
@@ -571,7 +571,7 @@
           {
             "turn": "-0.269252420",
             "x": "1.668572563",
-            "y": "1.175550296"
+            "y": "1.175550297"
           },
           {
             "turn": "-0.047860594",
@@ -609,7 +609,7 @@
             "y": "0.395834996"
           }
         ],
-        "radius": "0.383075411"
+        "radius": "0.383075412"
       }
     },
     {
@@ -620,8 +620,8 @@
         "sides": 5
       },
       "objective": "minimize",
-      "scoreStored": "1527525239772141876",
-      "scoreDisplay": "1.52752524",
+      "scoreStored": "1527525235730689959",
+      "scoreDisplay": "1.527525236",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -638,9 +638,9 @@
         "source": "Compiled by Erich Friedman; Found by Erich Friedman in 1997. Source expression: r = √(7/3) = 1.527+.",
         "url": "https://erich-friedman.github.io/packing/triincir/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "holder": "NUE_13",
+      "method": "ai",
+      "recordedAt": "2026-10-31T07:23:56.422Z",
       "answer": {
         "placements": [
           {
@@ -664,7 +664,7 @@
             "y": "1.566946710"
           },
           {
-            "turn": "0.267949192",
+            "turn": "0.267949193",
             "x": "1.000000000",
             "y": "1.755928946"
           },
@@ -700,7 +700,7 @@
           },
           {
             "turn": "0.267949192",
-            "x": "1.654653671",
+            "x": "1.654653670",
             "y": "0.622035527"
           },
           {
@@ -709,7 +709,7 @@
             "y": "1.000000000"
           }
         ],
-        "radius": "0.377964471"
+        "radius": "0.377964472"
       }
     },
     {
@@ -740,7 +740,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "recordedAt": "2026-10-31T01:51:51.977Z",
       "answer": {
         "placements": [
           {
@@ -825,8 +825,8 @@
         "sides": 5
       },
       "objective": "minimize",
-      "scoreStored": "1636720718046339182",
-      "scoreDisplay": "1.636720719",
+      "scoreStored": "1636720713406426734",
+      "scoreDisplay": "1.636720714",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -843,14 +843,14 @@
         "source": "Compiled by Erich Friedman; Found by David W. Cantrell in July 2002. Source expression: r = 1.636+.",
         "url": "https://erich-friedman.github.io/packing/triincir/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "holder": "NUE_13",
+      "method": "ai",
+      "recordedAt": "2026-10-31T07:24:01.374Z",
       "answer": {
         "placements": [
           {
             "turn": "0.267840825",
-            "x": "1.305613309",
+            "x": "1.305613310",
             "y": "1.615211854"
           },
           {
@@ -861,7 +861,7 @@
           {
             "turn": "-0.311118512",
             "x": "0.361114628",
-            "y": "1.440141510"
+            "y": "1.440141511"
           },
           {
             "turn": "-0.225904512",
@@ -885,7 +885,7 @@
           },
           {
             "turn": "0.267840825",
-            "x": "1.000017422",
+            "x": "1.000017421",
             "y": "1.086151355"
           },
           {
@@ -899,7 +899,7 @@
             "y": "0.935627344"
           },
           {
-            "turn": "0.302613075",
+            "turn": "0.302613074",
             "x": "0.362006075",
             "y": "0.563805630"
           },
@@ -924,7 +924,7 @@
             "y": "0.387969054"
           }
         ],
-        "radius": "0.352748189"
+        "radius": "0.352748190"
       }
     },
     {
@@ -935,8 +935,8 @@
         "sides": 5
       },
       "objective": "minimize",
-      "scoreStored": "1687452418860789565",
-      "scoreDisplay": "1.687452419",
+      "scoreStored": "1687452413928782412",
+      "scoreDisplay": "1.687452414",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -953,9 +953,9 @@
         "source": "Compiled by Erich Friedman; Found by Maurizio Morandi in April 2008. Source expression: r = 1.687+.",
         "url": "https://erich-friedman.github.io/packing/triincir/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "holder": "NUE_13",
+      "method": "ai",
+      "recordedAt": "2026-10-31T07:24:06.996Z",
       "answer": {
         "placements": [
           {
@@ -981,7 +981,7 @@
           {
             "turn": "0.268220009",
             "x": "1.401153068",
-            "y": "1.231876189"
+            "y": "1.231876190"
           },
           {
             "turn": "-0.267678413",
@@ -1025,12 +1025,12 @@
           },
           {
             "turn": "0.268220009",
-            "x": "1.296614348",
+            "x": "1.296614349",
             "y": "0.387199469"
           },
           {
             "turn": "0.268220009",
-            "x": "0.704005118",
+            "x": "0.704005119",
             "y": "0.386900015"
           },
           {
@@ -1039,7 +1039,7 @@
             "y": "0.215978193"
           }
         ],
-        "radius": "0.342143140"
+        "radius": "0.342143141"
       }
     },
     {
@@ -1070,7 +1070,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "recordedAt": "2026-10-31T01:51:51.977Z",
       "answer": {
         "placements": [
           {
@@ -1170,8 +1170,8 @@
         "sides": 5
       },
       "objective": "minimize",
-      "scoreStored": "1801764490031920925",
-      "scoreDisplay": "1.801764491",
+      "scoreStored": "1801764484409068663",
+      "scoreDisplay": "1.801764485",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -1188,9 +1188,9 @@
         "source": "Compiled by Erich Friedman; Found by Jake Loyd in June 2026. Source expression: r = 1.80176+.",
         "url": "https://erich-friedman.github.io/packing/triincir/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "holder": "NUE_13",
+      "method": "ai",
+      "recordedAt": "2026-10-31T07:24:12.135Z",
       "answer": {
         "placements": [
           {
@@ -1205,12 +1205,12 @@
           },
           {
             "turn": "0.371235163",
-            "x": "0.503984897",
+            "x": "0.503984896",
             "y": "1.496256245"
           },
           {
             "turn": "0.371235163",
-            "x": "1.465869932",
+            "x": "1.465869931",
             "y": "1.401183990"
           },
           {
@@ -1240,7 +1240,7 @@
           },
           {
             "turn": "-0.169735282",
-            "x": "0.858840588",
+            "x": "0.858840589",
             "y": "0.878440543"
           },
           {
@@ -1260,12 +1260,12 @@
           },
           {
             "turn": "0.371235163",
-            "x": "0.955074906",
+            "x": "0.955074905",
             "y": "0.570540220"
           },
           {
             "turn": "0.371235163",
-            "x": "0.409773658",
+            "x": "0.409773657",
             "y": "0.467175284"
           },
           {
@@ -1284,7 +1284,7 @@
             "y": "0.226742552"
           }
         ],
-        "radius": "0.320436035"
+        "radius": "0.320436036"
       }
     },
     {
@@ -1315,7 +1315,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "recordedAt": "2026-10-31T01:51:51.977Z",
       "answer": {
         "placements": [
           {
@@ -1425,8 +1425,8 @@
         "sides": 5
       },
       "objective": "minimize",
-      "scoreStored": "1874369583232293810",
-      "scoreDisplay": "1.874369584",
+      "scoreStored": "1874369577147146698",
+      "scoreDisplay": "1.874369578",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -1443,13 +1443,13 @@
         "source": "Compiled by Erich Friedman; Found by Erich Friedman in 1997. Source expression: r = 1.874+.",
         "url": "https://erich-friedman.github.io/packing/triincir/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "holder": "NUE_13",
+      "method": "ai",
+      "recordedAt": "2026-10-31T07:28:00.407Z",
       "answer": {
         "placements": [
           {
-            "turn": "0.267460348",
+            "turn": "0.267460347",
             "x": "1.263642146",
             "y": "1.693892164"
           },
@@ -1461,7 +1461,7 @@
           {
             "turn": "-0.268438157",
             "x": "0.998739212",
-            "y": "1.536663054"
+            "y": "1.536663055"
           },
           {
             "turn": "-0.268438157",
@@ -1475,12 +1475,12 @@
           },
           {
             "turn": "0.267460348",
-            "x": "1.535721211",
+            "x": "1.535721212",
             "y": "1.231608187"
           },
           {
             "turn": "0.267460348",
-            "x": "0.466696095",
+            "x": "0.466696094",
             "y": "1.229124603"
           },
           {
@@ -1499,9 +1499,9 @@
             "y": "1.077839760"
           },
           {
-            "turn": "-0.268438157",
-            "x": "0.298646005",
-            "y": "0.903787448"
+            "turn": "-0.268438155",
+            "x": "0.298646004",
+            "y": "0.903787449"
           },
           {
             "turn": "-0.268438157",
@@ -1509,7 +1509,7 @@
             "y": "0.902507908"
           },
           {
-            "turn": "0.267460348",
+            "turn": "0.267460347",
             "x": "0.733030823",
             "y": "0.766845867"
           },
@@ -1521,7 +1521,7 @@
           {
             "turn": "-0.268438157",
             "x": "1.001646693",
-            "y": "0.616047751"
+            "y": "0.616047752"
           },
           {
             "turn": "0.267460348",
@@ -1549,7 +1549,7 @@
             "y": "0.308024170"
           }
         ],
-        "radius": "0.308023708"
+        "radius": "0.308023709"
       }
     },
     {
@@ -1560,8 +1560,8 @@
         "sides": 5
       },
       "objective": "minimize",
-      "scoreStored": "1910541298039669936",
-      "scoreDisplay": "1.910541299",
+      "scoreStored": "1910541291717393435",
+      "scoreDisplay": "1.910541292",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -1578,9 +1578,9 @@
         "source": "Compiled by Erich Friedman; Found by Maurizio Morandi in May 2008. Source expression: r = 1.910+.",
         "url": "https://erich-friedman.github.io/packing/triincir/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "holder": "NUE_13",
+      "method": "ai",
+      "recordedAt": "2026-10-31T07:25:18.918Z",
       "answer": {
         "placements": [
           {
@@ -1606,7 +1606,7 @@
           {
             "turn": "0.268652021",
             "x": "0.525980629",
-            "y": "1.379833362"
+            "y": "1.379833363"
           },
           {
             "turn": "0.268652021",
@@ -1639,7 +1639,7 @@
             "y": "0.926202605"
           },
           {
-            "turn": "0.268652021",
+            "turn": "0.268652022",
             "x": "1.298001751",
             "y": "0.903790833"
           },
@@ -1681,15 +1681,15 @@
           {
             "turn": "-0.267246610",
             "x": "1.262624889",
-            "y": "0.299359950"
+            "y": "0.299359949"
           },
           {
-            "turn": "-0.267246610",
+            "turn": "-0.267246611",
             "x": "0.739213463",
             "y": "0.298673617"
           }
         ],
-        "radius": "0.302191986"
+        "radius": "0.302191987"
       }
     },
     {
@@ -1720,7 +1720,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "recordedAt": "2026-10-31T01:51:51.977Z",
       "answer": {
         "placements": [
           {
@@ -1865,7 +1865,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "recordedAt": "2026-10-31T01:51:51.977Z",
       "answer": {
         "placements": [
           {
@@ -2015,7 +2015,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "recordedAt": "2026-10-31T01:51:51.977Z",
       "answer": {
         "placements": [
           {
@@ -2175,7 +2175,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "recordedAt": "2026-10-31T01:51:51.977Z",
       "answer": {
         "placements": [
           {
@@ -2340,7 +2340,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "recordedAt": "2026-10-31T01:51:51.977Z",
       "answer": {
         "placements": [
           {
@@ -2490,8 +2490,8 @@
         "sides": 5
       },
       "objective": "minimize",
-      "scoreStored": "2188057308669942961",
-      "scoreDisplay": "2.188057309",
+      "scoreStored": "2188057300377585577",
+      "scoreDisplay": "2.188057301",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -2508,9 +2508,9 @@
         "source": "Compiled by Erich Friedman; Found by Thomas Schadt in August 2026. Source expression: r = 2.18805+.",
         "url": "https://erich-friedman.github.io/packing/triincir/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "holder": "NUE_13",
+      "method": "ai",
+      "recordedAt": "2026-10-31T07:25:24.456Z",
       "answer": {
         "placements": [
           {
@@ -2530,7 +2530,7 @@
           },
           {
             "turn": "0.245556389",
-            "x": "0.546949458",
+            "x": "0.546949457",
             "y": "1.595652307"
           },
           {
@@ -2570,8 +2570,8 @@
           },
           {
             "turn": "-0.485401586",
-            "x": "1.832970723",
-            "y": "1.120270072"
+            "x": "1.832970722",
+            "y": "1.120270073"
           },
           {
             "turn": "-0.283137199",
@@ -2606,7 +2606,7 @@
           {
             "turn": "-0.335004537",
             "x": "1.704115325",
-            "y": "0.754886541"
+            "y": "0.754886542"
           },
           {
             "turn": "0.252875654",
@@ -2620,7 +2620,7 @@
           },
           {
             "turn": "-0.283137199",
-            "x": "0.869811045",
+            "x": "0.869811046",
             "y": "0.590258071"
           },
           {
@@ -2640,8 +2640,8 @@
           },
           {
             "turn": "0.252875654",
-            "x": "0.862362584",
-            "y": "0.326498893"
+            "x": "0.862362583",
+            "y": "0.326498892"
           },
           {
             "turn": "0.252875654",
@@ -2654,7 +2654,7 @@
             "y": "0.188168746"
           }
         ],
-        "radius": "0.263864327"
+        "radius": "0.263864328"
       }
     },
     {
@@ -2665,8 +2665,8 @@
         "sides": 5
       },
       "objective": "minimize",
-      "scoreStored": "2209353135874537503",
-      "scoreDisplay": "2.209353136",
+      "scoreStored": "2209353127419979636",
+      "scoreDisplay": "2.209353128",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -2683,9 +2683,9 @@
         "source": "Compiled by Erich Friedman; Found by Jake Loyd in June 2026. Source expression: r = 2.20935+.",
         "url": "https://erich-friedman.github.io/packing/triincir/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "holder": "NUE_13",
+      "method": "ai",
+      "recordedAt": "2026-10-31T07:25:29.593Z",
       "answer": {
         "placements": [
           {
@@ -2710,8 +2710,8 @@
           },
           {
             "turn": "-0.151573230",
-            "x": "0.771771809",
-            "y": "1.482739074"
+            "x": "0.771771810",
+            "y": "1.482739073"
           },
           {
             "turn": "0.357898083",
@@ -2731,11 +2731,11 @@
           {
             "turn": "-0.432457393",
             "x": "1.401336293",
-            "y": "1.264936601"
+            "y": "1.264936602"
           },
           {
             "turn": "0.391515212",
-            "x": "0.829498933",
+            "x": "0.829498934",
             "y": "1.227873970"
           },
           {
@@ -2746,7 +2746,7 @@
           {
             "turn": "0.391515212",
             "x": "0.401013804",
-            "y": "1.169638312"
+            "y": "1.169638313"
           },
           {
             "turn": "-0.151573230",
@@ -2764,8 +2764,8 @@
             "y": "0.992212605"
           },
           {
-            "turn": "0.218849942",
-            "x": "1.491184027",
+            "turn": "0.218849941",
+            "x": "1.491184026",
             "y": "0.951588144"
           },
           {
@@ -2806,7 +2806,7 @@
           {
             "turn": "0.244938177",
             "x": "1.711516802",
-            "y": "0.547166161"
+            "y": "0.547166162"
           },
           {
             "turn": "0.391515212",
@@ -2819,12 +2819,12 @@
             "y": "0.355605444"
           },
           {
-            "turn": "0.391515212",
+            "turn": "0.391515213",
             "x": "0.512038406",
             "y": "0.352147926"
           },
           {
-            "turn": "-0.151573230",
+            "turn": "-0.151573229",
             "x": "0.761621622",
             "y": "0.274708531"
           },
@@ -2834,7 +2834,7 @@
             "y": "0.178179736"
           }
         ],
-        "radius": "0.261320954"
+        "radius": "0.261320955"
       }
     },
     {
@@ -2845,8 +2845,8 @@
         "sides": 5
       },
       "objective": "minimize",
-      "scoreStored": "2251247455814228077",
-      "scoreDisplay": "2.251247456",
+      "scoreStored": "2251247447035995247",
+      "scoreDisplay": "2.251247448",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -2863,9 +2863,9 @@
         "source": "Compiled by Erich Friedman; Found by Thomas Schadt in August 2026. Source expression: r = 2.25124+.",
         "url": "https://erich-friedman.github.io/packing/triincir/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "holder": "NUE_13",
+      "method": "ai",
+      "recordedAt": "2026-10-31T07:25:35.696Z",
       "answer": {
         "placements": [
           {
@@ -2985,7 +2985,7 @@
           },
           {
             "turn": "0.169603979",
-            "x": "1.132156911",
+            "x": "1.132156912",
             "y": "0.609844483"
           },
           {
@@ -3019,7 +3019,7 @@
             "y": "0.224436546"
           }
         ],
-        "radius": "0.256457933"
+        "radius": "0.256457934"
       }
     },
     {
@@ -3030,8 +3030,8 @@
         "sides": 5
       },
       "objective": "minimize",
-      "scoreStored": "2272610888124764649",
-      "scoreDisplay": "2.272610889",
+      "scoreStored": "2272610879179137524",
+      "scoreDisplay": "2.27261088",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -3048,9 +3048,9 @@
         "source": "Compiled by Erich Friedman; Found by Maurizio Morandi in July 2008. Source expression: r = 2.272+.",
         "url": "https://erich-friedman.github.io/packing/triincir/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "holder": "NUE_13",
+      "method": "ai",
+      "recordedAt": "2026-10-31T07:25:40.785Z",
       "answer": {
         "placements": [
           {
@@ -3099,19 +3099,19 @@
             "y": "1.333249749"
           },
           {
-            "turn": "0.268246883",
+            "turn": "0.268246882",
             "x": "0.461257110",
-            "y": "1.335673981"
+            "y": "1.335673980"
           },
           {
             "turn": "-0.267651546",
             "x": "0.225811837",
-            "y": "1.235348560"
+            "y": "1.235348559"
           },
           {
             "turn": "-0.267651546",
             "x": "1.774576011",
-            "y": "1.230128553"
+            "y": "1.230128552"
           },
           {
             "turn": "0.268246883",
@@ -3134,7 +3134,7 @@
             "y": "0.990459876"
           },
           {
-            "turn": "-0.267651546",
+            "turn": "-0.267651547",
             "x": "1.445359869",
             "y": "0.990708555"
           },
@@ -3149,7 +3149,7 @@
             "y": "0.976081462"
           },
           {
-            "turn": "0.268246883",
+            "turn": "0.268246884",
             "x": "0.778668822",
             "y": "0.736291068"
           },
@@ -3159,14 +3159,14 @@
             "y": "0.736535482"
           },
           {
-            "turn": "-0.267651546",
+            "turn": "-0.267651545",
             "x": "0.998750612",
             "y": "0.609389730"
           },
           {
             "turn": "-0.267651546",
             "x": "0.557567371",
-            "y": "0.611153258"
+            "y": "0.611153257"
           },
           {
             "turn": "-0.267651546",
@@ -3185,7 +3185,7 @@
           },
           {
             "turn": "0.268246883",
-            "x": "0.998891724",
+            "x": "0.998891725",
             "y": "0.355342639"
           },
           {
@@ -3209,7 +3209,7 @@
             "y": "0.228441301"
           }
         ],
-        "radius": "0.254047128"
+        "radius": "0.254047129"
       }
     },
     {
@@ -3240,7 +3240,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "recordedAt": "2026-10-31T01:51:51.977Z",
       "answer": {
         "placements": [
           {
@@ -3415,8 +3415,8 @@
         "sides": 5
       },
       "objective": "minimize",
-      "scoreStored": "2341693802368735092",
-      "scoreDisplay": "2.341693803",
+      "scoreStored": "2341693792870982802",
+      "scoreDisplay": "2.341693793",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -3433,9 +3433,9 @@
         "source": "Compiled by Erich Friedman; Found by Thomas Schadt in August 2026. Source expression: r = 2.34169+.",
         "url": "https://erich-friedman.github.io/packing/triincir/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "holder": "NUE_13",
+      "method": "ai",
+      "recordedAt": "2026-10-31T07:26:19.710Z",
       "answer": {
         "placements": [
           {
@@ -3515,7 +3515,7 @@
           },
           {
             "turn": "-0.367712810",
-            "x": "0.685203177",
+            "x": "0.685203176",
             "y": "1.025804859"
           },
           {
@@ -3541,7 +3541,7 @@
           {
             "turn": "0.172925527",
             "x": "0.640787832",
-            "y": "0.783286049"
+            "y": "0.783286050"
           },
           {
             "turn": "-0.367712810",
@@ -3604,7 +3604,7 @@
             "y": "0.166116391"
           }
         ],
-        "radius": "0.246552418"
+        "radius": "0.246552419"
       }
     },
     {
@@ -3635,7 +3635,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "recordedAt": "2026-10-31T01:51:51.977Z",
       "answer": {
         "placements": [
           {
@@ -3820,8 +3820,8 @@
         "sides": 5
       },
       "objective": "minimize",
-      "scoreStored": "2399064679724394467",
-      "scoreDisplay": "2.39906468",
+      "scoreStored": "2399064669755556448",
+      "scoreDisplay": "2.39906467",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -3838,9 +3838,9 @@
         "source": "Compiled by Erich Friedman; Found by Thomas Schadt in August 2026. Source expression: r = 2.39906+.",
         "url": "https://erich-friedman.github.io/packing/triincir/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "holder": "NUE_13",
+      "method": "ai",
+      "recordedAt": "2026-10-31T07:26:25.260Z",
       "answer": {
         "placements": [
           {
@@ -3850,17 +3850,17 @@
           },
           {
             "turn": "0.150062122",
-            "x": "0.769842796",
+            "x": "0.769842797",
             "y": "1.749797091"
           },
           {
-            "turn": "-0.393220177",
+            "turn": "-0.393220178",
             "x": "0.539786211",
-            "y": "1.679160901"
+            "y": "1.679160902"
           },
           {
-            "turn": "0.150062122",
-            "x": "1.448837095",
+            "turn": "0.150062123",
+            "x": "1.448837096",
             "y": "1.663600400"
           },
           {
@@ -3869,13 +3869,13 @@
             "y": "1.586021814"
           },
           {
-            "turn": "-0.393220177",
+            "turn": "-0.393220176",
             "x": "1.625038123",
             "y": "1.499683648"
           },
           {
             "turn": "-0.393220177",
-            "x": "0.874805319",
+            "x": "0.874805318",
             "y": "1.483395764"
           },
           {
@@ -3974,12 +3974,12 @@
             "y": "0.601948894"
           },
           {
-            "turn": "0.150062122",
+            "turn": "0.150062123",
             "x": "1.711200023",
             "y": "0.591671645"
           },
           {
-            "turn": "0.150062122",
+            "turn": "0.150062123",
             "x": "0.656745007",
             "y": "0.545789723"
           },
@@ -3996,7 +3996,7 @@
           {
             "turn": "-0.393220177",
             "x": "0.426688422",
-            "y": "0.475153534"
+            "y": "0.475153533"
           },
           {
             "turn": "0.150062122",
@@ -4004,8 +4004,8 @@
             "y": "0.304667356"
           },
           {
-            "turn": "0.150062122",
-            "x": "0.921313240",
+            "turn": "0.150062123",
+            "x": "0.921313241",
             "y": "0.296759762"
           },
           {
@@ -4019,7 +4019,7 @@
             "y": "0.228711081"
           }
         ],
-        "radius": "0.240656400"
+        "radius": "0.240656401"
       }
     },
     {
@@ -4050,7 +4050,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "recordedAt": "2026-10-31T01:51:51.977Z",
       "answer": {
         "placements": [
           {
@@ -4245,8 +4245,8 @@
         "sides": 5
       },
       "objective": "minimize",
-      "scoreStored": "2463494363806688643",
-      "scoreDisplay": "2.463494364",
+      "scoreStored": "2463494353295210986",
+      "scoreDisplay": "2.463494354",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -4263,9 +4263,9 @@
         "source": "Compiled by Erich Friedman; Found by Thomas Schadt in August 2026. Source expression: r = 2.46349+.",
         "url": "https://erich-friedman.github.io/packing/triincir/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "holder": "NUE_13",
+      "method": "ai",
+      "recordedAt": "2026-10-31T07:26:30.897Z",
       "answer": {
         "placements": [
           {
@@ -4290,7 +4290,7 @@
           },
           {
             "turn": "0.010107077",
-            "x": "0.648403079",
+            "x": "0.648403080",
             "y": "1.581513764"
           },
           {
@@ -4331,7 +4331,7 @@
           {
             "turn": "-0.563952348",
             "x": "0.613076606",
-            "y": "1.286284377"
+            "y": "1.286284376"
           },
           {
             "turn": "0.010107077",
@@ -4375,7 +4375,7 @@
           },
           {
             "turn": "0.010107077",
-            "x": "0.855595699",
+            "x": "0.855595700",
             "y": "0.885176795"
           },
           {
@@ -4415,7 +4415,7 @@
           },
           {
             "turn": "0.010107077",
-            "x": "1.025452713",
+            "x": "1.025452714",
             "y": "0.551255825"
           },
           {
@@ -4434,13 +4434,13 @@
             "y": "0.406263894"
           },
           {
-            "turn": "0.463609357",
+            "turn": "0.463609358",
             "x": "0.442989161",
             "y": "0.342130937"
           },
           {
             "turn": "0.010107077",
-            "x": "0.715689062",
+            "x": "0.715689061",
             "y": "0.320438879"
           },
           {
@@ -4454,7 +4454,7 @@
             "y": "0.205556506"
           }
         ],
-        "radius": "0.234362326"
+        "radius": "0.234362327"
       }
     },
     {
@@ -4484,7 +4484,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "recordedAt": "2026-10-31T01:51:51.977Z",
       "answer": {
         "placements": [
           {
@@ -4689,8 +4689,8 @@
         "sides": 5
       },
       "objective": "minimize",
-      "scoreStored": "2519382948615681489",
-      "scoreDisplay": "2.519382949",
+      "scoreStored": "2519382937621852002",
+      "scoreDisplay": "2.519382938",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -4706,9 +4706,9 @@
         "source": "Compiled by Erich Friedman; Found by Thomas Schadt in August 2026. Source expression: r = 2.51938+.",
         "url": "https://erich-friedman.github.io/packing/triincir/"
       },
-      "holder": "zzzcy",
+      "holder": "NUE_13",
       "method": "ai",
-      "recordedAt": "2026-10-05T03:44:14.852Z",
+      "recordedAt": "2026-10-31T07:26:37.374Z",
       "answer": {
         "placements": [
           {
@@ -4729,17 +4729,17 @@
           {
             "turn": "-0.559050604",
             "x": "1.777340666",
-            "y": "1.261387317"
+            "y": "1.261387318"
           },
           {
-            "turn": "0.013834373",
+            "turn": "0.013834374",
             "x": "1.549396613",
-            "y": "0.365981559"
+            "y": "0.365981558"
           },
           {
             "turn": "0.013834372",
             "x": "1.318567317",
-            "y": "1.784877297"
+            "y": "1.784877296"
           },
           {
             "turn": "0.013834372",
@@ -4762,7 +4762,7 @@
             "y": "0.666695139"
           },
           {
-            "turn": "0.013834373",
+            "turn": "0.013834372",
             "x": "1.021390127",
             "y": "0.205404402"
           },
@@ -4798,11 +4798,11 @@
           },
           {
             "turn": "-0.559050603",
-            "x": "0.274566977",
-            "y": "0.870012844"
+            "x": "0.274566978",
+            "y": "0.870012845"
           },
           {
-            "turn": "-0.559050604",
+            "turn": "-0.559050603",
             "x": "0.443210847",
             "y": "0.387941121"
           },
@@ -4812,7 +4812,7 @@
             "y": "1.578845554"
           },
           {
-            "turn": "-0.559050605",
+            "turn": "-0.559050604",
             "x": "1.107382440",
             "y": "1.201093216"
           },
@@ -4863,7 +4863,7 @@
           },
           {
             "turn": "-0.559050604",
-            "x": "1.321877831",
+            "x": "1.321877830",
             "y": "0.303384338"
           },
           {
@@ -4907,7 +4907,7 @@
             "y": "0.492260507"
           }
         ],
-        "radius": "0.229163363"
+        "radius": "0.229163364"
       }
     },
     {
@@ -4937,7 +4937,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-24T06:11:37.930Z",
+      "recordedAt": "2026-10-31T01:51:51.977Z",
       "answer": {
         "placements": [
           {

@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/consecutive-dominoes-in-square",
-  "generatedAt": "2026-10-27T10:42:03.921Z",
+  "generatedAt": "2026-10-31T10:58:59.555Z",
   "instances": [
     {
       "instanceId": "p95-n1-v1",
@@ -180,14 +180,15 @@
       "objective": "minimize",
       "scoreStored": "11000000000",
       "scoreDisplay": "11",
-      "status": "matched",
-      "settled": false,
-      "recordStatus": "matched",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "open",
       "knownBest": {
         "display": "11",
-        "kind": "best",
-        "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Erich Friedman (1998). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
-        "url": "https://erich-friedman.github.io/packing/domino/"
+        "kind": "proven",
+        "proofScope": "continuous",
+        "source": "Arbitrary-angle global optimality proof submitted by zzzcy #308, reviewed and replayed with an independent checker by MinMax Arena. The minimum side is exactly 11, attained by integer coordinates and therefore also optimal in the site's nine-decimal format. Construction and proof credits are listed separately in the article.",
+        "url": "https://minmaxarena.com/proofs/consecutive-dominoes-optimality"
       },
       "holder": "qiboqi",
       "method": "human",
@@ -233,14 +234,15 @@
       "objective": "minimize",
       "scoreStored": "14000000000",
       "scoreDisplay": "14",
-      "status": "matched",
-      "settled": false,
-      "recordStatus": "matched",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "open",
       "knownBest": {
         "display": "14",
-        "kind": "best",
-        "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Erich Friedman (1998). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
-        "url": "https://erich-friedman.github.io/packing/domino/"
+        "kind": "proven",
+        "proofScope": "continuous",
+        "source": "Arbitrary-angle global optimality proof submitted by zzzcy #308, reviewed and replayed with an independent checker by MinMax Arena. The minimum side is exactly 14, attained by integer coordinates and therefore also optimal in the site's nine-decimal format. Construction and proof credits are listed separately in the article.",
+        "url": "https://minmaxarena.com/proofs/consecutive-dominoes-optimality"
       },
       "holder": "qiboqi",
       "method": "human",
@@ -292,14 +294,15 @@
       "objective": "minimize",
       "scoreStored": "17000000000",
       "scoreDisplay": "17",
-      "status": "matched",
-      "settled": false,
-      "recordStatus": "matched",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "open",
       "knownBest": {
         "display": "17",
-        "kind": "best",
-        "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Erich Friedman (1998). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
-        "url": "https://erich-friedman.github.io/packing/domino/"
+        "kind": "proven",
+        "proofScope": "continuous",
+        "source": "Arbitrary-angle global optimality proof submitted by zzzcy #308, reviewed and replayed with an independent checker by MinMax Arena. The minimum side is exactly 17, attained by integer coordinates and therefore also optimal in the site's nine-decimal format. Construction and proof credits are listed separately in the article.",
+        "url": "https://minmaxarena.com/proofs/consecutive-dominoes-optimality"
       },
       "holder": "qiboqi",
       "method": "human",
