@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/heilbronn-in-equilateral",
-  "generatedAt": "2026-10-31T10:58:57.763Z",
+  "generatedAt": "2026-11-01T11:54:30.446Z",
   "instances": [
     {
       "instanceId": "p58-n5-v1",
@@ -119,44 +119,44 @@
         "n": 7
       },
       "objective": "maximize",
-      "scoreStored": "84196913941524510",
-      "scoreDisplay": "0.042098456970762255",
+      "scoreStored": "84196914001727167",
+      "scoreDisplay": "0.0420984570008635835",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
       "knownBest": null,
-      "holder": "w33d",
+      "holder": "condor",
       "method": "ai",
-      "recordedAt": "2026-09-15T10:41:24.603Z",
+      "recordedAt": "2026-11-01T11:44:49.124Z",
       "answer": {
         "points": [
           [
-            "0.249999997",
-            "0.000000000"
-          ],
-          [
-            "0.833333332",
-            "0.000000000"
-          ],
-          [
-            "0.083333335",
+            "0.916666665",
             "0.144337570"
           ],
           [
-            "0.375000000",
-            "0.649519052"
+            "0.416666665",
+            "0.721687833"
           ],
           [
-            "0.875000001",
-            "0.216506349"
+            "0.166666668",
+            "0.000000000"
           ],
           [
-            "0.583333334",
-            "0.721687835"
-          ],
-          [
-            "0.499999999",
+            "0.500000000",
             "0.288675135"
+          ],
+          [
+            "0.624999999",
+            "0.649519054"
+          ],
+          [
+            "0.750000003",
+            "0.000000000"
+          ],
+          [
+            "0.124999999",
+            "0.216506349"
           ]
         ]
       }
@@ -356,7 +356,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-31T01:51:51.977Z",
+      "recordedAt": "2026-11-01T10:26:25.234Z",
       "answer": {
         "points": [
           [

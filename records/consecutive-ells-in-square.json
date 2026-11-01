@@ -1,0 +1,8868 @@
+{
+  "problem": "consecutive-ells-in-square",
+  "code": "P96",
+  "title": "连续尺寸 L 形装入正方形",
+  "titleEn": "Consecutive L shapes in a square",
+  "objective": "minimize",
+  "scoreLabel": "正方形边长",
+  "scoreLabelEn": "the square's side",
+  "verifierVersion": "1.0.0",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseName": "CC BY 4.0",
+  "source": "https://minmaxarena.com/problems/consecutive-ells-in-square",
+  "generatedAt": "2026-11-01T11:54:34.236Z",
+  "instances": [
+    {
+      "instanceId": "p96-n1-v1",
+      "name": "n = 1",
+      "parameters": {
+        "n": 1
+      },
+      "objective": "minimize",
+      "scoreStored": "3000000000",
+      "scoreDisplay": "3",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "2",
+        "kind": "proven",
+        "proofScope": "continuous",
+        "source": "The largest L contains an n × 2n rectangle. At every angle at least one coordinate projection is at least 2n, so the container side is at least 2n. One L attains this directly; for n=2 the small L fits inside the large L’s 2×2 notch, attaining side 4.",
+        "url": "https://erich-friedman.github.io/packing/clinsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-01T10:26:25.234Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "1",
+            "y": "1"
+          }
+        ],
+        "side": "3"
+      }
+    },
+    {
+      "instanceId": "p96-n2-v1",
+      "name": "n = 2",
+      "parameters": {
+        "n": 2
+      },
+      "objective": "minimize",
+      "scoreStored": "7000000000",
+      "scoreDisplay": "7",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "open",
+      "knownBest": {
+        "display": "4",
+        "kind": "proven",
+        "proofScope": "continuous",
+        "source": "The largest L contains an n × 2n rectangle. At every angle at least one coordinate projection is at least 2n, so the container side is at least 2n. One L attains this directly; for n=2 the small L fits inside the large L’s 2×2 notch, attaining side 4.",
+        "url": "https://erich-friedman.github.io/packing/clinsqu/"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-01T10:26:25.234Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "5",
+            "y": "1"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "2",
+            "y": "2"
+          }
+        ],
+        "side": "7"
+      }
+    },
+    {
+      "instanceId": "p96-n3-v1",
+      "name": "n = 3",
+      "parameters": {
+        "n": 3
+      },
+      "objective": "minimize",
+      "scoreStored": "7000000000",
+      "scoreDisplay": "7",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "7",
+        "kind": "best",
+        "source": "Erich Friedman (1998), compiled by Erich Friedman. The integer side is a construction value, not a global optimality claim. The site uses an ordinary shelf starter.",
+        "url": "https://erich-friedman.github.io/packing/clinsqu/"
+      },
+      "holder": "今天",
+      "method": "human",
+      "recordedAt": "2026-11-01T04:21:01.881Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 0,
+            "turn": "0.000000000",
+            "x": "6.000000000",
+            "y": "6.000000000"
+          },
+          {
+            "quarter": 0,
+            "turn": "0.000000000",
+            "x": "5.000000000",
+            "y": "5.000000000"
+          },
+          {
+            "quarter": 0,
+            "turn": "0.000000000",
+            "x": "3.000000000",
+            "y": "3.000000000"
+          }
+        ],
+        "side": "7"
+      }
+    },
+    {
+      "instanceId": "p96-n4-v1",
+      "name": "n = 4",
+      "parameters": {
+        "n": 4
+      },
+      "objective": "minimize",
+      "scoreStored": "11000000000",
+      "scoreDisplay": "11",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "11",
+        "kind": "best",
+        "source": "Erich Friedman (1998), compiled by Erich Friedman. The integer side is a construction value, not a global optimality claim. The site uses an ordinary shelf starter.",
+        "url": "https://erich-friedman.github.io/packing/clinsqu/"
+      },
+      "holder": "今天",
+      "method": "human",
+      "recordedAt": "2026-11-01T04:21:32.974Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 0,
+            "turn": "0.000000000",
+            "x": "10.000000000",
+            "y": "10.000000000"
+          },
+          {
+            "quarter": 0,
+            "turn": "0.000000000",
+            "x": "9.000000000",
+            "y": "9.000000000"
+          },
+          {
+            "quarter": 0,
+            "turn": "0.000000000",
+            "x": "7.000000000",
+            "y": "7.000000000"
+          },
+          {
+            "quarter": 0,
+            "turn": "0.000000000",
+            "x": "4.000000000",
+            "y": "4.000000000"
+          }
+        ],
+        "side": "11"
+      }
+    },
+    {
+      "instanceId": "p96-n5-v1",
+      "name": "n = 5",
+      "parameters": {
+        "n": 5
+      },
+      "objective": "minimize",
+      "scoreStored": "14000000000",
+      "scoreDisplay": "14",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "14",
+        "kind": "best",
+        "source": "Erich Friedman (1998), compiled by Erich Friedman. The integer side is a construction value, not a global optimality claim. The site uses an ordinary shelf starter.",
+        "url": "https://erich-friedman.github.io/packing/clinsqu/"
+      },
+      "holder": "今天",
+      "method": "human",
+      "recordedAt": "2026-11-01T04:28:41.339Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 0,
+            "turn": "0.000000000",
+            "x": "13.000000000",
+            "y": "5.000000000"
+          },
+          {
+            "quarter": 0,
+            "turn": "0.000000000",
+            "x": "12.000000000",
+            "y": "4.000000000"
+          },
+          {
+            "quarter": 3,
+            "turn": "0.000000000",
+            "x": "3.000000000",
+            "y": "11.000000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "10.000000000",
+            "y": "10.000000000"
+          },
+          {
+            "quarter": 1,
+            "turn": "0.000000000",
+            "x": "5.000000000",
+            "y": "5.000000000"
+          }
+        ],
+        "side": "14"
+      }
+    },
+    {
+      "instanceId": "p96-n6-v1",
+      "name": "n = 6",
+      "parameters": {
+        "n": 6
+      },
+      "objective": "minimize",
+      "scoreStored": "18000000000",
+      "scoreDisplay": "18",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "18",
+        "kind": "best",
+        "source": "Erich Friedman (1998), compiled by Erich Friedman. The integer side is a construction value, not a global optimality claim. The site uses an ordinary shelf starter.",
+        "url": "https://erich-friedman.github.io/packing/clinsqu/"
+      },
+      "holder": "qiboqi",
+      "method": "human",
+      "recordedAt": "2026-11-01T04:47:43.293Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 3,
+            "turn": "0.000000000",
+            "x": "14.000000000",
+            "y": "8.000000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "15.000000000",
+            "y": "15.000000000"
+          },
+          {
+            "quarter": 0,
+            "turn": "0.000000000",
+            "x": "15.000000000",
+            "y": "12.000000000"
+          },
+          {
+            "quarter": 1,
+            "turn": "0.000000000",
+            "x": "14.000000000",
+            "y": "4.000000000"
+          },
+          {
+            "quarter": 0,
+            "turn": "0.000000000",
+            "x": "5.000000000",
+            "y": "5.000000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "6.000000000",
+            "y": "11.000000000"
+          }
+        ],
+        "side": "18"
+      }
+    },
+    {
+      "instanceId": "p96-n7-v1",
+      "name": "n = 7",
+      "parameters": {
+        "n": 7
+      },
+      "objective": "minimize",
+      "scoreStored": "22000000000",
+      "scoreDisplay": "22",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "22",
+        "kind": "best",
+        "source": "Erich Friedman (1998), compiled by Erich Friedman. The integer side is a construction value, not a global optimality claim. The site uses an ordinary shelf starter.",
+        "url": "https://erich-friedman.github.io/packing/clinsqu/"
+      },
+      "holder": "qiboqi",
+      "method": "human",
+      "recordedAt": "2026-11-01T04:51:45.395Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 0,
+            "turn": "0.000000000",
+            "x": "8.000000000",
+            "y": "4.000000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "14.000000000",
+            "y": "14.000000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "8.000000000",
+            "y": "18.000000000"
+          },
+          {
+            "quarter": 0,
+            "turn": "0.000000000",
+            "x": "4.000000000",
+            "y": "18.000000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "16.000000000",
+            "y": "17.000000000"
+          },
+          {
+            "quarter": 1,
+            "turn": "0.000000000",
+            "x": "15.000000000",
+            "y": "6.000000000"
+          },
+          {
+            "quarter": 3,
+            "turn": "0.000000000",
+            "x": "7.000000000",
+            "y": "7.000000000"
+          }
+        ],
+        "side": "22"
+      }
+    },
+    {
+      "instanceId": "p96-n8-v1",
+      "name": "n = 8",
+      "parameters": {
+        "n": 8
+      },
+      "objective": "minimize",
+      "scoreStored": "26000000000",
+      "scoreDisplay": "26",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "26",
+        "kind": "best",
+        "source": "Erich Friedman (1998), compiled by Erich Friedman. The integer side is a construction value, not a global optimality claim. The site uses an ordinary shelf starter.",
+        "url": "https://erich-friedman.github.io/packing/clinsqu/"
+      },
+      "holder": "qiboqi",
+      "method": "human",
+      "recordedAt": "2026-11-01T04:59:18.615Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 0,
+            "turn": "0.000000000",
+            "x": "17.442030533",
+            "y": "15.456521739"
+          },
+          {
+            "quarter": 0,
+            "turn": "0.000000000",
+            "x": "10.000000000",
+            "y": "23.760869565"
+          },
+          {
+            "quarter": 1,
+            "turn": "0.000000000",
+            "x": "17.000000000",
+            "y": "9.000000000"
+          },
+          {
+            "quarter": 1,
+            "turn": "0.000000000",
+            "x": "10.000000000",
+            "y": "5.000000000"
+          },
+          {
+            "quarter": 3,
+            "turn": "0.000000000",
+            "x": "5.000000000",
+            "y": "5.000000000"
+          },
+          {
+            "quarter": 1,
+            "turn": "0.000000000",
+            "x": "20.000000000",
+            "y": "6.000000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "19.000000000",
+            "y": "19.000000000"
+          },
+          {
+            "quarter": 0,
+            "turn": "0.000000000",
+            "x": "8.000000000",
+            "y": "18.000000000"
+          }
+        ],
+        "side": "26"
+      }
+    },
+    {
+      "instanceId": "p96-n9-v1",
+      "name": "n = 9",
+      "parameters": {
+        "n": 9
+      },
+      "objective": "minimize",
+      "scoreStored": "31000000000",
+      "scoreDisplay": "31",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "31",
+        "kind": "best",
+        "source": "Erich Friedman (1998), compiled by Erich Friedman. The integer side is a construction value, not a global optimality claim. The site uses an ordinary shelf starter.",
+        "url": "https://erich-friedman.github.io/packing/clinsqu/"
+      },
+      "holder": "qiboqi",
+      "method": "human",
+      "recordedAt": "2026-11-01T04:43:08.700Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 0,
+            "turn": "0.000000000",
+            "x": "1.000000000",
+            "y": "28.000000000"
+          },
+          {
+            "quarter": 0,
+            "turn": "0.000000000",
+            "x": "6.000000000",
+            "y": "24.000000000"
+          },
+          {
+            "quarter": 1,
+            "turn": "0.000000000",
+            "x": "13.000000000",
+            "y": "19.000000000"
+          },
+          {
+            "quarter": 0,
+            "turn": "0.000000000",
+            "x": "4.000000000",
+            "y": "22.000000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "8.000000000",
+            "y": "26.000000000"
+          },
+          {
+            "quarter": 1,
+            "turn": "0.000000000",
+            "x": "24.000000000",
+            "y": "9.000000000"
+          },
+          {
+            "quarter": 1,
+            "turn": "0.000000000",
+            "x": "16.000000000",
+            "y": "16.000000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "23.000000000",
+            "y": "23.000000000"
+          },
+          {
+            "quarter": 0,
+            "turn": "0.000000000",
+            "x": "9.000000000",
+            "y": "9.000000000"
+          }
+        ],
+        "side": "31"
+      }
+    },
+    {
+      "instanceId": "p96-n10-v1",
+      "name": "n = 10",
+      "parameters": {
+        "n": 10
+      },
+      "objective": "minimize",
+      "scoreStored": "36000000000",
+      "scoreDisplay": "36",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "36",
+        "kind": "best",
+        "source": "Erich Friedman (1998), compiled by Erich Friedman. The integer side is a construction value, not a global optimality claim. The site uses an ordinary shelf starter.",
+        "url": "https://erich-friedman.github.io/packing/clinsqu/"
+      },
+      "holder": "condor",
+      "method": "ai",
+      "recordedAt": "2026-11-01T07:59:25.003Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 3,
+            "turn": "0",
+            "x": "29",
+            "y": "9"
+          },
+          {
+            "quarter": 1,
+            "turn": "0",
+            "x": "34",
+            "y": "10"
+          },
+          {
+            "quarter": 3,
+            "turn": "0",
+            "x": "3",
+            "y": "32"
+          },
+          {
+            "quarter": 2,
+            "turn": "0",
+            "x": "30",
+            "y": "32"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "30",
+            "y": "27"
+          },
+          {
+            "quarter": 2,
+            "turn": "0",
+            "x": "28",
+            "y": "16"
+          },
+          {
+            "quarter": 2,
+            "turn": "0",
+            "x": "18",
+            "y": "29"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "28",
+            "y": "8"
+          },
+          {
+            "quarter": 3,
+            "turn": "0",
+            "x": "9",
+            "y": "20"
+          },
+          {
+            "quarter": 1,
+            "turn": "0",
+            "x": "10",
+            "y": "10"
+          }
+        ],
+        "side": "36"
+      }
+    },
+    {
+      "instanceId": "p96-n11-v1",
+      "name": "n = 11",
+      "parameters": {
+        "n": 11
+      },
+      "objective": "minimize",
+      "scoreStored": "41000000000",
+      "scoreDisplay": "41",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "41",
+        "kind": "best",
+        "source": "Patrick Hamlyn (2004), compiled by Erich Friedman. The integer side is a construction value, not a global optimality claim. The site uses an ordinary shelf starter.",
+        "url": "https://erich-friedman.github.io/packing/clinsqu/"
+      },
+      "holder": "condor",
+      "method": "ai",
+      "recordedAt": "2026-11-01T07:59:32.046Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 2,
+            "turn": "0",
+            "x": "40",
+            "y": "4"
+          },
+          {
+            "quarter": 2,
+            "turn": "0",
+            "x": "16",
+            "y": "38"
+          },
+          {
+            "quarter": 2,
+            "turn": "0",
+            "x": "36",
+            "y": "8"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "36",
+            "y": "4"
+          },
+          {
+            "quarter": 1,
+            "turn": "0",
+            "x": "35",
+            "y": "34"
+          },
+          {
+            "quarter": 3,
+            "turn": "0",
+            "x": "29",
+            "y": "35"
+          },
+          {
+            "quarter": 1,
+            "turn": "0",
+            "x": "16",
+            "y": "29"
+          },
+          {
+            "quarter": 3,
+            "turn": "0",
+            "x": "8",
+            "y": "30"
+          },
+          {
+            "quarter": 2,
+            "turn": "0",
+            "x": "32",
+            "y": "20"
+          },
+          {
+            "quarter": 1,
+            "turn": "0",
+            "x": "22",
+            "y": "10"
+          },
+          {
+            "quarter": 3,
+            "turn": "0",
+            "x": "11",
+            "y": "11"
+          }
+        ],
+        "side": "41"
+      }
+    },
+    {
+      "instanceId": "p96-n12-v1",
+      "name": "n = 12",
+      "parameters": {
+        "n": 12
+      },
+      "objective": "minimize",
+      "scoreStored": "46000000000",
+      "scoreDisplay": "46",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "46",
+        "kind": "best",
+        "source": "Erich Friedman (2003), compiled by Erich Friedman. The integer side is a construction value, not a global optimality claim. The site uses an ordinary shelf starter.",
+        "url": "https://erich-friedman.github.io/packing/clinsqu/"
+      },
+      "holder": "condor",
+      "method": "ai",
+      "recordedAt": "2026-11-01T07:59:39.088Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 1,
+            "turn": "0",
+            "x": "13",
+            "y": "1"
+          },
+          {
+            "quarter": 3,
+            "turn": "0",
+            "x": "44",
+            "y": "16"
+          },
+          {
+            "quarter": 3,
+            "turn": "0",
+            "x": "15",
+            "y": "9"
+          },
+          {
+            "quarter": 1,
+            "turn": "0",
+            "x": "42",
+            "y": "10"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "38",
+            "y": "5"
+          },
+          {
+            "quarter": 3,
+            "turn": "0",
+            "x": "39",
+            "y": "40"
+          },
+          {
+            "quarter": 1,
+            "turn": "0",
+            "x": "39",
+            "y": "33"
+          },
+          {
+            "quarter": 2,
+            "turn": "0",
+            "x": "34",
+            "y": "18"
+          },
+          {
+            "quarter": 1,
+            "turn": "0",
+            "x": "24",
+            "y": "9"
+          },
+          {
+            "quarter": 2,
+            "turn": "0",
+            "x": "22",
+            "y": "36"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "11",
+            "y": "35"
+          },
+          {
+            "quarter": 3,
+            "turn": "0",
+            "x": "12",
+            "y": "12"
+          }
+        ],
+        "side": "46"
+      }
+    },
+    {
+      "instanceId": "p96-n13-v1",
+      "name": "n = 13",
+      "parameters": {
+        "n": 13
+      },
+      "objective": "minimize",
+      "scoreStored": "51000000000",
+      "scoreDisplay": "51",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "51",
+        "kind": "best",
+        "source": "Maurizio Morandi (2015), compiled by Erich Friedman. The integer side is a construction value, not a global optimality claim. The site uses an ordinary shelf starter.",
+        "url": "https://erich-friedman.github.io/packing/clinsqu/"
+      },
+      "holder": "condor",
+      "method": "ai",
+      "recordedAt": "2026-11-01T07:59:45.058Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 2,
+            "turn": "0",
+            "x": "17",
+            "y": "1"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "2",
+            "y": "22"
+          },
+          {
+            "quarter": 2,
+            "turn": "0",
+            "x": "16",
+            "y": "8"
+          },
+          {
+            "quarter": 1,
+            "turn": "0",
+            "x": "4",
+            "y": "20"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "45",
+            "y": "15"
+          },
+          {
+            "quarter": 2,
+            "turn": "0",
+            "x": "45",
+            "y": "21"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "20",
+            "y": "29"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "8",
+            "y": "8"
+          },
+          {
+            "quarter": 2,
+            "turn": "0",
+            "x": "30",
+            "y": "29"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "40",
+            "y": "10"
+          },
+          {
+            "quarter": 2,
+            "turn": "0",
+            "x": "19",
+            "y": "11"
+          },
+          {
+            "quarter": 2,
+            "turn": "0",
+            "x": "39",
+            "y": "39"
+          },
+          {
+            "quarter": 3,
+            "turn": "0",
+            "x": "13",
+            "y": "38"
+          }
+        ],
+        "side": "51"
+      }
+    },
+    {
+      "instanceId": "p96-n14-v1",
+      "name": "n = 14",
+      "parameters": {
+        "n": 14
+      },
+      "objective": "minimize",
+      "scoreStored": "57000000000",
+      "scoreDisplay": "57",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "57",
+        "kind": "best",
+        "source": "Maurizio Morandi (2015), compiled by Erich Friedman. The integer side is a construction value, not a global optimality claim. The site uses an ordinary shelf starter.",
+        "url": "https://erich-friedman.github.io/packing/clinsqu/"
+      },
+      "holder": "condor",
+      "method": "ai",
+      "recordedAt": "2026-11-01T07:59:52.250Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 1,
+            "turn": "0",
+            "x": "1",
+            "y": "13"
+          },
+          {
+            "quarter": 1,
+            "turn": "0",
+            "x": "54",
+            "y": "21"
+          },
+          {
+            "quarter": 3,
+            "turn": "0",
+            "x": "54",
+            "y": "3"
+          },
+          {
+            "quarter": 1,
+            "turn": "0",
+            "x": "32",
+            "y": "31"
+          },
+          {
+            "quarter": 3,
+            "turn": "0",
+            "x": "27",
+            "y": "31"
+          },
+          {
+            "quarter": 2,
+            "turn": "0",
+            "x": "51",
+            "y": "13"
+          },
+          {
+            "quarter": 2,
+            "turn": "0",
+            "x": "36",
+            "y": "36"
+          },
+          {
+            "quarter": 3,
+            "turn": "0",
+            "x": "45",
+            "y": "21"
+          },
+          {
+            "quarter": 1,
+            "turn": "0",
+            "x": "20",
+            "y": "45"
+          },
+          {
+            "quarter": 3,
+            "turn": "0",
+            "x": "10",
+            "y": "46"
+          },
+          {
+            "quarter": 3,
+            "turn": "0",
+            "x": "11",
+            "y": "25"
+          },
+          {
+            "quarter": 1,
+            "turn": "0",
+            "x": "12",
+            "y": "12"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "37",
+            "y": "13"
+          },
+          {
+            "quarter": 2,
+            "turn": "0",
+            "x": "43",
+            "y": "43"
+          }
+        ],
+        "side": "57"
+      }
+    },
+    {
+      "instanceId": "p96-n15-v1",
+      "name": "n = 15",
+      "parameters": {
+        "n": 15
+      },
+      "objective": "minimize",
+      "scoreStored": "63000000000",
+      "scoreDisplay": "63",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "63",
+        "kind": "best",
+        "source": "Erich Friedman (2005), compiled by Erich Friedman. The integer side is a construction value, not a global optimality claim. The site uses an ordinary shelf starter.",
+        "url": "https://erich-friedman.github.io/packing/clinsqu/"
+      },
+      "holder": "condor",
+      "method": "ai",
+      "recordedAt": "2026-11-01T07:59:59.187Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 3,
+            "turn": "0",
+            "x": "1",
+            "y": "12"
+          },
+          {
+            "quarter": 1,
+            "turn": "0",
+            "x": "9",
+            "y": "14"
+          },
+          {
+            "quarter": 2,
+            "turn": "0",
+            "x": "60",
+            "y": "36"
+          },
+          {
+            "quarter": 3,
+            "turn": "0",
+            "x": "22",
+            "y": "28"
+          },
+          {
+            "quarter": 2,
+            "turn": "0",
+            "x": "36",
+            "y": "32"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "57",
+            "y": "33"
+          },
+          {
+            "quarter": 2,
+            "turn": "0",
+            "x": "32",
+            "y": "55"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "23",
+            "y": "55"
+          },
+          {
+            "quarter": 3,
+            "turn": "0",
+            "x": "9",
+            "y": "23"
+          },
+          {
+            "quarter": 2,
+            "turn": "0",
+            "x": "41",
+            "y": "37"
+          },
+          {
+            "quarter": 1,
+            "turn": "0",
+            "x": "11",
+            "y": "11"
+          },
+          {
+            "quarter": 2,
+            "turn": "0",
+            "x": "51",
+            "y": "51"
+          },
+          {
+            "quarter": 2,
+            "turn": "0",
+            "x": "50",
+            "y": "14"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "36",
+            "y": "14"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "15",
+            "y": "47"
+          }
+        ],
+        "side": "63"
+      }
+    },
+    {
+      "instanceId": "p96-n16-v1",
+      "name": "n = 16",
+      "parameters": {
+        "n": 16
+      },
+      "objective": "minimize",
+      "scoreStored": "69000000000",
+      "scoreDisplay": "69",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "69",
+        "kind": "best",
+        "source": "Erich Friedman (2005), compiled by Erich Friedman. The integer side is a construction value, not a global optimality claim. The site uses an ordinary shelf starter.",
+        "url": "https://erich-friedman.github.io/packing/clinsqu/"
+      },
+      "holder": "condor",
+      "method": "ai",
+      "recordedAt": "2026-11-01T08:27:24.732Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 3,
+            "turn": "0",
+            "x": "27",
+            "y": "15"
+          },
+          {
+            "quarter": 2,
+            "turn": "0",
+            "x": "28",
+            "y": "16"
+          },
+          {
+            "quarter": 1,
+            "turn": "0",
+            "x": "65",
+            "y": "30"
+          },
+          {
+            "quarter": 3,
+            "turn": "0",
+            "x": "65",
+            "y": "11"
+          },
+          {
+            "quarter": 1,
+            "turn": "0",
+            "x": "35",
+            "y": "19"
+          },
+          {
+            "quarter": 1,
+            "turn": "0",
+            "x": "63",
+            "y": "21"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "61",
+            "y": "7"
+          },
+          {
+            "quarter": 2,
+            "turn": "0",
+            "x": "54",
+            "y": "29"
+          },
+          {
+            "quarter": 3,
+            "turn": "0",
+            "x": "35",
+            "y": "28"
+          },
+          {
+            "quarter": 3,
+            "turn": "0",
+            "x": "58",
+            "y": "59"
+          },
+          {
+            "quarter": 1,
+            "turn": "0",
+            "x": "58",
+            "y": "48"
+          },
+          {
+            "quarter": 3,
+            "turn": "0",
+            "x": "12",
+            "y": "26"
+          },
+          {
+            "quarter": 1,
+            "turn": "0",
+            "x": "13",
+            "y": "13"
+          },
+          {
+            "quarter": 1,
+            "turn": "0",
+            "x": "40",
+            "y": "14"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "15",
+            "y": "53"
+          },
+          {
+            "quarter": 2,
+            "turn": "0",
+            "x": "31",
+            "y": "53"
+          }
+        ],
+        "side": "69"
+      }
+    },
+    {
+      "instanceId": "p96-n17-v1",
+      "name": "n = 17",
+      "parameters": {
+        "n": 17
+      },
+      "objective": "minimize",
+      "scoreStored": "75000000000",
+      "scoreDisplay": "75",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "75",
+        "kind": "best",
+        "source": "Erich Friedman (2005), compiled by Erich Friedman. The integer side is a construction value, not a global optimality claim. The site uses an ordinary shelf starter.",
+        "url": "https://erich-friedman.github.io/packing/clinsqu/"
+      },
+      "holder": "condor",
+      "method": "ai",
+      "recordedAt": "2026-11-01T08:48:39.494Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 1,
+            "turn": "0",
+            "x": "1",
+            "y": "31"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "37",
+            "y": "34"
+          },
+          {
+            "quarter": 3,
+            "turn": "0",
+            "x": "38",
+            "y": "70"
+          },
+          {
+            "quarter": 1,
+            "turn": "0",
+            "x": "43",
+            "y": "36"
+          },
+          {
+            "quarter": 2,
+            "turn": "0",
+            "x": "35",
+            "y": "56"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "35",
+            "y": "67"
+          },
+          {
+            "quarter": 3,
+            "turn": "0",
+            "x": "43",
+            "y": "43"
+          },
+          {
+            "quarter": 2,
+            "turn": "0",
+            "x": "50",
+            "y": "50"
+          },
+          {
+            "quarter": 1,
+            "turn": "0",
+            "x": "20",
+            "y": "65"
+          },
+          {
+            "quarter": 3,
+            "turn": "0",
+            "x": "10",
+            "y": "65"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "11",
+            "y": "43"
+          },
+          {
+            "quarter": 2,
+            "turn": "0",
+            "x": "23",
+            "y": "44"
+          },
+          {
+            "quarter": 3,
+            "turn": "0",
+            "x": "60",
+            "y": "28"
+          },
+          {
+            "quarter": 1,
+            "turn": "0",
+            "x": "61",
+            "y": "14"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "15",
+            "y": "15"
+          },
+          {
+            "quarter": 2,
+            "turn": "0",
+            "x": "31",
+            "y": "16"
+          },
+          {
+            "quarter": 2,
+            "turn": "0",
+            "x": "58",
+            "y": "58"
+          }
+        ],
+        "side": "75"
+      }
+    },
+    {
+      "instanceId": "p96-n18-v1",
+      "name": "n = 18",
+      "parameters": {
+        "n": 18
+      },
+      "objective": "minimize",
+      "scoreStored": "82000000000",
+      "scoreDisplay": "82",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "82",
+        "kind": "best",
+        "source": "Erich Friedman (2005), compiled by Erich Friedman. The integer side is a construction value, not a global optimality claim. The site uses an ordinary shelf starter.",
+        "url": "https://erich-friedman.github.io/packing/clinsqu/"
+      },
+      "holder": "condor",
+      "method": "ai",
+      "recordedAt": "2026-11-01T08:02:06.575Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 2,
+            "turn": "0",
+            "x": "1",
+            "y": "81"
+          },
+          {
+            "quarter": 2,
+            "turn": "0",
+            "x": "79",
+            "y": "14"
+          },
+          {
+            "quarter": 2,
+            "turn": "0",
+            "x": "77",
+            "y": "3"
+          },
+          {
+            "quarter": 1,
+            "turn": "0",
+            "x": "75",
+            "y": "10"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "69",
+            "y": "5"
+          },
+          {
+            "quarter": 3,
+            "turn": "0",
+            "x": "49",
+            "y": "62"
+          },
+          {
+            "quarter": 2,
+            "turn": "0",
+            "x": "75",
+            "y": "23"
+          },
+          {
+            "quarter": 2,
+            "turn": "0",
+            "x": "74",
+            "y": "71"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "65",
+            "y": "71"
+          },
+          {
+            "quarter": 3,
+            "turn": "0",
+            "x": "40",
+            "y": "46"
+          },
+          {
+            "quarter": 3,
+            "turn": "0",
+            "x": "64",
+            "y": "11"
+          },
+          {
+            "quarter": 2,
+            "turn": "0",
+            "x": "54",
+            "y": "34"
+          },
+          {
+            "quarter": 3,
+            "turn": "0",
+            "x": "43",
+            "y": "69"
+          },
+          {
+            "quarter": 3,
+            "turn": "0",
+            "x": "14",
+            "y": "66"
+          },
+          {
+            "quarter": 1,
+            "turn": "0",
+            "x": "15",
+            "y": "51"
+          },
+          {
+            "quarter": 2,
+            "turn": "0",
+            "x": "66",
+            "y": "46"
+          },
+          {
+            "quarter": 1,
+            "turn": "0",
+            "x": "36",
+            "y": "17"
+          },
+          {
+            "quarter": 3,
+            "turn": "0",
+            "x": "18",
+            "y": "18"
+          }
+        ],
+        "side": "82"
+      }
+    },
+    {
+      "instanceId": "p96-n19-v1",
+      "name": "n = 19",
+      "parameters": {
+        "n": 19
+      },
+      "objective": "minimize",
+      "scoreStored": "88000000000",
+      "scoreDisplay": "88",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "88",
+        "kind": "best",
+        "source": "Maurizio Morandi (2015), compiled by Erich Friedman. The integer side is a construction value, not a global optimality claim. The site uses an ordinary shelf starter.",
+        "url": "https://erich-friedman.github.io/packing/clinsqu/"
+      },
+      "holder": "condor",
+      "method": "ai",
+      "recordedAt": "2026-11-01T08:30:46.668Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 2,
+            "turn": "0",
+            "x": "17",
+            "y": "57"
+          },
+          {
+            "quarter": 2,
+            "turn": "0",
+            "x": "18",
+            "y": "59"
+          },
+          {
+            "quarter": 3,
+            "turn": "0",
+            "x": "85",
+            "y": "59"
+          },
+          {
+            "quarter": 1,
+            "turn": "0",
+            "x": "64",
+            "y": "26"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "69",
+            "y": "49"
+          },
+          {
+            "quarter": 3,
+            "turn": "0",
+            "x": "76",
+            "y": "56"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "59",
+            "y": "21"
+          },
+          {
+            "quarter": 3,
+            "turn": "0",
+            "x": "77",
+            "y": "80"
+          },
+          {
+            "quarter": 1,
+            "turn": "0",
+            "x": "78",
+            "y": "71"
+          },
+          {
+            "quarter": 2,
+            "turn": "0",
+            "x": "78",
+            "y": "22"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "77",
+            "y": "11"
+          },
+          {
+            "quarter": 1,
+            "turn": "0",
+            "x": "76",
+            "y": "44"
+          },
+          {
+            "quarter": 1,
+            "turn": "0",
+            "x": "51",
+            "y": "41"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "52",
+            "y": "14"
+          },
+          {
+            "quarter": 2,
+            "turn": "0",
+            "x": "36",
+            "y": "56"
+          },
+          {
+            "quarter": 3,
+            "turn": "0",
+            "x": "16",
+            "y": "72"
+          },
+          {
+            "quarter": 2,
+            "turn": "0",
+            "x": "51",
+            "y": "71"
+          },
+          {
+            "quarter": 3,
+            "turn": "0",
+            "x": "18",
+            "y": "38"
+          },
+          {
+            "quarter": 1,
+            "turn": "0",
+            "x": "19",
+            "y": "19"
+          }
+        ],
+        "side": "88"
+      }
+    },
+    {
+      "instanceId": "p96-n20-v1",
+      "name": "n = 20",
+      "parameters": {
+        "n": 20
+      },
+      "objective": "minimize",
+      "scoreStored": "95000000000",
+      "scoreDisplay": "95",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "95",
+        "kind": "best",
+        "source": "Maurizio Morandi (2015), compiled by Erich Friedman. The integer side is a construction value, not a global optimality claim. The site uses an ordinary shelf starter.",
+        "url": "https://erich-friedman.github.io/packing/clinsqu/"
+      },
+      "holder": "condor",
+      "method": "ai",
+      "recordedAt": "2026-11-01T08:18:29.688Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 3,
+            "turn": "0",
+            "x": "19",
+            "y": "1"
+          },
+          {
+            "quarter": 2,
+            "turn": "0",
+            "x": "20",
+            "y": "2"
+          },
+          {
+            "quarter": 2,
+            "turn": "0",
+            "x": "65",
+            "y": "75"
+          },
+          {
+            "quarter": 2,
+            "turn": "0",
+            "x": "23",
+            "y": "4"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "60",
+            "y": "75"
+          },
+          {
+            "quarter": 1,
+            "turn": "0",
+            "x": "87",
+            "y": "88"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "52",
+            "y": "87"
+          },
+          {
+            "quarter": 2,
+            "turn": "0",
+            "x": "60",
+            "y": "87"
+          },
+          {
+            "quarter": 2,
+            "turn": "0",
+            "x": "27",
+            "y": "9"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "45",
+            "y": "80"
+          },
+          {
+            "quarter": 1,
+            "turn": "0",
+            "x": "24",
+            "y": "82"
+          },
+          {
+            "quarter": 3,
+            "turn": "0",
+            "x": "12",
+            "y": "82"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "81",
+            "y": "82"
+          },
+          {
+            "quarter": 2,
+            "turn": "0",
+            "x": "81",
+            "y": "55"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "66",
+            "y": "55"
+          },
+          {
+            "quarter": 2,
+            "turn": "0",
+            "x": "35",
+            "y": "54"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "18",
+            "y": "53"
+          },
+          {
+            "quarter": 3,
+            "turn": "0",
+            "x": "18",
+            "y": "18"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "55",
+            "y": "19"
+          },
+          {
+            "quarter": 2,
+            "turn": "0",
+            "x": "75",
+            "y": "20"
+          }
+        ],
+        "side": "95"
+      }
+    },
+    {
+      "instanceId": "p96-n21-v1",
+      "name": "n = 21",
+      "parameters": {
+        "n": 21
+      },
+      "objective": "minimize",
+      "scoreStored": "110000000000",
+      "scoreDisplay": "110",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": "今天",
+      "method": "human",
+      "recordedAt": "2026-11-01T11:52:33.027Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 0,
+            "turn": "0.000000000",
+            "x": "40.000000000",
+            "y": "41.000000000"
+          },
+          {
+            "quarter": 0,
+            "turn": "0.000000000",
+            "x": "68.000000000",
+            "y": "26.000000000"
+          },
+          {
+            "quarter": 0,
+            "turn": "0.000000000",
+            "x": "39.000000000",
+            "y": "39.000000000"
+          },
+          {
+            "quarter": 0,
+            "turn": "0.000000000",
+            "x": "66.000000000",
+            "y": "24.000000000"
+          },
+          {
+            "quarter": 0,
+            "turn": "0.000000000",
+            "x": "36.000000000",
+            "y": "36.000000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "30.000000000",
+            "y": "76.000000000"
+          },
+          {
+            "quarter": 0,
+            "turn": "0.000000000",
+            "x": "60.000000000",
+            "y": "66.000000000"
+          },
+          {
+            "quarter": 0,
+            "turn": "0.000000000",
+            "x": "26.000000000",
+            "y": "68.000000000"
+          },
+          {
+            "quarter": 1,
+            "turn": "0.000000000",
+            "x": "92.061488674",
+            "y": "9.651776459"
+          },
+          {
+            "quarter": 0,
+            "turn": "0.000000000",
+            "x": "31.000000000",
+            "y": "31.000000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "28.289803955",
+            "y": "96.000000000"
+          },
+          {
+            "quarter": 0,
+            "turn": "0.000000000",
+            "x": "72.000000000",
+            "y": "80.000000000"
+          },
+          {
+            "quarter": 3,
+            "turn": "0.000000000",
+            "x": "52.391603144",
+            "y": "94.316506592"
+          },
+          {
+            "quarter": 0,
+            "turn": "0.000000000",
+            "x": "14.000000000",
+            "y": "96.000000000"
+          },
+          {
+            "quarter": 0,
+            "turn": "0.000000000",
+            "x": "85.000000000",
+            "y": "35.000000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "86.000000000",
+            "y": "51.000000000"
+          },
+          {
+            "quarter": 0,
+            "turn": "0.000000000",
+            "x": "53.000000000",
+            "y": "59.000000000"
+          },
+          {
+            "quarter": 0,
+            "turn": "0.000000000",
+            "x": "18.000000000",
+            "y": "60.000000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "91.000000000",
+            "y": "89.518427483"
+          },
+          {
+            "quarter": 0,
+            "turn": "0.000000000",
+            "x": "62.000000000",
+            "y": "20.000000000"
+          },
+          {
+            "quarter": 0,
+            "turn": "0.000000000",
+            "x": "21.000000000",
+            "y": "21.000000000"
+          }
+        ],
+        "side": "110"
+      }
+    },
+    {
+      "instanceId": "p96-n22-v1",
+      "name": "n = 22",
+      "parameters": {
+        "n": 22
+      },
+      "objective": "minimize",
+      "scoreStored": "114000000000",
+      "scoreDisplay": "114",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": "今天",
+      "method": "human",
+      "recordedAt": "2026-11-01T11:51:15.330Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 0,
+            "turn": "0.000000000",
+            "x": "42.000000000",
+            "y": "42.000000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "61.420758453",
+            "y": "51.000000000"
+          },
+          {
+            "quarter": 0,
+            "turn": "0.000000000",
+            "x": "41.000000000",
+            "y": "41.000000000"
+          },
+          {
+            "quarter": 0,
+            "turn": "0.000000000",
+            "x": "60.646851298",
+            "y": "46.808724046"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "69.000000000",
+            "y": "109.000000000"
+          },
+          {
+            "quarter": 0,
+            "turn": "0.000000000",
+            "x": "38.000000000",
+            "y": "38.000000000"
+          },
+          {
+            "quarter": 0,
+            "turn": "0.000000000",
+            "x": "72.000000000",
+            "y": "28.000000000"
+          },
+          {
+            "quarter": 1,
+            "turn": "0.000000000",
+            "x": "87.000000000",
+            "y": "46.000000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "70.420758453",
+            "y": "83.573400750"
+          },
+          {
+            "quarter": 0,
+            "turn": "0.000000000",
+            "x": "32.000000000",
+            "y": "32.000000000"
+          },
+          {
+            "quarter": 3,
+            "turn": "0.000000000",
+            "x": "76.000000000",
+            "y": "46.000000000"
+          },
+          {
+            "quarter": 3,
+            "turn": "0.000000000",
+            "x": "57.000000000",
+            "y": "96.659157499"
+          },
+          {
+            "quarter": 0,
+            "turn": "0.000000000",
+            "x": "69.000000000",
+            "y": "70.000000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "30.000000000",
+            "y": "97.000000000"
+          },
+          {
+            "quarter": 0,
+            "turn": "0.000000000",
+            "x": "15.000000000",
+            "y": "97.000000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "98.000000000",
+            "y": "57.453790598"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "96.000000000",
+            "y": "21.000000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "38.000000000",
+            "y": "63.226115019"
+          },
+          {
+            "quarter": 0,
+            "turn": "0.000000000",
+            "x": "19.000000000",
+            "y": "63.000000000"
+          },
+          {
+            "quarter": 2,
+            "turn": "0.000000000",
+            "x": "94.000000000",
+            "y": "94.000000000"
+          },
+          {
+            "quarter": 0,
+            "turn": "0.000000000",
+            "x": "65.000000000",
+            "y": "21.000000000"
+          },
+          {
+            "quarter": 0,
+            "turn": "0.000000000",
+            "x": "22.000000000",
+            "y": "22.000000000"
+          }
+        ],
+        "side": "114"
+      }
+    },
+    {
+      "instanceId": "p96-n23-v1",
+      "name": "n = 23",
+      "parameters": {
+        "n": 23
+      },
+      "objective": "minimize",
+      "scoreStored": "149000000000",
+      "scoreDisplay": "149",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-01T10:26:25.234Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "131",
+            "y": "119"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "128",
+            "y": "120"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "123",
+            "y": "121"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "116",
+            "y": "122"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "107",
+            "y": "123"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "96",
+            "y": "124"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "83",
+            "y": "125"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "68",
+            "y": "126"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "51",
+            "y": "127"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "32",
+            "y": "128"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "11",
+            "y": "129"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "128",
+            "y": "98"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "103",
+            "y": "99"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "76",
+            "y": "100"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "47",
+            "y": "101"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "16",
+            "y": "102"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "131",
+            "y": "63"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "96",
+            "y": "64"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "59",
+            "y": "65"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "20",
+            "y": "66"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "111",
+            "y": "21"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "68",
+            "y": "22"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "23",
+            "y": "23"
+          }
+        ],
+        "side": "149"
+      }
+    },
+    {
+      "instanceId": "p96-n24-v1",
+      "name": "n = 24",
+      "parameters": {
+        "n": 24
+      },
+      "objective": "minimize",
+      "scoreStored": "157000000000",
+      "scoreDisplay": "157",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-01T10:26:25.234Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "155",
+            "y": "125"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "152",
+            "y": "126"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "147",
+            "y": "127"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "140",
+            "y": "128"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "131",
+            "y": "129"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "120",
+            "y": "130"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "107",
+            "y": "131"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "92",
+            "y": "132"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "75",
+            "y": "133"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "56",
+            "y": "134"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "35",
+            "y": "135"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "12",
+            "y": "136"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "137",
+            "y": "103"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "110",
+            "y": "104"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "81",
+            "y": "105"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "50",
+            "y": "106"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "17",
+            "y": "107"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "138",
+            "y": "66"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "101",
+            "y": "67"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "62",
+            "y": "68"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "21",
+            "y": "69"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "116",
+            "y": "22"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "71",
+            "y": "23"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "24",
+            "y": "24"
+          }
+        ],
+        "side": "157"
+      }
+    },
+    {
+      "instanceId": "p96-n25-v1",
+      "name": "n = 25",
+      "parameters": {
+        "n": 25
+      },
+      "objective": "minimize",
+      "scoreStored": "165000000000",
+      "scoreDisplay": "165",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-01T10:26:25.234Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "19",
+            "y": "157"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "16",
+            "y": "158"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "11",
+            "y": "159"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "4",
+            "y": "160"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "157",
+            "y": "135"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "146",
+            "y": "136"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "133",
+            "y": "137"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "118",
+            "y": "138"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "101",
+            "y": "139"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "82",
+            "y": "140"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "61",
+            "y": "141"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "38",
+            "y": "142"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "13",
+            "y": "143"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "146",
+            "y": "108"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "117",
+            "y": "109"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "86",
+            "y": "110"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "53",
+            "y": "111"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "18",
+            "y": "112"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "145",
+            "y": "69"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "106",
+            "y": "70"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "65",
+            "y": "71"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "22",
+            "y": "72"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "121",
+            "y": "23"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "74",
+            "y": "24"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "25",
+            "y": "25"
+          }
+        ],
+        "side": "165"
+      }
+    },
+    {
+      "instanceId": "p96-n26-v1",
+      "name": "n = 26",
+      "parameters": {
+        "n": 26
+      },
+      "objective": "minimize",
+      "scoreStored": "177000000000",
+      "scoreDisplay": "177",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-01T10:26:25.234Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "41",
+            "y": "165"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "38",
+            "y": "166"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "33",
+            "y": "167"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "26",
+            "y": "168"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "17",
+            "y": "169"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "6",
+            "y": "170"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "161",
+            "y": "143"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "146",
+            "y": "144"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "129",
+            "y": "145"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "110",
+            "y": "146"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "89",
+            "y": "147"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "66",
+            "y": "148"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "41",
+            "y": "149"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "14",
+            "y": "150"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "155",
+            "y": "113"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "124",
+            "y": "114"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "91",
+            "y": "115"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "56",
+            "y": "116"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "19",
+            "y": "117"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "152",
+            "y": "72"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "111",
+            "y": "73"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "68",
+            "y": "74"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "23",
+            "y": "75"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "126",
+            "y": "24"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "77",
+            "y": "25"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "26",
+            "y": "26"
+          }
+        ],
+        "side": "177"
+      }
+    },
+    {
+      "instanceId": "p96-n27-v1",
+      "name": "n = 27",
+      "parameters": {
+        "n": 27
+      },
+      "objective": "minimize",
+      "scoreStored": "187000000000",
+      "scoreDisplay": "187",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-01T10:26:25.234Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "55",
+            "y": "173"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "52",
+            "y": "174"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "47",
+            "y": "175"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "40",
+            "y": "176"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "31",
+            "y": "177"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "20",
+            "y": "178"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "7",
+            "y": "179"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "176",
+            "y": "150"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "159",
+            "y": "151"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "140",
+            "y": "152"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "119",
+            "y": "153"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "96",
+            "y": "154"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "71",
+            "y": "155"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "44",
+            "y": "156"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "15",
+            "y": "157"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "164",
+            "y": "118"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "131",
+            "y": "119"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "96",
+            "y": "120"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "59",
+            "y": "121"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "20",
+            "y": "122"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "159",
+            "y": "75"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "116",
+            "y": "76"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "71",
+            "y": "77"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "24",
+            "y": "78"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "131",
+            "y": "25"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "80",
+            "y": "26"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "27",
+            "y": "27"
+          }
+        ],
+        "side": "187"
+      }
+    },
+    {
+      "instanceId": "p96-n28-v1",
+      "name": "n = 28",
+      "parameters": {
+        "n": 28
+      },
+      "objective": "minimize",
+      "scoreStored": "199000000000",
+      "scoreDisplay": "199",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-01T10:26:25.234Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "89",
+            "y": "181"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "86",
+            "y": "182"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "81",
+            "y": "183"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "74",
+            "y": "184"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "65",
+            "y": "185"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "54",
+            "y": "186"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "41",
+            "y": "187"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "26",
+            "y": "188"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "9",
+            "y": "189"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "172",
+            "y": "158"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "151",
+            "y": "159"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "128",
+            "y": "160"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "103",
+            "y": "161"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "76",
+            "y": "162"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "47",
+            "y": "163"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "16",
+            "y": "164"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "173",
+            "y": "123"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "138",
+            "y": "124"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "101",
+            "y": "125"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "62",
+            "y": "126"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "21",
+            "y": "127"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "166",
+            "y": "78"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "121",
+            "y": "79"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "74",
+            "y": "80"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "25",
+            "y": "81"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "136",
+            "y": "26"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "83",
+            "y": "27"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "28",
+            "y": "28"
+          }
+        ],
+        "side": "199"
+      }
+    },
+    {
+      "instanceId": "p96-n29-v1",
+      "name": "n = 29",
+      "parameters": {
+        "n": 29
+      },
+      "objective": "minimize",
+      "scoreStored": "209000000000",
+      "scoreDisplay": "209",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-01T10:26:25.234Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "109",
+            "y": "189"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "106",
+            "y": "190"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "101",
+            "y": "191"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "94",
+            "y": "192"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "85",
+            "y": "193"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "74",
+            "y": "194"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "61",
+            "y": "195"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "46",
+            "y": "196"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "29",
+            "y": "197"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "10",
+            "y": "198"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "185",
+            "y": "165"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "162",
+            "y": "166"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "137",
+            "y": "167"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "110",
+            "y": "168"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "81",
+            "y": "169"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "50",
+            "y": "170"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "17",
+            "y": "171"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "182",
+            "y": "128"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "145",
+            "y": "129"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "106",
+            "y": "130"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "65",
+            "y": "131"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "22",
+            "y": "132"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "173",
+            "y": "81"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "126",
+            "y": "82"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "77",
+            "y": "83"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "26",
+            "y": "84"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "141",
+            "y": "27"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "86",
+            "y": "28"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "29",
+            "y": "29"
+          }
+        ],
+        "side": "209"
+      }
+    },
+    {
+      "instanceId": "p96-n30-v1",
+      "name": "n = 30",
+      "parameters": {
+        "n": 30
+      },
+      "objective": "minimize",
+      "scoreStored": "219000000000",
+      "scoreDisplay": "219",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-01T10:26:25.234Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "131",
+            "y": "197"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "128",
+            "y": "198"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "123",
+            "y": "199"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "116",
+            "y": "200"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "107",
+            "y": "201"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "96",
+            "y": "202"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "83",
+            "y": "203"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "68",
+            "y": "204"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "51",
+            "y": "205"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "32",
+            "y": "206"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "11",
+            "y": "207"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "198",
+            "y": "172"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "173",
+            "y": "173"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "146",
+            "y": "174"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "117",
+            "y": "175"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "86",
+            "y": "176"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "53",
+            "y": "177"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "18",
+            "y": "178"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "191",
+            "y": "133"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "152",
+            "y": "134"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "111",
+            "y": "135"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "68",
+            "y": "136"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "23",
+            "y": "137"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "180",
+            "y": "84"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "131",
+            "y": "85"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "80",
+            "y": "86"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "27",
+            "y": "87"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "146",
+            "y": "28"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "89",
+            "y": "29"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "30",
+            "y": "30"
+          }
+        ],
+        "side": "219"
+      }
+    },
+    {
+      "instanceId": "p96-n31-v1",
+      "name": "n = 31",
+      "parameters": {
+        "n": 31
+      },
+      "objective": "minimize",
+      "scoreStored": "229000000000",
+      "scoreDisplay": "229",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-01T10:26:25.234Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "155",
+            "y": "205"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "152",
+            "y": "206"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "147",
+            "y": "207"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "140",
+            "y": "208"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "131",
+            "y": "209"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "120",
+            "y": "210"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "107",
+            "y": "211"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "92",
+            "y": "212"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "75",
+            "y": "213"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "56",
+            "y": "214"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "35",
+            "y": "215"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "12",
+            "y": "216"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "211",
+            "y": "179"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "184",
+            "y": "180"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "155",
+            "y": "181"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "124",
+            "y": "182"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "91",
+            "y": "183"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "56",
+            "y": "184"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "19",
+            "y": "185"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "200",
+            "y": "138"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "159",
+            "y": "139"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "116",
+            "y": "140"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "71",
+            "y": "141"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "24",
+            "y": "142"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "187",
+            "y": "87"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "136",
+            "y": "88"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "83",
+            "y": "89"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "28",
+            "y": "90"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "151",
+            "y": "29"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "92",
+            "y": "30"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "31",
+            "y": "31"
+          }
+        ],
+        "side": "229"
+      }
+    },
+    {
+      "instanceId": "p96-n32-v1",
+      "name": "n = 32",
+      "parameters": {
+        "n": 32
+      },
+      "objective": "minimize",
+      "scoreStored": "239000000000",
+      "scoreDisplay": "239",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-01T10:26:25.234Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "181",
+            "y": "213"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "178",
+            "y": "214"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "173",
+            "y": "215"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "166",
+            "y": "216"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "157",
+            "y": "217"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "146",
+            "y": "218"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "133",
+            "y": "219"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "118",
+            "y": "220"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "101",
+            "y": "221"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "82",
+            "y": "222"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "61",
+            "y": "223"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "38",
+            "y": "224"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "13",
+            "y": "225"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "224",
+            "y": "186"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "195",
+            "y": "187"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "164",
+            "y": "188"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "131",
+            "y": "189"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "96",
+            "y": "190"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "59",
+            "y": "191"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "20",
+            "y": "192"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "209",
+            "y": "143"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "166",
+            "y": "144"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "121",
+            "y": "145"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "74",
+            "y": "146"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "25",
+            "y": "147"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "194",
+            "y": "90"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "141",
+            "y": "91"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "86",
+            "y": "92"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "29",
+            "y": "93"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "156",
+            "y": "30"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "95",
+            "y": "31"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "32",
+            "y": "32"
+          }
+        ],
+        "side": "239"
+      }
+    },
+    {
+      "instanceId": "p96-n33-v1",
+      "name": "n = 33",
+      "parameters": {
+        "n": 33
+      },
+      "objective": "minimize",
+      "scoreStored": "251000000000",
+      "scoreDisplay": "251",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-01T10:26:25.234Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "239",
+            "y": "221"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "236",
+            "y": "222"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "231",
+            "y": "223"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "224",
+            "y": "224"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "215",
+            "y": "225"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "204",
+            "y": "226"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "191",
+            "y": "227"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "176",
+            "y": "228"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "159",
+            "y": "229"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "140",
+            "y": "230"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "119",
+            "y": "231"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "96",
+            "y": "232"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "71",
+            "y": "233"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "44",
+            "y": "234"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "15",
+            "y": "235"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "206",
+            "y": "194"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "173",
+            "y": "195"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "138",
+            "y": "196"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "101",
+            "y": "197"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "62",
+            "y": "198"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "21",
+            "y": "199"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "218",
+            "y": "148"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "173",
+            "y": "149"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "126",
+            "y": "150"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "77",
+            "y": "151"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "26",
+            "y": "152"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "201",
+            "y": "93"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "146",
+            "y": "94"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "89",
+            "y": "95"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "30",
+            "y": "96"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "161",
+            "y": "31"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "98",
+            "y": "32"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "33",
+            "y": "33"
+          }
+        ],
+        "side": "251"
+      }
+    },
+    {
+      "instanceId": "p96-n34-v1",
+      "name": "n = 34",
+      "parameters": {
+        "n": 34
+      },
+      "objective": "minimize",
+      "scoreStored": "261000000000",
+      "scoreDisplay": "261",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-01T10:26:25.234Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "209",
+            "y": "223"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "206",
+            "y": "224"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "201",
+            "y": "225"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "194",
+            "y": "226"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "185",
+            "y": "227"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "174",
+            "y": "228"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "161",
+            "y": "229"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "146",
+            "y": "230"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "129",
+            "y": "231"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "110",
+            "y": "232"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "89",
+            "y": "233"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "66",
+            "y": "234"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "41",
+            "y": "235"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "14",
+            "y": "236"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "237",
+            "y": "195"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "206",
+            "y": "196"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "173",
+            "y": "197"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "138",
+            "y": "198"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "101",
+            "y": "199"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "62",
+            "y": "200"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "21",
+            "y": "201"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "218",
+            "y": "150"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "173",
+            "y": "151"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "126",
+            "y": "152"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "77",
+            "y": "153"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "26",
+            "y": "154"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "201",
+            "y": "95"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "146",
+            "y": "96"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "89",
+            "y": "97"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "30",
+            "y": "98"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "229",
+            "y": "31"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "166",
+            "y": "32"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "101",
+            "y": "33"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "34",
+            "y": "34"
+          }
+        ],
+        "side": "261"
+      }
+    },
+    {
+      "instanceId": "p96-n35-v1",
+      "name": "n = 35",
+      "parameters": {
+        "n": 35
+      },
+      "objective": "minimize",
+      "scoreStored": "269000000000",
+      "scoreDisplay": "269",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-01T10:26:25.234Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "239",
+            "y": "231"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "236",
+            "y": "232"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "231",
+            "y": "233"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "224",
+            "y": "234"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "215",
+            "y": "235"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "204",
+            "y": "236"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "191",
+            "y": "237"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "176",
+            "y": "238"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "159",
+            "y": "239"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "140",
+            "y": "240"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "119",
+            "y": "241"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "96",
+            "y": "242"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "71",
+            "y": "243"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "44",
+            "y": "244"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "15",
+            "y": "245"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "250",
+            "y": "202"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "217",
+            "y": "203"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "182",
+            "y": "204"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "145",
+            "y": "205"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "106",
+            "y": "206"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "65",
+            "y": "207"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "22",
+            "y": "208"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "227",
+            "y": "155"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "180",
+            "y": "156"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "131",
+            "y": "157"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "80",
+            "y": "158"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "27",
+            "y": "159"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "208",
+            "y": "98"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "151",
+            "y": "99"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "92",
+            "y": "100"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "31",
+            "y": "101"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "236",
+            "y": "32"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "171",
+            "y": "33"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "104",
+            "y": "34"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "35",
+            "y": "35"
+          }
+        ],
+        "side": "269"
+      }
+    },
+    {
+      "instanceId": "p96-n36-v1",
+      "name": "n = 36",
+      "parameters": {
+        "n": 36
+      },
+      "objective": "minimize",
+      "scoreStored": "281000000000",
+      "scoreDisplay": "281",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-01T10:26:25.234Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "271",
+            "y": "239"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "268",
+            "y": "240"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "263",
+            "y": "241"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "256",
+            "y": "242"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "247",
+            "y": "243"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "236",
+            "y": "244"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "223",
+            "y": "245"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "208",
+            "y": "246"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "191",
+            "y": "247"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "172",
+            "y": "248"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "151",
+            "y": "249"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "128",
+            "y": "250"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "103",
+            "y": "251"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "76",
+            "y": "252"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "47",
+            "y": "253"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "16",
+            "y": "254"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "263",
+            "y": "209"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "228",
+            "y": "210"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "191",
+            "y": "211"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "152",
+            "y": "212"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "111",
+            "y": "213"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "68",
+            "y": "214"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "23",
+            "y": "215"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "236",
+            "y": "160"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "187",
+            "y": "161"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "136",
+            "y": "162"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "83",
+            "y": "163"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "28",
+            "y": "164"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "215",
+            "y": "101"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "156",
+            "y": "102"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "95",
+            "y": "103"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "32",
+            "y": "104"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "243",
+            "y": "33"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "176",
+            "y": "34"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "107",
+            "y": "35"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "36",
+            "y": "36"
+          }
+        ],
+        "side": "281"
+      }
+    },
+    {
+      "instanceId": "p96-n37-v1",
+      "name": "n = 37",
+      "parameters": {
+        "n": 37
+      },
+      "objective": "minimize",
+      "scoreStored": "295000000000",
+      "scoreDisplay": "295",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-01T10:26:25.234Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "11",
+            "y": "281"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "8",
+            "y": "282"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "3",
+            "y": "283"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "290",
+            "y": "250"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "281",
+            "y": "251"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "270",
+            "y": "252"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "257",
+            "y": "253"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "242",
+            "y": "254"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "225",
+            "y": "255"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "206",
+            "y": "256"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "185",
+            "y": "257"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "162",
+            "y": "258"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "137",
+            "y": "259"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "110",
+            "y": "260"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "81",
+            "y": "261"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "50",
+            "y": "262"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "17",
+            "y": "263"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "276",
+            "y": "216"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "239",
+            "y": "217"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "200",
+            "y": "218"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "159",
+            "y": "219"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "116",
+            "y": "220"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "71",
+            "y": "221"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "24",
+            "y": "222"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "245",
+            "y": "165"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "194",
+            "y": "166"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "141",
+            "y": "167"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "86",
+            "y": "168"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "29",
+            "y": "169"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "222",
+            "y": "104"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "161",
+            "y": "105"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "98",
+            "y": "106"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "33",
+            "y": "107"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "250",
+            "y": "34"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "181",
+            "y": "35"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "110",
+            "y": "36"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "37",
+            "y": "37"
+          }
+        ],
+        "side": "295"
+      }
+    },
+    {
+      "instanceId": "p96-n38-v1",
+      "name": "n = 38",
+      "parameters": {
+        "n": 38
+      },
+      "objective": "minimize",
+      "scoreStored": "309000000000",
+      "scoreDisplay": "309",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-01T10:26:25.234Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "41",
+            "y": "291"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "38",
+            "y": "292"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "33",
+            "y": "293"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "26",
+            "y": "294"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "17",
+            "y": "295"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "6",
+            "y": "296"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "293",
+            "y": "261"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "278",
+            "y": "262"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "261",
+            "y": "263"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "242",
+            "y": "264"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "221",
+            "y": "265"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "198",
+            "y": "266"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "173",
+            "y": "267"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "146",
+            "y": "268"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "117",
+            "y": "269"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "86",
+            "y": "270"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "53",
+            "y": "271"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "18",
+            "y": "272"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "289",
+            "y": "223"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "250",
+            "y": "224"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "209",
+            "y": "225"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "166",
+            "y": "226"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "121",
+            "y": "227"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "74",
+            "y": "228"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "25",
+            "y": "229"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "254",
+            "y": "170"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "201",
+            "y": "171"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "146",
+            "y": "172"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "89",
+            "y": "173"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "30",
+            "y": "174"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "229",
+            "y": "107"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "166",
+            "y": "108"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "101",
+            "y": "109"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "34",
+            "y": "110"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "257",
+            "y": "35"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "186",
+            "y": "36"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "113",
+            "y": "37"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "38",
+            "y": "38"
+          }
+        ],
+        "side": "309"
+      }
+    },
+    {
+      "instanceId": "p96-n39-v1",
+      "name": "n = 39",
+      "parameters": {
+        "n": 39
+      },
+      "objective": "minimize",
+      "scoreStored": "323000000000",
+      "scoreDisplay": "323",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-01T10:26:25.234Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "71",
+            "y": "301"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "68",
+            "y": "302"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "63",
+            "y": "303"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "56",
+            "y": "304"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "47",
+            "y": "305"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "36",
+            "y": "306"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "23",
+            "y": "307"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "8",
+            "y": "308"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "299",
+            "y": "271"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "280",
+            "y": "272"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "259",
+            "y": "273"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "236",
+            "y": "274"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "211",
+            "y": "275"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "184",
+            "y": "276"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "155",
+            "y": "277"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "124",
+            "y": "278"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "91",
+            "y": "279"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "56",
+            "y": "280"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "19",
+            "y": "281"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "302",
+            "y": "230"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "261",
+            "y": "231"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "218",
+            "y": "232"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "173",
+            "y": "233"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "126",
+            "y": "234"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "77",
+            "y": "235"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "26",
+            "y": "236"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "263",
+            "y": "175"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "208",
+            "y": "176"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "151",
+            "y": "177"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "92",
+            "y": "178"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "31",
+            "y": "179"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "236",
+            "y": "110"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "171",
+            "y": "111"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "104",
+            "y": "112"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "35",
+            "y": "113"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "264",
+            "y": "36"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "191",
+            "y": "37"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "116",
+            "y": "38"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "39",
+            "y": "39"
+          }
+        ],
+        "side": "323"
+      }
+    },
+    {
+      "instanceId": "p96-n40-v1",
+      "name": "n = 40",
+      "parameters": {
+        "n": 40
+      },
+      "objective": "minimize",
+      "scoreStored": "335000000000",
+      "scoreDisplay": "335",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-01T10:26:25.234Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "131",
+            "y": "313"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "128",
+            "y": "314"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "123",
+            "y": "315"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "116",
+            "y": "316"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "107",
+            "y": "317"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "96",
+            "y": "318"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "83",
+            "y": "319"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "68",
+            "y": "320"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "51",
+            "y": "321"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "32",
+            "y": "322"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "11",
+            "y": "323"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "318",
+            "y": "282"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "293",
+            "y": "283"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "266",
+            "y": "284"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "237",
+            "y": "285"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "206",
+            "y": "286"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "173",
+            "y": "287"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "138",
+            "y": "288"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "101",
+            "y": "289"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "62",
+            "y": "290"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "21",
+            "y": "291"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "272",
+            "y": "238"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "227",
+            "y": "239"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "180",
+            "y": "240"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "131",
+            "y": "241"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "80",
+            "y": "242"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "27",
+            "y": "243"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "272",
+            "y": "180"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "215",
+            "y": "181"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "156",
+            "y": "182"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "95",
+            "y": "183"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "32",
+            "y": "184"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "243",
+            "y": "113"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "176",
+            "y": "114"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "107",
+            "y": "115"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "36",
+            "y": "116"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "271",
+            "y": "37"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "196",
+            "y": "38"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "119",
+            "y": "39"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "40",
+            "y": "40"
+          }
+        ],
+        "side": "335"
+      }
+    },
+    {
+      "instanceId": "p96-n41-v1",
+      "name": "n = 41",
+      "parameters": {
+        "n": 41
+      },
+      "objective": "minimize",
+      "scoreStored": "349000000000",
+      "scoreDisplay": "349",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-01T10:26:25.234Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "181",
+            "y": "323"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "178",
+            "y": "324"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "173",
+            "y": "325"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "166",
+            "y": "326"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "157",
+            "y": "327"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "146",
+            "y": "328"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "133",
+            "y": "329"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "118",
+            "y": "330"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "101",
+            "y": "331"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "82",
+            "y": "332"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "61",
+            "y": "333"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "38",
+            "y": "334"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "13",
+            "y": "335"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "310",
+            "y": "292"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "281",
+            "y": "293"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "250",
+            "y": "294"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "217",
+            "y": "295"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "182",
+            "y": "296"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "145",
+            "y": "297"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "106",
+            "y": "298"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "65",
+            "y": "299"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "22",
+            "y": "300"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "283",
+            "y": "245"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "236",
+            "y": "246"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "187",
+            "y": "247"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "136",
+            "y": "248"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "83",
+            "y": "249"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "28",
+            "y": "250"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "281",
+            "y": "185"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "222",
+            "y": "186"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "161",
+            "y": "187"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "98",
+            "y": "188"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "33",
+            "y": "189"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "250",
+            "y": "116"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "181",
+            "y": "117"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "110",
+            "y": "118"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "37",
+            "y": "119"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "278",
+            "y": "38"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "201",
+            "y": "39"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "122",
+            "y": "40"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "41",
+            "y": "41"
+          }
+        ],
+        "side": "349"
+      }
+    },
+    {
+      "instanceId": "p96-n42-v1",
+      "name": "n = 42",
+      "parameters": {
+        "n": 42
+      },
+      "objective": "minimize",
+      "scoreStored": "361000000000",
+      "scoreDisplay": "361",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-01T10:26:25.234Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "109",
+            "y": "325"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "106",
+            "y": "326"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "101",
+            "y": "327"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "94",
+            "y": "328"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "85",
+            "y": "329"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "74",
+            "y": "330"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "61",
+            "y": "331"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "46",
+            "y": "332"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "29",
+            "y": "333"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "10",
+            "y": "334"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "341",
+            "y": "293"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "318",
+            "y": "294"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "293",
+            "y": "295"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "266",
+            "y": "296"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "237",
+            "y": "297"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "206",
+            "y": "298"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "173",
+            "y": "299"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "138",
+            "y": "300"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "101",
+            "y": "301"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "62",
+            "y": "302"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "21",
+            "y": "303"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "328",
+            "y": "248"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "283",
+            "y": "249"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "236",
+            "y": "250"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "187",
+            "y": "251"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "136",
+            "y": "252"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "83",
+            "y": "253"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "28",
+            "y": "254"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "281",
+            "y": "189"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "222",
+            "y": "190"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "161",
+            "y": "191"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "98",
+            "y": "192"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "33",
+            "y": "193"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "326",
+            "y": "118"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "257",
+            "y": "119"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "186",
+            "y": "120"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "113",
+            "y": "121"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "38",
+            "y": "122"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "285",
+            "y": "39"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "206",
+            "y": "40"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "125",
+            "y": "41"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "42",
+            "y": "42"
+          }
+        ],
+        "side": "361"
+      }
+    },
+    {
+      "instanceId": "p96-n43-v1",
+      "name": "n = 43",
+      "parameters": {
+        "n": 43
+      },
+      "objective": "minimize",
+      "scoreStored": "371000000000",
+      "scoreDisplay": "371",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-01T10:26:25.234Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "155",
+            "y": "335"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "152",
+            "y": "336"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "147",
+            "y": "337"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "140",
+            "y": "338"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "131",
+            "y": "339"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "120",
+            "y": "340"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "107",
+            "y": "341"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "92",
+            "y": "342"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "75",
+            "y": "343"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "56",
+            "y": "344"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "35",
+            "y": "345"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "12",
+            "y": "346"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "337",
+            "y": "303"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "310",
+            "y": "304"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "281",
+            "y": "305"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "250",
+            "y": "306"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "217",
+            "y": "307"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "182",
+            "y": "308"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "145",
+            "y": "309"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "106",
+            "y": "310"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "65",
+            "y": "311"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "22",
+            "y": "312"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "341",
+            "y": "255"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "294",
+            "y": "256"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "245",
+            "y": "257"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "194",
+            "y": "258"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "141",
+            "y": "259"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "86",
+            "y": "260"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "29",
+            "y": "261"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "290",
+            "y": "194"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "229",
+            "y": "195"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "166",
+            "y": "196"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "101",
+            "y": "197"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "34",
+            "y": "198"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "335",
+            "y": "121"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "264",
+            "y": "122"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "191",
+            "y": "123"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "116",
+            "y": "124"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "39",
+            "y": "125"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "292",
+            "y": "40"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "211",
+            "y": "41"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "128",
+            "y": "42"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "43",
+            "y": "43"
+          }
+        ],
+        "side": "371"
+      }
+    },
+    {
+      "instanceId": "p96-n44-v1",
+      "name": "n = 44",
+      "parameters": {
+        "n": 44
+      },
+      "objective": "minimize",
+      "scoreStored": "381000000000",
+      "scoreDisplay": "381",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-01T10:26:25.234Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "181",
+            "y": "345"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "178",
+            "y": "346"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "173",
+            "y": "347"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "166",
+            "y": "348"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "157",
+            "y": "349"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "146",
+            "y": "350"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "133",
+            "y": "351"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "118",
+            "y": "352"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "101",
+            "y": "353"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "82",
+            "y": "354"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "61",
+            "y": "355"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "38",
+            "y": "356"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "13",
+            "y": "357"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "356",
+            "y": "312"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "327",
+            "y": "313"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "296",
+            "y": "314"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "263",
+            "y": "315"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "228",
+            "y": "316"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "191",
+            "y": "317"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "152",
+            "y": "318"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "111",
+            "y": "319"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "68",
+            "y": "320"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "23",
+            "y": "321"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "354",
+            "y": "262"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "305",
+            "y": "263"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "254",
+            "y": "264"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "201",
+            "y": "265"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "146",
+            "y": "266"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "89",
+            "y": "267"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "30",
+            "y": "268"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "299",
+            "y": "199"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "236",
+            "y": "200"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "171",
+            "y": "201"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "104",
+            "y": "202"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "35",
+            "y": "203"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "344",
+            "y": "124"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "271",
+            "y": "125"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "196",
+            "y": "126"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "119",
+            "y": "127"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "40",
+            "y": "128"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "299",
+            "y": "41"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "216",
+            "y": "42"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "131",
+            "y": "43"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "44",
+            "y": "44"
+          }
+        ],
+        "side": "381"
+      }
+    },
+    {
+      "instanceId": "p96-n45-v1",
+      "name": "n = 45",
+      "parameters": {
+        "n": 45
+      },
+      "objective": "minimize",
+      "scoreStored": "391000000000",
+      "scoreDisplay": "391",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-01T10:26:25.234Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "271",
+            "y": "357"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "268",
+            "y": "358"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "263",
+            "y": "359"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "256",
+            "y": "360"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "247",
+            "y": "361"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "236",
+            "y": "362"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "223",
+            "y": "363"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "208",
+            "y": "364"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "191",
+            "y": "365"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "172",
+            "y": "366"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "151",
+            "y": "367"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "128",
+            "y": "368"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "103",
+            "y": "369"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "76",
+            "y": "370"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "47",
+            "y": "371"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "16",
+            "y": "372"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "361",
+            "y": "323"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "326",
+            "y": "324"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "289",
+            "y": "325"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "250",
+            "y": "326"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "209",
+            "y": "327"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "166",
+            "y": "328"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "121",
+            "y": "329"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "74",
+            "y": "330"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "25",
+            "y": "331"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "316",
+            "y": "270"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "263",
+            "y": "271"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "208",
+            "y": "272"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "151",
+            "y": "273"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "92",
+            "y": "274"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "31",
+            "y": "275"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "308",
+            "y": "204"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "243",
+            "y": "205"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "176",
+            "y": "206"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "107",
+            "y": "207"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "36",
+            "y": "208"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "353",
+            "y": "127"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "278",
+            "y": "128"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "201",
+            "y": "129"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "122",
+            "y": "130"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "41",
+            "y": "131"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "306",
+            "y": "42"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "221",
+            "y": "43"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "134",
+            "y": "44"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "45",
+            "y": "45"
+          }
+        ],
+        "side": "391"
+      }
+    },
+    {
+      "instanceId": "p96-n46-v1",
+      "name": "n = 46",
+      "parameters": {
+        "n": 46
+      },
+      "objective": "minimize",
+      "scoreStored": "401000000000",
+      "scoreDisplay": "401",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-01T10:26:25.234Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "305",
+            "y": "367"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "302",
+            "y": "368"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "297",
+            "y": "369"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "290",
+            "y": "370"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "281",
+            "y": "371"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "270",
+            "y": "372"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "257",
+            "y": "373"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "242",
+            "y": "374"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "225",
+            "y": "375"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "206",
+            "y": "376"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "185",
+            "y": "377"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "162",
+            "y": "378"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "137",
+            "y": "379"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "110",
+            "y": "380"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "81",
+            "y": "381"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "50",
+            "y": "382"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "17",
+            "y": "383"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "378",
+            "y": "332"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "341",
+            "y": "333"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "302",
+            "y": "334"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "261",
+            "y": "335"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "218",
+            "y": "336"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "173",
+            "y": "337"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "126",
+            "y": "338"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "77",
+            "y": "339"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "26",
+            "y": "340"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "327",
+            "y": "277"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "272",
+            "y": "278"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "215",
+            "y": "279"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "156",
+            "y": "280"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "95",
+            "y": "281"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "32",
+            "y": "282"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "317",
+            "y": "209"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "250",
+            "y": "210"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "181",
+            "y": "211"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "110",
+            "y": "212"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "37",
+            "y": "213"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "362",
+            "y": "130"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "285",
+            "y": "131"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "206",
+            "y": "132"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "125",
+            "y": "133"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "42",
+            "y": "134"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "313",
+            "y": "43"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "226",
+            "y": "44"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "137",
+            "y": "45"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "46",
+            "y": "46"
+          }
+        ],
+        "side": "401"
+      }
+    },
+    {
+      "instanceId": "p96-n47-v1",
+      "name": "n = 47",
+      "parameters": {
+        "n": 47
+      },
+      "objective": "minimize",
+      "scoreStored": "415000000000",
+      "scoreDisplay": "415",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-01T10:26:25.234Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "341",
+            "y": "377"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "338",
+            "y": "378"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "333",
+            "y": "379"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "326",
+            "y": "380"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "317",
+            "y": "381"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "306",
+            "y": "382"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "293",
+            "y": "383"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "278",
+            "y": "384"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "261",
+            "y": "385"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "242",
+            "y": "386"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "221",
+            "y": "387"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "198",
+            "y": "388"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "173",
+            "y": "389"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "146",
+            "y": "390"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "117",
+            "y": "391"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "86",
+            "y": "392"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "53",
+            "y": "393"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "18",
+            "y": "394"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "395",
+            "y": "341"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "356",
+            "y": "342"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "315",
+            "y": "343"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "272",
+            "y": "344"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "227",
+            "y": "345"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "180",
+            "y": "346"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "131",
+            "y": "347"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "80",
+            "y": "348"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "27",
+            "y": "349"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "338",
+            "y": "284"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "281",
+            "y": "285"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "222",
+            "y": "286"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "161",
+            "y": "287"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "98",
+            "y": "288"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "33",
+            "y": "289"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "326",
+            "y": "214"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "257",
+            "y": "215"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "186",
+            "y": "216"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "113",
+            "y": "217"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "38",
+            "y": "218"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "371",
+            "y": "133"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "292",
+            "y": "134"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "211",
+            "y": "135"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "128",
+            "y": "136"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "43",
+            "y": "137"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "320",
+            "y": "44"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "231",
+            "y": "45"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "140",
+            "y": "46"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "47",
+            "y": "47"
+          }
+        ],
+        "side": "415"
+      }
+    },
+    {
+      "instanceId": "p96-n48-v1",
+      "name": "n = 48",
+      "parameters": {
+        "n": 48
+      },
+      "objective": "minimize",
+      "scoreStored": "427000000000",
+      "scoreDisplay": "427",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-01T10:26:25.234Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "419",
+            "y": "387"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "416",
+            "y": "388"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "411",
+            "y": "389"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "404",
+            "y": "390"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "395",
+            "y": "391"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "384",
+            "y": "392"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "371",
+            "y": "393"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "356",
+            "y": "394"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "339",
+            "y": "395"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "320",
+            "y": "396"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "299",
+            "y": "397"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "276",
+            "y": "398"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "251",
+            "y": "399"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "224",
+            "y": "400"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "195",
+            "y": "401"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "164",
+            "y": "402"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "131",
+            "y": "403"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "96",
+            "y": "404"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "59",
+            "y": "405"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "20",
+            "y": "406"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "371",
+            "y": "351"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "328",
+            "y": "352"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "283",
+            "y": "353"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "236",
+            "y": "354"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "187",
+            "y": "355"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "136",
+            "y": "356"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "83",
+            "y": "357"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "28",
+            "y": "358"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "349",
+            "y": "291"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "290",
+            "y": "292"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "229",
+            "y": "293"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "166",
+            "y": "294"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "101",
+            "y": "295"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "34",
+            "y": "296"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "335",
+            "y": "219"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "264",
+            "y": "220"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "191",
+            "y": "221"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "116",
+            "y": "222"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "39",
+            "y": "223"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "380",
+            "y": "136"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "299",
+            "y": "137"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "216",
+            "y": "138"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "131",
+            "y": "139"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "44",
+            "y": "140"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "327",
+            "y": "45"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "236",
+            "y": "46"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "143",
+            "y": "47"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "48",
+            "y": "48"
+          }
+        ],
+        "side": "427"
+      }
+    },
+    {
+      "instanceId": "p96-n49-v1",
+      "name": "n = 49",
+      "parameters": {
+        "n": 49
+      },
+      "objective": "minimize",
+      "scoreStored": "447000000000",
+      "scoreDisplay": "447",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-01T10:26:25.234Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "19",
+            "y": "439"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "16",
+            "y": "440"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "11",
+            "y": "441"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "4",
+            "y": "442"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "437",
+            "y": "401"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "426",
+            "y": "402"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "413",
+            "y": "403"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "398",
+            "y": "404"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "381",
+            "y": "405"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "362",
+            "y": "406"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "341",
+            "y": "407"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "318",
+            "y": "408"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "293",
+            "y": "409"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "266",
+            "y": "410"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "237",
+            "y": "411"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "206",
+            "y": "412"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "173",
+            "y": "413"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "138",
+            "y": "414"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "101",
+            "y": "415"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "62",
+            "y": "416"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "21",
+            "y": "417"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "386",
+            "y": "360"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "341",
+            "y": "361"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "294",
+            "y": "362"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "245",
+            "y": "363"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "194",
+            "y": "364"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "141",
+            "y": "365"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "86",
+            "y": "366"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "29",
+            "y": "367"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "360",
+            "y": "298"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "299",
+            "y": "299"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "236",
+            "y": "300"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "171",
+            "y": "301"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "104",
+            "y": "302"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "35",
+            "y": "303"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "344",
+            "y": "224"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "271",
+            "y": "225"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "196",
+            "y": "226"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "119",
+            "y": "227"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "40",
+            "y": "228"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "389",
+            "y": "139"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "306",
+            "y": "140"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "221",
+            "y": "141"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "134",
+            "y": "142"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "45",
+            "y": "143"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "334",
+            "y": "46"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "241",
+            "y": "47"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "146",
+            "y": "48"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "49",
+            "y": "49"
+          }
+        ],
+        "side": "447"
+      }
+    },
+    {
+      "instanceId": "p96-n50-v1",
+      "name": "n = 50",
+      "parameters": {
+        "n": 50
+      },
+      "objective": "minimize",
+      "scoreStored": "463000000000",
+      "scoreDisplay": "463",
+      "status": "open",
+      "settled": false,
+      "recordStatus": "open",
+      "knownBest": null,
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-01T10:26:25.234Z",
+      "answer": {
+        "placements": [
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "379",
+            "y": "401"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "376",
+            "y": "402"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "371",
+            "y": "403"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "364",
+            "y": "404"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "355",
+            "y": "405"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "344",
+            "y": "406"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "331",
+            "y": "407"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "316",
+            "y": "408"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "299",
+            "y": "409"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "280",
+            "y": "410"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "259",
+            "y": "411"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "236",
+            "y": "412"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "211",
+            "y": "413"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "184",
+            "y": "414"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "155",
+            "y": "415"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "124",
+            "y": "416"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "91",
+            "y": "417"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "56",
+            "y": "418"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "19",
+            "y": "419"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "412",
+            "y": "364"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "371",
+            "y": "365"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "328",
+            "y": "366"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "283",
+            "y": "367"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "236",
+            "y": "368"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "187",
+            "y": "369"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "136",
+            "y": "370"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "83",
+            "y": "371"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "28",
+            "y": "372"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "419",
+            "y": "303"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "360",
+            "y": "304"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "299",
+            "y": "305"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "236",
+            "y": "306"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "171",
+            "y": "307"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "104",
+            "y": "308"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "35",
+            "y": "309"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "426",
+            "y": "228"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "353",
+            "y": "229"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "278",
+            "y": "230"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "201",
+            "y": "231"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "122",
+            "y": "232"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "41",
+            "y": "233"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "398",
+            "y": "142"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "313",
+            "y": "143"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "226",
+            "y": "144"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "137",
+            "y": "145"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "46",
+            "y": "146"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "341",
+            "y": "47"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "246",
+            "y": "48"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "149",
+            "y": "49"
+          },
+          {
+            "quarter": 0,
+            "turn": "0",
+            "x": "50",
+            "y": "50"
+          }
+        ],
+        "side": "463"
+      }
+    }
+  ]
+}

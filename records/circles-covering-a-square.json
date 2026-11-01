@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/circles-covering-a-square",
-  "generatedAt": "2026-10-31T10:58:58.596Z",
+  "generatedAt": "2026-11-01T11:54:32.276Z",
   "instances": [
     {
       "instanceId": "p73-n5-v1",
@@ -32,7 +32,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-31T01:51:51.977Z",
+      "recordedAt": "2026-11-01T10:26:25.234Z",
       "answer": {
         "points": [
           [
@@ -130,7 +130,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-31T01:51:51.977Z",
+      "recordedAt": "2026-11-01T10:26:25.234Z",
       "answer": {
         "points": [
           [
@@ -171,8 +171,8 @@
         "n": 8
       },
       "objective": "minimize",
-      "scoreStored": "260300105887458093",
-      "scoreDisplay": "0.260300105887459",
+      "scoreStored": "260300105886783266",
+      "scoreDisplay": "0.260300105886784",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -184,42 +184,42 @@
         "source": "The construction by J. B. M. Melissen and P. C. Schuur is reproduced in Nurmela and Östergård's HUT-TCS-A62 report (2000); the paper's best-known radius is 0.26030010588652494367, with optimality open. The nine-decimal certificate reconstructed from its vector figure and contact topology verifies at 0.260300106331911; it is a reference answer, not a new record.",
         "url": "https://research.aalto.fi/en/publications/covering-a-square-with-up-to-30-equal-circles/"
       },
-      "holder": "Codex",
+      "holder": "condor",
       "method": "ai",
-      "recordedAt": "2026-10-21T18:17:05.713Z",
+      "recordedAt": "2026-11-01T09:19:29.574Z",
       "answer": {
         "points": [
           [
-            "0.208603552",
-            "0.844305789"
+            "0.791396826",
+            "0.155694044"
           ],
           [
-            "0.791396448",
-            "0.844305789"
+            "0.208603174",
+            "0.844305956"
           ],
           [
-            "0.500000000",
-            "0.246782269"
-          ],
-          [
-            "0.179392966",
-            "0.499999998"
-          ],
-          [
-            "0.208603449",
-            "0.155694069"
-          ],
-          [
-            "0.791396551",
-            "0.155694069"
+            "0.208603174",
+            "0.155694044"
           ],
           [
             "0.500000000",
-            "0.753217732"
+            "0.753217817"
           ],
           [
-            "0.820607034",
-            "0.499999998"
+            "0.500000000",
+            "0.246782183"
+          ],
+          [
+            "0.179393325",
+            "0.500000000"
+          ],
+          [
+            "0.791396826",
+            "0.844305956"
+          ],
+          [
+            "0.820606675",
+            "0.500000000"
           ]
         ]
       }

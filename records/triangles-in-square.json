@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/triangles-in-square",
-  "generatedAt": "2026-10-31T10:58:59.826Z",
+  "generatedAt": "2026-11-01T11:54:35.179Z",
   "instances": [
     {
       "instanceId": "p83-n3-v1",
@@ -40,7 +40,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-31T01:51:51.977Z",
+      "recordedAt": "2026-11-01T10:26:25.234Z",
       "answer": {
         "placements": [
           {
@@ -90,7 +90,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-31T01:51:51.977Z",
+      "recordedAt": "2026-11-01T10:26:25.234Z",
       "answer": {
         "placements": [
           {
@@ -185,8 +185,8 @@
         "sides": 5
       },
       "objective": "minimize",
-      "scoreStored": "1901923800181148200",
-      "scoreDisplay": "1.901923801",
+      "scoreStored": "1901923793915776340",
+      "scoreDisplay": "1.901923794",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -203,43 +203,43 @@
         "source": "Compiled by Erich Friedman; Found by Erich Friedman in 1996. Source expression: s = 9/2−3√3/2 = 1.901+.",
         "url": "https://erich-friedman.github.io/packing/triinsqu/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-10-31T01:51:51.977Z",
+      "holder": "condor",
+      "method": "ai",
+      "recordedAt": "2026-11-01T10:50:33.524Z",
       "answer": {
         "placements": [
           {
-            "turn": "0.267949192",
-            "x": "0.474216577",
-            "y": "0.848219400"
+            "turn": "-0.000000001",
+            "x": "0.607122401",
+            "y": "0.262891711"
           },
           {
-            "turn": "-0.267949192",
-            "x": "0.737108288",
-            "y": "0.696438799"
+            "turn": "0.577350268",
+            "x": "0.392877596",
+            "y": "0.737108289"
           },
           {
-            "turn": "-0.267949192",
-            "x": "0.262891712",
-            "y": "0.607122402"
+            "turn": "-0.577350270",
+            "x": "0.303561200",
+            "y": "0.262891711"
           },
           {
-            "turn": "0.267949192",
-            "x": "0.737108288",
-            "y": "0.392877598"
+            "turn": "-0.577350271",
+            "x": "0.848219399",
+            "y": "0.474216576"
           },
           {
-            "turn": "0.267949192",
-            "x": "0.262891712",
-            "y": "0.303561201"
+            "turn": "-0.000000001",
+            "x": "0.151780601",
+            "y": "0.525783423"
           },
           {
-            "turn": "-0.267949192",
-            "x": "0.525783423",
-            "y": "0.151780600"
+            "turn": "0.000000002",
+            "x": "0.696438799",
+            "y": "0.737108289"
           }
         ],
-        "radius": "0.303561199"
+        "radius": "0.303561200"
       }
     },
     {
@@ -493,7 +493,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-31T01:51:51.977Z",
+      "recordedAt": "2026-11-01T10:26:25.234Z",
       "answer": {
         "placements": [
           {
@@ -578,7 +578,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-31T01:51:51.977Z",
+      "recordedAt": "2026-11-01T10:26:25.234Z",
       "answer": {
         "placements": [
           {
@@ -668,7 +668,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-31T01:51:51.977Z",
+      "recordedAt": "2026-11-01T10:26:25.234Z",
       "answer": {
         "placements": [
           {
@@ -763,7 +763,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-31T01:51:51.977Z",
+      "recordedAt": "2026-11-01T10:26:25.234Z",
       "answer": {
         "placements": [
           {
@@ -863,7 +863,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-31T01:51:51.977Z",
+      "recordedAt": "2026-11-01T10:26:25.234Z",
       "answer": {
         "placements": [
           {
@@ -1078,7 +1078,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-31T01:51:51.977Z",
+      "recordedAt": "2026-11-01T10:26:25.234Z",
       "answer": {
         "placements": [
           {
@@ -1193,7 +1193,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-31T01:51:51.977Z",
+      "recordedAt": "2026-11-01T10:26:25.234Z",
       "answer": {
         "placements": [
           {
@@ -1313,7 +1313,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-31T01:51:51.977Z",
+      "recordedAt": "2026-11-01T10:26:25.234Z",
       "answer": {
         "placements": [
           {
@@ -1438,7 +1438,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-31T01:51:51.977Z",
+      "recordedAt": "2026-11-01T10:26:25.234Z",
       "answer": {
         "placements": [
           {
@@ -1568,7 +1568,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-31T01:51:51.977Z",
+      "recordedAt": "2026-11-01T10:26:25.234Z",
       "answer": {
         "placements": [
           {
@@ -1703,7 +1703,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-31T01:51:51.977Z",
+      "recordedAt": "2026-11-01T10:26:25.234Z",
       "answer": {
         "placements": [
           {
@@ -1843,7 +1843,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-31T01:51:51.977Z",
+      "recordedAt": "2026-11-01T10:26:25.234Z",
       "answer": {
         "placements": [
           {
@@ -2138,7 +2138,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-31T01:51:51.977Z",
+      "recordedAt": "2026-11-01T10:26:25.234Z",
       "answer": {
         "placements": [
           {
@@ -2293,7 +2293,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-31T01:51:51.977Z",
+      "recordedAt": "2026-11-01T10:26:25.234Z",
       "answer": {
         "placements": [
           {
@@ -2617,7 +2617,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-31T01:51:51.977Z",
+      "recordedAt": "2026-11-01T10:26:25.234Z",
       "answer": {
         "placements": [
           {
@@ -2787,7 +2787,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-31T01:51:51.977Z",
+      "recordedAt": "2026-11-01T10:26:25.234Z",
       "answer": {
         "placements": [
           {
@@ -2962,7 +2962,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-31T01:51:51.977Z",
+      "recordedAt": "2026-11-01T10:26:25.234Z",
       "answer": {
         "placements": [
           {
@@ -3142,7 +3142,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-31T01:51:51.977Z",
+      "recordedAt": "2026-11-01T10:26:25.234Z",
       "answer": {
         "placements": [
           {
@@ -3327,7 +3327,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-31T01:51:51.977Z",
+      "recordedAt": "2026-11-01T10:26:25.234Z",
       "answer": {
         "placements": [
           {
@@ -3517,7 +3517,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-31T01:51:51.977Z",
+      "recordedAt": "2026-11-01T10:26:25.234Z",
       "answer": {
         "placements": [
           {
@@ -3912,7 +3912,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-31T01:51:51.977Z",
+      "recordedAt": "2026-11-01T10:26:25.234Z",
       "answer": {
         "placements": [
           {
@@ -4117,7 +4117,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-31T01:51:51.977Z",
+      "recordedAt": "2026-11-01T10:26:25.234Z",
       "answer": {
         "placements": [
           {
@@ -4985,7 +4985,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-10-31T01:51:51.977Z",
+      "recordedAt": "2026-11-01T10:26:25.234Z",
       "answer": {
         "placements": [
           {

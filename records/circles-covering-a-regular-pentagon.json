@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/circles-covering-a-regular-pentagon",
-  "generatedAt": "2026-10-30T11:27:53.648Z",
+  "generatedAt": "2026-11-01T11:54:32.517Z",
   "instances": [
     {
       "instanceId": "p75-n7-v1",
@@ -19,8 +19,8 @@
         "n": 7
       },
       "objective": "minimize",
-      "scoreStored": "213059048623156159",
-      "scoreDisplay": "0.213059048623157",
+      "scoreStored": "213059048623136208",
+      "scoreDisplay": "0.213059048623137",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -38,38 +38,38 @@
         "source": "The public vector construction in Figure 9 of Yanchao Liu (2022), reconstructed point by point and verified here at 0.213065485409387. Literature comparisons use the interval transferred from Table 1's three-decimal 22.402, including the geometric difference between the two fixed-precision polygons; reconstruction digits do not define publication precision. The paper's best lower bound still leaves a 5.87% gap, so optimality is open.",
         "url": "https://link.springer.com/article/10.1007/s43762-021-00032-9"
       },
-      "holder": "Codex",
+      "holder": "condor",
       "method": "ai",
-      "recordedAt": "2026-10-22T13:27:58.720Z",
+      "recordedAt": "2026-11-01T11:47:50.758Z",
       "answer": {
         "points": [
           [
-            "0.152927039",
-            "0.557141869"
+            "0.373262142",
+            "0.860406710"
           ],
           [
-            "0.661596396",
-            "0.187572194"
+            "0.297094474",
+            "0.220724553"
           ],
           [
-            "0.881931049",
-            "0.490836913"
+            "0.737764116",
+            "0.827254062"
           ],
           [
-            "0.297094337",
-            "0.220724320"
+            "0.517429245",
+            "0.523989483"
           ],
           [
-            "0.373262095",
-            "0.860406712"
+            "0.881931267",
+            "0.490836842"
           ],
           [
-            "0.517428837",
-            "0.523989119"
+            "0.152927229",
+            "0.557141873"
           ],
           [
-            "0.737763902",
-            "0.827253916"
+            "0.661596438",
+            "0.187572039"
           ]
         ]
       }
@@ -81,8 +81,8 @@
         "n": 8
       },
       "objective": "minimize",
-      "scoreStored": "191955008931247681",
-      "scoreDisplay": "0.191955008931248",
+      "scoreStored": "191955008930604329",
+      "scoreDisplay": "0.191955008930605",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -100,42 +100,42 @@
         "source": "The public vector construction in Figure 9 of Yanchao Liu (2022), reconstructed point by point and verified here at 0.191962518329166. Literature comparisons use the interval transferred from Table 1's three-decimal 20.183, including the geometric difference between the two fixed-precision polygons; reconstruction digits do not define publication precision. The paper's best lower bound still leaves a 5.75% gap, so optimality is open.",
         "url": "https://link.springer.com/article/10.1007/s43762-021-00032-9"
       },
-      "holder": "Codex",
+      "holder": "condor",
       "method": "ai",
-      "recordedAt": "2026-10-21T18:09:54.281Z",
+      "recordedAt": "2026-11-01T11:09:53.326Z",
       "answer": {
         "points": [
           [
-            "0.396605609",
-            "0.851559307"
+            "0.454118618",
+            "0.821990382"
           ],
           [
-            "0.667764503",
-            "0.804791684"
+            "0.512657714",
+            "0.482577218"
           ],
           [
-            "0.184129976",
-            "0.602632376"
+            "0.866302983",
+            "0.510304124"
           ],
           [
-            "0.820408986",
-            "0.555864752"
+            "0.695218391",
+            "0.231305294"
           ],
           [
-            "0.479518371",
-            "0.506654897"
+            "0.207946948",
+            "0.643136170"
           ],
           [
-            "0.209710845",
-            "0.276356223"
+            "0.185123354",
+            "0.352027238"
           ],
           [
-            "0.726379894",
-            "0.266472802"
+            "0.377006647",
+            "0.154808418"
           ],
           [
-            "0.456572368",
-            "0.154808878"
+            "0.738031625",
+            "0.753739060"
           ]
         ]
       }
@@ -147,8 +147,8 @@
         "n": 9
       },
       "objective": "minimize",
-      "scoreStored": "181860256748852169",
-      "scoreDisplay": "0.181860256748853",
+      "scoreStored": "181860256671805702",
+      "scoreDisplay": "0.181860256671806",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -162,46 +162,46 @@
         "source": "The public vector construction in Figure 9 of Yanchao Liu (2022), reconstructed point by point and verified here at 0.181871774083792. Table 1's 19.377 conflicts with the Figure 9 reconstruction, and the PDF drawing coordinates are rounded. The original radius is unresolved: this reconstruction cannot establish a match or advance over the literature and remains a review item. The paper's best lower bound still leaves a 6.35% gap, so optimality is open.",
         "url": "https://link.springer.com/article/10.1007/s43762-021-00032-9"
       },
-      "holder": "Codex",
+      "holder": "condor",
       "method": "ai",
-      "recordedAt": "2026-10-19T05:31:56.533Z",
+      "recordedAt": "2026-11-01T10:43:05.591Z",
       "answer": {
         "points": [
-          [
-            "0.444095872",
-            "0.826945438"
-          ],
-          [
-            "0.726848460",
-            "0.812230097"
-          ],
-          [
-            "0.206331736",
-            "0.654199696"
-          ],
-          [
-            "0.828218923",
-            "0.547863700"
-          ],
           [
             "0.523634976",
             "0.532530754"
           ],
           [
-            "0.220169260",
-            "0.462074604"
+            "0.220169239",
+            "0.462075431"
           ],
           [
-            "0.737401098",
-            "0.268355207"
+            "0.737400816",
+            "0.268355115"
           ],
           [
-            "0.313002140",
-            "0.242619549"
+            "0.828219096",
+            "0.547863461"
           ],
           [
-            "0.550403238",
-            "0.222145560"
+            "0.550402455",
+            "0.222145334"
+          ],
+          [
+            "0.726848909",
+            "0.812229758"
+          ],
+          [
+            "0.206331737",
+            "0.654199992"
+          ],
+          [
+            "0.313001640",
+            "0.242619912"
+          ],
+          [
+            "0.444096154",
+            "0.826945347"
           ]
         ]
       }
