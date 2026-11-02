@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/pentagons-in-square",
-  "generatedAt": "2026-11-01T11:54:35.499Z",
+  "generatedAt": "2026-11-02T13:40:19.990Z",
   "instances": [
     {
       "instanceId": "p86-n3-v1",
@@ -395,11 +395,11 @@
         "sides": 5
       },
       "objective": "minimize",
-      "scoreStored": "4600330010710297538",
-      "scoreDisplay": "4.600330011",
-      "status": "open",
+      "scoreStored": "4600329538016164202",
+      "scoreDisplay": "4.600329539",
+      "status": "matched",
       "settled": false,
-      "recordStatus": "open",
+      "recordStatus": "matched",
       "knownBest": {
         "display": "4.60032",
         "kind": "best",
@@ -412,58 +412,58 @@
         "source": "Yanis Gomes (October 2026) in Erich Friedman's compiled table, printed as s = 4.60032+, superseding Jonathan Viquerat's 4.60033+; checked 2026-10-08 at revision dc91d31. The interval is converted conservatively from the printed truncated precision; optimality is open. The layout is published as a figure only; the site cites the value without rebuilding it, and the site's rebuild of the older figure stays as an earlier-source starter.",
         "url": "https://erich-friedman.github.io/packing/peninsqu/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-11-01T10:26:25.234Z",
+      "holder": "condor",
+      "method": "ai",
+      "recordedAt": "2026-11-02T11:51:51.305Z",
       "answer": {
         "placements": [
           {
-            "turn": "0.078655778",
-            "x": "0.164749090",
-            "y": "0.817368368"
+            "turn": "0.078701707",
+            "x": "0.164756767",
+            "y": "0.164756767"
           },
           {
-            "turn": "-0.240127037",
-            "x": "0.509661591",
-            "y": "0.835235572"
+            "turn": "-0.240078759",
+            "x": "0.509656880",
+            "y": "0.182634283"
           },
           {
-            "turn": "0.078833508",
-            "x": "0.815916220",
-            "y": "0.815920672"
+            "turn": "0.078701707",
+            "x": "0.817365717",
+            "y": "0.164756767"
           },
           {
-            "turn": "-0.240127035",
-            "x": "0.182636904",
-            "y": "0.509651982"
+            "turn": "-0.240078759",
+            "x": "0.182634283",
+            "y": "0.509656880"
           },
           {
-            "turn": "-0.240134156",
-            "x": "0.835252029",
-            "y": "0.509651366"
+            "turn": "0.078701707",
+            "x": "0.488851091",
+            "y": "0.488851091"
           },
           {
-            "turn": "0.078655779",
-            "x": "0.488845748",
-            "y": "0.488856347"
+            "turn": "-0.240078759",
+            "x": "0.835243233",
+            "y": "0.509656880"
           },
           {
-            "turn": "0.078655779",
-            "x": "0.164749252",
-            "y": "0.164764413"
+            "turn": "0.078701707",
+            "x": "0.164756767",
+            "y": "0.817365717"
           },
           {
-            "turn": "-0.240127037",
-            "x": "0.509661756",
-            "y": "0.182631623"
+            "turn": "-0.240078759",
+            "x": "0.509656880",
+            "y": "0.835243233"
           },
           {
-            "turn": "0.078649005",
-            "x": "0.817362697",
-            "y": "0.164765548"
+            "turn": "0.082803651",
+            "x": "0.817289275",
+            "y": "0.816858969"
           }
         ],
-        "radius": "0.184910823"
+        "radius": "0.184910842"
       }
     },
     {

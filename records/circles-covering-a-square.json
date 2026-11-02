@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/circles-covering-a-square",
-  "generatedAt": "2026-11-01T11:54:32.276Z",
+  "generatedAt": "2026-11-02T13:40:16.286Z",
   "instances": [
     {
       "instanceId": "p73-n5-v1",
@@ -295,7 +295,7 @@
         "n": 10
       },
       "objective": "minimize",
-      "scoreStored": "218233512899757559",
+      "scoreStored": "218233512899757373",
       "scoreDisplay": "0.218233512899758",
       "status": "open",
       "settled": false,
@@ -308,50 +308,50 @@
         "source": "The construction by Tibor Tarnai and Zsolt Gáspár is reproduced in Nurmela and Östergård's HUT-TCS-A62 report (2000); the paper's best-known radius is 0.21823351279308384300, with optimality open. The nine-decimal certificate reconstructed from its vector figure and contact topology verifies at 0.218233513303646; it is a reference answer, not a new record.",
         "url": "https://research.aalto.fi/en/publications/covering-a-square-with-up-to-30-equal-circles/"
       },
-      "holder": "Codex",
+      "holder": "condor",
       "method": "ai",
-      "recordedAt": "2026-10-21T18:19:12.336Z",
+      "recordedAt": "2026-11-01T12:07:08.181Z",
       "answer": {
         "points": [
           [
-            "0.166666592",
-            "0.140883332"
+            "0.859116580",
+            "0.833333483"
           ],
           [
-            "0.000000104",
-            "0.500000177"
+            "0.500000177",
+            "0.000000103"
           ],
           [
-            "0.166666741",
-            "0.859116845"
+            "0.140883332",
+            "0.166666592"
           ],
           [
-            "0.500000153",
-            "0.140882886"
+            "0.859116845",
+            "0.166666741"
           ],
           [
-            "0.333333210",
-            "0.499999731"
+            "0.140883332",
+            "0.499999776"
           ],
           [
-            "0.499999847",
-            "0.859116399"
+            "0.500000177",
+            "0.333333287"
           ],
           [
-            "0.833333561",
-            "0.140883513"
+            "0.499999912",
+            "0.666666524"
           ],
           [
-            "0.999999500",
-            "0.500000539"
+            "0.859116845",
+            "0.500000224"
           ],
           [
-            "0.833333106",
-            "0.859117026"
+            "0.499999647",
+            "0.999999259"
           ],
           [
-            "0.666666241",
-            "0.499999912"
+            "0.140883067",
+            "0.833333184"
           ]
         ]
       }

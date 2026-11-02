@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/heilbronn-in-a-circle",
-  "generatedAt": "2026-10-09T11:58:29.304Z",
+  "generatedAt": "2026-11-02T13:40:04.644Z",
   "instances": [
     {
       "instanceId": "p22-n5-v2",
@@ -373,8 +373,8 @@
         "n": 11
       },
       "objective": "maximize",
-      "scoreStored": "227876234660303235",
-      "scoreDisplay": "0.1139381173301516175",
+      "scoreStored": "227876234679890624",
+      "scoreDisplay": "0.113938117339945312",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -393,54 +393,54 @@
         "source": "David Cantrell, August 2006; Friedman's original circle page reports minimum triangle area 0.113+ in a radius-one disc, with publication interval [0.113, 0.114). Values inside it match the known best at published precision; this does not prove exact equality or optimality. This corrects the previously cited, weaker MathWorld benchmark of about 0.10977332128. The exhibited site certificate remains the older MathWorld reconstruction, 0.109773321178321206, not an exact value for Cantrell's stronger construction.",
         "url": "https://web.archive.org/web/20110311004102/http://www2.stetson.edu/~efriedma/heilcirc/"
       },
-      "holder": "Sigmoid with Codex",
+      "holder": "condor",
       "method": "ai",
-      "recordedAt": "2026-09-02T16:55:47.873Z",
+      "recordedAt": "2026-11-02T11:43:29.253Z",
       "answer": {
         "points": [
           [
-            "0.103982494",
-            "1.444018725"
+            "1.290476887",
+            "0.580923566"
           ],
           [
-            "0.207695321",
-            "0.389874361"
+            "1.966386326",
+            "1.257094280"
           ],
           [
-            "0.492546307",
-            "0.950073767"
+            "0.200027961",
+            "1.600037279"
           ],
           [
-            "1.581466886",
-            "0.186429929"
+            "1.177854162",
+            "1.251248137"
           ],
           [
-            "0.754515086",
-            "0.030599589"
+            "0.420103196",
+            "0.185310061"
           ],
           [
-            "1.975221959",
-            "0.778771320"
+            "1.047936897",
+            "0.001149634"
           ],
           [
-            "1.132997098",
-            "0.722386058"
+            "0.003496110",
+            "0.916453624"
           ],
           [
-            "1.411765164",
-            "1.911289992"
+            "1.427957524",
+            "1.903798848"
           ],
           [
-            "1.913408941",
-            "1.407043125"
+            "1.918493299",
+            "0.604563457"
           ],
           [
-            "0.570300262",
-            "1.902971835"
+            "0.718881034",
+            "1.959672927"
           ],
           [
-            "1.076344189",
-            "1.298210150"
+            "0.702314599",
+            "0.921634634"
           ]
         ]
       }
@@ -532,8 +532,8 @@
         "n": 13
       },
       "objective": "maximize",
-      "scoreStored": "171379545030296414",
-      "scoreDisplay": "0.085689772515148207",
+      "scoreStored": "171379545110196178",
+      "scoreDisplay": "0.085689772555098089",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -552,62 +552,62 @@
         "source": "David Cantrell, June 2007; Friedman's original circle page reports minimum triangle area 0.0856+ in a radius-one disc, with publication interval [0.0856, 0.0857). Values inside it match the known best at published precision; this does not prove exact equality or optimality. MathWorld's sixteen-digit value 0.171316471464200 (site units) is the same construction; the exhibited site certificate is the reconstruction of MathWorld's figure, 0.171316470816143988.",
         "url": "https://web.archive.org/web/20110311004102/http://www2.stetson.edu/~efriedma/heilcirc/"
       },
-      "holder": "zzzcy",
+      "holder": "condor",
       "method": "ai",
-      "recordedAt": "2026-10-04T11:29:35.519Z",
+      "recordedAt": "2026-11-02T10:46:56.921Z",
       "answer": {
         "points": [
           [
-            "1.795043425",
-            "1.606552514"
+            "1.288867155",
+            "0.625643965"
           ],
           [
-            "1.977618642",
-            "0.917282918"
+            "1.896733341",
+            "1.442571254"
           ],
           [
-            "1.359333609",
-            "1.933209171"
+            "0.044736764",
+            "1.295756910"
           ],
           [
-            "1.395629818",
-            "1.258966640"
+            "1.274862844",
+            "1.300735649"
           ],
           [
-            "0.207367699",
-            "1.609699955"
+            "0.488028755",
+            "0.205560050"
           ],
           [
-            "0.776767703",
-            "1.918377227"
+            "1.033536805",
+            "0.000562517"
           ],
           [
-            "0.000569911",
-            "1.033756421"
+            "0.051291668",
+            "0.683847347"
           ],
           [
-            "0.647175497",
-            "1.335657059"
+            "1.517208323",
+            "1.855859539"
           ],
           [
-            "1.208044480",
-            "0.021880634"
+            "1.973334163",
+            "0.770608184"
           ],
           [
-            "0.676963078",
-            "0.147146377"
+            "0.974410620",
+            "1.911623462"
           ],
           [
-            "1.702085305",
-            "0.287907153"
+            "0.320875780",
+            "1.663030150"
           ],
           [
-            "1.161081025",
-            "0.625774911"
+            "0.556634293",
+            "0.798561073"
           ],
           [
-            "0.141043255",
-            "0.596252559"
+            "1.552256535",
+            "0.166325772"
           ]
         ]
       }
