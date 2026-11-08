@@ -37,7 +37,7 @@ managed.
 
 ## The records
 
-72 problem families, 2855 sub-problems, 2667 still open.
+73 problem families, 2905 sub-problems, 2716 still open.
 `records/` holds today's snapshot of each family; the live files are at
 `https://minmaxarena.com/data/{slug}.json`, and the citable ones are the monthly frozen
 editions at `https://minmaxarena.com/data/editions/{YYYY-MM}/{slug}.json`, which never change
@@ -119,6 +119,7 @@ once published. Data is CC BY 4.0; see
 | [P94](https://minmaxarena.com/en/problems/circles-in-pentagon-radii) | Sum of radii in the regular pentagon | 50 | 42 | [json](records/circles-in-pentagon-radii.json) |
 | [P95](https://minmaxarena.com/en/problems/consecutive-dominoes-in-square) | Consecutive dominoes in a square | 41 | 34 | [json](records/consecutive-dominoes-in-square.json) |
 | [P96](https://minmaxarena.com/en/problems/consecutive-ells-in-square) | Consecutive L shapes in a square | 50 | 48 | [json](records/consecutive-ells-in-square.json) |
+| [P97](https://minmaxarena.com/en/problems/consecutive-rectangles-in-rectangle) | Consecutive rectangles in similar rectangles | 50 | 49 | [json](records/consecutive-rectangles-in-rectangle.json) |
 <!-- records:end -->
 
 ## Problems the catalogue no longer offers
