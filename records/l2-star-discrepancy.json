@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/l2-star-discrepancy",
-  "generatedAt": "2026-11-02T13:40:14.162Z",
+  "generatedAt": "2026-11-09T14:03:33.698Z",
   "instances": [
     {
       "instanceId": "p59-d2-n8-v1",
@@ -1068,20 +1068,20 @@
         "d": 4
       },
       "objective": "minimize",
-      "scoreStored": "70398521941297353626817462491038913112567250186287631008474069441711261632",
+      "scoreStored": "70398521941297353625643783139672173091769449139538433126441938469899421632",
       "scoreDisplay": "0.041200670193",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
       "knownBest": null,
-      "holder": "condor",
+      "holder": "游侠",
       "method": "ai",
-      "recordedAt": "2026-11-01T14:09:05.203Z",
+      "recordedAt": "2026-11-08T14:11:40.773Z",
       "answer": {
         "points": [
           [
             "0.887899552",
-            "0.182727158",
+            "0.182727159",
             "0.896610180",
             "0.220819505"
           ],
