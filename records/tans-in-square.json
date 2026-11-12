@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/tans-in-square",
-  "generatedAt": "2026-11-11T12:49:01.971Z",
+  "generatedAt": "2026-11-12T13:52:13.070Z",
   "instances": [
     {
       "instanceId": "p89-n1-v1",
@@ -102,17 +102,14 @@
       "settled": false,
       "recordStatus": "open",
       "knownBest": {
-        "display": "1.414",
+        "display": "1.41421356237309504880168872420969807",
         "kind": "best",
         "range": {
-          "lower": "1.414",
-          "upper": "1.415",
-          "upperInclusive": false
+          "lower": "1.41421356237309504880168872420969807",
+          "upper": "1.41421356237309504880168872420969808"
         },
-        "comparisonUncertain": true,
-        "truncated": true,
-        "certificateDisplay": "1.414213621",
-        "source": "Compiled by Erich Friedman; Trivial. Source expression: s = √2 = 1.414+.",
+        "exact": "√2",
+        "source": "The Tans in Squares table of Erich Friedman explicitly gives s = √2. Retain the exact formula and an outward-rounded comparison interval rather than treating its three-place display as an uncertain record. This corrects the cited value without adding an optimality certification.",
         "url": "https://erich-friedman.github.io/packing/taninsqu/"
       },
       "holder": "邱仲普",
@@ -2236,15 +2233,15 @@
       "settled": false,
       "recordStatus": "ahead",
       "knownBest": {
-        "display": "3.46363",
+        "display": "3.45801",
         "kind": "best",
         "range": {
-          "lower": "3.46363",
-          "upper": "3.46364",
+          "lower": "3.45801",
+          "upper": "3.45802",
           "upperInclusive": false
         },
         "truncated": true,
-        "source": "Joshua Wolk (September 2026) in Erich Friedman's compiled table, printed as s = 3.46363+; checked 2026-09-29 at revision b5b5578. The interval is converted conservatively from the printed truncated precision; optimality is open. The new construction is published as a figure only and has not been rebuilt here yet.",
+        "source": "Yanis Gomes (2026-10), compiled by Erich Friedman. Source value and precision checked 2026-11-11 at revision e9454e4fad13; optimality is unproved.",
         "url": "https://erich-friedman.github.io/packing/taninsqu/"
       },
       "holder": "今天",

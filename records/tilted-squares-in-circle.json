@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/tilted-squares-in-circle",
-  "generatedAt": "2026-11-11T12:48:55.865Z",
+  "generatedAt": "2026-11-12T13:52:08.169Z",
   "instances": [
     {
       "instanceId": "p05-n3-v2",
@@ -3892,21 +3892,19 @@
       "objective": "maximize",
       "scoreStored": "78331551971692484",
       "scoreDisplay": "0.279877744",
-      "status": "ahead",
+      "status": "matched",
       "settled": false,
-      "recordStatus": "ahead",
+      "recordStatus": "matched",
       "knownBest": {
-        "display": "0.279845525",
+        "display": "0.27987842081399839909543294392915718",
         "kind": "best",
         "range": {
-          "lower": "0.2798447421370623",
-          "upper": "0.2798455252700510"
+          "lower": "0.27987763749688636128284713923072832",
+          "upper": "0.27987842081399839909543294392915718"
         },
-        "truncated": true,
-        "certificateDisplay": "0.279845051",
-        "publishedDisplay": "3.57340+",
+        "publishedDisplay": "[3.57298, 3.57299)",
         "publishedMetric": "container radius for unit squares",
-        "source": "Milan Kovacic found the r = 3.57340+ packing in May 2026 (radius of the smallest circle around unit squares). The site digitised the squares' positions and orientations from the public figure, solved that fixed separating-axis structure and repaired it inward to a nine-decimal certificate scoring 0.07831325259379658; the truncated source interval is compared separately from the certificate, and optimality is open",
+        "source": "Beppe Björkland (2026-10), compiled by Erich Friedman. Source value and precision checked 2026-11-11 at revision f3b1f100c956; optimality is unproved.",
         "url": "https://erich-friedman.github.io/packing/squincir/"
       },
       "holder": "condor",

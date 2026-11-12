@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/dominoes-in-square",
-  "generatedAt": "2026-11-11T12:49:02.042Z",
+  "generatedAt": "2026-11-12T13:52:13.152Z",
   "instances": [
     {
       "instanceId": "p90-n1-v1",
@@ -2635,19 +2635,19 @@
       "objective": "minimize",
       "scoreStored": "7794821831263059835",
       "scoreDisplay": "7.794821832",
-      "status": "ahead",
+      "status": "matched",
       "settled": false,
-      "recordStatus": "ahead",
+      "recordStatus": "matched",
       "knownBest": {
-        "display": "7.79511",
+        "display": "7.79482",
         "kind": "best",
         "range": {
-          "lower": "7.79511",
-          "upper": "7.79512",
+          "lower": "7.79482",
+          "upper": "7.79483",
           "upperInclusive": false
         },
         "truncated": true,
-        "source": "Joshua Wolk (September 2026) in Erich Friedman's compiled table, printed as s = 7.79511+; checked 2026-09-29 at revision b5b5578. The interval is converted conservatively from the printed truncated precision; optimality is open. The new construction is published as a figure only and has not been rebuilt here yet.",
+        "source": "Yanis Gomes (2026-10), compiled by Erich Friedman. Source value and precision checked 2026-11-11 at revision 22e2c6494baa; optimality is unproved.",
         "url": "https://erich-friedman.github.io/packing/dominsqu/"
       },
       "holder": "condor",
@@ -2825,19 +2825,19 @@
       "objective": "minimize",
       "scoreStored": "7950925741390829043",
       "scoreDisplay": "7.950925742",
-      "status": "ahead",
+      "status": "matched",
       "settled": false,
-      "recordStatus": "ahead",
+      "recordStatus": "matched",
       "knownBest": {
-        "display": "7.95595",
+        "display": "7.95092",
         "kind": "best",
         "range": {
-          "lower": "7.95595",
-          "upper": "7.95596",
+          "lower": "7.95092",
+          "upper": "7.95093",
           "upperInclusive": false
         },
         "truncated": true,
-        "source": "Yanis Gomes (October 2026) in Erich Friedman's compiled table, printed as s = 7.95595+, superseding Grigory Merzon's 7.98480+; checked 2026-10-08 at revision dc91d31. The interval is converted conservatively from the printed truncated precision; optimality is open. The layout is published as a figure only; the site cites the value without rebuilding it, and the earlier 8 × 8 grid stays as an earlier-source starter.",
+        "source": "Yanis Gomes (2026-10), compiled by Erich Friedman. Source value and precision checked 2026-11-11 at revision 22e2c6494baa; optimality is unproved.",
         "url": "https://erich-friedman.github.io/packing/dominsqu/"
       },
       "holder": "condor",
@@ -4170,19 +4170,18 @@
       "objective": "minimize",
       "scoreStored": "8822875740470875114",
       "scoreDisplay": "8.822875741",
-      "status": "ahead",
+      "status": "open",
       "settled": false,
-      "recordStatus": "ahead",
+      "recordStatus": "open",
       "knownBest": {
-        "display": "8.83512",
+        "display": "8.82287565553229529525080787681963021",
         "kind": "best",
         "range": {
-          "lower": "8.83512",
-          "upper": "8.83513",
-          "upperInclusive": false
+          "lower": "8.82287565553229529525080787681963021",
+          "upper": "8.82287565553229529525080787681963022"
         },
-        "truncated": true,
-        "source": "Compiled by Erich Friedman; Found by Joshua Wolk in September 2026. Source expression: s = 8.83512+.",
+        "exact": "(15 + √7)/2",
+        "source": "Grigory Merzon (2026-10), compiled by Erich Friedman. Source value and precision checked 2026-11-11 at revision 22e2c6494baa; optimality is unproved.",
         "url": "https://erich-friedman.github.io/packing/dominsqu/"
       },
       "holder": "condor",
@@ -4408,19 +4407,19 @@
       "objective": "minimize",
       "scoreStored": "8950274245353151866",
       "scoreDisplay": "8.950274246",
-      "status": "ahead",
+      "status": "matched",
       "settled": false,
-      "recordStatus": "ahead",
+      "recordStatus": "matched",
       "knownBest": {
-        "display": "8.97730",
+        "display": "8.95027",
         "kind": "best",
         "range": {
-          "lower": "8.97730",
-          "upper": "8.97731",
+          "lower": "8.95027",
+          "upper": "8.95028",
           "upperInclusive": false
         },
         "truncated": true,
-        "source": "Yanis Gomes (October 2026) in Erich Friedman's compiled table, printed as s = 8.97730+, superseding Grigory Merzon's 8.98860+; checked 2026-10-08 at revision dc91d31. The interval is converted conservatively from the printed truncated precision; optimality is open. The layout is published as a figure only; the site cites the value without rebuilding it.",
+        "source": "Grigory Merzon (2026-10), compiled by Erich Friedman. Source value and precision checked 2026-11-11 at revision 22e2c6494baa; optimality is unproved.",
         "url": "https://erich-friedman.github.io/packing/dominsqu/"
       },
       "holder": "condor",

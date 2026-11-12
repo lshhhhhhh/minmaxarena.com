@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/consecutive-dominoes-in-square",
-  "generatedAt": "2026-11-11T12:49:00.949Z",
+  "generatedAt": "2026-11-12T13:52:12.145Z",
   "instances": [
     {
       "instanceId": "p95-n1-v1",
@@ -2659,13 +2659,17 @@
       "objective": "minimize",
       "scoreStored": "118000000000",
       "scoreDisplay": "118",
-      "status": "ahead",
+      "status": "matched",
       "settled": false,
-      "recordStatus": "ahead",
+      "recordStatus": "matched",
       "knownBest": {
-        "display": "119",
+        "display": "118",
         "kind": "best",
-        "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Matthew Sun (June 2026). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
+        "range": {
+          "lower": "118",
+          "upper": "118"
+        },
+        "source": "Yanis Gomes (2026-11), compiled by Erich Friedman. Source value and precision checked 2026-11-11 at revision a48f7932cd03; optimality is unproved.",
         "url": "https://erich-friedman.github.io/packing/domino/"
       },
       "holder": "condor",
@@ -2848,13 +2852,17 @@
       "objective": "minimize",
       "scoreStored": "125000000000",
       "scoreDisplay": "125",
-      "status": "ahead",
+      "status": "matched",
       "settled": false,
-      "recordStatus": "ahead",
+      "recordStatus": "matched",
       "knownBest": {
-        "display": "126",
+        "display": "125",
         "kind": "best",
-        "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Matthew Sun (June 2026). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
+        "range": {
+          "lower": "125",
+          "upper": "125"
+        },
+        "source": "Yanis Gomes (2026-11), compiled by Erich Friedman. Source value and precision checked 2026-11-11 at revision a48f7932cd03; optimality is unproved.",
         "url": "https://erich-friedman.github.io/packing/domino/"
       },
       "holder": "condor",
@@ -3244,13 +3252,17 @@
       "objective": "minimize",
       "scoreStored": "138000000000",
       "scoreDisplay": "138",
-      "status": "ahead",
+      "status": "matched",
       "settled": false,
-      "recordStatus": "ahead",
+      "recordStatus": "matched",
       "knownBest": {
-        "display": "139",
+        "display": "138",
         "kind": "best",
-        "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Matthew Sun (June 2026). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
+        "range": {
+          "lower": "138",
+          "upper": "138"
+        },
+        "source": "Yanis Gomes (2026-11), compiled by Erich Friedman. Source value and precision checked 2026-11-11 at revision a48f7932cd03; optimality is unproved.",
         "url": "https://erich-friedman.github.io/packing/domino/"
       },
       "holder": "condor",
@@ -3451,13 +3463,17 @@
       "objective": "minimize",
       "scoreStored": "145000000000",
       "scoreDisplay": "145",
-      "status": "ahead",
+      "status": "matched",
       "settled": false,
-      "recordStatus": "ahead",
+      "recordStatus": "matched",
       "knownBest": {
-        "display": "146",
+        "display": "145",
         "kind": "best",
-        "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Matthew Sun (June 2026). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
+        "range": {
+          "lower": "145",
+          "upper": "145"
+        },
+        "source": "Yanis Gomes (2026-11), compiled by Erich Friedman. Source value and precision checked 2026-11-11 at revision a48f7932cd03; optimality is unproved.",
         "url": "https://erich-friedman.github.io/packing/domino/"
       },
       "holder": "condor",
@@ -3664,13 +3680,17 @@
       "objective": "minimize",
       "scoreStored": "152000000000",
       "scoreDisplay": "152",
-      "status": "ahead",
+      "status": "matched",
       "settled": false,
-      "recordStatus": "ahead",
+      "recordStatus": "matched",
       "knownBest": {
-        "display": "153",
+        "display": "152",
         "kind": "best",
-        "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Matthew Sun (June 2026). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
+        "range": {
+          "lower": "152",
+          "upper": "152"
+        },
+        "source": "Yanis Gomes (2026-11), compiled by Erich Friedman. Source value and precision checked 2026-11-11 at revision a48f7932cd03; optimality is unproved.",
         "url": "https://erich-friedman.github.io/packing/domino/"
       },
       "holder": "condor",
@@ -3883,13 +3903,17 @@
       "objective": "minimize",
       "scoreStored": "159000000000",
       "scoreDisplay": "159",
-      "status": "ahead",
+      "status": "matched",
       "settled": false,
-      "recordStatus": "ahead",
+      "recordStatus": "matched",
       "knownBest": {
-        "display": "160",
+        "display": "159",
         "kind": "best",
-        "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Matthew Sun (June 2026). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
+        "range": {
+          "lower": "159",
+          "upper": "159"
+        },
+        "source": "Yanis Gomes (2026-11), compiled by Erich Friedman. Source value and precision checked 2026-11-11 at revision a48f7932cd03; optimality is unproved.",
         "url": "https://erich-friedman.github.io/packing/domino/"
       },
       "holder": "condor",
@@ -4108,13 +4132,17 @@
       "objective": "minimize",
       "scoreStored": "166000000000",
       "scoreDisplay": "166",
-      "status": "ahead",
+      "status": "matched",
       "settled": false,
-      "recordStatus": "ahead",
+      "recordStatus": "matched",
       "knownBest": {
-        "display": "167",
+        "display": "166",
         "kind": "best",
-        "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Matthew Sun (June 2026). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
+        "range": {
+          "lower": "166",
+          "upper": "166"
+        },
+        "source": "Yanis Gomes (2026-11), compiled by Erich Friedman. Source value and precision checked 2026-11-11 at revision a48f7932cd03; optimality is unproved.",
         "url": "https://erich-friedman.github.io/packing/domino/"
       },
       "holder": "condor",
@@ -4576,13 +4604,17 @@
       "objective": "minimize",
       "scoreStored": "181000000000",
       "scoreDisplay": "181",
-      "status": "ahead",
+      "status": "matched",
       "settled": false,
-      "recordStatus": "ahead",
+      "recordStatus": "matched",
       "knownBest": {
-        "display": "182",
+        "display": "181",
         "kind": "best",
-        "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Matthew Sun (June 2026). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
+        "range": {
+          "lower": "181",
+          "upper": "181"
+        },
+        "source": "Yanis Gomes (2026-11), compiled by Erich Friedman. Source value and precision checked 2026-11-11 at revision a48f7932cd03; optimality is unproved.",
         "url": "https://erich-friedman.github.io/packing/domino/"
       },
       "holder": "condor",
@@ -4819,13 +4851,17 @@
       "objective": "minimize",
       "scoreStored": "188000000000",
       "scoreDisplay": "188",
-      "status": "ahead",
+      "status": "matched",
       "settled": false,
-      "recordStatus": "ahead",
+      "recordStatus": "matched",
       "knownBest": {
-        "display": "189",
+        "display": "188",
         "kind": "best",
-        "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Matthew Sun (June 2026). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
+        "range": {
+          "lower": "188",
+          "upper": "188"
+        },
+        "source": "Yanis Gomes (2026-11), compiled by Erich Friedman. Source value and precision checked 2026-11-11 at revision a48f7932cd03; optimality is unproved.",
         "url": "https://erich-friedman.github.io/packing/domino/"
       },
       "holder": "condor",
@@ -5068,13 +5104,17 @@
       "objective": "minimize",
       "scoreStored": "196000000000",
       "scoreDisplay": "196",
-      "status": "ahead",
+      "status": "matched",
       "settled": false,
-      "recordStatus": "ahead",
+      "recordStatus": "matched",
       "knownBest": {
-        "display": "197",
+        "display": "196",
         "kind": "best",
-        "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Matthew Sun (June 2026). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
+        "range": {
+          "lower": "196",
+          "upper": "196"
+        },
+        "source": "Yanis Gomes (2026-11), compiled by Erich Friedman. Source value and precision checked 2026-11-11 at revision a48f7932cd03; optimality is unproved.",
         "url": "https://erich-friedman.github.io/packing/domino/"
       },
       "holder": "condor",
@@ -5851,13 +5891,17 @@
       "objective": "minimize",
       "scoreStored": "219000000000",
       "scoreDisplay": "219",
-      "status": "ahead",
+      "status": "matched",
       "settled": false,
-      "recordStatus": "ahead",
+      "recordStatus": "matched",
       "knownBest": {
-        "display": "220",
+        "display": "219",
         "kind": "best",
-        "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Rowan Jones (October 2026). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
+        "range": {
+          "lower": "219",
+          "upper": "219"
+        },
+        "source": "Yanis Gomes (2026-11), compiled by Erich Friedman. Source value and precision checked 2026-11-11 at revision a48f7932cd03; optimality is unproved.",
         "url": "https://erich-friedman.github.io/packing/domino/"
       },
       "holder": "condor",

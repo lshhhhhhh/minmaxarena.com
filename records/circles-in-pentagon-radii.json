@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/circles-in-pentagon-radii",
-  "generatedAt": "2026-11-11T12:49:00.874Z",
+  "generatedAt": "2026-11-12T13:52:12.080Z",
   "instances": [
     {
       "instanceId": "p94-n1-v1",
@@ -4938,19 +4938,19 @@
       "objective": "maximize",
       "scoreStored": "4266929456",
       "scoreDisplay": "4.266929456",
-      "status": "ahead",
+      "status": "matched",
       "settled": false,
-      "recordStatus": "ahead",
+      "recordStatus": "matched",
       "knownBest": {
-        "display": "4.26611",
+        "display": "4.26692",
         "kind": "best",
         "range": {
-          "lower": "4.26611",
-          "upper": "4.26612",
+          "lower": "4.26692",
+          "upper": "4.26693",
           "upperInclusive": false
         },
         "truncated": true,
-        "source": "Compiled by Erich Friedman (Packing Copies to Maximize Total Perimeter: Circles in Pentagons); found by Jonathan Viquerat (October 2026). Source expression: 4.26611+. The published value is cited without reconstructing its configuration; the starter is the site's ordinary ring of equal circles, not the external record.",
+        "source": "Fei Liu (2026-11), compiled by Erich Friedman. Source value and precision checked 2026-11-11 at revision 97604d57c5ed; optimality is unproved.",
         "url": "https://erich-friedman.github.io/packing/cirRpen/"
       },
       "holder": "condor",
