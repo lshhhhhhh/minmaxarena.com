@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/circles-covering-a-regular-pentagon",
-  "generatedAt": "2026-11-10T13:37:10.944Z",
+  "generatedAt": "2026-11-13T13:14:42.297Z",
   "instances": [
     {
       "instanceId": "p75-n7-v1",
@@ -38,7 +38,7 @@
         "source": "The public vector construction in Figure 9 of Yanchao Liu (2022), reconstructed point by point and verified here at 0.213065485409387. Literature comparisons use the interval transferred from Table 1's three-decimal 22.402, including the geometric difference between the two fixed-precision polygons; reconstruction digits do not define publication precision. The paper's best lower bound still leaves a 5.87% gap, so optimality is open.",
         "url": "https://link.springer.com/article/10.1007/s43762-021-00032-9"
       },
-      "holder": "condor",
+      "holder": "Joost de Winter",
       "method": "ai",
       "recordedAt": "2026-11-01T11:47:50.758Z",
       "answer": {
@@ -162,7 +162,7 @@
         "source": "The public vector construction in Figure 9 of Yanchao Liu (2022), reconstructed point by point and verified here at 0.181871774083792. Table 1's 19.377 conflicts with the Figure 9 reconstruction, and the PDF drawing coordinates are rounded. The original radius is unresolved: this reconstruction cannot establish a match or advance over the literature and remains a review item. The paper's best lower bound still leaves a 6.35% gap, so optimality is open.",
         "url": "https://link.springer.com/article/10.1007/s43762-021-00032-9"
       },
-      "holder": "condor",
+      "holder": "Joost de Winter",
       "method": "ai",
       "recordedAt": "2026-11-01T10:43:05.591Z",
       "answer": {
@@ -1809,7 +1809,7 @@
       "settled": false,
       "recordStatus": "open",
       "knownBest": null,
-      "holder": "condor",
+      "holder": "Joost de Winter",
       "method": "ai",
       "recordedAt": "2026-11-01T13:27:42.555Z",
       "answer": {
@@ -1932,128 +1932,128 @@
         "n": 28
       },
       "objective": "minimize",
-      "scoreStored": "98192465900832989",
-      "scoreDisplay": "0.098192465900833",
+      "scoreStored": "98094895891573948",
+      "scoreDisplay": "0.098094895891574",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
       "knownBest": null,
-      "holder": "Codex",
+      "holder": "Joost de Winter",
       "method": "ai",
-      "recordedAt": "2026-10-23T12:11:37.216Z",
+      "recordedAt": "2026-11-12T22:22:00.190Z",
       "answer": {
         "points": [
           [
-            "0.514167559",
-            "0.915537375"
+            "0.206462292",
+            "0.338802935"
           ],
           [
-            "0.276905111",
-            "0.572487911"
+            "0.375178188",
+            "0.898305638"
           ],
           [
-            "0.355272399",
-            "0.867186550"
+            "0.533471296",
+            "0.913096335"
           ],
           [
-            "0.887644598",
-            "0.473148620"
+            "0.162104102",
+            "0.719565886"
           ],
           [
-            "0.213289795",
-            "0.745479121"
+            "0.807480626",
+            "0.340771964"
           ],
           [
-            "0.887162601",
-            "0.635074975"
+            "0.655164189",
+            "0.809551"
           ],
           [
-            "0.582850482",
-            "0.152684820"
+            "0.507651001",
+            "0.364221485"
           ],
           [
-            "0.829393915",
-            "0.293871450"
+            "0.366560691",
+            "0.297284543"
           ],
           [
-            "0.421170751",
-            "0.458162141"
+            "0.352240204",
+            "0.451989498"
           ],
           [
-            "0.489520738",
-            "0.751358475"
+            "0.769891323",
+            "0.185472146"
           ],
           [
-            "0.733655723",
-            "0.554591061"
+            "0.221838588",
+            "0.185095008"
           ],
           [
-            "0.342338543",
-            "0.699853205"
+            "0.30804814",
+            "0.751501958"
           ],
           [
-            "0.733826047",
-            "0.163153588"
+            "0.883295113",
+            "0.624540498"
           ],
           [
-            "0.167086071",
-            "0.288008570"
+            "0.860563821",
+            "0.486355884"
           ],
           [
-            "0.267215060",
-            "0.155495695"
+            "0.706046304",
+            "0.566948982"
           ],
           [
-            "0.423987249",
-            "0.153744274"
+            "0.608379512",
+            "0.65613945"
           ],
           [
-            "0.771174183",
-            "0.732285589"
+            "0.089865692",
+            "0.591263577"
           ],
           [
-            "0.123757559",
-            "0.469927234"
+            "0.783681551",
+            "0.722973184"
           ],
           [
-            "0.618331626",
-            "0.650043132"
+            "0.635321375",
+            "0.279724728"
           ],
           [
-            "0.460817468",
-            "0.580182185"
+            "0.633136174",
+            "0.104395928"
           ],
           [
-            "0.575812162",
-            "0.475367145"
+            "0.679457882",
+            "0.437385415"
           ],
           [
-            "0.507539173",
-            "0.309058983"
+            "0.355695603",
+            "0.123757197"
           ],
           [
-            "0.117858325",
-            "0.624165354"
+            "0.27289161",
+            "0.585565594"
           ],
           [
-            "0.642028402",
-            "0.824805961"
+            "0.524089889",
+            "0.50782737"
           ],
           [
-            "0.656943631",
-            "0.318495520"
+            "0.426380294",
+            "0.614343896"
           ],
           [
-            "0.343777287",
-            "0.302806260"
+            "0.167773903",
+            "0.457872889"
           ],
           [
-            "0.265653309",
-            "0.421959490"
+            "0.480001547",
+            "0.757746262"
           ],
           [
-            "0.751212814",
-            "0.418441008"
+            "0.492538097",
+            "0.183704304"
           ]
         ]
       }

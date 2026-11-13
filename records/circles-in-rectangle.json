@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/circles-in-rectangle",
-  "generatedAt": "2026-11-11T12:48:56.827Z",
+  "generatedAt": "2026-11-13T13:14:38.726Z",
   "instances": [
     {
       "instanceId": "p12-n3-v1",
@@ -3641,7 +3641,7 @@
         "source": "Packomania's crc table, compiled by Eckard Specht, keeps the best known packings of equal circles in a 1 × 0.5 rectangle; this problem's 2 × 1 rectangle is that one doubled, so the radius is twice the table's. The table cites Eckard Specht (1999–2010) for this row. It does not mark this row proved",
         "url": "https://www.packomania.com/crc_500/crc.html"
       },
-      "holder": "condor",
+      "holder": "Joost de Winter",
       "method": "ai",
       "recordedAt": "2026-10-28T06:27:41.431Z",
       "answer": {
@@ -3819,7 +3819,7 @@
         "source": "Packomania's crc table, compiled by Eckard Specht, keeps the best known packings of equal circles in a 1 × 0.5 rectangle; this problem's 2 × 1 rectangle is that one doubled, so the radius is twice the table's. The table cites Eckard Specht (1999–2010) for this row. It does not mark this row proved",
         "url": "https://www.packomania.com/crc_500/crc.html"
       },
-      "holder": "condor",
+      "holder": "Joost de Winter",
       "method": "ai",
       "recordedAt": "2026-10-27T04:32:36.958Z",
       "answer": {
@@ -4169,8 +4169,8 @@
         "n": 39
       },
       "objective": "maximize",
-      "scoreStored": "113746781",
-      "scoreDisplay": "0.113746781",
+      "scoreStored": "113746782",
+      "scoreDisplay": "0.113746782",
       "status": "ahead",
       "settled": false,
       "recordStatus": "ahead",
@@ -4187,37 +4187,37 @@
         "source": "Packomania's crc table, compiled by Eckard Specht, keeps the best known packings of equal circles in a 1 × 0.5 rectangle; this problem's 2 × 1 rectangle is that one doubled, so the radius is twice the table's. The table cites Eckard Specht (2010-08-02) for this row. It does not mark this row proved",
         "url": "https://www.packomania.com/crc_500/crc.html"
       },
-      "holder": "condor",
+      "holder": "邱仲普",
       "method": "ai",
-      "recordedAt": "2026-10-27T06:55:23.792Z",
+      "recordedAt": "2026-11-13T10:35:54.000Z",
       "answer": {
         "centers": [
           [
-            "0.169033846",
-            "0.114491447"
+            "0.169033836",
+            "0.114491437"
           ],
           [
-            "0.446195679",
+            "0.446195677",
             "0.113746782"
           ],
           [
-            "0.673689243",
+            "0.673689247",
             "0.113746782"
           ],
           [
-            "0.926214858",
+            "0.926214859",
             "0.113746782"
           ],
           [
-            "1.178740474",
+            "1.178740471",
             "0.113746782"
           ],
           [
-            "1.406234038",
+            "1.406234036",
             "0.113746782"
           ],
           [
-            "1.633727602",
+            "1.633727606",
             "0.113746782"
           ],
           [
@@ -4226,130 +4226,130 @@
           ],
           [
             "0.113746782",
-            "0.373393505"
+            "0.373393511"
           ],
           [
-            "0.332448897",
+            "0.332448895",
             "0.310761988"
           ],
           [
-            "0.559942461",
+            "0.559942462",
+            "0.310761986"
+          ],
+          [
+            "0.799952053",
+            "0.302984795"
+          ],
+          [
+            "1.052477665",
+            "0.302984795"
+          ],
+          [
+            "1.292487254",
             "0.310761988"
           ],
           [
-            "0.799952051",
-            "0.302984794"
+            "1.519980821",
+            "0.310761986"
           ],
           [
-            "1.052477666",
-            "0.302984794"
-          ],
-          [
-            "1.292487256",
-            "0.310761988"
-          ],
-          [
-            "1.519980820",
-            "0.310761988"
-          ],
-          [
-            "1.759990410",
-            "0.302984794"
+            "1.759990412",
+            "0.302984795"
           ],
           [
             "0.113746782",
-            "0.600887070"
+            "0.600887076"
           ],
           [
-            "0.446195679",
-            "0.507777194"
+            "0.446195680",
+            "0.507777192"
           ],
           [
-            "0.686205269",
-            "0.500000000"
+            "0.686205268",
+            "0.499999999"
           ],
           [
-            "0.926214858",
-            "0.492222806"
+            "0.926214859",
+            "0.492222808"
           ],
           [
             "1.166224448",
-            "0.500000000"
+            "0.500000001"
           ],
           [
-            "1.406234038",
-            "0.507777194"
+            "1.406234039",
+            "0.507777192"
           ],
           [
-            "1.646243628",
-            "0.500000000"
+            "1.646243627",
+            "0.499999999"
           ],
           [
             "1.886253218",
-            "0.492222806"
+            "0.492222808"
           ],
           [
-            "0.319932871",
-            "0.697015206"
+            "0.319932874",
+            "0.697015205"
           ],
           [
-            "1.532496846",
-            "0.697015206"
+            "1.532496845",
+            "0.697015205"
           ],
           [
-            "1.772506436",
+            "1.772506433",
             "0.689238012"
           ],
           [
-            "1.039961641",
-            "0.689238012"
+            "1.039961642",
+            "0.689238014"
           ],
           [
             "0.572458486",
-            "0.697015206"
+            "0.697015205"
           ],
           [
-            "1.279971230",
-            "0.697015206"
+            "1.279971233",
+            "0.697015205"
           ],
           [
-            "0.812468076",
+            "0.812468074",
             "0.689238012"
           ],
           [
-            "0.114421260",
-            "0.885659600"
+            "0.114421250",
+            "0.885659590"
           ],
           [
             "1.886253218",
             "0.886253218"
           ],
           [
-            "1.406234038",
+            "1.406234039",
             "0.886253218"
           ],
           [
-            "0.926214858",
+            "0.926214857",
             "0.886253218"
           ],
           [
-            "0.446195679",
+            "0.446195680",
             "0.886253218"
           ],
           [
-            "0.698721294",
+            "0.698721292",
             "0.886253218"
           ],
           [
-            "1.153708423",
+            "1.153708427",
             "0.886253218"
           ],
           [
-            "1.658759654",
+            "1.658759651",
             "0.886253218"
           ]
         ],
-        "radius": "0.113746781"
+        "radius": "0.113746782"
       }
     },
     {
@@ -4971,7 +4971,7 @@
         "source": "Packomania's crc table, compiled by Eckard Specht, keeps the best known packings of equal circles in a 1 × 0.5 rectangle; this problem's 2 × 1 rectangle is that one doubled, so the radius is twice the table's. The table cites David W. Cantrell (2010-08-02) for this row. It does not mark this row proved",
         "url": "https://www.packomania.com/crc_500/crc.html"
       },
-      "holder": "condor",
+      "holder": "Joost de Winter",
       "method": "ai",
       "recordedAt": "2026-11-09T23:14:04.985Z",
       "answer": {
@@ -5601,7 +5601,7 @@
         "source": "Packomania's crc table, compiled by Eckard Specht, keeps the best known packings of equal circles in a 1 × 0.5 rectangle; this problem's 2 × 1 rectangle is that one doubled, so the radius is twice the table's. The table cites Eckard Specht (2010-08-10) for this row. It does not mark this row proved",
         "url": "https://www.packomania.com/crc_500/crc.html"
       },
-      "holder": "condor",
+      "holder": "Joost de Winter",
       "method": "ai",
       "recordedAt": "2026-10-28T16:26:17.092Z",
       "answer": {
@@ -6267,7 +6267,7 @@
         "source": "Packomania's crc table, compiled by Eckard Specht, keeps the best known packings of equal circles in a 1 × 0.5 rectangle; this problem's 2 × 1 rectangle is that one doubled, so the radius is twice the table's. The table cites David W. Cantrell (2010-08-11) for this row. It does not mark this row proved",
         "url": "https://www.packomania.com/crc_500/crc.html"
       },
-      "holder": "condor",
+      "holder": "Joost de Winter",
       "method": "ai",
       "recordedAt": "2026-11-09T23:12:27.554Z",
       "answer": {
@@ -6497,7 +6497,7 @@
         "source": "Packomania's crc table, compiled by Eckard Specht, keeps the best known packings of equal circles in a 1 × 0.5 rectangle; this problem's 2 × 1 rectangle is that one doubled, so the radius is twice the table's. The table cites David W. Cantrell (2010-08-11) for this row. It does not mark this row proved",
         "url": "https://www.packomania.com/crc_500/crc.html"
       },
-      "holder": "condor",
+      "holder": "Joost de Winter",
       "method": "ai",
       "recordedAt": "2026-11-02T22:45:46.694Z",
       "answer": {
@@ -7211,7 +7211,7 @@
         "source": "Packomania's crc table, compiled by Eckard Specht, keeps the best known packings of equal circles in a 1 × 0.5 rectangle; this problem's 2 × 1 rectangle is that one doubled, so the radius is twice the table's. The table cites Eckard Specht (1999–2010) for this row. It does not mark this row proved",
         "url": "https://www.packomania.com/crc_500/crc.html"
       },
-      "holder": "condor",
+      "holder": "Joost de Winter",
       "method": "ai",
       "recordedAt": "2026-10-28T06:29:36.146Z",
       "answer": {
@@ -7961,7 +7961,7 @@
         "source": "Packomania's crc table, compiled by Eckard Specht, keeps the best known packings of equal circles in a 1 × 0.5 rectangle; this problem's 2 × 1 rectangle is that one doubled, so the radius is twice the table's. The table cites Eckard Specht (1999–2010) for this row. It does not mark this row proved",
         "url": "https://www.packomania.com/crc_500/crc.html"
       },
-      "holder": "condor",
+      "holder": "Joost de Winter",
       "method": "ai",
       "recordedAt": "2026-10-27T09:24:04.496Z",
       "answer": {
@@ -8219,7 +8219,7 @@
         "source": "Packomania's crc table, compiled by Eckard Specht, keeps the best known packings of equal circles in a 1 × 0.5 rectangle; this problem's 2 × 1 rectangle is that one doubled, so the radius is twice the table's. The table cites David W. Cantrell (2010-08-30) for this row. It does not mark this row proved",
         "url": "https://www.packomania.com/crc_500/crc.html"
       },
-      "holder": "condor",
+      "holder": "Joost de Winter",
       "method": "ai",
       "recordedAt": "2026-10-28T06:32:05.455Z",
       "answer": {
@@ -8463,8 +8463,8 @@
         "n": 58
       },
       "objective": "maximize",
-      "scoreStored": "94506997",
-      "scoreDisplay": "0.094506997",
+      "scoreStored": "94506998",
+      "scoreDisplay": "0.094506998",
       "status": "ahead",
       "settled": false,
       "recordStatus": "ahead",
@@ -8481,13 +8481,13 @@
         "source": "Packomania's crc table, compiled by Eckard Specht, keeps the best known packings of equal circles in a 1 × 0.5 rectangle; this problem's 2 × 1 rectangle is that one doubled, so the radius is twice the table's. The table cites Eckard Specht (1999–2010) for this row. It does not mark this row proved",
         "url": "https://www.packomania.com/crc_500/crc.html"
       },
-      "holder": "condor",
+      "holder": "邱仲普",
       "method": "ai",
-      "recordedAt": "2026-10-28T10:29:34.877Z",
+      "recordedAt": "2026-11-13T10:44:43.244Z",
       "answer": {
         "centers": [
           [
-            "1.036355763",
+            "1.036355762",
             "0.581845461"
           ],
           [
@@ -8495,32 +8495,32 @@
             "0.581845461"
           ],
           [
-            "0.834958930",
+            "0.834958932",
             "0.581845461"
           ],
           [
             "0.935657347",
-            "0.421888843"
+            "0.421888842"
           ],
           [
-            "1.326068176",
-            "0.741802079"
+            "1.326068175",
+            "0.741802080"
           ],
           [
             "1.130862761",
-            "0.745536384"
+            "0.745536383"
           ],
           [
             "1.130862761",
             "0.418154539"
           ],
           [
-            "1.319876758",
+            "1.319876759",
             "0.418154539"
           ],
           [
             "0.935657347",
-            "0.741802079"
+            "0.741802080"
           ],
           [
             "0.645944934",
@@ -8528,30 +8528,30 @@
           ],
           [
             "1.225369760",
-            "0.254463616"
+            "0.254463617"
           ],
           [
-            "0.740451932",
-            "0.745536384"
+            "0.740451933",
+            "0.745536383"
           ],
           [
             "0.645944934",
-            "0.254463616"
+            "0.254463617"
           ],
           [
             "1.420575174",
-            "0.258197921"
+            "0.258197920"
           ],
           [
             "1.420575174",
-            "0.578111157"
+            "0.578111158"
           ],
           [
-            "1.515082172",
-            "0.741802079"
+            "1.515082173",
+            "0.741802080"
           ],
           [
-            "0.450739519",
+            "0.450739518",
             "0.578111157"
           ],
           [
@@ -8559,43 +8559,43 @@
             "0.741802079"
           ],
           [
-            "1.521273591",
+            "1.521273589",
             "0.418154539"
           ],
           [
-            "0.277317418",
-            "0.653284727"
+            "0.277317417",
+            "0.653284728"
           ],
           [
-            "1.231561178",
+            "1.231561176",
             "0.905493002"
           ],
           [
-            "1.615780589",
-            "0.254463616"
+            "1.615780588",
+            "0.254463617"
           ],
           [
             "1.710287587",
-            "0.745536384"
+            "0.745536383"
           ],
           [
             "0.356232521",
             "0.094506998"
           ],
           [
-            "1.030164345",
+            "1.030164346",
             "0.905493002"
           ],
           [
-            "1.615780589",
+            "1.615780588",
             "0.581845461"
           ],
           [
-            "1.124671343",
+            "1.124671345",
             "0.094506998"
           ],
           [
-            "0.300073415",
+            "0.300073417",
             "0.443280956"
           ],
           [
@@ -8603,24 +8603,24 @@
             "0.418154539"
           ],
           [
-            "0.841150349",
+            "0.841150348",
             "0.905493002"
           ],
           [
-            "0.545246517",
+            "0.545246519",
             "0.094506998"
           ],
           [
-            "1.326068176",
+            "1.326068175",
             "0.094506998"
           ],
           [
-            "1.810986004",
+            "1.810986003",
             "0.905493002"
           ],
           [
             "0.094506998",
-            "0.716479006"
+            "0.716479005"
           ],
           [
             "1.905493002",
@@ -8631,27 +8631,27 @@
             "0.094506998"
           ],
           [
-            "1.609589171",
+            "1.609589172",
             "0.905493002"
           ],
           [
-            "0.639753515",
+            "0.639753517",
             "0.905493002"
           ],
           [
             "1.905493002",
-            "0.741802079"
+            "0.741802080"
           ],
           [
             "0.094506998",
             "0.905493002"
           ],
           [
-            "0.746643350",
+            "0.746643349",
             "0.094506998"
           ],
           [
-            "1.515082172",
+            "1.515082173",
             "0.094506998"
           ],
           [
@@ -8659,11 +8659,11 @@
             "0.346312935"
           ],
           [
-            "1.804794585",
+            "1.804794586",
             "0.581845461"
           ],
           [
-            "0.450739519",
+            "0.450739520",
             "0.905493002"
           ],
           [
@@ -8675,39 +8675,39 @@
             "0.531395970"
           ],
           [
-            "1.716479006",
+            "1.716479004",
             "0.094506998"
           ],
           [
             "1.905493002",
-            "0.421888843"
+            "0.421888842"
           ],
           [
-            "0.551437936",
+            "0.551437935",
             "0.418154539"
           ],
           [
-            "1.810986004",
-            "0.258197921"
+            "1.810986003",
+            "0.258197920"
           ],
           [
             "0.261725523",
             "0.258197921"
           ],
           [
-            "0.841150349",
-            "0.258197921"
+            "0.841150348",
+            "0.258197920"
           ],
           [
             "0.272623259",
-            "0.842240425"
+            "0.842240426"
           ],
           [
-            "1.030164345",
-            "0.258197921"
+            "1.030164346",
+            "0.258197920"
           ],
           [
-            "0.740451932",
+            "0.740451933",
             "0.418154539"
           ],
           [
@@ -8715,11 +8715,11 @@
             "0.905493002"
           ],
           [
-            "0.450739519",
-            "0.258197921"
+            "0.450739520",
+            "0.258197920"
           ]
         ],
-        "radius": "0.094506997"
+        "radius": "0.094506998"
       }
     },
     {
@@ -8747,7 +8747,7 @@
         "source": "Packomania's crc table, compiled by Eckard Specht, keeps the best known packings of equal circles in a 1 × 0.5 rectangle; this problem's 2 × 1 rectangle is that one doubled, so the radius is twice the table's. The table cites Eckard Specht (1999–2010) for this row. It does not mark this row proved",
         "url": "https://www.packomania.com/crc_500/crc.html"
       },
-      "holder": "condor",
+      "holder": "Joost de Winter",
       "method": "ai",
       "recordedAt": "2026-10-27T05:33:38.978Z",
       "answer": {
@@ -9291,7 +9291,7 @@
         "source": "Packomania's crc table, compiled by Eckard Specht, keeps the best known packings of equal circles in a 1 × 0.5 rectangle; this problem's 2 × 1 rectangle is that one doubled, so the radius is twice the table's. The table cites Eckard Specht (1999–2010) for this row. It does not mark this row proved",
         "url": "https://www.packomania.com/crc_500/crc.html"
       },
-      "holder": "condor",
+      "holder": "Joost de Winter",
       "method": "ai",
       "recordedAt": "2026-10-27T06:55:07.252Z",
       "answer": {
@@ -11019,7 +11019,7 @@
         "source": "Packomania's crc table, compiled by Eckard Specht, keeps the best known packings of equal circles in a 1 × 0.5 rectangle; this problem's 2 × 1 rectangle is that one doubled, so the radius is twice the table's. The table cites Eckard Specht (2010-08-10) for this row. It does not mark this row proved",
         "url": "https://www.packomania.com/crc_500/crc.html"
       },
-      "holder": "condor",
+      "holder": "Joost de Winter",
       "method": "ai",
       "recordedAt": "2026-11-09T23:25:03.943Z",
       "answer": {
@@ -11321,7 +11321,7 @@
         "source": "Packomania's crc table, compiled by Eckard Specht, keeps the best known packings of equal circles in a 1 × 0.5 rectangle; this problem's 2 × 1 rectangle is that one doubled, so the radius is twice the table's. The table cites Eckard Specht (2010-08-10) for this row. It does not mark this row proved",
         "url": "https://www.packomania.com/crc_500/crc.html"
       },
-      "holder": "condor",
+      "holder": "Joost de Winter",
       "method": "ai",
       "recordedAt": "2026-11-09T22:52:01.110Z",
       "answer": {
@@ -11627,7 +11627,7 @@
         "source": "Packomania's crc table, compiled by Eckard Specht, keeps the best known packings of equal circles in a 1 × 0.5 rectangle; this problem's 2 × 1 rectangle is that one doubled, so the radius is twice the table's. The table cites Eckard Specht (2010-08-10) for this row. It does not mark this row proved",
         "url": "https://www.packomania.com/crc_500/crc.html"
       },
-      "holder": "condor",
+      "holder": "Joost de Winter",
       "method": "ai",
       "recordedAt": "2026-10-28T10:46:20.879Z",
       "answer": {
@@ -11937,7 +11937,7 @@
         "source": "Packomania's crc table, compiled by Eckard Specht, keeps the best known packings of equal circles in a 1 × 0.5 rectangle; this problem's 2 × 1 rectangle is that one doubled, so the radius is twice the table's. The table cites Eckard Specht (2010-08-10) for this row. It does not mark this row proved",
         "url": "https://www.packomania.com/crc_500/crc.html"
       },
-      "holder": "condor",
+      "holder": "Joost de Winter",
       "method": "ai",
       "recordedAt": "2026-10-28T10:25:24.808Z",
       "answer": {
@@ -12251,7 +12251,7 @@
         "source": "Packomania's crc table, compiled by Eckard Specht, keeps the best known packings of equal circles in a 1 × 0.5 rectangle; this problem's 2 × 1 rectangle is that one doubled, so the radius is twice the table's. The table cites Eckard Specht (2011-03-19) for this row. It does not mark this row proved",
         "url": "https://www.packomania.com/crc_500/crc.html"
       },
-      "holder": "condor",
+      "holder": "Joost de Winter",
       "method": "ai",
       "recordedAt": "2026-11-10T22:40:42.539Z",
       "answer": {
@@ -12891,7 +12891,7 @@
         "source": "Packomania's crc table, compiled by Eckard Specht, keeps the best known packings of equal circles in a 1 × 0.5 rectangle; this problem's 2 × 1 rectangle is that one doubled, so the radius is twice the table's. The table cites Eckard Specht (1999–2010) for this row. It does not mark this row proved",
         "url": "https://www.packomania.com/crc_500/crc.html"
       },
-      "holder": "condor",
+      "holder": "Joost de Winter",
       "method": "ai",
       "recordedAt": "2026-10-27T04:59:23.113Z",
       "answer": {
@@ -13217,7 +13217,7 @@
         "source": "Packomania's crc table, compiled by Eckard Specht, keeps the best known packings of equal circles in a 1 × 0.5 rectangle; this problem's 2 × 1 rectangle is that one doubled, so the radius is twice the table's. The table cites Eckard Specht (1999–2010) for this row. It does not mark this row proved",
         "url": "https://www.packomania.com/crc_500/crc.html"
       },
-      "holder": "condor",
+      "holder": "Joost de Winter",
       "method": "ai",
       "recordedAt": "2026-11-09T23:01:21.308Z",
       "answer": {
@@ -13881,7 +13881,7 @@
         "source": "Packomania's crc table, compiled by Eckard Specht, keeps the best known packings of equal circles in a 1 × 0.5 rectangle; this problem's 2 × 1 rectangle is that one doubled, so the radius is twice the table's. The table cites Eckard Specht (1999–2010) for this row. It does not mark this row proved",
         "url": "https://www.packomania.com/crc_500/crc.html"
       },
-      "holder": "condor",
+      "holder": "Joost de Winter",
       "method": "ai",
       "recordedAt": "2026-11-09T23:19:10.186Z",
       "answer": {
@@ -17067,7 +17067,7 @@
         "source": "Packomania's crc table, compiled by Eckard Specht, keeps the best known packings of equal circles in a 1 × 0.5 rectangle; this problem's 2 × 1 rectangle is that one doubled, so the radius is twice the table's. The table cites Eckard Specht (2010-08-04) for this row. It does not mark this row proved",
         "url": "https://www.packomania.com/crc_500/crc.html"
       },
-      "holder": "condor",
+      "holder": "Joost de Winter",
       "method": "ai",
       "recordedAt": "2026-11-09T23:26:10.764Z",
       "answer": {
@@ -17441,7 +17441,7 @@
         "source": "Packomania's crc table, compiled by Eckard Specht, keeps the best known packings of equal circles in a 1 × 0.5 rectangle; this problem's 2 × 1 rectangle is that one doubled, so the radius is twice the table's. The table cites Eckard Specht (2010-08-04) for this row. It does not mark this row proved",
         "url": "https://www.packomania.com/crc_500/crc.html"
       },
-      "holder": "condor",
+      "holder": "Joost de Winter",
       "method": "ai",
       "recordedAt": "2026-11-09T22:54:30.577Z",
       "answer": {
@@ -20171,7 +20171,7 @@
         "source": "Packomania's crc table, compiled by Eckard Specht, keeps the best known packings of equal circles in a 1 × 0.5 rectangle; this problem's 2 × 1 rectangle is that one doubled, so the radius is twice the table's. The table cites Eckard Specht (2010-08-10) for this row. It does not mark this row proved",
         "url": "https://www.packomania.com/crc_500/crc.html"
       },
-      "holder": "condor",
+      "holder": "Joost de Winter",
       "method": "ai",
       "recordedAt": "2026-10-27T04:59:43.226Z",
       "answer": {
@@ -20969,8 +20969,8 @@
         "n": 95
       },
       "objective": "maximize",
-      "scoreStored": "74082757",
-      "scoreDisplay": "0.074082757",
+      "scoreStored": "74082758",
+      "scoreDisplay": "0.074082758",
       "status": "ahead",
       "settled": false,
       "recordStatus": "ahead",
@@ -20987,393 +20987,393 @@
         "source": "Packomania's crc table, compiled by Eckard Specht, keeps the best known packings of equal circles in a 1 × 0.5 rectangle; this problem's 2 × 1 rectangle is that one doubled, so the radius is twice the table's. The table cites Eckard Specht (2010-08-04) for this row. It does not mark this row proved",
         "url": "https://www.packomania.com/crc_500/crc.html"
       },
-      "holder": "condor",
+      "holder": "邱仲普",
       "method": "ai",
-      "recordedAt": "2026-11-09T22:51:35.576Z",
+      "recordedAt": "2026-11-13T10:53:42.838Z",
       "answer": {
         "centers": [
           [
-            "0.074082759",
-            "0.074082759"
+            "0.074082758",
+            "0.074082758"
           ],
           [
-            "0.222248277",
-            "0.074082759"
+            "0.222248279",
+            "0.074082758"
           ],
           [
-            "0.370413796",
-            "0.074082759"
+            "0.370413798",
+            "0.074082758"
           ],
           [
-            "0.518579314",
-            "0.074082759"
+            "0.518579316",
+            "0.074082758"
           ],
           [
-            "0.765465715",
-            "0.074082759"
+            "0.765465717",
+            "0.074082758"
           ],
           [
-            "0.913631233",
-            "0.074082759"
+            "0.913631235",
+            "0.074082758"
           ],
           [
-            "1.061796752",
-            "0.074082759"
+            "1.061796754",
+            "0.074082758"
           ],
           [
-            "1.209962270",
-            "0.074082759"
+            "1.209962272",
+            "0.074082758"
           ],
           [
-            "1.358127788",
-            "0.074082759"
+            "1.358127790",
+            "0.074082758"
           ],
           [
-            "1.506293307",
-            "0.074082759"
+            "1.506293309",
+            "0.074082758"
           ],
           [
-            "1.654458825",
-            "0.074082759"
+            "1.654458827",
+            "0.074082758"
           ],
           [
-            "1.925917241",
-            "0.074082759"
+            "1.925917242",
+            "0.074082758"
           ],
           [
-            "1.790188033",
-            "0.133501636"
+            "1.790188035",
+            "0.133501638"
           ],
           [
-            "0.642022515",
-            "0.156026624"
+            "0.642022517",
+            "0.156026626"
           ],
           [
-            "1.432210547",
-            "0.202397862"
+            "1.432210549",
+            "0.202397864"
           ],
           [
-            "0.148165518",
-            "0.202397862"
+            "0.148165520",
+            "0.202397864"
           ],
           [
-            "0.296331037",
-            "0.202397862"
+            "0.296331039",
+            "0.202397864"
           ],
           [
-            "0.444496555",
-            "0.202397862"
+            "0.444496557",
+            "0.202397864"
           ],
           [
-            "0.839548474",
-            "0.202397862"
+            "0.839548476",
+            "0.202397864"
           ],
           [
-            "0.987713993",
-            "0.202397862"
+            "0.987713995",
+            "0.202397864"
           ],
           [
-            "1.135879511",
-            "0.202397862"
+            "1.135879513",
+            "0.202397864"
           ],
           [
-            "1.284045029",
-            "0.202397862"
+            "1.284045031",
+            "0.202397864"
           ],
           [
-            "1.580555828",
-            "0.202501648"
+            "1.580555826",
+            "0.202501646"
           ],
           [
-            "1.909510893",
-            "0.221337140"
+            "1.909510895",
+            "0.221337142"
           ],
           [
-            "1.716892060",
-            "0.262268110"
+            "1.716892058",
+            "0.262268108"
           ],
           [
-            "0.567939755",
-            "0.284341727"
+            "0.567939757",
+            "0.284341729"
           ],
           [
-            "0.716105274",
-            "0.284341727"
+            "0.716105276",
+            "0.284341729"
           ],
           [
-            "0.074082759",
-            "0.330712965"
+            "0.074082758",
+            "0.330712967"
           ],
           [
-            "0.222248277",
-            "0.330712965"
+            "0.222248279",
+            "0.330712967"
           ],
           [
-            "0.370413796",
-            "0.330712965"
+            "0.370413798",
+            "0.330712967"
           ],
           [
-            "0.913631233",
-            "0.330712965"
+            "0.913631235",
+            "0.330712967"
           ],
           [
-            "1.061796752",
-            "0.330712965"
+            "1.061796754",
+            "0.330712967"
           ],
           [
-            "1.209962270",
-            "0.330712965"
+            "1.209962272",
+            "0.330712967"
           ],
           [
-            "1.358127788",
-            "0.330712965"
+            "1.358127790",
+            "0.330712967"
           ],
           [
-            "1.506293307",
-            "0.330712965"
+            "1.506293309",
+            "0.330712967"
           ],
           [
-            "1.925917241",
-            "0.368591520"
+            "1.925917242",
+            "0.368591522"
           ],
           [
-            "1.783620338",
-            "0.409878471"
+            "1.783620340",
+            "0.409878469"
           ],
           [
-            "1.635613305",
-            "0.403027270"
+            "1.635613307",
+            "0.403027272"
           ],
           [
-            "0.493856996",
-            "0.412656830"
+            "0.493856998",
+            "0.412656832"
           ],
           [
-            "0.642022515",
-            "0.412656830"
+            "0.642022517",
+            "0.412656832"
           ],
           [
-            "0.790188033",
-            "0.412656830"
+            "0.790188035",
+            "0.412656832"
           ],
           [
-            "0.148165518",
-            "0.459028067"
+            "0.148165520",
+            "0.459028069"
           ],
           [
-            "0.296331037",
-            "0.459028067"
+            "0.296331039",
+            "0.459028069"
           ],
           [
-            "0.987713993",
-            "0.459028067"
+            "0.987713995",
+            "0.459028069"
           ],
           [
-            "1.135879511",
-            "0.459028067"
+            "1.135879513",
+            "0.459028069"
           ],
           [
-            "1.284045029",
-            "0.459028067"
+            "1.284045031",
+            "0.459028069"
           ],
           [
-            "1.432210547",
-            "0.459028067"
+            "1.432210549",
+            "0.459028069"
           ],
           [
-            "1.890524338",
-            "0.512467728"
+            "1.890524340",
+            "0.512467730"
           ],
           [
-            "1.703683508",
-            "0.534630721"
+            "1.703683510",
+            "0.534630723"
           ],
           [
-            "1.555653748",
-            "0.540971933"
+            "1.555653750",
+            "0.540971935"
           ],
           [
-            "0.419774237",
-            "0.540971933"
+            "0.419774239",
+            "0.540971935"
           ],
           [
-            "0.567939755",
-            "0.540971933"
+            "0.567939757",
+            "0.540971935"
           ],
           [
-            "0.716105274",
-            "0.540971933"
+            "0.716105276",
+            "0.540971935"
           ],
           [
-            "0.864270792",
-            "0.540971933"
+            "0.864270794",
+            "0.540971935"
           ],
           [
-            "0.074082759",
-            "0.587343170"
+            "0.074082758",
+            "0.587343172"
           ],
           [
-            "0.222248277",
-            "0.587343170"
+            "0.222248279",
+            "0.587343172"
           ],
           [
-            "1.061796752",
-            "0.587343170"
+            "1.061796754",
+            "0.587343172"
           ],
           [
-            "1.358127788",
-            "0.587343170"
+            "1.358127790",
+            "0.587343172"
           ],
           [
-            "1.209962270",
-            "0.587343170"
+            "1.209962272",
+            "0.587343172"
           ],
           [
-            "1.925917241",
-            "0.656343936"
+            "1.925917242",
+            "0.656343938"
           ],
           [
-            "1.777766267",
-            "0.662945824"
+            "1.777766269",
+            "0.662945826"
           ],
           [
-            "1.629736507",
-            "0.669287035"
+            "1.629736509",
+            "0.669287037"
           ],
           [
-            "1.481570989",
-            "0.669287035"
+            "1.481570991",
+            "0.669287037"
           ],
           [
-            "0.345691478",
-            "0.669287035"
+            "0.345691480",
+            "0.669287037"
           ],
           [
-            "0.493856996",
-            "0.669287035"
+            "0.493856998",
+            "0.669287037"
           ],
           [
-            "0.642022515",
-            "0.669287035"
+            "0.642022517",
+            "0.669287037"
           ],
           [
-            "0.790188033",
-            "0.669287035"
+            "0.790188035",
+            "0.669287037"
           ],
           [
-            "0.938353551",
-            "0.669287035"
+            "0.938353553",
+            "0.669287037"
           ],
           [
-            "1.135879511",
-            "0.715658273"
+            "1.135879513",
+            "0.715658275"
           ],
           [
-            "0.148165518",
-            "0.715658273"
+            "0.148165520",
+            "0.715658275"
           ],
           [
-            "1.284045029",
-            "0.715658273"
+            "1.284045031",
+            "0.715658275"
           ],
           [
-            "1.857552346",
-            "0.787794542"
+            "1.857552348",
+            "0.787794544"
           ],
           [
-            "1.704087323",
-            "0.797447376"
+            "1.704087321",
+            "0.797447374"
           ],
           [
-            "1.555653748",
-            "0.797602138"
+            "1.555653750",
+            "0.797602140"
           ],
           [
-            "1.407488230",
-            "0.797602138"
+            "1.407488232",
+            "0.797602140"
           ],
           [
-            "0.271608719",
-            "0.797602138"
+            "0.271608721",
+            "0.797602140"
           ],
           [
-            "0.419774237",
-            "0.797602138"
+            "0.419774239",
+            "0.797602140"
           ],
           [
-            "0.567939755",
-            "0.797602138"
+            "0.567939757",
+            "0.797602140"
           ],
           [
-            "0.716105274",
-            "0.797602138"
+            "0.716105276",
+            "0.797602140"
           ],
           [
-            "0.864270792",
-            "0.797602138"
+            "0.864270794",
+            "0.797602140"
           ],
           [
-            "1.012436310",
-            "0.797602138"
+            "1.012436312",
+            "0.797602140"
           ],
           [
-            "0.074082759",
-            "0.843973376"
+            "0.074082758",
+            "0.843973378"
           ],
           [
-            "1.209962270",
-            "0.843973376"
+            "1.209962272",
+            "0.843973378"
           ],
           [
-            "1.925917241",
-            "0.919245149"
+            "1.925917242",
+            "0.919245151"
           ],
           [
-            "0.197525960",
-            "0.925917241"
+            "0.197525958",
+            "0.925917242"
           ],
           [
-            "0.345691478",
-            "0.925917241"
+            "0.345691480",
+            "0.925917242"
           ],
           [
-            "0.493856996",
-            "0.925917241"
+            "0.493856998",
+            "0.925917242"
           ],
           [
-            "0.642022515",
-            "0.925917241"
+            "0.642022517",
+            "0.925917242"
           ],
           [
-            "0.790188033",
-            "0.925917241"
+            "0.790188035",
+            "0.925917242"
           ],
           [
-            "0.938353551",
-            "0.925917241"
+            "0.938353553",
+            "0.925917242"
           ],
           [
-            "1.086519069",
-            "0.925917241"
+            "1.086519071",
+            "0.925917242"
           ],
           [
-            "1.333405471",
-            "0.925917241"
+            "1.333405473",
+            "0.925917242"
           ],
           [
-            "1.481570989",
-            "0.925917241"
+            "1.481570991",
+            "0.925917242"
           ],
           [
-            "1.629736507",
-            "0.925917241"
+            "1.629736509",
+            "0.925917242"
           ],
           [
-            "1.777902025",
-            "0.925917241"
+            "1.777902027",
+            "0.925917242"
           ]
         ],
-        "radius": "0.074082757"
+        "radius": "0.074082758"
       }
     },
     {
@@ -21401,7 +21401,7 @@
         "source": "Packomania's crc table, compiled by Eckard Specht, keeps the best known packings of equal circles in a 1 × 0.5 rectangle; this problem's 2 × 1 rectangle is that one doubled, so the radius is twice the table's. The table cites Eckard Specht (1999–2010) for this row. It does not mark this row proved",
         "url": "https://www.packomania.com/crc_500/crc.html"
       },
-      "holder": "condor",
+      "holder": "Joost de Winter",
       "method": "ai",
       "recordedAt": "2026-10-27T05:36:21.383Z",
       "answer": {
@@ -22241,7 +22241,7 @@
         "source": "Packomania's crc table, compiled by Eckard Specht, keeps the best known packings of equal circles in a 1 × 0.5 rectangle; this problem's 2 × 1 rectangle is that one doubled, so the radius is twice the table's. The table cites Eckard Specht (2010-08-10) for this row. It does not mark this row proved",
         "url": "https://www.packomania.com/crc_500/crc.html"
       },
-      "holder": "condor",
+      "holder": "Joost de Winter",
       "method": "ai",
       "recordedAt": "2026-10-27T05:34:20.040Z",
       "answer": {
@@ -22667,7 +22667,7 @@
         "source": "Packomania's crc table, compiled by Eckard Specht, keeps the best known packings of equal circles in a 1 × 0.5 rectangle; this problem's 2 × 1 rectangle is that one doubled, so the radius is twice the table's. The table cites Eckard Specht (2010-08-02) for this row. It does not mark this row proved",
         "url": "https://www.packomania.com/crc_500/crc.html"
       },
-      "holder": "condor",
+      "holder": "Joost de Winter",
       "method": "ai",
       "recordedAt": "2026-10-27T06:56:01.782Z",
       "answer": {
