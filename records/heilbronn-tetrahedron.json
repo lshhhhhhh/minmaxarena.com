@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/heilbronn-tetrahedron",
-  "generatedAt": "2026-11-13T13:14:42.060Z",
+  "generatedAt": "2026-11-14T12:19:02.265Z",
   "instances": [
     {
       "instanceId": "p72-n5-v1",
@@ -240,15 +240,15 @@
         "n": 9
       },
       "objective": "maximize",
-      "scoreStored": "134315497447635672000000000",
-      "scoreDisplay": "134315497447635672000000000 / (6·10²⁷)",
+      "scoreStored": "134315497661657605419491766",
+      "scoreDisplay": "134315497661657605419491766 / (6·10²⁷)",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
       "knownBest": null,
-      "holder": "Joost de Winter",
+      "holder": "邱仲普",
       "method": "ai",
-      "recordedAt": "2026-11-01T12:22:10.519Z",
+      "recordedAt": "2026-11-13T15:25:43.487Z",
       "answer": {
         "points": [
           [
@@ -257,9 +257,9 @@
             "1.000000000"
           ],
           [
+            "0.999999999",
             "1.000000000",
-            "1.000000000",
-            "0.000000000"
+            "0.000000001"
           ],
           [
             "1.000000000",
@@ -268,7 +268,7 @@
           ],
           [
             "0.000000000",
-            "0.837947242",
+            "0.837947241",
             "0.081018416"
           ],
           [
@@ -277,12 +277,12 @@
             "1.000000000"
           ],
           [
-            "0.060657774",
-            "0.012398442",
+            "0.060657773",
+            "0.012398441",
             "0.448334872"
           ],
           [
-            "0.700301589",
+            "0.700301588",
             "0.000000000",
             "0.000000000"
           ],
