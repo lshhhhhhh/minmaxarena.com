@@ -37,7 +37,7 @@ managed.
 
 ## The records
 
-73 problem families, 2905 sub-problems, 2716 still open.
+74 problem families, 2917 sub-problems, 2719 still open.
 `records/` holds today's snapshot of each family; the live files are at
 `https://minmaxarena.com/data/{slug}.json`, and the citable ones are the monthly frozen
 editions at `https://minmaxarena.com/data/editions/{YYYY-MM}/{slug}.json`, which never change
@@ -107,7 +107,7 @@ once published. Data is CC BY 4.0; see
 | [P82](https://minmaxarena.com/en/problems/circles-in-regular-polygons) | Equal circles in regular polygons | 248 | 241 | [json](records/circles-in-regular-polygons.json) |
 | [P83](https://minmaxarena.com/en/problems/triangles-in-square) | Equilateral triangles in a square | 38 | 38 | [json](records/triangles-in-square.json) |
 | [P84](https://minmaxarena.com/en/problems/triangles-in-disc) | Equilateral triangles in a disc | 35 | 35 | [json](records/triangles-in-disc.json) |
-| [P85](https://minmaxarena.com/en/problems/squares-in-triangle) | Squares in an equilateral triangle | 38 | 38 | [json](records/squares-in-triangle.json) |
+| [P85](https://minmaxarena.com/en/problems/squares-in-triangle) | Squares in an equilateral triangle | 38 | 29 | [json](records/squares-in-triangle.json) |
 | [P86](https://minmaxarena.com/en/problems/pentagons-in-square) | Regular pentagons in a square | 28 | 28 | [json](records/pentagons-in-square.json) |
 | [P87](https://minmaxarena.com/en/problems/circles-cover-disc) | Equal discs covering a disc | 90 | 80 | [json](records/circles-cover-disc.json) |
 | [P88](https://minmaxarena.com/en/problems/moving-sofa-zigzag) | The sofa in winding hallways | 10 | 10 | [json](records/moving-sofa-zigzag.json) |
@@ -120,6 +120,7 @@ once published. Data is CC BY 4.0; see
 | [P95](https://minmaxarena.com/en/problems/consecutive-dominoes-in-square) | Consecutive dominoes in a square | 41 | 34 | [json](records/consecutive-dominoes-in-square.json) |
 | [P96](https://minmaxarena.com/en/problems/consecutive-ells-in-square) | Consecutive L shapes in a square | 50 | 48 | [json](records/consecutive-ells-in-square.json) |
 | [P97](https://minmaxarena.com/en/problems/consecutive-rectangles-in-rectangle) | Consecutive rectangles in similar rectangles | 50 | 49 | [json](records/consecutive-rectangles-in-rectangle.json) |
+| [P98](https://minmaxarena.com/en/problems/shortest-parking-route) | Shortest parking route | 12 | 12 | [json](records/shortest-parking-route.json) |
 <!-- records:end -->
 
 ## Problems the catalogue no longer offers

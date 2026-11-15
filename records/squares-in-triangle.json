@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/squares-in-triangle",
-  "generatedAt": "2026-11-13T13:14:44.287Z",
+  "generatedAt": "2026-11-15T12:50:57.084Z",
   "instances": [
     {
       "instanceId": "p85-n3-v1",
@@ -22,21 +22,16 @@
       "objective": "minimize",
       "scoreStored": "3232050814694781137",
       "scoreDisplay": "3.232050815",
-      "status": "matched",
-      "settled": false,
-      "recordStatus": "matched",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "open",
       "knownBest": {
-        "display": "3.232",
-        "kind": "best",
-        "range": {
-          "lower": "3.232",
-          "upper": "3.233",
-          "upperInclusive": false
-        },
-        "truncated": true,
-        "certificateDisplay": "3.23205083",
-        "source": "Compiled by Erich Friedman; Found by Erich Friedman in 1997. Source expression: s = 3 / 2 + √3 = 3.232+.",
-        "url": "https://erich-friedman.github.io/packing/squintri/"
+        "display": "3.232050808",
+        "kind": "proven",
+        "exact": "3/2+√3",
+        "proofScope": "continuous",
+        "source": "Hiroaki Hosono's computer-assisted proof: with arbitrary rotations, the least equilateral-triangle side is 3/2+√3. MinMax Arena reviewed the argument, replayed the author's Python checkers, and independently checked the upper-bound constructions with exact arithmetic. This is a real-coordinate optimum, not a claim of attainment in the nine-decimal format.",
+        "url": "https://minmaxarena.com/proofs/squares-in-triangle-optimality"
       },
       "holder": "Joost de Winter",
       "method": "ai",
@@ -72,21 +67,16 @@
       "objective": "minimize",
       "scoreStored": "4154700558434624460",
       "scoreDisplay": "4.154700559",
-      "status": "matched",
-      "settled": false,
-      "recordStatus": "matched",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "open",
       "knownBest": {
-        "display": "4.154",
-        "kind": "best",
-        "range": {
-          "lower": "4.154",
-          "upper": "4.155",
-          "upperInclusive": false
-        },
-        "truncated": true,
-        "certificateDisplay": "4.154700559",
-        "source": "Compiled by Erich Friedman; Found by Erich Friedman in 1997. Source expression: s = 3 + 2 / √3 = 4.154+.",
-        "url": "https://erich-friedman.github.io/packing/squintri/"
+        "display": "4.154700539",
+        "kind": "proven",
+        "exact": "3+2/√3",
+        "proofScope": "continuous",
+        "source": "Hiroaki Hosono's computer-assisted proof: with arbitrary rotations, the least equilateral-triangle side is 3+2/√3. MinMax Arena reviewed the argument, replayed the author's Python checkers, and independently checked the upper-bound constructions with exact arithmetic. This is a real-coordinate optimum, not a claim of attainment in the nine-decimal format.",
+        "url": "https://minmaxarena.com/proofs/squares-in-triangle-optimality"
       },
       "holder": null,
       "method": "human",
@@ -187,21 +177,16 @@
       "objective": "minimize",
       "scoreStored": "4309401092825526190",
       "scoreDisplay": "4.309401093",
-      "status": "matched",
-      "settled": false,
-      "recordStatus": "matched",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "open",
       "knownBest": {
-        "display": "4.309",
-        "kind": "best",
-        "range": {
-          "lower": "4.309",
-          "upper": "4.31",
-          "upperInclusive": false
-        },
-        "truncated": true,
-        "certificateDisplay": "4.30940112",
-        "source": "Compiled by Erich Friedman; Found by Erich Friedman in 1997. Source expression: s = 2 + 4 / √3 = 4.309+.",
-        "url": "https://erich-friedman.github.io/packing/squintri/"
+        "display": "4.309401077",
+        "kind": "proven",
+        "exact": "2+4/√3",
+        "proofScope": "continuous",
+        "source": "Hiroaki Hosono's computer-assisted proof: with arbitrary rotations, the least equilateral-triangle side is 2+4/√3. MinMax Arena reviewed the argument, replayed the author's Python checkers, and independently checked the upper-bound constructions with exact arithmetic. This is a real-coordinate optimum, not a claim of attainment in the nine-decimal format.",
+        "url": "https://minmaxarena.com/proofs/squares-in-triangle-optimality"
       },
       "holder": "NUE_13",
       "method": "ai",
@@ -252,21 +237,16 @@
       "objective": "minimize",
       "scoreStored": "5154700558410679158",
       "scoreDisplay": "5.154700559",
-      "status": "matched",
-      "settled": false,
-      "recordStatus": "matched",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "open",
       "knownBest": {
-        "display": "5.154",
-        "kind": "best",
-        "range": {
-          "lower": "5.154",
-          "upper": "5.155",
-          "upperInclusive": false
-        },
-        "truncated": true,
-        "certificateDisplay": "5.154700559",
-        "source": "Compiled by Erich Friedman; Found by Erich Friedman in 1997. Source expression: s = 4 + 2 / √3 = 5.154+.",
-        "url": "https://erich-friedman.github.io/packing/squintri/"
+        "display": "5.154700539",
+        "kind": "proven",
+        "exact": "4+2/√3",
+        "proofScope": "continuous",
+        "source": "Hiroaki Hosono's computer-assisted proof: with arbitrary rotations, the least equilateral-triangle side is 4+2/√3. MinMax Arena reviewed the argument, replayed the author's Python checkers, and independently checked the upper-bound constructions with exact arithmetic. This is a real-coordinate optimum, not a claim of attainment in the nine-decimal format.",
+        "url": "https://minmaxarena.com/proofs/squares-in-triangle-optimality"
       },
       "holder": null,
       "method": "human",
@@ -562,21 +542,16 @@
       "objective": "minimize",
       "scoreStored": "6154700541408673797",
       "scoreDisplay": "6.154700542",
-      "status": "matched",
-      "settled": false,
-      "recordStatus": "matched",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "open",
       "knownBest": {
-        "display": "6.154",
-        "kind": "best",
-        "range": {
-          "lower": "6.154",
-          "upper": "6.155",
-          "upperInclusive": false
-        },
-        "truncated": true,
-        "certificateDisplay": "6.154700595",
-        "source": "Compiled by Erich Friedman; Found by Erich Friedman in 1997. Source expression: s = 5 + 2 / √3 = 6.154+.",
-        "url": "https://erich-friedman.github.io/packing/squintri/"
+        "display": "6.154700539",
+        "kind": "proven",
+        "exact": "5+2/√3",
+        "proofScope": "continuous",
+        "source": "Hiroaki Hosono's computer-assisted proof: with arbitrary rotations, the least equilateral-triangle side is 5+2/√3. MinMax Arena reviewed the argument, replayed the author's Python checkers, and independently checked the upper-bound constructions with exact arithmetic. This is a real-coordinate optimum, not a claim of attainment in the nine-decimal format.",
+        "url": "https://minmaxarena.com/proofs/squares-in-triangle-optimality"
       },
       "holder": "Joost de Winter",
       "method": "ai",
@@ -1062,21 +1037,16 @@
       "objective": "minimize",
       "scoreStored": "7154700609780325523",
       "scoreDisplay": "7.15470061",
-      "status": "matched",
-      "settled": false,
-      "recordStatus": "matched",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "open",
       "knownBest": {
-        "display": "7.154",
-        "kind": "best",
-        "range": {
-          "lower": "7.154",
-          "upper": "7.155",
-          "upperInclusive": false
-        },
-        "truncated": true,
-        "certificateDisplay": "7.15470061",
-        "source": "Compiled by Erich Friedman; Found by Erich Friedman in 1997. Source expression: s = 6 + 2 / √3 = 7.154+.",
-        "url": "https://erich-friedman.github.io/packing/squintri/"
+        "display": "7.154700539",
+        "kind": "proven",
+        "exact": "6+2/√3",
+        "proofScope": "continuous",
+        "source": "Hiroaki Hosono's computer-assisted proof: with arbitrary rotations, the least equilateral-triangle side is 6+2/√3. MinMax Arena reviewed the argument, replayed the author's Python checkers, and independently checked the upper-bound constructions with exact arithmetic. This is a real-coordinate optimum, not a claim of attainment in the nine-decimal format.",
+        "url": "https://minmaxarena.com/proofs/squares-in-triangle-optimality"
       },
       "holder": null,
       "method": "human",
@@ -1827,21 +1797,16 @@
       "objective": "minimize",
       "scoreStored": "8154700545701739901",
       "scoreDisplay": "8.154700546",
-      "status": "matched",
-      "settled": false,
-      "recordStatus": "matched",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "open",
       "knownBest": {
-        "display": "8.15470",
-        "kind": "best",
-        "range": {
-          "lower": "8.1547",
-          "upper": "8.15471",
-          "upperInclusive": false
-        },
-        "truncated": true,
-        "certificateDisplay": "8.15470064",
-        "source": "Compiled by Erich Friedman; Found by Erich Friedman in 1997. Source expression: s = 7 + 2 / √3 = 8.15470+.",
-        "url": "https://erich-friedman.github.io/packing/squintri/"
+        "display": "8.154700539",
+        "kind": "proven",
+        "exact": "7+2/√3",
+        "proofScope": "continuous",
+        "source": "Hiroaki Hosono's computer-assisted proof: with arbitrary rotations, the least equilateral-triangle side is 7+2/√3. MinMax Arena reviewed the argument, replayed the author's Python checkers, and independently checked the upper-bound constructions with exact arithmetic. This is a real-coordinate optimum, not a claim of attainment in the nine-decimal format.",
+        "url": "https://minmaxarena.com/proofs/squares-in-triangle-optimality"
       },
       "holder": "Joost de Winter",
       "method": "ai",
@@ -2946,21 +2911,16 @@
       "objective": "minimize",
       "scoreStored": "9154700660492145365",
       "scoreDisplay": "9.154700661",
-      "status": "matched",
-      "settled": false,
-      "recordStatus": "matched",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "open",
       "knownBest": {
-        "display": "9.154",
-        "kind": "best",
-        "range": {
-          "lower": "9.154",
-          "upper": "9.155",
-          "upperInclusive": false
-        },
-        "truncated": true,
-        "certificateDisplay": "9.154700661",
-        "source": "Compiled by Erich Friedman; Found by Erich Friedman in 1997. Source expression: s = 8 + 2 / √3 = 9.154+.",
-        "url": "https://erich-friedman.github.io/packing/squintri/"
+        "display": "9.154700539",
+        "kind": "proven",
+        "exact": "8+2/√3",
+        "proofScope": "continuous",
+        "source": "Hiroaki Hosono's computer-assisted proof: with arbitrary rotations, the least equilateral-triangle side is 8+2/√3. MinMax Arena reviewed the argument, replayed the author's Python checkers, and independently checked the upper-bound constructions with exact arithmetic. This is a real-coordinate optimum, not a claim of attainment in the nine-decimal format.",
+        "url": "https://minmaxarena.com/proofs/squares-in-triangle-optimality"
       },
       "holder": null,
       "method": "human",
@@ -4526,20 +4486,16 @@
       "objective": "minimize",
       "scoreStored": "10154700680703765341",
       "scoreDisplay": "10.154700681",
-      "status": "open",
-      "settled": false,
+      "status": "proven",
+      "settled": true,
       "recordStatus": "open",
       "knownBest": {
-        "display": "10.15299",
-        "kind": "best",
-        "range": {
-          "lower": "10.15299",
-          "upper": "10.153",
-          "upperInclusive": false
-        },
-        "truncated": true,
-        "source": "Compiled by Erich Friedman; Found by Gianluca Costantino in May 2026. Source expression: s = 10.15299+.",
-        "url": "https://erich-friedman.github.io/packing/squintri/"
+        "display": "10.154700539",
+        "kind": "proven",
+        "exact": "9+2/√3",
+        "proofScope": "continuous",
+        "source": "Hiroaki Hosono's computer-assisted proof: with arbitrary rotations, the least equilateral-triangle side is 9+2/√3. MinMax Arena reviewed the argument, replayed the author's Python checkers, and independently checked the upper-bound constructions with exact arithmetic. This is a real-coordinate optimum, not a claim of attainment in the nine-decimal format. The former citation of 10.15299 has been corrected.",
+        "url": "https://minmaxarena.com/proofs/squares-in-triangle-optimality"
       },
       "holder": "zzzcy",
       "method": "ai",
