@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/unit-circles-in-minimum-area-triangle",
-  "generatedAt": "2026-11-13T13:14:41.701Z",
+  "generatedAt": "2026-11-17T14:40:41.182Z",
   "instances": [
     {
       "instanceId": "p66-n4-v1",
@@ -217,8 +217,8 @@
         "n": 7
       },
       "objective": "minimize",
-      "scoreStored": "62424355317863070065",
-      "scoreDisplay": "31.2121776589315350325",
+      "scoreStored": "62424355311833447502",
+      "scoreDisplay": "31.212177655916723751",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -234,21 +234,21 @@
         "source": "David W. Cantrell configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid. External comparisons use the publication interval of the table value 31.212+, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
-      "holder": "Joost de Winter",
+      "holder": "邱仲普",
       "method": "ai",
-      "recordedAt": "2026-11-02T09:43:19.612Z",
+      "recordedAt": "2026-11-17T14:11:21.645Z",
       "answer": {
         "centers": [
           [
-            "22.176472880",
+            "22.176472881",
             "21.000000001"
           ],
           [
-            "24.176472880",
+            "24.176472881",
             "21.000000001"
           ],
           [
-            "26.176472880",
+            "26.176472881",
             "21.000000001"
           ],
           [
@@ -270,7 +270,7 @@
         ],
         "triangle": [
           [
-            "20.000000003",
+            "20.000000004",
             "20.000000001"
           ],
           [
@@ -291,8 +291,8 @@
         "n": 8
       },
       "objective": "minimize",
-      "scoreStored": "71872845663304945840",
-      "scoreDisplay": "35.93642283165247292",
+      "scoreStored": "71872845659975425848",
+      "scoreDisplay": "35.936422829987712924",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -308,9 +308,9 @@
         "source": "David W. Cantrell configuration listed by Erich Friedman's table; coordinates reconstructed here from the published figure and verified exactly on the nine-decimal grid. External comparisons use the publication interval of the table value 35.936+, not the outward-repaired site certificate. Improving that grid certificate is not by itself a literature breakthrough",
         "url": "https://erich-friedman.github.io/packing/cirinttt/"
       },
-      "holder": "Joost de Winter",
+      "holder": "邱仲普",
       "method": "ai",
-      "recordedAt": "2026-11-02T09:44:15.163Z",
+      "recordedAt": "2026-11-17T14:28:34.379Z",
       "answer": {
         "centers": [
           [
@@ -318,12 +318,12 @@
             "20.999999998"
           ],
           [
-            "26.010372894",
-            "20.999999999"
+            "26.010372893",
+            "20.999999998"
           ],
           [
-            "21.140281462",
-            "20.999999997"
+            "21.140281461",
+            "20.999999998"
           ],
           [
             "22.357804319",
@@ -342,22 +342,22 @@
             "24.173413360"
           ],
           [
-            "21.853489838",
+            "21.853489839",
             "26.417355467"
           ]
         ],
         "triangle": [
           [
-            "20.000000004",
-            "19.999999996"
+            "20.000000003",
+            "19.999999998"
           ],
           [
-            "28.038172296",
-            "20.000000000"
+            "28.038172295",
+            "19.999999998"
           ],
           [
-            "21.177163079",
-            "28.941441291"
+            "21.177163080",
+            "28.941441292"
           ]
         ]
       }
