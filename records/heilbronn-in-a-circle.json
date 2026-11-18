@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/heilbronn-in-a-circle",
-  "generatedAt": "2026-11-13T13:14:39.603Z",
+  "generatedAt": "2026-11-18T14:18:08.076Z",
   "instances": [
     {
       "instanceId": "p22-n5-v2",
@@ -619,8 +619,8 @@
         "n": 14
       },
       "objective": "maximize",
-      "scoreStored": "153431771174697885",
-      "scoreDisplay": "0.0767158855873489425",
+      "scoreStored": "153431771253573582",
+      "scoreDisplay": "0.076715885626786791",
       "status": "ahead",
       "settled": false,
       "recordStatus": "ahead",
@@ -632,30 +632,30 @@
         "source": "Friedman/Cantrell's construction in MathWorld's public SVG; the unit-area-disc table value converts to 0.151714502121802 here. The nine-decimal certificate reconstructed from the figure reaches 0.15171450167826383; optimality open",
         "url": "https://mathworld.wolfram.com/HeilbronnTriangleProblem.html"
       },
-      "holder": "zzzcy",
+      "holder": "邱仲普",
       "method": "ai",
-      "recordedAt": "2026-10-04T02:53:51.999Z",
+      "recordedAt": "2026-11-17T15:03:52.666Z",
       "answer": {
         "points": [
           [
-            "0.471682352",
-            "1.849046796"
+            "0.471682351",
+            "1.849046795"
           ],
           [
             "0.042043210",
-            "1.286912509"
+            "1.286912510"
           ],
           [
-            "0.378326754",
-            "0.216723309"
+            "0.378326751",
+            "0.216723312"
           ],
           [
-            "1.245378746",
-            "0.734002046"
+            "1.245378745",
+            "0.734002047"
           ],
           [
-            "0.848569749",
-            "0.019410367"
+            "0.848569737",
+            "0.019410355"
           ],
           [
             "1.517107135",
@@ -663,35 +663,35 @@
           ],
           [
             "1.274105391",
-            "1.236287696"
+            "1.236287693"
           ],
           [
-            "1.942805397",
-            "1.333343641"
+            "1.942805398",
+            "1.333343636"
           ],
           [
-            "1.611319528",
-            "1.791383873"
+            "1.611319532",
+            "1.791383870"
           ],
           [
-            "0.958344593",
-            "1.961216129"
+            "0.958344581",
+            "1.961216117"
           ],
           [
-            "0.655201396",
-            "1.386250639"
+            "0.655201395",
+            "1.386250638"
           ],
           [
-            "0.015578437",
-            "0.824175700"
+            "0.015578436",
+            "0.824175701"
           ],
           [
-            "1.898653078",
-            "0.561339945"
+            "1.898653079",
+            "0.561339946"
           ],
           [
-            "0.613412915",
-            "0.655578661"
+            "0.613412913",
+            "0.655578662"
           ]
         ]
       }

@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/pentagons-in-square",
-  "generatedAt": "2026-11-13T13:14:44.362Z",
+  "generatedAt": "2026-11-18T14:18:14.507Z",
   "instances": [
     {
       "instanceId": "p86-n3-v1",
@@ -185,8 +185,8 @@
         "sides": 5
       },
       "objective": "minimize",
-      "scoreStored": "3882991556613901164",
-      "scoreDisplay": "3.882991557",
+      "scoreStored": "3882991450265047784",
+      "scoreDisplay": "3.882991451",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -203,43 +203,43 @@
         "source": "Compiled by Erich Friedman; Found by Haowei Lin in July 2026. Source expression: s = 3.88299+.",
         "url": "https://erich-friedman.github.io/packing/peninsqu/"
       },
-      "holder": null,
-      "method": "human",
-      "recordedAt": "2026-11-11T07:26:29.258Z",
+      "holder": "Joost de Winter",
+      "method": "ai",
+      "recordedAt": "2026-11-17T20:12:15.124Z",
       "answer": {
         "placements": [
           {
             "turn": "-0.158384440",
-            "x": "0.208348894",
-            "y": "0.822767845"
+            "x": "0.208348902",
+            "y": "0.822767838"
           },
           {
-            "turn": "-0.157314780",
-            "x": "0.624678084",
-            "y": "0.822499455"
-          },
-          {
-            "turn": "0.158384440",
-            "x": "0.416099666",
-            "y": "0.535565633"
-          },
-          {
-            "turn": "0.324919696",
-            "x": "0.822767845",
-            "y": "0.489898967"
-          },
-          {
-            "turn": "-0.000000000",
-            "x": "0.177232155",
-            "y": "0.208348894"
+            "turn": "-0.157313347",
+            "x": "0.624677612",
+            "y": "0.822499089"
           },
           {
             "turn": "0.158384440",
-            "x": "0.597127129",
-            "y": "0.177232155"
+            "x": "0.416099695",
+            "y": "0.535565629"
+          },
+          {
+            "turn": "-0.324919696",
+            "x": "0.822767838",
+            "y": "0.489899038"
+          },
+          {
+            "turn": "0.000000000",
+            "x": "0.177232162",
+            "y": "0.208348902"
+          },
+          {
+            "turn": "0.158384440",
+            "x": "0.597127192",
+            "y": "0.177232162"
           }
         ],
-        "radius": "0.219070991"
+        "radius": "0.219070997"
       }
     },
     {

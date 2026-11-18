@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/tans-in-square",
-  "generatedAt": "2026-11-17T14:40:46.277Z",
+  "generatedAt": "2026-11-18T14:18:14.778Z",
   "instances": [
     {
       "instanceId": "p89-n1-v1",
@@ -336,8 +336,8 @@
         "sides": 5
       },
       "objective": "minimize",
-      "scoreStored": "1999494947571192993",
-      "scoreDisplay": "1.999494948",
+      "scoreStored": "1999494911589373232",
+      "scoreDisplay": "1.999494912",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -354,55 +354,55 @@
         "source": "Compiled by Erich Friedman; Found by Maurizio Morandi in August 2007. Source expression: s = 1.999+.",
         "url": "https://erich-friedman.github.io/packing/taninsqu/"
       },
-      "holder": "Joost de Winter",
+      "holder": "邱仲普",
       "method": "ai",
-      "recordedAt": "2026-11-09T18:39:55.728Z",
+      "recordedAt": "2026-11-17T14:54:05.801Z",
       "answer": {
         "placements": [
           {
             "quarter": 0,
             "turn": "-0.414213562",
-            "x": "0.999999995",
-            "y": "0.612527126"
+            "x": "0.999999999",
+            "y": "0.612527127"
           },
           {
             "quarter": 3,
             "turn": "0.000000000",
-            "x": "0.250063155",
-            "y": "0.749936845"
+            "x": "0.250063152",
+            "y": "0.749936848"
           },
           {
             "quarter": 1,
             "turn": "-0.000136905",
-            "x": "0.250268574",
-            "y": "0.750005324"
+            "x": "0.250268571",
+            "y": "0.750005327"
           },
           {
             "quarter": 0,
             "turn": "-0.131652498",
-            "x": "0.823178646",
-            "y": "0.306263566"
+            "x": "0.823178648",
+            "y": "0.306263564"
           },
           {
             "quarter": 3,
             "turn": "0.022811939",
-            "x": "0.761599884",
-            "y": "0.738794051"
+            "x": "0.761599886",
+            "y": "0.738794053"
           },
           {
             "quarter": 1,
             "turn": "-0.007093128",
-            "x": "0.268587985",
-            "y": "0.253585275"
+            "x": "0.268587982",
+            "y": "0.253585273"
           },
           {
             "quarter": 3,
             "turn": "-0.010889462",
-            "x": "0.255449317",
-            "y": "0.244558396"
+            "x": "0.255449315",
+            "y": "0.244558395"
           }
         ],
-        "radius": "0.500126295"
+        "radius": "0.500126304"
       }
     },
     {
