@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/consecutive-dominoes-in-square",
-  "generatedAt": "2026-11-13T13:14:43.402Z",
+  "generatedAt": "2026-11-19T14:31:32.289Z",
   "instances": [
     {
       "instanceId": "p95-n1-v1",
@@ -3049,198 +3049,198 @@
         "n": 29
       },
       "objective": "minimize",
-      "scoreStored": "132000000000",
-      "scoreDisplay": "132",
-      "status": "matched",
+      "scoreStored": "131000000000",
+      "scoreDisplay": "131",
+      "status": "ahead",
       "settled": false,
-      "recordStatus": "matched",
+      "recordStatus": "ahead",
       "knownBest": {
         "display": "132",
         "kind": "best",
         "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Matthew Sun (June 2026). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
         "url": "https://erich-friedman.github.io/packing/domino/"
       },
-      "holder": "Joost de Winter",
+      "holder": "zzzcy",
       "method": "ai",
-      "recordedAt": "2026-10-27T06:28:19.738Z",
+      "recordedAt": "2026-11-19T05:13:34.105Z",
       "answer": {
         "dominoes": [
           {
             "rotated": true,
             "turn": "0",
-            "x": "112",
+            "x": "69",
             "y": "40"
           },
           {
             "rotated": false,
             "turn": "0",
-            "x": "45",
-            "y": "34"
+            "x": "65",
+            "y": "40"
           },
           {
             "rotated": true,
             "turn": "0",
             "x": "80",
-            "y": "73"
+            "y": "81"
           },
           {
             "rotated": false,
             "turn": "0",
-            "x": "72",
-            "y": "59"
-          },
-          {
-            "rotated": false,
-            "turn": "0",
-            "x": "45",
-            "y": "29"
+            "x": "93",
+            "y": "54"
           },
           {
             "rotated": false,
             "turn": "0",
             "x": "83",
-            "y": "73"
+            "y": "54"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "97",
+            "y": "75"
           },
           {
             "rotated": false,
             "turn": "0",
-            "x": "45",
-            "y": "36"
+            "x": "51",
+            "y": "70"
           },
           {
             "rotated": true,
             "turn": "0",
-            "x": "72",
-            "y": "43"
+            "x": "50",
+            "y": "77"
           },
           {
             "rotated": true,
             "turn": "0",
-            "x": "71",
-            "y": "64"
-          },
-          {
-            "rotated": false,
-            "turn": "0",
-            "x": "58",
-            "y": "26"
+            "x": "51",
+            "y": "93"
           },
           {
             "rotated": true,
             "turn": "0",
-            "x": "71",
-            "y": "82"
-          },
-          {
-            "rotated": true,
-            "turn": "0",
-            "x": "59",
-            "y": "63"
-          },
-          {
-            "rotated": true,
-            "turn": "0",
-            "x": "59",
-            "y": "37"
-          },
-          {
-            "rotated": true,
-            "turn": "0",
-            "x": "45",
-            "y": "43"
-          },
-          {
-            "rotated": true,
-            "turn": "0",
-            "x": "80",
-            "y": "43"
-          },
-          {
-            "rotated": false,
-            "turn": "0",
-            "x": "27",
-            "y": "71"
-          },
-          {
-            "rotated": false,
-            "turn": "0",
-            "x": "78",
-            "y": "26"
-          },
-          {
-            "rotated": true,
-            "turn": "0",
-            "x": "95",
-            "y": "43"
-          },
-          {
-            "rotated": true,
-            "turn": "0",
-            "x": "113",
-            "y": "40"
-          },
-          {
-            "rotated": true,
-            "turn": "0",
-            "x": "112",
-            "y": "0"
-          },
-          {
-            "rotated": true,
-            "turn": "0",
-            "x": "24",
-            "y": "29"
-          },
-          {
-            "rotated": false,
-            "turn": "0",
-            "x": "27",
-            "y": "87"
-          },
-          {
-            "rotated": false,
-            "turn": "0",
-            "x": "27",
-            "y": "109"
-          },
-          {
-            "rotated": true,
-            "turn": "0",
-            "x": "0",
-            "y": "29"
-          },
-          {
-            "rotated": false,
-            "turn": "0",
-            "x": "82",
-            "y": "79"
+            "x": "50",
+            "y": "111"
           },
           {
             "rotated": false,
             "turn": "0",
             "x": "58",
-            "y": "0"
-          },
-          {
-            "rotated": true,
-            "turn": "0",
-            "x": "0",
             "y": "78"
           },
           {
             "rotated": false,
             "turn": "0",
-            "x": "76",
-            "y": "104"
+            "x": "27",
+            "y": "94"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "70",
+            "y": "16"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "83",
+            "y": "59"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "50",
+            "y": "40"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "70",
+            "y": "0"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "97",
+            "y": "58"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "65",
+            "y": "42"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "83",
+            "y": "16"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "50",
+            "y": "0"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "60",
+            "y": "89"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "81",
+            "y": "87"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "27",
+            "y": "48"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "26",
+            "y": "0"
           },
           {
             "rotated": false,
             "turn": "0",
             "x": "0",
+            "y": "106"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "0",
+            "y": "0"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "0",
+            "y": "52"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "103",
+            "y": "75"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "102",
             "y": "0"
           }
         ],
-        "side": "132"
+        "side": "131"
       }
     },
     {
@@ -5622,264 +5622,264 @@
         "n": 40
       },
       "objective": "minimize",
-      "scoreStored": "212000000000",
-      "scoreDisplay": "212",
-      "status": "matched",
+      "scoreStored": "211000000000",
+      "scoreDisplay": "211",
+      "status": "ahead",
       "settled": false,
-      "recordStatus": "matched",
+      "recordStatus": "ahead",
       "knownBest": {
         "display": "212",
         "kind": "best",
         "source": "Compiled by Erich Friedman (Consecutive Dominoes in Squares); found by Rowan Jones (October 2026). The published value is cited without reconstructing its configuration; the starter is the site's ordinary shelf packing, not the external record.",
         "url": "https://erich-friedman.github.io/packing/domino/"
       },
-      "holder": "Joost de Winter",
+      "holder": "zzzcy",
       "method": "ai",
-      "recordedAt": "2026-10-27T06:26:07.264Z",
+      "recordedAt": "2026-11-19T05:16:46.720Z",
       "answer": {
         "dominoes": [
           {
             "rotated": true,
             "turn": "0",
-            "x": "174",
-            "y": "76"
-          },
-          {
-            "rotated": true,
-            "turn": "0",
-            "x": "172",
-            "y": "32"
-          },
-          {
-            "rotated": true,
-            "turn": "0",
-            "x": "93",
-            "y": "144"
-          },
-          {
-            "rotated": false,
-            "turn": "0",
-            "x": "146",
-            "y": "75"
-          },
-          {
-            "rotated": true,
-            "turn": "0",
-            "x": "99",
-            "y": "113"
-          },
-          {
-            "rotated": true,
-            "turn": "0",
-            "x": "72",
-            "y": "64"
-          },
-          {
-            "rotated": false,
-            "turn": "0",
-            "x": "158",
-            "y": "32"
-          },
-          {
-            "rotated": true,
-            "turn": "0",
-            "x": "72",
-            "y": "40"
-          },
-          {
-            "rotated": true,
-            "turn": "0",
-            "x": "76",
-            "y": "76"
-          },
-          {
-            "rotated": false,
-            "turn": "0",
-            "x": "36",
-            "y": "104"
-          },
-          {
-            "rotated": true,
-            "turn": "0",
-            "x": "81",
-            "y": "39"
-          },
-          {
-            "rotated": false,
-            "turn": "0",
-            "x": "67",
-            "y": "114"
-          },
-          {
-            "rotated": false,
-            "turn": "0",
-            "x": "78",
-            "y": "100"
-          },
-          {
-            "rotated": false,
-            "turn": "0",
-            "x": "108",
-            "y": "61"
-          },
-          {
-            "rotated": false,
-            "turn": "0",
-            "x": "78",
-            "y": "61"
-          },
-          {
-            "rotated": true,
-            "turn": "0",
-            "x": "158",
+            "x": "0",
             "y": "0"
           },
           {
-            "rotated": true,
+            "rotated": false,
             "turn": "0",
-            "x": "68",
-            "y": "178"
-          },
-          {
-            "rotated": true,
-            "turn": "0",
-            "x": "136",
-            "y": "39"
-          },
-          {
-            "rotated": true,
-            "turn": "0",
-            "x": "56",
-            "y": "76"
-          },
-          {
-            "rotated": true,
-            "turn": "0",
-            "x": "154",
-            "y": "39"
+            "x": "57",
+            "y": "56"
           },
           {
             "rotated": false,
             "turn": "0",
-            "x": "133",
-            "y": "79"
-          },
-          {
-            "rotated": false,
-            "turn": "0",
-            "x": "92",
-            "y": "39"
-          },
-          {
-            "rotated": false,
-            "turn": "0",
-            "x": "104",
-            "y": "100"
-          },
-          {
-            "rotated": false,
-            "turn": "0",
-            "x": "85",
-            "y": "76"
-          },
-          {
-            "rotated": true,
-            "turn": "0",
-            "x": "150",
-            "y": "100"
-          },
-          {
-            "rotated": true,
-            "turn": "0",
-            "x": "67",
-            "y": "126"
+            "x": "55",
+            "y": "104"
           },
           {
             "rotated": false,
             "turn": "0",
             "x": "96",
-            "y": "123"
+            "y": "55"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "137",
+            "y": "80"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "104",
+            "y": "31"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "96",
+            "y": "59"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "88",
+            "y": "73"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "87",
+            "y": "55"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "126",
+            "y": "70"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "165",
+            "y": "134"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "187",
+            "y": "133"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "165",
+            "y": "145"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "165",
+            "y": "106"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "38",
+            "y": "104"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "147",
+            "y": "69"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "126",
+            "y": "36"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "123",
+            "y": "0"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "74",
+            "y": "134"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "0",
+            "y": "171"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "137",
+            "y": "85"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "104",
+            "y": "37"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "38",
+            "y": "58"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "56",
+            "y": "31"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "87",
+            "y": "81"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "61",
+            "y": "55"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "53",
+            "y": "107"
           },
           {
             "rotated": false,
             "turn": "0",
             "x": "0",
-            "y": "76"
+            "y": "30"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "107",
+            "y": "106"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "1",
+            "y": "0"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "61",
+            "y": "0"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "179",
+            "y": "69"
+          },
+          {
+            "rotated": true,
+            "turn": "0",
+            "x": "178",
+            "y": "145"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "143",
+            "y": "35"
+          },
+          {
+            "rotated": false,
+            "turn": "0",
+            "x": "141",
+            "y": "0"
           },
           {
             "rotated": false,
             "turn": "0",
             "x": "93",
-            "y": "150"
-          },
-          {
-            "rotated": true,
-            "turn": "0",
-            "x": "182",
-            "y": "150"
-          },
-          {
-            "rotated": true,
-            "turn": "0",
-            "x": "151",
-            "y": "150"
-          },
-          {
-            "rotated": true,
-            "turn": "0",
-            "x": "35",
-            "y": "114"
-          },
-          {
-            "rotated": false,
-            "turn": "0",
-            "x": "85",
-            "y": "179"
+            "y": "135"
           },
           {
             "rotated": false,
             "turn": "0",
             "x": "0",
-            "y": "178"
+            "y": "134"
           },
           {
             "rotated": true,
             "turn": "0",
             "x": "0",
-            "y": "108"
+            "y": "58"
           },
           {
             "rotated": false,
             "turn": "0",
-            "x": "0",
-            "y": "40"
-          },
-          {
-            "rotated": true,
-            "turn": "0",
-            "x": "175",
-            "y": "76"
-          },
-          {
-            "rotated": true,
-            "turn": "0",
-            "x": "174",
-            "y": "0"
+            "x": "20",
+            "y": "172"
           },
           {
             "rotated": false,
             "turn": "0",
-            "x": "80",
-            "y": "0"
-          },
-          {
-            "rotated": false,
-            "turn": "0",
-            "x": "0",
-            "y": "0"
+            "x": "98",
+            "y": "171"
           }
         ],
-        "side": "212"
+        "side": "211"
       }
     },
     {

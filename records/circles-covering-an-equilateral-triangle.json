@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/circles-covering-an-equilateral-triangle",
-  "generatedAt": "2026-11-07T11:48:34.290Z",
+  "generatedAt": "2026-11-19T14:31:30.369Z",
   "instances": [
     {
       "instanceId": "p74-n7-v1",
@@ -491,8 +491,8 @@
         "n": 14
       },
       "objective": "minimize",
-      "scoreStored": "127516386456566096",
-      "scoreDisplay": "0.127516386456567",
+      "scoreStored": "127516386456202895",
+      "scoreDisplay": "0.127516386456203",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
@@ -504,9 +504,9 @@
         "source": "The construction by Hans Melissen appears in Figure 2 of Nurmela (2000); the paper's continuous value is 0.1275163863998600644. Optimality remains open; the site's nine-decimal reconstruction of the published contact graph verifies at 0.127516386733134.",
         "url": "https://www.tandfonline.com/doi/abs/10.1080/10586458.2000.10504649"
       },
-      "holder": "pikachu345",
+      "holder": "zzzcy",
       "method": "ai",
-      "recordedAt": "2026-11-06T21:19:59.128Z",
+      "recordedAt": "2026-11-19T05:11:42.183Z",
       "answer": {
         "points": [
           [
@@ -530,40 +530,40 @@
             "0.168586172"
           ],
           [
-            "0.500046602",
-            "0.366919623"
+            "0.500046593",
+            "0.366919625"
           ],
           [
             "0.205885178",
             "0.169041056"
           ],
           [
-            "0.595807399",
-            "0.547155323"
+            "0.595807398",
+            "0.547155316"
           ],
           [
-            "0.374951513",
-            "0.549146293"
+            "0.374951512",
+            "0.549146302"
           ],
           [
-            "0.501149487",
+            "0.501149496",
             "0.738514199"
           ],
           [
-            "0.594002453",
-            "0.220549442"
+            "0.594002439",
+            "0.220549428"
           ],
           [
-            "0.436014073",
-            "0.168738275"
+            "0.436014068",
+            "0.168738272"
           ],
           [
-            "0.732694696",
-            "0.371016734"
+            "0.732694694",
+            "0.371016732"
           ],
           [
-            "0.283006548",
-            "0.345567359"
+            "0.283006546",
+            "0.345567363"
           ]
         ]
       }

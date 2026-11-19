@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/riesz-energy-in-a-square",
-  "generatedAt": "2026-11-11T12:48:58.332Z",
+  "generatedAt": "2026-11-19T14:31:26.733Z",
   "instances": [
     {
       "instanceId": "p33-n5-v2",
@@ -1171,15 +1171,15 @@
         "n": 21
       },
       "objective": "minimize",
-      "scoreStored": "839242213148",
-      "scoreDisplay": "839.242213148",
+      "scoreStored": "839242213146",
+      "scoreDisplay": "839.242213146",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
       "knownBest": null,
-      "holder": "Sigmoid with Codex",
+      "holder": "Joost de Winter",
       "method": "ai",
-      "recordedAt": "2026-09-01T14:43:14.959Z",
+      "recordedAt": "2026-11-19T14:24:47.950Z",
       "answer": {
         "points": [
           [
@@ -1232,7 +1232,7 @@
           ],
           [
             "0.000000000",
-            "0.244257868"
+            "0.244258299"
           ],
           [
             "0.000000000",
@@ -1243,8 +1243,8 @@
             "0.294295007"
           ],
           [
-            "0.705704738",
-            "0.294294912"
+            "0.705705241",
+            "0.294295366"
           ],
           [
             "1.000000000",
@@ -1385,15 +1385,15 @@
         "n": 23
       },
       "objective": "minimize",
-      "scoreStored": "1079794342334",
-      "scoreDisplay": "1079.794342334",
+      "scoreStored": "1079794342333",
+      "scoreDisplay": "1079.794342333",
       "status": "open",
       "settled": false,
       "recordStatus": "open",
       "knownBest": null,
-      "holder": "Sigmoid with Codex",
+      "holder": "Joost de Winter",
       "method": "ai",
-      "recordedAt": "2026-09-01T14:43:46.209Z",
+      "recordedAt": "2026-11-19T14:25:06.623Z",
       "answer": {
         "points": [
           [
@@ -1433,8 +1433,8 @@
             "1.000000000"
           ],
           [
-            "0.215760392",
-            "0.597723667"
+            "0.215760358",
+            "0.597723680"
           ],
           [
             "0.000000000",

@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/biggest-little-polygon",
-  "generatedAt": "2026-10-30T11:27:52.401Z",
+  "generatedAt": "2026-11-19T14:31:27.414Z",
   "instances": [
     {
       "instanceId": "p53-n6-v1",
@@ -19,8 +19,8 @@
         "n": 6
       },
       "objective": "maximize",
-      "scoreStored": "1349962885789593521",
-      "scoreDisplay": "0.6749814428947967605",
+      "scoreStored": "1349962885812853133",
+      "scoreDisplay": "0.6749814429064265665",
       "status": "open",
       "settled": true,
       "recordStatus": "open",
@@ -30,23 +30,11 @@
         "source": "the area is the second-largest real root of Graham's degree-10 polynomial, solved here exactly; optimality proved by Bieri (1961) and Graham (1975); the exact optimum is not writable on the nine-decimal coordinate grid, and the shown value is what the exhibited certificate reaches",
         "url": "https://mathworld.wolfram.com/GrahamsBiggestLittleHexagon.html"
       },
-      "holder": "游侠",
+      "holder": "Joost de Winter",
       "method": "ai",
-      "recordedAt": "2026-09-12T07:38:00.391Z",
+      "recordedAt": "2026-11-19T13:49:19.640Z",
       "answer": {
         "points": [
-          [
-            "1.054251529",
-            "1.091264863"
-          ],
-          [
-            "0.505922742",
-            "1.199858762"
-          ],
-          [
-            "0.293455408",
-            "0.922819162"
-          ],
           [
             "0.189175554",
             "0.589623998"
@@ -58,6 +46,18 @@
           [
             "1.181014219",
             "0.462124733"
+          ],
+          [
+            "1.054251529",
+            "1.091264863"
+          ],
+          [
+            "0.505922742",
+            "1.199858762"
+          ],
+          [
+            "0.293455409",
+            "0.922819164"
           ]
         ]
       }
