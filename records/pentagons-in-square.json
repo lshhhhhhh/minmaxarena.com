@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/pentagons-in-square",
-  "generatedAt": "2026-11-20T14:09:48.381Z",
+  "generatedAt": "2026-11-21T13:34:58.702Z",
   "instances": [
     {
       "instanceId": "p86-n3-v1",
@@ -145,7 +145,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-11-20T09:56:28.359Z",
+      "recordedAt": "2026-11-21T13:16:33.372Z",
       "answer": {
         "placements": [
           {
@@ -185,8 +185,8 @@
         "sides": 5
       },
       "objective": "minimize",
-      "scoreStored": "3882991450265047784",
-      "scoreDisplay": "3.882991451",
+      "scoreStored": "3882991432540239454",
+      "scoreDisplay": "3.882991433",
       "status": "matched",
       "settled": false,
       "recordStatus": "matched",
@@ -205,41 +205,47 @@
       },
       "holder": "Joost de Winter",
       "method": "ai",
-      "recordedAt": "2026-11-17T20:12:15.124Z",
+      "recordedAt": "2026-11-20T16:28:45.076Z",
       "answer": {
         "placements": [
           {
-            "turn": "-0.158384440",
-            "x": "0.208348902",
-            "y": "0.822767838"
+            "quarter": 0,
+            "turn": "-0.15838444",
+            "x": "0.208348901",
+            "y": "0.822767839"
           },
           {
+            "quarter": 0,
             "turn": "-0.157313347",
-            "x": "0.624677612",
-            "y": "0.822499089"
+            "x": "0.624677613",
+            "y": "0.82249909"
           },
           {
-            "turn": "0.158384440",
-            "x": "0.416099695",
+            "quarter": 0,
+            "turn": "0.15838444",
+            "x": "0.416099694",
             "y": "0.535565629"
           },
           {
+            "quarter": 0,
             "turn": "-0.324919696",
-            "x": "0.822767838",
+            "x": "0.822767839",
             "y": "0.489899038"
           },
           {
-            "turn": "0.000000000",
-            "x": "0.177232162",
-            "y": "0.208348902"
+            "quarter": 0,
+            "turn": "0",
+            "x": "0.177232161",
+            "y": "0.208348901"
           },
           {
-            "turn": "0.158384440",
-            "x": "0.597127192",
-            "y": "0.177232162"
+            "quarter": 0,
+            "turn": "0.15838444",
+            "x": "0.597127193",
+            "y": "0.177232161"
           }
         ],
-        "radius": "0.219070997"
+        "radius": "0.219070998"
       }
     },
     {
@@ -340,7 +346,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-11-20T09:56:28.359Z",
+      "recordedAt": "2026-11-21T13:16:33.372Z",
       "answer": {
         "placements": [
           {
@@ -762,7 +768,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-11-20T09:56:28.359Z",
+      "recordedAt": "2026-11-21T13:16:33.372Z",
       "answer": {
         "placements": [
           {
@@ -967,7 +973,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-11-20T09:56:28.359Z",
+      "recordedAt": "2026-11-21T13:16:33.372Z",
       "answer": {
         "placements": [
           {
@@ -1191,7 +1197,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-11-20T09:56:28.359Z",
+      "recordedAt": "2026-11-21T13:16:33.372Z",
       "answer": {
         "placements": [
           {
@@ -1311,7 +1317,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-11-20T09:56:28.359Z",
+      "recordedAt": "2026-11-21T13:16:33.372Z",
       "answer": {
         "placements": [
           {
@@ -1436,7 +1442,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-11-20T09:56:28.359Z",
+      "recordedAt": "2026-11-21T13:16:33.372Z",
       "answer": {
         "placements": [
           {
@@ -1701,7 +1707,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-11-20T09:56:28.359Z",
+      "recordedAt": "2026-11-21T13:16:33.372Z",
       "answer": {
         "placements": [
           {
@@ -1841,7 +1847,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-11-20T09:56:28.359Z",
+      "recordedAt": "2026-11-21T13:16:33.372Z",
       "answer": {
         "placements": [
           {
@@ -2136,7 +2142,7 @@
       },
       "holder": null,
       "method": "human",
-      "recordedAt": "2026-11-20T09:56:28.359Z",
+      "recordedAt": "2026-11-21T13:16:33.372Z",
       "answer": {
         "placements": [
           {

@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "licenseName": "CC BY 4.0",
   "source": "https://minmaxarena.com/problems/heilbronn-in-a-circle",
-  "generatedAt": "2026-11-18T14:18:08.076Z",
+  "generatedAt": "2026-11-21T13:34:54.896Z",
   "instances": [
     {
       "instanceId": "p22-n5-v2",
@@ -621,16 +621,16 @@
       "objective": "maximize",
       "scoreStored": "153431771253573582",
       "scoreDisplay": "0.076715885626786791",
-      "status": "ahead",
+      "status": "open",
       "settled": false,
-      "recordStatus": "ahead",
+      "recordStatus": "open",
       "knownBest": {
-        "display": "0.075857251060901",
+        "display": "0.076715885771028939751784775506633485800988522351575884799934177551",
         "kind": "best",
-        "precision": "rounded",
+        "exact": "0.076715885771028939751784775506633485800988522351575884799934177551",
         "certificateDisplay": "0.075857250839131915",
-        "source": "Friedman/Cantrell's construction in MathWorld's public SVG; the unit-area-disc table value converts to 0.151714502121802 here. The nine-decimal certificate reconstructed from the figure reaches 0.15171450167826383; optimality open",
-        "url": "https://mathworld.wolfram.com/HeilbronnTriangleProblem.html"
+        "source": "Hanyu Yang published all 14 points on August 25, 2026. The minimum over all 364 triangle areas gives the exact value of this construction. Optimality remains open.",
+        "url": "https://github.com/SeverinVisionary/heilbronn-records/blob/a507164867e198469e4a60afd6373e8c603857a7/disk/configs/circle_n14_converged.json"
       },
       "holder": "邱仲普",
       "method": "ai",
