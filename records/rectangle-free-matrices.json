@@ -1,0 +1,1450 @@
+{
+  "problem": "rectangle-free-matrices",
+  "code": "P100",
+  "title": "无矩形 0–1 矩阵",
+  "titleEn": "Rectangle-free binary matrices",
+  "objective": "maximize",
+  "scoreLabel": "1 的个数",
+  "scoreLabelEn": "number of ones",
+  "verifierVersion": "1.0.0",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseName": "CC BY 4.0",
+  "source": "https://minmaxarena.com/problems/rectangle-free-matrices",
+  "generatedAt": "2026-11-22T13:27:39.586Z",
+  "instances": [
+    {
+      "instanceId": "p100-n2-v1",
+      "name": "n = 2",
+      "parameters": {
+        "n": 2
+      },
+      "objective": "maximize",
+      "scoreStored": "3",
+      "scoreDisplay": "3",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "optimal",
+      "knownBest": {
+        "display": "3",
+        "kind": "proven",
+        "exact": "3",
+        "source": "Afzaly and McKay give 3 as the maximum edge count for a bipartite graph on 4 vertices without a four-cycle. The exhibited graph attains it with 2 vertices on each side.",
+        "url": "https://users.cecs.anu.edu.au/~bdm/data/extremal.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-22T07:41:55.231Z",
+      "answer": {
+        "rows": [
+          "11",
+          "10"
+        ]
+      }
+    },
+    {
+      "instanceId": "p100-n3-v1",
+      "name": "n = 3",
+      "parameters": {
+        "n": 3
+      },
+      "objective": "maximize",
+      "scoreStored": "6",
+      "scoreDisplay": "6",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "optimal",
+      "knownBest": {
+        "display": "6",
+        "kind": "proven",
+        "exact": "6",
+        "source": "Afzaly and McKay give 6 as the maximum edge count for a bipartite graph on 6 vertices without a four-cycle. The exhibited graph attains it with 3 vertices on each side.",
+        "url": "https://users.cecs.anu.edu.au/~bdm/data/extremal.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-22T07:41:55.231Z",
+      "answer": {
+        "rows": [
+          "110",
+          "101",
+          "011"
+        ]
+      }
+    },
+    {
+      "instanceId": "p100-n4-v1",
+      "name": "n = 4",
+      "parameters": {
+        "n": 4
+      },
+      "objective": "maximize",
+      "scoreStored": "9",
+      "scoreDisplay": "9",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "optimal",
+      "knownBest": {
+        "display": "9",
+        "kind": "proven",
+        "exact": "9",
+        "source": "Afzaly and McKay give 9 as the maximum edge count for a bipartite graph on 8 vertices without a four-cycle. The exhibited graph attains it with 4 vertices on each side.",
+        "url": "https://users.cecs.anu.edu.au/~bdm/data/extremal.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-22T07:41:55.231Z",
+      "answer": {
+        "rows": [
+          "1101",
+          "1010",
+          "0110",
+          "0011"
+        ]
+      }
+    },
+    {
+      "instanceId": "p100-n5-v1",
+      "name": "n = 5",
+      "parameters": {
+        "n": 5
+      },
+      "objective": "maximize",
+      "scoreStored": "12",
+      "scoreDisplay": "12",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "optimal",
+      "knownBest": {
+        "display": "12",
+        "kind": "proven",
+        "exact": "12",
+        "source": "Afzaly and McKay give 12 as the maximum edge count for a bipartite graph on 10 vertices without a four-cycle. The exhibited graph attains it with 5 vertices on each side.",
+        "url": "https://users.cecs.anu.edu.au/~bdm/data/extremal.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-22T07:41:55.231Z",
+      "answer": {
+        "rows": [
+          "11010",
+          "10100",
+          "01101",
+          "00110",
+          "10001"
+        ]
+      }
+    },
+    {
+      "instanceId": "p100-n6-v1",
+      "name": "n = 6",
+      "parameters": {
+        "n": 6
+      },
+      "objective": "maximize",
+      "scoreStored": "16",
+      "scoreDisplay": "16",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "optimal",
+      "knownBest": {
+        "display": "16",
+        "kind": "proven",
+        "exact": "16",
+        "source": "Afzaly and McKay give 16 as the maximum edge count for a bipartite graph on 12 vertices without a four-cycle. The exhibited graph attains it with 6 vertices on each side.",
+        "url": "https://users.cecs.anu.edu.au/~bdm/data/extremal.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-22T07:41:55.231Z",
+      "answer": {
+        "rows": [
+          "110100",
+          "101000",
+          "011010",
+          "001101",
+          "100011",
+          "000110"
+        ]
+      }
+    },
+    {
+      "instanceId": "p100-n7-v1",
+      "name": "n = 7",
+      "parameters": {
+        "n": 7
+      },
+      "objective": "maximize",
+      "scoreStored": "21",
+      "scoreDisplay": "21",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "optimal",
+      "knownBest": {
+        "display": "21",
+        "kind": "proven",
+        "exact": "21",
+        "source": "The Fano incidence matrix has 21 ones. Even distributing 22 ones as evenly as possible over seven rows uses at least 24 column pairs, but only 21 pairs exist.",
+        "url": "https://arxiv.org/abs/1303.5475"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-22T07:41:55.231Z",
+      "answer": {
+        "rows": [
+          "1101000",
+          "0110100",
+          "0011010",
+          "0001101",
+          "1000110",
+          "0100011",
+          "1010001"
+        ]
+      }
+    },
+    {
+      "instanceId": "p100-n8-v1",
+      "name": "n = 8",
+      "parameters": {
+        "n": 8
+      },
+      "objective": "maximize",
+      "scoreStored": "24",
+      "scoreDisplay": "24",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "optimal",
+      "knownBest": {
+        "display": "24",
+        "kind": "proven",
+        "exact": "24",
+        "source": "Afzaly and McKay give 24 as the maximum edge count for a bipartite graph on 16 vertices without a four-cycle. The exhibited graph attains it with 8 vertices on each side.",
+        "url": "https://users.cecs.anu.edu.au/~bdm/data/extremal.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-22T07:41:55.231Z",
+      "answer": {
+        "rows": [
+          "11010001",
+          "10100010",
+          "01101000",
+          "00110100",
+          "10001100",
+          "00011010",
+          "01000110",
+          "00100001"
+        ]
+      }
+    },
+    {
+      "instanceId": "p100-n9-v1",
+      "name": "n = 9",
+      "parameters": {
+        "n": 9
+      },
+      "objective": "maximize",
+      "scoreStored": "29",
+      "scoreDisplay": "29",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "optimal",
+      "knownBest": {
+        "display": "29",
+        "kind": "proven",
+        "exact": "29",
+        "source": "Afzaly and McKay give 29 as the maximum edge count for a bipartite graph on 18 vertices without a four-cycle. The exhibited graph attains it with 9 vertices on each side.",
+        "url": "https://users.cecs.anu.edu.au/~bdm/data/extremal.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-22T07:41:55.231Z",
+      "answer": {
+        "rows": [
+          "110100000",
+          "101000110",
+          "011010000",
+          "001101000",
+          "100011001",
+          "000110100",
+          "010001010",
+          "010000101",
+          "000100011"
+        ]
+      }
+    },
+    {
+      "instanceId": "p100-n10-v1",
+      "name": "n = 10",
+      "parameters": {
+        "n": 10
+      },
+      "objective": "maximize",
+      "scoreStored": "34",
+      "scoreDisplay": "34",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "optimal",
+      "knownBest": {
+        "display": "34",
+        "kind": "proven",
+        "exact": "34",
+        "source": "Afzaly and McKay give 34 as the maximum edge count for a bipartite graph on 20 vertices without a four-cycle. The exhibited graph attains it with 10 vertices on each side.",
+        "url": "https://users.cecs.anu.edu.au/~bdm/data/extremal.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-22T07:41:55.231Z",
+      "answer": {
+        "rows": [
+          "1101000000",
+          "1010001100",
+          "0110100000",
+          "0011010000",
+          "1000110010",
+          "0001101001",
+          "0100010101",
+          "0100001010",
+          "0001000110",
+          "0010000011"
+        ]
+      }
+    },
+    {
+      "instanceId": "p100-n11-v1",
+      "name": "n = 11",
+      "parameters": {
+        "n": 11
+      },
+      "objective": "maximize",
+      "scoreStored": "39",
+      "scoreDisplay": "39",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "optimal",
+      "knownBest": {
+        "display": "39",
+        "kind": "proven",
+        "exact": "39",
+        "source": "Afzaly and McKay give 39 as the maximum edge count for a bipartite graph on 22 vertices without a four-cycle. The exhibited graph attains it with 11 vertices on each side.",
+        "url": "https://users.cecs.anu.edu.au/~bdm/data/extremal.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-22T07:41:55.231Z",
+      "answer": {
+        "rows": [
+          "11010000000",
+          "10100011000",
+          "01101000001",
+          "00110100000",
+          "10001100100",
+          "00011010010",
+          "01000101010",
+          "01000010100",
+          "00010001101",
+          "00100000110",
+          "00000110001"
+        ]
+      }
+    },
+    {
+      "instanceId": "p100-n12-v1",
+      "name": "n = 12",
+      "parameters": {
+        "n": 12
+      },
+      "objective": "maximize",
+      "scoreStored": "45",
+      "scoreDisplay": "45",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "optimal",
+      "knownBest": {
+        "display": "45",
+        "kind": "proven",
+        "exact": "45",
+        "source": "Afzaly and McKay give 45 as the maximum edge count for a bipartite graph on 24 vertices without a four-cycle. The exhibited graph attains it with 12 vertices on each side.",
+        "url": "https://users.cecs.anu.edu.au/~bdm/data/extremal.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-22T07:41:55.231Z",
+      "answer": {
+        "rows": [
+          "110100000001",
+          "101000110000",
+          "011010000010",
+          "001101000000",
+          "100011001000",
+          "000110100100",
+          "010001010100",
+          "010000101000",
+          "000100011010",
+          "001000001101",
+          "000001100011",
+          "100000000110"
+        ]
+      }
+    },
+    {
+      "instanceId": "p100-n13-v1",
+      "name": "n = 13",
+      "parameters": {
+        "n": 13
+      },
+      "objective": "maximize",
+      "scoreStored": "52",
+      "scoreDisplay": "52",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "optimal",
+      "knownBest": {
+        "display": "52",
+        "kind": "proven",
+        "exact": "52",
+        "source": "Afzaly and McKay give 52 as the maximum edge count for a bipartite graph on 26 vertices without a four-cycle. The exhibited graph attains it with 13 vertices on each side.",
+        "url": "https://users.cecs.anu.edu.au/~bdm/data/extremal.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-22T07:41:55.231Z",
+      "answer": {
+        "rows": [
+          "1101000000010",
+          "1010001100000",
+          "0110100000100",
+          "0011010000001",
+          "1000110010000",
+          "0001101001000",
+          "0100010101000",
+          "0100001010001",
+          "0001000110100",
+          "0010000011010",
+          "0000011000110",
+          "1000000001101",
+          "0000100100011"
+        ]
+      }
+    },
+    {
+      "instanceId": "p100-n14-v1",
+      "name": "n = 14",
+      "parameters": {
+        "n": 14
+      },
+      "objective": "maximize",
+      "scoreStored": "56",
+      "scoreDisplay": "56",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "optimal",
+      "knownBest": {
+        "display": "56",
+        "kind": "proven",
+        "exact": "56",
+        "source": "Afzaly and McKay give 56 as the maximum edge count for a bipartite graph on 28 vertices without a four-cycle. The exhibited graph attains it with 14 vertices on each side.",
+        "url": "https://users.cecs.anu.edu.au/~bdm/data/extremal.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-22T07:41:55.231Z",
+      "answer": {
+        "rows": [
+          "11010001000000",
+          "10100010010000",
+          "01101000000001",
+          "00110100000010",
+          "10001100100000",
+          "00011010001000",
+          "01000110000100",
+          "00100001100100",
+          "00001001010010",
+          "01000000111000",
+          "00000101001001",
+          "10000000001110",
+          "00010000010101",
+          "00000010100011"
+        ]
+      }
+    },
+    {
+      "instanceId": "p100-n15-v1",
+      "name": "n = 15",
+      "parameters": {
+        "n": 15
+      },
+      "objective": "maximize",
+      "scoreStored": "61",
+      "scoreDisplay": "61",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "optimal",
+      "knownBest": {
+        "display": "61",
+        "kind": "proven",
+        "exact": "61",
+        "source": "Afzaly and McKay give 61 as the maximum edge count for a bipartite graph on 30 vertices without a four-cycle. The exhibited graph attains it with 15 vertices on each side.",
+        "url": "https://users.cecs.anu.edu.au/~bdm/data/extremal.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-22T07:41:55.231Z",
+      "answer": {
+        "rows": [
+          "110100010000000",
+          "101000100100000",
+          "011010000000010",
+          "001101000000101",
+          "100011001000000",
+          "000110100010000",
+          "010001100001000",
+          "001000011001000",
+          "000010010100100",
+          "010000001110001",
+          "000001010010010",
+          "100000000011100",
+          "000100000101010",
+          "000000101000110",
+          "000000110000001"
+        ]
+      }
+    },
+    {
+      "instanceId": "p100-n16-v1",
+      "name": "n = 16",
+      "parameters": {
+        "n": 16
+      },
+      "objective": "maximize",
+      "scoreStored": "67",
+      "scoreDisplay": "67",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "optimal",
+      "knownBest": {
+        "display": "67",
+        "kind": "proven",
+        "exact": "67",
+        "source": "Afzaly and McKay give 67 as the maximum edge count for a bipartite graph on 32 vertices without a four-cycle. The exhibited graph attains it with 16 vertices on each side.",
+        "url": "https://users.cecs.anu.edu.au/~bdm/data/extremal.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-22T07:41:55.231Z",
+      "answer": {
+        "rows": [
+          "1101000100000000",
+          "1010001001000000",
+          "0110100000000101",
+          "0011010000001010",
+          "1000110010000000",
+          "0001101000100000",
+          "0100011000010000",
+          "0010000110010000",
+          "0000100101001000",
+          "0100000011100010",
+          "0000010100100100",
+          "1000000000111001",
+          "0001000001010100",
+          "0000001010001100",
+          "0000001100000011",
+          "0000100000010010"
+        ]
+      }
+    },
+    {
+      "instanceId": "p100-n17-v1",
+      "name": "n = 17",
+      "parameters": {
+        "n": 17
+      },
+      "objective": "maximize",
+      "scoreStored": "74",
+      "scoreDisplay": "74",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "optimal",
+      "knownBest": {
+        "display": "74",
+        "kind": "proven",
+        "exact": "74",
+        "source": "Afzaly and McKay give 74 as the maximum edge count for a bipartite graph on 34 vertices without a four-cycle. The exhibited graph attains it with 17 vertices on each side.",
+        "url": "https://users.cecs.anu.edu.au/~bdm/data/extremal.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-22T07:41:55.231Z",
+      "answer": {
+        "rows": [
+          "11010001000000000",
+          "10100010010000001",
+          "01101000000001010",
+          "00110100000010100",
+          "10001100100000000",
+          "00011010001000000",
+          "01000110000100000",
+          "00100001100100000",
+          "00001001010010000",
+          "01000000111000100",
+          "00000101001001001",
+          "10000000001110010",
+          "00010000010101000",
+          "00000010100011000",
+          "00000011000000110",
+          "00001000000100101",
+          "00010000100000011"
+        ]
+      }
+    },
+    {
+      "instanceId": "p100-n18-v1",
+      "name": "n = 18",
+      "parameters": {
+        "n": 18
+      },
+      "objective": "maximize",
+      "scoreStored": "81",
+      "scoreDisplay": "81",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "optimal",
+      "knownBest": {
+        "display": "81",
+        "kind": "proven",
+        "exact": "81",
+        "source": "Afzaly and McKay give 81 as the maximum edge count for a bipartite graph on 36 vertices without a four-cycle. The exhibited graph attains it with 18 vertices on each side.",
+        "url": "https://users.cecs.anu.edu.au/~bdm/data/extremal.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-22T07:41:55.231Z",
+      "answer": {
+        "rows": [
+          "110100010000000000",
+          "101000100100000010",
+          "011010000000010100",
+          "001101000000101000",
+          "100011001000000001",
+          "000110100010000000",
+          "010001100001000000",
+          "001000011001000000",
+          "000010010100100000",
+          "010000001110001000",
+          "000001010010010010",
+          "100000000011100100",
+          "000100000101010001",
+          "000000101000110000",
+          "000000110000001101",
+          "000010000001001010",
+          "000100001000000110",
+          "010000000000100011"
+        ]
+      }
+    },
+    {
+      "instanceId": "p100-n19-v1",
+      "name": "n = 19",
+      "parameters": {
+        "n": 19
+      },
+      "objective": "maximize",
+      "scoreStored": "88",
+      "scoreDisplay": "88",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "optimal",
+      "knownBest": {
+        "display": "88",
+        "kind": "proven",
+        "exact": "88",
+        "source": "Afzaly and McKay give 88 as the maximum edge count for a bipartite graph on 38 vertices without a four-cycle. The exhibited graph attains it with 19 vertices on each side.",
+        "url": "https://users.cecs.anu.edu.au/~bdm/data/extremal.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-22T07:41:55.231Z",
+      "answer": {
+        "rows": [
+          "1101000100000000000",
+          "1010001001000000100",
+          "0110100000000101000",
+          "0011010000001010000",
+          "1000110010000000010",
+          "0001101000100000000",
+          "0100011000010000001",
+          "0010000110010000000",
+          "0000100101001000001",
+          "0100000011100010000",
+          "0000010100100100100",
+          "1000000000111001000",
+          "0001000001010100010",
+          "0000001010001100000",
+          "0000001100000011010",
+          "0000100000010010100",
+          "0001000010000001101",
+          "0100000000001000110",
+          "1000000000000110001"
+        ]
+      }
+    },
+    {
+      "instanceId": "p100-n20-v1",
+      "name": "n = 20",
+      "parameters": {
+        "n": 20
+      },
+      "objective": "maximize",
+      "scoreStored": "96",
+      "scoreDisplay": "96",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "optimal",
+      "knownBest": {
+        "display": "96",
+        "kind": "proven",
+        "exact": "96",
+        "source": "Afzaly and McKay give 96 as the maximum edge count for a bipartite graph on 40 vertices without a four-cycle. The exhibited graph attains it with 20 vertices on each side.",
+        "url": "https://users.cecs.anu.edu.au/~bdm/data/extremal.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-22T07:41:55.231Z",
+      "answer": {
+        "rows": [
+          "11010001000000000000",
+          "10100010010000001000",
+          "01101000000001010000",
+          "00110100000010100000",
+          "10001100100000000100",
+          "00011010001000000001",
+          "01000110000100000010",
+          "00100001100100000001",
+          "00001001010010000010",
+          "01000000111000100000",
+          "00000101001001001000",
+          "10000000001110010000",
+          "00010000010101000100",
+          "00000010100011000000",
+          "00000011000000110100",
+          "00001000000100101000",
+          "00010000100000011010",
+          "01000000000010001101",
+          "10000000000001100011",
+          "00100000001000000110"
+        ]
+      }
+    },
+    {
+      "instanceId": "p100-n21-v1",
+      "name": "n = 21",
+      "parameters": {
+        "n": 21
+      },
+      "objective": "maximize",
+      "scoreStored": "105",
+      "scoreDisplay": "105",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "optimal",
+      "knownBest": {
+        "display": "105",
+        "kind": "proven",
+        "exact": "105",
+        "source": "Afzaly and McKay give 105 as the maximum edge count for a bipartite graph on 42 vertices without a four-cycle. The exhibited graph attains it with 21 vertices on each side.",
+        "url": "https://users.cecs.anu.edu.au/~bdm/data/extremal.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-22T07:41:55.231Z",
+      "answer": {
+        "rows": [
+          "110100010000000000001",
+          "101000100100000010000",
+          "011010000000010100000",
+          "001101000000101000000",
+          "100011001000000001000",
+          "000110100010000000010",
+          "010001100001000000100",
+          "001000011001000000010",
+          "000010010100100000100",
+          "010000001110001000000",
+          "000001010010010010000",
+          "100000000011100100000",
+          "000100000101010001000",
+          "000000101000110000001",
+          "000000110000001101000",
+          "000010000001001010001",
+          "000100001000000110100",
+          "010000000000100011010",
+          "100000000000011000110",
+          "001000000010000001101",
+          "000001000100000100011"
+        ]
+      }
+    },
+    {
+      "instanceId": "p100-n22-v1",
+      "name": "n = 22",
+      "parameters": {
+        "n": 22
+      },
+      "objective": "maximize",
+      "scoreStored": "108",
+      "scoreDisplay": "108",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "optimal",
+      "knownBest": {
+        "display": "108",
+        "kind": "proven",
+        "exact": "108",
+        "source": "Afzaly and McKay give 108 as the maximum edge count for a bipartite graph on 44 vertices without a four-cycle. The exhibited graph attains it with 22 vertices on each side.",
+        "url": "https://users.cecs.anu.edu.au/~bdm/data/extremal.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-22T07:41:55.231Z",
+      "answer": {
+        "rows": [
+          "1101000100000000000011",
+          "1010001001000000100000",
+          "0110100000000101000000",
+          "0011010000001010000000",
+          "1000110010000000010000",
+          "0001101000100000000100",
+          "0100011000010000001000",
+          "0010000110010000000100",
+          "0000100101001000001000",
+          "0100000011100010000000",
+          "0000010100100100100000",
+          "1000000000111001000000",
+          "0001000001010100010000",
+          "0000001010001100000010",
+          "0000001100000011010000",
+          "0000100000010010100010",
+          "0001000010000001101000",
+          "0100000000001000110100",
+          "1000000000000110001100",
+          "0010000000100000011010",
+          "0000010001000001000101",
+          "0010000000000000000001"
+        ]
+      }
+    },
+    {
+      "instanceId": "p100-n23-v1",
+      "name": "n = 23",
+      "parameters": {
+        "n": 23
+      },
+      "objective": "maximize",
+      "scoreStored": "115",
+      "scoreDisplay": "115",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "optimal",
+      "knownBest": {
+        "display": "115",
+        "kind": "proven",
+        "exact": "115",
+        "source": "Afzaly and McKay give 115 as the maximum edge count for a bipartite graph on 46 vertices without a four-cycle. The exhibited graph attains it with 23 vertices on each side.",
+        "url": "https://users.cecs.anu.edu.au/~bdm/data/extremal.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-22T07:41:55.231Z",
+      "answer": {
+        "rows": [
+          "11010000001000000000010",
+          "10100100000010000000001",
+          "01101000010000000001000",
+          "00110001100000001000000",
+          "10001010100000000000100",
+          "00010110010000010000000",
+          "00001101001000100000000",
+          "01000011000010000010000",
+          "00000000111100000000001",
+          "01000100000101001000000",
+          "00100010000100100000010",
+          "10000001000100010100000",
+          "00011000000011000100000",
+          "10000000010001100010000",
+          "00100000001001010000100",
+          "00000000100010110001000",
+          "00000010001000001101000",
+          "00001000000000011010001",
+          "00000100100000000110010",
+          "00010000000100000011100",
+          "00000000010010001000110",
+          "01000000000000100100101",
+          "00000001000001000001011"
+        ]
+      }
+    },
+    {
+      "instanceId": "p100-n24-v1",
+      "name": "n = 24",
+      "parameters": {
+        "n": 24
+      },
+      "objective": "maximize",
+      "scoreStored": "122",
+      "scoreDisplay": "122",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "optimal",
+      "knownBest": {
+        "display": "122",
+        "kind": "proven",
+        "exact": "122",
+        "source": "Afzaly and McKay give 122 as the maximum edge count for a bipartite graph on 48 vertices without a four-cycle. The exhibited graph attains it with 24 vertices on each side.",
+        "url": "https://users.cecs.anu.edu.au/~bdm/data/extremal.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-22T07:41:55.231Z",
+      "answer": {
+        "rows": [
+          "110100000000100000010000",
+          "101000110000000000000100",
+          "011010000010000000100000",
+          "001101001000000000001000",
+          "100011000000010010000010",
+          "000110100001000100000000",
+          "010001010000001100000001",
+          "010000101100000001000010",
+          "000100010100010000100000",
+          "000001000111000000000100",
+          "000000011010100010000000",
+          "100000001001001000100000",
+          "001000000001110001000001",
+          "000010000100101000001000",
+          "000000100010011000010000",
+          "001000000100000110010000",
+          "100000000010000101001000",
+          "000100000000001011000100",
+          "000001000000000001110000",
+          "000000100000000010101001",
+          "000000010001000000011010",
+          "000000000000100100100110",
+          "000010001000000000010101",
+          "010000000000010000001100"
+        ]
+      }
+    },
+    {
+      "instanceId": "p100-n25-v1",
+      "name": "n = 25",
+      "parameters": {
+        "n": 25
+      },
+      "objective": "maximize",
+      "scoreStored": "130",
+      "scoreDisplay": "130",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "optimal",
+      "knownBest": {
+        "display": "130",
+        "kind": "proven",
+        "exact": "130",
+        "source": "Afzaly and McKay give 130 as the maximum edge count for a bipartite graph on 50 vertices without a four-cycle. The exhibited graph attains it with 25 vertices on each side.",
+        "url": "https://users.cecs.anu.edu.au/~bdm/data/extremal.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-22T07:41:55.231Z",
+      "answer": {
+        "rows": [
+          "1101000000001000000100000",
+          "1010001100000000000001000",
+          "0110100000100000001000000",
+          "0011010010000000000010000",
+          "1000110000000100100000100",
+          "0001101000010001000000001",
+          "0100010100000011000000010",
+          "0100001011000000010000100",
+          "0001000101000100001000000",
+          "0000010001110000000001000",
+          "0000000110101000100000001",
+          "1000000010010010001000000",
+          "0010000000011100010000010",
+          "0000100001001010000010000",
+          "0000001000100110000100000",
+          "0010000001000001100100000",
+          "1000000000100001010010000",
+          "0001000000000010110001000",
+          "0000010000000000011100001",
+          "0000001000000000101010010",
+          "0000000100010000000110100",
+          "0000000000001001001001100",
+          "0000100010000000000101010",
+          "0100000000000100000011001",
+          "0001000000100000000000110"
+        ]
+      }
+    },
+    {
+      "instanceId": "p100-n26-v1",
+      "name": "n = 26",
+      "parameters": {
+        "n": 26
+      },
+      "objective": "maximize",
+      "scoreStored": "138",
+      "scoreDisplay": "138",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "optimal",
+      "knownBest": {
+        "display": "138",
+        "kind": "proven",
+        "exact": "138",
+        "source": "Afzaly and McKay give 138 as the maximum edge count for a bipartite graph on 52 vertices without a four-cycle. The exhibited graph attains it with 26 vertices on each side.",
+        "url": "https://users.cecs.anu.edu.au/~bdm/data/extremal.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-22T07:41:55.231Z",
+      "answer": {
+        "rows": [
+          "11010000000010000001000000",
+          "10100011000000000000010001",
+          "01101000001000000010000000",
+          "00110100100000000000100000",
+          "10001100000001001000001000",
+          "00011010000100010000000010",
+          "01000101000000110000000100",
+          "01000010110000000100001000",
+          "00010001010001000010000000",
+          "00000100011100000000010000",
+          "00000001101010001000000010",
+          "10000000100100100010000000",
+          "00100000000111000100000100",
+          "00001000010010100000100001",
+          "00000010001001100001000000",
+          "00100000010000011001000000",
+          "10000000001000010100100000",
+          "00010000000000101100010000",
+          "00000100000000000111000011",
+          "00000010000000001010100100",
+          "00000001000100000001101000",
+          "00000000000010010010011000",
+          "00001000100000000001010100",
+          "01000000000001000000110010",
+          "00010000001000000000001101",
+          "00100000000000100000001010"
+        ]
+      }
+    },
+    {
+      "instanceId": "p100-n27-v1",
+      "name": "n = 27",
+      "parameters": {
+        "n": 27
+      },
+      "objective": "maximize",
+      "scoreStored": "147",
+      "scoreDisplay": "147",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "optimal",
+      "knownBest": {
+        "display": "147",
+        "kind": "proven",
+        "exact": "147",
+        "source": "Afzaly and McKay give 147 as the maximum edge count for a bipartite graph on 54 vertices without a four-cycle. The exhibited graph attains it with 27 vertices on each side.",
+        "url": "https://users.cecs.anu.edu.au/~bdm/data/extremal.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-22T07:41:55.231Z",
+      "answer": {
+        "rows": [
+          "110100000000100000010000001",
+          "101000110000000000000100010",
+          "011010000010000000100000000",
+          "001101001000000000001000000",
+          "100011000000010010000010000",
+          "000110100001000100000000100",
+          "010001010000001100000001000",
+          "010000101100000001000010000",
+          "000100010100010000100000000",
+          "000001000111000000000100001",
+          "000000011010100010000000100",
+          "100000001001001000100000000",
+          "001000000001110001000001000",
+          "000010000100101000001000010",
+          "000000100010011000010000000",
+          "001000000100000110010000000",
+          "100000000010000101001000000",
+          "000100000000001011000100000",
+          "000001000000000001110000110",
+          "000000100000000010101001001",
+          "000000010001000000011010000",
+          "000000000000100100100110000",
+          "000010001000000000010101000",
+          "010000000000010000001100100",
+          "000100000010000000000011010",
+          "001000000000001000000010101",
+          "000000001000010100000000011"
+        ]
+      }
+    },
+    {
+      "instanceId": "p100-n28-v1",
+      "name": "n = 28",
+      "parameters": {
+        "n": 28
+      },
+      "objective": "maximize",
+      "scoreStored": "156",
+      "scoreDisplay": "156",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "optimal",
+      "knownBest": {
+        "display": "156",
+        "kind": "proven",
+        "exact": "156",
+        "source": "Afzaly and McKay give 156 as the maximum edge count for a bipartite graph on 56 vertices without a four-cycle. The exhibited graph attains it with 28 vertices on each side.",
+        "url": "https://users.cecs.anu.edu.au/~bdm/data/extremal.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-22T07:41:55.231Z",
+      "answer": {
+        "rows": [
+          "1101000000001000000100000010",
+          "1010001100000000000001000100",
+          "0110100000100000001000000001",
+          "0011010010000000000010000000",
+          "1000110000000100100000100000",
+          "0001101000010001000000001000",
+          "0100010100000011000000010000",
+          "0100001011000000010000100000",
+          "0001000101000100001000000000",
+          "0000010001110000000001000010",
+          "0000000110101000100000001000",
+          "1000000010010010001000000000",
+          "0010000000011100010000010000",
+          "0000100001001010000010000100",
+          "0000001000100110000100000000",
+          "0010000001000001100100000000",
+          "1000000000100001010010000000",
+          "0001000000000010110001000001",
+          "0000010000000000011100001100",
+          "0000001000000000101010010010",
+          "0000000100010000000110100001",
+          "0000000000001001001001100000",
+          "0000100010000000000101010000",
+          "0100000000000100000011001000",
+          "0001000000100000000000110100",
+          "0010000000000010000000101010",
+          "0000000010000101000000000111",
+          "1000000001000000000000011001"
+        ]
+      }
+    },
+    {
+      "instanceId": "p100-n29-v1",
+      "name": "n = 29",
+      "parameters": {
+        "n": 29
+      },
+      "objective": "maximize",
+      "scoreStored": "165",
+      "scoreDisplay": "165",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "optimal",
+      "knownBest": {
+        "display": "165",
+        "kind": "proven",
+        "exact": "165",
+        "source": "Afzaly and McKay give 165 as the maximum edge count for a bipartite graph on 58 vertices without a four-cycle. The exhibited graph attains it with 29 vertices on each side.",
+        "url": "https://users.cecs.anu.edu.au/~bdm/data/extremal.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-22T07:41:55.231Z",
+      "answer": {
+        "rows": [
+          "11010000000010000001000000100",
+          "10100011000000000000010001000",
+          "01101000001000000010000000010",
+          "00110100100000000000100000000",
+          "10001100000001001000001000000",
+          "00011010000100010000000010000",
+          "01000101000000110000000100000",
+          "01000010110000000100001000000",
+          "00010001010001000010000000000",
+          "00000100011100000000010000100",
+          "00000001101010001000000010000",
+          "10000000100100100010000000001",
+          "00100000000111000100000100000",
+          "00001000010010100000100001000",
+          "00000010001001100001000000000",
+          "00100000010000011001000000001",
+          "10000000001000010100100000000",
+          "00010000000000101100010000010",
+          "00000100000000000111000011000",
+          "00000010000000001010100100100",
+          "00000001000100000001101000010",
+          "00000000000010010010011000000",
+          "00001000100000000001010100000",
+          "01000000000001000000110010001",
+          "00010000001000000000001101001",
+          "00100000000000100000001010100",
+          "00000000100001010000000001110",
+          "10000000010000000000000110010",
+          "00001001000000000100000000101"
+        ]
+      }
+    },
+    {
+      "instanceId": "p100-n30-v1",
+      "name": "n = 30",
+      "parameters": {
+        "n": 30
+      },
+      "objective": "maximize",
+      "scoreStored": "175",
+      "scoreDisplay": "175",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "optimal",
+      "knownBest": {
+        "display": "175",
+        "kind": "proven",
+        "exact": "175",
+        "source": "Afzaly and McKay give 175 as the maximum edge count for a bipartite graph on 60 vertices without a four-cycle. The exhibited graph attains it with 30 vertices on each side.",
+        "url": "https://users.cecs.anu.edu.au/~bdm/data/extremal.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-22T07:41:55.231Z",
+      "answer": {
+        "rows": [
+          "110100000000100000010000001000",
+          "101000110000000000000100010000",
+          "011010000010000000100000000100",
+          "001101001000000000001000000001",
+          "100011000000010010000010000000",
+          "000110100001000100000000100000",
+          "010001010000001100000001000000",
+          "010000101100000001000010000000",
+          "000100010100010000100000000000",
+          "000001000111000000000100001000",
+          "000000011010100010000000100000",
+          "100000001001001000100000000010",
+          "001000000001110001000001000000",
+          "000010000100101000001000010000",
+          "000000100010011000010000000001",
+          "001000000100000110010000000010",
+          "100000000010000101001000000000",
+          "000100000000001011000100000100",
+          "000001000000000001110000110000",
+          "000000100000000010101001001000",
+          "000000010001000000011010000100",
+          "000000000000100100100110000001",
+          "000010001000000000010101000000",
+          "010000000000010000001100100010",
+          "000100000010000000000011010010",
+          "001000000000001000000010101000",
+          "000000001000010100000000011100",
+          "100000000100000000000001100101",
+          "000010010000000001000000001011",
+          "000001100000100000000000000110"
+        ]
+      }
+    },
+    {
+      "instanceId": "p100-n31-v1",
+      "name": "n = 31",
+      "parameters": {
+        "n": 31
+      },
+      "objective": "maximize",
+      "scoreStored": "186",
+      "scoreDisplay": "186",
+      "status": "proven",
+      "settled": true,
+      "recordStatus": "optimal",
+      "knownBest": {
+        "display": "186",
+        "kind": "proven",
+        "exact": "186",
+        "source": "Afzaly and McKay give 186 as the maximum edge count for a bipartite graph on 62 vertices without a four-cycle. The exhibited graph attains it with 31 vertices on each side.",
+        "url": "https://users.cecs.anu.edu.au/~bdm/data/extremal.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-22T07:41:55.231Z",
+      "answer": {
+        "rows": [
+          "1101000000001000000100000010000",
+          "1010001100000000000001000100000",
+          "0110100000100000001000000001000",
+          "0011010010000000000010000000010",
+          "1000110000000100100000100000000",
+          "0001101000010001000000001000000",
+          "0100010100000011000000010000000",
+          "0100001011000000010000100000000",
+          "0001000101000100001000000000001",
+          "0000010001110000000001000010000",
+          "0000000110101000100000001000000",
+          "1000000010010010001000000000100",
+          "0010000000011100010000010000000",
+          "0000100001001010000010000100000",
+          "0000001000100110000100000000010",
+          "0010000001000001100100000000100",
+          "1000000000100001010010000000001",
+          "0001000000000010110001000001000",
+          "0000010000000000011100001100000",
+          "0000001000000000101010010010000",
+          "0000000100010000000110100001000",
+          "0000000000001001001001100000010",
+          "0000100010000000000101010000001",
+          "0100000000000100000011001000100",
+          "0001000000100000000000110100100",
+          "0010000000000010000000101010001",
+          "0000000010000101000000000111000",
+          "1000000001000000000000011001010",
+          "0000100100000000010000000010110",
+          "0000011000001000000000000001101",
+          "0100000000010000100000000100011"
+        ]
+      }
+    },
+    {
+      "instanceId": "p100-n32-v1",
+      "name": "n = 32",
+      "parameters": {
+        "n": 32
+      },
+      "objective": "maximize",
+      "scoreStored": "189",
+      "scoreDisplay": "189",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "189",
+        "kind": "best",
+        "exact": "189",
+        "source": "Of the 31 graphs supplied by Afzaly and McKay, 24 give square matrices of order 32 with 189 ones. Their catalogue marks the edge count as exact, but Appendix A.6 of Afzaly’s thesis and Table 3 of Collins et al. leave 190 open.",
+        "url": "https://users.cecs.anu.edu.au/~bdm/data/extremal.html"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-22T07:41:55.231Z",
+      "answer": {
+        "rows": [
+          "11010000000010000001000000100000",
+          "10100011000000000000010001000001",
+          "01101000001000000010000000010000",
+          "00110100100000000000100000000100",
+          "10001100000001001000001000000000",
+          "00011010000100010000000010000000",
+          "01000101000000110000000100000000",
+          "01000010110000000100001000000000",
+          "00010001010001000010000000000010",
+          "00000100011100000000010000100000",
+          "00000001101010001000000010000000",
+          "10000000100100100010000000001000",
+          "00100000000111000100000100000000",
+          "00001000010010100000100001000000",
+          "00000010001001100001000000000100",
+          "00100000010000011001000000001000",
+          "10000000001000010100100000000010",
+          "00010000000000101100010000010000",
+          "00000100000000000111000011000000",
+          "00000010000000001010100100100000",
+          "00000001000100000001101000010000",
+          "00000000000010010010011000000100",
+          "00001000100000000001010100000010",
+          "01000000000001000000110010001000",
+          "00010000001000000000001101001000",
+          "00100000000000100000001010100010",
+          "00000000100001010000000001110000",
+          "10000000010000000000000110010100",
+          "00001001000000000100000000101100",
+          "00000110000010000000000000011010",
+          "01000000000100001000000001000100",
+          "01000000000000000000000000000011"
+        ]
+      }
+    },
+    {
+      "instanceId": "p100-n43-v1",
+      "name": "n = 43",
+      "parameters": {
+        "n": 43
+      },
+      "objective": "maximize",
+      "scoreStored": "290",
+      "scoreDisplay": "290",
+      "status": "matched",
+      "settled": false,
+      "recordStatus": "matched",
+      "knownBest": {
+        "display": "290",
+        "kind": "best",
+        "exact": "290",
+        "source": "user48028 published a matrix with 290 ones. Sadhu’s preprint (arXiv:2608.01606v2) gives 294 as an upper bound. The optimum remains open.",
+        "url": "https://mathoverflow.net/questions/191571/how-close-can-one-get-to-the-missing-finite-projective-planes/201418#201418"
+      },
+      "holder": null,
+      "method": "human",
+      "recordedAt": "2026-11-22T07:41:55.231Z",
+      "answer": {
+        "rows": [
+          "0000000010000000010110000000000010011000000",
+          "0000001010010000000000000010000001000001001",
+          "1000000001000100000000001000010000000101000",
+          "0100000101000000000000010100000000010000001",
+          "0010000000000101100000000001000000010000000",
+          "1000100110000000101000000000000000100000000",
+          "1000011000000001000101010000000000000000000",
+          "1001000000000000000010000111000100000000000",
+          "0010100000000000000001000100000000001001000",
+          "0000000000100000000010010000100000100001000",
+          "1010000000001000010000000000101000000000001",
+          "0000000001100000100000100010001000001000000",
+          "1000000000010010000000100000000000010010000",
+          "0000000010100011000000001100000000000000010",
+          "0101010010000100000000100000100000000000000",
+          "0000000100010001000000000000100100001100000",
+          "0000000010000000000000010001001000000100100",
+          "0000100000000001000010100000010000000000101",
+          "0000000000000000100100000100110001000010000",
+          "0000000000100100001100000000000100000000001",
+          "0000001000000000000000000000011100110000010",
+          "0001000000000000100001000000000010000100011",
+          "0001000001000001010000000000000001100000000",
+          "0000000000000000001001001010100000010000100",
+          "0000010000000000000000001001000000101010001",
+          "0000100000000100010000010010000000000010010",
+          "0000000011001000000001000000000100000010000",
+          "0000101001000010000000000001100010000000000",
+          "0100000000000001001000000000001010000011000",
+          "0011001100100000000000000000000000000010100",
+          "0000000100000110000011000000001001000000000",
+          "0100001000001000100010001000000000000000000",
+          "0100000000110000010001000001010000000000000",
+          "0000000000011100000000000100000010100000100",
+          "0000000100001000000100100001000000000001010",
+          "0001000000001010001000010000010000001000000",
+          "0000110000101000000000000000000001010100000",
+          "0110000000000010000100000010000000100100000",
+          "0000010000000010110000000000000100000001100",
+          "0010000000000000000000111000000111000000000",
+          "1100000000000000000000000000000001001000110",
+          "0000001000000000011000100100000000000100000",
+          "0010010001010000001010000000000000000000010"
+        ]
+      }
+    }
+  ]
+}

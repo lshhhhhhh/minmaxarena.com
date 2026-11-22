@@ -37,7 +37,7 @@ managed.
 
 ## The records
 
-74 problem families, 2917 sub-problems, 2719 still open.
+76 problem families, 2974 sub-problems, 2746 still open.
 `records/` holds today's snapshot of each family; the live files are at
 `https://minmaxarena.com/data/{slug}.json`, and the citable ones are the monthly frozen
 editions at `https://minmaxarena.com/data/editions/{YYYY-MM}/{slug}.json`, which never change
@@ -55,6 +55,7 @@ once published. Data is CC BY 4.0; see
 | [P08](https://minmaxarena.com/en/problems/circles-in-an-l) | Equal circles in an L | 15 | 14 | [json](records/circles-in-an-l.json) |
 | [P09](https://minmaxarena.com/en/problems/circles-in-a-semicircle) | Equal circles in a half-disc | 14 | 14 | [json](records/circles-in-a-semicircle.json) |
 | [P10](https://minmaxarena.com/en/problems/circles-in-a-cross) | Equal circles in a plus sign | 16 | 13 | [json](records/circles-in-a-cross.json) |
+| [P100](https://minmaxarena.com/en/problems/rectangle-free-matrices) | Rectangle-free binary matrices | 32 | 2 | [json](records/rectangle-free-matrices.json) |
 | [P11](https://minmaxarena.com/en/problems/circles-in-right-triangle) | Equal-circle packing in a right triangle | 11 | 8 | [json](records/circles-in-right-triangle.json) |
 | [P12](https://minmaxarena.com/en/problems/circles-in-rectangle) | Equal-circle packing in a 2:1 rectangle | 98 | 94 | [json](records/circles-in-rectangle.json) |
 | [P13](https://minmaxarena.com/en/problems/graduated-circles-in-square) | Packing circles of radius 1,2,…,n into a square | 99 | 96 | [json](records/graduated-circles-in-square.json) |
@@ -121,6 +122,7 @@ once published. Data is CC BY 4.0; see
 | [P96](https://minmaxarena.com/en/problems/consecutive-ells-in-square) | Consecutive L shapes in a square | 50 | 48 | [json](records/consecutive-ells-in-square.json) |
 | [P97](https://minmaxarena.com/en/problems/consecutive-rectangles-in-rectangle) | Consecutive rectangles in similar rectangles | 50 | 49 | [json](records/consecutive-rectangles-in-rectangle.json) |
 | [P98](https://minmaxarena.com/en/problems/shortest-parking-route) | Shortest parking route | 12 | 12 | [json](records/shortest-parking-route.json) |
+| [P99](https://minmaxarena.com/en/problems/two-density-square) | Optimal placement in a two-density square | 25 | 25 | [json](records/two-density-square.json) |
 <!-- records:end -->
 
 ## Problems the catalogue no longer offers
